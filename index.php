@@ -458,9 +458,41 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     <div id="tab-plan" class="tab-content space-y-8">
         <h2 class="text-2xl font-bold text-white">Plan de 6 Meses: Abril - Septiembre 2026</h2>
 
+        <!-- Glosario -->
+        <div class="rounded-xl border border-brand-500/20 bg-brand-500/5 p-5">
+            <h4 class="text-sm font-semibold text-brand-500 mb-3">Que significan los terminos de este plan?</h4>
+            <div class="grid md:grid-cols-2 gap-4 text-sm text-slate-400">
+                <div>
+                    <p><strong class="text-slate-300">Roadmap:</strong> Es la hoja de ruta — el plan organizado mes a mes con las acciones que vamos a ejecutar y en que orden.</p>
+                    <p class="mt-2"><strong class="text-slate-300">SEO (Search Engine Optimization):</strong> Son las acciones que hacemos para que la pagina web aparezca en los primeros resultados de Google cuando la gente busca algo relacionado con el negocio. Por ejemplo, que al buscar "taller automotriz Ibarra" aparezca Comercial Hidrobo.</p>
+                    <p class="mt-2"><strong class="text-slate-300">CRO (Conversion Rate Optimization):</strong> Son las mejoras que hacemos en la pagina web para que los visitantes tomen accion: agendar una cita, enviar un formulario o escribir por WhatsApp. No se trata de traer mas gente, sino de que la gente que ya visita la web se convierta en cliente.</p>
+                </div>
+                <div>
+                    <p><strong class="text-slate-300">KPIs (Key Performance Indicators):</strong> Son los numeros clave que medimos cada mes para saber si el plan esta funcionando. Por ejemplo: cuantas personas visitaron la web, cuantas enviaron un formulario, cuantas agendaron una cita.</p>
+                    <p class="mt-2"><strong class="text-slate-300">Leads:</strong> Personas que dejan sus datos de contacto (formulario, WhatsApp, llamada). Son clientes potenciales.</p>
+                    <p class="mt-2"><strong class="text-slate-300">Tasa de conversion:</strong> El porcentaje de visitantes que se convierten en leads. Si de 1,000 visitas, 10 envian formulario, la tasa es 1%.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produccion mensual -->
+        <div class="rounded-xl border border-emerald-500/20 bg-emerald-500/5 p-5">
+            <div class="flex items-center gap-2 mb-2">
+                <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <h4 class="text-sm font-semibold text-emerald-400">Produccion de contenido: constante todos los meses</h4>
+            </div>
+            <p class="text-sm text-slate-400">Cada mes se publicaran <strong class="text-white">minimo 20 articulos de blog en cada sitio web</strong> (20 en comercialhidrobo.com + 20 en okcars.ec = 40 articulos/mes). Los temas de los primeros 2 meses ya estan definidos. A partir del mes 3, los temas se eligen en base a los datos reales de Google Analytics: que buscan las personas, que articulos generan mas contactos, y que oportunidades detectamos.</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mt-3">
+                <div class="text-center p-3 rounded-lg bg-slate-800/50"><p class="text-2xl font-bold text-white">20</p><p class="text-xs text-slate-500">posts/mes por web</p></div>
+                <div class="text-center p-3 rounded-lg bg-slate-800/50"><p class="text-2xl font-bold text-white">40</p><p class="text-xs text-slate-500">posts/mes en total</p></div>
+                <div class="text-center p-3 rounded-lg bg-slate-800/50"><p class="text-2xl font-bold text-white">240</p><p class="text-xs text-slate-500">posts en 6 meses</p></div>
+            </div>
+        </div>
+
         <!-- Timeline CH -->
         <div class="rounded-xl border border-slate-800/50 glass p-6">
-            <h3 class="text-lg font-semibold text-brand-500 mb-6">comercialhidrobo.com — Roadmap CRO + SEO</h3>
+            <h3 class="text-lg font-semibold text-brand-500 mb-2">comercialhidrobo.com — Hoja de ruta SEO + CRO</h3>
+            <p class="text-xs text-slate-500 mb-6">Acciones mensuales ademas de los 20 articulos de blog</p>
             <div class="space-y-6">
                 <div class="flex gap-4">
                     <div class="flex flex-col items-center">
@@ -563,7 +595,8 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 
         <!-- Timeline OKCars -->
         <div class="rounded-xl border border-slate-800/50 glass p-6">
-            <h3 class="text-lg font-semibold text-purple-400 mb-6">okcars.ec — Roadmap SEO desde cero</h3>
+            <h3 class="text-lg font-semibold text-purple-400 mb-2">okcars.ec — Hoja de ruta SEO desde cero</h3>
+            <p class="text-xs text-slate-500 mb-6">Acciones mensuales ademas de los 20 articulos de blog</p>
             <div class="space-y-6">
                 <div class="flex gap-4">
                     <div class="flex flex-col items-center">
@@ -642,7 +675,8 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 
         <!-- Projected KPIs -->
         <div class="rounded-xl border border-slate-800/50 glass p-6">
-            <h3 class="text-lg font-semibold text-white mb-4">Proyeccion de KPIs — Comercial Hidrobo</h3>
+            <h3 class="text-lg font-semibold text-white mb-2">Proyeccion de resultados esperados — Comercial Hidrobo</h3>
+            <p class="text-xs text-slate-500 mb-4">Estos numeros muestran como esperamos que crezcan las visitas y los contactos mes a mes</p>
             <div class="h-72">
                 <canvas id="projectionChart"></canvas>
             </div>
