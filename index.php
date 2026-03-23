@@ -121,9 +121,9 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
                 <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Leads/mes CH</p>
-                <p class="text-3xl font-bold text-white">8</p>
-                <p class="text-xs text-amber-400 mt-1">Meta: 25-30/mes</p>
-                <p class="text-xs text-slate-500 mt-1">Formularios enviados + contactos</p>
+                <p class="text-3xl font-bold text-white">14-16</p>
+                <p class="text-xs text-amber-400 mt-1">Meta: 30-40/mes</p>
+                <p class="text-xs text-slate-500 mt-1">Todos los formularios del sitio</p>
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
                 <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Visitas/mes OKCars</p>
@@ -225,12 +225,12 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                     <div class="text-xs text-amber-400 mt-1">Solo 0.6% del trafico</div>
                 </div>
                 <div class="text-center">
-                    <div class="text-4xl font-bold text-red-400">5-6</div>
-                    <div class="text-sm text-slate-400 mt-1">Envian el formulario/mes</div>
+                    <div class="text-4xl font-bold text-amber-400">14-16</div>
+                    <div class="text-sm text-slate-400 mt-1">Envian algun formulario/mes</div>
                     <div class="w-full h-2 bg-slate-700 rounded-full mt-3">
-                        <div class="h-2 bg-red-500 rounded-full" style="width: 0.2%"></div>
+                        <div class="h-2 bg-amber-500 rounded-full" style="width: 0.3%"></div>
                     </div>
-                    <div class="text-xs text-red-400 mt-1">Tasa de conversion: 0.19%</div>
+                    <div class="text-xs text-amber-400 mt-1">Tasa de conversion: 0.3%</div>
                 </div>
             </div>
             <div class="mt-6 p-4 rounded-lg bg-slate-800/50 border border-slate-700/50">
@@ -249,9 +249,11 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <tbody class="text-slate-300">
                             <tr class="border-t border-slate-800"><td class="py-2">Visitas totales/mes</td><td class="text-right">5,300</td><td class="text-right text-emerald-400">7,000+</td></tr>
                             <tr class="border-t border-slate-800"><td class="py-2">Visitas organicas/mes</td><td class="text-right">3,100</td><td class="text-right text-emerald-400">4,500+</td></tr>
-                            <tr class="border-t border-slate-800"><td class="py-2">Contactos totales/mes</td><td class="text-right">8</td><td class="text-right text-emerald-400">25-30</td></tr>
+                            <tr class="border-t border-slate-800"><td class="py-2">Contactos totales/mes</td><td class="text-right">14-16</td><td class="text-right text-emerald-400">30-40</td></tr>
+                            <tr class="border-t border-slate-800"><td class="py-2 pl-4 text-slate-400">— Cotizaciones vehiculos</td><td class="text-right">6-7</td><td class="text-right text-emerald-400">15+</td></tr>
+                            <tr class="border-t border-slate-800"><td class="py-2 pl-4 text-slate-400">— Citas de taller</td><td class="text-right">5-6</td><td class="text-right text-emerald-400">10+</td></tr>
+                            <tr class="border-t border-slate-800"><td class="py-2 pl-4 text-slate-400">— Cotizaciones repuestos</td><td class="text-right">2-3</td><td class="text-right text-emerald-400">5+</td></tr>
                             <tr class="border-t border-slate-800"><td class="py-2">Citas confirmadas taller</td><td class="text-right">2-3</td><td class="text-right text-emerald-400">8-10</td></tr>
-                            <tr class="border-t border-slate-800"><td class="py-2">Personas que ven el formulario</td><td class="text-right">18/mes</td><td class="text-right text-emerald-400">150+</td></tr>
                             <tr class="border-t border-slate-800"><td class="py-2">Articulos de blog nuevos</td><td class="text-right">—</td><td class="text-right text-emerald-400">120</td></tr>
                         </tbody>
                     </table>
@@ -310,30 +312,91 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
         </div>
 
         <!-- Forms Data -->
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="rounded-xl border border-slate-800/50 glass p-6">
-                <h3 class="text-base font-semibold text-white mb-3">Formulario: Citas de Taller</h3>
-                <div class="space-y-4">
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Registros totales (7 meses)</span><span class="text-sm font-semibold text-white">70</span></div>
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Citas reales (sin pruebas/spam)</span><span class="text-sm font-semibold text-white">~38</span></div>
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Promedio real/mes</span><span class="text-sm font-semibold text-emerald-400">5-6</span></div>
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Citas confirmadas en taller</span><span class="text-sm font-semibold text-amber-400">2-3/mes</span></div>
-                    <hr class="border-slate-800">
-                    <p class="text-xs text-slate-500">Marcas mas solicitadas: Toyota, Renault, Dongfeng, Mazda, Chery</p>
-                    <p class="text-xs text-slate-500">Servicios: Mantenimientos por km (5k, 10k, 20k, 25k)</p>
-                    <p class="text-xs text-slate-500">Agencias: Ibarra (mayoria), Cayambe, Tulcan</p>
+        <div class="rounded-xl border border-slate-800/50 glass p-6 mb-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Resumen de todos los formularios del sitio web</h3>
+            <p class="text-xs text-slate-500 mb-4">La pagina web tiene 3 formularios activos que reciben contactos. Estos son los datos reales de los ultimos 8 meses (agosto 2025 - marzo 2026).</p>
+
+            <!-- Total highlight -->
+            <div class="rounded-lg border border-emerald-500/20 bg-emerald-500/5 p-4 mb-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div>
+                        <p class="text-2xl font-bold text-white">14-16</p>
+                        <p class="text-xs text-slate-400">Contactos totales/mes</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-brand-400">6-7</p>
+                        <p class="text-xs text-slate-400">Cotizaciones vehiculos/mes</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-brand-400">5-6</p>
+                        <p class="text-xs text-slate-400">Citas de taller/mes</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-brand-400">2-3</p>
+                        <p class="text-xs text-slate-400">Cotizaciones repuestos/mes</p>
+                    </div>
                 </div>
             </div>
-            <div class="rounded-xl border border-slate-800/50 glass p-6">
-                <h3 class="text-base font-semibold text-white mb-3">Formulario: Cotizacion Repuestos</h3>
-                <div class="space-y-4">
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Registros totales (7 meses)</span><span class="text-sm font-semibold text-white">21</span></div>
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Cotizaciones reales</span><span class="text-sm font-semibold text-white">~16</span></div>
-                    <div class="flex justify-between"><span class="text-sm text-slate-400">Promedio real/mes</span><span class="text-sm font-semibold text-amber-400">2-3</span></div>
-                    <hr class="border-slate-800">
-                    <div class="p-3 rounded-lg bg-amber-500/10 border border-amber-500/20">
-                        <p class="text-xs text-amber-300"><strong>Hallazgo:</strong> Varias solicitudes son de marcas que CH no vende (Mitsubishi, Hyundai, Rogue). Se recomienda filtrar el formulario con dropdown de marcas disponibles.</p>
+
+            <div class="grid md:grid-cols-3 gap-4">
+                <!-- Form 1: Cotizacion vehiculos -->
+                <div class="rounded-lg border border-brand-500/20 bg-brand-500/5 p-4">
+                    <h4 class="text-sm font-semibold text-brand-400 mb-3">Cotizacion de vehiculos nuevos</h4>
+                    <div class="space-y-2">
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Registros (8 meses)</span><span class="text-xs font-semibold text-white">~50</span></div>
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Promedio/mes</span><span class="text-xs font-semibold text-emerald-400">6-7</span></div>
+                        <hr class="border-slate-800">
+                        <p class="text-xs text-slate-500"><strong class="text-slate-400">Marcas mas cotizadas:</strong></p>
+                        <div class="flex flex-wrap gap-1">
+                            <span class="px-1.5 py-0.5 text-xs rounded bg-slate-800 text-slate-400">Renault Duster</span>
+                            <span class="px-1.5 py-0.5 text-xs rounded bg-slate-800 text-slate-400">Renault Kwid</span>
+                            <span class="px-1.5 py-0.5 text-xs rounded bg-slate-800 text-slate-400">Chery Tiggo</span>
+                            <span class="px-1.5 py-0.5 text-xs rounded bg-slate-800 text-slate-400">DongFeng</span>
+                            <span class="px-1.5 py-0.5 text-xs rounded bg-slate-800 text-slate-400">Fiat 500</span>
+                        </div>
+                        <p class="text-xs text-slate-500 mt-1"><strong class="text-slate-400">Ciudades:</strong> Ibarra, Cayambe, Tulcan, Quito, Guayaquil y mas</p>
+                        <div class="p-2 rounded bg-emerald-500/10 border border-emerald-500/20 mt-2">
+                            <p class="text-xs text-emerald-300"><strong>Hallazgo positivo:</strong> Este formulario genera leads de todo Ecuador, no solo de la zona norte. El alcance de la web es nacional.</p>
+                        </div>
                     </div>
+                </div>
+
+                <!-- Form 2: Citas taller -->
+                <div class="rounded-lg border border-slate-700/50 p-4">
+                    <h4 class="text-sm font-semibold text-white mb-3">Citas de taller mecanico</h4>
+                    <div class="space-y-2">
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Registros (7 meses)</span><span class="text-xs font-semibold text-white">~38 reales</span></div>
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Promedio/mes</span><span class="text-xs font-semibold text-emerald-400">5-6</span></div>
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Confirmadas en taller</span><span class="text-xs font-semibold text-amber-400">2-3/mes</span></div>
+                        <hr class="border-slate-800">
+                        <p class="text-xs text-slate-500"><strong class="text-slate-400">Servicios:</strong> Mantenimientos por km (5k, 10k, 20k, 25k)</p>
+                        <p class="text-xs text-slate-500"><strong class="text-slate-400">Marcas:</strong> Toyota, Renault, Dongfeng, Mazda, Chery</p>
+                        <p class="text-xs text-slate-500"><strong class="text-slate-400">Agencias:</strong> Ibarra (mayoria), Cayambe, Tulcan</p>
+                        <div class="p-2 rounded bg-amber-500/10 border border-amber-500/20 mt-2">
+                            <p class="text-xs text-amber-300"><strong>Oportunidad:</strong> Solo 18 personas/mes llegan a esta pagina. El formulario convierte bien (14%), el problema es la visibilidad.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form 3: Repuestos -->
+                <div class="rounded-lg border border-slate-700/50 p-4">
+                    <h4 class="text-sm font-semibold text-white mb-3">Cotizacion de repuestos</h4>
+                    <div class="space-y-2">
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Registros (7 meses)</span><span class="text-xs font-semibold text-white">~16 reales</span></div>
+                        <div class="flex justify-between"><span class="text-xs text-slate-400">Promedio/mes</span><span class="text-xs font-semibold text-amber-400">2-3</span></div>
+                        <hr class="border-slate-800">
+                        <div class="p-2 rounded bg-amber-500/10 border border-amber-500/20 mt-2">
+                            <p class="text-xs text-amber-300"><strong>Hallazgo:</strong> Varias solicitudes son de marcas que CH no vende (Mitsubishi, Hyundai). Se recomienda filtrar con dropdown de marcas disponibles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="mt-4 rounded-lg border border-slate-700/30 p-3">
+                <div class="flex justify-between items-center">
+                    <span class="text-sm text-slate-400">Newsletter (suscripciones al blog)</span>
+                    <span class="text-sm text-slate-500">~10 suscriptores en 8 meses</span>
                 </div>
             </div>
         </div>
@@ -570,7 +633,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                             <li>- Optimizar CTAs y formularios segun datos reales de 5 meses</li>
                             <li>- Reforzar posicionamiento de keywords que estan en posiciones 5-15</li>
                         </ul>
-                        <p class="text-xs text-emerald-400 mt-2">Meta final: 25-30 leads/mes, 4,500+ visitas, 0.6-0.8% conversion</p>
+                        <p class="text-xs text-emerald-400 mt-2">Meta final: 30-40 leads/mes (15+ vehiculos, 10+ taller, 5+ repuestos), 4,500+ visitas</p>
                     </div>
                 </div>
             </div>
@@ -1107,7 +1170,7 @@ if (projCtx) {
             datasets: [
                 {
                     label: 'Leads/mes',
-                    data: [8, 8, 14, 18, 22, 25, 28],
+                    data: [15, 16, 20, 25, 30, 35, 38],
                     borderColor: '#3b82f6',
                     backgroundColor: 'rgba(59, 130, 246, 0.1)',
                     fill: true,
