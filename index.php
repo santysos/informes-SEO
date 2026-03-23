@@ -458,23 +458,6 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     <div id="tab-plan" class="tab-content space-y-8">
         <h2 class="text-2xl font-bold text-white">Plan de 6 Meses: Abril - Septiembre 2026</h2>
 
-        <!-- Glosario -->
-        <div class="rounded-xl border border-brand-500/20 bg-brand-500/5 p-5">
-            <h4 class="text-sm font-semibold text-brand-500 mb-3">Que significan los terminos de este plan?</h4>
-            <div class="grid md:grid-cols-2 gap-4 text-sm text-slate-400">
-                <div>
-                    <p><strong class="text-slate-300">Roadmap:</strong> Es la hoja de ruta — el plan organizado mes a mes con las acciones que vamos a ejecutar y en que orden.</p>
-                    <p class="mt-2"><strong class="text-slate-300">SEO (Search Engine Optimization):</strong> Son las acciones que hacemos para que la pagina web aparezca en los primeros resultados de Google cuando la gente busca algo relacionado con el negocio. Por ejemplo, que al buscar "taller automotriz Ibarra" aparezca Comercial Hidrobo.</p>
-                    <p class="mt-2"><strong class="text-slate-300">CRO (Conversion Rate Optimization):</strong> Son las mejoras que hacemos en la pagina web para que los visitantes tomen accion: agendar una cita, enviar un formulario o escribir por WhatsApp. No se trata de traer mas gente, sino de que la gente que ya visita la web se convierta en cliente.</p>
-                </div>
-                <div>
-                    <p><strong class="text-slate-300">KPIs (Key Performance Indicators):</strong> Son los numeros clave que medimos cada mes para saber si el plan esta funcionando. Por ejemplo: cuantas personas visitaron la web, cuantas enviaron un formulario, cuantas agendaron una cita.</p>
-                    <p class="mt-2"><strong class="text-slate-300">Leads:</strong> Personas que dejan sus datos de contacto (formulario, WhatsApp, llamada). Son clientes potenciales.</p>
-                    <p class="mt-2"><strong class="text-slate-300">Tasa de conversion:</strong> El porcentaje de visitantes que se convierten en leads. Si de 1,000 visitas, 10 envian formulario, la tasa es 1%.</p>
-                </div>
-            </div>
-        </div>
-
         <!-- Produccion mensual -->
         <div class="rounded-xl border border-emerald-500/20 bg-emerald-500/5 p-5">
             <div class="flex items-center gap-2 mb-2">
@@ -684,42 +667,84 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 
         <!-- Google Ads Suggestions -->
         <div class="rounded-xl border border-slate-800/50 glass p-6">
-            <h3 class="text-lg font-semibold text-white mb-4">Sugerencias para Google Ads (equipo interno CH)</h3>
+            <h3 class="text-lg font-semibold text-white mb-2">Sugerencias para Google Ads (equipo interno CH)</h3>
+            <p class="text-xs text-slate-500 mb-4">Estas son recomendaciones para complementar el trabajo de SEO organico con publicidad pagada en Google. Los presupuestos son sugeridos y pueden ajustarse.</p>
             <div class="grid md:grid-cols-2 gap-4">
                 <div class="rounded-lg border border-emerald-500/20 bg-emerald-500/5 p-4">
                     <div class="flex items-center gap-2 mb-2">
                         <span class="px-2 py-0.5 text-xs font-medium bg-emerald-500/20 text-emerald-400 rounded">PRIORIDAD ALTA</span>
                     </div>
-                    <h4 class="font-semibold text-white text-sm">Search — Taller</h4>
-                    <p class="text-xs text-slate-400 mt-1">Keywords: "taller automotriz ibarra", "mantenimiento vehicular ibarra"</p>
+                    <h4 class="font-semibold text-white text-sm">Busqueda — Taller y mantenimiento</h4>
+                    <p class="text-xs text-slate-400 mt-1">Palabras clave: "taller automotriz ibarra", "mantenimiento vehicular ibarra"</p>
                     <p class="text-xs text-slate-400">Presupuesto sugerido: $150-200/mes</p>
-                    <p class="text-xs text-slate-400">CPC estimado: $0.30-0.80</p>
+                    <p class="text-xs text-slate-400">Costo por clic estimado: $0.30-0.80</p>
+                    <p class="text-xs text-slate-500 mt-1">Esto genera aprox. 190-660 clics/mes al sitio</p>
                 </div>
                 <div class="rounded-lg border border-brand-500/20 bg-brand-500/5 p-4">
                     <div class="flex items-center gap-2 mb-2">
                         <span class="px-2 py-0.5 text-xs font-medium bg-brand-500/20 text-brand-500 rounded">PRIORIDAD MEDIA</span>
                     </div>
-                    <h4 class="font-semibold text-white text-sm">Search — Vehiculos nuevos</h4>
-                    <p class="text-xs text-slate-400 mt-1">Keywords: "renault duster precio", "autos nuevos ibarra"</p>
+                    <h4 class="font-semibold text-white text-sm">Busqueda — Vehiculos nuevos</h4>
+                    <p class="text-xs text-slate-400 mt-1">Palabras clave: "renault duster precio", "autos nuevos ibarra"</p>
                     <p class="text-xs text-slate-400">Presupuesto sugerido: $300-500/mes</p>
-                    <p class="text-xs text-slate-400">CPC estimado: $0.80-1.50</p>
+                    <p class="text-xs text-slate-400">Costo por clic estimado: $0.80-1.50</p>
+                    <p class="text-xs text-slate-500 mt-1">Esto genera aprox. 200-625 clics/mes al sitio</p>
                 </div>
                 <div class="rounded-lg border border-brand-500/20 bg-brand-500/5 p-4">
                     <div class="flex items-center gap-2 mb-2">
                         <span class="px-2 py-0.5 text-xs font-medium bg-brand-500/20 text-brand-500 rounded">PRIORIDAD MEDIA</span>
                     </div>
-                    <h4 class="font-semibold text-white text-sm">Remarketing Display</h4>
-                    <p class="text-xs text-slate-400 mt-1">Audiencia: visitantes de paginas de vehiculos sin conversion</p>
+                    <h4 class="font-semibold text-white text-sm">Remarketing (mostrar anuncios a quienes ya visitaron la web)</h4>
+                    <p class="text-xs text-slate-400 mt-1">Audiencia: personas que vieron paginas de vehiculos pero no contactaron</p>
                     <p class="text-xs text-slate-400">Presupuesto sugerido: $100-150/mes</p>
-                    <p class="text-xs text-slate-400">Requiere pixel (se configura en Mes 3)</p>
+                    <p class="text-xs text-slate-500 mt-1">Requiere configuracion previa (se instala en Mes 3)</p>
                 </div>
                 <div class="rounded-lg border border-slate-700/30 bg-slate-800/20 p-4">
                     <div class="flex items-center gap-2 mb-2">
                         <span class="px-2 py-0.5 text-xs font-medium bg-slate-700/50 text-slate-400 rounded">NO RECOMENDADO</span>
                     </div>
-                    <h4 class="font-semibold text-white text-sm">Campana de marca</h4>
-                    <p class="text-xs text-slate-400 mt-1">"Comercial hidrobo" ya es posicion #1 organico</p>
+                    <h4 class="font-semibold text-white text-sm">Publicidad con el nombre "Comercial Hidrobo"</h4>
+                    <p class="text-xs text-slate-400 mt-1">"Comercial hidrobo" ya aparece en posicion #1 de Google de forma gratuita</p>
                     <p class="text-xs text-slate-400">Pagar por estos clics seria desperdiciar presupuesto</p>
+                </div>
+            </div>
+
+            <!-- Explicacion calculo presupuesto -->
+            <div class="mt-4 rounded-lg border border-slate-700/30 bg-slate-800/30 p-4">
+                <h4 class="text-sm font-semibold text-white mb-2">Como se calcula el presupuesto sugerido?</h4>
+                <p class="text-sm text-slate-400 mb-3">El presupuesto de Google Ads se basa en cuanto cuesta cada clic y cuantos clics necesitamos para generar un contacto:</p>
+                <div class="space-y-2 text-sm text-slate-400">
+                    <p><strong class="text-slate-300">1. Costo por clic (CPC):</strong> Es lo que Google cobra cada vez que alguien hace clic en nuestro anuncio. Varia segun la competencia de cada palabra clave. Para "taller automotriz ibarra" la competencia es baja ($0.30-0.80), para "renault duster precio" es media ($0.80-1.50).</p>
+                    <p><strong class="text-slate-300">2. Tasa de conversion esperada:</strong> De cada 100 personas que hacen clic en el anuncio, estimamos que entre 3 y 5 dejaran sus datos (3-5% de conversion, que es el promedio del sector automotriz).</p>
+                    <p><strong class="text-slate-300">3. Calculo ejemplo — Campana Taller:</strong></p>
+                </div>
+                <div class="mt-2 p-3 rounded-lg bg-slate-900/50 text-xs text-slate-400 font-mono">
+                    <p>Presupuesto: $200/mes</p>
+                    <p>CPC promedio: $0.50</p>
+                    <p>Clics generados: $200 / $0.50 = <strong class="text-white">400 clics/mes</strong></p>
+                    <p>Tasa de conversion: 4%</p>
+                    <p>Leads esperados: 400 x 4% = <strong class="text-emerald-400">16 contactos/mes</strong></p>
+                </div>
+                <p class="text-xs text-slate-500 mt-3">Nota: estos son estimados basados en promedios del sector automotriz en Latinoamerica. Los numeros reales se ajustan mes a mes segun el rendimiento real de las campanas.</p>
+            </div>
+        </div>
+
+        <!-- Glosario -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-4">Glosario: que significan los terminos de este plan?</h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm text-slate-400">
+                <div>
+                    <p><strong class="text-slate-300">SEO (Search Engine Optimization):</strong> Son las acciones que hacemos para que la pagina web aparezca en los primeros resultados de Google cuando la gente busca algo relacionado con el negocio. Por ejemplo, que al buscar "taller automotriz Ibarra" aparezca Comercial Hidrobo.</p>
+                    <p class="mt-3"><strong class="text-slate-300">CRO (Conversion Rate Optimization):</strong> Son las mejoras que hacemos en la pagina web para que los visitantes tomen accion: agendar una cita, enviar un formulario o escribir por WhatsApp. No se trata de traer mas gente, sino de que la gente que ya visita la web se convierta en cliente.</p>
+                    <p class="mt-3"><strong class="text-slate-300">KPIs (Key Performance Indicators):</strong> Son los numeros clave que medimos cada mes para saber si el plan esta funcionando. Por ejemplo: cuantas personas visitaron la web, cuantas enviaron un formulario, cuantas agendaron una cita.</p>
+                    <p class="mt-3"><strong class="text-slate-300">Leads:</strong> Personas que dejan sus datos de contacto (formulario, WhatsApp, llamada). Son clientes potenciales — alguien que paso de ser un visitante anonimo a ser un contacto real con nombre y telefono.</p>
+                </div>
+                <div>
+                    <p><strong class="text-slate-300">Tasa de conversion:</strong> El porcentaje de visitantes que se convierten en leads. Si de 1,000 visitas, 10 envian formulario, la tasa es 1%.</p>
+                    <p class="mt-3"><strong class="text-slate-300">Trafico organico:</strong> Las visitas que llegan a la web desde Google de forma gratuita (sin pagar publicidad). Es el resultado directo del trabajo de SEO.</p>
+                    <p class="mt-3"><strong class="text-slate-300">CPC (Costo por clic):</strong> Lo que se paga a Google cada vez que alguien hace clic en un anuncio pagado. Varia segun la competencia de cada palabra clave.</p>
+                    <p class="mt-3"><strong class="text-slate-300">Remarketing:</strong> Mostrar anuncios a personas que ya visitaron la pagina web pero no contactaron. Es como "recordarles" que existimos cuando navegan por otras paginas o redes sociales.</p>
+                    <p class="mt-3"><strong class="text-slate-300">Schema / Datos estructurados:</strong> Informacion tecnica que se agrega al codigo de la pagina web para que Google entienda mejor el contenido (por ejemplo, que es un concesionario, que vende vehiculos, donde esta ubicado).</p>
                 </div>
             </div>
         </div>
