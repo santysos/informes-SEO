@@ -488,8 +488,8 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                     <div class="pb-6">
                         <h4 class="font-semibold text-white">Mayo — Contenido transaccional + SEO local</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
+                            <li>- Publicar 20 articulos de blog (comparativas, fichas tecnicas, SEO local)</li>
                             <li>- 3 paginas de taller por marca: /taller-toyota-ibarra/, /taller-renault-ibarra/, etc.</li>
-                            <li>- Post: "Tabla de mantenimientos por km: cuando y cuanto cuesta"</li>
                             <li>- Actualizar los 5 posts con mas trafico (agregar CTAs + datos 2026)</li>
                             <li>- Google Business Profile: 3 ubicaciones optimizadas</li>
                         </ul>
@@ -502,9 +502,9 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-0.5 h-full bg-slate-800 mt-2"></div>
                     </div>
                     <div class="pb-6">
-                        <h4 class="font-semibold text-white">Junio — Comparativas + Tracking avanzado</h4>
+                        <h4 class="font-semibold text-white">Junio — Tracking avanzado + contenido basado en datos</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
-                            <li>- 2 posts comparativos transaccionales + 2 contenidos de decision de compra</li>
+                            <li>- Publicar 20 articulos de blog (temas definidos con datos de Analytics de abril-mayo)</li>
                             <li>- Implementar eventos GA4 granulares (cta_click, whatsapp_click, form_abandon)</li>
                             <li>- Pop-up de salida en paginas de vehiculos</li>
                             <li>- Instalar pixel de Meta + crear audiencias de remarketing</li>
@@ -520,9 +520,9 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                     <div class="pb-6">
                         <h4 class="font-semibold text-white">Julio — Escalar lo que funciona</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
+                            <li>- Publicar 20 articulos de blog (escalar temas que mejor funcionaron)</li>
                             <li>- Analisis de rendimiento meses 1-3: replicar formato de CTA ganador</li>
                             <li>- Expandir paginas de taller a Cayambe y Tulcan</li>
-                            <li>- 2 posts de mantenimiento especifico por marca (Renault Duster, Rich 6)</li>
                             <li>- Optimizacion de Core Web Vitals y UX movil</li>
                         </ul>
                         <p class="text-xs text-emerald-400 mt-2">Meta: 22 leads/mes, 3,500 visitas organicas</p>
@@ -536,7 +536,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                     <div class="pb-6">
                         <h4 class="font-semibold text-white">Agosto — Autoridad y enlaces</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
-                            <li>- Contenido linkable: "Guia precios autos nuevos Ecuador 2026"</li>
+                            <li>- Publicar 20 articulos de blog (contenido de autoridad y link building)</li>
                             <li>- Link building local: medios de Imbabura, directorios automotrices</li>
                             <li>- Schema markup completo (LocalBusiness, AutoDealer, Product, FAQ)</li>
                         </ul>
@@ -548,12 +548,12 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-10 h-10 rounded-full bg-brand-600/20 flex items-center justify-center text-white text-sm font-bold shrink-0">6</div>
                     </div>
                     <div>
-                        <h4 class="font-semibold text-white">Septiembre — Consolidacion y automatizacion</h4>
+                        <h4 class="font-semibold text-white">Septiembre — Consolidacion y optimizacion</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
-                            <li>- Automatizacion de seguimiento de leads (email + notificaciones)</li>
-                            <li>- A/B testing de CTAs (copy, posicion, formato)</li>
-                            <li>- Informe final de resultados vs KPIs</li>
-                            <li>- Plan de mantenimiento trimestral</li>
+                            <li>- Publicar 20 articulos de blog (cierre de campana, contenido estacional)</li>
+                            <li>- Analisis de rendimiento completo: que contenido convierte mas</li>
+                            <li>- Optimizar CTAs y formularios segun datos reales de 5 meses</li>
+                            <li>- Reforzar posicionamiento de keywords que estan en posiciones 5-15</li>
                         </ul>
                         <p class="text-xs text-emerald-400 mt-2">Meta final: 25-30 leads/mes, 4,500+ visitas, 0.6-0.8% conversion</p>
                     </div>
@@ -571,13 +571,14 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-0.5 h-full bg-slate-800 mt-2"></div>
                     </div>
                     <div class="pb-6">
-                        <h4 class="font-semibold text-white">Abril — Fundamentos (Sprint de emergencia)</h4>
+                        <h4 class="font-semibold text-white">Abril — Fundamentos + primeros 20 articulos</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
                             <li>- Configurar medicion de contactos en Google Analytics</li>
                             <li>- Corregir TODOS los titulos y descripciones de pagina</li>
                             <li>- Redirigir URLs /usados/ antiguas que dan error</li>
                             <li>- Agregar datos estructurados (Schema) para vehiculos</li>
-                            <li>- Publicar 5 articulos de blog</li>
+                            <li>- Configurar mensaje prellenado en WhatsApp</li>
+                            <li>- Publicar 20 articulos de blog (guias de compra, financiamiento, confianza)</li>
                         </ul>
                     </div>
                 </div>
@@ -587,14 +588,11 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-0.5 h-full bg-slate-800 mt-2"></div>
                     </div>
                     <div class="pb-6">
-                        <h4 class="font-semibold text-white">Mayo — Blog + contenido fundacional (5 articulos)</h4>
+                        <h4 class="font-semibold text-white">Mayo — 20 articulos + comparativas + cross-linking</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
-                            <li>- "Autos Seminuevos en Ibarra: Guia Completa"</li>
-                            <li>- "Carros a Credito en Ecuador 2026"</li>
-                            <li>- "Changan Deepal S05: Precio y Ficha Tecnica"</li>
-                            <li>- "Los 5 SUV Seminuevos Mas Buscados"</li>
-                            <li>- "Auto Nuevo vs Seminuevo en Ecuador"</li>
+                            <li>- Publicar 20 articulos de blog (comparativas de modelos, financiamiento, SEO local)</li>
                             <li>- Cross-linking bidireccional con comercialhidrobo.com</li>
+                            <li>- Optimizar paginas de categorias y marcas con texto introductorio</li>
                         </ul>
                     </div>
                 </div>
@@ -604,12 +602,12 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-0.5 h-full bg-slate-800 mt-2"></div>
                     </div>
                     <div class="pb-6">
-                        <h4 class="font-semibold text-white">Junio — SEO local + 4 articulos</h4>
+                        <h4 class="font-semibold text-white">Junio — SEO local + 20 articulos basados en datos</h4>
                         <ul class="mt-2 space-y-1 text-sm text-slate-400">
+                            <li>- Publicar 20 articulos (temas definidos con datos reales de abril-mayo)</li>
                             <li>- Google Business Profile optimizado</li>
                             <li>- Landing /autos-seminuevos-ibarra/</li>
-                            <li>- Posts: Toyota usados, Kia usados, precios, credito vehicular</li>
-                            <li>- Optimizacion de velocidad</li>
+                            <li>- Optimizacion de velocidad del sitio</li>
                         </ul>
                     </div>
                 </div>
@@ -619,7 +617,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-0.5 h-full bg-slate-800 mt-2"></div>
                     </div>
                     <div class="pb-6">
-                        <h4 class="font-semibold text-white">Julio — CRO avanzado + 4 articulos + email marketing</h4>
+                        <h4 class="font-semibold text-white">Julio — 20 articulos + CRO avanzado</h4>
                     </div>
                 </div>
                 <div class="flex gap-4">
@@ -628,7 +626,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-0.5 h-full bg-slate-800 mt-2"></div>
                     </div>
                     <div class="pb-6">
-                        <h4 class="font-semibold text-white">Agosto — Escalar contenido + lanzar Google Ads</h4>
+                        <h4 class="font-semibold text-white">Agosto — 20 articulos + escalar + Google Ads</h4>
                     </div>
                 </div>
                 <div class="flex gap-4">
@@ -636,7 +634,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         <div class="w-10 h-10 rounded-full bg-purple-600/20 flex items-center justify-center text-white text-sm font-bold shrink-0">6</div>
                     </div>
                     <div>
-                        <h4 class="font-semibold text-white">Septiembre — Consolidar + optimizar Ads + informe final</h4>
+                        <h4 class="font-semibold text-white">Septiembre — 20 articulos + consolidar + optimizar Ads</h4>
                     </div>
                 </div>
             </div>
