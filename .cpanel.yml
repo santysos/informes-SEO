@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pekesc5/public_html/informes/comercial-hidrobo/marzo-2026/
+    - /bin/cp -f .htaccess index.php login.php logout.php $DEPLOYPATH
+    - chmod 755 $DEPLOYPATH
+    - chmod 644 $DEPLOYPATH*.php $DEPLOYPATH.htaccess
