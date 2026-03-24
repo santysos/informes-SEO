@@ -2,9 +2,13 @@
 deployment:
   tasks:
     - export BASEPATH=/home/pekesc5/public_html/informes
+    # Asegurar permisos de carpeta raiz
+    - chmod 755 $BASEPATH
     # Crear estructura de carpetas
     - /bin/mkdir -p $BASEPATH/comercial-hidrobo/marzo-2026
     - /bin/mkdir -p $BASEPATH/global-trading/marzo-2026
+    - chmod 755 $BASEPATH/comercial-hidrobo
+    - chmod 755 $BASEPATH/global-trading
     # Deploy Comercial Hidrobo
     - /bin/cp -f comercial-hidrobo/marzo-2026/.htaccess $BASEPATH/comercial-hidrobo/marzo-2026/
     - /bin/cp -f comercial-hidrobo/marzo-2026/index.php $BASEPATH/comercial-hidrobo/marzo-2026/
