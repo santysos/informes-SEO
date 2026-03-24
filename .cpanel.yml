@@ -1,7 +1,22 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pekesc5/public_html/informes/comercial-hidrobo/marzo-2026/
-    - /bin/cp -f .htaccess index.php login.php logout.php $DEPLOYPATH
-    - chmod 755 $DEPLOYPATH
-    - chmod 644 $DEPLOYPATH*.php $DEPLOYPATH.htaccess
+    - export BASEPATH=/home/pekesc5/public_html/informes
+    # Crear estructura de carpetas
+    - /bin/mkdir -p $BASEPATH/comercial-hidrobo/marzo-2026
+    - /bin/mkdir -p $BASEPATH/global-trading/marzo-2026
+    # Deploy Comercial Hidrobo
+    - /bin/cp -f comercial-hidrobo/marzo-2026/.htaccess $BASEPATH/comercial-hidrobo/marzo-2026/
+    - /bin/cp -f comercial-hidrobo/marzo-2026/index.php $BASEPATH/comercial-hidrobo/marzo-2026/
+    - /bin/cp -f comercial-hidrobo/marzo-2026/login.php $BASEPATH/comercial-hidrobo/marzo-2026/
+    - /bin/cp -f comercial-hidrobo/marzo-2026/logout.php $BASEPATH/comercial-hidrobo/marzo-2026/
+    # Deploy Global Trading
+    - /bin/cp -f global-trading/marzo-2026/.htaccess $BASEPATH/global-trading/marzo-2026/
+    - /bin/cp -f global-trading/marzo-2026/index.php $BASEPATH/global-trading/marzo-2026/
+    - /bin/cp -f global-trading/marzo-2026/login.php $BASEPATH/global-trading/marzo-2026/
+    - /bin/cp -f global-trading/marzo-2026/logout.php $BASEPATH/global-trading/marzo-2026/
+    # Permisos
+    - chmod 755 $BASEPATH/comercial-hidrobo/marzo-2026
+    - chmod 755 $BASEPATH/global-trading/marzo-2026
+    - chmod 644 $BASEPATH/comercial-hidrobo/marzo-2026/*.php
+    - chmod 644 $BASEPATH/global-trading/marzo-2026/*.php

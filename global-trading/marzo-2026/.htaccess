@@ -1,0 +1,16 @@
+# Deny access to sensitive files
+<FilesMatch "\.(csv|log|bak|sql|env|ini)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# No directory listing
+Options -Indexes
+
+# Default page
+DirectoryIndex login.php
