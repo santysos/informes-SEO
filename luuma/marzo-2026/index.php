@@ -87,6 +87,7 @@ if (!isset($_SESSION['auth_luuma']) || $_SESSION['auth_luuma'] !== true) {
     <div class="mb-8 no-print">
         <div class="flex flex-wrap gap-2">
             <button onclick="switchTab('resumen')" class="tab-btn active px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Resumen Ejecutivo</button>
+            <button onclick="switchTab('analytics')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Google Analytics</button>
             <button onclick="switchTab('auditoria')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Auditoria SEO</button>
             <button onclick="switchTab('local')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">SEO Local</button>
             <button onclick="switchTab('contenido')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Contenido Publicado</button>
@@ -109,40 +110,40 @@ if (!isset($_SESSION['auth_luuma']) || $_SESSION['auth_luuma'] !== true) {
         <!-- KPI Cards -->
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Paginas del sitio</p>
-                <p class="text-3xl font-bold text-white">8</p>
-                <p class="text-xs text-brand-400 mt-1">Sitio lanzado oct 2025</p>
-                <p class="text-xs text-slate-500 mt-1">Inicio, Historia, Menu, Bebidas, Eventos, Contacto, Galeria, Menu Ejecutivo</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Usuarios totales</p>
+                <p class="text-3xl font-bold text-white">9,597</p>
+                <p class="text-xs text-emerald-400 mt-1">Oct 2025 - Mar 2026</p>
+                <p class="text-xs text-slate-500 mt-1">Todas las visitas al sitio web</p>
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Articulos SEO</p>
-                <p class="text-3xl font-bold text-white">10</p>
-                <p class="text-xs text-emerald-400 mt-1">Publicados en el primer mes</p>
-                <p class="text-xs text-slate-500 mt-1">Base de contenido para posicionamiento</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Trafico organico (Google)</p>
+                <p class="text-3xl font-bold text-white">730</p>
+                <p class="text-xs text-emerald-400 mt-1">2,998 sesiones organicas</p>
+                <p class="text-xs text-slate-500 mt-1">Personas que llegaron desde Google gratis</p>
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Keywords objetivo</p>
-                <p class="text-3xl font-bold text-white">25+</p>
-                <p class="text-xs text-brand-400 mt-1">Restaurante manta, rooftop manta, etc.</p>
-                <p class="text-xs text-slate-500 mt-1">Palabras clave que la gente busca en Google</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Articulos SEO publicados</p>
+                <p class="text-3xl font-bold text-white">70</p>
+                <p class="text-xs text-emerald-400 mt-1">10 iniciales + 60 nuevos</p>
+                <p class="text-xs text-slate-500 mt-1">Contenido optimizado para Google</p>
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Meta descriptions</p>
-                <p class="text-3xl font-bold text-white">0/8</p>
-                <p class="text-xs text-amber-400 mt-1">Pendiente implementacion</p>
-                <p class="text-xs text-slate-500 mt-1">Textos que Google muestra debajo del titulo</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Eventos clave (conversiones)</p>
+                <p class="text-3xl font-bold text-white">437</p>
+                <p class="text-xs text-emerald-400 mt-1">Contactos y acciones en el sitio</p>
+                <p class="text-xs text-slate-500 mt-1">Clics en WhatsApp, formularios, reservas</p>
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Imagenes optimizadas</p>
-                <p class="text-3xl font-bold text-white">16/60+</p>
-                <p class="text-xs text-amber-400 mt-1">Alt text SEO aplicado</p>
-                <p class="text-xs text-slate-500 mt-1">Textos descriptivos en las fotos para Google</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Ciudad #1: Manta</p>
+                <p class="text-3xl font-bold text-white">3,526</p>
+                <p class="text-xs text-emerald-400 mt-1">37% del trafico total</p>
+                <p class="text-xs text-slate-500 mt-1">El publico local esta encontrando el sitio</p>
             </div>
             <div class="stat-card rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Google Business Profile</p>
-                <p class="text-3xl font-bold text-white">Pendiente</p>
-                <p class="text-xs text-amber-400 mt-1">Proximo paso critico</p>
-                <p class="text-xs text-slate-500 mt-1">Ficha de Google Maps para aparecer en busquedas locales</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Keywords posicionadas</p>
+                <p class="text-3xl font-bold text-white">296</p>
+                <p class="text-xs text-emerald-400 mt-1">Consultas en Google Search Console</p>
+                <p class="text-xs text-slate-500 mt-1">Palabras por las que Google muestra el sitio</p>
             </div>
         </div>
 
@@ -165,15 +166,249 @@ if (!isset($_SESSION['auth_luuma']) || $_SESSION['auth_luuma'] !== true) {
                     <thead><tr class="text-slate-500 border-b border-slate-800"><th class="text-left pb-3">Metrica</th><th class="text-right pb-3">Actual</th><th class="text-right pb-3">Meta (3 meses)</th></tr></thead>
                     <tbody class="text-slate-300">
                         <tr class="border-t border-slate-800"><td class="py-2.5">Paginas indexadas en Google</td><td class="text-right">8</td><td class="text-right text-emerald-400">30+</td></tr>
-                        <tr class="border-t border-slate-800"><td class="py-2.5">Articulos de blog</td><td class="text-right">10</td><td class="text-right text-emerald-400">24+</td></tr>
-                        <tr class="border-t border-slate-800"><td class="py-2.5">Keywords en top 10 de Google</td><td class="text-right text-slate-500">0 (nuevo)</td><td class="text-right text-emerald-400">15+</td></tr>
-                        <tr class="border-t border-slate-800"><td class="py-2.5">Trafico organico/mes</td><td class="text-right text-slate-500">~50 (nuevo)</td><td class="text-right text-emerald-400">500+</td></tr>
+                        <tr class="border-t border-slate-800"><td class="py-2.5">Articulos de blog</td><td class="text-right">70</td><td class="text-right text-emerald-400">100+</td></tr>
+                        <tr class="border-t border-slate-800"><td class="py-2.5">Keywords en top 10 de Google</td><td class="text-right">12+</td><td class="text-right text-emerald-400">30+</td></tr>
+                        <tr class="border-t border-slate-800"><td class="py-2.5">Trafico organico/mes</td><td class="text-right">730 usuarios</td><td class="text-right text-emerald-400">2,000+</td></tr>
                         <tr class="border-t border-slate-800"><td class="py-2.5">Resenas en Google</td><td class="text-right text-slate-500">Pendiente</td><td class="text-right text-emerald-400">50+</td></tr>
                         <tr class="border-t border-slate-800"><td class="py-2.5">Directorios registrados</td><td class="text-right">2 (FB, IG)</td><td class="text-right text-emerald-400">10+</td></tr>
                         <tr class="border-t border-slate-800"><td class="py-2.5">Schema types implementados</td><td class="text-right">3</td><td class="text-right text-emerald-400">8+</td></tr>
                     </tbody>
                 </table>
             </div>
+        </div>
+
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- TAB: Google Analytics (datos reales) -->
+    <!-- ============================================================ -->
+    <div id="tab-analytics" class="tab-content space-y-8">
+
+        <h2 class="text-2xl font-bold text-white">Google Analytics — Datos Reales</h2>
+        <p class="text-sm text-slate-400">Periodo: 20 de octubre 2025 - 26 de marzo 2026. Datos extraidos directamente de Google Analytics 4 y Google Search Console.</p>
+
+        <!-- Resumen general -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-4">Resumen general del sitio</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-white">9,597</p>
+                    <p class="text-xs text-slate-400">Usuarios activos</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-white">9,532</p>
+                    <p class="text-xs text-slate-400">Usuarios nuevos</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-white">92,147</p>
+                    <p class="text-xs text-slate-400">Eventos totales</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-white">437</p>
+                    <p class="text-xs text-slate-400">Eventos clave (conversiones)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fuentes de trafico -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">De donde vienen las visitas?</h3>
+            <p class="text-sm text-slate-400 mb-4">Cada fuente representa un canal diferente por el que las personas descubren y visitan el sitio web.</p>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead><tr class="text-slate-500 border-b border-slate-800"><th class="text-left pb-3">Fuente</th><th class="text-right pb-3">Sesiones</th><th class="text-right pb-3">% del total</th><th class="text-left pb-3 pl-4">Que significa</th></tr></thead>
+                    <tbody class="text-slate-300">
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5 font-semibold">Directo</td><td class="text-right">7,483</td><td class="text-right">42.6%</td><td class="pl-4 text-xs text-slate-400">Personas que escriben luumarooftop.com directamente o usan marcadores</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5 font-semibold">Instagram (organico)</td><td class="text-right">3,161</td><td class="text-right">18.0%</td><td class="pl-4 text-xs text-slate-400">Visitas desde publicaciones e historias de Instagram</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5 font-semibold text-emerald-400">Google organico</td><td class="text-right font-semibold text-emerald-400">2,998</td><td class="text-right text-emerald-400">17.1%</td><td class="pl-4 text-xs text-emerald-400/70">Personas que buscaron en Google y encontraron el sitio GRATIS</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Instagram (referral)</td><td class="text-right">1,595</td><td class="text-right">9.1%</td><td class="pl-4 text-xs text-slate-400">Clics desde el link en bio de Instagram</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Facebook (pagado)</td><td class="text-right">1,291</td><td class="text-right">7.4%</td><td class="pl-4 text-xs text-slate-400">Publicidad pagada en Facebook</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Instagram (pagado)</td><td class="text-right">678</td><td class="text-right">3.9%</td><td class="pl-4 text-xs text-slate-400">Publicidad pagada en Instagram</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Facebook (referral)</td><td class="text-right">361</td><td class="text-right">2.1%</td><td class="pl-4 text-xs text-slate-400">Clics desde publicaciones en Facebook</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Otros (Bing, ChatGPT, QR, etc.)</td><td class="text-right">99</td><td class="text-right">0.6%</td><td class="pl-4 text-xs text-slate-400">Bing (24), ChatGPT (19), QR codes (38), Yahoo, TripAdvisor</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4 p-4 rounded-lg bg-emerald-500/5 border border-emerald-500/20">
+                <p class="text-sm text-slate-300"><strong class="text-emerald-400">Dato importante:</strong> Google organico ya representa el <strong class="text-white">17.1% de las sesiones</strong> (2,998 sesiones) — y esto es trafico completamente gratuito. Con la estrategia de contenido SEO que estamos implementando, este porcentaje puede crecer al 30-40% en los proximos meses, reduciendo la dependencia de publicidad pagada.</p>
+            </div>
+        </div>
+
+        <!-- Ciudades -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Ciudades con mas visitas</h3>
+            <p class="text-sm text-slate-400 mb-4">Esto muestra donde estan las personas que visitan el sitio web. Manta lidera, lo que confirma que el publico local esta encontrando el sitio.</p>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1"><span class="text-sm text-slate-300">Manta</span><span class="text-sm font-semibold text-white">3,526</span></div>
+                            <div class="w-full h-2 bg-slate-700 rounded-full"><div class="h-2 bg-brand-500 rounded-full" style="width: 100%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span class="text-sm text-slate-300">Guayaquil</span><span class="text-sm font-semibold text-white">2,856</span></div>
+                            <div class="w-full h-2 bg-slate-700 rounded-full"><div class="h-2 bg-brand-500 rounded-full" style="width: 81%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span class="text-sm text-slate-300">Quito</span><span class="text-sm font-semibold text-white">1,508</span></div>
+                            <div class="w-full h-2 bg-slate-700 rounded-full"><div class="h-2 bg-brand-500 rounded-full" style="width: 43%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span class="text-sm text-slate-300">Portoviejo</span><span class="text-sm font-semibold text-white">728</span></div>
+                            <div class="w-full h-2 bg-slate-700 rounded-full"><div class="h-2 bg-brand-500 rounded-full" style="width: 21%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span class="text-sm text-slate-300">Montecristi</span><span class="text-sm font-semibold text-white">74</span></div>
+                            <div class="w-full h-2 bg-slate-700 rounded-full"><div class="h-2 bg-brand-500 rounded-full" style="width: 2%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg border border-slate-700/50 p-4">
+                    <h4 class="text-sm font-semibold text-brand-400 mb-3">Que nos dicen estos datos?</h4>
+                    <div class="space-y-2 text-sm text-slate-400">
+                        <p><strong class="text-slate-300">Manta domina (37%):</strong> El publico local ya esta visitando el sitio. Esto es excelente para el SEO local — Google ve que personas en Manta interactuan con el sitio, lo que refuerza la relevancia local.</p>
+                        <p><strong class="text-slate-300">Guayaquil es el 2do mercado (30%):</strong> Muchas personas de Guayaquil visitan Manta los fines de semana. Este es un publico turista de alto valor que busca donde comer antes de viajar.</p>
+                        <p><strong class="text-slate-300">Quito (16%):</strong> Similar a Guayaquil — turistas que planifican su viaje a Manta y buscan opciones de restaurantes.</p>
+                        <p><strong class="text-slate-300">Visitas internacionales:</strong> Se detectan visitas desde New York, Madrid, Buenos Aires, Miami y otras ciudades internacionales — turistas extranjeros investigando restaurantes en Manta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paginas mas visitadas -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Paginas mas visitadas (trafico organico)</h3>
+            <p class="text-sm text-slate-400 mb-4">Estas son las paginas que reciben mas clics desde Google. Los clics son las veces que alguien vio el sitio en Google y decidio hacer clic.</p>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead><tr class="text-slate-500 border-b border-slate-800"><th class="text-left pb-3">Pagina</th><th class="text-right pb-3">Clics</th><th class="text-right pb-3">Impresiones</th><th class="text-right pb-3">CTR</th><th class="text-right pb-3">Pos. media</th><th class="text-right pb-3">Conversiones</th></tr></thead>
+                    <tbody class="text-slate-300">
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5 font-semibold text-white">/ (Inicio)</td><td class="text-right font-semibold">641</td><td class="text-right text-slate-500">18,272</td><td class="text-right">3.5%</td><td class="text-right">6.4</td><td class="text-right"><span class="text-emerald-400 font-semibold">71</span></td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/menu/</td><td class="text-right">124</td><td class="text-right text-slate-500">3,703</td><td class="text-right">3.3%</td><td class="text-right">7.4</td><td class="text-right"><span class="text-emerald-400">6</span></td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/nuestra-historia/</td><td class="text-right">16</td><td class="text-right text-slate-500">1,702</td><td class="text-right">0.9%</td><td class="text-right">7.1</td><td class="text-right"><span class="text-emerald-400">1</span></td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/listado-menu-ejecutivo/</td><td class="text-right">8</td><td class="text-right text-slate-500">243</td><td class="text-right">3.3%</td><td class="text-right">7.6</td><td class="text-right">0</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/contacto/</td><td class="text-right">5</td><td class="text-right text-slate-500">312</td><td class="text-right">1.6%</td><td class="text-right">10.1</td><td class="text-right"><span class="text-emerald-400 font-semibold">13</span></td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/bebidas/</td><td class="text-right">1</td><td class="text-right text-slate-500">107</td><td class="text-right">0.9%</td><td class="text-right">7.6</td><td class="text-right"><span class="text-emerald-400">2</span></td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/galeria/</td><td class="text-right">1</td><td class="text-right text-slate-500">133</td><td class="text-right">0.8%</td><td class="text-right">6.8</td><td class="text-right">0</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">/eventos/</td><td class="text-right">0</td><td class="text-right text-slate-500">114</td><td class="text-right">0%</td><td class="text-right">6.6</td><td class="text-right">0</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-xs text-slate-500 mt-4">Periodo: Oct 2025 - Mar 2026. Datos de Google Search Console + Google Analytics 4.</p>
+            <div class="mt-4 p-4 rounded-lg bg-brand-500/5 border border-brand-500/20">
+                <p class="text-sm text-slate-300"><strong class="text-brand-400">Nota:</strong> La pagina de <strong class="text-white">Contacto tiene 13 conversiones</strong> con solo 5 clics organicos — esto significa que la tasa de conversion de esa pagina es altisima (260%). El reto es llevar MAS trafico a esa pagina. Con los articulos SEO y los CTAs internos que estamos implementando, cada articulo de blog dirige lectores hacia la pagina de contacto/reservas.</p>
+            </div>
+        </div>
+
+        <!-- Top keywords con chart -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Que busca la gente en Google para encontrar a Luuma?</h3>
+            <p class="text-sm text-slate-400 mb-4">Estas son las palabras que las personas escriben en Google y que muestran el sitio de Luuma en los resultados. La posicion media indica en que lugar de Google aparece el sitio (1 = primer resultado).</p>
+            <div class="h-96">
+                <canvas id="keywordsRealChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Keywords table -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Top 20 keywords con clics</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead><tr class="text-slate-500 border-b border-slate-800"><th class="text-left pb-3">Keyword</th><th class="text-right pb-3">Clics</th><th class="text-right pb-3">Impresiones</th><th class="text-right pb-3">CTR</th><th class="text-right pb-3">Pos. media</th></tr></thead>
+                    <tbody class="text-slate-300">
+                        <tr class="border-t border-slate-800/50"><td class="py-2">luuma</td><td class="text-right">128</td><td class="text-right text-slate-500">7,419</td><td class="text-right">1.7%</td><td class="text-right">7.6</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">luuma restaurant</td><td class="text-right">86</td><td class="text-right text-slate-500">1,433</td><td class="text-right">6.0%</td><td class="text-right">7.1</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2 font-semibold text-emerald-400">luuma manta</td><td class="text-right font-semibold">45</td><td class="text-right text-slate-500">310</td><td class="text-right">14.5%</td><td class="text-right text-emerald-400">1.9</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">luuma menu</td><td class="text-right">35</td><td class="text-right text-slate-500">1,079</td><td class="text-right">3.2%</td><td class="text-right">7.5</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">luuma restaurante</td><td class="text-right">19</td><td class="text-right text-slate-500">945</td><td class="text-right">2.0%</td><td class="text-right">6.4</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2 text-emerald-400">luuma restaurant & rooftop manta</td><td class="text-right">15</td><td class="text-right text-slate-500">96</td><td class="text-right">15.6%</td><td class="text-right text-emerald-400">3.1</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">lumma manta</td><td class="text-right">13</td><td class="text-right text-slate-500">60</td><td class="text-right">21.7%</td><td class="text-right text-emerald-400">1.8</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">menu luuma</td><td class="text-right">10</td><td class="text-right text-slate-500">35</td><td class="text-right">28.6%</td><td class="text-right">3.4</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">lumma restaurante</td><td class="text-right">8</td><td class="text-right text-slate-500">633</td><td class="text-right">1.3%</td><td class="text-right">8.3</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2">restaurante luuma</td><td class="text-right">6</td><td class="text-right text-slate-500">470</td><td class="text-right">1.3%</td><td class="text-right">6.9</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">restaurantes manta</td><td class="text-right">2</td><td class="text-right text-slate-500">75</td><td class="text-right">2.7%</td><td class="text-right text-emerald-400">2.2</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">mejores restaurantes manta</td><td class="text-right">2</td><td class="text-right text-slate-500">25</td><td class="text-right">8.0%</td><td class="text-right text-emerald-400">1.7</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">restaurante manta</td><td class="text-right">2</td><td class="text-right text-slate-500">63</td><td class="text-right">3.2%</td><td class="text-right text-emerald-400">3.4</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">donde comer en manta</td><td class="text-right">1</td><td class="text-right text-slate-500">4</td><td class="text-right">25.0%</td><td class="text-right text-emerald-400">1.0</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">mejor restaurante de manta</td><td class="text-right">1</td><td class="text-right text-slate-500">2</td><td class="text-right">50.0%</td><td class="text-right text-emerald-400">1.0</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">mejores restaurantes en manta</td><td class="text-right">1</td><td class="text-right text-slate-500">40</td><td class="text-right">2.5%</td><td class="text-right text-emerald-400">1.5</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">restaurantes en manta</td><td class="text-right">1</td><td class="text-right text-slate-500">52</td><td class="text-right">1.9%</td><td class="text-right text-emerald-400">1.6</td></tr>
+                        <tr class="border-t border-slate-800/50 bg-brand-500/5"><td class="py-2 font-semibold text-brand-400">restaurantes en manta elegantes</td><td class="text-right">1</td><td class="text-right text-slate-500">13</td><td class="text-right">7.7%</td><td class="text-right text-emerald-400">1.0</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4 p-4 rounded-lg bg-emerald-500/5 border border-emerald-500/20">
+                <p class="text-sm text-slate-300"><strong class="text-emerald-400">Hallazgos importantes:</strong></p>
+                <ul class="mt-2 space-y-1 text-sm text-slate-400">
+                    <li>• Las keywords <strong class="text-white">resaltadas en morado</strong> son keywords NO de marca (la gente no busca "Luuma", busca "restaurantes manta"). Estas son las keywords que los articulos SEO estan atacando.</li>
+                    <li>• <strong class="text-white">"donde comer en manta"</strong> ya posiciona #1 en Google — esto valida la estrategia de contenido.</li>
+                    <li>• <strong class="text-white">"mejores restaurantes manta"</strong> posiciona en 1.7 — practicamente top 2 de Google.</li>
+                    <li>• <strong class="text-white">"restaurantes en manta elegantes"</strong> posiciona #1 — nicho de alto valor.</li>
+                    <li>• Hay 296 keywords unicas donde Google ya muestra el sitio — con contenido optimizado, muchas de estas pueden generar clics.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Keywords con impresiones sin clics (oportunidades) -->
+        <div class="rounded-xl border border-amber-500/20 bg-amber-500/5 p-6">
+            <h3 class="text-lg font-semibold text-amber-400 mb-2">Oportunidades: keywords con impresiones pero sin clics</h3>
+            <p class="text-sm text-slate-400 mb-4">Estas keywords ya aparecen en Google pero aun no reciben clics. Con la estrategia de contenido SEO que estamos implementando, muchas de estas se convertiran en fuentes de trafico.</p>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="rounded-lg border border-slate-700/50 p-4">
+                    <h4 class="text-sm font-semibold text-white mb-3">Keywords locales (alto valor)</h4>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-slate-300">rooftop manta</span><span class="text-slate-500">97 impresiones, pos. 5.6</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">restaurantes en la quadra manta</span><span class="text-slate-500">65 imp., pos. 4.5</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">manta restaurante</span><span class="text-slate-500">44 imp., pos. 10.1</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">restaurantes en manta frente al mar</span><span class="text-slate-500">18 imp., pos. 1.4</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">restaurantes en manta para cenar</span><span class="text-slate-500">5 imp., pos. 1.0</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">parrilladas en manta</span><span class="text-slate-500">4 imp., pos. 1.0</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">rooftop bar near me</span><span class="text-slate-500">4 imp., pos. 1.0</span></div>
+                    </div>
+                </div>
+                <div class="rounded-lg border border-slate-700/50 p-4">
+                    <h4 class="text-sm font-semibold text-white mb-3">Keywords internacionales</h4>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span class="text-slate-300">restaurant luuma</span><span class="text-slate-500">51 imp., pos. 8.6</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">lumma bar</span><span class="text-slate-500">55 imp., pos. 8.5</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">luuma bar</span><span class="text-slate-500">36 imp., pos. 6.6</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">luma rooftop</span><span class="text-slate-500">37 imp., pos. 5.1</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">lumma sushi</span><span class="text-slate-500">37 imp., pos. 8.9</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">manta rooftop</span><span class="text-slate-500">12 imp., pos. 13.6</span></div>
+                        <div class="flex justify-between"><span class="text-slate-300">restaurants in manta ecuador</span><span class="text-slate-500">8 imp., pos. 1.1</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paginas mas vistas (todas las fuentes) -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Paginas mas vistas (TODAS las fuentes)</h3>
+            <p class="text-sm text-slate-400 mb-4">Vistas totales de cada pagina sumando todos los canales (Google, redes sociales, directo, publicidad).</p>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead><tr class="text-slate-500 border-b border-slate-800"><th class="text-left pb-3">Pagina</th><th class="text-right pb-3">Vistas</th><th class="text-right pb-3">Usuarios</th><th class="text-right pb-3">Rebote</th></tr></thead>
+                    <tbody class="text-slate-300">
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5 font-semibold text-white">Menu</td><td class="text-right">13,680</td><td class="text-right">4,869</td><td class="text-right">26%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5 font-semibold text-white">Inicio</td><td class="text-right">10,599</td><td class="text-right">7,111</td><td class="text-right">38%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Bebidas</td><td class="text-right">6,086</td><td class="text-right">1,134</td><td class="text-right">16%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Menu Ejecutivo</td><td class="text-right">667</td><td class="text-right">330</td><td class="text-right">17%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Contacto</td><td class="text-right">440</td><td class="text-right">304</td><td class="text-right">2%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Nuestra Historia</td><td class="text-right">275</td><td class="text-right">175</td><td class="text-right">5%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Eventos</td><td class="text-right">256</td><td class="text-right">149</td><td class="text-right">13%</td></tr>
+                        <tr class="border-t border-slate-800/50"><td class="py-2.5">Galeria</td><td class="text-right">237</td><td class="text-right">160</td><td class="text-right">7%</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4 p-4 rounded-lg bg-brand-500/5 border border-brand-500/20">
+                <p class="text-sm text-slate-300"><strong class="text-brand-400">Insight clave:</strong> La pagina de <strong class="text-white">Menu es la mas visitada</strong> (13,680 vistas) — lo que confirma que la gente entra al sitio a ver que ofrece Luuma. La pagina de <strong class="text-white">Contacto tiene solo 2% de rebote</strong>, lo que significa que casi todas las personas que llegan a esa pagina toman accion (reservan, envian formulario o llaman).</p>
+            </div>
+        </div>
+
+        <!-- Dato curioso: ChatGPT -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-2">Dato curioso: visitas desde ChatGPT</h3>
+            <p class="text-sm text-slate-400">El sitio recibio <strong class="text-white">19 visitas desde ChatGPT</strong> — esto significa que personas estan usando inteligencia artificial para buscar restaurantes en Manta y ChatGPT les esta recomendando Luuma. Esta es una tendencia creciente que beneficia a sitios con buen contenido SEO.</p>
         </div>
 
     </div>
@@ -683,7 +918,55 @@ function switchTab(tabName) {
     window.scrollTo({ top: 200, behavior: 'smooth' });
 }
 
-// Keywords Chart
+// Real Keywords Chart (from Google Search Console data)
+const kwRealCtx = document.getElementById('keywordsRealChart');
+if (kwRealCtx) {
+    new Chart(kwRealCtx, {
+        type: 'bar',
+        data: {
+            labels: ['luuma (128)', 'luuma restaurant (86)', 'luuma manta (45)', 'luuma menu (35)', 'luuma restaurante (19)', 'luuma rooftop manta (15)', 'lumma manta (13)', 'menu luuma (10)', 'restaurantes manta (2)', 'mejores restaurantes manta (2)', 'restaurante manta (2)', 'donde comer en manta (1)', 'restaurantes en manta (1)'],
+            datasets: [{
+                label: 'Clics reales desde Google',
+                data: [128, 86, 45, 35, 19, 15, 13, 10, 2, 2, 2, 1, 1],
+                backgroundColor: [
+                    'rgba(168, 85, 247, 0.6)', 'rgba(168, 85, 247, 0.6)', 'rgba(52, 211, 153, 0.6)',
+                    'rgba(168, 85, 247, 0.6)', 'rgba(168, 85, 247, 0.6)', 'rgba(52, 211, 153, 0.6)',
+                    'rgba(52, 211, 153, 0.6)', 'rgba(168, 85, 247, 0.6)',
+                    'rgba(251, 191, 36, 0.6)', 'rgba(251, 191, 36, 0.6)', 'rgba(251, 191, 36, 0.6)',
+                    'rgba(251, 191, 36, 0.6)', 'rgba(251, 191, 36, 0.6)'
+                ],
+                borderColor: [
+                    '#a855f7', '#a855f7', '#34d399', '#a855f7', '#a855f7', '#34d399',
+                    '#34d399', '#a855f7', '#fbbf24', '#fbbf24', '#fbbf24', '#fbbf24', '#fbbf24'
+                ],
+                borderWidth: 1,
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        afterLabel: function(ctx) {
+                            const positions = [7.6, 7.1, 1.9, 7.5, 6.4, 3.1, 1.8, 3.4, 2.2, 1.7, 3.4, 1.0, 1.6];
+                            return 'Posicion media: ' + positions[ctx.dataIndex];
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' }, title: { display: true, text: 'Clics desde Google', color: '#64748b' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
+            }
+        }
+    });
+}
+
+// Keywords Chart (target keywords)
 const kwCtx = document.getElementById('keywordsChart');
 if (kwCtx) {
     new Chart(kwCtx, {
