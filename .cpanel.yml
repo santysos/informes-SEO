@@ -24,3 +24,14 @@ deployment:
     - chmod 755 $BASEPATH/global-trading/marzo-2026
     - chmod 644 $BASEPATH/comercial-hidrobo/marzo-2026/*.php
     - chmod 644 $BASEPATH/global-trading/marzo-2026/*.php
+    # Crear estructura Luuma
+    - /bin/mkdir -p $BASEPATH/luuma/marzo-2026
+    - chmod 755 $BASEPATH/luuma
+    # Deploy Luuma
+    - /bin/cp -f luuma/marzo-2026/.htaccess $BASEPATH/luuma/marzo-2026/
+    - /bin/cp -f luuma/marzo-2026/index.php $BASEPATH/luuma/marzo-2026/
+    - /bin/cp -f luuma/marzo-2026/login.php $BASEPATH/luuma/marzo-2026/
+    - /bin/cp -f luuma/marzo-2026/logout.php $BASEPATH/luuma/marzo-2026/
+    # Permisos Luuma
+    - chmod 755 $BASEPATH/luuma/marzo-2026
+    - chmod 644 $BASEPATH/luuma/marzo-2026/*.php
