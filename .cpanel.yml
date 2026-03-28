@@ -35,3 +35,14 @@ deployment:
     # Permisos Luuma
     - chmod 755 $BASEPATH/luuma/marzo-2026
     - chmod 644 $BASEPATH/luuma/marzo-2026/*.php
+    # Crear estructura Odontologia Life
+    - /bin/mkdir -p $BASEPATH/odontologia-life/marzo-2026
+    - chmod 755 $BASEPATH/odontologia-life
+    # Deploy Odontologia Life
+    - /bin/cp -f odontologia-life/marzo-2026/.htaccess $BASEPATH/odontologia-life/marzo-2026/
+    - /bin/cp -f odontologia-life/marzo-2026/index.php $BASEPATH/odontologia-life/marzo-2026/
+    - /bin/cp -f odontologia-life/marzo-2026/login.php $BASEPATH/odontologia-life/marzo-2026/
+    - /bin/cp -f odontologia-life/marzo-2026/logout.php $BASEPATH/odontologia-life/marzo-2026/
+    # Permisos Odontologia Life
+    - chmod 755 $BASEPATH/odontologia-life/marzo-2026
+    - chmod 644 $BASEPATH/odontologia-life/marzo-2026/*.php
