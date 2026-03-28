@@ -75,7 +75,7 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                 <div>
                     <p class="text-sm font-medium text-brand-500 mb-2">PLAN ESTRATEGICO SEO + CONTENIDO</p>
                     <h2 class="text-3xl md:text-4xl font-bold text-white mb-3">Odontologia Life</h2>
-                    <p class="text-slate-400 max-w-xl">Plan de 6 meses (Abril - Septiembre 2026) para posicionar su consultorio en Google, atraer pacientes de Otavalo y alrededores, y medir cuantas personas realmente contactan por WhatsApp, llaman o agendan cita.</p>
+                    <p class="text-slate-400 max-w-xl">Plan de 6 meses (Marzo - Agosto 2026) para posicionar su consultorio en Google, atraer pacientes de Otavalo y alrededores, y medir cuantas personas realmente contactan por WhatsApp, llaman o agendan cita.</p>
                 </div>
                 <div class="flex flex-col gap-2 text-right shrink-0">
                     <span class="text-xs text-slate-500">Preparado por</span>
@@ -469,7 +469,7 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
     <!-- ==================== TAB 4: PLAN 6 MESES ==================== -->
     <div id="tab-plan" class="tab-content space-y-8">
 
-        <h2 class="text-2xl font-bold text-white">Plan de 6 Meses: Abril - Septiembre 2026</h2>
+        <h2 class="text-2xl font-bold text-white">Plan de 6 Meses: Marzo - Agosto 2026</h2>
 
         <!-- Plan intro -->
         <div class="rounded-xl border border-brand-500/20 bg-brand-500/5 p-6">
@@ -489,15 +489,15 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                     </div>
                     <div class="rounded-xl border border-slate-800/50 glass p-5 flex-1">
                         <div class="flex items-center gap-2 mb-2">
-                            <h4 class="text-white font-bold">Abril 2026</h4>
-                            <span class="bg-emerald-500/15 text-emerald-400 text-xs font-semibold px-2 py-0.5 rounded-full">INICIADO</span>
+                            <h4 class="text-white font-bold">Marzo 2026</h4>
+                            <span class="bg-emerald-500/15 text-emerald-400 text-xs font-semibold px-2 py-0.5 rounded-full">EN CURSO</span>
                         </div>
-                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + instalacion de Google Tag Manager + correcciones tecnicas</p>
+                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">Auditoria + 4 articulos + plan estrategico</strong></p>
                         <ul class="text-slate-500 text-xs space-y-1">
-                            <li>- 20 articulos SEO sobre temas de alta demanda (implantes, blanqueamiento, ortodoncia, emergencias)</li>
-                            <li>- Instalar Google Tag Manager para medir clics en WhatsApp, llamadas y formularios</li>
-                            <li>- Corregir URLs duplicadas /uncategorized/</li>
-                            <li>- Optimizar meta descriptions de los 35+ posts con 0 clics</li>
+                            <li>- Auditoria SEO completa del sitio y los 49 articulos anteriores</li>
+                            <li>- Analisis de Google Analytics y Search Console (5 meses de datos)</li>
+                            <li>- 4 articulos SEO nuevos publicados (protesis, diseno de sonrisa, dentista Otavalo, endodoncia)</li>
+                            <li>- Plan estrategico de 6 meses y estrategia Google Ads local</li>
                         </ul>
                     </div>
                 </div>
@@ -507,13 +507,13 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                         <span class="text-blue-400 font-bold text-sm">2</span>
                     </div>
                     <div class="rounded-xl border border-slate-800/50 glass p-5 flex-1">
-                        <h4 class="text-white font-bold mb-2">Mayo 2026</h4>
-                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + SEO Local + Google Business Profile</p>
+                        <h4 class="text-white font-bold mb-2">Abril 2026</h4>
+                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + GTM + correcciones tecnicas</p>
                         <ul class="text-slate-500 text-xs space-y-1">
-                            <li>- 20 articulos enfocados en tratamientos especificos y precios</li>
-                            <li>- Optimizar Google Business Profile (el perfil que aparece en Google Maps)</li>
-                            <li>- Registrar en directorios medicos (Doctoralia, Paginas Amarillas EC)</li>
-                            <li>- Solicitar primeras resenas a pacientes satisfechos</li>
+                            <li>- 20 articulos SEO sobre temas de alta demanda (implantes, blanqueamiento, ortodoncia, emergencias)</li>
+                            <li>- Instalar Google Tag Manager para medir clics en WhatsApp, llamadas y formularios</li>
+                            <li>- Corregir URLs duplicadas /uncategorized/</li>
+                            <li>- Optimizar meta descriptions de los 35+ posts con 0 clics</li>
                         </ul>
                     </div>
                 </div>
@@ -523,13 +523,13 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                         <span class="text-blue-400 font-bold text-sm">3</span>
                     </div>
                     <div class="rounded-xl border border-slate-800/50 glass p-5 flex-1">
-                        <h4 class="text-white font-bold mb-2">Junio 2026</h4>
-                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + Google Ads Local + optimizacion de posts existentes</p>
+                        <h4 class="text-white font-bold mb-2">Mayo 2026</h4>
+                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + SEO Local + Google Business Profile</p>
                         <ul class="text-slate-500 text-xs space-y-1">
-                            <li>- 20 articulos sobre ortodoncia, estetica dental y prevencion</li>
-                            <li>- Iniciar campanas de Google Ads enfocadas en Otavalo y alrededores</li>
-                            <li>- Optimizar los articulos existentes que ya tienen trafico para mejorar su posicion</li>
-                            <li>- Analizar datos de GTM: cuantos contactos genera la web</li>
+                            <li>- 20 articulos enfocados en tratamientos especificos</li>
+                            <li>- Optimizar Google Business Profile (el perfil que aparece en Google Maps)</li>
+                            <li>- Registrar en directorios medicos (Doctoralia, Paginas Amarillas EC)</li>
+                            <li>- Solicitar primeras resenas a pacientes satisfechos</li>
                         </ul>
                     </div>
                 </div>
@@ -539,13 +539,13 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                         <span class="text-indigo-400 font-bold text-sm">4</span>
                     </div>
                     <div class="rounded-xl border border-slate-800/50 glass p-5 flex-1">
-                        <h4 class="text-white font-bold mb-2">Julio 2026</h4>
-                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + E-E-A-T (autoridad medica) + contenido educativo</p>
+                        <h4 class="text-white font-bold mb-2">Junio 2026</h4>
+                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + Google Ads Local + optimizacion posts existentes</p>
                         <ul class="text-slate-500 text-xs space-y-1">
-                            <li>- 20 articulos educativos de alta autoridad medica</li>
-                            <li>- Fortalecer el perfil del doctor en el sitio web (biografia, credenciales, fotos)</li>
-                            <li>- Agregar Schema de LocalBusiness y MedicalOrganization (datos tecnicos que ayudan a Google a entender que es un consultorio dental real)</li>
-                            <li>- Optimizar campanas de Google Ads con datos reales del mes anterior</li>
+                            <li>- 20 articulos sobre ortodoncia, estetica dental y prevencion</li>
+                            <li>- Iniciar campanas de Google Ads enfocadas en Otavalo y alrededores</li>
+                            <li>- Optimizar los articulos existentes que ya tienen trafico para mejorar su posicion</li>
+                            <li>- Analizar datos de GTM: cuantos contactos genera la web</li>
                         </ul>
                     </div>
                 </div>
@@ -555,13 +555,13 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                         <span class="text-purple-400 font-bold text-sm">5</span>
                     </div>
                     <div class="rounded-xl border border-slate-800/50 glass p-5 flex-1">
-                        <h4 class="text-white font-bold mb-2">Agosto 2026</h4>
-                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + pagina de preguntas frecuentes + link building</p>
+                        <h4 class="text-white font-bold mb-2">Julio 2026</h4>
+                        <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + E-E-A-T (autoridad medica) + contenido educativo</p>
                         <ul class="text-slate-500 text-xs space-y-1">
-                            <li>- 20 articulos long tail (busquedas especificas que la gente realmente hace)</li>
-                            <li>- Crear pagina mega de preguntas frecuentes con Schema FAQ</li>
-                            <li>- Link building con directorios locales y medicos (que otras paginas enlacen a la nuestra)</li>
-                            <li>- Segunda ronda de solicitud de resenas a pacientes</li>
+                            <li>- 20 articulos educativos de alta autoridad medica</li>
+                            <li>- Fortalecer el perfil del doctor en el sitio web (biografia, credenciales, fotos)</li>
+                            <li>- Agregar Schema de LocalBusiness y MedicalOrganization</li>
+                            <li>- Optimizar campanas de Google Ads con datos reales del mes anterior</li>
                         </ul>
                     </div>
                 </div>
@@ -571,7 +571,7 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
                         <span class="text-violet-400 font-bold text-sm">6</span>
                     </div>
                     <div class="rounded-xl border border-slate-800/50 glass p-5 flex-1">
-                        <h4 class="text-white font-bold mb-2">Septiembre 2026</h4>
+                        <h4 class="text-white font-bold mb-2">Agosto 2026</h4>
                         <p class="text-slate-400 text-sm mb-2"><strong class="text-slate-300">20 articulos nuevos</strong> + analisis completo + plan siguiente semestre</p>
                         <ul class="text-slate-500 text-xs space-y-1">
                             <li>- 20 articulos finales del plan (temas complementarios y locales)</li>
@@ -835,7 +835,7 @@ if (!isset($_SESSION['auth_odlife']) || $_SESSION['auth_odlife'] !== true) {
         <div class="rounded-xl border border-slate-800/50 glass p-6">
             <h3 class="text-lg font-semibold text-brand-500 mb-4 flex items-center gap-2">
                 <span class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center"><svg class="w-3.5 h-3.5 text-brand-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/></svg></span>
-                Proximo mes — Abril 2026
+                Lo que sigue — Abril 2026 (Mes 2)
             </h3>
             <div class="grid md:grid-cols-2 gap-4">
                 <div class="glass-lighter rounded-xl p-4">
