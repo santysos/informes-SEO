@@ -261,7 +261,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
                 </ul>
             </div>
             <div>
-                <h4 class="text-amber-400 font-semibold text-sm mb-3">Proximos pasos (Abril)</h4>
+                <h4 class="text-amber-400 font-semibold text-sm mb-3">Proximos pasos (Marzo)</h4>
                 <ul class="space-y-2 text-sm">
                     <li class="text-slate-300">&#8226; Agregar meta descriptions en cada pagina</li>
                     <li class="text-slate-300">&#8226; Optimizar title tags para mejor CTR</li>
@@ -890,7 +890,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
             <div class="absolute -left-14 w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-600/30 z-10">M1</div>
             <div class="glass rounded-2xl p-6">
                 <div class="flex items-center gap-3 mb-3">
-                    <h3 class="text-white font-bold">Abril 2026 — Quick Wins</h3>
+                    <h3 class="text-white font-bold">Marzo 2026 — Quick Wins</h3>
                     <span class="text-xs font-semibold text-blue-400 bg-blue-500/15 px-2 py-1 rounded-md">PROXIMO</span>
                 </div>
                 <ul class="space-y-2 text-sm text-slate-400">
@@ -912,7 +912,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
         <div class="relative">
             <div class="absolute -left-14 w-12 h-12 rounded-full bg-indigo-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-indigo-600/30 z-10">M2</div>
             <div class="glass rounded-2xl p-6">
-                <h3 class="text-white font-bold mb-3">Mayo 2026 — Contenido + SEO Local</h3>
+                <h3 class="text-white font-bold mb-3">Abril 2026 — Contenido + SEO Local</h3>
                 <ul class="space-y-2 text-sm text-slate-400">
                     <li class="flex items-start gap-2"><span class="text-indigo-400 mt-0.5">&#8226;</span> 20 posts adicionales de blog</li>
                     <li class="flex items-start gap-2"><span class="text-indigo-400 mt-0.5">&#8226;</span> Optimizar los posts con mejor rendimiento (agregar contenido, actualizar)</li>
@@ -930,7 +930,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
         <div class="relative">
             <div class="absolute -left-14 w-12 h-12 rounded-full bg-violet-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-violet-600/30 z-10">M3</div>
             <div class="glass rounded-2xl p-6">
-                <h3 class="text-white font-bold mb-3">Junio 2026 — Escalar</h3>
+                <h3 class="text-white font-bold mb-3">Mayo 2026 — Escalar</h3>
                 <ul class="space-y-2 text-sm text-slate-400">
                     <li class="flex items-start gap-2"><span class="text-violet-400 mt-0.5">&#8226;</span> 20 posts adicionales (temas basados en datos de Search Console)</li>
                     <li class="flex items-start gap-2"><span class="text-violet-400 mt-0.5">&#8226;</span> Pop-up de salida con lead magnet</li>
@@ -947,7 +947,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
         <div class="relative">
             <div class="absolute -left-14 w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-purple-600/30 z-10">M4</div>
             <div class="glass rounded-2xl p-6">
-                <h3 class="text-white font-bold mb-3">Julio 2026 — Autoridad</h3>
+                <h3 class="text-white font-bold mb-3">Junio 2026 — Autoridad</h3>
                 <ul class="space-y-2 text-sm text-slate-400">
                     <li class="flex items-start gap-2"><span class="text-purple-400 mt-0.5">&#8226;</span> 20 posts adicionales</li>
                     <li class="flex items-start gap-2"><span class="text-purple-400 mt-0.5">&#8226;</span> Link building (directorios de comercio exterior)</li>
@@ -963,7 +963,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
         <div class="relative">
             <div class="absolute -left-14 w-12 h-12 rounded-full bg-fuchsia-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-fuchsia-600/30 z-10">M5</div>
             <div class="glass rounded-2xl p-6">
-                <h3 class="text-white font-bold mb-3">Agosto 2026 — Conversion</h3>
+                <h3 class="text-white font-bold mb-3">Julio 2026 — Conversion</h3>
                 <ul class="space-y-2 text-sm text-slate-400">
                     <li class="flex items-start gap-2"><span class="text-fuchsia-400 mt-0.5">&#8226;</span> 20 posts adicionales</li>
                     <li class="flex items-start gap-2"><span class="text-fuchsia-400 mt-0.5">&#8226;</span> A/B testing de CTAs</li>
@@ -980,7 +980,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
         <div class="relative">
             <div class="absolute -left-14 w-12 h-12 rounded-full bg-pink-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-pink-600/30 z-10">M6</div>
             <div class="glass rounded-2xl p-6">
-                <h3 class="text-white font-bold mb-3">Septiembre 2026 — Consolidacion</h3>
+                <h3 class="text-white font-bold mb-3">Agosto 2026 — Consolidacion</h3>
                 <ul class="space-y-2 text-sm text-slate-400">
                     <li class="flex items-start gap-2"><span class="text-pink-400 mt-0.5">&#8226;</span> 20 posts adicionales</li>
                     <li class="flex items-start gap-2"><span class="text-pink-400 mt-0.5">&#8226;</span> Analisis completo de ROI</li>
@@ -1091,7 +1091,7 @@ if (!isset($_SESSION['auth_gt']) || $_SESSION['auth_gt'] !== true) {
             </div>
             <div>
                 <h3 class="text-white font-semibold mb-1">Nota importante</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">Estas tareas seran ejecutadas progresivamente durante abril 2026. Algunas requieren acceso al panel de WordPress del sitio, y otras se pueden hacer desde Search Console o Google Tag Manager. Creative Web se encargara de la implementacion tecnica.</p>
+                <p class="text-slate-400 text-sm leading-relaxed">Estas tareas seran ejecutadas progresivamente durante marzo 2026. Algunas requieren acceso al panel de WordPress del sitio, y otras se pueden hacer desde Search Console o Google Tag Manager. Creative Web se encargara de la implementacion tecnica.</p>
             </div>
         </div>
     </div>
