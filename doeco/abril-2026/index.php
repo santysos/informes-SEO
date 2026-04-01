@@ -1131,8 +1131,8 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
                     <span class="text-green-400 font-bold text-sm">3</span>
                 </div>
                 <div>
-                    <p class="text-white font-semibold text-sm">Agregar boton WhatsApp flotante</p>
-                    <p class="text-slate-400 text-xs mt-1">Facilitar el contacto directo con un boton de WhatsApp visible en todas las paginas. Esto convierte visitantes en consultas de venta de forma inmediata.</p>
+                    <p class="text-white font-semibold text-sm">Personalizar el boton de WhatsApp por producto</p>
+                    <p class="text-slate-400 text-xs mt-1">El boton de WhatsApp ya existe en el sitio, lo cual es positivo. La mejora clave es <strong class="text-white">personalizar el mensaje segun la pagina donde se encuentre el visitante</strong>. Por ejemplo, si el cliente esta viendo la "Caja Hamburguesa Grande", el mensaje que llega al asesor seria: <em>"Hola, estoy interesado en: Caja Hamburguesa Grande Bio — doeco.ec"</em>. Asi el equipo de ventas sabe exactamente que producto le interesa antes de responder, lo que acelera la venta y mejora la experiencia del cliente.</p>
                 </div>
             </div>
             <div class="glass-lighter rounded-xl p-4 flex items-start gap-3">
@@ -1220,6 +1220,217 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
         </div>
     </div>
 
+    <!-- Content Strategy: 20 Posts per Month -->
+    <div class="glass rounded-2xl p-6 mb-8">
+        <h3 class="text-white font-bold mb-1 flex items-center gap-2">
+            <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>
+            Estrategia de Contenido: 20 Articulos SEO por Mes
+        </h3>
+        <p class="text-slate-500 text-xs mb-4">Cada articulo es una "semilla" que posiciona a Doeco en Google para busquedas relevantes. 20 articulos mensuales = 120 nuevas puertas de entrada al sitio en 6 meses.</p>
+
+        <!-- Explanation -->
+        <div class="glass-accent rounded-xl p-4 mb-6">
+            <p class="text-blue-300 text-sm leading-relaxed"><strong>Como funciona:</strong> Cuando alguien busca en Google "empaques biodegradables para delivery en Quito", si Doeco tiene un articulo optimizado sobre ese tema, aparece en los resultados. El visitante lee el articulo, conoce los productos, y compra o contacta al asesor. Cada articulo publicado es una nueva oportunidad de aparecer en Google — por eso publicaremos <strong class="text-white">20 articulos por mes</strong>, clasificados en 3 tipos segun la intencion del usuario:</p>
+        </div>
+
+        <!-- Intent Types Explanation -->
+        <div class="grid md:grid-cols-3 gap-4 mb-6">
+            <div class="glass-lighter rounded-xl p-4 border-l-4 border-blue-400">
+                <p class="text-blue-400 font-bold text-sm mb-1">Informativo</p>
+                <p class="text-slate-400 text-xs leading-relaxed">El usuario quiere <strong class="text-slate-300">aprender</strong>. Busca informacion, guias o datos. Ejemplo: "que es el bagazo de cana". Estos articulos atraen trafico nuevo y posicionan a Doeco como experto en el tema.</p>
+            </div>
+            <div class="glass-lighter rounded-xl p-4 border-l-4 border-amber-400">
+                <p class="text-amber-400 font-bold text-sm mb-1">Comercial</p>
+                <p class="text-slate-400 text-xs leading-relaxed">El usuario esta <strong class="text-slate-300">comparando opciones</strong>. Busca cual es mejor, diferencias, rankings. Ejemplo: "mejores empaques ecologicos Ecuador". Estos articulos guian al visitante hacia los productos de Doeco.</p>
+            </div>
+            <div class="glass-lighter rounded-xl p-4 border-l-4 border-green-400">
+                <p class="text-green-400 font-bold text-sm mb-1">Transaccional</p>
+                <p class="text-slate-400 text-xs leading-relaxed">El usuario quiere <strong class="text-slate-300">comprar</strong>. Busca precios, proveedores, tiendas. Ejemplo: "comprar empaques biodegradables Quito". Estos articulos convierten directamente en ventas porque el visitante ya esta listo para comprar.</p>
+            </div>
+        </div>
+
+        <!-- First 20 Posts Calendar -->
+        <h4 class="text-white font-semibold text-sm mb-3">Primeros 20 Articulos — Mes 1</h4>
+        <div class="overflow-x-auto">
+            <table class="w-full text-xs">
+                <thead>
+                    <tr class="text-left">
+                        <th class="px-3 py-2 text-slate-400 font-semibold bg-slate-800/50 rounded-tl-lg">#</th>
+                        <th class="px-3 py-2 text-slate-400 font-semibold bg-slate-800/50">Titulo del Articulo</th>
+                        <th class="px-3 py-2 text-slate-400 font-semibold bg-slate-800/50">Tipo</th>
+                        <th class="px-3 py-2 text-slate-400 font-semibold bg-slate-800/50">Keyword Principal</th>
+                        <th class="px-3 py-2 text-slate-400 font-semibold bg-slate-800/50 rounded-tr-lg">Objetivo</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-700/30">
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">1</td>
+                        <td class="px-3 py-2.5 text-white">Donde Comprar Empaques Biodegradables en Quito: Guia Completa 2026</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">comprar empaques biodegradables quito</td>
+                        <td class="px-3 py-2.5 text-slate-400">Captar compradores listos en Quito</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">2</td>
+                        <td class="px-3 py-2.5 text-white">Empaques Biodegradables al por Mayor en Ecuador: Precios y Proveedores</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques biodegradables al por mayor ecuador precios</td>
+                        <td class="px-3 py-2.5 text-slate-400">Captar B2B buscando mayoreo</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">3</td>
+                        <td class="px-3 py-2.5 text-white">Empaques Personalizados con Logo para Restaurantes en Ecuador</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques personalizados con logo ecuador</td>
+                        <td class="px-3 py-2.5 text-slate-400">Leads de personalizacion B2B</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">4</td>
+                        <td class="px-3 py-2.5 text-white">Empaques para Delivery de Comida: Como Elegir el Mejor para Tu Negocio</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques para delivery comida</td>
+                        <td class="px-3 py-2.5 text-slate-400">Guiar hacia productos Doeco</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">5</td>
+                        <td class="px-3 py-2.5 text-white">Contenedores de Bagazo de Cana vs Foam: Comparativa de Precio y Calidad</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">contenedores bagazo cana vs foam</td>
+                        <td class="px-3 py-2.5 text-slate-400">Convencer a cambiar de material</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">6</td>
+                        <td class="px-3 py-2.5 text-white">Ley de Plasticos en Ecuador 2026: Lo Que Todo Negocio Necesita Saber</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 text-[10px] font-semibold">Informativo</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">ley plasticos ecuador 2026</td>
+                        <td class="px-3 py-2.5 text-slate-400">Trafico alto + urgencia regulatoria</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">7</td>
+                        <td class="px-3 py-2.5 text-white">Proveedores de Empaques Ecologicos en Guayaquil: Opciones y Precios</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques ecologicos guayaquil</td>
+                        <td class="px-3 py-2.5 text-slate-400">Captar mercado de Guayaquil</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">8</td>
+                        <td class="px-3 py-2.5 text-white">Cuanto Cuesta Cambiar a Empaques Biodegradables en Tu Restaurante</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">costo empaques biodegradables restaurante</td>
+                        <td class="px-3 py-2.5 text-slate-400">Romper objecion de precio</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">9</td>
+                        <td class="px-3 py-2.5 text-white">Que es el Bagazo de Cana de Azucar y Por Que es el Mejor Material para Empaques</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 text-[10px] font-semibold">Informativo</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">bagazo de cana empaques</td>
+                        <td class="px-3 py-2.5 text-slate-400">Educar + posicionar material Doeco</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">10</td>
+                        <td class="px-3 py-2.5 text-white">Fundas de Papel Kraft al por Mayor en Ecuador: Guia de Compra</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">fundas papel kraft al por mayor ecuador</td>
+                        <td class="px-3 py-2.5 text-slate-400">Venta directa de fundas</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">11</td>
+                        <td class="px-3 py-2.5 text-white">Empaques para Emprendedores de Comida: Como Empezar con Poco Presupuesto</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques para emprendedores comida ecuador</td>
+                        <td class="px-3 py-2.5 text-slate-400">Captar emprendedores nuevos</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">12</td>
+                        <td class="px-3 py-2.5 text-white">Diferencia entre Biodegradable, Compostable y Reciclable: Guia Simple</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 text-[10px] font-semibold">Informativo</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">diferencia biodegradable compostable</td>
+                        <td class="px-3 py-2.5 text-slate-400">Featured snippet + autoridad</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">13</td>
+                        <td class="px-3 py-2.5 text-white">Empaques Ecologicos para Cafeterias en Cuenca: Opciones y Proveedores</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques ecologicos cafeterias cuenca</td>
+                        <td class="px-3 py-2.5 text-slate-400">Captar mercado Cuenca</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">14</td>
+                        <td class="px-3 py-2.5 text-white">Como Elegir el Empaque Ideal para Hamburguesas y Comida Rapida</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques hamburguesas comida rapida</td>
+                        <td class="px-3 py-2.5 text-slate-400">Guiar hacia contenedores Doeco</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">15</td>
+                        <td class="px-3 py-2.5 text-white">Cuanto Tarda en Degradarse un Empaque Biodegradable vs Plastico</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 text-[10px] font-semibold">Informativo</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">cuanto tarda degradarse empaque biodegradable</td>
+                        <td class="px-3 py-2.5 text-slate-400">Featured snippet + conciencia</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">16</td>
+                        <td class="px-3 py-2.5 text-white">Cajas para Tortas y Pasteles Biodegradables: Guia de Tamanos y Precios</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">cajas tortas biodegradables precios</td>
+                        <td class="px-3 py-2.5 text-slate-400">Venta directa pasteleria</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">17</td>
+                        <td class="px-3 py-2.5 text-white">Normativa INEN 2026 para Empaques de Alimentos: Que Debe Cumplir Tu Negocio</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-blue-500/15 text-blue-400 text-[10px] font-semibold">Informativo</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">normativa inen empaques alimentos 2026</td>
+                        <td class="px-3 py-2.5 text-slate-400">Urgencia normativa + trafico</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">18</td>
+                        <td class="px-3 py-2.5 text-white">Los 5 Mejores Empaques Ecologicos para Restaurantes en Ecuador</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">mejores empaques ecologicos restaurantes ecuador</td>
+                        <td class="px-3 py-2.5 text-slate-400">Ranking donde Doeco es #1</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">19</td>
+                        <td class="px-3 py-2.5 text-white">Empaques Biodegradables para el Sector Floricola Ecuatoriano</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 text-[10px] font-semibold">Comercial</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques biodegradables floricultura ecuador</td>
+                        <td class="px-3 py-2.5 text-slate-400">Nuevo vertical de alto valor</td>
+                    </tr>
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-2.5 text-slate-500">20</td>
+                        <td class="px-3 py-2.5 text-white">Empaques Ecologicos al por Mayor en Ambato, Riobamba e Ibarra</td>
+                        <td class="px-3 py-2.5"><span class="px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 text-[10px] font-semibold">Transaccional</span></td>
+                        <td class="px-3 py-2.5 text-slate-400">empaques ecologicos ambato riobamba ibarra</td>
+                        <td class="px-3 py-2.5 text-slate-400">Captar ciudades medianas Sierra</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Distribution Summary -->
+        <div class="grid md:grid-cols-3 gap-4 mt-6">
+            <div class="glass-lighter rounded-xl p-4 text-center border-t-2 border-green-400">
+                <p class="text-2xl font-bold text-green-400">7</p>
+                <p class="text-slate-400 text-xs mt-1">Transaccionales</p>
+                <p class="text-slate-500 text-[10px]">Generan ventas directas</p>
+            </div>
+            <div class="glass-lighter rounded-xl p-4 text-center border-t-2 border-amber-400">
+                <p class="text-2xl font-bold text-amber-400">7</p>
+                <p class="text-slate-400 text-xs mt-1">Comerciales</p>
+                <p class="text-slate-500 text-[10px]">Guian hacia la compra</p>
+            </div>
+            <div class="glass-lighter rounded-xl p-4 text-center border-t-2 border-blue-400">
+                <p class="text-2xl font-bold text-blue-400">6</p>
+                <p class="text-slate-400 text-xs mt-1">Informativos</p>
+                <p class="text-slate-500 text-[10px]">Atraen trafico y autoridad</p>
+            </div>
+        </div>
+
+        <div class="glass-accent rounded-xl p-4 mt-4">
+            <p class="text-blue-300 text-xs leading-relaxed"><strong>Estrategia:</strong> Priorizamos los articulos transaccionales y comerciales (14 de 20) porque atraen visitantes que estan mas cerca de comprar. Los informativos (6 de 20) generan volumen de trafico y posicionan a Doeco como experto. Cada mes se publicaran 20 nuevos articulos siguiendo esta proporcion, adaptando los temas segun los resultados del mes anterior.</p>
+        </div>
+    </div>
+
     <!-- Investment Plans -->
     <div class="glass rounded-2xl p-6 mb-8">
         <h3 class="text-white font-bold mb-1 flex items-center gap-2">
@@ -1237,13 +1448,14 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
                     <p class="text-slate-500 text-xs">Total: $1,080</p>
                 </div>
                 <div class="space-y-2 text-xs text-slate-400">
+                    <p class="check-green">20 articulos SEO nuevos cada mes</p>
                     <p class="check-green">SEO on-page (titles, metas, headings)</p>
                     <p class="check-green">Optimizacion de contenido existente</p>
                     <p class="check-green">Schema markup (datos estructurados)</p>
                     <p class="check-green">Optimizacion de imagenes y velocidad</p>
-                    <p class="check-green">Estrategia de keywords y contenido</p>
                     <p class="check-green">Enlazado interno y arquitectura SEO</p>
                     <p class="check-green">Configuracion de Google Tag Manager</p>
+                    <p class="check-green">WhatsApp personalizado por producto</p>
                     <p class="check-green">Reportes mensuales de progreso</p>
                     <p class="check-green">Soporte continuo por 6 meses</p>
                 </div>
@@ -1259,13 +1471,14 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
                 </div>
                 <div class="space-y-2 text-xs text-slate-400">
                     <p class="check-green">Todo lo incluido en el plan mensual</p>
+                    <p class="check-green">20 articulos SEO nuevos cada mes</p>
                     <p class="check-green">SEO on-page (titles, metas, headings)</p>
                     <p class="check-green">Optimizacion de contenido existente</p>
                     <p class="check-green">Schema markup (datos estructurados)</p>
                     <p class="check-green">Optimizacion de imagenes y velocidad</p>
-                    <p class="check-green">Estrategia de keywords y contenido</p>
                     <p class="check-green">Enlazado interno y arquitectura SEO</p>
                     <p class="check-green">Configuracion de Google Tag Manager</p>
+                    <p class="check-green">WhatsApp personalizado por producto</p>
                     <p class="check-green">Reportes mensuales de progreso</p>
                     <p class="check-green">Soporte continuo por 6 meses</p>
                 </div>
