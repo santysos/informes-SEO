@@ -46,3 +46,14 @@ deployment:
     # Permisos Odontologia Life
     - chmod 755 $BASEPATH/odontologia-life/marzo-2026
     - chmod 644 $BASEPATH/odontologia-life/marzo-2026/*.php
+    # Crear estructura Doeco
+    - /bin/mkdir -p $BASEPATH/doeco/abril-2026
+    - chmod 755 $BASEPATH/doeco
+    # Deploy Doeco
+    - /bin/cp -f doeco/abril-2026/.htaccess $BASEPATH/doeco/abril-2026/
+    - /bin/cp -f doeco/abril-2026/index.php $BASEPATH/doeco/abril-2026/
+    - /bin/cp -f doeco/abril-2026/login.php $BASEPATH/doeco/abril-2026/
+    - /bin/cp -f doeco/abril-2026/logout.php $BASEPATH/doeco/abril-2026/
+    # Permisos Doeco
+    - chmod 755 $BASEPATH/doeco/abril-2026
+    - chmod 644 $BASEPATH/doeco/abril-2026/*.php
