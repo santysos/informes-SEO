@@ -331,7 +331,7 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
                     <span class="text-green-400 font-bold">~2,500 usuarios</span>
                 </div>
                 <div class="flex justify-between items-center py-2 border-b border-slate-700/30">
-                    <span class="text-slate-400 text-sm">Q4 2025 vs Q4 2024</span>
+                    <span class="text-slate-400 text-sm">Oct-Dic 2025 vs Oct-Dic 2024</span>
                     <span class="text-green-400 font-bold">8,313 vs 3,081 = +170%</span>
                 </div>
                 <div class="flex justify-between items-center py-2 border-b border-slate-700/30">
@@ -359,8 +359,8 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
 
     <!-- Quarterly Growth Chart -->
     <div class="glass rounded-2xl p-6 mb-8">
-        <h3 class="text-white font-bold mb-1">Crecimiento Trimestral: Q4 2024 vs Q4 2025</h3>
-        <p class="text-slate-500 text-xs mb-4">Comparacion directa del mismo trimestre — el impacto del SEO es claro</p>
+        <h3 class="text-white font-bold mb-1">Crecimiento Trimestral: Ultimo Trimestre 2024 vs 2025</h3>
+        <p class="text-slate-500 text-xs mb-4">Comparamos los mismos 3 meses (octubre, noviembre y diciembre) de cada ano para ver el impacto real del SEO</p>
         <div class="flex flex-col md:flex-row items-center gap-8">
             <div style="width: 100%; max-width: 500px; height: 280px;">
                 <canvas id="quarterlyChart"></canvas>
@@ -369,7 +369,7 @@ if (!isset($_SESSION['auth_doeco']) || $_SESSION['auth_doeco'] !== true) {
                 <div class="inline-block glass-accent rounded-2xl p-6">
                     <p class="text-6xl font-bold text-green-400">+170%</p>
                     <p class="text-slate-400 mt-2">Crecimiento en trafico</p>
-                    <p class="text-slate-500 text-sm mt-1">Q4 2024 (3,081) vs Q4 2025 (8,313)</p>
+                    <p class="text-slate-500 text-sm mt-1">Oct-Dic 2024 (3,081) vs Oct-Dic 2025 (8,313)</p>
                 </div>
             </div>
         </div>
@@ -1505,7 +1505,7 @@ function renderAntesCharts() {
     new Chart(qCtx, {
         type: 'bar',
         data: {
-            labels: ['Q4 2024\n(Oct-Dic)', 'Q4 2025\n(Oct-Dic)'],
+            labels: ['Oct-Dic 2024', 'Oct-Dic 2025'],
             datasets: [{
                 label: 'Usuarios',
                 data: [3081, 8313],
