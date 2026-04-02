@@ -57,3 +57,14 @@ deployment:
     # Permisos Doeco
     - chmod 755 $BASEPATH/doeco/abril-2026
     - chmod 644 $BASEPATH/doeco/abril-2026/*.php
+    # Crear estructura Dimapar
+    - /bin/mkdir -p $BASEPATH/dimapar/abril-2026
+    - chmod 755 $BASEPATH/dimapar
+    # Deploy Dimapar
+    - /bin/cp -f dimapar/abril-2026/.htaccess $BASEPATH/dimapar/abril-2026/
+    - /bin/cp -f dimapar/abril-2026/index.php $BASEPATH/dimapar/abril-2026/
+    - /bin/cp -f dimapar/abril-2026/login.php $BASEPATH/dimapar/abril-2026/
+    - /bin/cp -f dimapar/abril-2026/logout.php $BASEPATH/dimapar/abril-2026/
+    # Permisos Dimapar
+    - chmod 755 $BASEPATH/dimapar/abril-2026
+    - chmod 644 $BASEPATH/dimapar/abril-2026/*.php
