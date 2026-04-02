@@ -39,11 +39,13 @@ if (!isset($_SESSION['auth_dimapar']) || $_SESSION['auth_dimapar'] !== true) {
         pointer-events: none;
     }
 
-    .tab-btn { transition: all 0.2s; }
+    .tab-btn { transition: all 0.2s; cursor: pointer; -webkit-tap-highlight-color: transparent; }
     .tab-btn.active { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3); }
     .tab-btn:not(.active):hover { background: rgba(148, 163, 184, 0.08); }
     .tab-content { display: none; animation: fadeUp 0.4s ease; }
     .tab-content.active { display: block; }
+    #tabNav { -webkit-overflow-scrolling: touch; scrollbar-width: none; -ms-overflow-style: none; }
+    #tabNav::-webkit-scrollbar { display: none; }
 
     @keyframes fadeUp {
         from { opacity: 0; transform: translateY(12px); }
@@ -127,7 +129,7 @@ if (!isset($_SESSION['auth_dimapar']) || $_SESSION['auth_dimapar'] !== true) {
 </header>
 
 <!-- TAB NAVIGATION -->
-<nav class="relative z-10 glass border-b border-slate-700/50 sticky top-0">
+<nav class="relative z-50 glass border-b border-slate-700/50 sticky top-0">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex gap-1 py-2 overflow-x-auto" id="tabNav">
             <button class="tab-btn active px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent whitespace-nowrap" onclick="switchTab('resumen')">Resumen para el Dueno</button>
