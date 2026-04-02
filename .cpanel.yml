@@ -68,3 +68,14 @@ deployment:
     # Permisos Dimapar
     - chmod 755 $BASEPATH/dimapar/abril-2026
     - chmod 644 $BASEPATH/dimapar/abril-2026/*.php
+    # Crear estructura OdontoAdvance
+    - /bin/mkdir -p $BASEPATH/odontoadvance/abril-2026
+    - chmod 755 $BASEPATH/odontoadvance
+    # Deploy OdontoAdvance
+    - /bin/cp -f odontoadvance/abril-2026/.htaccess $BASEPATH/odontoadvance/abril-2026/
+    - /bin/cp -f odontoadvance/abril-2026/index.php $BASEPATH/odontoadvance/abril-2026/
+    - /bin/cp -f odontoadvance/abril-2026/login.php $BASEPATH/odontoadvance/abril-2026/
+    - /bin/cp -f odontoadvance/abril-2026/logout.php $BASEPATH/odontoadvance/abril-2026/
+    # Permisos OdontoAdvance
+    - chmod 755 $BASEPATH/odontoadvance/abril-2026
+    - chmod 644 $BASEPATH/odontoadvance/abril-2026/*.php
