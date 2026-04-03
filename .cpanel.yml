@@ -79,3 +79,14 @@ deployment:
     # Permisos OdontoAdvance
     - chmod 755 $BASEPATH/odontoadvance/abril-2026
     - chmod 644 $BASEPATH/odontoadvance/abril-2026/*.php
+    # Crear estructura Rolando Constante
+    - /bin/mkdir -p $BASEPATH/rolando-constante/abril-2026
+    - chmod 755 $BASEPATH/rolando-constante
+    # Deploy Rolando Constante
+    - /bin/cp -f rolando-constante/abril-2026/.htaccess $BASEPATH/rolando-constante/abril-2026/
+    - /bin/cp -f rolando-constante/abril-2026/index.php $BASEPATH/rolando-constante/abril-2026/
+    - /bin/cp -f rolando-constante/abril-2026/login.php $BASEPATH/rolando-constante/abril-2026/
+    - /bin/cp -f rolando-constante/abril-2026/logout.php $BASEPATH/rolando-constante/abril-2026/
+    # Permisos Rolando Constante
+    - chmod 755 $BASEPATH/rolando-constante/abril-2026
+    - chmod 644 $BASEPATH/rolando-constante/abril-2026/*.php

@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keyword Research — Rolando Constante — Abril 2026</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    * { font-family: 'Inter', sans-serif; }
+    body { background: #0f172a; color: #e2e8f0; }
+    .glass { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(16px); border: 1px solid rgba(148, 163, 184, 0.08); }
+    .glass-lighter { background: rgba(51, 65, 85, 0.4); border: 1px solid rgba(148, 163, 184, 0.06); }
+    .glass-accent { background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.15); }
+    .glass-green { background: rgba(34, 197, 94, 0.08); border: 1px solid rgba(34, 197, 94, 0.15); }
+    .glass-amber { background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.15); }
+    .glass-red { background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.15); }
+    .bg-pattern {
+        position: fixed; inset: 0; z-index: 0;
+        background-image:
+            radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.07) 0%, transparent 50%),
+            radial-gradient(circle at 85% 20%, rgba(14, 165, 233, 0.05) 0%, transparent 50%),
+            radial-gradient(circle at 50% 85%, rgba(99, 102, 241, 0.04) 0%, transparent 50%);
+        pointer-events: none;
+    }
+    .grid-bg {
+        position: fixed; inset: 0; z-index: 0;
+        background-image:
+            repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(148,163,184,0.025) 39px, rgba(148,163,184,0.025) 40px),
+            repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(148,163,184,0.025) 39px, rgba(148,163,184,0.025) 40px);
+        pointer-events: none;
+    }
+    .tab-btn { transition: all 0.2s; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .tab-btn.active { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.3); }
+    .tab-btn:not(.active):hover { background: rgba(148, 163, 184, 0.08); }
+    .tab-content { display: none; animation: fadeUp 0.4s ease; }
+    .tab-content.active { display: block; }
+    #tabNav { -webkit-overflow-scrolling: touch; scrollbar-width: none; -ms-overflow-style: none; }
+    #tabNav::-webkit-scrollbar { display: none; }
+    @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .kpi-card { transition: transform 0.2s; }
+    .kpi-card:hover { transform: translateY(-2px); }
+    table { border-collapse: separate; border-spacing: 0; }
+    thead th { position: sticky; top: 0; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: rgba(15,23,42,0.5); }
+    ::-webkit-scrollbar-thumb { background: rgba(148,163,184,0.3); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(148,163,184,0.5); }
+    .priority-high { color: #f87171; }
+    .priority-medium { color: #fbbf24; }
+    .priority-low { color: #34d399; }
+    .intent-transaccional { background: rgba(239, 68, 68, 0.15); color: #fca5a5; }
+    .intent-comercial { background: rgba(245, 158, 11, 0.15); color: #fcd34d; }
+    .intent-informativo { background: rgba(59, 130, 246, 0.15); color: #93c5fd; }
+    .intent-navegacional { background: rgba(34, 197, 94, 0.15); color: #86efac; }
+    .diff-baja { background: rgba(34, 197, 94, 0.2); color: #86efac; }
+    .diff-media { background: rgba(245, 158, 11, 0.2); color: #fcd34d; }
+    .diff-alta { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
+    .pos-good { color: #34d399; }
+    .pos-medium { color: #fbbf24; }
+    .pos-bad { color: #f87171; }
+</style>
+</head>
+<body class="min-h-screen">
+<div class="bg-pattern"></div>
+<div class="grid-bg"></div>
+
+<!-- HEADER -->
+<header class="relative z-10 glass border-b border-slate-700/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+                <p class="text-blue-400 text-sm font-semibold tracking-wider uppercase">Keyword Research</p>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Rolando Constante</h1>
+                <p class="text-slate-400 mt-1">rolandoconstante.com / constante.ec &mdash; Escuela de Ventas &amp; Capacitacion Comercial</p>
+            </div>
+            <div class="text-right">
+                <p class="text-slate-500 text-sm">Fecha</p>
+                <p class="text-white font-bold text-lg">Abril 2026</p>
+                <p class="text-slate-500 text-xs mt-1">Preparado por CreativeWeb</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- NAV TABS -->
+<nav class="relative z-10 glass border-b border-slate-700/30 sticky top-0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div id="tabNav" class="flex gap-1 py-2 overflow-x-auto">
+            <button onclick="switchTab('resumen')" class="tab-btn active px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Resumen Ejecutivo</button>
+            <button onclick="switchTab('keywords')" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Top 20 Keywords</button>
+            <button onclick="switchTab('gaps')" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Content Gaps</button>
+            <button onclick="switchTab('articulos')" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Plan 20 Articulos</button>
+            <button onclick="switchTab('snippets')" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Featured Snippets</button>
+            <button onclick="switchTab('longtail')" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Long-Tail Compra</button>
+            <button onclick="switchTab('competencia')" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium border border-transparent whitespace-nowrap">Competencia</button>
+        </div>
+    </div>
+</nav>
+
+<main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-8">
+
+<!-- ==================== TAB: RESUMEN ==================== -->
+<div id="tab-resumen" class="tab-content active space-y-8">
+
+    <!-- KPIs situacion actual -->
+    <div>
+        <h2 class="text-xl font-bold text-white mb-4">Situacion Actual en Search Console (Dic 2024 - Abr 2026)</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="glass rounded-xl p-5 kpi-card text-center">
+                <p class="text-slate-400 text-xs uppercase tracking-wider">Clics Organicos Homepage</p>
+                <p class="text-3xl font-extrabold text-white mt-2">331</p>
+                <p class="text-red-400 text-sm mt-1">Muy bajo para 17 meses</p>
+            </div>
+            <div class="glass rounded-xl p-5 kpi-card text-center">
+                <p class="text-slate-400 text-xs uppercase tracking-wider">Trafico Meta Ads</p>
+                <p class="text-3xl font-extrabold text-blue-400 mt-2">5,177</p>
+                <p class="text-slate-400 text-sm mt-1">Dependencia de pauta</p>
+            </div>
+            <div class="glass rounded-xl p-5 kpi-card text-center">
+                <p class="text-slate-400 text-xs uppercase tracking-wider">Trafico Directo</p>
+                <p class="text-3xl font-extrabold text-cyan-400 mt-2">4,419</p>
+                <p class="text-slate-400 text-sm mt-1">Marca fuerte offline</p>
+            </div>
+            <div class="glass rounded-xl p-5 kpi-card text-center">
+                <p class="text-slate-400 text-xs uppercase tracking-wider">Keywords con Impresiones</p>
+                <p class="text-3xl font-extrabold text-amber-400 mt-2">9+</p>
+                <p class="text-amber-400 text-sm mt-1">0 clics en la mayoria</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diagnostico rapido -->
+    <div class="glass rounded-xl p-6">
+        <h3 class="text-lg font-bold text-white mb-4">Diagnostico del Panorama SEO</h3>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div>
+                <h4 class="text-blue-400 font-semibold mb-3">Lo que encontramos</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li class="flex items-start gap-2"><span class="text-red-400 font-bold mt-0.5">!</span> <span><strong>0 articulos de blog indexados</strong> en Google para rolandoconstante.com ni constante.ec. Sin contenido SEO = sin trafico organico.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 font-bold mt-0.5">!</span> <span><strong>"escuela de ventas"</strong> tiene 199 impresiones pero posicion 47. Google ya asocia la marca con este termino pero la pagina no esta optimizada.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 font-bold mt-0.5">!</span> <span><strong>"academia de ventas"</strong> con 94 impresiones y posicion 60. Hay demanda real, cero presencia.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-amber-400 font-bold mt-0.5">~</span> <span><strong>"curso de ventas quito"</strong> posicion 21 con solo 2 clics. A un empujon de pagina 1-2.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-green-400 font-bold mt-0.5">+</span> <span><strong>Marca "Rolando Constante"</strong> domina posicion 1.6 con 107 clics. La autoridad personal existe.</span></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-green-400 font-semibold mb-3">La oportunidad</h4>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li class="flex items-start gap-2"><span class="text-green-400">&#10003;</span> <span><strong>Nicho poco competido localmente.</strong> Los competidores principales (EVN, Perfil Comercial, CCQ) tienen sitios web basicos con poco contenido SEO.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">&#10003;</span> <span><strong>Keywords informativas sin contenido local.</strong> "Como cerrar una venta", "tecnicas de cierre" estan dominados por HubSpot, Zendesk, Salesforce. No hay contenido ecuatoriano.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">&#10003;</span> <span><strong>Rolando tiene 35 anos de experiencia</strong> y reconocimiento en AEADE (Asociacion de Empresas Automotrices). Autoridad E-E-A-T natural.</span></li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">&#10003;</span> <span><strong>Featured snippets disponibles</strong> para preguntas tipo "como cerrar una venta", "que es un closer de ventas", "tecnicas de prospeccion".</span></li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">&#10003;</span> <span><strong>Trafico pagado ya valida demanda.</strong> 5,177 usuarios de Meta Ads prueban que el mercado busca capacitacion en ventas. Falta capturar ese trafico organicamente.</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mapa de oportunidad -->
+    <div class="glass rounded-xl p-6">
+        <h3 class="text-lg font-bold text-white mb-4">Mapa de Oportunidad por Categoria</h3>
+        <div class="space-y-4">
+            <div>
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-sm font-medium text-slate-300">Cursos de Ventas (transaccional)</span>
+                    <span class="text-sm text-red-400 font-bold">PRIORIDAD CRITICA</span>
+                </div>
+                <div class="w-full bg-slate-700/50 rounded-full h-3"><div class="bg-red-500 h-3 rounded-full" style="width: 95%"></div></div>
+                <p class="text-xs text-slate-500 mt-1">Keywords: curso de ventas quito, curso cierre de ventas, capacitacion en ventas, entrenamiento en ventas</p>
+            </div>
+            <div>
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-sm font-medium text-slate-300">Escuela/Academia (navegacional-comercial)</span>
+                    <span class="text-sm text-red-400 font-bold">PRIORIDAD CRITICA</span>
+                </div>
+                <div class="w-full bg-slate-700/50 rounded-full h-3"><div class="bg-orange-500 h-3 rounded-full" style="width: 90%"></div></div>
+                <p class="text-xs text-slate-500 mt-1">Keywords: escuela de ventas, academia de ventas, donde estudiar ventas en quito</p>
+            </div>
+            <div>
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-sm font-medium text-slate-300">Informativas / Blog (top of funnel)</span>
+                    <span class="text-sm text-amber-400 font-bold">PRIORIDAD ALTA</span>
+                </div>
+                <div class="w-full bg-slate-700/50 rounded-full h-3"><div class="bg-amber-500 h-3 rounded-full" style="width: 85%"></div></div>
+                <p class="text-xs text-slate-500 mt-1">Keywords: como cerrar una venta, tecnicas de cierre, como vender mas, habilidades de un vendedor</p>
+            </div>
+            <div>
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-sm font-medium text-slate-300">Coaching / Mentoria (comercial)</span>
+                    <span class="text-sm text-amber-400 font-bold">PRIORIDAD ALTA</span>
+                </div>
+                <div class="w-full bg-slate-700/50 rounded-full h-3"><div class="bg-yellow-500 h-3 rounded-full" style="width: 75%"></div></div>
+                <p class="text-xs text-slate-500 mt-1">Keywords: coaching de ventas, coaching comercial, mentoria en ventas</p>
+            </div>
+            <div>
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-sm font-medium text-slate-300">Corporativo / B2B (transaccional alto ticket)</span>
+                    <span class="text-sm text-blue-400 font-bold">PRIORIDAD MEDIA-ALTA</span>
+                </div>
+                <div class="w-full bg-slate-700/50 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width: 70%"></div></div>
+                <p class="text-xs text-slate-500 mt-1">Keywords: capacitacion comercial para empresas, entrenamiento equipo de ventas, gerencia comercial</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ==================== TAB: TOP 20 KEYWORDS ==================== -->
+<div id="tab-keywords" class="tab-content space-y-6">
+
+    <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Top 20 Keywords Objetivo</h2>
+        <p class="text-slate-400 text-sm mb-6">Volumen estimado mensual para Ecuador. Dificultad basada en analisis de competidores locales y autoridad de dominio requerida. Posicion actual segun Search Console.</p>
+
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="text-left text-slate-400 text-xs uppercase tracking-wider">
+                        <th class="px-3 py-3 bg-slate-800/80 rounded-tl-lg">#</th>
+                        <th class="px-3 py-3 bg-slate-800/80">Keyword</th>
+                        <th class="px-3 py-3 bg-slate-800/80 text-center">Vol. Est./mes</th>
+                        <th class="px-3 py-3 bg-slate-800/80 text-center">Dificultad</th>
+                        <th class="px-3 py-3 bg-slate-800/80 text-center">Intencion</th>
+                        <th class="px-3 py-3 bg-slate-800/80 text-center">Pos. Actual</th>
+                        <th class="px-3 py-3 bg-slate-800/80 text-center">Imp. GSC</th>
+                        <th class="px-3 py-3 bg-slate-800/80 rounded-tr-lg">Accion Recomendada</th>
+                    </tr>
+                </thead>
+                <tbody class="text-slate-300">
+                    <!-- 1 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">1</td>
+                        <td class="px-3 py-3 font-semibold text-white">curso de ventas quito</td>
+                        <td class="px-3 py-3 text-center">390</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                        <td class="px-3 py-3 text-center pos-medium font-bold">21</td>
+                        <td class="px-3 py-3 text-center">25</td>
+                        <td class="px-3 py-3 text-xs">Landing page dedicada + Schema Course</td>
+                    </tr>
+                    <!-- 2 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">2</td>
+                        <td class="px-3 py-3 font-semibold text-white">escuela de ventas</td>
+                        <td class="px-3 py-3 text-center">720</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center pos-bad font-bold">47</td>
+                        <td class="px-3 py-3 text-center">199</td>
+                        <td class="px-3 py-3 text-xs">Optimizar homepage + pagina pilar "Escuela de Ventas"</td>
+                    </tr>
+                    <!-- 3 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">3</td>
+                        <td class="px-3 py-3 font-semibold text-white">capacitacion en ventas</td>
+                        <td class="px-3 py-3 text-center">590</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Pagina de servicios corporativos</td>
+                    </tr>
+                    <!-- 4 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">4</td>
+                        <td class="px-3 py-3 font-semibold text-white">tecnicas de cierre de ventas</td>
+                        <td class="px-3 py-3 text-center">2,400</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-alta px-2 py-0.5 rounded text-xs font-semibold">Alta</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Articulo pilar 3000+ palabras + video</td>
+                    </tr>
+                    <!-- 5 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">5</td>
+                        <td class="px-3 py-3 font-semibold text-white">como cerrar una venta</td>
+                        <td class="px-3 py-3 text-center">1,900</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-alta px-2 py-0.5 rounded text-xs font-semibold">Alta</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center pos-bad font-bold">84</td>
+                        <td class="px-3 py-3 text-center">27</td>
+                        <td class="px-3 py-3 text-xs">Guia definitiva con ejemplos Ecuador</td>
+                    </tr>
+                    <!-- 6 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">6</td>
+                        <td class="px-3 py-3 font-semibold text-white">academia de ventas</td>
+                        <td class="px-3 py-3 text-center">480</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center pos-bad font-bold">60</td>
+                        <td class="px-3 py-3 text-center">94</td>
+                        <td class="px-3 py-3 text-xs">Pagina pilar "Academia de Ventas Rolando Constante"</td>
+                    </tr>
+                    <!-- 7 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">7</td>
+                        <td class="px-3 py-3 font-semibold text-white">curso de ventas online</td>
+                        <td class="px-3 py-3 text-center">880</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-alta px-2 py-0.5 rounded text-xs font-semibold">Alta</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Landing de curso online + testimonios</td>
+                    </tr>
+                    <!-- 8 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">8</td>
+                        <td class="px-3 py-3 font-semibold text-white">donde estudiar ventas en quito</td>
+                        <td class="px-3 py-3 text-center">170</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center pos-medium font-bold">33</td>
+                        <td class="px-3 py-3 text-center">38</td>
+                        <td class="px-3 py-3 text-xs">Articulo comparativo + CTA a inscripcion</td>
+                    </tr>
+                    <!-- 9 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">9</td>
+                        <td class="px-3 py-3 font-semibold text-white">curso cierre de ventas</td>
+                        <td class="px-3 py-3 text-center">320</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                        <td class="px-3 py-3 text-center pos-medium font-bold">21</td>
+                        <td class="px-3 py-3 text-center">22</td>
+                        <td class="px-3 py-3 text-xs">Landing especifica del programa de cierre</td>
+                    </tr>
+                    <!-- 10 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">10</td>
+                        <td class="px-3 py-3 font-semibold text-white">coaching de ventas</td>
+                        <td class="px-3 py-3 text-center">390</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Pagina de servicio coaching 1-a-1</td>
+                    </tr>
+                    <!-- 11 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">11</td>
+                        <td class="px-3 py-3 font-semibold text-white">como vender mas</td>
+                        <td class="px-3 py-3 text-center">2,900</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-alta px-2 py-0.5 rounded text-xs font-semibold">Alta</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Mega-guia con datos Ecuador + CTA curso</td>
+                    </tr>
+                    <!-- 12 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">12</td>
+                        <td class="px-3 py-3 font-semibold text-white">proceso de ventas</td>
+                        <td class="px-3 py-3 text-center">1,600</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-alta px-2 py-0.5 rounded text-xs font-semibold">Alta</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Articulo pilar "7 etapas del proceso de ventas"</td>
+                    </tr>
+                    <!-- 13 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">13</td>
+                        <td class="px-3 py-3 font-semibold text-white">habilidades de un vendedor</td>
+                        <td class="px-3 py-3 text-center">1,300</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Articulo con checklist descargable</td>
+                    </tr>
+                    <!-- 14 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">14</td>
+                        <td class="px-3 py-3 font-semibold text-white">entrenamiento en ventas</td>
+                        <td class="px-3 py-3 text-center">260</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Pagina de servicio + casos de exito</td>
+                    </tr>
+                    <!-- 15 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">15</td>
+                        <td class="px-3 py-3 font-semibold text-white">capacitacion comercial para empresas</td>
+                        <td class="px-3 py-3 text-center">210</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Landing B2B con formulario de contacto</td>
+                    </tr>
+                    <!-- 16 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">16</td>
+                        <td class="px-3 py-3 font-semibold text-white">coaching comercial</td>
+                        <td class="px-3 py-3 text-center">320</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Pagina servicio + diferencial vs coaching generico</td>
+                    </tr>
+                    <!-- 17 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">17</td>
+                        <td class="px-3 py-3 font-semibold text-white">manejo de objeciones en ventas</td>
+                        <td class="px-3 py-3 text-center">880</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Guia practica con scripts y ejemplos</td>
+                    </tr>
+                    <!-- 18 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">18</td>
+                        <td class="px-3 py-3 font-semibold text-white">prospeccion de clientes</td>
+                        <td class="px-3 py-3 text-center">720</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Guia con metodos probados + plantilla descargable</td>
+                    </tr>
+                    <!-- 19 -->
+                    <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">19</td>
+                        <td class="px-3 py-3 font-semibold text-white">gerencia comercial curso</td>
+                        <td class="px-3 py-3 text-center">210</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Landing programa ejecutivo + LinkedIn outreach</td>
+                    </tr>
+                    <!-- 20 -->
+                    <tr class="hover:bg-slate-800/30">
+                        <td class="px-3 py-3 font-bold text-white">20</td>
+                        <td class="px-3 py-3 font-semibold text-white">entrenamiento equipo de ventas</td>
+                        <td class="px-3 py-3 text-center">170</td>
+                        <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                        <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                        <td class="px-3 py-3 text-center text-slate-500">--</td>
+                        <td class="px-3 py-3 text-center">--</td>
+                        <td class="px-3 py-3 text-xs">Pagina In-Company + caso de estudio empresarial</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Notas metodologicas -->
+    <div class="glass-lighter rounded-xl p-4">
+        <p class="text-xs text-slate-400"><strong>Nota metodologica:</strong> Volumenes estimados combinando datos de Google Keyword Planner (ubicacion: Ecuador), tendencias de Search Console del sitio, y analisis de competidores con SERPs en vivo (abril 2026). La dificultad refleja competencia local ecuatoriana, no global. Keywords informativas tienen dificultad "Alta" porque compiten contra sitios internacionales (HubSpot, Zendesk, Salesforce) pero hay oportunidad de featured snippets con contenido localizado.</p>
+    </div>
+
+</div>
+
+<!-- ==================== TAB: CONTENT GAPS ==================== -->
+<div id="tab-gaps" class="tab-content space-y-6">
+
+    <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Content Gaps Criticos</h2>
+        <p class="text-slate-400 text-sm mb-6">Contenido que los competidores tienen y Rolando Constante NO tiene. Cada gap es una oportunidad directa de trafico y leads.</p>
+    </div>
+
+    <!-- Gap 1 -->
+    <div class="glass-red rounded-xl p-6">
+        <div class="flex items-center gap-3 mb-3">
+            <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-xs font-bold">GAP CRITICO #1</span>
+            <h3 class="text-lg font-bold text-white">CERO blog / articulos indexados</h3>
+        </div>
+        <p class="text-slate-300 text-sm mb-3">Rolando Constante no tiene un solo articulo de blog indexado en Google. Esto significa:</p>
+        <ul class="text-sm text-slate-300 space-y-1 ml-4">
+            <li>- No captura trafico informativo (top of funnel) para keywords como "como cerrar una venta" (1,900 busquedas/mes)</li>
+            <li>- No puede posicionar para keywords long-tail que atraen leads calificados</li>
+            <li>- No construye autoridad tematica (topical authority) que Google necesita para rankear paginas comerciales</li>
+            <li>- Los competidores internacionales (HubSpot, Zendesk, Salesforce) capturan TODO ese trafico</li>
+        </ul>
+        <div class="glass-lighter rounded-lg p-3 mt-4">
+            <p class="text-xs text-green-400 font-semibold">SOLUCION: Publicar 20 articulos en el mes 1 (plan detallado en tab "Plan 20 Articulos")</p>
+        </div>
+    </div>
+
+    <!-- Gap 2 -->
+    <div class="glass-red rounded-xl p-6">
+        <div class="flex items-center gap-3 mb-3">
+            <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-xs font-bold">GAP CRITICO #2</span>
+            <h3 class="text-lg font-bold text-white">No hay paginas de servicio optimizadas</h3>
+        </div>
+        <p class="text-slate-300 text-sm mb-3">Los competidores locales que rankean tienen paginas dedicadas por servicio:</p>
+        <div class="grid md:grid-cols-2 gap-4 mt-3">
+            <div class="glass-lighter rounded-lg p-3">
+                <p class="text-xs text-slate-400 mb-2">PERFIL COMERCIAL tiene:</p>
+                <ul class="text-xs text-slate-300 space-y-1">
+                    <li>&#10003; /curso-estrategias-ventas-quito-guayaquil/</li>
+                    <li>&#10003; /plan-capacitacion-ventas-quito-roi/</li>
+                    <li>&#10003; /como-manejar-las-objeciones-de-ventas/</li>
+                </ul>
+            </div>
+            <div class="glass-lighter rounded-lg p-3">
+                <p class="text-xs text-slate-400 mb-2">ROLANDO CONSTANTE necesita:</p>
+                <ul class="text-xs text-slate-300 space-y-1">
+                    <li class="text-red-400">&#10007; /curso-de-ventas-quito/</li>
+                    <li class="text-red-400">&#10007; /escuela-de-ventas/</li>
+                    <li class="text-red-400">&#10007; /coaching-de-ventas/</li>
+                    <li class="text-red-400">&#10007; /capacitacion-para-empresas/</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gap 3 -->
+    <div class="glass-amber rounded-xl p-6">
+        <div class="flex items-center gap-3 mb-3">
+            <span class="bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full text-xs font-bold">GAP #3</span>
+            <h3 class="text-lg font-bold text-white">Sin Schema markup de Course / EducationalOrganization</h3>
+        </div>
+        <p class="text-slate-300 text-sm">Los resultados de busqueda para "curso de ventas quito" muestran rich snippets de Educaedu y CEC-EPN con precios, duracion y fechas. Rolando no tiene Schema Course implementado, perdiendo visibilidad en SERPs.</p>
+        <div class="glass-lighter rounded-lg p-3 mt-3">
+            <p class="text-xs text-green-400 font-semibold">SOLUCION: Implementar JSON-LD con Course, EducationalOrganization, y Person schema para Rolando.</p>
+        </div>
+    </div>
+
+    <!-- Gap 4 -->
+    <div class="glass-amber rounded-xl p-6">
+        <div class="flex items-center gap-3 mb-3">
+            <span class="bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full text-xs font-bold">GAP #4</span>
+            <h3 class="text-lg font-bold text-white">No hay contenido localizado para Ecuador</h3>
+        </div>
+        <p class="text-slate-300 text-sm mb-3">Las SERPs para keywords informativas estan dominadas por sitios de Mexico y Espana. NO hay contenido especifico para Ecuador sobre ventas. Oportunidad de diferenciacion:</p>
+        <ul class="text-sm text-slate-300 space-y-1 ml-4">
+            <li>- "Tecnicas de ventas que funcionan en Ecuador" (nadie tiene esto)</li>
+            <li>- "Como prospectar clientes en Quito" (cero resultados locales)</li>
+            <li>- "Estadisticas de ventas en Ecuador 2026" (solo noticias, no guias)</li>
+        </ul>
+    </div>
+
+    <!-- Gap 5 -->
+    <div class="glass-amber rounded-xl p-6">
+        <div class="flex items-center gap-3 mb-3">
+            <span class="bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full text-xs font-bold">GAP #5</span>
+            <h3 class="text-lg font-bold text-white">Sin presencia en directorios educativos</h3>
+        </div>
+        <p class="text-slate-300 text-sm">EVN aparece en Educaedu, Emagister, CursosyCarreras. Rolando Constante NO aparece en ninguno de estos directorios que rankean para "curso de ventas quito" y "donde estudiar ventas". Estos directorios dan backlinks de autoridad y generan leads directos.</p>
+    </div>
+
+    <!-- Gap 6 -->
+    <div class="glass rounded-xl p-6">
+        <div class="flex items-center gap-3 mb-3">
+            <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-bold">GAP #6</span>
+            <h3 class="text-lg font-bold text-white">Sin contenido de autoridad personal (E-E-A-T)</h3>
+        </div>
+        <p class="text-slate-300 text-sm">Rolando tiene 35 anos de experiencia y reconocimiento de AEADE, pero Google no puede verificar esto. Falta:</p>
+        <ul class="text-sm text-slate-300 space-y-1 ml-4 mt-2">
+            <li>- Pagina "Sobre Rolando Constante" con bio completa, credenciales, medios</li>
+            <li>- Schema Person con sameAs a LinkedIn, Facebook, TikTok</li>
+            <li>- Testimonios estructurados con Schema Review</li>
+            <li>- Mencion en Wikipedia o medios reconocidos (backlinks de autoridad)</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- ==================== TAB: PLAN 20 ARTICULOS ==================== -->
+<div id="tab-articulos" class="tab-content space-y-6">
+
+    <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Plan de 20 Articulos &mdash; Mes 1</h2>
+        <p class="text-slate-400 text-sm mb-2">Estrategia de contenido organizada por prioridad. Los primeros 8 articulos son paginas pilar y comerciales. Los siguientes 12 son contenido informativo que alimenta el funnel.</p>
+        <div class="flex gap-4 mt-4 text-xs">
+            <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span> Transaccional</span>
+            <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-amber-500 inline-block"></span> Comercial</span>
+            <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-blue-500 inline-block"></span> Informativo</span>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+            <thead>
+                <tr class="text-left text-slate-400 text-xs uppercase tracking-wider">
+                    <th class="px-3 py-3 bg-slate-800/80 rounded-tl-lg">#</th>
+                    <th class="px-3 py-3 bg-slate-800/80">Titulo del Articulo</th>
+                    <th class="px-3 py-3 bg-slate-800/80">Keyword Principal</th>
+                    <th class="px-3 py-3 bg-slate-800/80 text-center">Vol.</th>
+                    <th class="px-3 py-3 bg-slate-800/80 text-center">Intencion</th>
+                    <th class="px-3 py-3 bg-slate-800/80 text-center">Palabras</th>
+                    <th class="px-3 py-3 bg-slate-800/80 rounded-tr-lg">Tipo de Pagina</th>
+                </tr>
+            </thead>
+            <tbody class="text-slate-300">
+
+                <!-- BLOQUE 1: PAGINAS PILAR Y COMERCIALES -->
+                <tr class="bg-slate-800/40">
+                    <td colspan="7" class="px-3 py-2 text-xs font-bold text-red-400 uppercase tracking-wider">Semana 1-2: Paginas Pilar &amp; Comerciales (PRIORIDAD MAXIMA)</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">1</td>
+                    <td class="px-3 py-3 font-medium text-white">Escuela de Ventas en Quito: Programas, Metodologia y Resultados</td>
+                    <td class="px-3 py-3">escuela de ventas</td>
+                    <td class="px-3 py-3 text-center">720</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Pagina pilar /escuela-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">2</td>
+                    <td class="px-3 py-3 font-medium text-white">Curso de Ventas en Quito: Aprende a Vender con Rolando Constante</td>
+                    <td class="px-3 py-3">curso de ventas quito</td>
+                    <td class="px-3 py-3 text-center">390</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                    <td class="px-3 py-3 text-center">2,000</td>
+                    <td class="px-3 py-3 text-xs">Landing /curso-de-ventas-quito/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">3</td>
+                    <td class="px-3 py-3 font-medium text-white">Curso de Cierre de Ventas: Domina las Tecnicas que Funcionan</td>
+                    <td class="px-3 py-3">curso cierre de ventas</td>
+                    <td class="px-3 py-3 text-center">320</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                    <td class="px-3 py-3 text-center">2,000</td>
+                    <td class="px-3 py-3 text-xs">Landing /curso-cierre-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">4</td>
+                    <td class="px-3 py-3 font-medium text-white">Capacitacion en Ventas para Empresas: Programas In-Company</td>
+                    <td class="px-3 py-3">capacitacion en ventas empresas</td>
+                    <td class="px-3 py-3 text-center">590</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                    <td class="px-3 py-3 text-center">2,000</td>
+                    <td class="px-3 py-3 text-xs">Landing /capacitacion-ventas-empresas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">5</td>
+                    <td class="px-3 py-3 font-medium text-white">Coaching de Ventas Personalizado: Mentoria 1 a 1 con Rolando Constante</td>
+                    <td class="px-3 py-3">coaching de ventas</td>
+                    <td class="px-3 py-3 text-center">390</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                    <td class="px-3 py-3 text-center">1,800</td>
+                    <td class="px-3 py-3 text-xs">Landing /coaching-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">6</td>
+                    <td class="px-3 py-3 font-medium text-white">Academia de Ventas: Por Que Estudiar Ventas Cambia Tu Carrera</td>
+                    <td class="px-3 py-3">academia de ventas</td>
+                    <td class="px-3 py-3 text-center">480</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                    <td class="px-3 py-3 text-center">2,000</td>
+                    <td class="px-3 py-3 text-xs">Pagina pilar /academia-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">7</td>
+                    <td class="px-3 py-3 font-medium text-white">Donde Estudiar Ventas en Quito: Guia Comparativa 2026</td>
+                    <td class="px-3 py-3">donde estudiar ventas en quito</td>
+                    <td class="px-3 py-3 text-center">170</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-comercial px-2 py-0.5 rounded text-xs">Comercial</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog /donde-estudiar-ventas-quito/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">8</td>
+                    <td class="px-3 py-3 font-medium text-white">Entrenamiento para Equipos de Ventas: Programa Corporativo</td>
+                    <td class="px-3 py-3">entrenamiento equipo de ventas</td>
+                    <td class="px-3 py-3 text-center">170</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-transaccional px-2 py-0.5 rounded text-xs">Transaccional</span></td>
+                    <td class="px-3 py-3 text-center">1,800</td>
+                    <td class="px-3 py-3 text-xs">Landing /entrenamiento-equipos-ventas/</td>
+                </tr>
+
+                <!-- BLOQUE 2: CONTENIDO INFORMATIVO -->
+                <tr class="bg-slate-800/40">
+                    <td colspan="7" class="px-3 py-2 text-xs font-bold text-blue-400 uppercase tracking-wider">Semana 2-4: Contenido Informativo (Top of Funnel + Autoridad Tematica)</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">9</td>
+                    <td class="px-3 py-3 font-medium text-white">12 Tecnicas de Cierre de Ventas que Funcionan en 2026 [Guia Completa]</td>
+                    <td class="px-3 py-3">tecnicas de cierre de ventas</td>
+                    <td class="px-3 py-3 text-center">2,400</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">3,500</td>
+                    <td class="px-3 py-3 text-xs">Blog pilar + infografia</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">10</td>
+                    <td class="px-3 py-3 font-medium text-white">Como Cerrar una Venta: 7 Pasos del Metodo Constante</td>
+                    <td class="px-3 py-3">como cerrar una venta</td>
+                    <td class="px-3 py-3 text-center">1,900</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">3,000</td>
+                    <td class="px-3 py-3 text-xs">Blog pilar + video embebido</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">11</td>
+                    <td class="px-3 py-3 font-medium text-white">Como Vender Mas: 15 Estrategias Probadas para Ecuador</td>
+                    <td class="px-3 py-3">como vender mas</td>
+                    <td class="px-3 py-3 text-center">2,900</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">3,500</td>
+                    <td class="px-3 py-3 text-xs">Mega-guia con datos locales</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">12</td>
+                    <td class="px-3 py-3 font-medium text-white">El Proceso de Ventas: 7 Etapas para Cerrar Mas Negocios</td>
+                    <td class="px-3 py-3">proceso de ventas</td>
+                    <td class="px-3 py-3 text-center">1,600</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">3,000</td>
+                    <td class="px-3 py-3 text-xs">Blog pilar + diagrama descargable</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">13</td>
+                    <td class="px-3 py-3 font-medium text-white">15 Habilidades de un Vendedor Exitoso [Checklist 2026]</td>
+                    <td class="px-3 py-3">habilidades de un vendedor</td>
+                    <td class="px-3 py-3 text-center">1,300</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog + checklist PDF descargable</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">14</td>
+                    <td class="px-3 py-3 font-medium text-white">Manejo de Objeciones en Ventas: Scripts y Ejemplos Practicos</td>
+                    <td class="px-3 py-3">manejo de objeciones en ventas</td>
+                    <td class="px-3 py-3 text-center">880</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">3,000</td>
+                    <td class="px-3 py-3 text-xs">Blog + plantilla de scripts</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">15</td>
+                    <td class="px-3 py-3 font-medium text-white">Prospeccion de Clientes: Guia Definitiva con 10 Metodos Probados</td>
+                    <td class="px-3 py-3">prospeccion de clientes</td>
+                    <td class="px-3 py-3 text-center">720</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">3,000</td>
+                    <td class="px-3 py-3 text-xs">Blog + plantilla de prospeccion</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">16</td>
+                    <td class="px-3 py-3 font-medium text-white">Que es un Closer de Ventas y Como Convertirte en Uno</td>
+                    <td class="px-3 py-3">closer de ventas</td>
+                    <td class="px-3 py-3 text-center">480</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog + CTA al curso de cierre</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">17</td>
+                    <td class="px-3 py-3 font-medium text-white">Venta Consultiva: Que Es y Como Aplicarla en Tu Negocio</td>
+                    <td class="px-3 py-3">venta consultiva</td>
+                    <td class="px-3 py-3 text-center">590</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog + ejemplos de Ecuador</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">18</td>
+                    <td class="px-3 py-3 font-medium text-white">Como Hacer un Pitch de Ventas Irresistible [Plantilla + Ejemplos]</td>
+                    <td class="px-3 py-3">pitch de ventas</td>
+                    <td class="px-3 py-3 text-center">390</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog + plantilla descargable</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">19</td>
+                    <td class="px-3 py-3 font-medium text-white">KPIs de Ventas: 10 Indicadores que Todo Gerente Comercial Debe Medir</td>
+                    <td class="px-3 py-3">kpis de ventas</td>
+                    <td class="px-3 py-3 text-center">320</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog + dashboard ejemplo</td>
+                </tr>
+                <tr class="hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-bold text-white">20</td>
+                    <td class="px-3 py-3 font-medium text-white">Neuroventas: Como Usar la Psicologia para Vender Mas</td>
+                    <td class="px-3 py-3">neuroventas</td>
+                    <td class="px-3 py-3 text-center">590</td>
+                    <td class="px-3 py-3 text-center"><span class="intent-informativo px-2 py-0.5 rounded text-xs">Informativo</span></td>
+                    <td class="px-3 py-3 text-center">2,500</td>
+                    <td class="px-3 py-3 text-xs">Blog + enlace a taller neuroventas EVN</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Resumen del plan -->
+    <div class="grid md:grid-cols-3 gap-4">
+        <div class="glass rounded-xl p-5 text-center">
+            <p class="text-slate-400 text-xs uppercase">Total Palabras Mes 1</p>
+            <p class="text-3xl font-extrabold text-white mt-2">~52,000</p>
+            <p class="text-slate-400 text-sm mt-1">20 articulos</p>
+        </div>
+        <div class="glass rounded-xl p-5 text-center">
+            <p class="text-slate-400 text-xs uppercase">Volumen Keyword Acumulado</p>
+            <p class="text-3xl font-extrabold text-blue-400 mt-2">~18,830</p>
+            <p class="text-slate-400 text-sm mt-1">busquedas/mes targeteadas</p>
+        </div>
+        <div class="glass rounded-xl p-5 text-center">
+            <p class="text-slate-400 text-xs uppercase">Trafico Estimado Mes 3-6</p>
+            <p class="text-3xl font-extrabold text-green-400 mt-2">800-1,500</p>
+            <p class="text-slate-400 text-sm mt-1">visitas organicas/mes</p>
+        </div>
+    </div>
+
+    <div class="glass-lighter rounded-xl p-4">
+        <h4 class="text-sm font-bold text-white mb-2">Estrategia de Interlinking</h4>
+        <p class="text-xs text-slate-400">Cada articulo informativo (9-20) debe enlazar a la pagina comercial correspondiente. Ejemplo: "Tecnicas de Cierre de Ventas" enlaza a /curso-cierre-de-ventas/. "Habilidades de un Vendedor" enlaza a /escuela-de-ventas/. Esto crea clusters tematicos que Google premia con mejor ranking para las paginas transaccionales.</p>
+    </div>
+
+</div>
+
+<!-- ==================== TAB: FEATURED SNIPPETS ==================== -->
+<div id="tab-snippets" class="tab-content space-y-6">
+
+    <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Oportunidades de Featured Snippets</h2>
+        <p class="text-slate-400 text-sm mb-6">Keywords donde Google muestra (o puede mostrar) un featured snippet. Ganar posicion 0 significa aparecer ANTES del primer resultado organico. Estas son preguntas tipo "People Also Ask" que encontramos en las SERPs.</p>
+    </div>
+
+    <!-- Snippet oportunidades -->
+    <div class="space-y-4">
+
+        <div class="glass-green rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-green-500/20 text-green-400 px-2 py-0.5 rounded text-xs font-bold">ALTA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Parrafo</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Que es el cierre de ventas?"</h3>
+            <p class="text-slate-300 text-sm mb-2">Actualmente: Zendesk tiene el snippet con una definicion generica. Oportunidad: Definicion concisa (40-50 palabras) con enfoque practico.</p>
+            <div class="glass-lighter rounded-lg p-3 mt-2">
+                <p class="text-xs text-slate-400 font-semibold mb-1">FORMATO SUGERIDO PARA GANAR EL SNIPPET:</p>
+                <p class="text-sm text-white italic">"El cierre de ventas es la etapa final del proceso comercial donde el vendedor obtiene el compromiso del cliente para comprar. Incluye tecnicas como el cierre directo, el cierre por alternativas y el cierre presuntivo. Es la habilidad mas rentable que un vendedor profesional puede desarrollar."</p>
+            </div>
+        </div>
+
+        <div class="glass-green rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-green-500/20 text-green-400 px-2 py-0.5 rounded text-xs font-bold">ALTA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Lista numerada</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Cuales son las tecnicas de cierre de ventas?"</h3>
+            <p class="text-slate-300 text-sm">Google muestra listas numeradas para esta query. Crear un articulo con H2 "12 Tecnicas de Cierre de Ventas" usando lista ordenada. Incluir: 1) Cierre directo, 2) Cierre por alternativas, 3) Cierre por urgencia, etc.</p>
+        </div>
+
+        <div class="glass-green rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-green-500/20 text-green-400 px-2 py-0.5 rounded text-xs font-bold">ALTA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Lista numerada</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Cuales son las etapas del proceso de ventas?"</h3>
+            <p class="text-slate-300 text-sm">Snippet tipo lista. Crear contenido con las 7 etapas: 1) Prospeccion, 2) Calificacion, 3) Presentacion, 4) Manejo de objeciones, 5) Negociacion, 6) Cierre, 7) Postventa.</p>
+        </div>
+
+        <div class="glass-accent rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-bold">MEDIA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Parrafo</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Que es la venta consultiva?"</h3>
+            <p class="text-slate-300 text-sm">Definicion + diferenciacion vs venta tradicional en 50 palabras. No hay contenido ecuatoriano para esta query.</p>
+        </div>
+
+        <div class="glass-accent rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-bold">MEDIA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Parrafo</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Que habilidades debe tener un vendedor?"</h3>
+            <p class="text-slate-300 text-sm">Actualmente HubSpot domina. Oportunidad con lista tipo "Las 15 habilidades esenciales de un vendedor exitoso" con formato de lista con viñetas.</p>
+        </div>
+
+        <div class="glass-accent rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-bold">MEDIA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Parrafo</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Como manejar las objeciones de un cliente?"</h3>
+            <p class="text-slate-300 text-sm">Perfilcomercial.com ya tiene articulo para esta query. Oportunidad: contenido mas profundo con scripts reales y ejemplos del mercado ecuatoriano.</p>
+        </div>
+
+        <div class="glass-accent rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded text-xs font-bold">MEDIA PROBABILIDAD</span>
+                <span class="text-white font-semibold">Tipo: Lista</span>
+            </div>
+            <h3 class="text-white font-bold mb-2">"Como prospectar clientes?"</h3>
+            <p class="text-slate-300 text-sm">Oportunidad para lista "10 metodos de prospeccion" con enfoque B2B y ejemplos de Ecuador. Salesforce y BBVA dominan pero con contenido generico.</p>
+        </div>
+
+        <div class="glass rounded-xl p-5">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="bg-slate-500/20 text-slate-400 px-2 py-0.5 rounded text-xs font-bold">People Also Ask</span>
+            </div>
+            <h3 class="text-white font-bold mb-3">Preguntas PAA detectadas en las SERPs</h3>
+            <div class="grid md:grid-cols-2 gap-3">
+                <ul class="text-sm text-slate-300 space-y-2">
+                    <li class="glass-lighter rounded px-3 py-2">Como hacer un cierre de ventas efectivo?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Cuantos tipos de cierre de ventas existen?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Que es un closer de ventas?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Cuanto gana un vendedor en Ecuador?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Que se estudia en ventas?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Cuanto cuesta un curso de ventas?</li>
+                </ul>
+                <ul class="text-sm text-slate-300 space-y-2">
+                    <li class="glass-lighter rounded px-3 py-2">Que es la prospeccion de clientes?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Como mejorar las ventas de mi negocio?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Cual es la diferencia entre marketing y ventas?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Que es la venta B2B?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Como motivar a un equipo de ventas?</li>
+                    <li class="glass-lighter rounded px-3 py-2">Que es el coaching comercial?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ==================== TAB: LONG-TAIL ==================== -->
+<div id="tab-longtail" class="tab-content space-y-6">
+
+    <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Keywords Long-Tail con Intencion de Compra</h2>
+        <p class="text-slate-400 text-sm mb-6">Estas son las keywords que busca alguien listo para comprar o inscribirse. Menor volumen pero conversion altisima. Cada una debe tener una landing page o seccion optimizada.</p>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+            <thead>
+                <tr class="text-left text-slate-400 text-xs uppercase tracking-wider">
+                    <th class="px-3 py-3 bg-slate-800/80 rounded-tl-lg">Keyword Long-Tail</th>
+                    <th class="px-3 py-3 bg-slate-800/80 text-center">Vol. Est.</th>
+                    <th class="px-3 py-3 bg-slate-800/80 text-center">Dificultad</th>
+                    <th class="px-3 py-3 bg-slate-800/80 text-center">CPC Ref.</th>
+                    <th class="px-3 py-3 bg-slate-800/80">Intencion Real</th>
+                    <th class="px-3 py-3 bg-slate-800/80 rounded-tr-lg">Pagina Destino</th>
+                </tr>
+            </thead>
+            <tbody class="text-slate-300">
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">curso de ventas presencial quito</td>
+                    <td class="px-3 py-3 text-center">50</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$1.20</td>
+                    <td class="px-3 py-3 text-xs">Quiere inscribirse YA en curso presencial</td>
+                    <td class="px-3 py-3 text-xs">/curso-de-ventas-quito/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">capacitacion en ventas para mi empresa</td>
+                    <td class="px-3 py-3 text-center">30</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$2.50</td>
+                    <td class="px-3 py-3 text-xs">Gerente buscando proveedor de capacitacion</td>
+                    <td class="px-3 py-3 text-xs">/capacitacion-ventas-empresas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">mejor curso de ventas en ecuador</td>
+                    <td class="px-3 py-3 text-center">40</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$1.80</td>
+                    <td class="px-3 py-3 text-xs">Comparando opciones, listo para decidir</td>
+                    <td class="px-3 py-3 text-xs">/donde-estudiar-ventas-quito/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">entrenamiento de ventas in company quito</td>
+                    <td class="px-3 py-3 text-center">20</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$3.00</td>
+                    <td class="px-3 py-3 text-xs">Empresa buscando capacitacion en sus oficinas</td>
+                    <td class="px-3 py-3 text-xs">/entrenamiento-equipos-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">coach de ventas personal quito</td>
+                    <td class="px-3 py-3 text-center">20</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$2.00</td>
+                    <td class="px-3 py-3 text-xs">Busca mentoria individualizada</td>
+                    <td class="px-3 py-3 text-xs">/coaching-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">curso para aprender a vender desde cero</td>
+                    <td class="px-3 py-3 text-center">90</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                    <td class="px-3 py-3 text-center">$0.80</td>
+                    <td class="px-3 py-3 text-xs">Principiante buscando formacion basica</td>
+                    <td class="px-3 py-3 text-xs">/escuela-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">como mejorar las ventas de mi negocio</td>
+                    <td class="px-3 py-3 text-center">110</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                    <td class="px-3 py-3 text-center">$0.60</td>
+                    <td class="px-3 py-3 text-xs">Dueno de negocio con problema real de ventas</td>
+                    <td class="px-3 py-3 text-xs">Blog + CTA a consultoria</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">cuanto cuesta un curso de ventas en quito</td>
+                    <td class="px-3 py-3 text-center">30</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$1.50</td>
+                    <td class="px-3 py-3 text-xs">Comparando precios, cerca de comprar</td>
+                    <td class="px-3 py-3 text-xs">/donde-estudiar-ventas-quito/ (seccion precios)</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">taller de tecnicas de ventas quito</td>
+                    <td class="px-3 py-3 text-center">30</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$1.00</td>
+                    <td class="px-3 py-3 text-xs">Busca formato corto/intensivo</td>
+                    <td class="px-3 py-3 text-xs">/curso-de-ventas-quito/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">capacitacion fuerza de ventas quito guayaquil</td>
+                    <td class="px-3 py-3 text-center">20</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$2.80</td>
+                    <td class="px-3 py-3 text-xs">Empresa con equipos en 2 ciudades</td>
+                    <td class="px-3 py-3 text-xs">/capacitacion-ventas-empresas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">como motivar a mi equipo de ventas</td>
+                    <td class="px-3 py-3 text-center">70</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-media px-2 py-0.5 rounded text-xs font-semibold">Media</span></td>
+                    <td class="px-3 py-3 text-center">$0.50</td>
+                    <td class="px-3 py-3 text-xs">Gerente comercial con dolor real</td>
+                    <td class="px-3 py-3 text-xs">Blog + CTA a programa corporativo</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">curso de neuroventas presencial</td>
+                    <td class="px-3 py-3 text-center">40</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$1.40</td>
+                    <td class="px-3 py-3 text-xs">Busca formato presencial especifico</td>
+                    <td class="px-3 py-3 text-xs">/curso-de-ventas-quito/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">certificacion en ventas ecuador</td>
+                    <td class="px-3 py-3 text-center">30</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$1.60</td>
+                    <td class="px-3 py-3 text-xs">Busca credencial profesional</td>
+                    <td class="px-3 py-3 text-xs">/academia-de-ventas/</td>
+                </tr>
+                <tr class="border-b border-slate-700/30 hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">conferencia de ventas para empresas</td>
+                    <td class="px-3 py-3 text-center">30</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$2.00</td>
+                    <td class="px-3 py-3 text-xs">Busca speaker para evento corporativo</td>
+                    <td class="px-3 py-3 text-xs">Pagina nueva /conferencias/</td>
+                </tr>
+                <tr class="hover:bg-slate-800/30">
+                    <td class="px-3 py-3 font-medium text-white">mentoria comercial para gerentes</td>
+                    <td class="px-3 py-3 text-center">20</td>
+                    <td class="px-3 py-3 text-center"><span class="diff-baja px-2 py-0.5 rounded text-xs font-semibold">Baja</span></td>
+                    <td class="px-3 py-3 text-center">$3.50</td>
+                    <td class="px-3 py-3 text-xs">Alto ticket, decision maker directo</td>
+                    <td class="px-3 py-3 text-xs">/coaching-de-ventas/</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="glass-green rounded-xl p-5">
+        <h3 class="text-white font-bold mb-2">Por que enfocarse en long-tail?</h3>
+        <div class="grid md:grid-cols-3 gap-4 mt-3">
+            <div class="text-center">
+                <p class="text-3xl font-extrabold text-green-400">3-5x</p>
+                <p class="text-sm text-slate-300">Mayor tasa de conversion vs keywords genericas</p>
+            </div>
+            <div class="text-center">
+                <p class="text-3xl font-extrabold text-green-400">Baja</p>
+                <p class="text-sm text-slate-300">Dificultad de ranking (competencia local casi nula)</p>
+            </div>
+            <div class="text-center">
+                <p class="text-3xl font-extrabold text-green-400">$1-3.50</p>
+                <p class="text-sm text-slate-300">CPC referencial (lo que costaria en Google Ads)</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ==================== TAB: COMPETENCIA ==================== -->
+<div id="tab-competencia" class="tab-content space-y-6">
+
+    <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold text-white mb-2">Analisis de Competencia Local</h2>
+        <p class="text-slate-400 text-sm mb-6">Quienes rankean actualmente para las keywords objetivo y que tan dificil es superarlos.</p>
+    </div>
+
+    <!-- Competidor 1 -->
+    <div class="glass rounded-xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <div>
+                <h3 class="text-lg font-bold text-white">Escuela de Ventas y Negocios EVN</h3>
+                <p class="text-slate-400 text-sm">escueladeventasevn.com</p>
+            </div>
+            <span class="bg-amber-500/20 text-amber-400 px-3 py-1 rounded-full text-xs font-bold">COMPETIDOR DIRECTO</span>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Fortalezas</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>+ 20+ anos de experiencia en el mercado</li>
+                    <li>+ Presencia en Educaedu, Facebook</li>
+                    <li>+ Rankea para "escuela de ventas" en Ecuador</li>
+                    <li>+ Ofrece taller de neuroventas</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Debilidades</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>- Sitio en Wix (limitaciones SEO tecnico)</li>
+                    <li>- Sin blog ni contenido informativo</li>
+                    <li>- Sin Schema markup</li>
+                    <li>- Paginas poco optimizadas</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-xs text-green-400 mt-3 font-semibold">VEREDICTO: Superable en 2-3 meses con contenido y SEO tecnico basico.</p>
+    </div>
+
+    <!-- Competidor 2 -->
+    <div class="glass rounded-xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <div>
+                <h3 class="text-lg font-bold text-white">Perfil Comercial</h3>
+                <p class="text-slate-400 text-sm">perfilcomercial.com</p>
+            </div>
+            <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-xs font-bold">COMPETIDOR MAS FUERTE</span>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Fortalezas</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>+ Blog activo con articulos SEO optimizados</li>
+                    <li>+ Schema BlogPosting + Organization implementado</li>
+                    <li>+ Rankea para "capacitacion ventas quito" y "objeciones en ventas"</li>
+                    <li>+ Contenido sobre ROI de capacitacion (diferenciador B2B)</li>
+                    <li>+ Autor identificado (Carlos Lasso) con LinkedIn</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Debilidades</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>- Pocos articulos (menos de 10 estimados)</li>
+                    <li>- Solo enfocado en B2B/corporativo</li>
+                    <li>- No tiene programas para individuos</li>
+                    <li>- Sin presencia en redes sociales fuerte</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-xs text-amber-400 mt-3 font-semibold">VEREDICTO: Mejor ejecutor de SEO local. Superable con volumen de contenido y autoridad de marca de Rolando.</p>
+    </div>
+
+    <!-- Competidor 3 -->
+    <div class="glass rounded-xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <div>
+                <h3 class="text-lg font-bold text-white">Camara de Comercio de Quito (CCQ)</h3>
+                <p class="text-slate-400 text-sm">ccq.edu.ec</p>
+            </div>
+            <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-bold">COMPETIDOR INSTITUCIONAL</span>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Fortalezas</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>+ Autoridad de dominio alta (.edu.ec)</li>
+                    <li>+ Presupuesto institucional</li>
+                    <li>+ Ofrecen "Coaching Comercial" como PDF</li>
+                    <li>+ Backlinks de medios ecuatorianos</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Debilidades</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>- Contenido generico, no especializado en ventas</li>
+                    <li>- Cursos rotativos (no siempre disponibles)</li>
+                    <li>- Sin blog SEO activo</li>
+                    <li>- No compiten directamente en keywords de ventas</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-xs text-green-400 mt-3 font-semibold">VEREDICTO: No es competidor directo. Es potencial aliado (Rolando podria dar cursos en CCQ para backlinks).</p>
+    </div>
+
+    <!-- Competidor 4 -->
+    <div class="glass rounded-xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <div>
+                <h3 class="text-lg font-bold text-white">CEC-EPN (Escuela Politecnica Nacional)</h3>
+                <p class="text-slate-400 text-sm">cec-epn.edu.ec</p>
+            </div>
+            <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-bold">COMPETIDOR INSTITUCIONAL</span>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Fortalezas</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>+ Dominio .edu.ec con alta autoridad</li>
+                    <li>+ Curso "Tecnicas para Ventas Efectivas" a $79</li>
+                    <li>+ Precio muy competitivo para individuos</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-sm font-semibold text-slate-300 mb-2">Debilidades</h4>
+                <ul class="text-xs text-slate-400 space-y-1">
+                    <li>- Curso generico (16 horas, basico)</li>
+                    <li>- No es especialista en ventas</li>
+                    <li>- Sin contenido SEO de ventas</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-xs text-green-400 mt-3 font-semibold">VEREDICTO: Compite en precio ($79 vs lo que Rolando cobra). Diferenciarse por experiencia y profundidad.</p>
+    </div>
+
+    <!-- Competidores internacionales -->
+    <div class="glass rounded-xl p-6">
+        <div class="flex items-center justify-between mb-4">
+            <div>
+                <h3 class="text-lg font-bold text-white">Competidores Internacionales (contenido informativo)</h3>
+                <p class="text-slate-400 text-sm">HubSpot, Zendesk, Salesforce, ForceManager</p>
+            </div>
+            <span class="bg-slate-500/20 text-slate-400 px-3 py-1 rounded-full text-xs font-bold">DOMINAN SERPs INFORMATIVOS</span>
+        </div>
+        <p class="text-sm text-slate-300 mb-3">Estos sitios dominan las keywords informativas ("como cerrar una venta", "tecnicas de cierre", "proceso de ventas") con contenido extenso y bien optimizado. Sin embargo:</p>
+        <ul class="text-sm text-slate-300 space-y-1 ml-4">
+            <li class="text-green-400">+ Su contenido es generico, no localizado para Ecuador</li>
+            <li class="text-green-400">+ No ofrecen cursos presenciales en Quito</li>
+            <li class="text-green-400">+ Rolando puede competir con E-E-A-T real (experiencia de 35 anos)</li>
+            <li class="text-green-400">+ Google cada vez favorece mas el contenido de expertos reales vs contenido corporativo</li>
+        </ul>
+    </div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="relative z-10 glass border-t border-slate-700/50 mt-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-center">
+        <p class="text-slate-500 text-sm">Keyword Research &mdash; Rolando Constante &mdash; Abril 2026</p>
+        <p class="text-slate-600 text-xs mt-1">Preparado por CreativeWeb | Datos basados en Google Search Console + analisis de SERPs en vivo</p>
+    </div>
+</footer>
+
+<script>
+function switchTab(id) {
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    event.target.classList.add('active');
+    window.scrollTo({ top: 200, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>

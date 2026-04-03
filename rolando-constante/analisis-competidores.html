@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis de Competidores - Rolando Constante / Instituto de Prosperidad Constante</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --accent: #ed8936;
+            --success: #38a169;
+            --danger: #e53e3e;
+            --warning: #d69e2e;
+            --light: #f7fafc;
+            --dark: #1a202c;
+            --gray: #718096;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            color: var(--dark);
+            background: var(--light);
+            line-height: 1.6;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 48px 0 36px;
+        }
+        header h1 { font-size: 2rem; margin-bottom: 8px; }
+        header .subtitle { font-size: 1.1rem; opacity: 0.85; }
+        header .meta { margin-top: 16px; font-size: 0.9rem; opacity: 0.7; }
+
+        /* Sections */
+        section { padding: 40px 0; }
+        section:nth-child(even) { background: white; }
+        h2 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 24px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid var(--accent);
+            display: inline-block;
+        }
+        h3 {
+            font-size: 1.15rem;
+            color: var(--secondary);
+            margin: 20px 0 12px;
+        }
+        p, li { font-size: 0.95rem; color: #4a5568; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        a { color: var(--secondary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Cards */
+        .competitor-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .card-header h3 { margin: 0; font-size: 1.25rem; color: var(--primary); }
+        .card-header .badge {
+            background: var(--accent);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .card-url { font-size: 0.85rem; color: var(--gray); margin-bottom: 12px; }
+        .card-detail { margin-bottom: 8px; }
+        .card-detail strong { color: var(--dark); }
+        .card-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+        .tag {
+            background: #ebf8ff;
+            color: var(--secondary);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+            font-weight: 500;
+        }
+        .tag.red { background: #fff5f5; color: var(--danger); }
+        .tag.green { background: #f0fff4; color: var(--success); }
+        .tag.yellow { background: #fffff0; color: var(--warning); }
+
+        /* Tables */
+        .table-wrap { overflow-x: auto; margin: 16px 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+        th {
+            background: var(--primary);
+            color: white;
+            padding: 12px 14px;
+            text-align: left;
+            white-space: nowrap;
+        }
+        td {
+            padding: 10px 14px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+        tr:nth-child(even) { background: #f7fafc; }
+        tr:hover { background: #ebf8ff; }
+        td.highlight { background: #fffff0; font-weight: 600; }
+
+        /* SWOT */
+        .swot-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .swot-box {
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .swot-box h3 { color: white; margin: 0 0 12px; font-size: 1.1rem; }
+        .swot-box ul { padding-left: 18px; }
+        .swot-box li { color: rgba(255,255,255,0.9); margin-bottom: 8px; font-size: 0.9rem; }
+        .swot-s { background: linear-gradient(135deg, #38a169, #2f855a); }
+        .swot-w { background: linear-gradient(135deg, #e53e3e, #c53030); }
+        .swot-o { background: linear-gradient(135deg, #2b6cb0, #2c5282); }
+        .swot-t { background: linear-gradient(135deg, #d69e2e, #b7791f); }
+
+        /* Action items */
+        .action-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .action-card {
+            background: white;
+            border-left: 4px solid var(--danger);
+            border-radius: 0 12px 12px 0;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .action-card.high { border-left-color: var(--danger); }
+        .action-card.medium { border-left-color: var(--warning); }
+        .action-card h4 { color: var(--primary); margin-bottom: 8px; }
+        .action-card p { font-size: 0.88rem; }
+
+        .score-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 4px 0;
+        }
+        .score-bar .fill {
+            height: 100%;
+            border-radius: 4px;
+        }
+        .fill-green { background: var(--success); }
+        .fill-yellow { background: var(--warning); }
+        .fill-red { background: var(--danger); }
+        .fill-blue { background: var(--secondary); }
+
+        footer {
+            background: var(--dark);
+            color: #a0aec0;
+            padding: 24px 0;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .swot-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Analisis de Competidores</h1>
+        <div class="subtitle">Rolando Constante / Instituto de Prosperidad Constante</div>
+        <div class="subtitle">constante.ec &middot; rolandoconstante.com</div>
+        <div class="meta">Preparado por CreativeWeb &middot; Abril 2026</div>
+    </div>
+</header>
+
+<!-- ==================== SECCION 1: COMPETIDORES ==================== -->
+<section>
+    <div class="container">
+        <h2>1. Los 5 Competidores Principales</h2>
+        <p style="margin-bottom:24px;">Se identificaron competidores en dos categorias: <strong>locales (Ecuador)</strong> que compiten por el mismo mercado presencial y corporativo, y <strong>online LATAM</strong> que capturan trafico organico y audiencia digital en las mismas keywords.</p>
+
+        <div class="competitor-grid">
+
+            <!-- COMPETIDOR 1 -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <h3>1. Perfil Comercial - Carlos Lasso</h3>
+                        <div class="card-url"><a href="https://perfilcomercial.com" target="_blank">perfilcomercial.com</a></div>
+                    </div>
+                    <span class="badge">LOCAL - Quito, Ecuador</span>
+                </div>
+                <div class="card-detail"><strong>Fundador:</strong> Msc. Carlos Lasso Sanchez - Master en Negocios Internacionales (Univ. Camilo Jose Cela, Madrid), Ingeniero Empresarial (UTE Quito), Trainer of Trainers por SETEC.</div>
+                <div class="card-detail"><strong>Experiencia:</strong> +400 empresas capacitadas, +6,000 profesionales entrenados.</div>
+                <div class="card-detail"><strong>Cursos:</strong> Estrategias de Ventas (in-company B2B), Atencion al Cliente, Negociacion, Coaching Comercial, Seleccion de Vendedores. Enfocado en ventas complejas y de alto valor para pymes B2B.</div>
+                <div class="card-detail"><strong>Precios:</strong> No publicados (cotizacion personalizada in-company). Estimacion: $500-$2,000+ por programa corporativo.</div>
+                <div class="card-detail"><strong>Clientes corporativos:</strong> Corporacion Favorita, Pronaca, ArcaContinental, Seguros Equinoccial, Danec, BGR, Fideval.</div>
+                <div class="card-detail"><strong>Blog SEO:</strong> SI - tiene blog en perfilcomercial.com/blog/ con articulos sobre marketing, ventas, servicio al cliente, negociacion y estrategias de negocios.</div>
+                <div class="card-detail"><strong>Plataforma:</strong> WordPress + Astra. No tiene cursos online (solo presencial in-company).</div>
+                <div class="card-detail"><strong>Redes sociales:</strong> Facebook (@perfilcomercial), Twitter (@PerfilEcuador), LinkedIn (perfil-comercial).</div>
+                <div class="card-detail"><strong>Servicios adicionales:</strong> Asesoria en Marketing Digital y Posicionamiento SEO, Plan Estrategico Digital, Consultoria Comercial Estrategica.</div>
+                <div class="card-tags">
+                    <span class="tag green">Blog activo</span>
+                    <span class="tag green">SEO propio</span>
+                    <span class="tag">B2B focus</span>
+                    <span class="tag">In-company</span>
+                    <span class="tag yellow">Sin cursos online</span>
+                </div>
+            </div>
+
+            <!-- COMPETIDOR 2 -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <h3>2. Escuela de Ventas y Negocios (EVN)</h3>
+                        <div class="card-url"><a href="https://www.escueladeventasevn.com" target="_blank">escueladeventasevn.com</a></div>
+                    </div>
+                    <span class="badge">LOCAL - Quito, Ecuador</span>
+                </div>
+                <div class="card-detail"><strong>Experiencia:</strong> +20 anos en el mercado ecuatoriano.</div>
+                <div class="card-detail"><strong>Cursos:</strong> Escuela de Ventas (16h, 2 dias), Atencion al Cliente (16h), Team Building y Outdoor (8h), Habilidades Sociales: Comunicacion Efectiva e Inteligencia Emocional (8h). Tambien: seminarios, convenciones de ventas, talleres outdoor.</div>
+                <div class="card-detail"><strong>Precios:</strong> No publicados (programas in-company personalizados).</div>
+                <div class="card-detail"><strong>Metodologia:</strong> Experiencial basada en desarrollo personal, soft skills, pensamiento logico y creativo.</div>
+                <div class="card-detail"><strong>Blog SEO:</strong> NO detectado. Plataforma Wix (limitada para SEO).</div>
+                <div class="card-detail"><strong>Plataforma:</strong> Wix (Thunderbolt). No tiene cursos online.</div>
+                <div class="card-detail"><strong>Redes sociales:</strong> Facebook (EscueladeVentasEVN - activa).</div>
+                <div class="card-detail"><strong>Cobertura:</strong> Nacional (Quito, Guayaquil, otras ciudades).</div>
+                <div class="card-tags">
+                    <span class="tag red">Sin blog</span>
+                    <span class="tag red">Wix (malo para SEO)</span>
+                    <span class="tag">Presencial</span>
+                    <span class="tag">20+ anos</span>
+                    <span class="tag yellow">Sin cursos online</span>
+                </div>
+            </div>
+
+            <!-- COMPETIDOR 3 -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <h3>3. Alfredo Perez - Escuela de Vendedores</h3>
+                        <div class="card-url"><a href="https://www.escueladevendedores.com" target="_blank">escueladevendedores.com</a></div>
+                    </div>
+                    <span class="badge">LOCAL - Guayaquil, Ecuador</span>
+                </div>
+                <div class="card-detail"><strong>Fundador:</strong> Alfredo Perez - 30 anos de experiencia en ventas.</div>
+                <div class="card-detail"><strong>Cursos:</strong> Tecnicas de Ventas, cierre de ventas ("Cierra mas ventas" es su tagline). Enfoque presencial y corporativo.</div>
+                <div class="card-detail"><strong>Precios:</strong> No publicados.</div>
+                <div class="card-detail"><strong>Blog SEO:</strong> Practicamente inexistente - solo 1 articulo encontrado indexado (de 2013). Cero estrategia de contenido.</div>
+                <div class="card-detail"><strong>Plataforma:</strong> WordPress basico. Sin plataforma de cursos online.</div>
+                <div class="card-detail"><strong>Redes sociales:</strong> LinkedIn (alfredoideas).</div>
+                <div class="card-detail"><strong>Contacto:</strong> alfredo@escueladevendedores.com, (099) 700-2220.</div>
+                <div class="card-tags">
+                    <span class="tag red">Blog muerto (1 post 2013)</span>
+                    <span class="tag red">Sin SEO</span>
+                    <span class="tag">Presencial</span>
+                    <span class="tag">30 anos exp.</span>
+                    <span class="tag yellow">Sin cursos online</span>
+                </div>
+            </div>
+
+            <!-- COMPETIDOR 4 -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <h3>4. Ventas de Alto Octanaje (VAO) - Enrique Vidal</h3>
+                        <div class="card-url"><a href="https://www.ventasdealtooctanaje.com" target="_blank">ventasdealtooctanaje.com</a></div>
+                    </div>
+                    <span class="badge">ONLINE - LATAM (Espana/Mexico/LATAM)</span>
+                </div>
+                <div class="card-detail"><strong>Fundador:</strong> Enrique Vidal - MBA Marketing y Ventas, CEO y Fundador.</div>
+                <div class="card-detail"><strong>Experiencia:</strong> +20 anos en venta consultiva para empresas industriales/ingenieria.</div>
+                <div class="card-detail"><strong>Cursos:</strong> Tecnicas de Ventas para Ingenieros, Cierre de Ventas y Negociacion, Prospeccion B2B, Venta Consultiva para Empresas, Academia de Venta Consultiva (programa completo). In-company + online.</div>
+                <div class="card-detail"><strong>Precios:</strong> Cursos online desde 150EUR (~$165 USD) hasta 320EUR (~$350 USD). Programas in-company: cotizacion.</div>
+                <div class="card-detail"><strong>Resultados prometidos:</strong> +25% incremento en ingresos por ventas, +20% mejora en satisfaccion del cliente.</div>
+                <div class="card-detail"><strong>Blog SEO:</strong> MUY ACTIVO - decenas de articulos indexados sobre prospeccion, cierre, organizacion de equipos, capacitacion. Articulos largos, bien estructurados con H2/H3, publicaciones recientes (enero 2026). ESTA ES LA MAYOR AMENAZA SEO.</div>
+                <div class="card-detail"><strong>Plataforma:</strong> WordPress. Plataforma propia de cursos online.</div>
+                <div class="card-detail"><strong>Redes sociales:</strong> Presencia activa en LinkedIn y redes profesionales.</div>
+                <div class="card-tags">
+                    <span class="tag green">Blog SEO muy activo</span>
+                    <span class="tag green">Cursos online</span>
+                    <span class="tag green">Contenido reciente 2026</span>
+                    <span class="tag">B2B industrial</span>
+                    <span class="tag">Espana + LATAM</span>
+                </div>
+            </div>
+
+            <!-- COMPETIDOR 5 -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <h3>5. Jurgen Klaric - BiiA Lab / Neuroventas</h3>
+                        <div class="card-url"><a href="https://www.jurgenklaric.com/es/cursos" target="_blank">jurgenklaric.com</a> &middot; <a href="https://biialab.org" target="_blank">biialab.org</a></div>
+                    </div>
+                    <span class="badge">ONLINE - LATAM Global</span>
+                </div>
+                <div class="card-detail"><strong>Fundador:</strong> Jurgen Klaric - considerado el #1 divulgador de neurociencias aplicadas a ventas y negocios en habla hispana.</div>
+                <div class="card-detail"><strong>Cursos:</strong> Master Training Neuroventas 3.0, Neuroventas para Redes Sociales, Vendele a la Mente, NeuroCopy y Escritura Persuasiva, Marketing y Ventas de Cursos Online. Pack completo de todos los cursos.</div>
+                <div class="card-detail"><strong>Precios:</strong> Pack completo: $59.99 (acceso vitalicio vs $5,673 individual). Cursos individuales: $6 - $297 dependiendo de la oferta. Master Training: precio premium con cupo limitado.</div>
+                <div class="card-detail"><strong>Alcance:</strong> Millones de seguidores en redes sociales. Speaker internacional con giras por toda Latinoamerica.</div>
+                <div class="card-detail"><strong>Blog SEO:</strong> Contenido masivo en YouTube y redes, menor enfoque en blog escrito. Su marca personal es su motor de trafico.</div>
+                <div class="card-detail"><strong>Plataforma:</strong> BiiA Lab (plataforma propia) + Hotmart. +2,000 miembros activos.</div>
+                <div class="card-detail"><strong>Redes sociales:</strong> YouTube (millones de views), Instagram, Facebook, LinkedIn, TikTok. Audiencia masiva LATAM.</div>
+                <div class="card-tags">
+                    <span class="tag green">Marca personal gigante</span>
+                    <span class="tag green">Plataforma propia + Hotmart</span>
+                    <span class="tag green">YouTube masivo</span>
+                    <span class="tag">Precios agresivos</span>
+                    <span class="tag">LATAM completo</span>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 style="margin-top:32px;">Menciones honorificas (competidores secundarios)</h3>
+        <ul>
+            <li><strong>Escuela de Negocios CCQ (Camara de Comercio de Quito)</strong> - <a href="https://www.ccq.edu.ec" target="_blank">ccq.edu.ec</a> - Cursos ejecutivos, diplomados, respaldo institucional fuerte. No es competencia directa 1:1 pero captura trafico "curso ventas quito".</li>
+            <li><strong>CEC-EPN (Escuela Politecnica Nacional)</strong> - <a href="https://www.cec-epn.edu.ec/cursos/categorias/tecnicas-de-ventas" target="_blank">cec-epn.edu.ec</a> - "Tecnicas para Ventas Efectivas" y "Direccion Comercial". Respaldo academico. Cursos online y presenciales.</li>
+            <li><strong>Escuela de Empresas USFQ</strong> - <a href="https://escueladeempresas.usfq.edu.ec" target="_blank">escueladeempresas.usfq.edu.ec</a> - Tecnicas de venta, prospeccion, negociacion. Marca universitaria fuerte.</li>
+            <li><strong>Conference Capacitacion Empresarial</strong> - <a href="https://www.conference.ec" target="_blank">conference.ec</a> - 12 anos organizando seminarios. Temas contables, tributarios, ventas, importaciones.</li>
+            <li><strong>Edutin Academy</strong> - <a href="https://edutin.com/curso-de-ventas" target="_blank">edutin.com</a> - Curso de ventas GRATIS con certificado. Compite por keywords informacionales.</li>
+            <li><strong>Cursos en Udemy</strong> - Multiples cursos de ventas desde $9.99 - $49.99 en espanol. Compiten directamente en precio con el curso online de Rolando ($57.99).</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ==================== SECCION 2: TABLA COMPARATIVA ==================== -->
+<section>
+    <div class="container">
+        <h2>2. Tabla Comparativa: Rolando vs Competidores</h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Criterio</th>
+                        <th style="background:#ed8936;">Rolando Constante</th>
+                        <th>Perfil Comercial (Lasso)</th>
+                        <th>EVN</th>
+                        <th>Escuela Vendedores (Perez)</th>
+                        <th>VAO (Vidal)</th>
+                        <th>Jurgen Klaric</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Ubicacion</strong></td>
+                        <td class="highlight">Quito, Ecuador</td>
+                        <td>Quito, Ecuador</td>
+                        <td>Quito, Ecuador</td>
+                        <td>Guayaquil, Ecuador</td>
+                        <td>Espana (LATAM)</td>
+                        <td>LATAM global</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Anos experiencia</strong></td>
+                        <td class="highlight">35+ anos (desde 1998)</td>
+                        <td>10+ anos</td>
+                        <td>20+ anos</td>
+                        <td>30 anos</td>
+                        <td>20+ anos</td>
+                        <td>15+ anos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Alcance capacitaciones</strong></td>
+                        <td class="highlight">7,000+ conferencias, 4,200+ seminarios, 5,000+ capacitaciones</td>
+                        <td>400+ empresas, 6,000+ profesionales</td>
+                        <td>Cobertura nacional</td>
+                        <td>No especificado</td>
+                        <td>Espana + LATAM industrial</td>
+                        <td>Millones (global)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Clientes corporativos</strong></td>
+                        <td class="highlight">Nissan, Renault, Great Wall, Hilton, Netlife, Ford, Fybeca, Toyota, ProduBanco</td>
+                        <td>Corp. Favorita, Pronaca, ArcaContinental, Seguros Equinoccial, Danec</td>
+                        <td>No publicados</td>
+                        <td>No publicados</td>
+                        <td>Empresas industriales B2B</td>
+                        <td>Marcas globales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cursos presenciales</strong></td>
+                        <td class="highlight">Escuela de Ventas, Certificacion SENESCYT, Gerencia Comercial</td>
+                        <td>Ventas B2B, Atencion al Cliente, Negociacion</td>
+                        <td>Ventas (16h), Servicio (16h), Team Building (8h)</td>
+                        <td>Tecnicas de Ventas</td>
+                        <td>In-company industrial</td>
+                        <td>Conferencias/giras presenciales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cursos online</strong></td>
+                        <td class="highlight">SI - Curso de Ventas ($57.99), Cierre a la N ($47) via Hotmart</td>
+                        <td>NO</td>
+                        <td>NO</td>
+                        <td>NO</td>
+                        <td>SI - desde 150 EUR (~$165)</td>
+                        <td>SI - desde $6 hasta $297, pack $59.99</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Metodologia propia</strong></td>
+                        <td class="highlight">SI - Metodo PAICODOCI</td>
+                        <td>Coaching comercial personalizado</td>
+                        <td>Experiencial / soft skills</td>
+                        <td>No especificada</td>
+                        <td>Venta consultiva B2B</td>
+                        <td>Neuroventas / neurociencias</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Certificacion oficial</strong></td>
+                        <td class="highlight">SI - Visualizada en SENESCYT</td>
+                        <td>Trainer of Trainers SETEC</td>
+                        <td>No especificada</td>
+                        <td>No especificada</td>
+                        <td>Certificado propio</td>
+                        <td>Certificado BiiA Lab</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Blog / SEO</strong></td>
+                        <td class="highlight" style="background:#fff5f5;">NO - Cero articulos indexados</td>
+                        <td>SI - Blog activo + ofrece servicios SEO</td>
+                        <td>NO</td>
+                        <td>NO (1 post de 2013)</td>
+                        <td>SI - MUY ACTIVO, decenas de articulos</td>
+                        <td>YouTube como blog (millones views)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trafico organico</strong></td>
+                        <td class="highlight" style="background:#fff5f5;">745 usuarios en 3 anos (muy bajo)</td>
+                        <td>Moderado (blog + SEO propio)</td>
+                        <td>Bajo (Wix limita SEO)</td>
+                        <td>Minimo</td>
+                        <td>ALTO (blog SEO agresivo)</td>
+                        <td>MUY ALTO (marca personal + YouTube)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Plataforma web</strong></td>
+                        <td class="highlight">WordPress + Elementor Pro</td>
+                        <td>WordPress + Astra</td>
+                        <td>Wix</td>
+                        <td>WordPress basico</td>
+                        <td>WordPress</td>
+                        <td>Web propia + BiiA Lab + Hotmart</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tracking/Analytics</strong></td>
+                        <td class="highlight">GA4, GTM, Facebook Pixel, HubSpot, Hotmart</td>
+                        <td>GTM</td>
+                        <td>Basico (Wix)</td>
+                        <td>No detectado</td>
+                        <td>GTM, Analytics</td>
+                        <td>Full stack enterprise</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Redes sociales</strong></td>
+                        <td class="highlight">Facebook, Instagram, LinkedIn, YouTube, Twitter</td>
+                        <td>Facebook, Twitter, LinkedIn</td>
+                        <td>Facebook</td>
+                        <td>LinkedIn</td>
+                        <td>LinkedIn, web</td>
+                        <td>TODAS (audiencia masiva)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fuente principal trafico</strong></td>
+                        <td class="highlight" style="background:#fff5f5;">Meta Ads (5,177) + Directo (4,419). Google organic solo 745.</td>
+                        <td>SEO + referidos</td>
+                        <td>Directo + Facebook</td>
+                        <td>Directo</td>
+                        <td>SEO organico (blog)</td>
+                        <td>YouTube + redes + SEO</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Precio curso online</strong></td>
+                        <td class="highlight">$47 - $57.99</td>
+                        <td>N/A (no tiene)</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>$165 - $350 (EUR)</td>
+                        <td>$6 - $297 (pack $59.99)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== SECCION 3: SWOT ==================== -->
+<section>
+    <div class="container">
+        <h2>3. Analisis SWOT - Rolando Constante vs Competencia</h2>
+        <div class="swot-grid">
+            <div class="swot-box swot-s">
+                <h3>FORTALEZAS (Strengths)</h3>
+                <ul>
+                    <li><strong>Experiencia inigualable:</strong> 35+ anos, 7,000+ conferencias, 4,200+ seminarios. Ningun competidor local se acerca a estos numeros.</li>
+                    <li><strong>Clientes corporativos de primer nivel:</strong> Nissan, Toyota, Ford, Hilton, ProduBanco, Fybeca. Portafolio mas impresionante que cualquier competidor ecuatoriano.</li>
+                    <li><strong>Certificacion SENESCYT:</strong> Unico competidor local con certificacion visualizada en SENESCYT. Ventaja diferencial enorme para venta corporativa.</li>
+                    <li><strong>Metodologia propia PAICODOCI:</strong> Framework diferenciado y propietario. Los competidores locales no tienen algo equivalente.</li>
+                    <li><strong>Ya tiene cursos online en Hotmart:</strong> Ventaja sobre EVN, Perfil Comercial y Escuela de Vendedores que NO tienen presencia online.</li>
+                    <li><strong>Stack tecnologico completo:</strong> GA4, GTM, Facebook Pixel, HubSpot, Hotmart. Mejor infraestructura de tracking que cualquier competidor local.</li>
+                    <li><strong>Precios competitivos online:</strong> $47-$57.99 es accesible vs VAO ($165-$350) aunque compite con Udemy ($9.99-$49.99).</li>
+                </ul>
+            </div>
+            <div class="swot-box swot-w">
+                <h3>DEBILIDADES (Weaknesses)</h3>
+                <ul>
+                    <li><strong>CERO estrategia SEO/contenido:</strong> No tiene blog. Solo 745 visitas organicas en 3 anos. Es la debilidad mas critica y urgente.</li>
+                    <li><strong>Dependencia total de paid media:</strong> 5,177 de 16,404 usuarios (31.5%) vienen de Meta Ads. Si se corta el presupuesto, el trafico se desploma.</li>
+                    <li><strong>Trafico total muy bajo:</strong> 16,404 usuarios en 3 anos = ~455/mes promedio. Para un experto con 35 anos de experiencia, esto es extremadamente bajo.</li>
+                    <li><strong>Sin blog = sin autoridad de dominio:</strong> Google no puede posicionar lo que no existe. No rankea para ninguna keyword de ventas/capacitacion.</li>
+                    <li><strong>Web sin contenido educativo gratuito:</strong> No hay recursos, guias, tips, videos embebidos que atraigan trafico y generen confianza.</li>
+                    <li><strong>Precios de cursos online no visibles en web:</strong> Los precios estan solo en Hotmart. Friccion adicional para el comprador.</li>
+                    <li><strong>Sin estrategia de YouTube:</strong> Con 35 anos de conferencias, deberia tener cientos de videos. Recurso desperdiciado.</li>
+                    <li><strong>Marca personal sub-explotada online:</strong> Offline es reconocido, pero online su presencia no refleja su trayectoria.</li>
+                </ul>
+            </div>
+            <div class="swot-box swot-o">
+                <h3>OPORTUNIDADES (Opportunities)</h3>
+                <ul>
+                    <li><strong>Competidores locales NO hacen SEO:</strong> EVN usa Wix, Escuela de Vendedores tiene 1 post de 2013. Si Rolando empieza a publicar contenido, domina el mercado local rapido.</li>
+                    <li><strong>Keywords sin competencia local fuerte:</strong> "curso de ventas quito", "capacitacion en ventas ecuador", "escuela de ventas ecuador" estan dominadas por agregadores (Educaedu, Emagister), no por competidores directos.</li>
+                    <li><strong>Perfil Comercial es el unico con blog pero es generalista:</strong> Rolando puede superarlo con contenido especializado en ventas puras.</li>
+                    <li><strong>SENESCYT como diferenciador SEO:</strong> Crear contenido alrededor de "certificacion en ventas SENESCYT" - keyword con intencion comercial alta y cero competencia.</li>
+                    <li><strong>Metodo PAICODOCI como asset de contenido:</strong> Crear serie de articulos/videos explicando el metodo. Contenido unico que nadie puede copiar.</li>
+                    <li><strong>YouTube con extractos de 7,000+ conferencias:</strong> Repositorio masivo de contenido ya grabado que se puede reutilizar como shorts, reels, articulos de blog.</li>
+                    <li><strong>Cursos online a precio accesible vs VAO/Klaric:</strong> Posicionarse como la opcion con mejor relacion experiencia/precio en LATAM.</li>
+                    <li><strong>HubSpot ya instalado:</strong> Puede crear funnels de email marketing con lead magnets (ej: "Guia PAICODOCI gratuita") para capturar leads organicos.</li>
+                </ul>
+            </div>
+            <div class="swot-box swot-t">
+                <h3>AMENAZAS (Threats)</h3>
+                <ul>
+                    <li><strong>VAO domina el SEO en espanol:</strong> Blog agresivo con contenido reciente (2026), posiciona para keywords clave de ventas B2B. Si Rolando no actua, VAO captura todo el trafico LATAM.</li>
+                    <li><strong>Jurgen Klaric captura la audiencia masiva:</strong> Con marca personal gigante y precios desde $6, es inalcanzable en volumen. Pero su nicho es diferente (neuroventas general vs. ventas corporativas).</li>
+                    <li><strong>Udemy con precios de $9.99-$19.99:</strong> Compite directamente con los $47-$57.99 de Rolando. Estudiantes price-sensitive eligen Udemy.</li>
+                    <li><strong>Edutin ofrece curso GRATIS con certificado:</strong> Captura trafico informacional que deberia ir a Rolando.</li>
+                    <li><strong>Universidades entran al juego:</strong> CCQ, EPN, USFQ ofrecen cursos de ventas con respaldo academico. Para corporativos, un diploma universitario puede pesar mas.</li>
+                    <li><strong>Sin SEO, la brecha se agranda cada mes:</strong> VAO y Perfil Comercial estan construyendo autoridad de dominio. Cada mes que Rolando no publica, es mas dificil alcanzarlos.</li>
+                    <li><strong>Carlos Lasso tambien ofrece SEO/marketing digital:</strong> Perfil Comercial no solo capacita en ventas sino que entiende marketing digital. Podria escalar su presencia online rapido.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== SECCION 4: QUE HACEN BIEN LOS COMPETIDORES ==================== -->
+<section>
+    <div class="container">
+        <h2>4. Que Hacen Bien los Competidores que Rolando NO Hace</h2>
+        <p style="margin-bottom: 24px;">Estas son las brechas criticas donde los competidores llevan ventaja y que representan las oportunidades mas urgentes para Rolando.</p>
+
+        <div class="action-grid">
+            <div class="action-card high">
+                <h4>1. Blog SEO con contenido regular (VAO, Perfil Comercial)</h4>
+                <p><strong>Que hacen ellos:</strong> VAO publica articulos largos (+2,000 palabras) sobre prospeccion, cierre, organizacion de equipos, tecnicas de venta. Tiene decenas de articulos indexados con publicaciones recientes (enero 2026). Perfil Comercial tiene blog activo con temas de ventas, marketing, negociacion.</p>
+                <p><strong>Que NO hace Rolando:</strong> Cero articulos de blog. Cero contenido indexable. Su web es puramente comercial/institucional.</p>
+                <p><strong>Impacto:</strong> Rolando pierde todo el trafico organico de keywords como "tecnicas de cierre de ventas", "como capacitar equipo de ventas", "metodos de prospeccion comercial". Estas busquedas las captura VAO.</p>
+                <div class="score-bar"><div class="fill fill-red" style="width:95%"></div></div>
+                <small style="color:var(--danger);">Urgencia: CRITICA</small>
+            </div>
+
+            <div class="action-card high">
+                <h4>2. YouTube como canal de contenido (Klaric, VAO)</h4>
+                <p><strong>Que hacen ellos:</strong> Klaric tiene millones de views en YouTube con contenido de neuroventas. VAO tiene contenido educativo que alimenta su blog y redes.</p>
+                <p><strong>Que NO hace Rolando:</strong> Tiene canal de YouTube pero sub-utilizado. Con 7,000+ conferencias grabadas, deberia tener un repositorio masivo de contenido. No hay estrategia de shorts/reels.</p>
+                <p><strong>Impacto:</strong> YouTube es el segundo buscador del mundo. Rolando deja dinero sobre la mesa cada dia que no sube extractos de sus conferencias.</p>
+                <div class="score-bar"><div class="fill fill-red" style="width:90%"></div></div>
+                <small style="color:var(--danger);">Urgencia: CRITICA</small>
+            </div>
+
+            <div class="action-card high">
+                <h4>3. Posicionamiento SEO local para keywords comerciales (Perfil Comercial)</h4>
+                <p><strong>Que hacen ellos:</strong> Perfil Comercial no solo tiene blog, sino que ofrece servicios de SEO y marketing digital. Entienden como posicionarse en Google y lo aplican a su propio negocio.</p>
+                <p><strong>Que NO hace Rolando:</strong> No tiene ni una sola pagina optimizada para "curso de ventas quito", "capacitacion en ventas ecuador" o "escuela de ventas quito". Las SERPs estan dominadas por agregadores (Educaedu, Emagister) que son faciles de superar con contenido propio.</p>
+                <p><strong>Impacto:</strong> Alguien que busca "curso de ventas quito" nunca encontrara a Rolando Constante en Google. Va a encontrar a Perfil Comercial, EVN, CCQ, EPN.</p>
+                <div class="score-bar"><div class="fill fill-red" style="width:92%"></div></div>
+                <small style="color:var(--danger);">Urgencia: CRITICA</small>
+            </div>
+
+            <div class="action-card medium">
+                <h4>4. Lead magnets y funnels de email (Klaric, VAO)</h4>
+                <p><strong>Que hacen ellos:</strong> Klaric tiene funnels completos con webinars gratuitos, descuentos temporales, packs. VAO tiene formularios de captacion en cada articulo del blog.</p>
+                <p><strong>Que NO hace Rolando:</strong> Tiene HubSpot instalado (!) pero no hay evidencia de lead magnets, guias descargables, webinars gratuitos ni secuencias de email automatizadas.</p>
+                <p><strong>Impacto:</strong> HubSpot esta pagandose pero subutilizado. Sin lead magnets no hay captacion de leads frios que puedan convertirse en compradores de cursos.</p>
+                <div class="score-bar"><div class="fill fill-yellow" style="width:75%"></div></div>
+                <small style="color:var(--warning);">Urgencia: ALTA</small>
+            </div>
+
+            <div class="action-card medium">
+                <h4>5. Paginas de aterrizaje optimizadas por curso (VAO, Klaric)</h4>
+                <p><strong>Que hacen ellos:</strong> VAO tiene una pagina dedicada para cada curso (Ventas para Ingenieros, Cierre de Ventas, Prospeccion B2B) con SEO on-page, testimonios, CTA claros y precios visibles.</p>
+                <p><strong>Que NO hace Rolando:</strong> Los cursos online de Rolando solo viven en Hotmart. La web propia tiene descripciones genericas sin paginas dedicadas con precios, testimonios, FAQ, contenido SEO.</p>
+                <p><strong>Impacto:</strong> Google no puede posicionar una pagina de Hotmart para Rolando. Necesita landing pages propias en rolandoconstante.com para cada producto.</p>
+                <div class="score-bar"><div class="fill fill-yellow" style="width:80%"></div></div>
+                <small style="color:var(--warning);">Urgencia: ALTA</small>
+            </div>
+
+            <div class="action-card medium">
+                <h4>6. Contenido educativo gratuito como puerta de entrada (Klaric, Edutin, VAO)</h4>
+                <p><strong>Que hacen ellos:</strong> Edutin ofrece curso de ventas 100% gratis con certificado. Klaric ofrece webinars gratuitos. VAO tiene articulos profundos de libre acceso. Todo esto genera confianza y top-of-funnel.</p>
+                <p><strong>Que NO hace Rolando:</strong> La web ofrece una "sesion gratuita de 45 minutos" pero no hay recursos educativos autonomos (PDFs, mini-cursos, videos abiertos, guias).</p>
+                <p><strong>Impacto:</strong> El comprador moderno investiga antes de comprar. Sin contenido gratuito que demuestre expertise, Rolando pierde la fase de descubrimiento del buyer journey.</p>
+                <div class="score-bar"><div class="fill fill-yellow" style="width:70%"></div></div>
+                <small style="color:var(--warning);">Urgencia: ALTA</small>
+            </div>
+
+            <div class="action-card medium">
+                <h4>7. Social proof visible y actualizada (Perfil Comercial, Klaric)</h4>
+                <p><strong>Que hacen ellos:</strong> Perfil Comercial muestra logos de clientes corporativos en la home. Klaric muestra contadores de estudiantes y testimonios en video.</p>
+                <p><strong>Que NO hace Rolando:</strong> Los logos de Nissan, Toyota, Ford, Hilton estan en la web pero no hay testimonios en video, casos de estudio detallados, ni numeros de impacto (ej: "incrementamos ventas de X empresa en Y%").</p>
+                <p><strong>Impacto:</strong> Rolando tiene los MEJORES clientes corporativos del mercado ecuatoriano pero no los aprovecha como activo de marketing/contenido.</p>
+                <div class="score-bar"><div class="fill fill-blue" style="width:65%"></div></div>
+                <small style="color:var(--secondary);">Urgencia: MEDIA</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== SECCION 5: RESUMEN EJECUTIVO ==================== -->
+<section style="background: linear-gradient(135deg, #1a365d, #2b6cb0); color: white; padding: 48px 0;">
+    <div class="container">
+        <h2 style="color: white; border-bottom-color: var(--accent);">5. Resumen Ejecutivo y Recomendacion Estrategica</h2>
+
+        <div style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 24px; margin-bottom: 24px;">
+            <h3 style="color: var(--accent); margin-top: 0;">La verdad sobre la situacion competitiva</h3>
+            <p style="color: rgba(255,255,255,0.9); font-size: 1rem;">
+                Rolando Constante tiene <strong>la mejor materia prima del mercado ecuatoriano</strong>: 35+ anos, 7,000+ conferencias, clientes como Toyota/Nissan/Ford, certificacion SENESCYT y un metodo propio. Sin embargo, online es practicamente invisible. Con solo 745 visitas organicas en 3 anos, esta dejando que competidores con menos experiencia (Perfil Comercial con 10 anos, EVN con Wix) capturen el mercado digital.
+            </p>
+            <p style="color: rgba(255,255,255,0.9); font-size: 1rem;">
+                La buena noticia: <strong>la competencia local es debil en SEO</strong>. EVN usa Wix (mala plataforma para SEO), Escuela de Vendedores tiene 1 post de 2013, y Perfil Comercial es el unico con blog pero es generalista. Si Rolando implementa una estrategia de contenido agresiva, puede dominar las SERPs locales en 6-12 meses.
+            </p>
+        </div>
+
+        <h3 style="color: var(--accent);">Plan de accion priorizado</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
+            <div style="background: rgba(255,255,255,0.15); border-radius: 8px; padding: 16px;">
+                <strong style="color: var(--accent);">MES 1-2: Fundacion SEO</strong>
+                <ul style="margin-top: 8px;">
+                    <li style="color: rgba(255,255,255,0.85);">Crear blog en rolandoconstante.com</li>
+                    <li style="color: rgba(255,255,255,0.85);">Publicar 8-10 articulos pilares (2,000+ palabras cada uno)</li>
+                    <li style="color: rgba(255,255,255,0.85);">Keywords target: "curso de ventas quito", "capacitacion ventas ecuador", "tecnicas de cierre", "certificacion ventas SENESCYT"</li>
+                    <li style="color: rgba(255,255,255,0.85);">Crear landing pages dedicadas para cada curso online</li>
+                </ul>
+            </div>
+            <div style="background: rgba(255,255,255,0.15); border-radius: 8px; padding: 16px;">
+                <strong style="color: var(--accent);">MES 2-3: YouTube + Lead Magnets</strong>
+                <ul style="margin-top: 8px;">
+                    <li style="color: rgba(255,255,255,0.85);">Subir 20-30 clips de conferencias a YouTube (3-10 min)</li>
+                    <li style="color: rgba(255,255,255,0.85);">Crear shorts/reels de los mejores momentos</li>
+                    <li style="color: rgba(255,255,255,0.85);">Crear lead magnet: "Guia del Metodo PAICODOCI"</li>
+                    <li style="color: rgba(255,255,255,0.85);">Configurar secuencia de email en HubSpot</li>
+                </ul>
+            </div>
+            <div style="background: rgba(255,255,255,0.15); border-radius: 8px; padding: 16px;">
+                <strong style="color: var(--accent);">MES 3-6: Escalar contenido</strong>
+                <ul style="margin-top: 8px;">
+                    <li style="color: rgba(255,255,255,0.85);">4 articulos de blog por mes (minimo)</li>
+                    <li style="color: rgba(255,255,255,0.85);">Casos de estudio con clientes corporativos</li>
+                    <li style="color: rgba(255,255,255,0.85);">Testimonios en video de gerentes capacitados</li>
+                    <li style="color: rgba(255,255,255,0.85);">Schema markup para cursos y reviews</li>
+                </ul>
+            </div>
+            <div style="background: rgba(255,255,255,0.15); border-radius: 8px; padding: 16px;">
+                <strong style="color: var(--accent);">MES 6-12: Dominar el mercado</strong>
+                <ul style="margin-top: 8px;">
+                    <li style="color: rgba(255,255,255,0.85);">Meta: 2,000+ visitas organicas/mes (vs 20/mes actual)</li>
+                    <li style="color: rgba(255,255,255,0.85);">Rankear top 3 para "curso de ventas quito" y variantes</li>
+                    <li style="color: rgba(255,255,255,0.85);">Reducir dependencia de Meta Ads del 31% al 15%</li>
+                    <li style="color: rgba(255,255,255,0.85);">Funnel completo: Blog > Lead magnet > Email > Venta curso</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Analisis de Competidores - Rolando Constante / Instituto de Prosperidad Constante</p>
+        <p>Preparado por CreativeWeb &middot; Abril 2026</p>
+        <p style="margin-top: 8px;">Fuentes: Google Search, sitios web de competidores, perfiles LinkedIn, Facebook, plataformas Hotmart/Udemy</p>
+    </div>
+</footer>
+
+</body>
+</html>

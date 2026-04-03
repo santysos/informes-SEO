@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auditoria SEO Tecnica - rolandoconstante.com</title>
+<style>
+  :root {
+    --gold: #C8A94E;
+    --gold-dark: #A88B3A;
+    --dark: #1a1a2e;
+    --darker: #12121f;
+    --card-bg: #1e1e35;
+    --text: #e0e0e0;
+    --text-muted: #999;
+    --green: #4CAF50;
+    --yellow: #FFC107;
+    --red: #f44336;
+    --orange: #FF9800;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--darker); color: var(--text); line-height: 1.6; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+  header { background: linear-gradient(135deg, var(--dark), #2a1a3e); padding: 40px 0; border-bottom: 3px solid var(--gold); }
+  header h1 { font-size: 2rem; color: #fff; }
+  header .subtitle { color: var(--gold); font-size: 1.1rem; margin-top: 5px; }
+  header .meta { color: var(--text-muted); font-size: 0.9rem; margin-top: 10px; }
+
+  .score-section { display: flex; align-items: center; gap: 40px; padding: 40px 0; flex-wrap: wrap; }
+  .score-circle { position: relative; width: 180px; height: 180px; flex-shrink: 0; }
+  .score-circle svg { transform: rotate(-90deg); }
+  .score-circle .bg { fill: none; stroke: #333; stroke-width: 10; }
+  .score-circle .fg { fill: none; stroke: var(--orange); stroke-width: 10; stroke-linecap: round; stroke-dasharray: 502; stroke-dashoffset: 251; transition: stroke-dashoffset 1s ease; }
+  .score-number { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; font-weight: 700; color: var(--orange); }
+  .score-number small { font-size: 1rem; color: var(--text-muted); }
+  .score-summary h2 { font-size: 1.5rem; color: #fff; margin-bottom: 10px; }
+  .score-summary p { color: var(--text-muted); max-width: 500px; }
+
+  .section { margin: 30px 0; }
+  .section h2 { font-size: 1.4rem; color: var(--gold); margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid #333; }
+  .section h3 { font-size: 1.1rem; color: #fff; margin: 15px 0 8px; }
+
+  .card { background: var(--card-bg); border-radius: 10px; padding: 20px; margin-bottom: 15px; border-left: 4px solid var(--gold); }
+  .card.critical { border-left-color: var(--red); }
+  .card.warning { border-left-color: var(--yellow); }
+  .card.good { border-left-color: var(--green); }
+
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; margin-left: 8px; }
+  .badge-red { background: rgba(244,67,54,0.2); color: var(--red); }
+  .badge-yellow { background: rgba(255,193,7,0.2); color: var(--yellow); }
+  .badge-green { background: rgba(76,175,80,0.2); color: var(--green); }
+  .badge-orange { background: rgba(255,152,0,0.2); color: var(--orange); }
+
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #2a2a45; font-size: 0.9rem; }
+  th { color: var(--gold); font-weight: 600; }
+  td { color: var(--text); }
+  tr:hover { background: rgba(200,169,78,0.05); }
+
+  code { background: #2a2a45; padding: 2px 8px; border-radius: 4px; font-size: 0.85rem; color: var(--gold); }
+  .url { word-break: break-all; font-size: 0.85rem; color: var(--text-muted); }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+  @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } .score-section { flex-direction: column; align-items: center; text-align: center; } }
+
+  .tag { display: inline-block; background: #2a2a45; padding: 3px 10px; border-radius: 6px; font-size: 0.8rem; margin: 2px; }
+  .check { color: var(--green); } .cross { color: var(--red); } .warn { color: var(--yellow); }
+
+  ul { margin-left: 20px; }
+  ul li { margin: 5px 0; font-size: 0.95rem; }
+
+  .footer { text-align: center; padding: 30px 0; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid #333; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Auditoria SEO Tecnica</h1>
+    <div class="subtitle">rolandoconstante.com &mdash; Instituto de Prosperidad Constante</div>
+    <div class="meta">Fecha: 2 de abril 2026 &bull; Analisis por CreativeWeb &bull; WordPress 6.9.4 + Elementor Pro + Yoast SEO</div>
+  </div>
+</header>
+
+<div class="container">
+
+<!-- SCORE -->
+<div class="score-section">
+  <div class="score-circle">
+    <svg viewBox="0 0 180 180">
+      <circle class="bg" cx="90" cy="90" r="80"/>
+      <circle class="fg" cx="90" cy="90" r="80"/>
+    </svg>
+    <div class="score-number">50<small>/100</small></div>
+  </div>
+  <div class="score-summary">
+    <h2>Puntaje SEO Tecnico: 50/100</h2>
+    <p>El sitio tiene bases correctas (Yoast SEO, canonical tags, schema basico, SSL) pero presenta problemas criticos: titles genericos sin keywords, multiples H1 por pagina, imagenes sin alt text, paginas internas de sistema indexadas, ausencia de meta descriptions en paginas clave, HTML excesivamente pesado y cero imagenes en formato WebP.</p>
+  </div>
+</div>
+
+<!-- RESUMEN GENERAL -->
+<div class="section">
+  <h2>Resumen de Hallazgos</h2>
+  <div class="grid-2">
+    <div class="card critical">
+      <strong><span class="cross">&#10008;</span> 6 Problemas Criticos</strong>
+      <ul>
+        <li>Titles genericos sin keyword principal</li>
+        <li>Homepage con 8 tags H1 (debe tener 1)</li>
+        <li>87% de imagenes sin alt text</li>
+        <li>Pagina Contacto sin meta description</li>
+        <li>URLs de sistema indexadas (carrito, mi-cuenta, checkout)</li>
+        <li>Robots.txt bloqueado por Mod Security (Error 406)</li>
+      </ul>
+    </div>
+    <div class="card warning">
+      <strong><span class="warn">&#9888;</span> 5 Advertencias</strong>
+      <ul>
+        <li>Contacto sin OG image ni H1/H2</li>
+        <li>HTML pesado: 127-152 KB por pagina</li>
+        <li>51 scripts y 34 CSS en homepage</li>
+        <li>0 imagenes WebP (todas PNG/JPG)</li>
+        <li>Landing pages de Elementor en sitemap</li>
+      </ul>
+    </div>
+    <div class="card good">
+      <strong><span class="check">&#10004;</span> 7 Elementos Correctos</strong>
+      <ul>
+        <li>SSL/HTTPS activo</li>
+        <li>Canonical tags correctos en todas las paginas</li>
+        <li>Schema JSON-LD: WebPage, Organization, BreadcrumbList, SearchAction</li>
+        <li>Open Graph basico presente</li>
+        <li>Yoast SEO v27.3 instalado</li>
+        <li>Sitemap XML generado y con 5 sub-sitemaps</li>
+        <li>GA4 + GTM + HubSpot configurados</li>
+      </ul>
+    </div>
+    <div class="card">
+      <strong>Stack Tecnologico Detectado</strong>
+      <ul>
+        <li>WordPress 6.9.4 + Hello Elementor child theme</li>
+        <li>Elementor Pro 4.0.1</li>
+        <li>Yoast SEO v27.3</li>
+        <li>W3 Total Cache (cache de disco)</li>
+        <li>GTM4WP (Google Tag Manager for WordPress)</li>
+        <li>WooCommerce (tienda, carrito, checkout)</li>
+        <li>GA4: G-RN8MGNKYR2 / GTM: GTM-K5N7J6X9</li>
+        <li>HubSpot tracking (js.hs-scripts.com)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ANALISIS POR PAGINA -->
+<div class="section">
+  <h2>1. Homepage &mdash; rolandoconstante.com/</h2>
+
+  <div class="card critical">
+    <h3>Title Tag <span class="badge badge-red">Critico</span></h3>
+    <p><code>Home - Constante</code></p>
+    <p>Title completamente generico. No incluye keywords como "ventas", "curso de ventas", "Rolando Constante" ni "Ecuador". Google no tiene contexto de que trata esta pagina.</p>
+    <p><strong>Recomendacion:</strong> <code>Rolando Constante | Instituto de Ventas y Prosperidad en Ecuador</code></p>
+  </div>
+
+  <div class="card warning">
+    <h3>Meta Description <span class="badge badge-yellow">Mejorable</span></h3>
+    <p><code>En el Instituto de Prosperidad Constante desarrolla tu inteligencia comercial para vender mas y mejor, y crear juntos un mundo cada dia mas prospero. Aprende ventas con los mejores.</code></p>
+    <p>Tiene meta description (bien), pero no incluye call-to-action ni keywords especificas como "curso de ventas" o "escuela de ventas".</p>
+  </div>
+
+  <div class="card critical">
+    <h3>Estructura de Encabezados <span class="badge badge-red">Critico</span></h3>
+    <p><strong>8 etiquetas H1 detectadas:</strong></p>
+    <ul>
+      <li>"Un mundo cada dia mas prospero"</li>
+      <li>"Nuestro compromiso es ayudar a la gente a prosperar..."</li>
+      <li>"Nuestros clientes"</li>
+      <li>"Matriz de conocimiento"</li>
+      <li>"Escuela de Ventas" (x2)</li>
+      <li>"Certificacion Profesional en Ventas"</li>
+      <li>"Programa Ejecutivo de Gerencia Comercial"</li>
+    </ul>
+    <p><strong>0 H2 y 0 H3 detectados.</strong> Toda la jerarquia esta rota. Debe haber 1 solo H1 y usar H2/H3 para subsecciones.</p>
+  </div>
+
+  <div class="card critical">
+    <h3>Imagenes y Alt Text <span class="badge badge-red">Critico</span></h3>
+    <p>8 elementos con atributo alt, pero <strong>7 tienen alt="" vacio</strong>. Solo 1 imagen tiene texto alternativo.</p>
+    <p>Esto afecta accesibilidad y SEO de imagenes. Google no puede entender el contenido visual.</p>
+  </div>
+
+  <div class="card good">
+    <h3>Schema / JSON-LD <span class="badge badge-green">Correcto</span></h3>
+    <p>Yoast genera schema automatico con:</p>
+    <ul>
+      <li><span class="check">&#10004;</span> WebPage con datePublished/dateModified</li>
+      <li><span class="check">&#10004;</span> Organization con logo</li>
+      <li><span class="check">&#10004;</span> BreadcrumbList</li>
+      <li><span class="check">&#10004;</span> SearchAction (sitelinks search box)</li>
+      <li><span class="cross">&#10008;</span> Falta: Person (para Rolando Constante como marca personal)</li>
+      <li><span class="cross">&#10008;</span> Falta: Course o EducationalOrganization</li>
+    </ul>
+  </div>
+
+  <div class="card good">
+    <h3>Open Graph y Social <span class="badge badge-green">Correcto</span></h3>
+    <table>
+      <tr><td>og:locale</td><td>es_ES</td><td><span class="check">&#10004;</span></td></tr>
+      <tr><td>og:type</td><td>website</td><td><span class="check">&#10004;</span></td></tr>
+      <tr><td>og:title</td><td>Home - Constante</td><td><span class="warn">&#9888;</span> Generico</td></tr>
+      <tr><td>og:description</td><td>Presente</td><td><span class="check">&#10004;</span></td></tr>
+      <tr><td>og:image</td><td>Thumbnail de Elementor</td><td><span class="warn">&#9888;</span> No es imagen optimizada para social</td></tr>
+      <tr><td>twitter:card</td><td>summary_large_image</td><td><span class="check">&#10004;</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Links y Navegacion</h3>
+    <p><strong>13 links internos unicos</strong> &mdash; bajo para una homepage. Deberia tener al menos 20-30 para distribuir autoridad.</p>
+    <p><strong>7 links externos:</strong> Facebook, Instagram, LinkedIn, YouTube, WhatsApp, gmpg.org &mdash; todos correctos.</p>
+  </div>
+
+  <div class="card warning">
+    <h3>Rendimiento Estimado <span class="badge badge-orange">Pesado</span></h3>
+    <table>
+      <tr><td>Tamano HTML</td><td><strong>127 KB</strong> (ideal: &lt;50 KB)</td><td><span class="cross">&#10008;</span></td></tr>
+      <tr><td>Scripts</td><td><strong>51 archivos JS</strong></td><td><span class="cross">&#10008;</span></td></tr>
+      <tr><td>Hojas de estilo</td><td><strong>34 archivos CSS</strong></td><td><span class="cross">&#10008;</span></td></tr>
+      <tr><td>Lazy loading</td><td>Solo 2 imagenes con loading="lazy"</td><td><span class="warn">&#9888;</span></td></tr>
+      <tr><td>Imagenes WebP</td><td>0 (todas PNG/JPG)</td><td><span class="cross">&#10008;</span></td></tr>
+      <tr><td>Preconnect/Preload</td><td>Solo dns-prefetch a hs-scripts.com</td><td><span class="warn">&#9888;</span></td></tr>
+      <tr><td>Cache</td><td>W3 Total Cache con Disk Enhanced</td><td><span class="check">&#10004;</span></td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ESCUELA DE VENTAS -->
+<div class="section">
+  <h2>2. Escuela de Ventas Constante</h2>
+  <p class="url">https://www.rolandoconstante.com/escuela-de-ventas-constante/</p>
+
+  <div class="card critical">
+    <h3>Title Tag <span class="badge badge-red">Critico</span></h3>
+    <p><code>Escuela de ventas Constante - Constante</code></p>
+    <p>Repite "Constante" dos veces. No incluye keywords como "curso online", "aprender a vender" o "Ecuador".</p>
+    <p><strong>Recomendacion:</strong> <code>Escuela de Ventas Online | Aprende a Vender - Rolando Constante</code></p>
+  </div>
+
+  <div class="card warning">
+    <h3>Meta Description <span class="badge badge-yellow">Aceptable</span></h3>
+    <p><code>La escuela completa para aprender a vender como un experto. Todo el conocimiento de ventas en un solo curso, de manera simple, directa y practica.</code></p>
+    <p>Buena descripcion, pero podria incluir precio o diferenciador para mejorar CTR.</p>
+  </div>
+
+  <div class="card critical">
+    <h3>Estructura de Encabezados <span class="badge badge-red">Critico</span></h3>
+    <p><strong>3 tags H1:</strong></p>
+    <ul>
+      <li>"Ya tienes tu negocio?"</li>
+      <li>"Escuela Digital de Ventas"</li>
+      <li>"Equipo academico"</li>
+    </ul>
+    <p><strong>4 H2:</strong> Contenido del Programa, Que dicen nuestros estudiantes, Materiales incluidas, Quieres mas informacion</p>
+    <p><strong>4 H3:</strong> Preguntas retoricas, Formacion practica, Compendio de sabiduria, Cuanto puede costar</p>
+    <p>La jerarquia H2-H3 esta bien estructurada, pero los 3 H1 son un problema serio. Solo debe haber 1 H1 con la keyword principal.</p>
+  </div>
+
+  <div class="card critical">
+    <h3>Imagenes <span class="badge badge-red">Critico</span></h3>
+    <p>9 elementos con atributo alt, <strong>8 tienen alt="" vacio</strong>. Practicamente ninguna imagen esta optimizada para SEO.</p>
+    <p>HTML pesa <strong>152 KB</strong> &mdash; la pagina mas pesada del sitio.</p>
+  </div>
+
+  <div class="card good">
+    <h3>Schema y OG <span class="badge badge-green">Correcto</span></h3>
+    <ul>
+      <li><span class="check">&#10004;</span> JSON-LD: WebPage + BreadcrumbList + Organization</li>
+      <li><span class="check">&#10004;</span> og:image con dimensiones (1920x1080)</li>
+      <li><span class="check">&#10004;</span> Canonical correcto</li>
+      <li><span class="check">&#10004;</span> 20 links internos</li>
+      <li><span class="cross">&#10008;</span> Falta schema Course o Product para este contenido educativo</li>
+    </ul>
+  </div>
+</div>
+
+<!-- CONTACTO -->
+<div class="section">
+  <h2>3. Contacto</h2>
+  <p class="url">https://www.rolandoconstante.com/contacto/</p>
+
+  <div class="card critical">
+    <h3>Title Tag <span class="badge badge-red">Critico</span></h3>
+    <p><code>Contacto - Constante</code></p>
+    <p>Extremadamente generico. No dice quien es, que ofrece ni por que contactar.</p>
+    <p><strong>Recomendacion:</strong> <code>Contacto | Sesion Gratuita de Ventas con Rolando Constante</code></p>
+  </div>
+
+  <div class="card critical">
+    <h3>Meta Description <span class="badge badge-red">Ausente</span></h3>
+    <p>No tiene meta description en tag <code>&lt;meta name="description"&gt;</code>. Solo existe en og:description. Google generara su propia snippet, probablemente mal.</p>
+  </div>
+
+  <div class="card critical">
+    <h3>Estructura de Encabezados <span class="badge badge-red">Critico</span></h3>
+    <p><strong>0 H1, 0 H2, 0 H3 detectados.</strong> La pagina no tiene ningun encabezado semantico. Google no puede entender la estructura del contenido.</p>
+  </div>
+
+  <div class="card critical">
+    <h3>Open Graph <span class="badge badge-red">Incompleto</span></h3>
+    <ul>
+      <li><span class="cross">&#10008;</span> Sin og:image &mdash; al compartir en redes no mostrara imagen</li>
+      <li><span class="check">&#10004;</span> og:description presente</li>
+      <li><span class="check">&#10004;</span> Canonical correcto</li>
+    </ul>
+  </div>
+
+  <div class="card warning">
+    <h3>Imagenes <span class="badge badge-yellow">Pobre</span></h3>
+    <p>3 imagenes, las 3 con alt="" vacio. HTML pesa 91 KB.</p>
+  </div>
+
+  <div class="card">
+    <h3>Datos adicionales</h3>
+    <p>Ultima modificacion: <strong>agosto 2020</strong> &mdash; pagina sin actualizar en casi 6 anos.</p>
+    <p>11 links internos. JSON-LD basico presente (WebPage + BreadcrumbList).</p>
+  </div>
+</div>
+
+<!-- SITEMAP -->
+<div class="section">
+  <h2>4. Sitemap XML</h2>
+  <p class="url">https://www.rolandoconstante.com/sitemap_index.xml</p>
+
+  <div class="card good">
+    <h3>Estructura del Sitemap <span class="badge badge-green">Funcional</span></h3>
+    <table>
+      <tr><th>Sub-sitemap</th><th>Ultima modificacion</th><th>Estado</th></tr>
+      <tr><td>post-sitemap.xml</td><td>2024-08-26</td><td><span class="warn">&#9888;</span> Solo 1 post</td></tr>
+      <tr><td>page-sitemap.xml</td><td>2026-03-06</td><td><span class="check">&#10004;</span> 35 paginas</td></tr>
+      <tr><td>e-landing-page-sitemap.xml</td><td>2023-10-05</td><td><span class="cross">&#10008;</span> Landing de Elementor expuesta</td></tr>
+      <tr><td>category-sitemap.xml</td><td>2024-08-26</td><td><span class="check">&#10004;</span></td></tr>
+      <tr><td>author-sitemap.xml</td><td>2024-08-26</td><td><span class="warn">&#9888;</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card critical">
+    <h3>URLs Problematicas en page-sitemap.xml <span class="badge badge-red">Critico</span></h3>
+    <p>El sitemap incluye paginas que NO deberian estar indexadas:</p>
+    <table>
+      <tr><th>URL</th><th>Problema</th></tr>
+      <tr><td>/carrito/</td><td>Pagina de sistema WooCommerce</td></tr>
+      <tr><td>/finalizar-compra/</td><td>Checkout - no aporta valor SEO</td></tr>
+      <tr><td>/mi-cuenta/</td><td>Pagina privada de usuario</td></tr>
+      <tr><td>/registrar/bienvenidoi/</td><td>Typo en URL ("bienvenidoi")</td></tr>
+      <tr><td>/registrar/tu-membresia/</td><td>Pagina interna de registro</td></tr>
+      <tr><td>/registrar/modifica-tu-perfil/</td><td>Pagina interna de perfil</td></tr>
+      <tr><td>/registrar/modificar-tarjeta-de-credito/</td><td>Datos sensibles expuestos</td></tr>
+      <tr><td>/gracias-por-tu-compra/</td><td>Pagina de confirmacion</td></tr>
+      <tr><td>/pago-con-deposito-o-transferencia/</td><td>Pagina interna de pago</td></tr>
+      <tr><td>/proximamente/</td><td>Placeholder sin contenido</td></tr>
+      <tr><td>/contacto-2/</td><td>Duplicado de /contacto/</td></tr>
+    </table>
+    <p><strong>11 URLs que deben excluirse del sitemap y marcarse como noindex.</strong></p>
+  </div>
+
+  <div class="card warning">
+    <h3>Landing Page de Elementor <span class="badge badge-yellow">Limpiar</span></h3>
+    <p>El sub-sitemap <code>e-landing-page-sitemap.xml</code> contiene: <code>/cierre-de-ventas-sep-2023/</code> &mdash; una landing de evento pasado (septiembre 2023). Deberia eliminarse o redirigirse.</p>
+  </div>
+
+  <div class="card warning">
+    <h3>Contenido Duplicado Potencial</h3>
+    <p>URLs similares que compiten entre si:</p>
+    <ul>
+      <li><code>/contacto/</code> vs <code>/contacto-2/</code></li>
+      <li><code>/curso-de-ventas/</code> vs <code>/curso-ventas/</code> vs <code>/curso-ventas-p1/</code></li>
+      <li><code>/cursos/</code> vs <code>/cursos-2025/</code></li>
+      <li><code>/coaching-one-to-one/</code> vs <code>/entrenamiento-one-to-one/</code></li>
+    </ul>
+    <p>Cada grupo deberia consolidarse con redirects 301 a la URL principal.</p>
+  </div>
+</div>
+
+<!-- ROBOTS.TXT -->
+<div class="section">
+  <h2>5. Robots.txt</h2>
+  <div class="card critical">
+    <h3>Error 406 - Bloqueado por Mod Security <span class="badge badge-red">Critico</span></h3>
+    <p>Al acceder a <code>/robots.txt</code> el servidor devuelve <strong>Error 406 Not Acceptable</strong> causado por Mod Security del hosting.</p>
+    <p>Esto significa que Googlebot posiblemente no puede leer el robots.txt, lo cual puede causar:</p>
+    <ul>
+      <li>Google asuma que todo esta permitido (o que nada lo esta, dependiendo del cache)</li>
+      <li>El sitemap declarado en robots.txt no se descubra</li>
+      <li>Errores recurrentes en Search Console</li>
+    </ul>
+    <p><strong>Accion urgente:</strong> Contactar al hosting para crear una excepcion en Mod Security para /robots.txt.</p>
+  </div>
+</div>
+
+<!-- PROBLEMAS ADICIONALES -->
+<div class="section">
+  <h2>6. Problemas Adicionales Detectados</h2>
+
+  <div class="card warning">
+    <h3>URLs con fbclid Indexadas</h3>
+    <p>Segun el contexto previo, hay multiples URLs con parametro <code>?fbclid=</code> indexadas en Google. Esto genera contenido duplicado masivo.</p>
+    <p><strong>Solucion:</strong> Agregar en Yoast SEO > Avanzado > "Limpiar URLs de permalinks" o agregar regla en .htaccess para strip del parametro fbclid.</p>
+  </div>
+
+  <div class="card warning">
+    <h3>Blog Practicamente Inexistente</h3>
+    <p>El post-sitemap.xml contiene <strong>solo 1 articulo</strong> ("Las 7 fases de la venta", agosto 2024). Para un instituto de ventas, la ausencia de contenido de blog es una oportunidad enorme desperdiciada.</p>
+  </div>
+
+  <div class="card warning">
+    <h3>Sin Hreflang</h3>
+    <p>No se detectaron tags hreflang. Si el sitio tiene audiencia en varios paises hispanohablantes, deberia considerarse.</p>
+  </div>
+
+  <div class="card warning">
+    <h3>Page Transition de Elementor</h3>
+    <p>Se detecto <code>&lt;e-page-transition&gt;</code> con animacion tipo "circle". Las transiciones de pagina pueden afectar negativamente Core Web Vitals (LCP, INP) al retrasar el renderizado del contenido visible.</p>
+  </div>
+</div>
+
+<!-- DESGLOSE DEL SCORE -->
+<div class="section">
+  <h2>7. Desglose del Score: 50/100</h2>
+  <table>
+    <tr><th>Categoria</th><th>Peso</th><th>Puntaje</th><th>Detalle</th></tr>
+    <tr><td>Title Tags</td><td>15</td><td><strong>3/15</strong></td><td>Todos genericos, sin keywords, titulo duplica "Constante"</td></tr>
+    <tr><td>Meta Descriptions</td><td>10</td><td><strong>5/10</strong></td><td>Homepage y Escuela OK, Contacto ausente</td></tr>
+    <tr><td>Encabezados H1-H6</td><td>10</td><td><strong>2/10</strong></td><td>Multiples H1 en todas las paginas, Contacto sin ninguno</td></tr>
+    <tr><td>Schema / Datos Estructurados</td><td>10</td><td><strong>6/10</strong></td><td>Basico correcto (Yoast), falta Course, Person, FAQ</td></tr>
+    <tr><td>Open Graph / Social</td><td>5</td><td><strong>3/5</strong></td><td>Presente en la mayoria, falta og:image en Contacto</td></tr>
+    <tr><td>Canonical Tags</td><td>5</td><td><strong>5/5</strong></td><td>Correctos en todas las paginas auditadas</td></tr>
+    <tr><td>Alt Text en Imagenes</td><td>10</td><td><strong>1/10</strong></td><td>90%+ de imagenes con alt vacio</td></tr>
+    <tr><td>Sitemap XML</td><td>10</td><td><strong>4/10</strong></td><td>Funcional pero con 11+ URLs que no deberian estar</td></tr>
+    <tr><td>Robots.txt</td><td>5</td><td><strong>0/5</strong></td><td>Error 406, inaccesible</td></tr>
+    <tr><td>Rendimiento / CWV</td><td>10</td><td><strong>3/10</strong></td><td>HTML pesado, 51 JS, 34 CSS, 0 WebP, transiciones</td></tr>
+    <tr><td>URLs y Estructura</td><td>10</td><td><strong>5/10</strong></td><td>URLs amigables pero duplicadas, fbclid indexado</td></tr>
+    <tr><td colspan="2"><strong>TOTAL</strong></td><td><strong>50/100</strong></td><td></td></tr>
+  </table>
+</div>
+
+<!-- PLAN DE ACCION -->
+<div class="section">
+  <h2>8. Plan de Accion Priorizado</h2>
+
+  <div class="card critical">
+    <h3>Prioridad 1 &mdash; Urgente (Semana 1)</h3>
+    <ol>
+      <li><strong>Robots.txt:</strong> Resolver Error 406 con el hosting (excepcion Mod Security)</li>
+      <li><strong>Titles:</strong> Reescribir los 3 titles auditados con keywords principales</li>
+      <li><strong>H1 multiples:</strong> Dejar 1 solo H1 por pagina en Elementor, cambiar el resto a H2/H3</li>
+      <li><strong>Meta description Contacto:</strong> Agregar en Yoast</li>
+      <li><strong>Noindex paginas de sistema:</strong> Marcar carrito, mi-cuenta, checkout, registrar/* como noindex en Yoast</li>
+    </ol>
+  </div>
+
+  <div class="card warning">
+    <h3>Prioridad 2 &mdash; Importante (Semana 2-3)</h3>
+    <ol>
+      <li><strong>Alt text:</strong> Agregar texto descriptivo a todas las imagenes del sitio</li>
+      <li><strong>URLs duplicadas:</strong> Consolidar /contacto-2/, /curso-ventas/ variantes con redirects 301</li>
+      <li><strong>fbclid:</strong> Implementar parametro de limpieza en Yoast o .htaccess</li>
+      <li><strong>OG image Contacto:</strong> Agregar imagen social</li>
+      <li><strong>Limpiar sitemap:</strong> Excluir las 11 URLs problematicas</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h3>Prioridad 3 &mdash; Optimizacion (Mes 1-2)</h3>
+    <ol>
+      <li><strong>Schema avanzado:</strong> Agregar Course, Person (Rolando), FAQ, Review</li>
+      <li><strong>WebP:</strong> Convertir imagenes a WebP con plugin (ShortPixel/Imagify)</li>
+      <li><strong>Reducir JS/CSS:</strong> Desactivar scripts de Elementor innecesarios, combinar/minificar</li>
+      <li><strong>Blog:</strong> Crear estrategia de contenido (minimo 4 posts/mes sobre ventas)</li>
+      <li><strong>Landing vieja:</strong> Redirect /cierre-de-ventas-sep-2023/ a pagina actual</li>
+      <li><strong>Desactivar page transition:</strong> de Elementor para mejorar CWV</li>
+    </ol>
+  </div>
+</div>
+
+<div class="footer">
+  Auditoria SEO Tecnica &bull; rolandoconstante.com &bull; CreativeWeb &bull; Abril 2026
+</div>
+
+</div>
+</body>
+</html>
