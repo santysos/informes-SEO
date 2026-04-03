@@ -121,6 +121,34 @@ if (!isset($_SESSION['auth_rolando']) || $_SESSION['auth_rolando'] !== true) {
         </div>
     </div>
 
+    <!-- Que es SEO -->
+    <div class="glass rounded-2xl p-6 mb-8">
+        <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-cyan-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold mb-2">Pero primero... Que es "SEO" y por que le importa a su escuela?</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-3"><strong class="text-white">SEO</strong> significa "Search Engine Optimization" (Optimizacion para Motores de Busqueda). En palabras simples: <strong class="text-white">es el proceso de hacer que su sitio web aparezca en los primeros resultados de Google cuando alguien busca cursos de ventas o capacitacion comercial.</strong></p>
+                <p class="text-slate-400 text-sm leading-relaxed mb-3">Pienselo asi: cuando un gerente comercial necesita capacitar a su equipo, o un vendedor quiere mejorar sus habilidades, lo primero que hace es buscar en Google "curso de ventas Quito" o "como cerrar una venta". Si Rolando Constante no aparece en la primera pagina, <strong class="text-white">ese alumno potencial termina inscribiendose con su competencia — o peor, en un curso generico de YouTube.</strong></p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
+                    <div class="glass-lighter rounded-lg p-3">
+                        <p class="text-cyan-400 font-bold text-xs mb-1">Como funciona?</p>
+                        <p class="text-slate-400 text-[11px] leading-relaxed">Google envia "robots" que leen su sitio web. Basandose en lo que encuentran (textos, titulos, articulos, velocidad), deciden en que posicion mostrarlo cuando alguien busca algo relacionado.</p>
+                    </div>
+                    <div class="glass-lighter rounded-lg p-3">
+                        <p class="text-cyan-400 font-bold text-xs mb-1">Por que importa?</p>
+                        <p class="text-slate-400 text-[11px] leading-relaxed">El 75% de las personas nunca pasa de la primera pagina de Google (fuente: Backlinko). Si su escuela esta en la pagina 2 o mas abajo, practicamente no existe para quienes buscan formacion en ventas.</p>
+                    </div>
+                    <div class="glass-lighter rounded-lg p-3">
+                        <p class="text-cyan-400 font-bold text-xs mb-1">Cual es el beneficio?</p>
+                        <p class="text-slate-400 text-[11px] leading-relaxed">A diferencia de Meta Ads (que deja de funcionar cuando deja de pagar), el SEO genera alumnos GRATIS y de forma permanente. Cada articulo publicado trabaja para usted 24/7, acumulandose con el tiempo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Score -->
     <h2 class="text-white text-lg font-bold mb-4">Puntuacion General de Marketing Digital</h2>
     <div class="glass rounded-2xl p-8 mb-8">
