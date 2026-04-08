@@ -8,16 +8,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: index.php');
         exit;
     } else {
-        $error = 'Incorrect password. Please try again.';
+        $error = 'Clave incorrecta. Intente nuevamente.';
     }
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Digital Marketing Report — Kwoof Pet Care</title>
+<title>Informe de Marketing Digital — Kwoof Pet Care</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -71,13 +71,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                 </svg>
             </div>
-            <h1 class="text-xl font-bold text-white mb-1">Digital Marketing & SEO Report</h1>
+            <h1 class="text-xl font-bold text-white mb-1">Informe de Marketing Digital y SEO</h1>
             <p class="text-slate-400 text-sm font-medium">Kwoof Pet Care — Queens & Brooklyn, NYC</p>
         </div>
         <form method="POST" class="space-y-5">
             <div>
-                <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Access Password</label>
-                <input type="password" name="password" placeholder="Enter your password" required
+                <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Clave de acceso</label>
+                <input type="password" name="password" placeholder="Ingrese su clave" required
                     class="w-full px-4 py-3 rounded-xl bg-slate-800/60 border border-slate-600/50 text-white placeholder-slate-500 text-sm transition-all duration-200">
             </div>
             <?php if ($error): ?>
@@ -90,11 +90,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php endif; ?>
             <button type="submit"
                 class="w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:shadow-blue-500/25">
-                Access Report
+                Acceder al Informe
             </button>
         </form>
         <div class="mt-8 pt-6 border-t border-slate-700/50 text-center">
-            <p class="text-slate-500 text-xs">Developed by <span class="text-slate-400 font-medium">Creative Web</span></p>
+            <p class="text-slate-500 text-xs">Desarrollado por <span class="text-slate-400 font-medium">Creative Web</span></p>
         </div>
     </div>
 </div>

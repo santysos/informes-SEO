@@ -6,11 +6,11 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Digital Marketing Report — Kwoof Pet Care — April 2026</title>
+<title>Informe de Marketing Digital — Kwoof Pet Care — Abril 2026</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,27 +72,27 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                         <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
                     </div>
                     <div>
-                        <h1 class="text-lg font-bold text-white">Digital Marketing & SEO Opportunities Report</h1>
-                        <p class="text-sm text-slate-400">April 2026 — Initial Diagnostic</p>
+                        <h1 class="text-lg font-bold text-white">Informe de Marketing Digital y Oportunidades SEO</h1>
+                        <p class="text-sm text-slate-400">Abril 2026 — Diagnostico Inicial</p>
                     </div>
                 </div>
             </div>
             <div class="flex items-center gap-6">
                 <div class="text-right hidden sm:block">
-                    <p class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Client</p>
+                    <p class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Cliente</p>
                     <p class="text-sm text-white font-medium">Kwoof Pet Care</p>
                 </div>
                 <div class="text-right hidden sm:block">
-                    <p class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Prepared by</p>
+                    <p class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Preparado por</p>
                     <p class="text-sm text-white font-medium">Creative Web</p>
                 </div>
                 <div class="text-right hidden sm:block">
-                    <p class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Date</p>
-                    <p class="text-sm text-white font-medium">April 7, 2026</p>
+                    <p class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Fecha</p>
+                    <p class="text-sm text-white font-medium">7 de Abril, 2026</p>
                 </div>
                 <a href="logout.php" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-700/50 hover:bg-slate-600/50 text-slate-300 text-xs font-medium transition-all">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
-                    Log Out
+                    Salir
                 </a>
             </div>
         </div>
@@ -111,11 +111,11 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
 <nav class="relative z-50 glass border-b border-slate-700/50 sticky top-0">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex gap-1 py-2 overflow-x-auto" id="tabNav">
-            <button class="tab-btn active px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent whitespace-nowrap" onclick="switchTab('resumen')">Summary for the Owner</button>
-            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('perdidas')">What You Are Losing</button>
-            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('fortalezas')">Your Strengths</button>
-            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('contenido')">Content Plan</button>
-            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('inversion')">Investment & Next Steps</button>
+            <button class="tab-btn active px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent whitespace-nowrap" onclick="switchTab('resumen')">Resumen para el Dueno</button>
+            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('perdidas')">Lo Que Esta Perdiendo</button>
+            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('fortalezas')">Sus Fortalezas</button>
+            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('contenido')">Plan de Contenido</button>
+            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('inversion')">Inversion y Proximos Pasos</button>
         </div>
     </div>
 </nav>
@@ -123,7 +123,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
 <!-- MAIN CONTENT -->
 <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8">
 
-<!-- ==================== TAB 1: SUMMARY ==================== -->
+<!-- ==================== TAB 1: RESUMEN ==================== -->
 <div id="tab-resumen" class="tab-content active">
 
     <!-- Intro -->
@@ -133,34 +133,34 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                 <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
             </div>
             <div>
-                <h3 class="text-white font-semibold mb-1">What is this report?</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">This document analyzes the online presence of <strong class="text-white">Kwoof Pet Care</strong> — how your business looks on the internet and how easy it is for potential clients in Queens and Brooklyn to find you when they search on Google. We will show you what is working, what is missing, and how much revenue you could be leaving on the table.</p>
+                <h3 class="text-white font-semibold mb-1">Que es este informe?</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Este documento analiza la presencia en internet de <strong class="text-white">Kwoof Pet Care</strong> — es decir, como se ve su negocio en Google y que tan facil es para sus clientes potenciales en Queens y Brooklyn encontrarlo cuando buscan servicios de cuidado de mascotas. Le mostraremos que esta funcionando, que le falta, y cuanto dinero esta dejando de ganar.</p>
             </div>
         </div>
     </div>
 
-    <!-- What is SEO -->
+    <!-- Que es SEO -->
     <div class="glass rounded-2xl p-6 mb-8">
         <div class="flex items-start gap-3">
             <div class="w-8 h-8 rounded-lg bg-cyan-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                 <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
             </div>
             <div>
-                <h3 class="text-white font-semibold mb-2">But first... What is "SEO" and why does it matter for your business?</h3>
-                <p class="text-slate-400 text-sm leading-relaxed mb-3"><strong class="text-white">SEO</strong> stands for "Search Engine Optimization." In simple terms: <strong class="text-white">it is the process of making your website appear at the top of Google when someone searches for the services you offer.</strong></p>
-                <p class="text-slate-400 text-sm leading-relaxed mb-3">Think about it this way: when you need a service, the first thing you do is Google it. Your clients do the same. If Kwoof does not appear on the first page of Google, <strong class="text-white">it is like having a pet care business on a street where nobody walks by.</strong></p>
+                <h3 class="text-white font-semibold mb-2">Pero primero... Que es "SEO" y por que le importa a su negocio?</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-3"><strong class="text-white">SEO</strong> significa "Search Engine Optimization" (Optimizacion para Motores de Busqueda). En palabras simples: <strong class="text-white">es el proceso de hacer que su sitio web aparezca en los primeros resultados de Google cuando alguien busca los servicios que usted ofrece.</strong></p>
+                <p class="text-slate-400 text-sm leading-relaxed mb-3">Pienselo asi: cuando usted necesita un servicio, lo primero que hace es buscarlo en Google. Sus clientes hacen lo mismo. Si Kwoof no aparece en la primera pagina de Google, <strong class="text-white">es como tener un negocio de pet care en una calle por donde nadie pasa.</strong></p>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
                     <div class="glass-lighter rounded-lg p-3">
-                        <p class="text-cyan-400 font-bold text-xs mb-1">How does it work?</p>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">Google sends "robots" that read your website. Based on what they find (text, titles, images, speed), they decide where to show your site when someone searches for pet care in Queens or Brooklyn.</p>
+                        <p class="text-cyan-400 font-bold text-xs mb-1">Como funciona?</p>
+                        <p class="text-slate-400 text-[11px] leading-relaxed">Google envia "robots" que leen su sitio web. Basandose en lo que encuentran (textos, titulos, imagenes, velocidad), deciden en que posicion mostrar su sitio cuando alguien busca pet care en Queens o Brooklyn.</p>
                     </div>
                     <div class="glass-lighter rounded-lg p-3">
-                        <p class="text-cyan-400 font-bold text-xs mb-1">Why does it matter?</p>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">75% of people never go past the first page of Google (source: Backlinko). If you are on page 2 or lower, you practically do not exist for potential clients searching for pet care near them.</p>
+                        <p class="text-cyan-400 font-bold text-xs mb-1">Por que importa?</p>
+                        <p class="text-slate-400 text-[11px] leading-relaxed">El 75% de las personas nunca pasa de la primera pagina de Google (fuente: Backlinko). Si usted esta en la pagina 2 o mas abajo, practicamente no existe para las personas que buscan pet care cerca de ellos.</p>
                     </div>
                     <div class="glass-lighter rounded-lg p-3">
-                        <p class="text-cyan-400 font-bold text-xs mb-1">What is the benefit?</p>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">Unlike paid ads (which stop the moment you stop paying), SEO generates FREE and permanent visits. Each improvement we make to your site builds up over time like a snowball effect.</p>
+                        <p class="text-cyan-400 font-bold text-xs mb-1">Cual es el beneficio?</p>
+                        <p class="text-slate-400 text-[11px] leading-relaxed">A diferencia de los anuncios pagados (que dejan de funcionar cuando deja de pagar), el SEO genera visitas GRATIS y permanentes. Cada mejora que hacemos en su sitio se acumula con el tiempo como una bola de nieve.</p>
                     </div>
                 </div>
             </div>
@@ -168,75 +168,75 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
     </div>
 
     <!-- Score -->
-    <h2 class="text-white text-lg font-bold mb-4">Overall Digital Marketing Score</h2>
+    <h2 class="text-white text-lg font-bold mb-4">Puntuacion General de Marketing Digital</h2>
     <div class="glass rounded-2xl p-8 mb-8">
         <div class="flex flex-col md:flex-row items-center gap-8">
             <div class="relative">
                 <canvas id="scoreChart" width="160" height="160" class="score-ring"></canvas>
                 <div class="absolute inset-0 flex flex-col items-center justify-center">
                     <span class="text-3xl font-extrabold text-red-400">25</span>
-                    <span class="text-xs text-slate-400">out of 100</span>
+                    <span class="text-xs text-slate-400">de 100</span>
                 </div>
             </div>
             <div class="flex-1">
                 <div class="flex items-center gap-3 mb-3">
-                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/30">Grade F — Critical</span>
+                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/30">Grado F — Critico</span>
                 </div>
-                <p class="text-slate-400 text-sm leading-relaxed">Out of 100 possible points, your website scored <strong class="text-white">25 points</strong>. This means your online presence has serious issues that are costing you clients every single month. The good news: all of these problems have solutions and your growth potential is enormous — especially because most local competitors are not doing much better.</p>
+                <p class="text-slate-400 text-sm leading-relaxed">De 100 puntos posibles, su sitio web obtuvo <strong class="text-white">25 puntos</strong>. Esto significa que su presencia en internet tiene problemas serios que le estan costando clientes cada mes. La buena noticia: todos estos problemas tienen solucion y su potencial de crecimiento es enorme — especialmente porque la mayoria de sus competidores locales tampoco estan haciendo mucho.</p>
             </div>
         </div>
     </div>
 
     <!-- Score breakdown -->
-    <h2 class="text-white text-lg font-bold mb-4">Breakdown: What We Evaluated and What It Means</h2>
+    <h2 class="text-white text-lg font-bold mb-4">Desglose: Que Evaluamos y Que Significa</h2>
     <div class="glass rounded-2xl overflow-hidden mb-8">
         <div class="overflow-x-auto">
             <table class="w-full text-sm">
                 <thead>
                     <tr class="border-b border-slate-700/50">
-                        <th class="text-left px-6 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">What we evaluated</th>
-                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Score</th>
-                        <th class="text-left px-6 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">What it means for your business</th>
+                        <th class="text-left px-6 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Lo que evaluamos</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Puntuacion</th>
+                        <th class="text-left px-6 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Que significa para su negocio?</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="border-b border-slate-700/30">
-                        <td class="px-6 py-4 text-white font-medium">Visibility on Google</td>
+                        <td class="px-6 py-4 text-white font-medium">Visibilidad en Google</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">15/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">When someone in Jackson Heights searches "dog walking near me" on Google, your business does not appear. Those potential clients go directly to a competitor.</td>
+                        <td class="px-6 py-4 text-slate-400">Cuando alguien en Jackson Heights busca "dog walking near me" en Google, su negocio no aparece. Esos clientes potenciales van directamente a la competencia.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
-                        <td class="px-6 py-4 text-white font-medium">Google Maps & Local Presence</td>
+                        <td class="px-6 py-4 text-white font-medium">Google Maps y Presencia Local</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">5/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">You have NO Google Business Profile. This means you are completely invisible on Google Maps — the #1 way people find local pet care services in NYC.</td>
+                        <td class="px-6 py-4 text-slate-400">NO tiene Google Business Profile. Esto significa que es completamente invisible en Google Maps — la forma #1 en que la gente encuentra servicios de pet care en NYC.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
-                        <td class="px-6 py-4 text-white font-medium">Website Content & Messaging</td>
+                        <td class="px-6 py-4 text-white font-medium">Contenido del Sitio Web</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">30/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Your website has only 5 pages and no blog. You need at least 15-20 pages for Google to understand what you offer. Your pages are missing the key information Google uses to decide where to rank you.</td>
+                        <td class="px-6 py-4 text-slate-400">Su sitio web solo tiene 5 paginas y no tiene blog. Necesita al menos 15-20 paginas para que Google entienda bien que servicios ofrece. A sus paginas les falta informacion clave que Google usa para decidir donde posicionarlo.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
-                        <td class="px-6 py-4 text-white font-medium">Online Reviews & Reputation</td>
+                        <td class="px-6 py-4 text-white font-medium">Resenas y Reputacion Online</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">0/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">You have ZERO online reviews anywhere — no Google, no Yelp, no Facebook reviews. When someone is choosing between you and a competitor with 50+ glowing reviews, they will choose the one with reviews every time.</td>
+                        <td class="px-6 py-4 text-slate-400">Tiene CERO resenas en cualquier plataforma — ni en Google, ni en Yelp, ni en Facebook. Cuando alguien elige entre usted y un competidor con 50+ resenas positivas, siempre elegiran al que tiene resenas.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
-                        <td class="px-6 py-4 text-white font-medium">Social Media Presence</td>
+                        <td class="px-6 py-4 text-white font-medium">Presencia en Redes Sociales</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">20/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">You only have Instagram (@kwoof__). You are missing Facebook, TikTok (pet content goes viral!), Nextdoor (the #1 app where neighbors recommend local services), and Yelp.</td>
+                        <td class="px-6 py-4 text-slate-400">Solo tiene Instagram (@kwoof__). Le falta Facebook, TikTok (el contenido de mascotas se vuelve viral!), Nextdoor (la app #1 donde los vecinos recomiendan servicios locales) y Yelp.</td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 text-white font-medium">Technical Website Health</td>
+                        <td class="px-6 py-4 text-white font-medium">Salud Tecnica del Sitio</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">40/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Your site runs on Squarespace with HTTPS — that is a good base. But there are issues confusing Google: duplicate pages, missing titles, a typo ("Pet Bording"), and your site is not telling Google you are a local business in Queens.</td>
+                        <td class="px-6 py-4 text-slate-400">Su sitio funciona en Squarespace con HTTPS — eso es una buena base. Pero hay problemas que confunden a Google: paginas duplicadas, titulos faltantes, un error de escritura ("Pet Bording" en vez de "Boarding"), y su sitio no le dice a Google que es un negocio local en Queens.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 
-    <!-- Alert Cards -->
-    <h2 class="text-white text-lg font-bold mb-4">Critical Alerts You Need to Know</h2>
+    <!-- Alertas -->
+    <h2 class="text-white text-lg font-bold mb-4">Alertas Criticas Que Necesita Saber</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div class="kpi-card alert-card glass rounded-xl p-5">
             <div class="flex items-start gap-3">
@@ -244,8 +244,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">You Do NOT Exist on Google Maps</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">When someone near you searches "pet care near me," Google shows a map with 3 businesses. You are NOT one of them. A Google Business Profile is FREE to set up and is the single most important thing for any local business. Without it, you are invisible.</p>
+                    <h4 class="text-red-400 font-bold text-sm mb-1">NO Existe en Google Maps</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Cuando alguien cerca de usted busca "pet care near me", Google muestra un mapa con 3 negocios. Usted NO es uno de ellos. Un Google Business Profile es GRATIS y es lo mas importante para cualquier negocio local. Sin el, usted es invisible para el 90% de sus clientes potenciales.</p>
                 </div>
             </div>
         </div>
@@ -255,8 +255,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">ZERO Online Reviews Anywhere</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">In NYC, reviews are EVERYTHING. 93% of consumers read online reviews before choosing a local service (source: BrightLocal 2024). You have zero reviews on Google, Yelp, and Facebook. A competitor with reviews will always win, even if your service is better.</p>
+                    <h4 class="text-red-400 font-bold text-sm mb-1">CERO Resenas en Cualquier Plataforma</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">En Nueva York, las resenas lo son TODO. El 93% de los consumidores lee resenas antes de elegir un servicio local (fuente: BrightLocal 2024). Usted tiene cero resenas en Google, Yelp y Facebook. Un competidor con resenas siempre ganara al cliente, aunque su servicio sea mejor.</p>
                 </div>
             </div>
         </div>
@@ -266,8 +266,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">Not Listed on Yelp, Rover, or Any Directory</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">Your business is not on Yelp (NYC's top review platform), Rover (the #1 pet care marketplace), Nextdoor (the neighborhood app), or any directory. These are FREE profiles that bring you clients every day. It is like having a phone number that is not in any phone book.</p>
+                    <h4 class="text-red-400 font-bold text-sm mb-1">No Esta en Yelp, Rover ni Ningun Directorio</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Su negocio no esta en Yelp (la plataforma #1 de resenas en NYC), Rover (el marketplace #1 de pet care), Nextdoor (la app del vecindario) ni ningun directorio. Estos perfiles son GRATIS y le traen clientes todos los dias. Es como tener un telefono que no esta en ninguna guia.</p>
                 </div>
             </div>
         </div>
@@ -277,24 +277,24 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">Only 5 Pages on Your Website</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">Each page on your website is a chance for Google to show your business. With only 5 pages, you appear for very few searches. Competitors with blogs and service pages have 50-100+ pages — Google shows THEM hundreds of times more than you.</p>
+                    <h4 class="text-red-400 font-bold text-sm mb-1">Solo 5 Paginas en Su Sitio Web</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Cada pagina de su sitio web es una oportunidad para que Google lo muestre. Con solo 5 paginas, aparece en muy pocas busquedas. Competidores con blogs y paginas de servicios tienen 50-100+ paginas — Google los muestra CIENTOS de veces mas que a usted.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- ==================== TAB 2: WHAT YOU ARE LOSING ==================== -->
+<!-- ==================== TAB 2: LO QUE ESTA PERDIENDO ==================== -->
 <div id="tab-perdidas" class="tab-content">
 
-    <h2 class="text-white text-lg font-bold mb-2">Clients Who Are Searching But Cannot Find You</h2>
+    <h2 class="text-white text-lg font-bold mb-2">Clientes Que Lo Buscan Pero No Lo Encuentran</h2>
     <div class="glass-accent rounded-2xl p-6 mb-6">
         <div class="flex items-start gap-3">
             <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                 <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
             </div>
-            <p class="text-slate-400 text-sm leading-relaxed">Every month, hundreds of people in Queens and Brooklyn search Google for exactly the services you offer. But because your business is not optimized, those clients end up hiring someone else. Here is exactly what they search and how much money that represents.</p>
+            <p class="text-slate-400 text-sm leading-relaxed">Cada mes, cientos de personas en Queens y Brooklyn buscan en Google exactamente los servicios que usted ofrece — paseo de perros, pet sitting y boarding. Pero como su negocio no esta optimizado, esos clientes terminan contratando a otra persona. Aqui le mostramos exactamente que buscan y cuanto dinero representa.</p>
         </div>
     </div>
 
@@ -303,144 +303,114 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             <table class="w-full text-sm">
                 <thead>
                     <tr class="border-b border-slate-700/50">
-                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">What people search on Google</th>
-                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Searches/month*</th>
-                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Does Kwoof appear?</th>
-                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Revenue you could be earning</th>
+                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Que buscan en Google</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Busquedas/mes*</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Aparece Kwoof?</th>
+                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Dinero que podria estar ganando</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-5 py-4 text-white font-medium">"dog walking Jackson Heights"</td>
                         <td class="px-4 py-4 text-center text-slate-300">~50-150</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Not showing</span></td>
-                        <td class="px-5 py-4 text-slate-400 text-xs">~15-45 visitors &rarr; 3-9 new clients at $20/walk x 20 walks/mo = <strong class="text-green-400">$1,200-$3,600/mo</strong></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
+                        <td class="px-5 py-4 text-slate-400 text-xs">~15-45 visitantes &rarr; 3-9 clientes nuevos a $20/paseo x 20 paseos/mes = <strong class="text-green-400">$1,200-$3,600/mes</strong></td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-5 py-4 text-white font-medium">"pet sitting Queens NY"</td>
                         <td class="px-4 py-4 text-center text-slate-300">~100-300</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Not showing</span></td>
-                        <td class="px-5 py-4 text-slate-400 text-xs">~30-90 visitors &rarr; 5-15 overnight bookings at $75/night = <strong class="text-green-400">$375-$1,125/mo</strong></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
+                        <td class="px-5 py-4 text-slate-400 text-xs">~30-90 visitantes &rarr; 5-15 reservas nocturnas a $75/noche = <strong class="text-green-400">$375-$1,125/mes</strong></td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-5 py-4 text-white font-medium">"dog walker near me" (Queens)</td>
                         <td class="px-4 py-4 text-center text-slate-300">~200-400</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Not showing</span></td>
-                        <td class="px-5 py-4 text-slate-400 text-xs">~60-120 visitors &rarr; 10-20 new clients at $20/walk x 20 walks/mo = <strong class="text-green-400">$4,000-$8,000/mo</strong></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
+                        <td class="px-5 py-4 text-slate-400 text-xs">~60-120 visitantes &rarr; 10-20 clientes nuevos a $20/paseo x 20 paseos/mes = <strong class="text-green-400">$4,000-$8,000/mes</strong></td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-5 py-4 text-white font-medium">"pet boarding Queens"</td>
                         <td class="px-4 py-4 text-center text-slate-300">~150-300</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Not showing</span></td>
-                        <td class="px-5 py-4 text-slate-400 text-xs">~45-90 visitors &rarr; 5-10 boarding stays at $75/night x 3 nights = <strong class="text-green-400">$1,125-$2,250/mo</strong></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
+                        <td class="px-5 py-4 text-slate-400 text-xs">~45-90 visitantes &rarr; 5-10 estadias a $75/noche x 3 noches = <strong class="text-green-400">$1,125-$2,250/mes</strong></td>
                     </tr>
                     <tr>
                         <td class="px-5 py-4 text-white font-medium">"pet care 11368"</td>
                         <td class="px-4 py-4 text-center text-slate-300">~10-30</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Not showing</span></td>
-                        <td class="px-5 py-4 text-slate-400 text-xs">Small volume but HIGH intent — searching your exact zip code = <strong class="text-green-400">$300-$900/mo</strong></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
+                        <td class="px-5 py-4 text-slate-400 text-xs">Poco volumen pero ALTA intencion — buscan exactamente su codigo postal = <strong class="text-green-400">$300-$900/mes</strong></td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="px-5 py-3 border-t border-slate-700/30">
-            <p class="text-slate-500 text-[10px] leading-relaxed">*Estimates based on Google Keyword Planner and Semrush. Revenue calculations: first Google result gets ~27% of clicks (Backlinko, 2023), conservative 10-15% conversion for local services (WordStream 2024). Pricing based on Queens pet care market averages.</p>
+            <p class="text-slate-500 text-[10px] leading-relaxed">*Estimaciones basadas en Google Keyword Planner y Semrush. Los calculos de ingreso asumen que el primer resultado de Google recibe ~27% de los clics (Backlinko, 2023) y una tasa de conversion conservadora del 10-15% para servicios locales (WordStream 2024). Precios basados en promedios del mercado de pet care en Queens.</p>
         </div>
     </div>
 
-    <!-- Total lost -->
+    <!-- Total perdido -->
     <div class="alert-card glass rounded-2xl p-6 mb-8">
         <div class="flex items-center gap-4">
             <div class="w-12 h-12 rounded-xl bg-red-500/20 flex items-center justify-center flex-shrink-0">
                 <svg class="w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
             </div>
             <div>
-                <h3 class="text-red-400 font-bold text-lg mb-1">Money You Are Leaving on the Table</h3>
-                <p class="text-white text-2xl font-extrabold">$3,000 — $10,000+ per month</p>
-                <p class="text-slate-400 text-sm mt-1">We estimate Kwoof is missing $3,000 to $10,000+ in monthly revenue from clients who search Google for pet care in Queens and Brooklyn but hire someone else because they cannot find you.</p>
+                <h3 class="text-red-400 font-bold text-lg mb-1">Dinero Que Esta Dejando de Ganar</h3>
+                <p class="text-white text-2xl font-extrabold">$3,000 — $10,000+ mensuales</p>
+                <p class="text-slate-400 text-sm mt-1">Estimamos que Kwoof esta perdiendo entre $3,000 y $10,000+ en ingresos mensuales de clientes que buscan pet care en Queens y Brooklyn en Google pero contratan a otra persona porque no lo pueden encontrar a usted.</p>
             </div>
         </div>
     </div>
 
-    <!-- Problems -->
-    <h2 class="text-white text-lg font-bold mb-4">Problems That Are Costing You Money</h2>
+    <!-- Problemas -->
+    <h2 class="text-white text-lg font-bold mb-4">Problemas Que Le Estan Costando Dinero</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div class="alert-card glass rounded-xl p-5">
-            <h4 class="text-red-400 font-bold text-sm mb-2">No Google Business Profile = Invisible on Maps</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">When someone near you searches "dog walking near me," Google shows a map with 3 businesses. You are NOT one of them. A Google Business Profile is free and is the most important thing for any local service business. Without it, 90% of your potential clients will never know you exist.</p>
+            <h4 class="text-red-400 font-bold text-sm mb-2">Sin Google Business Profile = Invisible en Maps</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Cuando alguien cerca de usted busca "dog walking near me", Google muestra un mapa con 3 negocios. Usted NO esta ahi. Un Google Business Profile es gratis y es lo mas importante para cualquier negocio local. Sin el, el 90% de sus clientes potenciales nunca sabran que usted existe.</p>
         </div>
         <div class="alert-card glass rounded-xl p-5">
-            <h4 class="text-red-400 font-bold text-sm mb-2">Duplicate Homepage Confusing Google</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Your website has two versions of the homepage (/ and /home) showing the same content. This confuses Google — it does not know which is the "real" one. Imagine having two identical business cards with different phone numbers — people do not know which to call.</p>
+            <h4 class="text-red-400 font-bold text-sm mb-2">Pagina de Inicio Duplicada Confunde a Google</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Su sitio web tiene dos versiones de la pagina principal (/ y /home) mostrando el mismo contenido. Esto confunde a Google — no sabe cual es la "real". Imagine tener dos tarjetas de presentacion identicas con diferentes telefonos — la gente no sabe a cual llamar.</p>
         </div>
         <div class="alert-card glass rounded-xl p-5">
-            <h4 class="text-red-400 font-bold text-sm mb-2">No Contact Form on Your Website</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">There is no form on your website for potential clients to reach out. Many young pet owners in NYC prefer sending a quick message rather than making a phone call. Without a form, you lose every one of those clients.</p>
+            <h4 class="text-red-400 font-bold text-sm mb-2">No Tiene Formulario de Contacto</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">No hay ningun formulario en su sitio para que clientes potenciales le escriban. Muchos duenos de mascotas jovenes en NYC prefieren enviar un mensaje rapido en vez de llamar. Sin formulario, pierde a todos esos clientes.</p>
         </div>
         <div class="alert-card glass rounded-xl p-5">
-            <h4 class="text-red-400 font-bold text-sm mb-2">Page Titles Do Not Mention Your Location</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Your website title says "Kwoof | Trusted Pet Care" but never mentions Queens, Jackson Heights, Brooklyn, or NYC. Google does not know WHERE you are located, so it cannot show you to local searchers. It is like a business card without an address.</p>
+            <h4 class="text-red-400 font-bold text-sm mb-2">Titulos No Mencionan Su Ubicacion</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">El titulo de su sitio dice "Kwoof | Trusted Pet Care" pero nunca menciona Queens, Jackson Heights, Brooklyn o NYC. Google no sabe DONDE esta ubicado, asi que no puede mostrarlo a personas buscando cerca. Es como una tarjeta de presentacion sin direccion.</p>
         </div>
         <div class="alert-card glass rounded-xl p-5">
-            <h4 class="text-red-400 font-bold text-sm mb-2">Gallery Page Has a Generic Title</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Your gallery page is titled "Gallery 3" — a default Squarespace template name — and has no description for Google. This page could showcase happy pets and build trust, but Google has no idea what it is about.</p>
+            <h4 class="text-red-400 font-bold text-sm mb-2">Pagina de Galeria con Titulo Generico</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Su pagina de galeria se titula "Gallery 3" — el nombre por defecto de la plantilla Squarespace — y no tiene descripcion para Google. Esta pagina podria mostrar mascotas felices y generar confianza, pero Google no tiene idea de que trata.</p>
         </div>
         <div class="alert-card glass rounded-xl p-5">
-            <h4 class="text-red-400 font-bold text-sm mb-2">Typo: "Pet Bording" Instead of "Boarding"</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">One of your headings says "Pet Bording" instead of "Pet Boarding." When pet owners are deciding who to trust with their beloved pets, small details matter. Google may also show this typo in search results.</p>
+            <h4 class="text-red-400 font-bold text-sm mb-2">Error de Escritura: "Pet Bording"</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Uno de sus encabezados dice "Pet Bording" en vez de "Pet Boarding." Cuando los duenos de mascotas deciden a quien confiar sus peludos, los detalles importan. Google tambien puede mostrar este error en los resultados de busqueda.</p>
         </div>
     </div>
 
-    <!-- Competitors -->
-    <h2 class="text-white text-lg font-bold mb-4">Your Competitors ARE Doing This</h2>
+    <!-- Competidores -->
+    <h2 class="text-white text-lg font-bold mb-4">Sus Competidores SI Estan Haciendo Esto</h2>
     <div class="glass rounded-2xl overflow-hidden mb-6">
         <div class="overflow-x-auto">
             <table class="w-full text-sm">
                 <thead>
                     <tr class="border-b border-slate-700/50">
-                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">What they have</th>
+                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Que tienen ellos</th>
                         <th class="text-center px-4 py-4 text-red-400 font-semibold text-xs uppercase tracking-wider">Kwoof</th>
                         <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Rover/Wag</th>
-                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Local competitors</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Competidores locales</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="border-b border-slate-700/30">
-                        <td class="px-5 py-3 text-white font-medium">Google Business Profile</td>
-                        <td class="px-4 py-3 text-center text-red-400">No</td>
-                        <td class="px-4 py-3 text-center text-green-400">Yes</td>
-                        <td class="px-4 py-3 text-center text-green-400">Most have one</td>
-                    </tr>
-                    <tr class="border-b border-slate-700/30">
-                        <td class="px-5 py-3 text-white font-medium">Online reviews</td>
-                        <td class="px-4 py-3 text-center text-red-400">Zero</td>
-                        <td class="px-4 py-3 text-center text-green-400">50-200+</td>
-                        <td class="px-4 py-3 text-center text-green-400">10-100+</td>
-                    </tr>
-                    <tr class="border-b border-slate-700/30">
-                        <td class="px-5 py-3 text-white font-medium">Listed on Yelp</td>
-                        <td class="px-4 py-3 text-center text-red-400">No</td>
-                        <td class="px-4 py-3 text-center text-green-400">Yes</td>
-                        <td class="px-4 py-3 text-center text-green-400">Most do</td>
-                    </tr>
-                    <tr class="border-b border-slate-700/30">
-                        <td class="px-5 py-3 text-white font-medium">Blog/content articles</td>
-                        <td class="px-4 py-3 text-center text-red-400">No blog</td>
-                        <td class="px-4 py-3 text-center text-green-400">Extensive</td>
-                        <td class="px-4 py-3 text-center text-yellow-400">Some</td>
-                    </tr>
-                    <tr class="border-b border-slate-700/30">
-                        <td class="px-5 py-3 text-white font-medium">Facebook page</td>
-                        <td class="px-4 py-3 text-center text-red-400">No</td>
-                        <td class="px-4 py-3 text-center text-green-400">Yes</td>
-                        <td class="px-4 py-3 text-center text-green-400">Most do</td>
-                    </tr>
-                    <tr>
-                        <td class="px-5 py-3 text-white font-medium">Multiple service pages</td>
-                        <td class="px-4 py-3 text-center text-red-400">1 page for all</td>
-                        <td class="px-4 py-3 text-center text-green-400">Separate pages</td>
-                        <td class="px-4 py-3 text-center text-yellow-400">Varies</td>
-                    </tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Google Business Profile</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria si</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Resenas en linea</td><td class="px-4 py-3 text-center text-red-400">Cero</td><td class="px-4 py-3 text-center text-green-400">50-200+</td><td class="px-4 py-3 text-center text-green-400">10-100+</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Perfil en Yelp</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Blog/articulos de contenido</td><td class="px-4 py-3 text-center text-red-400">No tiene blog</td><td class="px-4 py-3 text-center text-green-400">Extenso</td><td class="px-4 py-3 text-center text-yellow-400">Algunos</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Pagina de Facebook</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
+                    <tr><td class="px-5 py-3 text-white font-medium">Paginas por servicio</td><td class="px-4 py-3 text-center text-red-400">1 pagina para todo</td><td class="px-4 py-3 text-center text-green-400">Paginas separadas</td><td class="px-4 py-3 text-center text-yellow-400">Varia</td></tr>
                 </tbody>
             </table>
         </div>
@@ -452,91 +422,91 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                 <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             </div>
             <div>
-                <h4 class="text-green-400 font-bold text-sm mb-1">The Good News</h4>
-                <p class="text-slate-300 text-sm leading-relaxed"><strong class="text-white">Jackson Heights has very few pet care businesses with a strong online presence.</strong> Most local competitors have basic websites and minimal SEO. If Kwoof acts now, you can become THE dominant pet care brand in the area within 6 months. The window of opportunity is wide open.</p>
+                <h4 class="text-green-400 font-bold text-sm mb-1">La Buena Noticia</h4>
+                <p class="text-slate-300 text-sm leading-relaxed"><strong class="text-white">Jackson Heights tiene muy pocos negocios de pet care con una presencia online fuerte.</strong> La mayoria de los competidores locales tienen sitios web basicos y poco SEO. Si Kwoof actua ahora, puede convertirse en LA marca dominante de pet care en la zona en 6 meses. La ventana de oportunidad esta abierta.</p>
             </div>
         </div>
     </div>
 </div>
 
-<!-- ==================== TAB 3: STRENGTHS ==================== -->
+<!-- ==================== TAB 3: FORTALEZAS ==================== -->
 <div id="tab-fortalezas" class="tab-content">
 
-    <h2 class="text-white text-lg font-bold mb-2">What You Have Going for You</h2>
+    <h2 class="text-white text-lg font-bold mb-2">Lo Que Tiene a Favor</h2>
     <div class="glass-accent rounded-2xl p-6 mb-6">
         <div class="flex items-start gap-3">
             <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                 <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
             </div>
-            <p class="text-slate-400 text-sm leading-relaxed">It is not all bad news. Kwoof Pet Care has solid foundations that many competitors lack. We just need to <strong class="text-white">make these advantages visible online</strong> so Google and your clients know about them.</p>
+            <p class="text-slate-400 text-sm leading-relaxed">No todo son malas noticias. Kwoof Pet Care tiene bases solidas que muchos competidores no tienen. Solo necesitamos <strong class="text-white">hacer visibles estas ventajas en internet</strong> para que Google y sus clientes las conozcan.</p>
         </div>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Memorable Brand — "K-WOOF"</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Your brand name is fun, unique, and easy to remember. In a market full of generic names like "Queens Pet Care," Kwoof stands out. A memorable brand means clients will tell their friends about you.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Marca Memorable — "K-WOOF"</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Su nombre de marca es divertido, unico y facil de recordar. En un mercado lleno de nombres genericos como "Queens Pet Care", Kwoof se destaca. Una marca memorable significa que los clientes le recomendaran a sus amigos.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Fully Insured & Bonded</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">This is a HUGE trust factor. Many pet walkers in NYC are not insured. Being insured and bonded makes pet owners feel safe. We need to put this front and center on every page — it is your #1 trust differentiator.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Totalmente Asegurado y con Fianza (Insured & Bonded)</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Esto es un factor de confianza ENORME. Muchos paseadores de perros en NYC no estan asegurados. Estar asegurado y con fianza hace que los duenos de mascotas se sientan seguros. Necesitamos poner esto al frente de cada pagina — es su diferenciador #1.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Professional Booking System (TimeToPet)</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">You use TimeToPet for scheduling and bookings. This makes you look more professional than competitors using text messages. When new clients come from SEO, you are ready to handle the volume.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Sistema Profesional de Reservas (TimeToPet)</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Usa TimeToPet para agendar y manejar reservas. Esto lo hace ver mas profesional que competidores que solo usan mensajes de texto. Cuando los nuevos clientes lleguen del SEO, usted ya esta listo para manejar el volumen.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Clear Service Areas Defined</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">You serve Queens (Corona, LIC, 5-mile area) and Brooklyn (Greenpoint, Williamsburg, PLG, Carroll Gardens). Having defined areas is great — we can create dedicated pages for each neighborhood.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Areas de Servicio Bien Definidas</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Atiende Queens (Corona, LIC, area de 5 millas) y Brooklyn (Greenpoint, Williamsburg, PLG, Carroll Gardens). Tener areas definidas es excelente — podemos crear paginas dedicadas para cada vecindario.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Your Own Domain & Website</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Having kwoofpetcare.com is a major advantage over hundreds of pet walkers who only have a Rover profile. Your own website gives you full control and Google sees it as more authoritative.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Dominio y Sitio Web Propio</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Tener kwoofpetcare.com es una gran ventaja sobre cientos de dog walkers que solo tienen perfil en Rover. Su propio sitio web le da control total y Google lo ve como mas confiable.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Competitive Queens Pricing</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Your pricing is right in the sweet spot — competitive but not cheap. Tiered options (15/30/45/60 min), holiday rates, transparent pricing. This builds trust and makes it easy for clients to decide.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Precios Competitivos para Queens</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Sus precios estan en el punto ideal — competitivos pero no baratos. Opciones por tiempo (15/30/45/60 min), tarifas de feriados, precios transparentes. Esto genera confianza y facilita la decision del cliente.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">HTTPS Security & Image Optimization</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Your website has security (the lock icon), images load fast with lazy loading, and your photos have good descriptions. These are technical foundations many small businesses miss.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Seguridad HTTPS y Optimizacion de Imagenes</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Su sitio web tiene seguridad (el candado en el navegador), las imagenes cargan rapido con lazy loading y sus fotos tienen buenas descripciones. Estas son bases tecnicas que muchos negocios pequenos no tienen.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Jackson Heights = Untapped Market</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">One of NYC's most diverse neighborhoods with a large pet-owning community. Very few pet care providers have real online presence here. If you optimize for this area, you can own the local market.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Jackson Heights = Mercado Sin Explotar</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Uno de los vecindarios mas diversos de NYC con una gran comunidad de duenos de mascotas. Muy pocos proveedores de pet care tienen presencia online real aqui. Si optimiza para esta zona, puede aduenar el mercado local antes que nadie.</p>
         </div>
     </div>
 </div>
 
-<!-- ==================== TAB 4: CONTENT PLAN ==================== -->
+<!-- ==================== TAB 4: PLAN DE CONTENIDO ==================== -->
 <div id="tab-contenido" class="tab-content">
 
-    <h2 class="text-white text-lg font-bold mb-2">Content Plan — 20 Articles for Month 1</h2>
+    <h2 class="text-white text-lg font-bold mb-2">Plan de Contenido — 20 Articulos para el Mes 1</h2>
     <div class="glass-accent rounded-2xl p-6 mb-6">
         <div class="flex items-start gap-3">
             <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                 <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
             </div>
             <div>
-                <h3 class="text-white font-semibold mb-1">Why does your business need blog articles?</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">When someone searches "best dog parks in Jackson Heights" and your website has an article about it, Google shows YOUR article. That person reads it, sees you offer dog walking, and books a meet & greet. <strong class="text-white">Each article is like a salesperson that works 24/7 without a salary.</strong></p>
+                <h3 class="text-white font-semibold mb-1">Por que su negocio necesita articulos de blog?</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Cuando alguien busca en Google "best dog parks in Jackson Heights" y su sitio tiene un articulo sobre eso, Google muestra SU articulo. Esa persona lo lee, ve que usted ofrece paseo de perros, y agenda un meet & greet. <strong class="text-white">Cada articulo es como un vendedor que trabaja 24 horas al dia, 7 dias a la semana, sin cobrar sueldo.</strong></p>
             </div>
         </div>
     </div>
 
-    <h3 class="text-white font-bold mb-3">The 3 Types of Articles and What They Do</h3>
+    <h3 class="text-white font-bold mb-3">Los 3 Tipos de Articulos y Para Que Sirven</h3>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
         <div class="glass rounded-xl p-5" style="border-left: 4px solid #22c55e;">
-            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-green-500/15 text-green-400 mb-2">Transactional</span>
-            <p class="text-slate-400 text-xs leading-relaxed">The person is ready to <strong class="text-white">BOOK NOW</strong>. Searching for prices, "near me," availability. These generate direct bookings.</p>
+            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-green-500/15 text-green-400 mb-2">Transaccional</span>
+            <p class="text-slate-400 text-xs leading-relaxed">La persona quiere <strong class="text-white">RESERVAR YA</strong>. Busca precios, disponibilidad, "near me". Estos generan reservas directas.</p>
         </div>
         <div class="glass rounded-xl p-5" style="border-left: 4px solid #f59e0b;">
-            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500/15 text-amber-400 mb-2">Commercial</span>
-            <p class="text-slate-400 text-xs leading-relaxed">The person is <strong class="text-white">COMPARING</strong> options. "Best dog walkers in Queens." These position Kwoof as the expert.</p>
+            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500/15 text-amber-400 mb-2">Comercial</span>
+            <p class="text-slate-400 text-xs leading-relaxed">La persona esta <strong class="text-white">COMPARANDO</strong> opciones. "Mejores dog walkers en Queens." Estos posicionan a Kwoof como el experto.</p>
         </div>
         <div class="glass rounded-xl p-5" style="border-left: 4px solid #3b82f6;">
-            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-blue-500/15 text-blue-400 mb-2">Informational</span>
-            <p class="text-slate-400 text-xs leading-relaxed">The person wants to <strong class="text-white">LEARN</strong>. Tips, guides, advice. These attract massive traffic and build authority.</p>
+            <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-blue-500/15 text-blue-400 mb-2">Informativo</span>
+            <p class="text-slate-400 text-xs leading-relaxed">La persona quiere <strong class="text-white">APRENDER</strong>. Tips, guias, consejos. Estos atraen mucho trafico y establecen autoridad.</p>
         </div>
     </div>
 
@@ -546,167 +516,171 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                 <thead>
                     <tr class="border-b border-slate-700/50">
                         <th class="text-center px-3 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider w-8">#</th>
-                        <th class="text-left px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Article Title</th>
-                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Type</th>
-                        <th class="text-left px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Target keyword</th>
+                        <th class="text-left px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Titulo del Articulo</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Tipo</th>
+                        <th class="text-left px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Palabra clave objetivo</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">1</td><td class="px-4 py-3 text-white text-xs font-medium">Best Dog Parks in Jackson Heights & Corona: A Complete Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog parks Jackson Heights</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">2</td><td class="px-4 py-3 text-white text-xs font-medium">How Much Does Dog Walking Cost in Queens, NY? 2026 Pricing Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking cost Queens</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">3</td><td class="px-4 py-3 text-white text-xs font-medium">Dog Sitting vs. Dog Boarding: Which Is Better for Your Pet?</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog sitting vs boarding</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">3</td><td class="px-4 py-3 text-white text-xs font-medium">Dog Sitting vs. Dog Boarding: Which Is Better for Your Pet?</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog sitting vs boarding</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">4</td><td class="px-4 py-3 text-white text-xs font-medium">10 Tips for Keeping Your Dog Safe in NYC Summers</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog safety summer NYC</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">5</td><td class="px-4 py-3 text-white text-xs font-medium">Finding Reliable Pet Care in Jackson Heights: What to Look For</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Jackson Heights</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">6</td><td class="px-4 py-3 text-white text-xs font-medium">Dog Walking Services in Queens & Brooklyn — Book Today</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking Queens Brooklyn</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">5</td><td class="px-4 py-3 text-white text-xs font-medium">Finding Reliable Pet Care in Jackson Heights: What to Look For</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Jackson Heights</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">6</td><td class="px-4 py-3 text-white text-xs font-medium">Dog Walking Services in Queens & Brooklyn — Book Kwoof Today</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking Queens Brooklyn</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">7</td><td class="px-4 py-3 text-white text-xs font-medium">Pet-Friendly Apartments in Jackson Heights: The Ultimate Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet friendly apartments Jackson Heights</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">8</td><td class="px-4 py-3 text-white text-xs font-medium">5 Best Dog Walkers in Queens: How to Choose the Right One</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">best dog walkers Queens</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">8</td><td class="px-4 py-3 text-white text-xs font-medium">5 Best Dog Walkers in Queens: How to Choose the Right One</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">best dog walkers Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">9</td><td class="px-4 py-3 text-white text-xs font-medium">Overnight Pet Sitting in Queens: What to Expect & How to Prepare</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">overnight pet sitting Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">10</td><td class="px-4 py-3 text-white text-xs font-medium">How to Prepare Your Dog for a Dog Walker: First-Time Tips</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">prepare dog for walker</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">11</td><td class="px-4 py-3 text-white text-xs font-medium">Why Insured & Bonded Pet Care Matters (And How to Verify)</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">insured bonded pet care NYC</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">11</td><td class="px-4 py-3 text-white text-xs font-medium">Why Insured & Bonded Pet Care Matters (And How to Verify)</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">insured bonded pet care NYC</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">12</td><td class="px-4 py-3 text-white text-xs font-medium">Pet Boarding in Queens & Brooklyn: Rates, Tips & How to Book</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet boarding Queens Brooklyn</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">13</td><td class="px-4 py-3 text-white text-xs font-medium">Walking Your Dog in Winter in NYC: Cold Weather Safety Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking winter NYC</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">14</td><td class="px-4 py-3 text-white text-xs font-medium">Rover vs. Hiring a Local Dog Walker: Pros, Cons & Real Costs</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">Rover vs local dog walker</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">15</td><td class="px-4 py-3 text-white text-xs font-medium">In-Home Pet Sitting in Jackson Heights: Care at Your Door</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet sitting Jackson Heights</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">14</td><td class="px-4 py-3 text-white text-xs font-medium">Rover vs. Hiring a Local Dog Walker: Pros, Cons & Real Costs</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">Rover vs local dog walker</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">15</td><td class="px-4 py-3 text-white text-xs font-medium">In-Home Pet Sitting in Jackson Heights: Personalized Care</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet sitting Jackson Heights</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">16</td><td class="px-4 py-3 text-white text-xs font-medium">Separation Anxiety in Dogs: Signs & How Regular Walks Help</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog separation anxiety walks</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">17</td><td class="px-4 py-3 text-white text-xs font-medium">Cat Sitting in Queens: Why Your Cat Needs an In-Home Sitter</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">cat sitting Queens NYC</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">17</td><td class="px-4 py-3 text-white text-xs font-medium">Cat Sitting in Queens: Why Your Cat Needs an In-Home Sitter</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">cat sitting Queens NYC</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">18</td><td class="px-4 py-3 text-white text-xs font-medium">Holiday Pet Care in NYC: Planning for Thanksgiving & Christmas</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">holiday pet care NYC</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">19</td><td class="px-4 py-3 text-white text-xs font-medium">Pet Care Near the 7 Train: Serving Corona, Woodside & Elmhurst</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Corona Woodside Queens</td></tr>
-                    <tr><td class="px-3 py-3 text-center text-slate-500 text-xs">20</td><td class="px-4 py-3 text-white text-xs font-medium">Why Kwoof? Meet Stephanie & the Story Behind K-Woof Pet Care</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Comm</span></td><td class="px-4 py-3 text-slate-400 text-xs">Kwoof pet care reviews</td></tr>
+                    <tr><td class="px-3 py-3 text-center text-slate-500 text-xs">20</td><td class="px-4 py-3 text-white text-xs font-medium">Why Kwoof? Meet Stephanie & the Story Behind K-Woof Pet Care</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">Kwoof pet care reviews</td></tr>
                 </tbody>
             </table>
         </div>
     </div>
 
+    <div class="glass-accent rounded-2xl p-5 mb-6">
+        <p class="text-slate-400 text-xs leading-relaxed"><strong class="text-blue-300">Nota importante:</strong> Los titulos de los articulos estan en ingles porque su mercado objetivo son clientes de habla inglesa en Queens y Brooklyn. Google posiciona los articulos segun el idioma en que la gente busca, y en NYC la mayoria de las busquedas de pet care son en ingles.</p>
+    </div>
+
     <div class="glass rounded-2xl p-6 mb-8">
-        <h3 class="text-white font-bold mb-4">Strategic Content Distribution</h3>
+        <h3 class="text-white font-bold mb-4">Distribucion Estrategica del Contenido</h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="glass-lighter rounded-xl p-4 text-center">
                 <div class="text-2xl font-extrabold text-blue-400 mb-1">7</div>
-                <div class="text-xs text-slate-400">Informational Articles</div>
-                <div class="text-[10px] text-slate-500 mt-1">35% — Attract massive traffic</div>
+                <div class="text-xs text-slate-400">Articulos Informativos</div>
+                <div class="text-[10px] text-slate-500 mt-1">35% — Atraen trafico masivo</div>
                 <div class="w-full bg-slate-700/50 rounded-full h-2 mt-2"><div class="bg-blue-500 h-2 rounded-full" style="width: 35%"></div></div>
             </div>
             <div class="glass-lighter rounded-xl p-4 text-center">
                 <div class="text-2xl font-extrabold text-amber-400 mb-1">7</div>
-                <div class="text-xs text-slate-400">Commercial Articles</div>
-                <div class="text-[10px] text-slate-500 mt-1">35% — Position as the expert</div>
+                <div class="text-xs text-slate-400">Articulos Comerciales</div>
+                <div class="text-[10px] text-slate-500 mt-1">35% — Posicionan como experto</div>
                 <div class="w-full bg-slate-700/50 rounded-full h-2 mt-2"><div class="bg-amber-500 h-2 rounded-full" style="width: 35%"></div></div>
             </div>
             <div class="glass-lighter rounded-xl p-4 text-center">
                 <div class="text-2xl font-extrabold text-green-400 mb-1">6</div>
-                <div class="text-xs text-slate-400">Transactional Articles</div>
-                <div class="text-[10px] text-slate-500 mt-1">30% — Generate direct bookings</div>
+                <div class="text-xs text-slate-400">Articulos Transaccionales</div>
+                <div class="text-[10px] text-slate-500 mt-1">30% — Generan reservas directas</div>
                 <div class="w-full bg-slate-700/50 rounded-full h-2 mt-2"><div class="bg-green-500 h-2 rounded-full" style="width: 30%"></div></div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- ==================== TAB 5: INVESTMENT ==================== -->
+<!-- ==================== TAB 5: INVERSION ==================== -->
 <div id="tab-inversion" class="tab-content">
 
-    <h2 class="text-white text-lg font-bold mb-4">Phase 1 — Fix the Foundation (Weeks 1-2)</h2>
+    <h2 class="text-white text-lg font-bold mb-4">Fase 1 — Arreglar las Bases (Semanas 1-2)</h2>
     <div class="glass rounded-2xl p-6 mb-8" style="border-left: 4px solid #3b82f6;">
-        <p class="text-slate-400 text-sm mb-4">These are the critical first steps to make your business visible online:</p>
+        <p class="text-slate-400 text-sm mb-4">Estos son los primeros pasos criticos para hacer visible su negocio en internet:</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Create your <strong class="text-white">Google Business Profile</strong> — appear on Google Maps</p>
+                <p class="text-slate-400 text-xs">Crear su <strong class="text-white">Google Business Profile</strong> — para aparecer en Google Maps</p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Fix <strong class="text-white">page titles</strong> with location (Queens, Brooklyn, NYC)</p>
+                <p class="text-slate-400 text-xs">Corregir <strong class="text-white">titulos de pagina</strong> con ubicacion (Queens, Brooklyn, NYC)</p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Fix <strong class="text-white">duplicate pages</strong> (redirect /home to /)</p>
+                <p class="text-slate-400 text-xs">Eliminar <strong class="text-white">paginas duplicadas</strong> (redirigir /home a /)</p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Add <strong class="text-white">LocalBusiness data</strong> so Google knows your name, address, phone, and hours</p>
+                <p class="text-slate-400 text-xs">Agregar <strong class="text-white">datos de negocio local</strong> para que Google sepa su nombre, direccion, telefono y horarios</p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Create profiles on <strong class="text-white">Yelp, Nextdoor, and Facebook</strong></p>
+                <p class="text-slate-400 text-xs">Crear perfiles en <strong class="text-white">Yelp, Nextdoor y Facebook</strong></p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Fix typo, Gallery title, and add <strong class="text-white">contact form</strong></p>
+                <p class="text-slate-400 text-xs">Corregir error de escritura, titulo de galeria y agregar <strong class="text-white">formulario de contacto</strong></p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2 md:col-span-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Start <strong class="text-white">review collection strategy</strong> — ask every happy client to leave a Google review. Connect your <a href="https://www.timetopet.com/portal/kwoofpetcare/create-account" target="_blank" class="text-blue-400 hover:text-blue-300 underline">TimeToPet booking system</a> to make the process seamless.</p>
+                <p class="text-slate-400 text-xs">Iniciar <strong class="text-white">estrategia de resenas</strong> — pedir a cada cliente satisfecho que deje una resena en Google. Conectar con su <a href="https://www.timetopet.com/portal/kwoofpetcare/create-account" target="_blank" class="text-blue-400 hover:text-blue-300 underline">sistema de reservas TimeToPet</a> para hacer el proceso fluido.</p>
             </div>
         </div>
     </div>
 
-    <h2 class="text-white text-lg font-bold mb-4">Phase 2 — SEO Growth Plan (6 Months to Dominate Local Search)</h2>
+    <h2 class="text-white text-lg font-bold mb-4">Fase 2 — Plan SEO de 6 Meses (Para Dominar las Busquedas Locales)</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="glass rounded-2xl p-6">
-            <h3 class="text-white font-bold text-lg mb-1">Monthly Payment</h3>
+            <h3 class="text-white font-bold text-lg mb-1">Pago Mensual</h3>
             <div class="flex items-baseline gap-1 mb-2">
                 <span class="text-3xl font-extrabold text-white">$180</span>
-                <span class="text-slate-400 text-sm">/month</span>
+                <span class="text-slate-400 text-sm">/mes</span>
             </div>
-            <p class="text-slate-400 text-sm mb-4">x 6 months = <strong class="text-white">$1,080 total</strong></p>
-            <div class="glass-lighter rounded-lg px-4 py-2"><p class="text-slate-400 text-xs">Minimum commitment: 6 months</p></div>
+            <p class="text-slate-400 text-sm mb-4">x 6 meses = <strong class="text-white">$1,080 total</strong></p>
+            <div class="glass-lighter rounded-lg px-4 py-2"><p class="text-slate-400 text-xs">Compromiso minimo: 6 meses</p></div>
         </div>
         <div class="glass rounded-2xl p-6 relative" style="border: 2px solid rgba(34, 197, 94, 0.4);">
             <div class="absolute -top-3 right-4">
-                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-green-500/20 text-green-400 border border-green-500/30">Save $200</span>
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-green-500/20 text-green-400 border border-green-500/30">Ahorra $200</span>
             </div>
-            <h3 class="text-white font-bold text-lg mb-1">One-Time Payment</h3>
+            <h3 class="text-white font-bold text-lg mb-1">Pago Unico</h3>
             <div class="flex items-baseline gap-1 mb-2">
                 <span class="text-3xl font-extrabold text-green-400">$880</span>
-                <span class="text-slate-400 text-sm">single payment</span>
+                <span class="text-slate-400 text-sm">un solo pago</span>
             </div>
-            <p class="text-slate-400 text-sm mb-2">Full 6-month coverage</p>
-            <p class="text-green-400 text-sm font-semibold">You save $200</p>
+            <p class="text-slate-400 text-sm mb-2">Cobertura completa por 6 meses</p>
+            <p class="text-green-400 text-sm font-semibold">Usted ahorra $200</p>
         </div>
     </div>
 
     <div class="glass rounded-2xl p-6 mb-6">
-        <h3 class="text-white font-bold mb-4">What is included in both plans?</h3>
+        <h3 class="text-white font-bold mb-4">Que incluyen ambos planes?</h3>
         <div class="space-y-3">
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">20 new blog articles every month</strong> to help Google find your business (120 articles in 6 months)</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">20 articulos nuevos cada mes</strong> para que Google encuentre su negocio en mas y mas busquedas (120 articulos en 6 meses)</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Dedicated pages for each service</strong> (dog walking, pet sitting, boarding) and each neighborhood</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Paginas dedicadas por servicio</strong> (dog walking, pet sitting, boarding) y por cada vecindario</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Google Business Profile management</strong> — weekly posts, photos, Q&A</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Gestion de Google Business Profile</strong> — publicaciones semanales, fotos y preguntas/respuestas</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Monthly reports</strong> showing how many people found you, what they searched, and how many contacted you</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Reportes mensuales</strong> mostrando cuantas personas lo encontraron, que buscaron y cuantas lo contactaron</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Technical SEO fixes</strong> and <strong class="text-white">continuous support</strong> for 6 months</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Correcciones tecnicas SEO</strong> y <strong class="text-white">soporte continuo</strong> por 6 meses</p>
             </div>
         </div>
     </div>
 
-    <!-- Projection -->
-    <h2 class="text-white text-lg font-bold mb-4">Projected Results — 6 Months</h2>
+    <!-- Proyeccion -->
+    <h2 class="text-white text-lg font-bold mb-4">Proyeccion de Resultados — 6 Meses</h2>
     <div class="glass rounded-2xl p-6 mb-6">
         <canvas id="projectionChart" height="300"></canvas>
     </div>
     <div class="glass rounded-2xl p-5 mb-8">
-        <p class="text-slate-400 text-xs leading-relaxed">Conservative projections based on average SEO performance for local pet care businesses in NYC. Results depend on consistency, competition, and review generation. Source: Creative Web campaign averages.</p>
+        <p class="text-slate-400 text-xs leading-relaxed">Proyecciones conservadoras basadas en el rendimiento promedio de SEO para negocios locales de pet care en NYC. Los resultados dependen de la consistencia, la competencia y la generacion de resenas. Fuente: promedios de campanas de Creative Web.</p>
     </div>
 
     <!-- CTA -->
     <div class="glass rounded-2xl p-8 text-center mb-8" style="border: 2px solid rgba(59, 130, 246, 0.3);">
-        <h3 class="text-white text-xl font-bold mb-2">Ready to Start Getting More Clients?</h3>
-        <p class="text-slate-400 text-sm mb-6">Every day without SEO is another day competitors are getting YOUR clients. Let us start building your online presence today.</p>
+        <h3 class="text-white text-xl font-bold mb-2">Listo para Empezar a Conseguir Mas Clientes?</h3>
+        <p class="text-slate-400 text-sm mb-6">Cada dia sin SEO es otro dia en que sus competidores se llevan a SUS clientes. Empecemos a construir su presencia online hoy.</p>
         <a href="https://www.timetopet.com/portal/kwoofpetcare/create-account" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-            Book a Meet & Greet
+            Agendar un Meet & Greet
         </a>
     </div>
 </div>
@@ -716,8 +690,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
 <!-- FOOTER -->
 <footer class="relative z-10 glass border-t border-slate-700/50 mt-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-center">
-        <p class="text-slate-500 text-xs mb-1">Developed by <span class="text-slate-400 font-medium">Creative Web</span> — <a href="https://creativeweb.com.ec" class="text-blue-400 hover:text-blue-300 transition-colors" target="_blank">creativeweb.com.ec</a></p>
-        <p class="text-slate-600 text-[10px]">Report generated: April 7, 2026</p>
+        <p class="text-slate-500 text-xs mb-1">Desarrollado por <span class="text-slate-400 font-medium">Creative Web</span> — <a href="https://creativeweb.com.ec" class="text-blue-400 hover:text-blue-300 transition-colors" target="_blank">creativeweb.com.ec</a></p>
+        <p class="text-slate-600 text-[10px]">Informe generado: 7 de Abril, 2026</p>
     </div>
 </footer>
 
@@ -753,10 +727,10 @@ function renderProjectionChart() {
     ctx._chartInstance = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ['Now', 'Month 1', 'Month 2', 'Month 3', 'Month 4', 'Month 5', 'Month 6'],
+            labels: ['Actual', 'Mes 1', 'Mes 2', 'Mes 3', 'Mes 4', 'Mes 5', 'Mes 6'],
             datasets: [
-                { label: 'Monthly website visits', data: [50, 150, 350, 600, 1000, 1500, 2200], borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.4, pointBackgroundColor: '#3b82f6', pointBorderColor: '#fff', pointBorderWidth: 2, pointRadius: 5 },
-                { label: 'New clients/month', data: [2, 5, 10, 18, 28, 40, 55], borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.08)', fill: true, tension: 0.4, pointBackgroundColor: '#22c55e', pointBorderColor: '#fff', pointBorderWidth: 2, pointRadius: 5, yAxisID: 'y1' }
+                { label: 'Visitas mensuales al sitio', data: [50, 150, 350, 600, 1000, 1500, 2200], borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.4, pointBackgroundColor: '#3b82f6', pointBorderColor: '#fff', pointBorderWidth: 2, pointRadius: 5 },
+                { label: 'Nuevos clientes/mes', data: [2, 5, 10, 18, 28, 40, 55], borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.08)', fill: true, tension: 0.4, pointBackgroundColor: '#22c55e', pointBorderColor: '#fff', pointBorderWidth: 2, pointRadius: 5, yAxisID: 'y1' }
             ]
         },
         options: {
@@ -764,8 +738,8 @@ function renderProjectionChart() {
             plugins: { legend: { labels: { color: '#94a3b8', font: { family: 'Inter', size: 12 } } }, tooltip: { backgroundColor: 'rgba(15,23,42,0.9)', titleColor: '#e2e8f0', bodyColor: '#94a3b8', borderColor: 'rgba(148,163,184,0.2)', borderWidth: 1 } },
             scales: {
                 x: { ticks: { color: '#64748b', font: { family: 'Inter', size: 11 } }, grid: { color: 'rgba(148,163,184,0.06)' } },
-                y: { position: 'left', ticks: { color: '#64748b', font: { family: 'Inter', size: 11 }, callback: v => v.toLocaleString() + ' visits' }, grid: { color: 'rgba(148,163,184,0.06)' } },
-                y1: { position: 'right', ticks: { color: '#22c55e', font: { family: 'Inter', size: 11 }, callback: v => v + ' clients' }, grid: { display: false } }
+                y: { position: 'left', ticks: { color: '#64748b', font: { family: 'Inter', size: 11 }, callback: v => v.toLocaleString() + ' visitas' }, grid: { color: 'rgba(148,163,184,0.06)' } },
+                y1: { position: 'right', ticks: { color: '#22c55e', font: { family: 'Inter', size: 11 }, callback: v => v + ' clientes' }, grid: { display: false } }
             }
         }
     });
