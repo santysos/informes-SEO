@@ -90,3 +90,14 @@ deployment:
     # Permisos Rolando Constante
     - chmod 755 $BASEPATH/rolando-constante/abril-2026
     - chmod 644 $BASEPATH/rolando-constante/abril-2026/*.php
+    # Crear estructura Kwoof Pet Care
+    - /bin/mkdir -p $BASEPATH/kwoof-petcare/abril-2026
+    - chmod 755 $BASEPATH/kwoof-petcare
+    # Deploy Kwoof Pet Care
+    - /bin/cp -f kwoof-petcare/abril-2026/.htaccess $BASEPATH/kwoof-petcare/abril-2026/
+    - /bin/cp -f kwoof-petcare/abril-2026/index.php $BASEPATH/kwoof-petcare/abril-2026/
+    - /bin/cp -f kwoof-petcare/abril-2026/login.php $BASEPATH/kwoof-petcare/abril-2026/
+    - /bin/cp -f kwoof-petcare/abril-2026/logout.php $BASEPATH/kwoof-petcare/abril-2026/
+    # Permisos Kwoof Pet Care
+    - chmod 755 $BASEPATH/kwoof-petcare/abril-2026
+    - chmod 644 $BASEPATH/kwoof-petcare/abril-2026/*.php
