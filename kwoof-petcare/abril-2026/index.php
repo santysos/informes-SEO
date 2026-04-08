@@ -771,42 +771,76 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
 <!-- ==================== TAB 6: INVERSION ==================== -->
 <div id="tab-inversion" class="tab-content">
 
-    <h2 class="text-white text-lg font-bold mb-4">Fase 1 — Arreglar las Bases (Semanas 1-2)</h2>
-    <div class="glass rounded-2xl p-6 mb-8" style="border-left: 4px solid #3b82f6;">
-        <p class="text-slate-400 text-sm mb-4">Estos son los primeros pasos criticos para hacer visible su negocio en internet:</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Crear su <strong class="text-white">Google Business Profile</strong> — para aparecer en Google Maps</p>
+    <!-- Nota importante -->
+    <div class="alert-card glass rounded-2xl p-6 mb-8">
+        <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
             </div>
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Corregir <strong class="text-white">titulos de pagina</strong> con ubicacion (Queens, Brooklyn, NYC)</p>
-            </div>
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Eliminar <strong class="text-white">paginas duplicadas</strong> (redirigir /home a /)</p>
-            </div>
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Agregar <strong class="text-white">datos de negocio local</strong> para que Google sepa su nombre, direccion, telefono y horarios</p>
-            </div>
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Crear perfiles en <strong class="text-white">Yelp, Nextdoor y Facebook</strong></p>
-            </div>
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Corregir error de escritura, titulo de galeria y agregar <strong class="text-white">formulario de contacto</strong></p>
-            </div>
-            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2 md:col-span-2">
-                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Iniciar <strong class="text-white">estrategia de resenas</strong> — pedir a cada cliente satisfecho que deje una resena en Google. Conectar con su <a href="https://www.timetopet.com/portal/kwoofpetcare/create-account" target="_blank" class="text-blue-400 hover:text-blue-300 underline">sistema de reservas TimeToPet</a> para hacer el proceso fluido.</p>
+            <div>
+                <h4 class="text-red-400 font-bold text-sm mb-1">Por que NO se puede hacer SEO en Squarespace?</h4>
+                <p class="text-slate-400 text-xs leading-relaxed">Como vio en la seccion anterior, Squarespace limita severamente el control sobre SEO: no permite datos estructurados completos, carga 23 archivos de codigo pesados, tiene blog basico y no le deja optimizar paginas como Google necesita. <strong class="text-white">Hacer SEO en Squarespace es como intentar correr una maraton con zapatos de tacon — tecnicamente puede avanzar, pero nunca va a ganar.</strong> Por eso, el primer paso es migrar su sitio a WordPress.</p>
             </div>
         </div>
     </div>
 
-    <h2 class="text-white text-lg font-bold mb-4">Fase 2 — Plan SEO de 6 Meses (Para Dominar las Busquedas Locales)</h2>
+    <!-- FASE 1: Web nueva en WordPress -->
+    <h2 class="text-white text-lg font-bold mb-4">Fase 1 — Nuevo Sitio Web en WordPress (La Base para Todo)</h2>
+    <div class="glass rounded-2xl p-6 mb-4" style="border-left: 4px solid #3b82f6;">
+        <div class="flex items-center gap-3 mb-4">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30">PASO 1 — OBLIGATORIO</span>
+            <span class="text-white text-2xl font-extrabold">$480 + IVA</span>
+        </div>
+        <p class="text-slate-400 text-sm mb-4">Migraremos su sitio de Squarespace a WordPress — un sitio nuevo, profesional, rapido y 100% optimizado para Google. Este paso es obligatorio antes de empezar el SEO. Incluye:</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Diseno nuevo profesional</strong> en WordPress — moderno, rapido y optimizado para celulares</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Paginas por cada servicio:</strong> Dog Walking, In-Home Sitting, Pet Boarding (cada una optimizada para Google)</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Paginas por vecindario:</strong> Jackson Heights, Corona, Williamsburg, Greenpoint, etc.</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">SEO base completo:</strong> titulos, descripciones, datos estructurados (LocalBusiness, Service) para que Google entienda que es un negocio local de pet care</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Google Analytics + Tag Manager</strong> — para saber cuantas personas visitan su web y que hacen</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Google Search Console</strong> — para que Google le reporte como aparece en los resultados</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Formulario de contacto</strong> + integracion con TimeToPet para reservas</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Blog profesional listo</strong> para recibir los 20 articulos mensuales del plan SEO</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Pagina About</strong> profesional con la historia de Stephanie y K-Woof</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Velocidad optimizada</strong> — sitio rapido que Google premia con mejor posicion</p>
+            </div>
+        </div>
+    </div>
+    <div class="glass-accent rounded-2xl p-5 mb-8">
+        <p class="text-slate-400 text-xs leading-relaxed"><strong class="text-blue-300">Nota:</strong> Su dominio kwoofpetcare.com se mantiene igual. Todo su contenido actual (fotos, textos, galeria) se migra al nuevo sitio. Sus clientes no notaran la transicion excepto que el sitio sera mas rapido y profesional. Usted podra dejar de pagar Squarespace una vez completada la migracion.</p>
+    </div>
+
+    <!-- FASE 2: Plan SEO -->
+    <h2 class="text-white text-lg font-bold mb-4">Fase 2 — Plan SEO de 6 Meses (Una Vez Lista la Web Nueva)</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="glass rounded-2xl p-6">
             <h3 class="text-white font-bold text-lg mb-1">Pago Mensual</h3>
@@ -832,28 +866,66 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
     </div>
 
     <div class="glass rounded-2xl p-6 mb-6">
-        <h3 class="text-white font-bold mb-4">Que incluyen ambos planes?</h3>
+        <h3 class="text-white font-bold mb-4">Que incluye el plan SEO mensual?</h3>
         <div class="space-y-3">
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">20 articulos nuevos cada mes</strong> para que Google encuentre su negocio en mas y mas busquedas (120 articulos en 6 meses)</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">20 articulos nuevos cada mes</strong> optimizados para Google (120 articulos en 6 meses)</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Paginas dedicadas por servicio</strong> (dog walking, pet sitting, boarding) y por cada vecindario</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Gestion de Google Business Profile</strong> — publicaciones semanales, fotos y respuestas</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Gestion de Google Business Profile</strong> — publicaciones semanales, fotos y preguntas/respuestas</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Estrategia de resenas en Google</strong> — para crecer de 0 a 50+ resenas</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Reportes mensuales</strong> mostrando cuantas personas lo encontraron, que buscaron y cuantas lo contactaron</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Reportes mensuales</strong> — cuantas personas lo encontraron, que buscaron y cuantas lo contactaron</p>
             </div>
             <div class="flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-sm"><strong class="text-white">Correcciones tecnicas SEO</strong> y <strong class="text-white">soporte continuo</strong> por 6 meses</p>
+                <p class="text-slate-400 text-sm"><strong class="text-white">Soporte continuo</strong> y optimizacion tecnica por 6 meses</p>
             </div>
+        </div>
+    </div>
+
+    <!-- Resumen de inversion total -->
+    <h2 class="text-white text-lg font-bold mb-4">Resumen de Inversion Total</h2>
+    <div class="glass rounded-2xl overflow-hidden mb-6">
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-slate-700/50">
+                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Concepto</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Opcion Mensual</th>
+                        <th class="text-center px-4 py-4 text-green-400 font-semibold text-xs uppercase tracking-wider">Opcion Pago Unico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4 text-white font-medium">Fase 1: Sitio web nuevo en WordPress</td>
+                        <td class="px-4 py-4 text-center text-slate-300">$480</td>
+                        <td class="px-4 py-4 text-center text-slate-300">$480</td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4 text-white font-medium">Fase 2: Plan SEO (6 meses)</td>
+                        <td class="px-4 py-4 text-center text-slate-300">$180/mes x 6 = $1,080</td>
+                        <td class="px-4 py-4 text-center text-slate-300">$880 (un pago)</td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30 bg-slate-800/30">
+                        <td class="px-5 py-4 text-white font-bold">TOTAL</td>
+                        <td class="px-4 py-4 text-center text-white font-bold text-lg">$1,560</td>
+                        <td class="px-4 py-4 text-center text-green-400 font-bold text-lg">$1,360</td>
+                    </tr>
+                    <tr>
+                        <td class="px-5 py-4 text-slate-500 text-xs">Ahorro</td>
+                        <td class="px-4 py-4 text-center text-slate-500 text-xs">—</td>
+                        <td class="px-4 py-4 text-center text-green-400 text-xs font-bold">Ahorra $200</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
@@ -866,13 +938,13 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
         <p class="text-slate-400 text-xs leading-relaxed">Proyecciones conservadoras basadas en el rendimiento promedio de SEO para negocios locales de pet care en NYC. Los resultados dependen de la consistencia, la competencia y la generacion de resenas. Fuente: promedios de campanas de Creative Web.</p>
     </div>
 
-    <!-- CTA -->
-    <div class="glass rounded-2xl p-8 text-center mb-8" style="border: 2px solid rgba(59, 130, 246, 0.3);">
+    <!-- CTA WhatsApp -->
+    <div class="glass rounded-2xl p-8 text-center mb-8" style="border: 2px solid rgba(34, 197, 94, 0.3);">
         <h3 class="text-white text-xl font-bold mb-2">Listo para Empezar a Conseguir Mas Clientes?</h3>
-        <p class="text-slate-400 text-sm mb-6">Cada dia sin SEO es otro dia en que sus competidores se llevan a SUS clientes. Empecemos a construir su presencia online hoy.</p>
-        <a href="https://www.timetopet.com/portal/kwoofpetcare/create-account" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-            Agendar un Meet & Greet
+        <p class="text-slate-400 text-sm mb-6">Cada dia sin SEO es otro dia en que sus competidores se llevan a SUS clientes. Escribanos por WhatsApp y empecemos hoy.</p>
+        <a href="https://wa.me/5930999174980?text=Hola%2C%20vi%20el%20informe%20de%20Kwoof%20Pet%20Care%20y%20me%20interesa%20el%20plan%20de%20SEO" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-green-600 hover:bg-green-500 text-white font-semibold text-sm transition-all hover:shadow-lg hover:shadow-green-500/25">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Escribir por WhatsApp
         </a>
     </div>
 </div>
