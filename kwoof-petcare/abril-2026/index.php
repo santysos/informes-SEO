@@ -183,7 +183,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                 <div class="flex items-center gap-3 mb-3">
                     <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/30">Grado F — Critico</span>
                 </div>
-                <p class="text-slate-400 text-sm leading-relaxed">De 100 puntos posibles, su sitio web obtuvo <strong class="text-white">35 puntos</strong>. Usted tiene buenas bases — Google Business Profile con 5.0 estrellas, perfil en Yelp y un Instagram activo. Pero hay oportunidades enormes que esta dejando pasar, especialmente en su sitio web y en la cantidad de contenido. Con las mejoras correctas, puede duplicar o triplicar sus clientes en 6 meses.</p>
+                <p class="text-slate-400 text-sm leading-relaxed">De 100 puntos posibles, su sitio web obtuvo <strong class="text-white">35 puntos</strong>. Usted tiene buenas bases — Google Business Profile activo, 4 resenas con 5 estrellas en Yelp y un Instagram con 330+ seguidores. Pero hay oportunidades enormes que esta dejando pasar, especialmente en su sitio web y en la cantidad de contenido. Con las mejoras correctas, puede duplicar o triplicar sus clientes en 6 meses.</p>
             </div>
         </div>
     </div>
@@ -209,7 +209,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Google Maps y Presencia Local</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">45/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Tiene Google Business Profile con 5.0 estrellas — excelente inicio! Pero solo tiene 4 resenas. Los competidores que aparecen primero en el mapa tienen 50-200+ resenas. Necesita crecer ese numero rapidamente para subir en el ranking local.</td>
+                        <td class="px-6 py-4 text-slate-400">Tiene Google Business Profile activo — buen inicio! Pero tiene 0 resenas en Google. Los competidores que aparecen primero en el mapa tienen 50-200+ resenas en Google. Las resenas de Google son las que mas pesan para el ranking del mapa local.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Contenido del Sitio Web</td>
@@ -219,7 +219,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Resenas y Reputacion Online</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">35/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Tiene 4 resenas con 5.0 estrellas en Google y perfil en Yelp — un excelente comienzo. Pero 4 resenas no son suficientes para competir. Los negocios que dominan el "Local Pack" de Google (los 3 resultados del mapa) tienen 50+ resenas. Necesita una estrategia activa para pedir resenas a cada cliente.</td>
+                        <td class="px-6 py-4 text-slate-400">Tiene 4 resenas con 5 estrellas en Yelp — excelente comienzo! Pero tiene 0 resenas en Google, que es donde mas importa. Los negocios que dominan el "Local Pack" de Google (los 3 resultados del mapa) tienen 50+ resenas EN GOOGLE. Necesita una estrategia activa para pedir resenas en Google a cada cliente.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Presencia en Redes Sociales</td>
@@ -245,8 +245,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-green-400 font-bold text-sm mb-1">Google Business Profile: 5.0 Estrellas</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">Tiene un Google Business Profile activo con calificacion perfecta de 5.0 estrellas — esto es ORO. Pero solo tiene 4 resenas. Los negocios que aparecen en los primeros 3 resultados del mapa de Google tienen entre 50 y 200+ resenas. Necesita una estrategia activa para llegar a 50 en 6 meses.</p>
+                    <h4 class="text-green-400 font-bold text-sm mb-1">Google Business Profile Activo</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Tiene un Google Business Profile configurado y aparece en Google Maps — esto es un gran paso que muchos competidores no tienen. Pero tiene 0 resenas en Google. Las resenas de Google son las que mas influyen en que tan arriba aparece usted en el mapa. Meta: llegar a 50 resenas en Google en 6 meses.</p>
                 </div>
             </div>
         </div>
@@ -256,8 +256,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-yellow-400 font-bold text-sm mb-1">Solo 4 Resenas — Necesita 50+ para Competir</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">El 93% de consumidores lee resenas antes de elegir un servicio local (BrightLocal 2024). Su 5.0 es perfecta, pero 4 resenas no generan la confianza suficiente. Un competidor con 50 resenas de 4.5 estrellas le ganara al cliente solo por volumen de opiniones.</p>
+                    <h4 class="text-yellow-400 font-bold text-sm mb-1">5 Estrellas en Yelp, Pero 0 en Google</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Tiene 4 resenas con 5 estrellas en Yelp — excelente! Pero tiene 0 resenas en Google, que es donde el 93% de las personas buscan primero (BrightLocal 2024). Un competidor con 50 resenas en Google de 4.5 estrellas le ganara el puesto en el mapa, aunque su calificacion en Yelp sea perfecta.</p>
                 </div>
             </div>
         </div>
@@ -406,8 +406,9 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Google Business Profile</td><td class="px-4 py-3 text-center text-green-400">Si (5.0 estrellas)</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria si</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Resenas en linea</td><td class="px-4 py-3 text-center text-yellow-400">4 resenas</td><td class="px-4 py-3 text-center text-green-400">50-200+</td><td class="px-4 py-3 text-center text-green-400">10-100+</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Google Business Profile</td><td class="px-4 py-3 text-center text-green-400">Si (activo)</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria si</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Resenas en Google</td><td class="px-4 py-3 text-center text-red-400">0 resenas</td><td class="px-4 py-3 text-center text-green-400">50-200+</td><td class="px-4 py-3 text-center text-green-400">10-100+</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Resenas en Yelp</td><td class="px-4 py-3 text-center text-yellow-400">4 (5 estrellas)</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">Varios</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Perfil en Yelp</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Blog/articulos de contenido</td><td class="px-4 py-3 text-center text-red-400">No tiene blog</td><td class="px-4 py-3 text-center text-green-400">Extenso</td><td class="px-4 py-3 text-center text-yellow-400">Algunos</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Pagina de Facebook</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
