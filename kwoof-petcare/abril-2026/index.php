@@ -115,6 +115,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('perdidas')">Lo Que Esta Perdiendo</button>
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('fortalezas')">Sus Fortalezas</button>
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('contenido')">Plan de Contenido</button>
+            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('plataforma')">Squarespace vs WordPress</button>
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('inversion')">Inversion y Proximos Pasos</button>
         </div>
     </div>
@@ -174,7 +175,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             <div class="relative">
                 <canvas id="scoreChart" width="160" height="160" class="score-ring"></canvas>
                 <div class="absolute inset-0 flex flex-col items-center justify-center">
-                    <span class="text-3xl font-extrabold text-red-400">25</span>
+                    <span class="text-3xl font-extrabold text-red-400">35</span>
                     <span class="text-xs text-slate-400">de 100</span>
                 </div>
             </div>
@@ -182,7 +183,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                 <div class="flex items-center gap-3 mb-3">
                     <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/30">Grado F — Critico</span>
                 </div>
-                <p class="text-slate-400 text-sm leading-relaxed">De 100 puntos posibles, su sitio web obtuvo <strong class="text-white">25 puntos</strong>. Esto significa que su presencia en internet tiene problemas serios que le estan costando clientes cada mes. La buena noticia: todos estos problemas tienen solucion y su potencial de crecimiento es enorme — especialmente porque la mayoria de sus competidores locales tampoco estan haciendo mucho.</p>
+                <p class="text-slate-400 text-sm leading-relaxed">De 100 puntos posibles, su sitio web obtuvo <strong class="text-white">35 puntos</strong>. Usted tiene buenas bases — Google Business Profile con 5.0 estrellas, perfil en Yelp y un Instagram activo. Pero hay oportunidades enormes que esta dejando pasar, especialmente en su sitio web y en la cantidad de contenido. Con las mejoras correctas, puede duplicar o triplicar sus clientes en 6 meses.</p>
             </div>
         </div>
     </div>
@@ -207,8 +208,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Google Maps y Presencia Local</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">5/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">NO tiene Google Business Profile. Esto significa que es completamente invisible en Google Maps — la forma #1 en que la gente encuentra servicios de pet care en NYC.</td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">45/100</span></td>
+                        <td class="px-6 py-4 text-slate-400">Tiene Google Business Profile con 5.0 estrellas — excelente inicio! Pero solo tiene 4 resenas. Los competidores que aparecen primero en el mapa tienen 50-200+ resenas. Necesita crecer ese numero rapidamente para subir en el ranking local.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Contenido del Sitio Web</td>
@@ -217,13 +218,13 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Resenas y Reputacion Online</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">0/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Tiene CERO resenas en cualquier plataforma — ni en Google, ni en Yelp, ni en Facebook. Cuando alguien elige entre usted y un competidor con 50+ resenas positivas, siempre elegiran al que tiene resenas.</td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">35/100</span></td>
+                        <td class="px-6 py-4 text-slate-400">Tiene 4 resenas con 5.0 estrellas en Google y perfil en Yelp — un excelente comienzo. Pero 4 resenas no son suficientes para competir. Los negocios que dominan el "Local Pack" de Google (los 3 resultados del mapa) tienen 50+ resenas. Necesita una estrategia activa para pedir resenas a cada cliente.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Presencia en Redes Sociales</td>
-                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">20/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Solo tiene Instagram (@kwoof__). Le falta Facebook, TikTok (el contenido de mascotas se vuelve viral!), Nextdoor (la app #1 donde los vecinos recomiendan servicios locales) y Yelp.</td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">35/100</span></td>
+                        <td class="px-6 py-4 text-slate-400">Tiene Instagram con 330+ seguidores (@kwoof__) y esta en localpetcare.com — buen inicio. Pero le falta Facebook (esencial en NYC), TikTok (el contenido de mascotas se vuelve viral!) y Nextdoor (la app #1 donde los vecinos recomiendan servicios locales).</td>
                     </tr>
                     <tr>
                         <td class="px-6 py-4 text-white font-medium">Salud Tecnica del Sitio</td>
@@ -236,38 +237,38 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
     </div>
 
     <!-- Alertas -->
-    <h2 class="text-white text-lg font-bold mb-4">Alertas Criticas Que Necesita Saber</h2>
+    <h2 class="text-white text-lg font-bold mb-4">Lo Que Encontramos: Lo Bueno y Lo Que Falta</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-        <div class="kpi-card alert-card glass rounded-xl p-5">
+        <div class="kpi-card glass rounded-xl p-5" style="border-left: 4px solid #22c55e;">
             <div class="flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+                <div class="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">NO Existe en Google Maps</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">Cuando alguien cerca de usted busca "pet care near me", Google muestra un mapa con 3 negocios. Usted NO es uno de ellos. Un Google Business Profile es GRATIS y es lo mas importante para cualquier negocio local. Sin el, usted es invisible para el 90% de sus clientes potenciales.</p>
+                    <h4 class="text-green-400 font-bold text-sm mb-1">Google Business Profile: 5.0 Estrellas</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Tiene un Google Business Profile activo con calificacion perfecta de 5.0 estrellas — esto es ORO. Pero solo tiene 4 resenas. Los negocios que aparecen en los primeros 3 resultados del mapa de Google tienen entre 50 y 200+ resenas. Necesita una estrategia activa para llegar a 50 en 6 meses.</p>
                 </div>
             </div>
         </div>
-        <div class="kpi-card alert-card glass rounded-xl p-5">
+        <div class="kpi-card warning-card glass rounded-xl p-5">
             <div class="flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+                <div class="w-8 h-8 rounded-lg bg-yellow-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">CERO Resenas en Cualquier Plataforma</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">En Nueva York, las resenas lo son TODO. El 93% de los consumidores lee resenas antes de elegir un servicio local (fuente: BrightLocal 2024). Usted tiene cero resenas en Google, Yelp y Facebook. Un competidor con resenas siempre ganara al cliente, aunque su servicio sea mejor.</p>
+                    <h4 class="text-yellow-400 font-bold text-sm mb-1">Solo 4 Resenas — Necesita 50+ para Competir</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">El 93% de consumidores lee resenas antes de elegir un servicio local (BrightLocal 2024). Su 5.0 es perfecta, pero 4 resenas no generan la confianza suficiente. Un competidor con 50 resenas de 4.5 estrellas le ganara al cliente solo por volumen de opiniones.</p>
                 </div>
             </div>
         </div>
-        <div class="kpi-card alert-card glass rounded-xl p-5">
+        <div class="kpi-card glass rounded-xl p-5" style="border-left: 4px solid #22c55e;">
             <div class="flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg class="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+                <div class="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                 </div>
                 <div>
-                    <h4 class="text-red-400 font-bold text-sm mb-1">No Esta en Yelp, Rover ni Ningun Directorio</h4>
-                    <p class="text-slate-400 text-xs leading-relaxed">Su negocio no esta en Yelp (la plataforma #1 de resenas en NYC), Rover (el marketplace #1 de pet care), Nextdoor (la app del vecindario) ni ningun directorio. Estos perfiles son GRATIS y le traen clientes todos los dias. Es como tener un telefono que no esta en ninguna guia.</p>
+                    <h4 class="text-green-400 font-bold text-sm mb-1">Ya Esta en Yelp y LocalPetCare.com</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Buena noticia: ya aparece en Yelp y localpetcare.com. Pero aun falta Facebook (imprescindible en NYC), Nextdoor (donde los vecinos recomiendan servicios) y TikTok (el contenido de mascotas se vuelve viral). Estos perfiles son GRATIS y traen clientes todos los dias.</p>
                 </div>
             </div>
         </div>
@@ -405,9 +406,9 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Google Business Profile</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria si</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Resenas en linea</td><td class="px-4 py-3 text-center text-red-400">Cero</td><td class="px-4 py-3 text-center text-green-400">50-200+</td><td class="px-4 py-3 text-center text-green-400">10-100+</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Perfil en Yelp</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Google Business Profile</td><td class="px-4 py-3 text-center text-green-400">Si (5.0 estrellas)</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria si</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Resenas en linea</td><td class="px-4 py-3 text-center text-yellow-400">4 resenas</td><td class="px-4 py-3 text-center text-green-400">50-200+</td><td class="px-4 py-3 text-center text-green-400">10-100+</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Perfil en Yelp</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Blog/articulos de contenido</td><td class="px-4 py-3 text-center text-red-400">No tiene blog</td><td class="px-4 py-3 text-center text-green-400">Extenso</td><td class="px-4 py-3 text-center text-yellow-400">Algunos</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-5 py-3 text-white font-medium">Pagina de Facebook</td><td class="px-4 py-3 text-center text-red-400">No</td><td class="px-4 py-3 text-center text-green-400">Si</td><td class="px-4 py-3 text-center text-green-400">La mayoria</td></tr>
                     <tr><td class="px-5 py-3 text-white font-medium">Paginas por servicio</td><td class="px-4 py-3 text-center text-red-400">1 pagina para todo</td><td class="px-4 py-3 text-center text-green-400">Paginas separadas</td><td class="px-4 py-3 text-center text-yellow-400">Varia</td></tr>
@@ -576,7 +577,197 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
     </div>
 </div>
 
-<!-- ==================== TAB 5: INVERSION ==================== -->
+<!-- ==================== TAB 5: SQUARESPACE vs WORDPRESS ==================== -->
+<div id="tab-plataforma" class="tab-content">
+
+    <h2 class="text-white text-lg font-bold mb-2">Squarespace vs WordPress: Cual Es Mejor para Su Negocio?</h2>
+    <div class="glass-accent rounded-2xl p-6 mb-6">
+        <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
+            </div>
+            <div>
+                <p class="text-slate-400 text-sm leading-relaxed">Actualmente su sitio web esta construido en <strong class="text-white">Squarespace</strong>. Squarespace es bueno para crear un sitio bonito rapidamente, pero tiene limitaciones importantes para SEO y crecimiento. A continuacion le explicamos en lenguaje simple las diferencias con <strong class="text-white">WordPress + WooCommerce</strong> — la plataforma que usan la mayoria de negocios exitosos en Google.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="glass rounded-2xl overflow-hidden mb-6">
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-slate-700/50">
+                        <th class="text-left px-5 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Caracteristica</th>
+                        <th class="text-center px-4 py-4 text-slate-400 font-semibold text-xs uppercase tracking-wider">Squarespace (actual)</th>
+                        <th class="text-center px-4 py-4 text-blue-400 font-semibold text-xs uppercase tracking-wider">WordPress + WooCommerce</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4 text-white font-medium">Facilidad de uso</td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Muy facil</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Requiere ayuda</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Control de SEO</p>
+                            <p class="text-slate-500 text-[10px]">La capacidad de decirle a Google exactamente que es cada pagina</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Limitado</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Control total</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Blog y articulos</p>
+                            <p class="text-slate-500 text-[10px]">Donde publicamos los 20 articulos mensuales para atraer clientes</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Basico</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Profesional</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Schema / Datos estructurados</p>
+                            <p class="text-slate-500 text-[10px]">Un codigo especial que le dice a Google "soy un negocio local de pet care en Queens"</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">Muy limitado</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Completo</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Velocidad de carga</p>
+                            <p class="text-slate-500 text-[10px]">Que tan rapido abre su pagina — Google penaliza las paginas lentas</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Regular (23 scripts)</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Optimizable al 100%</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Paginas ilimitadas</p>
+                            <p class="text-slate-500 text-[10px]">Poder crear paginas por cada vecindario y servicio</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Si, pero rigido</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Si, totalmente flexible</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Redireccionamientos</p>
+                            <p class="text-slate-500 text-[10px]">Poder corregir paginas duplicadas como /home vs /</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Limitado</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Control total</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Formularios de contacto</p>
+                            <p class="text-slate-500 text-[10px]">Para que los clientes le escriban directamente desde su sitio</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Basicos</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Avanzados + WhatsApp</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Google Analytics / GTM</p>
+                            <p class="text-slate-500 text-[10px]">Saber cuantas personas visitan su web, de donde vienen y que hacen</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-yellow-500/15 text-yellow-400">Basico</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">Completo + GTM</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-700/30">
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Costo mensual</p>
+                            <p class="text-slate-500 text-[10px]">Lo que paga cada mes por tener su sitio web activo</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="text-slate-300 text-xs">$16-$49/mes</span></td>
+                        <td class="px-4 py-4 text-center"><span class="text-slate-300 text-xs">$5-$15/mes (hosting)</span></td>
+                    </tr>
+                    <tr>
+                        <td class="px-5 py-4">
+                            <p class="text-white font-medium">Propiedad del sitio</p>
+                            <p class="text-slate-500 text-[10px]">Quien es dueno de su sitio web y sus datos</p>
+                        </td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">De Squarespace</span></td>
+                        <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-green-500/15 text-green-400">100% suyo</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Key insight cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="alert-card glass rounded-xl p-5">
+            <h4 class="text-red-400 font-bold text-sm mb-2">El problema principal con Squarespace</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Squarespace es como alquilar un local comercial donde usted no puede mover las paredes, poner su propia senal grande afuera, ni decidir cuantas vitrinas mostrar. Se ve bonito por dentro, pero Google no puede leer bien el contenido porque Squarespace carga 23 archivos de codigo pesados y limita como usted organiza la informacion. Para SEO, esto es un freno importante.</p>
+        </div>
+        <div class="glass rounded-xl p-5" style="border-left: 4px solid #22c55e;">
+            <h4 class="text-green-400 font-bold text-sm mb-2">La ventaja de WordPress</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">WordPress es como ser dueno de su propio local. Usted decide todo: que tan rapido carga, que informacion ve Google, cuantas paginas crear, que formularios usar. Con plugins como Yoast SEO o RankMath, cada pagina se puede optimizar al 100% para Google. Ademas, el 43% de TODOS los sitios web del mundo usan WordPress (fuente: W3Techs).</p>
+        </div>
+    </div>
+
+    <!-- Recommendation -->
+    <div class="glass rounded-2xl p-6 mb-8" style="border: 2px solid rgba(59, 130, 246, 0.3);">
+        <h3 class="text-white font-bold mb-3">Nuestra Recomendacion</h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-4">Para un negocio de servicios locales como Kwoof que necesita crecer en Google, <strong class="text-white">WordPress es la mejor opcion a largo plazo</strong>. Squarespace es bueno para empezar rapido, pero cuando necesita:</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs">Publicar 20 articulos al mes optimizados para Google</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs">Crear paginas individuales por vecindario (Jackson Heights, Corona, Williamsburg...)</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs">Agregar datos estructurados para que Google entienda que es un negocio local</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
+                <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <p class="text-slate-400 text-xs">Medir todo con Google Analytics y Tag Manager</p>
+            </div>
+        </div>
+        <p class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">Squarespace simplemente no le da esas herramientas.</strong> Es como intentar ganar una carrera con un auto familiar — puede llegar, pero un auto de carreras (WordPress) llegara primero. La migracion es un proceso que nosotros manejamos completamente, sin que usted pierda nada de su contenido actual.</p>
+    </div>
+
+    <!-- Cost comparison -->
+    <h3 class="text-white font-bold mb-4">Comparacion de Costos Anuales</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div class="glass rounded-2xl p-6">
+            <h4 class="text-slate-400 font-bold text-sm mb-3 uppercase tracking-wider">Squarespace (actual)</h4>
+            <div class="space-y-2">
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Plan Business</span><span class="text-white">$33/mes</span></div>
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Dominio</span><span class="text-white">Incluido 1er ano</span></div>
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Plugins SEO</span><span class="text-white">No disponibles</span></div>
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Limitaciones SEO</span><span class="text-red-400">Multiples</span></div>
+                <div class="border-t border-slate-700/50 pt-2 mt-2 flex justify-between text-sm font-bold"><span class="text-white">Total anual</span><span class="text-white">~$396/ano</span></div>
+            </div>
+        </div>
+        <div class="glass rounded-2xl p-6" style="border: 2px solid rgba(34, 197, 94, 0.3);">
+            <h4 class="text-green-400 font-bold text-sm mb-3 uppercase tracking-wider">WordPress (recomendado)</h4>
+            <div class="space-y-2">
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Hosting profesional</span><span class="text-white">$8-$15/mes</span></div>
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Dominio</span><span class="text-white">$12/ano</span></div>
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Plugins SEO premium</span><span class="text-white">$0 (versiones gratis)</span></div>
+                <div class="flex justify-between text-sm"><span class="text-slate-400">Control SEO</span><span class="text-green-400">Total</span></div>
+                <div class="border-t border-slate-700/50 pt-2 mt-2 flex justify-between text-sm font-bold"><span class="text-white">Total anual</span><span class="text-green-400">~$108-$192/ano</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="glass-accent rounded-2xl p-5 mb-8">
+        <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
+            </div>
+            <p class="text-slate-400 text-sm leading-relaxed"><strong class="text-blue-300">Resumen:</strong> Con WordPress usted paga MENOS al ano, tiene MAYOR control sobre su SEO, y es DUENO de su sitio web (en Squarespace, si deja de pagar, pierde todo). La unica desventaja es que WordPress necesita mantenimiento tecnico — pero eso es exactamente lo que nosotros hacemos por usted.</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- ==================== TAB 6: INVERSION ==================== -->
 <div id="tab-inversion" class="tab-content">
 
     <h2 class="text-white text-lg font-bold mb-4">Fase 1 — Arreglar las Bases (Semanas 1-2)</h2>
@@ -701,7 +892,7 @@ function switchTab(tabId) {
     document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
     document.getElementById('tab-' + tabId).classList.add('active');
     const buttons = document.querySelectorAll('.tab-btn');
-    const tabMap = ['resumen', 'perdidas', 'fortalezas', 'contenido', 'inversion'];
+    const tabMap = ['resumen', 'perdidas', 'fortalezas', 'contenido', 'plataforma', 'inversion'];
     const idx = tabMap.indexOf(tabId);
     if (idx >= 0) buttons[idx].classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -715,7 +906,7 @@ function renderScoreChart() {
     if (ctx._chartInstance) ctx._chartInstance.destroy();
     ctx._chartInstance = new Chart(ctx, {
         type: 'doughnut',
-        data: { datasets: [{ data: [25, 75], backgroundColor: ['#ef4444', 'rgba(51,65,85,0.3)'], borderWidth: 0, cutout: '78%' }] },
+        data: { datasets: [{ data: [35, 65], backgroundColor: ['#ef4444', 'rgba(51,65,85,0.3)'], borderWidth: 0, cutout: '78%' }] },
         options: { responsive: false, plugins: { legend: { display: false }, tooltip: { enabled: false } }, animation: { animateRotate: true, duration: 1200 } }
     });
 }
