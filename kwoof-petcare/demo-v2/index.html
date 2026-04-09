@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwoof Pet Care | Dog Walking & Pet Sitting in Queens & Brooklyn NYC</title>
+    <meta name="description" content="Professional dog walking, in-home pet sitting & boarding in Queens and Brooklyn NYC. Fully insured & bonded. Book your meet & greet today!">
+    <meta property="og:title" content="Kwoof Pet Care | Dog Walking & Pet Sitting in Queens & Brooklyn NYC">
+    <meta property="og:description" content="Professional dog walking, in-home pet sitting & boarding in Queens and Brooklyn NYC. Fully insured & bonded.">
+    <meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/108ebaab-d96c-4920-a162-c876a91a1a5d/Untitled+design.png?format=1500w">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #1B2A4A;
+            --coral: #E8734A;
+            --coral-dark: #D4613B;
+            --cream: #FFF8F0;
+            --charcoal: #2D2D2D;
+            --light-blue: #E8F0FE;
+            --white: #FFFFFF;
+            --shadow: 0 4px 20px rgba(27,42,74,0.08);
+            --shadow-hover: 0 12px 40px rgba(27,42,74,0.15);
+            --radius: 16px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Poppins', sans-serif; color: var(--charcoal); background: var(--cream); overflow-x: hidden; }
+
+        /* NAV */
+        nav {
+            position: fixed; top: 0; width: 100%; z-index: 1000;
+            background: rgba(255,248,240,0.92); backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(27,42,74,0.06);
+            transition: all 0.3s ease;
+        }
+        nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
+        .nav-inner {
+            max-width: 1200px; margin: 0 auto; display: flex; align-items: center;
+            justify-content: space-between; padding: 12px 24px;
+        }
+        .nav-logo { height: 50px; }
+        .nav-links { display: flex; gap: 28px; align-items: center; list-style: none; }
+        .nav-links a {
+            text-decoration: none; color: var(--navy); font-weight: 500;
+            font-size: 0.95rem; position: relative; transition: color 0.3s;
+        }
+        .nav-links a:hover { color: var(--coral); }
+        .nav-links a::after {
+            content: ''; position: absolute; bottom: -4px; left: 0;
+            width: 0; height: 2px; background: var(--coral); transition: width 0.3s ease;
+        }
+        .nav-links a:hover::after { width: 100%; }
+        .btn-nav {
+            background: var(--coral); color: white !important; padding: 10px 24px;
+            border-radius: 50px; font-weight: 600; font-size: 0.9rem; transition: all 0.3s ease;
+        }
+        .btn-nav:hover { background: var(--coral-dark); transform: translateY(-2px); box-shadow: 0 4px 15px rgba(232,115,74,0.4); }
+        .btn-nav::after { display: none !important; }
+        .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 8px; }
+        .hamburger span { width: 24px; height: 2.5px; background: var(--navy); border-radius: 2px; transition: 0.3s; }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh; display: flex; align-items: center;
+            position: relative; overflow: hidden; padding-top: 80px;
+        }
+        .hero-bg {
+            position: absolute; inset: 0; z-index: 0;
+        }
+        .hero-bg img {
+            width: 100%; height: 100%; object-fit: cover;
+        }
+        .hero-overlay {
+            position: absolute; inset: 0; z-index: 1;
+            background: linear-gradient(135deg, rgba(27,42,74,0.88) 0%, rgba(27,42,74,0.65) 50%, rgba(27,42,74,0.45) 100%);
+        }
+        .hero-inner {
+            max-width: 1200px; margin: 0 auto; padding: 60px 24px;
+            display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: center;
+            position: relative; z-index: 2;
+        }
+        .hero-text h1 {
+            font-size: 3.4rem; font-weight: 900; color: white; line-height: 1.08; margin-bottom: 20px;
+        }
+        .hero-text h1 .highlight { color: var(--coral); }
+        .hero-text p {
+            font-size: 1.15rem; color: rgba(255,255,255,0.85);
+            line-height: 1.7; margin-bottom: 36px; max-width: 520px;
+        }
+        .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
+        .btn-primary {
+            background: var(--coral); color: white; padding: 16px 36px;
+            border-radius: 50px; text-decoration: none; font-weight: 700;
+            font-size: 1.05rem; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 8px;
+        }
+        .btn-primary:hover { background: var(--coral-dark); transform: translateY(-3px); box-shadow: 0 8px 25px rgba(232,115,74,0.4); }
+        .btn-secondary {
+            background: transparent; color: white; padding: 16px 36px;
+            border-radius: 50px; text-decoration: none; font-weight: 600;
+            font-size: 1.05rem; border: 2px solid rgba(255,255,255,0.35); transition: all 0.3s ease;
+        }
+        .btn-secondary:hover { border-color: white; background: rgba(255,255,255,0.1); }
+
+        .hero-image { position: relative; display: flex; justify-content: center; align-items: center; }
+        .hero-img-wrapper {
+            width: 400px; height: 400px; border-radius: 50%;
+            overflow: hidden; position: relative; border: 5px solid rgba(255,255,255,0.2);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3); animation: pulse 4s ease-in-out infinite;
+        }
+        .hero-img-wrapper img { width: 100%; height: 100%; object-fit: cover; }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } }
+        .hero-badge {
+            position: absolute; background: white; padding: 12px 20px;
+            border-radius: 14px; box-shadow: var(--shadow-hover);
+            font-weight: 600; font-size: 0.85rem; color: var(--navy);
+            animation: badgeFloat 3s ease-in-out infinite; white-space: nowrap;
+        }
+        .badge-1 { top: 20px; right: -20px; animation-delay: 0s; }
+        .badge-2 { bottom: 40px; left: -30px; animation-delay: 1.5s; }
+        @keyframes badgeFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+
+        /* TRUST BAR */
+        .trust-bar { background: white; padding: 28px 24px; border-bottom: 1px solid rgba(0,0,0,0.05); }
+        .trust-inner {
+            max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;
+        }
+        .trust-item { display: flex; align-items: center; gap: 10px; font-weight: 500; color: var(--navy); font-size: 0.9rem; }
+        .trust-icon { font-size: 1.3rem; }
+
+        /* SECTIONS COMMON */
+        section { padding: 100px 24px; }
+        .section-inner { max-width: 1200px; margin: 0 auto; }
+        .section-label {
+            display: inline-block; background: var(--light-blue); color: var(--navy);
+            font-size: 0.78rem; font-weight: 700; padding: 6px 16px; border-radius: 50px;
+            text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 12px;
+        }
+        .section-title { font-size: 2.5rem; font-weight: 800; color: var(--navy); line-height: 1.2; margin-bottom: 16px; }
+        .section-subtitle { font-size: 1.1rem; color: #666; max-width: 600px; line-height: 1.7; margin-bottom: 48px; }
+
+        /* SERVICES */
+        .services { background: var(--cream); }
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+        .service-card {
+            background: white; border-radius: var(--radius); overflow: hidden;
+            box-shadow: var(--shadow); transition: all 0.4s ease; cursor: default;
+        }
+        .service-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+        .service-img { width: 100%; height: 220px; overflow: hidden; }
+        .service-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .service-card:hover .service-img img { transform: scale(1.08); }
+        .service-body { padding: 28px; }
+        .service-body h3 { font-size: 1.25rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+        .service-price { color: var(--coral); font-weight: 700; font-size: 1.05rem; margin-bottom: 12px; }
+        .service-body p { color: #666; line-height: 1.7; font-size: 0.93rem; }
+
+        /* PHOTO GALLERY STRIP */
+        .gallery-strip { background: white; padding: 60px 0; overflow: hidden; }
+        .gallery-strip h2 { text-align: center; font-size: 2rem; font-weight: 800; color: var(--navy); margin-bottom: 36px; }
+        .gallery-scroll {
+            display: flex; gap: 16px; animation: scroll 30s linear infinite;
+            width: max-content;
+        }
+        .gallery-scroll img {
+            width: 280px; height: 220px; object-fit: cover; border-radius: 12px;
+            flex-shrink: 0; transition: transform 0.3s;
+        }
+        .gallery-scroll img:hover { transform: scale(1.04); }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* NEIGHBORHOODS */
+        .neighborhoods { background: var(--cream); }
+        .hood-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+        .hood-card {
+            background: white; border-radius: var(--radius); overflow: hidden;
+            border: 2px solid transparent; transition: all 0.3s ease; box-shadow: var(--shadow);
+        }
+        .hood-card:hover { border-color: var(--coral); transform: translateY(-4px); }
+        .hood-map { width: 100%; height: 180px; overflow: hidden; }
+        .hood-map img { width: 100%; height: 100%; object-fit: cover; }
+        .hood-body { padding: 28px; }
+        .hood-body h3 { font-size: 1.35rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+        .hood-body .sub { color: var(--coral); font-weight: 600; font-size: 0.88rem; margin-bottom: 14px; }
+        .hood-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+        .hood-tag {
+            background: var(--cream); padding: 8px 16px; border-radius: 50px;
+            font-size: 0.85rem; font-weight: 500; color: var(--navy); transition: all 0.3s ease;
+        }
+        .hood-tag:hover { background: var(--navy); color: white; }
+
+        /* WHY KWOOF */
+        .why-kwoof { background: var(--navy); color: white; }
+        .why-kwoof .section-label { background: rgba(232,115,74,0.2); color: var(--coral); }
+        .why-kwoof .section-title { color: white; }
+        .why-kwoof .section-subtitle { color: rgba(255,255,255,0.7); }
+        .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+        .why-card {
+            text-align: center; padding: 32px 20px; border-radius: var(--radius);
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+            transition: all 0.4s ease;
+        }
+        .why-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-6px); }
+        .why-icon { font-size: 2.5rem; margin-bottom: 16px; display: block; }
+        .why-card h4 { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+        .why-card p { font-size: 0.88rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
+
+        /* PRICING */
+        .pricing { background: var(--cream); }
+        .price-table-wrap { background: white; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+        .price-table { width: 100%; border-collapse: collapse; }
+        .price-table thead { background: var(--navy); color: white; }
+        .price-table th { padding: 18px 24px; text-align: left; font-weight: 600; font-size: 0.95rem; }
+        .price-table td { padding: 16px 24px; border-bottom: 1px solid #f0f0f0; font-size: 0.95rem; }
+        .price-table tbody tr { transition: background 0.3s; }
+        .price-table tbody tr:hover { background: var(--light-blue); }
+        .price-table .price-amount { font-weight: 700; color: var(--coral); }
+        .price-note { padding: 20px 24px; background: var(--cream); font-size: 0.85rem; color: #666; }
+
+        /* TESTIMONIALS */
+        .testimonials { background: white; }
+        .test-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+        .test-card {
+            background: var(--cream); border-radius: var(--radius); padding: 32px;
+            transition: all 0.3s ease; position: relative;
+        }
+        .test-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+        .test-stars { color: #F5A623; font-size: 1.1rem; margin-bottom: 14px; letter-spacing: 2px; }
+        .test-card blockquote { font-style: italic; color: #555; line-height: 1.7; margin-bottom: 16px; font-size: 0.95rem; border: 0; padding: 0; }
+        .test-author { font-weight: 700; color: var(--navy); font-size: 0.9rem; }
+        .test-loc { color: #999; font-size: 0.8rem; }
+
+        /* ABOUT */
+        .about { background: var(--cream); }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .about-img {
+            width: 100%; height: 480px; border-radius: var(--radius); overflow: hidden;
+            box-shadow: var(--shadow-hover);
+        }
+        .about-img img { width: 100%; height: 100%; object-fit: cover; }
+        .about-text h3 { font-size: 2rem; font-weight: 800; color: var(--navy); margin-bottom: 16px; }
+        .about-text p { color: #555; line-height: 1.8; margin-bottom: 16px; font-size: 1.02rem; }
+        .about-text .highlight-quote {
+            border-left: 4px solid var(--coral); padding-left: 20px;
+            font-style: italic; color: var(--navy); font-weight: 500; margin: 24px 0;
+        }
+
+        /* CTA BANNER */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--coral) 0%, #D4613B 100%);
+            padding: 80px 24px; text-align: center; color: white; position: relative; overflow: hidden;
+        }
+        .cta-banner::before {
+            content: ''; position: absolute; top: -100px; right: -100px;
+            width: 400px; height: 400px; border-radius: 50%; background: rgba(255,255,255,0.08);
+        }
+        .cta-banner::after {
+            content: ''; position: absolute; bottom: -80px; left: -60px;
+            width: 300px; height: 300px; border-radius: 50%; background: rgba(255,255,255,0.05);
+        }
+        .cta-banner h2 { font-size: 2.5rem; font-weight: 800; margin-bottom: 12px; position: relative; }
+        .cta-banner p { font-size: 1.15rem; opacity: 0.9; margin-bottom: 32px; position: relative; }
+        .btn-cta-white {
+            background: white; color: var(--coral); padding: 18px 40px;
+            border-radius: 50px; text-decoration: none; font-weight: 700;
+            font-size: 1.1rem; display: inline-flex; align-items: center; gap: 8px;
+            transition: all 0.3s ease; position: relative;
+        }
+        .btn-cta-white:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(0,0,0,0.2); }
+        .cta-phone {
+            display: block; margin-top: 20px; color: white; font-size: 1.2rem;
+            font-weight: 600; text-decoration: none; position: relative;
+        }
+
+        /* FOOTER */
+        footer { background: var(--navy); color: rgba(255,255,255,0.7); padding: 60px 24px 30px; }
+        .footer-inner {
+            max-width: 1200px; margin: 0 auto;
+            display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
+        }
+        .footer-logo { height: 40px; margin-bottom: 12px; filter: brightness(0) invert(1); }
+        .footer-brand p { font-size: 0.9rem; line-height: 1.7; max-width: 300px; }
+        footer h4 { color: white; font-weight: 700; margin-bottom: 16px; font-size: 1rem; }
+        footer ul { list-style: none; }
+        footer ul li { margin-bottom: 10px; }
+        footer ul a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        footer ul a:hover { color: var(--coral); }
+        .footer-bottom {
+            max-width: 1200px; margin: 40px auto 0; padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem;
+        }
+        .footer-social { display: flex; gap: 16px; }
+        .footer-social a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 1.2rem; transition: color 0.3s; }
+        .footer-social a:hover { color: var(--coral); }
+
+        /* DEMO BANNER */
+        .demo-banner {
+            position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999;
+            background: linear-gradient(135deg, var(--navy), #2A3F6E);
+            color: white; text-align: center; padding: 14px 24px;
+            font-size: 0.9rem; font-weight: 500;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+        }
+        .demo-banner strong { color: var(--coral); }
+
+        /* ANIMATIONS */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-4 { transition-delay: 0.4s; }
+
+        /* RESPONSIVE */
+        @media (max-width: 1024px) {
+            .hero-inner { grid-template-columns: 1fr; text-align: center; }
+            .hero-text p { margin: 0 auto 36px; }
+            .hero-btns { justify-content: center; }
+            .hero-image { display: none; }
+            .hero-text h1 { font-size: 2.8rem; }
+            .services-grid { grid-template-columns: 1fr 1fr; }
+            .why-grid { grid-template-columns: 1fr 1fr; }
+            .test-grid { grid-template-columns: 1fr 1fr; }
+            .footer-inner { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hamburger { display: flex; }
+            .nav-links.open {
+                display: flex; flex-direction: column; position: absolute;
+                top: 100%; left: 0; width: 100%; background: var(--cream);
+                padding: 20px 24px; gap: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            }
+            .hero-text h1 { font-size: 2.1rem; }
+            .section-title { font-size: 1.9rem; }
+            .services-grid, .hood-grid, .why-grid, .test-grid { grid-template-columns: 1fr; }
+            .about-grid { grid-template-columns: 1fr; }
+            .footer-inner { grid-template-columns: 1fr; }
+            .price-table-wrap { overflow-x: auto; }
+            .trust-inner { gap: 16px; }
+            .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+            .cta-banner h2 { font-size: 1.8rem; }
+            .gallery-scroll img { width: 220px; height: 170px; }
+        }
+    </style>
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "PetStore",
+        "additionalType": "https://schema.org/LocalBusiness",
+        "name": "Kwoof Pet Care",
+        "description": "Professional dog walking, in-home pet sitting and boarding services in Queens and Brooklyn, NYC. Fully insured and bonded.",
+        "url": "https://www.kwoofpetcare.com",
+        "telephone": "+1-347-353-6804",
+        "email": "kwoofpetcare@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Queens",
+            "addressRegion": "NY",
+            "addressCountry": "US"
+        },
+        "areaServed": [
+            {"@type": "City", "name": "Queens", "containedInPlace": {"@type": "City", "name": "New York"}},
+            {"@type": "City", "name": "Brooklyn", "containedInPlace": {"@type": "City", "name": "New York"}}
+        ],
+        "openingHoursSpecification": [
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "19:00"},
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00"}
+        ],
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Pet Care Services",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Dog Walking", "description": "15 to 60 minute individual or group walks in Queens and Brooklyn"}, "price": "25.00", "priceCurrency": "USD"},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "In-Home Pet Sitting", "description": "Overnight pet sitting in your own home"}, "price": "90.00", "priceCurrency": "USD"},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Pet Boarding", "description": "Overnight boarding with pickup available"}, "price": "90.00", "priceCurrency": "USD"}
+            ]
+        },
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "4", "bestRating": "5"},
+        "sameAs": ["https://www.instagram.com/kwoof__/"]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/6ddf0e9b-a5d5-438e-b165-e984351d54ee/words+transparant+better+spacing+.png?format=500w" alt="Kwoof Pet Care" class="nav-logo">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#neighborhoods">Areas</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="https://timetopet.com/portal/kwoofpetcare" class="btn-nav" target="_blank">Book Now</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/f4a58ce1-7abd-49b0-93df-e754ec5852ff/IMG_4431.jpg?format=2500w" alt="Happy dogs walking in New York City" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-inner">
+            <div class="hero-text">
+                <h1>Professional <span class="highlight">Dog Walking</span> & Pet Care in Queens & Brooklyn</h1>
+                <p>Fully insured & bonded pet care you can trust. From daily walks to overnight boarding, your furry family member deserves the best care in NYC.</p>
+                <div class="hero-btns">
+                    <a href="https://timetopet.com/portal/kwoofpetcare" class="btn-primary" target="_blank">Book Now &#8594;</a>
+                    <a href="#services" class="btn-secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/008783ea-a041-4325-a40d-0924c321ba23/A6DD2C82-0C1D-448B-8217-73D1F2910CD9+2.jpg?format=1000w" alt="Group of happy dogs at Kwoof Pet Care">
+                    <div class="hero-badge badge-1">&#11088; 5-Star Yelp Reviews</div>
+                    <div class="hero-badge badge-2">&#128737;&#65039; Insured & Bonded</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar">
+        <div class="trust-inner">
+            <div class="trust-item"><span class="trust-icon">&#128737;&#65039;</span> Fully Insured & Bonded</div>
+            <div class="trust-item"><span class="trust-icon">&#11088;</span> 5-Star Reviews</div>
+            <div class="trust-item"><span class="trust-icon">&#128241;</span> Real-Time Updates</div>
+            <div class="trust-item"><span class="trust-icon">&#128149;</span> Meet & Greet First</div>
+            <div class="trust-item"><span class="trust-icon">&#128205;</span> Queens & Brooklyn</div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="section-inner">
+            <span class="section-label reveal">Our Services</span>
+            <h2 class="section-title reveal">Everything Your Pet Needs</h2>
+            <p class="section-subtitle reveal">From energizing walks to cozy overnight stays, we provide personalized care tailored to your pet's unique needs.</p>
+            <div class="services-grid">
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="service-img">
+                        <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/31417893-a078-467b-95e0-30351d2e2f12/IMG_4390-2.jpg?format=1000w" alt="Dog walking in Queens NYC park" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Dog Walking</h3>
+                        <div class="service-price">From $25/walk</div>
+                        <p>Individual or small group walks (up to 4 dogs). Choose 15, 30, 45, or 60-minute sessions. Fresh air, exercise, and socialization every day.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-img">
+                        <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/cf0948a3-2bd5-4ea2-b871-b636d072a8bc/IMG_0383.jpg?format=1000w" alt="Dogs comfortable at home during pet sitting" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>In-Home Pet Sitting</h3>
+                        <div class="service-price">$90/night</div>
+                        <p>Your pet stays comfortable in their own home while you're away. We handle feeding, walks, playtime, and all the love they need.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal reveal-delay-3">
+                    <div class="service-img">
+                        <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/d2928bff-574e-4257-8035-494247112a4f/C118B9C6-8140-4E29-93F6-70A4246444BC.jpg?format=1000w" alt="Happy dog enjoying pet boarding at Kwoof" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Pet Boarding</h3>
+                        <div class="service-price">$90/night</div>
+                        <p>Your dog stays at our loving home. Pickup & drop-off available in Queens and Brooklyn. Treated like family, not a guest.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHOTO GALLERY STRIP -->
+    <div class="gallery-strip">
+        <div class="gallery-scroll">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/d812e1f7-9f8a-4ebd-aad5-e417c49dbe4a/6B3BFA69-73AF-401D-8851-6830E4D3A363.jpg?format=750w" alt="Dog at waterfront NYC" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/08808220-4850-4140-a3a8-6069c556499a/B4BBA474-6DBD-4911-8941-A89A99074B01.jpg?format=750w" alt="Happy dog outdoors" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/4fa4d8e4-e95c-4b93-8c38-eabbc384cb26/5C718BCD-5530-46F2-A6CC-9D6025ADEEF0.jpg?format=750w" alt="Dog playing in park" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/966a2248-eb45-45b9-926d-0fb1a5f96dc8/5B5F51A5-6004-464A-9100-8FCB125AB514.jpg?format=750w" alt="Dogs walking together" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/200c6d30-4429-4cca-a4c8-42a9111fe686/IMG_1307.jpg?format=750w" alt="Dog enjoying walk" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/3e73c48e-afd9-4296-b736-4389d573c933/20C91745-E836-4F03-9016-C3F03E393576.jpg?format=750w" alt="Cute dog portrait" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/a2bb60e7-4589-48ba-a02f-eef7d6377bce/F45E94E5-9863-4361-874D-E45817FB366C.jpg?format=750w" alt="Dog at the park" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/4656911b-0c58-47bf-bd67-c218d2868ee6/image-asset.jpeg?format=750w" alt="Happy pet at home" loading="lazy">
+            <!-- Duplicate set for seamless loop -->
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/d812e1f7-9f8a-4ebd-aad5-e417c49dbe4a/6B3BFA69-73AF-401D-8851-6830E4D3A363.jpg?format=750w" alt="Dog at waterfront NYC" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/08808220-4850-4140-a3a8-6069c556499a/B4BBA474-6DBD-4911-8941-A89A99074B01.jpg?format=750w" alt="Happy dog outdoors" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/4fa4d8e4-e95c-4b93-8c38-eabbc384cb26/5C718BCD-5530-46F2-A6CC-9D6025ADEEF0.jpg?format=750w" alt="Dog playing in park" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/966a2248-eb45-45b9-926d-0fb1a5f96dc8/5B5F51A5-6004-464A-9100-8FCB125AB514.jpg?format=750w" alt="Dogs walking together" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/200c6d30-4429-4cca-a4c8-42a9111fe686/IMG_1307.jpg?format=750w" alt="Dog enjoying walk" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/3e73c48e-afd9-4296-b736-4389d573c933/20C91745-E836-4F03-9016-C3F03E393576.jpg?format=750w" alt="Cute dog portrait" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/a2bb60e7-4589-48ba-a02f-eef7d6377bce/F45E94E5-9863-4361-874D-E45817FB366C.jpg?format=750w" alt="Dog at the park" loading="lazy">
+            <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/4656911b-0c58-47bf-bd67-c218d2868ee6/image-asset.jpeg?format=750w" alt="Happy pet at home" loading="lazy">
+        </div>
+    </div>
+
+    <!-- NEIGHBORHOODS -->
+    <section class="neighborhoods" id="neighborhoods">
+        <div class="section-inner">
+            <span class="section-label reveal">Service Areas</span>
+            <h2 class="section-title reveal">Serving Queens & Brooklyn's Best Neighborhoods</h2>
+            <p class="section-subtitle reveal">Convenient pet care right in your neighborhood. We come to you.</p>
+            <div class="hood-grid">
+                <div class="hood-card reveal reveal-delay-1">
+                    <div class="hood-map">
+                        <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/4c207410-3ff9-41c5-9f06-410c87ac67b5/Beige+And+Blue+Elegant+Menu+%281%29.png?format=1000w" alt="Map of Kwoof Pet Care service areas in Queens NYC" loading="lazy">
+                    </div>
+                    <div class="hood-body">
+                        <h3>Queens</h3>
+                        <div class="sub">Pickup: $15 one-way / $25 round-trip</div>
+                        <div class="hood-tags">
+                            <span class="hood-tag">Corona</span>
+                            <span class="hood-tag">Long Island City</span>
+                            <span class="hood-tag">Hunter's Point</span>
+                            <span class="hood-tag">5-Mile Radius</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hood-card reveal reveal-delay-2">
+                    <div class="hood-map">
+                        <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/a40030f9-adb7-4bfb-ba4f-2f779980bf6d/Beige+And+Blue+Elegant+Menu+%281%29.png?format=1000w" alt="Map of Kwoof Pet Care service areas in Brooklyn NYC" loading="lazy">
+                    </div>
+                    <div class="hood-body">
+                        <h3>Brooklyn</h3>
+                        <div class="sub">Pickup: $20 one-way / $35 round-trip</div>
+                        <div class="hood-tags">
+                            <span class="hood-tag">Greenpoint</span>
+                            <span class="hood-tag">Williamsburg</span>
+                            <span class="hood-tag">Prospect Lefferts Gardens</span>
+                            <span class="hood-tag">Carroll Gardens</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY KWOOF -->
+    <section class="why-kwoof" id="why">
+        <div class="section-inner">
+            <span class="section-label reveal">Why Choose Us</span>
+            <h2 class="section-title reveal">Why NYC Pet Parents Trust Kwoof</h2>
+            <p class="section-subtitle reveal">We go above and beyond to ensure your pet is safe, happy, and loved.</p>
+            <div class="why-grid">
+                <div class="why-card reveal reveal-delay-1">
+                    <span class="why-icon">&#128737;&#65039;</span>
+                    <h4>Insured & Bonded</h4>
+                    <p>Full liability coverage for your peace of mind. Your pet is always protected.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-2">
+                    <span class="why-icon">&#129309;</span>
+                    <h4>Meet & Greet First</h4>
+                    <p>We always meet your pet before the first booking to ensure a perfect fit.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-3">
+                    <span class="why-icon">&#128241;</span>
+                    <h4>Real-Time Updates</h4>
+                    <p>Photos, GPS routes, and live updates through the TimeToPet app.</p>
+                </div>
+                <div class="why-card reveal reveal-delay-4">
+                    <span class="why-icon">&#11088;</span>
+                    <h4>5-Star Rated</h4>
+                    <p>Perfect rating on Yelp. Our clients love us and their pets do too.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing">
+        <div class="section-inner">
+            <span class="section-label reveal">Pricing</span>
+            <h2 class="section-title reveal">Transparent, Honest Pricing</h2>
+            <p class="section-subtitle reveal">No hidden fees. No surprises. Just great pet care at fair prices.</p>
+            <div class="price-table-wrap reveal">
+                <table class="price-table">
+                    <thead>
+                        <tr><th>Service</th><th>Duration</th><th>Price</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Dog Walking</td><td>15 minutes</td><td class="price-amount">$25/dog</td></tr>
+                        <tr><td>Dog Walking</td><td>30 minutes</td><td class="price-amount">$30/dog</td></tr>
+                        <tr><td>Dog Walking</td><td>45 minutes</td><td class="price-amount">$35/dog</td></tr>
+                        <tr><td>Dog Walking</td><td>60 minutes</td><td class="price-amount">$38/dog</td></tr>
+                        <tr><td>Group Walk (up to 4)</td><td>60 minutes</td><td class="price-amount">$40/dog</td></tr>
+                        <tr><td>In-Home Pet Sitting</td><td>Per night</td><td class="price-amount">$90/night</td></tr>
+                        <tr><td>Pet Boarding</td><td>Per night</td><td class="price-amount">$90/night</td></tr>
+                        <tr><td>Holiday Rate</td><td>All services</td><td class="price-amount">+$5 - $10</td></tr>
+                    </tbody>
+                </table>
+                <div class="price-note">
+                    <strong>Notes:</strong> Weekend surcharge $3/walk. Additional pet $5/night. Pickup fees: Queens $15-$25, Brooklyn $20-$35. Cancellation policies apply. All prices per pet unless noted.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-inner">
+            <span class="section-label reveal">Reviews</span>
+            <h2 class="section-title reveal">What Pet Parents Say</h2>
+            <p class="section-subtitle reveal">Don't just take our word for it. Here's what our happy clients have to say.</p>
+            <div class="test-grid">
+                <div class="test-card reveal reveal-delay-1">
+                    <div class="test-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Stephanie is amazing with our dog! She sends us photos and updates during every walk. We feel so comfortable knowing our pup is in great hands."</blockquote>
+                    <div class="test-author">Sarah M.</div>
+                    <div class="test-loc">Corona, Queens</div>
+                </div>
+                <div class="test-card reveal reveal-delay-2">
+                    <div class="test-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"We've used Kwoof for boarding several times now. Our dog loves going there and is always happy when we pick him up. Highly recommend!"</blockquote>
+                    <div class="test-author">Mike & Jessica T.</div>
+                    <div class="test-loc">Williamsburg, Brooklyn</div>
+                </div>
+                <div class="test-card reveal reveal-delay-3">
+                    <div class="test-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <blockquote>"Best pet care in Queens! Stephanie treated our pets like her own. The TimeToPet app makes it so easy to book and stay in touch."</blockquote>
+                    <div class="test-author">David L.</div>
+                    <div class="test-loc">Long Island City, Queens</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="section-inner">
+            <div class="about-grid">
+                <div class="about-img reveal">
+                    <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/6c666134-2f5a-4ae2-8155-4523a3ed76fe/IMG_5612.jpg?format=1500w" alt="Stephanie, owner of Kwoof Pet Care, walking dogs in NYC" loading="lazy">
+                </div>
+                <div class="about-text reveal reveal-delay-1">
+                    <span class="section-label">About Kwoof</span>
+                    <h3>Meet Stephanie, Your Pet's New Best Friend</h3>
+                    <p>Kwoof Pet Care was born from a lifelong love of animals and a desire to provide Queens and Brooklyn pet parents with reliable, professional care they can trust.</p>
+                    <div class="highlight-quote">
+                        "Every pet deserves love, attention, and the best care possible. That's what Kwoof is all about."
+                    </div>
+                    <p>As a fully insured and bonded pet care professional, Stephanie ensures every pet receives individualized attention and genuine affection. Whether it's a daily walk or an extended boarding stay, your pet is family.</p>
+                    <a href="https://timetopet.com/portal/kwoofpetcare" class="btn-primary" target="_blank" style="margin-top: 12px;">Book a Meet & Greet &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+        <h2 class="reveal">Ready to Give Your Pet the Best Care?</h2>
+        <p class="reveal">Book a free meet & greet today. Your pet will thank you.</p>
+        <a href="https://timetopet.com/portal/kwoofpetcare" class="btn-cta-white reveal" target="_blank">Book Your Meet & Greet &#8594;</a>
+        <a href="tel:+13473536804" class="cta-phone reveal">&#128222; (347) 353-6804</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="https://images.squarespace-cdn.com/content/v1/68e03afa96a286369f486b9e/6ddf0e9b-a5d5-438e-b165-e984351d54ee/words+transparant+better+spacing+.png?format=300w" alt="Kwoof Pet Care" class="footer-logo">
+                <p>Professional dog walking, pet sitting, and boarding in Queens & Brooklyn, NYC. Fully insured & bonded. Your pet deserves the best.</p>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Dog Walking</a></li>
+                    <li><a href="#services">In-Home Sitting</a></li>
+                    <li><a href="#services">Pet Boarding</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Areas We Serve</h4>
+                <ul>
+                    <li><a href="#neighborhoods">Corona, Queens</a></li>
+                    <li><a href="#neighborhoods">Long Island City</a></li>
+                    <li><a href="#neighborhoods">Greenpoint, Brooklyn</a></li>
+                    <li><a href="#neighborhoods">Williamsburg</a></li>
+                    <li><a href="#neighborhoods">Carroll Gardens</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Hours</h4>
+                <ul>
+                    <li>Mon-Fri: 10AM - 7PM</li>
+                    <li>Saturday: 10AM - 6PM</li>
+                    <li>Sunday: Closed</li>
+                    <li style="margin-top: 12px;"><a href="mailto:kwoofpetcare@gmail.com">kwoofpetcare@gmail.com</a></li>
+                    <li><a href="tel:+13473536804">(347) 353-6804</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Kwoof Pet Care. All rights reserved. Queens & Brooklyn, NYC.</span>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/kwoof__/" target="_blank" rel="noopener" aria-label="Follow Kwoof on Instagram">&#128247; Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- DEMO BANNER -->
+    <div class="demo-banner">
+        This is a <strong>design preview</strong> of the new Kwoof Pet Care website &mdash; Proposed by <strong>CreativeWeb</strong>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu
+        document.getElementById('hamburger').addEventListener('click', () => {
+            document.getElementById('navLinks').classList.toggle('open');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+        });
+
+        // Scroll reveal animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    </script>
+</body>
+</html>
