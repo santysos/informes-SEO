@@ -102,7 +102,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             <span class="text-slate-500 text-sm">|</span>
             <span class="text-slate-400 text-sm">kwoofpetcare.com</span>
             <span class="text-slate-500 text-sm">|</span>
-            <span class="text-slate-400 text-sm">Jackson Heights, Queens, NYC 11368</span>
+            <span class="text-slate-400 text-sm">Corona & LIC, Queens + Greenpoint & Williamsburg, Brooklyn, NYC</span>
         </div>
     </div>
 </header>
@@ -204,7 +204,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Visibilidad en Google</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-red-500/15 text-red-400">15/100</span></td>
-                        <td class="px-6 py-4 text-slate-400">Cuando alguien en Jackson Heights busca "dog walking near me" en Google, su negocio no aparece. Esos clientes potenciales van directamente a la competencia.</td>
+                        <td class="px-6 py-4 text-slate-400">Cuando alguien en Corona, Long Island City o Greenpoint busca "dog walking near me" en Google, su negocio no aparece. Esos clientes potenciales van directamente a la competencia.</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="px-6 py-4 text-white font-medium">Google Maps y Presencia Local</td>
@@ -312,7 +312,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                 </thead>
                 <tbody>
                     <tr class="border-b border-slate-700/30">
-                        <td class="px-5 py-4 text-white font-medium">"dog walking Jackson Heights"</td>
+                        <td class="px-5 py-4 text-white font-medium">"dog walking Corona Queens"</td>
                         <td class="px-4 py-4 text-center text-slate-300">~50-150</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
                         <td class="px-5 py-4 text-slate-400 text-xs">~15-45 visitantes &rarr; 3-9 clientes nuevos a $20/paseo x 20 paseos/mes = <strong class="text-green-400">$1,200-$3,600/mes</strong></td>
@@ -336,10 +336,10 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                         <td class="px-5 py-4 text-slate-400 text-xs">~45-90 visitantes &rarr; 5-10 estadias a $75/noche x 3 noches = <strong class="text-green-400">$1,125-$2,250/mes</strong></td>
                     </tr>
                     <tr>
-                        <td class="px-5 py-4 text-white font-medium">"pet care 11368"</td>
+                        <td class="px-5 py-4 text-white font-medium">"pet care Long Island City"</td>
                         <td class="px-4 py-4 text-center text-slate-300">~10-30</td>
                         <td class="px-4 py-4 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/15 text-red-400">No aparece</span></td>
-                        <td class="px-5 py-4 text-slate-400 text-xs">Poco volumen pero ALTA intencion — buscan exactamente su codigo postal = <strong class="text-green-400">$300-$900/mes</strong></td>
+                        <td class="px-5 py-4 text-slate-400 text-xs">Menor volumen pero ALTA intencion — buscan exactamente en su zona = <strong class="text-green-400">$300-$900/mes</strong></td>
                     </tr>
                 </tbody>
             </table>
@@ -380,7 +380,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
         </div>
         <div class="alert-card glass rounded-xl p-5">
             <h4 class="text-red-400 font-bold text-sm mb-2">Titulos No Mencionan Su Ubicacion</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">El titulo de su sitio dice "Kwoof | Trusted Pet Care" pero nunca menciona Queens, Jackson Heights, Brooklyn o NYC. Google no sabe DONDE esta ubicado, asi que no puede mostrarlo a personas buscando cerca. Es como una tarjeta de presentacion sin direccion.</p>
+            <p class="text-slate-400 text-xs leading-relaxed">El titulo de su sitio dice "Kwoof | Trusted Pet Care" pero nunca menciona Queens, Corona, Long Island City, Brooklyn o NYC. Google no sabe DONDE esta ubicado, asi que no puede mostrarlo a personas buscando cerca. Es como una tarjeta de presentacion sin direccion.</p>
         </div>
         <div class="alert-card glass rounded-xl p-5">
             <h4 class="text-red-400 font-bold text-sm mb-2">Pagina de Galeria con Titulo Generico</h4>
@@ -425,7 +425,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             </div>
             <div>
                 <h4 class="text-green-400 font-bold text-sm mb-1">La Buena Noticia</h4>
-                <p class="text-slate-300 text-sm leading-relaxed"><strong class="text-white">Jackson Heights tiene muy pocos negocios de pet care con una presencia online fuerte.</strong> La mayoria de los competidores locales tienen sitios web basicos y poco SEO. Si Kwoof actua ahora, puede convertirse en LA marca dominante de pet care en la zona en 6 meses. La ventana de oportunidad esta abierta.</p>
+                <p class="text-slate-300 text-sm leading-relaxed"><strong class="text-white">La zona de Corona, Long Island City, Greenpoint y Williamsburg tiene muy pocos negocios de pet care con una presencia online fuerte.</strong> La mayoria de los competidores locales tienen sitios web basicos y poco SEO. Si Kwoof actua ahora, puede convertirse en LA marca dominante de pet care en estas zonas en 6 meses. La ventana de oportunidad esta abierta.</p>
             </div>
         </div>
     </div>
@@ -459,7 +459,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
         </div>
         <div class="success-card glass rounded-xl p-5">
             <h4 class="text-green-400 font-bold text-sm mb-1">Areas de Servicio Bien Definidas</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Atiende Queens (Corona, LIC, area de 5 millas) y Brooklyn (Greenpoint, Williamsburg, PLG, Carroll Gardens). Tener areas definidas es excelente — podemos crear paginas dedicadas para cada vecindario.</p>
+            <p class="text-slate-400 text-xs leading-relaxed">Atiende Queens (Corona, Long Island City/Hunter's Point y radio de 5 millas) y Brooklyn (Greenpoint, Williamsburg, Prospect Lefferts Gardens, Carroll Gardens). Con pick-up/drop-off disponible ($15 Queens, $20 Brooklyn). Podemos crear paginas dedicadas para cada vecindario.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
             <h4 class="text-green-400 font-bold text-sm mb-1">Dominio y Sitio Web Propio</h4>
@@ -474,8 +474,8 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             <p class="text-slate-400 text-xs leading-relaxed">Su sitio web tiene seguridad (el candado en el navegador), las imagenes cargan rapido con lazy loading y sus fotos tienen buenas descripciones. Estas son bases tecnicas que muchos negocios pequenos no tienen.</p>
         </div>
         <div class="success-card glass rounded-xl p-5">
-            <h4 class="text-green-400 font-bold text-sm mb-1">Jackson Heights = Mercado Sin Explotar</h4>
-            <p class="text-slate-400 text-xs leading-relaxed">Uno de los vecindarios mas diversos de NYC con una gran comunidad de duenos de mascotas. Muy pocos proveedores de pet care tienen presencia online real aqui. Si optimiza para esta zona, puede aduenar el mercado local antes que nadie.</p>
+            <h4 class="text-green-400 font-bold text-sm mb-1">Corona + LIC + Greenpoint + Williamsburg = Mercado Sin Explotar</h4>
+            <p class="text-slate-400 text-xs leading-relaxed">Estas zonas de Queens y Brooklyn tienen una enorme comunidad de duenos de mascotas, especialmente jovenes profesionales en LIC, Greenpoint y Williamsburg. Muy pocos proveedores de pet care tienen presencia online real aqui. Si optimiza para estas zonas, puede aduenar el mercado local antes que nadie.</p>
         </div>
     </div>
 </div>
@@ -491,7 +491,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             </div>
             <div>
                 <h3 class="text-white font-semibold mb-1">Por que su negocio necesita articulos de blog?</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">Cuando alguien busca en Google "best dog parks in Jackson Heights" y su sitio tiene un articulo sobre eso, Google muestra SU articulo. Esa persona lo lee, ve que usted ofrece paseo de perros, y agenda un meet & greet. <strong class="text-white">Cada articulo es como un vendedor que trabaja 24 horas al dia, 7 dias a la semana, sin cobrar sueldo.</strong></p>
+                <p class="text-slate-400 text-sm leading-relaxed">Cuando alguien busca en Google "best dog parks in Long Island City" y su sitio tiene un articulo sobre eso, Google muestra SU articulo. Esa persona lo lee, ve que usted ofrece paseo de perros, y agenda un meet & greet. <strong class="text-white">Cada articulo es como un vendedor que trabaja 24 horas al dia, 7 dias a la semana, sin cobrar sueldo.</strong></p>
             </div>
         </div>
     </div>
@@ -524,13 +524,13 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">1</td><td class="px-4 py-3 text-white text-xs font-medium">Best Dog Parks in Jackson Heights & Corona: A Complete Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog parks Jackson Heights</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">1</td><td class="px-4 py-3 text-white text-xs font-medium">Best Dog Parks in Long Island City & Corona, Queens: A Complete Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog parks LIC Corona Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">2</td><td class="px-4 py-3 text-white text-xs font-medium">How Much Does Dog Walking Cost in Queens, NY? 2026 Pricing Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking cost Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">3</td><td class="px-4 py-3 text-white text-xs font-medium">Dog Sitting vs. Dog Boarding: Which Is Better for Your Pet?</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog sitting vs boarding</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">4</td><td class="px-4 py-3 text-white text-xs font-medium">10 Tips for Keeping Your Dog Safe in NYC Summers</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog safety summer NYC</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">5</td><td class="px-4 py-3 text-white text-xs font-medium">Finding Reliable Pet Care in Jackson Heights: What to Look For</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Jackson Heights</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">5</td><td class="px-4 py-3 text-white text-xs font-medium">Finding Reliable Pet Care in Corona & LIC Queens: What to Look For</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Corona LIC Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">6</td><td class="px-4 py-3 text-white text-xs font-medium">Dog Walking Services in Queens & Brooklyn — Book Kwoof Today</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking Queens Brooklyn</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">7</td><td class="px-4 py-3 text-white text-xs font-medium">Pet-Friendly Apartments in Jackson Heights: The Ultimate Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet friendly apartments Jackson Heights</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">7</td><td class="px-4 py-3 text-white text-xs font-medium">Pet-Friendly Apartments in Long Island City & Greenpoint: Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet friendly apartments LIC Greenpoint</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">8</td><td class="px-4 py-3 text-white text-xs font-medium">5 Best Dog Walkers in Queens: How to Choose the Right One</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">best dog walkers Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">9</td><td class="px-4 py-3 text-white text-xs font-medium">Overnight Pet Sitting in Queens: What to Expect & How to Prepare</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">overnight pet sitting Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">10</td><td class="px-4 py-3 text-white text-xs font-medium">How to Prepare Your Dog for a Dog Walker: First-Time Tips</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">prepare dog for walker</td></tr>
@@ -538,11 +538,11 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">12</td><td class="px-4 py-3 text-white text-xs font-medium">Pet Boarding in Queens & Brooklyn: Rates, Tips & How to Book</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet boarding Queens Brooklyn</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">13</td><td class="px-4 py-3 text-white text-xs font-medium">Walking Your Dog in Winter in NYC: Cold Weather Safety Guide</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog walking winter NYC</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">14</td><td class="px-4 py-3 text-white text-xs font-medium">Rover vs. Hiring a Local Dog Walker: Pros, Cons & Real Costs</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">Rover vs local dog walker</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">15</td><td class="px-4 py-3 text-white text-xs font-medium">In-Home Pet Sitting in Jackson Heights: Personalized Care</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet sitting Jackson Heights</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">15</td><td class="px-4 py-3 text-white text-xs font-medium">In-Home Pet Sitting in Corona & Long Island City: Personalized Care</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet sitting Corona LIC Queens</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">16</td><td class="px-4 py-3 text-white text-xs font-medium">Separation Anxiety in Dogs: Signs & How Regular Walks Help</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">dog separation anxiety walks</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">17</td><td class="px-4 py-3 text-white text-xs font-medium">Cat Sitting in Queens: Why Your Cat Needs an In-Home Sitter</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">cat sitting Queens NYC</td></tr>
                     <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">18</td><td class="px-4 py-3 text-white text-xs font-medium">Holiday Pet Care in NYC: Planning for Thanksgiving & Christmas</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400">Info</span></td><td class="px-4 py-3 text-slate-400 text-xs">holiday pet care NYC</td></tr>
-                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">19</td><td class="px-4 py-3 text-white text-xs font-medium">Pet Care Near the 7 Train: Serving Corona, Woodside & Elmhurst</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Corona Woodside Queens</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-3 py-3 text-center text-slate-500 text-xs">19</td><td class="px-4 py-3 text-white text-xs font-medium">Pet Care Near the 7 Train: Serving Corona, LIC & Hunter's Point</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-500/15 text-green-400">Trans</span></td><td class="px-4 py-3 text-slate-400 text-xs">pet care Corona LIC Hunter's Point</td></tr>
                     <tr><td class="px-3 py-3 text-center text-slate-500 text-xs">20</td><td class="px-4 py-3 text-white text-xs font-medium">Why Kwoof? Meet Stephanie & the Story Behind K-Woof Pet Care</td><td class="px-4 py-3 text-center"><span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400">Com</span></td><td class="px-4 py-3 text-slate-400 text-xs">Kwoof pet care reviews</td></tr>
                 </tbody>
             </table>
@@ -718,7 +718,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs">Crear paginas individuales por vecindario (Jackson Heights, Corona, Williamsburg...)</p>
+                <p class="text-slate-400 text-xs">Crear paginas individuales por vecindario (Corona, LIC, Greenpoint, Williamsburg...)</p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
@@ -803,7 +803,7 @@ if (!isset($_SESSION['auth_kwoof']) || $_SESSION['auth_kwoof'] !== true) {
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <p class="text-slate-400 text-xs"><strong class="text-white">Paginas por vecindario:</strong> Jackson Heights, Corona, Williamsburg, Greenpoint, etc.</p>
+                <p class="text-slate-400 text-xs"><strong class="text-white">Paginas por vecindario:</strong> Corona, Long Island City, Greenpoint, Williamsburg, PLG, Carroll Gardens</p>
             </div>
             <div class="glass-lighter rounded-lg p-3 flex items-start gap-2">
                 <svg class="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
