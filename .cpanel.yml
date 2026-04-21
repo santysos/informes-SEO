@@ -101,3 +101,14 @@ deployment:
     # Permisos Kwoof Pet Care
     - chmod 755 $BASEPATH/kwoof-petcare/abril-2026
     - chmod 644 $BASEPATH/kwoof-petcare/abril-2026/*.php
+    # Crear estructura CDJ La Casa del Jean
+    - /bin/mkdir -p $BASEPATH/cdj/abril-2026
+    - chmod 755 $BASEPATH/cdj
+    # Deploy CDJ
+    - /bin/cp -f cdj/abril-2026/.htaccess $BASEPATH/cdj/abril-2026/
+    - /bin/cp -f cdj/abril-2026/index.php $BASEPATH/cdj/abril-2026/
+    - /bin/cp -f cdj/abril-2026/login.php $BASEPATH/cdj/abril-2026/
+    - /bin/cp -f cdj/abril-2026/logout.php $BASEPATH/cdj/abril-2026/
+    # Permisos CDJ
+    - chmod 755 $BASEPATH/cdj/abril-2026
+    - chmod 644 $BASEPATH/cdj/abril-2026/*.php
