@@ -705,8 +705,8 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
         <h3 class="text-white font-semibold mb-3">Oportunidades claves</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-pink-400 font-bold text-sm mb-2">Activar Instagram Shopping</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Conectar el catalogo de WooCommerce a IG Shopping permite etiquetar productos directamente en las fotos. Un carrusel con 10 jeans se convierte en 10 shortcuts a comprar. Requiere FB Commerce Manager configurado (2-3 dias de trabajo).</p>
+                <p class="text-pink-400 font-bold text-sm mb-2">Posts con link directo a producto</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Meta aun no habilita Instagram Shopping en Ecuador. La alternativa que funciona: cada post que muestra una prenda debe tener en el caption "Link en bio" y el link-in-bio debe llevar directo a la ficha del producto por 7 dias. Complementar con stickers de "Link" en stories y boton "Comprar por WhatsApp" con el nombre del producto precargado.</p>
             </div>
             <div class="glass-lighter rounded-lg p-4">
                 <p class="text-pink-400 font-bold text-sm mb-2">Cross-postear Reels de TikTok</p>
@@ -907,7 +907,7 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
                 <li>33% de la audiencia TikTok esta fuera de Ecuador (Bolivia, Guatemala, Peru) &mdash; potencial futuro de envios internacionales</li>
                 <li>ChatGPT ya envia trafico (47 sesiones) &mdash; canal emergente</li>
                 <li>El storytelling y "made in Ecuador" es tendencia global post-2024</li>
-                <li>Instagram Shopping aun no saturado en moda local</li>
+                <li>Marketplace de Facebook poco explotado por marcas de moda en Ecuador</li>
                 <li>Colabs con micro-influencers locales (aprox $100-$300 por video) siguen costo-efectivas</li>
                 <li>Nueva generacion prefiere marcas con producto en video antes de comprar</li>
             </ul>
@@ -987,8 +987,8 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
                 </div>
                 <div class="glass-lighter rounded-lg p-4">
                     <p class="text-amber-400 font-bold text-xs mb-1">ACCION 8</p>
-                    <p class="text-white font-semibold text-sm mb-1">Instagram Shopping activado</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">Sincronizar catalogo WooCommerce con IG Shopping via Meta Commerce Manager. Etiquetar productos en cada foto.</p>
+                    <p class="text-white font-semibold text-sm mb-1">Sistema de link-in-bio dinamico</p>
+                    <p class="text-slate-400 text-xs leading-relaxed">Como Instagram Shopping no funciona en Ecuador, construimos una pagina /redes dentro de lacasadeljean.com que muestre las ultimas 6 prendas posteadas en IG con su link a WhatsApp. Cada post en IG apunta a esa pagina y el cliente llega al producto en 2 clicks.</p>
                 </div>
                 <div class="glass-lighter rounded-lg p-4">
                     <p class="text-amber-400 font-bold text-xs mb-1">ACCION 9</p>
@@ -1140,7 +1140,7 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Monitoreo y ajuste de eventos si cambia algo en la web</li>
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Reporte mensual con KPIs de ecommerce</li>
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>A/B testing de CTAs, banners y pop-ups</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Sync del catalogo WooCommerce con IG Shopping</li>
+                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Pagina /redes con ultimas prendas posteadas + link WhatsApp</li>
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Ajustes menores de SEO y contenido</li>
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Correcciones tecnicas ante cambios del sitio</li>
                 </ul>
