@@ -691,26 +691,69 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
             </div>
             <div class="flex-1">
                 <h2 class="text-white text-lg font-bold mb-1">Instagram @cdj.ec</h2>
-                <p class="text-slate-400 text-sm">670 sesiones al sitio en 16 meses &mdash; segundo canal social mas importante despues de TikTok.</p>
+                <p class="text-slate-400 text-sm">Display name actual: "La Casa del Jean | Denim". Segundo canal social por trafico: 670 sesiones al sitio en 16 meses.</p>
             </div>
         </div>
 
-        <h3 class="text-white font-semibold mb-3 mt-5">Fortalezas detectadas</h3>
+        <!-- Metricas reales IG -->
+        <div class="grid grid-cols-3 gap-3 mb-5">
+            <div class="glass-lighter rounded-lg p-4 text-center">
+                <p class="text-xs text-slate-500 uppercase font-semibold mb-1">Seguidores</p>
+                <p class="text-2xl font-extrabold text-pink-400">4,213</p>
+                <p class="text-xs text-slate-400 mt-1">vs 7,703 en TikTok</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-4 text-center">
+                <p class="text-xs text-slate-500 uppercase font-semibold mb-1">Publicaciones</p>
+                <p class="text-2xl font-extrabold text-pink-400">290</p>
+                <p class="text-xs text-slate-400 mt-1">acumuladas historicas</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-4 text-center">
+                <p class="text-xs text-slate-500 uppercase font-semibold mb-1">Cuentas que sigue</p>
+                <p class="text-2xl font-extrabold text-pink-400">259</p>
+                <p class="text-xs text-slate-400 mt-1">ratio 16:1</p>
+            </div>
+        </div>
+
+        <!-- Bio actual -->
+        <div class="glass-lighter rounded-lg p-4 mb-5">
+            <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">Bio publica actual</p>
+            <div class="bg-slate-900/60 rounded-lg p-4 font-mono text-sm text-slate-300 leading-relaxed">
+                <strong class="text-white">La Casa del Jean | Denim</strong><br>
+                &#x1f456; Fabricamos y dise&ntilde;amos jeans con identidad<br>
+                &#x1f4cd; Ibarra | Atuntaqui | Otavalo | Cayambe<br>
+                &#x1f6cd;&#xfe0f; 099 2747 863
+            </div>
+        </div>
+
+        <h3 class="text-white font-semibold mb-3">Fortalezas detectadas</h3>
         <ul class="text-slate-400 text-sm space-y-2 ml-4 list-disc mb-5">
-            <li>El handle @cdj.ec coincide con TikTok &mdash; buena consistencia de marca.</li>
+            <li>El handle @cdj.ec coincide con TikTok &mdash; buena consistencia de usuario.</li>
+            <li>Bio clara con propuesta de valor ("fabricamos y disenamos"), las 4 sucursales y telefono directo.</li>
             <li>Tiene Linktree como link-in-bio (636 sesiones desde linktr.ee). Significa que la bio funciona como distribuidor de enlaces.</li>
             <li>El sitio web tiene el icono de Instagram enlazando al perfil.</li>
+        </ul>
+
+        <h3 class="text-white font-semibold mb-3">Debilidades detectadas en el perfil</h3>
+        <ul class="text-slate-400 text-sm space-y-2 ml-4 list-disc mb-5">
+            <li><strong class="text-red-400">Rebranding incompleto:</strong> el display name sigue siendo "La Casa del Jean | Denim". Deberia decir "CDJ | La Casa del Jean" o "CDJ Denim Ecuador" para alinear con el rebrand que ya se anuncio en TikTok.</li>
+            <li><strong class="text-red-400">Audiencia 45% menor que TikTok:</strong> 4,213 seguidores en IG vs 7,703 en TikTok, cuando en Ecuador Instagram tiene casi 4 veces mas usuarios que TikTok (~7M IG vs ~1.8M TikTok). Hay un techo de crecimiento enorme sin explotar.</li>
+            <li><strong class="text-red-400">290 posts acumulados:</strong> para una marca activa desde hace anos, esta cifra sugiere una frecuencia baja (aprox 5-10 posts por mes). Para recuperar alcance, lo recomendado es 15-20 posts mensuales ademas de stories diarios.</li>
+            <li><strong class="text-red-400">Sin link directo a WhatsApp en bio:</strong> aunque el telefono esta escrito, no es clickeable como link wa.me. Agregar ese link aumenta 2-3x los DMs a WhatsApp.</li>
         </ul>
 
         <h3 class="text-white font-semibold mb-3">Oportunidades claves</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-pink-400 font-bold text-sm mb-2">Posts con link directo a producto</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Meta aun no habilita Instagram Shopping en Ecuador. La alternativa que funciona: cada post que muestra una prenda debe tener en el caption "Link en bio" y el link-in-bio debe llevar directo a la ficha del producto por 7 dias. Complementar con stickers de "Link" en stories y boton "Comprar por WhatsApp" con el nombre del producto precargado.</p>
+                <p class="text-pink-400 font-bold text-sm mb-2">Actualizar display name al rebrand</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Cambiar "La Casa del Jean | Denim" por "CDJ | La Casa del Jean" para reforzar la transicion anunciada en TikTok. La gente que ve el TikTok y busca @cdj.ec en IG hoy se encuentra con la marca vieja.</p>
             </div>
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-pink-400 font-bold text-sm mb-2">Cross-postear Reels de TikTok</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Cada video de TikTok se puede reutilizar como Reel en IG. Es aprovechar el contenido que ya funciona en otra plataforma sin invertir tiempo extra de produccion.</p>
+                <p class="text-pink-400 font-bold text-sm mb-2">Posts con link directo a producto</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Meta aun no habilita Instagram Shopping en Ecuador. La alternativa que funciona: cada post de prenda lleva en el caption "Link en bio", y el link-in-bio redirige a la ficha del producto por 7 dias. Complementar con stickers de "Link" en stories y boton WhatsApp con el producto precargado.</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-4">
+                <p class="text-pink-400 font-bold text-sm mb-2">Cross-postear Reels desde TikTok</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Cada video de TikTok se puede reutilizar como Reel en IG. Es aprovechar el contenido que ya funciona en otra plataforma sin invertir tiempo extra de produccion. Con 15 videos/mes de TikTok cross-posteados, IG puede duplicar alcance en 90 dias.</p>
             </div>
             <div class="glass-lighter rounded-lg p-4">
                 <p class="text-pink-400 font-bold text-sm mb-2">Highlights por sucursal</p>
@@ -719,6 +762,10 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
             <div class="glass-lighter rounded-lg p-4">
                 <p class="text-pink-400 font-bold text-sm mb-2">User Generated Content</p>
                 <p class="text-slate-400 text-xs leading-relaxed">Repostear a clientas que usan CDJ con un hashtag propio (ej. #YoUsoCDJ). Aumenta credibilidad, baja el costo de produccion y fideliza a las clientas que participan.</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-4">
+                <p class="text-pink-400 font-bold text-sm mb-2">Link WhatsApp clickeable en bio</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Reemplazar el texto plano "099 2747 863" por un boton "Enviar WhatsApp" con link wa.me/5930992747863 precargado con mensaje "Hola, vengo de su Instagram".</p>
             </div>
         </div>
     </div>
@@ -787,7 +834,7 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
                     <tr class="border-b border-slate-700/30 bg-blue-500/5">
                         <td class="px-6 py-3 text-white font-semibold">CDJ (ustedes)</td>
                         <td class="px-4 py-3 text-slate-300">Especialista denim EC</td>
-                        <td class="px-4 py-3 text-center text-slate-300">Cuenta @cdj.ec</td>
+                        <td class="px-4 py-3 text-center text-white font-bold">4.2k</td>
                         <td class="px-4 py-3 text-center text-white font-bold">7.7k</td>
                         <td class="px-4 py-3 text-center"><span class="text-green-400 text-xs">WooCommerce</span></td>
                         <td class="px-4 py-3 text-center"><span class="text-red-400 text-xs">Sin promo visible</span></td>
