@@ -1372,149 +1372,291 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
 <div id="tab-propuesta" class="tab-content">
 
     <div class="glass-accent rounded-2xl p-6 mb-8">
-        <h3 class="text-white font-bold text-lg mb-2">Como lo implementamos juntos</h3>
-        <p class="text-slate-400 text-sm leading-relaxed">Todo lo identificado en esta auditoria se puede ejecutar en los proximos 90 dias. A continuacion le presentamos 3 opciones segun su preferencia: que lo haga su equipo con nuestra guia, que lo hagamos nosotros, o una combinacion.</p>
+        <h3 class="text-white font-bold text-lg mb-2">Como Creative Web puede ayudarle</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">
+            En Creative Web <strong class="text-white">no manejamos sus redes sociales</strong> (no publicamos a su nombre ni hacemos calendario editorial). Lo que hacemos es construir las <strong class="text-white">herramientas tecnologicas con inteligencia artificial, Next.js y Supabase</strong> que multiplican el resultado de las redes que ya maneja su equipo. Mientras ustedes mantienen su voz y publican, nosotros nos aseguramos de que cada visita se mida, cada producto se encuentre y cada peso invertido genere ventas online medibles.
+        </p>
     </div>
 
-    <!-- Paquete 1: Social Media Management -->
+    <!-- Paquete A: Optimizacion Web + Tracking + Dashboard IA -->
     <div class="glass rounded-2xl p-6 mb-6">
         <div class="flex items-start justify-between gap-4 mb-4">
             <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-purple-500/20 text-purple-400 border border-purple-500/30 mb-2">PAQUETE 1</div>
-                <h2 class="text-white text-xl font-bold">Gestion de Redes Sociales</h2>
-                <p class="text-slate-400 text-sm mt-1">Reactive y haga crecer TikTok, Instagram y Facebook</p>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30 mb-2">PAQUETE A</div>
+                <h2 class="text-white text-xl font-bold">Web Optimization + Tracking + Dashboard</h2>
+                <p class="text-slate-400 text-sm mt-1">Arregle el embudo, mida cada peso y vea su negocio en una sola pantalla</p>
             </div>
             <div class="text-right">
-                <p class="text-3xl font-extrabold text-purple-400">$350</p>
-                <p class="text-xs text-slate-400">USD / mes</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-            <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Que incluye mensualmente:</h3>
-                <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>12 a 16 publicaciones mensuales (TikTok + IG + FB)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Calendario editorial aprobado antes de publicar</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Reactivacion estrategica de TikTok tras el estancamiento</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Cross-posteo automatico TikTok → Reels → FB</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Copywriting + hashtags optimizados</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Respuesta a comentarios y DMs (hasta 50/mes)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Reporte mensual de resultados</li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Lo que usted obtiene:</h3>
-                <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Crecimiento esperado: +2,000 seguidores TikTok en 90 dias</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Meta de engagement: pasar de 2% a 4% en TikTok</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Consistencia visual entre las 3 plataformas</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Liberar tiempo interno que hoy se dedica a redes</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Acceso a nuestro equipo editorial y de grafica</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Paquete 2: Optimizacion Web -->
-    <div class="glass rounded-2xl p-6 mb-6">
-        <div class="flex items-start justify-between gap-4 mb-4">
-            <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30 mb-2">PAQUETE 2</div>
-                <h2 class="text-white text-xl font-bold">Optimizacion Web + Tracking</h2>
-                <p class="text-slate-400 text-sm mt-1">Arregle el embudo de ventas y sepa que funciona</p>
-            </div>
-            <div class="text-right">
-                <p class="text-3xl font-extrabold text-blue-400">$480</p>
+                <p class="text-3xl font-extrabold text-blue-400">$880</p>
                 <p class="text-xs text-slate-400">USD pago unico</p>
-                <p class="text-xs text-slate-500">+ $120/mes mantenimiento (opcional)</p>
+                <p class="text-xs text-slate-500">+ $80/mes (dashboard + soporte)</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             <div>
                 <h3 class="text-white font-semibold text-sm mb-3">Que se hace en el pago unico:</h3>
                 <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Fix completo de Google Analytics (eventos ecommerce)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Configuracion TikTok Pixel + Facebook Pixel con eventos</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Optimizacion SEO: title, meta, H1, schema Product, OG tags</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Boton WhatsApp por producto con mensaje precargado</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Trust signals en fichas (metodos de pago, envios, garantias)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Fix completo de Google Analytics 4 (eventos view_item, add_to_cart, begin_checkout, purchase)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Configuracion TikTok Pixel + Facebook Pixel con conversiones API</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Optimizacion SEO tecnico: title, meta description, H1, schema Product, Open Graph, alt text</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Boton WhatsApp por cada producto con nombre y precio precargados</li>
                     <li class="flex gap-2"><span class="text-green-400">&check;</span>Pop-up de captura de email + descuento 10% primera compra</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Alt text en todas las imagenes</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Optimizacion de Linktree o pagina propia /redes</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Dashboard de metricas en Google Looker Studio</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Pagina /envios-internacionales (Bolivia, Guatemala, Peru: 33% de su audiencia TikTok)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Pagina propia /redes con ultimas prendas + WhatsApp (en lugar de Linktree)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Dashboard custom Next.js + Supabase que muestra: ventas por canal, productos top, conversion por red social</li>
                 </ul>
             </div>
             <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Que incluye el mantenimiento mensual (opcional):</h3>
+                <h3 class="text-white font-semibold text-sm mb-3">Mensualidad $80/mes incluye:</h3>
                 <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Hosting del dashboard Next.js (Vercel + Supabase)</li>
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Monitoreo y ajuste de eventos si cambia algo en la web</li>
                     <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Reporte mensual con KPIs de ecommerce</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>A/B testing de CTAs, banners y pop-ups</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Pagina /redes con ultimas prendas posteadas + link WhatsApp</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Ajustes menores de SEO y contenido</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Correcciones tecnicas ante cambios del sitio</li>
+                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Hasta 2 horas/mes de cambios menores (textos, banners, productos)</li>
+                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Soporte por WhatsApp y email</li>
                 </ul>
-                <p class="text-xs text-slate-500 mt-4 p-3 bg-slate-800/40 rounded-lg">Duracion estimada del trabajo unico: <strong class="text-white">3 a 4 semanas</strong>. Se entrega con documentacion y capacitacion a su equipo.</p>
+                <p class="text-xs text-slate-500 mt-4 p-3 bg-slate-800/40 rounded-lg">Duracion: <strong class="text-white">3 a 4 semanas</strong>. Se entrega con documentacion y capacitacion. Sin esto, hoy GA4 reporta <strong class="text-red-400">0 compras en 16 meses</strong> y no se sabe que canal vende.</p>
             </div>
         </div>
     </div>
 
-    <!-- Paquete 3: Combo Recomendado -->
-    <div class="glass rounded-2xl p-6 mb-8" style="border: 2px solid #3b82f6; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.08));">
+    <!-- Paquete D: Generador IA de Contenido -->
+    <div class="glass rounded-2xl p-6 mb-6">
         <div class="flex items-start justify-between gap-4 mb-4">
             <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-blue-500/30 to-purple-500/30 text-white border border-blue-500/50 mb-2">PAQUETE 3 &mdash; RECOMENDADO</div>
-                <h2 class="text-white text-xl font-bold">Full Growth (Social + Web)</h2>
-                <p class="text-slate-300 text-sm mt-1">Integramos los dos paquetes para maximo impacto</p>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-purple-500/20 text-purple-400 border border-purple-500/30 mb-2">PAQUETE D</div>
+                <h2 class="text-white text-xl font-bold">Generador IA de Contenido para Redes</h2>
+                <p class="text-slate-400 text-sm mt-1">Que su equipo publique 5x mas rapido con copy que ya esta validado por su propia data</p>
             </div>
             <div class="text-right">
-                <p class="text-3xl font-extrabold text-white">$450</p>
-                <p class="text-xs text-slate-300">USD / mes</p>
-                <p class="text-xs text-green-400">Ahorro de $80/mes</p>
+                <p class="text-3xl font-extrabold text-purple-400">$880</p>
+                <p class="text-xs text-slate-400">USD pago unico</p>
+                <p class="text-xs text-slate-500">+ $40/mes (creditos IA + hosting)</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+            <div>
+                <h3 class="text-white font-semibold text-sm mb-3">Que construimos:</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Plataforma web privada (Next.js + Supabase + Claude API) solo para su equipo</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Sube una foto del producto y la IA genera <strong class="text-white">3 copys</strong> optimizados (uno para TikTok, uno para Instagram, uno para Facebook)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Sugiere hashtags trending de moda Ecuador en tiempo real</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Recomienda horario optimo de publicacion (17h-22h, segun su propia data)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Genera ideas de <strong class="text-white">storytime semanal</strong> basadas en sus videos top (los 5 mas vistos suman 576k views)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Ingesta de 3 meses de posts pasados para que la IA aprenda su tono y voz</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Funciona desde el celular, sin instalar nada</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-sm mb-3">Por que les conviene mas que un community manager:</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Ustedes mantienen su voz autentica de CDJ (no la voz de una agencia)</li>
+                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Costo fijo bajo ($40/mes vs. $300-500/mes de un community)</li>
+                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Sin minimos de posts: publican lo que quieren, cuando quieren</li>
+                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>El conocimiento queda en CDJ, no en una agencia externa</li>
+                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Multi-marca: si lanzan submarcas, las agregan al mismo sistema</li>
+                </ul>
+                <p class="text-xs text-slate-500 mt-4 p-3 bg-slate-800/40 rounded-lg">Mensualidad de <strong class="text-white">$40</strong> cubre hasta <strong class="text-white">300 generaciones de contenido/mes</strong>. Generaciones extra: $0.10 c/u.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paquete S: Plan SEO 6 meses -->
+    <div class="glass rounded-2xl p-6 mb-6">
+        <div class="flex items-start justify-between gap-4 mb-4">
+            <div>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 mb-2">PAQUETE S &middot; CONTENIDO SEO</div>
+                <h2 class="text-white text-xl font-bold">Plan de Contenido SEO 6 meses</h2>
+                <p class="text-slate-400 text-sm mt-1">El canal #1 de su trafico organico no esta optimizado. Lo arreglamos en 6 meses.</p>
+            </div>
+            <div class="text-right">
+                <p class="text-3xl font-extrabold text-emerald-400">$180</p>
+                <p class="text-xs text-slate-400">USD / mes &middot; 6 meses</p>
+                <p class="text-xs text-slate-500">Total: $1.080</p>
+            </div>
+        </div>
+
+        <!-- Justificacion -->
+        <div class="mt-4 p-4 bg-emerald-500/8 rounded-lg border border-emerald-500/20 mb-6">
+            <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-white">Por que SEO si CDJ se mueve mas en redes:</strong> hoy <strong class="text-emerald-300">el 41% de su trafico nuevo en GA4 viene de Google Search</strong> (vs 18% de redes), y ese trafico esta sin optimizar. El SEO es el unico canal contraciclico: cuando las redes caen un 46% como en abril, los posts ya posicionados siguen trayendo visitas todos los dias. Ademas, cada post SEO se recorta en 5-10 piezas para TikTok/Reels - multiplicando el ROI del contenido.
+            </p>
+        </div>
+
+        <!-- Plan por fases -->
+        <h3 class="text-white font-semibold text-sm mb-3">Plan de 6 meses por fases:</h3>
+        <div class="space-y-3 mb-6">
+            <div class="glass-lighter rounded-lg p-4 border-l-4 border-emerald-500">
+                <p class="text-emerald-400 font-bold text-sm mb-2">Mes 1-2 &middot; Fundamentos + Top Funnel (8 posts/mes)</p>
+                <p class="text-slate-400 text-xs leading-relaxed mb-2">Keyword research moda Ecuador + arreglo SEO tecnico + posts evergreen tipo guias amplias para capturar busquedas masivas.</p>
+                <ul class="text-slate-400 text-xs space-y-1 ml-4">
+                    <li>&middot; "Tipos de jean segun tu cuerpo: guia completa Ecuador 2026"</li>
+                    <li>&middot; "Como elegir tu talla de jean en Ecuador (con tabla)"</li>
+                    <li>&middot; "Que jean usar segun ocasion: oficina, fiesta, casual"</li>
+                    <li>&middot; "Diferencia entre push up, skinny, mom, boyfriend, flare"</li>
+                    <li>&middot; "Como cuidar tus jeans para que duren anos"</li>
+                    <li>&middot; "Top 10 looks con jean para mujer 2026"</li>
+                    <li>&middot; "Jeans para mujeres curvy: guia de fit y modelos"</li>
+                    <li>&middot; "Historia del jean en Ecuador: 30 anos de evolucion (storytime CDJ)"</li>
+                </ul>
+            </div>
+            <div class="glass-lighter rounded-lg p-4 border-l-4 border-cyan-500">
+                <p class="text-cyan-400 font-bold text-sm mb-2">Mes 3-4 &middot; Mid Funnel (6 posts/mes)</p>
+                <p class="text-slate-400 text-xs leading-relaxed mb-2">Posts orientados a comparar y educar sobre producto. La persona ya sabe lo que quiere, falta convencerla de comprar en CDJ.</p>
+                <ul class="text-slate-400 text-xs space-y-1 ml-4">
+                    <li>&middot; Comparativas de modelos CDJ ("Jean A vs Jean B: cual te conviene")</li>
+                    <li>&middot; Reviews de prendas top + tips de styling</li>
+                    <li>&middot; Lookbooks por temporada (Sierra/Costa, frio/calor)</li>
+                    <li>&middot; "Como combinar un jean negro: 7 looks reales"</li>
+                    <li>&middot; "Que diferencia a un jean artesanal ecuatoriano de uno chino"</li>
+                </ul>
+            </div>
+            <div class="glass-lighter rounded-lg p-4 border-l-4 border-amber-500">
+                <p class="text-amber-400 font-bold text-sm mb-2">Mes 5-6 &middot; Bottom Funnel + Local SEO (4 posts + landings/mes)</p>
+                <p class="text-slate-400 text-xs leading-relaxed mb-2">Landing pages optimizadas por sucursal + posts de keywords con alta intencion de compra. Aqui se generan las ventas.</p>
+                <ul class="text-slate-400 text-xs space-y-1 ml-4">
+                    <li>&middot; Landing "Jeans en Ibarra" + schema LocalBusiness (sucursal Ibarra)</li>
+                    <li>&middot; Landing "Jeans en Otavalo" + schema LocalBusiness</li>
+                    <li>&middot; Landing "Jeans en Atuntaqui" + schema LocalBusiness</li>
+                    <li>&middot; Landing "Jeans en Cayambe" + schema LocalBusiness</li>
+                    <li>&middot; "Mejor jean push up Ecuador 2026 (con precios y donde comprar)"</li>
+                    <li>&middot; FAQ + guias de talla por modelo (schema FAQPage)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Que incluye cada mes -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <h3 class="text-white font-semibold text-sm mb-3">Que incluye cada mes:</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>4 a 8 posts SEO segun fase (800-1.500 palabras c/u)</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Investigacion de keywords con volumen y dificultad</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Optimizacion on-page (meta title, description, H1, schema)</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Imagenes optimizadas + alt text SEO</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Internal linking estrategico al catalogo</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Reporte mensual de posiciones + trafico organico</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-sm mb-3">Como potencia a CDJ:</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-emerald-400">&rarr;</span><strong class="text-white">Trafico evergreen:</strong> un post bien posicionado trae visitas todos los meses por anos</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&rarr;</span><strong class="text-white">Combustible para redes:</strong> cada post se convierte en 5-10 videos TikTok/Reels</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&rarr;</span><strong class="text-white">Local SEO:</strong> cuando alguien busca "jeans Ibarra" en Google, CDJ aparece primero</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&rarr;</span><strong class="text-white">Trafico IA (AEO):</strong> ChatGPT, Claude y Perplexity ya envian 47 sesiones/mes leyendo SU contenido</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&rarr;</span><strong class="text-white">Autoridad de marca:</strong> los 30 anos de historia son contenido unico que ningun competidor tiene</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&rarr;</span><strong class="text-white">Proyeccion 6 meses:</strong> de 3.000 visitas organicas/mes actuales a 8.000-12.000/mes</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="text-xs text-slate-500 mt-6 p-3 bg-slate-800/40 rounded-lg">
+            <strong class="text-white">Nota:</strong> el SEO tecnico (titles, schema, OG, alt text, robots) se ejecuta en el <strong class="text-blue-400">Paquete A</strong> como parte del fix inicial. Este Paquete S se enfoca exclusivamente en <strong class="text-white">contenido</strong> mes a mes. Para ver resultados, idealmente se contrata junto al Paquete A.
+        </p>
+    </div>
+
+    <!-- Paquete Combo A+D -->
+    <div class="glass rounded-2xl p-6 mb-6" style="border: 2px solid #3b82f6; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.08));">
+        <div class="flex items-start justify-between gap-4 mb-4">
+            <div>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-blue-500/30 to-purple-500/30 text-white border border-blue-500/50 mb-2">COMBO &middot; Growth Stack</div>
+                <h2 class="text-white text-xl font-bold">CDJ Growth Stack (A + D)</h2>
+                <p class="text-slate-300 text-sm mt-1">La web mide, la IA genera contenido, su equipo publica. Cierra el embudo digital.</p>
+            </div>
+            <div class="text-right">
+                <p class="text-3xl font-extrabold text-white">$1.480</p>
+                <p class="text-xs text-slate-300">USD pago unico</p>
+                <p class="text-xs text-slate-300">+ $100/mes</p>
+                <p class="text-xs text-green-400 mt-1">Ahorro de $280 + $20/mes</p>
+            </div>
+        </div>
+
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="glass-lighter rounded-lg p-4">
+                <p class="text-blue-400 font-bold text-sm mb-2">&check; Todo el Paquete A</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Web fix tecnico + tracking GA4/Pixel + dashboard custom + WhatsApp por producto + envios internacionales</p>
+            </div>
+            <div class="glass-lighter rounded-lg p-4">
+                <p class="text-purple-400 font-bold text-sm mb-2">&check; Todo el Paquete D</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Plataforma IA generadora de copy + hashtags + horarios + storytime</p>
+            </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-slate-800/60 rounded-lg border-l-4 border-blue-400">
+            <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-white">Por que combinarlos:</strong> el Paquete A le dice cuales productos y videos generan venta real (data del dashboard); el Paquete D usa esa data para que la IA genere mas contenido como el que SI funciona. <strong class="text-white">En 90 dias deberiamos ver el primer mes con compras registradas en GA4.</strong>
+            </p>
+        </div>
+    </div>
+
+    <!-- COMBO MEGA: A + D + S -->
+    <div class="glass rounded-2xl p-6 mb-8" style="border: 2px solid #10b981; background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(59, 130, 246, 0.08), rgba(139, 92, 246, 0.08));">
+        <div class="flex items-start justify-between gap-4 mb-4">
+            <div>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-emerald-500/40 to-blue-500/30 text-white border border-emerald-500/50 mb-2">MEGA COMBO &middot; RECOMENDADO</div>
+                <h2 class="text-white text-2xl font-bold">CDJ Digital Complete (A + D + S)</h2>
+                <p class="text-slate-300 text-sm mt-1">Web optimizada + tracking + IA de contenido + SEO 6 meses. Embudo completo cerrado.</p>
+            </div>
+            <div class="text-right">
+                <p class="text-3xl font-extrabold text-white">$1.480</p>
+                <p class="text-xs text-slate-300">USD pago unico</p>
+                <p class="text-xs text-slate-300">+ $280/mes (6 meses)</p>
+                <p class="text-xs text-slate-300">+ $100/mes (mes 7 en adelante)</p>
+                <p class="text-xs text-green-400 mt-2">Ahorro total: $280 + $20/mes</p>
             </div>
         </div>
 
         <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-blue-400 font-bold text-sm mb-2">&check; Todo el Paquete 1</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Gestion completa de redes sociales + reportes mensuales</p>
+                <p class="text-blue-400 font-bold text-sm mb-2">&check; Paquete A</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Web + Tracking + Dashboard custom Next.js/Supabase</p>
             </div>
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-purple-400 font-bold text-sm mb-2">&check; Todo el Paquete 2</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Implementacion web inicial + mantenimiento mensual</p>
+                <p class="text-purple-400 font-bold text-sm mb-2">&check; Paquete D</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Generador IA de contenido para redes sociales</p>
             </div>
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-green-400 font-bold text-sm mb-2">+ Extras exclusivos</p>
-                <ul class="text-slate-400 text-xs space-y-1 mt-1">
-                    <li>&bull; 1 colab mensual coordinada (micro-influencer)</li>
-                    <li>&bull; Campana paga TikTok/Meta gestionada (pauta aparte)</li>
-                    <li>&bull; Dashboard unificado redes + web</li>
-                </ul>
+                <p class="text-emerald-400 font-bold text-sm mb-2">&check; Paquete S</p>
+                <p class="text-slate-400 text-xs leading-relaxed">6 meses de contenido SEO + Local SEO sucursales</p>
             </div>
         </div>
 
-        <div class="mt-6 p-4 bg-slate-800/60 rounded-lg border-l-4 border-blue-400">
-            <p class="text-slate-300 text-sm leading-relaxed"><strong class="text-white">Por que lo recomendamos:</strong> los dos servicios se potencian. El tracking de la web mejora las decisiones de contenido social; el contenido social bien medido reactiva el crecimiento. Ir por separado cuesta mas y los resultados son mas lentos porque no hay una sola persona vigilando todo el embudo.</p>
+        <div class="mt-6 p-4 bg-slate-800/60 rounded-lg border-l-4 border-emerald-400">
+            <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-white">Por que es la apuesta mas inteligente para CDJ:</strong> cubre los <strong class="text-white">3 canales de crecimiento</strong> que el negocio necesita - el web (Paquete A), las redes (Paquete D potenciado con su autonomia) y el SEO (Paquete S, el unico canal contraciclico). En 6 meses tienen 36 articulos posicionando + dashboard de medicion + 1.800 piezas de contenido generadas por IA. <strong class="text-emerald-300">Proyeccion: pasar de 3.000 a 10.000+ visitas/mes y de 0 a 80-150 ventas online/mes.</strong>
+            </p>
         </div>
+    </div>
+
+    <!-- Lo que no hacemos -->
+    <div class="glass rounded-2xl p-6 mb-6 border border-amber-500/20">
+        <h3 class="text-amber-400 font-bold text-sm mb-3 uppercase tracking-wider">Para que quede claro: lo que no incluimos</h3>
+        <ul class="text-slate-400 text-sm space-y-2">
+            <li class="flex gap-2"><span class="text-amber-400">&times;</span><strong class="text-white">No publicamos a su nombre en redes</strong> ni gestionamos su calendario editorial. Esa autonomia se queda con CDJ.</li>
+            <li class="flex gap-2"><span class="text-amber-400">&times;</span><strong class="text-white">No hacemos produccion de fotos ni video</strong> de las prendas. Si lo necesitan, se contrata aparte.</li>
+            <li class="flex gap-2"><span class="text-amber-400">&times;</span><strong class="text-white">No corremos campanas de Google Ads o Meta Ads.</strong> Si quieren pauta paga, recomendamos un especialista externo (y el dashboard del Paquete A le servira para medirla).</li>
+            <li class="flex gap-2"><span class="text-amber-400">&times;</span><strong class="text-white">No respondemos comentarios ni DMs</strong> en sus cuentas. Eso lo sigue haciendo su equipo (que ya usa una app para WhatsApp).</li>
+        </ul>
     </div>
 
     <!-- Proximos pasos -->
     <div class="glass rounded-2xl p-6">
         <h3 class="text-white font-bold text-lg mb-4">Proximos pasos</h3>
         <ol class="text-slate-400 text-sm space-y-3 ml-5 list-decimal">
-            <li><strong class="text-white">Revise este informe con calma.</strong> Cada pestana tiene datos que justifican las recomendaciones. Si algo no queda claro, avisenos.</li>
-            <li><strong class="text-white">Decida el paquete que mejor se acomoda</strong> a sus prioridades del Q2 2026.</li>
-            <li><strong class="text-white">Reunion de kickoff</strong> (30 min presencial o por videollamada) para alinear objetivos y calendario de ejecucion.</li>
-            <li><strong class="text-white">Arranque inmediato:</strong> si firmamos en la semana, las primeras 3 acciones de "30 dias" estan en produccion en menos de 10 dias laborables.</li>
+            <li><strong class="text-white">Revise este informe con calma.</strong> Cada pestana tiene datos reales que justifican estas recomendaciones. Si algo no queda claro, escribanos.</li>
+            <li><strong class="text-white">Decida el paquete</strong> que mejor se acomoda a sus prioridades del Q2 2026 (A, D o el Combo).</li>
+            <li><strong class="text-white">Reunion de kickoff</strong> (30 min presencial o videollamada) para alinear objetivos, accesos y calendario.</li>
+            <li><strong class="text-white">Arranque inmediato:</strong> si firmamos esta semana, en 10 dias laborables ya hay tracking funcionando y la primera version del dashboard / generador IA.</li>
         </ol>
         <div class="mt-6 p-4 bg-blue-500/10 rounded-lg border border-blue-500/20 flex items-center justify-between flex-wrap gap-4">
             <div>
                 <p class="text-white font-semibold text-sm">Contacto directo Creative Web</p>
-                <p class="text-slate-300 text-xs mt-1">Santiago &mdash; santysos1@gmail.com</p>
+                <p class="text-slate-300 text-xs mt-1">Santiago &mdash; info@creativeweb.com.ec &middot; creativeweb.com.ec</p>
             </div>
             <div class="flex gap-2">
-                <a href="https://wa.me/593000000000" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-green-500/20 border border-green-500/30 text-green-400 text-xs font-semibold hover:bg-green-500/30 transition-all">WhatsApp</a>
-                <a href="mailto:santysos1@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 text-xs font-semibold hover:bg-blue-500/30 transition-all">Email</a>
+                <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20auditoria%20CDJ%20y%20quiero%20avanzar" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-green-500/20 border border-green-500/30 text-green-400 text-xs font-semibold hover:bg-green-500/30 transition-all">WhatsApp +593 99 917 4980</a>
+                <a href="mailto:info@creativeweb.com.ec?subject=Propuesta%20CDJ%20-%20Acepto" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/20 border border-blue-500/30 text-blue-400 text-xs font-semibold hover:bg-blue-500/30 transition-all">Email</a>
             </div>
         </div>
     </div>
