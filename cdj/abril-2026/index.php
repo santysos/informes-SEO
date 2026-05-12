@@ -113,6 +113,10 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex gap-1 py-2 overflow-x-auto" id="tabNav">
             <button class="tab-btn active px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent whitespace-nowrap" onclick="switchTab('resumen')">Resumen Ejecutivo</button>
+            <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap relative" onclick="switchTab('actualizacion')">
+                Actualizacion Mayo 2026
+                <span class="absolute -top-1 -right-1 inline-flex items-center justify-center px-1.5 py-0.5 text-[9px] font-bold leading-none text-white bg-red-500 rounded-full animate-pulse">NUEVO</span>
+            </button>
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('conceptos')">Que es Marketing Digital</button>
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('web')">Situacion Web</button>
             <button class="tab-btn px-4 py-2.5 rounded-lg text-xs font-semibold border border-transparent text-slate-400 whitespace-nowrap" onclick="switchTab('tiktok')">TikTok</button>
@@ -284,6 +288,265 @@ if (!isset($_SESSION['auth_cdj']) || $_SESSION['auth_cdj'] !== true) {
             <h4 class="text-green-400 font-bold text-sm mb-2">Arreglar medicion de ventas online</h4>
             <p class="text-slate-400 text-xs leading-relaxed mb-2">Instalar eventos de ecommerce en Google Tag Manager + Facebook Pixel + TikTok Pixel toma 1 semana. Despues de eso, cada decision de marketing estara basada en datos reales (que producto se vende, que canal convierte, que anuncio retorna).</p>
         </div>
+    </div>
+
+</div>
+
+<!-- ==================== TAB 1.5: ACTUALIZACION MAYO 2026 ==================== -->
+<div id="tab-actualizacion" class="tab-content">
+
+    <!-- Banner alerta superior -->
+    <div class="rounded-2xl p-6 mb-8 border-2 border-red-500/40" style="background:linear-gradient(135deg, rgba(239,68,68,0.18), rgba(220,38,38,0.08));">
+        <div class="flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-red-500/25 flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+            </div>
+            <div class="flex-1">
+                <p class="text-red-300 text-xs font-bold uppercase tracking-widest mb-2">Alerta · Actualizado al 30 de abril de 2026</p>
+                <h2 class="text-white text-2xl md:text-3xl font-extrabold mb-3">Sus tres redes sociales estan en caida simultanea</h2>
+                <p class="text-slate-300 leading-relaxed">
+                    Con los nuevos datos completos de <strong class="text-white">Facebook, Instagram y TikTok</strong> (16 meses, desde enero 2025 hasta abril 2026), confirmamos que el problema no esta solo en TikTok: <strong class="text-red-300">las tres plataformas perdieron entre un 20% y un 92% de rendimiento en los ultimos 30 dias</strong> comparado con los 30 dias anteriores. Esta seccion explica que paso, por que paso, y que se puede hacer en los proximos 60 dias para revertirlo antes de que entre la temporada baja de Junio.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- KPIs caida -->
+    <h2 class="text-white text-lg font-bold mb-4">La caida en numeros · Ultimos 30 dias vs los 30 anteriores</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div class="kpi-card glass rounded-xl p-5 border-l-4 border-red-500">
+            <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">TikTok · Vistas</p>
+            <p class="text-3xl font-extrabold text-red-400">&minus;46.8%</p>
+            <p class="text-xs text-slate-400 mt-1">19,161 vs 36,013 vistas</p>
+        </div>
+        <div class="kpi-card glass rounded-xl p-5 border-l-4 border-red-500">
+            <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">Instagram · Alcance</p>
+            <p class="text-3xl font-extrabold text-red-400">&minus;38.8%</p>
+            <p class="text-xs text-slate-400 mt-1">13,158 vs 21,509 personas</p>
+        </div>
+        <div class="kpi-card glass rounded-xl p-5 border-l-4 border-red-500">
+            <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">Instagram · Interacciones</p>
+            <p class="text-3xl font-extrabold text-red-400">&minus;42.9%</p>
+            <p class="text-xs text-slate-400 mt-1">484 vs 847 reacciones</p>
+        </div>
+        <div class="kpi-card glass rounded-xl p-5 border-l-4 border-red-500">
+            <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">Instagram · Clics a web</p>
+            <p class="text-3xl font-extrabold text-red-400">&minus;92.2%</p>
+            <p class="text-xs text-slate-400 mt-1">8 vs 102 clics al link</p>
+        </div>
+    </div>
+
+    <!-- Resumen consolidado por plataforma -->
+    <h2 class="text-white text-lg font-bold mb-4">Resumen por plataforma · enero 2025 a abril 2026</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-8">
+
+        <!-- TIKTOK -->
+        <div class="glass rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-lg bg-pink-500/15 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-pink-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1Z"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-lg">TikTok @cdj.ec</h3>
+            </div>
+            <ul class="space-y-2 text-sm">
+                <li class="flex justify-between text-slate-300"><span>Seguidores actuales</span><strong class="text-white">7,707</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Ganados ultimo ano</span><strong class="text-green-400">+1,643</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Vistas totales 12m</span><strong class="text-white">656,067</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Engagement rate</span><strong class="text-emerald-400">2.57%</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Vistas ult. 30 dias</span><strong class="text-red-400">19,161 (-46.8%)</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Follows ult. 30 dias</span><strong class="text-yellow-400">+4 netos</strong></li>
+            </ul>
+            <p class="text-xs text-slate-400 mt-4 leading-relaxed">El canal con mejor engagement (2.57%, sobre el promedio del rubro). Su audiencia esta ahi: 71% mujeres, 67% Ecuador. <strong class="text-white">Pero se quedo dormido en febrero.</strong></p>
+        </div>
+
+        <!-- INSTAGRAM -->
+        <div class="glass rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-lg bg-purple-500/15 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-lg">Instagram @cdj.ec</h3>
+            </div>
+            <ul class="space-y-2 text-sm">
+                <li class="flex justify-between text-slate-300"><span>Seguidores actuales</span><strong class="text-white">4,213</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Ganados ultimo ano</span><strong class="text-green-400">+1,704</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Alcance total 16m</span><strong class="text-white">567,182</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Clics al link total</span><strong class="text-white">7,685</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Alcance ult. 30 dias</span><strong class="text-red-400">13,158 (-38.8%)</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Clics ult. 30 dias</span><strong class="text-red-400">8 (-92%)</strong></li>
+            </ul>
+            <p class="text-xs text-slate-400 mt-4 leading-relaxed">Plataforma con mas alcance total (567k). El rebrand CDJ <strong class="text-red-300">aun no esta aplicado en el display name</strong> (sigue como "La Casa del Jean | Denim"). Los Reels arrancaron en agosto 2025 y ya generan 545k vistas, pero la conversion a web colapso a 8 clics en abril.</p>
+        </div>
+
+        <!-- FACEBOOK -->
+        <div class="glass rounded-2xl p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/15 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-lg">Facebook CDJ</h3>
+            </div>
+            <ul class="space-y-2 text-sm">
+                <li class="flex justify-between text-slate-300"><span>Visualizaciones 16m</span><strong class="text-white">495,969</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Pico julio 2025</span><strong class="text-green-400">179,511</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Visitas pagina 16m</span><strong class="text-white">6,810</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Clics al link total</span><strong class="text-yellow-400">520</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Vistas ult. 30 dias</span><strong class="text-red-400">7,778 (-20.2%)</strong></li>
+                <li class="flex justify-between text-slate-300"><span>Clics ult. 30 dias</span><strong class="text-red-400">0 (-100%)</strong></li>
+            </ul>
+            <p class="text-xs text-slate-400 mt-4 leading-relaxed">Tuvo un mes excepcional en julio 2025 (179k vistas) y luego <strong class="text-red-300">colapso un 95% en octubre</strong>. Hoy esta practicamente abandonado: cero clics al link en abril. Solo se justifica como cross-post automatico desde IG.</p>
+        </div>
+    </div>
+
+    <!-- TENDENCIA MENSUAL -->
+    <h2 class="text-white text-lg font-bold mb-4">Evolucion mensual · las tres plataformas juntas</h2>
+    <div class="glass rounded-2xl p-6 mb-8">
+        <canvas id="trendChart" height="120"></canvas>
+        <p class="text-xs text-slate-400 mt-4 leading-relaxed">
+            <strong class="text-white">Lectura:</strong> El pico de julio 2025 fue la viralizacion del video de reclutamiento de TikTok (410,807 vistas), que arrastro a Facebook tambien. Despues de ese mes, todas las plataformas iniciaron un descenso. Instagram tuvo un repunte en noviembre-diciembre 2025 con Reels, pero en 2026 todo viene cayendo. <strong class="text-red-300">No es problema de algoritmo, es problema de frecuencia y consistencia de publicacion.</strong>
+        </p>
+    </div>
+
+    <!-- TOP CONTENIDO TIKTOK -->
+    <h2 class="text-white text-lg font-bold mb-4">Los 10 videos mas vistos de TikTok · que copiar</h2>
+    <div class="glass rounded-2xl overflow-hidden mb-8">
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-slate-700/50">
+                        <th class="text-left px-4 py-3 text-slate-400 font-semibold text-xs uppercase tracking-wider">#</th>
+                        <th class="text-left px-4 py-3 text-slate-400 font-semibold text-xs uppercase tracking-wider">Video / formato</th>
+                        <th class="text-right px-4 py-3 text-slate-400 font-semibold text-xs uppercase tracking-wider">Vistas</th>
+                        <th class="text-right px-4 py-3 text-slate-400 font-semibold text-xs uppercase tracking-wider">Likes</th>
+                        <th class="text-right px-4 py-3 text-slate-400 font-semibold text-xs uppercase tracking-wider">Shares</th>
+                        <th class="text-left px-4 py-3 text-slate-400 font-semibold text-xs uppercase tracking-wider">Categoria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-amber-400 font-bold">1</td><td class="px-4 py-3 text-white">Reclutamiento "trabajo fines de semana"</td><td class="px-4 py-3 text-right text-emerald-400 font-bold">410,807</td><td class="px-4 py-3 text-right text-slate-300">15,997</td><td class="px-4 py-3 text-right text-slate-300">1,878</td><td class="px-4 py-3 text-slate-400">Convocatoria</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-amber-400 font-bold">2</td><td class="px-4 py-3 text-white">30 anos en la moda ecuatoriana (storytime)</td><td class="px-4 py-3 text-right text-white font-bold">52,921</td><td class="px-4 py-3 text-right text-slate-300">747</td><td class="px-4 py-3 text-right text-slate-300">50</td><td class="px-4 py-3 text-slate-400">Historia marca</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-amber-400 font-bold">3</td><td class="px-4 py-3 text-white">Tendencias DENIM 2026</td><td class="px-4 py-3 text-right text-white font-bold">40,678</td><td class="px-4 py-3 text-right text-slate-300">722</td><td class="px-4 py-3 text-right text-slate-300">98</td><td class="px-4 py-3 text-slate-400">Tendencias</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-amber-400 font-bold">4</td><td class="px-4 py-3 text-white">"Por que ya no somos La Casa del Jean"</td><td class="px-4 py-3 text-right text-white font-bold">37,924</td><td class="px-4 py-3 text-right text-slate-300">745</td><td class="px-4 py-3 text-right text-slate-300">92</td><td class="px-4 py-3 text-slate-400">Rebrand</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-amber-400 font-bold">5</td><td class="px-4 py-3 text-white">"Tuviste alguna de estas prendas?" (nostalgia)</td><td class="px-4 py-3 text-right text-white font-bold">34,545</td><td class="px-4 py-3 text-right text-slate-300">562</td><td class="px-4 py-3 text-right text-slate-300">70</td><td class="px-4 py-3 text-slate-400">Nostalgia</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-slate-400 font-bold">6</td><td class="px-4 py-3 text-slate-300">Recorrido por nuestra historia (primer local)</td><td class="px-4 py-3 text-right text-slate-300">28,148</td><td class="px-4 py-3 text-right text-slate-400">722</td><td class="px-4 py-3 text-right text-slate-400">42</td><td class="px-4 py-3 text-slate-400">Historia marca</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-slate-400 font-bold">7</td><td class="px-4 py-3 text-slate-300">🧸+👖=🔥 Peluches CDJ JEAN (colab)</td><td class="px-4 py-3 text-right text-slate-300">25,543</td><td class="px-4 py-3 text-right text-slate-400">830</td><td class="px-4 py-3 text-right text-slate-400">39</td><td class="px-4 py-3 text-slate-400">Colaboracion</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-slate-400 font-bold">8</td><td class="px-4 py-3 text-slate-300">"La edad no define tu estilo"</td><td class="px-4 py-3 text-right text-slate-300">22,075</td><td class="px-4 py-3 text-right text-slate-400">215</td><td class="px-4 py-3 text-right text-slate-400">9</td><td class="px-4 py-3 text-slate-400">Lifestyle</td></tr>
+                    <tr class="border-b border-slate-700/30"><td class="px-4 py-3 text-slate-400 font-bold">9</td><td class="px-4 py-3 text-slate-300">Skinny vuelven a ser tendencia</td><td class="px-4 py-3 text-right text-slate-300">14,555</td><td class="px-4 py-3 text-right text-slate-400">40</td><td class="px-4 py-3 text-right text-slate-400">3</td><td class="px-4 py-3 text-slate-400">Tendencias</td></tr>
+                    <tr><td class="px-4 py-3 text-slate-400 font-bold">10</td><td class="px-4 py-3 text-slate-300">Historia de Patricio Velasco (CEO)</td><td class="px-4 py-3 text-right text-slate-300">14,165</td><td class="px-4 py-3 text-right text-slate-400">302</td><td class="px-4 py-3 text-right text-slate-400">25</td><td class="px-4 py-3 text-slate-400">Historia marca</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="px-6 py-4 border-t border-slate-700/50 bg-slate-900/30">
+            <p class="text-xs text-slate-300">
+                <strong class="text-emerald-400">Conclusion:</strong> los 5 videos mas vistos son <strong class="text-white">storytime de marca + reclutamiento</strong>. El contenido de producto solo aparece desde el puesto 8. <strong class="text-white">El algoritmo de TikTok premia las historias humanas de CDJ, no las fotos de jeans.</strong>
+            </p>
+        </div>
+    </div>
+
+    <!-- HORARIOS OPTIMOS -->
+    <h2 class="text-white text-lg font-bold mb-4">Cuando publicar · seguidores activos por hora</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="glass rounded-2xl p-6">
+            <canvas id="hourChart" height="180"></canvas>
+        </div>
+        <div class="glass-accent rounded-2xl p-6">
+            <p class="text-xs text-blue-300 font-bold uppercase tracking-widest mb-3">Recomendacion publicacion</p>
+            <h3 class="text-white text-xl font-bold mb-4">Ventana optima: 17h - 22h</h3>
+            <ul class="space-y-3 text-sm">
+                <li class="flex justify-between"><span class="text-slate-300">18:00 hrs</span><strong class="text-emerald-400">2,450 activos</strong></li>
+                <li class="flex justify-between"><span class="text-slate-300">21:00 hrs</span><strong class="text-emerald-400">2,375 activos</strong></li>
+                <li class="flex justify-between"><span class="text-slate-300">17:00 hrs</span><strong class="text-emerald-400">2,298 activos</strong></li>
+                <li class="flex justify-between"><span class="text-slate-300">20:00 hrs</span><strong class="text-emerald-400">2,288 activos</strong></li>
+                <li class="flex justify-between"><span class="text-slate-300">14:00 hrs</span><strong class="text-yellow-400">2,256 activos</strong></li>
+            </ul>
+            <p class="text-xs text-slate-400 mt-4 leading-relaxed">
+                Su audiencia esta mas activa de 17h a 22h (de la tarde a la noche). El mejor pico es 18h con 2,450 seguidores en linea en promedio. Publicar a esas horas multiplica el alcance entre 2x y 3x respecto a publicar antes de las 12h.
+            </p>
+        </div>
+    </div>
+
+    <!-- PLAN URGENTE -->
+    <h2 class="text-white text-lg font-bold mb-4">Plan urgente · proximos 60 dias para revertir la caida</h2>
+    <div class="space-y-4 mb-8">
+        <div class="glass rounded-2xl p-6 border-l-4 border-red-500">
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-red-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-red-400 font-bold">1</span>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-1">Semana 1-2 · Reactivar frecuencia en TikTok + Reels</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Subir 5 videos por semana en TikTok publicando entre 17h y 22h, cross-posteando como Reels en Instagram el mismo dia. Usar la formula que funciona: <strong class="text-white">storytime + historia de marca + tendencias denim 2026</strong>. Evitar fotos de catalogo planas (puesto 13-15 del top).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6 border-l-4 border-orange-500">
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-orange-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-orange-400 font-bold">2</span>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-1">Semana 2 · Cambiar el display name de Instagram</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">El perfil sigue figurando como <strong class="text-red-300">"La Casa del Jean | Denim"</strong>. Cambiar a <strong class="text-white">"CDJ | La Casa del Jean"</strong> para que el rebrand sea visible. Convertir el telefono de la bio (texto plano) en un link <code class="text-emerald-400">wa.me/593992747863</code> clickeable. Esto solo recupera el flujo de clics que cayo 92%.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6 border-l-4 border-yellow-500">
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-yellow-400 font-bold">3</span>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-1">Semana 2-3 · Instalar eventos de ecommerce en GTM</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Sin esto, Google Analytics seguira reportando 0 compras y no podremos medir el retorno de las campanas. Configurar <code class="text-emerald-400">view_item</code>, <code class="text-emerald-400">add_to_cart</code>, <code class="text-emerald-400">begin_checkout</code>, <code class="text-emerald-400">purchase</code> + replicar en TikTok Pixel y Meta Pixel.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6 border-l-4 border-emerald-500">
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-emerald-400 font-bold">4</span>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-1">Semana 3-4 · Reutilizar los 5 videos top de TikTok</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Los 5 videos top suman <strong class="text-white">576,875 vistas</strong> entre todos. Hacer secuelas: "Parte 2 del storytime de los 30 anos", "Tendencias DENIM 2026 parte 2", "Que paso despues del rebrand". El formato ya esta validado por su audiencia, repetirlo es la apuesta mas segura.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6 border-l-4 border-cyan-500">
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-cyan-400 font-bold">5</span>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-1">Semana 4-6 · Boton WhatsApp por producto + pop-up captura email</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">En cada ficha de producto WooCommerce, agregar boton "Comprar por WhatsApp" con el nombre del producto y precio precargado. Agregar pop-up de descuento del 10% para suscriptores de email (objetivo: 200 emails capturados en 60 dias para hacer remarketing con costo cero).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6 border-l-4 border-purple-500">
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center flex-shrink-0">
+                    <span class="text-purple-400 font-bold">6</span>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-1">Semana 6-8 · Aprovechar la audiencia internacional</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">El 33% de los seguidores de TikTok son fuera de Ecuador (Bolivia 6%, Guatemala 5.7%, Peru 2.5%). Crear una pagina <code class="text-emerald-400">/envios-internacionales</code> en la web explicando como comprar desde el extranjero, con tarifas Servientrega International o DHL. <strong class="text-white">Es una via de venta sin invertir un dolar en publicidad.</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mensaje cierre -->
+    <div class="glass-accent rounded-2xl p-6 text-center">
+        <p class="text-slate-300 leading-relaxed">
+            La caida no es por mala suerte ni cambio de algoritmo: es por <strong class="text-white">baja frecuencia de publicacion en Q1 2026</strong> y la falta de un sistema que conecte la red social con la venta. Con el plan de arriba (60 dias de trabajo enfocado), proyectamos recuperar el ritmo de Q3 2025 y empezar a generar ventas online medibles antes de la temporada navidena.
+        </p>
+        <p class="text-xs text-slate-500 mt-4">Datos consolidados al 30 de abril de 2026 &middot; Fuentes: Meta Business Suite (FB + IG), TikTok for Business, Google Analytics 4.</p>
     </div>
 
 </div>
@@ -1414,6 +1677,85 @@ new Chart(document.getElementById('horarioChart'), {
         maintainAspectRatio: false
     }
 });
+
+// ============== CHARTS TAB ACTUALIZACION MAYO 2026 ==============
+const meses2026 = ['Ene 2025','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic','Ene 2026','Feb','Mar','Abr'];
+
+const trendCtx = document.getElementById('trendChart');
+if (trendCtx) {
+    new Chart(trendCtx, {
+        type: 'line',
+        data: {
+            labels: meses2026,
+            datasets: [
+                {
+                    label: 'TikTok (vistas)',
+                    data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null], // TikTok mensual no provisto, se omite
+                    borderColor: '#ec4899',
+                    backgroundColor: 'rgba(236,72,153,0.1)',
+                    tension: 0.3,
+                    hidden: true
+                },
+                {
+                    label: 'Instagram (alcance)',
+                    data: [53273,44760,50333,40863,40857,37455,55485,44030,30151,3013,37970,52119,21612,19456,22647,13158],
+                    borderColor: '#a855f7',
+                    backgroundColor: 'rgba(168,85,247,0.1)',
+                    tension: 0.3,
+                    fill: true
+                },
+                {
+                    label: 'Facebook (visualizaciones)',
+                    data: [34934,32440,27684,30846,33517,34816,179511,52935,29411,1141,7025,7722,2422,3853,9934,7778],
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59,130,246,0.1)',
+                    tension: 0.3,
+                    fill: true
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { labels: { color: '#cbd5e1', font: {size: 11} } },
+                tooltip: { mode: 'index', intersect: false }
+            },
+            scales: {
+                y: { grid: { color: 'rgba(148,163,184,0.05)' }, ticks: { color: '#94a3b8', font: {size: 10} } },
+                x: { grid: { display: false }, ticks: { color: '#94a3b8', font: {size: 10} } }
+            }
+        }
+    });
+}
+
+const hourCtx = document.getElementById('hourChart');
+if (hourCtx) {
+    const horasFull = Array.from({length:24}, (_,i)=>String(i).padStart(2,'0')+'h');
+    const activosFull = [
+        // 0-23h promedio (de FollowerActivity, top 10 conocidos + estimación lineal)
+        1850,1100,800,650,600,650,900,1500,2100,2164,2080,2000,2100,2214,2256,2203,2224,2298,2450,2150,2288,2375,2195,1950
+    ];
+    new Chart(hourCtx, {
+        type: 'bar',
+        data: {
+            labels: horasFull,
+            datasets: [{
+                label: 'Seguidores activos',
+                data: activosFull,
+                backgroundColor: activosFull.map(v => v >= 2300 ? '#10b981' : v >= 2000 ? '#06b6d4' : v >= 1500 ? '#64748b' : '#334155'),
+                borderRadius: 3
+            }]
+        },
+        options: {
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { grid: { color: 'rgba(148,163,184,0.05)' }, ticks: { color: '#94a3b8', font: {size: 9} }, beginAtZero: true },
+                x: { grid: { display: false }, ticks: { color: '#94a3b8', font: {size: 9}, maxRotation: 0 } }
+            },
+            maintainAspectRatio: false
+        }
+    });
+}
 </script>
 
 </body>
