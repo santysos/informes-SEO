@@ -124,3 +124,15 @@ deployment:
     # Permisos LTS
     - chmod 755 $BASEPATH/lts-leather/proforma-mayo-2026
     - chmod 644 $BASEPATH/lts-leather/proforma-mayo-2026/*.php
+    # Crear estructura Jhosly
+    - /bin/mkdir -p $BASEPATH/jhosly/proforma-mayo-2026
+    - chmod 755 $BASEPATH/jhosly
+    # Deploy Jhosly
+    - /bin/cp -f jhosly/proforma-mayo-2026/.htaccess $BASEPATH/jhosly/proforma-mayo-2026/
+    - /bin/cp -f jhosly/proforma-mayo-2026/index.php $BASEPATH/jhosly/proforma-mayo-2026/
+    - /bin/cp -f jhosly/proforma-mayo-2026/login.php $BASEPATH/jhosly/proforma-mayo-2026/
+    - /bin/cp -f jhosly/proforma-mayo-2026/logout.php $BASEPATH/jhosly/proforma-mayo-2026/
+    - /bin/cp -f jhosly/proforma-mayo-2026/demo.php $BASEPATH/jhosly/proforma-mayo-2026/
+    # Permisos Jhosly
+    - chmod 755 $BASEPATH/jhosly/proforma-mayo-2026
+    - chmod 644 $BASEPATH/jhosly/proforma-mayo-2026/*.php
