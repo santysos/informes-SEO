@@ -112,3 +112,15 @@ deployment:
     # Permisos CDJ
     - chmod 755 $BASEPATH/cdj/abril-2026
     - chmod 644 $BASEPATH/cdj/abril-2026/*.php
+    # Crear estructura LTS Leather in the Skin
+    - /bin/mkdir -p $BASEPATH/lts-leather/proforma-mayo-2026
+    - chmod 755 $BASEPATH/lts-leather
+    # Deploy LTS
+    - /bin/cp -f lts-leather/proforma-mayo-2026/.htaccess $BASEPATH/lts-leather/proforma-mayo-2026/
+    - /bin/cp -f lts-leather/proforma-mayo-2026/index.php $BASEPATH/lts-leather/proforma-mayo-2026/
+    - /bin/cp -f lts-leather/proforma-mayo-2026/login.php $BASEPATH/lts-leather/proforma-mayo-2026/
+    - /bin/cp -f lts-leather/proforma-mayo-2026/logout.php $BASEPATH/lts-leather/proforma-mayo-2026/
+    - /bin/cp -f lts-leather/proforma-mayo-2026/demo.php $BASEPATH/lts-leather/proforma-mayo-2026/
+    # Permisos LTS
+    - chmod 755 $BASEPATH/lts-leather/proforma-mayo-2026
+    - chmod 644 $BASEPATH/lts-leather/proforma-mayo-2026/*.php

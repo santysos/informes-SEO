@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Deny access to sensitive files
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|bak)$">
+    Require all denied
+</FilesMatch>
+
+DirectoryIndex login.php
