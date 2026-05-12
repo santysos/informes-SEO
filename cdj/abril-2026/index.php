@@ -1387,101 +1387,102 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', filemtime(__FILE__)) . ' GMT
         </p>
     </div>
 
-    <!-- Paquete A: Optimizacion Web + Tracking + Dashboard IA -->
+    <!-- Paquete A: Web Optimization + Tracking -->
     <div class="glass rounded-2xl p-6 mb-6">
         <div class="flex items-start justify-between gap-4 mb-4">
             <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30 mb-2">PAQUETE A</div>
-                <h2 class="text-white text-xl font-bold">Web Optimization + Tracking + Dashboard</h2>
-                <p class="text-slate-400 text-sm mt-1">Arregle el embudo, mida cada peso y vea su negocio en una sola pantalla</p>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30 mb-2">PAQUETE A &middot; WEB</div>
+                <h2 class="text-white text-xl font-bold">Optimizacion Web + Tracking</h2>
+                <p class="text-slate-400 text-sm mt-1">Arregle el embudo de ventas y empiece a medir que canal vende de verdad</p>
             </div>
             <div class="text-right">
-                <p class="text-3xl font-extrabold text-blue-400">$880</p>
+                <p class="text-3xl font-extrabold text-blue-400">$480</p>
                 <p class="text-xs text-slate-400">USD pago unico</p>
-                <p class="text-xs text-slate-500">+ $80/mes (dashboard + soporte)</p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Que se hace en el pago unico:</h3>
+                <h3 class="text-white font-semibold text-sm mb-3">Medicion (la prioridad #1):</h3>
                 <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Fix completo de Google Analytics 4 (eventos view_item, add_to_cart, begin_checkout, purchase)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Configuracion TikTok Pixel + Facebook Pixel con conversiones API</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Optimizacion SEO tecnico: title, meta description, H1, schema Product, Open Graph, alt text</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Boton WhatsApp por cada producto con nombre y precio precargados</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Fix completo Google Analytics 4 (eventos view_item, add_to_cart, begin_checkout, purchase)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Configuracion TikTok Pixel + Facebook Pixel con Conversiones API</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Dashboard de ventas en Google Looker Studio (gratis, conectado a GA4 + WooCommerce)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Cada compra se atribuye al canal correcto (TikTok / IG / FB / Organico)</li>
+                </ul>
+                <h3 class="text-white font-semibold text-sm mb-3 mt-5">SEO tecnico basico:</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Title, meta description y H1 optimizados</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Schema Product en fichas + LocalBusiness en sucursales</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Open Graph tags (preview bonito al compartir en WhatsApp/IG)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Alt text en todas las imagenes</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-semibold text-sm mb-3">Conversion del embudo:</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Boton WhatsApp por cada producto con nombre y precio precargado</li>
                     <li class="flex gap-2"><span class="text-green-400">&check;</span>Pop-up de captura de email + descuento 10% primera compra</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Pagina /envios-internacionales (Bolivia, Guatemala, Peru: 33% de su audiencia TikTok)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Pagina propia /redes con ultimas prendas + WhatsApp (en lugar de Linktree)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Dashboard custom Next.js + Supabase que muestra: ventas por canal, productos top, conversion por red social</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Trust signals en fichas (metodos de pago, envios, garantias)</li>
                 </ul>
-            </div>
-            <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Mensualidad $80/mes incluye:</h3>
+                <h3 class="text-white font-semibold text-sm mb-3 mt-5">Paginas nuevas:</h3>
                 <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Hosting del dashboard Next.js (Vercel + Supabase)</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Monitoreo y ajuste de eventos si cambia algo en la web</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Reporte mensual con KPIs de ecommerce</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Hasta 2 horas/mes de cambios menores (textos, banners, productos)</li>
-                    <li class="flex gap-2"><span class="text-blue-400">&rarr;</span>Soporte por WhatsApp y email</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span><code class="text-emerald-400 text-xs">/envios-internacionales</code> &mdash; captura al 33% de su audiencia TikTok (Bolivia, Guatemala, Peru)</li>
+                    <li class="flex gap-2"><span class="text-green-400">&check;</span><code class="text-emerald-400 text-xs">/redes</code> &mdash; pagina propia con ultimas prendas + WhatsApp (reemplaza Linktree)</li>
                 </ul>
-                <p class="text-xs text-slate-500 mt-4 p-3 bg-slate-800/40 rounded-lg">Duracion: <strong class="text-white">3 a 4 semanas</strong>. Se entrega con documentacion y capacitacion. Sin esto, hoy GA4 reporta <strong class="text-red-400">0 compras en 16 meses</strong> y no se sabe que canal vende.</p>
+                <p class="text-xs text-slate-500 mt-5 p-3 bg-slate-800/40 rounded-lg">Duracion: <strong class="text-white">3 a 4 semanas</strong>. Sin esto, hoy GA4 reporta <strong class="text-red-400">0 compras en 16 meses</strong> y no se sabe que canal vende.</p>
             </div>
         </div>
     </div>
 
-    <!-- Paquete D: Generador IA de Contenido -->
-    <div class="glass rounded-2xl p-6 mb-6">
-        <div class="flex items-start justify-between gap-4 mb-4">
-            <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-purple-500/20 text-purple-400 border border-purple-500/30 mb-2">PAQUETE D</div>
-                <h2 class="text-white text-xl font-bold">Generador IA de Contenido para Redes</h2>
-                <p class="text-slate-400 text-sm mt-1">Que su equipo publique 5x mas rapido con copy que ya esta validado por su propia data</p>
-            </div>
-            <div class="text-right">
-                <p class="text-3xl font-extrabold text-purple-400">$880</p>
-                <p class="text-xs text-slate-400">USD pago unico</p>
-                <p class="text-xs text-slate-500">+ $40/mes (creditos IA + hosting)</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-            <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Que construimos:</h3>
-                <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Plataforma web privada (Next.js + Supabase + Claude API) solo para su equipo</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Sube una foto del producto y la IA genera <strong class="text-white">3 copys</strong> optimizados (uno para TikTok, uno para Instagram, uno para Facebook)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Sugiere hashtags trending de moda Ecuador en tiempo real</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Recomienda horario optimo de publicacion (17h-22h, segun su propia data)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Genera ideas de <strong class="text-white">storytime semanal</strong> basadas en sus videos top (los 5 mas vistos suman 576k views)</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Ingesta de 3 meses de posts pasados para que la IA aprenda su tono y voz</li>
-                    <li class="flex gap-2"><span class="text-green-400">&check;</span>Funciona desde el celular, sin instalar nada</li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-white font-semibold text-sm mb-3">Por que les conviene mas que un community manager:</h3>
-                <ul class="text-slate-400 text-sm space-y-2">
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Ustedes mantienen su voz autentica de CDJ (no la voz de una agencia)</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Costo fijo bajo ($40/mes vs. $300-500/mes de un community)</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Sin minimos de posts: publican lo que quieren, cuando quieren</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>El conocimiento queda en CDJ, no en una agencia externa</li>
-                    <li class="flex gap-2"><span class="text-purple-400">&rarr;</span>Multi-marca: si lanzan submarcas, las agregan al mismo sistema</li>
-                </ul>
-                <p class="text-xs text-slate-500 mt-4 p-3 bg-slate-800/40 rounded-lg">Mensualidad de <strong class="text-white">$40</strong> cubre hasta <strong class="text-white">300 generaciones de contenido/mes</strong>. Generaciones extra: $0.10 c/u.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Paquete S: Plan SEO 6 meses -->
+    <!-- Paquete S: Plan SEO -->
     <div class="glass rounded-2xl p-6 mb-6">
         <div class="flex items-start justify-between gap-4 mb-4">
             <div>
                 <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 mb-2">PAQUETE S &middot; CONTENIDO SEO</div>
-                <h2 class="text-white text-xl font-bold">Plan de Contenido SEO 6 meses</h2>
-                <p class="text-slate-400 text-sm mt-1">El canal #1 de su trafico organico no esta optimizado. Lo arreglamos en 6 meses.</p>
+                <h2 class="text-white text-xl font-bold">Plan de Contenido SEO</h2>
+                <p class="text-slate-400 text-sm mt-1">El canal #1 de su trafico organico no esta optimizado. Lo arreglamos con contenido evergreen.</p>
             </div>
             <div class="text-right">
-                <p class="text-3xl font-extrabold text-emerald-400">$180</p>
-                <p class="text-xs text-slate-400">USD / mes &middot; 6 meses</p>
-                <p class="text-xs text-slate-500">Total: $1.080</p>
+                <div class="inline-flex flex-col gap-1 items-end">
+                    <div class="px-3 py-2 rounded-lg bg-emerald-500/15 border border-emerald-500/30">
+                        <p class="text-2xl font-extrabold text-emerald-400">$180<span class="text-sm font-normal text-slate-400"> /mes</span></p>
+                        <p class="text-[10px] text-slate-400 uppercase tracking-wider">Plan mensual</p>
+                    </div>
+                    <p class="text-xs text-slate-500 my-1">o tambien</p>
+                    <div class="px-3 py-2 rounded-lg bg-emerald-500/25 border border-emerald-500/50">
+                        <p class="text-2xl font-extrabold text-emerald-300">$600<span class="text-sm font-normal text-slate-400"> unico</span></p>
+                        <p class="text-[10px] text-emerald-300 uppercase tracking-wider">Pago unico anticipado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comparativa de opciones de pago -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+            <div class="glass-lighter rounded-lg p-4 border border-emerald-500/20">
+                <p class="text-emerald-400 font-bold text-sm mb-2">Opcion A &middot; Plan mensual</p>
+                <p class="text-3xl font-extrabold text-white mb-1">$180<span class="text-base font-normal text-slate-400"> /mes</span></p>
+                <p class="text-xs text-slate-400 mb-3">Sin compromiso de duracion. Mes a mes.</p>
+                <ul class="text-slate-400 text-xs space-y-1.5">
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>4 posts SEO por mes</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Reporte mensual de posiciones</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Puede cancelar cuando quiera</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Recomendado: minimo 3 meses para ver resultados</li>
+                </ul>
+            </div>
+            <div class="glass-lighter rounded-lg p-4 border border-emerald-500/40" style="background: rgba(16, 185, 129, 0.08);">
+                <div class="flex items-center gap-2 mb-2">
+                    <p class="text-emerald-300 font-bold text-sm">Opcion B &middot; Pago unico</p>
+                    <span class="text-[10px] font-bold bg-emerald-500/30 text-emerald-300 px-2 py-0.5 rounded-full">AHORRA $120</span>
+                </div>
+                <p class="text-3xl font-extrabold text-white mb-1">$600<span class="text-base font-normal text-slate-400"> unico</span></p>
+                <p class="text-xs text-emerald-300 mb-3">Plan cerrado de 4 meses con descuento del 17%.</p>
+                <ul class="text-slate-400 text-xs space-y-1.5">
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>16 posts SEO entregados en 4 meses</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Equivale a 4 mensualidades de $180 ($720) por solo $600</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Reporte final con KPIs de posicionamiento</li>
+                    <li class="flex gap-2"><span class="text-emerald-400">&check;</span>Ideal si quiere asegurar el plan completo de un solo tiro</li>
+                </ul>
             </div>
         </div>
 
@@ -1565,75 +1566,46 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', filemtime(__FILE__)) . ' GMT
         </p>
     </div>
 
-    <!-- Paquete Combo A+D -->
-    <div class="glass rounded-2xl p-6 mb-6" style="border: 2px solid #3b82f6; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.08));">
+    <!-- COMBO Web + SEO -->
+    <div class="glass rounded-2xl p-6 mb-8" style="border: 2px solid #10b981; background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(59, 130, 246, 0.08));">
         <div class="flex items-start justify-between gap-4 mb-4">
             <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-blue-500/30 to-purple-500/30 text-white border border-blue-500/50 mb-2">COMBO &middot; Growth Stack</div>
-                <h2 class="text-white text-xl font-bold">CDJ Growth Stack (A + D)</h2>
-                <p class="text-slate-300 text-sm mt-1">La web mide, la IA genera contenido, su equipo publica. Cierra el embudo digital.</p>
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-emerald-500/40 to-blue-500/30 text-white border border-emerald-500/50 mb-2">COMBO RECOMENDADO &middot; A + S</div>
+                <h2 class="text-white text-2xl font-bold">Paquete Completo CDJ Digital</h2>
+                <p class="text-slate-300 text-sm mt-1">Web optimizada + tracking + contenido SEO. Embudo cerrado para que cada visita se convierta.</p>
             </div>
-            <div class="text-right">
-                <p class="text-3xl font-extrabold text-white">$1.480</p>
-                <p class="text-xs text-slate-300">USD pago unico</p>
-                <p class="text-xs text-slate-300">+ $100/mes</p>
-                <p class="text-xs text-green-400 mt-1">Ahorro de $280 + $20/mes</p>
+            <div class="text-right space-y-2">
+                <div class="px-3 py-2 rounded-lg bg-white/5 border border-white/10">
+                    <p class="text-xs text-slate-400 uppercase tracking-wider">Mensual</p>
+                    <p class="text-2xl font-extrabold text-white">$480 <span class="text-base font-normal text-slate-400">+ $180/mes</span></p>
+                </div>
+                <div class="px-3 py-2 rounded-lg" style="background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.4);">
+                    <p class="text-xs text-emerald-300 uppercase tracking-wider">Pago unico todo incluido</p>
+                    <p class="text-2xl font-extrabold text-emerald-300">$1.080 <span class="text-xs text-emerald-300/70">(ahorra $120)</span></p>
+                </div>
             </div>
         </div>
 
         <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-blue-400 font-bold text-sm mb-2">&check; Todo el Paquete A</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Web fix tecnico + tracking GA4/Pixel + dashboard custom + WhatsApp por producto + envios internacionales</p>
+                <p class="text-blue-400 font-bold text-sm mb-2">&check; Paquete A &middot; Web $480</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Tracking GA4 + Pixels + SEO tecnico + boton WhatsApp por producto + envios internacionales + dashboard Looker Studio</p>
             </div>
             <div class="glass-lighter rounded-lg p-4">
-                <p class="text-purple-400 font-bold text-sm mb-2">&check; Todo el Paquete D</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Plataforma IA generadora de copy + hashtags + horarios + storytime</p>
-            </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-slate-800/60 rounded-lg border-l-4 border-blue-400">
-            <p class="text-slate-300 text-sm leading-relaxed">
-                <strong class="text-white">Por que combinarlos:</strong> el Paquete A le dice cuales productos y videos generan venta real (data del dashboard); el Paquete D usa esa data para que la IA genere mas contenido como el que SI funciona. <strong class="text-white">En 90 dias deberiamos ver el primer mes con compras registradas en GA4.</strong>
-            </p>
-        </div>
-    </div>
-
-    <!-- COMBO MEGA: A + D + S -->
-    <div class="glass rounded-2xl p-6 mb-8" style="border: 2px solid #10b981; background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(59, 130, 246, 0.08), rgba(139, 92, 246, 0.08));">
-        <div class="flex items-start justify-between gap-4 mb-4">
-            <div>
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-gradient-to-r from-emerald-500/40 to-blue-500/30 text-white border border-emerald-500/50 mb-2">MEGA COMBO &middot; RECOMENDADO</div>
-                <h2 class="text-white text-2xl font-bold">CDJ Digital Complete (A + D + S)</h2>
-                <p class="text-slate-300 text-sm mt-1">Web optimizada + tracking + IA de contenido + SEO 6 meses. Embudo completo cerrado.</p>
-            </div>
-            <div class="text-right">
-                <p class="text-3xl font-extrabold text-white">$1.480</p>
-                <p class="text-xs text-slate-300">USD pago unico</p>
-                <p class="text-xs text-slate-300">+ $280/mes (6 meses)</p>
-                <p class="text-xs text-slate-300">+ $100/mes (mes 7 en adelante)</p>
-                <p class="text-xs text-green-400 mt-2">Ahorro total: $280 + $20/mes</p>
-            </div>
-        </div>
-
-        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="glass-lighter rounded-lg p-4">
-                <p class="text-blue-400 font-bold text-sm mb-2">&check; Paquete A</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Web + Tracking + Dashboard custom Next.js/Supabase</p>
-            </div>
-            <div class="glass-lighter rounded-lg p-4">
-                <p class="text-purple-400 font-bold text-sm mb-2">&check; Paquete D</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Generador IA de contenido para redes sociales</p>
-            </div>
-            <div class="glass-lighter rounded-lg p-4">
-                <p class="text-emerald-400 font-bold text-sm mb-2">&check; Paquete S</p>
-                <p class="text-slate-400 text-xs leading-relaxed">6 meses de contenido SEO + Local SEO sucursales</p>
+                <p class="text-emerald-400 font-bold text-sm mb-2">&check; Paquete S &middot; SEO</p>
+                <p class="text-slate-400 text-xs leading-relaxed">4 posts SEO por mes (mensual $180) o 16 posts en 4 meses (unico $600 = ahorra $120)</p>
             </div>
         </div>
 
         <div class="mt-6 p-4 bg-slate-800/60 rounded-lg border-l-4 border-emerald-400">
             <p class="text-slate-300 text-sm leading-relaxed">
-                <strong class="text-white">Por que es la apuesta mas inteligente para CDJ:</strong> cubre los <strong class="text-white">3 canales de crecimiento</strong> que el negocio necesita - el web (Paquete A), las redes (Paquete D potenciado con su autonomia) y el SEO (Paquete S, el unico canal contraciclico). En 6 meses tienen 36 articulos posicionando + dashboard de medicion + 1.800 piezas de contenido generadas por IA. <strong class="text-emerald-300">Proyeccion: pasar de 3.000 a 10.000+ visitas/mes y de 0 a 80-150 ventas online/mes.</strong>
+                <strong class="text-white">Por que combinarlos:</strong> el Paquete A arregla el embudo y empieza a medir las ventas. El Paquete S construye trafico organico de Google (su canal #1, hoy con <strong class="text-white">41% del trafico nuevo</strong>) que ademas sirve de combustible para recortar contenido a TikTok/Reels. <strong class="text-emerald-300">En 6 meses: paso de 3.000 a 8.000-12.000 visitas/mes organicas, primer mes con compras medibles en GA4.</strong>
+            </p>
+        </div>
+
+        <div class="mt-4 p-4 bg-emerald-500/10 rounded-lg border border-emerald-500/30">
+            <p class="text-slate-300 text-sm">
+                <strong class="text-emerald-300">Oferta especial pago unico:</strong> Si contrata Web ($480) + SEO 4 meses ($720 mensualidad) por anticipado, le hacemos <strong class="text-white">$1.080 todo incluido</strong> &mdash; un ahorro de $120 sobre la modalidad mensual.
             </p>
         </div>
     </div>
