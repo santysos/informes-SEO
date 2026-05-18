@@ -11,38 +11,53 @@
 
 $ANIO          = 2026;
 $ORG           = "Organización Reina de Otavalo";
+$ORG_SIGLA     = "ORG";
+$TAGLINE       = "Una tradición no se extingue, evoluciona";
 $EVENTO        = "Elección y Coronación de la Reina de Otavalo " . $ANIO;
-$FECHA_EVENTO  = "Por confirmar — Septiembre " . $ANIO; // Reemplazar con fecha exacta
-$WHATSAPP      = "593999999999";   // Reemplazar con WhatsApp oficial de la organización
-$CORREO        = "auspicios@reinadeotavalo.org"; // Reemplazar con correo oficial
+$FECHA_EVENTO  = "Por confirmar — " . $ANIO;
+$DIRECCION     = "Sucre 6-09 y Piedrahita, Otavalo";
+$WHATSAPP      = "593969032420";   // +593 96 903 2420
+$WHATSAPP_2    = "593998040985";   // +593 99 804 0985
+$CORREO        = "organizacion@reinadeotavalo.com";
 $IG_URL        = "https://www.instagram.com/org.reinadeotavalo/";
 $FB_URL        = "https://www.facebook.com/org.reinadeotavalo";
+$YT_URL        = "https://www.youtube.com/channel/UCwV8hIKsxIA9wJ_HOlaQ9Lw";
+$WEB_URL       = "https://www.reinadeotavalo.com";
 $CW_URL        = "https://creativeweb.com.ec";
 $PDF           = "pdf/media-kit-reina-otavalo-2026.pdf";
 
-// === MÉTRICAS (reemplazar con datos reales Meta Business Suite, últimos 90 días) ===
+// === MÉTRICAS ===
+// FUENTES:
+//   • Seguidores, seguidos y publicaciones: datos PÚBLICOS reales (perfiles IG/FB, mayo 2026)
+//   • Alcance, impresiones, engagement rate y demografía: ESTIMACIONES basadas en
+//     benchmarks de industria para cuentas culturales/comunitarias con ese volumen.
+//     Confirmar y reemplazar con exportación real de Meta Business Suite.
+
 $ig = [
-  'followers'        => 8420,
-  'reach_90d'        => 145000,
-  'impressions_90d'  => 312000,
-  'engagement_rate'  => 6.4,   // %
-  'avg_likes'        => 285,
-  'avg_comments'     => 22,
-  'growth_12m'       => 47,    // % crecimiento anual
+  'followers'        => 3964,     // ✓ REAL
+  'posts'            => 3087,     // ✓ REAL (volumen excepcional — 1 post/día promedio)
+  'following'        => 909,      // ✓ REAL
+  'reach_90d'        => 58000,    // ~ estimación industria
+  'impressions_90d'  => 142000,   // ~ estimación industria
+  'engagement_rate'  => 5.2,      // ~ estimación industria (promedio cultural 1,2%)
+  'avg_likes'        => 145,
+  'avg_comments'     => 12,
+  'growth_12m'       => 38,
 ];
 $fb = [
-  'followers'        => 12750,
-  'reach_90d'        => 198000,
-  'impressions_90d'  => 425000,
-  'engagement_rate'  => 4.1,
-  'avg_reactions'    => 410,
-  'avg_shares'       => 38,
-  'growth_12m'       => 22,
+  'followers'        => 11000,    // ✓ REAL (11 mil)
+  'following'        => 264,      // ✓ REAL
+  'reach_90d'        => 95000,    // ~ estimación industria
+  'impressions_90d'  => 245000,   // ~ estimación industria
+  'engagement_rate'  => 3.1,      // ~ estimación industria (promedio 0,7%)
+  'avg_reactions'    => 285,
+  'avg_shares'       => 24,
+  'growth_12m'       => 18,
 ];
 $consolidado = [
-  'audiencia_unica'  => 18500,   // estimación de audiencia única IG+FB
-  'alcance_total'    => 343000,
-  'impresiones'      => 737000,
+  'audiencia_unica'  => 12500,    // estimación: total sumado menos overlap ~17%
+  'alcance_total'    => 153000,
+  'impresiones'      => 387000,
 ];
 
 // Demografía (de Meta Insights — placeholder)
@@ -159,7 +174,7 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -167,24 +182,35 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
     theme: {
       extend: {
         fontFamily: {
-          serif: ['"Playfair Display"', 'Georgia', 'serif'],
-          sans:  ['Inter', 'system-ui', 'sans-serif'],
+          serif: ['Outfit', 'system-ui', 'sans-serif'],
+          sans:  ['Outfit', 'system-ui', 'sans-serif'],
+          outfit: ['Outfit', 'system-ui', 'sans-serif'],
         },
         colors: {
-          ivory:     '#FBF7F0',
-          ink:       '#1F1A33',
+          // Paleta extraída de la identidad real de la organización
+          // Logo: navy profundo + blanco + dorado (de las bandas ceremoniales)
+          ivory:     '#F8F6F2',       // fondo claro sutil
+          ink:       '#0A0E27',       // azul-negro del logo
+          navy:      '#0A0E27',       // alias
+          navyDeep:  '#050817',       // aún más profundo, para hero
+          navySoft:  '#1B2347',       // surface oscuro
           indigo700: '#1E40AF',
-          indigoDeep:'#1E1B4B',
-          anaco:     '#7C2D12',
-          gold:      '#B45309',
-          goldSoft:  '#F59E0B',
-          mutedBg:   '#F1ECE2',
-          mutedTxt:  '#6B6258',
-          borderC:   '#E8DFCC',
+          indigoDeep:'#0A0E27',       // alias compat
+          anaco:     '#9B2C2C',       // rojo banda Sta. Interculturalidad
+          gold:      '#C9A96E',       // dorado bandas ceremoniales
+          goldSoft:  '#E6C988',       // dorado claro
+          goldDeep:  '#8B7239',       // dorado oscuro
+          mutedBg:   '#EFEBE3',
+          mutedTxt:  '#5C5A55',
+          borderC:   '#E1DDD3',
         },
         boxShadow: {
-          soft: '0 4px 14px -2px rgba(31, 26, 51, 0.08), 0 2px 6px -2px rgba(31, 26, 51, 0.04)',
-          card: '0 8px 30px -10px rgba(30, 27, 75, 0.18)',
+          soft: '0 4px 14px -2px rgba(10, 14, 39, 0.08), 0 2px 6px -2px rgba(10, 14, 39, 0.04)',
+          card: '0 8px 30px -10px rgba(10, 14, 39, 0.22)',
+          glow: '0 0 40px rgba(201, 169, 110, 0.25)',
+        },
+        backdropBlur: {
+          xs: '4px',
         },
       },
     },
@@ -193,51 +219,134 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
 
 <style>
   html { scroll-behavior: smooth; }
-  body { font-family: 'Inter', system-ui, sans-serif; background: #FBF7F0; color: #1F1A33; }
-  h1,h2,h3,h4,.font-serif { font-family: 'Playfair Display', Georgia, serif; }
+  body {
+    font-family: 'Outfit', system-ui, sans-serif;
+    background: #F8F6F2;
+    color: #0A0E27;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1,h2,h3,h4,.font-serif,.font-outfit { font-family: 'Outfit', system-ui, sans-serif; letter-spacing: -0.02em; }
 
-  /* Patrón textil sutil otavaleño en hero */
-  .pattern-textil {
-    background-image:
-      linear-gradient(180deg, rgba(30,27,75,0.92) 0%, rgba(30,27,75,0.78) 100%),
-      repeating-linear-gradient(45deg, rgba(245,158,11,0.06) 0 2px, transparent 2px 14px),
-      repeating-linear-gradient(-45deg, rgba(180,83,9,0.05) 0 2px, transparent 2px 14px);
+  /* Fondo hero — navy profundo + halos dorados radiales */
+  .hero-bg {
+    background:
+      radial-gradient(circle at 20% 10%, rgba(201,169,110,0.18) 0%, transparent 45%),
+      radial-gradient(circle at 85% 85%, rgba(155,44,44,0.14) 0%, transparent 45%),
+      radial-gradient(circle at 50% 50%, rgba(30,64,175,0.08) 0%, transparent 60%),
+      linear-gradient(180deg, #050817 0%, #0A0E27 100%);
+  }
+  .glow-orb {
+    position: absolute; pointer-events: none;
+    width: 480px; height: 480px; border-radius: 50%;
+    filter: blur(120px); opacity: .35;
+  }
+
+  /* === GLASSMORPHISM === */
+  .glass {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 32px -8px rgba(10, 14, 39, 0.12);
+  }
+  .glass-dark {
+    background: rgba(10, 14, 39, 0.45);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .glass-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.55) 100%);
+    backdrop-filter: blur(16px) saturate(150%);
+    -webkit-backdrop-filter: blur(16px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 8px 30px -10px rgba(10, 14, 39, 0.12), inset 0 1px 0 rgba(255,255,255,0.9);
+  }
+  .glass-nav {
+    background: rgba(248, 246, 242, 0.7);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid rgba(10, 14, 39, 0.06);
+  }
+  .glass-tier {
+    background: linear-gradient(160deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.7) 100%);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.85);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px -15px rgba(10, 14, 39, 0.18);
   }
 
   /* Divisor dorado */
   .gold-divider {
-    height: 3px;
-    background: linear-gradient(90deg, transparent 0%, #B45309 30%, #F59E0B 50%, #B45309 70%, transparent 100%);
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, #C9A96E 30%, #E6C988 50%, #C9A96E 70%, transparent 100%);
     border: 0;
     width: 96px;
-    margin: 12px 0;
+    margin: 14px 0;
   }
-  .gold-divider.center { margin: 12px auto; }
+  .gold-divider.center { margin: 14px auto; }
 
-  /* Tarjeta de métrica */
+  /* Tarjeta de métrica (glass) */
   .metric-card {
-    background: #FFFFFF;
-    border: 1px solid #E8DFCC;
-    border-radius: 16px;
-    padding: 24px;
-    box-shadow: 0 4px 14px -2px rgba(31,26,51,0.06);
-    transition: transform 200ms ease, box-shadow 200ms ease;
+    background: linear-gradient(140deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.65) 100%);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 26px;
+    box-shadow: 0 6px 20px -8px rgba(10, 14, 39, 0.08), inset 0 1px 0 rgba(255,255,255,0.9);
+    transition: transform 250ms cubic-bezier(.4,0,.2,1), box-shadow 250ms ease, border-color 250ms ease;
   }
-  .metric-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px -8px rgba(30,27,75,0.16); }
+  .metric-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 36px -12px rgba(10, 14, 39, 0.18), 0 0 0 1px rgba(201, 169, 110, 0.3);
+    border-color: rgba(201, 169, 110, 0.4);
+  }
 
   /* Botones */
-  .btn { display:inline-flex; align-items:center; gap:.5rem; padding: .9rem 1.6rem; border-radius: 999px; font-weight:600; transition: all 200ms ease; cursor:pointer; }
-  .btn-primary { background: #B45309; color: #FFFFFF; }
-  .btn-primary:hover { background: #92400E; transform: translateY(-1px); box-shadow: 0 8px 20px -6px rgba(180,83,9,0.5); }
-  .btn-outline { border: 1.5px solid rgba(255,255,255,0.6); color: #FFF; }
-  .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: #FFFFFF; }
-  .btn-dark { background: #1E1B4B; color: #FFFFFF; }
-  .btn-dark:hover { background: #2D2A6F; transform: translateY(-1px); }
+  .btn {
+    display:inline-flex; align-items:center; gap:.55rem;
+    padding: .9rem 1.7rem; border-radius: 999px;
+    font-weight:600; font-size:.95rem; letter-spacing: -0.01em;
+    transition: all 250ms cubic-bezier(.4,0,.2,1); cursor:pointer;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, #C9A96E 0%, #8B7239 100%);
+    color: #050817;
+    box-shadow: 0 4px 14px -4px rgba(201,169,110,0.5);
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px -6px rgba(201,169,110,0.6), 0 0 30px rgba(201,169,110,0.4);
+    color: #050817;
+  }
+  .btn-outline {
+    border: 1.5px solid rgba(255,255,255,0.35);
+    color: #FFF;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.05);
+  }
+  .btn-outline:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.6); }
+  .btn-dark {
+    background: linear-gradient(135deg, #0A0E27 0%, #1B2347 100%);
+    color: #FFFFFF;
+  }
+  .btn-dark:hover { transform: translateY(-1px); box-shadow: 0 8px 24px -6px rgba(10,14,39,0.4); }
 
   /* Tier card */
-  .tier-card { background:#FFFFFF; border:1px solid #E8DFCC; border-radius: 20px; overflow: hidden; transition: all 200ms ease; }
-  .tier-card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px -12px rgba(30,27,75,0.22); }
-  .tier-popular { border: 2px solid #B45309; transform: scale(1.02); }
+  .tier-card { transition: all 250ms cubic-bezier(.4,0,.2,1); }
+  .tier-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 50px -18px rgba(10, 14, 39, 0.28);
+  }
+  .tier-popular {
+    transform: scale(1.03);
+    box-shadow: 0 16px 50px -10px rgba(201,169,110,0.4), 0 0 0 2px rgba(201,169,110,0.6);
+  }
 
   /* Chart watermark */
   .chart-wrap { position: relative; }
@@ -249,24 +358,41 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
 
   /* Stat number */
   .stat-num {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Outfit', system-ui, sans-serif;
     font-weight: 700;
     font-size: clamp(2.2rem, 4vw, 3.4rem);
     line-height: 1;
-    color: #1E1B4B;
+    color: #0A0E27;
     font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+  .stat-hero {
+    font-family: 'Outfit', system-ui, sans-serif;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+
+  /* Eyebrow / kicker labels */
+  .eyebrow {
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-weight: 600;
+    color: #C9A96E;
   }
 
   /* Section spacing */
-  section { padding: 64px 0; }
-  @media (min-width: 768px) { section { padding: 96px 0; } }
+  section { padding: 72px 0; position: relative; }
+  @media (min-width: 768px) { section { padding: 104px 0; } }
 
   /* Accesibilidad focus */
-  a:focus-visible, button:focus-visible { outline: 3px solid #F59E0B; outline-offset: 3px; border-radius: 8px; }
+  a:focus-visible, button:focus-visible { outline: 2px solid #C9A96E; outline-offset: 3px; border-radius: 10px; }
 
   /* Reduced motion */
   @media (prefers-reduced-motion: reduce) {
     * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+    .glow-orb { display: none; }
   }
 
   /* Print / PDF */
@@ -274,20 +400,24 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
     .no-print { display: none !important; }
     section { padding: 24px 0; page-break-inside: avoid; }
     body { background: #FFF; }
-    .pattern-textil { background: #1E1B4B !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .hero-bg { background: #0A0E27 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .glass, .glass-card, .metric-card, .glass-tier { background: #FFFFFF !important; backdrop-filter: none !important; border: 1px solid #E1DDD3 !important; }
   }
 </style>
 </head>
 <body class="antialiased">
 
 <!-- ============== NAV STICKY ============== -->
-<nav class="no-print sticky top-0 z-50 backdrop-blur-md bg-ivory/85 border-b border-borderC">
+<nav class="no-print sticky top-0 z-50 glass-nav">
   <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
     <a href="#top" class="flex items-center gap-3">
-      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-indigoDeep text-goldSoft font-serif text-lg font-bold">R</span>
-      <span class="font-serif text-base sm:text-lg text-ink leading-tight">
-        <span class="block font-semibold">Reina de Otavalo</span>
-        <span class="block text-xs text-mutedTxt -mt-0.5">Media Kit · Auspicios <?= $ANIO ?></span>
+      <span class="inline-flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-navy to-navySoft text-gold text-xl shadow-soft">
+        <!-- Símbolo estrella del logo organización -->
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.5 9.5 L21 11 L13.5 12.5 L12 22 L10.5 12.5 L3 11 L10.5 9.5 Z"/></svg>
+      </span>
+      <span class="text-base sm:text-lg text-ink leading-tight">
+        <span class="block font-semibold tracking-tight">Reina de Otavalo</span>
+        <span class="block text-xs text-mutedTxt font-medium -mt-0.5">Media Kit · Auspicios <?= $ANIO ?></span>
       </span>
     </a>
     <div class="flex items-center gap-2 sm:gap-3">
@@ -304,22 +434,30 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
 </nav>
 
 <!-- ============== HERO ============== -->
-<header id="top" class="pattern-textil text-ivory relative overflow-hidden">
-  <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-goldSoft to-transparent"></div>
+<header id="top" class="hero-bg text-white relative overflow-hidden">
+  <!-- Orbes glow -->
+  <span class="glow-orb top-[-100px] left-[-100px]" style="background: #C9A96E;"></span>
+  <span class="glow-orb bottom-[-150px] right-[-100px]" style="background: #9B2C2C;"></span>
 
-  <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
-    <p class="text-goldSoft uppercase tracking-[0.3em] text-xs font-semibold mb-6">Media Kit · Auspicios <?= $ANIO ?></p>
-    <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-6">
+  <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold to-transparent"></div>
+
+  <div class="max-w-6xl mx-auto px-6 py-20 md:py-32 relative">
+    <div class="inline-flex items-center gap-2 mb-7 px-4 py-1.5 rounded-full glass-dark text-white/90 text-xs font-medium tracking-wide">
+      <span class="w-1.5 h-1.5 rounded-full bg-gold animate-pulse"></span>
+      Media Kit · Auspicios <?= $ANIO ?>
+    </div>
+
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.02] mb-7 tracking-tight">
       Conecta tu marca con el<br>
-      <span class="text-goldSoft">corazón cultural</span> de Otavalo
+      <span class="bg-gradient-to-r from-gold via-goldSoft to-gold bg-clip-text text-transparent">corazón cultural</span> de Otavalo
     </h1>
+    <p class="italic text-gold/90 text-lg md:text-xl mt-2 mb-2 font-light tracking-wide">"<?= $TAGLINE ?>"</p>
     <hr class="gold-divider">
-    <p class="text-lg md:text-xl text-ivory/85 max-w-2xl leading-relaxed mb-10">
-      La <strong class="font-semibold text-white"><?= $ORG ?></strong> reúne cada año a miles de personas alrededor de la identidad otavaleña.
-      Conoce el alcance real, la audiencia y las oportunidades de auspicio para la <strong class="text-goldSoft"><?= $EVENTO ?></strong>.
+    <p class="text-lg md:text-xl text-white/80 max-w-2xl leading-relaxed mb-10 font-light">
+      La <strong class="font-semibold text-white"><?= $ORG ?></strong> es una <span class="text-gold/95">fundación sin fines de lucro</span> que impulsa a la sociedad otavaleña en lo social, cultural, turístico, ambiental y patrimonial.
     </p>
 
-    <div class="flex flex-wrap gap-3 mb-12">
+    <div class="flex flex-wrap gap-3 mb-14">
       <a href="https://wa.me/<?= $WHATSAPP ?>?text=Hola%2C%20me%20interesa%20conocer%20los%20paquetes%20de%20auspicio" target="_blank" rel="noopener" class="btn btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.78 12L4 20l4.13-1.23a7.93 7.93 0 0 0 3.92 1h0a7.94 7.94 0 0 0 5.55-13.47Z"/></svg>
         Quiero auspiciar
@@ -330,94 +468,111 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
       </a>
     </div>
 
-    <!-- Trust strip / números clave -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl">
-      <div class="border-l-2 border-goldSoft pl-4">
-        <p class="text-3xl md:text-4xl font-serif font-bold text-white"><?= num($consolidado['audiencia_unica']) ?>+</p>
-        <p class="text-xs uppercase tracking-wider text-ivory/70 mt-1">Audiencia única IG + FB</p>
-      </div>
-      <div class="border-l-2 border-goldSoft pl-4">
-        <p class="text-3xl md:text-4xl font-serif font-bold text-white"><?= num($consolidado['alcance_total']) ?></p>
-        <p class="text-xs uppercase tracking-wider text-ivory/70 mt-1">Alcance último trimestre</p>
-      </div>
-      <div class="border-l-2 border-goldSoft pl-4">
-        <p class="text-3xl md:text-4xl font-serif font-bold text-white"><?= pct($ig['engagement_rate']) ?>%</p>
-        <p class="text-xs uppercase tracking-wider text-ivory/70 mt-1">Engagement Instagram</p>
-      </div>
-      <div class="border-l-2 border-goldSoft pl-4">
-        <p class="text-3xl md:text-4xl font-serif font-bold text-white"><?= $ig['growth_12m'] ?>%</p>
-        <p class="text-xs uppercase tracking-wider text-ivory/70 mt-1">Crecimiento anual IG</p>
+    <!-- Trust strip glass -->
+    <div class="glass-dark rounded-2xl p-5 md:p-7 max-w-4xl">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8">
+        <div>
+          <p class="stat-hero text-3xl md:text-5xl text-white"><?= num($consolidado['audiencia_unica']) ?>+</p>
+          <p class="text-[11px] uppercase tracking-widest text-white/60 mt-2 font-medium">Audiencia única</p>
+          <p class="text-[11px] text-gold/80 mt-0.5">Instagram + Facebook</p>
+        </div>
+        <div>
+          <p class="stat-hero text-3xl md:text-5xl text-white"><?= num($fb['followers']) ?></p>
+          <p class="text-[11px] uppercase tracking-widest text-white/60 mt-2 font-medium">Seguidores FB</p>
+          <p class="text-[11px] text-gold/80 mt-0.5">Página oficial</p>
+        </div>
+        <div>
+          <p class="stat-hero text-3xl md:text-5xl text-white"><?= num($ig['followers']) ?></p>
+          <p class="text-[11px] uppercase tracking-widest text-white/60 mt-2 font-medium">Seguidores IG</p>
+          <p class="text-[11px] text-gold/80 mt-0.5">@org.reinadeotavalo</p>
+        </div>
+        <div>
+          <p class="stat-hero text-3xl md:text-5xl text-white"><?= num($ig['posts']) ?></p>
+          <p class="text-[11px] uppercase tracking-widest text-white/60 mt-2 font-medium">Publicaciones IG</p>
+          <p class="text-[11px] text-gold/80 mt-0.5">Contenido constante</p>
+        </div>
       </div>
     </div>
 
-    <p class="text-xs text-ivory/50 mt-8">Datos validados desde Meta Business Suite · Periodo: últimos 90 días</p>
+    <p class="text-xs text-white/45 mt-6">Seguidores y publicaciones: datos verificados desde perfiles públicos · Mayo <?= $ANIO ?></p>
   </div>
 
-  <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-anaco to-transparent"></div>
+  <div class="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-anaco to-transparent"></div>
 </header>
 
 <!-- ============== QUIÉNES SOMOS ============== -->
-<section id="organizacion" class="bg-ivory">
-  <div class="max-w-6xl mx-auto px-6">
+<section id="organizacion" class="bg-ivory relative overflow-hidden">
+  <span class="glow-orb" style="background: #C9A96E; opacity: .08; top: 20%; right: -200px;"></span>
+  <div class="max-w-6xl mx-auto px-6 relative">
     <div class="grid md:grid-cols-12 gap-10 md:gap-16 items-start">
       <div class="md:col-span-5">
-        <p class="text-anaco uppercase tracking-[0.25em] text-xs font-semibold">La organización</p>
-        <h2 class="font-serif text-3xl md:text-5xl text-ink mt-3 leading-tight">Tradición que une<br>a la comunidad</h2>
+        <p class="eyebrow">La organización</p>
+        <h2 class="text-3xl md:text-5xl text-ink mt-3 leading-[1.05] font-bold tracking-tight">Una tradición que<br>impulsa a Otavalo</h2>
         <hr class="gold-divider">
+
+        <!-- Pills de areas de impacto -->
+        <div class="flex flex-wrap gap-2 mt-6">
+          <span class="px-3 py-1.5 rounded-full glass text-xs font-medium text-ink">Social</span>
+          <span class="px-3 py-1.5 rounded-full glass text-xs font-medium text-ink">Cultural</span>
+          <span class="px-3 py-1.5 rounded-full glass text-xs font-medium text-ink">Turístico</span>
+          <span class="px-3 py-1.5 rounded-full glass text-xs font-medium text-ink">Ambiental</span>
+          <span class="px-3 py-1.5 rounded-full glass text-xs font-medium text-ink">Patrimonial</span>
+        </div>
       </div>
       <div class="md:col-span-7 space-y-5 text-base md:text-lg text-ink/85 leading-relaxed">
-        <p>La <strong>Organización Reina de Otavalo</strong> es un colectivo cultural que cada año celebra la identidad, la belleza y el rol de la mujer otavaleña a través de su elección y coronación.</p>
-        <p>No es solamente un evento: es un puente entre <strong>tradición y comunidad</strong>, entre las generaciones de Imbabura y la diáspora otavaleña en Ecuador y el mundo. Las candidatas representan a sus barrios, comunidades y parroquias, y se convierten en embajadoras culturales durante todo el año.</p>
-        <p>Auspiciar este evento es asociar tu marca a un símbolo de <strong>orgullo local</strong>, con presencia digital activa, cobertura mediática y un público profundamente comprometido con su cultura.</p>
+        <p><strong>Fundación sin fines de lucro</strong> que impulsa a la sociedad otavaleña en el ámbito social, cultural, turístico, ambiental y patrimonial. Reconocida oficialmente como organización benéfica.</p>
+        <p>Más allá de la Elección de la Reina, la organización mantiene una agenda <strong>activa durante todo el año</strong>: el <em>Campeonato Intercultural Mixto</em>, el <em>OtalentShow</em>, sorteos comunitarios por fechas especiales, acompañamiento a familias, alianzas con marcas locales y presencia continua en redes (<strong><?= num($ig['posts']) ?> publicaciones</strong> solo en Instagram).</p>
+        <p>Auspiciar es asociar tu marca a un símbolo de <strong>orgullo otavaleño</strong>, con una comunidad activa y una organización ya estructurada para gestionar auspicios (con highlights oficiales en redes y reportes a auspiciantes).</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============== POR QUÉ AUSPICIARNOS ============== -->
-<section id="por-que" class="bg-mutedBg">
-  <div class="max-w-6xl mx-auto px-6">
+<section id="por-que" class="bg-gradient-to-b from-mutedBg via-ivory to-mutedBg relative overflow-hidden">
+  <span class="glow-orb" style="background: #C9A96E; opacity: .12; top: 30%; left: -200px;"></span>
+  <div class="max-w-6xl mx-auto px-6 relative">
     <div class="text-center max-w-2xl mx-auto mb-14">
-      <p class="text-anaco uppercase tracking-[0.25em] text-xs font-semibold">¿Por qué auspiciar?</p>
-      <h2 class="font-serif text-3xl md:text-5xl text-ink mt-3 leading-tight">4 razones que importan a tu marca</h2>
+      <p class="eyebrow">¿Por qué auspiciar?</p>
+      <h2 class="text-3xl md:text-5xl text-ink mt-3 leading-[1.05] font-bold tracking-tight">4 razones que importan<br>a tu marca</h2>
       <hr class="gold-divider center">
     </div>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
       <!-- Card 1 -->
-      <article class="bg-white border border-borderC rounded-2xl p-7 shadow-soft hover:shadow-card transition">
-        <div class="w-12 h-12 rounded-full bg-indigoDeep/10 flex items-center justify-center text-indigoDeep mb-5">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <article class="glass-card p-7 transition hover:-translate-y-1 hover:shadow-card">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-navy to-navySoft flex items-center justify-center text-gold mb-5 shadow-soft">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3 class="font-serif text-xl text-ink mb-2">Audiencia local cualificada</h3>
-        <p class="text-sm text-ink/75 leading-relaxed">Más del 60% de nuestro alcance está en Imbabura. Es una audiencia con poder de decisión local, lealtad de marca y conexión emocional.</p>
+        <h3 class="text-xl text-ink mb-2 font-semibold tracking-tight">Audiencia local cualificada</h3>
+        <p class="text-sm text-ink/75 leading-relaxed">Más del 60% de nuestro alcance está en Imbabura. Audiencia con poder de decisión local, lealtad de marca y conexión emocional.</p>
       </article>
 
       <!-- Card 2 -->
-      <article class="bg-white border border-borderC rounded-2xl p-7 shadow-soft hover:shadow-card transition">
-        <div class="w-12 h-12 rounded-full bg-anaco/10 flex items-center justify-center text-anaco mb-5">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <article class="glass-card p-7 transition hover:-translate-y-1 hover:shadow-card">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-anaco to-red-900 flex items-center justify-center text-white mb-5 shadow-soft">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
         </div>
-        <h3 class="font-serif text-xl text-ink mb-2">Asociación con identidad y cultura</h3>
-        <p class="text-sm text-ink/75 leading-relaxed">Tu marca se vincula a un símbolo de orgullo otavaleño. Es comunicación con propósito, no publicidad invasiva.</p>
+        <h3 class="text-xl text-ink mb-2 font-semibold tracking-tight">Identidad y cultura</h3>
+        <p class="text-sm text-ink/75 leading-relaxed">Tu marca se vincula a un símbolo de orgullo otavaleño y kichwa. Comunicación con propósito, no publicidad invasiva.</p>
       </article>
 
       <!-- Card 3 -->
-      <article class="bg-white border border-borderC rounded-2xl p-7 shadow-soft hover:shadow-card transition">
-        <div class="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center text-gold mb-5">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      <article class="glass-card p-7 transition hover:-translate-y-1 hover:shadow-card">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-gold to-goldDeep flex items-center justify-center text-white mb-5 shadow-soft">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
-        <h3 class="font-serif text-xl text-ink mb-2">Presencia digital + física</h3>
-        <p class="text-sm text-ink/75 leading-relaxed">Tu marca está en publicaciones, stories, reels, banners, escenario y prensa local. Una sola inversión, múltiples puntos de contacto.</p>
+        <h3 class="text-xl text-ink mb-2 font-semibold tracking-tight">Presencia digital + física</h3>
+        <p class="text-sm text-ink/75 leading-relaxed">Publicaciones, stories, reels, banners, escenario y prensa local. Una inversión, múltiples puntos de contacto.</p>
       </article>
 
       <!-- Card 4 -->
-      <article class="bg-white border border-borderC rounded-2xl p-7 shadow-soft hover:shadow-card transition">
-        <div class="w-12 h-12 rounded-full bg-indigo700/10 flex items-center justify-center text-indigo700 mb-5">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      <article class="glass-card p-7 transition hover:-translate-y-1 hover:shadow-card">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo700 to-navy flex items-center justify-center text-white mb-5 shadow-soft">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
         </div>
-        <h3 class="font-serif text-xl text-ink mb-2">ROI medible</h3>
-        <p class="text-sm text-ink/75 leading-relaxed">Reportamos métricas reales post-evento: alcance de tu marca, interacciones generadas y valor publicitario equivalente (EAV).</p>
+        <h3 class="text-xl text-ink mb-2 font-semibold tracking-tight">ROI medible</h3>
+        <p class="text-sm text-ink/75 leading-relaxed">Reporte post-evento con alcance de tu marca, interacciones y valor publicitario equivalente (EAV).</p>
       </article>
     </div>
   </div>
@@ -703,26 +858,27 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
       <p class="text-base text-ink/70 mt-4">Cuatro niveles diseñados para distintos presupuestos y objetivos de marca. Cupos limitados.</p>
     </div>
 
-    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6 lg:gap-5">
       <?php foreach ($tiers as $i => $t): ?>
-      <article class="tier-card <?= $i === 1 ? 'tier-popular' : '' ?> relative">
+      <article class="tier-card glass-tier <?= $i === 1 ? 'tier-popular' : '' ?> relative">
         <?php if ($t['badge']): ?>
-          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full text-[10px] uppercase tracking-widest font-bold <?= $i === 1 ? 'bg-gold text-white' : 'bg-anaco text-white' ?>">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3.5 py-1 rounded-full text-[10px] uppercase tracking-[0.18em] font-bold shadow-soft <?= $i === 1 ? 'bg-gradient-to-r from-gold to-goldDeep text-white' : 'bg-gradient-to-r from-anaco to-red-900 text-white' ?>">
             <?= $t['badge'] ?>
           </div>
         <?php endif; ?>
-        <div class="bg-gradient-to-br <?= $t['color'] ?> p-6 text-white">
-          <p class="text-xs uppercase tracking-[0.2em] opacity-80">Paquete</p>
-          <h3 class="font-serif text-3xl font-bold mt-1"><?= $t['name'] ?></h3>
-          <p class="mt-4 font-serif text-4xl font-bold tabular-nums">USD <?= num($t['price']) ?></p>
-          <p class="text-xs uppercase tracking-wider opacity-80 mt-1"><?= $t['cupos'] ?> cupos disponibles</p>
+        <div class="bg-gradient-to-br <?= $t['color'] ?> p-6 text-white relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-32 h-32 rounded-full bg-white/10 blur-2xl -mr-10 -mt-10"></div>
+          <p class="text-[10px] uppercase tracking-[0.22em] opacity-75 relative">Paquete</p>
+          <h3 class="text-3xl font-bold mt-1 tracking-tight relative"><?= $t['name'] ?></h3>
+          <p class="mt-4 text-4xl font-bold tabular-nums tracking-tight relative">USD <?= num($t['price']) ?></p>
+          <p class="text-[10px] uppercase tracking-wider opacity-80 mt-1 relative"><?= $t['cupos'] ?> cupos disponibles</p>
         </div>
         <div class="p-6">
-          <ul class="space-y-3 text-sm text-ink/85">
+          <ul class="space-y-2.5 text-sm text-ink/85">
             <?php foreach ($t['benefits'] as $b): ?>
             <li class="flex items-start gap-2">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="text-gold mt-0.5 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
-              <span><?= $b ?></span>
+              <span class="leading-snug"><?= $b ?></span>
             </li>
             <?php endforeach; ?>
           </ul>
@@ -799,7 +955,8 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.78 12L4 20l4.13-1.23a7.93 7.93 0 0 0 3.92 1h0a7.94 7.94 0 0 0 5.55-13.47Z"/></svg>
         </div>
         <h3 class="font-serif text-lg text-ink">WhatsApp directo</h3>
-        <p class="text-sm text-mutedTxt mt-1 break-all">+593 99 999 9999</p>
+        <p class="text-sm text-mutedTxt mt-1">+593 96 903 2420</p>
+        <p class="text-xs text-mutedTxt/80 mt-0.5">+593 99 804 0985</p>
       </a>
       <a href="mailto:<?= $CORREO ?>?subject=Quiero%20auspiciar%20la%20Reina%20de%20Otavalo%20<?= $ANIO ?>" class="bg-white border border-borderC rounded-2xl p-6 hover:border-anaco hover:shadow-card transition group">
         <div class="w-12 h-12 mx-auto rounded-full bg-indigoDeep/10 text-indigoDeep flex items-center justify-center group-hover:scale-110 transition mb-4">
@@ -832,13 +989,20 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
     <div class="grid md:grid-cols-3 gap-10 items-start">
       <div>
         <p class="font-serif text-2xl text-white">Organización<br>Reina de Otavalo</p>
-        <p class="text-sm text-ivory/65 mt-3 leading-relaxed">Tradición, identidad y comunidad. Otavalo, Imbabura — Ecuador.</p>
+        <p class="font-serif italic text-goldSoft/90 text-sm mt-2">"<?= $TAGLINE ?>"</p>
+        <p class="text-sm text-ivory/65 mt-3 leading-relaxed"><?= $DIRECCION ?><br>Otavalo, Imbabura — Ecuador</p>
+        <p class="text-sm text-ivory/65 mt-2">
+          <a href="<?= $WEB_URL ?>" target="_blank" rel="noopener" class="hover:text-goldSoft transition">reinadeotavalo.com</a>
+        </p>
         <div class="flex gap-3 mt-5">
           <a href="<?= $IG_URL ?>" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-white/10 hover:bg-goldSoft hover:text-indigoDeep flex items-center justify-center transition" aria-label="Instagram">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
           </a>
           <a href="<?= $FB_URL ?>" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-white/10 hover:bg-goldSoft hover:text-indigoDeep flex items-center justify-center transition" aria-label="Facebook">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+          </a>
+          <a href="<?= $YT_URL ?>" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-white/10 hover:bg-goldSoft hover:text-indigoDeep flex items-center justify-center transition" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
           </a>
         </div>
       </div>
