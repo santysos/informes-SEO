@@ -143,6 +143,7 @@ deployment:
     # Deploy Reina de Otavalo
     - /bin/cp -f reina-de-otavalo/media-kit-2026/.htaccess $BASEPATH/reina-de-otavalo/media-kit-2026/
     - /bin/cp -f reina-de-otavalo/media-kit-2026/index.php $BASEPATH/reina-de-otavalo/media-kit-2026/
+    - /bin/cp -f reina-de-otavalo/media-kit-2026/guia-metricas.html $BASEPATH/reina-de-otavalo/media-kit-2026/ 2>/dev/null || true
     - /bin/cp -rf reina-de-otavalo/media-kit-2026/assets/. $BASEPATH/reina-de-otavalo/media-kit-2026/assets/ 2>/dev/null || true
     - /bin/cp -rf reina-de-otavalo/media-kit-2026/pdf/. $BASEPATH/reina-de-otavalo/media-kit-2026/pdf/ 2>/dev/null || true
     # Permisos Reina de Otavalo
@@ -150,5 +151,6 @@ deployment:
     - chmod 755 $BASEPATH/reina-de-otavalo/media-kit-2026/assets
     - chmod 755 $BASEPATH/reina-de-otavalo/media-kit-2026/pdf
     - chmod 644 $BASEPATH/reina-de-otavalo/media-kit-2026/*.php
+    - chmod 644 $BASEPATH/reina-de-otavalo/media-kit-2026/*.html 2>/dev/null || true
     - find $BASEPATH/reina-de-otavalo/media-kit-2026/assets -type f -exec chmod 644 {} \; 2>/dev/null || true
     - find $BASEPATH/reina-de-otavalo/media-kit-2026/pdf -type f -exec chmod 644 {} \; 2>/dev/null || true
