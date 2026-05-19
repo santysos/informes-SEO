@@ -130,9 +130,11 @@ $top_contenidos = [
 ];
 
 // Paquetes oficiales de auspicio · Organización Reina de Otavalo
+// (Internamente CORAZA / SARANCE / PENDONEROS / STANDARD,
+//  presentados como Diamante / Oro / Plata / Bronce para lectura universal)
 $tiers = [
   [
-    'name' => 'CORAZA',
+    'name' => 'Diamante',
     'price' => 550,
     'iva' => true,
     'color' => 'from-navyDeep to-navy',
@@ -149,9 +151,40 @@ $tiers = [
       'Video promocional en TikTok',
       'Presencia de la Reina en 2 eventos de la empresa',
     ],
+    'full_benefits' => [
+      'Mención en el programa rumbo al Reinado*',
+      'Presencia de marca en pantallas y roll up en presentación de candidatas y elección',
+      'Dos menciones en 2 eventos principales',
+      'Visita de candidatas a su empresa',
+      'Video en elección de la visita a la empresa',
+      'Spot de 15 seg. — Video rotativo en elección',
+      'Imagen corporativa rotativa en presentación de candidatas',
+      'Imagen corporativa rotativa en elección',
+      'Imagen corporativa en el programa digital — espacio individual*',
+      'Imagen corporativa en el programa digital — espacio compartido',
+      'Imagen corporativa página web — imagen estática primera línea*',
+      'Imagen corporativa página web — imagen rotativa segunda línea',
+      'Imagen corporativa en afiche promocional de elección*',
+      'Promoción de la marca en historias de redes sociales — 6 veces',
+      'Publicación de 4 spots promocionales en redes sociales (entregados por la marca)',
+      'Stand al ingreso de presentación de candidatas y elección',
+      '2 entradas VIP presentación de candidatas',
+      '4 entradas VIP elección',
+      '2 entradas generales para presentación y elección',
+      'Fotografía exclusiva con Reina y corte en elección',
+      'Uso de la imagen de la Reina para promoción de la empresa*',
+      'Uso de la imagen de la Reina en 4 ocasiones',
+      'Visita exclusiva de la Reina y Virreina a la empresa*',
+      'Presencia de la Reina en 2 eventos de la empresa',
+      'Un video promocional de la marca en TikTok',
+      'Promoción de la marca en un evento institucionalizado*',
+      'Porcentaje de descuento con marcas auspiciantes para equipo de trabajo o familia directa',
+      'Mención adicional en elección si entrega premio a la Reina y Virreina',
+    ],
+    'nota_iva' => '*Si su aporte es 100% efectivo.',
   ],
   [
-    'name' => 'SARANCE',
+    'name' => 'Oro',
     'price' => 350,
     'iva' => true,
     'color' => 'from-gold to-goldDeep',
@@ -165,9 +198,24 @@ $tiers = [
       'Uso de la imagen de la Reina en 3 ocasiones',
       '4 historias en redes sociales',
     ],
+    'full_benefits' => [
+      'Presencia de marca en pantallas en presentación de candidatas y elección',
+      'Una mención en presentación de candidatas y en elección',
+      'Imagen corporativa rotativa en presentación de candidatas',
+      'Imagen corporativa rotativa en elección',
+      'Imagen corporativa en programa digital — espacio compartido',
+      'Imagen corporativa en página web — segunda o tercera línea',
+      'Promoción de la marca en historias de redes sociales — 4 veces',
+      '2 entradas con silla en presentación de candidatas',
+      '4 entradas con silla en elección',
+      '2 entradas generales elección',
+      'Uso de la imagen de la Reina en 3 ocasiones',
+      'Porcentaje de descuento con marcas auspiciantes para equipo de trabajo o familia directa',
+      'Mención adicional en elección si entrega premio a la Reina',
+    ],
   ],
   [
-    'name' => 'PENDONEROS',
+    'name' => 'Plata',
     'price' => 150,
     'iva' => true,
     'color' => 'from-anaco to-red-900',
@@ -180,9 +228,20 @@ $tiers = [
       '4 entradas generales elección',
       '2 historias en redes sociales',
     ],
+    'full_benefits' => [
+      'Presencia de marca en pantalla en elección',
+      'Una mención en presentación de candidatas y elección',
+      'Imagen corporativa rotativa en elección',
+      'Imagen corporativa en programa digital — espacio compartido',
+      'Imagen corporativa en página web — tercera línea',
+      'Promoción de la marca en historias de redes sociales — 2 veces',
+      '4 entradas generales elección',
+      'Porcentaje de descuento con marcas auspiciantes para equipo de trabajo o familia directa',
+      'Mención adicional en elección si entrega premio a la Reina',
+    ],
   ],
   [
-    'name' => 'STANDARD',
+    'name' => 'Bronce',
     'price' => 100,
     'iva' => true,
     'color' => 'from-slate-500 to-slate-700',
@@ -193,6 +252,13 @@ $tiers = [
       'Imagen corporativa en programa digital (espacio compartido)',
       '2 entradas generales elección',
       'Mención adicional si entrega premio a la Reina',
+    ],
+    'full_benefits' => [
+      'Presencia de marca en pantalla en elección',
+      'Una mención en elección',
+      'Imagen corporativa en programa digital — espacio compartido',
+      '2 entradas generales elección',
+      'Mención adicional en elección si entrega premio a la Reina',
     ],
   ],
 ];
@@ -994,6 +1060,30 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
             </li>
             <?php endforeach; ?>
           </ul>
+
+          <?php if (!empty($t['full_benefits'])): ?>
+          <details class="mt-5 pt-4 border-t border-borderC group">
+            <summary class="cursor-pointer list-none flex items-center justify-between text-sm font-semibold text-gold-deep hover:text-anaco transition select-none">
+              <span class="inline-flex items-center gap-1.5">
+                Ver beneficios completos
+                <span class="text-[10px] text-mutedTxt font-medium">(<?= count($t['full_benefits']) ?> items)</span>
+              </span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="transition-transform duration-200 group-open:rotate-180"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <ul class="mt-4 space-y-2 text-xs text-ink/75 leading-relaxed">
+              <?php foreach ($t['full_benefits'] as $b): ?>
+              <li class="flex items-start gap-2">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="text-gold mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><?= $b ?></span>
+              </li>
+              <?php endforeach; ?>
+            </ul>
+            <?php if (!empty($t['nota_iva'])): ?>
+            <p class="mt-3 text-[11px] italic text-mutedTxt"><?= $t['nota_iva'] ?></p>
+            <?php endif; ?>
+          </details>
+          <?php endif; ?>
+
           <a href="https://wa.me/<?= $WHATSAPP ?>?text=Hola%2C%20quiero%20auspiciar%20con%20el%20paquete%20<?= urlencode($t['name']) ?>" target="_blank" rel="noopener" class="btn btn-dark w-full justify-center mt-6 text-sm">
             Reservar <?= $t['name'] ?>
           </a>
