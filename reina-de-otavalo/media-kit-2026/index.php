@@ -129,65 +129,70 @@ $top_contenidos = [
   ['titulo' => 'OTalentShow — UE Ciudad de Otavalo',        'views' => 33600, 'plat' => 'FB+IG'],
 ];
 
-// Tiers de auspicio sugeridos
+// Paquetes oficiales de auspicio · Organización Reina de Otavalo
 $tiers = [
   [
-    'name' => 'Diamante',
-    'price' => 1500,
-    'cupos' => 2,
-    'color' => 'from-indigo-700 to-indigo-900',
+    'name' => 'CORAZA',
+    'price' => 550,
+    'iva' => true,
+    'color' => 'from-navyDeep to-navy',
     'badge' => 'Auspicio principal',
     'benefits' => [
       'Logo en banner principal del escenario',
-      'Mención dedicada en apertura y clausura del evento',
-      'Video institucional de 30s en redes (IG + FB)',
-      '4 publicaciones dedicadas en IG + FB (alcance estimado +50.000)',
-      '2 stories destacadas durante toda la temporada',
-      'Presencia con stand en el evento',
-      'Mención en nota de prensa y entrevistas',
-      'Logo grande en todas las piezas digitales',
+      'Mención dedicada en presentación de candidatas y elección',
+      'Spot de 15 segundos en video rotativo de la elección',
+      'Stand al ingreso de presentación y elección',
+      '4 entradas VIP elección + 2 VIP presentación + 2 generales',
+      'Visita exclusiva de la Reina y Virreina a tu empresa',
+      'Uso de la imagen de la Reina en 4 ocasiones',
+      '6 historias en redes sociales + 4 spots',
+      'Video promocional en TikTok',
+      'Presencia de la Reina en 2 eventos de la empresa',
     ],
   ],
   [
-    'name' => 'Oro',
-    'price' => 800,
-    'cupos' => 4,
-    'color' => 'from-amber-500 to-amber-700',
+    'name' => 'SARANCE',
+    'price' => 350,
+    'iva' => true,
+    'color' => 'from-gold to-goldDeep',
     'badge' => 'Más popular',
     'benefits' => [
-      'Logo en banner secundario',
-      'Mención en bloque agradecimientos del evento',
-      '2 publicaciones dedicadas IG + FB',
-      '1 Reel mención (alcance estimado +20.000)',
-      '1 story destacada',
-      'Presencia en evento (mesa institucional)',
-      'Logo mediano en piezas digitales',
+      'Presencia de marca en pantallas (presentación y elección)',
+      'Mención en presentación de candidatas y en elección',
+      'Imagen corporativa rotativa en presentación y elección',
+      'Imagen en programa digital (espacio compartido)',
+      '2 entradas presentación + 4 entradas elección + 2 generales',
+      'Uso de la imagen de la Reina en 3 ocasiones',
+      '4 historias en redes sociales',
     ],
   ],
   [
-    'name' => 'Plata',
-    'price' => 400,
-    'cupos' => 8,
-    'color' => 'from-slate-400 to-slate-600',
+    'name' => 'PENDONEROS',
+    'price' => 150,
+    'iva' => true,
+    'color' => 'from-anaco to-red-900',
     'badge' => '',
     'benefits' => [
-      'Logo en grupo de auspiciantes oficiales',
-      '1 publicación con mención IG + FB',
-      'Banner digital durante evento',
-      'Mención en stories de agradecimiento',
+      'Presencia de marca en pantalla en elección',
+      'Una mención en presentación y elección',
+      'Imagen corporativa rotativa en elección',
+      'Imagen en programa digital (espacio compartido)',
+      '4 entradas generales elección',
+      '2 historias en redes sociales',
     ],
   ],
   [
-    'name' => 'Bronce / Aliado',
-    'price' => 150,
-    'cupos' => 12,
-    'color' => 'from-orange-700 to-red-900',
-    'badge' => 'Canje posible',
+    'name' => 'STANDARD',
+    'price' => 100,
+    'iva' => true,
+    'color' => 'from-slate-500 to-slate-700',
+    'badge' => 'Entrada',
     'benefits' => [
-      'Logo en listado de aliados',
-      'Story de agradecimiento conjunta',
-      'Mención en sección de aliados de la web',
-      'Posibilidad de canje por productos / servicios',
+      'Presencia de marca en pantalla en elección',
+      'Una mención en elección',
+      'Imagen corporativa en programa digital (espacio compartido)',
+      '2 entradas generales elección',
+      'Mención adicional si entrega premio a la Reina',
     ],
   ],
 ];
@@ -974,8 +979,11 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
           <div class="absolute top-0 right-0 w-32 h-32 rounded-full bg-white/10 blur-2xl -mr-10 -mt-10"></div>
           <p class="text-[10px] uppercase tracking-[0.22em] opacity-75 relative">Paquete</p>
           <h3 class="text-3xl font-bold mt-1 tracking-tight relative"><?= $t['name'] ?></h3>
-          <p class="mt-4 text-4xl font-bold tabular-nums tracking-tight relative">USD <?= num($t['price']) ?></p>
-          <p class="text-[10px] uppercase tracking-wider opacity-80 mt-1 relative"><?= $t['cupos'] ?> cupos disponibles</p>
+          <div class="mt-4 flex items-baseline gap-2 relative">
+            <p class="text-4xl font-bold tabular-nums tracking-tight">USD <?= num($t['price']) ?></p>
+            <?php if (!empty($t['iva'])): ?><span class="text-[11px] opacity-80 font-medium">+ IVA</span><?php endif; ?>
+          </div>
+          <p class="text-[10px] uppercase tracking-wider opacity-80 mt-1 relative">Cupos limitados</p>
         </div>
         <div class="p-6">
           <ul class="space-y-2.5 text-sm text-ink/85">
