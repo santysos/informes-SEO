@@ -14,10 +14,10 @@ $ORG           = "Organización Reina de Otavalo";
 $ORG_SIGLA     = "ORG";
 $TAGLINE       = "Una tradición no se extingue, evoluciona";
 $EVENTO        = "Elección y Coronación de la Reina de Otavalo " . $ANIO;
-$FECHA_EVENTO  = "Por confirmar — " . $ANIO;
+$FECHA_EVENTO  = "Sábado 3 de octubre · 2026";
 $DIRECCION     = "Sucre 6-09 y Piedrahita, Otavalo";
-$WHATSAPP      = "593969032420";   // +593 96 903 2420
-$WHATSAPP_2    = "593998040985";   // +593 99 804 0985
+$WHATSAPP      = "593992126557";   // +593 99 212 6557
+$WHATSAPP_2    = "593980602213";   // +593 98 060 2213
 $CORREO        = "organizacion@reinadeotavalo.com";
 $IG_URL        = "https://www.instagram.com/org.reinadeotavalo/";
 $FB_URL        = "https://www.facebook.com/org.reinadeotavalo";
@@ -107,16 +107,16 @@ $demo_paises = [
 $crecimiento = [
   'May 25' => 320000,
   'Jun 25' => 380000,
-  'Jul 25' => 420000,
-  'Ago 25' => 460000,
-  'Sep 25' => 720000,   // pico OTalentShow
-  'Oct 25' => 580000,
-  'Nov 25' => 540000,
-  'Dic 25' => 510000,
-  'Ene 26' => 490000,
-  'Feb 26' => 950000,   // pico nueva coronación
+  'Jul 25' => 450000,
+  'Ago 25' => 580000,
+  'Sep 25' => 690000,
+  'Oct 25' => 850000,   // pico Coronación (octubre)
+  'Nov 25' => 620000,
+  'Dic 25' => 500000,
+  'Ene 26' => 540000,
+  'Feb 26' => 950000,   // pico OTalentShow (febrero)
   'Mar 26' => 680000,
-  'Abr 26' => 620000,
+  'Abr 26' => 580000,
 ];
 
 // Top contenidos (OTalentShow es el flagship)
@@ -635,7 +635,7 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
       </div>
       <div class="md:col-span-7 space-y-5 text-base md:text-lg text-ink/85 leading-relaxed">
         <p><strong>Fundación sin fines de lucro</strong> que impulsa a la sociedad otavaleña en el ámbito social, cultural, turístico, ambiental y patrimonial. Reconocida oficialmente como organización benéfica.</p>
-        <p>Más allá de la Elección de la Reina, la organización mantiene una agenda <strong>activa durante todo el año</strong>: el <em>Campeonato Intercultural Mixto</em>, el <em>OtalentShow</em>, sorteos comunitarios por fechas especiales, acompañamiento a familias, alianzas con marcas locales y presencia continua en redes (<strong><?= num($ig['posts']) ?> publicaciones</strong> solo en Instagram).</p>
+        <p>Más allá de la Elección de la Reina, la organización mantiene una agenda <strong>activa durante todo el año</strong>: el <em>OtalentShow</em>, el <em>Perro Adventure 5K</em> y la <em>Cena benéfica</em>, además de acompañamiento a familias, alianzas con marcas locales y presencia continua en redes (<strong><?= num($ig['posts']) ?> publicaciones</strong> solo en Instagram).</p>
         <p>Auspiciar es asociar tu marca a un símbolo de <strong>orgullo otavaleño</strong>, con una comunidad activa y una organización ya estructurada para gestionar auspicios (con highlights oficiales en redes y reportes a auspiciantes).</p>
       </div>
     </div>
@@ -789,7 +789,7 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
 
     <div class="bg-white border border-borderC rounded-2xl p-6 md:p-8 shadow-soft">
       <h3 class="font-serif text-xl text-ink mb-1">Visualizaciones mes a mes · Últimos 12 meses</h3>
-      <p class="text-sm text-mutedTxt mb-5">Volumen mensual consolidado IG + FB. Los picos coinciden con activaciones (OTalentShow en septiembre, Coronación en febrero).</p>
+      <p class="text-sm text-mutedTxt mb-5">Volumen mensual consolidado IG + FB. Los picos coinciden con las dos activaciones más importantes: <strong>Coronación en octubre</strong> y <strong>OTalentShow en febrero</strong>.</p>
       <div class="chart-wrap">
         <canvas id="chartCrecimiento" height="120"></canvas>
         <span class="chart-wm">© Creative Web · creativeweb.com.ec</span>
@@ -1157,8 +1157,8 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.78 12L4 20l4.13-1.23a7.93 7.93 0 0 0 3.92 1h0a7.94 7.94 0 0 0 5.55-13.47Z"/></svg>
         </div>
         <h3 class="font-serif text-lg text-ink">WhatsApp directo</h3>
-        <p class="text-sm text-mutedTxt mt-1">+593 96 903 2420</p>
-        <p class="text-xs text-mutedTxt/80 mt-0.5">+593 99 804 0985</p>
+        <p class="text-sm text-mutedTxt mt-1">+593 99 212 6557</p>
+        <p class="text-xs text-mutedTxt/80 mt-0.5">+593 98 060 2213</p>
       </a>
       <a href="mailto:<?= $CORREO ?>?subject=Quiero%20auspiciar%20la%20Reina%20de%20Otavalo%20<?= $ANIO ?>" class="bg-white border border-borderC rounded-2xl p-6 hover:border-anaco hover:shadow-card transition group">
         <div class="w-12 h-12 mx-auto rounded-full bg-indigoDeep/10 text-indigoDeep flex items-center justify-center group-hover:scale-110 transition mb-4">
