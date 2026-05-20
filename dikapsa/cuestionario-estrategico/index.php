@@ -494,18 +494,41 @@ function build_email_html($payload, $cliente) {
 
       <div class="field">
         <label class="q" for="b1_detalle_clientes">1.2 De los anteriores, cuéntanos brevemente</label>
-        <div class="help">Por cada uno: ¿qué les facturas? ¿cuánto al año aprox.? ¿hace cuánto son clientes? ¿cómo llegaron a Dikapsa?</div>
-        <textarea id="b1_detalle_clientes" name="b1_detalle_clientes" rows="8" placeholder="Ej. Frutería Monserrath — packaging cajas para fruta, ~$30k/año, 3 años, llegó por referencia de otro cliente.&#10;Carl's Jr — POP para campañas, ~$15k/año, 1 año, los buscamos por LinkedIn."></textarea>
+        <div class="help">Por cada uno: <strong>qué les facturas, cuánto al año aprox., qué % de tu facturación total representa, hace cuánto son clientes, frecuencia de órdenes (mensual/trimestral/anual), cómo llegaron a Dikapsa</strong>.</div>
+        <textarea id="b1_detalle_clientes" name="b1_detalle_clientes" rows="9" placeholder="Ej. Frutería Monserrath — packaging cajas para fruta — ~$30k/año — ~12% del total — 3 años — órdenes mensuales — llegó por referencia.&#10;Carl's Jr — POP para campañas — ~$15k/año — ~6% — 1 año — órdenes trimestrales — los buscamos por LinkedIn."></textarea>
+      </div>
+
+      <div class="field" style="background:rgba(201,169,110,0.08);border:1.5px solid rgba(201,169,110,0.3);border-radius:14px;padding:18px 18px 6px;">
+        <label class="q" for="b1_casos_publicables">1.3 De tus clientes top, <strong>¿cuáles autorizarían un caso público con su nombre y logo</strong>? ⭐</label>
+        <div class="help">Esto es <strong>oro puro para el SEO</strong>. Un caso de éxito documentado con marca reconocible vale 10× más que un post genérico. Por cada cliente que autorizaría, dinos: <strong>qué material tienen disponible</strong> (foto del producto terminado, testimonio escrito, cifras del proyecto, video, antes/después).</div>
+        <textarea id="b1_casos_publicables" name="b1_casos_publicables" rows="6" placeholder="Ej.&#10;• Frutería Monserrath — autorizaría — tenemos fotos del packaging + testimonio del gerente + datos de volumen mensual.&#10;• Carl's Jr — habría que pedir permiso — solo fotos del POP, sin testimonio escrito.&#10;• Cliente Z — NO autoriza por política interna."></textarea>
       </div>
 
       <div class="field">
-        <label class="q" for="b1_no_perder">1.3 ¿Cuáles clientes no pueden perder bajo ninguna circunstancia?</label>
+        <label class="q" for="b1_no_perder">1.4 ¿Cuáles clientes no pueden perder bajo ninguna circunstancia?</label>
         <textarea id="b1_no_perder" name="b1_no_perder" rows="3"></textarea>
       </div>
 
       <div class="field">
-        <label class="q" for="b1_perdidos">1.4 ¿Hubo 3–5 cuentas grandes que se perdieron? ¿Por qué?</label>
+        <label class="q" for="b1_perdidos">1.5 ¿Hubo 3–5 cuentas grandes que se perdieron? ¿Por qué?</label>
         <textarea id="b1_perdidos" name="b1_perdidos" rows="4" placeholder="Ej. Empresa X — la perdimos porque entró un competidor con precio 20% menor."></textarea>
+      </div>
+
+      <div class="field">
+        <label class="q">1.6 Aproximadamente, <strong>¿cómo se distribuye tu facturación por tipo de cliente?</strong></label>
+        <div class="help">Estima en %. Suma 100. Esto nos dice si vamos a empujar SEO B2B grande o mantener mix con PYME e individuos.</div>
+        <div style="display:grid;grid-template-columns:1fr 90px;gap:8px;align-items:center;max-width:420px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Corporates grandes (Fybeca, Carl's Jr, etc.)</label>
+          <input type="number" name="b1_mix_corporates" min="0" max="100" step="1" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">PYMEs (10–200 empleados)</label>
+          <input type="number" name="b1_mix_pymes" min="0" max="100" step="1" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Microempresas / emprendedores</label>
+          <input type="number" name="b1_mix_micro" min="0" max="100" step="1" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Individuos / consumidor final</label>
+          <input type="number" name="b1_mix_individuos" min="0" max="100" step="1" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Sector público / instituciones</label>
+          <input type="number" name="b1_mix_publico" min="0" max="100" step="1" placeholder="%" style="padding:8px 10px;">
+        </div>
       </div>
     </div>
 
@@ -541,6 +564,36 @@ function build_email_html($payload, $cliente) {
         <div class="help">Ej. "BAT print", "Pantone matching", "FSC", "Master pack", "muestra impresa", "tirada", "barniz UV selectivo"...</div>
         <textarea id="b2_jerga_tecnica" name="b2_jerga_tecnica" rows="3"></textarea>
       </div>
+
+      <div class="field">
+        <label class="q">2.4 ¿De estos competidores del mercado ecuatoriano, <strong>cuáles conoces o has visto que un cliente compare con Dikapsa</strong>? ⭐</label>
+        <div class="help">Marca todos los que aplique. Si hay otro no listado, agrégalo en la siguiente pregunta.</div>
+        <div class="options">
+          <label><input type="checkbox" name="b2_competidores[]" value="industrias_omega"> <span><strong>Industrias Omega</strong> (Quito, 80 años, ISO + FSC, packaging farma/alimentos/florícola)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="servigraf"> <span><strong>Servigraf Editores</strong> (Quito, 27 años, Heidelberg + AI sketch + loyalty)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="creativeprint"> <span><strong>CreativePrint</strong> (Quito, imprenta full-service con tienda online)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="elen_graphics"> <span><strong>Elen Graphics</strong> (Quito, 39 años, B2B tradicional)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="dreampack"> <span><strong>Dreampack</strong> (paper packaging eco — clientes públicos: KFC, Arcos Dorados, Sweet & Coffee)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="fullpacking"> <span><strong>Fullpacking</strong> (empaque eco alimentos/aerolíneas/florícola, BPM)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="level_print"> <span><strong>Level Print</strong> (Guayaquil, 35 años)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="graficentro"> <span><strong>Graficentro</strong> (Guayaquil, papelería corporativa)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="imprenta_la_mejor"> <span><strong>Imprenta La Mejor</strong> (Guayaquil)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="termopack"> <span><strong>Termopack</strong> (empaques eco)</span></label>
+          <label><input type="checkbox" name="b2_competidores[]" value="industrias_omega"> <span>Otros (especificar abajo)</span></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b2_competidor_top">2.5 ¿Cuál percibes como <strong>tu competidor #1 real</strong>, y por qué?</label>
+        <div class="help">El que más te quita ventas. Cuéntanos en qué te gana (precio, tecnología, ubicación, marca, capacidad...) y dónde los superas tú.</div>
+        <textarea id="b2_competidor_top" name="b2_competidor_top" rows="4" placeholder="Ej. Servigraf — nos gana porque tiene calculadora online y 27 años en Quito. Los superamos en cobertura nacional y precio."></textarea>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b2_motivo_perdida">2.6 Cuando un prospecto prefirió a un competidor, ¿cuál fue el motivo real (no la objeción dicha)?</label>
+        <div class="help">A veces el prospecto dice "muy caro" pero la razón verdadera fue otra (referencia personal, tiempos, garantía, factura electrónica, etc.). Cuéntanos lo que averiguaste después.</div>
+        <textarea id="b2_motivo_perdida" name="b2_motivo_perdida" rows="4"></textarea>
+      </div>
     </div>
 
     <!-- ============== BLOQUE 3 ============== -->
@@ -565,15 +618,59 @@ function build_email_html($payload, $cliente) {
         </div>
       </div>
 
-      <div class="field">
-        <label class="q" for="b3_cliente_sonado">3.2 ¿Qué tipo de cliente sueñas atraer? Da ejemplos concretos</label>
-        <div class="help">Ej. "Cadenas de supermercados tipo Supermaxi", "Marcas de consumo masivo nacional", "Hoteles 4–5 estrellas"...</div>
-        <textarea id="b3_cliente_sonado" name="b3_cliente_sonado" rows="4"></textarea>
+      <div class="field" style="background:rgba(201,169,110,0.08);border:1.5px solid rgba(201,169,110,0.3);border-radius:14px;padding:18px;">
+        <label class="q">3.2 <strong>¿Qué industria/sector quieres dominar primero?</strong> ⭐ <span class="help" style="display:inline;color:var(--mut);">(elige 1–2 prioritarios)</span></label>
+        <div class="help">Esta es la decisión más importante: cada industria tiene keywords y casos distintos. Hay que enfocar el SEO en pocas verticales para ganar.</div>
+        <div class="options">
+          <label><input type="checkbox" name="b3_industria[]" value="alimentos_qsr"> <span><strong>Alimentos / QSR / fast food</strong> (Carl's Jr, KFC, restaurantes — packaging + POP)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="retail_supermercados"> <span><strong>Retail y supermercados</strong> (Supermaxi, Mi Comisariato — POP, etiquetas, displays)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="farmacia_salud"> <span><strong>Farmacia y salud</strong> (Fybeca, Sana Sana — cajas medicamentos, recetarios)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="cosmetica_belleza"> <span><strong>Cosmética y belleza</strong> (marcas Yanbal, Avon — packaging premium)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="floricola_agro"> <span><strong>Florícolas y agro</strong> (cajas exportación, etiquetas)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="hoteles_turismo"> <span><strong>Hoteles, turismo y restaurantes premium</strong> (papelería, menús, room amenities)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="inmobiliaria_construccion"> <span><strong>Inmobiliaria y construcción</strong> (folletos, planos, gran formato)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="sector_publico"> <span><strong>Sector público / instituciones</strong> (licitaciones, papelería oficial)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="educativo"> <span><strong>Educativo</strong> (libros, cuadernos, material universitario)</span></label>
+          <label><input type="checkbox" name="b3_industria[]" value="medico_consultorios"> <span><strong>Médico/consultorios independientes</strong> (recetarios — la línea retail)</span></label>
+        </div>
       </div>
 
       <div class="field">
-        <label class="q" for="b3_diferenciador">3.3 ¿Qué puedes ofrecer que tu competencia local NO puede?</label>
-        <div class="help">Maquinaria, tiempos, volumen mínimo, diseño incluido, cobertura nacional, sistema online (Printflash), años de experiencia, certificaciones...</div>
+        <label class="q" for="b3_cliente_sonado">3.3 ¿Qué tipo de cliente sueñas atraer? Da ejemplos concretos con nombres si es posible</label>
+        <div class="help">Ej. "Quiero entrar a Supermaxi", "Quiero que Yanbal nos compre etiquetas"...</div>
+        <textarea id="b3_cliente_sonado" name="b3_cliente_sonado" rows="3"></textarea>
+      </div>
+
+      <div class="field">
+        <label class="q">3.4 <strong>% aproximado de tu facturación por línea HOY</strong> ⭐</label>
+        <div class="help">Esto define cuántos posts del plan SEO van a cada línea. Suma 100.</div>
+        <div style="display:grid;grid-template-columns:1fr 90px;gap:8px;align-items:center;max-width:420px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Packaging (cajas, empaques)</label>
+          <input type="number" name="b3_fact_packaging" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">POP y gran formato (vibrines, roll-up, gigantografías)</label>
+          <input type="number" name="b3_fact_pop" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Papelería corporativa (tarjetas, sobres, hojas, credenciales)</label>
+          <input type="number" name="b3_fact_papeleria" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Etiquetas adhesivas</label>
+          <input type="number" name="b3_fact_etiquetas" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Editorial (catálogos, libros, revistas)</label>
+          <input type="number" name="b3_fact_editorial" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Recetarios médicos</label>
+          <input type="number" name="b3_fact_recetarios" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Otros / Diseño</label>
+          <input type="number" name="b3_fact_otros" min="0" max="100" placeholder="%" style="padding:8px 10px;">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b3_moq">3.5 Volumen mínimo (MOQ) y ticket promedio por línea</label>
+        <div class="help">Importante: Dreampack exige 5.000+ unidades como MOQ. Si tu MOQ es menor, es una ventaja real ante mid-market.</div>
+        <textarea id="b3_moq" name="b3_moq" rows="5" placeholder="Ej.&#10;Packaging: MOQ 500 cajas — ticket promedio $800&#10;Vibrines: MOQ 50 — ticket $400&#10;Tarjetas: MOQ 100 — ticket $35"></textarea>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b3_diferenciador">3.6 ¿Qué puedes ofrecer que tu competencia local NO puede?</label>
+        <div class="help">Maquinaria específica, tiempos, volumen mínimo bajo, diseño incluido, cobertura nacional, sistema online (Printflash), años de experiencia, certificaciones, sede norte...</div>
         <textarea id="b3_diferenciador" name="b3_diferenciador" rows="4"></textarea>
       </div>
     </div>
@@ -610,9 +707,9 @@ function build_email_html($payload, $cliente) {
       </div>
 
       <div class="field">
-        <label class="q" for="b4_casos_exito">4.3 ¿Tienen casos de éxito documentables con clientes grandes?</label>
-        <div class="help">Foto del trabajo, testimonio, métrica del resultado, cliente que dé permiso para mostrarse públicamente.</div>
-        <textarea id="b4_casos_exito" name="b4_casos_exito" rows="4"></textarea>
+        <label class="q" for="b4_donde_nos_ganan">4.3 Por cada competidor que mencionaste antes, ¿en qué te gana?</label>
+        <div class="help">Lista honestamente. Sirve para que el SEO ataque esas brechas (no las ignore).</div>
+        <textarea id="b4_donde_nos_ganan" name="b4_donde_nos_ganan" rows="4" placeholder="Ej.&#10;Servigraf — calculadora online y app móvil&#10;Omega — certificaciones ISO + FSC&#10;Dreampack — relaciones directas con KFC/McDonald's"></textarea>
       </div>
     </div>
 
@@ -646,6 +743,27 @@ function build_email_html($payload, $cliente) {
           <label><input type="radio" name="b5_ejecutivo" value="general"> <span>Todo va por WhatsApp / canal general</span></label>
         </div>
       </div>
+
+      <div class="field">
+        <label class="q">5.4 <strong>¿Qué certificaciones tienen?</strong> ⭐ <span class="help" style="display:inline;color:var(--mut);">(marca todas las que apliquen)</span></label>
+        <div class="help">Las certificaciones se usan como argumentos SEO en posts de autoridad — un cliente busca "proveedor con FSC" o "imprenta ISO 9001". Si no tienen ninguna, también es información valiosa.</div>
+        <div class="options">
+          <label><input type="checkbox" name="b5_certificaciones[]" value="iso_9001"> <span>ISO 9001 (calidad)</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="iso_14001"> <span>ISO 14001 (ambiente)</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="fsc"> <span>FSC (cadena de custodia forestal)</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="bpm"> <span>BPM (Buenas Prácticas de Manufactura)</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="inen"> <span>INEN (cumplimiento etiquetado Ecuador)</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="sri"> <span>Autorizada SRI (factura electrónica)</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="hazardous"> <span>Cumplimiento HACCP / contacto con alimentos</span></label>
+          <label><input type="checkbox" name="b5_certificaciones[]" value="ninguna"> <span>Aún no tenemos certificaciones formales</span></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b5_equipos">5.5 <strong>Equipos clave del taller y capacidad mensual</strong> ⭐</label>
+        <div class="help">Marcas de máquinas y capacidad mensual aprox. Ejemplo: "Xerox Versant 80 — capacidad 100.000 A3/mes". Sirve para posts de autoridad técnica.</div>
+        <textarea id="b5_equipos" name="b5_equipos" rows="5" placeholder="Ej.&#10;Xerox Versant 80 — digital color, 80 ppm, capacidad ~100k A3/mes&#10;Heidelberg Speedmaster — offset, capacidad ~250k pliegos/mes&#10;Roland VersaCAMM — gran formato eco-solvente, 1.6m ancho&#10;Plotter de corte/troquelado&#10;Pantone Color Manager"></textarea>
+      </div>
     </div>
 
     <!-- ============== BLOQUE 6 ============== -->
@@ -656,18 +774,81 @@ function build_email_html($payload, $cliente) {
       </div>
 
       <div class="field">
-        <label class="q" for="b6_meta">6.1 En 12 meses, ¿qué te haría sentir que el SEO valió la pena?</label>
-        <textarea id="b6_meta" name="b6_meta" rows="4" placeholder="Ej. Tener 5 clientes nuevos del tamaño de Carl's Jr. / Aumentar facturación 30%. / Tener pipeline B2B predecible."></textarea>
+        <label class="q" for="b6_meta">6.1 En 12 meses, ¿qué te haría sentir que el SEO valió la pena? (cualitativo)</label>
+        <textarea id="b6_meta" name="b6_meta" rows="3" placeholder="Ej. Tener 5 clientes nuevos del tamaño de Carl's Jr. / Pipeline B2B predecible."></textarea>
+      </div>
+
+      <div class="field" style="background:rgba(201,169,110,0.08);border:1.5px solid rgba(201,169,110,0.3);border-radius:14px;padding:18px;">
+        <label class="q">6.2 <strong>Meta cuantificable a 12 meses</strong> ⭐ <span class="help" style="display:inline;color:var(--mut);">(rellena lo que aplique)</span></label>
+        <div class="help">Define el ROI esperado. Esto nos sirve para calibrar si la inversión del plan SEO se va a pagar.</div>
+        <div style="display:grid;grid-template-columns:1fr 130px;gap:10px;align-items:center;max-width:500px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Clientes nuevos B2B grandes en 12 meses</label>
+          <input type="number" name="b6_meta_clientes" min="0" placeholder="Ej. 5" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Facturación adicional anual (USD)</label>
+          <input type="number" name="b6_meta_facturacion" min="0" placeholder="Ej. 60000" style="padding:8px 10px;">
+          <label class="q" style="font-weight:500;margin:0;font-size:13px;">Leads B2B cualificados / mes</label>
+          <input type="number" name="b6_meta_leads" min="0" placeholder="Ej. 20" style="padding:8px 10px;">
+        </div>
       </div>
 
       <div class="field">
-        <label class="q" for="b6_quitar_competencia">6.2 ¿Hay algún cliente grande del competidor que te encantaría sacar?</label>
-        <textarea id="b6_quitar_competencia" name="b6_quitar_competencia" rows="3" placeholder="Ej. Empresa X — actualmente con Imprenta Mariscal."></textarea>
+        <label class="q" for="b6_quitar_competencia">6.3 ¿Hay algún cliente grande del competidor que te encantaría sacar?</label>
+        <textarea id="b6_quitar_competencia" name="b6_quitar_competencia" rows="3" placeholder="Ej. Empresa X — actualmente con Servigraf / Industrias Omega."></textarea>
       </div>
 
       <div class="field">
-        <label class="q" for="b6_extras">6.3 ¿Algo más que debamos saber antes de armar la propuesta?</label>
+        <label class="q" for="b6_extras">6.4 ¿Algo más que debamos saber antes de armar la propuesta?</label>
         <textarea id="b6_extras" name="b6_extras" rows="4" placeholder="Restricciones, prioridades especiales, observaciones..."></textarea>
+      </div>
+    </div>
+
+    <!-- ============== BLOQUE 7 ============== -->
+    <div class="block">
+      <div class="block-header">
+        <div class="block-num">7</div>
+        <h2>Recursos para producir el SEO</h2>
+      </div>
+      <p class="desc">Para que el plan funcione necesitamos saber qué recursos internos hay disponibles.</p>
+
+      <div class="field">
+        <label class="q" for="b7_aprobador">7.1 ¿Quién revisa y aprueba el contenido antes de publicar?</label>
+        <div class="help">Nombre + cargo. Idealmente UNA persona para no atrasar el ritmo de publicación.</div>
+        <input type="text" id="b7_aprobador" name="b7_aprobador" placeholder="Ej. María González — Gerente de Marketing">
+      </div>
+
+      <div class="field">
+        <label class="q">7.2 ¿Tienen material gráfico disponible? <span class="help" style="display:inline;color:var(--mut);">(marca lo que aplique)</span></label>
+        <div class="options">
+          <label><input type="checkbox" name="b7_material[]" value="fotos_taller"> <span>Fotos profesionales del taller, máquinas e instalaciones</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="fotos_productos"> <span>Fotos de productos terminados (cajas, vibrines, etc.)</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="fotos_proceso"> <span>Fotos del proceso productivo (impresión, corte, acabados)</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="fotos_equipo"> <span>Fotos del equipo humano (operarios, comercial, diseño)</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="video"> <span>Video del taller / institucional</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="logos_clientes"> <span>Logos de clientes (con permiso de uso)</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="manual_marca"> <span>Manual de marca / identidad gráfica formal</span></label>
+          <label><input type="checkbox" name="b7_material[]" value="ninguno"> <span>Aún no tenemos material — Creative Web puede ayudar a producirlo</span></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b7_wp_acceso">7.3 ¿Quién tiene acceso administrador a WordPress de dikapsa.com?</label>
+        <div class="help">Lo necesitamos para instalar GTM, plugins SEO y publicar posts. Si no hay quién, lo coordinamos con tu desarrollador.</div>
+        <input type="text" id="b7_wp_acceso" name="b7_wp_acceso" placeholder="Ej. Juan Pérez — IT Dikapsa / o 'gestionado por agencia externa'">
+      </div>
+
+      <div class="field">
+        <label class="q">7.4 ¿Pueden disponer de 30 minutos al mes para reunión de avances?</label>
+        <div class="options">
+          <label><input type="radio" name="b7_reunion" value="si_mensual"> <span>Sí, una vez al mes</span></label>
+          <label><input type="radio" name="b7_reunion" value="si_bimensual"> <span>Cada 2 meses está bien</span></label>
+          <label><input type="radio" name="b7_reunion" value="solo_emails"> <span>Prefiero reportes por correo, sin reunión</span></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="q" for="b7_redes_externos">7.5 ¿Trabajan con agencia / freelance de redes sociales / publicidad?</label>
+        <div class="help">Para no duplicar esfuerzos y coordinar mensajes (consistencia de marca).</div>
+        <textarea id="b7_redes_externos" name="b7_redes_externos" rows="2" placeholder="Ej. Sí, Agencia X maneja Instagram y Facebook desde 2024."></textarea>
       </div>
     </div>
 
