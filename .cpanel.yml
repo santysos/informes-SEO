@@ -136,6 +136,20 @@ deployment:
     # Permisos Jhosly
     - chmod 755 $BASEPATH/jhosly/proforma-mayo-2026
     - chmod 644 $BASEPATH/jhosly/proforma-mayo-2026/*.php
+    # Crear estructura Dikapsa Cuestionario Estrategico
+    - /bin/mkdir -p $BASEPATH/dikapsa/cuestionario-estrategico/responses
+    - chmod 755 $BASEPATH/dikapsa
+    # Deploy Dikapsa cuestionario
+    - /bin/cp -f dikapsa/cuestionario-estrategico/.htaccess $BASEPATH/dikapsa/cuestionario-estrategico/
+    - /bin/cp -f dikapsa/cuestionario-estrategico/index.php $BASEPATH/dikapsa/cuestionario-estrategico/
+    - /bin/cp -f dikapsa/cuestionario-estrategico/responses/.htaccess $BASEPATH/dikapsa/cuestionario-estrategico/responses/
+    # Permisos Dikapsa
+    - chmod 755 $BASEPATH/dikapsa/cuestionario-estrategico
+    - chmod 644 $BASEPATH/dikapsa/cuestionario-estrategico/*.php
+    - chmod 644 $BASEPATH/dikapsa/cuestionario-estrategico/.htaccess
+    # Carpeta responses DEBE ser escribible por el servidor web (PHP escribe JSON)
+    - chmod 775 $BASEPATH/dikapsa/cuestionario-estrategico/responses
+    - chmod 644 $BASEPATH/dikapsa/cuestionario-estrategico/responses/.htaccess
     # Crear estructura Reina de Otavalo (Media Kit publico — sin login)
     - /bin/mkdir -p $BASEPATH/reina-de-otavalo/media-kit-2026/assets
     - /bin/mkdir -p $BASEPATH/reina-de-otavalo/media-kit-2026/pdf
