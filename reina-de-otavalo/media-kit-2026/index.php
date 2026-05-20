@@ -702,7 +702,7 @@ function pct($n) { return number_format($n, 1, ',', '.'); }
         <h2 class="font-serif text-4xl md:text-5xl font-bold mt-3 leading-tight"><?= $EVENTO ?></h2>
         <hr class="gold-divider">
         <p class="text-ivory/85 mt-4 text-lg leading-relaxed">
-          El momento de mayor visibilidad anual de la organización. Coronación oficial, presentación de candidatas, cobertura de medios locales y nacionales, y celebración cultural con la comunidad.
+          El momento de mayor visibilidad anual de la organización. Elección y coronación, presentación de candidatas, cobertura de medios locales y nacionales, y celebración cultural con la comunidad.
         </p>
       </div>
       <div class="bg-white/10 border border-white/15 rounded-2xl p-7 backdrop-blur-sm">
