@@ -1,0 +1,92 @@
+{
+  "title": "Qué revisar antes de comprar un auto usado: checklist de 20 puntos",
+  "slug": "checklist-revisar-auto-usado-antes-de-comprar",
+  "status": "publish",
+  "date": "2026-04-10T09:00:00",
+  "category_id": 42,
+  "tags": ["checklist auto usado", "revisar auto seminuevo", "inspeccion vehiculo", "comprar usado Ecuador"],
+  "excerpt": "Un checklist práctico de 20 puntos para revisar cualquier auto seminuevo antes de pagar la reserva. Cubre carrocería, motor, transmisión, frenos, documentos y test drive.",
+  "lead": [
+    "La mayoría de las malas compras de autos usados en Ecuador empiezan en el mismo punto: el comprador se enamora del precio, se salta la revisión y firma. Tres meses después aparece el primer ruido, el primer humo blanco o el primer descubrimiento de que la matrícula tiene problemas. Para entonces ya no hay vuelta atrás.",
+    "Este checklist de 20 puntos es exactamente lo que un mecánico profesional revisa cuando lo contratas para verificar un seminuevo. Si lo aplicas tú mismo (o se lo entregas al técnico que te acompañe), vas a detectar el 90 % de los problemas que el comprador promedio no ve. Te tomas 45 minutos y te ahorras miles de dólares."
+  ],
+  "sections": [
+    {
+      "h2": "¿Qué es una inspección pre-compra y por qué importa tanto?",
+      "blocks": [
+        {"type": "p", "text": "Una inspección pre-compra es la revisión sistemática de un vehículo seminuevo antes de pagarlo. No es lo mismo que ver el auto, escuchar el motor en marcha mínima y darle una vuelta a la manzana. Es un proceso ordenado donde se evalúan motor, transmisión, frenos, suspensión, sistema eléctrico, carrocería, interior, documentos y comportamiento en ruta."},
+        {"type": "p", "text": "En los concesionarios formales esta inspección está hecha de fábrica. En OKCars cada vehículo pasa por una verificación de más de 20 puntos antes de salir a la venta. Cuando compras a un particular o a un patio informal, esa inspección la tienes que hacer tú — o pagar entre 30 y 60 dólares a un técnico independiente."}
+      ]
+    },
+    {
+      "h2": "Bloque 1: carrocería y pintura (puntos 1-5)",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Pintura uniforme</strong> en todas las piezas (compara colores con luz natural — un retoque mal hecho se nota)",
+          "<strong>Burletes y sellos</strong> de puertas y maletero íntegros, sin reemplazos ni pegamento visible",
+          "<strong>Holguras entre puertas, capó y guardafangos</strong> simétricas (si una puerta no cierra igual, hubo golpe)",
+          "<strong>Estado del bajo</strong> — abajo del auto no debe haber óxido extenso, golpes ni reparaciones de soldadura sospechosas",
+          "<strong>Vidrios sin grietas ni picaduras</strong> en el campo de visión del conductor"
+        ]}
+      ]
+    },
+    {
+      "h2": "Bloque 2: motor y mecánica (puntos 6-10)",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Nivel y color del aceite</strong> — debe estar entre marcas y color ámbar (negro azabache indica desatención)",
+          "<strong>Nivel del refrigerante</strong> en frío y sin grasa flotando (señal de daño de empaque)",
+          "<strong>Humo del escape</strong> en marcha mínima y al acelerar — blanco persistente (refrigerante en cámara), azul (aceite), negro (consumo excesivo)",
+          "<strong>Fugas visibles</strong> de aceite o refrigerante por motor, caja o diferenciales",
+          "<strong>Ruidos extraños</strong> en marcha mínima: golpeteo metálico (válvulas, biela), silbidos (correa), sopleteo (escape)"
+        ]}
+      ]
+    },
+    {
+      "h2": "Bloque 3: transmisión, frenos y suspensión (puntos 11-15)",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Transmisión automática:</strong> cambios suaves sin tirones, sin demoras al acoplar (caja en mal estado puede costar lo mismo que medio auto)",
+          "<strong>Transmisión manual (si aplica):</strong> embrague que no patine al subir cuesta en alta marcha, palanca firme y precisa",
+          "<strong>Pastillas y discos de freno</strong> con suficiente material y sin estrías profundas — frenadas firmes sin vibración",
+          "<strong>Suspensión:</strong> rebote único al presionar fuerte cada esquina del auto (más de uno = amortiguadores vencidos)",
+          "<strong>Dirección:</strong> sin holguras, sin ruidos al girar a tope, asistencia eléctrica o hidráulica respondiendo bien"
+        ]}
+      ]
+    },
+    {
+      "h2": "Bloque 4: interior, eléctrico y test drive (puntos 16-20)",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Tablero sin testigos encendidos</strong> al arrancar (especialmente check engine, ABS, airbag, batería)",
+          "<strong>Aire acondicionado y calefacción funcionando</strong> en todas las modalidades (frío real, no solo ventilador)",
+          "<strong>Vidrios eléctricos, cerraduras y elevalunas</strong> todos operativos desde el control del conductor",
+          "<strong>Test drive en condiciones reales:</strong> subir cuesta, frenar fuerte, acelerar a fondo, girar en cerrado, ir a velocidad de autopista",
+          "<strong>Escaneo electrónico OBD2</strong> en un taller — revela códigos de error que pudieron haberse borrado para la venta"
+        ]}
+      ]
+    },
+    {
+      "h2": "Bonus: tabla resumen para llevar el día de la revisión",
+      "blocks": [
+        {"type": "table", "headers": ["Punto", "Qué revisar", "Bandera roja"], "rows": [
+          ["1-5", "Carrocería", "Diferencias de pintura, holguras irregulares, óxido en chasis"],
+          ["6-10", "Motor", "Humo de cualquier color, fugas, aceite negro o sucio, ruidos metálicos"],
+          ["11-12", "Transmisión", "Tirones, demora al cambiar, embrague que patina"],
+          ["13-15", "Frenos y suspensión", "Vibración al frenar, rebote múltiple, ruidos al girar"],
+          ["16-18", "Interior y eléctrico", "Testigos encendidos, A/C que no enfría, vidrios trabados"],
+          ["19", "Test drive real", "Cualquier comportamiento extraño en velocidad o frenada"],
+          ["20", "Escáner OBD2", "Códigos de error activos o pendientes"]
+        ]}
+      ]
+    }
+  ],
+  "conclusion": "Aplicar este checklist te toma 45 minutos. Si encuentras dos o tres banderas rojas, negocia el precio o sigue buscando. Si encuentras cinco o más, vete sin mirar atrás. Comprar un usado es una decisión de varios miles de dólares; merece el tiempo de hacerlo bien.",
+  "faq": [
+    ["¿Necesito ser mecánico para aplicar este checklist?", "No. Los 20 puntos están pensados para que cualquier comprador con sentido común pueda evaluarlos. Para confirmar lo que veas, lo ideal es pedir un escaneo OBD2 (paso 20) en cualquier taller por 20-40 dólares."],
+    ["¿Cuánto cuesta una inspección profesional pre-compra en Ecuador?", "Entre 30 y 60 dólares según el taller. Es uno de los mejores gastos que puedes hacer antes de comprar un auto usado: te ahorra el riesgo de una reparación de varios miles."],
+    ["¿Si el vendedor no permite la inspección, qué hago?", "Camina. Un vendedor honesto entiende que quieras verificar el auto. Quien se niega a una inspección independiente tiene algo que ocultar el 90 % de las veces."],
+    ["¿Cómo sé si un auto tuvo un choque grave reparado?", "Revisa holguras irregulares entre piezas, diferencias de pintura, soldaduras visibles en chasis o columnas, y burletes pegados con silicón. Un auto bien reparado se nota; uno reparado a mano, también."],
+    ["¿En un concesionario formal también debo aplicar el checklist?", "Sí, aunque el concesionario ya haya hecho su inspección, una revisión propia te da seguridad adicional. En OKCars cada auto ya pasó por más de 20 puntos de verificación, pero estás en tu derecho de validarlo."]
+  ]
+}

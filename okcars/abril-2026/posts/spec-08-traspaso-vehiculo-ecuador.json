@@ -1,0 +1,90 @@
+{
+  "title": "Traspaso de vehículo en Ecuador 2026: requisitos, costos y pasos",
+  "slug": "traspaso-vehiculo-ecuador-requisitos-pasos",
+  "status": "publish",
+  "date": "2026-04-22T09:00:00",
+  "category_id": 45,
+  "tags": ["traspaso vehiculo Ecuador", "ANT tramites", "matricula auto usado", "cambio de dueño vehicular"],
+  "excerpt": "Guía paso a paso del traspaso de vehículo en Ecuador en 2026: documentos, costos referenciales, dónde hacerlo y errores que retrasan el trámite hasta semanas.",
+  "lead": [
+    "El traspaso es el trámite que pone el auto a tu nombre legalmente. Sin traspaso eres dueño del auto pero no constas en la matrícula — y eso te impide asegurarlo correctamente, venderlo en el futuro, ejercer derechos sobre él y, en algunos casos, hasta usarlo sin riesgo de problemas en un control de tránsito.",
+    "En este artículo vas a tener el mapa completo del traspaso de vehículo en Ecuador en 2026: qué documentos pedir al vendedor antes de pagarle, qué pasos seguir, cuánto cuesta cada parte del trámite y los errores que paralizan el proceso durante semanas. Esta es información que en los concesionarios formales se hace por ti, pero entender el flujo igual te conviene."
+  ],
+  "sections": [
+    {
+      "h2": "¿Qué es el traspaso de vehículo en Ecuador?",
+      "blocks": [
+        {"type": "p", "text": "El traspaso vehicular es el cambio de titularidad de un vehículo de una persona a otra ante la Agencia Nacional de Tránsito (ANT) y el Servicio de Rentas Internas (SRI). Es lo que convierte oficialmente la propiedad del comprador en propiedad registrada. En Ecuador este trámite es obligatorio cada vez que un auto cambia de dueño y debe hacerse en un plazo razonable después de la compraventa."},
+        {"type": "p", "text": "Es importante diferenciar tres documentos que la gente suele confundir: la <strong>compraventa</strong> (contrato firmado entre vendedor y comprador), la <strong>matrícula</strong> (documento que acredita la propiedad y autoriza la circulación) y el <strong>traspaso</strong> (acto administrativo que modifica el titular en la base ANT). Los tres son distintos y los necesitas todos para que el auto sea legalmente tuyo."}
+      ]
+    },
+    {
+      "h2": "Documentos que debes pedir al vendedor antes de pagar",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Matrícula original al día</strong> (no caducada ni en proceso de caducidad)",
+          "<strong>Cédula del vendedor</strong> (original y copia)",
+          "<strong>Certificado de no adeudo de multas</strong> emitido por la ANT (verifica que no haya infracciones pendientes)",
+          "<strong>Certificado de gravámenes</strong> (que el auto no tenga prendas industriales vigentes a favor de bancos o terceros)",
+          "<strong>RTV vigente</strong> (revisión técnica vehicular cuando aplique para la ciudad y tipo de auto)",
+          "<strong>SOAT u otro seguro obligatorio</strong> al día",
+          "<strong>Pago del impuesto a la propiedad vehicular</strong> del año en curso (SRI)"
+        ]},
+        {"type": "p", "text": "Si alguno de estos documentos no está, no firmes la compraventa hasta que se regularice. Pagar primero y resolver después casi siempre termina costando más caro."}
+      ]
+    },
+    {
+      "h2": "Pasos del trámite de traspaso (2026)",
+      "blocks": [
+        {"type": "h3", "text": "Paso 1: contrato de compraventa"},
+        {"type": "p", "text": "Documento firmado entre vendedor y comprador con datos del vehículo, precio acordado, condiciones y firmas. Algunos cantones exigen reconocimiento de firmas ante notario o juez de paz. Conserva siempre el original."},
+        {"type": "h3", "text": "Paso 2: pago de impuestos en el SRI"},
+        {"type": "p", "text": "Si el impuesto a la propiedad vehicular del año en curso no está pagado por el vendedor, se debe regularizar antes del traspaso. El SRI no autoriza traspaso con impuestos pendientes."},
+        {"type": "h3", "text": "Paso 3: solicitud de traspaso en la ANT"},
+        {"type": "p", "text": "Con todos los documentos en mano, se presenta la solicitud en la agencia de la ANT correspondiente al cantón. Hoy gran parte del trámite es digital y se inicia desde el portal web; sin embargo, hay etapas que aún requieren presencia física para validar identidades y firmas."},
+        {"type": "h3", "text": "Paso 4: pago de tasas y emisión de la matrícula a tu nombre"},
+        {"type": "p", "text": "Una vez aprobado el traspaso, pagas las tasas correspondientes y la ANT emite la matrícula con tu nombre como nuevo propietario. Ese documento es el que confirma legalmente la propiedad."}
+      ]
+    },
+    {
+      "h2": "Costos referenciales del traspaso en 2026",
+      "blocks": [
+        {"type": "table", "headers": ["Concepto", "Costo referencial", "Quién paga"], "rows": [
+          ["Compraventa con reconocimiento de firmas (notaría)", "20 - 40 USD", "Comprador (negociable)"],
+          ["Certificado de gravámenes", "5 - 10 USD", "Comprador"],
+          ["Certificado de no adeudo (multas ANT)", "Variable", "Vendedor (regulariza antes)"],
+          ["Impuestos del año en curso", "Según avalúo", "Vendedor antes del traspaso"],
+          ["Tasa de traspaso ANT", "30 - 50 USD aprox.", "Comprador"],
+          ["Emisión de nueva matrícula", "Variable según cantón", "Comprador"]
+        ]},
+        {"type": "p", "text": "Los valores son referenciales y pueden cambiar entre cantones. Confírmalos en la agencia ANT de tu zona o pídele al concesionario formal que te indique el monto exacto antes de iniciar."}
+      ]
+    },
+    {
+      "h2": "Errores que retrasan o paralizan el traspaso",
+      "blocks": [
+        {"type": "ul", "items": [
+          "<strong>Comprar con multas pendientes:</strong> el sistema bloquea el traspaso hasta cancelarlas",
+          "<strong>Auto con prenda vigente:</strong> hasta levantar la prenda en el banco no es posible traspasar",
+          "<strong>RTV caducada:</strong> en ciudades donde aplica, sin RTV vigente el traspaso queda en pausa",
+          "<strong>Vendedor que no firma la compraventa:</strong> sin firma de cesión de derechos, la ANT no procesa el cambio",
+          "<strong>Datos del auto que no coinciden con la matrícula:</strong> chasis, motor, color o tipo modificados sin actualización legal"
+        ]}
+      ]
+    },
+    {
+      "h2": "¿En cuánto tiempo queda listo?",
+      "blocks": [
+        {"type": "p", "text": "Cuando toda la documentación está en regla, el traspaso ANT suele completarse entre 3 y 10 días hábiles. Si hay observaciones, el plazo puede extenderse a 2 o 3 semanas. En un concesionario formal, parte de la gestión la hace el equipo del concesionario y eso acelera tiempos. Comprando a un particular, los tiempos dependen completamente de la disponibilidad del vendedor para acompañar el proceso."}
+      ]
+    }
+  ],
+  "conclusion": "El traspaso vehicular en Ecuador no es complicado si toda la documentación está en orden antes de firmar. La regla de oro es simple: revisa todos los documentos del vendedor antes de pagar. Cuando compras en un concesionario formal, gran parte del trámite la asume el equipo y tú firmas al final con la matrícula ya emitida a tu nombre.",
+  "faq": [
+    ["¿Cuánto demora el traspaso de un vehículo en Ecuador?", "Entre 3 y 10 días hábiles si toda la documentación está al día. Si hay multas pendientes, prenda vigente o RTV caducada, puede extenderse a 2-3 semanas."],
+    ["¿Quién paga el traspaso de vehículo?", "La práctica más común en Ecuador es que el comprador asuma los costos del traspaso. Las tasas, certificados y emisión de matrícula nueva corren por su cuenta. Es negociable y conviene definirlo en el contrato de compraventa."],
+    ["¿Puedo manejar el auto antes de tener el traspaso listo?", "Técnicamente sí, mientras la matrícula esté al día y portes la compraventa firmada. Pero conviene completar el traspaso lo antes posible para evitar problemas con seguros y futuras infracciones que queden a nombre del propietario anterior."],
+    ["¿Qué pasa si el vendedor desaparece antes del traspaso?", "Esa es la peor pesadilla del comprador a particular. Si tienes la compraventa firmada con todos los datos, puedes intentar gestionar el traspaso por la vía administrativa, pero en muchos casos termina requiriendo intervención judicial. En un concesionario formal, esto no ocurre."],
+    ["¿OKCars hace el traspaso por mí?", "Sí. Al comprar un seminuevo en OKCars, el equipo se encarga de la verificación documental previa, gestión de certificados y acompañamiento del traspaso ante la ANT. Tú firmas y recoges tu nueva matrícula sin pelearte con ventanillas."]
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "title": "Seguro vehicular para autos usados en Ecuador: cuánto cuesta y qué cubre",
+  "slug": "seguro-vehicular-autos-usados-ecuador",
+  "status": "publish",
+  "date": "2026-05-19T09:00:00",
+  "category_id": 44,
+  "tags": ["seguro auto usado", "seguro vehicular Ecuador", "costo seguro contra todo riesgo", "poliza vehiculo"],
+  "excerpt": "Qué tipos de seguro existen para autos usados en Ecuador, cuánto cuestan referencialmente en 2026, qué cubre cada uno y cómo elegir la póliza correcta para tu vehículo.",
+  "lead": [
+    "El seguro vehicular es uno de esos gastos que se ven como innecesarios — hasta el día que se necesitan. Choque sin culpa contra alguien sin seguro, robo del vehículo, daños a terceros graves: cualquiera de esos eventos sin póliza puede costar entre 5.000 y 30.000 dólares de tu bolsillo. Por eso, aunque sea un costo anual molesto, contar con un seguro adecuado es parte real del costo de tener un auto en Ecuador.",
+    "Esta guía cubre todo lo que necesitas saber sobre seguros para autos usados en 2026: qué tipos de cobertura existen, cuánto cuesta cada una referencialmente, qué cubre realmente la letra pequeña y cómo elegir la póliza correcta según tu vehículo y tu uso. No vendemos seguros — solo te damos el mapa para decidir bien."
+  ],
+  "sections": [
+    {
+      "h2": "¿Qué tipos de seguro vehicular hay en Ecuador?",
+      "blocks": [
+        {"type": "p", "text": "En Ecuador existen tres niveles principales de cobertura para vehículos, más un seguro obligatorio. Cada uno cubre cosas distintas y tiene un costo proporcional al nivel de protección."},
+        {"type": "ol", "items": [
+          "<strong>SOAT (Seguro Obligatorio de Accidentes de Tránsito):</strong> incluido en la matrícula. Cubre daños corporales a terceros (no a ti ni al auto). Es obligatorio para circular.",
+          "<strong>Responsabilidad Civil (RC):</strong> cubre daños que tú causes a terceros (autos, propiedades, personas). No cubre tu propio auto.",
+          "<strong>Cobertura intermedia o ampliada:</strong> RC + algunas coberturas específicas como robo total o pérdida total. No cubre choques con culpa propia.",
+          "<strong>Cobertura amplia o «contra todo riesgo»:</strong> la más completa. Cubre tu auto en casi cualquier evento (choque con culpa, robo, daños menores, pérdida total)."
+        ]}
+      ]
+    },
+    {
+      "h2": "¿Qué cubre realmente «contra todo riesgo»?",
+      "blocks": [
+        {"type": "p", "text": "El nombre suena absoluto pero ninguna póliza cubre absolutamente todo. La cobertura amplia típica en Ecuador incluye:"},
+        {"type": "ul", "items": [
+          "<strong>Daños a tu vehículo</strong> por choque, sea con culpa o sin culpa",
+          "<strong>Robo total del vehículo</strong>",
+          "<strong>Pérdida total</strong> (accidente donde la reparación supera el valor del auto)",
+          "<strong>Daños a terceros</strong> (propiedades, otros vehículos, personas) hasta el límite de cobertura",
+          "<strong>Defensa legal</strong> en caso de demanda por accidente",
+          "<strong>Auto sustituto</strong> mientras dura una reparación (en algunas pólizas)",
+          "<strong>Asistencia en carretera</strong> (grúa, mecánico de urgencia)"
+        ]},
+        {"type": "p", "text": "Lo que típicamente NO cubre: desgaste normal, mantenimiento, daños por mal uso intencional, uso para taxi/Uber sin declarar, conductor bajo efecto del alcohol o sustancias, daños mecánicos por defecto del propio auto."}
+      ]
+    },
+    {
+      "h2": "Cuánto cuesta un seguro de auto usado en 2026 (referencial)",
+      "blocks": [
+        {"type": "p", "text": "El costo anual de un seguro contra todo riesgo en Ecuador depende de varios factores: valor del auto, edad del vehículo, edad del conductor, uso (privado vs comercial), historial de siniestros y aseguradora. Como referencia general en 2026:"},
+        {"type": "table", "headers": ["Valor del auto", "Cobertura amplia anual aprox.", "Cobertura intermedia anual aprox."], "rows": [
+          ["8.000 - 12.000 USD", "350 - 600 USD", "180 - 300 USD"],
+          ["12.000 - 18.000 USD", "500 - 850 USD", "250 - 400 USD"],
+          ["18.000 - 25.000 USD", "750 - 1.200 USD", "350 - 550 USD"],
+          ["25.000 - 35.000 USD", "1.000 - 1.600 USD", "450 - 700 USD"]
+        ]},
+        {"type": "p", "text": "Las cifras son referenciales y dependen del perfil del asegurado. Confírmalas con cotizaciones específicas. Un buen ejercicio: pedir cotización a 3 aseguradoras distintas para el mismo auto y comparar."}
+      ]
+    },
+    {
+      "h2": "¿Cuándo conviene seguro amplio y cuándo intermedio?",
+      "blocks": [
+        {"type": "h3", "text": "Conviene cobertura amplia si"},
+        {"type": "ul", "items": [
+          "Tu auto vale más de 12.000 USD",
+          "Está financiado (el banco generalmente lo exige)",
+          "Vives o circulas en zonas con incidencia de robos",
+          "Manejas mucho en autopista o trabajas con el vehículo",
+          "Quieres dormir tranquilo a cambio de una cuota mensual razonable"
+        ]},
+        {"type": "h3", "text": "Conviene cobertura intermedia o solo RC si"},
+        {"type": "ul", "items": [
+          "Tu auto vale menos de 8.000 USD (la prima amplia sería desproporcionada)",
+          "Manejas muy poco al año (menos de 8.000 km)",
+          "Tienes un perfil de riesgo bajo y vives en zonas seguras",
+          "El auto no está financiado y prefieres ahorrar en seguros para usar en mantenimiento"
+        ]}
+      ]
+    },
+    {
+      "h2": "Errores típicos al contratar seguros",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>No leer las exclusiones.</strong> Las cosas que NO cubre el seguro son tan importantes como las que cubre.",
+          "<strong>Subdeclarar el valor del auto.</strong> Pagas menos en la prima pero en caso de pérdida total te indemnizan por el valor declarado (no por el real).",
+          "<strong>No declarar uso comercial.</strong> Si usas el auto en Uber o Indrive sin declarar y choca trabajando, la aseguradora puede negar el reclamo.",
+          "<strong>Comprar la primera póliza que te ofrecen.</strong> Compara mínimo 3 aseguradoras: las diferencias pueden ser 300-500 USD anuales por la misma cobertura.",
+          "<strong>Olvidar renovar.</strong> Una sola hora sin cobertura puede convertirse en miles de dólares si justo ese día pasa algo."
+        ]}
+      ]
+    },
+    {
+      "h2": "Si tu seminuevo está financiado: el seguro casi siempre es obligatorio",
+      "blocks": [
+        {"type": "p", "text": "Casi todos los bancos en Ecuador exigen cobertura amplia mientras dure el crédito automotor. Razón: el auto es la garantía del crédito y el banco quiere asegurarse de que esté protegido. Algunos concesionarios con crédito directo también lo exigen."},
+        {"type": "p", "text": "Conviene que averigües, antes de elegir la aseguradora, si tu banco o concesionario tiene convenios especiales que reduzcan el costo. Muchas veces el seguro a través del convenio sale 15-25 % más barato que contratado por separado."}
+      ]
+    }
+  ],
+  "conclusion": "El seguro vehicular es uno de los gastos menos atractivos del año pero también uno de los más estratégicos. Para autos sobre 12.000 USD, la cobertura amplia casi siempre justifica su costo. Para autos económicos, una cobertura intermedia o de responsabilidad civil puede ser suficiente. Lo importante es no circular sin nada — eso es jugarse miles de dólares al azar.",
+  "faq": [
+    ["¿Es obligatorio tener seguro contra todo riesgo en Ecuador?", "No. El único seguro obligatorio para circular es el SOAT, incluido en la matrícula. El seguro contra todo riesgo es voluntario, salvo que el banco lo exija durante el periodo del crédito automotor."],
+    ["¿Cuánto cuesta un seguro contra todo riesgo para un auto de 15.000 USD?", "Como referencia en 2026, una prima anual amplia para un auto de 15.000 USD está entre 500 y 850 USD aproximadamente, dependiendo de la aseguradora, edad del conductor, uso del vehículo y zona de circulación."],
+    ["¿Qué hace que mi seguro sea más caro?", "Edad del conductor (menores de 25 pagan más), historial de siniestros previos, uso comercial declarado, zona de circulación de alto riesgo, valor del vehículo y antigüedad (autos muy viejos a veces no se aseguran amplio)."],
+    ["¿El seguro cubre si choco mientras manejaba mi amigo?", "Generalmente sí, siempre que conduzca con licencia vigente y no esté excluido en la póliza. Algunas pólizas tienen restricciones de edad o de conductores declarados — revisa la letra pequeña."],
+    ["¿OKCars tiene convenio con alguna aseguradora?", "Sí. OKCars trabaja con aseguradoras del grupo Comercial Hidrobo y otros aliados para ofrecer condiciones preferenciales a sus clientes. Pregunta a tu asesor por las opciones disponibles al momento de comprar tu seminuevo."]
+  ]
+}

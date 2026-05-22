@@ -1,0 +1,99 @@
+{
+  "title": "Cuánto cuesta realmente mantener un auto usado al año en Ecuador",
+  "slug": "cuanto-cuesta-mantener-auto-usado-ecuador",
+  "status": "publish",
+  "date": "2026-04-25T09:00:00",
+  "category_id": 42,
+  "tags": ["mantener auto Ecuador", "costo mantenimiento auto", "presupuesto auto usado", "gastos auto al año"],
+  "excerpt": "Costo real anual de tener un auto usado en Ecuador: combustible, mantenimiento, seguros, matrícula, RTV y depreciación. Cifras referenciales 2026 con tabla por categoría.",
+  "lead": [
+    "La cuota mensual del crédito no es lo único que pagas por tener un auto. Combustible, mantenimiento, seguros, matrícula, RTV, parqueaderos, peajes y mil pequeños gastos suman al final del año una cifra que sorprende a la mayoría de compradores primerizos. Si no haces el ejercicio antes de comprar, te das cuenta a mitad de año que el auto que «podías permitirte» es más caro de lo que pensabas.",
+    "Este artículo es una proyección honesta y referencial de cuánto cuesta tener un auto usado al año en Ecuador en 2026, desglosado por categoría de vehículo. Los valores son referenciales y dependen de tu uso, ciudad y modelo, pero te van a dar un orden de magnitud realista para planificar."
+  ],
+  "sections": [
+    {
+      "h2": "¿Qué incluye el costo real de tener un auto?",
+      "blocks": [
+        {"type": "p", "text": "El costo total de tener un auto se divide en costos fijos (no dependen de cuánto manejes) y costos variables (suben con cada kilómetro). Si solo presupuestas el combustible y el aceite, vas a quedarte corto al cierre del año. La lista completa es esta:"},
+        {"type": "ul", "items": [
+          "<strong>Fijos:</strong> matrícula anual, impuesto a la propiedad (SRI), SOAT, seguro contra todo riesgo (opcional pero recomendado), RTV donde aplique",
+          "<strong>Variables:</strong> combustible, aceite y filtros, llantas, frenos, batería, mantenimientos preventivos, parqueaderos, peajes, lavados",
+          "<strong>Imprevistos:</strong> reparaciones no programadas, repuestos por desgaste mayor, choques menores"
+        ]}
+      ]
+    },
+    {
+      "h2": "Combustible: el gasto más grande del año",
+      "blocks": [
+        {"type": "p", "text": "Con el ajuste del precio del combustible en los últimos años, este es el rubro que más pesa en el presupuesto anual. Como referencia para uso urbano-mixto de 15.000 km al año:"},
+        {"type": "table", "headers": ["Categoría", "Consumo aprox. (km/galón)", "Costo anual referencial"], "rows": [
+          ["Sedán económico (Sail, Rio, Accent)", "13-16", "1.800 - 2.200 USD"],
+          ["SUV compacto (Seltos, Vitara, Tracker)", "11-14", "2.100 - 2.600 USD"],
+          ["SUV mediano (Tucson, CX-5, Sportage)", "9-12", "2.400 - 3.000 USD"],
+          ["Pickup (Hilux, D-Max — diésel)", "12-16", "1.900 - 2.500 USD"]
+        ]},
+        {"type": "p", "text": "Valores estimados con precio promedio 2026. Si manejas más de 20.000 km al año, escala proporcionalmente."}
+      ]
+    },
+    {
+      "h2": "Mantenimiento preventivo: lo que ahorra problemas",
+      "blocks": [
+        {"type": "p", "text": "Cumplir el mantenimiento preventivo del fabricante (cada 5.000 o 10.000 km, según el modelo) te evita la mayoría de las averías mayores. Costo referencial anual para uso normal:"},
+        {"type": "ul", "items": [
+          "<strong>Cambios de aceite y filtros:</strong> 80 - 150 USD por cambio (2-3 veces al año)",
+          "<strong>Pastillas de freno:</strong> 60 - 120 USD por eje (cambio cada 30.000-40.000 km)",
+          "<strong>Llantas:</strong> 400 - 800 USD el juego (cambio cada 40.000-60.000 km)",
+          "<strong>Batería:</strong> 100 - 180 USD (cambio cada 3-4 años)",
+          "<strong>Mantenimientos mayores:</strong> 200 - 500 USD anuales en promedio (correa, refrigerante, bujías, etc.)"
+        ]},
+        {"type": "p", "text": "Total estimado de mantenimiento preventivo bien hecho: <strong>entre 800 y 1.400 USD al año</strong>, dependiendo del uso y del modelo."}
+      ]
+    },
+    {
+      "h2": "Seguros, matrícula y trámites",
+      "blocks": [
+        {"type": "table", "headers": ["Concepto", "Costo anual referencial"], "rows": [
+          ["SOAT (obligatorio)", "Incluido en matrícula"],
+          ["Matrícula vehicular anual", "30 - 100 USD según avalúo y cantón"],
+          ["Impuesto a la propiedad (SRI)", "0,5 - 1,5 % del avalúo aprox."],
+          ["RTV (donde aplica)", "20 - 50 USD"],
+          ["Seguro contra todo riesgo (opcional)", "600 - 1.200 USD según valor del auto"]
+        ]},
+        {"type": "p", "text": "Si el auto está financiado, el seguro contra todo riesgo casi siempre es obligatorio durante el plazo del crédito. Algunos bancos exigen renovación anual demostrada."}
+      ]
+    },
+    {
+      "h2": "Total estimado por categoría de auto (15.000 km/año)",
+      "blocks": [
+        {"type": "table", "headers": ["Categoría", "Costo total anual estimado"], "rows": [
+          ["Sedán económico", "3.500 - 4.500 USD/año"],
+          ["SUV compacto", "4.000 - 5.500 USD/año"],
+          ["SUV mediano", "4.500 - 6.500 USD/año"],
+          ["Pickup mediana", "4.500 - 6.000 USD/año"]
+        ]},
+        {"type": "p", "text": "Es decir: tener un auto usado en Ecuador en 2026 cuesta entre <strong>290 y 540 dólares al mes</strong> de promedio, sin contar la cuota del crédito si lo financiaste. Esa cifra es la que te conviene comparar contra alternativas como Uber, taxi o transporte propio."}
+      ]
+    },
+    {
+      "h2": "Cómo reducir el costo anual sin sacrificar seguridad",
+      "blocks": [
+        {"type": "ol", "items": [
+          "Mantenimiento preventivo religiosamente al día — siempre sale más barato que arreglar después",
+          "Llantas de marca media-alta (las baratas duran menos y consumen más combustible)",
+          "Estilo de manejo conservador — acelerar y frenar suave reduce consumo y desgaste",
+          "Comprar repuestos originales o de marca reconocida para piezas críticas; alternativos solo para no estructurales",
+          "Lavar y proteger pintura — alarga vida del auto y mantiene valor de reventa",
+          "Comparar pólizas de seguro cada renovación; las diferencias entre aseguradoras pueden ser de cientos de dólares"
+        ]}
+      ]
+    }
+  ],
+  "conclusion": "Tener un auto en Ecuador en 2026 cuesta entre 3.500 y 6.500 dólares al año según la categoría, sin contar la cuota del crédito. Si presupuestas estos rubros antes de comprar, eliges un auto sostenible para tu economía y evitas la trampa típica del comprador primerizo: poder comprar el auto pero no poder mantenerlo bien.",
+  "faq": [
+    ["¿Cuánto se gasta en combustible al mes en Ecuador con un auto usado?", "Para uso urbano-mixto de 1.200 a 1.500 km al mes, el gasto referencial está entre 150 y 250 USD mensuales según la categoría del vehículo. SUV medianos y pickups grandes pueden subir a 280-320 USD."],
+    ["¿Conviene contratar seguro contra todo riesgo para un auto usado?", "Para autos con valor sobre 12.000 USD, conviene casi siempre. Bajo ese valor, depende del perfil de riesgo del conductor y del uso. Si el auto está financiado, generalmente el banco lo exige durante el plazo del crédito."],
+    ["¿Es más barato mantener un sedán o un SUV usado?", "Sí, un sedán económico cuesta entre 800 y 1.500 USD menos al año que un SUV mediano. La diferencia viene principalmente del consumo de combustible y del costo de llantas y frenos."],
+    ["¿Qué es lo que más se descompone en un auto usado en Ecuador?", "Las piezas de desgaste normal: pastillas y discos de freno, batería, amortiguadores y embrague (en mecánicos). Estas se renuevan en mantenimientos preventivos. Las averías mayores (motor, caja) son menos frecuentes en autos bien mantenidos."],
+    ["¿OKCars ofrece soporte de mantenimiento después de la compra?", "Sí. OKCars tiene acceso a la red de talleres y servicios de Comercial Hidrobo, lo que facilita el mantenimiento del auto comprado y eventuales reparaciones bajo garantía."]
+  ]
+}

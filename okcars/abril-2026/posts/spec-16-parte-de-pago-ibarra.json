@@ -1,0 +1,91 @@
+{
+  "title": "Vende tu auto o entrégalo como parte de pago en Ibarra",
+  "slug": "vender-auto-parte-de-pago-ibarra",
+  "status": "publish",
+  "date": "2026-05-16T09:00:00",
+  "category_id": 46,
+  "tags": ["vender auto Ibarra", "parte de pago vehiculo", "trade in auto Ecuador", "tasacion auto usado"],
+  "excerpt": "Cómo entregar tu auto actual como parte de pago en Ibarra de forma rápida y al mejor precio: tasación, papeleo, ventajas vs venderlo por tu cuenta y cómo prepararlo.",
+  "lead": [
+    "Cambiar de auto en Ecuador casi siempre involucra una decisión clave: ¿qué hago con el que tengo ahora? Las dos opciones reales son venderlo por tu cuenta (más dinero pero más tiempo y riesgo) o entregarlo como parte de pago en el concesionario donde compras el nuevo (menos plata pero todo resuelto en un día). Ninguna es mala — depende de tu perfil y de cuánto valoras tu tiempo.",
+    "Este artículo es la guía para quien está pensando entregar su auto como parte de pago en Ibarra: cómo funciona la tasación, qué valor real puedes esperar, cómo preparar el auto para que te paguen lo más posible, cuándo sí conviene y cuándo es mejor venderlo aparte. Información práctica para no dejar dinero en la mesa."
+  ],
+  "sections": [
+    {
+      "h2": "¿Qué es entregar el auto como parte de pago?",
+      "blocks": [
+        {"type": "p", "text": "Parte de pago (también conocido como trade-in) es cuando el concesionario evalúa tu auto actual, le pone un valor de adquisición y ese monto se descuenta directamente del precio del auto que vas a comprar. Tú firmas dos documentos en el mismo día: la cesión de tu auto al concesionario y la compra del nuevo. El cambio se cierra en una sola operación."},
+        {"type": "p", "text": "En Ecuador esta modalidad es muy común en concesionarios formales. <a href=\"https://okcars.ec/vehiculos-okcars/\">OKCars</a>, por ejemplo, recibe vehículos como parte de pago al comprar un seminuevo de su inventario o, en algunos casos, directamente para sumar al stock. La tasación es presencial y normalmente toma menos de una hora."}
+      ]
+    },
+    {
+      "h2": "Cómo funciona la tasación: qué evalúan exactamente",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Marca, modelo y año:</strong> referencia de valor base en el mercado actual",
+          "<strong>Kilometraje:</strong> ajuste sobre el valor base según uso real",
+          "<strong>Estado de carrocería y pintura:</strong> golpes, rayones, retoques",
+          "<strong>Estado mecánico:</strong> motor, transmisión, frenos, suspensión",
+          "<strong>Estado interior:</strong> tapicería, electrónicos, aire acondicionado",
+          "<strong>Documentación:</strong> matrícula al día, sin multas pendientes, sin prenda vigente",
+          "<strong>Demanda actual del modelo:</strong> qué tan rápido se reventa en el mercado"
+        ]}
+      ]
+    },
+    {
+      "h2": "Cuánto vale realmente tu auto en parte de pago",
+      "blocks": [
+        {"type": "p", "text": "Como regla general en Ecuador, el valor de parte de pago de un concesionario formal está entre el 80 % y el 90 % del precio al que el concesionario lo revendería al público. Esa diferencia (10-20 %) es el margen del concesionario por hacerse cargo de la verificación, garantía, exhibición, traspaso y financiamiento del próximo comprador."},
+        {"type": "p", "text": "Comparado con venderlo a un particular, el valor puede ser entre 5 % y 12 % menor. Pero comparado con venderlo a un patio informal o intermediario, suele ser similar o mejor. La verdadera diferencia es el tiempo: vender a particular puede tomar 1-3 meses; parte de pago se cierra en un día."}
+      ]
+    },
+    {
+      "h2": "Parte de pago vs venta directa: comparativa honesta",
+      "blocks": [
+        {"type": "table", "headers": ["Variable", "Parte de pago", "Venta directa a particular"], "rows": [
+          ["Precio obtenido", "80-90% del valor de mercado", "95-100% del valor de mercado"],
+          ["Tiempo de gestión", "1 día", "1-3 meses"],
+          ["Riesgo de fraude", "Cero", "Medio (vendedores informales)"],
+          ["Papeleo del traspaso", "Lo hace el concesionario", "Tú lo gestionas"],
+          ["Tiempo invertido en mostrar el auto", "Cero", "Múltiples citas y test drives"],
+          ["Solución directa para próxima compra", "Sí (combinada)", "No, primero vendes, luego compras"]
+        ]}
+      ]
+    },
+    {
+      "h2": "Cómo preparar tu auto para una mejor tasación",
+      "blocks": [
+        {"type": "ol", "items": [
+          "<strong>Hazle un lavado y pulida completos.</strong> Un auto presentable se tasa mejor (diferencia real de 200-400 USD).",
+          "<strong>Reúne todo el historial de mantenimiento.</strong> Facturas y bitácora suben el valor.",
+          "<strong>Pon al día todos los documentos.</strong> Matrícula, RTV, SOAT, pago del impuesto SRI.",
+          "<strong>Resuelve multas pendientes antes de presentarlo.</strong> Multas no pagadas restan directamente del valor de tasación.",
+          "<strong>Cambia partes cosméticas baratas:</strong> luz quemada, parabrisas con piedra, espejo lateral roto. Inversiones de 30-80 USD pueden subir la tasación 200-300 USD.",
+          "<strong>No hagas reparaciones mecánicas mayores:</strong> el concesionario las hará a costo propio. Hacerlas tú casi nunca se recupera."
+        ]}
+      ]
+    },
+    {
+      "h2": "Qué pasa después de entregar el auto",
+      "blocks": [
+        {"type": "p", "text": "Una vez aceptada la tasación, se firma la cesión a favor del concesionario y se entregan llaves, matrícula y documentos. El equipo del concesionario gestiona el traspaso ante la ANT. Mientras tanto, tú firmas la compra del auto nuevo y te lo llevas el mismo día (o el día acordado) ya con el valor de tu auto descontado del precio."},
+        {"type": "p", "text": "En la práctica: entras al concesionario con un auto y sales con otro, sin haber pasado por meses de buscar comprador y sin riesgo de quedarte sin auto entre la venta y la compra del próximo."}
+      ]
+    },
+    {
+      "h2": "Cuándo SÍ conviene parte de pago y cuándo NO",
+      "blocks": [
+        {"type": "p", "text": "<strong>Sí conviene si:</strong> valoras tu tiempo, no quieres lidiar con compradores particulares, ya decidiste qué próximo auto vas a comprar, tu auto actual está en buen estado pero no es modelo «de colección», o tienes una operación crediticia que combina ambas decisiones."},
+        {"type": "p", "text": "<strong>Mejor venderlo aparte si:</strong> tu auto es un modelo muy demandado que se venderá rápido, no tienes urgencia por cambiar, te incomoda ceder ese 10-15 % de margen al concesionario, o todavía no decides qué próximo auto comprar."}
+      ]
+    }
+  ],
+  "conclusion": "Entregar tu auto como parte de pago en Ibarra es la forma más rápida y limpia de cambiar de vehículo. Pierdes un margen pequeño respecto a venderlo por tu cuenta, pero ganas un mes de tiempo y eliminas todo el riesgo de la transacción particular. Si decides que es tu camino, en OKCars te tasamos el auto, gestionamos el traspaso y te entregamos el siguiente auto el mismo día.",
+  "faq": [
+    ["¿Cuánto me pagan en parte de pago por mi auto?", "Como referencia general, entre el 80 % y el 90 % del valor al que el concesionario lo revendería en el mercado. El monto exacto se define con tasación presencial considerando marca, modelo, año, kilometraje, estado mecánico y demanda actual del modelo."],
+    ["¿Puedo recibir efectivo en lugar de descuento en el próximo auto?", "Algunos concesionarios aceptan compra directa sin trade-in pero a un valor menor que el de parte de pago. La modalidad parte de pago casi siempre obtiene mejor precio por la combinación de ambas operaciones."],
+    ["¿Aceptan autos con prenda bancaria como parte de pago?", "Solo si el saldo del crédito es menor al valor de tasación. En ese caso el concesionario coordina con tu banco para cancelar la prenda y la diferencia se aplica al nuevo auto. Si la prenda es mayor al valor tasado, primero hay que regularizar."],
+    ["¿Cuánto demora la tasación de mi auto?", "Entre 30 y 60 minutos en presencia del vehículo. El asesor revisa el auto, consulta documentos en sistema (multas, prenda, impuestos) y entrega oferta firme. Si aceptas, el cambio se cierra el mismo día o en uno o dos días hábiles más."],
+    ["¿Cómo entrego mi auto como parte de pago en OKCars?", "Escríbenos por WhatsApp con marca, modelo, año y kilometraje. Te damos un rango referencial inicial y agendamos cita en el showroom para hacer la tasación definitiva. Si la oferta te conviene, cerramos la operación combinada con tu próximo seminuevo el mismo día."]
+  ]
+}

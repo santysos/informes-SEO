@@ -1,0 +1,104 @@
+{
+  "title": "Cómo saber si un auto usado tiene deudas o problemas legales en Ecuador",
+  "slug": "verificar-auto-usado-deudas-problemas-legales-ecuador",
+  "status": "publish",
+  "date": "2026-05-07T09:00:00",
+  "category_id": 45,
+  "tags": ["verificar matricula vehiculo", "auto con prenda", "antecedentes vehiculo Ecuador", "ANT consulta placa"],
+  "excerpt": "Antes de comprar un auto usado en Ecuador, verifica multas, prendas, gravámenes, RTV y antecedentes en ANT y SRI. Esta guía te muestra dónde y cómo, gratis o por bajo costo.",
+  "lead": [
+    "El mayor riesgo legal al comprar un auto usado en Ecuador no es lo que ves en el auto, es lo que está escrito en el sistema. Multas acumuladas, prendas bancarias vigentes, gravámenes judiciales, RTV caducada, reportes activos: todo eso queda invisible al ojo pero aparece exactamente en el momento que necesitas hacer el traspaso o usar el auto.",
+    "Esta guía te muestra paso a paso cómo verificar todos los antecedentes legales de un vehículo antes de pagarlo, qué herramientas usar (la mayoría son gratuitas) y qué hacer si encuentras un problema. En 30 minutos de verificación puedes ahorrarte un proceso legal de meses o un dinero perdido completamente."
+  ],
+  "sections": [
+    {
+      "h2": "¿Qué problemas legales puede tener un auto usado?",
+      "blocks": [
+        {"type": "p", "text": "Antes de saber cómo buscar, conviene entender qué buscar. Los problemas legales más comunes en vehículos seminuevos en Ecuador son:"},
+        {"type": "ul", "items": [
+          "<strong>Multas pendientes:</strong> infracciones de tránsito no canceladas — bloquean el traspaso hasta pago",
+          "<strong>Prenda industrial vigente:</strong> el auto está como garantía de un crédito todavía no cancelado — no se puede vender legalmente",
+          "<strong>Gravamen judicial:</strong> hay una causa judicial donde el auto está embargado",
+          "<strong>Matrícula caducada:</strong> el auto no fue matriculado el último periodo",
+          "<strong>RTV vencida:</strong> revisión técnica vehicular caducada (donde aplique)",
+          "<strong>SOAT u otros seguros obligatorios al día:</strong> no es legal usar el auto sin ellos",
+          "<strong>Robo o desaparición reportada:</strong> el auto figura como sustraído"
+        ]}
+      ]
+    },
+    {
+      "h2": "Documentos básicos que debes pedir al vendedor",
+      "blocks": [
+        {"type": "p", "text": "Antes de hacer cualquier consulta, pídele al vendedor estos documentos en original:"},
+        {"type": "ol", "items": [
+          "Matrícula del vehículo (vigente)",
+          "Cédula del propietario actual",
+          "Última papeleta de pago del impuesto a la propiedad (SRI)",
+          "Constancia de RTV vigente (donde aplique)",
+          "SOAT vigente"
+        ]},
+        {"type": "p", "text": "Si el vendedor se resiste a mostrarte alguno de estos documentos, es bandera roja. Un propietario legítimo no tiene problema en mostrar la papelería completa."}
+      ]
+    },
+    {
+      "h2": "Paso 1: consulta de multas en la ANT",
+      "blocks": [
+        {"type": "p", "text": "La Agencia Nacional de Tránsito (ANT) tiene una consulta en línea por placa que muestra las infracciones registradas contra el vehículo. Es gratuita."},
+        {"type": "p", "text": "Necesitas el número de placa del auto. Ingresas al portal ANT y solicitas la consulta. El sistema te devuelve un listado de multas activas — pagadas y pendientes. Lo que te importa son las pendientes: cualquier infracción no cancelada bloqueará el traspaso hasta su pago."}
+      ]
+    },
+    {
+      "h2": "Paso 2: certificado de gravámenes (la consulta crítica)",
+      "blocks": [
+        {"type": "p", "text": "Este es el documento más importante de toda la verificación. El certificado de gravámenes te dice si el auto está como garantía de algún crédito (prenda industrial) o si tiene algún tipo de embargo judicial. Cuesta una tasa mínima y se solicita en la ANT del cantón."},
+        {"type": "p", "text": "Si aparece una prenda vigente, no compres hasta que el vendedor la cancele en el banco y emita el levantamiento. Si aparece gravamen judicial, simplemente no compres ese auto — desenredarlo puede tomar años."}
+      ]
+    },
+    {
+      "h2": "Paso 3: impuesto a la propiedad (SRI)",
+      "blocks": [
+        {"type": "p", "text": "El SRI cobra anualmente un impuesto a la propiedad vehicular. Si el dueño actual no ha pagado el año en curso (o años anteriores), aparece como deuda y bloquea cualquier trámite hasta cancelarla. La consulta es gratuita y se hace por número de placa en el portal del SRI."},
+        {"type": "p", "text": "Lo razonable es pactar con el vendedor que él regularice todo lo pendiente antes de la entrega. Si te ofrece descontarlo del precio, recuerda que la deuda sigue a nombre del propietario al momento del impuesto — pero el sistema lo bloquea hasta pago."}
+      ]
+    },
+    {
+      "h2": "Paso 4: estado de la matrícula y RTV",
+      "blocks": [
+        {"type": "p", "text": "La matrícula tiene fecha de vigencia anual. Verifica que esté vigente al momento de la compra y que el último pago figure realizado. La RTV (revisión técnica vehicular) se exige en algunas ciudades como Quito y Cuenca — debe estar al día para circular legalmente. Si está vencida, el vendedor debe regularizarla o se descuenta del precio para que tú la hagas."}
+      ]
+    },
+    {
+      "h2": "Tabla resumen: qué consultar, dónde y cuánto",
+      "blocks": [
+        {"type": "table", "headers": ["Consulta", "Entidad", "Cómo se hace", "Costo aprox."], "rows": [
+          ["Multas vehiculares", "ANT", "Portal web por placa", "Gratis"],
+          ["Certificado de gravámenes", "ANT (oficina)", "Solicitud presencial", "5-10 USD"],
+          ["Impuesto a la propiedad", "SRI", "Portal web por placa", "Gratis"],
+          ["Estado de matrícula", "ANT", "Portal web", "Gratis"],
+          ["Reporte de vehículo (robo)", "Policía Nacional", "Petición formal", "Gratis"],
+          ["SOAT vigente", "Aseguradora", "Verificar en póliza", "Gratis verificar"]
+        ]}
+      ]
+    },
+    {
+      "h2": "Qué hacer si encuentras un problema",
+      "blocks": [
+        {"type": "ul", "items": [
+          "<strong>Multas pendientes:</strong> que el vendedor las pague antes de la transferencia, no después",
+          "<strong>Prenda bancaria:</strong> exige el documento de levantamiento de prenda antes de pagar",
+          "<strong>Gravamen judicial:</strong> no compres ese auto. Punto",
+          "<strong>RTV caducada:</strong> negocia descuento equivalente para tú regularizarla, o exige que el vendedor lo haga",
+          "<strong>Impuestos atrasados:</strong> deben pagarse antes del traspaso, sin excepción"
+        ]}
+      ]
+    }
+  ],
+  "conclusion": "La verificación legal de un auto usado en Ecuador toma menos de un día y, en muchos casos, no cuesta nada. Es la diferencia entre comprar un auto que es realmente tuyo desde el primer minuto o quedar atrapado en un problema legal que se puede arrastrar meses. Cuando compras en un concesionario formal como OKCars, toda esta verificación está hecha antes de poner el auto en venta.",
+  "faq": [
+    ["¿Cómo verifico gratis si un auto tiene multas en Ecuador?", "Entra al portal de la Agencia Nacional de Tránsito (ANT), busca la opción de consulta de infracciones por placa, ingresa el número y obtienes el listado completo de multas activas. Es gratis y demora unos minutos."],
+    ["¿Qué es la prenda industrial de un vehículo?", "Es la garantía que un banco o financiera tiene sobre un vehículo cuando lo financió. Mientras la prenda esté vigente, el auto no se puede vender legalmente. Solo cuando se cancela el crédito y el banco emite el «levantamiento de prenda», el dueño puede vender el auto."],
+    ["¿Puedo comprar un auto con prenda vigente?", "No te conviene. Aunque te lo ofrezcan a buen precio, mientras la prenda no se levante el auto sigue siendo garantía del banco. Si el dueño no paga su crédito, el banco puede ejecutar la prenda y recuperar el auto que tú compraste."],
+    ["¿Cuánto cuesta el certificado de gravámenes en Ecuador?", "Entre 5 y 10 USD aproximadamente, según el cantón. Se solicita en la oficina de la ANT correspondiente. Es uno de los gastos más necesarios antes de comprar a un particular."],
+    ["¿OKCars verifica todo esto antes de poner un auto a la venta?", "Sí. En OKCars cada vehículo pasa por verificación documental completa — multas, gravámenes, impuestos, matrícula, RTV y antecedentes — además de la inspección mecánica de más de 20 puntos. Si algo no está en regla, el auto no entra al inventario."]
+  ]
+}
