@@ -35,6 +35,9 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
         .stat-card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.3); }
         .tab-btn.active { background: rgba(59, 130, 246, 0.15); color: #3b82f6; border-color: #3b82f6; }
         .tab-content { display: none; }
+        .sub-content { display: none; }
+        .sub-content.active { display: block; }
+        .sub-btn.active { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border-color: #f59e0b; }
         .tab-content.active { display: block; }
         .progress-bar { transition: width 1s ease-in-out; }
         @media print { .no-print { display: none; } }
@@ -92,6 +95,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
             <button onclick="switchTab('plan')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Plan 6 Meses</button>
             <button onclick="switchTab('mes1')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Mes 1: Abril</button>
             <button onclick="switchTab('contenido')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Contenido: Abril y Mayo</button>
+            <button onclick="switchTab('avance')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-amber-500/40 text-amber-400 hover:text-white hover:bg-amber-500/10 transition">📊 Avance Mes 1 (Abr-May)</button>
         </div>
     </div>
 
@@ -1109,6 +1113,8 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
         </div>
     </div>
 
+    <?php include __DIR__ . '/avance-mayo.php'; ?>
+
 </main>
 
 <!-- Footer -->
@@ -1129,6 +1135,14 @@ function switchTab(tabName) {
     document.getElementById('tab-' + tabName).classList.add('active');
     event.target.classList.add('active');
     window.scrollTo({ top: 200, behavior: 'smooth' });
+}
+
+// Sub-tab switching (Avance Mayo: CH | OKCars)
+function subSwitch(parent, sub) {
+    document.querySelectorAll('#tab-' + parent + ' .sub-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('#tab-' + parent + ' .sub-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('sub-' + parent + '-' + sub).classList.add('active');
+    document.getElementById('sub-' + parent + '-' + sub + '-btn').classList.add('active');
 }
 
 // Keywords Chart
@@ -1197,6 +1211,170 @@ if (projCtx) {
             scales: {
                 x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
                 y: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } }
+            }
+        }
+    });
+}
+
+// ============================================
+// CHARTS DEL TAB AVANCE MAYO 2026
+// ============================================
+
+const chartDefaults = {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { labels: { color: '#94a3b8' } } },
+    scales: {
+        x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+        y: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } }
+    }
+};
+
+// Chart 1: Cluster eléctricos — top queries CH
+const evQCtx = document.getElementById('chartEvQueries');
+if (evQCtx) {
+    new Chart(evQCtx, {
+        type: 'bar',
+        data: {
+            labels: ['autos electricos ecuador','carros electricos ecuador','carros eléctricos ecuador precios','vehículos eléctricos ecuador precios','autos electricos','autos electricos quito','autos eléctricos ecuador precios','vehiculos electricos ecuador','carro electrico ecuador','electricos ecuador'],
+            datasets: [{
+                label: 'Clics orgánicos (ene-may 2026)',
+                data: [140, 131, 86, 60, 40, 36, 36, 31, 27, 24],
+                backgroundColor: 'rgba(245, 158, 11, 0.6)',
+                borderColor: 'rgba(245, 158, 11, 1)',
+                borderWidth: 1, borderRadius: 6
+            }]
+        },
+        options: {
+            ...chartDefaults, indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
+            }
+        }
+    });
+}
+
+// Chart 2: Top 10 queries CH (general)
+const chQCtx = document.getElementById('chartChQueries');
+if (chQCtx) {
+    new Chart(chQCtx, {
+        type: 'bar',
+        data: {
+            labels: ['comercial hidrobo','comercial hidrobo ibarra','autos electricos ecuador','deepal s05 precio ecuador','carros electricos ecuador','carros chinos en ecuador','renault duster','comercial hidrobo cayambe','renault duster precio','carros electricos precios'],
+            datasets: [{
+                label: 'Clics orgánicos',
+                data: [1258, 210, 140, 136, 131, 116, 109, 103, 95, 86],
+                backgroundColor: 'rgba(59, 130, 246, 0.6)',
+                borderColor: 'rgba(59, 130, 246, 1)',
+                borderWidth: 1, borderRadius: 6
+            }]
+        },
+        options: {
+            ...chartDefaults, indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
+            }
+        }
+    });
+}
+
+// Chart 3: Top 10 páginas CH por clics
+const chPCtx = document.getElementById('chartChPages');
+if (chPCtx) {
+    new Chart(chPCtx, {
+        type: 'bar',
+        data: {
+            labels: ['/autos-electricos-2025','/ (home)','/marcas-chinos-confiables','/nissan-kicks-vs-chery-tiggo','/exoneracion-autos','/renault-duster-2025','/camionetas-mejor-consumo','/cilindrada-motor','/autos-familias-grandes','/changan-deepal-s05'],
+            datasets: [{
+                label: 'Clics orgánicos',
+                data: [2285, 1982, 1711, 1127, 966, 918, 857, 615, 467, 458],
+                backgroundColor: 'rgba(139, 92, 246, 0.6)',
+                borderColor: 'rgba(139, 92, 246, 1)',
+                borderWidth: 1, borderRadius: 6
+            }]
+        },
+        options: {
+            ...chartDefaults, indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
+            }
+        }
+    });
+}
+
+// Chart 4: OKCars Brand vs Non-brand (donut)
+const okBrandCtx = document.getElementById('chartOkBrand');
+if (okBrandCtx) {
+    new Chart(okBrandCtx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Búsquedas de marca (brand)', 'Búsquedas genéricas (non-brand)'],
+            datasets: [{
+                data: [183, 34],
+                backgroundColor: ['rgba(168, 85, 247, 0.7)', 'rgba(34, 197, 94, 0.7)'],
+                borderColor: ['rgba(168, 85, 247, 1)', 'rgba(34, 197, 94, 1)'],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 11 } } } }
+        }
+    });
+}
+
+// Chart 5: Top queries OKCars
+const okQCtx = document.getElementById('chartOkQueries');
+if (okQCtx) {
+    new Chart(okQCtx, {
+        type: 'bar',
+        data: {
+            labels: ['ok cars','okcars','autos ok','deepal s05 precio ec.','ok ars','ok autos','ok cara','okey cars','cars ok','okcats'],
+            datasets: [{
+                label: 'Clics orgánicos',
+                data: [92, 74, 16, 10, 3, 3, 3, 3, 2, 2],
+                backgroundColor: 'rgba(168, 85, 247, 0.6)',
+                borderColor: 'rgba(168, 85, 247, 1)',
+                borderWidth: 1, borderRadius: 6
+            }]
+        },
+        options: {
+            ...chartDefaults, indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
+            }
+        }
+    });
+}
+
+// Chart 6: Top páginas OKCars
+const okPCtx = document.getElementById('chartOkPages');
+if (okPCtx) {
+    new Chart(okPCtx, {
+        type: 'bar',
+        data: {
+            labels: ['/ (home)','/changan-deepal-s05','/vehiculos-okcars/','/financiamiento/','/quienes-somos/','/color rojo','/tucson-gl','/contacto/'],
+            datasets: [{
+                label: 'Clics orgánicos',
+                data: [224, 36, 21, 9, 3, 2, 2, 1],
+                backgroundColor: 'rgba(236, 72, 153, 0.6)',
+                borderColor: 'rgba(236, 72, 153, 1)',
+                borderWidth: 1, borderRadius: 6
+            }]
+        },
+        options: {
+            ...chartDefaults, indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
             }
         }
     });
