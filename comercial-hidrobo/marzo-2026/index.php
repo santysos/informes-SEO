@@ -1307,6 +1307,61 @@ if (chPCtx) {
     });
 }
 
+// Chart 3.5a: Autos chinos — distribución por marca (donut)
+const chinaMCtx = document.getElementById('chartChinaMarcas');
+if (chinaMCtx) {
+    new Chart(chinaMCtx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Genéricos (carros chinos…)', 'Chery', 'DongFeng', 'Changan', 'Omoda', 'Geely', 'Otras (BYD, JAC, Haval...)'],
+            datasets: [{
+                data: [1484, 436, 340, 96, 35, 11, 3],
+                backgroundColor: [
+                    'rgba(239, 68, 68, 0.7)',
+                    'rgba(245, 158, 11, 0.7)',
+                    'rgba(168, 85, 247, 0.7)',
+                    'rgba(59, 130, 246, 0.7)',
+                    'rgba(34, 197, 94, 0.7)',
+                    'rgba(236, 72, 153, 0.7)',
+                    'rgba(100, 116, 139, 0.7)'
+                ],
+                borderColor: 'rgba(15, 23, 42, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 10 } } } }
+        }
+    });
+}
+
+// Chart 3.5b: Autos chinos — top queries
+const chinaQCtx = document.getElementById('chartChinaQueries');
+if (chinaQCtx) {
+    new Chart(chinaQCtx, {
+        type: 'bar',
+        data: {
+            labels: ['deepal s05 precio ecuador','carros chinos en ecuador','top 10 marcas chinos','marcas de carros chinos','chery','autos chinos en ecuador','dongfeng huge precio','dongfeng rich 6','deepal s05','carros chinos'],
+            datasets: [{
+                label: 'Clics orgánicos',
+                data: [136, 116, 75, 66, 61, 60, 47, 43, 37, 33],
+                backgroundColor: 'rgba(239, 68, 68, 0.6)',
+                borderColor: 'rgba(239, 68, 68, 1)',
+                borderWidth: 1, borderRadius: 6
+            }]
+        },
+        options: {
+            ...chartDefaults, indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { color: 'rgba(148, 163, 184, 0.1)' }, ticks: { color: '#94a3b8' } },
+                y: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
+            }
+        }
+    });
+}
+
 // Chart 4: OKCars Brand vs Non-brand (donut)
 const okBrandCtx = document.getElementById('chartOkBrand');
 if (okBrandCtx) {

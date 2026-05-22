@@ -116,6 +116,60 @@
             </div>
         </div>
 
+        <!-- DESPUNTE autos chinos -->
+        <div class="rounded-xl border border-red-500/30 bg-gradient-to-br from-red-500/10 to-amber-500/5 p-6 mt-8">
+            <div class="flex items-center gap-3 mb-3">
+                <svg class="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                <h3 class="text-xl font-bold text-white">Hallazgo clave 2: el cluster autos chinos crece más rápido todavía</h3>
+            </div>
+            <p class="text-sm text-slate-300 leading-relaxed mb-4">El cluster de búsquedas relacionadas con autos chinos es <strong class="text-red-400">aún más grande que el de eléctricos</strong>: representa el <strong class="text-red-400">26,9 % de TODOS los clics orgánicos del sitio (2.405 de 8.952)</strong>. Es el principal motor de tráfico SEO de Comercial Hidrobo y se solapa parcialmente con el cluster eléctricos (muchos modelos chinos son híbridos/eléctricos). Esto convierte a CH en una referencia natural del mercado automotor chino en Ecuador.</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                <div class="rounded-lg border border-red-500/20 bg-red-500/5 p-4">
+                    <p class="text-xs text-red-400 mb-1">Clics del cluster</p>
+                    <p class="text-2xl font-bold text-white">2.405</p>
+                    <p class="text-xs text-slate-400 mt-1">26,9% del total CH</p>
+                </div>
+                <div class="rounded-lg border border-red-500/20 bg-red-500/5 p-4">
+                    <p class="text-xs text-red-400 mb-1">Queries únicas</p>
+                    <p class="text-2xl font-bold text-white">10.632</p>
+                    <p class="text-xs text-slate-400 mt-1">búsquedas del cluster</p>
+                </div>
+                <div class="rounded-lg border border-red-500/20 bg-red-500/5 p-4">
+                    <p class="text-xs text-red-400 mb-1">Impresiones cluster</p>
+                    <p class="text-2xl font-bold text-white">198.701</p>
+                    <p class="text-xs text-slate-400 mt-1">apariciones en Google</p>
+                </div>
+                <div class="rounded-lg border border-red-500/20 bg-red-500/5 p-4">
+                    <p class="text-xs text-red-400 mb-1">Página #1 del sitio</p>
+                    <p class="text-2xl font-bold text-white">1.711</p>
+                    <p class="text-xs text-slate-400 mt-1">clics: "marcas chinos confiables"</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mt-6">
+                <div>
+                    <h4 class="text-sm font-semibold text-red-400 mb-3">Distribución por marca china (clics)</h4>
+                    <div class="h-72"><canvas id="chartChinaMarcas"></canvas></div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold text-red-400 mb-3">Top búsquedas del cluster</h4>
+                    <div class="h-72"><canvas id="chartChinaQueries"></canvas></div>
+                </div>
+            </div>
+
+            <div class="mt-6 rounded-lg border border-amber-500/20 bg-amber-500/5 p-4">
+                <h4 class="text-sm font-semibold text-amber-400 mb-2">Lectura del dato</h4>
+                <ul class="space-y-1 text-sm text-slate-300 list-disc list-inside">
+                    <li><strong>Chery es la marca china #1 en clics orgánicos:</strong> 436 clics distribuidos en más de 4.000 queries (Tiggo 4 Pro, Tiggo 7, etc.).</li>
+                    <li><strong>DongFeng está cerca con 340 clics</strong> y queries muy intencionadas (Deepal S05, Huge, Rich 6, T5L). El Deepal S05 solo aporta 136 clics con CTR 10,4 % y posición 2,0 — un modelo bandera SEO.</li>
+                    <li><strong>Changan tiene gran impresión (19.657) pero baja captura (96 clics):</strong> hay oportunidad clara de optimizar títulos y meta description para subir CTR.</li>
+                    <li><strong>Omoda, Geely, Haval, BYD están emergiendo:</strong> aún con poco contenido propio. Quien publique primero capturará la conversación.</li>
+                    <li><strong>Genéricos pesan más que cualquier marca:</strong> 1.484 clics en queries tipo "carros chinos en ecuador", "marcas de autos chinos". Apuntar contenido pillar aquí escala todo el cluster.</li>
+                </ul>
+            </div>
+        </div>
+
         <!-- Análisis Search Console CH -->
         <div class="rounded-xl border border-slate-800/50 glass p-6 mt-8">
             <h3 class="text-lg font-semibold text-white mb-4">Análisis de Search Console (Google) — Comercial Hidrobo</h3>
@@ -239,6 +293,126 @@
                         <p>· Pillar Chery Súper Hybrid CSH</p>
                         <p>· Chery Tiggo 7 / 8 / 9 Súper Hybrid</p>
                         <p>· Changan CS55 R-EV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sugerencias futuras CH (Visión experta SEO) -->
+        <div class="rounded-xl border border-emerald-500/30 bg-gradient-to-br from-emerald-500/10 to-cyan-500/5 p-6 mt-8">
+            <div class="flex items-center gap-3 mb-3">
+                <svg class="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                <h3 class="text-xl font-bold text-white">Sugerencias de generación futura — visión SEO experta</h3>
+            </div>
+            <p class="text-sm text-slate-300 leading-relaxed mb-4">Con base en los datos reales del año en curso, estas son las recomendaciones de contenido para los <strong class="text-emerald-400">próximos 3-6 meses</strong> orientadas a maximizar tráfico orgánico y conversión. Cada propuesta nace de búsquedas reales de Ecuador con demanda demostrada en Search Console.</p>
+
+            <div class="grid md:grid-cols-2 gap-6 mt-4">
+                <!-- Eje 1: Eléctricos / Híbridos -->
+                <div class="rounded-lg border border-amber-500/20 bg-amber-500/5 p-5">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-xl">⚡</span>
+                        <h4 class="text-sm font-bold text-amber-400">Eje 1 · Cluster Eléctricos/Híbridos</h4>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300 list-disc list-inside">
+                        <li>Publicar de inmediato los <strong>11 posts del cluster Híbridos/Eléctricos</strong> ya redactados (DongFeng Z9 PHEV, Chery Súper Hybrid CSH, Toyota RAV4 Híbrido, Mage EV, etc.).</li>
+                        <li>Crear pillar <strong>"Guía 2026 de autos eléctricos en Ecuador"</strong>: pillar que reemplace al actual del 2025 y absorba su autoridad (2.285 clics base).</li>
+                        <li>Posts comparativos cruzados: <strong>RAV4 Híbrido vs Tiggo 8 CSH</strong>, <strong>Mage EV vs Deepal S05</strong>, <strong>Z9 PHEV vs Hunter REEV</strong>.</li>
+                        <li>Contenido educativo: <strong>"¿Qué es PHEV, REEV, HEV?"</strong>, <strong>"Punto de carga en Ecuador"</strong>, <strong>"Mantenimiento de auto híbrido"</strong> (ya hay tracción pos 5).</li>
+                        <li>Local SEO eléctricos: <strong>"Autos eléctricos en Quito"</strong> (36 clics actuales), Ibarra, Cuenca, Guayaquil — uno por ciudad.</li>
+                    </ul>
+                </div>
+
+                <!-- Eje 2: Autos Chinos -->
+                <div class="rounded-lg border border-red-500/20 bg-red-500/5 p-5">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-xl">🇨🇳</span>
+                        <h4 class="text-sm font-bold text-red-400">Eje 2 · Cluster Autos Chinos</h4>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300 list-disc list-inside">
+                        <li>Pillar pages por marca china con su árbol completo: <strong>Chery (4.033 queries, 436 clics)</strong>, <strong>DongFeng (978 queries, 340 clics)</strong>, <strong>Changan (974 queries)</strong>.</li>
+                        <li>Contenido sobre marcas emergentes con queries crecientes y sin cobertura propia: <strong>Omoda, BYD, JAC, Haval, Great Wall, Geely</strong>. Quien publique primero, captura.</li>
+                        <li>Posts comparativos intra-china muy buscados: <strong>Deepal S05 vs Chery Tiggo 7 Pro</strong>, <strong>DongFeng Huge vs Changan CS75</strong>, <strong>Omoda 5 vs Jaecoo 7</strong>.</li>
+                        <li>Long-tail confiabilidad/durabilidad: <strong>"¿son confiables los autos chinos?"</strong>, <strong>"durabilidad chery 100.000 km"</strong>, <strong>"experiencias dongfeng en Ecuador"</strong>.</li>
+                        <li>Local + marca: <strong>"Chery Ibarra"</strong>, <strong>"DongFeng Cayambe"</strong>, <strong>"taller chino Tulcán"</strong>.</li>
+                    </ul>
+                </div>
+
+                <!-- Eje 3: Modelos específicos -->
+                <div class="rounded-lg border border-brand-500/20 bg-brand-500/5 p-5">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-xl">🚗</span>
+                        <h4 class="text-sm font-bold text-brand-500">Eje 3 · Modelos individuales con tracción</h4>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300 list-disc list-inside">
+                        <li><strong>Renault Duster</strong> sigue dominando: 109 + 95 + más clics. Mantener actualizadas las fichas y crear posts derivados (versiones, comparativas, financiamiento, mantenimiento).</li>
+                        <li><strong>Nissan Kicks</strong>: la comparativa con Tiggo es la #4 página del sitio (1.127 clics). Crear más comparativas (Kicks vs HR-V, Kicks vs Sportage, Kicks año a año).</li>
+                        <li><strong>Deepal S05</strong>: ya genera 136 clics solo en query principal, posición 2,0. Crear ecosistema completo (versiones, comparativas, prueba de manejo, costo de propiedad).</li>
+                        <li><strong>Toyota Hilux, Chevrolet D-Max</strong>: pickups con búsqueda alta, oportunidad de comparativas vs los modelos chinos (Rich 6, Hunter Plus).</li>
+                    </ul>
+                </div>
+
+                <!-- Eje 4: Conversión y CTAs -->
+                <div class="rounded-lg border border-purple-500/20 bg-purple-500/5 p-5">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-xl">🎯</span>
+                        <h4 class="text-sm font-bold text-purple-400">Eje 4 · Conversión y optimización técnica</h4>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300 list-disc list-inside">
+                        <li><strong>Optimizar Title + Meta Description</strong> de las 30 páginas con más impresiones y bajo CTR — varias tienen 80K-180K impresiones con CTR < 1 %. Mejorarlos puede sumar miles de clics.</li>
+                        <li>Internal linking sistemático: <strong>cada modelo enlaza a su marca, comparativas y financiamiento</strong> para distribuir autoridad.</li>
+                        <li>Schema markup adicional (FAQPage, Product, Vehicle) en todas las fichas para ganar rich snippets en Google.</li>
+                        <li>CTAs específicos por intent: <strong>posts informativos → "Hablar con asesor"</strong>, <strong>fichas modelo → "Cotizar este auto"</strong>, <strong>comparativas → "Agendar test drive"</strong>.</li>
+                        <li>Page speed: medir Core Web Vitals de las top 30 páginas y optimizar imágenes pesadas (afecta posicionamiento móvil).</li>
+                    </ul>
+                </div>
+
+                <!-- Eje 5: Calendario sugerido -->
+                <div class="md:col-span-2 rounded-lg border border-slate-700/30 bg-slate-800/30 p-5">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-xl">📅</span>
+                        <h4 class="text-sm font-bold text-white">Eje 5 · Calendario sugerido — meses 2 a 6</h4>
+                    </div>
+                    <div class="grid md:grid-cols-5 gap-3 text-xs">
+                        <div class="rounded-lg border border-slate-700/30 p-3">
+                            <p class="text-emerald-400 font-semibold mb-2">Junio (Mes 2)</p>
+                            <ul class="space-y-1 text-slate-400">
+                                <li>· 11 posts cluster Híbridos/Eléctricos</li>
+                                <li>· 5 posts comparativas chinos vs japoneses</li>
+                                <li>· 4 posts pillar marcas chinas</li>
+                            </ul>
+                        </div>
+                        <div class="rounded-lg border border-slate-700/30 p-3">
+                            <p class="text-emerald-400 font-semibold mb-2">Julio (Mes 3)</p>
+                            <ul class="space-y-1 text-slate-400">
+                                <li>· 6 posts marcas emergentes (Omoda, BYD)</li>
+                                <li>· 8 posts Renault y Nissan derivados</li>
+                                <li>· 6 posts long-tail confiabilidad</li>
+                            </ul>
+                        </div>
+                        <div class="rounded-lg border border-slate-700/30 p-3">
+                            <p class="text-emerald-400 font-semibold mb-2">Agosto (Mes 4)</p>
+                            <ul class="space-y-1 text-slate-400">
+                                <li>· Pillar refresh "Eléctricos 2026"</li>
+                                <li>· Local SEO por ciudad (10 landings)</li>
+                                <li>· 10 posts informativos demanda data</li>
+                            </ul>
+                        </div>
+                        <div class="rounded-lg border border-slate-700/30 p-3">
+                            <p class="text-emerald-400 font-semibold mb-2">Septiembre (Mes 5)</p>
+                            <ul class="space-y-1 text-slate-400">
+                                <li>· Comparativas premium intra-segment</li>
+                                <li>· Contenido financiamiento + crédito</li>
+                                <li>· Refresh posts top con datos nuevos</li>
+                            </ul>
+                        </div>
+                        <div class="rounded-lg border border-slate-700/30 p-3">
+                            <p class="text-emerald-400 font-semibold mb-2">Octubre (Mes 6)</p>
+                            <ul class="space-y-1 text-slate-400">
+                                <li>· Posts estacionales (fin de año)</li>
+                                <li>· Casos de éxito de clientes</li>
+                                <li>· Auditoría completa + plan 2027</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
