@@ -1,0 +1,141 @@
+{
+  "_comment": "Schema JSON-LD para Comercial Hidrobo. Este archivo es REFERENCIA. El schema ya está embebido en home.php — solo edítalo allí. Aquí queda separado para validación en https://validator.schema.org/ y https://search.google.com/test/rich-results",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://comercialhidrobo.com/#organization",
+      "name": "Comercial Hidrobo",
+      "url": "https://comercialhidrobo.com/",
+      "logo": "https://comercialhidrobo.com/wp-content/uploads/logo-comercial-hidrobo.png",
+      "foundingDate": "1974",
+      "description": "Concesionario de autos nuevos en el norte del Ecuador. Distribuidor oficial con sucursales en Ibarra, Otavalo y Quito.",
+      "sameAs": [
+        "https://www.facebook.com/comercialhidrobo",
+        "https://www.instagram.com/comercialhidrobo"
+      ]
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://comercialhidrobo.com/#autodealer",
+      "name": "Comercial Hidrobo",
+      "image": "https://comercialhidrobo.com/wp-content/uploads/concesionario-comercial-hidrobo.jpg",
+      "url": "https://comercialhidrobo.com/",
+      "telephone": "+593XXXXXXXXX",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Mariano Acosta y Río Tahuando",
+        "addressLocality": "Ibarra",
+        "addressRegion": "Imbabura",
+        "postalCode": "100150",
+        "addressCountry": "EC"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "0.3469",
+        "longitude": "-78.1226"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Ecuador"
+      },
+      "brand": [
+        { "@type": "Brand", "name": "Nissan" },
+        { "@type": "Brand", "name": "Toyota" },
+        { "@type": "Brand", "name": "Renault" },
+        { "@type": "Brand", "name": "Mazda" },
+        { "@type": "Brand", "name": "Jeep" },
+        { "@type": "Brand", "name": "RAM" },
+        { "@type": "Brand", "name": "Fiat" },
+        { "@type": "Brand", "name": "Chery" },
+        { "@type": "Brand", "name": "Changan" },
+        { "@type": "Brand", "name": "DongFeng" },
+        { "@type": "Brand", "name": "BAIC" },
+        { "@type": "Brand", "name": "Foton" }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://comercialhidrobo.com/#localbusiness-ibarra",
+      "name": "Comercial Hidrobo — Ibarra",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Mariano Acosta y Río Tahuando",
+        "addressLocality": "Ibarra",
+        "addressRegion": "Imbabura",
+        "addressCountry": "EC"
+      },
+      "telephone": "+593XXXXXXXXX",
+      "url": "https://comercialhidrobo.com/"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://comercialhidrobo.com/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué necesito para financiar mi auto en Comercial Hidrobo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cédula vigente, planilla de servicios básicos del último mes y rol de pagos o certificado de ingresos de los últimos 3 meses. Si eres independiente, declaraciones del SRI también sirven. Aprobamos el crédito en 24 horas hábiles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Aceptan mi auto usado como parte de pago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Hacemos avalúo gratuito de tu vehículo actual y descontamos su valor de la entrada o cuotas. Trae los documentos del auto (matrícula, último pago de impuestos) y lo evaluamos el mismo día."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué garantía tiene un auto nuevo de Comercial Hidrobo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Todos los vehículos nuevos llevan la garantía oficial del fabricante (entre 3 y 5 años o cierto kilometraje, según marca). Mantienes la garantía siempre que hagas los mantenimientos en taller certificado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde están sus sucursales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tenemos tres puntos físicos: Ibarra (matriz), Otavalo y Quito. Si vives en otra ciudad, también te atendemos por WhatsApp y coordinamos la entrega del vehículo a tu localidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacen entregas a otras ciudades del Ecuador?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Coordinamos transporte y trámites para entregar tu auto en cualquier ciudad del país. El servicio incluye matriculación y orientación sobre el taller más cercano."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tienen taller para vehículos de otras marcas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nuestro taller es certificado para las marcas que distribuimos. Para otras marcas podemos hacer servicios básicos (cambio de aceite, frenos, neumáticos), pero recomendamos taller especializado para mantenimientos mayores."
+          }
+        }
+      ]
+    }
+  ]
+}

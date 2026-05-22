@@ -1,0 +1,232 @@
+<!-- ==========================================================
+     ESTE CÓDIGO VA EN:
+     Elementor → Custom Code → Add New
+     Location: <head> – Start
+     Condition: Singular > Front Page (o la página específica)
+     ========================================================== -->
+
+<!-- Tailwind CDN + config -->
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                'ch-primary':      '#00628f',
+                'ch-primary-dark': '#004b70',
+                'ch-primary-soft': '#cae6ff',
+                'ch-surface':      '#faf8fe',
+                'ch-surface-2':    '#f4f3f8',
+                'ch-ink':          '#1a1b1f',
+                'ch-ink-soft':     '#3f4850',
+                'ch-line':         '#bec8d2',
+            },
+            fontFamily: {
+                'headline': ['Montserrat', 'sans-serif'],
+                'body':     ['Plus Jakarta Sans', 'sans-serif'],
+                'label':    ['Inter', 'sans-serif'],
+            },
+        },
+    },
+};
+</script>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+
+<!-- Estilos custom (glassmorphism + reset Elementor) -->
+<style>
+:root {
+    --ch-glass-bg:          rgba(255, 255, 255, 0.12);
+    --ch-glass-bg-strong:   rgba(255, 255, 255, 0.22);
+    --ch-glass-border:      rgba(255, 255, 255, 0.28);
+    --ch-glass-shadow:      0 8px 32px 0 rgba(0, 75, 112, 0.18);
+}
+.ch-glass {
+    background: var(--ch-glass-bg);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid var(--ch-glass-border);
+    box-shadow: var(--ch-glass-shadow);
+}
+.ch-glass-strong {
+    background: var(--ch-glass-bg-strong);
+    backdrop-filter: blur(22px) saturate(160%);
+    -webkit-backdrop-filter: blur(22px) saturate(160%);
+    border: 1px solid var(--ch-glass-border);
+    box-shadow: var(--ch-glass-shadow);
+}
+.ch-glass-light {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(10px) saturate(140%);
+    -webkit-backdrop-filter: blur(10px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 6px 24px rgba(0, 98, 143, 0.08);
+}
+.ch-hero-gradient {
+    background: linear-gradient(180deg, rgba(26, 27, 31, 0.45) 0%, rgba(26, 27, 31, 0.1) 40%, rgba(26, 27, 31, 0.85) 100%);
+}
+.ch-cta-gradient {
+    background:
+        radial-gradient(ellipse at 30% 20%, rgba(0, 124, 180, 0.55) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 80%, rgba(140, 205, 255, 0.35) 0%, transparent 55%),
+        #0a1b2e;
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+.ch-home-wrapper { font-family: 'Plus Jakarta Sans', sans-serif; color: #1a1b1f; }
+.ch-home-wrapper h1, .ch-home-wrapper h2, .ch-home-wrapper h3 { font-family: 'Montserrat', sans-serif; letter-spacing: -0.02em; }
+
+/* FAQ acordeón */
+.ch-home-wrapper details[open] summary .ch-faq-icon { transform: rotate(180deg); }
+.ch-home-wrapper .ch-faq-icon { transition: transform 0.3s ease; }
+.ch-home-wrapper summary { list-style: none; cursor: pointer; }
+.ch-home-wrapper summary::-webkit-details-marker { display: none; }
+
+/* Reset de wrappers de Elementor para esta home */
+.page-template-elementor_canvas .ch-home-wrapper,
+.elementor-page .ch-home-wrapper {
+    margin: 0;
+    padding: 0;
+}
+.elementor-section.ch-home-section {
+    padding: 0 !important;
+}
+.elementor-section.ch-home-section > .elementor-container {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+</style>
+
+<!-- Schema JSON-LD: Organization + AutoDealer + LocalBusiness + FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://comercialhidrobo.com/#organization",
+      "name": "Comercial Hidrobo",
+      "url": "https://comercialhidrobo.com/",
+      "logo": "https://comercialhidrobo.com/wp-content/uploads/logo-comercial-hidrobo.png",
+      "foundingDate": "1974",
+      "description": "Concesionario de autos nuevos en el norte del Ecuador. Distribuidor oficial de 12 marcas con sucursales en Ibarra, Otavalo y Quito.",
+      "sameAs": [
+        "https://www.facebook.com/comercialhidrobo",
+        "https://www.instagram.com/comercialhidrobo"
+      ]
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://comercialhidrobo.com/#autodealer",
+      "name": "Comercial Hidrobo",
+      "image": "https://comercialhidrobo.com/wp-content/uploads/concesionario-comercial-hidrobo.jpg",
+      "url": "https://comercialhidrobo.com/",
+      "telephone": "+593XXXXXXXXX",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Mariano Acosta y Río Tahuando",
+        "addressLocality": "Ibarra",
+        "addressRegion": "Imbabura",
+        "postalCode": "100150",
+        "addressCountry": "EC"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "0.3469",
+        "longitude": "-78.1226"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ],
+      "areaServed": { "@type": "Country", "name": "Ecuador" },
+      "brand": [
+        { "@type": "Brand", "name": "Nissan" },
+        { "@type": "Brand", "name": "Toyota" },
+        { "@type": "Brand", "name": "Renault" },
+        { "@type": "Brand", "name": "Mazda" },
+        { "@type": "Brand", "name": "Jeep" },
+        { "@type": "Brand", "name": "RAM" },
+        { "@type": "Brand", "name": "Fiat" },
+        { "@type": "Brand", "name": "Chery" },
+        { "@type": "Brand", "name": "Changan" },
+        { "@type": "Brand", "name": "DongFeng" },
+        { "@type": "Brand", "name": "BAIC" },
+        { "@type": "Brand", "name": "Foton" }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://comercialhidrobo.com/#localbusiness-ibarra",
+      "name": "Comercial Hidrobo — Ibarra",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Mariano Acosta y Río Tahuando",
+        "addressLocality": "Ibarra",
+        "addressRegion": "Imbabura",
+        "addressCountry": "EC"
+      },
+      "telephone": "+593XXXXXXXXX",
+      "url": "https://comercialhidrobo.com/"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://comercialhidrobo.com/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué necesito para financiar mi auto en Comercial Hidrobo?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Cédula vigente, planilla de servicios básicos del último mes y rol de pagos o certificado de ingresos de los últimos 3 meses. Si eres independiente, declaraciones del SRI también sirven. Aprobamos el crédito en 24 horas hábiles." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Aceptan mi auto usado como parte de pago?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Hacemos avalúo gratuito de tu vehículo actual y descontamos su valor de la entrada o cuotas. Trae los documentos del auto (matrícula, último pago de impuestos) y lo evaluamos el mismo día." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué garantía tiene un auto nuevo de Comercial Hidrobo?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Todos los vehículos nuevos llevan la garantía oficial del fabricante (entre 3 y 5 años o cierto kilometraje, según marca). Mantienes la garantía siempre que hagas los mantenimientos en taller certificado." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde están sus sucursales?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tenemos tres puntos físicos: Ibarra (matriz), Otavalo y Quito. Si vives en otra ciudad, también te atendemos por WhatsApp y coordinamos la entrega del vehículo a tu localidad." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacen entregas a otras ciudades del Ecuador?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Coordinamos transporte y trámites para entregar tu auto en cualquier ciudad del país. El servicio incluye matriculación y orientación sobre el taller más cercano." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tienen taller para vehículos de otras marcas?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nuestro taller es certificado para las marcas que distribuimos. Para otras marcas podemos hacer servicios básicos (cambio de aceite, frenos, neumáticos), pero recomendamos taller especializado para mantenimientos mayores." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- IMPORTANTE: reemplazar antes de subir:
+     - +593XXXXXXXXX → número WhatsApp real
+     - Dirección y coordenadas reales de la matriz Ibarra
+     - URLs reales del logo y de la imagen del concesionario
+-->

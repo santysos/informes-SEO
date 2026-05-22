@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview — Home Comercial Hidrobo</title>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                'ch-primary':      '#003383',
+                'ch-primary-dark': '#00256a',
+                'ch-primary-mid':  '#3656a5',
+                'ch-primary-soft': '#c5d4ed',
+                'ch-surface':      '#f7f9fd',
+                'ch-surface-2':    '#eef2f9',
+                'ch-ink':          '#0e1a2e',
+                'ch-ink-soft':     '#3f4a5e',
+                'ch-line':         '#b8c2d3',
+            },
+            fontFamily: {
+                'headline': ['Montserrat', 'sans-serif'],
+                'body':     ['Plus Jakarta Sans', 'sans-serif'],
+                'label':    ['Inter', 'sans-serif'],
+            },
+        },
+    },
+};
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --ch-glass-bg:          rgba(255, 255, 255, 0.12);
+    --ch-glass-bg-strong:   rgba(255, 255, 255, 0.22);
+    --ch-glass-border:      rgba(255, 255, 255, 0.28);
+    --ch-glass-shadow:      0 8px 32px 0 rgba(0, 51, 131, 0.22);
+}
+.ch-glass {
+    background: var(--ch-glass-bg);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid var(--ch-glass-border);
+    box-shadow: var(--ch-glass-shadow);
+}
+.ch-glass-strong {
+    background: var(--ch-glass-bg-strong);
+    backdrop-filter: blur(22px) saturate(160%);
+    -webkit-backdrop-filter: blur(22px) saturate(160%);
+    border: 1px solid var(--ch-glass-border);
+    box-shadow: var(--ch-glass-shadow);
+}
+.ch-glass-light {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(10px) saturate(140%);
+    -webkit-backdrop-filter: blur(10px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 6px 24px rgba(0, 51, 131, 0.10);
+}
+.ch-hero-gradient {
+    background: linear-gradient(180deg, rgba(0, 26, 74, 0.55) 0%, rgba(0, 26, 74, 0.08) 40%, rgba(0, 17, 51, 0.90) 100%);
+}
+.ch-cta-gradient {
+    background:
+        radial-gradient(ellipse at 30% 20%, rgba(54, 86, 165, 0.55) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 80%, rgba(0, 51, 131, 0.45) 0%, transparent 55%),
+        #001144;
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+body { font-family: 'Plus Jakarta Sans', sans-serif; color: #1a1b1f; background: #faf8fe; }
+h1, h2, h3 { font-family: 'Montserrat', sans-serif; letter-spacing: -0.02em; }
+
+/* Banner preview */
+.preview-banner {
+    background: #ffd54f;
+    color: #5d4037;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Mock header/footer placeholder (simulando WP header/footer existente) */
+.mock-shell {
+    background: #1a1b1f;
+    color: rgba(255,255,255,0.5);
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* FAQ */
+details[open] summary .ch-faq-icon { transform: rotate(180deg); }
+.ch-faq-icon { transition: transform 0.3s ease; }
+summary { list-style: none; cursor: pointer; }
+summary::-webkit-details-marker { display: none; }
+
+/* Logos reales de marcas — tomados de comercialhidrobo.com */
+.brand-logo {
+    max-width: 90%;
+    max-height: 70px;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+.group:hover .brand-logo {
+    transform: scale(1.1);
+}
+
+/* Hero bg con gradient (placeholder de foto) */
+.hero-mock-bg {
+    background:
+        linear-gradient(135deg, rgba(0, 51, 131, 0.5) 0%, transparent 50%),
+        linear-gradient(220deg, rgba(54, 86, 165, 0.35) 0%, transparent 60%),
+        url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=80') center/cover;
+}
+.workshop-mock-bg {
+    background:
+        linear-gradient(135deg, rgba(26,27,31,0.4), transparent 60%),
+        url('./images/taller-certificado.jpg') center/cover;
+}
+.financing-mock-img {
+    background: url('./images/financiamiento.jpg') center/cover;
+}
+.parts-mock-img {
+    background: url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1200&q=80') center/cover;
+}
+.cta-final-mock {
+    background:
+        radial-gradient(ellipse at 30% 20%, rgba(54, 86, 165, 0.75) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 80%, rgba(0, 51, 131, 0.55) 0%, transparent 55%),
+        linear-gradient(180deg, rgba(0, 17, 51, 0.55) 0%, rgba(0, 17, 51, 0.85) 100%),
+        url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1920&q=80') center/cover;
+}
+.blog-mock-img-1 { background: url('https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80') center/cover; }
+.blog-mock-img-2 { background: url('https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80') center/cover; }
+.blog-mock-img-3 { background: url('https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&q=80') center/cover; }
+.testimonial-photo {
+    background: linear-gradient(135deg, #c5d4ed, #003383);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* ============================================================
+   HERO SLIDER (3 slides con cross-fade + animaciones stagger)
+   ============================================================ */
+.hero-slider {
+    position: relative;
+    width: 100%;
+    min-height: 92vh;
+    overflow: hidden;
+}
+.hero-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.2s ease-in-out, visibility 0s linear 1.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-slide.is-active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1.2s ease-in-out, visibility 0s linear 0s;
+    z-index: 2;
+}
+.hero-slide-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.05);
+    transition: transform 8s ease-out;
+}
+.hero-slide.is-active .hero-slide-bg {
+    transform: scale(1);
+}
+.hero-slide-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 17, 51, 0.55) 0%, rgba(0, 26, 74, 0.15) 40%, rgba(0, 17, 51, 0.92) 100%);
+}
+.hero-slide-content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 1024px;
+    padding: 6rem 1.5rem 11rem;
+    color: white;
+    width: 100%;
+}
+
+/* Slide content animations — solo se disparan al ser activa */
+.hero-slide .anim {
+    opacity: 0;
+    transform: translateY(40px);
+}
+.hero-slide.is-active .anim {
+    animation: heroSlideUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.hero-slide.is-active .anim-1 { animation-delay: 0.4s; }
+.hero-slide.is-active .anim-2 { animation-delay: 0.6s; }
+.hero-slide.is-active .anim-3 { animation-delay: 0.8s; }
+.hero-slide.is-active .anim-4 { animation-delay: 1.0s; }
+
+@keyframes heroSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slider controls */
+.hero-dots {
+    position: absolute;
+    bottom: 5.5rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.hero-dot {
+    width: 32px;
+    height: 4px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.35);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+}
+.hero-dot:hover { background: rgba(255, 255, 255, 0.6); }
+.hero-dot.is-active {
+    width: 56px;
+    background: white;
+}
+.hero-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 56px;
+    height: 56px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-size: 28px;
+}
+.hero-arrow:hover {
+    background: rgba(255, 255, 255, 0.22);
+    transform: translateY(-50%) scale(1.05);
+}
+.hero-arrow.prev { left: 2rem; }
+.hero-arrow.next { right: 2rem; }
+@media (max-width: 768px) {
+    .hero-arrow { display: none; }
+    .hero-slide-content { padding: 5rem 1rem 10rem; }
+}
+
+/* Trust badges estáticos (no cambian con el slider) */
+.hero-trust-static {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+/* Backgrounds de cada slide */
+.slide-bg-1 {
+    background-image:
+        linear-gradient(135deg, rgba(0, 51, 131, 0.25) 0%, transparent 50%),
+        url('./images/slide-1-handshake.webp');
+}
+.slide-bg-2 {
+    background-image:
+        linear-gradient(135deg, rgba(0, 51, 131, 0.3) 0%, transparent 60%),
+        url('./images/slide-2-taller.jpg');
+}
+.slide-bg-3 {
+    background-image:
+        linear-gradient(135deg, rgba(0, 51, 131, 0.4) 0%, transparent 60%),
+        url('https://www.comercialhidrobo.com/wp-content/uploads/2025/09/autos-electricos-ecuador-2025-renault-1024x707.webp');
+}
+
+/* Respeta preferencia de movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+    .hero-slide,
+    .hero-slide-bg,
+    .hero-slide .anim {
+        transition: none !important;
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="preview-banner">
+    ⚠ PREVIEW DEMO — Imágenes son placeholders de Unsplash · Header/footer reales vendrán del tema WP · Logos de marcas en estilo texto
+</div>
+
+<div class="mock-shell">[ HEADER ACTUAL DEL SITIO WORDPRESS — no se toca ]</div>
+
+<main>
+
+<!-- 1. HERO SLIDER (3 slides) -->
+<section class="hero-slider" id="heroSlider" aria-roledescription="carousel" aria-label="Comercial Hidrobo — promociones">
+
+    <!-- Slide 1: Inventario / Concesionario -->
+    <div class="hero-slide is-active" data-slide="0" aria-roledescription="slide" aria-label="1 de 3">
+        <div class="hero-slide-bg slide-bg-1"></div>
+        <div class="hero-slide-overlay"></div>
+        <div class="hero-slide-content">
+            <span class="anim anim-1 inline-block ch-glass-strong px-6 py-2 rounded-full text-white text-xs uppercase tracking-[0.25em] mb-8 font-label font-semibold">
+                Desde 1974 · Distribuidor oficial
+            </span>
+            <h1 class="anim anim-2 text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-[1.05]">
+                Concesionario de autos nuevos<br>en el norte del Ecuador
+            </h1>
+            <p class="anim anim-3 text-lg md:text-xl text-white/85 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Distribuidor oficial de 12 marcas: Nissan, Toyota, Renault, Mazda, Jeep, RAM, Fiat, Chery, Changan, DongFeng, BAIC y Foton.<br class="hidden md:inline">
+                Sucursales en Ibarra, Otavalo y Quito. Más de 50 años acompañándote en la carretera.
+            </p>
+            <div class="anim anim-4 flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center">
+                <a href="#" class="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-emerald-900/30 transition-all hover:scale-105">
+                    <span class="material-symbols-outlined">chat</span>
+                    Cotizar por WhatsApp
+                </a>
+                <a href="#" class="ch-glass-strong inline-flex items-center justify-center gap-3 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-ch-primary transition-all hover:scale-105">
+                    Ver inventario
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Taller -->
+    <div class="hero-slide" data-slide="1" aria-roledescription="slide" aria-label="2 de 3">
+        <div class="hero-slide-bg slide-bg-2"></div>
+        <div class="hero-slide-overlay"></div>
+        <div class="hero-slide-content">
+            <span class="anim anim-1 inline-block ch-glass-strong px-6 py-2 rounded-full text-white text-xs uppercase tracking-[0.25em] mb-8 font-label font-semibold">
+                Servicio postventa certificado
+            </span>
+            <h1 class="anim anim-2 text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-[1.05]">
+                Tu auto en manos<br>de quienes saben
+            </h1>
+            <p class="anim anim-3 text-lg md:text-xl text-white/85 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Taller certificado por las marcas que vendemos. Técnicos capacitados por las casas matrices, repuestos genuinos y diagnóstico computarizado para mantener tu garantía de fábrica.
+            </p>
+            <div class="anim anim-4 flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center">
+                <a href="#" class="inline-flex items-center justify-center gap-3 bg-ch-primary hover:bg-ch-primary-dark text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-ch-primary/30 transition-all hover:scale-105">
+                    <span class="material-symbols-outlined">event</span>
+                    Agendar cita en el taller
+                </a>
+                <a href="#" class="ch-glass-strong inline-flex items-center justify-center gap-3 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-ch-primary transition-all hover:scale-105">
+                    Ver servicios
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Plan Exonerados -->
+    <div class="hero-slide" data-slide="2" aria-roledescription="slide" aria-label="3 de 3">
+        <div class="hero-slide-bg slide-bg-3"></div>
+        <div class="hero-slide-overlay"></div>
+        <div class="hero-slide-content">
+            <span class="anim anim-1 inline-block ch-glass-strong px-6 py-2 rounded-full text-white text-xs uppercase tracking-[0.25em] mb-8 font-label font-semibold">
+                Plan Exonerados · Comercial Hidrobo
+            </span>
+            <h1 class="anim anim-2 text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-[1.05]">
+                Tu movilidad<br>es un derecho
+            </h1>
+            <p class="anim anim-3 text-lg md:text-xl text-white/85 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Asesoría personalizada en el Plan Exonerados para personas con discapacidad y adultos mayores. Nosotros nos encargamos del trámite para que estrenes tu vehículo con beneficios tributarios.
+            </p>
+            <div class="anim anim-4 flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center">
+                <a href="#" class="inline-flex items-center justify-center gap-3 bg-ch-primary hover:bg-ch-primary-dark text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-ch-primary/30 transition-all hover:scale-105">
+                    <span class="material-symbols-outlined">accessible</span>
+                    Conocer el Plan Exonerados
+                </a>
+                <a href="#" class="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-emerald-900/30 transition-all hover:scale-105">
+                    <span class="material-symbols-outlined">chat</span>
+                    Hablar con un asesor
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controles -->
+    <button class="hero-arrow prev" id="heroPrev" aria-label="Slide anterior">
+        <span class="material-symbols-outlined">chevron_left</span>
+    </button>
+    <button class="hero-arrow next" id="heroNext" aria-label="Slide siguiente">
+        <span class="material-symbols-outlined">chevron_right</span>
+    </button>
+
+    <!-- Indicadores -->
+    <div class="hero-dots" role="tablist" aria-label="Selector de slides">
+        <button class="hero-dot is-active" data-dot="0" role="tab" aria-label="Ir al slide 1" aria-selected="true"></button>
+        <button class="hero-dot" data-dot="1" role="tab" aria-label="Ir al slide 2" aria-selected="false"></button>
+        <button class="hero-dot" data-dot="2" role="tab" aria-label="Ir al slide 3" aria-selected="false"></button>
+    </div>
+
+    <!-- Trust badges estáticos (visibles sobre los 3 slides) -->
+    <div class="hero-trust-static">
+        <div class="ch-glass inline-flex flex-wrap justify-center gap-x-10 gap-y-3 px-8 py-4 rounded-full">
+            <span class="flex items-center gap-2 text-white text-sm font-label">
+                <span class="material-symbols-outlined text-base">verified</span> Desde 1974
+            </span>
+            <span class="flex items-center gap-2 text-white text-sm font-label">
+                <span class="material-symbols-outlined text-base">workspace_premium</span> Distribuidor oficial
+            </span>
+            <span class="flex items-center gap-2 text-white text-sm font-label">
+                <span class="material-symbols-outlined text-base">shield</span> Garantía de fábrica
+            </span>
+        </div>
+    </div>
+</section>
+
+<!-- 2. TRUST BAR -->
+<section class="bg-ch-surface py-20 px-6 md:px-12 border-b border-ch-line/30">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+        <div>
+            <div class="text-5xl md:text-6xl font-black text-ch-primary font-headline">50+</div>
+            <div class="text-xs uppercase tracking-[0.2em] text-ch-ink-soft font-label mt-3">Años de trayectoria<br>desde 1974</div>
+        </div>
+        <div>
+            <div class="text-5xl md:text-6xl font-black text-ch-primary font-headline">12</div>
+            <div class="text-xs uppercase tracking-[0.2em] text-ch-ink-soft font-label mt-3">Marcas oficiales<br>que distribuimos</div>
+        </div>
+        <div>
+            <div class="text-5xl md:text-6xl font-black text-ch-primary font-headline">100%</div>
+            <div class="text-xs uppercase tracking-[0.2em] text-ch-ink-soft font-label mt-3">Repuestos genuinos<br>de fábrica</div>
+        </div>
+        <div>
+            <div class="text-5xl md:text-6xl font-black text-ch-primary font-headline">3</div>
+            <div class="text-xs uppercase tracking-[0.2em] text-ch-ink-soft font-label mt-3">Sucursales:<br>Ibarra · Otavalo · Quito</div>
+        </div>
+    </div>
+</section>
+
+<!-- 3. 12 MARCAS -->
+<section class="bg-ch-surface-2 py-28 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="inline-block text-ch-primary font-label font-bold tracking-[0.3em] uppercase text-xs mb-4">12 marcas oficiales</span>
+            <h2 class="text-4xl md:text-5xl font-black mb-4">El portafolio más completo del norte del Ecuador</h2>
+            <p class="text-lg text-ch-ink-soft max-w-2xl mx-auto">
+                Somos concesionario autorizado por 12 casas matrices. Desde compactos y SUVs hasta camionetas de trabajo, tenemos la marca y el modelo que necesitas.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6">
+            <!-- 12 marcas con logos reales de comercialhidrobo.com -->
+            <a href="https://www.comercialhidrobo.com/nissan/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/NISSAN-LOGO.png" alt="Nissan" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Nissan</h3>
+            </a>
+            <a href="https://toyota.comercialhidrobo.com/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/LOGO-TOYOTA.png" alt="Toyota" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Toyota</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/reanult/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/LOGO-RENAUTL.png" alt="Renault" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Renault</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/mazda/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/MAZDA-LOGO.png" alt="Mazda" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Mazda</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/jeep/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2021/11/logo-jeep-450x225-1.jpg" alt="Jeep" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Jeep</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/ram/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/RAM-LOGO.png" alt="RAM" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">RAM</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/fiat/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2021/11/logo-fiat-450x225-1.jpg" alt="Fiat" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Fiat</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/chery/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/LOGO-CHERY.png" alt="Chery" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Chery</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/changan" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2024/09/200X100.png" alt="Changan" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Changan</h3>
+            </a>
+            <a href="https://www.comercialhidrobo.com/donfeng/" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/DF.png" alt="DongFeng" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">DongFeng</h3>
+            </a>
+            <a href="#" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/LOGO-BAC.png" alt="BAIC" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">BAIC</h3>
+            </a>
+            <a href="#" class="group ch-glass-light aspect-square rounded-2xl flex flex-col items-center justify-center p-5 text-center transition-all duration-500 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-ch-primary/10 hover:bg-white">
+                <div class="flex-1 flex items-center justify-center w-full mb-3"><img src="https://www.comercialhidrobo.com/wp-content/uploads/2026/01/LOGO-FOTON-1.png" alt="Foton" class="brand-logo"></div>
+                <h3 class="text-sm md:text-base font-bold text-ch-ink group-hover:text-ch-primary transition-colors">Foton</h3>
+            </a>
+        </div>
+
+        <div class="text-center mt-16">
+            <a href="#" class="inline-flex items-center gap-2 bg-ch-primary hover:bg-ch-primary-dark text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl shadow-ch-primary/20">
+                Explorar todo el inventario
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 4. FINANCIAMIENTO -->
+<section class="bg-ch-surface py-28 px-6 md:px-12 overflow-hidden">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+            <span class="inline-block text-ch-primary font-label font-bold tracking-[0.3em] uppercase text-xs mb-4">Crédito vehicular</span>
+            <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight">Financiamiento que se ajusta a tu realidad</h2>
+            <p class="text-lg text-ch-ink-soft mb-10 leading-relaxed">
+                No tienes que pagar todo al contado. Trabajamos con la banca nacional y planes propios para que estrenes tu auto con cuotas que sí te alcanzan.
+            </p>
+
+            <ul class="space-y-5 mb-10">
+                <li class="flex items-start gap-4">
+                    <span class="material-symbols-outlined text-ch-primary mt-1 flex-shrink-0">check_circle</span>
+                    <div>
+                        <div class="font-bold text-base">Tasa preferencial</div>
+                        <div class="text-ch-ink-soft text-sm">Convenios exclusivos con bancos del Ecuador.</div>
+                    </div>
+                </li>
+                <li class="flex items-start gap-4">
+                    <span class="material-symbols-outlined text-ch-primary mt-1 flex-shrink-0">check_circle</span>
+                    <div>
+                        <div class="font-bold text-base">Aprobación en 24 horas</div>
+                        <div class="text-ch-ink-soft text-sm">Te respondemos al día hábil siguiente.</div>
+                    </div>
+                </li>
+                <li class="flex items-start gap-4">
+                    <span class="material-symbols-outlined text-ch-primary mt-1 flex-shrink-0">check_circle</span>
+                    <div>
+                        <div class="font-bold text-base">Plazos de hasta 60 meses</div>
+                        <div class="text-ch-ink-soft text-sm">Cuotas cómodas según tu perfil de ingresos.</div>
+                    </div>
+                </li>
+                <li class="flex items-start gap-4">
+                    <span class="material-symbols-outlined text-ch-primary mt-1 flex-shrink-0">check_circle</span>
+                    <div>
+                        <div class="font-bold text-base">Entrada desde 0%</div>
+                        <div class="text-ch-ink-soft text-sm">Planes seleccionados sin cuota inicial.</div>
+                    </div>
+                </li>
+            </ul>
+
+            <a href="#" class="inline-flex items-center gap-2 bg-ch-primary hover:bg-ch-primary-dark text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl shadow-ch-primary/20">
+                Solicitar asesoría de financiamiento
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+        </div>
+
+        <div class="relative">
+            <div class="financing-mock-img rounded-3xl shadow-2xl w-full aspect-[4/5] min-h-[500px]"></div>
+            <div class="absolute -bottom-8 -left-8 ch-glass-light p-6 rounded-2xl hidden md:block">
+                <div class="text-ch-primary font-black text-5xl leading-none">0%</div>
+                <div class="text-xs uppercase tracking-widest text-ch-ink-soft font-label mt-2">Entrada en planes<br>seleccionados</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. TALLER -->
+<section class="relative min-h-[80vh] w-full flex items-center overflow-hidden py-20 workshop-mock-bg">
+    <div class="absolute inset-0 bg-gradient-to-r from-ch-ink/85 via-ch-ink/40 to-ch-ink/10"></div>
+    <div class="relative z-10 max-w-7xl w-full mx-auto px-6 md:px-12 flex justify-start">
+        <div class="ch-glass-strong p-10 md:p-14 rounded-3xl max-w-xl text-white">
+            <span class="inline-block text-ch-primary-soft font-label font-bold tracking-[0.3em] uppercase text-xs mb-4">Servicio postventa</span>
+            <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight">Taller certificado por las marcas que vendemos</h2>
+            <p class="text-lg text-white/85 mb-10 leading-relaxed">
+                Tus mantenimientos los hace gente capacitada directamente por las casas matrices. Conservas la garantía de fábrica y la tranquilidad de saber que tu auto está en manos correctas.
+            </p>
+            <ul class="space-y-3 mb-10">
+                <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ch-primary-soft">check_circle</span> Diagnóstico computarizado</li>
+                <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ch-primary-soft">check_circle</span> Repuestos genuinos</li>
+                <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ch-primary-soft">check_circle</span> Garantía en cada servicio</li>
+                <li class="flex items-center gap-3"><span class="material-symbols-outlined text-ch-primary-soft">check_circle</span> Técnicos certificados por la marca</li>
+            </ul>
+            <a href="#" class="inline-flex items-center gap-2 bg-white hover:bg-ch-primary hover:text-white text-ch-primary px-8 py-4 rounded-full font-bold transition-all hover:scale-105">
+                Agendar cita en el taller
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 6. REPUESTOS -->
+<section class="bg-ch-surface-2 py-28 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        <div class="order-2 lg:order-1">
+            <div class="parts-mock-img rounded-3xl shadow-xl w-full aspect-[4/3] min-h-[400px]"></div>
+        </div>
+        <div class="order-1 lg:order-2">
+            <span class="inline-block text-ch-primary font-label font-bold tracking-[0.3em] uppercase text-xs mb-4">Garantía de origen</span>
+            <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight">Repuestos genuinos para tu vehículo</h2>
+            <p class="text-lg text-ch-ink-soft mb-10 leading-relaxed">
+                Cada componente que vendemos cumple las especificaciones exactas del fabricante. Las alternativas genéricas pueden anular tu garantía y comprometer la seguridad. Aquí no.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 bg-ch-primary hover:bg-ch-primary-dark text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl shadow-ch-primary/20">
+                Solicitar un repuesto
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 7. TESTIMONIOS -->
+<section class="bg-ch-surface py-28 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="inline-block text-ch-primary font-label font-bold tracking-[0.3em] uppercase text-xs mb-4">Lo que dicen nuestros clientes</span>
+            <h2 class="text-4xl md:text-5xl font-black">Clientes que ya manejan con nosotros</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="ch-glass-light p-10 rounded-3xl flex flex-col">
+                <span class="material-symbols-outlined text-ch-primary text-5xl mb-6">format_quote</span>
+                <p class="text-lg leading-relaxed italic text-ch-ink mb-8 flex-1">"Compré mi Duster acá hace tres años. La atención fue clara desde el primer día y el taller siempre me cumple los tiempos. Vale la pena la lealtad."</p>
+                <div class="flex items-center gap-4">
+                    <div class="testimonial-photo w-14 h-14 rounded-full">MA</div>
+                    <div>
+                        <div class="font-bold text-base">María Andrade</div>
+                        <div class="text-xs uppercase tracking-widest text-ch-ink-soft font-label">Ingeniera Agrónoma</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ch-glass-light p-10 rounded-3xl flex flex-col">
+                <span class="material-symbols-outlined text-ch-primary text-5xl mb-6">format_quote</span>
+                <p class="text-lg leading-relaxed italic text-ch-ink mb-8 flex-1">"Me ayudaron a estructurar el crédito en cuotas que sí podía pagar. Sin sorpresas, sin letra chica."</p>
+                <div class="flex items-center gap-4">
+                    <div class="testimonial-photo w-14 h-14 rounded-full">CP</div>
+                    <div>
+                        <div class="font-bold text-base">Carlos Pozo</div>
+                        <div class="text-xs uppercase tracking-widest text-ch-ink-soft font-label">Comerciante</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ch-glass-light p-10 rounded-3xl flex flex-col">
+                <span class="material-symbols-outlined text-ch-primary text-5xl mb-6">format_quote</span>
+                <p class="text-lg leading-relaxed italic text-ch-ink mb-8 flex-1">"El servicio post-venta es lo que los diferencia. Cualquier consulta por WhatsApp y me contestan el mismo día."</p>
+                <div class="flex items-center gap-4">
+                    <div class="testimonial-photo w-14 h-14 rounded-full">FC</div>
+                    <div>
+                        <div class="font-bold text-base">Fernanda Cevallos</div>
+                        <div class="text-xs uppercase tracking-widest text-ch-ink-soft font-label">Médica</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 8. FAQ -->
+<section class="bg-ch-surface-2 py-28 px-6 md:px-12">
+    <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="inline-block text-ch-primary font-label font-bold tracking-[0.3em] uppercase text-xs mb-4">Resolvemos tus dudas</span>
+            <h2 class="text-4xl md:text-5xl font-black">Preguntas frecuentes</h2>
+        </div>
+        <div class="space-y-4">
+            <details class="ch-glass-light rounded-2xl overflow-hidden" open>
+                <summary class="flex justify-between items-center p-6 md:p-8">
+                    <span class="font-bold text-base md:text-lg pr-4">¿Qué necesito para financiar mi auto en Comercial Hidrobo?</span>
+                    <span class="material-symbols-outlined ch-faq-icon text-ch-primary flex-shrink-0">expand_more</span>
+                </summary>
+                <div class="px-6 md:px-8 pb-8 text-ch-ink-soft leading-relaxed">
+                    Cédula vigente, planilla de servicios básicos del último mes y rol de pagos o certificado de ingresos de los últimos 3 meses. Si eres independiente, declaraciones del SRI también sirven. Aprobamos el crédito en 24 horas hábiles.
+                </div>
+            </details>
+            <details class="ch-glass-light rounded-2xl overflow-hidden">
+                <summary class="flex justify-between items-center p-6 md:p-8">
+                    <span class="font-bold text-base md:text-lg pr-4">¿Aceptan mi auto usado como parte de pago?</span>
+                    <span class="material-symbols-outlined ch-faq-icon text-ch-primary flex-shrink-0">expand_more</span>
+                </summary>
+                <div class="px-6 md:px-8 pb-8 text-ch-ink-soft leading-relaxed">
+                    Sí. Hacemos avalúo gratuito de tu vehículo actual y descontamos su valor de la entrada o cuotas. Trae los documentos del auto (matrícula, último pago de impuestos) y lo evaluamos el mismo día.
+                </div>
+            </details>
+            <details class="ch-glass-light rounded-2xl overflow-hidden">
+                <summary class="flex justify-between items-center p-6 md:p-8">
+                    <span class="font-bold text-base md:text-lg pr-4">¿Qué garantía tiene un auto nuevo de Comercial Hidrobo?</span>
+                    <span class="material-symbols-outlined ch-faq-icon text-ch-primary flex-shrink-0">expand_more</span>
+                </summary>
+                <div class="px-6 md:px-8 pb-8 text-ch-ink-soft leading-relaxed">
+                    Todos los vehículos nuevos llevan la garantía oficial del fabricante (entre 3 y 5 años o cierto kilometraje, según marca). Mantienes la garantía siempre que hagas los mantenimientos en taller certificado.
+                </div>
+            </details>
+            <details class="ch-glass-light rounded-2xl overflow-hidden">
+                <summary class="flex justify-between items-center p-6 md:p-8">
+                    <span class="font-bold text-base md:text-lg pr-4">¿Dónde están sus sucursales?</span>
+                    <span class="material-symbols-outlined ch-faq-icon text-ch-primary flex-shrink-0">expand_more</span>
+                </summary>
+                <div class="px-6 md:px-8 pb-8 text-ch-ink-soft leading-relaxed">
+                    Tenemos tres puntos físicos: Ibarra (matriz), Otavalo y Quito. Si vives en otra ciudad, también te atendemos por WhatsApp y coordinamos la entrega del vehículo a tu localidad.
+                </div>
+            </details>
+            <details class="ch-glass-light rounded-2xl overflow-hidden">
+                <summary class="flex justify-between items-center p-6 md:p-8">
+                    <span class="font-bold text-base md:text-lg pr-4">¿Hacen entregas a otras ciudades del Ecuador?</span>
+                    <span class="material-symbols-outlined ch-faq-icon text-ch-primary flex-shrink-0">expand_more</span>
+                </summary>
+                <div class="px-6 md:px-8 pb-8 text-ch-ink-soft leading-relaxed">
+                    Sí. Coordinamos transporte y trámites para entregar tu auto en cualquier ciudad del país. El servicio incluye matriculación y orientación sobre el taller más cercano.
+                </div>
+            </details>
+            <details class="ch-glass-light rounded-2xl overflow-hidden">
+                <summary class="flex justify-between items-center p-6 md:p-8">
+                    <span class="font-bold text-base md:text-lg pr-4">¿Tienen taller para vehículos de otras marcas?</span>
+                    <span class="material-symbols-outlined ch-faq-icon text-ch-primary flex-shrink-0">expand_more</span>
+                </summary>
+                <div class="px-6 md:px-8 pb-8 text-ch-ink-soft leading-relaxed">
+                    Nuestro taller es certificado para las marcas que distribuimos. Para otras marcas podemos hacer servicios básicos (cambio de aceite, frenos, neumáticos), pero recomendamos taller especializado para mantenimientos mayores.
+                </div>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- 9. BLOG -->
+<section class="bg-ch-surface py-28 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-4 mb-12">
+            <div>
+                <span class="inline-block text-ch-primary font-label font-bold tracking-[0.3em] uppercase text-xs mb-3">Blog</span>
+                <h2 class="text-4xl md:text-5xl font-black">Novedades del sector</h2>
+                <p class="text-ch-ink-soft mt-3 max-w-xl">Información útil para conductores en Ecuador: lanzamientos, mantenimiento, financiamiento y más.</p>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-ch-primary font-bold border-b-2 border-ch-primary pb-1 self-start md:self-end">
+                Ver todo el blog
+                <span class="material-symbols-outlined text-base">arrow_forward</span>
+            </a>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <a href="#" class="group block">
+                <div class="overflow-hidden rounded-2xl mb-5 aspect-[16/10]">
+                    <div class="blog-mock-img-1 w-full h-full group-hover:scale-110 transition-transform duration-700"></div>
+                </div>
+                <span class="text-xs uppercase tracking-widest text-ch-primary font-bold">Financiamiento</span>
+                <h3 class="text-xl font-bold mt-3 mb-3 leading-tight group-hover:text-ch-primary transition-colors">Requisitos actualizados para crédito vehicular en Ecuador 2026</h3>
+                <p class="text-ch-ink-soft line-clamp-2 text-sm leading-relaxed">Te contamos cómo se está aprobando hoy un crédito de auto, qué documentos te van a pedir y cuáles son los plazos reales...</p>
+            </a>
+            <a href="#" class="group block">
+                <div class="overflow-hidden rounded-2xl mb-5 aspect-[16/10]">
+                    <div class="blog-mock-img-2 w-full h-full group-hover:scale-110 transition-transform duration-700"></div>
+                </div>
+                <span class="text-xs uppercase tracking-widest text-ch-primary font-bold">Lanzamientos</span>
+                <h3 class="text-xl font-bold mt-3 mb-3 leading-tight group-hover:text-ch-primary transition-colors">Renault Duster 2026: lo que cambió y por qué sigue siendo el SUV más vendido</h3>
+                <p class="text-ch-ink-soft line-clamp-2 text-sm leading-relaxed">Revisamos a fondo la nueva versión del Duster, el SUV con mejor relación precio-prestaciones del mercado ecuatoriano...</p>
+            </a>
+            <a href="#" class="group block">
+                <div class="overflow-hidden rounded-2xl mb-5 aspect-[16/10]">
+                    <div class="blog-mock-img-3 w-full h-full group-hover:scale-110 transition-transform duration-700"></div>
+                </div>
+                <span class="text-xs uppercase tracking-widest text-ch-primary font-bold">Mantenimiento</span>
+                <h3 class="text-xl font-bold mt-3 mb-3 leading-tight group-hover:text-ch-primary transition-colors">Cada cuánto debes hacer el cambio de aceite en clima de sierra</h3>
+                <p class="text-ch-ink-soft line-clamp-2 text-sm leading-relaxed">Las condiciones de altura y carretera del norte del Ecuador exigen un mantenimiento diferente al estándar...</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 10. CTA FINAL -->
+<section class="relative cta-final-mock py-32 px-6 overflow-hidden">
+    <div class="relative z-10 max-w-4xl mx-auto">
+        <div class="ch-glass-strong rounded-[2.5rem] p-12 md:p-20 text-center text-white">
+            <h2 class="text-4xl md:text-6xl font-black mb-6 leading-tight">¿Listo para llevarte tu próximo auto?</h2>
+            <p class="text-lg md:text-xl text-white/85 mb-12 max-w-2xl mx-auto leading-relaxed">
+                Habla directo con un asesor o recorre nuestro inventario completo. Estamos para ayudarte.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center">
+                <a href="#" class="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-10 py-5 rounded-full font-bold text-lg shadow-xl transition-all hover:scale-105">
+                    <span class="material-symbols-outlined">chat</span>
+                    Cotizar por WhatsApp
+                </a>
+                <a href="#" class="ch-glass inline-flex items-center justify-center gap-3 text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-ch-primary transition-all hover:scale-105">
+                    Ver inventario completo
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<div class="mock-shell">[ FOOTER ACTUAL DEL SITIO WORDPRESS — no se toca ]</div>
+
+<script>
+// ===== Hero Slider =====
+(function() {
+    const slider = document.getElementById('heroSlider');
+    if (!slider) return;
+
+    const slides = slider.querySelectorAll('.hero-slide');
+    const dots = slider.querySelectorAll('.hero-dot');
+    const prevBtn = document.getElementById('heroPrev');
+    const nextBtn = document.getElementById('heroNext');
+    const autoplayDelay = 7000;
+
+    let currentIndex = 0;
+    let autoplayTimer = null;
+
+    function goToSlide(idx) {
+        currentIndex = (idx + slides.length) % slides.length;
+        slides.forEach((slide, i) => {
+            const isActive = i === currentIndex;
+            slide.classList.toggle('is-active', isActive);
+        });
+        dots.forEach((dot, i) => {
+            const isActive = i === currentIndex;
+            dot.classList.toggle('is-active', isActive);
+            dot.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+    }
+
+    function next() { goToSlide(currentIndex + 1); }
+    function prev() { goToSlide(currentIndex - 1); }
+
+    function startAutoplay() {
+        stopAutoplay();
+        autoplayTimer = setInterval(next, autoplayDelay);
+    }
+    function stopAutoplay() {
+        if (autoplayTimer) {
+            clearInterval(autoplayTimer);
+            autoplayTimer = null;
+        }
+    }
+
+    function resetAutoplay() {
+        stopAutoplay();
+        startAutoplay();
+    }
+
+    nextBtn.addEventListener('click', () => { next(); resetAutoplay(); });
+    prevBtn.addEventListener('click', () => { prev(); resetAutoplay(); });
+
+    dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => { goToSlide(i); resetAutoplay(); });
+    });
+
+    slider.addEventListener('mouseenter', stopAutoplay);
+    slider.addEventListener('mouseleave', startAutoplay);
+
+    // Pausa cuando la pestaña no está visible (ahorra batería)
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stopAutoplay();
+        else startAutoplay();
+    });
+
+    // Soporte de teclado (flechas izquierda/derecha cuando el slider está enfocado)
+    slider.setAttribute('tabindex', '0');
+    slider.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') { prev(); resetAutoplay(); }
+        if (e.key === 'ArrowRight') { next(); resetAutoplay(); }
+    });
+
+    // Soporte de swipe en móvil
+    let touchStartX = null;
+    slider.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+    slider.addEventListener('touchend', (e) => {
+        if (touchStartX === null) return;
+        const touchEndX = e.changedTouches[0].clientX;
+        const diff = touchStartX - touchEndX;
+        if (Math.abs(diff) > 50) {
+            if (diff > 0) next();
+            else prev();
+            resetAutoplay();
+        }
+        touchStartX = null;
+    }, { passive: true });
+
+    // Respeta prefers-reduced-motion: no autoplay
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduceMotion) {
+        startAutoplay();
+    }
+})();
+</script>
+
+</body>
+</html>

@@ -167,3 +167,14 @@ deployment:
     - chmod 644 $BASEPATH/reina-de-otavalo/media-kit-2026/*.php
     - find $BASEPATH/reina-de-otavalo/media-kit-2026/assets -type f -exec chmod 644 {} \; 2>/dev/null || true
     - find $BASEPATH/reina-de-otavalo/media-kit-2026/pdf -type f -exec chmod 644 {} \; 2>/dev/null || true
+    # Crear estructura Comercial Hidrobo Nueva Home (preview publico)
+    - /bin/mkdir -p $BASEPATH/comercial-hidrobo/nueva-home/images
+    - chmod 755 $BASEPATH/comercial-hidrobo/nueva-home
+    - chmod 755 $BASEPATH/comercial-hidrobo/nueva-home/images
+    # Deploy nueva home (preview standalone + assets)
+    - /bin/cp -f comercial-hidrobo/nueva-home/preview.html $BASEPATH/comercial-hidrobo/nueva-home/
+    - /bin/cp -f comercial-hidrobo/nueva-home/preview.html $BASEPATH/comercial-hidrobo/nueva-home/index.html
+    - /bin/cp -rf comercial-hidrobo/nueva-home/images/. $BASEPATH/comercial-hidrobo/nueva-home/images/ 2>/dev/null || true
+    # Permisos
+    - chmod 644 $BASEPATH/comercial-hidrobo/nueva-home/*.html
+    - find $BASEPATH/comercial-hidrobo/nueva-home/images -type f -exec chmod 644 {} \; 2>/dev/null || true
