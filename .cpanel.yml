@@ -14,6 +14,7 @@ deployment:
     - /bin/cp -f comercial-hidrobo/marzo-2026/index.php $BASEPATH/comercial-hidrobo/marzo-2026/
     - /bin/cp -f comercial-hidrobo/marzo-2026/login.php $BASEPATH/comercial-hidrobo/marzo-2026/
     - /bin/cp -f comercial-hidrobo/marzo-2026/logout.php $BASEPATH/comercial-hidrobo/marzo-2026/
+    - /bin/cp -f comercial-hidrobo/marzo-2026/avance-mayo.php $BASEPATH/comercial-hidrobo/marzo-2026/
     # Deploy Global Trading
     - /bin/cp -f global-trading/marzo-2026/.htaccess $BASEPATH/global-trading/marzo-2026/
     - /bin/cp -f global-trading/marzo-2026/index.php $BASEPATH/global-trading/marzo-2026/
