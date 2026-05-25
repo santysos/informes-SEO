@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="es-EC">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dimapar · Playbook de implementación en Elementor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --surface-deep:#060B17; --surface-base:#0A0E1A;
+  --surface-elevated:#111827; --surface-panel:#1F2937;
+  --surface-line:#334155;
+  --brand-400:#22D3EE; --brand-500:#06B6D4; --brand-deep:#0369A1;
+  --fg:#FAFAFA; --fg-sec:#D1D5DB; --fg-mut:#9CA3AF;
+  --glass-default:rgba(255,255,255,0.06);
+  --glass-cyan:rgba(34,211,238,0.08);
+  --glass-border:rgba(255,255,255,0.10);
+  --glass-border-hi:rgba(34,211,238,0.20);
+}
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;
+  background:
+    radial-gradient(900px 600px at 80% -10%, rgba(34,211,238,0.10), transparent 60%),
+    var(--surface-base);
+  color:var(--fg);
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:880px;margin:0 auto;padding:64px 24px 120px}
+header.top{
+  display:flex;align-items:center;gap:14px;
+  padding-bottom:32px;margin-bottom:48px;
+  border-bottom:1px solid var(--glass-border);
+}
+.logo{
+  width:42px;height:42px;border-radius:10px;
+  background:linear-gradient(135deg,var(--brand-500),var(--brand-deep));
+  display:grid;place-items:center;color:#fff;
+  box-shadow:0 0 20px rgba(34,211,238,.25), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.logo svg{width:22px;height:22px}
+.title-block h1{
+  font-family:'Outfit',sans-serif;font-weight:800;
+  font-size:36px;line-height:1.05;letter-spacing:-0.02em;margin:0;
+}
+.title-block p{
+  margin:6px 0 0;color:var(--fg-mut);font-size:14px;
+  font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.12em;
+}
+
+.intro{
+  background:var(--glass-default);
+  border:1px solid var(--glass-border);
+  border-radius:16px;padding:24px;margin-bottom:48px;
+  font-size:15px;color:var(--fg-sec);
+}
+.intro strong{color:var(--fg)}
+
+h2.step{
+  font-family:'Outfit',sans-serif;font-weight:700;
+  font-size:24px;letter-spacing:-0.01em;
+  margin:64px 0 8px;display:flex;align-items:center;gap:14px;
+  scroll-margin-top:24px;
+}
+h2.step .num{
+  display:inline-grid;place-items:center;
+  width:36px;height:36px;border-radius:10px;
+  background:var(--glass-cyan);border:1px solid var(--glass-border-hi);
+  color:var(--brand-400);
+  font-family:'JetBrains Mono',monospace;font-weight:600;font-size:14px;
+}
+h2.step + p.lede{color:var(--fg-mut);margin:0 0 24px;font-size:15px}
+
+h3{
+  font-family:'Outfit',sans-serif;font-weight:600;
+  font-size:18px;letter-spacing:-0.01em;
+  margin:32px 0 12px;color:var(--fg);
+}
+h4{
+  font-family:'JetBrains Mono',monospace;font-weight:500;
+  font-size:11px;text-transform:uppercase;letter-spacing:0.15em;
+  color:var(--brand-400);margin:24px 0 8px;
+}
+
+p{margin:0 0 12px;color:var(--fg-sec)}
+ul, ol{padding-left:20px;margin:0 0 16px}
+li{margin-bottom:8px;color:var(--fg-sec)}
+li > strong{color:var(--fg)}
+kbd{
+  font-family:'JetBrains Mono',monospace;font-size:12px;
+  padding:2px 8px;border-radius:6px;
+  background:var(--glass-default);border:1px solid var(--glass-border);
+  color:var(--fg);
+}
+.path{
+  font-family:'JetBrains Mono',monospace;font-size:13px;
+  padding:1px 8px;border-radius:6px;
+  background:rgba(34,211,238,0.10);
+  color:var(--brand-400);
+  border:1px solid var(--glass-border-hi);
+  white-space:nowrap;
+}
+
+pre{
+  background:#05080F;
+  border:1px solid var(--glass-border);
+  border-radius:12px;
+  padding:20px;margin:16px 0;
+  overflow-x:auto;
+  font-family:'JetBrains Mono',monospace;font-size:13px;
+  line-height:1.7;color:#CBD5E1;
+}
+pre .c{color:#64748B;font-style:italic}
+pre .k{color:#67E8F9}
+pre .v{color:#A78BFA}
+pre .s{color:#86EFAC}
+pre .p{color:#F8FAFC}
+
+table{
+  width:100%;border-collapse:collapse;margin:16px 0 24px;
+  font-size:14px;
+}
+table th, table td{
+  text-align:left;padding:12px 14px;
+  border-bottom:1px solid var(--glass-border);
+}
+table th{
+  background:var(--glass-default);
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;
+  text-transform:uppercase;letter-spacing:0.12em;color:var(--fg-mut);
+  border-top:1px solid var(--glass-border);
+}
+table th:first-child{border-top-left-radius:8px}
+table th:last-child{border-top-right-radius:8px}
+table td{color:var(--fg-sec)}
+table td:first-child{color:var(--fg);font-weight:500}
+table code{
+  font-family:'JetBrains Mono',monospace;font-size:12px;
+  background:var(--glass-default);padding:1px 6px;border-radius:4px;
+  color:var(--brand-400);
+}
+
+.callout{
+  display:flex;gap:14px;align-items:flex-start;
+  background:linear-gradient(135deg, rgba(34,211,238,0.07), rgba(255,255,255,0.02));
+  border:1px solid var(--glass-border-hi);
+  border-radius:12px;padding:16px 18px;margin:16px 0;
+  font-size:14px;
+}
+.callout--warn{
+  background:linear-gradient(135deg, rgba(245,158,11,0.08), rgba(255,255,255,0.02));
+  border-color:rgba(245,158,11,0.30);
+}
+.callout--warn .icon{color:#FBBF24}
+.callout .icon{
+  flex-shrink:0;width:20px;height:20px;color:var(--brand-400);margin-top:2px;
+}
+.callout strong{color:var(--fg);display:block;margin-bottom:4px}
+
+.divider{
+  height:1px;
+  background:linear-gradient(90deg, transparent, var(--glass-border), transparent);
+  margin:64px 0 32px;
+}
+
+.toc{
+  position:sticky;top:24px;
+  background:var(--glass-default);
+  border:1px solid var(--glass-border);
+  border-radius:16px;padding:20px 22px;margin-bottom:48px;
+  backdrop-filter:blur(12px);
+}
+.toc h2{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;
+  text-transform:uppercase;letter-spacing:0.15em;
+  color:var(--fg-mut);margin:0 0 14px;
+}
+.toc ol{
+  margin:0;padding-left:0;list-style:none;
+  display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;
+  counter-reset:tocnum;
+}
+.toc li{
+  counter-increment:tocnum;margin:0;font-size:14px;
+}
+.toc li::before{
+  content:counter(tocnum, decimal-leading-zero);
+  font-family:'JetBrains Mono',monospace;font-size:11px;
+  color:var(--brand-400);margin-right:8px;
+}
+.toc a{color:var(--fg-sec);text-decoration:none;transition:color .2s}
+.toc a:hover{color:var(--brand-400)}
+
+a.inline{color:var(--brand-400);text-decoration:none;border-bottom:1px solid rgba(34,211,238,0.3)}
+a.inline:hover{border-bottom-color:var(--brand-400)}
+
+footer.bottom{
+  margin-top:96px;padding-top:32px;
+  border-top:1px solid var(--glass-border);
+  font-size:13px;color:var(--fg-mut);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+}
+@media (max-width:640px){
+  .toc ol{grid-template-columns:1fr}
+  h2.step{font-size:20px}
+  .title-block h1{font-size:28px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <span class="logo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/>
+      <circle cx="12" cy="12" r="3" fill="currentColor" stroke="none"/>
+    </svg>
+  </span>
+  <div class="title-block">
+    <h1>Playbook · Implementación en Elementor</h1>
+    <p>Dimapar Ecuador · WP 6.9 + WooCommerce + Hello Elementor + Crocoblock</p>
+  </div>
+</header>
+
+<div class="intro">
+  <strong>Este playbook traduce el mockup HTML al stack real.</strong> Asume que ya tienes el preview aprobado y vas a producción. Sigue los pasos en orden — saltarse el setup global hace que el resto se desordene. Tiempo estimado: <strong>16–24 horas</strong> de build + 4–8 de QA.
+</div>
+
+<nav class="toc" aria-label="Pasos">
+  <h2>Pasos</h2>
+  <ol>
+    <li><a href="#step-1">Setup de plugins</a></li>
+    <li><a href="#step-2">Globals (color · tipo · CSS)</a></li>
+    <li><a href="#step-3">Theme Builder · templates</a></li>
+    <li><a href="#step-4">Header sticky + glass</a></li>
+    <li><a href="#step-5">Hero 60/40</a></li>
+    <li><a href="#step-6">Brand bar marquee</a></li>
+    <li><a href="#step-7">Categorías (JetEngine)</a></li>
+    <li><a href="#step-8">Productos destacados</a></li>
+    <li><a href="#step-9">Servicio · pilares · catálogos</a></li>
+    <li><a href="#step-10">CTA + Footer + WhatsApp FAB</a></li>
+    <li><a href="#step-11">Performance + SEO</a></li>
+    <li><a href="#step-12">QA final</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-1"><span class="num">01</span>Setup de plugins</h2>
+<p class="lede">Limpia primero, instala después. La instalación actual tiene basura inactiva que ralentiza todo.</p>
+
+<h3>Desactivar y eliminar</h3>
+<p>Desde <kbd>WP Admin → Plugins</kbd> elimina (no solo desactivar): AirLift, Akismet, Ally, Anti-Malware, Astra Pro, Better Font Awesome, BlogLentor, Editor clásico, Font Awesome viejo, HUSKY, Hustle, Kadence Security, Real3D Flipbook, reCAPTCHA Woo, ShopEngine, Smash Balloon, UAE, WhatsApp Chat NinjaTeam, WPForms Lite, Royal Elementor Addons + Pro, y especialmente <strong>WooCommerce Legacy REST API</strong> (riesgo de seguridad activo).</p>
+
+<h3>Instalar/dejar activos</h3>
+<table>
+  <thead><tr><th>Plugin</th><th>Para qué</th></tr></thead>
+  <tbody>
+    <tr><td>Elementor + Pro</td><td>Builder y Theme Builder (Header/Footer/Single)</td></tr>
+    <tr><td>WooCommerce</td><td>Catálogo, fichas, carrito</td></tr>
+    <tr><td>JetEngine</td><td>Custom fields para fichas técnicas (voltaje, RIN, etc.)</td></tr>
+    <tr><td>JetWooBuilder</td><td>Plantillas Single Product + Archive</td></tr>
+    <tr><td>JetSmartFilters</td><td>Filtros AJAX en archive</td></tr>
+    <tr><td>Rank Math SEO</td><td>Schema, sitemap, meta tags</td></tr>
+  </tbody>
+</table>
+
+<div class="callout callout--warn">
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div><strong>Tema</strong>Activar <strong>Hello Elementor</strong> y desactivar su Header, Footer y Page Title nativos en <kbd>Hello Elementor → Settings</kbd>. Si tenían un tema previo (Astra, Royal), cambiarlo antes de cualquier edición o se rompen los estilos.</div>
+</div>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-2"><span class="num">02</span>Globals: colores, tipografía y CSS</h2>
+<p class="lede">Esto es lo más importante. Si configuras bien los Site Settings, todos los widgets heredan el sistema sin tocarlos uno por uno.</p>
+
+<h3>Site Settings → Global Colors</h3>
+<p><kbd>Hamburguesa Elementor → Site Settings → Global Colors</kbd>. Define estos exactamente:</p>
+<table>
+  <thead><tr><th>Nombre</th><th>Hex</th><th>Uso</th></tr></thead>
+  <tbody>
+    <tr><td>Primary</td><td><code>#06B6D4</code></td><td>CTAs primarios</td></tr>
+    <tr><td>Secondary</td><td><code>#22D3EE</code></td><td>Hover, glow, links</td></tr>
+    <tr><td>Text</td><td><code>#FAFAFA</code></td><td>Texto principal sobre dark</td></tr>
+    <tr><td>Accent</td><td><code>#0369A1</code></td><td>Azul institucional</td></tr>
+    <tr><td>Surface Deep <em>(custom)</em></td><td><code>#060B17</code></td><td>Footer, fondos profundos</td></tr>
+    <tr><td>Surface Base <em>(custom)</em></td><td><code>#0A0E1A</code></td><td>Fondo principal del body</td></tr>
+    <tr><td>Surface Elevated <em>(custom)</em></td><td><code>#111827</code></td><td>Brand bar, secciones alternas</td></tr>
+    <tr><td>Surface Panel <em>(custom)</em></td><td><code>#1F2937</code></td><td>Cards de pilares</td></tr>
+    <tr><td>FG Muted <em>(custom)</em></td><td><code>#9CA3AF</code></td><td>Captions, labels secundarios</td></tr>
+  </tbody>
+</table>
+
+<h3>Site Settings → Global Fonts</h3>
+<p>Cargar Outfit, Inter y JetBrains Mono desde Google Fonts (Elementor lo hace nativamente al elegirlas):</p>
+<table>
+  <thead><tr><th>Slot Elementor</th><th>Familia</th><th>Pesos</th></tr></thead>
+  <tbody>
+    <tr><td>Primary</td><td>Outfit</td><td>700, 800</td></tr>
+    <tr><td>Secondary</td><td>Inter</td><td>500, 600</td></tr>
+    <tr><td>Text</td><td>Inter</td><td>400</td></tr>
+    <tr><td>Accent</td><td>JetBrains Mono</td><td>500, 600</td></tr>
+  </tbody>
+</table>
+
+<h3>Site Settings → Layout</h3>
+<ul>
+  <li><strong>Container width:</strong> 1280 px</li>
+  <li><strong>Widgets default padding:</strong> 0</li>
+  <li><strong>Page Title:</strong> Hide (lo controla cada template)</li>
+</ul>
+
+<h3>Site Settings → Custom CSS</h3>
+<p>Pega este bloque tal cual. Define todas las variables del sistema y las recetas glass/btn que reutilizamos por todo el sitio:</p>
+<pre><span class="c">/* === Dimapar — tokens globales === */</span>
+<span class="k">:root</span> <span class="p">{</span>
+  <span class="v">--surface-deep</span>: <span class="s">#060B17</span>;
+  <span class="v">--surface-base</span>: <span class="s">#0A0E1A</span>;
+  <span class="v">--surface-elevated</span>: <span class="s">#111827</span>;
+  <span class="v">--surface-line</span>: <span class="s">#334155</span>;
+  <span class="v">--brand-400</span>: <span class="s">#22D3EE</span>;
+  <span class="v">--brand-500</span>: <span class="s">#06B6D4</span>;
+  <span class="v">--brand-deep</span>: <span class="s">#0369A1</span>;
+  <span class="v">--fg-primary</span>: <span class="s">#FAFAFA</span>;
+  <span class="v">--fg-muted</span>: <span class="s">#9CA3AF</span>;
+  <span class="v">--glass-default</span>: <span class="s">rgba(255,255,255,0.06)</span>;
+  <span class="v">--glass-cyan</span>: <span class="s">rgba(34,211,238,0.08)</span>;
+  <span class="v">--glass-border</span>: <span class="s">rgba(255,255,255,0.10)</span>;
+  <span class="v">--glass-border-hi</span>: <span class="s">rgba(34,211,238,0.20)</span>;
+  <span class="v">--shadow-glow-cyan</span>: <span class="s">0 0 40px rgba(34,211,238,0.15)</span>;
+<span class="p">}</span>
+
+<span class="c">/* Glass reutilizable — usar como CSS Class en cualquier Container */</span>
+<span class="k">.glass-card</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">var(--glass-default)</span>;
+  <span class="v">backdrop-filter</span>: <span class="s">blur(20px) saturate(180%)</span>;
+  <span class="v">-webkit-backdrop-filter</span>: <span class="s">blur(20px) saturate(180%)</span>;
+  <span class="v">border</span>: <span class="s">1px solid var(--glass-border)</span>;
+  <span class="v">border-radius</span>: <span class="s">20px</span>;
+  <span class="v">box-shadow</span>: <span class="s">inset 0 1px 0 rgba(255,255,255,0.06), 0 10px 40px rgba(0,0,0,0.4)</span>;
+<span class="p">}</span>
+<span class="k">.glass-card--cyan</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">linear-gradient(135deg, rgba(34,211,238,0.10), rgba(255,255,255,0.04))</span>;
+  <span class="v">border-color</span>: <span class="s">var(--glass-border-hi)</span>;
+<span class="p">}</span>
+
+<span class="c">/* Fallback para Firefox antiguo */</span>
+<span class="k">@supports not (backdrop-filter: blur(20px))</span> <span class="p">{</span>
+  <span class="k">.glass-card</span> <span class="p">{</span> <span class="v">background</span>: <span class="s">rgba(17,24,39,0.85)</span>; <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c">/* Botón WhatsApp — clase CSS para el widget Button */</span>
+<span class="k">.btn-whatsapp .elementor-button</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">#25D366 !important</span>;
+  <span class="v">color</span>: <span class="s">#052613 !important</span>;
+  <span class="v">box-shadow</span>: <span class="s">0 4px 20px rgba(37,211,102,0.30)</span>;
+<span class="p">}</span>
+
+<span class="c">/* Botón primary con gradient cyan */</span>
+<span class="k">.btn-cyan .elementor-button</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">linear-gradient(135deg, #06B6D4, #22D3EE) !important</span>;
+  <span class="v">color</span>: <span class="s">#052028 !important</span>;
+  <span class="v">box-shadow</span>: <span class="s">0 4px 20px rgba(34,211,238,0.30)</span>;
+  <span class="v">transition</span>: <span class="s">box-shadow .25s</span>;
+<span class="p">}</span>
+<span class="k">.btn-cyan .elementor-button:hover</span> <span class="p">{</span>
+  <span class="v">box-shadow</span>: <span class="s">0 8px 30px rgba(34,211,238,0.50)</span>;
+<span class="p">}</span>
+
+<span class="c">/* Eyebrow mono uppercase — clase para Headings */</span>
+<span class="k">.eyebrow</span> <span class="p">{</span>
+  <span class="v">font-family</span>: <span class="s">'JetBrains Mono', monospace</span>;
+  <span class="v">font-size</span>: <span class="s">12px !important</span>;
+  <span class="v">text-transform</span>: <span class="s">uppercase</span>;
+  <span class="v">letter-spacing</span>: <span class="s">0.15em</span>;
+  <span class="v">color</span>: <span class="s">var(--brand-400) !important</span>;
+<span class="p">}</span>
+
+<span class="c">/* Page-wide */</span>
+<span class="k">body</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">var(--surface-base)</span>;
+  <span class="v">color</span>: <span class="s">var(--fg-primary)</span>;
+<span class="p">}</span>
+
+<span class="c">/* Reduced motion */</span>
+<span class="k">@media (prefers-reduced-motion: reduce)</span> <span class="p">{</span>
+  <span class="k">*</span> <span class="p">{</span> <span class="v">animation-duration</span>: <span class="s">0.01ms !important</span>; <span class="v">transition-duration</span>: <span class="s">0.01ms !important</span>; <span class="p">}</span>
+<span class="p">}</span></pre>
+
+<div class="callout">
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01" stroke-linecap="round"/></svg>
+  <div><strong>Por qué <code>!important</code> en los botones</strong>Elementor inyecta inline styles desde el panel de cada widget. Sin <code>!important</code> tus clases globales se las come.</div>
+</div>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-3"><span class="num">03</span>Theme Builder · templates a crear</h2>
+<p class="lede"><kbd>Templates → Theme Builder</kbd>. Crear estos en este orden:</p>
+
+<table>
+  <thead><tr><th>Template</th><th>Tipo</th><th>Condición</th></tr></thead>
+  <tbody>
+    <tr><td>Header — Global</td><td>Header</td><td>Todo el sitio</td></tr>
+    <tr><td>Footer — Global</td><td>Footer</td><td>Todo el sitio</td></tr>
+    <tr><td>Home — Single Page</td><td>Single Page</td><td>Página de inicio</td></tr>
+    <tr><td>Single Product — Dimapar</td><td>Single Product</td><td>Todos los products</td></tr>
+    <tr><td>Archive — Productos</td><td>Products Archive</td><td>Categoría + tienda</td></tr>
+  </tbody>
+</table>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-4"><span class="num">04</span>Header sticky + glass on scroll</h2>
+<p class="lede">La parte donde Elementor más pelea. Aquí está la receta que funciona.</p>
+
+<h3>Estructura</h3>
+<p>Editar template <strong>Header — Global</strong>. Crear <strong>1 Container flex horizontal</strong> con:</p>
+<ul>
+  <li><strong>Container interno izquierda:</strong> widget <code>Site Logo</code> + Heading "Dimapar" (Outfit 800) + caption eyebrow.</li>
+  <li><strong>Container interno centro:</strong> widget <code>Nav Menu</code> (Elementor Pro) apuntando al menú "Principal Nuevo" (crearlo antes en <kbd>Apariencia → Menús</kbd>).</li>
+  <li><strong>Container interno derecha:</strong> Icon Button buscar + Icon Button carrito + widget <code>Button</code> WhatsApp con CSS Class <code>btn-whatsapp</code>.</li>
+</ul>
+
+<h3>Sticky en Elementor</h3>
+<p>Selecciona el container raíz del header → pestaña <strong>Advanced → Motion Effects</strong>:</p>
+<ul>
+  <li>Sticky: <kbd>Top</kbd></li>
+  <li>Sticky On: <kbd>Desktop + Tablet + Mobile</kbd></li>
+  <li>Effects Offset: <code>40</code> (cuándo se aplica la clase <code>elementor-sticky--effects</code>)</li>
+  <li>Z-Index: <code>50</code></li>
+</ul>
+
+<h3>Glass on scroll</h3>
+<p>Ahora la magia. En <strong>Advanced → CSS</strong> del mismo container, pega:</p>
+<pre><span class="k">selector</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">transparent</span>;
+  <span class="v">transition</span>: <span class="s">background .25s ease, backdrop-filter .25s ease</span>;
+<span class="p">}</span>
+<span class="k">selector.elementor-sticky--effects</span> <span class="p">{</span>
+  <span class="v">background</span>: <span class="s">rgba(10,14,26,0.70) !important</span>;
+  <span class="v">backdrop-filter</span>: <span class="s">blur(20px) saturate(180%)</span>;
+  <span class="v">-webkit-backdrop-filter</span>: <span class="s">blur(20px) saturate(180%)</span>;
+  <span class="v">border-bottom</span>: <span class="s">1px solid rgba(255,255,255,0.10)</span>;
+<span class="p">}</span></pre>
+
+<div class="callout">
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01" stroke-linecap="round"/></svg>
+  <div><strong><code>selector</code> es palabra reservada</strong>En el bloque CSS de Elementor, <code>selector</code> apunta automáticamente al widget/container actual. No lo cambies por una clase manual.</div>
+</div>
+
+<h3>Mega menú "Productos"</h3>
+<p>Usar widget <strong>Nav Menu (Pro)</strong> con la opción nativa <em>Menu Item → CSS Classes → mega-menu</em>. Cada categoría como item con icono SVG inline + descripción + count dinámico (via JetEngine dynamic field si está configurado, o estático para MVP).</p>
+<p>Alternativa más flexible: instalar <strong>JetMenu</strong> (Crocoblock plugin separado, verificar licencia) — soporta containers Elementor dentro del dropdown.</p>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-5"><span class="num">05</span>Hero 60/40</h2>
+<p class="lede">Container con background image + overlay gradient + 2 columnas. La card flotante derecha es un container con clase <code>glass-card</code>.</p>
+
+<h3>Container raíz</h3>
+<ul>
+  <li>Layout: Container flex, dirección horizontal</li>
+  <li>Min-height: <code>88vh</code> desktop, <code>70vh</code> mobile (Custom Units → vh)</li>
+  <li>Background → <strong>Image</strong> (foto del taller que envíe el cliente)
+    <ul>
+      <li>Position: center center</li>
+      <li>Size: cover</li>
+      <li>Attachment: scroll (no fixed — rompe en iOS)</li>
+    </ul>
+  </li>
+  <li>Background Overlay → Gradient: <code>rgba(6,11,23,0.85)</code> → <code>rgba(6,11,23,0.50)</code>, ángulo 90°</li>
+</ul>
+
+<h3>Columna izquierda (60%)</h3>
+<table>
+  <thead><tr><th>Widget</th><th>Config clave</th></tr></thead>
+  <tbody>
+    <tr><td>Heading (eyebrow)</td><td>HTML tag <kbd>p</kbd>, CSS Class <code>eyebrow</code>, texto "Distribuidor oficial · 20+ años"</td></tr>
+    <tr><td>Heading <strong>H1</strong></td><td>HTML tag <kbd>h1</kbd>. Family Outfit 800. Size 60px desktop / 36px mobile. Line-height 1.1. Letter-spacing −0.03em.<br>Texto: <code>"Equipos profesionales para tu taller. &lt;span style='color:#22D3EE'&gt;Marcas líderes. Soporte garantizado.&lt;/span&gt;"</code> — Elementor acepta HTML inline en headings.</td></tr>
+    <tr><td>Text Editor</td><td>Subhead Inter 400, 18px, color <code>--fg-muted</code>, max-width 56ch.</td></tr>
+    <tr><td>Inner container (botones)</td><td>Flex horizontal, gap 12px. Button 1 con CSS Class <code>btn-cyan</code>, Button 2 con clase <code>glass-card</code>.</td></tr>
+    <tr><td>Icon List</td><td>3 items: Garantía 1 año / Soporte técnico / Envíos. Iconos: subir SVGs de Lucide o pegar inline.</td></tr>
+  </tbody>
+</table>
+
+<h3>Columna derecha (40%) — Featured Card</h3>
+<p>Container flex vertical con <strong>CSS Class <code>glass-card</code></strong>. Adentro:</p>
+<ol>
+  <li><strong>Opción dinámica (recomendada):</strong> widget <kbd>JetEngine → Dynamic Listing</kbd> apuntando a productos con tag <code>destacado-hero</code>, modo <em>slider</em>, autoplay off, dots visibles.</li>
+  <li><strong>Opción estática (MVP):</strong> Image + Heading + Text + Button. Cambiar manualmente.</li>
+</ol>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-6"><span class="num">06</span>Brand bar marquee</h2>
+<p class="lede">Esta es la sección más sencilla.</p>
+
+<ul>
+  <li>Section con background <code>--surface-elevated</code>, padding vertical 48px.</li>
+  <li>Heading H2 "Marcas oficiales que distribuimos" centrado, clase <code>eyebrow</code>.</li>
+  <li>Widget <strong>Image Carousel</strong> (Elementor Pro):
+    <ul>
+      <li>Slides per view: 5 desktop / 3 tablet / 2 mobile</li>
+      <li>Autoplay ON, speed 3000ms, infinite loop</li>
+      <li>Pause on hover ON</li>
+      <li>Navigation: ninguna (dots y arrows off — es decorativo)</li>
+    </ul>
+  </li>
+</ul>
+<p>Subir logos como PNG transparente blanco o SVG. CSS Custom para grayscale + hover color:</p>
+<pre><span class="k">selector .swiper-slide img</span> <span class="p">{</span>
+  <span class="v">filter</span>: <span class="s">grayscale(1) opacity(0.7)</span>;
+  <span class="v">transition</span>: <span class="s">filter .25s</span>;
+<span class="p">}</span>
+<span class="k">selector .swiper-slide img:hover</span> <span class="p">{</span> <span class="v">filter</span>: <span class="s">none</span>; <span class="p">}</span></pre>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-7"><span class="num">07</span>Categorías destacadas (JetEngine Listing)</h2>
+<p class="lede">8 cards dinámicas. Una vez configurado no tocas nada — el día que agregues una categoría aparece sola.</p>
+
+<h3>Crear el Listing Item</h3>
+<ol>
+  <li><kbd>JetEngine → Listings → Add New</kbd></li>
+  <li>Source: <strong>Terms</strong>, Tax: <strong>product_cat</strong></li>
+  <li>Diseñar el item (es como una mini-página Elementor):
+    <ul>
+      <li>Container con CSS Class <code>glass-card</code>, padding 24px, min-height 220px, link dinámico a "Term Page URL"</li>
+      <li>Icon (subir SVG por categoría como term meta o usar Icon widget con iconos fijos por slug — JetEngine permite condicionales)</li>
+      <li>Dynamic Field → name → HTML tag <kbd>h3</kbd></li>
+      <li>Dynamic Field → description (term meta)</li>
+      <li>Dynamic Field → posts count, format <code>{value} productos</code>, con clase <code>eyebrow</code></li>
+    </ul>
+  </li>
+</ol>
+
+<h3>En la página Home insertar el grid</h3>
+<ul>
+  <li>Widget <strong>Listing Grid</strong> (JetEngine) → seleccionar el listing creado</li>
+  <li>Columns: 4 desktop / 3 tablet / 2 mobile</li>
+  <li>Posts per page: 8</li>
+  <li>Order: by <em>menu_order</em> (controlas el orden manualmente desde la edición de cada categoría)</li>
+  <li>Equal columns height: ON</li>
+</ul>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-8"><span class="num">08</span>Productos destacados</h2>
+<p class="lede">Mismo patrón que categorías pero apuntando a productos Woo con tag <code>destacado-home</code>.</p>
+
+<ol>
+  <li>En Woo: crear tag <code>destacado-home</code>. Etiquetar 4–6 productos.</li>
+  <li>Crear Listing Item JetEngine, source: WooCommerce Products. Diseñarlo replicando la card del mockup:
+    <ul>
+      <li>Container, background <code>--surface-elevated</code> (sólido, NO glass), border-radius 16px, overflow hidden</li>
+      <li>Container interno media: aspect-ratio 1:1, background <code>#F8FAFC</code> claro, image dinámica del producto</li>
+      <li>Badge "Destacado" condicional (mostrar si product_tag = destacado-hero)</li>
+      <li>Brand: dynamic field del atributo "Marca" con clase <code>eyebrow</code></li>
+      <li>Nombre H3 Outfit 600</li>
+      <li>Specs: 3 chips con dynamic fields de atributos (Voltaje, RIN, etc.)</li>
+      <li>Footer con precio (font-family JetBrains Mono, tabular-nums) + 2 botones icon: ver ficha y WhatsApp</li>
+    </ul>
+  </li>
+  <li>Insertar Listing Grid en home, mode: <strong>Slider</strong>, 4 cards visible desktop / 1.2 mobile.</li>
+</ol>
+
+<h3>Botón WhatsApp con mensaje dinámico</h3>
+<p>El link de cada card debe incluir el nombre del producto. En el Button dinámico del listing:</p>
+<pre><span class="k">URL</span>: <span class="s">https://wa.me/593968663866?text=Consulta%20sobre%20</span><span class="v">{{product_name}}</span></pre>
+<p>Usar el módulo de dynamic tags de Elementor + el formato URL-encoded de JetEngine.</p>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-9"><span class="num">09</span>Servicio técnico · Pilares · Catálogos</h2>
+<p class="lede">Estas tres son estáticas, ningún ítem se repite. Construir directo en la página, sin JetEngine.</p>
+
+<h3>Servicio técnico</h3>
+<ul>
+  <li>Section, 2 columnas 50/50</li>
+  <li>Col izq: Container con clase <code>glass-card glass-card--cyan</code>, contenido en orden: eyebrow → Heading H2 → Icon List (5 items con iconos Lucide y descripción de 2 líneas) → 2 botones (cotización + WhatsApp)</li>
+  <li>Col der: Image widget con la foto del técnico que envíe el cliente. Border-radius 20px, aspect-ratio 1/1.</li>
+</ul>
+
+<h3>Pilares (Por qué Dimapar)</h3>
+<p>Section con background <code>--surface-deep</code>. Inner section con 4 columnas (2x2 en mobile). Cada columna es un widget <strong>Icon Box</strong>:</p>
+<ul>
+  <li>Icon position: top</li>
+  <li>Icon size: 40px, color cyan, fondo glass-cyan rectángulo (vía Advanced CSS)</li>
+  <li>Title: Outfit 600 18px</li>
+  <li>Description: Inter 400 14px color muted</li>
+  <li>Card background: <code>--surface-elevated</code>, border 1px <code>--glass-border</code>, padding 32px, radius 16px</li>
+</ul>
+<p>El primer pilar usa el número "20+" en lugar de icono → reemplazar el Icon Box por un widget Heading dentro de un container con misma estética.</p>
+
+<h3>Catálogos PDF</h3>
+<ol>
+  <li><strong>Opción dinámica:</strong> crear CPT "Catálogos" en JetEngine con campos: título, thumbnail, archivo PDF, peso, categoría. Mostrar con Listing Grid.</li>
+  <li><strong>Opción estática (MVP):</strong> Inner Section 3 columnas. Cada una: Image (cover PDF) + Heading + Text + Button "Descargar" linkeando al PDF subido a Media Library.</li>
+</ol>
+<div class="callout">
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01" stroke-linecap="round"/></svg>
+  <div><strong>Nombre de archivo SEO</strong>Subir como <code>dimapar-catalogo-alineadoras-hofmann-2026.pdf</code>, no <code>cat-1.pdf</code>. Y agregar alt text al thumbnail.</div>
+</div>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-10"><span class="num">10</span>CTA asesor · Footer · WhatsApp flotante</h2>
+
+<h3>CTA asesor</h3>
+<ul>
+  <li>Section con ID <code>cotizar</code> (para que los botones <code>href="#cotizar"</code> hagan smooth scroll)</li>
+  <li>Container con clase <code>glass-card glass-card--cyan</code>, padding 64px</li>
+  <li>2 columnas 60/40:
+    <ul>
+      <li>Izq: widget <strong>Form (Elementor Pro Forms)</strong>. Campos: Nombre (required), WhatsApp tipo tel (required), Mensaje textarea. Acciones post-submit: Email a ventas@ + Redirect a página de gracias. Activar reCAPTCHA v3 en Site Settings.</li>
+      <li>Der: heading eyebrow + Heading número WhatsApp en mono 24px + Text "Respuesta en &lt; 1h hábil" + Button verde grande clase <code>btn-whatsapp</code> + Icon List con teléfono, email, dirección.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Footer</h3>
+<ul>
+  <li>Editar template <strong>Footer — Global</strong>.</li>
+  <li>Background <code>--surface-deep</code>, padding-top 80px, padding-bottom 32px.</li>
+  <li>Línea decorativa superior cyan: 1px height, gradient transparent → cyan-400 → transparent (widget Divider con custom CSS o un container vacío con background-image gradient).</li>
+  <li>4 columnas (en mobile 1 col):
+    <ol>
+      <li>Brand: Logo + tagline + descripción + 3 íconos sociales</li>
+      <li>Productos: widget Nav Menu con menú "Footer Productos"</li>
+      <li>Empresa: widget Nav Menu con menú "Footer Empresa"</li>
+      <li>Contacto: Icon List con direccción, WhatsApp, email, horario</li>
+    </ol>
+  </li>
+  <li>Footer bottom: Inner Section flex con copyright a la izq y links legales a la der.</li>
+</ul>
+
+<h3>WhatsApp flotante</h3>
+<p>No usar el plugin "WhatsApp Chat" que tenías — pesa demasiado. Hacerlo nativo:</p>
+<ol>
+  <li>Editar el template <strong>Footer — Global</strong>.</li>
+  <li>Agregar al final un Container con: Position fixed, Bottom 24px, Right 24px, Z-index 40.</li>
+  <li>Adentro: widget Icon Box → icono WhatsApp 28px, fondo verde #25D366, círculo 60x60, sin texto.</li>
+  <li>Link al <code>https://wa.me/593968663866</code> con target _blank.</li>
+  <li>CSS Custom para el pulse animado:</li>
+</ol>
+<pre><span class="k">selector::before</span> <span class="p">{</span>
+  <span class="v">content</span>: <span class="s">""</span>;
+  <span class="v">position</span>: <span class="s">absolute</span>; <span class="v">inset</span>: <span class="s">-6px</span>;
+  <span class="v">border-radius</span>: <span class="s">50%</span>;
+  <span class="v">border</span>: <span class="s">2px solid rgba(37,211,102,0.40)</span>;
+  <span class="v">animation</span>: <span class="s">dpulse 2.2s ease-out infinite</span>;
+<span class="p">}</span>
+<span class="k">@keyframes dpulse</span> <span class="p">{</span>
+  <span class="v">0%</span>   <span class="p">{</span> <span class="v">transform</span>: <span class="s">scale(0.9)</span>; <span class="v">opacity</span>: <span class="s">1</span>; <span class="p">}</span>
+  <span class="v">100%</span> <span class="p">{</span> <span class="v">transform</span>: <span class="s">scale(1.3)</span>; <span class="v">opacity</span>: <span class="s">0</span>; <span class="p">}</span>
+<span class="p">}</span></pre>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-11"><span class="num">11</span>Performance + SEO</h2>
+
+<h3>Imágenes</h3>
+<ul>
+  <li>Instalar el plugin <strong>ShortPixel</strong> o <strong>Imagify</strong>. Configurar conversión automática a WebP + lazy load nativo (no JS).</li>
+  <li>Hero image: marcar como <kbd>Loading: Eager</kbd> en el widget Image. Resto en Lazy.</li>
+  <li>Tamaños WP: editar <kbd>Settings → Media</kbd>. Generar thumbnails 800w / 1600w para el hero.</li>
+</ul>
+
+<h3>Fuentes</h3>
+<ul>
+  <li>Site Settings → Performance: activar <kbd>Load fonts locally</kbd>. Bajan los 3 Google Fonts al servidor y eliminan el roundtrip a fonts.googleapis.</li>
+  <li>Display: swap (Elementor lo aplica por default).</li>
+</ul>
+
+<h3>JS</h3>
+<ul>
+  <li>Site Settings → Features: activar <kbd>Improved Asset Loading</kbd> y <kbd>Optimized DOM Output</kbd>.</li>
+  <li>Plugin extra recomendado: <strong>FlyingPress</strong> o <strong>Perfmatters</strong> para defer + remove unused CSS por página.</li>
+</ul>
+
+<h3>Schema.org</h3>
+<p>Rank Math → Schema → configurar:</p>
+<ul>
+  <li><strong>Organization</strong> a nivel sitio (Rank Math lo hace al setup wizard).</li>
+  <li><strong>WebSite</strong> con SearchAction (Rank Math automático si tienes buscador).</li>
+  <li><strong>BreadcrumbList</strong> activar en Rank Math → General → Breadcrumbs.</li>
+  <li><strong>Product</strong> en cada ficha: viene de WooCommerce, validar en <a class="inline" href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+</ul>
+
+<h3>Sitemap + robots</h3>
+<ul>
+  <li>Rank Math → Sitemap Settings → activar y forzar incluir productos + categorías.</li>
+  <li>Submit en Google Search Console.</li>
+  <li>robots.txt en raíz: <strong>NO bloquear</strong> <code>/wp-content/uploads/</code>.</li>
+</ul>
+
+<!-- ============================================================ -->
+<h2 class="step" id="step-12"><span class="num">12</span>QA final · checklist de cierre</h2>
+
+<h3>Antes de mostrar al cliente</h3>
+<ul>
+  <li>Lighthouse en mobile + desktop. Objetivo: Performance ≥ 75 / A11y ≥ 95 / Best Practices ≥ 90 / SEO ≥ 95.</li>
+  <li>Probar el sticky header en Safari iOS — es donde más rompe.</li>
+  <li>Probar mega-menu con teclado (Tab + Enter + Esc).</li>
+  <li>Validar contraste con axe DevTools en Chrome.</li>
+  <li>Capturas a 375px, 1024px, 1440px del Home + Single Product + Archive.</li>
+  <li>Probar el formulario: que llegue el email a ventas@.</li>
+  <li>Probar WhatsApp en mobile real (no emulador) — el deep link <code>wa.me</code> a veces falla en webview.</li>
+  <li>Revisar que no aparezca el banner "powered by Elementor" en el footer.</li>
+</ul>
+
+<h3>Antes de poner en producción</h3>
+<ul>
+  <li>Backup completo con UpdraftPlus (DB + archivos).</li>
+  <li>Si hay tráfico activo: hacer los cambios en un staging primero. Si no hay staging (es el caso de Dimapar): <strong>modo mantenimiento</strong> con Rank Math 503 page mientras editas.</li>
+  <li>Limpiar caché de WP, Cloudflare si aplica, y CDN.</li>
+  <li>Submit del sitemap actualizado en GSC y avisar a Google del cambio mayor.</li>
+</ul>
+
+<div class="callout">
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke-linecap="round" stroke-linejoin="round"/><path d="m9 11 3 3L22 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div><strong>Tiempo estimado total</strong>Build: 16–24 horas (1 persona, 2–3 días). QA + correcciones: 4–8 horas. Total realista: 3–4 días de trabajo concentrado.</div>
+</div>
+
+<footer class="bottom">
+  <span>Dimapar Ecuador · Playbook v1.0 · 2026</span>
+  <span>Acompaña al mockup <span class="path">Dimapar Home Redesign.html</span></span>
+</footer>
+
+</div>
+</body>
+</html>

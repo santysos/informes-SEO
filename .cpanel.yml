@@ -178,3 +178,14 @@ deployment:
     # Permisos
     - chmod 644 $BASEPATH/comercial-hidrobo/nueva-home/*.html
     - find $BASEPATH/comercial-hidrobo/nueva-home/images -type f -exec chmod 644 {} \; 2>/dev/null || true
+    # Crear estructura Dimapar Redesign Preview (publico)
+    - /bin/mkdir -p $BASEPATH/dimapar/redesign
+    - chmod 755 $BASEPATH/dimapar/redesign
+    # Deploy Dimapar Redesign Preview
+    - /bin/cp -f dimapar/redesign/preview.html $BASEPATH/dimapar/redesign/preview.html
+    - /bin/cp -f dimapar/redesign/preview.html $BASEPATH/dimapar/redesign/index.html
+    - /bin/cp -f dimapar/redesign/elementor-playbook.html $BASEPATH/dimapar/redesign/elementor-playbook.html
+    - /bin/cp -f dimapar/redesign/image-slot.js $BASEPATH/dimapar/redesign/image-slot.js
+    # Permisos Dimapar Redesign
+    - chmod 644 $BASEPATH/dimapar/redesign/*.html
+    - chmod 644 $BASEPATH/dimapar/redesign/*.js
