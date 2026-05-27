@@ -200,3 +200,22 @@ deployment:
     # Permisos Dimapar Diagnostico Tecnico
     - chmod 644 $BASEPATH/dimapar/diagnostico-tecnico/*.php
     - chmod 644 $BASEPATH/dimapar/diagnostico-tecnico/.htaccess
+    # Crear estructura Cotacachi Proforma (con login)
+    - /bin/mkdir -p $BASEPATH/cotacachi/proforma
+    - chmod 755 $BASEPATH/cotacachi
+    - chmod 755 $BASEPATH/cotacachi/proforma
+    # Deploy Cotacachi Proforma
+    - /bin/cp -f cotacachi/proforma/.htaccess $BASEPATH/cotacachi/proforma/
+    - /bin/cp -f cotacachi/proforma/index.php $BASEPATH/cotacachi/proforma/
+    - /bin/cp -f cotacachi/proforma/login.php $BASEPATH/cotacachi/proforma/
+    - /bin/cp -f cotacachi/proforma/logout.php $BASEPATH/cotacachi/proforma/
+    # Permisos Cotacachi Proforma
+    - chmod 644 $BASEPATH/cotacachi/proforma/*.php
+    - chmod 644 $BASEPATH/cotacachi/proforma/.htaccess
+    # Crear estructura Cotacachi Presentacion (publico)
+    - /bin/mkdir -p $BASEPATH/cotacachi/presentacion
+    - chmod 755 $BASEPATH/cotacachi/presentacion
+    # Deploy Cotacachi Presentacion
+    - /bin/cp -f cotacachi/presentacion/index.html $BASEPATH/cotacachi/presentacion/
+    # Permisos Cotacachi Presentacion
+    - chmod 644 $BASEPATH/cotacachi/presentacion/*.html

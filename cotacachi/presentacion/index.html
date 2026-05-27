@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es-EC">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plataforma de Inscripciones Deportivas · Creative Web · Cotacachi 2026</title>
+<meta name="robots" content="noindex, nofollow">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Anton&display=swap" rel="stylesheet">
+<style>
+    :root {
+      --bg-deep: #060D0A;
+      --bg-base: #0F1B16;
+      --bg-elevated: #1A2620;
+      --bg-panel: #243430;
+      --emerald-300: #6EE7B7;
+      --emerald-400: #34D399;
+      --emerald-500: #10B981;
+      --emerald-600: #059669;
+      --gold-400: #FBBF24;
+      --gold-500: #D4A332;
+      --fg: #FAFAFA;
+      --fg-mut: #9CA3AF;
+    }
+    * { font-family: 'Inter', sans-serif; }
+    .font-display { font-family: 'Outfit', sans-serif; letter-spacing: -0.025em; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    .font-trail { font-family: 'Anton', sans-serif; }
+    html, body { height: 100%; overflow: hidden; }
+    body {
+        background: var(--bg-base);
+        color: var(--fg);
+        background-image:
+          radial-gradient(900px 600px at 90% -10%, rgba(16,185,129,0.10), transparent 60%),
+          radial-gradient(700px 500px at -5% 110%, rgba(6,78,59,0.18), transparent 55%);
+    }
+    .slide {
+        min-height: 100vh;
+        padding: 80px 60px;
+        display: none;
+        animation: fadeIn .35s ease;
+    }
+    .slide.active { display: flex; }
+    @keyframes fadeIn { from { opacity:0; transform: translateY(12px); } to { opacity:1; transform:none; } }
+    .glass {
+        background: rgba(255,255,255,0.04);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255,255,255,0.10);
+    }
+    .glass-emerald {
+        background: linear-gradient(135deg, rgba(16,185,129,0.10), rgba(255,255,255,0.02));
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(52,211,153,0.25);
+    }
+    .glass-gold {
+        background: linear-gradient(135deg, rgba(212,163,50,0.10), rgba(255,255,255,0.02));
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(212,163,50,0.30);
+    }
+    .pill {
+        display:inline-flex; align-items:center; gap:6px;
+        padding:6px 14px; border-radius:6px;
+        font-family:'JetBrains Mono',monospace;
+        font-size:11px; font-weight:600;
+        text-transform:uppercase; letter-spacing:0.10em;
+    }
+    .pill-emerald { background:rgba(16,185,129,0.15); color:#6EE7B7; border:1px solid rgba(16,185,129,0.35); }
+    .pill-gold { background:rgba(212,163,50,0.15); color:#FCD34D; border:1px solid rgba(212,163,50,0.35); }
+    .pill-red { background:rgba(239,68,68,0.10); color:#FCA5A5; border:1px solid rgba(239,68,68,0.30); }
+
+    /* Nav controls */
+    .nav-ctrl {
+        position: fixed;
+        bottom: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex; align-items: center; gap: 16px;
+        padding: 10px 20px;
+        background: rgba(15,27,22,0.85);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 100px;
+        z-index: 100;
+    }
+    .nav-btn {
+        width: 36px; height: 36px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.08);
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer; transition: all .2s;
+        border: 1px solid rgba(255,255,255,0.10);
+    }
+    .nav-btn:hover { background: rgba(52,211,153,0.20); border-color: var(--emerald-400); }
+    .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .progress {
+        font-family:'JetBrains Mono',monospace;
+        font-size: 11px;
+        color: var(--fg-mut);
+        min-width: 70px; text-align: center;
+    }
+
+    .progress-bar {
+        position: fixed; top: 0; left: 0; right: 0;
+        height: 3px; background: rgba(255,255,255,0.05);
+        z-index: 101;
+    }
+    .progress-bar-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #10B981, #34D399);
+        transition: width .3s ease;
+    }
+
+    /* Mockup Intag */
+    .intag-mockup {
+        background: linear-gradient(180deg, #0E1410 0%, #1A2218 100%);
+        border: 1px solid rgba(212,163,50,0.30);
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+        .slide { padding: 60px 24px; }
+    }
+</style>
+</head>
+<body>
+
+<div class="progress-bar"><div class="progress-bar-fill" id="progressFill" style="width:0%;"></div></div>
+
+<!-- SLIDE 1: PORTADA -->
+<section class="slide active" data-slide="1">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-6">Propuesta · Mayo 2026</p>
+        <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-extrabold leading-[0.95] mb-8">
+            Plataforma de<br>
+            <span class="text-emerald-300">Inscripciones Deportivas</span><br>
+            <span class="text-white/60 text-3xl md:text-5xl">para el cantón Cotacachi.</span>
+        </h1>
+        <div class="flex flex-wrap gap-3 mb-12">
+            <span class="pill pill-emerald">Sistema SaaS dedicado</span>
+            <span class="pill pill-emerald">Multi-evento</span>
+            <span class="pill pill-emerald">Diseñado para trail</span>
+        </div>
+        <div class="border-t border-emerald-900/40 pt-6 max-w-2xl">
+            <p class="font-mono text-xs uppercase tracking-widest text-slate-500 mb-1">Presentada a</p>
+            <p class="font-display text-2xl font-bold text-white">Municipio de Cotacachi</p>
+            <p class="font-mono text-xs uppercase tracking-widest text-slate-500 mt-4 mb-1">Elaborada por</p>
+            <p class="font-display text-xl font-semibold text-emerald-300">Creative Web</p>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 2: QUIÉNES SOMOS -->
+<section class="slide" data-slide="2">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">Quiénes somos</p>
+        <h2 class="font-display text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">Construimos software para negocios reales.</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="glass rounded-2xl p-6">
+                <p class="font-display text-5xl font-extrabold text-emerald-300 mb-2">15+</p>
+                <p class="text-slate-300">años en desarrollo web y marketing digital en Ecuador</p>
+            </div>
+            <div class="glass rounded-2xl p-6">
+                <p class="font-display text-5xl font-extrabold text-emerald-300 mb-2">SaaS</p>
+                <p class="text-slate-300">stack moderno: Next.js, Supabase, Vercel — la misma tecnología que usan Linear, Notion, Vercel</p>
+            </div>
+            <div class="glass rounded-2xl p-6">
+                <p class="font-display text-5xl font-extrabold text-emerald-300 mb-2">B2B</p>
+                <p class="text-slate-300">Especializados en proyectos para empresas e instituciones que necesitan plataforma seria</p>
+            </div>
+        </div>
+        <p class="text-slate-400 mt-10 max-w-3xl text-lg">No vendemos plantillas. Construimos plataformas que se quedan funcionando a largo plazo.</p>
+    </div>
+</section>
+
+<!-- SLIDE 3: EL RETO -->
+<section class="slide" data-slide="3">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">El reto</p>
+        <h2 class="font-display text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">Intag Trail no es una carrera más.</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+                <p class="text-slate-300 text-lg md:text-xl leading-relaxed mb-6">Es una <strong class="text-yellow-300">UTMB Index Race</strong> — homologada al circuito de trail más prestigioso del mundo. Eso atrae corredores de todo Ecuador y del extranjero.</p>
+                <p class="text-slate-300 text-lg leading-relaxed">Con <strong class="text-emerald-300">500 a 1.000 corredores esperados</strong> en 5 distancias y 3 días de evento, el sistema de inscripciones <strong class="text-white">tiene que estar a la altura</strong>.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="glass-gold rounded-2xl p-6 text-center">
+                    <p class="font-trail text-5xl text-yellow-300">UTMB</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-2">Index Race</p>
+                </div>
+                <div class="glass-gold rounded-2xl p-6 text-center">
+                    <p class="font-trail text-5xl text-yellow-300">87 KM</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-2">Ultra-trail</p>
+                </div>
+                <div class="glass-gold rounded-2xl p-6 text-center">
+                    <p class="font-trail text-5xl text-yellow-300">1.000</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-2">Corredores</p>
+                </div>
+                <div class="glass-gold rounded-2xl p-6 text-center">
+                    <p class="font-trail text-5xl text-yellow-300">5</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-2">Distancias</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 4: LA IDEA -->
+<section class="slide" data-slide="4">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">La idea principal</p>
+        <h2 class="font-display text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">No vendemos un sitio web.<br>Vendemos <span class="text-emerald-300">la infraestructura digital</span><br>de los eventos del cantón.</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-8">
+            <div class="glass rounded-2xl p-6">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Evento 1</p>
+                <h3 class="font-display text-2xl font-bold text-white mb-1">Intag Trail</h3>
+                <p class="text-slate-400 text-sm">5 distancias · UTMB</p>
+            </div>
+            <div class="glass rounded-2xl p-6">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Evento 2</p>
+                <h3 class="font-display text-2xl font-bold text-white mb-1">Travesía Cuicocha</h3>
+                <p class="text-slate-400 text-sm">Trekking + familiar</p>
+            </div>
+            <div class="glass rounded-2xl p-6">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Evento 3, 4, 5...</p>
+                <h3 class="font-display text-2xl font-bold text-white mb-1">Lo que venga</h3>
+                <p class="text-slate-400 text-sm">Ciclopaseo, maratón, caminatas</p>
+            </div>
+        </div>
+        <div class="glass-emerald rounded-2xl p-6 mt-8">
+            <p class="text-white text-lg md:text-xl leading-relaxed">Una sola plataforma. Una sola partida presupuestaria anual. Marca diferente para cada evento.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 5: MÓDULOS -->
+<section class="slide" data-slide="5">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">Qué incluye</p>
+        <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-8">12 módulos. Todo nativo. Todo dedicado a trail.</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            <?php
+            // Static items render below
+            ?>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">01</span><h3 class="font-display font-bold text-white mt-1">Panel inscripciones</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">02</span><h3 class="font-display font-bold text-white mt-1">Contador de cupos</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">03</span><h3 class="font-display font-bold text-white mt-1">Pasarela de pagos</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">04</span><h3 class="font-display font-bold text-white mt-1">Base de datos corredores</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">05</span><h3 class="font-display font-bold text-white mt-1">Correos automáticos</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">06</span><h3 class="font-display font-bold text-white mt-1">Visor GPX + elevación</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">07</span><h3 class="font-display font-bold text-white mt-1">Cupones de descuento</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">08</span><h3 class="font-display font-bold text-white mt-1">Categorías edad/género</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">09</span><h3 class="font-display font-bold text-white mt-1">Gestión de sponsors</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">10</span><h3 class="font-display font-bold text-white mt-1">Control kits + tallas</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">11</span><h3 class="font-display font-bold text-white mt-1">Galería + ranking</h3></div>
+            <div class="glass rounded-xl p-4"><span class="font-mono text-xs text-emerald-400">12</span><h3 class="font-display font-bold text-white mt-1">Reportes ejecutivos</h3></div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 6: COMPARATIVA WP vs SAAS -->
+<section class="slide" data-slide="6">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-red-300 mb-4">La diferencia</p>
+        <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-10">Lo que recibes según qué eliges.</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div class="rounded-2xl p-6 md:p-8" style="background:rgba(239,68,68,0.05); border:1px solid rgba(239,68,68,0.25);">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="font-display text-xl font-bold text-white">WordPress + plugins</h3>
+                    <span class="pill pill-red">$1.500–$2.500</span>
+                </div>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li>✗ Plantilla genérica</li>
+                    <li>✗ Formularios y pagos vía plugins frágiles</li>
+                    <li>✗ Cupos manuales, riesgo de sobreventa</li>
+                    <li>✗ Riesgo de caída con tráfico alto</li>
+                    <li>✗ Cada plugin actualizado puede romper el sitio</li>
+                    <li>✗ Cada evento se vuelve proyecto nuevo</li>
+                </ul>
+            </div>
+            <div class="glass-emerald rounded-2xl p-6 md:p-8" style="border-width:2px;">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="font-display text-xl font-bold text-white">Plataforma Creative Web</h3>
+                    <span class="pill pill-emerald">$4.000 año 1</span>
+                </div>
+                <ul class="space-y-2 text-sm text-slate-200">
+                    <li>✓ Diseño UX dedicado al evento</li>
+                    <li>✓ Panel y pagos <strong>nativos</strong></li>
+                    <li>✓ Lock atómico de cupos (no sobreventa)</li>
+                    <li>✓ Diseñada para 1.000+ inscripciones simultáneas</li>
+                    <li>✓ Sin plugins de terceros que rompan</li>
+                    <li>✓ Reutilizable para Cuicocha y futuros eventos</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 7: MOCKUP INTAG TRAIL -->
+<section class="slide" data-slide="7">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-yellow-300 mb-4">Cómo se vería</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-2">El sitio de Intag Trail con su línea gráfica.</h2>
+        <p class="text-slate-400 mb-8">La plataforma se adapta a la marca del evento, no al revés.</p>
+        <div class="intag-mockup">
+            <div class="px-6 py-3 border-b border-yellow-700/30">
+                <p class="font-trail text-lg uppercase tracking-wider"><span class="text-yellow-500">INTAG</span> <span class="text-stone-100">TRAIL</span></p>
+            </div>
+            <div class="px-6 py-4 grid grid-cols-5 gap-4 text-center border-t-2 border-b-2 border-yellow-700/40" style="background:#1A2616;">
+                <div><p class="font-trail text-2xl text-stone-100">5</p><p class="font-mono text-[9px] uppercase tracking-widest text-stone-400">distancias</p></div>
+                <div><p class="font-trail text-2xl text-stone-100">87KM</p><p class="font-mono text-[9px] uppercase tracking-widest text-stone-400">ultra</p></div>
+                <div><p class="font-trail text-2xl text-stone-100">1.000</p><p class="font-mono text-[9px] uppercase tracking-widest text-stone-400">corredores</p></div>
+                <div><p class="font-trail text-2xl text-yellow-500">UTMB</p><p class="font-mono text-[9px] uppercase tracking-widest text-stone-400">index race</p></div>
+                <div><p class="font-trail text-2xl text-yellow-500">INTAG</p><p class="font-mono text-[9px] uppercase tracking-widest text-stone-400">valle sagrado</p></div>
+            </div>
+            <div class="px-8 py-10">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-500/80 mb-3">— IMBABURA · ECUADOR · TRAIL RUNNING</p>
+                <h3 class="font-trail text-4xl md:text-6xl uppercase leading-[0.95]">
+                    <span class="text-stone-100">INTAG</span> <span class="text-yellow-500">TRAIL</span> <span class="text-stone-100">RUN</span>
+                </h3>
+                <p class="text-stone-300 text-sm mt-4 max-w-2xl">Entre volcanes, lagunas de páramo y senderos ancestrales de la Sierra norte del Ecuador.</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <span class="inline-block px-5 py-2 font-trail text-sm uppercase tracking-widest bg-yellow-500 text-stone-900">Inscríbete ahora</span>
+                    <span class="inline-block px-5 py-2 font-trail text-sm uppercase tracking-widest border border-stone-300 text-stone-100">Ver distancias</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 8: ESCENARIO FINANCIERO -->
+<section class="slide" data-slide="8">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">El negocio</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-8">El evento genera entre $15K y $30K.<br>El sistema cuesta $4K.</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+            <div class="glass rounded-2xl p-6">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-slate-500 mb-2">Escenario conservador</p>
+                <p class="font-display text-5xl font-extrabold text-white">$15.200</p>
+                <p class="text-slate-400 mt-2">500 corredores</p>
+            </div>
+            <div class="glass-emerald rounded-2xl p-6">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-2">Escenario medio</p>
+                <p class="font-display text-5xl font-extrabold text-emerald-300">$22.800</p>
+                <p class="text-slate-300 mt-2">750 corredores</p>
+            </div>
+            <div class="glass rounded-2xl p-6">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-slate-500 mb-2">Escenario optimista</p>
+                <p class="font-display text-5xl font-extrabold text-white">$30.400</p>
+                <p class="text-slate-400 mt-2">1.000 corredores</p>
+            </div>
+        </div>
+        <p class="text-slate-300 text-lg">Costo del sistema = entre <strong class="text-emerald-300">13% y 26%</strong> del ingreso bruto del primer evento. Y queda disponible para todos los demás del año.</p>
+    </div>
+</section>
+
+<!-- SLIDE 9: CRONOGRAMA -->
+<section class="slide" data-slide="9">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">Cronograma</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-10">3 semanas hasta inscripciones abiertas.</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="glass rounded-2xl p-6">
+                <p class="font-display text-6xl font-extrabold text-emerald-400 mb-2">01</p>
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-1">Semana 1</p>
+                <h3 class="font-display text-xl font-bold text-white mb-2">Configuración</h3>
+                <p class="text-slate-400 text-sm">Onboarding, recolección de assets, setup de las 5 distancias en la plataforma.</p>
+            </div>
+            <div class="glass rounded-2xl p-6">
+                <p class="font-display text-6xl font-extrabold text-emerald-400 mb-2">02</p>
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-1">Semana 2</p>
+                <h3 class="font-display text-xl font-bold text-white mb-2">Personalización</h3>
+                <p class="text-slate-400 text-sm">Aplicación de la línea gráfica Intag Trail, integración pasarela, correos.</p>
+            </div>
+            <div class="glass-emerald rounded-2xl p-6">
+                <p class="font-display text-6xl font-extrabold text-emerald-300 mb-2">03</p>
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-1">Semana 3</p>
+                <h3 class="font-display text-xl font-bold text-white mb-2">Lanzamiento</h3>
+                <p class="text-slate-200 text-sm">Pruebas integrales, capacitación al equipo del municipio y apertura oficial.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 10: INVERSIÓN -->
+<section class="slide" data-slide="10">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">Inversión</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-10">Plataforma como Servicio Anual.</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="glass-emerald rounded-2xl p-8" style="border-width:2px;">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-3">Año 1 · Lanzamiento</p>
+                <div class="flex items-baseline gap-2 mb-4">
+                    <span class="font-display text-7xl font-extrabold text-emerald-300">$4.000</span>
+                    <span class="text-slate-400 font-medium">+ IVA</span>
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed">Setup completo · 5 distancias Intag Trail · Cuicocha · Hasta 5 eventos · Pasarela · Correos · Hosting Pro · Soporte 12 meses · Capacitación 4 horas.</p>
+            </div>
+            <div class="glass rounded-2xl p-8">
+                <p class="font-mono text-[10px] uppercase tracking-widest text-slate-400 mb-3">Año 2 en adelante</p>
+                <div class="flex items-baseline gap-2 mb-4">
+                    <span class="font-display text-7xl font-extrabold text-white">$1.800</span>
+                    <span class="text-slate-400 font-medium">+ IVA / año</span>
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed">Mantiene la plataforma operativa · Hosting · Correos · Hasta 5 eventos del año · Soporte · Actualizaciones del sistema.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDE 11: TCO 3 AÑOS -->
+<section class="slide" data-slide="11">
+    <div class="max-w-6xl mx-auto w-full flex flex-col justify-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-4">A 3 años</p>
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-10">Ahorro vs alternativas tradicionales.</h2>
+        <div class="space-y-4">
+            <div class="rounded-2xl p-6 flex items-center justify-between" style="background:rgba(239,68,68,0.05); border:1px solid rgba(239,68,68,0.25);">
+                <div>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-red-300 mb-1">Contratar sistema cada evento por separado</p>
+                    <p class="font-display text-xl font-bold text-white">3 eventos al año × 3 años = 9 contratos</p>
+                </div>
+                <p class="font-display text-4xl md:text-5xl font-extrabold text-red-300">$40.500</p>
+            </div>
+            <div class="rounded-2xl p-6 flex items-center justify-between" style="background:rgba(251,191,36,0.06); border:1px solid rgba(251,191,36,0.25);">
+                <div>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-1">WordPress + plugins por evento</p>
+                    <p class="font-display text-xl font-bold text-white">Solución frágil rotando cada año</p>
+                </div>
+                <p class="font-display text-4xl md:text-5xl font-extrabold text-yellow-300">$22.500</p>
+            </div>
+            <div class="glass-emerald rounded-2xl p-6 flex items-center justify-between" style="border-width:2px;">
+                <div>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-1">Plataforma Creative Web</p>
+                    <p class="font-display text-xl font-bold text-white">SaaS anual · todos los eventos del cantón</p>
+                </div>
+                <p class="font-display text-5xl md:text-6xl font-extrabold text-emerald-300">$7.600</p>
+            </div>
+        </div>
+        <p class="text-emerald-300 text-lg mt-8 font-semibold">Ahorro a 3 años: <strong class="text-white">$15.000 — $33.000</strong>.</p>
+    </div>
+</section>
+
+<!-- SLIDE 12: CIERRE -->
+<section class="slide" data-slide="12">
+    <div class="max-w-5xl mx-auto w-full flex flex-col justify-center text-center">
+        <p class="font-mono text-xs uppercase tracking-widest text-emerald-400 mb-6">Próximos pasos</p>
+        <h2 class="font-display text-5xl md:text-7xl font-extrabold text-white mb-10 leading-tight">
+            Para arrancar<br>necesitamos <span class="text-emerald-300">3 cosas</span>.
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
+            <div class="glass-emerald rounded-2xl p-6">
+                <p class="font-display text-6xl font-extrabold text-emerald-300 mb-3">1</p>
+                <h3 class="font-display text-lg font-bold text-white">Aprobación de la propuesta</h3>
+            </div>
+            <div class="glass-emerald rounded-2xl p-6">
+                <p class="font-display text-6xl font-extrabold text-emerald-300 mb-3">2</p>
+                <h3 class="font-display text-lg font-bold text-white">Firma de contrato y factura</h3>
+            </div>
+            <div class="glass-emerald rounded-2xl p-6">
+                <p class="font-display text-6xl font-extrabold text-emerald-300 mb-3">3</p>
+                <h3 class="font-display text-lg font-bold text-white">Kick-off del proyecto</h3>
+            </div>
+        </div>
+        <p class="text-slate-300 text-xl mb-8">3 semanas después, las inscripciones de Intag Trail están abiertas.</p>
+        <div class="flex flex-wrap gap-3 justify-center">
+            <a href="https://wa.me/593968663866" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-white font-semibold text-base transition-all"
+               style="box-shadow:0 8px 24px rgba(52,211,153,0.35);">
+                Hablar con Creative Web
+            </a>
+        </div>
+        <p class="font-mono text-xs text-slate-500 mt-12">Creative Web · creativeweb.com.ec · Mayo 2026</p>
+    </div>
+</section>
+
+<!-- Nav controls -->
+<div class="nav-ctrl no-print">
+    <button class="nav-btn" id="prevBtn" aria-label="Anterior" onclick="prev()">
+        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+    </button>
+    <div class="progress">
+        <span id="slideNum">1</span> / <span id="slideTotal">12</span>
+    </div>
+    <button class="nav-btn" id="nextBtn" aria-label="Siguiente" onclick="next()">
+        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+    </button>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const total = slides.length;
+let current = 0;
+
+document.getElementById('slideTotal').textContent = total;
+
+function showSlide(idx) {
+    if (idx < 0) idx = 0;
+    if (idx >= total) idx = total - 1;
+    slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+    document.getElementById('slideNum').textContent = idx + 1;
+    document.getElementById('progressFill').style.width = ((idx + 1) / total * 100) + '%';
+    document.getElementById('prevBtn').disabled = idx === 0;
+    document.getElementById('nextBtn').disabled = idx === total - 1;
+    current = idx;
+    history.replaceState(null, '', '#slide-' + (idx + 1));
+}
+
+function next() { if (current < total - 1) showSlide(current + 1); }
+function prev() { if (current > 0) showSlide(current - 1); }
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); next(); }
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prev(); }
+    if (e.key === 'Home') { e.preventDefault(); showSlide(0); }
+    if (e.key === 'End') { e.preventDefault(); showSlide(total - 1); }
+    // F = fullscreen
+    if (e.key === 'f' || e.key === 'F') {
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+        else document.exitFullscreen();
+    }
+});
+
+// Touch swipe
+let touchStartX = 0;
+document.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
+document.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (dx > 60) prev();
+    if (dx < -60) next();
+});
+
+// Read hash on load
+window.addEventListener('load', () => {
+    const m = location.hash.match(/slide-(\d+)/);
+    if (m) showSlide(parseInt(m[1]) - 1);
+    else showSlide(0);
+});
+</script>
+
+</body>
+</html>
