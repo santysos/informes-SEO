@@ -288,7 +288,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
         <div class="feature-card">
             <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 3</p>
             <h4 class="font-display text-lg font-bold text-white mb-2">Pagos con factura electrónica</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">Cada inscrito necesita comprobante. La pasarela debe acreditar pagos automáticamente y emitir confirmación. Integración nativa con Datafast o PayPhone Ecuador.</p>
+            <p class="text-slate-400 text-sm leading-relaxed">Cada inscrito necesita comprobante. La pasarela debe acreditar pagos automáticamente y emitir confirmación. <strong class="text-white">Integración nativa con PayPhone Ecuador.</strong></p>
         </div>
         <div class="feature-card">
             <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 4</p>
@@ -319,7 +319,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
         $modulos = [
             ['01','Panel de inscripciones nativo','Flujo de inscripción optimizado: selección de distancia → modalidad → datos del corredor → pago. Validación en tiempo real. Una sola pantalla.','users'],
             ['02','Contador de cupos en tiempo real','Cada distancia con cupo máximo. El sistema bloquea el cupo al iniciar la inscripción y lo libera si no se completa el pago en 72 horas.','clock'],
-            ['03','Pasarela de pagos integrada','Datafast, PayPhone o Kushki. El corredor paga online con tarjeta. El sistema recibe la confirmación automática y activa la inscripción.','credit-card'],
+            ['03','Pasarela de pagos PayPhone','Integración nativa con PayPhone Ecuador. El corredor paga online con tarjeta de crédito o débito. El sistema recibe confirmación automática y activa la inscripción.','credit-card'],
             ['04','Base de datos de corredores','Postgres real en Supabase. Cada corredor con perfil único, historial de eventos, exportable a Excel con un click.','database'],
             ['05','Correos automáticos','Confirmación al inscribirse, recordatorios pre-evento, instrucciones logísticas, certificado post-evento. Diseño profesional.','mail'],
             ['06','Visor de rutas GPX','Carga del archivo .gpx de cada distancia. El sitio muestra el mapa interactivo + perfil de elevación (D+, D-, km marcadores).','map'],
@@ -574,7 +574,8 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
                 <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Configuración de las 5 distancias con GPX, ficha técnica, abastos</div></li>
                 <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Configuración del segundo evento del año (Cuicocha)</div></li>
                 <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Hasta 5 eventos configurables en 12 meses</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Integración pasarela de pagos (Datafast / PayPhone / Kushki)</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Integración pasarela de pagos <strong class="text-white">PayPhone Ecuador</strong></div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200"><strong class="text-white">Dominio .com</strong> registrado a nombre del Municipio (USD $21.99 + IVA/año incluido año 1)</div></li>
                 <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Sistema de correos automáticos (hasta 10.000 envíos/mes)</div></li>
                 <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Hosting Vercel + base de datos Supabase Pro · 12 meses</div></li>
                 <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Capacitación al equipo del municipio · 4 horas</div></li>
@@ -709,8 +710,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
         <div class="glass rounded-2xl p-6">
             <h3 class="font-display text-lg font-bold text-yellow-300 mb-3">✗ NO incluido</h3>
             <ul class="text-sm text-slate-300 space-y-2">
-                <li>• Comisión de la pasarela de pagos (Datafast/PayPhone ~3-5% por transacción — cobrada directo al organizador por la pasarela)</li>
-                <li>• Dominio personalizado del evento (~$15-25/año a Namecheap o GoDaddy)</li>
+                <li>• <strong class="text-white">Comisión de PayPhone 6%</strong> — se cobra únicamente al retirar fondos de PayPhone a la cuenta bancaria del municipio. No se cobra por transacción individual. (Ejemplo: $20.000 acumulados en PayPhone → al retirar a banco, $1.200 de comisión.)</li>
                 <li>• Diseño de logos del evento (si Intag Trail ya tiene logo, no aplica)</li>
                 <li>• Producción de contenido del sitio (fotos, videos, textos de las rutas — los provee el organizador)</li>
                 <li>• Atención al corredor por WhatsApp (lo maneja el equipo del municipio)</li>
