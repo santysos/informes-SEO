@@ -189,3 +189,14 @@ deployment:
     # Permisos Dimapar Redesign
     - chmod 644 $BASEPATH/dimapar/redesign/*.html
     - chmod 644 $BASEPATH/dimapar/redesign/*.js
+    # Crear estructura Dimapar Diagnostico Tecnico (con login)
+    - /bin/mkdir -p $BASEPATH/dimapar/diagnostico-tecnico
+    - chmod 755 $BASEPATH/dimapar/diagnostico-tecnico
+    # Deploy Dimapar Diagnostico Tecnico
+    - /bin/cp -f dimapar/diagnostico-tecnico/.htaccess $BASEPATH/dimapar/diagnostico-tecnico/
+    - /bin/cp -f dimapar/diagnostico-tecnico/index.php $BASEPATH/dimapar/diagnostico-tecnico/
+    - /bin/cp -f dimapar/diagnostico-tecnico/login.php $BASEPATH/dimapar/diagnostico-tecnico/
+    - /bin/cp -f dimapar/diagnostico-tecnico/logout.php $BASEPATH/dimapar/diagnostico-tecnico/
+    # Permisos Dimapar Diagnostico Tecnico
+    - chmod 644 $BASEPATH/dimapar/diagnostico-tecnico/*.php
+    - chmod 644 $BASEPATH/dimapar/diagnostico-tecnico/.htaccess
