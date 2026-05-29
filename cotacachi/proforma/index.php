@@ -224,9 +224,9 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
             <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style="background:rgba(16,185,129,0.15);">
                 <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             </div>
-            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Hecha para trail</p>
-            <h3 class="font-display text-xl font-bold text-white mb-2">No es WordPress maquillado.</h3>
-            <p class="text-slate-400 text-sm leading-relaxed">Es software dedicado: panel de inscripciones nativo, contador de cupos con lock atómico, visor de rutas GPX, pasarela integrada, base de datos real. Diseñado para soportar 1.000 inscripciones simultáneas sin caerse.</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Adiós al Excel</p>
+            <h3 class="font-display text-xl font-bold text-white mb-2">Una sola fuente de verdad.</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Hoy las inscripciones se llevan en Excel, formularios sueltos y WhatsApp. Datos desordenados, errores de tipeo, pagos sin control, reportes hechos a mano. La plataforma centraliza todo en un solo lugar — en tiempo real.</p>
         </div>
         <div class="glass rounded-2xl p-6">
             <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style="background:rgba(16,185,129,0.15);">
@@ -241,69 +241,75 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
 
 <!-- EL RETO -->
 <section id="reto" class="py-16">
-    <span class="pill pill-emerald mb-4">El contexto</span>
-    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-8 leading-tight">Por qué Intag Trail necesita una plataforma seria</h2>
+    <span class="pill pill-red mb-4">El problema actual</span>
+    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-8 leading-tight">Inscripciones en Excel, Forms y WhatsApp.<br><span class="text-red-300">Hay una forma mejor.</span></h2>
 
-    <div class="glass-gold rounded-2xl p-6 md:p-8 mb-8">
+    <div class="rounded-2xl p-6 md:p-8 mb-8" style="background:rgba(239,68,68,0.06); border:1px solid rgba(239,68,68,0.25);">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div>
-                <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-2">Diferenciador clave</p>
-                <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-3">Una primera edición con vocación internacional</h3>
-                <p class="text-slate-300 text-sm md:text-base leading-relaxed">Intag Trail incluye una <strong class="text-white">distancia ultra de 87 km</strong>, algo que muy pocas carreras en Ecuador ofrecen. La carrera ya proyecta homologación al <strong class="text-white">circuito UTMB</strong> en su segunda edición — el circuito de trail más prestigioso del mundo.</p>
-                <p class="text-slate-300 text-sm md:text-base leading-relaxed mt-3"><strong class="text-yellow-300">Implicación:</strong> el evento atrae corredores serios — locales, nacionales y extranjeros. Y esos corredores esperan una experiencia de inscripción de nivel internacional: flujo claro, pago seguro, confirmación inmediata, certificado descargable post-evento.</p>
+                <p class="font-mono text-[10px] uppercase tracking-widest text-red-300 mb-2">El dolor cotidiano</p>
+                <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-3">Hoy las inscripciones de eventos deportivos se manejan así:</h3>
+                <ul class="space-y-2 text-slate-300 text-sm md:text-base mt-3">
+                    <li class="flex items-start gap-2"><span class="text-red-400 flex-shrink-0">▸</span>Un Google Form que cualquiera puede llenar mal</li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 flex-shrink-0">▸</span>Una hoja de Excel que crece sin control</li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 flex-shrink-0">▸</span>Comprobantes de transferencia llegando por WhatsApp</li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 flex-shrink-0">▸</span>Errores de tipeo en cédulas y nombres</li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 flex-shrink-0">▸</span>Pagos sin cruzar con la inscripción</li>
+                    <li class="flex items-start gap-2"><span class="text-red-400 flex-shrink-0">▸</span>Reportes armados a mano la noche antes del evento</li>
+                </ul>
             </div>
             <div class="grid grid-cols-2 gap-3">
-                <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 text-center">
-                    <p class="font-display text-3xl font-extrabold text-yellow-300">500-1.000</p>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-1">corredores esperados</p>
+                <div class="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-4 text-center">
+                    <p class="font-display text-3xl font-extrabold text-emerald-300">500-1.000</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-200/70 mt-1">corredores esperados</p>
                 </div>
-                <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 text-center">
-                    <p class="font-display text-3xl font-extrabold text-yellow-300">87 km</p>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-1">distancia ultra</p>
+                <div class="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-4 text-center">
+                    <p class="font-display text-3xl font-extrabold text-emerald-300">87 km</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-200/70 mt-1">distancia ultra</p>
                 </div>
-                <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 text-center">
-                    <p class="font-display text-3xl font-extrabold text-yellow-300">5</p>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-1">distancias</p>
+                <div class="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-4 text-center">
+                    <p class="font-display text-3xl font-extrabold text-emerald-300">5</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-200/70 mt-1">distancias</p>
                 </div>
-                <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 text-center">
-                    <p class="font-display text-3xl font-extrabold text-yellow-300">3 días</p>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-200/70 mt-1">9·10·11 oct</p>
+                <div class="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-4 text-center">
+                    <p class="font-display text-3xl font-extrabold text-emerald-300">3 días</p>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-200/70 mt-1">9·10·11 oct</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <h3 class="font-display text-xl font-bold text-white mb-4">Los retos digitales concretos</h3>
+    <h3 class="font-display text-xl font-bold text-white mb-4">Lo que pasa cuando se hace bien</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="feature-card">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 1</p>
-            <h4 class="font-display text-lg font-bold text-white mb-2">El día del lanzamiento de inscripciones</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">Cientos de corredores intentan inscribirse en la misma hora. Un sistema mal hecho colapsa, sobrevende cupos, o cobra dos veces. Nuestra plataforma maneja inscripciones concurrentes con bloqueo atómico de cupos.</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Resuelve 1</p>
+            <h4 class="font-display text-lg font-bold text-white mb-2">Inscripción sin errores</h4>
+            <p class="text-slate-400 text-sm leading-relaxed">El corredor ingresa su cédula y el sistema <strong class="text-white">valida y autocompleta los datos consultando al Registro Civil</strong>. Categoría calculada automáticamente por edad. Talla de camiseta según género. Cada inscrito entra estructurado y validado — sin planillas a mano.</p>
         </div>
         <div class="feature-card">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 2</p>
-            <h4 class="font-display text-lg font-bold text-white mb-2">5 distancias con 5 lógicas distintas</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">Cada ruta tiene precio distinto ($20 a $80), GPX propio, capacidad propia, ficha técnica, abastos, materiales obligatorios. Configurarlas todas en plugins genéricos toma semanas. Nuestra plataforma las maneja desde un panel dedicado.</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Resuelve 2</p>
+            <h4 class="font-display text-lg font-bold text-white mb-2">Dos vías de pago integradas</h4>
+            <p class="text-slate-400 text-sm leading-relaxed"><strong class="text-white">PayPhone</strong>: tarjeta de crédito o débito, pago inmediato, confirmación automática y comprobante por correo. <strong class="text-white">Transferencia bancaria</strong>: el corredor sube su comprobante, el panel permite verificar y aprobar con un clic. Ambas formas, desde el primer día.</p>
         </div>
         <div class="feature-card">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 3</p>
-            <h4 class="font-display text-lg font-bold text-white mb-2">Pagos con factura electrónica</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">Cada inscrito necesita comprobante. La pasarela debe acreditar pagos automáticamente y emitir confirmación. <strong class="text-white">Integración nativa con PayPhone Ecuador.</strong></p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Resuelve 3</p>
+            <h4 class="font-display text-lg font-bold text-white mb-2">Reporte de camisetas en tiempo real</h4>
+            <p class="text-slate-400 text-sm leading-relaxed">Cuántas tallas S, M, L, XL — <strong class="text-white">separadas por hombre y mujer</strong>. Se actualiza cada vez que alguien se inscribe. Permite hacer el pedido al proveedor con números reales, no estimaciones.</p>
         </div>
         <div class="feature-card">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 4</p>
-            <h4 class="font-display text-lg font-bold text-white mb-2">Comunicación masiva con corredores</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">800 correos de confirmación, recordatorios pre-evento, instrucciones logísticas, agradecimiento post-evento. Todo automatizado, segmentado por distancia.</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Resuelve 4</p>
+            <h4 class="font-display text-lg font-bold text-white mb-2">Exportar a Excel exactamente lo filtrado</h4>
+            <p class="text-slate-400 text-sm leading-relaxed">Filtros por distancia, categoría, modalidad o estado. Buscador por cédula o nombre. <strong class="text-white">Exporta a Excel exactamente lo que está filtrado</strong>: nombres, cédula, contacto, talla, forma de pago, estado. Lo que toma una tarde con Excel, aquí son segundos.</p>
         </div>
         <div class="feature-card">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 5</p>
-            <h4 class="font-display text-lg font-bold text-white mb-2">Entrega de kits ordenada</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">El día previo al evento: 800 personas vienen a retirar kit. Lista buscable, marcado de entrega, escaneo opcional de cédula, control de tallas de camiseta. Operable desde tablet.</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Resuelve 5</p>
+            <h4 class="font-display text-lg font-bold text-white mb-2">Comunicación automática con marca municipio</h4>
+            <p class="text-slate-400 text-sm leading-relaxed">Correos de confirmación de inscripción y pago pendiente (con urgencia de cupo). Con <strong class="text-white">logo del municipio e imagen del evento</strong>. Cada email enviado queda registrado en el panel para auditoría.</p>
         </div>
         <div class="feature-card">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-red-400 mb-2">Reto 6</p>
-            <h4 class="font-display text-lg font-bold text-white mb-2">Reportes para rendir cuentas</h4>
-            <p class="text-slate-400 text-sm leading-relaxed">Post-evento: cuántos inscritos por distancia, ingresos totales, demografía, gastos por kit. Reporte exportable Excel para el cierre administrativo del municipio.</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-400 mb-2">Resuelve 6</p>
+            <h4 class="font-display text-lg font-bold text-white mb-2">Ranking público al subir CSV del chip</h4>
+            <p class="text-slate-400 text-sm leading-relaxed">Cuando el evento termine y reciban el CSV del proveedor de cronometraje, <strong class="text-white">suben el archivo al panel</strong> y el ranking se publica automáticamente en la web pública del evento. Cada corredor busca su tiempo y lo comparte en redes — promoción para el siguiente evento del cantón.</p>
         </div>
     </div>
 </section>
@@ -317,18 +323,18 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <?php
         $modulos = [
-            ['01','Panel de inscripciones nativo','Flujo de inscripción optimizado: selección de distancia → modalidad → datos del corredor → pago. Validación en tiempo real. Una sola pantalla.','users'],
-            ['02','Contador de cupos en tiempo real','Cada distancia con cupo máximo. El sistema bloquea el cupo al iniciar la inscripción y lo libera si no se completa el pago en 72 horas.','clock'],
-            ['03','Pasarela de pagos PayPhone','Integración nativa con PayPhone Ecuador. El corredor paga online con tarjeta de crédito o débito. El sistema recibe confirmación automática y activa la inscripción.','credit-card'],
-            ['04','Base de datos de corredores','Postgres real en Supabase. Cada corredor con perfil único, historial de eventos, exportable a Excel con un click.','database'],
-            ['05','Correos automáticos','Confirmación al inscribirse, recordatorios pre-evento, instrucciones logísticas, certificado post-evento. Diseño profesional.','mail'],
-            ['06','Visor de rutas GPX','Carga del archivo .gpx de cada distancia. El sitio muestra el mapa interactivo + perfil de elevación (D+, D-, km marcadores).','map'],
+            ['01','Inscripción con validación de cédula','El corredor ingresa su cédula y el sistema autocompleta sus datos consultando al Registro Civil. Categoría calculada automáticamente por edad. Talla de camiseta según género. Sin errores de tipeo.','users'],
+            ['02','Contador de cupos en tiempo real','Cada distancia con cupo máximo. El sistema bloquea el cupo al iniciar la inscripción y lo libera si no se completa el pago en el plazo configurado.','clock'],
+            ['03','Pagos: PayPhone + Transferencia','Dos vías integradas. Tarjeta vía PayPhone con confirmación automática. Transferencia bancaria con comprobante subido por el corredor y aprobación con un clic desde el panel.','credit-card'],
+            ['04','Base de datos centralizada','Postgres real en Supabase. Cada corredor con perfil único, historial de eventos, exportable a Excel con un click. Una sola fuente de verdad — adiós al Excel disperso.','database'],
+            ['05','Correos automáticos con marca municipio','Confirmación de inscripción, pago pendiente con urgencia de cupo, aprobación de pago, recordatorio pre-evento. Con logo del municipio + imagen del evento. Cada envío registrado en el panel.','mail'],
+            ['06','Visor de rutas GPX + altimetría','Carga del archivo .gpx de cada distancia. El sitio público muestra el mapa interactivo + perfil de elevación (D+, D-, km marcadores).','map'],
             ['07','Cupones y descuentos','Códigos de descuento configurables (early bird, residentes Cotacachi, grupos 3+, estudiantes). Aplica automáticamente en checkout.','tag'],
-            ['08','Categorías por edad y género','Sub-18, 18-29, 30-39, 40-49, 50+. Por género. El sistema asigna automáticamente y genera el ranking por categoría.','grid'],
-            ['09','Gestión de sponsors','Carga de auspiciantes con logo + link + nivel (Diamante, Oro, Plata). Aparecen ordenados en la web pública.','star'],
-            ['10','Control de kits y tallas','Reporte de tallas vendidas para hacer pedido al proveedor. Sistema de marcado de "kit entregado" al corredor el día previo.','package'],
-            ['11','Galería y ranking post-evento','Carga de fotos del evento + ranking oficial con tiempos y posiciones por categoría. Visible públicamente para los corredores.','image'],
-            ['12','Reportes ejecutivos','Estadísticas ejecutivas: ingresos totales, distribución por distancia, demografía. Exportable a Excel y PDF.','bar-chart'],
+            ['08','Categorías y modalidad con/sin kit','Categoría automática por edad (Sub-18, 18-29, 30-39, 40-49, 50+). Modalidad con kit o sin kit con precios distintos. Asignación sin intervención manual.','grid'],
+            ['09','Sitio público con marca Cotacachi','Identidad institucional del municipio (azul/rojo). Página por evento con descripción, mapa de ruta, galería y ranking. Adaptable a marca de cada evento.','star'],
+            ['10','Reporte de camisetas por talla y sexo','Cuántas S, M, L, XL — separadas hombre/mujer. Se actualiza en tiempo real con cada inscripción. Permite hacer el pedido al proveedor con números reales.','package'],
+            ['11','Ranking publicado desde CSV','Al recibir el CSV del proveedor de cronometraje, se sube al panel y el ranking se publica automáticamente en la web pública con la marca del evento.','image'],
+            ['12','Dashboard en tiempo real','Inscritos por distancia, ingresos totales, ticket promedio, ingresos por distancia. Todo se actualiza al momento de cada inscripción. Visible desde celular.','bar-chart'],
         ];
         foreach ($modulos as [$num,$titulo,$desc,$icon]):
         ?>
@@ -363,30 +369,30 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
 
 <!-- COMPARATIVA -->
 <section id="comparativa" class="py-16">
-    <span class="pill pill-red mb-4">Lo que no es</span>
-    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-2 leading-tight">No es una página WordPress con un formulario pegado</h2>
-    <p class="text-slate-400 mb-10 max-w-3xl">La diferencia entre un sistema dedicado y "una página web con plugins" se siente el día del lanzamiento de inscripciones.</p>
+    <span class="pill pill-red mb-4">Hoy vs Con la plataforma</span>
+    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-2 leading-tight">La diferencia entre Excel disperso y una plataforma centralizada</h2>
+    <p class="text-slate-400 mb-10 max-w-3xl">La diferencia más grande no es técnica — es operativa. Se siente todos los días.</p>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <!-- WP -->
+        <!-- Cómo se hace HOY -->
         <div class="rounded-2xl p-6 md:p-8" style="background:rgba(239,68,68,0.05); border:1px solid rgba(239,68,68,0.25);">
             <div class="flex items-center justify-between mb-5">
                 <div>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-red-300 mb-1">La alternativa típica</p>
-                    <h3 class="font-display text-2xl font-bold text-white">WordPress + plugins</h3>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-red-300 mb-1">Cómo se hace hoy</p>
+                    <h3 class="font-display text-2xl font-bold text-white">Excel + Forms + WhatsApp</h3>
                 </div>
-                <span class="pill pill-red">$1.500–2.500</span>
+                <span class="pill pill-red">Operativo</span>
             </div>
             <ul class="space-y-3">
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Plantilla genérica de eventos (la misma que ven en 50 sitios)</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Formulario de inscripción = plugin <code class="font-mono text-xs text-red-300">WPForms</code> o similar</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Pagos = otro plugin (WooCommerce + pasarela)</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Cupos limitados = manual o tercer plugin frágil</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">GPX = cuarto plugin que rara vez funciona bien</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Base de datos = tablas WP + 10 tablas de plugins</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Riesgo de caída con tráfico simultáneo (típico WordPress + LiteSpeed)</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Cualquier plugin que se actualice mal rompe el sitio</div></li>
-                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Cada evento es proyecto nuevo (no reutilizable)</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Inscripciones en Google Form con campos mal llenados</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Cédulas con errores de tipeo, nombres mal escritos</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Comprobantes de pago llegando por WhatsApp en distintos chats</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Cruzar pagos con inscripciones a mano, con riesgo de errores</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Categorías y tallas se calculan manualmente en Excel</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Reportes armados a mano la noche antes del evento</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Datos dispersos en planillas, correos y celulares</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Cada evento se vuelve a armar desde cero</div></li>
+                <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Sin control real de cupos por distancia</div></li>
                 <li class="flex items-start gap-2"><span class="text-red-400 font-bold flex-shrink-0">✗</span><div class="text-sm text-slate-300">Licencias anuales de plantilla + plugins ~$80/año</div></li>
             </ul>
             <div class="mt-5 pt-5 border-t border-red-500/20">
@@ -399,26 +405,25 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
         <div class="rounded-2xl p-6 md:p-8 glass-emerald" style="border-width:2px;">
             <div class="flex items-center justify-between mb-5">
                 <div>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-1">Lo que ofrecemos</p>
-                    <h3 class="font-display text-2xl font-bold text-white">Plataforma SaaS dedicada</h3>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-emerald-300 mb-1">Con la plataforma</p>
+                    <h3 class="font-display text-2xl font-bold text-white">Centralizado, en tiempo real</h3>
                 </div>
                 <span class="pill pill-emerald">$4.000 año 1</span>
             </div>
             <ul class="space-y-3">
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Diseño UX/UI dedicado al flujo de inscripción</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Panel de inscripciones <strong>nativo</strong> (no plugin)</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Pasarela integrada al flujo nativo</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Lock atómico de cupos (no sobreventa posible)</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Visor GPX nativo con perfil de elevación</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Postgres real en Supabase (escalable, exportable)</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Diseñada para 1.000+ inscripciones concurrentes</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Sin plugins frágiles que se rompan en updates</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Multi-evento: Intag Trail + Cuicocha + futuros</div></li>
-                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Sin licencias anuales de terceros</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Cédula validada con Registro Civil, datos autocompletados</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Categoría automática por edad, talla según género</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Dos pagos integrados: PayPhone + transferencia con comprobante</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Pagos cruzados automáticamente con cada inscripción</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Reporte de tallas por sexo en tiempo real</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Reportes ejecutivos siempre disponibles, no al final</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Una sola base de datos: panel, exportable a Excel</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">El siguiente evento reutiliza todo: 1-2 días de setup</div></li>
+                <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold flex-shrink-0">✓</span><div class="text-sm text-slate-200">Control de cupos por distancia, con bloqueo en tiempo real</div></li>
             </ul>
             <div class="mt-5 pt-5 border-t border-emerald-500/20">
                 <p class="text-xs text-emerald-300 font-mono uppercase tracking-widest mb-1">Resultado</p>
-                <p class="text-slate-200 text-sm">Sistema que opera el día del lanzamiento sin colapsar. Que se reutiliza para Cuicocha sin desarrollo nuevo. Que el municipio puede mostrar a sponsors como infraestructura cantonal.</p>
+                <p class="text-slate-200 text-sm">Orden y transparencia: una sola fuente de verdad. Menos trabajo manual para el equipo del municipio. Mejor experiencia para el corredor. Y la plataforma queda lista para todos los eventos deportivos del cantón.</p>
             </div>
         </div>
     </div>
@@ -627,14 +632,14 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
                 </thead>
                 <tbody class="text-slate-300">
                     <tr class="border-b border-slate-700/30">
-                        <td class="py-3 px-2 text-white font-medium">Contratar nuevo sistema cada año (alternativa típica)</td>
+                        <td class="py-3 px-2 text-white font-medium">Contratar sistema nuevo para cada evento</td>
                         <td class="text-center text-red-300">$4.500 ×3 eventos = $13.500</td>
                         <td class="text-center text-red-300">$13.500</td>
                         <td class="text-center text-red-300">$13.500</td>
                         <td class="text-center font-bold text-red-300">$40.500</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
-                        <td class="py-3 px-2 text-white font-medium">WordPress + plugins (rotación cada año)</td>
+                        <td class="py-3 px-2 text-white font-medium">Página web + Forms + Excel (frágil, rehacer cada año)</td>
                         <td class="text-center text-yellow-300">$2.500 ×3 = $7.500</td>
                         <td class="text-center text-yellow-300">$7.500</td>
                         <td class="text-center text-yellow-300">$7.500</td>
@@ -650,7 +655,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
                 </tbody>
             </table>
         </div>
-        <p class="text-emerald-300 text-sm mt-5 font-semibold">A 3 años, el ahorro vs sistemas WordPress + plugins es de ~$15.000. Vs sistemas SaaS por evento separados, ~$33.000.</p>
+        <p class="text-emerald-300 text-sm mt-5 font-semibold">A 3 años, el ahorro vs sistemas que se rotan cada año es de ~$15.000. Vs contratar sistemas por evento separados, ~$33.000.</p>
     </div>
 </section>
 
@@ -698,21 +703,26 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
                 <li>• Plataforma operativa 12 meses (Año 1)</li>
                 <li>• Hasta 5 eventos configurados por año</li>
                 <li>• Soporte técnico durante todo el año</li>
-                <li>• Hosting + base de datos premium</li>
-                <li>• Pasarela de pagos integrada</li>
+                <li>• Hosting Vercel + Supabase Pro</li>
+                <li>• Integración pasarela PayPhone</li>
+                <li>• Flujo de pago por transferencia bancaria con comprobante</li>
+                <li>• Validación de cédula con consulta al Registro Civil</li>
+                <li>• Verificación de dominio de correo del municipio (primera semana)</li>
+                <li>• Login y panel del administrador del municipio (primera semana)</li>
                 <li>• Hasta 10.000 correos automáticos/mes</li>
                 <li>• Capacitación inicial (4 horas)</li>
-                <li>• Reportes y exports</li>
+                <li>• Reportes en tiempo real y exports a Excel</li>
                 <li>• Actualizaciones del sistema</li>
-                <li>• Atención prioritaria pre-evento</li>
+                <li>• Dominio .com a nombre del Municipio ($21.99 + IVA año 1)</li>
             </ul>
         </div>
         <div class="glass rounded-2xl p-6">
             <h3 class="font-display text-lg font-bold text-yellow-300 mb-3">✗ NO incluido</h3>
             <ul class="text-sm text-slate-300 space-y-2">
                 <li>• <strong class="text-white">Comisión de PayPhone 6%</strong> — se cobra únicamente al retirar fondos de PayPhone a la cuenta bancaria del municipio. No se cobra por transacción individual. (Ejemplo: $20.000 acumulados en PayPhone → al retirar a banco, $1.200 de comisión.)</li>
-                <li>• Diseño de logos del evento (si Intag Trail ya tiene logo, no aplica)</li>
-                <li>• Producción de contenido del sitio (fotos, videos, textos de las rutas — los provee el organizador)</li>
+                <li>• <strong class="text-white">Cronometraje en vivo durante la carrera</strong> — eso lo hacen empresas especializadas con chips y tapetes. El sistema sí publica el ranking al recibir el CSV de resultados del proveedor de cronometraje.</li>
+                <li>• Diseño de logos del evento (Intag Trail ya tiene línea gráfica oficial)</li>
+                <li>• Producción de contenido del sitio (fotos del evento, videos, textos descriptivos de las rutas — los provee el organizador)</li>
                 <li>• Atención al corredor por WhatsApp (lo maneja el equipo del municipio)</li>
                 <li>• Eventos más allá de 5 al año (cada evento extra: $400)</li>
                 <li>• Más de 10.000 correos/mes (cada paquete extra: $50)</li>
