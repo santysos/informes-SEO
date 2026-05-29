@@ -747,8 +747,8 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
 <section id="cierre" class="py-16">
     <div class="glass-emerald rounded-3xl p-8 md:p-12 text-center">
         <span class="pill pill-emerald mb-5 inline-flex">Próximos pasos</span>
-        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-5 leading-tight">Para arrancar necesitamos<br>3 confirmaciones</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10 max-w-4xl mx-auto text-left">
+        <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-5 leading-tight">Para arrancar necesitamos<br>2 confirmaciones</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 max-w-3xl mx-auto text-left">
             <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-xl p-5">
                 <p class="font-display text-4xl font-extrabold text-emerald-300 mb-2">1</p>
                 <h3 class="font-display text-lg font-bold text-white mb-1">Aprobación de la propuesta</h3>
@@ -756,11 +756,6 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
             </div>
             <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-xl p-5">
                 <p class="font-display text-4xl font-extrabold text-emerald-300 mb-2">2</p>
-                <h3 class="font-display text-lg font-bold text-white mb-1">Firma del contrato y emisión de factura</h3>
-                <p class="text-slate-400 text-sm">Trámite estándar de contratación municipal.</p>
-            </div>
-            <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-xl p-5">
-                <p class="font-display text-4xl font-extrabold text-emerald-300 mb-2">3</p>
                 <h3 class="font-display text-lg font-bold text-white mb-1">Kick-off del proyecto</h3>
                 <p class="text-slate-400 text-sm">Recolección de assets + arranque de configuración.</p>
             </div>
