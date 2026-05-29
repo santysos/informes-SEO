@@ -200,8 +200,8 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
             <p class="font-mono text-xs text-emerald-400 mt-1">por edición</p>
         </div>
         <div class="glass-gold rounded-xl p-5">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-2">Homologación</p>
-            <p class="font-display text-2xl font-bold text-white">UTMB Index</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-2">Distancia élite</p>
+            <p class="font-display text-2xl font-bold text-white">87 km Ultra</p>
             <p class="font-mono text-xs text-yellow-200 mt-1">Atrae internacional</p>
         </div>
     </div>
@@ -248,9 +248,9 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div>
                 <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-2">Diferenciador clave</p>
-                <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-3">Es una carrera UTMB Index Race</h3>
-                <p class="text-slate-300 text-sm md:text-base leading-relaxed">Intag Trail está homologada al <strong class="text-white">circuito UTMB</strong> (Ultra-Trail du Mont-Blanc), el más prestigioso del mundo. Los corredores que terminen reciben puntos que les sirven para clasificar a carreras internacionales como Chamonix, Sierra Zinal y Madeira.</p>
-                <p class="text-slate-300 text-sm md:text-base leading-relaxed mt-3"><strong class="text-yellow-300">Esto cambia todo:</strong> el evento atrae corredores internacionales. Y los corredores internacionales esperan una experiencia de inscripción de nivel internacional — flujo claro, pago seguro, confirmación inmediata por correo, certificado descargable post-evento.</p>
+                <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-3">Una primera edición con vocación internacional</h3>
+                <p class="text-slate-300 text-sm md:text-base leading-relaxed">Intag Trail incluye una <strong class="text-white">distancia ultra de 87 km</strong>, algo que muy pocas carreras en Ecuador ofrecen. La carrera ya proyecta homologación al <strong class="text-white">circuito UTMB</strong> en su segunda edición — el circuito de trail más prestigioso del mundo.</p>
+                <p class="text-slate-300 text-sm md:text-base leading-relaxed mt-3"><strong class="text-yellow-300">Implicación:</strong> el evento atrae corredores serios — locales, nacionales y extranjeros. Y esos corredores esperan una experiencia de inscripción de nivel internacional: flujo claro, pago seguro, confirmación inmediata, certificado descargable post-evento.</p>
             </div>
             <div class="grid grid-cols-2 gap-3">
                 <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-4 text-center">
@@ -327,7 +327,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
             ['08','Categorías por edad y género','Sub-18, 18-29, 30-39, 40-49, 50+. Por género. El sistema asigna automáticamente y genera el ranking por categoría.','grid'],
             ['09','Gestión de sponsors','Carga de auspiciantes con logo + link + nivel (Diamante, Oro, Plata). Aparecen ordenados en la web pública.','star'],
             ['10','Control de kits y tallas','Reporte de tallas vendidas para hacer pedido al proveedor. Sistema de marcado de "kit entregado" al corredor el día previo.','package'],
-            ['11','Galería y ranking post-evento','Carga de fotos del evento + ranking oficial con tiempos y puntos UTMB. Visible públicamente para los corredores.','image'],
+            ['11','Galería y ranking post-evento','Carga de fotos del evento + ranking oficial con tiempos y posiciones por categoría. Visible públicamente para los corredores.','image'],
             ['12','Reportes ejecutivos','Estadísticas ejecutivas: ingresos totales, distribución por distancia, demografía. Exportable a Excel y PDF.','bar-chart'],
         ];
         foreach ($modulos as [$num,$titulo,$desc,$icon]):
@@ -441,7 +441,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
             <div><p class="font-trail text-3xl text-stone-100">5</p><p class="font-mono text-[10px] uppercase tracking-widest text-stone-400 mt-1">distancias</p></div>
             <div><p class="font-trail text-3xl text-stone-100">87 KM</p><p class="font-mono text-[10px] uppercase tracking-widest text-stone-400 mt-1">ultra</p></div>
             <div><p class="font-trail text-3xl text-stone-100">1.000</p><p class="font-mono text-[10px] uppercase tracking-widest text-stone-400 mt-1">corredores</p></div>
-            <div><p class="font-trail text-3xl text-yellow-500">UTMB</p><p class="font-mono text-[10px] uppercase tracking-widest text-stone-400 mt-1">index race</p></div>
+            <div><p class="font-trail text-3xl text-yellow-500">+ INT</p><p class="font-mono text-[10px] uppercase tracking-widest text-stone-400 mt-1">corredores internacionales</p></div>
             <div><p class="font-trail text-3xl text-yellow-500">INTAG</p><p class="font-mono text-[10px] uppercase tracking-widest text-stone-400 mt-1">valle sagrado</p></div>
         </div>
         <!-- Hero del mockup -->
@@ -470,7 +470,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
             ['Río Intag', '20K', '$20', 'Intermedio'],
             ['Pan de Azúcar', '26K', '$30', 'Trail medio'],
             ['Cara de Intag', '40K', '$50', 'Trail largo'],
-            ['Yana Urku', '87K', '$80', 'Ultra · UTMB'],
+            ['Yana Urku', '87K', '$80', 'Ultra distancia'],
         ];
         foreach ($distancias as [$nombre,$km,$precio,$tipo]):
         ?>
@@ -522,7 +522,7 @@ if (!isset($_SESSION['auth_cotacachi_proforma']) || $_SESSION['auth_cotacachi_pr
         <div class="rounded-2xl p-6" style="background:rgba(212,163,50,0.08); border:1px solid rgba(212,163,50,0.30);">
             <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-2">Evento 1 · Oct 2026</p>
             <h3 class="font-trail text-2xl uppercase text-stone-100 mb-2">Intag Trail</h3>
-            <p class="text-slate-400 text-sm mb-4">5 distancias · 500-1.000 corredores · UTMB Index Race</p>
+            <p class="text-slate-400 text-sm mb-4">5 distancias · 500-1.000 corredores · Ultra 87 km</p>
             <p class="font-mono text-xs text-emerald-300">✓ Incluido en setup año 1</p>
         </div>
         <div class="glass-emerald rounded-2xl p-6">
