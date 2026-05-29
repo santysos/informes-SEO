@@ -1,6 +1,6 @@
 # CLAUDE.md — Repositorio informes-SEO
 
-Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-05-23.
+Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-05-28.
 
 ---
 
@@ -59,6 +59,69 @@ Submarca de seminuevos de Comercial Hidrobo. Sitio nuevo, sin trabajo SEO previo
 - Mejorar copy del home (recibe 40 % del tráfico orgánico)
 - Marcar `whatsapp_click` y `form_submit` como **conversiones clave** en GA4
 
+### 3. Dimapar Ecuador — dimaparecuador.com
+
+Distribuidor B2B de equipos industriales y herramientas para talleres automotrices, llanteras y vulcanizadoras. Marcas que distribuye: Hofmann, Besser, Hydraulan, Muth, Thyson, Tramontina, Toptul, Vermar, Milton.
+
+**Stack del sitio actual:** WP 6.9.4 + WooCommerce 10.7.0 + Elementor Pro 3.27.1 sobre tema demo "Woo Auto Parts" (sin personalizar).
+
+**Estado del proyecto (mayo 2026):**
+- 🔴 42 problemas detectados en auditoría técnica (10 críticos, 19 importantes, 13 menores)
+- ✅ Reestructura WooCommerce aplicada: 51 categorías en 8 padres según organigrama del cliente
+- ✅ 159 productos reclasificados automáticamente
+- ✅ 4 atributos globales creados: Marca, Voltaje, Capacidad, Aplicación
+- 🔄 Rediseño en proceso: nueva home aprobada (dark + cyan, hero "Hoja técnica" con foto del taller, fuente Outfit)
+- 🔄 Página `inicio-2026` en WP creada (id=6203) con `_elementor_data` inyectado vía REST (gracias al mu-plugin `dimapar-rest-meta.php`)
+- ⏳ Pendiente: subir `dimapar-tokens.css` + `image-slot.js` a `/wp-content/uploads/dimapar/` para que el render se complete
+
+**REST API Dimapar:**
+- Base: `https://www.dimaparecuador.com/wp-json`
+- Usuario admin: `noritake` (Xavier Rojas), Application Password en `.env` (`DIMAPAR_WP_APP_PASS`)
+- **Mu-plugin subido a `/wp-content/mu-plugins/dimapar-rest-meta.php`** que registra `_elementor_data`, `_elementor_page_settings`, etc. como REST-writable. Sin él, WP REST descarta silenciosamente los metas privados (con prefijo `_`).
+
+**Entregables públicos:**
+- Informe técnico abril 2026 (login `Dimapar-2026`): `creativeweb.com.ec/informes/dimapar/abril-2026/`
+- Diagnóstico técnico de 42 problemas: `creativeweb.com.ec/informes/dimapar/diagnostico-tecnico/` (login `Dimapar-2026`)
+- Preview rediseño home: `creativeweb.com.ec/informes/dimapar/redesign/` (sin login)
+- Playbook Elementor: `creativeweb.com.ec/informes/dimapar/redesign/elementor-playbook.html`
+
+### 4. Municipio de Cotacachi — Intag Trail + plataforma multi-evento
+
+**Contexto comercial:** propuesta de venta a entidad pública (Municipio de Cotacachi) para construir una plataforma SaaS multi-evento que sirva como sistema de inscripciones digitales del cantón. Primer caso: Intag Trail (9-11 oct 2026), una carrera con 5 distancias (7K, 20K, 26K, 40K, 87K) y precios $20-$80. Segundo evento confirmado: Travesía Cuicocha.
+
+**Contacto comercial cliente:** Santiago Echeverría (organizador Intag Trail / Energy Trail Team).
+
+**Modelo de negocio definido en proforma:**
+- Año 1: **USD $4.000 + IVA** (setup + 12 meses operación + capacitación)
+- Año 2+: **USD $1.800 + IVA / año** (renovación)
+- Hasta 5 eventos al año por organización
+- Pasarela: **PayPhone únicamente** (comisión 6% solo al retiro de fondos)
+- Dominio .com a nombre del municipio incluido año 1 ($21.99 + IVA)
+- Multi-tenant: cada evento con su propio branding (logo, paleta)
+
+**Stack técnico definido para la nueva app:**
+- Next.js (App Router) + TypeScript + Tailwind + shadcn/ui
+- Supabase (Postgres + Auth + Storage + RLS)
+- Deploy en Vercel
+- PayPhone Ecuador como única pasarela
+- Resend para email transaccional
+- Leaflet + Recharts para visor GPX con perfil de elevación
+
+**IMPORTANTE — app nueva, no reusar Otavalo Explorer:**
+- Existe `/Users/creativeweb/DESARROLLO/CLAUDIO/App-registros-online` con un proyecto previo "Otavalo Explorer" (multi-tenant similar). **NO usar como base ni mencionar**. Nunca salió a producción.
+- La app de Intag Trail / Cotacachi es proyecto nuevo desde cero, en repo aparte.
+- El desarrollo lo maneja otro Claude en otra sesión. El contexto para él vive en `/Users/creativeweb/Downloads/intag-trail-app-context.md`.
+
+**Restricciones de branding:**
+- ⚠️ Intag Trail **NO es UTMB Index Race** (confirmado por cliente 28-may). Solo proyecta homologación UTMB para la 2ª edición. **No usar "UTMB" como argumento de venta presente**, solo como proyección futura.
+- Línea gráfica oficial Intag Trail: negro `#0E1410` + amarillo dorado `#D4A332` + crema `#F5F0E5`. Fuente display: sans condensada bold (`Anton` o equivalente).
+
+**Entregables comerciales:**
+- Proforma protegida (clave `Cotacachi-2026`): `creativeweb.com.ec/informes/cotacachi/proforma/`
+- Deck de presentación HTML público: `creativeweb.com.ec/informes/cotacachi/presentacion/`
+- Guía de reunión (uso interno): `/Users/creativeweb/Downloads/guia-reunion-cotacachi.html`
+- Brief al otro Claude: `/Users/creativeweb/Downloads/intag-trail-app-context.md`
+
 ---
 
 ## Stack técnico
@@ -103,34 +166,45 @@ informes-SEO/
 ├── .gitignore                        # Incluye .env y data crudos de GA/GSC
 ├── CLAUDE.md                         # Este archivo
 ├── comercial-hidrobo/
-│   ├── marzo-2026/
-│   │   ├── index.php                 # Informe principal (login: CH-Hidrobo-2026)
-│   │   ├── avance-mayo.php           # Tab "Avance Mes 1" agregado en mayo 2026
-│   │   ├── login.php, logout.php, .htaccess
-│   │   └── data/                     # CSVs de GA4 + Search Console (gitignored)
-│   ├── nueva-home/                   # Preview del rediseño de home (no requiere login)
-│   │   ├── preview.html, home.php, copy.md, schema.json, ...
-│   │   └── images/
-│   └── registro-mensual/2026-03-marzo.md   # Registro de trabajo del mes
-└── okcars/
-    └── abril-2026/
-        ├── publish_batch.py          # Publicador de posts con WAF-safe delays
-        └── posts/                    # 20 specs JSON (post-01 + spec-02..20)
+│   ├── marzo-2026/                   # Informe principal CH/OKCars (login CH-Hidrobo-2026)
+│   ├── nueva-home/                   # Preview rediseño home (sin login)
+│   └── registro-mensual/
+├── okcars/
+│   └── abril-2026/                   # publish_batch.py + specs JSON de 20 posts
+├── dimapar/
+│   ├── abril-2026/                   # Informe Fase 1 (login Dimapar-2026)
+│   ├── diagnostico-tecnico/          # Diagnóstico 42 problemas (login Dimapar-2026)
+│   └── redesign/                     # Preview rediseño + playbook + assets
+│       ├── preview.html              # Mockup home aprobado (dark + cyan + Outfit)
+│       ├── elementor-playbook.html
+│       ├── dimapar-tokens.css        # CSS variables (pendiente subir a wp-uploads)
+│       ├── image-slot.js
+│       ├── build_elementor.py        # Inyecta _elementor_data vía REST
+│       ├── wp-plugin/dimapar-rest-meta.php  # mu-plugin (ya subido a sitio)
+│       └── audit/                    # Scripts inventario WC + análisis técnico
+└── cotacachi/
+    ├── proforma/                     # Proforma SaaS Intag Trail (login Cotacachi-2026)
+    └── presentacion/                 # Deck HTML público para reunión
 ```
 
-### Informe CH-OKCars en vivo
+### Entregables en vivo (resumen por cliente)
 
-- **URL pública:** `https://creativeweb.com.ec/informes/comercial-hidrobo/marzo-2026/`
-- **Login password:** `CH-Hidrobo-2026` (hardcodeada en `login.php`)
-- **Tabs disponibles:**
-  1. Resumen Ejecutivo
-  2. Comercial Hidrobo (diagnóstico marzo)
-  3. OKCars (diagnóstico marzo)
-  4. Plan 6 Meses
-  5. Mes 1: Abril (acciones)
-  6. Contenido: Abril y Mayo (los 40+40 títulos del plan)
-  7. **📊 Avance Mes 1 (Abr-May)** ← agregado en mayo 2026 con métricas reales
-- **Preview nueva home CH:** `https://creativeweb.com.ec/informes/comercial-hidrobo/nueva-home/` (sin login)
+| Cliente | Tipo | URL | Clave |
+|---|---|---|---|
+| Comercial Hidrobo | Informe SEO mensual | `creativeweb.com.ec/informes/comercial-hidrobo/marzo-2026/` | `CH-Hidrobo-2026` |
+| Comercial Hidrobo | Preview nueva home | `creativeweb.com.ec/informes/comercial-hidrobo/nueva-home/` | sin login |
+| Dimapar | Informe Fase 1 | `creativeweb.com.ec/informes/dimapar/abril-2026/` | `Dimapar-2026` |
+| Dimapar | Diagnóstico técnico (42 problemas) | `creativeweb.com.ec/informes/dimapar/diagnostico-tecnico/` | `Dimapar-2026` |
+| Dimapar | Preview rediseño home | `creativeweb.com.ec/informes/dimapar/redesign/` | sin login |
+| Cotacachi | Proforma SaaS Intag Trail | `creativeweb.com.ec/informes/cotacachi/proforma/` | `Cotacachi-2026` |
+| Cotacachi | Deck de presentación | `creativeweb.com.ec/informes/cotacachi/presentacion/` | sin login |
+
+**Patrón de proforma/informe protegido con login (PHP):**
+- `login.php` con form POST a sí mismo, valida clave hardcoded, setea `$_SESSION['auth_xxx'] = true`, redirige a `index.php`
+- `index.php` con `session_start()` y guard al inicio: si no auth, `header('Location: login.php'); exit;`
+- `logout.php` simple: destroy session + redirect a login
+- `.htaccess` con `DirectoryIndex login.php index.php` + header `X-Robots-Tag: noindex,nofollow,noarchive,nosnippet`
+- Estilo: Tailwind CDN + Outfit/Inter/JetBrains Mono + paleta dark + glass cards. Coherencia visual con el rediseño del cliente respectivo (ej: cyan para Dimapar, emerald + gold para Cotacachi).
 
 ---
 
@@ -210,3 +284,8 @@ Documentado en el tab "Avance Mes 1" del informe. Resumen:
 4. **CSVs con cabecera de comentarios:** los exports de GA4 traen 8-10 líneas comenzadas en `#` antes del header real. Hay que saltarlas al parsear.
 5. **Yoast meta vía REST:** Yoast acepta `meta._yoast_wpseo_title`, `meta._yoast_wpseo_metadesc`, `meta._yoast_wpseo_focuskw` en el payload de creación de post — pero a veces los ignora silenciosamente. Si es crítico optimizar SEO de cada post, el usuario tiene que confirmar en /wp-admin que se guardaron.
 6. **Para nueva preview/landing pública sin login:** patrón usado en `nueva-home/` y `reina-de-otavalo/media-kit-2026/`. Copia directa de archivos al `BASEPATH/...` con `cp -rf images/. images/`.
+7. **WP REST + metas privados:** WordPress por seguridad descarta silenciosamente metas con prefijo `_` (como `_elementor_data`) en escrituras REST, aunque devuelva 200. Para escribirlos necesitás un mu-plugin que los registre con `register_post_meta(..., 'show_in_rest' => true)`. Patrón usado en Dimapar: `dimapar-rest-meta.php` en `/wp-content/mu-plugins/`.
+8. **Elementor 4.x acepta tanto `section/column` (legacy) como `container` (3.16+):** si el sitio tiene contenido viejo en formato section/column, inyectar containers nuevos puede causar que el editor descarte silenciosamente. Usar el mismo formato que la página ya tiene cuando inyectes `_elementor_data`.
+9. **Elementor purga `<style>` en widgets HTML por seguridad** pero permite `<link rel="stylesheet">` y `<script src=...>`. Para inyectar CSS custom desde un widget HTML, subir el CSS como archivo externo y referenciarlo con `<link>`.
+10. **ModSecurity del hosting bloquea uploads de `.css` y `.js` vía WP REST media** (HTTP 406). Para subir esos archivos hay que usar cPanel File Manager directamente, no automatizar vía REST.
+11. **Proyecto Cotacachi/Intag Trail = SaaS nuevo, NO Otavalo Explorer:** si el usuario menciona la app de inscripciones, recordar que el desarrollo es en otro repo nuevo (no en `/App-registros-online`) y lo maneja otro Claude. Yo aquí solo manejo entregables comerciales.
