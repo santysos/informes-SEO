@@ -390,16 +390,6 @@ if (!isset($_SESSION['auth_intag_trail_proforma']) || $_SESSION['auth_intag_trai
     </div>
 </section>
 
-<!-- 2027 OUTLOOK -->
-<section class="py-12">
-    <div class="glass-emerald rounded-3xl p-8 md:p-10">
-        <span class="pill pill-emerald mb-4">Mirando hacia 2027</span>
-        <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-4 leading-tight">El siguiente paso natural: adquisición por el Municipio de Cotacachi</h2>
-        <p class="text-slate-300 text-base leading-relaxed mb-4">El Municipio de Cotacachi ya ha manifestado interés en <strong class="text-white">adquirir la plataforma completa para 2027</strong> bajo modalidad anual ($4.000 + IVA), cubriendo no solo Intag Trail sino también Travesía Cuicocha y los demás eventos deportivos del cantón.</p>
-        <p class="text-slate-300 text-base leading-relaxed">El éxito operativo de Intag Trail 2026 sobre esta plataforma es la mejor evidencia para sustentar esa partida en el POA 2027. <strong class="text-emerald-300">Si todo sale bien este año, en 2027 el organizador no paga por el sistema — el municipio lo cubre.</strong></p>
-    </div>
-</section>
-
 <!-- CIERRE -->
 <section class="py-12">
     <div class="glass-gold rounded-3xl p-8 md:p-12 text-center">
