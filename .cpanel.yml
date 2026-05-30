@@ -219,3 +219,15 @@ deployment:
     - /bin/cp -f cotacachi/presentacion/index.html $BASEPATH/cotacachi/presentacion/
     # Permisos Cotacachi Presentacion
     - chmod 644 $BASEPATH/cotacachi/presentacion/*.html
+    # Crear estructura Intag Trail Proforma (con login)
+    - /bin/mkdir -p $BASEPATH/intag-trail/proforma
+    - chmod 755 $BASEPATH/intag-trail
+    - chmod 755 $BASEPATH/intag-trail/proforma
+    # Deploy Intag Trail Proforma
+    - /bin/cp -f intag-trail/proforma/.htaccess $BASEPATH/intag-trail/proforma/
+    - /bin/cp -f intag-trail/proforma/index.php $BASEPATH/intag-trail/proforma/
+    - /bin/cp -f intag-trail/proforma/login.php $BASEPATH/intag-trail/proforma/
+    - /bin/cp -f intag-trail/proforma/logout.php $BASEPATH/intag-trail/proforma/
+    # Permisos Intag Trail Proforma
+    - chmod 644 $BASEPATH/intag-trail/proforma/*.php
+    - chmod 644 $BASEPATH/intag-trail/proforma/.htaccess
