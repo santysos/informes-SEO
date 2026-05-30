@@ -100,22 +100,29 @@ if (!isset($_SESSION['auth_intag_trail_proforma']) || $_SESSION['auth_intag_trai
 
 <!-- HEADER -->
 <header class="sticky top-0 z-50 glass border-b border-yellow-900/30 no-print">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3">
         <div class="flex items-center justify-between gap-4 flex-wrap">
             <div class="flex items-center gap-3">
-                <div class="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
                      style="background:linear-gradient(135deg,#D4A332,#B08925); box-shadow:0 0 20px rgba(212,163,50,0.25);">
-                    <span class="font-trail text-xl text-stone-900">IT</span>
+                    <span class="font-trail text-lg text-stone-900">IT</span>
                 </div>
                 <div>
-                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-400">Propuesta</p>
-                    <h1 class="font-display text-base md:text-lg font-bold text-white leading-tight">Arriendo de Plataforma · Intag Trail 2026</h1>
+                    <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-400">Proforma # 1-5-2289</p>
+                    <h1 class="font-display text-sm md:text-base font-bold text-white leading-tight">Arriendo de Plataforma · Intag Trail 2026</h1>
                 </div>
             </div>
-            <a href="logout.php" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-800/60 hover:bg-slate-700/60 text-slate-300 text-xs font-medium transition-all">
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
-                Salir
-            </a>
+            <div class="flex items-center gap-2">
+                <a href="Cot-Plataforma-Intag-Trail-2026.pdf" download class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-stone-900 text-xs font-semibold font-trail uppercase tracking-widest transition-all hover:opacity-90"
+                   style="background:linear-gradient(135deg,#D4A332,#B08925); box-shadow:0 4px 16px rgba(212,163,50,0.30);">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"/></svg>
+                    Descargar PDF
+                </a>
+                <a href="logout.php" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-800/60 hover:bg-slate-700/60 text-slate-300 text-xs font-medium transition-all">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
+                    Salir
+                </a>
+            </div>
         </div>
     </div>
 </header>
@@ -151,9 +158,9 @@ if (!isset($_SESSION['auth_intag_trail_proforma']) || $_SESSION['auth_intag_trai
             <p class="font-mono text-xs text-slate-400 mt-1">corredores</p>
         </div>
         <div class="glass-gold rounded-xl p-4">
-            <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-1">Modelo</p>
-            <p class="font-display text-xl font-bold text-white">Arriendo</p>
-            <p class="font-mono text-xs text-yellow-200 mt-1">por evento</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300 mb-1">Plataforma activa</p>
+            <p class="font-display text-xl font-bold text-white">15 Jun – 10 Nov</p>
+            <p class="font-mono text-xs text-yellow-200 mt-1">~5 meses (incl. 30 días post)</p>
         </div>
     </div>
 </section>
@@ -201,23 +208,24 @@ if (!isset($_SESSION['auth_intag_trail_proforma']) || $_SESSION['auth_intag_trai
         <!-- Setup -->
         <div class="glass-gold rounded-2xl p-8" style="border-width:2px;">
             <div class="flex items-center justify-between mb-4">
-                <span class="pill pill-gold">Setup único</span>
+                <span class="pill pill-gold">Setup + Dominio</span>
                 <p class="font-mono text-[10px] uppercase tracking-widest text-yellow-300">Al firmar</p>
             </div>
             <h3 class="font-display text-xl font-bold text-white mb-2">Activación de la plataforma</h3>
             <div class="flex items-baseline gap-2 mb-5">
-                <span class="font-display text-5xl font-extrabold text-yellow-300">$600</span>
+                <span class="font-display text-5xl font-extrabold text-yellow-300">$620</span>
                 <span class="text-slate-400 font-medium">+ IVA</span>
             </div>
             <ul class="space-y-2 text-sm text-slate-300">
-                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Configuración del evento con branding Intag Trail</li>
+                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Configuración del evento con línea gráfica Intag Trail</li>
                 <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Configuración de las 5 distancias con GPX, abastos, fichas</li>
+                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span><strong class="text-white">Dominio .com a nombre del organizador (primer año incluido)</strong></li>
                 <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Integración con cuenta PayPhone del organizador</li>
                 <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Configuración de cuenta bancaria para transferencias</li>
+                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Validación de cédula con Registro Civil</li>
                 <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Plantillas de correos automáticos personalizadas</li>
                 <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Capacitación al equipo organizador (2 horas)</li>
-                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Hosting y base de datos durante todo el evento</li>
-                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Soporte técnico durante el periodo de inscripciones</li>
+                <li class="flex items-start gap-2"><span class="text-yellow-400 font-bold flex-shrink-0">✓</span>Hosting y base de datos · plataforma activa <strong class="text-white">15 jun – 10 nov 2026</strong></li>
             </ul>
         </div>
 
@@ -261,40 +269,40 @@ if (!isset($_SESSION['auth_intag_trail_proforma']) || $_SESSION['auth_intag_trai
                 <tbody class="text-slate-300">
                     <tr class="border-b border-slate-700/30">
                         <td class="py-3 px-2 text-white font-medium">300 corredores</td>
-                        <td class="text-center font-mono">$600</td>
+                        <td class="text-center font-mono">$620</td>
                         <td class="text-center font-mono">$450</td>
-                        <td class="text-center font-mono text-yellow-300 font-semibold">$1.050</td>
+                        <td class="text-center font-mono text-yellow-300 font-semibold">$1.070</td>
                         <td class="text-center font-mono text-slate-400">~$9.000</td>
                         <td class="text-center font-mono">~12%</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="py-3 px-2 text-white font-medium">500 corredores</td>
-                        <td class="text-center font-mono">$600</td>
+                        <td class="text-center font-mono">$620</td>
                         <td class="text-center font-mono">$750</td>
-                        <td class="text-center font-mono text-yellow-300 font-semibold">$1.350</td>
+                        <td class="text-center font-mono text-yellow-300 font-semibold">$1.370</td>
                         <td class="text-center font-mono text-slate-400">~$15.200</td>
                         <td class="text-center font-mono">~9%</td>
                     </tr>
                     <tr class="border-b border-slate-700/30">
                         <td class="py-3 px-2 text-white font-medium">750 corredores</td>
-                        <td class="text-center font-mono">$600</td>
+                        <td class="text-center font-mono">$620</td>
                         <td class="text-center font-mono">$1.125</td>
-                        <td class="text-center font-mono text-yellow-300 font-semibold">$1.725</td>
+                        <td class="text-center font-mono text-yellow-300 font-semibold">$1.745</td>
                         <td class="text-center font-mono text-slate-400">~$22.800</td>
                         <td class="text-center font-mono">~8%</td>
                     </tr>
                     <tr>
                         <td class="py-3 px-2 text-white font-medium">1.000 corredores</td>
-                        <td class="text-center font-mono">$600</td>
+                        <td class="text-center font-mono">$620</td>
                         <td class="text-center font-mono">$1.500</td>
-                        <td class="text-center font-mono text-yellow-300 font-semibold">$2.100</td>
+                        <td class="text-center font-mono text-yellow-300 font-semibold">$2.120</td>
                         <td class="text-center font-mono text-slate-400">~$30.400</td>
                         <td class="text-center font-mono">~7%</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <p class="text-slate-500 text-xs mt-4 italic">* Ingreso bruto estimado del organizador basado en distribución típica de corredores y precios oficiales del evento ($20 a $80 por distancia). No incluye comisión PayPhone ni costos operativos del evento.</p>
+        <p class="text-slate-500 text-xs mt-4 italic">* Ingreso bruto estimado del organizador basado en distribución típica de corredores y precios oficiales del evento ($20 a $80 por distancia). No incluye comisión PayPhone ni costos operativos del evento. Cifras del Total Creative Web no incluyen IVA.</p>
     </div>
 </section>
 
@@ -307,12 +315,12 @@ if (!isset($_SESSION['auth_intag_trail_proforma']) || $_SESSION['auth_intag_trai
         <div class="glass rounded-2xl p-6">
             <h3 class="font-display text-lg font-bold text-emerald-300 mb-3">✓ Incluido</h3>
             <ul class="text-sm text-slate-300 space-y-2">
-                <li>• Plataforma operativa hasta 30 días post-evento</li>
+                <li>• <strong class="text-white">Plataforma activa: 15 jun – 10 nov 2026</strong> (30 días post-evento)</li>
+                <li>• <strong class="text-white">Dominio .com a nombre del organizador (primer año)</strong></li>
                 <li>• Hosting Vercel + base de datos Supabase</li>
                 <li>• Integración pasarela PayPhone</li>
                 <li>• Flujo de pago por transferencia bancaria con comprobante</li>
                 <li>• Validación de cédula con Registro Civil</li>
-                <li>• Subdominio temporal Creative Web (sin costo adicional)</li>
                 <li>• Correos automáticos durante todo el periodo</li>
                 <li>• Capacitación inicial (2 horas)</li>
                 <li>• Reportes y exports a Excel</li>

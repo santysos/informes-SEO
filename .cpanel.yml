@@ -228,6 +228,8 @@ deployment:
     - /bin/cp -f intag-trail/proforma/index.php $BASEPATH/intag-trail/proforma/
     - /bin/cp -f intag-trail/proforma/login.php $BASEPATH/intag-trail/proforma/
     - /bin/cp -f intag-trail/proforma/logout.php $BASEPATH/intag-trail/proforma/
+    - /bin/cp -f intag-trail/proforma/Cot-Plataforma-Intag-Trail-2026.pdf $BASEPATH/intag-trail/proforma/
     # Permisos Intag Trail Proforma
     - chmod 644 $BASEPATH/intag-trail/proforma/*.php
+    - chmod 644 $BASEPATH/intag-trail/proforma/*.pdf
     - chmod 644 $BASEPATH/intag-trail/proforma/.htaccess
