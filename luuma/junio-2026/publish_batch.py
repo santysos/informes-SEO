@@ -389,7 +389,9 @@ def build_post(d):
 # ============================================================
 def publish_post(spec):
     slug = spec["slug"]
-    existing = api("GET", f"/posts?slug={slug}&_fields=id,slug,status,link")
+    # Buscar en cualquier status (draft, future, publish, private) — no solo publish.
+    # El default de la REST devuelve solo publish, que falla con posts programados.
+    existing = api("GET", f"/posts?slug={slug}&status=any&_fields=id,slug,status,link")
     if isinstance(existing, list) and existing:
         print(f"  SKIP (exists id={existing[0]['id']}): {slug}")
         return existing[0]
