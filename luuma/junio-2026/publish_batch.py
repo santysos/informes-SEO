@@ -391,7 +391,10 @@ def publish_post(spec):
     slug = spec["slug"]
     # Buscar en cualquier status (draft, future, publish, private) — no solo publish.
     # El default de la REST devuelve solo publish, que falla con posts programados.
-    existing = api("GET", f"/posts?slug={slug}&status=any&_fields=id,slug,status,link")
+    # Cache-buster: WP-Rocket / object cache puede servir respuestas viejas que
+    # no incluyen posts recién publicados, causando duplicados.
+    cb = int(time.time() * 1000)
+    existing = api("GET", f"/posts?slug={slug}&status=any&_cb={cb}&_fields=id,slug,status,link")
     if isinstance(existing, list) and existing:
         print(f"  SKIP (exists id={existing[0]['id']}): {slug}")
         return existing[0]
