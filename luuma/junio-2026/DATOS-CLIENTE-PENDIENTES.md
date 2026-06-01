@@ -22,8 +22,8 @@ Necesitamos los IDs reales (no slugs) para los specs JSON:
 
 *Esto lo podemos detectar nosotros via REST una vez tengamos el Application Password. Pero confirmar que las 5 categorías siguen activas.*
 
-### 3. Número de WhatsApp oficial + URLs de carta
-- [ ] Número WhatsApp de Luuma para reservas (formato internacional sin +) → `.env` como `LUUMA_WHATSAPP`
+### 3. Número de WhatsApp oficial + URLs de carta ✅ COMPLETO 1-jun
+- [x] WhatsApp: **593963485983** → `.env` como `LUUMA_WHATSAPP`
 - [x] **URLs de carta confirmadas (1-jun):**
   - Menú general (carta): `https://www.luumarooftop.com/menu/` → `LUUMA_MENU_URL`
   - Menú de almuerzos: `https://www.luumarooftop.com/menu-almuerzo/` → `LUUMA_MENU_ALMUERZO_URL`
@@ -35,25 +35,12 @@ Necesitamos los IDs reales (no slugs) para los specs JSON:
 
 ## 🟠 Bloqueantes para tono humano (los posts suenan a IA sin esto)
 
-### 4. Datos del equipo (3 datos por miembro)
-Por cada persona del equipo cuyo nombre aparezca en los posts, necesitamos:
-
-**Chef principal:**
-- [ ] Nombre completo + rol exacto
-- [ ] Una frase coloquial real que dice cuando habla del trabajo (para citar literal)
-- [ ] Anécdota verificable sobre un plato (algo que pasó cocinando, una influencia familiar, un ingrediente difícil de conseguir)
-
-**Bartender principal:**
-- [ ] Nombre completo + rol exacto
-- [ ] Una frase coloquial real sobre los cocteles
-- [ ] La historia detrás de uno de los cocteles de la carta (cómo nació)
-
-**Gerente / anfitrión:**
-- [ ] Nombre + rol
-- [ ] Frase real sobre el ambiente del rooftop
-- [ ] Anécdota sobre un huésped memorable o un evento que se les complicó
-
-**Por qué esto importa:** los posts con cita textual real son los que NO suenan a IA. Es la diferencia entre "El chef se inspira en la cocina manabita" y "Mi mamá hacía el viche con maní que ella misma tostaba, eso no se imita" — Marcia, jefa de cocina.
+### 4. Datos del equipo ✅ RESUELTO con voz colectiva 1-jun
+- [x] Cliente confirmó NO compartir nombres → usamos **voz colectiva honesta** en lugar de inventar
+- Citas se atribuyen a "Equipo de cocina de Luuma Rooftop" / "Equipo de barra de Luuma Rooftop"
+- Voz dominante en primera persona plural ("nosotros en Luuma", "lo que servimos", "cuando alguien llega")
+- Anécdotas en plural ("aprendimos cocinando aquí", "cuando empezamos a hacer este coctel")
+- **Si en el futuro Luuma quiere dar nombres específicos**, las citas se pueden actualizar sin reescribir el resto
 
 ### 5. Lista de precios actualizada del menú ✅ PARCIAL 1-jun
 - [x] Las 3 cartas vivas en el sitio: `/menu/`, `/menu-almuerzo/`, `/bebidas/`. Vamos a parsear directamente desde ahí.
@@ -63,13 +50,18 @@ Por cada persona del equipo cuyo nombre aparezca en los posts, necesitamos:
 
 *Las URLs vivas alimentan Schema Menu, tablas de los posts, y el contenido del CTA.*
 
-### 6. Fotos sin marca de agua
-- [ ] 5-10 fotos de platos (alta resolución, sin texto sobre la imagen)
-- [ ] 3-5 fotos del rooftop con luz natural (atardecer, mediodía)
-- [ ] 2-3 fotos del equipo trabajando (chef, bartender, anfitrión)
-- [ ] 1 foto del exterior (entrada, fachada, dirección)
+### 6. Fotos ✅ PARCIAL 1-jun (usando librería existente)
+Inventario completo en `data/inventario-fotos-2026-06-01.md`:
+- [x] 214 imágenes en wp-uploads. Categorizadas
+- [x] 6 fotos de platos (menú criollo, chuleta, pollo teriyaki, corte de carne, sisa, lomo salteado)
+- [x] 80 fotos profesionales del rooftop/ambiente (sesión `luuma-rooftop-restaurant-manabi-manta-1` a 13)
+- [x] 4 fotos vinos/cervezas
+- [x] Asignación de `featured_media` para los 10 posts planificados
 
-*Si no hay fotos profesionales, una sesión de 4 horas con cualquier fotógrafo local resuelve todo. Esto también alimenta el Google Business Profile.*
+**Gaps a pedir al cliente (cuando pueda):**
+- [ ] Fotos específicas de viche, encocado, corviche, ceviche manabita (no hay en librería)
+- [ ] Fotos de cocteles autor (mojito, espresso martini, coctel maracuyá)
+- [ ] 2-3 fotos del equipo trabajando (sin rostro si prefieren)
 
 ---
 
