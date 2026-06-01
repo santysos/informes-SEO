@@ -2,11 +2,17 @@
   "title": "Cómo moverse en Manta: taxi, bus, app o auto particular",
   "slug": "transporte-en-manta-guia-visitante",
   "status": "publish",
-  "date": "2026-08-29T11:00:00",
+  "date": "2026-06-19T11:00:00",
   "category_id": 10,
   "_category_slug": "vida-en-manta",
   "featured_media": 664,
-  "tags": ["transporte manta", "taxi manta", "como moverse manta", "uber manta", "bus manta"],
+  "tags": [
+    "transporte manta",
+    "taxi manta",
+    "como moverse manta",
+    "uber manta",
+    "bus manta"
+  ],
   "excerpt": "Taxi, bus público, apps de viaje o auto particular — qué conviene en Manta según el tipo de plan y la zona. Tarifas reales, cooperativas confiables y errores comunes del visitante.",
   "yoast_title": "Cómo moverse en Manta: taxi, bus, app o auto (guía 2026)",
   "yoast_metadesc": "Transporte en Manta: tarifas de taxi reales, apps que funcionan, rutas de bus público, dónde estacionar. Lo que necesita el visitante.",
@@ -19,45 +25,112 @@
     {
       "h2": "Taxi: la opción más fácil",
       "blocks": [
-        {"type": "p", "text": "Las cooperativas de taxi de Manta usan generalmente tarifa abierta (no taxímetro oficial). Eso significa que negocias antes de subir. Recorridos comunes en zona central: $2-$4. Del aeropuerto al malecón: $5-$7. Desde Manta a San Mateo (20 min): $12-$15."},
-        {"type": "p", "text": "Cooperativas con buena reputación: Líder Taxi, Cooperativa Manta, Cooperativa Tarqui. Tienen oficina física y radio para llamada. Pasajeras de hotel suelen tener convenio con cooperativa específica — pregunta en recepción."},
-        {"type": "p", "text": "Errores comunes: aceptar el primer precio sin negociar (puede ser 30% más alto), no preguntar si tienen aire acondicionado en temporada caliente, subirse a taxi blanco no afiliado a cooperativa (sin seguridad)."}
+        {
+          "type": "p",
+          "text": "Las cooperativas de taxi de Manta usan generalmente tarifa abierta (no taxímetro oficial). Eso significa que negocias antes de subir. Recorridos comunes en zona central: $2-$4. Del aeropuerto al malecón: $5-$7. Desde Manta a San Mateo (20 min): $12-$15."
+        },
+        {
+          "type": "p",
+          "text": "Cooperativas con buena reputación: Líder Taxi, Cooperativa Manta, Cooperativa Tarqui. Tienen oficina física y radio para llamada. Pasajeras de hotel suelen tener convenio con cooperativa específica — pregunta en recepción."
+        },
+        {
+          "type": "p",
+          "text": "Errores comunes: aceptar el primer precio sin negociar (puede ser 30% más alto), no preguntar si tienen aire acondicionado en temporada caliente, subirse a taxi blanco no afiliado a cooperativa (sin seguridad)."
+        }
       ]
     },
     {
       "h2": "Apps de viaje: limitadas pero útiles",
       "blocks": [
-        {"type": "p", "text": "Uber NO opera en Manta consistentemente. inDrive sí opera y suele tener tarifas similares al taxi negociado. La app permite ver el precio antes y elegir el conductor con mejor calificación."},
-        {"type": "p", "text": "Lo bueno de inDrive: tarifa transparente, sin negociación. Lo malo: en horarios pico (viernes-sábado noche) los precios pueden subir 30-50% por demanda. Y la cobertura es buena en zona central pero limitada para excursiones largas."}
+        {
+          "type": "p",
+          "text": "Uber NO opera en Manta consistentemente. inDrive sí opera y suele tener tarifas similares al taxi negociado. La app permite ver el precio antes y elegir el conductor con mejor calificación."
+        },
+        {
+          "type": "p",
+          "text": "Lo bueno de inDrive: tarifa transparente, sin negociación. Lo malo: en horarios pico (viernes-sábado noche) los precios pueden subir 30-50% por demanda. Y la cobertura es buena en zona central pero limitada para excursiones largas."
+        }
       ]
     },
     {
       "h2": "Bus público: solo para presupuesto muy ajustado",
       "blocks": [
-        {"type": "p", "text": "Las líneas de bus operan principalmente en av. 4 de Noviembre y av. Flavio Reyes. Pasaje de $0,35 dentro de Manta. Frecuencia: cada 10-15 minutos entre semana, menos los fines de semana."},
-        {"type": "p", "text": "Para visitante turístico el bus es complicado — no hay paradas oficiales claramente marcadas, no anuncian destinos, no aceptan tarjeta. Solo lo recomendamos si llevas 2 semanas en la ciudad y ya conoces las rutas. Para llegada del primer día, taxi o app."}
+        {
+          "type": "p",
+          "text": "Las líneas de bus operan principalmente en av. 4 de Noviembre y av. Flavio Reyes. Pasaje de $0,35 dentro de Manta. Frecuencia: cada 10-15 minutos entre semana, menos los fines de semana."
+        },
+        {
+          "type": "p",
+          "text": "Para visitante turístico el bus es complicado — no hay paradas oficiales claramente marcadas, no anuncian destinos, no aceptan tarjeta. Solo lo recomendamos si llevas 2 semanas en la ciudad y ya conoces las rutas. Para llegada del primer día, taxi o app."
+        }
       ]
     },
     {
       "h2": "Auto particular: cuándo vale la pena",
       "blocks": [
-        {"type": "p", "text": "Alquiler de auto en Manta: $35-$60 al día según modelo, no incluye gasolina. Hay 4-5 agencias en av. Flavio Reyes y aeropuerto Eloy Alfaro. Requisitos: licencia válida, tarjeta de crédito para garantía."},
-        {"type": "p", "text": "Vale la pena si: vas a salir a Santa Marianita, San Mateo, ruta Spondylus, faro de San Lorenzo (varios puntos en mismo día). NO vale la pena si: vas a quedarte en zona central caminando + taxi ocasional. El estacionamiento en Manta puede ser un problema en zona del malecón."},
-        {"type": "quote", "text": "El visitante que llega de Quito o Guayaquil suele querer alquilar auto porque le da independencia. Le advertimos siempre: las playas como Murciélago no tienen parqueo público, hay que pagar parqueo privado a $2-$3 por hora. Si solo vienes 2 noches en la zona del malecón, el taxi sale más rentable.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Alquiler de auto en Manta: $35-$60 al día según modelo, no incluye gasolina. Hay 4-5 agencias en av. Flavio Reyes y aeropuerto Eloy Alfaro. Requisitos: licencia válida, tarjeta de crédito para garantía."
+        },
+        {
+          "type": "p",
+          "text": "Vale la pena si: vas a salir a Santa Marianita, San Mateo, ruta Spondylus, faro de San Lorenzo (varios puntos en mismo día). NO vale la pena si: vas a quedarte en zona central caminando + taxi ocasional. El estacionamiento en Manta puede ser un problema en zona del malecón."
+        },
+        {
+          "type": "quote",
+          "text": "El visitante que llega de Quito o Guayaquil suele querer alquilar auto porque le da independencia. Le advertimos siempre: las playas como Murciélago no tienen parqueo público, hay que pagar parqueo privado a $2-$3 por hora. Si solo vienes 2 noches en la zona del malecón, el taxi sale más rentable.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Tarifas y distancias claves",
       "blocks": [
-        {"type": "table",
-          "headers": ["Recorrido", "Taxi", "inDrive", "Tiempo"],
+        {
+          "type": "table",
+          "headers": [
+            "Recorrido",
+            "Taxi",
+            "inDrive",
+            "Tiempo"
+          ],
           "rows": [
-            ["Aeropuerto → malecón", "$5-7", "$4-6", "15 min"],
-            ["Av. Flavio Reyes → Tarqui", "$2-3", "$2-3", "10 min"],
-            ["Av. Flavio Reyes → Barbasquillo", "$2-3", "$2-3", "10 min"],
-            ["Manta → San Mateo", "$12-15", "$10-14", "20 min"],
-            ["Manta → Santa Marianita", "$18-22", "$15-20", "35 min"],
-            ["Manta → faro San Lorenzo (ida y vuelta esperando)", "$12-15", "—", "25 min"]
+            [
+              "Aeropuerto → malecón",
+              "$5-7",
+              "$4-6",
+              "15 min"
+            ],
+            [
+              "Av. Flavio Reyes → Tarqui",
+              "$2-3",
+              "$2-3",
+              "10 min"
+            ],
+            [
+              "Av. Flavio Reyes → Barbasquillo",
+              "$2-3",
+              "$2-3",
+              "10 min"
+            ],
+            [
+              "Manta → San Mateo",
+              "$12-15",
+              "$10-14",
+              "20 min"
+            ],
+            [
+              "Manta → Santa Marianita",
+              "$18-22",
+              "$15-20",
+              "35 min"
+            ],
+            [
+              "Manta → faro San Lorenzo (ida y vuelta esperando)",
+              "$12-15",
+              "—",
+              "25 min"
+            ]
           ]
         }
       ]
@@ -65,7 +138,10 @@
     {
       "h2": "Lo que no te dicen las guías",
       "blocks": [
-        {"type": "p", "text": "Tres detalles que solo se aprenden usando transporte de Manta a diario: primero, las tarifas suben 20-30% después de las 22:00 — sí, sin avisar, conviene preguntar antes de subir; segundo, en feriados largos los taxis disponibles disminuyen al 50% — pedir con 30 min de anticipación; tercero, las apps no funcionan bien en cobertura de zona Barbasquillo norte — mejor llamar a cooperativa."}
+        {
+          "type": "p",
+          "text": "Tres detalles que solo se aprenden usando transporte de Manta a diario: primero, las tarifas suben 20-30% después de las 22:00 — sí, sin avisar, conviene preguntar antes de subir; segundo, en feriados largos los taxis disponibles disminuyen al 50% — pedir con 30 min de anticipación; tercero, las apps no funcionan bien en cobertura de zona Barbasquillo norte — mejor llamar a cooperativa."
+        }
       ]
     }
   ],
@@ -73,14 +149,35 @@
   "cta_paragraph": "Si te hospedas cerca de av. Flavio Reyes, Luuma queda caminable. Si estás más lejos, el taxi cuesta $2-$5 según zona. Reserva mesa por WhatsApp y te indicamos opciones de transporte de vuelta a tu hotel después de la cena.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "De Guayaquil/Quito a Manta", "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"},
-    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"},
-    {"label": "Playas de Manta: cuál elegir", "url": "/vida-en-manta/playas-manta-cual-elegir/"}
+    {
+      "label": "De Guayaquil/Quito a Manta",
+      "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"
+    },
+    {
+      "label": "Qué hacer en Manta: 17 planes reales",
+      "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"
+    },
+    {
+      "label": "Playas de Manta: cuál elegir",
+      "url": "/vida-en-manta/playas-manta-cual-elegir/"
+    }
   ],
   "faq": [
-    {"q": "¿Funciona Uber en Manta?", "a": "Uber NO opera en Manta consistentemente. inDrive sí — tarifas similares al taxi negociado pero con transparencia previa. En horarios pico (viernes-sábado noche) los precios pueden subir 30-50%."},
-    {"q": "¿Cuánto cuesta un taxi en Manta?", "a": "Recorridos cortos en zona central: $2-$4. Del aeropuerto Eloy Alfaro al malecón: $5-$7. De Manta a San Mateo: $12-$15. De Manta a Santa Marianita: $18-$22. Tarifas suben 20-30% después de las 22:00."},
-    {"q": "¿Vale la pena alquilar auto en Manta?", "a": "Sí si vas a salir a Santa Marianita, San Mateo, ruta Spondylus o faro de San Lorenzo en mismo día. NO vale la pena si te quedas en zona central — el estacionamiento es problemático y el taxi cuesta menos a esa escala."},
-    {"q": "¿Cuáles cooperativas de taxi son confiables en Manta?", "a": "Líder Taxi, Cooperativa Manta y Cooperativa Tarqui tienen oficina física, radio para llamada y reputación establecida. Evitar taxis blancos no afiliados a cooperativa — sin seguridad."}
+    {
+      "q": "¿Funciona Uber en Manta?",
+      "a": "Uber NO opera en Manta consistentemente. inDrive sí — tarifas similares al taxi negociado pero con transparencia previa. En horarios pico (viernes-sábado noche) los precios pueden subir 30-50%."
+    },
+    {
+      "q": "¿Cuánto cuesta un taxi en Manta?",
+      "a": "Recorridos cortos en zona central: $2-$4. Del aeropuerto Eloy Alfaro al malecón: $5-$7. De Manta a San Mateo: $12-$15. De Manta a Santa Marianita: $18-$22. Tarifas suben 20-30% después de las 22:00."
+    },
+    {
+      "q": "¿Vale la pena alquilar auto en Manta?",
+      "a": "Sí si vas a salir a Santa Marianita, San Mateo, ruta Spondylus o faro de San Lorenzo en mismo día. NO vale la pena si te quedas en zona central — el estacionamiento es problemático y el taxi cuesta menos a esa escala."
+    },
+    {
+      "q": "¿Cuáles cooperativas de taxi son confiables en Manta?",
+      "a": "Líder Taxi, Cooperativa Manta y Cooperativa Tarqui tienen oficina física, radio para llamada y reputación establecida. Evitar taxis blancos no afiliados a cooperativa — sin seguridad."
+    }
   ]
 }

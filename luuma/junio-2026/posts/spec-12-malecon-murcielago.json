@@ -2,11 +2,17 @@
   "title": "Malecón Murciélago en Manta: qué hacer, dónde comer, mejor hora para caminar",
   "slug": "malecon-murcielago-manta-que-hacer",
   "status": "publish",
-  "date": "2026-07-29T11:00:00",
+  "date": "2026-06-14T18:00:00",
   "category_id": 10,
   "_category_slug": "vida-en-manta",
   "featured_media": 670,
-  "tags": ["malecón murciélago", "playa murciélago manta", "manta turismo", "qué hacer manta", "atardecer manta"],
+  "tags": [
+    "malecón murciélago",
+    "playa murciélago manta",
+    "manta turismo",
+    "qué hacer manta",
+    "atardecer manta"
+  ],
   "excerpt": "Caminar el malecón Murciélago, dónde sentarse al borde del mar, dónde almorzar y dónde tomar coctel al atardecer. La guía que damos a los huéspedes que llegan por primera vez.",
   "yoast_title": "Malecón Murciélago Manta: qué hacer y dónde comer",
   "yoast_metadesc": "Guía del malecón Murciélago: caminata, restaurantes, atardecer y zonas seguras. Dónde almorzar, qué evitar y a qué hora caminar sin gente.",
@@ -19,53 +25,108 @@
     {
       "h2": "Las 3 zonas del malecón Murciélago",
       "blocks": [
-        {"type": "p", "text": "El malecón no es uniforme — tiene zonas distintas con carácter propio. Saber cuál vas a recorrer cambia el plan."},
-        {"type": "h3", "text": "Zona norte (cerca de Barbasquillo)"},
-        {"type": "p", "text": "La parte más calmada y residencial. Menos turistas, ambiente local, parejas y familias paseando. Banca con vista al mar, fuentes ornamentales. Bueno para caminar tranquilo en la mañana."},
-        {"type": "h3", "text": "Zona central (frente a los hoteles principales)"},
-        {"type": "p", "text": "El núcleo turístico — restaurantes al borde del mar, bares con terraza, vendedores de helados y chifles. Aquí está la fila de marisquerías clásicas con cazuela, ceviche y arroz marinero. Concentración de gente desde las 16:00."},
-        {"type": "h3", "text": "Zona sur (hacia Tarqui)"},
-        {"type": "p", "text": "Mezcla rara — termina pegado al puerto pesquero. Aquí la playa deja de ser apta para baño porque limita con actividad portuaria. Buen lugar para ver pescadores al volver al mediodía, no para sentarse al borde del agua."}
+        {
+          "type": "p",
+          "text": "El malecón no es uniforme — tiene zonas distintas con carácter propio. Saber cuál vas a recorrer cambia el plan."
+        },
+        {
+          "type": "h3",
+          "text": "Zona norte (cerca de Barbasquillo)"
+        },
+        {
+          "type": "p",
+          "text": "La parte más calmada y residencial. Menos turistas, ambiente local, parejas y familias paseando. Banca con vista al mar, fuentes ornamentales. Bueno para caminar tranquilo en la mañana."
+        },
+        {
+          "type": "h3",
+          "text": "Zona central (frente a los hoteles principales)"
+        },
+        {
+          "type": "p",
+          "text": "El núcleo turístico — restaurantes al borde del mar, bares con terraza, vendedores de helados y chifles. Aquí está la fila de marisquerías clásicas con cazuela, ceviche y arroz marinero. Concentración de gente desde las 16:00."
+        },
+        {
+          "type": "h3",
+          "text": "Zona sur (hacia Tarqui)"
+        },
+        {
+          "type": "p",
+          "text": "Mezcla rara — termina pegado al puerto pesquero. Aquí la playa deja de ser apta para baño porque limita con actividad portuaria. Buen lugar para ver pescadores al volver al mediodía, no para sentarse al borde del agua."
+        }
       ]
     },
     {
       "h2": "Mejor hora para caminar el malecón",
       "blocks": [
-        {"type": "p", "text": "Tres ventanas funcionan bien según lo que busques. Cada una tiene su carácter."},
-        {"type": "ul", "items": [
-          "7:00-9:30 mañana: sin gente, brisa suave, corredores y caminantes locales. Ideal para foto sin turistas",
-          "16:30-18:30 tarde: el atardecer en Manta cae 18:10-18:25. Recomendado para caminata + atardecer fotográfico",
-          "20:00-22:00 noche: ambiente bar, restaurantes llenos, perfecto para cena al aire libre"
-        ]},
-        {"type": "p", "text": "Lo peor: entre 12:00 y 15:00. Sol directo, viento fuerte, los restaurantes están llenos sin mesa. Si vas a almorzar en zona del malecón, llega antes de las 12:15."}
+        {
+          "type": "p",
+          "text": "Tres ventanas funcionan bien según lo que busques. Cada una tiene su carácter."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "7:00-9:30 mañana: sin gente, brisa suave, corredores y caminantes locales. Ideal para foto sin turistas",
+            "16:30-18:30 tarde: el atardecer en Manta cae 18:10-18:25. Recomendado para caminata + atardecer fotográfico",
+            "20:00-22:00 noche: ambiente bar, restaurantes llenos, perfecto para cena al aire libre"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Lo peor: entre 12:00 y 15:00. Sol directo, viento fuerte, los restaurantes están llenos sin mesa. Si vas a almorzar en zona del malecón, llega antes de las 12:15."
+        }
       ]
     },
     {
       "h2": "Dónde almorzar bien en el malecón",
       "blocks": [
-        {"type": "p", "text": "Las marisquerías clásicas de la zona central sirven cazuela de mariscos a $15-$18, langostinos al ajillo a $18-$22, ceviche manabita a $10-$14. Mesa con vista a la playa, pero sin reserva los sábados es complicado conseguir una buena."},
-        {"type": "p", "text": "Si quieres almuerzo más casual al aire libre: hay vendedores de bollos manabitas en la zona norte por la mañana ($2.50 c/u con pescado) y ceviche con chifles servido en bandeja para llevar."},
-        {"type": "quote", "text": "El malecón Murciélago lo recomendamos a quien tiene 3 horas libres entre almuerzo y cena. Caminas norte a sur, te sientas en alguna banca con coctel hecho en local, ves el atardecer, vuelves a la zona central para cena. La rutina del visitante que ya conoce.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Las marisquerías clásicas de la zona central sirven cazuela de mariscos a $15-$18, langostinos al ajillo a $18-$22, ceviche manabita a $10-$14. Mesa con vista a la playa, pero sin reserva los sábados es complicado conseguir una buena."
+        },
+        {
+          "type": "p",
+          "text": "Si quieres almuerzo más casual al aire libre: hay vendedores de bollos manabitas en la zona norte por la mañana ($2.50 c/u con pescado) y ceviche con chifles servido en bandeja para llevar."
+        },
+        {
+          "type": "quote",
+          "text": "El malecón Murciélago lo recomendamos a quien tiene 3 horas libres entre almuerzo y cena. Caminas norte a sur, te sientas en alguna banca con coctel hecho en local, ves el atardecer, vuelves a la zona central para cena. La rutina del visitante que ya conoce.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Atardecer en el malecón vs en rooftop",
       "blocks": [
-        {"type": "p", "text": "Para ver el atardecer desde el malecón Murciélago: zona central, frente al hotel Oro Verde, alrededor de 17:45. Banca con vista directa al Pacífico, oleaje suave de fondo. Foto típica de Instagram. Lo que pierdes: la perspectiva elevada que da un rooftop."},
-        {"type": "p", "text": "Para ver atardecer desde rooftop: cualquiera de los rooftops de av. Flavio Reyes que está a 5 minutos del malecón. Vista panorámica, coctel en mano, menos viento. En Luuma específicamente las mesas en el borde se reservan rápido los fines de semana para ese turno (17:45-18:30)."}
+        {
+          "type": "p",
+          "text": "Para ver el atardecer desde el malecón Murciélago: zona central, frente al hotel Oro Verde, alrededor de 17:45. Banca con vista directa al Pacífico, oleaje suave de fondo. Foto típica de Instagram. Lo que pierdes: la perspectiva elevada que da un rooftop."
+        },
+        {
+          "type": "p",
+          "text": "Para ver atardecer desde rooftop: cualquiera de los rooftops de av. Flavio Reyes que está a 5 minutos del malecón. Vista panorámica, coctel en mano, menos viento. En Luuma específicamente las mesas en el borde se reservan rápido los fines de semana para ese turno (17:45-18:30)."
+        }
       ]
     },
     {
       "h2": "Zonas para evitar a ciertas horas",
       "blocks": [
-        {"type": "p", "text": "El malecón está bien iluminado y patrullado en zona central y norte hasta las 23:00. Después de esa hora, conviene moverte en taxi y no caminar largas distancias solo. La zona sur cerca de Tarqui es industrial — no recomendable para caminar a la noche, sí de día para ver actividad pesquera."},
-        {"type": "p", "text": "En temporada baja (mayo-octubre) hay menos gente caminando entre semana y la zona norte puede quedar muy vacía después de las 21:00. Si vas a esa hora, mejor en grupo o en compañía."}
+        {
+          "type": "p",
+          "text": "El malecón está bien iluminado y patrullado en zona central y norte hasta las 23:00. Después de esa hora, conviene moverte en taxi y no caminar largas distancias solo. La zona sur cerca de Tarqui es industrial — no recomendable para caminar a la noche, sí de día para ver actividad pesquera."
+        },
+        {
+          "type": "p",
+          "text": "En temporada baja (mayo-octubre) hay menos gente caminando entre semana y la zona norte puede quedar muy vacía después de las 21:00. Si vas a esa hora, mejor en grupo o en compañía."
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen en las guías",
       "blocks": [
-        {"type": "p", "text": "Tres datos que sólo se saben caminando el malecón cada semana: primero, los vendedores ambulantes de coco frío te cobran más si llegas con cámara grande visible — pídelo en español ecuatoriano y el precio baja; segundo, las bancas con vista directa frente a Oro Verde son las que más se llenan al atardecer, hay otras al norte tan buenas pero menos conocidas; tercero, los puestos de bollo manabita del malecón tienen turno de la mañana solamente — después de 11:00 ya se acabaron."}
+        {
+          "type": "p",
+          "text": "Tres datos que sólo se saben caminando el malecón cada semana: primero, los vendedores ambulantes de coco frío te cobran más si llegas con cámara grande visible — pídelo en español ecuatoriano y el precio baja; segundo, las bancas con vista directa frente a Oro Verde son las que más se llenan al atardecer, hay otras al norte tan buenas pero menos conocidas; tercero, los puestos de bollo manabita del malecón tienen turno de la mañana solamente — después de 11:00 ya se acabaron."
+        }
       ]
     }
   ],
@@ -73,15 +134,39 @@
   "cta_paragraph": "Si caminas el malecón Murciélago hasta las 17:30, sigues caminando 8 minutos a av. Flavio Reyes y llegas a Luuma para coctel + cena con atardecer panorámico. Reservas para mesa en el borde, los fines de semana se llenan.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Playas de Manta: cuál elegir según tu plan", "url": "/vida-en-manta/playas-manta-cual-elegir/"},
-    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"},
-    {"label": "Restaurantes en Manta según quien vive aquí", "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"}
+    {
+      "label": "Playas de Manta: cuál elegir según tu plan",
+      "url": "/vida-en-manta/playas-manta-cual-elegir/"
+    },
+    {
+      "label": "Qué hacer en Manta: 17 planes reales",
+      "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"
+    },
+    {
+      "label": "Restaurantes en Manta según quien vive aquí",
+      "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"
+    }
   ],
   "faq": [
-    {"q": "¿Qué hacer en el malecón Murciélago de Manta?", "a": "Caminar el paseo de 3 km al borde del Pacífico, comer marisco en las marisquerías clásicas de la zona central ($15-22 por plato), ver atardecer entre 17:45 y 18:25, tomar coctel en bares con terraza al borde del mar."},
-    {"q": "¿Es seguro caminar el malecón Murciélago de noche?", "a": "Zona central y norte: sí, bien iluminado y patrullado hasta las 23:00. Después de esa hora conviene moverse en taxi y no caminar largas distancias solo. Zona sur cerca de Tarqui no es recomendable a la noche."},
-    {"q": "¿Cuál es la mejor hora para ir al malecón Murciélago?", "a": "7:00-9:30 mañana para foto sin gente, 16:30-18:30 tarde para caminata + atardecer (cae a las 18:15), 20:00-22:00 noche para cena al aire libre en restaurantes con vista al mar."},
-    {"q": "¿Dónde comer en el malecón Murciélago?", "a": "Marisquerías clásicas de la zona central frente al hotel Oro Verde sirven cazuela de mariscos ($15-18), langostinos al ajillo ($18-22), ceviche manabita ($10-14). Sin reserva los sábados es complicado conseguir mesa."},
-    {"q": "¿Dónde ver atardecer en Manta?", "a": "Desde el malecón Murciélago zona central frente al hotel Oro Verde (banca con vista directa, oleaje suave de fondo), o desde rooftops de av. Flavio Reyes a 5 minutos como Luuma — vista panorámica, coctel en mano, menos viento."}
+    {
+      "q": "¿Qué hacer en el malecón Murciélago de Manta?",
+      "a": "Caminar el paseo de 3 km al borde del Pacífico, comer marisco en las marisquerías clásicas de la zona central ($15-22 por plato), ver atardecer entre 17:45 y 18:25, tomar coctel en bares con terraza al borde del mar."
+    },
+    {
+      "q": "¿Es seguro caminar el malecón Murciélago de noche?",
+      "a": "Zona central y norte: sí, bien iluminado y patrullado hasta las 23:00. Después de esa hora conviene moverse en taxi y no caminar largas distancias solo. Zona sur cerca de Tarqui no es recomendable a la noche."
+    },
+    {
+      "q": "¿Cuál es la mejor hora para ir al malecón Murciélago?",
+      "a": "7:00-9:30 mañana para foto sin gente, 16:30-18:30 tarde para caminata + atardecer (cae a las 18:15), 20:00-22:00 noche para cena al aire libre en restaurantes con vista al mar."
+    },
+    {
+      "q": "¿Dónde comer en el malecón Murciélago?",
+      "a": "Marisquerías clásicas de la zona central frente al hotel Oro Verde sirven cazuela de mariscos ($15-18), langostinos al ajillo ($18-22), ceviche manabita ($10-14). Sin reserva los sábados es complicado conseguir mesa."
+    },
+    {
+      "q": "¿Dónde ver atardecer en Manta?",
+      "a": "Desde el malecón Murciélago zona central frente al hotel Oro Verde (banca con vista directa, oleaje suave de fondo), o desde rooftops de av. Flavio Reyes a 5 minutos como Luuma — vista panorámica, coctel en mano, menos viento."
+    }
   ]
 }

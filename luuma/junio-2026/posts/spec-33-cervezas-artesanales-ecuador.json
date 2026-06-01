@@ -2,11 +2,17 @@
   "title": "Cervezas artesanales de Ecuador en Manta: cuáles pedir y dónde",
   "slug": "cervezas-artesanales-ecuador-manta",
   "status": "publish",
-  "date": "2026-10-10T11:00:00",
+  "date": "2026-06-25T11:00:00",
   "category_id": 13,
   "_category_slug": "cocteles-mixologia",
   "featured_media": 552,
-  "tags": ["cervezas artesanales ecuador", "cerveza craft manta", "iguana cerveza", "paramo cerveza", "luuma"],
+  "tags": [
+    "cervezas artesanales ecuador",
+    "cerveza craft manta",
+    "iguana cerveza",
+    "paramo cerveza",
+    "luuma"
+  ],
   "excerpt": "Iguana, Páramo, Bandido, Mompiche y otras cervezas artesanales ecuatorianas. Te decimos cuál pedir según el plato manabita, dónde conseguirlas en Manta y por qué la cerveza industrial pierde con la artesanal.",
   "yoast_title": "Cervezas artesanales de Ecuador en Manta: guía y maridaje",
   "yoast_metadesc": "Iguana, Páramo y otras cervezas artesanales ecuatorianas en Manta. Qué pedir con cocina manabita, dónde conseguirlas, precios reales.",
@@ -19,56 +25,114 @@
     {
       "h2": "Las cervecerías ecuatorianas que importan",
       "blocks": [
-        {"type": "h3", "text": "Iguana (Quito)"},
-        {"type": "p", "text": "Una de las pioneras. Estilo IPA Pacífico — luminosa, cítrica, equilibrada. Su Pale Ale es la más versátil. Funciona con casi todo. Precio: $4-$6 en supermercado, $6-$9 en restaurante."},
-        {"type": "h3", "text": "Páramo (Quito)"},
-        {"type": "p", "text": "Cervecería de altura. Estilos Stout y Porter son sus mejores. La Stout de chocolate es excelente acompañando postres. La Pale Ale más floral que la Iguana. Precio: $4-$7 supermercado, $7-$10 restaurante."},
-        {"type": "h3", "text": "Bandido (Cuenca)"},
-        {"type": "p", "text": "Estilos lupulados — IPA, Double IPA con personalidad fuerte. Para quien le va el amargor pronunciado. No es para acompañar todo, pide platos sustanciosos. Precio: $5-$8 supermercado, $8-$11 restaurante."},
-        {"type": "h3", "text": "Mompiche (Esmeraldas)"},
-        {"type": "p", "text": "Cerveza costera. Estilos tropicales — pale ale frutal, witbier con cítricos del Pacífico. Muy fresca, perfecta para playa. Precio: $4-$6 supermercado, $6-$9 restaurante."},
-        {"type": "h3", "text": "Sabai (Manabí)"},
-        {"type": "p", "text": "Cervecería emergente de Manabí. Estilos modernos con ingredientes locales — cerveza con maracuyá, con jengibre fresco. Recomendable probarla por curiosidad local. Disponible en pocos lugares de Manta. Precio: $5-$7 en bar especializado."}
+        {
+          "type": "h3",
+          "text": "Iguana (Quito)"
+        },
+        {
+          "type": "p",
+          "text": "Una de las pioneras. Estilo IPA Pacífico — luminosa, cítrica, equilibrada. Su Pale Ale es la más versátil. Funciona con casi todo. Precio: $4-$6 en supermercado, $6-$9 en restaurante."
+        },
+        {
+          "type": "h3",
+          "text": "Páramo (Quito)"
+        },
+        {
+          "type": "p",
+          "text": "Cervecería de altura. Estilos Stout y Porter son sus mejores. La Stout de chocolate es excelente acompañando postres. La Pale Ale más floral que la Iguana. Precio: $4-$7 supermercado, $7-$10 restaurante."
+        },
+        {
+          "type": "h3",
+          "text": "Bandido (Cuenca)"
+        },
+        {
+          "type": "p",
+          "text": "Estilos lupulados — IPA, Double IPA con personalidad fuerte. Para quien le va el amargor pronunciado. No es para acompañar todo, pide platos sustanciosos. Precio: $5-$8 supermercado, $8-$11 restaurante."
+        },
+        {
+          "type": "h3",
+          "text": "Mompiche (Esmeraldas)"
+        },
+        {
+          "type": "p",
+          "text": "Cerveza costera. Estilos tropicales — pale ale frutal, witbier con cítricos del Pacífico. Muy fresca, perfecta para playa. Precio: $4-$6 supermercado, $6-$9 restaurante."
+        },
+        {
+          "type": "h3",
+          "text": "Sabai (Manabí)"
+        },
+        {
+          "type": "p",
+          "text": "Cervecería emergente de Manabí. Estilos modernos con ingredientes locales — cerveza con maracuyá, con jengibre fresco. Recomendable probarla por curiosidad local. Disponible en pocos lugares de Manta. Precio: $5-$7 en bar especializado."
+        }
       ]
     },
     {
       "h2": "Maridaje con cocina manabita",
       "blocks": [
-        {"type": "p", "text": "Cinco pares que funcionan:"},
-        {"type": "ul", "items": [
-          "Viche de pescado + Pale Ale frutal (Iguana o Mompiche): la frutosidad balancea el maní tostado",
-          "Encocado + IPA suave (Bandido lager): el lupulado equilibra la leche de coco",
-          "Ceviche manabita + Witbier (Mompiche): los cítricos de la cerveza apoyan la naranja agria del ceviche",
-          "Cazuela de mariscos + Stout (Páramo): el café y chocolate de la stout equilibra el plátano verde y maní",
-          "Postres manabitas + Stout dulce: chocolate manabita orgánico con Stout es maridaje brutal"
-        ]},
-        {"type": "quote", "text": "La gente piensa que cerveza con cocina manabita es solo Pilsener industrial fría. Cuando les ofrecemos una Pale Ale o una Stout con su plato, la cara cambia. La cerveza artesanal con cocina manabita es maridaje que casi nadie hace en restaurante y que cambia el plato por completo.", "citation": "Equipo de barra de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Cinco pares que funcionan:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Viche de pescado + Pale Ale frutal (Iguana o Mompiche): la frutosidad balancea el maní tostado",
+            "Encocado + IPA suave (Bandido lager): el lupulado equilibra la leche de coco",
+            "Ceviche manabita + Witbier (Mompiche): los cítricos de la cerveza apoyan la naranja agria del ceviche",
+            "Cazuela de mariscos + Stout (Páramo): el café y chocolate de la stout equilibra el plátano verde y maní",
+            "Postres manabitas + Stout dulce: chocolate manabita orgánico con Stout es maridaje brutal"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "La gente piensa que cerveza con cocina manabita es solo Pilsener industrial fría. Cuando les ofrecemos una Pale Ale o una Stout con su plato, la cara cambia. La cerveza artesanal con cocina manabita es maridaje que casi nadie hace en restaurante y que cambia el plato por completo.",
+          "citation": "Equipo de barra de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Dónde conseguirlas en Manta",
       "blocks": [
-        {"type": "p", "text": "Cuatro categorías de lugares:"},
-        {"type": "ul", "items": [
-          "Supermercados (SuperMaxi, Mi Comisariato): tienen Iguana y Páramo básicas. Precio menor",
-          "Bares de cerveza craft (2-3 en Flavio Reyes): rotación de 10-15 cervezas artesanales en grifo y botella. Precio mayor pero mejor selección",
-          "Restaurantes especializados (Luuma y algunos rooftops): selección curada de 5-8 cervezas por estilo",
-          "Tiendas especializadas (1-2 en Manta): selección amplia para llevar"
-        ]},
-        {"type": "p", "text": "Si vas a probar varias en un día, los bares de cerveza craft son la opción. Las tablas de degustación cuestan $12-$18 por 4-6 cervezas pequeñas. Sirven para descubrir cuál te gusta antes de comprometerte con una botella entera."}
+        {
+          "type": "p",
+          "text": "Cuatro categorías de lugares:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Supermercados (SuperMaxi, Mi Comisariato): tienen Iguana y Páramo básicas. Precio menor",
+            "Bares de cerveza craft (2-3 en Flavio Reyes): rotación de 10-15 cervezas artesanales en grifo y botella. Precio mayor pero mejor selección",
+            "Restaurantes especializados (Luuma y algunos rooftops): selección curada de 5-8 cervezas por estilo",
+            "Tiendas especializadas (1-2 en Manta): selección amplia para llevar"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Si vas a probar varias en un día, los bares de cerveza craft son la opción. Las tablas de degustación cuestan $12-$18 por 4-6 cervezas pequeñas. Sirven para descubrir cuál te gusta antes de comprometerte con una botella entera."
+        }
       ]
     },
     {
       "h2": "Industrial vs artesanal — la realidad",
       "blocks": [
-        {"type": "p", "text": "No todo tiene que ser artesanal. Hay momentos para Club o Pilsener fría — playa caliente, dos cervezas rápidas con amigos en bar simple, partido de fútbol. Pero para acompañar comida elaborada, evento social, cena con plato manabita real, la diferencia con la artesanal es brutal."},
-        {"type": "p", "text": "El precio: cerveza industrial en restaurante $4-$5, artesanal $7-$11. La diferencia de calidad justifica el costo cuando el plato lo merece. Para cerveza casual, industrial sigue funcionando."}
+        {
+          "type": "p",
+          "text": "No todo tiene que ser artesanal. Hay momentos para Club o Pilsener fría — playa caliente, dos cervezas rápidas con amigos en bar simple, partido de fútbol. Pero para acompañar comida elaborada, evento social, cena con plato manabita real, la diferencia con la artesanal es brutal."
+        },
+        {
+          "type": "p",
+          "text": "El precio: cerveza industrial en restaurante $4-$5, artesanal $7-$11. La diferencia de calidad justifica el costo cuando el plato lo merece. Para cerveza casual, industrial sigue funcionando."
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen las guías",
       "blocks": [
-        {"type": "p", "text": "Tres datos: primero, las cerveceriás artesanales pequeñas como Sabai (Manabí) y Mompiche (Esmeraldas) tienen menor distribución pero mejor calidad-precio que las grandes — vale la pena buscarlas; segundo, casi todas las artesanales ecuatorianas se venden frescas (sin pasteurizar) — caducan en 3-4 meses, fijarse en fecha; tercero, las cervezas con lúpulo intenso (IPA, Double IPA) cambian más con la temperatura que las cervezas industriales — servir entre 6-8°C, no muy heladas."}
+        {
+          "type": "p",
+          "text": "Tres datos: primero, las cerveceriás artesanales pequeñas como Sabai (Manabí) y Mompiche (Esmeraldas) tienen menor distribución pero mejor calidad-precio que las grandes — vale la pena buscarlas; segundo, casi todas las artesanales ecuatorianas se venden frescas (sin pasteurizar) — caducan en 3-4 meses, fijarse en fecha; tercero, las cervezas con lúpulo intenso (IPA, Double IPA) cambian más con la temperatura que las cervezas industriales — servir entre 6-8°C, no muy heladas."
+        }
       ]
     }
   ],
@@ -76,14 +140,35 @@
   "cta_paragraph": "En Luuma carta de cerveza artesanal con 5-7 estilos ecuatorianos rotando — desde Pale Ale para acompañar viche hasta Stout para postres manabitas. Mejor para almuerzo o cena cuando puedes probar con plato manabita real.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Carta de bebidas de Luuma", "url": "/bebidas/"},
-    {"label": "El coctel de autor de Luuma con maracuyá", "url": "/cocteles-mixologia/coctel-autor-luuma-maracuya/"},
-    {"label": "Carta de vinos en Manta con cocina manabita", "url": "/cocteles-mixologia/vinos-manabi-maridaje-carta-luuma/"}
+    {
+      "label": "Carta de bebidas de Luuma",
+      "url": "/bebidas/"
+    },
+    {
+      "label": "El coctel de autor de Luuma con maracuyá",
+      "url": "/cocteles-mixologia/coctel-autor-luuma-maracuya/"
+    },
+    {
+      "label": "Carta de vinos en Manta con cocina manabita",
+      "url": "/cocteles-mixologia/vinos-manabi-maridaje-carta-luuma/"
+    }
   ],
   "faq": [
-    {"q": "¿Cuáles cervezas artesanales ecuatorianas vale la pena probar?", "a": "Iguana (Quito, Pale Ale e IPA versátil), Páramo (Quito, Stout y Porter excelentes), Bandido (Cuenca, IPA con personalidad fuerte), Mompiche (Esmeraldas, estilos costeros frescos), Sabai (Manabí, ingredientes locales como maracuyá). Las 4 grandes están en supermercados, Sabai en bares especializados."},
-    {"q": "¿Qué cerveza acompaña mejor cocina manabita?", "a": "Pale Ale frutal (Iguana o Mompiche) con viche — la frutosidad balancea el maní tostado. IPA suave (Bandido lager) con encocado — el lupulado equilibra la leche de coco. Witbier (Mompiche) con ceviche manabita — cítricos apoyan la naranja agria. Stout (Páramo) con cazuela o postres."},
-    {"q": "¿Cuánto cuesta una cerveza artesanal en Manta?", "a": "Supermercado: $4-$7 según marca. Bar de cerveza craft: $7-$11 botella. Restaurante con selección curada: $7-$11. Tabla de degustación con 4-6 cervezas pequeñas: $12-$18. La industrial en restaurante es $4-$5."},
-    {"q": "¿Dónde comprar cervezas artesanales en Manta?", "a": "Supermercados (SuperMaxi, Mi Comisariato) tienen Iguana y Páramo básicas. Bares de cerveza craft en Flavio Reyes con 10-15 referencias rotando. Tiendas especializadas (1-2 en la ciudad) para selección amplia. Rooftops como Luuma con selección curada."}
+    {
+      "q": "¿Cuáles cervezas artesanales ecuatorianas vale la pena probar?",
+      "a": "Iguana (Quito, Pale Ale e IPA versátil), Páramo (Quito, Stout y Porter excelentes), Bandido (Cuenca, IPA con personalidad fuerte), Mompiche (Esmeraldas, estilos costeros frescos), Sabai (Manabí, ingredientes locales como maracuyá). Las 4 grandes están en supermercados, Sabai en bares especializados."
+    },
+    {
+      "q": "¿Qué cerveza acompaña mejor cocina manabita?",
+      "a": "Pale Ale frutal (Iguana o Mompiche) con viche — la frutosidad balancea el maní tostado. IPA suave (Bandido lager) con encocado — el lupulado equilibra la leche de coco. Witbier (Mompiche) con ceviche manabita — cítricos apoyan la naranja agria. Stout (Páramo) con cazuela o postres."
+    },
+    {
+      "q": "¿Cuánto cuesta una cerveza artesanal en Manta?",
+      "a": "Supermercado: $4-$7 según marca. Bar de cerveza craft: $7-$11 botella. Restaurante con selección curada: $7-$11. Tabla de degustación con 4-6 cervezas pequeñas: $12-$18. La industrial en restaurante es $4-$5."
+    },
+    {
+      "q": "¿Dónde comprar cervezas artesanales en Manta?",
+      "a": "Supermercados (SuperMaxi, Mi Comisariato) tienen Iguana y Páramo básicas. Bares de cerveza craft en Flavio Reyes con 10-15 referencias rotando. Tiendas especializadas (1-2 en la ciudad) para selección amplia. Rooftops como Luuma con selección curada."
+    }
   ]
 }

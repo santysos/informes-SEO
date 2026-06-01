@@ -7,7 +7,16 @@
   "category_id": 12,
   "_category_slug": "recetas-cocina",
   "featured_media": 1246,
-  "tags": ["manabí", "platos típicos", "gastronomía manabita", "manta", "viche", "corviche", "ceviche manabita", "encocado"],
+  "tags": [
+    "manabí",
+    "platos típicos",
+    "gastronomía manabita",
+    "manta",
+    "viche",
+    "corviche",
+    "ceviche manabita",
+    "encocado"
+  ],
   "excerpt": "El viche, el corviche, el encocado y los nueve más que recomendamos probar. Por qué importan, dónde encontrarlos en Manta y cómo los servimos en Luuma.",
   "yoast_title": "Platos típicos de Manabí: 12 que probar antes de irte de Manta",
   "yoast_metadesc": "Del viche al corviche: 12 platos manabitas que recomendamos probar en Manta. Con cómo servimos el viche en Luuma y dónde comer los otros 11.",
@@ -20,66 +29,155 @@
     {
       "h2": "1. Viche de pescado: el plato bandera",
       "blocks": [
-        {"type": "p", "text": "El viche es a Manabí lo que el ceviche es al Pacífico peruano: la misma idea base, ejecución totalmente distinta. Es una sopa espesa de pescado fresco con maní tostado, yuca, plátano verde, choclo y achiote. Se sirve caliente, casi siempre con limón al lado."},
-        {"type": "p", "text": "En Luuma lo servimos con pesca blanca del día y maní tostado que viene de tierra adentro. Lo terminamos en la mesa con un toque de limón sobre el caldo caliente — el contraste entre el maní y el cítrico es la mitad del plato."},
-        {"type": "quote", "text": "El viche no es una receta, es una manera de cocinar el mar y la tierra al mismo tiempo. Si el maní no es tostado a mano y el pescado no es del día, ya no es viche, es otra cosa.", "citation": "Equipo de cocina de Luuma Rooftop"},
-        {"type": "h3", "text": "Dónde probarlo en Manta"},
-        {"type": "ul", "items": [
-          "Picanterías de Tarqui — viche de raya entre $7 y $9, los abren al mediodía y cierran cuando se acaba la olla",
-          "Casas de la salida a San Mateo — viche de pescado $7, sólo fines de semana",
-          "Luuma Rooftop, av. Flavio Reyes — viche con pesca blanca del día y vista al Pacífico"
-        ]}
+        {
+          "type": "p",
+          "text": "El viche es a Manabí lo que el ceviche es al Pacífico peruano: la misma idea base, ejecución totalmente distinta. Es una sopa espesa de pescado fresco con maní tostado, yuca, plátano verde, choclo y achiote. Se sirve caliente, casi siempre con limón al lado."
+        },
+        {
+          "type": "p",
+          "text": "En Luuma lo servimos con pesca blanca del día y maní tostado que viene de tierra adentro. Lo terminamos en la mesa con un toque de limón sobre el caldo caliente — el contraste entre el maní y el cítrico es la mitad del plato."
+        },
+        {
+          "type": "quote",
+          "text": "El viche no es una receta, es una manera de cocinar el mar y la tierra al mismo tiempo. Si el maní no es tostado a mano y el pescado no es del día, ya no es viche, es otra cosa.",
+          "citation": "Equipo de cocina de Luuma Rooftop"
+        },
+        {
+          "type": "h3",
+          "text": "Dónde probarlo en Manta"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Picanterías de Tarqui — viche de raya entre $7 y $9, los abren al mediodía y cierran cuando se acaba la olla",
+            "Casas de la salida a San Mateo — viche de pescado $7, sólo fines de semana",
+            "Luuma Rooftop, av. Flavio Reyes — viche con pesca blanca del día y vista al Pacífico"
+          ]
+        }
       ]
     },
     {
       "h2": "2. Corviche: el plato del puerto",
       "blocks": [
-        {"type": "p", "text": "El corviche es masa de plátano verde rellena de pescado, frita y servida con salsa de maní. Se come con la mano. Es el desayuno tardío de los pescadores cuando regresan del mar y la merienda de los chicos que salen del colegio en La Aurora."},
-        {"type": "p", "text": "No lo busques en restaurantes formales — el mejor corviche está en las casetas del malecón de Manta o en la carretera que sale a San Mateo. Cuesta entre $1,50 y $2 cada uno. Pídelos recién fritos."}
+        {
+          "type": "p",
+          "text": "El corviche es masa de plátano verde rellena de pescado, frita y servida con salsa de maní. Se come con la mano. Es el desayuno tardío de los pescadores cuando regresan del mar y la merienda de los chicos que salen del colegio en La Aurora."
+        },
+        {
+          "type": "p",
+          "text": "No lo busques en restaurantes formales — el mejor corviche está en las casetas del malecón de Manta o en la carretera que sale a San Mateo. Cuesta entre $1,50 y $2 cada uno. Pídelos recién fritos."
+        }
       ]
     },
     {
       "h2": "3. Encocado de pescado o camarón",
       "blocks": [
-        {"type": "p", "text": "Encocado = guiso con leche de coco. Se hace con pescado fresco, camarón o cangrejo. El acompañante es siempre arroz blanco y patacones."},
-        {"type": "p", "text": "El encocado manabita es más seco que el esmeraldeño — usa menos coco y más cebolla de rama. Si lo pides en una picantería, asegúrate de pedirlo \"a la manabita\" o vas a recibir una versión de coco más cremosa que no es la original de aquí."}
+        {
+          "type": "p",
+          "text": "Encocado = guiso con leche de coco. Se hace con pescado fresco, camarón o cangrejo. El acompañante es siempre arroz blanco y patacones."
+        },
+        {
+          "type": "p",
+          "text": "El encocado manabita es más seco que el esmeraldeño — usa menos coco y más cebolla de rama. Si lo pides en una picantería, asegúrate de pedirlo \"a la manabita\" o vas a recibir una versión de coco más cremosa que no es la original de aquí."
+        }
       ]
     },
     {
       "h2": "4. Bollo manabita",
       "blocks": [
-        {"type": "p", "text": "Masa de plátano verde y maní envuelta en hoja de plátano y cocida al vapor, con un pedazo de pescado adentro. Se come caliente, abriéndolo con las manos. Es el plato de las mamás y abuelas — pocos restaurantes lo hacen bien y casi nadie en zona turística."},
-        {"type": "p", "text": "Los mejores bollos los venden en el mercado central de Manta, desde temprano. Cuestan entre $2,50 y $3,50 según el tamaño y el pescado."}
+        {
+          "type": "p",
+          "text": "Masa de plátano verde y maní envuelta en hoja de plátano y cocida al vapor, con un pedazo de pescado adentro. Se come caliente, abriéndolo con las manos. Es el plato de las mamás y abuelas — pocos restaurantes lo hacen bien y casi nadie en zona turística."
+        },
+        {
+          "type": "p",
+          "text": "Los mejores bollos los venden en el mercado central de Manta, desde temprano. Cuestan entre $2,50 y $3,50 según el tamaño y el pescado."
+        }
       ]
     },
     {
       "h2": "5. Ceviche manabita",
       "blocks": [
-        {"type": "p", "text": "No confundir con el peruano. El manabita lleva maní tostado, jugo de naranja agria, cebolla colorada, cilantro y a veces salsa de tomate. Se sirve con chifles. La pesca es lo que cambia — concha, pescado, camarón, mixto."},
-        {"type": "quote", "text": "El secreto del ceviche manabita es la naranja agria. Si en tu casa solo tienes limón, te queda parecido al peruano. Si consigues naranja agria, ahí entiendes por qué nosotros no usamos limón solo.", "citation": "Equipo de barra de Luuma Rooftop"},
-        {"type": "p", "text": "En Luuma servimos ceviche manabita de concha y de camarón con vista al mar. Una versión rooftop del plato que normalmente comes sentado en banca de picantería."}
+        {
+          "type": "p",
+          "text": "No confundir con el peruano. El manabita lleva maní tostado, jugo de naranja agria, cebolla colorada, cilantro y a veces salsa de tomate. Se sirve con chifles. La pesca es lo que cambia — concha, pescado, camarón, mixto."
+        },
+        {
+          "type": "quote",
+          "text": "El secreto del ceviche manabita es la naranja agria. Si en tu casa solo tienes limón, te queda parecido al peruano. Si consigues naranja agria, ahí entiendes por qué nosotros no usamos limón solo.",
+          "citation": "Equipo de barra de Luuma Rooftop"
+        },
+        {
+          "type": "p",
+          "text": "En Luuma servimos ceviche manabita de concha y de camarón con vista al mar. Una versión rooftop del plato que normalmente comes sentado en banca de picantería."
+        }
       ]
     },
     {
       "h2": "Los otros 7 platos (resumen)",
       "blocks": [
-        {"type": "table",
-         "headers": ["Plato", "Qué es", "Dónde probarlo", "Rango precio"],
-         "rows": [
-           ["Sancocho manabita", "Sopa con yuca, plátano, carne o pescado", "Picanterías de Tarqui", "$5–$8"],
-           ["Ayampaco", "Pescado envuelto en hoja de bijao, asado", "Mercado central de Manta", "$6–$10"],
-           ["Tonga", "Arroz con maní y carne, envuelto en hoja", "Casas de Crucita y Charapotó", "$5–$7"],
-           ["Suero blanco", "Bebida de leche fermentada salada", "Picanterías, todo Manabí", "$1–$2"],
-           ["Pan de almidón", "Bollito horneado de yuca con queso", "Panaderías de pueblo", "$0,25 c/u"],
-           ["Greñoso", "Pescado con cebolla y limón en cazuela", "Restaurantes de barrio en Tarqui", "$8–$12"],
-           ["Cazuela de mariscos", "Guiso espeso con plátano verde y mariscos", "Casi cualquier marisquería", "$10–$18"]
-         ]}
+        {
+          "type": "table",
+          "headers": [
+            "Plato",
+            "Qué es",
+            "Dónde probarlo",
+            "Rango precio"
+          ],
+          "rows": [
+            [
+              "Sancocho manabita",
+              "Sopa con yuca, plátano, carne o pescado",
+              "Picanterías de Tarqui",
+              "$5–$8"
+            ],
+            [
+              "Ayampaco",
+              "Pescado envuelto en hoja de bijao, asado",
+              "Mercado central de Manta",
+              "$6–$10"
+            ],
+            [
+              "Tonga",
+              "Arroz con maní y carne, envuelto en hoja",
+              "Casas de Crucita y Charapotó",
+              "$5–$7"
+            ],
+            [
+              "Suero blanco",
+              "Bebida de leche fermentada salada",
+              "Picanterías, todo Manabí",
+              "$1–$2"
+            ],
+            [
+              "Pan de almidón",
+              "Bollito horneado de yuca con queso",
+              "Panaderías de pueblo",
+              "$0,25 c/u"
+            ],
+            [
+              "Greñoso",
+              "Pescado con cebolla y limón en cazuela",
+              "Restaurantes de barrio en Tarqui",
+              "$8–$12"
+            ],
+            [
+              "Cazuela de mariscos",
+              "Guiso espeso con plátano verde y mariscos",
+              "Casi cualquier marisquería",
+              "$10–$18"
+            ]
+          ]
+        }
       ]
     },
     {
       "h2": "Lo que no te contamos en otros posts",
       "blocks": [
-        {"type": "p", "text": "Hay dos cosas que ninguna guía menciona y que son ciertas: primero, los mejores platos típicos no están en los restaurantes con más estrellas en Google, están en las casas de pueblo y en las picanterías sin nombre que abren sólo al mediodía en Tarqui y Umiña; segundo, el maní es a la cocina manabita lo que el aceite de oliva es a la italiana — si un plato no lleva maní y dice ser manabita, sospecha."}
+        {
+          "type": "p",
+          "text": "Hay dos cosas que ninguna guía menciona y que son ciertas: primero, los mejores platos típicos no están en los restaurantes con más estrellas en Google, están en las casas de pueblo y en las picanterías sin nombre que abren sólo al mediodía en Tarqui y Umiña; segundo, el maní es a la cocina manabita lo que el aceite de oliva es a la italiana — si un plato no lleva maní y dice ser manabita, sospecha."
+        }
       ]
     }
   ],
@@ -87,9 +185,18 @@
   "cta_paragraph": "En Luuma servimos versión rooftop de viche, encocado y ceviche manabita en la av. Flavio Reyes. La carta cambia con lo que llega del mar cada semana. Los fines de semana reserva con un día de anticipación.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Mariscos en Manta: ceviches y platos del mar", "url": "/gastronomia-manta/mariscos-manta-ceviches-platos-mar/"},
-    {"label": "Comida criolla manabita: tradición y sabor", "url": "/recetas-cocina/comida-criolla-manabita-tradicion/"},
-    {"label": "Los 11 mejores restaurantes de Manta", "url": "/gastronomia-manta/mejores-restaurantes-manta-ecuador/"}
+    {
+      "label": "Mariscos en Manta: ceviches y platos del mar",
+      "url": "/gastronomia-manta/mariscos-manta-ceviches-platos-mar/"
+    },
+    {
+      "label": "Comida criolla manabita: tradición y sabor",
+      "url": "/recetas-cocina/comida-criolla-manabita-tradicion/"
+    },
+    {
+      "label": "Los 11 mejores restaurantes de Manta",
+      "url": "/gastronomia-manta/mejores-restaurantes-manta-ecuador/"
+    }
   ],
   "faq": [
     {

@@ -2,11 +2,17 @@
   "title": "Mojito clásico: la receta que servimos en la barra de Luuma",
   "slug": "mojito-receta-clasica-luuma",
   "status": "publish",
-  "date": "2026-08-26T11:00:00",
+  "date": "2026-06-18T18:00:00",
   "category_id": 13,
   "_category_slug": "cocteles-mixologia",
   "featured_media": 627,
-  "tags": ["mojito receta", "coctel mojito", "ron blanco", "hierbabuena", "luuma bartender"],
+  "tags": [
+    "mojito receta",
+    "coctel mojito",
+    "ron blanco",
+    "hierbabuena",
+    "luuma bartender"
+  ],
   "excerpt": "Receta del mojito clásico como lo servimos en barra — hierbabuena fresca, ron blanco joven, limón mantense, jarabe de azúcar. Paso a paso, errores comunes y por qué la hierbabuena importa más que el ron.",
   "yoast_title": "Mojito clásico: receta paso a paso del bartender de Luuma",
   "yoast_metadesc": "Receta del mojito como lo servimos en Luuma Rooftop: hierbabuena fresca, ron blanco, limón mantense. Errores comunes y cómo hacerlo bien.",
@@ -19,61 +25,116 @@
     {
       "h2": "Los 4 ingredientes y por qué cada uno",
       "blocks": [
-        {"type": "h3", "text": "Hierbabuena fresca (no menta)"},
-        {"type": "p", "text": "Hierbabuena y menta NO son lo mismo. La hierbabuena tiene hojas más redondas, sabor más suave y dulzón. La menta es más fría y mentolada. El mojito clásico cubano se hace con hierbabuena. Si usas menta, queda otro coctel — más cercano a un julep que a mojito."},
-        {"type": "p", "text": "Dónde conseguirla en Manta: el mercado central tiene puestos de hierbas frescas por la mañana. También crece en huerto casero — es resistente y de bajo mantenimiento."},
-        {"type": "h3", "text": "Ron blanco joven"},
-        {"type": "p", "text": "Ron blanco de 1-3 años de añejamiento, sin filtrar mucho. El añejo o premium se desperdicia en mojito — el limón y la hierbabuena tapan los matices del ron caro. Marcas como Ron Cartavio Blanco, Bacardi Carta Blanca, Havana Club Añejo Blanco funcionan bien."},
-        {"type": "h3", "text": "Limón mantense (no limón sutil)"},
-        {"type": "p", "text": "El limón mantense es el verde grande con poca acidez. NO el limón sutil (más pequeño y ácido) que se usa para ceviche. Para mojito necesitas el equilibrio del limón mantense. Si solo tienes sutil, mezcla con un toque de toronja para suavizar."},
-        {"type": "h3", "text": "Azúcar blanca / jarabe simple"},
-        {"type": "p", "text": "Mejor jarabe simple (azúcar + agua a partes iguales calentado hasta disolver, enfriado). Si usas azúcar en grano directamente, no se disuelve bien en el coctel frío y queda granuloso al final del trago."}
+        {
+          "type": "h3",
+          "text": "Hierbabuena fresca (no menta)"
+        },
+        {
+          "type": "p",
+          "text": "Hierbabuena y menta NO son lo mismo. La hierbabuena tiene hojas más redondas, sabor más suave y dulzón. La menta es más fría y mentolada. El mojito clásico cubano se hace con hierbabuena. Si usas menta, queda otro coctel — más cercano a un julep que a mojito."
+        },
+        {
+          "type": "p",
+          "text": "Dónde conseguirla en Manta: el mercado central tiene puestos de hierbas frescas por la mañana. También crece en huerto casero — es resistente y de bajo mantenimiento."
+        },
+        {
+          "type": "h3",
+          "text": "Ron blanco joven"
+        },
+        {
+          "type": "p",
+          "text": "Ron blanco de 1-3 años de añejamiento, sin filtrar mucho. El añejo o premium se desperdicia en mojito — el limón y la hierbabuena tapan los matices del ron caro. Marcas como Ron Cartavio Blanco, Bacardi Carta Blanca, Havana Club Añejo Blanco funcionan bien."
+        },
+        {
+          "type": "h3",
+          "text": "Limón mantense (no limón sutil)"
+        },
+        {
+          "type": "p",
+          "text": "El limón mantense es el verde grande con poca acidez. NO el limón sutil (más pequeño y ácido) que se usa para ceviche. Para mojito necesitas el equilibrio del limón mantense. Si solo tienes sutil, mezcla con un toque de toronja para suavizar."
+        },
+        {
+          "type": "h3",
+          "text": "Azúcar blanca / jarabe simple"
+        },
+        {
+          "type": "p",
+          "text": "Mejor jarabe simple (azúcar + agua a partes iguales calentado hasta disolver, enfriado). Si usas azúcar en grano directamente, no se disuelve bien en el coctel frío y queda granuloso al final del trago."
+        }
       ]
     },
     {
       "h2": "Receta paso a paso (1 mojito, 3 minutos)",
       "blocks": [
-        {"type": "ul", "items": [
-          "60 ml de ron blanco joven",
-          "30 ml de jugo de limón mantense fresco (~1 limón mediano)",
-          "20 ml de jarabe simple (o 2 cucharaditas de azúcar)",
-          "8-10 hojas de hierbabuena fresca",
-          "Hielo en cubos",
-          "Agua con gas para completar (60 ml)",
-          "Rama de hierbabuena para decorar"
-        ]},
-        {"type": "p", "text": "En vaso largo, agrega hojas de hierbabuena, jarabe y jugo de limón. Machaca suavemente con majador 6-8 veces — sin triturar las hojas, solo presionar para soltar aceites. Agrega ron y mueve. Llena con hielo en cubos. Completa con agua con gas. Mueve suave una sola vez. Decora con rama de hierbabuena. Sirve con sorbete."}
+        {
+          "type": "ul",
+          "items": [
+            "60 ml de ron blanco joven",
+            "30 ml de jugo de limón mantense fresco (~1 limón mediano)",
+            "20 ml de jarabe simple (o 2 cucharaditas de azúcar)",
+            "8-10 hojas de hierbabuena fresca",
+            "Hielo en cubos",
+            "Agua con gas para completar (60 ml)",
+            "Rama de hierbabuena para decorar"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "En vaso largo, agrega hojas de hierbabuena, jarabe y jugo de limón. Machaca suavemente con majador 6-8 veces — sin triturar las hojas, solo presionar para soltar aceites. Agrega ron y mueve. Llena con hielo en cubos. Completa con agua con gas. Mueve suave una sola vez. Decora con rama de hierbabuena. Sirve con sorbete."
+        }
       ]
     },
     {
       "h2": "Los errores comunes",
       "blocks": [
-        {"type": "p", "text": "Cuatro errores que vemos repetidos:"},
-        {"type": "ul", "items": [
-          "Machacar la hierbabuena en exceso: queda triturada, libera amargor, el coctel sabe a hierba molida",
-          "Usar menta en lugar de hierbabuena: queda mentolado, no mojito clásico",
-          "Usar limón sutil: muy ácido, satura el paladar",
-          "Mezclar mucho después del agua con gas: pierde la efervescencia, queda plano"
-        ]},
-        {"type": "quote", "text": "Cuando alguien nos pide un mojito en barra, vemos su cara cuando lo prueba. Si ha tomado mojito industrial, se sorprende — la hierbabuena fresca y machacada bien cambia el sabor por completo. Es de los cocteles más subestimados que hay.", "citation": "Equipo de barra de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Cuatro errores que vemos repetidos:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Machacar la hierbabuena en exceso: queda triturada, libera amargor, el coctel sabe a hierba molida",
+            "Usar menta en lugar de hierbabuena: queda mentolado, no mojito clásico",
+            "Usar limón sutil: muy ácido, satura el paladar",
+            "Mezclar mucho después del agua con gas: pierde la efervescencia, queda plano"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Cuando alguien nos pide un mojito en barra, vemos su cara cuando lo prueba. Si ha tomado mojito industrial, se sorprende — la hierbabuena fresca y machacada bien cambia el sabor por completo. Es de los cocteles más subestimados que hay.",
+          "citation": "Equipo de barra de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Variaciones que valen la pena",
       "blocks": [
-        {"type": "p", "text": "Una vez dominas el mojito clásico, hay 3 variaciones que vale la pena explorar:"},
-        {"type": "ul", "items": [
-          "Mojito de maracuyá: cambia 30 ml del agua con gas por pulpa de maracuyá fresca. Más dulce, frutal — gusta especialmente a quien no le va el clásico",
-          "Mojito sin alcohol (virgin): reemplaza el ron por agua de coco fresca. Conserva 90% del sabor sin el alcohol",
-          "Mojito de jengibre: agrega 1 rodaja delgada de jengibre fresco antes de machacar. Picor sutil que potencia la hierbabuena"
-        ]}
+        {
+          "type": "p",
+          "text": "Una vez dominas el mojito clásico, hay 3 variaciones que vale la pena explorar:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mojito de maracuyá: cambia 30 ml del agua con gas por pulpa de maracuyá fresca. Más dulce, frutal — gusta especialmente a quien no le va el clásico",
+            "Mojito sin alcohol (virgin): reemplaza el ron por agua de coco fresca. Conserva 90% del sabor sin el alcohol",
+            "Mojito de jengibre: agrega 1 rodaja delgada de jengibre fresco antes de machacar. Picor sutil que potencia la hierbabuena"
+          ]
+        }
       ]
     },
     {
       "h2": "Por qué el mojito es difícil en restaurante grande",
       "blocks": [
-        {"type": "p", "text": "Casi todos los restaurantes con carta amplia tienen mojito que sabe a industrial. La razón: en cocina con alto volumen no hay tiempo de machacar hierbabuena fresca para cada mojito. Usan jarabe pre-hecho con menta, ron, agua con gas. Resultado: coctel correcto pero sin alma."},
-        {"type": "p", "text": "En barras pequeñas con bartender enfocado, el mojito se hace fresco cada vez. Es el coctel que mejor demuestra si un bartender se toma el trabajo en serio o solo ejecuta. Si pides mojito y llega en 90 segundos, sospecha."}
+        {
+          "type": "p",
+          "text": "Casi todos los restaurantes con carta amplia tienen mojito que sabe a industrial. La razón: en cocina con alto volumen no hay tiempo de machacar hierbabuena fresca para cada mojito. Usan jarabe pre-hecho con menta, ron, agua con gas. Resultado: coctel correcto pero sin alma."
+        },
+        {
+          "type": "p",
+          "text": "En barras pequeñas con bartender enfocado, el mojito se hace fresco cada vez. Es el coctel que mejor demuestra si un bartender se toma el trabajo en serio o solo ejecuta. Si pides mojito y llega en 90 segundos, sospecha."
+        }
       ]
     }
   ],
@@ -81,15 +142,39 @@
   "cta_paragraph": "En Luuma av. Flavio Reyes servimos mojito clásico hecho a la orden con hierbabuena del mercado central. Coctel a $8. Mejor entre 18:00 y 20:00 cuando la barra está sin presión y cada mojito sale perfecto.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "El coctel de autor de Luuma con maracuyá", "url": "/cocteles-mixologia/coctel-autor-luuma-maracuya/"},
-    {"label": "Carta de bebidas de Luuma", "url": "/bebidas/"},
-    {"label": "Bares en av. Flavio Reyes Manta", "url": "/eventos-entretenimiento/bares-flavio-reyes-manta-recomendados/"}
+    {
+      "label": "El coctel de autor de Luuma con maracuyá",
+      "url": "/cocteles-mixologia/coctel-autor-luuma-maracuya/"
+    },
+    {
+      "label": "Carta de bebidas de Luuma",
+      "url": "/bebidas/"
+    },
+    {
+      "label": "Bares en av. Flavio Reyes Manta",
+      "url": "/eventos-entretenimiento/bares-flavio-reyes-manta-recomendados/"
+    }
   ],
   "faq": [
-    {"q": "¿Cuál es la diferencia entre hierbabuena y menta?", "a": "La hierbabuena tiene hojas más redondas, sabor suave dulzón — la del mojito clásico. La menta es más fría y mentolada — si la usas, queda otro coctel (más julep que mojito). En Manta consigues hierbabuena en el mercado central por la mañana o en huerto casero."},
-    {"q": "¿Qué ron es mejor para mojito?", "a": "Ron blanco joven (1-3 años de añejamiento). Marcas como Cartavio Blanco, Bacardi Carta Blanca, Havana Club Añejo Blanco funcionan. NO usar ron añejo o premium — sus matices se pierden bajo el limón y la hierbabuena."},
-    {"q": "¿Cómo se machaca la hierbabuena para mojito?", "a": "Suavemente, 6-8 presiones con majador. Solo para soltar los aceites. NO triturar las hojas. Si machaca en exceso, libera amargor y el coctel sabe a hierba molida. Es la diferencia más visible entre un mojito de barra y uno casero mal hecho."},
-    {"q": "¿Puedo hacer mojito sin alcohol?", "a": "Sí. La versión virgin reemplaza el ron por agua de coco fresca. Conserva el 90% del sabor — hierbabuena, limón, dulzor del jarabe. Es una alternativa que sirve para evento donde hay personas que no toman."},
-    {"q": "¿Por qué un mojito en restaurante grande sabe distinto al de barra pequeña?", "a": "En cocina con alto volumen no hay tiempo de machacar hierbabuena fresca para cada mojito. Usan jarabe pre-hecho con menta industrial. Coctel correcto pero sin alma. En barras enfocadas se hace fresco cada vez. Si pides mojito y llega en 90 segundos, sospecha."}
+    {
+      "q": "¿Cuál es la diferencia entre hierbabuena y menta?",
+      "a": "La hierbabuena tiene hojas más redondas, sabor suave dulzón — la del mojito clásico. La menta es más fría y mentolada — si la usas, queda otro coctel (más julep que mojito). En Manta consigues hierbabuena en el mercado central por la mañana o en huerto casero."
+    },
+    {
+      "q": "¿Qué ron es mejor para mojito?",
+      "a": "Ron blanco joven (1-3 años de añejamiento). Marcas como Cartavio Blanco, Bacardi Carta Blanca, Havana Club Añejo Blanco funcionan. NO usar ron añejo o premium — sus matices se pierden bajo el limón y la hierbabuena."
+    },
+    {
+      "q": "¿Cómo se machaca la hierbabuena para mojito?",
+      "a": "Suavemente, 6-8 presiones con majador. Solo para soltar los aceites. NO triturar las hojas. Si machaca en exceso, libera amargor y el coctel sabe a hierba molida. Es la diferencia más visible entre un mojito de barra y uno casero mal hecho."
+    },
+    {
+      "q": "¿Puedo hacer mojito sin alcohol?",
+      "a": "Sí. La versión virgin reemplaza el ron por agua de coco fresca. Conserva el 90% del sabor — hierbabuena, limón, dulzor del jarabe. Es una alternativa que sirve para evento donde hay personas que no toman."
+    },
+    {
+      "q": "¿Por qué un mojito en restaurante grande sabe distinto al de barra pequeña?",
+      "a": "En cocina con alto volumen no hay tiempo de machacar hierbabuena fresca para cada mojito. Usan jarabe pre-hecho con menta industrial. Coctel correcto pero sin alma. En barras enfocadas se hace fresco cada vez. Si pides mojito y llega en 90 segundos, sospecha."
+    }
   ]
 }

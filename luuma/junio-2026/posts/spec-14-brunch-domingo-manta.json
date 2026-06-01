@@ -2,11 +2,17 @@
   "title": "Brunch dominical en Manta: dónde, qué pedir y por qué Barbasquillo manda",
   "slug": "brunch-domingo-manta",
   "status": "publish",
-  "date": "2026-08-05T11:00:00",
+  "date": "2026-06-15T18:00:00",
   "category_id": 9,
   "_category_slug": "gastronomia-manta",
   "featured_media": 665,
-  "tags": ["brunch manta", "brunch dominical", "barbasquillo", "mimosa", "huevos benedictinos manta"],
+  "tags": [
+    "brunch manta",
+    "brunch dominical",
+    "barbasquillo",
+    "mimosa",
+    "huevos benedictinos manta"
+  ],
   "excerpt": "Brunch los domingos en Manta — Barbasquillo concentra las mejores opciones, pero hay también en zona Flavio Reyes y rooftops. Precios reales, qué pedir, mejor hora para llegar.",
   "yoast_title": "Brunch dominical en Manta: dónde ir según presupuesto",
   "yoast_metadesc": "Brunch los domingos en Manta: Barbasquillo, Flavio Reyes y rooftops. Mimosa, huevos benedictinos, bolón premium. Precios y mejor hora para llegar.",
@@ -19,48 +25,107 @@
     {
       "h2": "Por qué Barbasquillo es el barrio del brunch",
       "blocks": [
-        {"type": "p", "text": "Barbasquillo está al norte del malecón, residencial, con calles tranquilas y restaurantes que abren los fines de semana solamente. La concentración de brunch ahí responde a su perfil — familias mantenses jóvenes con niños, parejas que quieren caminar despacio después de comer, ambiente relajado sin ruido turístico."},
-        {"type": "p", "text": "Hay 4-5 restaurantes con brunch consolidado en Barbasquillo abierto los domingos desde 9:30 hasta 15:00. Carta tipo americano-fusion: huevos en sus formas (benedictinos, rancheros, omelette), bolón premium con aguacate y queso de cabra, sándwiches gourmet, ensaladas frescas, smoothie bowl. Brunch promedio: $10-$15 por persona con bebida."}
+        {
+          "type": "p",
+          "text": "Barbasquillo está al norte del malecón, residencial, con calles tranquilas y restaurantes que abren los fines de semana solamente. La concentración de brunch ahí responde a su perfil — familias mantenses jóvenes con niños, parejas que quieren caminar despacio después de comer, ambiente relajado sin ruido turístico."
+        },
+        {
+          "type": "p",
+          "text": "Hay 4-5 restaurantes con brunch consolidado en Barbasquillo abierto los domingos desde 9:30 hasta 15:00. Carta tipo americano-fusion: huevos en sus formas (benedictinos, rancheros, omelette), bolón premium con aguacate y queso de cabra, sándwiches gourmet, ensaladas frescas, smoothie bowl. Brunch promedio: $10-$15 por persona con bebida."
+        }
       ]
     },
     {
       "h2": "Brunch en zona Flavio Reyes",
       "blocks": [
-        {"type": "p", "text": "Av. Flavio Reyes tiene 2-3 opciones de brunch dominical con perfil más cosmopolita. Cocteles de la mañana (mimosa, bloody mary, aperol spritz) son parte del menú. Carta más fusion — huevos pochés con quinua manabita, tostada francesa con frutas del Pacífico, plato de embutidos europeos."},
-        {"type": "p", "text": "Brunch promedio Flavio Reyes: $15-$25 por persona con coctel. Reservar es recomendable los domingos porque las mesas con sombra se llenan al 11:30. Mejor ir entre 9:30 y 10:30 para mesa tranquila o esperar el segundo turno después de las 13:00."}
+        {
+          "type": "p",
+          "text": "Av. Flavio Reyes tiene 2-3 opciones de brunch dominical con perfil más cosmopolita. Cocteles de la mañana (mimosa, bloody mary, aperol spritz) son parte del menú. Carta más fusion — huevos pochés con quinua manabita, tostada francesa con frutas del Pacífico, plato de embutidos europeos."
+        },
+        {
+          "type": "p",
+          "text": "Brunch promedio Flavio Reyes: $15-$25 por persona con coctel. Reservar es recomendable los domingos porque las mesas con sombra se llenan al 11:30. Mejor ir entre 9:30 y 10:30 para mesa tranquila o esperar el segundo turno después de las 13:00."
+        }
       ]
     },
     {
       "h2": "Brunch en rooftops",
       "blocks": [
-        {"type": "p", "text": "No todos los rooftops abren para brunch. Algunos sólo arrancan al mediodía con almuerzo. En Luuma específicamente abrimos los domingos a las 10:30 con menú brunch corto — huevos al estilo manabita (con bolón y café pasado), tostadas con pesca blanca a la grilla, smoothies de fruta del Pacífico, cocteles mañaneros."},
-        {"type": "p", "text": "Brunch promedio en rooftop Luuma: $12-$20 con bebida. Mesa al aire libre con vista al Pacífico, ambiente más calmado que la cena. Domingos antes de las 12:00 hay muy buena disponibilidad — el flujo fuerte llega entre 12:30 y 14:00."},
-        {"type": "quote", "text": "Los domingos vienen muchos huéspedes que pasaron el sábado en otros restaurantes y quieren cerrar el fin de semana con algo distinto. El brunch en rooftop es para eso — alargas la mañana con buen café y vista, después caminas por el malecón y vuelves a casa.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "No todos los rooftops abren para brunch. Algunos sólo arrancan al mediodía con almuerzo. En Luuma específicamente abrimos los domingos a las 10:30 con menú brunch corto — huevos al estilo manabita (con bolón y café pasado), tostadas con pesca blanca a la grilla, smoothies de fruta del Pacífico, cocteles mañaneros."
+        },
+        {
+          "type": "p",
+          "text": "Brunch promedio en rooftop Luuma: $12-$20 con bebida. Mesa al aire libre con vista al Pacífico, ambiente más calmado que la cena. Domingos antes de las 12:00 hay muy buena disponibilidad — el flujo fuerte llega entre 12:30 y 14:00."
+        },
+        {
+          "type": "quote",
+          "text": "Los domingos vienen muchos huéspedes que pasaron el sábado en otros restaurantes y quieren cerrar el fin de semana con algo distinto. El brunch en rooftop es para eso — alargas la mañana con buen café y vista, después caminas por el malecón y vuelves a casa.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Qué pedir según el plan",
       "blocks": [
-        {"type": "p", "text": "Cada estilo de brunch va con un orden distinto. Pedir mal te deja con hambre o saturado."},
-        {"type": "ul", "items": [
-          "Brunch ligero (después de jugar tenis o correr): bolón premium o huevos benedictinos + smoothie + café pasado. $10-$12",
-          "Brunch sustancial (única comida fuerte del día): plato fuerte con proteína + lado + bebida + postre simple. $15-$20",
-          "Brunch festivo (cumpleaños, aniversario): coctel de bienvenida + plato fuerte + postre + segundo coctel. $25-$35",
-          "Brunch familiar con niños: opción de mesa larga + platos para compartir + jugo natural para chicos. $8-$12 por adulto"
-        ]}
+        {
+          "type": "p",
+          "text": "Cada estilo de brunch va con un orden distinto. Pedir mal te deja con hambre o saturado."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Brunch ligero (después de jugar tenis o correr): bolón premium o huevos benedictinos + smoothie + café pasado. $10-$12",
+            "Brunch sustancial (única comida fuerte del día): plato fuerte con proteína + lado + bebida + postre simple. $15-$20",
+            "Brunch festivo (cumpleaños, aniversario): coctel de bienvenida + plato fuerte + postre + segundo coctel. $25-$35",
+            "Brunch familiar con niños: opción de mesa larga + platos para compartir + jugo natural para chicos. $8-$12 por adulto"
+          ]
+        }
       ]
     },
     {
       "h2": "Comparativa por zona y tipo",
       "blocks": [
-        {"type": "table",
-          "headers": ["Zona", "Estilo brunch", "Precio promedio", "Reserva necesaria"],
+        {
+          "type": "table",
+          "headers": [
+            "Zona",
+            "Estilo brunch",
+            "Precio promedio",
+            "Reserva necesaria"
+          ],
           "rows": [
-            ["Barbasquillo", "Americano-fusion familiar", "$10-$15", "Recomendado sábados y feriados"],
-            ["Av. Flavio Reyes", "Cosmopolita con cocteles", "$15-$25", "Sí los domingos"],
-            ["Rooftop Luuma", "Manabita contemporáneo + vista", "$12-$20", "Recomendado domingos"],
-            ["Malecón Murciélago", "Casual al aire libre", "$8-$15", "No"],
-            ["Hoteles centro", "Buffet americano + manabí", "$15-$20", "Habitualmente buffet sin reserva"]
+            [
+              "Barbasquillo",
+              "Americano-fusion familiar",
+              "$10-$15",
+              "Recomendado sábados y feriados"
+            ],
+            [
+              "Av. Flavio Reyes",
+              "Cosmopolita con cocteles",
+              "$15-$25",
+              "Sí los domingos"
+            ],
+            [
+              "Rooftop Luuma",
+              "Manabita contemporáneo + vista",
+              "$12-$20",
+              "Recomendado domingos"
+            ],
+            [
+              "Malecón Murciélago",
+              "Casual al aire libre",
+              "$8-$15",
+              "No"
+            ],
+            [
+              "Hoteles centro",
+              "Buffet americano + manabí",
+              "$15-$20",
+              "Habitualmente buffet sin reserva"
+            ]
           ]
         }
       ]
@@ -68,7 +133,10 @@
     {
       "h2": "Lo que no te dicen las guías",
       "blocks": [
-        {"type": "p", "text": "Tres detalles: primero, los \"huevos benedictinos\" en algunos restaurantes son huevos pochés con jamón y queso, no la versión clásica con salsa holandesa — pregunta antes si te importa; segundo, la mimosa estándar de brunch en Manta usa vino espumoso económico — si quieres champagne real, hay que pedirla específicamente y subir el precio $5-$8; tercero, casi todos los lugares de brunch cierran cocina exactamente al 14:30 los domingos — después de esa hora solo sirven bebidas y postres."}
+        {
+          "type": "p",
+          "text": "Tres detalles: primero, los \"huevos benedictinos\" en algunos restaurantes son huevos pochés con jamón y queso, no la versión clásica con salsa holandesa — pregunta antes si te importa; segundo, la mimosa estándar de brunch en Manta usa vino espumoso económico — si quieres champagne real, hay que pedirla específicamente y subir el precio $5-$8; tercero, casi todos los lugares de brunch cierran cocina exactamente al 14:30 los domingos — después de esa hora solo sirven bebidas y postres."
+        }
       ]
     }
   ],
@@ -76,15 +144,39 @@
   "cta_paragraph": "En Luuma brunch dominical desde las 10:30. Carta corta manabita contemporánea, café pasado, smoothie de fruta del Pacífico, cocteles mañaneros. Mejor con reserva si quieres mesa con vista directa al mar.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Almuerzos en Manta por zona", "url": "/gastronomia-manta/almuerzos-manta-por-zona/"},
-    {"label": "Restaurantes en Manta según quien vive aquí", "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"},
-    {"label": "Qué hacer este fin de semana en Manta", "url": "/eventos-entretenimiento/que-hacer-fin-de-semana-manta/"}
+    {
+      "label": "Almuerzos en Manta por zona",
+      "url": "/gastronomia-manta/almuerzos-manta-por-zona/"
+    },
+    {
+      "label": "Restaurantes en Manta según quien vive aquí",
+      "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"
+    },
+    {
+      "label": "Qué hacer este fin de semana en Manta",
+      "url": "/eventos-entretenimiento/que-hacer-fin-de-semana-manta/"
+    }
   ],
   "faq": [
-    {"q": "¿Dónde hay brunch en Manta los domingos?", "a": "Barbasquillo concentra 4-5 restaurantes con brunch familiar tipo americano-fusion ($10-$15). Av. Flavio Reyes tiene 2-3 con perfil cosmopolita ($15-$25). Rooftop Luuma sirve brunch manabita contemporáneo con vista al Pacífico ($12-$20)."},
-    {"q": "¿A qué hora abren los lugares de brunch en Manta?", "a": "Desde 9:30 hasta 15:00 los sábados y domingos. Cocina cierra exactamente a las 14:30 los domingos — después solo bebidas y postres. Para mesa tranquila ir entre 9:30 y 10:30."},
-    {"q": "¿Cuánto cuesta el brunch en Manta?", "a": "Entre $10 y $25 por persona según zona y estilo. Barbasquillo familiar: $10-$15. Flavio Reyes cosmopolita: $15-$25. Rooftop con vista: $12-$20. Hoteles con buffet: $15-$20."},
-    {"q": "¿Hay brunch con vista al mar en Manta?", "a": "Sí, en rooftops de av. Flavio Reyes como Luuma con vista panorámica al Pacífico. También en algunos restaurantes al borde del malecón Murciélago a nivel de calle. Reservar mesa con vista es recomendable los domingos."},
-    {"q": "¿Sirven mimosa o cocteles en brunch en Manta?", "a": "Sí, los restaurantes de brunch en Flavio Reyes y rooftops incluyen mimosa, bloody mary, aperol spritz desde el menú. Versión estándar usa vino espumoso económico. Si quieres champagne real hay que pedirla y subir $5-$8 al precio."}
+    {
+      "q": "¿Dónde hay brunch en Manta los domingos?",
+      "a": "Barbasquillo concentra 4-5 restaurantes con brunch familiar tipo americano-fusion ($10-$15). Av. Flavio Reyes tiene 2-3 con perfil cosmopolita ($15-$25). Rooftop Luuma sirve brunch manabita contemporáneo con vista al Pacífico ($12-$20)."
+    },
+    {
+      "q": "¿A qué hora abren los lugares de brunch en Manta?",
+      "a": "Desde 9:30 hasta 15:00 los sábados y domingos. Cocina cierra exactamente a las 14:30 los domingos — después solo bebidas y postres. Para mesa tranquila ir entre 9:30 y 10:30."
+    },
+    {
+      "q": "¿Cuánto cuesta el brunch en Manta?",
+      "a": "Entre $10 y $25 por persona según zona y estilo. Barbasquillo familiar: $10-$15. Flavio Reyes cosmopolita: $15-$25. Rooftop con vista: $12-$20. Hoteles con buffet: $15-$20."
+    },
+    {
+      "q": "¿Hay brunch con vista al mar en Manta?",
+      "a": "Sí, en rooftops de av. Flavio Reyes como Luuma con vista panorámica al Pacífico. También en algunos restaurantes al borde del malecón Murciélago a nivel de calle. Reservar mesa con vista es recomendable los domingos."
+    },
+    {
+      "q": "¿Sirven mimosa o cocteles en brunch en Manta?",
+      "a": "Sí, los restaurantes de brunch en Flavio Reyes y rooftops incluyen mimosa, bloody mary, aperol spritz desde el menú. Versión estándar usa vino espumoso económico. Si quieres champagne real hay que pedirla y subir $5-$8 al precio."
+    }
   ]
 }

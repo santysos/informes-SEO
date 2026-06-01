@@ -2,11 +2,17 @@
   "title": "Carta de vinos en Manta: qué pedir según el plato manabita",
   "slug": "vinos-manabi-maridaje-carta-luuma",
   "status": "publish",
-  "date": "2026-09-12T11:00:00",
+  "date": "2026-06-21T11:00:00",
   "category_id": 13,
   "_category_slug": "cocteles-mixologia",
   "featured_media": 625,
-  "tags": ["vinos manta", "maridaje pescado", "vino blanco", "vino tinto", "luuma carta"],
+  "tags": [
+    "vinos manta",
+    "maridaje pescado",
+    "vino blanco",
+    "vino tinto",
+    "luuma carta"
+  ],
   "excerpt": "Maridaje de vinos con cocina manabita en Manta — qué blanco va con viche, qué tinto con encocado, cuál para ceviche manabita. Las recomendaciones de la barra de Luuma.",
   "yoast_title": "Maridaje de vinos con cocina manabita: guía de Luuma",
   "yoast_metadesc": "Qué vino pedir con cocina manabita: blanco para viche, tinto suave para encocado, rosado para ceviche. Recomendaciones de la barra de Luuma.",
@@ -19,64 +25,141 @@
     {
       "h2": "Por qué la mayoría se equivoca",
       "blocks": [
-        {"type": "p", "text": "El cliché es \"comida costeña = vino blanco\". Suena lógico pero no se aplica a cocina manabita. Los platos manabitas con maní tostado (viche, encocado, ceviche) tienen una capa de complejidad que los vinos blancos jóvenes y muy ácidos no soportan — el maní apaga su carácter."},
-        {"type": "p", "text": "Lo que sí funciona: blancos más estructurados, rosados con cuerpo, y para platos manabitas más grasos (encocado de cangrejo, sancocho), tintos suaves jóvenes. Pero no cualquiera — la regla \"tinto con marisco no\" hay que romperla con cuidado."}
+        {
+          "type": "p",
+          "text": "El cliché es \"comida costeña = vino blanco\". Suena lógico pero no se aplica a cocina manabita. Los platos manabitas con maní tostado (viche, encocado, ceviche) tienen una capa de complejidad que los vinos blancos jóvenes y muy ácidos no soportan — el maní apaga su carácter."
+        },
+        {
+          "type": "p",
+          "text": "Lo que sí funciona: blancos más estructurados, rosados con cuerpo, y para platos manabitas más grasos (encocado de cangrejo, sancocho), tintos suaves jóvenes. Pero no cualquiera — la regla \"tinto con marisco no\" hay que romperla con cuidado."
+        }
       ]
     },
     {
       "h2": "Maridaje por plato",
       "blocks": [
-        {"type": "h3", "text": "Viche de pescado"},
-        {"type": "p", "text": "El viche es plato espeso con maní tostado, sopa caliente con yuca. Pide un blanco con cuerpo — Chardonnay de Argentina, Sauvignon Blanc de Chile en versión más madura. No Sauvignon joven muy cítrico, ni rosado liviano. Si va con vino tinto, alguno muy suave joven funciona en porción pequeña."},
-        {"type": "h3", "text": "Encocado de pescado o camarón"},
-        {"type": "p", "text": "La leche de coco con achiote y especias del encocado va con tintos suaves jóvenes — Malbec joven (no Reserva), Pinot Noir liviano, Merlot. Si prefieres blanco, Viognier o Chardonnay sin mucho roble. Lo que NO va: tinto Reserva pesado, Sauvignon Blanc joven."},
-        {"type": "h3", "text": "Ceviche manabita"},
-        {"type": "p", "text": "El ceviche manabita con naranja agria, maní y cebolla colorada va perfecto con rosado seco — Cinsault de Chile, Rosé de Argentina, Pinot Noir rosado. También blancos secos con buena acidez como Albariño o Sauvignon Blanc joven. NO va con tinto."},
-        {"type": "h3", "text": "Sancocho manabita y cazuela de mariscos"},
-        {"type": "p", "text": "Platos más \"de cuchara\", con sabor profundo y tiempo de cocción. Aquí los blancos no aguantan. Tinto Malbec joven, Tempranillo joven, Pinot Noir más estructurado funcionan. Para no romper con \"tradición\": cerveza Pilsner artesanal."}
+        {
+          "type": "h3",
+          "text": "Viche de pescado"
+        },
+        {
+          "type": "p",
+          "text": "El viche es plato espeso con maní tostado, sopa caliente con yuca. Pide un blanco con cuerpo — Chardonnay de Argentina, Sauvignon Blanc de Chile en versión más madura. No Sauvignon joven muy cítrico, ni rosado liviano. Si va con vino tinto, alguno muy suave joven funciona en porción pequeña."
+        },
+        {
+          "type": "h3",
+          "text": "Encocado de pescado o camarón"
+        },
+        {
+          "type": "p",
+          "text": "La leche de coco con achiote y especias del encocado va con tintos suaves jóvenes — Malbec joven (no Reserva), Pinot Noir liviano, Merlot. Si prefieres blanco, Viognier o Chardonnay sin mucho roble. Lo que NO va: tinto Reserva pesado, Sauvignon Blanc joven."
+        },
+        {
+          "type": "h3",
+          "text": "Ceviche manabita"
+        },
+        {
+          "type": "p",
+          "text": "El ceviche manabita con naranja agria, maní y cebolla colorada va perfecto con rosado seco — Cinsault de Chile, Rosé de Argentina, Pinot Noir rosado. También blancos secos con buena acidez como Albariño o Sauvignon Blanc joven. NO va con tinto."
+        },
+        {
+          "type": "h3",
+          "text": "Sancocho manabita y cazuela de mariscos"
+        },
+        {
+          "type": "p",
+          "text": "Platos más \"de cuchara\", con sabor profundo y tiempo de cocción. Aquí los blancos no aguantan. Tinto Malbec joven, Tempranillo joven, Pinot Noir más estructurado funcionan. Para no romper con \"tradición\": cerveza Pilsner artesanal."
+        }
       ]
     },
     {
       "h2": "Lo que cuesta el vino en Manta",
       "blocks": [
-        {"type": "p", "text": "Manta tiene importación limitada de vinos por logística — la mayoría llega vía Guayaquil y se marca 40-60% sobre precio Quito. Eso afecta lo que vale la pena pedir."},
-        {"type": "table",
-          "headers": ["Tipo de vino", "En restaurante en Manta", "En supermercado"],
+        {
+          "type": "p",
+          "text": "Manta tiene importación limitada de vinos por logística — la mayoría llega vía Guayaquil y se marca 40-60% sobre precio Quito. Eso afecta lo que vale la pena pedir."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tipo de vino",
+            "En restaurante en Manta",
+            "En supermercado"
+          ],
           "rows": [
-            ["Blanco joven argentino/chileno", "$22-$35/botella", "$12-$18"],
-            ["Tinto joven Malbec/Pinot", "$28-$45/botella", "$14-$22"],
-            ["Rosado seco", "$24-$38/botella", "$13-$20"],
-            ["Vino chileno medio (Reserva)", "$40-$65/botella", "$22-$35"],
-            ["Vino premium importado", "$65-$120/botella", "$45-$80"]
+            [
+              "Blanco joven argentino/chileno",
+              "$22-$35/botella",
+              "$12-$18"
+            ],
+            [
+              "Tinto joven Malbec/Pinot",
+              "$28-$45/botella",
+              "$14-$22"
+            ],
+            [
+              "Rosado seco",
+              "$24-$38/botella",
+              "$13-$20"
+            ],
+            [
+              "Vino chileno medio (Reserva)",
+              "$40-$65/botella",
+              "$22-$35"
+            ],
+            [
+              "Vino premium importado",
+              "$65-$120/botella",
+              "$45-$80"
+            ]
           ]
         },
-        {"type": "p", "text": "En Luuma específicamente trabajamos con carta corta de 12-15 referencias seleccionadas por maridaje con la cocina manabita — no carta amplia con muchas opciones que no probamos. Precio botella entre $28 y $55."}
+        {
+          "type": "p",
+          "text": "En Luuma específicamente trabajamos con carta corta de 12-15 referencias seleccionadas por maridaje con la cocina manabita — no carta amplia con muchas opciones que no probamos. Precio botella entre $28 y $55."
+        }
       ]
     },
     {
       "h2": "Vino por copa: cuándo conviene",
       "blocks": [
-        {"type": "p", "text": "Pedir vino por copa en Manta cuesta entre $8 y $14 según restaurante. Conviene cuando: vas solo o en pareja con plan corto, quieres probar maridaje sin compromiso de botella, vas a tomar coctel después del vino."},
-        {"type": "p", "text": "NO conviene: si vas en grupo de 3+ — la botella sale más barata por persona. Si quieres vino premium — las copas premium son raras y caras, mejor botella."},
-        {"type": "quote", "text": "El error más frecuente que vemos en gente que pide vino con cocina manabita por primera vez es pedir Sauvignon Blanc joven con viche o encocado, porque 'es blanco para pescado'. El Sauvignon joven choca con el maní tostado. Las primeras dos copas te confunden, después del cuarto bocado entiendes que algo no encaja.", "citation": "Equipo de barra de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Pedir vino por copa en Manta cuesta entre $8 y $14 según restaurante. Conviene cuando: vas solo o en pareja con plan corto, quieres probar maridaje sin compromiso de botella, vas a tomar coctel después del vino."
+        },
+        {
+          "type": "p",
+          "text": "NO conviene: si vas en grupo de 3+ — la botella sale más barata por persona. Si quieres vino premium — las copas premium son raras y caras, mejor botella."
+        },
+        {
+          "type": "quote",
+          "text": "El error más frecuente que vemos en gente que pide vino con cocina manabita por primera vez es pedir Sauvignon Blanc joven con viche o encocado, porque 'es blanco para pescado'. El Sauvignon joven choca con el maní tostado. Las primeras dos copas te confunden, después del cuarto bocado entiendes que algo no encaja.",
+          "citation": "Equipo de barra de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Recomendaciones específicas que sabemos funcionan",
       "blocks": [
-        {"type": "ul", "items": [
-          "Con viche: Chardonnay argentino Mendoza versión madura (Catena Chardonnay funciona bien)",
-          "Con encocado de pescado: Pinot Noir chileno casablanca joven (Cono Sur Bicicleta o similar)",
-          "Con ceviche manabita: Rosé de Cinsault chileno (Concha y Toro Reservado)",
-          "Con cazuela de mariscos: Malbec joven argentino sin Reserva (Trapiche Roble o similar)",
-          "Para acompañar plato variado en mesa: rosado seco argentino — el más versátil"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "Con viche: Chardonnay argentino Mendoza versión madura (Catena Chardonnay funciona bien)",
+            "Con encocado de pescado: Pinot Noir chileno casablanca joven (Cono Sur Bicicleta o similar)",
+            "Con ceviche manabita: Rosé de Cinsault chileno (Concha y Toro Reservado)",
+            "Con cazuela de mariscos: Malbec joven argentino sin Reserva (Trapiche Roble o similar)",
+            "Para acompañar plato variado en mesa: rosado seco argentino — el más versátil"
+          ]
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen",
       "blocks": [
-        {"type": "p", "text": "Tres detalles: primero, vinos chilenos suelen estar más frescos en Manta que argentinos — la cadena de frío en transporte hasta acá es mejor con Chile; segundo, ningún vino ecuatoriano vale la pena con cocina manabita por ahora — los blancos nacionales son muy ácidos, los tintos verdes; tercero, los hoteles grandes cobran $35-$45 por copa de vino premium — en barra como Luuma la misma copa cuesta $14."}
+        {
+          "type": "p",
+          "text": "Tres detalles: primero, vinos chilenos suelen estar más frescos en Manta que argentinos — la cadena de frío en transporte hasta acá es mejor con Chile; segundo, ningún vino ecuatoriano vale la pena con cocina manabita por ahora — los blancos nacionales son muy ácidos, los tintos verdes; tercero, los hoteles grandes cobran $35-$45 por copa de vino premium — en barra como Luuma la misma copa cuesta $14."
+        }
       ]
     }
   ],
@@ -84,15 +167,39 @@
   "cta_paragraph": "Carta corta de vinos seleccionados por maridaje con la cocina manabita. Botellas $28-$55, copas $10-$14. Sugerencias del equipo según el plato que pidas. Mesa con vista al Pacífico para cena maridada.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
-    {"label": "Carta de bebidas de Luuma", "url": "/bebidas/"},
-    {"label": "Cena romántica en Manta: dónde reservar", "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"}
+    {
+      "label": "Platos típicos de Manabí: los 12 que probar",
+      "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"
+    },
+    {
+      "label": "Carta de bebidas de Luuma",
+      "url": "/bebidas/"
+    },
+    {
+      "label": "Cena romántica en Manta: dónde reservar",
+      "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"
+    }
   ],
   "faq": [
-    {"q": "¿Qué vino va con viche?", "a": "Blanco con cuerpo — Chardonnay argentino versión madura, Sauvignon Blanc chileno más maduro. NO Sauvignon Blanc joven muy cítrico (choca con el maní tostado). Si va con tinto, alguno muy suave joven en porción pequeña."},
-    {"q": "¿Se puede tomar vino tinto con ceviche manabita?", "a": "No es recomendable. El ceviche manabita con naranja agria pide rosado seco (Cinsault chileno o Pinot Noir rosado) o blanco seco con buena acidez (Albariño, Sauvignon Blanc joven). El tinto choca con la acidez."},
-    {"q": "¿Cuánto cuesta el vino en restaurantes de Manta?", "a": "Botella de vino joven argentino o chileno: $22-$35. Botella de tinto Malbec o Pinot joven: $28-$45. Botella Reserva: $40-$65. Vino por copa: $8-$14 según restaurante. Hoteles grandes pueden subir 30-40% sobre estos rangos."},
-    {"q": "¿Hay vino ecuatoriano que valga la pena con cocina manabita?", "a": "No por ahora. Los blancos ecuatorianos suelen ser muy ácidos para acompañar los matices del maní tostado en cocina manabita. Los tintos ecuatorianos están en proceso de maduración como industria — todavía verdes para acompañar platos complejos."},
-    {"q": "¿Por copa o por botella en Manta?", "a": "Por copa: conviene si vas solo o en pareja con plan corto. Por botella: conviene en grupo de 3+ o si quieres vino premium (raras copas premium en Manta). En Luuma trabajamos carta corta de 12-15 referencias para maridaje con nuestra cocina."}
+    {
+      "q": "¿Qué vino va con viche?",
+      "a": "Blanco con cuerpo — Chardonnay argentino versión madura, Sauvignon Blanc chileno más maduro. NO Sauvignon Blanc joven muy cítrico (choca con el maní tostado). Si va con tinto, alguno muy suave joven en porción pequeña."
+    },
+    {
+      "q": "¿Se puede tomar vino tinto con ceviche manabita?",
+      "a": "No es recomendable. El ceviche manabita con naranja agria pide rosado seco (Cinsault chileno o Pinot Noir rosado) o blanco seco con buena acidez (Albariño, Sauvignon Blanc joven). El tinto choca con la acidez."
+    },
+    {
+      "q": "¿Cuánto cuesta el vino en restaurantes de Manta?",
+      "a": "Botella de vino joven argentino o chileno: $22-$35. Botella de tinto Malbec o Pinot joven: $28-$45. Botella Reserva: $40-$65. Vino por copa: $8-$14 según restaurante. Hoteles grandes pueden subir 30-40% sobre estos rangos."
+    },
+    {
+      "q": "¿Hay vino ecuatoriano que valga la pena con cocina manabita?",
+      "a": "No por ahora. Los blancos ecuatorianos suelen ser muy ácidos para acompañar los matices del maní tostado en cocina manabita. Los tintos ecuatorianos están en proceso de maduración como industria — todavía verdes para acompañar platos complejos."
+    },
+    {
+      "q": "¿Por copa o por botella en Manta?",
+      "a": "Por copa: conviene si vas solo o en pareja con plan corto. Por botella: conviene en grupo de 3+ o si quieres vino premium (raras copas premium en Manta). En Luuma trabajamos carta corta de 12-15 referencias para maridaje con nuestra cocina."
+    }
   ]
 }

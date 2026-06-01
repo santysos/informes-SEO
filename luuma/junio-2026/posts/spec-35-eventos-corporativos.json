@@ -2,11 +2,16 @@
   "title": "Eventos corporativos en Manta: dónde organizar según el tipo de evento",
   "slug": "eventos-corporativos-manta-organizar",
   "status": "publish",
-  "date": "2026-10-17T11:00:00",
+  "date": "2026-06-26T11:00:00",
   "category_id": 11,
   "_category_slug": "eventos-entretenimiento",
   "featured_media": 668,
-  "tags": ["eventos corporativos manta", "salón de eventos", "evento empresarial manta", "luuma evento privado"],
+  "tags": [
+    "eventos corporativos manta",
+    "salón de eventos",
+    "evento empresarial manta",
+    "luuma evento privado"
+  ],
   "excerpt": "Almuerzo de cierre de mes, cena de fin de año, taller con clientes, reunión gerencial. Cada tipo de evento corporativo pide espacio distinto en Manta. Te decimos qué funciona y cuál presupuesto manejar.",
   "yoast_title": "Eventos corporativos en Manta: dónde organizar (por tipo)",
   "yoast_metadesc": "Eventos corporativos en Manta: almuerzo de equipo, cena fin de año, taller con clientes. Lugares según tipo, capacidad y presupuesto real.",
@@ -19,32 +24,104 @@
     {
       "h2": "Tipos de eventos y dónde funciona cada uno",
       "blocks": [
-        {"type": "h3", "text": "Almuerzo de equipo de 10-25 personas"},
-        {"type": "p", "text": "Cierre de mes, celebración de proyecto, integración del equipo. Lo que funciona: restaurantes de Barbasquillo o malecón Murciélago con mesa larga reservada. Marisquerías formales del malecón central. La Quadra para grupo con gustos distintos."},
-        {"type": "p", "text": "Precio promedio: $20-$35 por persona. Reservar con 1-2 semanas. Confirmar 48 horas antes con número exacto. Pedir presupuesto fijo por persona facilita el manejo financiero."},
-        {"type": "h3", "text": "Cena de gerentes o cliente importante"},
-        {"type": "p", "text": "Cena formal o semiformal con 4-8 personas. Rooftops como Luuma o restaurantes de Barbasquillo con ambiente más cuidado. Hoteles grandes con sala privada para máxima formalidad."},
-        {"type": "p", "text": "Precio promedio: $40-$80 por persona con vino o coctel incluido. Reservar mesa con vista 1-2 semanas antes. Para impacto: rooftop con atardecer 18:10-18:25 marca el tono del evento."},
-        {"type": "h3", "text": "Taller o presentación con 30-80 personas"},
-        {"type": "p", "text": "Sala de hotel grande con servicio de catering. Los hoteles Oro Verde y Howard Johnson tienen salones para este tamaño con equipo audiovisual incluido. Algunos restaurantes y rooftops tienen sala privada arrendable."},
-        {"type": "p", "text": "Precio promedio: $35-$60 por persona con coffee break y almuerzo. Reservar con 1 mes antes. Confirmar requisitos técnicos (sonido, proyector, internet) con la sala anfitriona."},
-        {"type": "h3", "text": "Cena de fin de año empresarial"},
-        {"type": "p", "text": "Evento del año con 20-100 personas. Salones de hotel o eventos privados de rooftop. Menú degustación, animación, premiaciones del año, fotografía profesional."},
-        {"type": "p", "text": "Precio promedio: $60-$120 por persona con menú + bebidas + servicios. Reservar con 2-3 meses para diciembre. Es la fecha más solicitada y los espacios buenos se agotan rápido."}
+        {
+          "type": "h3",
+          "text": "Almuerzo de equipo de 10-25 personas"
+        },
+        {
+          "type": "p",
+          "text": "Cierre de mes, celebración de proyecto, integración del equipo. Lo que funciona: restaurantes de Barbasquillo o malecón Murciélago con mesa larga reservada. Marisquerías formales del malecón central. La Quadra para grupo con gustos distintos."
+        },
+        {
+          "type": "p",
+          "text": "Precio promedio: $20-$35 por persona. Reservar con 1-2 semanas. Confirmar 48 horas antes con número exacto. Pedir presupuesto fijo por persona facilita el manejo financiero."
+        },
+        {
+          "type": "h3",
+          "text": "Cena de gerentes o cliente importante"
+        },
+        {
+          "type": "p",
+          "text": "Cena formal o semiformal con 4-8 personas. Rooftops como Luuma o restaurantes de Barbasquillo con ambiente más cuidado. Hoteles grandes con sala privada para máxima formalidad."
+        },
+        {
+          "type": "p",
+          "text": "Precio promedio: $40-$80 por persona con vino o coctel incluido. Reservar mesa con vista 1-2 semanas antes. Para impacto: rooftop con atardecer 18:10-18:25 marca el tono del evento."
+        },
+        {
+          "type": "h3",
+          "text": "Taller o presentación con 30-80 personas"
+        },
+        {
+          "type": "p",
+          "text": "Sala de hotel grande con servicio de catering. Los hoteles Oro Verde y Howard Johnson tienen salones para este tamaño con equipo audiovisual incluido. Algunos restaurantes y rooftops tienen sala privada arrendable."
+        },
+        {
+          "type": "p",
+          "text": "Precio promedio: $35-$60 por persona con coffee break y almuerzo. Reservar con 1 mes antes. Confirmar requisitos técnicos (sonido, proyector, internet) con la sala anfitriona."
+        },
+        {
+          "type": "h3",
+          "text": "Cena de fin de año empresarial"
+        },
+        {
+          "type": "p",
+          "text": "Evento del año con 20-100 personas. Salones de hotel o eventos privados de rooftop. Menú degustación, animación, premiaciones del año, fotografía profesional."
+        },
+        {
+          "type": "p",
+          "text": "Precio promedio: $60-$120 por persona con menú + bebidas + servicios. Reservar con 2-3 meses para diciembre. Es la fecha más solicitada y los espacios buenos se agotan rápido."
+        }
       ]
     },
     {
       "h2": "Capacidad por tipo de espacio",
       "blocks": [
-        {"type": "table",
-          "headers": ["Tipo de espacio", "Capacidad típica", "Precio por persona", "Mejor para"],
+        {
+          "type": "table",
+          "headers": [
+            "Tipo de espacio",
+            "Capacidad típica",
+            "Precio por persona",
+            "Mejor para"
+          ],
           "rows": [
-            ["Restaurante mesa larga", "10-25", "$20-$35", "Almuerzo equipo / celebración casual"],
-            ["Restaurante sala privada", "20-50", "$30-$50", "Reunión semiformal con cliente"],
-            ["Rooftop con espacio reservado", "20-60", "$35-$70", "Cena con atardecer + grupo"],
-            ["Sala de hotel mediana", "30-80", "$35-$60", "Taller / capacitación / lanzamiento"],
-            ["Salón de hotel grande", "80-200", "$50-$100", "Evento corporativo grande"],
-            ["Evento privado terraza", "20-100", "$60-$120", "Fin de año / aniversario empresa"]
+            [
+              "Restaurante mesa larga",
+              "10-25",
+              "$20-$35",
+              "Almuerzo equipo / celebración casual"
+            ],
+            [
+              "Restaurante sala privada",
+              "20-50",
+              "$30-$50",
+              "Reunión semiformal con cliente"
+            ],
+            [
+              "Rooftop con espacio reservado",
+              "20-60",
+              "$35-$70",
+              "Cena con atardecer + grupo"
+            ],
+            [
+              "Sala de hotel mediana",
+              "30-80",
+              "$35-$60",
+              "Taller / capacitación / lanzamiento"
+            ],
+            [
+              "Salón de hotel grande",
+              "80-200",
+              "$50-$100",
+              "Evento corporativo grande"
+            ],
+            [
+              "Evento privado terraza",
+              "20-100",
+              "$60-$120",
+              "Fin de año / aniversario empresa"
+            ]
           ]
         }
       ]
@@ -52,34 +129,56 @@
     {
       "h2": "Detalles operativos que importan",
       "blocks": [
-        {"type": "p", "text": "Lo que separa un evento corporativo exitoso de uno problemático:"},
-        {"type": "ul", "items": [
-          "Confirmar número exacto de asistentes 48 horas antes — los espacios cobran por capacidad reservada",
-          "Verificar requisitos dietéticos (vegetarianos, alérgicos) y avisar al espacio con 5-7 días",
-          "Confirmar equipo técnico necesario (micrófono, proyector, sonido) con tiempo suficiente",
-          "Designar un responsable único del pago en lugar de dividir entre asistentes",
-          "Llegar 30-45 minutos antes para verificar montaje y manejar imprevistos",
-          "Confirmar política de cancelación y depósito por adelantado"
-        ]},
-        {"type": "quote", "text": "Los eventos corporativos que mejor recordamos son los donde el responsable del evento se involucra activamente con el equipo del espacio. Confirma detalles 2-3 días antes, llega temprano, revisa el setup. Los que dejan todo al equipo del lugar suelen tener una sorpresa que pudo evitarse.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Lo que separa un evento corporativo exitoso de uno problemático:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Confirmar número exacto de asistentes 48 horas antes — los espacios cobran por capacidad reservada",
+            "Verificar requisitos dietéticos (vegetarianos, alérgicos) y avisar al espacio con 5-7 días",
+            "Confirmar equipo técnico necesario (micrófono, proyector, sonido) con tiempo suficiente",
+            "Designar un responsable único del pago en lugar de dividir entre asistentes",
+            "Llegar 30-45 minutos antes para verificar montaje y manejar imprevistos",
+            "Confirmar política de cancelación y depósito por adelantado"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Los eventos corporativos que mejor recordamos son los donde el responsable del evento se involucra activamente con el equipo del espacio. Confirma detalles 2-3 días antes, llega temprano, revisa el setup. Los que dejan todo al equipo del lugar suelen tener una sorpresa que pudo evitarse.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Espacios privados de Luuma",
       "blocks": [
-        {"type": "p", "text": "Luuma ofrece tres modalidades para eventos corporativos:"},
-        {"type": "ul", "items": [
-          "Mesa reservada para 8-15 personas en parte del rooftop (no exclusivo): $25-$45 por persona",
-          "Sección privada del rooftop para 20-40 personas (con servicio exclusivo): $50-$75 por persona",
-          "Rooftop completo para 40-80 personas (cierre del local al público): $65-$110 por persona"
-        ]},
-        {"type": "p", "text": "Servicios incluidos según modalidad: menú degustación o carta a la elección, coctel de bienvenida, vino o cerveza incluido (depende paquete), sonido para presentación, anfitrión exclusivo. Reservas con 3-6 semanas según tamaño y fecha."}
+        {
+          "type": "p",
+          "text": "Luuma ofrece tres modalidades para eventos corporativos:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mesa reservada para 8-15 personas en parte del rooftop (no exclusivo): $25-$45 por persona",
+            "Sección privada del rooftop para 20-40 personas (con servicio exclusivo): $50-$75 por persona",
+            "Rooftop completo para 40-80 personas (cierre del local al público): $65-$110 por persona"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Servicios incluidos según modalidad: menú degustación o carta a la elección, coctel de bienvenida, vino o cerveza incluido (depende paquete), sonido para presentación, anfitrión exclusivo. Reservas con 3-6 semanas según tamaño y fecha."
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen las plataformas de reservas",
       "blocks": [
-        {"type": "p", "text": "Tres cosas: primero, los hoteles grandes incluyen servicios escondidos en su tarifa (audiovisual, parqueo, internet) que los rooftops no incluyen y hay que sumar — comparar el costo final con todo incluido; segundo, el viernes y sábado son los días más complicados para eventos corporativos por la presión turística — preferir martes a jueves cuando se puede; tercero, los rooftops con vista al mar tienen restricción de capacidad por seguridad que limita el tamaño máximo, los salones de hotel no tienen esa limitación."}
+        {
+          "type": "p",
+          "text": "Tres cosas: primero, los hoteles grandes incluyen servicios escondidos en su tarifa (audiovisual, parqueo, internet) que los rooftops no incluyen y hay que sumar — comparar el costo final con todo incluido; segundo, el viernes y sábado son los días más complicados para eventos corporativos por la presión turística — preferir martes a jueves cuando se puede; tercero, los rooftops con vista al mar tienen restricción de capacidad por seguridad que limita el tamaño máximo, los salones de hotel no tienen esa limitación."
+        }
       ]
     }
   ],
@@ -87,14 +186,35 @@
   "cta_paragraph": "Coordinamos eventos corporativos desde 8 hasta 80 personas en rooftop con vista al Pacífico. Mesa reservada, sección privada o rooftop completo según necesidad. Coordina con anticipación de 3-6 semanas para asegurar fecha y servicios.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Celebrar cumpleaños en Manta", "url": "/eventos-entretenimiento/celebrar-cumpleanos-manta-restaurantes/"},
-    {"label": "Cena romántica en Manta", "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"},
-    {"label": "Rooftops en Manta: cuáles abren", "url": "/gastronomia-manta/rooftop-manta-cuales-hay/"}
+    {
+      "label": "Celebrar cumpleaños en Manta",
+      "url": "/eventos-entretenimiento/celebrar-cumpleanos-manta-restaurantes/"
+    },
+    {
+      "label": "Cena romántica en Manta",
+      "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"
+    },
+    {
+      "label": "Rooftops en Manta: cuáles abren",
+      "url": "/gastronomia-manta/rooftop-manta-cuales-hay/"
+    }
   ],
   "faq": [
-    {"q": "¿Dónde organizar evento corporativo en Manta?", "a": "Depende del tipo. Almuerzo equipo 10-25 personas ($20-$35/persona): restaurantes de Barbasquillo o malecón. Cena cliente 4-8 ($40-$80/persona): rooftops con vista. Taller 30-80 ($35-$60/persona): sala de hotel grande. Cena fin de año 20-100 ($60-$120/persona): salones de hotel o rooftop completo."},
-    {"q": "¿Con cuánto tiempo reservar evento corporativo en Manta?", "a": "Almuerzo equipo: 1-2 semanas. Cena cliente: 1-2 semanas. Taller con sala de hotel: 1 mes. Cena de fin de año: 2-3 meses (es la fecha más solicitada y se agota rápido). Confirmar número exacto de asistentes 48 horas antes."},
-    {"q": "¿Hay salones para eventos en Manta?", "a": "Sí. Hoteles Oro Verde y Howard Johnson tienen salones para 30-200 personas con audiovisual incluido. Algunos restaurantes y rooftops tienen sala privada arrendable para 20-50. Los rooftops con vista al mar tienen capacidad limitada por seguridad."},
-    {"q": "¿Qué incluye un paquete corporativo en rooftop?", "a": "Según modalidad: menú degustación o carta, coctel de bienvenida, vino o cerveza por paquete, sonido para presentación, anfitrión exclusivo. En Luuma específicamente: mesa reservada ($25-$45/persona), sección privada ($50-$75/persona) o rooftop completo ($65-$110/persona)."}
+    {
+      "q": "¿Dónde organizar evento corporativo en Manta?",
+      "a": "Depende del tipo. Almuerzo equipo 10-25 personas ($20-$35/persona): restaurantes de Barbasquillo o malecón. Cena cliente 4-8 ($40-$80/persona): rooftops con vista. Taller 30-80 ($35-$60/persona): sala de hotel grande. Cena fin de año 20-100 ($60-$120/persona): salones de hotel o rooftop completo."
+    },
+    {
+      "q": "¿Con cuánto tiempo reservar evento corporativo en Manta?",
+      "a": "Almuerzo equipo: 1-2 semanas. Cena cliente: 1-2 semanas. Taller con sala de hotel: 1 mes. Cena de fin de año: 2-3 meses (es la fecha más solicitada y se agota rápido). Confirmar número exacto de asistentes 48 horas antes."
+    },
+    {
+      "q": "¿Hay salones para eventos en Manta?",
+      "a": "Sí. Hoteles Oro Verde y Howard Johnson tienen salones para 30-200 personas con audiovisual incluido. Algunos restaurantes y rooftops tienen sala privada arrendable para 20-50. Los rooftops con vista al mar tienen capacidad limitada por seguridad."
+    },
+    {
+      "q": "¿Qué incluye un paquete corporativo en rooftop?",
+      "a": "Según modalidad: menú degustación o carta, coctel de bienvenida, vino o cerveza por paquete, sonido para presentación, anfitrión exclusivo. En Luuma específicamente: mesa reservada ($25-$45/persona), sección privada ($50-$75/persona) o rooftop completo ($65-$110/persona)."
+    }
   ]
 }

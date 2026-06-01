@@ -2,11 +2,17 @@
   "title": "Encocado de pescado manabita: receta original con leche de coco fresca",
   "slug": "encocado-pescado-receta-manabita",
   "status": "publish",
-  "date": "2026-08-15T11:00:00",
+  "date": "2026-06-17T11:00:00",
   "category_id": 12,
   "_category_slug": "recetas-cocina",
   "featured_media": 1246,
-  "tags": ["encocado pescado", "encocado manabita", "receta manabita", "leche de coco", "pesca blanca"],
+  "tags": [
+    "encocado pescado",
+    "encocado manabita",
+    "receta manabita",
+    "leche de coco",
+    "pesca blanca"
+  ],
   "excerpt": "Encocado manabita real — con leche de coco fresca, cebolla de rama y pesca blanca del día. Receta paso a paso, diferencias con el esmeraldeño y dónde comer el original en Manta.",
   "yoast_title": "Encocado de pescado manabita: receta original (paso a paso)",
   "yoast_metadesc": "Receta del encocado manabita real: pesca blanca, leche de coco fresca, cebolla de rama. Diferencias con el esmeraldeño. Dónde comerlo en Manta.",
@@ -19,72 +25,122 @@
     {
       "h2": "Por qué el encocado manabita es distinto",
       "blocks": [
-        {"type": "table",
-          "headers": ["Característica", "Manabita", "Esmeraldeño"],
+        {
+          "type": "table",
+          "headers": [
+            "Característica",
+            "Manabita",
+            "Esmeraldeño"
+          ],
           "rows": [
-            ["Leche de coco", "Cantidad moderada", "Abundante"],
-            ["Textura", "Más seca, guiso", "Cremosa, casi sopa"],
-            ["Cebolla", "De rama (cebollín)", "Colorada"],
-            ["Acompañamiento", "Arroz blanco + patacones", "Plátano verde frito"],
-            ["Especia clave", "Comino + achiote", "Ajo + culantro"]
+            [
+              "Leche de coco",
+              "Cantidad moderada",
+              "Abundante"
+            ],
+            [
+              "Textura",
+              "Más seca, guiso",
+              "Cremosa, casi sopa"
+            ],
+            [
+              "Cebolla",
+              "De rama (cebollín)",
+              "Colorada"
+            ],
+            [
+              "Acompañamiento",
+              "Arroz blanco + patacones",
+              "Plátano verde frito"
+            ],
+            [
+              "Especia clave",
+              "Comino + achiote",
+              "Ajo + culantro"
+            ]
           ]
         },
-        {"type": "p", "text": "Ambas versiones son válidas y cada uno tiene sus defensores. En Manabí, el encocado se piensa como un guiso para acompañar arroz, no como una crema. La leche de coco está como ingrediente, no como base principal."}
+        {
+          "type": "p",
+          "text": "Ambas versiones son válidas y cada uno tiene sus defensores. En Manabí, el encocado se piensa como un guiso para acompañar arroz, no como una crema. La leche de coco está como ingrediente, no como base principal."
+        }
       ]
     },
     {
       "h2": "Ingredientes (4 porciones)",
       "blocks": [
-        {"type": "ul", "items": [
-          "500 g de pesca blanca fresca en cubos grandes (corvina, dorado, pargo)",
-          "1 taza de leche de coco (mejor casera, ver instrucciones abajo)",
-          "1 cebolla colorada grande en cuadritos",
-          "3 ramas de cebolla de rama (cebollín) picadas finas",
-          "2 dientes de ajo machacados",
-          "1 tomate maduro en cuadritos",
-          "1 ají amarillo sin pepa, picado fino (opcional)",
-          "1 cucharadita de comino molido",
-          "1 cucharadita de achiote en pasta o aceite",
-          "Cilantro fresco al final",
-          "Sal y pimienta al gusto",
-          "Arroz blanco + patacones para servir"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "500 g de pesca blanca fresca en cubos grandes (corvina, dorado, pargo)",
+            "1 taza de leche de coco (mejor casera, ver instrucciones abajo)",
+            "1 cebolla colorada grande en cuadritos",
+            "3 ramas de cebolla de rama (cebollín) picadas finas",
+            "2 dientes de ajo machacados",
+            "1 tomate maduro en cuadritos",
+            "1 ají amarillo sin pepa, picado fino (opcional)",
+            "1 cucharadita de comino molido",
+            "1 cucharadita de achiote en pasta o aceite",
+            "Cilantro fresco al final",
+            "Sal y pimienta al gusto",
+            "Arroz blanco + patacones para servir"
+          ]
+        }
       ]
     },
     {
       "h2": "Cómo hacer leche de coco fresca",
       "blocks": [
-        {"type": "p", "text": "La leche de coco enlatada funciona pero la fresca cambia el plato. Para hacerla en casa: rallar un coco fresco, agregar 1 taza de agua tibia, exprimir con un paño hasta sacar la leche espesa. La primera \"prensada\" es la crema. La segunda con más agua es leche normal."},
-        {"type": "p", "text": "Si usas enlatada: marca con grasa de coco visible arriba (no las bajas en grasa). Mezclas bien antes de medir."}
+        {
+          "type": "p",
+          "text": "La leche de coco enlatada funciona pero la fresca cambia el plato. Para hacerla en casa: rallar un coco fresco, agregar 1 taza de agua tibia, exprimir con un paño hasta sacar la leche espesa. La primera \"prensada\" es la crema. La segunda con más agua es leche normal."
+        },
+        {
+          "type": "p",
+          "text": "Si usas enlatada: marca con grasa de coco visible arriba (no las bajas en grasa). Mezclas bien antes de medir."
+        }
       ]
     },
     {
       "h2": "Receta paso a paso (40 minutos)",
       "blocks": [
-        {"type": "ul", "items": [
-          "1. Sazona el pescado con sal, pimienta y comino. Deja reposar 10 minutos en la nevera",
-          "2. En sartén grande, calienta achiote a fuego medio. Cuando esté oloroso, agrega ajo machacado",
-          "3. Agrega cebolla colorada, sofríe 5 minutos hasta transparente",
-          "4. Agrega tomate y ají amarillo, sofríe 3 minutos más",
-          "5. Sube fuego, agrega el pescado y dora 2 minutos por lado",
-          "6. Baja fuego, agrega la leche de coco poco a poco mientras mueves (no dejar hervir fuerte — se corta)",
-          "7. Cocina 10 minutos a fuego bajo destapado para reducir un poco",
-          "8. Agrega cebolla de rama y cilantro picado, mezcla, apaga fuego",
-          "9. Sirve caliente con arroz blanco y patacones al lado"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "1. Sazona el pescado con sal, pimienta y comino. Deja reposar 10 minutos en la nevera",
+            "2. En sartén grande, calienta achiote a fuego medio. Cuando esté oloroso, agrega ajo machacado",
+            "3. Agrega cebolla colorada, sofríe 5 minutos hasta transparente",
+            "4. Agrega tomate y ají amarillo, sofríe 3 minutos más",
+            "5. Sube fuego, agrega el pescado y dora 2 minutos por lado",
+            "6. Baja fuego, agrega la leche de coco poco a poco mientras mueves (no dejar hervir fuerte — se corta)",
+            "7. Cocina 10 minutos a fuego bajo destapado para reducir un poco",
+            "8. Agrega cebolla de rama y cilantro picado, mezcla, apaga fuego",
+            "9. Sirve caliente con arroz blanco y patacones al lado"
+          ]
+        }
       ]
     },
     {
       "h2": "Por qué la leche de coco se corta y cómo evitarlo",
       "blocks": [
-        {"type": "p", "text": "El error más común: agregar leche de coco a un guiso muy caliente y subir el fuego. La grasa del coco se separa y queda agua + grumos. Solución: agregar la leche con fuego bajo, mover constante, no llegar a hervir fuerte. Si ya pasó, baja fuego, agrega 2 cucharadas de agua fría y bate enérgico — recupera parcial."},
-        {"type": "quote", "text": "La leche de coco corta es lo que diferencia un encocado bien hecho de uno regular. Cuando enseñamos a alguien nuevo en cocina, le repetimos: 'fuego bajo, mover constante, paciencia'. Es de las cosas más difíciles para quien viene de cocina andina donde la leche soporta más temperatura.", "citation": "Equipo de cocina de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "El error más común: agregar leche de coco a un guiso muy caliente y subir el fuego. La grasa del coco se separa y queda agua + grumos. Solución: agregar la leche con fuego bajo, mover constante, no llegar a hervir fuerte. Si ya pasó, baja fuego, agrega 2 cucharadas de agua fría y bate enérgico — recupera parcial."
+        },
+        {
+          "type": "quote",
+          "text": "La leche de coco corta es lo que diferencia un encocado bien hecho de uno regular. Cuando enseñamos a alguien nuevo en cocina, le repetimos: 'fuego bajo, mover constante, paciencia'. Es de las cosas más difíciles para quien viene de cocina andina donde la leche soporta más temperatura.",
+          "citation": "Equipo de cocina de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Dónde comer encocado en Manta",
       "blocks": [
-        {"type": "p", "text": "Si prefieres no cocinarlo: las picanterías de Tarqui sirven encocado manabita a $9-$11 con arroz y patacones. Los restaurantes del malecón Murciélago tienen versión más cremosa (más esmeraldeña que manabita) a $14-$18. En Luuma av. Flavio Reyes lo servimos al estilo manabita tradicional con pesca blanca del día — versión rooftop con vista al mar."}
+        {
+          "type": "p",
+          "text": "Si prefieres no cocinarlo: las picanterías de Tarqui sirven encocado manabita a $9-$11 con arroz y patacones. Los restaurantes del malecón Murciélago tienen versión más cremosa (más esmeraldeña que manabita) a $14-$18. En Luuma av. Flavio Reyes lo servimos al estilo manabita tradicional con pesca blanca del día — versión rooftop con vista al mar."
+        }
       ]
     }
   ],
@@ -92,15 +148,39 @@
   "cta_paragraph": "En Luuma servimos encocado manabita con pesca blanca, leche de coco fresca y cebolla de rama. Plato manabita auténtico en versión rooftop con vista al Pacífico. Mejor para almuerzo (12:30-15:00) cuando llega el pescado del día.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
-    {"label": "Ceviche manabita: receta original", "url": "/recetas-cocina/ceviche-manabita-receta-original/"},
-    {"label": "Carta de Luuma Rooftop", "url": "/menu/"}
+    {
+      "label": "Platos típicos de Manabí: los 12 que probar",
+      "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"
+    },
+    {
+      "label": "Ceviche manabita: receta original",
+      "url": "/recetas-cocina/ceviche-manabita-receta-original/"
+    },
+    {
+      "label": "Carta de Luuma Rooftop",
+      "url": "/menu/"
+    }
   ],
   "faq": [
-    {"q": "¿Qué diferencia al encocado manabita del esmeraldeño?", "a": "El manabita usa menos leche de coco y queda más seco, como guiso para acompañar arroz. El esmeraldeño es más cremoso, casi sopa. El manabita lleva cebolla de rama (cebollín), el esmeraldeño cebolla colorada y culantro. Ambas versiones son válidas y tienen sus defensores."},
-    {"q": "¿Qué pescado usar para el encocado manabita?", "a": "Pesca blanca fresca: corvina, dorado o pargo son las más usadas. Lo importante: que sea del día. El pescado se cocina 10-12 minutos en la leche de coco, así que tiene que arrancar firme."},
-    {"q": "¿Se puede hacer encocado con leche de coco enlatada?", "a": "Sí pero la fresca cambia el plato. Si usas enlatada, marca con grasa visible arriba (no las bajas en grasa). Mezcla bien antes de medir. Para hacer fresca: rallar coco, agregar agua tibia, exprimir con paño hasta sacar la leche espesa."},
-    {"q": "¿Por qué se corta la leche de coco?", "a": "Por agregarla a guiso muy caliente y subir el fuego. La grasa se separa del agua. Solución: agregar con fuego bajo, mover constante, no hervir fuerte. Si ya pasó, agrega 2 cucharadas de agua fría y bate enérgico — recupera parcial."},
-    {"q": "¿Dónde comer encocado manabita en Manta?", "a": "Picanterías de Tarqui sirven encocado a $9-$11 con arroz y patacones. Restaurantes del malecón Murciélago tienen versión más cremosa (más esmeraldeña) a $14-$18. En Luuma av. Flavio Reyes lo servimos manabita tradicional con pesca blanca del día."}
+    {
+      "q": "¿Qué diferencia al encocado manabita del esmeraldeño?",
+      "a": "El manabita usa menos leche de coco y queda más seco, como guiso para acompañar arroz. El esmeraldeño es más cremoso, casi sopa. El manabita lleva cebolla de rama (cebollín), el esmeraldeño cebolla colorada y culantro. Ambas versiones son válidas y tienen sus defensores."
+    },
+    {
+      "q": "¿Qué pescado usar para el encocado manabita?",
+      "a": "Pesca blanca fresca: corvina, dorado o pargo son las más usadas. Lo importante: que sea del día. El pescado se cocina 10-12 minutos en la leche de coco, así que tiene que arrancar firme."
+    },
+    {
+      "q": "¿Se puede hacer encocado con leche de coco enlatada?",
+      "a": "Sí pero la fresca cambia el plato. Si usas enlatada, marca con grasa visible arriba (no las bajas en grasa). Mezcla bien antes de medir. Para hacer fresca: rallar coco, agregar agua tibia, exprimir con paño hasta sacar la leche espesa."
+    },
+    {
+      "q": "¿Por qué se corta la leche de coco?",
+      "a": "Por agregarla a guiso muy caliente y subir el fuego. La grasa se separa del agua. Solución: agregar con fuego bajo, mover constante, no hervir fuerte. Si ya pasó, agrega 2 cucharadas de agua fría y bate enérgico — recupera parcial."
+    },
+    {
+      "q": "¿Dónde comer encocado manabita en Manta?",
+      "a": "Picanterías de Tarqui sirven encocado a $9-$11 con arroz y patacones. Restaurantes del malecón Murciélago tienen versión más cremosa (más esmeraldeña) a $14-$18. En Luuma av. Flavio Reyes lo servimos manabita tradicional con pesca blanca del día."
+    }
   ]
 }

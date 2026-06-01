@@ -2,11 +2,16 @@
   "title": "Actividades en pareja en Manta: planes para fin de semana romántico",
   "slug": "actividades-pareja-manta-romantico",
   "status": "publish",
-  "date": "2026-10-14T11:00:00",
+  "date": "2026-06-25T18:00:00",
   "category_id": 11,
   "_category_slug": "eventos-entretenimiento",
   "featured_media": 663,
-  "tags": ["actividades pareja manta", "fin de semana romantico", "escapada pareja ecuador", "manta romantico"],
+  "tags": [
+    "actividades pareja manta",
+    "fin de semana romantico",
+    "escapada pareja ecuador",
+    "manta romantico"
+  ],
   "excerpt": "Aniversario, escapada de fin de semana, luna de miel pequeña — Manta tiene planes para pareja que pocas guías destacan. Te contamos qué hacer, cuándo y dónde cerrar el día con cena al atardecer.",
   "yoast_title": "Actividades en pareja en Manta: fin de semana romántico",
   "yoast_metadesc": "Planes para pareja en Manta: caminata atardecer, faro panorámico, spa, cena rooftop. Aniversario, escapada o luna de miel pequeña.",
@@ -19,40 +24,119 @@
     {
       "h2": "Plan de fin de semana romántico (2 días, 2 noches)",
       "blocks": [
-        {"type": "h3", "text": "Viernes tarde — llegada"},
-        {"type": "p", "text": "Check-in en hotel boutique cerca de av. Flavio Reyes o malecón Murciélago. Coctel de bienvenida en bar del hotel o caminata corta por el malecón. Cena temprana (19:00-20:30) en restaurante íntimo con vista al mar o en rooftop con atardecer. Reservar mesa con vista directa antes de las 21:00."},
-        {"type": "h3", "text": "Sábado — combinación playa + cultura"},
-        {"type": "p", "text": "Desayuno tranquilo en hotel (no apurarse). Mañana de playa San Mateo o Murciélago zona norte — más calmadas que la zona central. Almuerzo de ceviche manabita al pie del mar ($6-$10 por persona)."},
-        {"type": "p", "text": "Tarde de spa o masaje (varios hoteles tienen oferta) o paseo a Montecristi para comprar sombrero de paja toquilla artesanal ($60-$120 una pieza decente). Vuelta a Manta antes del atardecer."},
-        {"type": "p", "text": "Sábado noche: cena en rooftop con coctelería de autor. Atardecer 18:15. Mesa con vista al Pacífico desde altura. Después de cena: caminata por el malecón o coctel en otro bar."},
-        {"type": "h3", "text": "Domingo — cierre relajado"},
-        {"type": "p", "text": "Brunch dominical en Barbasquillo o en rooftop ($12-$20 por persona). Mañana sin agenda — solo caminar el malecón, sentarse en banca, café pasado en una de las cafeterías locales. Vuelta a Quito o Guayaquil en la tarde."}
+        {
+          "type": "h3",
+          "text": "Viernes tarde — llegada"
+        },
+        {
+          "type": "p",
+          "text": "Check-in en hotel boutique cerca de av. Flavio Reyes o malecón Murciélago. Coctel de bienvenida en bar del hotel o caminata corta por el malecón. Cena temprana (19:00-20:30) en restaurante íntimo con vista al mar o en rooftop con atardecer. Reservar mesa con vista directa antes de las 21:00."
+        },
+        {
+          "type": "h3",
+          "text": "Sábado — combinación playa + cultura"
+        },
+        {
+          "type": "p",
+          "text": "Desayuno tranquilo en hotel (no apurarse). Mañana de playa San Mateo o Murciélago zona norte — más calmadas que la zona central. Almuerzo de ceviche manabita al pie del mar ($6-$10 por persona)."
+        },
+        {
+          "type": "p",
+          "text": "Tarde de spa o masaje (varios hoteles tienen oferta) o paseo a Montecristi para comprar sombrero de paja toquilla artesanal ($60-$120 una pieza decente). Vuelta a Manta antes del atardecer."
+        },
+        {
+          "type": "p",
+          "text": "Sábado noche: cena en rooftop con coctelería de autor. Atardecer 18:15. Mesa con vista al Pacífico desde altura. Después de cena: caminata por el malecón o coctel en otro bar."
+        },
+        {
+          "type": "h3",
+          "text": "Domingo — cierre relajado"
+        },
+        {
+          "type": "p",
+          "text": "Brunch dominical en Barbasquillo o en rooftop ($12-$20 por persona). Mañana sin agenda — solo caminar el malecón, sentarse en banca, café pasado en una de las cafeterías locales. Vuelta a Quito o Guayaquil en la tarde."
+        }
       ]
     },
     {
       "h2": "Actividades específicas para pareja",
       "blocks": [
-        {"type": "h3", "text": "Atardecer en faro de San Lorenzo"},
-        {"type": "p", "text": "El plan menos conocido y más memorable. Subir al faro a las 17:15 (1 hora antes del ocaso). Llevar coctel preparado en thermo o una botella de vino blanco. Vista panorámica de toda la costa de Manabí, viento suave, casi sin gente. Volver al rooftop para cena después."},
-        {"type": "h3", "text": "Caminata al amanecer en malecón"},
-        {"type": "p", "text": "5:30 AM en el malecón Murciélago. Brisa fresca, sin turistas, salida del sol detrás del horizonte del Pacífico. Café pasado en alguna de las primeras casetas que abren. Plan diferente al típico — la mayoría no madruga así."},
-        {"type": "h3", "text": "Tour gastronómico de cocina manabita"},
-        {"type": "p", "text": "Algunos hoteles boutique organizan tour privado de 4 horas — visita al mercado central, paseo por Tarqui para ver pescadores volver, taller corto de cocina manabita en casa local. Cuesta $60-$120 por pareja. Experiencia más rica que cualquier excursión turística estándar."},
-        {"type": "h3", "text": "Día completo en Puerto López + Los Frailes"},
-        {"type": "p", "text": "100 km al sur. Tour de Isla de la Plata por la mañana (avistamiento de ballenas en temporada junio-septiembre) y tarde en playa Los Frailes. Vuelta a Manta para cena en rooftop. Día completo intenso pero memorable."}
+        {
+          "type": "h3",
+          "text": "Atardecer en faro de San Lorenzo"
+        },
+        {
+          "type": "p",
+          "text": "El plan menos conocido y más memorable. Subir al faro a las 17:15 (1 hora antes del ocaso). Llevar coctel preparado en thermo o una botella de vino blanco. Vista panorámica de toda la costa de Manabí, viento suave, casi sin gente. Volver al rooftop para cena después."
+        },
+        {
+          "type": "h3",
+          "text": "Caminata al amanecer en malecón"
+        },
+        {
+          "type": "p",
+          "text": "5:30 AM en el malecón Murciélago. Brisa fresca, sin turistas, salida del sol detrás del horizonte del Pacífico. Café pasado en alguna de las primeras casetas que abren. Plan diferente al típico — la mayoría no madruga así."
+        },
+        {
+          "type": "h3",
+          "text": "Tour gastronómico de cocina manabita"
+        },
+        {
+          "type": "p",
+          "text": "Algunos hoteles boutique organizan tour privado de 4 horas — visita al mercado central, paseo por Tarqui para ver pescadores volver, taller corto de cocina manabita en casa local. Cuesta $60-$120 por pareja. Experiencia más rica que cualquier excursión turística estándar."
+        },
+        {
+          "type": "h3",
+          "text": "Día completo en Puerto López + Los Frailes"
+        },
+        {
+          "type": "p",
+          "text": "100 km al sur. Tour de Isla de la Plata por la mañana (avistamiento de ballenas en temporada junio-septiembre) y tarde en playa Los Frailes. Vuelta a Manta para cena en rooftop. Día completo intenso pero memorable."
+        }
       ]
     },
     {
       "h2": "Restaurantes y bares para cena íntima",
       "blocks": [
-        {"type": "table",
-          "headers": ["Plan", "Lugar", "Precio promedio", "Tipo"],
+        {
+          "type": "table",
+          "headers": [
+            "Plan",
+            "Lugar",
+            "Precio promedio",
+            "Tipo"
+          ],
           "rows": [
-            ["Cena con vista al atardecer", "Rooftop Flavio Reyes", "$35-$60/pareja", "Cocina manabita contemporánea + coctel"],
-            ["Cena al borde del mar", "Marisquería malecón central", "$25-$45/pareja", "Mariscos clásicos al aire libre"],
-            ["Cena íntima sin vista al mar", "Restaurantes Barbasquillo", "$30-$55/pareja", "Gourmet casual"],
-            ["Cena formal con servicio", "Rooftop de hotel grande", "$50-$80/pareja", "Internacional formal"],
-            ["Coctel previo o post cena", "Bar coctelería autor", "$15-$30/pareja", "Bartender con receta pensada"]
+            [
+              "Cena con vista al atardecer",
+              "Rooftop Flavio Reyes",
+              "$35-$60/pareja",
+              "Cocina manabita contemporánea + coctel"
+            ],
+            [
+              "Cena al borde del mar",
+              "Marisquería malecón central",
+              "$25-$45/pareja",
+              "Mariscos clásicos al aire libre"
+            ],
+            [
+              "Cena íntima sin vista al mar",
+              "Restaurantes Barbasquillo",
+              "$30-$55/pareja",
+              "Gourmet casual"
+            ],
+            [
+              "Cena formal con servicio",
+              "Rooftop de hotel grande",
+              "$50-$80/pareja",
+              "Internacional formal"
+            ],
+            [
+              "Coctel previo o post cena",
+              "Bar coctelería autor",
+              "$15-$30/pareja",
+              "Bartender con receta pensada"
+            ]
           ]
         }
       ]
@@ -60,27 +144,46 @@
     {
       "h2": "Hospedaje recomendable para pareja",
       "blocks": [
-        {"type": "p", "text": "Tres tipos de hospedaje funcionan para fin de semana romántico:"},
-        {"type": "ul", "items": [
-          "Hoteles boutique cerca de Flavio Reyes ($80-$140 noche): acceso peatonal a restaurantes y rooftops",
-          "Hoteles grandes con piscina al borde del mar ($100-$180 noche): comodidad + servicio + spa interno",
-          "Hospedaje en Crucita o Bahía de Caráquez ($60-$120 noche): si quieren combinar Manta + escapada al norte"
-        ]},
-        {"type": "p", "text": "Lo que NO recomendamos para pareja: hostales económicos cerca del centro (poca privacidad), hoteles en zona industrial (sin ambiente), Airbnb sin reseñas verificadas."},
-        {"type": "quote", "text": "Las parejas que más felices se van de Manta son las que no intentan ver todo en 2 días. Quedarse cerca, caminar despacio, cenar tranquilo, ver atardecer sin agendar otro plan después. Manta no es Disney — es una ciudad para vivirla, no para checklist.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Tres tipos de hospedaje funcionan para fin de semana romántico:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hoteles boutique cerca de Flavio Reyes ($80-$140 noche): acceso peatonal a restaurantes y rooftops",
+            "Hoteles grandes con piscina al borde del mar ($100-$180 noche): comodidad + servicio + spa interno",
+            "Hospedaje en Crucita o Bahía de Caráquez ($60-$120 noche): si quieren combinar Manta + escapada al norte"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Lo que NO recomendamos para pareja: hostales económicos cerca del centro (poca privacidad), hoteles en zona industrial (sin ambiente), Airbnb sin reseñas verificadas."
+        },
+        {
+          "type": "quote",
+          "text": "Las parejas que más felices se van de Manta son las que no intentan ver todo en 2 días. Quedarse cerca, caminar despacio, cenar tranquilo, ver atardecer sin agendar otro plan después. Manta no es Disney — es una ciudad para vivirla, no para checklist.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Lo que evitar como pareja",
       "blocks": [
-        {"type": "p", "text": "Cinco errores comunes:"},
-        {"type": "ul", "items": [
-          "Llegar viernes muy tarde sin reserva de hotel ni cena — agotador del primer día",
-          "Intentar Puerto López + Faro + Montecristi en un día — exceso de transporte, sin disfrutar",
-          "Cenar en restaurante turístico con menú con fotos plastificadas — pierdes la cocina manabita real",
-          "Hospedarse fuera del centro sin auto — taxis suman al presupuesto y al estrés",
-          "Ir en carnaval o Año Nuevo esperando ambiente romántico — son feriados de fiesta masiva, no íntimo"
-        ]}
+        {
+          "type": "p",
+          "text": "Cinco errores comunes:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Llegar viernes muy tarde sin reserva de hotel ni cena — agotador del primer día",
+            "Intentar Puerto López + Faro + Montecristi en un día — exceso de transporte, sin disfrutar",
+            "Cenar en restaurante turístico con menú con fotos plastificadas — pierdes la cocina manabita real",
+            "Hospedarse fuera del centro sin auto — taxis suman al presupuesto y al estrés",
+            "Ir en carnaval o Año Nuevo esperando ambiente romántico — son feriados de fiesta masiva, no íntimo"
+          ]
+        }
       ]
     }
   ],
@@ -88,15 +191,39 @@
   "cta_paragraph": "En Luuma av. Flavio Reyes coordinamos cenas para pareja con detalles cuidados — mesa con vista directa al Pacífico al atardecer 18:10-18:25, coctel de bienvenida, postre con dedicatoria si avisas. Mejor reservar con 1 semana de anticipación.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Cena romántica en Manta: dónde reservar", "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"},
-    {"label": "Faro de San Lorenzo en Manta", "url": "/vida-en-manta/faro-san-lorenzo-manta-guia/"},
-    {"label": "Ruta Spondylus desde Manta", "url": "/vida-en-manta/ruta-spondylus-paradas-desde-manta/"}
+    {
+      "label": "Cena romántica en Manta: dónde reservar",
+      "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"
+    },
+    {
+      "label": "Faro de San Lorenzo en Manta",
+      "url": "/vida-en-manta/faro-san-lorenzo-manta-guia/"
+    },
+    {
+      "label": "Ruta Spondylus desde Manta",
+      "url": "/vida-en-manta/ruta-spondylus-paradas-desde-manta/"
+    }
   ],
   "faq": [
-    {"q": "¿Manta es buen destino para escapada romántica?", "a": "Sí, especialmente para parejas que valoran cena con atardecer en el Pacífico, cocina manabita real y combinación de mar + cultura. Menos conocido que Salinas o Vilcabamba como destino romántico pero con propuesta más auténtica."},
-    {"q": "¿Qué hacer en pareja un fin de semana en Manta?", "a": "Viernes: cena con atardecer en rooftop. Sábado: playa San Mateo o Murciélago norte, almuerzo ceviche, tarde de spa o Montecristi, cena con coctel. Domingo: brunch en Barbasquillo, caminata malecón, vuelta. Plan más memorable: atardecer en faro de San Lorenzo + cena rooftop."},
-    {"q": "¿Dónde hospedarse en Manta como pareja?", "a": "Hoteles boutique cerca de Flavio Reyes ($80-$140, acceso peatonal a restaurantes), hoteles grandes con piscina al borde del mar ($100-$180, spa interno), o Crucita y Bahía de Caráquez ($60-$120, escapada más rural). Evitar hostales económicos sin privacidad."},
-    {"q": "¿Cuánto cuesta fin de semana romántico en Manta?", "a": "Por pareja, 2 noches con cenas elaboradas: $400-$800 según hotel y tipo de cenas. Hotel boutique noche: $80-$140. Cena rooftop: $70-$120 pareja. Almuerzo de pueblo: $15-$25. Más transportes y actividades extras."},
-    {"q": "¿Cuál es el atardecer más romántico en Manta?", "a": "Tres opciones igual de buenas: rooftop con vista panorámica desde altura, malecón Murciélago zona central a nivel del mar, faro de San Lorenzo a 25 minutos de Manta (vista panorámica de toda la costa). El último es el menos conocido y el más memorable para una pareja."}
+    {
+      "q": "¿Manta es buen destino para escapada romántica?",
+      "a": "Sí, especialmente para parejas que valoran cena con atardecer en el Pacífico, cocina manabita real y combinación de mar + cultura. Menos conocido que Salinas o Vilcabamba como destino romántico pero con propuesta más auténtica."
+    },
+    {
+      "q": "¿Qué hacer en pareja un fin de semana en Manta?",
+      "a": "Viernes: cena con atardecer en rooftop. Sábado: playa San Mateo o Murciélago norte, almuerzo ceviche, tarde de spa o Montecristi, cena con coctel. Domingo: brunch en Barbasquillo, caminata malecón, vuelta. Plan más memorable: atardecer en faro de San Lorenzo + cena rooftop."
+    },
+    {
+      "q": "¿Dónde hospedarse en Manta como pareja?",
+      "a": "Hoteles boutique cerca de Flavio Reyes ($80-$140, acceso peatonal a restaurantes), hoteles grandes con piscina al borde del mar ($100-$180, spa interno), o Crucita y Bahía de Caráquez ($60-$120, escapada más rural). Evitar hostales económicos sin privacidad."
+    },
+    {
+      "q": "¿Cuánto cuesta fin de semana romántico en Manta?",
+      "a": "Por pareja, 2 noches con cenas elaboradas: $400-$800 según hotel y tipo de cenas. Hotel boutique noche: $80-$140. Cena rooftop: $70-$120 pareja. Almuerzo de pueblo: $15-$25. Más transportes y actividades extras."
+    },
+    {
+      "q": "¿Cuál es el atardecer más romántico en Manta?",
+      "a": "Tres opciones igual de buenas: rooftop con vista panorámica desde altura, malecón Murciélago zona central a nivel del mar, faro de San Lorenzo a 25 minutos de Manta (vista panorámica de toda la costa). El último es el menos conocido y el más memorable para una pareja."
+    }
   ]
 }

@@ -3,11 +3,17 @@
   "title": "Qué hacer este fin de semana en Manta (agenda local)",
   "slug": "que-hacer-fin-de-semana-manta",
   "status": "publish",
-  "date": "2026-07-03T11:00:00",
+  "date": "2026-06-11T11:00:00",
   "category_id": 11,
   "_category_slug": "eventos-entretenimiento",
   "featured_media": 668,
-  "tags": ["que hacer fin de semana manta", "agenda manta", "eventos manta", "vida nocturna manta", "playas manta"],
+  "tags": [
+    "que hacer fin de semana manta",
+    "agenda manta",
+    "eventos manta",
+    "vida nocturna manta",
+    "playas manta"
+  ],
   "excerpt": "Lo que pasa en Manta este fin de semana: música en vivo, mercados, playas y planes con familia. Actualizado cada viernes. Más la agenda de Luuma Rooftop.",
   "yoast_title": "Fin de semana en Manta: agenda actualizada (semana en curso)",
   "yoast_metadesc": "Eventos del fin de semana en Manta: música en vivo, mercados, playas y planes culturales. Actualizado cada viernes. Más programación del rooftop de Luuma.",
@@ -20,42 +26,79 @@
     {
       "h2": "Viernes: arranca la noche",
       "blocks": [
-        {"type": "p", "text": "El viernes en Manta arranca temprano. A las 18:00 ya hay gente en el malecón Murciélago caminando antes del atardecer. A las 19:30 los rooftops empiezan a llenarse y la mayoría de bares con música en vivo arrancan turnos a las 20:30."},
-        {"type": "p", "text": "En Luuma viernes de música en vivo: tributo o banda en vivo desde las 21:00, sin cover. Si vienes a cena reserva mesa antes de las 20:00 para tener mesa con vista al mar antes de que se llene. Después de las 21:30 entras como ambiente bar, sin garantía de mesa."},
-        {"type": "h3", "text": "Alternativas viernes en Manta"},
-        {"type": "ul", "items": [
-          "Bares de Flavio Reyes con música en vivo — varían cada semana",
-          "Malecón Murciélago hasta las 23:00 — paseo + bares al borde de la playa",
-          "Discotecas zona centro — para después de medianoche"
-        ]}
+        {
+          "type": "p",
+          "text": "El viernes en Manta arranca temprano. A las 18:00 ya hay gente en el malecón Murciélago caminando antes del atardecer. A las 19:30 los rooftops empiezan a llenarse y la mayoría de bares con música en vivo arrancan turnos a las 20:30."
+        },
+        {
+          "type": "p",
+          "text": "En Luuma viernes de música en vivo: tributo o banda en vivo desde las 21:00, sin cover. Si vienes a cena reserva mesa antes de las 20:00 para tener mesa con vista al mar antes de que se llene. Después de las 21:30 entras como ambiente bar, sin garantía de mesa."
+        },
+        {
+          "type": "h3",
+          "text": "Alternativas viernes en Manta"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Bares de Flavio Reyes con música en vivo — varían cada semana",
+            "Malecón Murciélago hasta las 23:00 — paseo + bares al borde de la playa",
+            "Discotecas zona centro — para después de medianoche"
+          ]
+        }
       ]
     },
     {
       "h2": "Sábado: día de playa y mercado",
       "blocks": [
-        {"type": "p", "text": "Sábado en la mañana, los locales aprovechamos para playa antes del calor fuerte. Mejor entre 9:00 y 11:30 — después de las 12:00 el viento de Manta sopla fuerte. Playas según plan: Murciélago si quieres ambiente urbano con bares al lado, San Mateo si quieres pescadores y ceviche al pie del mar, Santa Marianita si haces kitesurf."},
-        {"type": "p", "text": "El mercado central de Manta abre desde las 6:00 hasta las 15:00. Si quieres comprar fruta del Pacífico (papaya, sandía, mango) o pescado fresco para llevar, sábado en la mañana es buen momento. La fila del puesto de bollos manabitas se forma desde las 7:30."},
-        {"type": "p", "text": "Almuerzo sábado: las picanterías de Tarqui llenas. Si quieres asegurar mesa con viche, llegar al mediodía. Cena sábado: rooftops llenos, marisquerías del malecón con mejor ambiente que viernes."}
+        {
+          "type": "p",
+          "text": "Sábado en la mañana, los locales aprovechamos para playa antes del calor fuerte. Mejor entre 9:00 y 11:30 — después de las 12:00 el viento de Manta sopla fuerte. Playas según plan: Murciélago si quieres ambiente urbano con bares al lado, San Mateo si quieres pescadores y ceviche al pie del mar, Santa Marianita si haces kitesurf."
+        },
+        {
+          "type": "p",
+          "text": "El mercado central de Manta abre desde las 6:00 hasta las 15:00. Si quieres comprar fruta del Pacífico (papaya, sandía, mango) o pescado fresco para llevar, sábado en la mañana es buen momento. La fila del puesto de bollos manabitas se forma desde las 7:30."
+        },
+        {
+          "type": "p",
+          "text": "Almuerzo sábado: las picanterías de Tarqui llenas. Si quieres asegurar mesa con viche, llegar al mediodía. Cena sábado: rooftops llenos, marisquerías del malecón con mejor ambiente que viernes."
+        }
       ]
     },
     {
       "h2": "Domingo: plan más calmado",
       "blocks": [
-        {"type": "p", "text": "Domingo en Manta tiene ritmo distinto. Los locales nos vamos a almorzar a casa o vamos donde la familia. Esto significa que entre las 12:30 y 14:30 el centro queda casi vacío — perfecto para caminar el malecón sin gente."},
-        {"type": "p", "text": "Plan recomendado domingo: brunch en Barbasquillo (hay 3-4 restaurantes que abren desde las 9:30), o el faro de San Lorenzo a 25 minutos en taxi por la mañana — vista panorámica de la costa, sin gente, ideal para fotos. Almuerzo familiar en restaurante de Flavio Reyes o regreso a la ciudad si vienes de fuera."},
-        {"type": "quote", "text": "Domingo lo que más nos preguntan los huéspedes es qué hacer antes de regresar. Nuestra respuesta es siempre la misma: brunch en Barbasquillo, paseo al faro de San Lorenzo, y vuelta. Esa combinación cierra bien el fin de semana sin agotar.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Domingo en Manta tiene ritmo distinto. Los locales nos vamos a almorzar a casa o vamos donde la familia. Esto significa que entre las 12:30 y 14:30 el centro queda casi vacío — perfecto para caminar el malecón sin gente."
+        },
+        {
+          "type": "p",
+          "text": "Plan recomendado domingo: brunch en Barbasquillo (hay 3-4 restaurantes que abren desde las 9:30), o el faro de San Lorenzo a 25 minutos en taxi por la mañana — vista panorámica de la costa, sin gente, ideal para fotos. Almuerzo familiar en restaurante de Flavio Reyes o regreso a la ciudad si vienes de fuera."
+        },
+        {
+          "type": "quote",
+          "text": "Domingo lo que más nos preguntan los huéspedes es qué hacer antes de regresar. Nuestra respuesta es siempre la misma: brunch en Barbasquillo, paseo al faro de San Lorenzo, y vuelta. Esa combinación cierra bien el fin de semana sin agotar.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Eventos que se repiten cada mes",
       "blocks": [
-        {"type": "p", "text": "Hay actividades recurrentes en Manta que vale la pena anotar: feria gastronómica del malecón Murciélago (primer sábado de cada mes), música en vivo en Luuma Rooftop todos los viernes y sábados, mercado de productores en La Aurora (segundo y cuarto domingo del mes), corrida de toros de pueblo en San Mateo dos veces al año (consultar fechas)."}
+        {
+          "type": "p",
+          "text": "Hay actividades recurrentes en Manta que vale la pena anotar: feria gastronómica del malecón Murciélago (primer sábado de cada mes), música en vivo en Luuma Rooftop todos los viernes y sábados, mercado de productores en La Aurora (segundo y cuarto domingo del mes), corrida de toros de pueblo en San Mateo dos veces al año (consultar fechas)."
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen en las guías",
       "blocks": [
-        {"type": "p", "text": "Dos detalles que sólo se aprenden viviendo aquí: primero, los feriados largos (carnaval, semana santa, fin de año) la ciudad se llena al doble — reserva todo con dos semanas de anticipación, hoteles y restaurantes; segundo, el atardecer en Manta cambia 15 minutos según la época del año, pero nunca cae antes de las 18:10 ni después de las 18:25 — perfecto para planear cena exacta."}
+        {
+          "type": "p",
+          "text": "Dos detalles que sólo se aprenden viviendo aquí: primero, los feriados largos (carnaval, semana santa, fin de año) la ciudad se llena al doble — reserva todo con dos semanas de anticipación, hoteles y restaurantes; segundo, el atardecer en Manta cambia 15 minutos según la época del año, pero nunca cae antes de las 18:10 ni después de las 18:25 — perfecto para planear cena exacta."
+        }
       ]
     }
   ],
@@ -63,9 +106,18 @@
   "cta_paragraph": "Si parte de tu plan es cena con atardecer o música en vivo el viernes, reserva mesa antes — los viernes y sábados se llenan. Atardecer en Manta entre 18:10 y 18:25 según mes.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Vida nocturna en Manta jueves a sábado", "url": "/eventos-entretenimiento/vida-nocturna-manta/"},
-    {"label": "Música en vivo en Manta: agenda actualizada", "url": "/eventos-entretenimiento/eventos-musica-vivo-manta-agenda/"},
-    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"}
+    {
+      "label": "Vida nocturna en Manta jueves a sábado",
+      "url": "/eventos-entretenimiento/vida-nocturna-manta/"
+    },
+    {
+      "label": "Música en vivo en Manta: agenda actualizada",
+      "url": "/eventos-entretenimiento/eventos-musica-vivo-manta-agenda/"
+    },
+    {
+      "label": "Qué hacer en Manta: 17 planes reales",
+      "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"
+    }
   ],
   "faq": [
     {

@@ -2,11 +2,17 @@
   "title": "Faro de San Lorenzo en Manta: cómo llegar, qué ver y por qué vale la pena",
   "slug": "faro-san-lorenzo-manta-guia",
   "status": "publish",
-  "date": "2026-07-25T11:00:00",
+  "date": "2026-06-14T11:00:00",
   "category_id": 10,
   "_category_slug": "vida-en-manta",
   "featured_media": 663,
-  "tags": ["faro san lorenzo", "manta turismo", "que ver en manta", "san lorenzo manabí", "atractivos manta"],
+  "tags": [
+    "faro san lorenzo",
+    "manta turismo",
+    "que ver en manta",
+    "san lorenzo manabí",
+    "atractivos manta"
+  ],
   "excerpt": "Guía completa del faro de San Lorenzo: cómo llegar desde Manta, qué se ve desde arriba, mejor hora para visitar y por qué nos parece el mejor punto panorámico de la costa de Manabí.",
   "yoast_title": "Faro de San Lorenzo Manta: cómo llegar y qué ver (guía)",
   "yoast_metadesc": "El faro de San Lorenzo a 25 minutos de Manta: vista panorámica de la costa, mejor hora para visitar y por qué es el mejor mirador de Manabí.",
@@ -19,47 +25,81 @@
     {
       "h2": "Cómo llegar desde Manta",
       "blocks": [
-        {"type": "p", "text": "El faro está en San Lorenzo, parroquia rural al sur de Manta. En auto particular son 25 minutos desde el centro de Manta por la vía que sale rumbo a Montecristi. Calle asfaltada hasta el inicio del cerro; los últimos 800 metros son camino de tierra pero manejable en auto sedán normal."},
-        {"type": "p", "text": "Si no tienes auto, taxi desde Flavio Reyes cuesta $12 a $15 ida y vuelta esperando. Cooperativas como Líder Taxi o cualquier app local. El bus público va hasta San Lorenzo pueblo, pero del pueblo al faro son 2 km más a pie o en moto-taxi."}
+        {
+          "type": "p",
+          "text": "El faro está en San Lorenzo, parroquia rural al sur de Manta. En auto particular son 25 minutos desde el centro de Manta por la vía que sale rumbo a Montecristi. Calle asfaltada hasta el inicio del cerro; los últimos 800 metros son camino de tierra pero manejable en auto sedán normal."
+        },
+        {
+          "type": "p",
+          "text": "Si no tienes auto, taxi desde Flavio Reyes cuesta $12 a $15 ida y vuelta esperando. Cooperativas como Líder Taxi o cualquier app local. El bus público va hasta San Lorenzo pueblo, pero del pueblo al faro son 2 km más a pie o en moto-taxi."
+        }
       ]
     },
     {
       "h2": "Qué se ve desde el faro",
       "blocks": [
-        {"type": "p", "text": "Vista panorámica de 270 grados: al norte la bahía de Manta y la playa Murciélago, al oeste el Pacífico abierto, al sur la playa de San Mateo y los acantilados. Si hay día claro se ve hasta la silueta de la isla de la Plata."},
-        {"type": "p", "text": "El faro en sí es construcción de los años 50 — torre blanca y roja de 12 metros. No se sube al faro (está cerrado al público) pero el mirador alrededor es lo importante. Hay banca, sombra de árboles, y silencio. Aire fresco por la altura."}
+        {
+          "type": "p",
+          "text": "Vista panorámica de 270 grados: al norte la bahía de Manta y la playa Murciélago, al oeste el Pacífico abierto, al sur la playa de San Mateo y los acantilados. Si hay día claro se ve hasta la silueta de la isla de la Plata."
+        },
+        {
+          "type": "p",
+          "text": "El faro en sí es construcción de los años 50 — torre blanca y roja de 12 metros. No se sube al faro (está cerrado al público) pero el mirador alrededor es lo importante. Hay banca, sombra de árboles, y silencio. Aire fresco por la altura."
+        }
       ]
     },
     {
       "h2": "Mejor hora para ir",
       "blocks": [
-        {"type": "p", "text": "Para fotos sin gente y luz suave: temprano mañana entre 7:00 y 9:30. Para atardecer fotográfico: llegar 1 hora antes del ocaso (alrededor de 17:15 en cualquier época), llevar buzo ligero porque a esa hora el viento de la costa enfría."},
-        {"type": "p", "text": "Lo peor: entre 12:00 y 14:00. Sol directo, viento fuerte, polvo en el camino. Nadie disfruta el faro a esa hora."},
-        {"type": "quote", "text": "Cuando los huéspedes de Luuma nos preguntan plan diferente para sábado o domingo, mandamos al faro temprano en la mañana antes del desayuno, vuelta a Manta para brunch en Barbasquillo. Esa combinación cierra mañana de fin de semana sin desperdiciar tiempo.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Para fotos sin gente y luz suave: temprano mañana entre 7:00 y 9:30. Para atardecer fotográfico: llegar 1 hora antes del ocaso (alrededor de 17:15 en cualquier época), llevar buzo ligero porque a esa hora el viento de la costa enfría."
+        },
+        {
+          "type": "p",
+          "text": "Lo peor: entre 12:00 y 14:00. Sol directo, viento fuerte, polvo en el camino. Nadie disfruta el faro a esa hora."
+        },
+        {
+          "type": "quote",
+          "text": "Cuando los huéspedes de Luuma nos preguntan plan diferente para sábado o domingo, mandamos al faro temprano en la mañana antes del desayuno, vuelta a Manta para brunch en Barbasquillo. Esa combinación cierra mañana de fin de semana sin desperdiciar tiempo.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Lo que vale la pena combinar",
       "blocks": [
-        {"type": "p", "text": "El faro se hace en 30-45 minutos. Está cerca de la playa de San Mateo (10 minutos en auto) — combinas faro de mañana + almuerzo de ceviche al pie del mar en San Mateo, vuelves a Manta a las 14:00."},
-        {"type": "p", "text": "Otra combinación: faro al atardecer + cena en Luuma o en algún rooftop de Flavio Reyes. Atardecer en faro a las 18:00, cena reservada a las 19:30. Solo necesitas dejar el auto cerca de Flavio Reyes antes de subir al faro."}
+        {
+          "type": "p",
+          "text": "El faro se hace en 30-45 minutos. Está cerca de la playa de San Mateo (10 minutos en auto) — combinas faro de mañana + almuerzo de ceviche al pie del mar en San Mateo, vuelves a Manta a las 14:00."
+        },
+        {
+          "type": "p",
+          "text": "Otra combinación: faro al atardecer + cena en Luuma o en algún rooftop de Flavio Reyes. Atardecer en faro a las 18:00, cena reservada a las 19:30. Solo necesitas dejar el auto cerca de Flavio Reyes antes de subir al faro."
+        }
       ]
     },
     {
       "h2": "Qué llevar y qué evitar",
       "blocks": [
-        {"type": "ul", "items": [
-          "Llevar: agua, gorra, protector solar, buzo ligero, cámara con buena luz",
-          "Evitar: zapatos resbalosos (el cerro es ligeramente inclinado), drones sin permiso (es zona controlada)",
-          "Importante: no hay baños públicos ni venta de agua en el sitio — provisión completa desde Manta",
-          "Mejor con calzado deportivo o sandalia robusta — no chancla de playa"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "Llevar: agua, gorra, protector solar, buzo ligero, cámara con buena luz",
+            "Evitar: zapatos resbalosos (el cerro es ligeramente inclinado), drones sin permiso (es zona controlada)",
+            "Importante: no hay baños públicos ni venta de agua en el sitio — provisión completa desde Manta",
+            "Mejor con calzado deportivo o sandalia robusta — no chancla de playa"
+          ]
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen en TripAdvisor",
       "blocks": [
-        {"type": "p", "text": "Dos detalles que aprendimos llevando huéspedes: primero, los fines de semana después de las 11:00 llegan familias mantenses con cooler y música — pasa de tranquilo a fiesta familiar, conviene ir entre semana o muy temprano; segundo, en temporada de garúa (julio-octubre) puede que la vista esté nublada hasta las 10:30 — mejor avisar plan B o consultar pronóstico."}
+        {
+          "type": "p",
+          "text": "Dos detalles que aprendimos llevando huéspedes: primero, los fines de semana después de las 11:00 llegan familias mantenses con cooler y música — pasa de tranquilo a fiesta familiar, conviene ir entre semana o muy temprano; segundo, en temporada de garúa (julio-octubre) puede que la vista esté nublada hasta las 10:30 — mejor avisar plan B o consultar pronóstico."
+        }
       ]
     }
   ],
@@ -67,15 +107,39 @@
   "cta_paragraph": "Después del faro al atardecer, la cena con vista al Pacífico en Luuma av. Flavio Reyes cierra bien el día. Atardecer en San Lorenzo a las 18:00, primera entrada de cena 19:30. Reservas un día antes los fines de semana.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"},
-    {"label": "Playas de Manta: cuál elegir según tu plan", "url": "/vida-en-manta/playas-manta-cual-elegir/"},
-    {"label": "De Guayaquil/Quito a Manta", "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"}
+    {
+      "label": "Qué hacer en Manta: 17 planes reales",
+      "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"
+    },
+    {
+      "label": "Playas de Manta: cuál elegir según tu plan",
+      "url": "/vida-en-manta/playas-manta-cual-elegir/"
+    },
+    {
+      "label": "De Guayaquil/Quito a Manta",
+      "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"
+    }
   ],
   "faq": [
-    {"q": "¿Dónde queda el faro de San Lorenzo?", "a": "En la parroquia rural San Lorenzo, 15 km al sur de Manta, sobre cerro panorámico. En auto particular son 25 minutos desde el centro por la vía a Montecristi."},
-    {"q": "¿Cuánto cuesta visitar el faro de San Lorenzo?", "a": "Entrada gratuita. Costos solo de transporte: $0 si tienes auto y combustible, $12-15 en taxi desde Manta ida y vuelta, $2 en bus público hasta San Lorenzo pueblo + caminata."},
-    {"q": "¿Cuál es la mejor hora para visitar el faro?", "a": "Temprano mañana (7:00-9:30) para fotos sin gente y luz suave, o atardecer (17:15 en adelante) para vista del ocaso. Evitar mediodía por sol directo y viento fuerte."},
-    {"q": "¿El faro tiene baños o servicios?", "a": "No hay baños públicos ni venta de agua o comida en el sitio. Provisión completa desde Manta. Pueblo de San Lorenzo a 2 km tiene tiendas pequeñas con lo básico."},
-    {"q": "¿Se puede subir al faro?", "a": "No, la torre está cerrada al público. El mirador con vista panorámica está alrededor del faro — banca, sombra de árboles, vista de 270 grados de la costa de Manabí."}
+    {
+      "q": "¿Dónde queda el faro de San Lorenzo?",
+      "a": "En la parroquia rural San Lorenzo, 15 km al sur de Manta, sobre cerro panorámico. En auto particular son 25 minutos desde el centro por la vía a Montecristi."
+    },
+    {
+      "q": "¿Cuánto cuesta visitar el faro de San Lorenzo?",
+      "a": "Entrada gratuita. Costos solo de transporte: $0 si tienes auto y combustible, $12-15 en taxi desde Manta ida y vuelta, $2 en bus público hasta San Lorenzo pueblo + caminata."
+    },
+    {
+      "q": "¿Cuál es la mejor hora para visitar el faro?",
+      "a": "Temprano mañana (7:00-9:30) para fotos sin gente y luz suave, o atardecer (17:15 en adelante) para vista del ocaso. Evitar mediodía por sol directo y viento fuerte."
+    },
+    {
+      "q": "¿El faro tiene baños o servicios?",
+      "a": "No hay baños públicos ni venta de agua o comida en el sitio. Provisión completa desde Manta. Pueblo de San Lorenzo a 2 km tiene tiendas pequeñas con lo básico."
+    },
+    {
+      "q": "¿Se puede subir al faro?",
+      "a": "No, la torre está cerrada al público. El mirador con vista panorámica está alrededor del faro — banca, sombra de árboles, vista de 270 grados de la costa de Manabí."
+    }
   ]
 }

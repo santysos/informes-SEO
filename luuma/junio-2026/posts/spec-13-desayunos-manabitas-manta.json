@@ -2,11 +2,17 @@
   "title": "Desayunos manabitas en Manta: dónde y qué pedir (con precios reales)",
   "slug": "desayunos-manabitas-manta",
   "status": "publish",
-  "date": "2026-08-01T11:00:00",
+  "date": "2026-06-15T11:00:00",
   "category_id": 9,
   "_category_slug": "gastronomia-manta",
   "featured_media": 766,
-  "tags": ["desayunos manta", "desayuno manabita", "bolón verde", "bollo manabita", "café manta"],
+  "tags": [
+    "desayunos manta",
+    "desayuno manabita",
+    "bolón verde",
+    "bollo manabita",
+    "café manta"
+  ],
   "excerpt": "Bolón verde, bollo de pescado, café pasado, jugos del Pacífico. Dónde se desayuna real en Manta, por zona y rango de precios. La guía que damos a quien llega un sábado con hambre.",
   "yoast_title": "Desayunos manabitas en Manta: dónde y precios reales ($3-$8)",
   "yoast_metadesc": "Bolón verde, bollo, café pasado, jugos: dónde desayunar manabita en Manta. Por zona y precio. Lo que pedimos los locales un sábado.",
@@ -19,43 +25,102 @@
     {
       "h2": "Bolón verde: el básico que no puede faltar",
       "blocks": [
-        {"type": "p", "text": "Es plátano verde aplastado, mezclado con chicharrón, queso o solo, hecho bola y servido caliente con huevo frito al lado. El bolón verde es desayuno costeño universal, pero en Manabí cambia algo: aquí se le agrega maní tostado molido al chicharrón. Pequeño detalle que cambia el sabor por completo."},
-        {"type": "p", "text": "Dónde se hace bien: el mercado central de Manta tiene 4-5 puestos en planta baja desde las 6:00. Bolón con chicharrón cuesta $3, con queso $2.50, mixto con huevo $4. Los bolones grandes los hacen en restaurantes de Barbasquillo y la zona Aurora a $5-$6 con jugo natural incluido."}
+        {
+          "type": "p",
+          "text": "Es plátano verde aplastado, mezclado con chicharrón, queso o solo, hecho bola y servido caliente con huevo frito al lado. El bolón verde es desayuno costeño universal, pero en Manabí cambia algo: aquí se le agrega maní tostado molido al chicharrón. Pequeño detalle que cambia el sabor por completo."
+        },
+        {
+          "type": "p",
+          "text": "Dónde se hace bien: el mercado central de Manta tiene 4-5 puestos en planta baja desde las 6:00. Bolón con chicharrón cuesta $3, con queso $2.50, mixto con huevo $4. Los bolones grandes los hacen en restaurantes de Barbasquillo y la zona Aurora a $5-$6 con jugo natural incluido."
+        }
       ]
     },
     {
       "h2": "Bollo manabita de pescado",
       "blocks": [
-        {"type": "p", "text": "Masa de plátano verde y maní envuelta en hoja de plátano, cocida al vapor, con pedazo de pescado adentro. Se come caliente, abriéndolo con las manos. Es el plato de las abuelas mantenses — casi ninguna cadena lo hace bien."},
-        {"type": "p", "text": "Lo más cerca a la versión casa: las casetas del mercado central de Manta desde las 7:30 hasta que se acaban (alrededor de 10:30). Cuestan entre $2.50 y $3.50 según tamaño. Los del lado del puerto en Tarqui también son buenos pero llegan más tarde."}
+        {
+          "type": "p",
+          "text": "Masa de plátano verde y maní envuelta en hoja de plátano, cocida al vapor, con pedazo de pescado adentro. Se come caliente, abriéndolo con las manos. Es el plato de las abuelas mantenses — casi ninguna cadena lo hace bien."
+        },
+        {
+          "type": "p",
+          "text": "Lo más cerca a la versión casa: las casetas del mercado central de Manta desde las 7:30 hasta que se acaban (alrededor de 10:30). Cuestan entre $2.50 y $3.50 según tamaño. Los del lado del puerto en Tarqui también son buenos pero llegan más tarde."
+        }
       ]
     },
     {
       "h2": "Café pasado vs café de máquina",
       "blocks": [
-        {"type": "p", "text": "El café manabita tradicional se hace pasado en filtro de tela colgado de aro de alambre. Sabor distinto al de máquina: más cuerpo, menos amargo, más aromático. Los restaurantes turísticos cambiaron por máquina de espresso por velocidad, pero los lugares tradicionales siguen con pasado."},
-        {"type": "p", "text": "Dónde se sirve café pasado en Manta: las picanterías del mercado central, varios restaurantes de zona Aurora, algunos pueblos cerca como San Mateo. Cuesta $0.50-$1.50. Por contraste, en cafeterías modernas de Flavio Reyes te dan espresso o americano a $2-$3.50."},
-        {"type": "quote", "text": "El café pasado de Manabí es algo que cuesta defender porque la velocidad de servir lo gana siempre el espresso. Pero el sabor del pasado es más complejo. Cuando un cliente nuevo lo prueba por primera vez, vuelve a pedirlo y entiende por qué insistimos.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "El café manabita tradicional se hace pasado en filtro de tela colgado de aro de alambre. Sabor distinto al de máquina: más cuerpo, menos amargo, más aromático. Los restaurantes turísticos cambiaron por máquina de espresso por velocidad, pero los lugares tradicionales siguen con pasado."
+        },
+        {
+          "type": "p",
+          "text": "Dónde se sirve café pasado en Manta: las picanterías del mercado central, varios restaurantes de zona Aurora, algunos pueblos cerca como San Mateo. Cuesta $0.50-$1.50. Por contraste, en cafeterías modernas de Flavio Reyes te dan espresso o americano a $2-$3.50."
+        },
+        {
+          "type": "quote",
+          "text": "El café pasado de Manabí es algo que cuesta defender porque la velocidad de servir lo gana siempre el espresso. Pero el sabor del pasado es más complejo. Cuando un cliente nuevo lo prueba por primera vez, vuelve a pedirlo y entiende por qué insistimos.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Jugos del Pacífico — frescos según temporada",
       "blocks": [
-        {"type": "p", "text": "Manta tiene fruta del Pacífico todo el año: papaya, sandía, mango, maracuyá, naranjilla, badea. Los jugos naturales servidos en vaso grande cuestan $1-$2. Lo importante: pedirlo sin azúcar agregada — la fruta acá ya es dulce."},
-        {"type": "p", "text": "Combinaciones que pedimos los locales: papaya con naranja agria para limpiar el sistema, maracuyá con un toque de menta para despertarse, mango maduro para acompañar bolón verde. En La Aurora y Barbasquillo hay jugueras informales con 10-12 frutas distintas para combinar."}
+        {
+          "type": "p",
+          "text": "Manta tiene fruta del Pacífico todo el año: papaya, sandía, mango, maracuyá, naranjilla, badea. Los jugos naturales servidos en vaso grande cuestan $1-$2. Lo importante: pedirlo sin azúcar agregada — la fruta acá ya es dulce."
+        },
+        {
+          "type": "p",
+          "text": "Combinaciones que pedimos los locales: papaya con naranja agria para limpiar el sistema, maracuyá con un toque de menta para despertarse, mango maduro para acompañar bolón verde. En La Aurora y Barbasquillo hay jugueras informales con 10-12 frutas distintas para combinar."
+        }
       ]
     },
     {
       "h2": "Mejores zonas según presupuesto",
       "blocks": [
-        {"type": "table",
-          "headers": ["Lugar", "Precio promedio", "Lo que pides", "Hora límite"],
+        {
+          "type": "table",
+          "headers": [
+            "Lugar",
+            "Precio promedio",
+            "Lo que pides",
+            "Hora límite"
+          ],
           "rows": [
-            ["Mercado central Manta", "$3-$5", "Bolón, bollo, café pasado, jugo", "10:30 (se acaba)"],
-            ["Casetas Tarqui", "$3-$5", "Bollo de pescado, ceviche temprano", "11:00"],
-            ["Restaurantes La Aurora", "$5-$8", "Desayuno completo con segundo", "10:30"],
-            ["Barbasquillo brunch", "$8-$12", "Bolón premium, café gourmet, jugo", "11:30 sábado/domingo"],
-            ["Hoteles centro Manta", "$10-$15", "Buffet americano + opciones manabitas", "10:00"]
+            [
+              "Mercado central Manta",
+              "$3-$5",
+              "Bolón, bollo, café pasado, jugo",
+              "10:30 (se acaba)"
+            ],
+            [
+              "Casetas Tarqui",
+              "$3-$5",
+              "Bollo de pescado, ceviche temprano",
+              "11:00"
+            ],
+            [
+              "Restaurantes La Aurora",
+              "$5-$8",
+              "Desayuno completo con segundo",
+              "10:30"
+            ],
+            [
+              "Barbasquillo brunch",
+              "$8-$12",
+              "Bolón premium, café gourmet, jugo",
+              "11:30 sábado/domingo"
+            ],
+            [
+              "Hoteles centro Manta",
+              "$10-$15",
+              "Buffet americano + opciones manabitas",
+              "10:00"
+            ]
           ]
         }
       ]
@@ -63,7 +128,10 @@
     {
       "h2": "Lo que no te dicen los listados de Google",
       "blocks": [
-        {"type": "p", "text": "Tres reglas que sólo aprende quien desayuna acá cada sábado: primero, el bolón verde es 7:30 a 9:30 — después se enfría y nada el mismo plato; segundo, en feriados largos los lugares buenos llenan al 8:00, los locales sabemos llegar a las 7:00; tercero, en restaurantes turísticos venden \"desayuno manabita\" a $12 con bolón industrial — el real está en el mercado a $3 con sabor incomparable."}
+        {
+          "type": "p",
+          "text": "Tres reglas que sólo aprende quien desayuna acá cada sábado: primero, el bolón verde es 7:30 a 9:30 — después se enfría y nada el mismo plato; segundo, en feriados largos los lugares buenos llenan al 8:00, los locales sabemos llegar a las 7:00; tercero, en restaurantes turísticos venden \"desayuno manabita\" a $12 con bolón industrial — el real está en el mercado a $3 con sabor incomparable."
+        }
       ]
     }
   ],
@@ -71,15 +139,39 @@
   "cta_paragraph": "En Luuma servimos café pasado de productor pequeño de Manabí, junto con tostadas con pesca blanca al estilo manabita. Brunch sábados y domingos desde las 10:30. Mejor con reserva los domingos.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
-    {"label": "Almuerzos en Manta por zona", "url": "/gastronomia-manta/almuerzos-manta-por-zona/"},
-    {"label": "Restaurantes en Manta según quien vive aquí", "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"}
+    {
+      "label": "Platos típicos de Manabí: los 12 que probar",
+      "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"
+    },
+    {
+      "label": "Almuerzos en Manta por zona",
+      "url": "/gastronomia-manta/almuerzos-manta-por-zona/"
+    },
+    {
+      "label": "Restaurantes en Manta según quien vive aquí",
+      "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"
+    }
   ],
   "faq": [
-    {"q": "¿Qué se desayuna en Manabí?", "a": "Bolón verde con chicharrón o queso, bollo manabita de pescado envuelto en hoja, café pasado en filtro de tela, jugos de fruta del Pacífico (papaya, mango, maracuyá, naranjilla, badea). Precio típico: $3-$8 según zona."},
-    {"q": "¿Dónde desayunar manabita en Manta?", "a": "Mercado central tiene 4-5 puestos con bolón y bollo desde 6:00 ($3-$5). Restaurantes de zona Aurora y Barbasquillo sirven desayunos más elaborados a $5-$12. Hoteles del centro tienen opción manabita en buffet a $10-$15."},
-    {"q": "¿Qué es el bolón verde manabita?", "a": "Plátano verde aplastado mezclado con chicharrón (a veces queso) hecho bola y servido caliente con huevo frito. En Manabí se le agrega maní tostado molido al chicharrón — pequeño detalle local que cambia el sabor por completo."},
-    {"q": "¿Hasta qué hora hay desayuno en Manta?", "a": "Bolón verde y bollo se acaban entre 10:30 y 11:00 en mercado y casetas (no se hacen más). Restaurantes formales hasta 10:30. Brunch en Barbasquillo y Luuma se extiende hasta 11:30-12:00 los sábados y domingos."},
-    {"q": "¿Hay café pasado en Manta?", "a": "Sí, en picanterías del mercado central y varios restaurantes de La Aurora y pueblos cerca como San Mateo. Cuesta $0.50-$1.50. Es café filtrado en tela colgada de aro — sabor distinto al de máquina espresso. Más cuerpo, menos amargo."}
+    {
+      "q": "¿Qué se desayuna en Manabí?",
+      "a": "Bolón verde con chicharrón o queso, bollo manabita de pescado envuelto en hoja, café pasado en filtro de tela, jugos de fruta del Pacífico (papaya, mango, maracuyá, naranjilla, badea). Precio típico: $3-$8 según zona."
+    },
+    {
+      "q": "¿Dónde desayunar manabita en Manta?",
+      "a": "Mercado central tiene 4-5 puestos con bolón y bollo desde 6:00 ($3-$5). Restaurantes de zona Aurora y Barbasquillo sirven desayunos más elaborados a $5-$12. Hoteles del centro tienen opción manabita en buffet a $10-$15."
+    },
+    {
+      "q": "¿Qué es el bolón verde manabita?",
+      "a": "Plátano verde aplastado mezclado con chicharrón (a veces queso) hecho bola y servido caliente con huevo frito. En Manabí se le agrega maní tostado molido al chicharrón — pequeño detalle local que cambia el sabor por completo."
+    },
+    {
+      "q": "¿Hasta qué hora hay desayuno en Manta?",
+      "a": "Bolón verde y bollo se acaban entre 10:30 y 11:00 en mercado y casetas (no se hacen más). Restaurantes formales hasta 10:30. Brunch en Barbasquillo y Luuma se extiende hasta 11:30-12:00 los sábados y domingos."
+    },
+    {
+      "q": "¿Hay café pasado en Manta?",
+      "a": "Sí, en picanterías del mercado central y varios restaurantes de La Aurora y pueblos cerca como San Mateo. Cuesta $0.50-$1.50. Es café filtrado en tela colgada de aro — sabor distinto al de máquina espresso. Más cuerpo, menos amargo."
+    }
   ]
 }

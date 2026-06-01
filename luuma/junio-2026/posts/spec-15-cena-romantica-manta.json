@@ -2,11 +2,17 @@
   "title": "Cena romántica en Manta: dónde reservar según el tipo de noche",
   "slug": "cena-romantica-manta-vista-al-mar",
   "status": "publish",
-  "date": "2026-08-08T11:00:00",
+  "date": "2026-06-16T11:00:00",
   "category_id": 11,
   "_category_slug": "eventos-entretenimiento",
   "featured_media": 669,
-  "tags": ["cena romántica manta", "cena vista al mar", "aniversario manta", "rooftop romántico", "luuma rooftop"],
+  "tags": [
+    "cena romántica manta",
+    "cena vista al mar",
+    "aniversario manta",
+    "rooftop romántico",
+    "luuma rooftop"
+  ],
   "excerpt": "Aniversario, propuesta, cena tranquila para celebrar — qué restaurante en Manta funciona según el tipo de noche que buscas. Con vista al Pacífico, terraza íntima o cocina manabita contemporánea.",
   "yoast_title": "Cena romántica en Manta: dónde reservar (con vista al mar)",
   "yoast_metadesc": "Cena romántica en Manta según el tipo de noche: aniversario, propuesta, primera cita. Rooftops con vista al Pacífico, terraza íntima, cocina manabita.",
@@ -19,27 +25,82 @@
     {
       "h2": "Por tipo de ocasión",
       "blocks": [
-        {"type": "h3", "text": "Aniversario tradicional (5+ años juntos)"},
-        {"type": "p", "text": "Lo que funciona: cena en rooftop con vista al Pacífico al atardecer + reserva con anticipación + carta degustación o plato fuerte que ambos compartan. Lo que no funciona: descubrir lugar nuevo en aniversario importante. Mejor algo conocido y confiable."},
-        {"type": "p", "text": "En av. Flavio Reyes, los rooftops como Luuma específicamente, ofrecen mesa en el borde con vista directa al mar. Reserva con 1-2 semanas para asegurar el espacio y avisar de ocasión especial. La cocina manabita contemporánea (viche, encocado, pesca blanca) ofrece menú diferente a la salida convencional internacional."},
-        {"type": "h3", "text": "Propuesta de matrimonio"},
-        {"type": "p", "text": "Aquí el lugar pesa más que el menú. Sugerencias: rooftop con vista al Pacífico al atardecer, mesa privada en el borde, anillo escondido en postre con presentación cuidada. Avisar al equipo del restaurante con varios días de anticipación — la mayoría coopera con velas, flores extra, fotógrafo si quieres."},
-        {"type": "p", "text": "Lo crítico: confirmar que la mesa esté libre 30 minutos antes del momento clave. En Luuma hemos coordinado varias propuestas y el atardecer (18:10-18:25) es el momento ideal para timing — la luz hace la foto sola."},
-        {"type": "h3", "text": "Primera cita con persona que viene de fuera"},
-        {"type": "p", "text": "Lo que cuenta es mostrar Manta sin sobreactuar. Mejor cena más casual con buena comida que opción ultra formal. Recomendamos rooftop con cocina manabita contemporánea — refleja la ciudad sin caer en cliché turístico. Mesa de medio (no en el borde — eso para aniversarios). Conversación fluye mejor con menos protocolo."}
+        {
+          "type": "h3",
+          "text": "Aniversario tradicional (5+ años juntos)"
+        },
+        {
+          "type": "p",
+          "text": "Lo que funciona: cena en rooftop con vista al Pacífico al atardecer + reserva con anticipación + carta degustación o plato fuerte que ambos compartan. Lo que no funciona: descubrir lugar nuevo en aniversario importante. Mejor algo conocido y confiable."
+        },
+        {
+          "type": "p",
+          "text": "En av. Flavio Reyes, los rooftops como Luuma específicamente, ofrecen mesa en el borde con vista directa al mar. Reserva con 1-2 semanas para asegurar el espacio y avisar de ocasión especial. La cocina manabita contemporánea (viche, encocado, pesca blanca) ofrece menú diferente a la salida convencional internacional."
+        },
+        {
+          "type": "h3",
+          "text": "Propuesta de matrimonio"
+        },
+        {
+          "type": "p",
+          "text": "Aquí el lugar pesa más que el menú. Sugerencias: rooftop con vista al Pacífico al atardecer, mesa privada en el borde, anillo escondido en postre con presentación cuidada. Avisar al equipo del restaurante con varios días de anticipación — la mayoría coopera con velas, flores extra, fotógrafo si quieres."
+        },
+        {
+          "type": "p",
+          "text": "Lo crítico: confirmar que la mesa esté libre 30 minutos antes del momento clave. En Luuma hemos coordinado varias propuestas y el atardecer (18:10-18:25) es el momento ideal para timing — la luz hace la foto sola."
+        },
+        {
+          "type": "h3",
+          "text": "Primera cita con persona que viene de fuera"
+        },
+        {
+          "type": "p",
+          "text": "Lo que cuenta es mostrar Manta sin sobreactuar. Mejor cena más casual con buena comida que opción ultra formal. Recomendamos rooftop con cocina manabita contemporánea — refleja la ciudad sin caer en cliché turístico. Mesa de medio (no en el borde — eso para aniversarios). Conversación fluye mejor con menos protocolo."
+        }
       ]
     },
     {
       "h2": "Por zona y carácter",
       "blocks": [
-        {"type": "table",
-          "headers": ["Zona", "Estilo", "Vista", "Precio promedio cena"],
+        {
+          "type": "table",
+          "headers": [
+            "Zona",
+            "Estilo",
+            "Vista",
+            "Precio promedio cena"
+          ],
           "rows": [
-            ["Rooftop av. Flavio Reyes", "Cocina manabita contemporánea", "Panorámica Pacífico", "$25-$35/persona"],
-            ["Rooftop hoteles grandes", "Internacional formal", "Vista al malecón", "$35-$50/persona"],
-            ["Marisquerías malecón Murciélago", "Mariscos al aire libre", "Playa directa", "$20-$30/persona"],
-            ["Restaurantes Barbasquillo", "Casual gourmet", "Sin vista mar", "$25-$35/persona"],
-            ["Restaurantes La Quadra", "Fusion sofisticado", "Sin vista mar", "$30-$40/persona"]
+            [
+              "Rooftop av. Flavio Reyes",
+              "Cocina manabita contemporánea",
+              "Panorámica Pacífico",
+              "$25-$35/persona"
+            ],
+            [
+              "Rooftop hoteles grandes",
+              "Internacional formal",
+              "Vista al malecón",
+              "$35-$50/persona"
+            ],
+            [
+              "Marisquerías malecón Murciélago",
+              "Mariscos al aire libre",
+              "Playa directa",
+              "$20-$30/persona"
+            ],
+            [
+              "Restaurantes Barbasquillo",
+              "Casual gourmet",
+              "Sin vista mar",
+              "$25-$35/persona"
+            ],
+            [
+              "Restaurantes La Quadra",
+              "Fusion sofisticado",
+              "Sin vista mar",
+              "$30-$40/persona"
+            ]
           ]
         }
       ]
@@ -47,29 +108,51 @@
     {
       "h2": "Lo que hace memorable una cena romántica",
       "blocks": [
-        {"type": "p", "text": "No es la carta ni el precio — es la suma de detalles pequeños. Tres que importan más que cualquier plato signature:"},
-        {"type": "ul", "items": [
-          "Mesa con buena iluminación natural durante el atardecer (no luz cenital fuerte)",
-          "Servicio que NO interrumpe conversación cada 5 minutos para preguntar 'todo bien'",
-          "Coctel de bienvenida que abre el paladar sin saturar (no licor fuerte de entrada)",
-          "Música ambiente con volumen para conversar sin gritar",
-          "Postre con elemento sorpresa pequeño (no necesariamente caro)"
-        ]},
-        {"type": "quote", "text": "Lo más memorable de las cenas que coordinamos como propuesta es siempre lo mismo: el momento exacto antes del atardecer cuando la pareja se queda en silencio mirando el Pacífico. No hay forma de planear ese silencio, pero el atardecer en Manta lo provoca. Por eso insistimos en la reserva a las 19:00.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "No es la carta ni el precio — es la suma de detalles pequeños. Tres que importan más que cualquier plato signature:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mesa con buena iluminación natural durante el atardecer (no luz cenital fuerte)",
+            "Servicio que NO interrumpe conversación cada 5 minutos para preguntar 'todo bien'",
+            "Coctel de bienvenida que abre el paladar sin saturar (no licor fuerte de entrada)",
+            "Música ambiente con volumen para conversar sin gritar",
+            "Postre con elemento sorpresa pequeño (no necesariamente caro)"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Lo más memorable de las cenas que coordinamos como propuesta es siempre lo mismo: el momento exacto antes del atardecer cuando la pareja se queda en silencio mirando el Pacífico. No hay forma de planear ese silencio, pero el atardecer en Manta lo provoca. Por eso insistimos en la reserva a las 19:00.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Cómo armar la reserva (consejos prácticos)",
       "blocks": [
-        {"type": "p", "text": "Primero, reserva con 1-2 semanas de anticipación si es ocasión especial. Para aniversarios o propuestas, llamar directamente al WhatsApp del restaurante en vez de plataforma de reserva — la conversación humana permite avisar detalles."},
-        {"type": "p", "text": "Segundo, especifica si quieres mesa con vista o mesa privada — son cosas distintas. Mesa con vista es en el borde, expuesta. Mesa privada está más resguardada visualmente. Para propuesta, vista. Para primera cita más tranquila, privada."},
-        {"type": "p", "text": "Tercero, llega 15-20 minutos antes de la hora reservada. Te da tiempo de coctel previo, ajustar detalles con el maître y bajar el estrés de la llegada. Si llegas al horario exacto y hay fila, la sensación cambia."}
+        {
+          "type": "p",
+          "text": "Primero, reserva con 1-2 semanas de anticipación si es ocasión especial. Para aniversarios o propuestas, llamar directamente al WhatsApp del restaurante en vez de plataforma de reserva — la conversación humana permite avisar detalles."
+        },
+        {
+          "type": "p",
+          "text": "Segundo, especifica si quieres mesa con vista o mesa privada — son cosas distintas. Mesa con vista es en el borde, expuesta. Mesa privada está más resguardada visualmente. Para propuesta, vista. Para primera cita más tranquila, privada."
+        },
+        {
+          "type": "p",
+          "text": "Tercero, llega 15-20 minutos antes de la hora reservada. Te da tiempo de coctel previo, ajustar detalles con el maître y bajar el estrés de la llegada. Si llegas al horario exacto y hay fila, la sensación cambia."
+        }
       ]
     },
     {
       "h2": "Lo que NO funciona",
       "blocks": [
-        {"type": "p", "text": "Tres errores que vemos repetidos: primero, llevar a la pareja a restaurante nuevo en aniversario importante — el riesgo de mala experiencia es alto, mejor algo conocido; segundo, reservar mesa con mejor vista pero alejada del corazón del restaurante — quedas aislado del ambiente, suele ser frío; tercero, pedir carta degustación de 7 tiempos cuando ninguno de los dos tiene tanto tiempo o apetito — termina siendo prueba, no celebración."}
+        {
+          "type": "p",
+          "text": "Tres errores que vemos repetidos: primero, llevar a la pareja a restaurante nuevo en aniversario importante — el riesgo de mala experiencia es alto, mejor algo conocido; segundo, reservar mesa con mejor vista pero alejada del corazón del restaurante — quedas aislado del ambiente, suele ser frío; tercero, pedir carta degustación de 7 tiempos cuando ninguno de los dos tiene tanto tiempo o apetito — termina siendo prueba, no celebración."
+        }
       ]
     }
   ],
@@ -77,15 +160,39 @@
   "cta_paragraph": "En Luuma av. Flavio Reyes coordinamos cenas románticas, aniversarios y propuestas con detalles cuidados — mesa en el borde, atardecer 18:10-18:25, velas extra si avisas con tiempo. Reserva por WhatsApp con 1-2 semanas para asegurar fecha.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Restaurantes en Manta según quien vive aquí", "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"},
-    {"label": "Rooftops en Manta: cuáles abren actualmente", "url": "/gastronomia-manta/rooftop-manta-cuales-hay/"},
-    {"label": "Vida nocturna en Manta", "url": "/eventos-entretenimiento/vida-nocturna-manta/"}
+    {
+      "label": "Restaurantes en Manta según quien vive aquí",
+      "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"
+    },
+    {
+      "label": "Rooftops en Manta: cuáles abren actualmente",
+      "url": "/gastronomia-manta/rooftop-manta-cuales-hay/"
+    },
+    {
+      "label": "Vida nocturna en Manta",
+      "url": "/eventos-entretenimiento/vida-nocturna-manta/"
+    }
   ],
   "faq": [
-    {"q": "¿Cuál es el restaurante más romántico de Manta?", "a": "Depende del tipo de noche. Para aniversario o propuesta con vista al Pacífico al atardecer, rooftops de av. Flavio Reyes como Luuma. Para cena casual con ambiente íntimo sin vista, restaurantes gourmet de Barbasquillo. Para mariscos al aire libre, malecón Murciélago."},
-    {"q": "¿Cuánto cuesta una cena romántica en Manta?", "a": "Entre $20 y $50 por persona según el tipo. Marisquería del malecón: $20-30. Rooftop con cocina manabita contemporánea: $25-35. Rooftop de hotel formal: $35-50. Restaurantes gourmet Barbasquillo: $25-35. Incluyendo coctel de bienvenida y postre."},
-    {"q": "¿Cómo reservar para propuesta de matrimonio en Manta?", "a": "Llamar al WhatsApp del restaurante con 1-2 semanas de anticipación y especificar 'reserva para propuesta'. La mayoría coopera con detalles: mesa en el borde para vista panorámica, velas extra, coordinación con momento del atardecer (18:10-18:25 en Manta). Avisar también si tendrás fotógrafo."},
-    {"q": "¿Mejor mesa con vista o mesa privada para cena romántica?", "a": "Mesa con vista (en el borde del rooftop) es para aniversarios y propuestas — expuesta pero con paisaje panorámico. Mesa privada (más resguardada) es para primera cita o cena tranquila — mayor intimidad pero pierde vista. Depende del momento de la relación."},
-    {"q": "¿Cuál es la mejor hora para cena romántica en Manta?", "a": "19:00 a 19:30 es el horario perfecto: llegas, coctel de bienvenida, atardecer entre 18:10 y 18:25 con luz que hace la foto sola, cena con noche cayendo de fondo. Después de las 21:00 el ambiente se vuelve más social, menos íntimo."}
+    {
+      "q": "¿Cuál es el restaurante más romántico de Manta?",
+      "a": "Depende del tipo de noche. Para aniversario o propuesta con vista al Pacífico al atardecer, rooftops de av. Flavio Reyes como Luuma. Para cena casual con ambiente íntimo sin vista, restaurantes gourmet de Barbasquillo. Para mariscos al aire libre, malecón Murciélago."
+    },
+    {
+      "q": "¿Cuánto cuesta una cena romántica en Manta?",
+      "a": "Entre $20 y $50 por persona según el tipo. Marisquería del malecón: $20-30. Rooftop con cocina manabita contemporánea: $25-35. Rooftop de hotel formal: $35-50. Restaurantes gourmet Barbasquillo: $25-35. Incluyendo coctel de bienvenida y postre."
+    },
+    {
+      "q": "¿Cómo reservar para propuesta de matrimonio en Manta?",
+      "a": "Llamar al WhatsApp del restaurante con 1-2 semanas de anticipación y especificar 'reserva para propuesta'. La mayoría coopera con detalles: mesa en el borde para vista panorámica, velas extra, coordinación con momento del atardecer (18:10-18:25 en Manta). Avisar también si tendrás fotógrafo."
+    },
+    {
+      "q": "¿Mejor mesa con vista o mesa privada para cena romántica?",
+      "a": "Mesa con vista (en el borde del rooftop) es para aniversarios y propuestas — expuesta pero con paisaje panorámico. Mesa privada (más resguardada) es para primera cita o cena tranquila — mayor intimidad pero pierde vista. Depende del momento de la relación."
+    },
+    {
+      "q": "¿Cuál es la mejor hora para cena romántica en Manta?",
+      "a": "19:00 a 19:30 es el horario perfecto: llegas, coctel de bienvenida, atardecer entre 18:10 y 18:25 con luz que hace la foto sola, cena con noche cayendo de fondo. Después de las 21:00 el ambiente se vuelve más social, menos íntimo."
+    }
   ]
 }

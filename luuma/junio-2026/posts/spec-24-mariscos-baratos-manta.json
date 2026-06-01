@@ -2,11 +2,17 @@
   "title": "Comer mariscos baratos en Manta: dónde y qué pedir (con precios reales)",
   "slug": "mariscos-baratos-manta-donde-comer",
   "status": "publish",
-  "date": "2026-09-09T11:00:00",
+  "date": "2026-06-20T18:00:00",
   "category_id": 9,
   "_category_slug": "gastronomia-manta",
   "featured_media": 666,
-  "tags": ["mariscos manta", "mariscos baratos", "marisquerías manta", "ceviche barato manta", "tarqui"],
+  "tags": [
+    "mariscos manta",
+    "mariscos baratos",
+    "marisquerías manta",
+    "ceviche barato manta",
+    "tarqui"
+  ],
   "excerpt": "Comer mariscos buenos en Manta cuesta entre $5 y $15 según dónde — Tarqui es el rey del bajo costo, marisquerías del malecón están en el medio, restaurantes formales arriba. Te lo desglosamos por zona.",
   "yoast_title": "Mariscos baratos en Manta: dónde comer bien por $5-$15",
   "yoast_metadesc": "Dónde comer mariscos baratos en Manta: Tarqui $5-$10, malecón Murciélago $10-$18, restaurantes formales $15-$25. Por zona y precio real.",
@@ -19,44 +25,115 @@
     {
       "h2": "Tarqui: el rey del bajo costo ($5-$10)",
       "blocks": [
-        {"type": "p", "text": "Tarqui concentra las picanterías sin postureo del puerto pesquero de Manta. El ceviche manabita de concha cuesta $5-$8, el de camarón $7-$9, el de pescado $5-$7. La cazuela de mariscos para una persona $10-$12. La cocción es 100% del día — el pescado entra al sartén el mismo día que sale del barco."},
-        {"type": "p", "text": "Ambiente sin lujo — mesas plásticas, ventiladores eléctricos, vajilla mixta. Lo que importa es la calidad del producto, que es brutal por el costo. Mejor llegar entre 12:00 y 13:00, después los platos del día se acaban."}
+        {
+          "type": "p",
+          "text": "Tarqui concentra las picanterías sin postureo del puerto pesquero de Manta. El ceviche manabita de concha cuesta $5-$8, el de camarón $7-$9, el de pescado $5-$7. La cazuela de mariscos para una persona $10-$12. La cocción es 100% del día — el pescado entra al sartén el mismo día que sale del barco."
+        },
+        {
+          "type": "p",
+          "text": "Ambiente sin lujo — mesas plásticas, ventiladores eléctricos, vajilla mixta. Lo que importa es la calidad del producto, que es brutal por el costo. Mejor llegar entre 12:00 y 13:00, después los platos del día se acaban."
+        }
       ]
     },
     {
       "h2": "Casetas del malecón norte ($6-$12)",
       "blocks": [
-        {"type": "p", "text": "El malecón Murciélago zona norte (cerca de Barbasquillo) tiene casetas familiares que sirven mariscos al aire libre. Ceviche en bandeja para llevar $6-$8, encocado de camarón con arroz $9-$11, arroz marinero $10-$12."},
-        {"type": "p", "text": "Mesa al aire libre con vista a la playa, sin pretensión. Las casetas más establecidas tienen carta laminada con fotos — buena señal. Las improvisadas pueden tener calidad inconsistente."}
+        {
+          "type": "p",
+          "text": "El malecón Murciélago zona norte (cerca de Barbasquillo) tiene casetas familiares que sirven mariscos al aire libre. Ceviche en bandeja para llevar $6-$8, encocado de camarón con arroz $9-$11, arroz marinero $10-$12."
+        },
+        {
+          "type": "p",
+          "text": "Mesa al aire libre con vista a la playa, sin pretensión. Las casetas más establecidas tienen carta laminada con fotos — buena señal. Las improvisadas pueden tener calidad inconsistente."
+        }
       ]
     },
     {
       "h2": "Marisquerías formales del malecón central ($10-$18)",
       "blocks": [
-        {"type": "p", "text": "La zona central del malecón Murciélago tiene 5-6 marisquerías clásicas con carta amplia, mesa con vista directa al mar, ambiente más turístico pero todavía honesto. Cazuela de mariscos $15-$18, langostinos al ajillo $18-$22, ceviche manabita $10-$14."},
-        {"type": "p", "text": "Calidad consistente. Pago la prima por la ubicación con vista directa y el servicio más cuidado. Los precios reflejan eso. Mejor con reserva los sábados o llegar antes de las 13:00."},
-        {"type": "quote", "text": "El truco de comer marisco en Manta es entender que la calidad del producto en Tarqui es igual que en restaurante de $25 — sale del mismo puerto, mismo día. Lo que pagas en restaurante caro es la mesa, el aire acondicionado, el mantelado. Si tu prioridad es la calidad del pescado, Tarqui gana siempre.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "La zona central del malecón Murciélago tiene 5-6 marisquerías clásicas con carta amplia, mesa con vista directa al mar, ambiente más turístico pero todavía honesto. Cazuela de mariscos $15-$18, langostinos al ajillo $18-$22, ceviche manabita $10-$14."
+        },
+        {
+          "type": "p",
+          "text": "Calidad consistente. Pago la prima por la ubicación con vista directa y el servicio más cuidado. Los precios reflejan eso. Mejor con reserva los sábados o llegar antes de las 13:00."
+        },
+        {
+          "type": "quote",
+          "text": "El truco de comer marisco en Manta es entender que la calidad del producto en Tarqui es igual que en restaurante de $25 — sale del mismo puerto, mismo día. Lo que pagas en restaurante caro es la mesa, el aire acondicionado, el mantelado. Si tu prioridad es la calidad del pescado, Tarqui gana siempre.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Restaurantes formales ($15-$25)",
       "blocks": [
-        {"type": "p", "text": "En av. Flavio Reyes y zona Barbasquillo hay restaurantes con propuesta más elaborada — mariscos con presentación cuidada, salsas más complejas, vino y coctel acompañando. Precios: $15-$25 por plato fuerte. Cazuela gourmet con quinua manabita $18-$22, pesca blanca con risotto de mariscos $22-$28."},
-        {"type": "p", "text": "Lo bueno: ambiente, servicio, presentación. Lo cuestionable: la calidad del marisco base es la misma que en Tarqui. Pagas la cocina elaborada, no mejor producto."}
+        {
+          "type": "p",
+          "text": "En av. Flavio Reyes y zona Barbasquillo hay restaurantes con propuesta más elaborada — mariscos con presentación cuidada, salsas más complejas, vino y coctel acompañando. Precios: $15-$25 por plato fuerte. Cazuela gourmet con quinua manabita $18-$22, pesca blanca con risotto de mariscos $22-$28."
+        },
+        {
+          "type": "p",
+          "text": "Lo bueno: ambiente, servicio, presentación. Lo cuestionable: la calidad del marisco base es la misma que en Tarqui. Pagas la cocina elaborada, no mejor producto."
+        }
       ]
     },
     {
       "h2": "Comparativa por opción y plato",
       "blocks": [
-        {"type": "table",
-          "headers": ["Plato", "Tarqui", "Casetas malecón", "Marisquería formal", "Restaurante elaborado"],
+        {
+          "type": "table",
+          "headers": [
+            "Plato",
+            "Tarqui",
+            "Casetas malecón",
+            "Marisquería formal",
+            "Restaurante elaborado"
+          ],
           "rows": [
-            ["Ceviche manabita", "$5-$8", "$8-$10", "$10-$14", "$14-$18"],
-            ["Encocado pescado/camarón", "$8-$11", "$9-$11", "$13-$17", "$18-$22"],
-            ["Cazuela de mariscos", "$10-$12", "$12-$14", "$15-$18", "$18-$25"],
-            ["Pesca blanca a la grilla", "$8-$10", "$10-$12", "$14-$18", "$20-$28"],
-            ["Langostinos al ajillo", "$12-$15", "$14-$17", "$18-$22", "$22-$30"],
-            ["Sopa de mariscos / chupe", "$5-$7", "$7-$9", "$10-$14", "$14-$18"]
+            [
+              "Ceviche manabita",
+              "$5-$8",
+              "$8-$10",
+              "$10-$14",
+              "$14-$18"
+            ],
+            [
+              "Encocado pescado/camarón",
+              "$8-$11",
+              "$9-$11",
+              "$13-$17",
+              "$18-$22"
+            ],
+            [
+              "Cazuela de mariscos",
+              "$10-$12",
+              "$12-$14",
+              "$15-$18",
+              "$18-$25"
+            ],
+            [
+              "Pesca blanca a la grilla",
+              "$8-$10",
+              "$10-$12",
+              "$14-$18",
+              "$20-$28"
+            ],
+            [
+              "Langostinos al ajillo",
+              "$12-$15",
+              "$14-$17",
+              "$18-$22",
+              "$22-$30"
+            ],
+            [
+              "Sopa de mariscos / chupe",
+              "$5-$7",
+              "$7-$9",
+              "$10-$14",
+              "$14-$18"
+            ]
           ]
         }
       ]
@@ -64,18 +141,24 @@
     {
       "h2": "Lo que evitar",
       "blocks": [
-        {"type": "ul", "items": [
-          "Marisquerías de hoteles grandes con carta internacional: pescado generalmente congelado, precio inflado",
-          "Restaurantes turísticos con menú con fotos plastificadas: producción industrial, sin sabor local",
-          "Cualquier 'ceviche peruano' en zona turística: si quieres ceviche peruano, no en Manta — aquí el manabita es el real",
-          "Marisquerías sin clientela local visible: si solo ves turistas extranjeros, probablemente pagas premium sin recibir calidad"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "Marisquerías de hoteles grandes con carta internacional: pescado generalmente congelado, precio inflado",
+            "Restaurantes turísticos con menú con fotos plastificadas: producción industrial, sin sabor local",
+            "Cualquier 'ceviche peruano' en zona turística: si quieres ceviche peruano, no en Manta — aquí el manabita es el real",
+            "Marisquerías sin clientela local visible: si solo ves turistas extranjeros, probablemente pagas premium sin recibir calidad"
+          ]
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen las guías",
       "blocks": [
-        {"type": "p", "text": "Tres datos: primero, los lunes y martes el pescado del día puede ser de domingo — los pescadores no salen los lunes, conviene priorizar miércoles a sábado para pescado del día garantizado; segundo, las picanterías de Tarqui cobran a veces 30% más a turistas extranjeros sin avisar — preguntar en español ecuatoriano y la cifra baja; tercero, las marisquerías formales del malecón los sábados tienen lista de espera de 1+ hora sin reserva — llegar a las 12:30 exactas o reservar."}
+        {
+          "type": "p",
+          "text": "Tres datos: primero, los lunes y martes el pescado del día puede ser de domingo — los pescadores no salen los lunes, conviene priorizar miércoles a sábado para pescado del día garantizado; segundo, las picanterías de Tarqui cobran a veces 30% más a turistas extranjeros sin avisar — preguntar en español ecuatoriano y la cifra baja; tercero, las marisquerías formales del malecón los sábados tienen lista de espera de 1+ hora sin reserva — llegar a las 12:30 exactas o reservar."
+        }
       ]
     }
   ],
@@ -83,15 +166,39 @@
   "cta_paragraph": "En Luuma av. Flavio Reyes servimos mariscos del día — encocado de camarón, pesca blanca a la grilla, ceviche manabita. Precios entre marisquería formal y restaurante elaborado ($14-$22). Cena con vista directa al Pacífico.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Mariscos en Manta: ceviches y platos del mar", "url": "/gastronomia-manta/mariscos-manta-ceviches-platos-mar/"},
-    {"label": "Restaurantes en Manta según quien vive aquí", "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"},
-    {"label": "Almuerzos en Manta por zona", "url": "/gastronomia-manta/almuerzos-manta-por-zona/"}
+    {
+      "label": "Mariscos en Manta: ceviches y platos del mar",
+      "url": "/gastronomia-manta/mariscos-manta-ceviches-platos-mar/"
+    },
+    {
+      "label": "Restaurantes en Manta según quien vive aquí",
+      "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"
+    },
+    {
+      "label": "Almuerzos en Manta por zona",
+      "url": "/gastronomia-manta/almuerzos-manta-por-zona/"
+    }
   ],
   "faq": [
-    {"q": "¿Dónde comer mariscos baratos en Manta?", "a": "Tarqui es el rey del bajo costo: ceviche manabita $5-$8, encocado $8-$11, cazuela de mariscos $10-$12. Las casetas del malecón norte cobran un poco más ($6-$12) con ambiente al aire libre. Marisquerías formales del malecón central: $10-$18 por plato."},
-    {"q": "¿Cuánto cuesta un ceviche manabita en Manta?", "a": "$5 en picantería de Tarqui sin postureo, $8-$10 en caseta del malecón norte, $10-$14 en marisquería formal del malecón central, $14-$18 en restaurante con cocina elaborada de av. Flavio Reyes. La calidad del pescado base es similar en todas — pagas el ambiente."},
-    {"q": "¿Es seguro comer mariscos en las picanterías de Tarqui?", "a": "Sí, son seguras y muy frecuentadas por mantenses. Las picanterías de Tarqui son del puerto pesquero — el pescado entra al sartén el mismo día que sale del barco. Mejor calidad que muchos restaurantes formales a precio mucho menor."},
-    {"q": "¿Cuándo es el mejor día para comer pescado fresco en Manta?", "a": "Miércoles a sábado garantizado fresco del día. Los lunes y martes el pescado puede ser de domingo (los pescadores descansan los lunes). Si vas un lunes, preguntar al mesero qué llegó hoy y qué es del fin de semana."},
-    {"q": "¿Hay marisquerías con vista al mar en Manta?", "a": "Sí, las marisquerías del malecón Murciélago zona central tienen vista directa a la playa. Los rooftops de av. Flavio Reyes como Luuma tienen vista panorámica al Pacífico desde altura. Distintas vistas, distintos precios."}
+    {
+      "q": "¿Dónde comer mariscos baratos en Manta?",
+      "a": "Tarqui es el rey del bajo costo: ceviche manabita $5-$8, encocado $8-$11, cazuela de mariscos $10-$12. Las casetas del malecón norte cobran un poco más ($6-$12) con ambiente al aire libre. Marisquerías formales del malecón central: $10-$18 por plato."
+    },
+    {
+      "q": "¿Cuánto cuesta un ceviche manabita en Manta?",
+      "a": "$5 en picantería de Tarqui sin postureo, $8-$10 en caseta del malecón norte, $10-$14 en marisquería formal del malecón central, $14-$18 en restaurante con cocina elaborada de av. Flavio Reyes. La calidad del pescado base es similar en todas — pagas el ambiente."
+    },
+    {
+      "q": "¿Es seguro comer mariscos en las picanterías de Tarqui?",
+      "a": "Sí, son seguras y muy frecuentadas por mantenses. Las picanterías de Tarqui son del puerto pesquero — el pescado entra al sartén el mismo día que sale del barco. Mejor calidad que muchos restaurantes formales a precio mucho menor."
+    },
+    {
+      "q": "¿Cuándo es el mejor día para comer pescado fresco en Manta?",
+      "a": "Miércoles a sábado garantizado fresco del día. Los lunes y martes el pescado puede ser de domingo (los pescadores descansan los lunes). Si vas un lunes, preguntar al mesero qué llegó hoy y qué es del fin de semana."
+    },
+    {
+      "q": "¿Hay marisquerías con vista al mar en Manta?",
+      "a": "Sí, las marisquerías del malecón Murciélago zona central tienen vista directa a la playa. Los rooftops de av. Flavio Reyes como Luuma tienen vista panorámica al Pacífico desde altura. Distintas vistas, distintos precios."
+    }
   ]
 }

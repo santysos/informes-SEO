@@ -2,11 +2,17 @@
   "title": "Feriados largos en Manta: qué hacer y por qué reservar con dos semanas",
   "slug": "feriados-largos-manta-que-hacer",
   "status": "publish",
-  "date": "2026-10-07T11:00:00",
+  "date": "2026-06-24T18:00:00",
   "category_id": 11,
   "_category_slug": "eventos-entretenimiento",
   "featured_media": 670,
-  "tags": ["feriados manta", "carnaval manta", "semana santa manta", "feriado largo", "vacaciones manta"],
+  "tags": [
+    "feriados manta",
+    "carnaval manta",
+    "semana santa manta",
+    "feriado largo",
+    "vacaciones manta"
+  ],
   "excerpt": "Carnaval, Semana Santa, feriado de octubre y Navidad — Manta dobla su población en feriados largos. Te decimos qué esperar, qué evitar y por qué reservar todo con dos semanas no es exagerar.",
   "yoast_title": "Feriados largos en Manta: qué hacer y cómo prepararse",
   "yoast_metadesc": "Cómo es Manta en feriados largos: carnaval, semana santa, octubre, navidad. Qué reservar, qué evitar y dónde ir si quieres tranquilidad.",
@@ -19,45 +25,113 @@
     {
       "h2": "Carnaval (febrero/marzo)",
       "blocks": [
-        {"type": "p", "text": "El feriado más fuerte. 4-5 días continuos. Manta recibe principalmente visitantes de Guayaquil y Quito que quieren mar caliente y noches de fiesta. La playa Murciélago se llena desde las 8:00. Los rooftops tienen lista de espera. Los hoteles duplican precio."},
-        {"type": "p", "text": "Lo que reservar con 2-3 semanas: hotel (todos), mesa de cena en cualquier restaurante con vista, tour de excursión a Puerto López para ballenas. Lo que ir sin reserva: playas (siempre hay espacio), mercado central (abre normal), faro de San Lorenzo (sigue siendo poco conocido)."},
-        {"type": "p", "text": "Si quieres evitar la masa: ir a Pedernales o Canoa al norte (3 horas), o quedarse en hotel con piscina y no salir mucho. La ciudad en carnaval cambia carácter — más fiesta, más ruido, más policía visible."}
+        {
+          "type": "p",
+          "text": "El feriado más fuerte. 4-5 días continuos. Manta recibe principalmente visitantes de Guayaquil y Quito que quieren mar caliente y noches de fiesta. La playa Murciélago se llena desde las 8:00. Los rooftops tienen lista de espera. Los hoteles duplican precio."
+        },
+        {
+          "type": "p",
+          "text": "Lo que reservar con 2-3 semanas: hotel (todos), mesa de cena en cualquier restaurante con vista, tour de excursión a Puerto López para ballenas. Lo que ir sin reserva: playas (siempre hay espacio), mercado central (abre normal), faro de San Lorenzo (sigue siendo poco conocido)."
+        },
+        {
+          "type": "p",
+          "text": "Si quieres evitar la masa: ir a Pedernales o Canoa al norte (3 horas), o quedarse en hotel con piscina y no salir mucho. La ciudad en carnaval cambia carácter — más fiesta, más ruido, más policía visible."
+        }
       ]
     },
     {
       "h2": "Semana Santa (marzo/abril)",
       "blocks": [
-        {"type": "p", "text": "5 días continuos en general. Manta se llena con turismo familiar más calmado que carnaval. Mucho turismo religioso a Montecristi (Cristo del Refugio). Los restaurantes proponen menús de cuaresma con pescado y mariscos — buena oportunidad para probar cocina manabita."},
-        {"type": "p", "text": "Lo que reservar con 2 semanas: hotel céntrico (siempre llenos), restaurante de cena de Viernes Santo (toda la familia católica sale), tour a Los Frailes y Puerto López (avistamiento de ballenas arranca en mayo así que en Semana Santa todavía no es prioritario)."},
-        {"type": "p", "text": "Lo que aprovechar: muchos restaurantes ofrecen menú degustación de pescado a precio especial. Tradiciones locales como la procesión del Viernes Santo en Montecristi son experiencias culturales únicas."}
+        {
+          "type": "p",
+          "text": "5 días continuos en general. Manta se llena con turismo familiar más calmado que carnaval. Mucho turismo religioso a Montecristi (Cristo del Refugio). Los restaurantes proponen menús de cuaresma con pescado y mariscos — buena oportunidad para probar cocina manabita."
+        },
+        {
+          "type": "p",
+          "text": "Lo que reservar con 2 semanas: hotel céntrico (siempre llenos), restaurante de cena de Viernes Santo (toda la familia católica sale), tour a Los Frailes y Puerto López (avistamiento de ballenas arranca en mayo así que en Semana Santa todavía no es prioritario)."
+        },
+        {
+          "type": "p",
+          "text": "Lo que aprovechar: muchos restaurantes ofrecen menú degustación de pescado a precio especial. Tradiciones locales como la procesión del Viernes Santo en Montecristi son experiencias culturales únicas."
+        }
       ]
     },
     {
       "h2": "Feriado de octubre (Independencia de Guayaquil)",
       "blocks": [
-        {"type": "p", "text": "3-4 días en octubre. Menos masivo que carnaval pero igual incremento notable. La temperatura ya es más fresca (verano costero), las playas calmadas, las marisquerías llenas pero sin lista de espera."},
-        {"type": "p", "text": "Buen feriado para visitar Manta si quieres ambiente activo sin el caos del carnaval. Reservar hotel con 1 semana basta. Mesa de cena con 3-4 días de anticipación. Eventos culturales y conciertos en el malecón Murciélago."},
-        {"type": "quote", "text": "El feriado de octubre es probablemente nuestro favorito. Hay buena energía en la ciudad, los restaurantes están llenos pero no caóticos, el clima ya no es agobiante. Para los que vienen de visita por primera vez, ese feriado refleja a Manta mejor que el carnaval lleno o la semana santa religiosa.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "3-4 días en octubre. Menos masivo que carnaval pero igual incremento notable. La temperatura ya es más fresca (verano costero), las playas calmadas, las marisquerías llenas pero sin lista de espera."
+        },
+        {
+          "type": "p",
+          "text": "Buen feriado para visitar Manta si quieres ambiente activo sin el caos del carnaval. Reservar hotel con 1 semana basta. Mesa de cena con 3-4 días de anticipación. Eventos culturales y conciertos en el malecón Murciélago."
+        },
+        {
+          "type": "quote",
+          "text": "El feriado de octubre es probablemente nuestro favorito. Hay buena energía en la ciudad, los restaurantes están llenos pero no caóticos, el clima ya no es agobiante. Para los que vienen de visita por primera vez, ese feriado refleja a Manta mejor que el carnaval lleno o la semana santa religiosa.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Navidad - Año Nuevo",
       "blocks": [
-        {"type": "p", "text": "El feriado más largo y el más mixto. Familias ecuatorianas se reúnen en casas, así que algunos restaurantes cierran 25 de diciembre y 1 de enero. Otros operan con menú especial. El 31 de diciembre y 1 de enero los rooftops y bares con DJ se llenan al máximo."},
-        {"type": "p", "text": "Lo que reservar con 3-4 semanas: cena de Año Nuevo en cualquier restaurante con propuesta, hotel para fin de año, tour de fuegos artificiales en el malecón. Lo que confirmar: qué restaurantes están abiertos los días específicos (varía cada año)."},
-        {"type": "p", "text": "Precio de cena de fin de año: $40-$120 por persona según restaurante. Promedio en rooftop con menú degustación más coctel: $80-$100. Vale la pena reservar muy temprano — las mesas con vista directa se agotan en noviembre."}
+        {
+          "type": "p",
+          "text": "El feriado más largo y el más mixto. Familias ecuatorianas se reúnen en casas, así que algunos restaurantes cierran 25 de diciembre y 1 de enero. Otros operan con menú especial. El 31 de diciembre y 1 de enero los rooftops y bares con DJ se llenan al máximo."
+        },
+        {
+          "type": "p",
+          "text": "Lo que reservar con 3-4 semanas: cena de Año Nuevo en cualquier restaurante con propuesta, hotel para fin de año, tour de fuegos artificiales en el malecón. Lo que confirmar: qué restaurantes están abiertos los días específicos (varía cada año)."
+        },
+        {
+          "type": "p",
+          "text": "Precio de cena de fin de año: $40-$120 por persona según restaurante. Promedio en rooftop con menú degustación más coctel: $80-$100. Vale la pena reservar muy temprano — las mesas con vista directa se agotan en noviembre."
+        }
       ]
     },
     {
       "h2": "Comparativa de los 4 feriados",
       "blocks": [
-        {"type": "table",
-          "headers": ["Feriado", "Días", "Carácter", "Anticipación reserva", "Subida precio hotel"],
+        {
+          "type": "table",
+          "headers": [
+            "Feriado",
+            "Días",
+            "Carácter",
+            "Anticipación reserva",
+            "Subida precio hotel"
+          ],
           "rows": [
-            ["Carnaval", "4-5", "Fiesta jóvenes", "2-3 semanas", "40-60%"],
-            ["Semana Santa", "5", "Familiar / religioso", "2 semanas", "25-40%"],
-            ["Feriado Octubre", "3-4", "Activo balanceado", "1 semana", "15-25%"],
-            ["Navidad/Año Nuevo", "10-14", "Familiar / fiesta fin año", "3-4 semanas", "30-50%"]
+            [
+              "Carnaval",
+              "4-5",
+              "Fiesta jóvenes",
+              "2-3 semanas",
+              "40-60%"
+            ],
+            [
+              "Semana Santa",
+              "5",
+              "Familiar / religioso",
+              "2 semanas",
+              "25-40%"
+            ],
+            [
+              "Feriado Octubre",
+              "3-4",
+              "Activo balanceado",
+              "1 semana",
+              "15-25%"
+            ],
+            [
+              "Navidad/Año Nuevo",
+              "10-14",
+              "Familiar / fiesta fin año",
+              "3-4 semanas",
+              "30-50%"
+            ]
           ]
         }
       ]
@@ -65,19 +139,28 @@
     {
       "h2": "Cómo escapar de la masa",
       "blocks": [
-        {"type": "p", "text": "Si vienes a Manta y NO sabías que era feriado:"},
-        {"type": "ul", "items": [
-          "Ir al faro de San Lorenzo temprano mañana — poco conocido, sigue tranquilo",
-          "Visitar Pedernales o Canoa (3 horas norte) — menos masivo",
-          "Almorzar en restaurantes de Barbasquillo en lugar de zona malecón — menos turismo",
-          "Hospedarse en hotel boutique fuera del centro de Manta (Crucita, Bahía de Caráquez)"
-        ]}
+        {
+          "type": "p",
+          "text": "Si vienes a Manta y NO sabías que era feriado:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ir al faro de San Lorenzo temprano mañana — poco conocido, sigue tranquilo",
+            "Visitar Pedernales o Canoa (3 horas norte) — menos masivo",
+            "Almorzar en restaurantes de Barbasquillo en lugar de zona malecón — menos turismo",
+            "Hospedarse en hotel boutique fuera del centro de Manta (Crucita, Bahía de Caráquez)"
+          ]
+        }
       ]
     },
     {
       "h2": "Lo que aprende quien vive aquí",
       "blocks": [
-        {"type": "p", "text": "Tres reglas: primero, los taxis duplican tarifa en feriado largo — confirmar precio antes de subir; segundo, los supermercados se quedan sin productos básicos el día previo al feriado — abastecerse antes; tercero, los rooftops y restaurantes con DJ son los lugares donde la diferencia entre feriado y semana normal es más extrema — si quieres ambiente normal, evitarlos."}
+        {
+          "type": "p",
+          "text": "Tres reglas: primero, los taxis duplican tarifa en feriado largo — confirmar precio antes de subir; segundo, los supermercados se quedan sin productos básicos el día previo al feriado — abastecerse antes; tercero, los rooftops y restaurantes con DJ son los lugares donde la diferencia entre feriado y semana normal es más extrema — si quieres ambiente normal, evitarlos."
+        }
       ]
     }
   ],
@@ -85,14 +168,35 @@
   "cta_paragraph": "Si vienes en feriado, reserva mesa en Luuma con 2-4 semanas. Mesa con vista al Pacífico al atardecer es la primera en agotarse. Menús degustación especiales en fechas clave (fin de año, Año Nuevo). Confirmar con WhatsApp con tiempo suficiente.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Qué hacer este fin de semana en Manta", "url": "/eventos-entretenimiento/que-hacer-fin-de-semana-manta/"},
-    {"label": "Planes en familia en Manta", "url": "/eventos-entretenimiento/planes-familia-manta-fin-de-semana/"},
-    {"label": "De Guayaquil/Quito a Manta", "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"}
+    {
+      "label": "Qué hacer este fin de semana en Manta",
+      "url": "/eventos-entretenimiento/que-hacer-fin-de-semana-manta/"
+    },
+    {
+      "label": "Planes en familia en Manta",
+      "url": "/eventos-entretenimiento/planes-familia-manta-fin-de-semana/"
+    },
+    {
+      "label": "De Guayaquil/Quito a Manta",
+      "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"
+    }
   ],
   "faq": [
-    {"q": "¿Cuándo son los feriados largos en Manta?", "a": "Carnaval (febrero/marzo, 4-5 días), Semana Santa (marzo/abril, 5 días), feriado de octubre (Independencia Guayaquil, 3-4 días), Navidad-Año Nuevo (10-14 días). En cada uno la población se duplica y los precios suben 15-60% según servicio."},
-    {"q": "¿Hay que reservar hotel en feriado en Manta?", "a": "Sí. Carnaval y Año Nuevo: 3-4 semanas antes. Semana Santa: 2 semanas. Feriado de octubre: 1 semana. Sin reserva en estos días, encontrar hotel céntrico es muy difícil y los precios suben 25-60%."},
-    {"q": "¿Cómo escapar de la masa turística en feriado en Manta?", "a": "Ir al faro de San Lorenzo temprano mañana (poco conocido), visitar Pedernales o Canoa (3 horas norte, menos masivo), almorzar en Barbasquillo en lugar del malecón, hospedarse en hotel boutique fuera del centro (Crucita, Bahía de Caráquez)."},
-    {"q": "¿Cuánto cuesta cenar en Manta en feriado?", "a": "30-50% más que día normal según restaurante. Rooftop con menú de fin de año: $80-$120 por persona. Marisquería del malecón en carnaval: $25-$35 por persona. Restaurante en feriado de octubre: similar a día normal con ligero incremento del 10-20%."}
+    {
+      "q": "¿Cuándo son los feriados largos en Manta?",
+      "a": "Carnaval (febrero/marzo, 4-5 días), Semana Santa (marzo/abril, 5 días), feriado de octubre (Independencia Guayaquil, 3-4 días), Navidad-Año Nuevo (10-14 días). En cada uno la población se duplica y los precios suben 15-60% según servicio."
+    },
+    {
+      "q": "¿Hay que reservar hotel en feriado en Manta?",
+      "a": "Sí. Carnaval y Año Nuevo: 3-4 semanas antes. Semana Santa: 2 semanas. Feriado de octubre: 1 semana. Sin reserva en estos días, encontrar hotel céntrico es muy difícil y los precios suben 25-60%."
+    },
+    {
+      "q": "¿Cómo escapar de la masa turística en feriado en Manta?",
+      "a": "Ir al faro de San Lorenzo temprano mañana (poco conocido), visitar Pedernales o Canoa (3 horas norte, menos masivo), almorzar en Barbasquillo en lugar del malecón, hospedarse en hotel boutique fuera del centro (Crucita, Bahía de Caráquez)."
+    },
+    {
+      "q": "¿Cuánto cuesta cenar en Manta en feriado?",
+      "a": "30-50% más que día normal según restaurante. Rooftop con menú de fin de año: $80-$120 por persona. Marisquería del malecón en carnaval: $25-$35 por persona. Restaurante en feriado de octubre: similar a día normal con ligero incremento del 10-20%."
+    }
   ]
 }

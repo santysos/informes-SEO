@@ -2,11 +2,17 @@
   "title": "Salsa de maní manabita: receta base que se usa en todo",
   "slug": "salsa-mani-manabita-receta-base",
   "status": "publish",
-  "date": "2026-10-03T11:00:00",
+  "date": "2026-06-24T11:00:00",
   "category_id": 12,
   "_category_slug": "recetas-cocina",
   "featured_media": 766,
-  "tags": ["salsa de maní", "salsa manabita", "maní tostado", "receta base manabita", "comida tradicional"],
+  "tags": [
+    "salsa de maní",
+    "salsa manabita",
+    "maní tostado",
+    "receta base manabita",
+    "comida tradicional"
+  ],
   "excerpt": "La salsa de maní manabita es la base de muchos platos — bollo, corviche, encocado. Te enseñamos la receta tradicional, los errores comunes y por qué el maní tostado del día cambia todo.",
   "yoast_title": "Salsa de maní manabita: receta tradicional paso a paso",
   "yoast_metadesc": "Receta de la salsa de maní manabita real: maní tostado el día, achiote, leche o agua. Base de muchos platos. Errores comunes a evitar.",
@@ -19,67 +25,110 @@
     {
       "h2": "La regla número uno: maní tostado el día",
       "blocks": [
-        {"type": "p", "text": "El maní comprado pelado en funda funciona técnicamente pero produce salsa sin alma. El maní crudo tostado el mismo día en sartén sin aceite libera aromas a tierra y leve dulzura que el procesado pierde. La diferencia se nota desde el primer bocado."},
-        {"type": "p", "text": "Cómo tostar el maní: en sartén caliente sin aceite, mover constante 5-7 minutos hasta dorar uniforme. Cuidar que no se queme — pasa de dorado perfecto a quemado en 30 segundos. Apagar fuego y dejar enfriar antes de moler. La piel rojiza del maní queda en la salsa — es parte del sabor."}
+        {
+          "type": "p",
+          "text": "El maní comprado pelado en funda funciona técnicamente pero produce salsa sin alma. El maní crudo tostado el mismo día en sartén sin aceite libera aromas a tierra y leve dulzura que el procesado pierde. La diferencia se nota desde el primer bocado."
+        },
+        {
+          "type": "p",
+          "text": "Cómo tostar el maní: en sartén caliente sin aceite, mover constante 5-7 minutos hasta dorar uniforme. Cuidar que no se queme — pasa de dorado perfecto a quemado en 30 segundos. Apagar fuego y dejar enfriar antes de moler. La piel rojiza del maní queda en la salsa — es parte del sabor."
+        }
       ]
     },
     {
       "h2": "Ingredientes (salsa para 4 porciones)",
       "blocks": [
-        {"type": "ul", "items": [
-          "1 taza de maní tostado y molido fino (mortero o procesadora)",
-          "1/2 taza de leche evaporada (versión cremosa) o agua (versión liviana)",
-          "1 cucharada de aceite o achiote casero",
-          "1 cebolla colorada pequeña en cuadritos finos",
-          "2 dientes de ajo machacados",
-          "1 cucharadita de comino",
-          "Sal al gusto",
-          "Opcional: 1 cucharada de cilantro fresco picado al final"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "1 taza de maní tostado y molido fino (mortero o procesadora)",
+            "1/2 taza de leche evaporada (versión cremosa) o agua (versión liviana)",
+            "1 cucharada de aceite o achiote casero",
+            "1 cebolla colorada pequeña en cuadritos finos",
+            "2 dientes de ajo machacados",
+            "1 cucharadita de comino",
+            "Sal al gusto",
+            "Opcional: 1 cucharada de cilantro fresco picado al final"
+          ]
+        }
       ]
     },
     {
       "h2": "Paso a paso (15 min)",
       "blocks": [
-        {"type": "ul", "items": [
-          "1. En sartén pequeña, calienta achiote o aceite a fuego medio",
-          "2. Agrega cebolla colorada y ajo. Sofríe 4 min hasta transparente",
-          "3. Agrega comino y mezcla 30 segundos",
-          "4. Agrega el maní molido. Mezcla bien para que el maní absorba la cebolla y el achiote",
-          "5. Agrega la leche evaporada o el agua poco a poco mientras mueves",
-          "6. Cocina 5-7 minutos a fuego bajo, moviendo constante para evitar que se pegue",
-          "7. Sazona con sal. Verifica consistencia — debe ser cremoso, ni muy espeso ni líquido",
-          "8. Apaga fuego, agrega cilantro fresco picado si quieres. Reposa 5 minutos antes de servir"
-        ]}
+        {
+          "type": "ul",
+          "items": [
+            "1. En sartén pequeña, calienta achiote o aceite a fuego medio",
+            "2. Agrega cebolla colorada y ajo. Sofríe 4 min hasta transparente",
+            "3. Agrega comino y mezcla 30 segundos",
+            "4. Agrega el maní molido. Mezcla bien para que el maní absorba la cebolla y el achiote",
+            "5. Agrega la leche evaporada o el agua poco a poco mientras mueves",
+            "6. Cocina 5-7 minutos a fuego bajo, moviendo constante para evitar que se pegue",
+            "7. Sazona con sal. Verifica consistencia — debe ser cremoso, ni muy espeso ni líquido",
+            "8. Apaga fuego, agrega cilantro fresco picado si quieres. Reposa 5 minutos antes de servir"
+          ]
+        }
       ]
     },
     {
       "h2": "Los errores comunes",
       "blocks": [
-        {"type": "p", "text": "Tres errores que arruinan la salsa de maní:"},
-        {"type": "ul", "items": [
-          "Maní de funda pelado: salsa pálida, sin sabor profundo",
-          "Quemar el maní al tostar: amargor que no se quita con nada",
-          "Líquido muy rápido: el maní no integra, queda salsa con grumos separados del líquido"
-        ]},
-        {"type": "quote", "text": "El error más común que vemos cuando alguien aprende a hacer salsa de maní es la prisa al final. Agregan toda la leche de golpe, suben fuego, y la salsa se separa. Lo que enseñamos: poco líquido a la vez, fuego bajo, moviendo. Tarda 5 minutos más pero la salsa queda completamente distinta.", "citation": "Equipo de cocina de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Tres errores que arruinan la salsa de maní:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Maní de funda pelado: salsa pálida, sin sabor profundo",
+            "Quemar el maní al tostar: amargor que no se quita con nada",
+            "Líquido muy rápido: el maní no integra, queda salsa con grumos separados del líquido"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "El error más común que vemos cuando alguien aprende a hacer salsa de maní es la prisa al final. Agregan toda la leche de golpe, suben fuego, y la salsa se separa. Lo que enseñamos: poco líquido a la vez, fuego bajo, moviendo. Tarda 5 minutos más pero la salsa queda completamente distinta.",
+          "citation": "Equipo de cocina de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Variaciones según el uso",
       "blocks": [
-        {"type": "h3", "text": "Para corviche y bollo: salsa más espesa"},
-        {"type": "p", "text": "Usar leche evaporada en lugar de agua. Cantidad de líquido menor (1/3 taza). Resultado: salsa cremosa que se sostiene cuando se sirve aparte como dip."},
-        {"type": "h3", "text": "Para viche y encocado: salsa más líquida"},
-        {"type": "p", "text": "Usar agua en lugar de leche. Cantidad de líquido mayor (3/4 taza). Resultado: salsa que se integra al guiso sin espesarlo demasiado."},
-        {"type": "h3", "text": "Para sancocho: salsa concentrada"},
-        {"type": "p", "text": "Maní molido sin liquido extra, agregado directo a la sopa al final. Se diluye con el caldo del sancocho mismo. Aporta sabor sin cambiar consistencia."}
+        {
+          "type": "h3",
+          "text": "Para corviche y bollo: salsa más espesa"
+        },
+        {
+          "type": "p",
+          "text": "Usar leche evaporada en lugar de agua. Cantidad de líquido menor (1/3 taza). Resultado: salsa cremosa que se sostiene cuando se sirve aparte como dip."
+        },
+        {
+          "type": "h3",
+          "text": "Para viche y encocado: salsa más líquida"
+        },
+        {
+          "type": "p",
+          "text": "Usar agua en lugar de leche. Cantidad de líquido mayor (3/4 taza). Resultado: salsa que se integra al guiso sin espesarlo demasiado."
+        },
+        {
+          "type": "h3",
+          "text": "Para sancocho: salsa concentrada"
+        },
+        {
+          "type": "p",
+          "text": "Maní molido sin liquido extra, agregado directo a la sopa al final. Se diluye con el caldo del sancocho mismo. Aporta sabor sin cambiar consistencia."
+        }
       ]
     },
     {
       "h2": "Lo que no te dicen los libros",
       "blocks": [
-        {"type": "p", "text": "Tres trucos: primero, agregar 1 cucharada de panela rallada al final aporta dulzor sutil que potencia el maní — versión más tradicional de pueblos del interior; segundo, la salsa de maní se conserva 4-5 días en nevera en frasco hermético — vale la pena hacer doble porción; tercero, la salsa se vuelve más sabrosa al día siguiente — si la haces para invitados, prepárala el día anterior."}
+        {
+          "type": "p",
+          "text": "Tres trucos: primero, agregar 1 cucharada de panela rallada al final aporta dulzor sutil que potencia el maní — versión más tradicional de pueblos del interior; segundo, la salsa de maní se conserva 4-5 días en nevera en frasco hermético — vale la pena hacer doble porción; tercero, la salsa se vuelve más sabrosa al día siguiente — si la haces para invitados, prepárala el día anterior."
+        }
       ]
     }
   ],
@@ -87,14 +136,35 @@
   "cta_paragraph": "En Luuma servimos salsa de maní manabita hecha del día — acompaña los bollos, el corviche y el ceviche manabita en versión rooftop. Mejor para almuerzo cuando la cocina está en plena producción del día.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Corviche manabita: receta tradicional", "url": "/recetas-cocina/corviche-receta-tradicional/"},
-    {"label": "Bollo manabita: receta tradicional", "url": "/recetas-cocina/bollo-manabita-receta-tradicional/"},
-    {"label": "Encocado de pescado manabita receta", "url": "/recetas-cocina/encocado-pescado-receta-manabita/"}
+    {
+      "label": "Corviche manabita: receta tradicional",
+      "url": "/recetas-cocina/corviche-receta-tradicional/"
+    },
+    {
+      "label": "Bollo manabita: receta tradicional",
+      "url": "/recetas-cocina/bollo-manabita-receta-tradicional/"
+    },
+    {
+      "label": "Encocado de pescado manabita receta",
+      "url": "/recetas-cocina/encocado-pescado-receta-manabita/"
+    }
   ],
   "faq": [
-    {"q": "¿Qué es la salsa de maní manabita?", "a": "Base de la cocina manabita — maní tostado y molido cocinado con cebolla colorada, ajo, comino y achiote, diluido con leche evaporada o agua. Acompaña corviche, bollo, ceviche manabita. Aporta el sabor tierra del maní tostado a casi todos los platos manabitas."},
-    {"q": "¿Por qué el maní tostado el día importa?", "a": "El maní comprado pelado en funda funciona técnicamente pero produce salsa sin alma. El maní crudo tostado el mismo día en sartén sin aceite libera aromas a tierra y leve dulzura que el procesado pierde. La diferencia se nota desde el primer bocado."},
-    {"q": "¿Cuánto dura la salsa de maní en nevera?", "a": "4-5 días en frasco hermético. Mejora al día siguiente — los sabores se integran. Si vas a hacer para invitados, prepararla el día anterior. No congelar — al descongelar se separa la grasa del maní y queda granulosa."},
-    {"q": "¿Cómo arreglar salsa de maní separada?", "a": "Bajar fuego, agregar 2 cucharadas de agua tibia, batir enérgico con tenedor hasta integrar. Si está muy espesa, agregar líquido poco a poco. Si está muy líquida, cocinar más tiempo a fuego bajo destapado para reducir. Mover constante."}
+    {
+      "q": "¿Qué es la salsa de maní manabita?",
+      "a": "Base de la cocina manabita — maní tostado y molido cocinado con cebolla colorada, ajo, comino y achiote, diluido con leche evaporada o agua. Acompaña corviche, bollo, ceviche manabita. Aporta el sabor tierra del maní tostado a casi todos los platos manabitas."
+    },
+    {
+      "q": "¿Por qué el maní tostado el día importa?",
+      "a": "El maní comprado pelado en funda funciona técnicamente pero produce salsa sin alma. El maní crudo tostado el mismo día en sartén sin aceite libera aromas a tierra y leve dulzura que el procesado pierde. La diferencia se nota desde el primer bocado."
+    },
+    {
+      "q": "¿Cuánto dura la salsa de maní en nevera?",
+      "a": "4-5 días en frasco hermético. Mejora al día siguiente — los sabores se integran. Si vas a hacer para invitados, prepararla el día anterior. No congelar — al descongelar se separa la grasa del maní y queda granulosa."
+    },
+    {
+      "q": "¿Cómo arreglar salsa de maní separada?",
+      "a": "Bajar fuego, agregar 2 cucharadas de agua tibia, batir enérgico con tenedor hasta integrar. Si está muy espesa, agregar líquido poco a poco. Si está muy líquida, cocinar más tiempo a fuego bajo destapado para reducir. Mover constante."
+    }
   ]
 }

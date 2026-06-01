@@ -3,11 +3,18 @@
   "title": "De Guayaquil o Quito a Manta: ruta, tiempos y por dónde empezar",
   "slug": "visitar-manta-desde-guayaquil-quito",
   "status": "publish",
-  "date": "2026-06-22T11:00:00",
+  "date": "2026-06-10T11:00:00",
   "category_id": 10,
   "_category_slug": "vida-en-manta",
   "featured_media": 664,
-  "tags": ["manta ecuador", "viajar a manta", "manta desde guayaquil", "manta desde quito", "fin de semana manta", "qué hacer manta"],
+  "tags": [
+    "manta ecuador",
+    "viajar a manta",
+    "manta desde guayaquil",
+    "manta desde quito",
+    "fin de semana manta",
+    "qué hacer manta"
+  ],
   "excerpt": "Cómo llegar a Manta desde Guayaquil o Quito, cuánto cuesta el bus o el avión, qué hacer el primer día, dónde dormir y por qué la cena con vista al Pacífico debería ser la primera reserva.",
   "yoast_title": "De Guayaquil o Quito a Manta: ruta, costos y plan fin de semana",
   "yoast_metadesc": "Cómo llegar de Guayaquil o Quito a Manta, cuánto cuesta el bus o auto, qué hacer el primer día y dónde cenar rooftop con vista al Pacífico.",
@@ -20,51 +27,121 @@
     {
       "h2": "Cómo llegar desde Guayaquil",
       "blocks": [
-        {"type": "p", "text": "Guayaquil está a 3 horas en auto particular por la ruta Spondylus (E15). En bus son 3:30 a 4 horas si el tráfico ayuda. Las dos cooperativas más recomendables son Reina del Camino y Manantial. Pasaje entre $5 y $7. Salidas cada 30 minutos desde la Terminal Terrestre de Guayaquil."},
-        {"type": "p", "text": "Si vienes en auto particular, llena tanque en Jipijapa antes de entrar a Manta — las gasolineras de Manta tienen filas largas los viernes. Estaciona en Flavio Reyes o cerca del malecón Murciélago; el centro no tiene parqueo."}
+        {
+          "type": "p",
+          "text": "Guayaquil está a 3 horas en auto particular por la ruta Spondylus (E15). En bus son 3:30 a 4 horas si el tráfico ayuda. Las dos cooperativas más recomendables son Reina del Camino y Manantial. Pasaje entre $5 y $7. Salidas cada 30 minutos desde la Terminal Terrestre de Guayaquil."
+        },
+        {
+          "type": "p",
+          "text": "Si vienes en auto particular, llena tanque en Jipijapa antes de entrar a Manta — las gasolineras de Manta tienen filas largas los viernes. Estaciona en Flavio Reyes o cerca del malecón Murciélago; el centro no tiene parqueo."
+        }
       ]
     },
     {
       "h2": "Cómo llegar desde Quito",
       "blocks": [
-        {"type": "p", "text": "Desde Quito tienes dos opciones: avión (45 minutos, $80 a $140 ida con LATAM o Avianca) o bus nocturno (10–11 horas, $15–$18). El aeropuerto Eloy Alfaro queda a 15 minutos en taxi del malecón ($5 por carrera). El bus llega a la Terminal Terrestre de Manta, a 10 minutos del centro."},
-        {"type": "p", "text": "Si vienes solo dos noches, el avión vale la pena — el bus nocturno te quema el primer día. Si vienes tres noches o más, el bus es razonable. Compra ticket con al menos 48 horas de anticipación en feriados."}
+        {
+          "type": "p",
+          "text": "Desde Quito tienes dos opciones: avión (45 minutos, $80 a $140 ida con LATAM o Avianca) o bus nocturno (10–11 horas, $15–$18). El aeropuerto Eloy Alfaro queda a 15 minutos en taxi del malecón ($5 por carrera). El bus llega a la Terminal Terrestre de Manta, a 10 minutos del centro."
+        },
+        {
+          "type": "p",
+          "text": "Si vienes solo dos noches, el avión vale la pena — el bus nocturno te quema el primer día. Si vienes tres noches o más, el bus es razonable. Compra ticket con al menos 48 horas de anticipación en feriados."
+        }
       ]
     },
     {
       "h2": "Tu primera tarde en Manta",
       "blocks": [
-        {"type": "p", "text": "Si llegas viernes al mediodía, suelta maletas, almuerza viche o ceviche manabita en una picantería de Tarqui ($7 a $9) y descansa hasta las 17:00. Luego camina por el malecón Murciélago hasta ver el atardecer — en Manta el sol cae detrás del Pacífico a las 18:15 aproximadamente todo el año."},
-        {"type": "p", "text": "Para la primera noche recomendamos cena en rooftop. Hacer reserva con tiempo: los viernes la vista al mar se llena. En Luuma servimos cena entre 19:00 y 22:30 — primera entrada de turno a las 19:30 es la mejor para coincidir con el final del atardecer."}
+        {
+          "type": "p",
+          "text": "Si llegas viernes al mediodía, suelta maletas, almuerza viche o ceviche manabita en una picantería de Tarqui ($7 a $9) y descansa hasta las 17:00. Luego camina por el malecón Murciélago hasta ver el atardecer — en Manta el sol cae detrás del Pacífico a las 18:15 aproximadamente todo el año."
+        },
+        {
+          "type": "p",
+          "text": "Para la primera noche recomendamos cena en rooftop. Hacer reserva con tiempo: los viernes la vista al mar se llena. En Luuma servimos cena entre 19:00 y 22:30 — primera entrada de turno a las 19:30 es la mejor para coincidir con el final del atardecer."
+        }
       ]
     },
     {
       "h2": "Sábado: playa + cena más relajada",
       "blocks": [
-        {"type": "p", "text": "Sábado en la mañana, opciones de playa según tu plan: Murciélago es la urbana, llena de gente, restaurantes al lado. San Mateo (a 20 minutos en taxi) es la de pescadores, sin turistas, con ceviche fresco al pie del mar. Santa Marianita (40 minutos) es kitesurf, viento fuerte de tarde."},
-        {"type": "p", "text": "Para el almuerzo del sábado, los almuerzos por zona en Manta cambian completamente la perspectiva: en Tarqui te dan menú manabita auténtico por $7, en La Quadra tienes patio gastronómico con 8 propuestas distintas a $10–$18, en el malecón cenas con vista. Recomendamos no cenar en el mismo lugar dos noches seguidas — Manta tiene variedad y vale la pena moverse."},
-        {"type": "quote", "text": "El plan que recomendamos a los visitantes de Quito y Guayaquil es: almuerzo manabita el sábado en Tarqui, playa San Mateo en la tarde, cena tranquila en alguna marisquería del malecón Murciélago. Domingo, brunch en Barbasquillo y vuelta.", "citation": "Equipo de Luuma Rooftop"}
+        {
+          "type": "p",
+          "text": "Sábado en la mañana, opciones de playa según tu plan: Murciélago es la urbana, llena de gente, restaurantes al lado. San Mateo (a 20 minutos en taxi) es la de pescadores, sin turistas, con ceviche fresco al pie del mar. Santa Marianita (40 minutos) es kitesurf, viento fuerte de tarde."
+        },
+        {
+          "type": "p",
+          "text": "Para el almuerzo del sábado, los almuerzos por zona en Manta cambian completamente la perspectiva: en Tarqui te dan menú manabita auténtico por $7, en La Quadra tienes patio gastronómico con 8 propuestas distintas a $10–$18, en el malecón cenas con vista. Recomendamos no cenar en el mismo lugar dos noches seguidas — Manta tiene variedad y vale la pena moverse."
+        },
+        {
+          "type": "quote",
+          "text": "El plan que recomendamos a los visitantes de Quito y Guayaquil es: almuerzo manabita el sábado en Tarqui, playa San Mateo en la tarde, cena tranquila en alguna marisquería del malecón Murciélago. Domingo, brunch en Barbasquillo y vuelta.",
+          "citation": "Equipo de Luuma Rooftop"
+        }
       ]
     },
     {
       "h2": "Dónde dormir cerca del centro",
       "blocks": [
-        {"type": "p", "text": "Los hoteles recomendables se concentran en tres zonas: av. Flavio Reyes (acceso fácil a restaurantes y rooftops), malecón Murciélago (vista al mar, ambiente turístico), Barbasquillo (más calmado, residencial). Precio noche entre semana: $40 a $90. Fin de semana sube 20–30%."},
-        {"type": "p", "text": "Si quieres caminar a cenar y volver a pie, hospédate cerca de Flavio Reyes — desde ahí están la mayoría de restaurantes y rooftops a 5–10 minutos caminando. Si priorizas playa, busca hotel sobre el malecón Murciélago."}
+        {
+          "type": "p",
+          "text": "Los hoteles recomendables se concentran en tres zonas: av. Flavio Reyes (acceso fácil a restaurantes y rooftops), malecón Murciélago (vista al mar, ambiente turístico), Barbasquillo (más calmado, residencial). Precio noche entre semana: $40 a $90. Fin de semana sube 20–30%."
+        },
+        {
+          "type": "p",
+          "text": "Si quieres caminar a cenar y volver a pie, hospédate cerca de Flavio Reyes — desde ahí están la mayoría de restaurantes y rooftops a 5–10 minutos caminando. Si priorizas playa, busca hotel sobre el malecón Murciélago."
+        }
       ]
     },
     {
       "h2": "Costos aproximados del fin de semana",
       "blocks": [
-        {"type": "table",
-          "headers": ["Item", "Bajo presupuesto", "Estándar", "Cómodo"],
+        {
+          "type": "table",
+          "headers": [
+            "Item",
+            "Bajo presupuesto",
+            "Estándar",
+            "Cómodo"
+          ],
           "rows": [
-            ["Transporte Guayaquil → Manta ida", "$5 bus", "$50 auto particular gas", "Sin diferencia"],
-            ["Transporte Quito → Manta ida", "$15 bus nocturno", "$80 avión económico", "$140 avión flexible"],
-            ["Hotel por noche", "$25 hostal", "$60 hotel céntrico", "$120 frente al mar"],
-            ["Almuerzo manabita Tarqui", "$7", "$10", "Sin diferencia"],
-            ["Cena rooftop con coctel", "—", "$20", "$30"],
-            ["Total 2 noches por persona", "$80", "$200", "$420"]
+            [
+              "Transporte Guayaquil → Manta ida",
+              "$5 bus",
+              "$50 auto particular gas",
+              "Sin diferencia"
+            ],
+            [
+              "Transporte Quito → Manta ida",
+              "$15 bus nocturno",
+              "$80 avión económico",
+              "$140 avión flexible"
+            ],
+            [
+              "Hotel por noche",
+              "$25 hostal",
+              "$60 hotel céntrico",
+              "$120 frente al mar"
+            ],
+            [
+              "Almuerzo manabita Tarqui",
+              "$7",
+              "$10",
+              "Sin diferencia"
+            ],
+            [
+              "Cena rooftop con coctel",
+              "—",
+              "$20",
+              "$30"
+            ],
+            [
+              "Total 2 noches por persona",
+              "$80",
+              "$200",
+              "$420"
+            ]
           ]
         }
       ]
@@ -72,7 +149,10 @@
     {
       "h2": "Lo que no te dicen en TripAdvisor",
       "blocks": [
-        {"type": "p", "text": "Dos detalles que sólo se aprenden viviendo aquí: primero, el viento de Manta sopla fuerte a partir de las 14:00 — si tu plan incluye playa Murciélago, mejor la mañana; segundo, los domingos a las 13:00 todo el centro de Manta se vacía porque los locales nos vamos a almorzar a casa. Esa hora es perfecta para caminar el malecón sin gente."}
+        {
+          "type": "p",
+          "text": "Dos detalles que sólo se aprenden viviendo aquí: primero, el viento de Manta sopla fuerte a partir de las 14:00 — si tu plan incluye playa Murciélago, mejor la mañana; segundo, los domingos a las 13:00 todo el centro de Manta se vacía porque los locales nos vamos a almorzar a casa. Esa hora es perfecta para caminar el malecón sin gente."
+        }
       ]
     }
   ],
@@ -80,9 +160,18 @@
   "cta_paragraph": "Atardecer en Manta es a las 18:15. Primera entrada de cena en Luuma a las 19:30. Si vienes el viernes, reserva con un día de anticipación — la vista al mar se llena.",
   "cta_whatsapp_text": "Reservar mesa por WhatsApp",
   "internal_links": [
-    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"},
-    {"label": "Mejores restaurantes en Manta", "url": "/gastronomia-manta/mejores-restaurantes-manta-ecuador/"},
-    {"label": "Carta de Luuma Rooftop", "url": "/menu/"}
+    {
+      "label": "Qué hacer en Manta: 17 planes reales",
+      "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"
+    },
+    {
+      "label": "Mejores restaurantes en Manta",
+      "url": "/gastronomia-manta/mejores-restaurantes-manta-ecuador/"
+    },
+    {
+      "label": "Carta de Luuma Rooftop",
+      "url": "/menu/"
+    }
   ],
   "faq": [
     {
