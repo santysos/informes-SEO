@@ -1,0 +1,102 @@
+{
+  "title": "Ceviche manabita: receta original (no es el mismo del Pacífico peruano)",
+  "slug": "ceviche-manabita-receta-original",
+  "status": "publish",
+  "date": "2026-07-07T11:00:00",
+  "category_id": 12,
+  "_category_slug": "recetas-cocina",
+  "featured_media": 766,
+  "tags": ["ceviche manabita", "receta ceviche", "manabí", "maní tostado", "naranja agria", "manta"],
+  "excerpt": "Ingredientes, paso a paso y la diferencia clave entre el ceviche manabita y el peruano. La receta que servimos en Luuma adaptada para cocinar en casa.",
+  "yoast_title": "Ceviche manabita: receta, ingredientes y diferencias con el peruano",
+  "yoast_metadesc": "Receta del ceviche manabita: maní tostado, naranja agria, cebolla colorada. Lo que cambia versus el peruano. Cómo lo servimos en Luuma Rooftop.",
+  "yoast_focuskw": "ceviche manabita",
+  "lead": [
+    "Cada que alguien nos pide \"un ceviche\" sin más, le preguntamos: ¿manabita o peruano? La cara de sorpresa nos dice que la mayoría no sabía que eran cosas distintas. Y son muy distintas — el manabita lleva maní tostado, jugo de naranja agria y cebolla colorada, no el limón puro del peruano. El resultado es otro plato, no una variación.",
+    "Hicimos esta guía con la receta que servimos en Luuma adaptada para que la prepares en casa. Más diferencias clave, qué pescado usar y dónde comerlo en Manta si no quieres cocinarlo tú."
+  ],
+  "sections": [
+    {
+      "h2": "Diferencias clave: manabita vs peruano",
+      "blocks": [
+        {"type": "p", "text": "Confundir los dos es entendible si nunca probaste un ceviche manabita real. Pero técnicamente son cocinas distintas, con base, técnica y sabor diferentes."},
+        {"type": "table",
+          "headers": ["Característica", "Manabita", "Peruano"],
+          "rows": [
+            ["Cítrico principal", "Naranja agria", "Limón sutil"],
+            ["Toque característico", "Maní tostado", "Ají amarillo / rocoto"],
+            ["Cebolla", "Colorada en pluma fina", "Roja en juliana corta"],
+            ["Acompañamiento", "Chifles + maíz tostado", "Camote + canchita"],
+            ["Punto del pescado", "Marinado más tiempo", "Tigre rápido"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Ingredientes del ceviche manabita real (4 porciones)",
+      "blocks": [
+        {"type": "p", "text": "Lo más difícil de conseguir fuera de Manabí: la naranja agria (cítrico amargo, distinto a la dulce). Si no tienes, mezcla limón con un poco de jugo de toronja — no es lo mismo pero acerca."},
+        {"type": "ul", "items": [
+          "500 g de pesca blanca fresca cortada en cubos (corvina, dorado, pargo)",
+          "Jugo de 6-8 naranjas agrias (o sustituto)",
+          "1 cebolla colorada grande, en pluma fina",
+          "1/2 taza de maní tostado y molido grueso",
+          "1 manojo de cilantro, picado fino",
+          "1 tomate maduro picado en cuadritos",
+          "1 cucharada de aceite de girasol",
+          "Sal al gusto",
+          "Para servir: chifles, maíz tostado, jugo de naranja del marinado en taza aparte"
+        ]}
+      ]
+    },
+    {
+      "h2": "Paso a paso (35 minutos)",
+      "blocks": [
+        {"type": "p", "text": "Lo que importa: marinar lo justo. Si dejas el pescado más de 30-40 minutos en cítrico, queda como cocido. Si lo dejas 5 minutos, queda crudo. El punto manabita es 25 minutos."},
+        {"type": "ul", "items": [
+          "1. Corta el pescado en cubos de 1.5 cm, todos iguales. Mete a la nevera mientras preparas el resto.",
+          "2. Curte la cebolla colorada en agua tibia con sal por 10 minutos. Escurre.",
+          "3. En un bowl grande, exprime las naranjas agrias. Agrega sal generosa.",
+          "4. Agrega el pescado, mezcla, tapa y deja en la nevera 25 minutos exactos.",
+          "5. Saca, mezcla con cebolla, tomate, cilantro y maní tostado.",
+          "6. Sirve frío con chifles, maíz tostado al lado y jugo del marinado en taza aparte."
+        ]}
+      ]
+    },
+    {
+      "h2": "El secreto del maní tostado",
+      "blocks": [
+        {"type": "p", "text": "El maní del ceviche manabita NO es maní comprado pelado de funda. Es maní crudo tostado a fuego lento en sartén, sin aceite, hasta que dora. Después se muele grueso a último momento. Si lo muelas con anticipación, se pone amargo."},
+        {"type": "quote", "text": "El día que probamos a hacer ceviche manabita con maní de funda pelado supimos por qué nuestras abuelas insistían tanto en tostarlo el mismo día. La diferencia es brutal — el maní tostado en casa libera un aroma a tierra que no se puede imitar.", "citation": "Equipo de cocina de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Variaciones por zona de Manabí",
+      "blocks": [
+        {"type": "p", "text": "El ceviche manabita cambia según el lugar. En Manta es más cítrico y con menos maní. En Bahía de Caráquez le ponen un toque de tomate licuado. En Crucita lo sirven con mote (no chifles). En Tarqui hay quien le pone una pizca de canela molida — sí, canela."},
+        {"type": "p", "text": "En Luuma respetamos la versión de Manta: cítrico más marcado, menos tomate, maní tostado el mismo día. La servimos con vista al Pacífico desde la av. Flavio Reyes."}
+      ]
+    },
+    {
+      "h2": "Dónde comerlo en Manta si no quieres cocinarlo",
+      "blocks": [
+        {"type": "p", "text": "Si vienes de fuera, ahorrarte la cocina vale la pena por probar el ceviche manabita de las picanterías de Tarqui (entre $7 y $10), las casetas del puerto a la salida del malecón Murciélago ($6 a $9, sin postureo), o nuestra versión rooftop en Luuma servida con vista al mar ($14 con coctel)."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Probar el nuestro?",
+  "cta_paragraph": "El ceviche manabita de Luuma se sirve frío con maní tostado el mismo día, naranja agria de la zona y chifles caseros. Mejor con reserva en horario de almuerzo (12:30 a 15:00) si quieres mesa con sombra.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
+    {"label": "Mariscos en Manta: ceviches y platos del mar", "url": "/gastronomia-manta/mariscos-manta-ceviches-platos-mar/"},
+    {"label": "Carta de Luuma Rooftop", "url": "/menu/"}
+  ],
+  "faq": [
+    {"q": "¿Qué diferencia al ceviche manabita del peruano?", "a": "El manabita lleva maní tostado y se hace con naranja agria, no limón. La cebolla va en pluma fina y se sirve con chifles y maíz tostado. El peruano usa limón puro, ají amarillo y se acompaña con camote y canchita."},
+    {"q": "¿Qué pescado se usa para el ceviche manabita?", "a": "Pesca blanca fresca: corvina, dorado, pargo o sierra son las más usadas. Lo importante es que sea del día — el ceviche es marinado, no cocido, así que la frescura del pescado es la mitad del plato."},
+    {"q": "¿Puedo hacer ceviche manabita sin naranja agria?", "a": "Sí pero queda distinto. Como sustituto, mezcla 70% jugo de limón con 30% jugo de toronja para imitar el amargor. La versión original con naranja agria solo se consigue bien en Manabí."},
+    {"q": "¿Cuánto tiempo dejo marinando el pescado?", "a": "25 minutos exactos en la nevera para el punto manabita. Menos: queda crudo. Más: queda como cocido y pierde textura. Si te gusta más cocido, sube a 35 minutos pero no más."},
+    {"q": "¿Dónde como buen ceviche manabita en Manta?", "a": "En las picanterías y casetas de Tarqui (precios de $6 a $10, ambiente sin postureo) o en versión rooftop con vista al Pacífico en Luuma av. Flavio Reyes."}
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Bares en av. Flavio Reyes Manta: dónde tomar copa según el plan",
+  "slug": "bares-flavio-reyes-manta-recomendados",
+  "status": "publish",
+  "date": "2026-08-22T11:00:00",
+  "category_id": 11,
+  "_category_slug": "eventos-entretenimiento",
+  "featured_media": 667,
+  "tags": ["bares manta", "bares flavio reyes", "donde tomar copa manta", "vida nocturna", "cocteles manta"],
+  "excerpt": "La av. Flavio Reyes concentra los bares con propuesta de cocteles de autor y rooftops para tomar copa. Te decimos cuál funciona según el tipo de noche, precios y horarios.",
+  "yoast_title": "Bares en av. Flavio Reyes Manta: dónde tomar copa según el plan",
+  "yoast_metadesc": "Bares y rooftops en av. Flavio Reyes Manta para tomar copa. Cocteles de autor, ambientes y precios reales. Lo que pedimos los locales.",
+  "yoast_focuskw": "bares flavio reyes manta",
+  "lead": [
+    "La av. Flavio Reyes es la columna gastronómica de Manta y también donde se concentra la oferta de bares con propuesta — cocteles de autor, rooftops, lounges con DJ, bares de hotel. Salir a tomar copa en Manta sin saber dónde te lleva a cualquier lugar; con la guía correcta cambias la noche por completo.",
+    "Te contamos cuál bar de av. Flavio Reyes funciona según el plan — primera cita con coctel pensado, salida de amigos con cervezas y conversación fluida, after-cena con DJ y baile. Más precios reales y horarios actualizados."
+  ],
+  "sections": [
+    {
+      "h2": "Tipo de bar según lo que buscas",
+      "blocks": [
+        {"type": "h3", "text": "Coctelería de autor para primera cita o cena previa"},
+        {"type": "p", "text": "Rooftops y bares con bartender que toma en serio su carta — recetas pensadas, ingredientes locales (aguardiente de caña manabita, maracuyá del mercado, hierbabuena fresca). El ambiente es más íntimo, música ambiental que permite conversación, mesas para 2-4 personas."},
+        {"type": "p", "text": "Coctel promedio: $9-$14. Recomendable entre 18:00 y 21:00. Después de las 22:00 el ambiente se vuelve más social y pierde intimidad. En Luuma específicamente, la barra de cocteles de autor abre desde las 18:00 con turno enfocado en la pareja o trío que llega temprano."},
+        {"type": "h3", "text": "Bares para amigos en grupo (cerveza + conversación)"},
+        {"type": "p", "text": "Bares más casuales con carta de cerveza variada, snacks para compartir y mesas largas. Música más alta que coctelería de autor pero todavía permite conversar. Ambiente joven adulto, 25-40 años principalmente."},
+        {"type": "p", "text": "Hay 3-4 bares así en av. Flavio Reyes. Cerveza promedio $4-$6, picaditas $6-$12. Mejor horario para llegar: 19:30-21:30, antes que se llene. Si llegas después de 22:30, el ambiente se vuelve más fiesta y conversar cuesta."},
+        {"type": "h3", "text": "Lounges con DJ para after-cena"},
+        {"type": "p", "text": "Lounges con DJ en vivo desde las 22:00, pista de baile más al fondo, mesas con bottle service para grupo grande. Ambiente más fiesta — para después de cena cuando ya cenaste tranquilo y quieres terminar la noche con baile."},
+        {"type": "p", "text": "Coctel promedio en lounge: $10-$15. Botella de licor para grupo: $80-$150 según marca. Cover ocasional viernes y sábado de $5-$10. Cierra alrededor de 02:00."}
+      ]
+    },
+    {
+      "h2": "Comparativa por tipo de plan",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Plan", "Tipo de bar", "Horario", "Costo por persona"],
+          "rows": [
+            ["Primera cita con coctel pensado", "Coctelería autor / rooftop", "18:00-21:00", "$15-$25"],
+            ["Salida amigos casual", "Bar de cerveza + snacks", "19:30-22:30", "$15-$25"],
+            ["After cena con baile", "Lounge con DJ", "22:00-02:00", "$20-$40"],
+            ["Coctel rápido antes de cena", "Barra de rooftop", "18:00-19:30", "$10-$18"],
+            ["Despedida soltero/a", "Lounge con bottle service", "22:00-02:00", "$40-$80"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Cocteles signature de av. Flavio Reyes",
+      "blocks": [
+        {"type": "p", "text": "Cada bar tiene 1-2 cocteles signature que vale la pena pedir. Tres ejemplos que nosotros recomendamos siempre:"},
+        {"type": "ul", "items": [
+          "Coctel de maracuyá con aguardiente de caña manabita (Luuma) — pulpa fresca, jarabe de panela, $11",
+          "Pisco sour adaptado con limón mantense (rooftop de hotel) — más cítrico que el peruano clásico, $12",
+          "Mojito de hierbabuena fresca (bar casual) — versión consistente, $8"
+        ]},
+        {"type": "quote", "text": "Cuando enseñamos cocteles a alguien nuevo en barra, le insistimos: el coctel signature de cada bar es la firma del bartender. Pedirlo es la mejor manera de juzgar el lugar. Si está bien hecho, todo lo demás de la carta probablemente esté bien. Si está mal, salí caminando.", "citation": "Equipo de barra de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Horarios y días fuertes",
+      "blocks": [
+        {"type": "p", "text": "La mayoría de bares de av. Flavio Reyes operan jueves a sábado en horario fuerte (19:00-02:00). Domingos algunos cierran o tienen horario corto. Lunes y martes casi todos cerrados — Manta como ciudad descansa esos días."},
+        {"type": "p", "text": "Viernes y sábado son los días llenos. Si vas en grupo grande (6+), reserva mesa con 48 horas de anticipación al menos. Coctelería de autor con menos mesas se llena al 21:00."}
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen las guías",
+      "blocks": [
+        {"type": "p", "text": "Tres detalles que solo aprende quien sale acá los fines de semana: primero, varios bares de av. Flavio Reyes cobran consumo mínimo de $20-$30 los viernes y sábados sin avisar al entrar — pregunta al llegar; segundo, los lounges con DJ ponen reggaeton después de la 1 AM sí o sí, independiente de lo que toquen al inicio; tercero, el taxi de vuelta a hotel cuesta $5-$8 entre semana y $10-$15 los fines de semana después de medianoche — guarda cash."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Coctel de autor antes de cena?",
+  "cta_paragraph": "En Luuma la barra de cocteles abre desde las 18:00. Coctel signature de maracuyá con aguardiente de caña a $11. Mesa de rooftop con vista al Pacífico — mejor reservar antes de las 19:00 para mesa con vista directa.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Vida nocturna en Manta jueves a sábado", "url": "/eventos-entretenimiento/vida-nocturna-manta/"},
+    {"label": "Música en vivo en Manta este mes", "url": "/eventos-entretenimiento/musica-vivo-manta-este-mes/"},
+    {"label": "Carta de bebidas de Luuma", "url": "/bebidas/"}
+  ],
+  "faq": [
+    {"q": "¿Cuáles son los mejores bares de av. Flavio Reyes en Manta?", "a": "Hay tres tipos según plan: coctelería de autor (rooftops y bares con bartender de carta pensada, $9-$14 por coctel), bares de cerveza + snacks (más casual y conversador, $4-$6 por cerveza), lounges con DJ (after cena con baile, $10-$15 por coctel, con cover de $5-$10 los fines de semana)."},
+    {"q": "¿Hasta qué hora abren los bares en Manta?", "a": "Coctelería de autor cierra alrededor de 00:30. Bares de cerveza y conversación cierran 01:00-01:30. Lounges con DJ cierran 02:00. Lunes y martes casi todos cerrados — Manta descansa esos días. Días fuertes: jueves a sábado."},
+    {"q": "¿Cuánto cuesta un coctel en Manta?", "a": "$8-$14 según bar. Coctelería de autor con ingredientes locales (aguardiente de caña, maracuyá fresca): $9-$13. Coctel clásico en rooftop de hotel: $10-$14. Coctel en lounge con DJ: $10-$15. Cervezas en bar casual: $4-$6."},
+    {"q": "¿Hay bares con música en vivo en Flavio Reyes?", "a": "Sí. Varios rooftops tienen música en vivo viernes y sábado desde las 21:00 — incluido Luuma sin cover. Algunos bares casuales también programan banda local. La oferta cambia semana a semana — revisa programación actual."},
+    {"q": "¿Necesito reservar mesa en un bar de Flavio Reyes?", "a": "Para coctelería de autor con pocas mesas: sí los viernes y sábados, idealmente 48 horas antes. Para bares más casuales: no necesariamente. Para lounge con DJ: sí si vas en grupo de 6+ con bottle service. Reserva por WhatsApp del bar."}
+  ]
+}

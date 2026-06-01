@@ -1,0 +1,123 @@
+{
+  "title": "Bollo manabita: receta tradicional envuelto en hoja de plátano",
+  "slug": "bollo-manabita-receta-tradicional",
+  "status": "publish",
+  "date": "2026-09-05T11:00:00",
+  "category_id": 12,
+  "_category_slug": "recetas-cocina",
+  "featured_media": 1246,
+  "tags": ["bollo manabita", "receta bollo", "comida manabita", "plátano verde", "maní tostado"],
+  "excerpt": "El bollo manabita es plato de abuelas — masa de plátano verde y maní envuelta en hoja de plátano, cocida al vapor con pescado adentro. Te enseñamos la receta original.",
+  "yoast_title": "Bollo manabita: receta tradicional (paso a paso)",
+  "yoast_metadesc": "Receta del bollo manabita real: masa de plátano verde + maní + pescado envuelto en hoja de plátano. Paso a paso. Tradición familiar manabita.",
+  "yoast_focuskw": "bollo manabita receta",
+  "lead": [
+    "El bollo manabita es de esos platos que casi no se ven en restaurante — es plato de casa, de domingo familiar, de mamá. Masa de plátano verde y maní tostado envuelta en hoja de plátano, cocida al vapor con un pedazo de pescado adentro. Se come caliente, abriéndolo con las manos.",
+    "Te enseñamos la receta tradicional que se hace en Crucita, Charapotó y los pueblos de Manabí. Paso a paso, los errores comunes y por qué la hoja de plátano cambia el sabor más de lo que uno se imagina."
+  ],
+  "sections": [
+    {
+      "h2": "Qué hace que un bollo sea bueno",
+      "blocks": [
+        {"type": "p", "text": "Cuatro cosas diferencian un bollo casero bien hecho de uno mediocre:"},
+        {"type": "ul", "items": [
+          "Plátano verde bien tierno pero no blando — el punto de cocción inicial es clave",
+          "Maní tostado el mismo día (no de funda) — aporta el sabor base del bollo",
+          "Hoja de plátano flameada antes de envolver — libera aromas a la masa",
+          "Vapor con tiempo suficiente — 40-50 minutos, no menos"
+        ]}
+      ]
+    },
+    {
+      "h2": "Ingredientes (6-8 bollos)",
+      "blocks": [
+        {"type": "h3", "text": "Para la masa"},
+        {"type": "ul", "items": [
+          "5 plátanos verdes grandes",
+          "1/2 taza de maní tostado y molido",
+          "2 cucharadas de manteca de cerdo o aceite",
+          "1 cucharadita de comino",
+          "Sal al gusto"
+        ]},
+        {"type": "h3", "text": "Para el relleno"},
+        {"type": "ul", "items": [
+          "250 g de pesca blanca fresca en cubos pequeños",
+          "1 cebolla colorada en cuadritos finos",
+          "2 dientes de ajo machacados",
+          "1 cucharadita de comino",
+          "1 cucharada de aceite",
+          "Sal al gusto"
+        ]},
+        {"type": "h3", "text": "Otros"},
+        {"type": "ul", "items": [
+          "6-8 hojas de plátano grandes (limpias, sin nervaduras gruesas)",
+          "Cuerda de bramante o tira de hoja de plátano para amarrar"
+        ]}
+      ]
+    },
+    {
+      "h2": "Paso a paso (1 hora y 30 min)",
+      "blocks": [
+        {"type": "h3", "text": "Preparar la masa (30 min)"},
+        {"type": "ul", "items": [
+          "1. Hierve los plátanos con cáscara 15-18 min hasta tiernos pero no deshechos",
+          "2. Pela y aplasta en mortero hasta masa uniforme",
+          "3. Agrega maní molido, manteca, comino y sal. Amasa hasta integrar",
+          "4. La masa debe estar húmeda pero no pegajosa. Si seca, agrega 1 cucharada de agua tibia"
+        ]},
+        {"type": "h3", "text": "Preparar el relleno (15 min)"},
+        {"type": "ul", "items": [
+          "1. En sartén, sofríe cebolla con ajo y comino en aceite",
+          "2. Agrega pescado en cubos, mezcla 4-5 min hasta dorar",
+          "3. Sazona con sal. Apaga y reserva"
+        ]},
+        {"type": "h3", "text": "Preparar hojas de plátano (10 min)"},
+        {"type": "ul", "items": [
+          "1. Limpia las hojas con paño húmedo por ambos lados",
+          "2. Pasa cada hoja por flame de la cocina por 2-3 segundos — la hoja se vuelve más flexible y libera aromas",
+          "3. Corta en rectángulos de 25x25 cm aproximadamente"
+        ]},
+        {"type": "h3", "text": "Armar y cocinar (40-50 min)"},
+        {"type": "ul", "items": [
+          "1. Coloca una porción de masa en el centro de la hoja",
+          "2. Aplana, coloca cucharada de relleno al centro",
+          "3. Cubre con más masa, formando paquete rectangular",
+          "4. Cierra la hoja: dobla los laterales, después arriba y abajo. Amarra con cuerda",
+          "5. Coloca en vaporera con agua hirviendo. Tapa",
+          "6. Cocina 40-50 minutos a vapor constante",
+          "7. Saca, deja reposar 5 minutos antes de abrir"
+        ]}
+      ]
+    },
+    {
+      "h2": "Por qué la hoja de plátano cambia todo",
+      "blocks": [
+        {"type": "p", "text": "Es tentador pensar que la hoja es solo envoltura, pero no — durante la cocción la masa absorbe aromas y sabores de la hoja. El bollo cocinado en papel aluminio o en plástico no es la misma cosa, aunque el contenido sea idéntico."},
+        {"type": "p", "text": "El truco del flameado antes de envolver: la hoja libera aceites esenciales con el calor que se transfieren a la masa. Por eso las abuelas insisten en este paso aunque parezca opcional."},
+        {"type": "quote", "text": "Cuando enseñamos a alguien nuevo a hacer bollo, le insistimos: la hoja de plátano no es decoración. Si tu cocina no consigue hoja de plátano fresca, no hagas bollo — haz otra cosa. El sabor de la masa con la hoja flameada es la mitad del plato.", "citation": "Equipo de cocina de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Dónde comer bollo en Manta",
+      "blocks": [
+        {"type": "p", "text": "El bollo casi no se sirve en restaurante — es plato familiar. Las casetas del mercado central de Manta los tienen desde las 7:30 hasta que se acaban (alrededor de 10:30). Cuestan $2,50-$3,50 según tamaño. Las casetas del lado del puerto en Tarqui los tienen un poco más tarde."},
+        {"type": "p", "text": "Para versión más elaborada: algunos restaurantes de Crucita y Charapotó (50 min de Manta) los sirven los domingos. En Luuma ocasionalmente los servimos como entrada de almuerzo familiar — preguntar al equipo si están en carta esa semana."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Probarlo en Luuma cuando esté en carta?",
+  "cta_paragraph": "Ocasionalmente servimos bollo manabita como entrada de almuerzo familiar — preguntar por WhatsApp si está disponible esta semana. Versión casera tradicional con pesca del día y maní tostado el mismo día.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
+    {"label": "Encocado de pescado manabita receta", "url": "/recetas-cocina/encocado-pescado-receta-manabita/"},
+    {"label": "Desayunos manabitas en Manta", "url": "/gastronomia-manta/desayunos-manabitas-manta/"}
+  ],
+  "faq": [
+    {"q": "¿Qué es el bollo manabita?", "a": "Masa de plátano verde y maní tostado envuelta en hoja de plátano, cocida al vapor con un pedazo de pescado adentro. Es plato familiar tradicional de Manabí — casi no se ve en restaurante. Se come caliente, abriéndolo con las manos."},
+    {"q": "¿Cuál pescado se usa para el bollo manabita?", "a": "Pesca blanca fresca: corvina, dorado, pargo o sierra. En cubos pequeños sazonados simple (cebolla colorada, ajo, comino, sal). El sabor principal viene de la masa con maní tostado, el pescado es el corazón."},
+    {"q": "¿Por qué se usa hoja de plátano para el bollo?", "a": "La hoja libera aceites esenciales con el calor que se transfieren a la masa durante la cocción. El bollo en papel aluminio no es la misma cosa. El flameado de la hoja antes de envolver intensifica el efecto — es paso clave que las abuelas no se saltan."},
+    {"q": "¿Cuánto tiempo se cocina un bollo manabita?", "a": "40-50 minutos al vapor constante después de armar. Menos: la masa queda cruda. Más: la masa se reseca y la hoja pierde aroma. Vapor moderado, agua hirviendo abundante en la vaporera."},
+    {"q": "¿Dónde como buen bollo manabita en Manta?", "a": "Casetas del mercado central de Manta desde 7:30 hasta 10:30 ($2,50-$3,50). Casetas del lado del puerto Tarqui un poco más tarde. Para versión más elaborada: restaurantes de Crucita y Charapotó los domingos. En Luuma ocasionalmente como entrada de almuerzo familiar."}
+  ]
+}

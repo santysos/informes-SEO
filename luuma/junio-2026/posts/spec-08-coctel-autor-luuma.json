@@ -1,0 +1,80 @@
+{
+  "title": "El coctel que creamos en Luuma con maracuyá y aguardiente de caña",
+  "slug": "coctel-autor-luuma-maracuya",
+  "status": "publish",
+  "date": "2026-07-14T11:00:00",
+  "category_id": 13,
+  "_category_slug": "cocteles-mixologia",
+  "featured_media": 667,
+  "tags": ["coctel maracuyá", "coctel manabita", "mixología manta", "luuma rooftop", "aguardiente caña"],
+  "excerpt": "Cómo nació el coctel signature de Luuma Rooftop. Aguardiente artesanal de caña manabita, maracuyá del día, jarabe de panela. Receta + historia + por qué cada ingrediente importa.",
+  "yoast_title": "Coctel de maracuyá y aguardiente: receta del bartender de Luuma",
+  "yoast_metadesc": "Cómo nació el coctel insignia de Luuma Rooftop en Manta. Maracuyá, aguardiente artesanal de caña manabita, jarabe de panela. Receta + historia.",
+  "yoast_focuskw": "coctel maracuyá manabí",
+  "lead": [
+    "Hay cocteles que se inventan en barra entre dos turnos. Otros nacen de un viaje, de un ingrediente que aparece en el mercado y que no sabes de dónde es. Este coctel nuestro empezó así — alguien del equipo trajo una botella de aguardiente artesanal de caña de Junín (al interior de Manabí) y dijo \"con esto tenemos que hacer algo\".",
+    "Tres semanas de pruebas después, salió este coctel. Maracuyá fresco del mercado central, aguardiente de caña sin refinar de pequeño productor, jarabe de panela. Tres ingredientes locales, una historia de tierra adentro. Te contamos cómo lo hacemos y cómo replicarlo en casa."
+  ],
+  "sections": [
+    {
+      "h2": "Los tres ingredientes y por qué cada uno",
+      "blocks": [
+        {"type": "p", "text": "Lo que cambió todo en este coctel fue insistir en ingredientes de Manabí — no comprar aguardiente industrial, no usar jarabe simple de supermercado. Cada uno tiene un por qué."},
+        {"type": "h3", "text": "Aguardiente artesanal de caña de Junín"},
+        {"type": "p", "text": "El aguardiente que usamos viene de un productor pequeño de Junín, al interior de Manabí, donde la caña crece a altura media. Es transparente, fuerte (40-45% alcohol), con notas dulces que el industrial pierde por la destilación rápida. Reemplazarlo con ron blanco funciona pero pierde el carácter local."},
+        {"type": "h3", "text": "Maracuyá del mercado central"},
+        {"type": "p", "text": "El maracuyá del mercado central de Manta llega de pequeños productores de Olmedo y la zona montañosa de Manabí. Es más amarillo, más jugoso y menos ácido que el de exportación. Importante: tiene que ser fresco — el envasado pierde aromas en 24 horas."},
+        {"type": "h3", "text": "Jarabe de panela"},
+        {"type": "p", "text": "Sustituye al azúcar refinado. Aporta un toque tierra y melaza que conecta con el aguardiente. Se hace simple: 1 taza de panela rallada disuelta en 1 taza de agua tibia, deja enfriar."}
+      ]
+    },
+    {
+      "h2": "Receta paso a paso (1 trago, 8 minutos)",
+      "blocks": [
+        {"type": "p", "text": "Esta es la versión que servimos en barra, adaptada para hacerla en casa con utensilios básicos."},
+        {"type": "ul", "items": [
+          "60 ml de aguardiente artesanal de caña (o ron blanco como sustituto)",
+          "Pulpa fresca de 2 maracuyás (~30 ml de jugo con semillas)",
+          "20 ml de jarabe de panela",
+          "Hielo en cubo grande",
+          "Un toque de albahaca fresca picada (opcional pero recomendado)"
+        ]},
+        {"type": "p", "text": "Mezcla aguardiente, pulpa de maracuyá y jarabe de panela en coctelera con hielo. Agita 15 segundos enérgico. Cuela en vaso old fashion con hielo nuevo. Decora con hoja de albahaca y semillas de maracuyá. Sirve frío."}
+      ]
+    },
+    {
+      "h2": "El día que la barra dijo que no funcionaba",
+      "blocks": [
+        {"type": "quote", "text": "La primera versión que probamos tenía exceso de jarabe — quedaba dulce de bebida envasada. Tuvimos que bajar la panela tres veces hasta que la acidez del maracuyá se respetara. Recién ahí el coctel empezó a hablar de Manabí.", "citation": "Equipo de barra de Luuma Rooftop"},
+        {"type": "p", "text": "El cambio que hizo todo: dejar la pulpa de maracuyá con semillas en el trago (en lugar de colarla). Las semillas dan textura y el visual cambió por completo — la gente lo pide ahora también por cómo se ve, no solo por el sabor."}
+      ]
+    },
+    {
+      "h2": "Cuándo lo recomendamos en el menú",
+      "blocks": [
+        {"type": "p", "text": "En Luuma este coctel funciona como aperitivo o como cierre — pero no como acompañamiento de comida fuerte. La acidez del maracuyá choca con platos manabitas grasos como el viche. Es mejor antes de la cena o después del postre."},
+        {"type": "p", "text": "Si vas a Luuma av. Flavio Reyes, pídelo de aperitivo entre 18:30 y 19:30 para coincidir con el atardecer en el rooftop. Después del primer trago, baja a coctel clásico para acompañar la cena (negroni, old fashion o manhattan funcionan bien con pesca blanca o camarones)."}
+      ]
+    },
+    {
+      "h2": "Lo que no te decimos en la carta",
+      "blocks": [
+        {"type": "p", "text": "Dos cosas que solo sabe quien lo prepara: primero, el aguardiente que usamos viene en lotes de 3 botellas — no producción masiva, así que hay semanas que la versión que sale puede variar 5% en intensidad según el lote; segundo, si lo pides sin albahaca por alergia, le agregamos un toque de hierbaluisa fresca de Crucita como sustituto — funciona distinto pero igual de bien."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Probarlo en barra?",
+  "cta_paragraph": "El coctel está en carta de bebidas de Luuma Rooftop, av. Flavio Reyes en Manta. Mejor pedirlo entre 18:30 y 19:30 — coincide con atardecer en el Pacífico y la barra recién abre el turno. Reservas para mesa con vista los fines de semana.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Carta de bebidas y cocteles de Luuma", "url": "/bebidas/"},
+    {"label": "Vida nocturna en Manta", "url": "/eventos-entretenimiento/vida-nocturna-manta/"},
+    {"label": "Música en vivo en Manta", "url": "/eventos-entretenimiento/eventos-musica-vivo-manta-agenda/"}
+  ],
+  "faq": [
+    {"q": "¿Qué es el aguardiente de caña manabita?", "a": "Destilado artesanal de caña de azúcar producido en zonas como Junín, al interior de Manabí. Es más complejo que el aguardiente industrial — notas dulces y de tierra que el destilado masivo pierde. Reemplazable con ron blanco pero cambia el carácter."},
+    {"q": "¿Se puede hacer este coctel sin aguardiente?", "a": "Sí, sustituye con ron blanco. Mismo procedimiento, resultado más estándar internacional. Si encuentras pisco peruano joven (no acholado), funciona también con buen resultado."},
+    {"q": "¿Cómo se hace jarabe de panela en casa?", "a": "Disuelve 1 taza de panela rallada en 1 taza de agua tibia, mezcla hasta integrar. Deja enfriar. Dura 2 semanas en nevera en frasco hermético. No uses azúcar morena de funda como sustituto — el sabor cambia."},
+    {"q": "¿Hay versión sin alcohol del coctel?", "a": "Sí, en Luuma servimos una versión 'virgin' con jugo de maracuyá fresco, jarabe de panela, agua con gas y un toque de albahaca. Mismo perfil de sabor sin aguardiente. Pídelo en barra."}
+  ]
+}

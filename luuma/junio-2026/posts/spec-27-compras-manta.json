@@ -1,0 +1,86 @@
+{
+  "title": "Compras en Manta: dónde comprar artesanías, regalos y productos manabitas",
+  "slug": "compras-en-manta-donde-comprar",
+  "status": "publish",
+  "date": "2026-09-19T11:00:00",
+  "category_id": 10,
+  "_category_slug": "vida-en-manta",
+  "featured_media": 670,
+  "tags": ["compras manta", "artesanías manabí", "regalos manta", "souvenirs", "mercado manta"],
+  "excerpt": "Sombreros de paja toquilla auténticos, café manabita, panela artesanal, pulseras de tagua. Dónde comprar regalos manabitas verdaderos en Manta sin pagar precio de turista.",
+  "yoast_title": "Compras en Manta: dónde comprar artesanías manabitas reales",
+  "yoast_metadesc": "Sombreros paja toquilla, café manabita, tagua, panela. Dónde comprar artesanías reales en Manta y Montecristi sin pagar precio turista.",
+  "yoast_focuskw": "compras manta",
+  "lead": [
+    "Cuando un visitante en Luuma nos pregunta dónde comprar regalo \"de Manabí\" para llevar a casa, la respuesta no es la tienda turística del centro comercial. Los productos manabitas verdaderos están en Montecristi (sombreros), en el mercado central de Manta (café, panela) y en talleres familiares de pueblos cercanos.",
+    "Te contamos dónde comprar lo que vale la pena llevar de Manabí — sombrero de paja toquilla original, café de productor pequeño, panela artesanal, joyería de tagua. Más los lugares que evitar si no quieres pagar 3x el precio real por pieza industrial."
+  ],
+  "sections": [
+    {
+      "h2": "Sombrero de paja toquilla — el regalo emblemático",
+      "blocks": [
+        {"type": "p", "text": "El \"panama hat\" se hace en Montecristi, a 15 minutos de Manta. Es Patrimonio Cultural Inmaterial de la UNESCO. Hay tres niveles según calidad de tejido: tejido grueso (turístico, $15-$35), tejido medio (uso diario, $40-$120), tejido fino (de colección, $250-$2000+). El fino se diferencia por densidad — más de 30 vueltas por pulgada."},
+        {"type": "p", "text": "Dónde comprar: directamente en Montecristi, calle principal hacia la iglesia. Las tiendas tienen muestras de los tres niveles. Pedir ver el reverso del sombrero — el tejido fino tiene patrón regular como tela, el grueso tiene huecos visibles. Los talleres familiares de productores reales tienen menor precio que las tiendas con vitrina turística."},
+        {"type": "p", "text": "Lo que evitar: \"panama hats\" en aeropuerto y centros comerciales de Manta. Suelen ser industriales chinos a precio de Montecristi original. La etiqueta \"Made in Ecuador\" no garantiza calidad."}
+      ]
+    },
+    {
+      "h2": "Café manabita de productores pequeños",
+      "blocks": [
+        {"type": "p", "text": "Manabí produce café de altura media (Jipijapa, Junín, Olmedo) que está ganando reconocimiento internacional. Café especial 250g cuesta $8-$15 según productor. Café comercial en supermercado $4-$7."},
+        {"type": "p", "text": "Dónde comprar: el mercado central de Manta tiene 3-4 puestos con café de productores pequeños. También hay tiendas especializadas en Flavio Reyes con catación incluida. Si vas a productor directo en Junín o Jipijapa (45 minutos), el precio baja 30% pero solo si te interesa la ruta."}
+      ]
+    },
+    {
+      "h2": "Panela artesanal y miel de caña",
+      "blocks": [
+        {"type": "p", "text": "La panela manabita viene de pequeños trapiches de caña en Junín y zona montañosa. Block de panela 500g cuesta $2-$4 en el mercado. Miel de caña en frasco $5-$8. Producto de cocina pero también regalo curioso para visitante extranjero."},
+        {"type": "p", "text": "El mercado central de Manta tiene puesto fijo con panela del día. Verificar que el block tenga aroma a melaza fresca — la panela vieja pierde aroma rápido."}
+      ]
+    },
+    {
+      "h2": "Tagua y joyería manabita",
+      "blocks": [
+        {"type": "p", "text": "La tagua es semilla de palma que se llama \"marfil vegetal\" — se talla en pulseras, aretes, collares y figuras. Es producto sostenible y muy típico de la costa ecuatoriana. Una pieza simple cuesta $5-$15, una pieza tallada de colección $30-$100."},
+        {"type": "p", "text": "Dónde comprar: artesanos del mercado central de Manta, calle principal de Montecristi, y tiendas de souvenir del malecón Murciélago. Los precios varían más entre lugares que en otros productos — el malecón cobra hasta 3x más que Montecristi."},
+        {"type": "quote", "text": "El visitante que pregunta dónde comprar souvenir manabita real, lo enviamos siempre a Montecristi y al mercado central. Las tiendas turísticas del centro comercial venden lo mismo a 3x el precio, con la diferencia que la calidad del tallado en los talleres familiares es mejor.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Comparativa por dónde comprar",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Producto", "Mejor lugar", "Precio real", "Precio turístico (evitar)"],
+          "rows": [
+            ["Sombrero paja toquilla medio", "Talleres Montecristi", "$60-$120", "$150-$300"],
+            ["Café especial 250g", "Mercado central Manta", "$8-$15", "$15-$25"],
+            ["Panela 500g", "Mercado central", "$2-$4", "$6-$10"],
+            ["Tagua pulsera simple", "Artesanos Montecristi", "$5-$10", "$15-$25"],
+            ["Bolso de mocora", "Talleres Crucita", "$15-$35", "$45-$80"],
+            ["Hamaca artesanal", "Pueblos Manabí", "$25-$60", "$80-$150"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen las guías",
+      "blocks": [
+        {"type": "p", "text": "Tres datos: primero, los sombreros de paja toquilla genuinos vienen con etiqueta del Cluster del Sombrero de Montecristi — pedir ver la etiqueta certifica origen; segundo, el aeropuerto Eloy Alfaro Manta vende artesanías a precio inflado para quien sale apurado — mejor comprar en Manta antes de ir al aeropuerto; tercero, el mejor regalo según consejo de gente local: panela artesanal con block de chocolate manabita orgánico — combo único y a buen precio (alrededor de $12)."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Cena después de paseo de compras?",
+  "cta_paragraph": "Si terminas el día comprando en Montecristi y vuelves a Manta para cena, Luuma queda a 15 minutos del centro. Reserva mesa con vista al Pacífico para cenar con tus compras a un lado.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"},
+    {"label": "De Guayaquil/Quito a Manta", "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"},
+    {"label": "Faro de San Lorenzo en Manta", "url": "/vida-en-manta/faro-san-lorenzo-manta-guia/"}
+  ],
+  "faq": [
+    {"q": "¿Dónde comprar sombrero panama hat original?", "a": "En Montecristi, a 15 min de Manta. Talleres familiares en la calle principal hacia la iglesia. Sombrero tejido medio cuesta $60-$120, tejido fino de colección $250-$2000+. Verificar etiqueta del Cluster del Sombrero. Evitar centros comerciales y aeropuerto — sombreros industriales a precio inflado."},
+    {"q": "¿Qué artesanías comprar en Manta?", "a": "Sombrero de paja toquilla (Montecristi), café especial manabita (mercado central), panela artesanal, joyería de tagua, bolsos de mocora, hamacas artesanales. Mercado central de Manta y Montecristi son los lugares con mejor precio y calidad."},
+    {"q": "¿Cuánto cuesta un sombrero panama hat genuino?", "a": "Tejido grueso turístico: $15-$35. Tejido medio para uso diario: $40-$120. Tejido fino de colección (más de 30 vueltas por pulgada): $250-$2000+. El precio varía con la densidad del tejido. Pedir ver el reverso para evaluar la calidad."},
+    {"q": "¿Hay café manabita bueno para llevar de regalo?", "a": "Sí, Manabí produce café de altura media (Jipijapa, Junín, Olmedo) reconocido internacionalmente. Café especial 250g cuesta $8-$15 según productor. Mercado central de Manta tiene 3-4 puestos con café de productores pequeños. Tiendas en Flavio Reyes con catación incluida."}
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Celebrar cumpleaños en Manta: dónde reservar según el plan y grupo",
+  "slug": "celebrar-cumpleanos-manta-restaurantes",
+  "status": "publish",
+  "date": "2026-09-30T11:00:00",
+  "category_id": 11,
+  "_category_slug": "eventos-entretenimiento",
+  "featured_media": 668,
+  "tags": ["cumpleaños manta", "celebrar cumpleaños", "evento privado manta", "rooftop fiesta", "luuma"],
+  "excerpt": "Cumpleaños íntimo de pareja, fiesta familiar de 15 personas, after con amigos en lounge — cada tipo de cumpleaños pide lugar distinto en Manta. Te decimos cuál funciona para qué.",
+  "yoast_title": "Celebrar cumpleaños en Manta: dónde según el plan",
+  "yoast_metadesc": "Cumpleaños en Manta según el tipo: pareja íntimo, familiar de 15, después con DJ. Restaurantes, rooftops y precios reales por persona.",
+  "yoast_focuskw": "celebrar cumpleaños manta",
+  "lead": [
+    "El \"dónde celebro mi cumpleaños\" en Manta tiene tantas respuestas como tipos de fiesta. No es lo mismo cumpleaños íntimo con pareja, almuerzo familiar de 15 personas con abuela incluida, after de viernes con amigos para terminar bailando. Cada uno pide lugar distinto, ambiente distinto y presupuesto distinto.",
+    "Te contamos qué tipo de lugar funciona para cada estilo de cumpleaños en Manta, costos reales por persona, qué reservar con cuánto tiempo y los detalles pequeños que hacen la diferencia entre una celebración correcta y una memorable."
+  ],
+  "sections": [
+    {
+      "h2": "Cumpleaños íntimo con pareja",
+      "blocks": [
+        {"type": "p", "text": "Para cumpleaños romántico, mesa para 2 con detalles especiales. Lo que funciona:"},
+        {"type": "ul", "items": [
+          "Rooftop con vista al Pacífico al atardecer — mesa en el borde, coctel de bienvenida, postre con detalle especial",
+          "Restaurante de Barbasquillo con ambiente íntimo y carta degustación",
+          "Marisquería del malecón Murciélago con mesa frente al mar"
+        ]},
+        {"type": "p", "text": "Precio promedio: $40-$70 por persona con coctel y postre. Reserva con 1-2 semanas avisando que es cumpleaños — la mayoría de restaurantes coopera con vela en postre, sentirse cuidado, foto si quieres. En Luuma específicamente, recibimos varias parejas para cumpleaños y la mesa con vista directa al mar al atardecer es la que se reserva primero."}
+      ]
+    },
+    {
+      "h2": "Almuerzo familiar de 10-20 personas",
+      "blocks": [
+        {"type": "p", "text": "Cumpleaños familiar con abuelos, primos, niños. Lo que funciona:"},
+        {"type": "ul", "items": [
+          "Restaurantes de Barbasquillo con mesas largas o terrazas privadas",
+          "Marisquerías del malecón Murciélago con espacios al aire libre",
+          "La Quadra: cada miembro pide donde quiere y se sientan juntos",
+          "Restaurantes de hoteles grandes con sala privada (algunos tienen) $20-$25 por persona"
+        ]},
+        {"type": "p", "text": "Precio promedio: $20-$35 por persona. Reservar con 2-3 semanas para grupo de 15+. Confirmar 48 horas antes con número exacto. Para grupo de 20+: pedir presupuesto fijo por persona (más fácil de manejar al final que cuenta abierta)."}
+      ]
+    },
+    {
+      "h2": "After de cumpleaños con amigos",
+      "blocks": [
+        {"type": "p", "text": "Cumpleaños después de cena, fiesta hasta tarde. Lo que funciona:"},
+        {"type": "ul", "items": [
+          "Lounges con DJ en av. Flavio Reyes (botellas para grupo de 8+)",
+          "Bares de cerveza con música en vivo (más informal, conversación posible)",
+          "Rooftop para arrancar con coctel + después mover al lounge",
+          "Casas o departamentos alquilados con servicio de catering (para grupo grande con presupuesto)"
+        ]},
+        {"type": "p", "text": "Precio promedio: $25-$50 por persona con cubre cargo de bottle service. Reservar mesa en lounge: 48-72 horas antes mínimo, especialmente viernes y sábado. Botellas de licor para grupo de 8: $80-$150 según marca."}
+      ]
+    },
+    {
+      "h2": "Comparativa por tipo de cumpleaños",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Tipo", "Lugar ideal", "Precio por persona", "Reserva"],
+          "rows": [
+            ["Pareja romántico", "Rooftop / restaurante íntimo", "$40-$70", "1-2 semanas"],
+            ["Familiar 10-20 con niños", "Marisquería malecón / Barbasquillo", "$20-$35", "2-3 semanas"],
+            ["Almuerzo amigos 6-10", "La Quadra / restaurante medio", "$15-$25", "1 semana"],
+            ["After con DJ y baile", "Lounge Flavio Reyes", "$25-$50", "48-72 horas"],
+            ["Evento privado salón", "Hotel Oro Verde / Howard Johnson", "$35-$60", "1-2 meses"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Los detalles pequeños que hacen la diferencia",
+      "blocks": [
+        {"type": "p", "text": "Cinco detalles que separan un cumpleaños memorable de uno común:"},
+        {"type": "ul", "items": [
+          "Avisar al restaurante con cumpleaños del invitado de honor con varios días — permite cuidar detalles",
+          "Coctel de bienvenida para el grupo (algunos lugares lo incluyen sin cargo extra para cumpleaños)",
+          "Postre con vela y dedicatoria — pedir al reservar, no esperar que lo ofrezcan",
+          "Foto del grupo con mesera al final del evento — recuerdo simple, todos quieren después",
+          "Coordinar pago con un solo responsable (no dividir cuenta entre 15 personas al final)"
+        ]},
+        {"type": "quote", "text": "Los cumpleaños que más memorables quedan son los donde el equipo del restaurante coopera con detalles pequeños. Una vela extra. Una canción dedicada. Una mesa decorada sin cargo. Eso no cuesta dinero al restaurante y al invitado lo deja con buena imagen del lugar. Es de los mejores tipos de servicio que hay.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Lo que evitar",
+      "blocks": [
+        {"type": "p", "text": "Tres errores comunes: primero, organizar fiesta sorpresa en restaurante popular sin avisar al equipo — riesgo de que el invitado de honor no encuentre estacionamiento o llegue tarde y arruine la sorpresa; segundo, intentar mezclar abuelos con after de DJ — son dos eventos distintos, hacerlos separados; tercero, dejar la decisión del lugar al cumpleañero — si quieres sorprenderlo, decide tú con base en lo que sabes que le gusta, no le preguntes."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Cumpleaños en Luuma?",
+  "cta_paragraph": "Coordinamos cumpleaños desde pareja íntimo hasta familiar de 20 personas en av. Flavio Reyes. Mesa con vista al Pacífico al atardecer, coctel de bienvenida sin cargo extra para cumpleaños, postre con vela y dedicatoria. Reserva con 1-3 semanas según tamaño del grupo.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Cena romántica en Manta: dónde reservar", "url": "/eventos-entretenimiento/cena-romantica-manta-vista-al-mar/"},
+    {"label": "Bares en av. Flavio Reyes Manta", "url": "/eventos-entretenimiento/bares-flavio-reyes-manta-recomendados/"},
+    {"label": "Restaurantes en Manta según quien vive aquí", "url": "/gastronomia-manta/restaurante-manta-segun-quien-vive-aqui/"}
+  ],
+  "faq": [
+    {"q": "¿Dónde celebrar cumpleaños en Manta?", "a": "Depende del tipo. Pareja romántico ($40-$70/persona): rooftop con vista, restaurante de Barbasquillo. Familiar de 10-20 ($20-$35): marisquería del malecón, La Quadra, Barbasquillo. After con amigos ($25-$50): lounge en av. Flavio Reyes con bottle service. Evento privado salón ($35-$60): hoteles grandes."},
+    {"q": "¿Cómo organizar cumpleaños familiar grande en Manta?", "a": "Reservar con 2-3 semanas para grupo de 15+. Confirmar 48 horas antes con número exacto. Para grupo de 20+ pedir presupuesto fijo por persona (más fácil de manejar al final que cuenta abierta). Marisquerías del malecón y restaurantes de Barbasquillo tienen mesas largas."},
+    {"q": "¿Qué hacer para cumpleaños de pareja en Manta?", "a": "Rooftop con vista al Pacífico al atardecer (18:10-18:25), mesa en el borde, reserva con 1-2 semanas avisando que es cumpleaños, coctel de bienvenida, postre con vela y detalle especial. Cena promedio $40-$70 por persona. Restaurantes íntimos de Barbasquillo también funcionan."},
+    {"q": "¿Hay lounges con DJ para after de cumpleaños en Manta?", "a": "Sí, 3-4 lounges con DJ en av. Flavio Reyes operan jueves a sábado desde las 22:00. Bottle service para grupo de 8+: botellas $80-$150 según marca. Cover ocasional fines de semana $5-$10. Reservar 48-72 horas antes mínimo viernes y sábado."}
+  ]
+}

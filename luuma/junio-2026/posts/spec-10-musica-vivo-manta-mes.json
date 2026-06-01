@@ -1,0 +1,87 @@
+{
+  "title": "Música en vivo en Manta este mes: nuestra programación + la de la ciudad",
+  "slug": "musica-vivo-manta-este-mes",
+  "status": "publish",
+  "date": "2026-07-21T11:00:00",
+  "category_id": 11,
+  "_category_slug": "eventos-entretenimiento",
+  "featured_media": 668,
+  "tags": ["música en vivo manta", "agenda musical manta", "conciertos manta", "bandas manta", "luuma rooftop"],
+  "excerpt": "Agenda de música en vivo en Manta este mes — bandas, tributos, días y horarios. Más nuestra programación en Luuma cada viernes y sábado.",
+  "yoast_title": "Música en vivo en Manta este mes: 12 noches + agenda ciudad",
+  "yoast_metadesc": "Programación de música en vivo en Luuma Rooftop este mes + lo que pasa en el resto de Manta. Actualizado cada mes.",
+  "yoast_focuskw": "música en vivo manta",
+  "lead": [
+    "Cada mes publicamos esta agenda porque la mayoría de bares y rooftops en Manta no la suben a Google. Si llegas un viernes esperando música en vivo y no sabes dónde, terminas en el primer bar de Flavio Reyes que pase. Esta guía es para no llegar a ciegas.",
+    "Te decimos la programación de Luuma para el mes (viernes y sábado, sin cover), más los otros lugares de Manta con música en vivo donde nosotros mismos vamos cuando no estamos trabajando. Acompaña con un coctel de la barra antes de empezar."
+  ],
+  "sections": [
+    {
+      "h2": "Cómo funciona la noche de música en vivo en Manta",
+      "blocks": [
+        {"type": "p", "text": "Importante saber para no llegar mal: la mayoría de bares y rooftops con música en vivo arrancan turnos a las 21:00. Hasta las 20:30 puedes cenar tranquilo y la banda llega después. Si quieres mesa cerca del escenario, llega antes de las 20:00."},
+        {"type": "p", "text": "Casi todos los lugares de Manta no cobran cover (entrada). Lo que se paga es consumo mínimo — generalmente equivalente a una entrada + bebida. En Luuma específicamente no hay cover ni mínimo: pides lo que quieras y la música va con la cena o la copa."}
+      ]
+    },
+    {
+      "h2": "Programación de Luuma — viernes y sábado",
+      "blocks": [
+        {"type": "p", "text": "Programación recurrente: cada viernes y sábado tenemos banda en vivo desde las 21:00 hasta cierre (00:30 los fines de semana). Géneros que rotan: pop latino, rock latino, tributos a artistas internacionales, jazz instrumental, fusión latinoamericana."},
+        {"type": "ul", "items": [
+          "Viernes: pop o rock latino — para cena con grupo + después",
+          "Sábado: tributo o banda internacional — más enérgico, para después de cena",
+          "Domingo (ocasional): jazz instrumental o acústico — para brunch tarde"
+        ]},
+        {"type": "p", "text": "Para ver bandas específicas del mes en curso visita la agenda completa actualizada en el blog o pregunta por WhatsApp el viernes mismo."}
+      ]
+    },
+    {
+      "h2": "Otros lugares con música en vivo en Manta",
+      "blocks": [
+        {"type": "p", "text": "Fuera de Luuma, estos son los lugares donde la música en vivo es consistente — programación rota semana a semana pero el espacio se mantiene."},
+        {"type": "h3", "text": "Av. Flavio Reyes"},
+        {"type": "p", "text": "Bares de Flavio Reyes con música en vivo varían cada semana. Hay 3-4 lugares con bandas locales los fines de semana. Recomendación: caminar la av. Flavio Reyes a las 21:30 y ver dónde está el ambiente — la noche en Manta cambia rápido."},
+        {"type": "h3", "text": "Malecón Murciélago"},
+        {"type": "p", "text": "Los bares al borde del malecón Murciélago tienen música en vivo más informal — guitarrista solo, dúo acústico. Volumen bajo, conversación. Bueno para después de cena cuando quieres relajado, no fiesta."},
+        {"type": "h3", "text": "Discotecas zona centro"},
+        {"type": "p", "text": "Para después de medianoche: las discotecas de la zona centro de Manta abren turnos a partir de 23:30. DJs en vivo principalmente, no bandas. Volumen alto, pista de baile, ambiente más joven."}
+      ]
+    },
+    {
+      "h2": "Qué pedir según el tipo de noche",
+      "blocks": [
+        {"type": "p", "text": "Para acompañar música pop latina o rock latino en cena: vinos tintos o cocteles con base de whisky (old fashion, negroni). El alcohol sostiene el ritmo de la noche."},
+        {"type": "p", "text": "Para jazz o acústico: cocteles de autor con maracuyá o frutas tropicales — combinan con el tempo más bajo. En barra de Luuma específicamente, el coctel de maracuyá con aguardiente de caña va bien con tributos a jazz."},
+        {"type": "quote", "text": "La pregunta que más recibimos los viernes es 'qué banda toca esta noche'. La respuesta cambia cada semana, así que la agenda actualizada está en WhatsApp del rooftop. La regla es: si es viernes o sábado, hay música. El género depende de quién esté programado.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Eventos de música más grandes (anuales)",
+      "blocks": [
+        {"type": "p", "text": "Tres veces al año Manta tiene eventos de música más grandes: Festival de música pacífica en marzo (gratuito, en el malecón), Festival manabita de la canción en agosto, y conciertos privados en hoteles grandes (Oro Verde, Howard Johnson) en feriados largos."},
+        {"type": "p", "text": "Para estos eventos puntuales, reservar mesa para cena previa en algún rooftop o restaurante de Flavio Reyes es buena idea — todo se llena los días de festival. Avisa con 1-2 semanas de anticipación si quieres asegurar."}
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen los listings online",
+      "blocks": [
+        {"type": "p", "text": "Tres cosas que aprendimos en años de programar música: primero, la temporada de lluvia (enero-abril) afecta las bandas — varios cancelan si llueve fuerte porque el equipo no aguanta humedad; segundo, las bandas tributo internacionales viajan los fines de semana, no entre semana — si quieres tributo a Soda Stereo o Maná, viernes o sábado; tercero, los músicos locales más buscados se reservan con 2-3 semanas de anticipación si quieres contratarlos para evento privado."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Cena + música en vivo el fin de semana?",
+  "cta_paragraph": "En Luuma viernes y sábado, banda en vivo desde las 21:00 sin cover. Mejor reservar mesa antes de las 20:00 si quieres mesa cerca del escenario o con vista al mar. Atardecer cae a las 18:15 — primera entrada de cena 19:30.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Vida nocturna en Manta jueves a sábado", "url": "/eventos-entretenimiento/vida-nocturna-manta/"},
+    {"label": "Música en vivo en Manta: agenda actualizada", "url": "/eventos-entretenimiento/eventos-musica-vivo-manta-agenda/"},
+    {"label": "Qué hacer este fin de semana en Manta", "url": "/eventos-entretenimiento/que-hacer-fin-de-semana-manta/"}
+  ],
+  "faq": [
+    {"q": "¿Dónde hay música en vivo en Manta esta noche?", "a": "Si es viernes o sábado, los rooftops de av. Flavio Reyes tienen bandas en vivo desde las 21:00 sin cover. Bares del malecón Murciélago tienen acústicos más informales. Discotecas zona centro arrancan DJs después de las 23:30."},
+    {"q": "¿Tiene Luuma música en vivo?", "a": "Sí, cada viernes y sábado desde las 21:00 hasta cierre (00:30). Sin cover ni consumo mínimo. Géneros que rotan: pop latino, rock latino, tributos internacionales, jazz instrumental. Domingo ocasional jazz acústico para brunch tarde."},
+    {"q": "¿Hay que pagar entrada en los bares con música en vivo?", "a": "La mayoría de bares y rooftops en Manta no cobran cover, pero algunos piden consumo mínimo equivalente a una entrada + bebida. En Luuma no hay cover ni mínimo — pides lo que quieras y la música va con la cena o copa."},
+    {"q": "¿A qué hora empieza la música en vivo en Manta?", "a": "Casi todos los lugares arrancan turno a las 21:00. Hasta las 20:30 puedes cenar tranquilo y la banda llega después. Para mesa cerca del escenario, llegar antes de las 20:00. Para discotecas con DJs, después de 23:30."},
+    {"q": "¿Cuál es la mejor noche para música en vivo en Manta?", "a": "Viernes para pop y rock latino con ambiente de cena, sábado para tributos y bandas más energéticas. Si vas con grupo grande y quieres bailar después, sábado. Si la noche es para cena con conversación con música de fondo, viernes."}
+  ]
+}

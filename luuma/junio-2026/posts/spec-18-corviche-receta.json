@@ -1,0 +1,130 @@
+{
+  "title": "Corviche manabita: receta tradicional paso a paso (la del puerto)",
+  "slug": "corviche-receta-tradicional",
+  "status": "publish",
+  "date": "2026-08-19T11:00:00",
+  "category_id": 12,
+  "_category_slug": "recetas-cocina",
+  "featured_media": 178,
+  "tags": ["corviche", "receta corviche", "corviche manabita", "comida manabita", "plátano verde"],
+  "excerpt": "Receta del corviche real — masa de plátano verde rellena de pescado, frita en aceite caliente y servida con salsa de maní. Paso a paso, errores comunes y dónde comerlo en Manta.",
+  "yoast_title": "Corviche manabita: receta tradicional paso a paso",
+  "yoast_metadesc": "Receta del corviche real: masa de plátano verde, relleno de pescado, salsa de maní. Paso a paso. Errores comunes. Dónde comerlo en Manta.",
+  "yoast_focuskw": "corviche receta",
+  "lead": [
+    "El corviche es uno de los platos más identitarios de Manabí — masa de plátano verde rellena de pescado, frita y servida con salsa de maní. Se come con la mano. Es el desayuno tardío de los pescadores de Tarqui cuando vuelven del mar y la merienda de los chicos al salir del colegio en La Aurora.",
+    "Te contamos cómo hacerlo en casa al estilo del puerto de Manta — masa que no se rompe al freír, relleno bien sazonado, salsa de maní que acompaña sin tapar. Más los errores típicos que hacen fracasar el corviche y dónde comer el original si no quieres cocinarlo."
+  ],
+  "sections": [
+    {
+      "h2": "Qué hace que un corviche sea bueno",
+      "blocks": [
+        {"type": "p", "text": "Tres cosas que diferencian un corviche de calidad de uno regular. Memorizalas porque definen el resultado:"},
+        {"type": "ul", "items": [
+          "Masa de plátano verde aplastado en mortero (no licuadora) — la textura cambia por completo",
+          "Relleno de pescado fresco sazonado simple — pesca blanca + cebolla colorada + ajo + sal",
+          "Salsa de maní al lado servida tibia — no muy espesa, no muy líquida"
+        ]},
+        {"type": "p", "text": "Sin estos tres, terminas con una bolita de plátano frita que no es corviche."}
+      ]
+    },
+    {
+      "h2": "Ingredientes (10-12 corviches)",
+      "blocks": [
+        {"type": "h3", "text": "Para la masa"},
+        {"type": "ul", "items": [
+          "4 plátanos verdes grandes",
+          "2 cucharadas de maní tostado y molido (clave del sabor)",
+          "1 cucharadita de achiote en aceite o pasta",
+          "Sal al gusto",
+          "Aceite vegetal para freír (suficiente para sumergir)"
+        ]},
+        {"type": "h3", "text": "Para el relleno"},
+        {"type": "ul", "items": [
+          "300 g de pesca blanca fresca, sin piel ni espinas, deshebrada",
+          "1 cebolla colorada pequeña en cuadritos finos",
+          "2 dientes de ajo machacados",
+          "1 cucharadita de comino",
+          "1 cucharada de aceite",
+          "Sal al gusto"
+        ]},
+        {"type": "h3", "text": "Para la salsa de maní"},
+        {"type": "ul", "items": [
+          "1 taza de maní tostado y molido fino",
+          "1/2 taza de leche evaporada o agua",
+          "1 cucharadita de achiote",
+          "1 cebolla colorada pequeña sofrita",
+          "Sal al gusto"
+        ]}
+      ]
+    },
+    {
+      "h2": "Paso a paso (1 hora total)",
+      "blocks": [
+        {"type": "h3", "text": "Preparar el relleno (20 min)"},
+        {"type": "ul", "items": [
+          "1. Cocina el pescado al vapor 8-10 minutos hasta firme",
+          "2. Deshebra con tenedor en hilos finos",
+          "3. En sartén pequeña, sofríe cebolla con ajo y comino en aceite",
+          "4. Agrega pescado deshebrado, mezcla 3 minutos. Reserva tibio"
+        ]},
+        {"type": "h3", "text": "Preparar la masa (25 min)"},
+        {"type": "ul", "items": [
+          "1. Hierve los plátanos verdes con cáscara en agua salada 15 minutos hasta tiernos pero no blandos",
+          "2. Pela y aplasta en mortero (o tabla con rodillo) hasta masa uniforme",
+          "3. Agrega maní molido, achiote y sal. Amasa hasta integrar — la masa debe sostener forma",
+          "4. Si está muy seca, agrega 1 cucharada de agua tibia"
+        ]},
+        {"type": "h3", "text": "Armar y freír (15 min)"},
+        {"type": "ul", "items": [
+          "1. Toma porción de masa del tamaño de un huevo grande",
+          "2. Aplana en la palma, coloca 1 cucharada de relleno al centro",
+          "3. Cierra formando óvalo. Sella bien los bordes",
+          "4. Calienta aceite a 170°C. Fríe 3-4 corviches a la vez, 3-4 minutos por lado",
+          "5. Escurre en papel absorbente. Sirve caliente con salsa de maní al lado"
+        ]}
+      ]
+    },
+    {
+      "h2": "Los errores que arruinan el corviche",
+      "blocks": [
+        {"type": "p", "text": "Cuatro errores comunes que vemos en gente que arranca a hacer corviche por primera vez:"},
+        {"type": "ul", "items": [
+          "Aceite muy caliente: la masa se quema afuera y queda cruda adentro",
+          "Aceite muy frío: el corviche se abre, el relleno se sale, queda grasoso",
+          "Masa muy seca: se rompe al cerrar, pierde forma al freír",
+          "Demasiado relleno: la masa no cubre, se abre al primer minuto"
+        ]},
+        {"type": "quote", "text": "El primer corviche que hacemos en clase de cocina siempre se abre. Es así. La masa de plátano verde tiene su técnica que no se aprende en un día. Por eso los corviches del puerto son tan buenos — las señoras llevan 30 años haciéndolos cada mañana.", "citation": "Equipo de cocina de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Dónde comer corviche real en Manta",
+      "blocks": [
+        {"type": "p", "text": "Si quieres probar el corviche original sin cocinarlo: las casetas del malecón Murciélago zona norte tienen corviche fresco entre 7:00 y 11:00 ($1.50-$2 cada uno). Las del lado del puerto de Tarqui los tienen un poco más tarde ($1.50-$2.50). La carretera que sale a San Mateo tiene paradores con corviche en casetas familiares al borde del mar."},
+        {"type": "p", "text": "El corviche es plato de mano, no de restaurante elegante. Casi ningún rooftop o lugar formal lo ofrece. Si lo ves en menú de restaurante con vista, sospecha — probablemente sea industrial congelado, no fresco hecho en casa."}
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen las recetas online",
+      "blocks": [
+        {"type": "p", "text": "Tres trucos del puerto: primero, agregar 1 cucharada de chicharrón finamente picado al relleno cambia el sabor por completo — versión más sustanciosa; segundo, freír en aceite que ya frió pescado antes le da capa de sabor extra (los puestos del puerto los hacen así); tercero, servir con limón al lado para apretar antes de morder — corta la grasa y eleva el plátano. Pruébalo así una vez."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Probarlo al estilo Luuma?",
+  "cta_paragraph": "Una vez por semana servimos corviche manabita como entrada de almuerzo en Luuma — versión casera del puerto con pesca blanca del día y salsa de maní tibia. Mejor pedirlo al mediodía (12:30-14:00) cuando recién sale de la sartén.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
+    {"label": "Encocado de pescado manabita: receta original", "url": "/recetas-cocina/encocado-pescado-receta-manabita/"},
+    {"label": "Ceviche manabita: receta original", "url": "/recetas-cocina/ceviche-manabita-receta-original/"}
+  ],
+  "faq": [
+    {"q": "¿Qué es el corviche manabita?", "a": "Masa de plátano verde rellena de pescado deshebrado, frita en aceite caliente y servida con salsa de maní. Es plato del puerto de Manta — desayuno tardío de pescadores y merienda de chicos. Se come con la mano. Cuesta $1.50-$2.50 en las casetas del puerto."},
+    {"q": "¿Cuál pescado se usa para el corviche?", "a": "Pesca blanca fresca: corvina, dorado, pargo o sierra. Se cocina al vapor primero, después se deshebra en hilos finos. El sazonado es simple: cebolla colorada, ajo, comino, sal. Sin complicar."},
+    {"q": "¿Por qué se abre el corviche al freír?", "a": "Tres causas comunes: aceite muy frío (no sella la masa), masa muy seca (se rompe al cerrar), demasiado relleno (la masa no cubre). Solución: aceite a 170°C, masa con un toque de humedad, relleno modesto y bordes bien sellados."},
+    {"q": "¿Dónde comer corviche en Manta?", "a": "Casetas del malecón Murciélago zona norte ($1.50-$2 c/u, 7:00-11:00), del lado del puerto de Tarqui ($1.50-$2.50), paradores de la carretera a San Mateo. No buscar en restaurantes elegantes — el corviche es plato de mano del puerto."},
+    {"q": "¿Cuál es el secreto de la masa del corviche?", "a": "Aplastar el plátano verde en mortero o tabla con rodillo, NO en licuadora. La textura cambia por completo. Agregar 2 cucharadas de maní tostado molido a la masa cambia el sabor. Sal moderada — la salsa de maní del acompañamiento ya sazona."}
+  ]
+}

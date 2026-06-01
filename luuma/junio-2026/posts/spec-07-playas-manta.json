@@ -1,0 +1,99 @@
+{
+  "title": "Playas de Manta: cuál elegir según tu plan (familia, surf, atardecer)",
+  "slug": "playas-manta-cual-elegir",
+  "status": "publish",
+  "date": "2026-07-10T11:00:00",
+  "category_id": 10,
+  "_category_slug": "vida-en-manta",
+  "featured_media": 663,
+  "tags": ["playas manta", "playa murcielago", "san mateo", "santa marianita", "barbasquillo", "manta turismo"],
+  "excerpt": "Murciélago, San Mateo, Santa Marianita, Barbasquillo y Tarqui — guía honesta de las playas de Manta según vayas con familia, surf, atardecer o ceviche al pie del mar.",
+  "yoast_title": "Playas de Manta: cuál elegir según tu plan (5 opciones)",
+  "yoast_metadesc": "Murciélago, San Mateo, Santa Marianita, Barbasquillo y Tarqui — guía honesta de las playas de Manta según vayas con familia, surf, o un atardecer.",
+  "yoast_focuskw": "playas manta",
+  "lead": [
+    "Manta tiene cinco playas que importan, y cada una sirve para algo distinto. Pretender que todas son iguales es lo que hace que algunos turistas terminen en Tarqui con ganas de bañarse y terminen frustrados, o en Santa Marianita esperando comer marisco fresco y se llenen de polvo.",
+    "Te decimos cuál vale la pena según tu plan — familia con niños, día de surf, atardecer fotográfico, ceviche al pie del mar, kitesurf. Más lo que no te dicen las guías turísticas sobre temporada de oleaje y viento."
+  ],
+  "sections": [
+    {
+      "h2": "Playa Murciélago: la urbana",
+      "blocks": [
+        {"type": "p", "text": "Murciélago es la playa principal de Manta — pegada al malecón, con todos los servicios cerca (baños, duchas, parqueo, restaurantes, hoteles). Arena clara, oleaje moderado, salvavidas en temporada alta."},
+        {"type": "p", "text": "Mejor para: turistas que quieren todo a la mano, familias con niños chicos (oleaje suave en la zona del malecón), y para terminar el día con cena en marisquería del malecón. Mal para: si buscas tranquilidad o playa virgen, esta no es."},
+        {"type": "h3", "text": "Lo bueno"},
+        {"type": "ul", "items": [
+          "Acceso peatonal desde casi cualquier hotel de Flavio Reyes",
+          "Servicios completos (restaurantes, baños, parqueo) en toda la longitud",
+          "Bares con vista al mar para cerrar el día",
+          "Salvavidas en temporada alta (carnaval, semana santa, navidad)"
+        ]}
+      ]
+    },
+    {
+      "h2": "San Mateo: la de pescadores",
+      "blocks": [
+        {"type": "p", "text": "San Mateo queda a 20 minutos de Manta hacia el sur. Es una ensenada con pueblo de pescadores, sin turismo masivo. El ceviche se vende al pie del mar, recién hecho con pesca del día — entre $5 y $8."},
+        {"type": "p", "text": "Mejor para: medio día de playa sin gente + almuerzo manabita real. Mal para: actividades de playa (no hay infraestructura turística, no hay baños públicos limpios, no hay salvavidas)."},
+        {"type": "quote", "text": "Cuando huéspedes de Luuma nos preguntan dónde almorzar el sábado fuera del circuito turístico, los mandamos a San Mateo. Llegan a las 11:30, comen ceviche al borde del mar por $6, vuelven a las 14:00 a Manta para siesta. Vuelven hablando del plan por días.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Santa Marianita: la de kitesurf",
+      "blocks": [
+        {"type": "p", "text": "A 40 minutos de Manta hacia el norte está Santa Marianita, conocida internacionalmente como destino de kitesurf por el viento constante (mejor temporada junio-noviembre). La playa es ancha, oleaje fuerte en zona de surf, arena más oscura."},
+        {"type": "p", "text": "Mejor para: kitesurf, surf, fotos con luz de tarde dorada. Mal para: bañarse con niños chicos (oleaje y viento), llegar sin auto (hay bus pero infrecuente)."}
+      ]
+    },
+    {
+      "h2": "Barbasquillo: la familiar y tranquila",
+      "blocks": [
+        {"type": "p", "text": "Barbasquillo está al norte del malecón Murciélago, dentro del barrio residencial del mismo nombre. Playa pequeña, oleaje muy suave, ambiente local. Casi no hay turistas — vas con familias mantenses los fines de semana."},
+        {"type": "p", "text": "Mejor para: familias con niños chicos, día tranquilo sin ruido, brunch en restaurantes del barrio Barbasquillo a 5 minutos. Mal para: si quieres ambiente o servicios turísticos (no hay)."}
+      ]
+    },
+    {
+      "h2": "Tarqui: NO para bañarse",
+      "blocks": [
+        {"type": "p", "text": "Tarqui es la playa del puerto de Manta. Aquí está la actividad pesquera, las bodegas, las casetas del mercado al lado del mar. Aviso: no es para bañarse — la zona está adyacente al puerto y los pescadores trabajan ahí mismo."},
+        {"type": "p", "text": "Lo que SÍ vale en Tarqui: ver a los pescadores volver al mediodía con la pesca del día, comprar pescado fresco al pie del mar a precio mayorista, comer viche y ceviche manabita en las picanterías sin nombre del mercado."}
+      ]
+    },
+    {
+      "h2": "Comparativa rápida",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Playa", "Mejor para", "Distancia centro", "Infraestructura"],
+          "rows": [
+            ["Murciélago", "Turista, familia, ambiente", "Walking", "Completa"],
+            ["San Mateo", "Almuerzo de pescador, día sin gente", "20 min auto", "Mínima"],
+            ["Santa Marianita", "Kitesurf, surf, atardecer", "40 min auto", "Surfistas"],
+            ["Barbasquillo", "Familia tranquila", "10 min auto", "Mínima"],
+            ["Tarqui", "Comer marisco, ver puerto", "10 min auto", "Mercado"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen las guías",
+      "blocks": [
+        {"type": "p", "text": "Tres datos que se aprenden viviendo aquí: primero, el viento en Manta se intensifica desde las 14:00 — si quieres mar calmado, ve en la mañana; segundo, las playas del sur (San Mateo) tienen mejor calidad de pescado por estar al borde del banco pesquero; tercero, los meses de junio-octubre el agua está más fría de lo que un visitante de Guayaquil espera — trae toalla y un buzo ligero."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Cena después de playa?",
+  "cta_paragraph": "Después de un día en cualquier playa de Manta, la cena con vista al Pacífico en rooftop cierra bien el plan. En Luuma servimos cocina manabita y mariscos del día desde las 19:00. Mejor con reserva los fines de semana.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"},
+    {"label": "De Guayaquil/Quito a Manta: cómo llegar", "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"},
+    {"label": "Carta de Luuma Rooftop", "url": "/menu/"}
+  ],
+  "faq": [
+    {"q": "¿Cuál es la mejor playa de Manta para familia?", "a": "Murciélago por infraestructura completa (servicios, restaurantes, salvavidas en temporada alta) o Barbasquillo por tranquilidad sin gente. Ambas tienen oleaje suave apto para niños chicos."},
+    {"q": "¿Hay playas de surf en Manta?", "a": "Sí, Santa Marianita a 40 minutos al norte. Es destino conocido para kitesurf y surf por viento constante. Mejor temporada junio-noviembre."},
+    {"q": "¿Dónde es mejor el ceviche al pie del mar?", "a": "San Mateo, a 20 minutos al sur de Manta. Pueblo de pescadores con ceviche manabita servido al borde del mar entre $5 y $8, recién hecho con pesca del día."},
+    {"q": "¿Por qué Tarqui no se usa para bañarse?", "a": "Es la playa adyacente al puerto pesquero de Manta — actividad de pescadores todo el día, calidad del agua no apta para baño. Pero es la mejor playa para comer mariscos baratos y comprar pescado fresco."},
+    {"q": "¿A qué hora ir a las playas de Manta?", "a": "Mañana entre 9:00 y 11:30 antes que el viento se intensifique. Después de las 14:00 el viento sopla fuerte en toda la costa de Manabí — el agua sigue cálida pero la playa pierde comodidad."}
+  ]
+}

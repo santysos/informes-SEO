@@ -1,0 +1,93 @@
+{
+  "title": "Clima en Manta: cuándo visitar según el plan (lluvia, sol, kitesurf)",
+  "slug": "clima-manta-mejor-epoca-visitar",
+  "status": "publish",
+  "date": "2026-08-12T11:00:00",
+  "category_id": 10,
+  "_category_slug": "vida-en-manta",
+  "featured_media": 664,
+  "tags": ["clima manta", "cuando visitar manta", "epoca lluvia manta", "viaje manta", "temporada"],
+  "excerpt": "Manta tiene dos temporadas marcadas: invierno (enero-abril) con sol caliente y lluvias cortas, y verano (mayo-diciembre) más fresco con viento y nubes. Te decimos cuándo conviene según tu plan.",
+  "yoast_title": "Clima en Manta: cuándo visitar según tu plan",
+  "yoast_metadesc": "Las dos temporadas de Manta: invierno enero-abril sol caliente, verano mayo-diciembre fresco con viento. Cuándo conviene viajar según el plan.",
+  "yoast_focuskw": "clima manta",
+  "lead": [
+    "Una de las primeras preguntas que recibimos de huéspedes que vienen por primera vez: \"¿cuándo es mejor visitar Manta?\". La respuesta corta es \"depende\". Lo importante saber: Manta tiene dos temporadas marcadas con clima muy distinto. Decidir entre una u otra cambia el viaje por completo.",
+    "Te contamos las diferencias entre invierno y verano en la costa de Manabí, qué plan funciona mejor en cada época y los detalles del clima que sólo aprenden quienes viven aquí — viento de tarde, humedad de la garúa, temporada de kitesurf."
+  ],
+  "sections": [
+    {
+      "h2": "Las dos temporadas de Manta",
+      "blocks": [
+        {"type": "h3", "text": "Invierno (enero-abril): sol caliente y lluvias cortas"},
+        {"type": "p", "text": "Es la temporada alta turística. Temperatura entre 28 y 32 grados. Sol intenso desde las 9:00 hasta las 16:00. Lluvias cortas, generalmente al final de tarde o noche, duran 30-60 minutos y dejan el ambiente más limpio."},
+        {"type": "p", "text": "Plan ideal: playa todo el día, mar cálido (24-26 grados), atardeceres muy fotogénicos, cena al aire libre sin frío. Lo que no funciona: kitesurf (viento inconsistente), llevar ropa formal pesada (humedad la incomoda), planes en exteriores 12:00-15:00 (sol castigador)."},
+        {"type": "h3", "text": "Verano (mayo-diciembre): fresco con viento y nubes"},
+        {"type": "p", "text": "Temporada baja en general. Temperatura más fresca: 22-27 grados, mar más frío (20-22 grados — chévere para refrescarse, no para nadar largo). Cielo con nubes la mayoría de mañanas (la \"garúa\" — neblina costera) que abren cerca del mediodía. Viento constante en la tarde."},
+        {"type": "p", "text": "Plan ideal: kitesurf en Santa Marianita (viento perfecto), caminatas largas sin sudar, fotos con cielo dramático nublado, días tranquilos sin masa turística. Lo que no funciona: planes de playa todo el día (frío), ropa de playa fina (vientos exigen buzo ligero)."}
+      ]
+    },
+    {
+      "h2": "Mes por mes — qué esperar",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Mes", "Temperatura", "Lluvia", "Mar", "Recomendable para"],
+          "rows": [
+            ["Enero", "28-32°C", "Pocas, tarde", "Cálido 25°C", "Playa, atardecer"],
+            ["Febrero", "29-32°C", "Cortas", "Cálido 26°C", "Carnaval (turismo alto)"],
+            ["Marzo", "29-32°C", "Más fuertes", "Cálido 26°C", "Playa con paraguas a mano"],
+            ["Abril", "28-31°C", "Disminuyen", "Cálido 25°C", "Última semana de playa caliente"],
+            ["Mayo", "26-29°C", "Esporádicas", "23°C fresco", "Transición — cuidado"],
+            ["Junio", "23-27°C", "Garúa mañana", "21°C frío", "Kitesurf inicia"],
+            ["Julio", "22-26°C", "Garúa fuerte", "20°C frío", "Kitesurf alto, fotos dramáticas"],
+            ["Agosto", "22-27°C", "Menos garúa", "21°C", "Buen mes para caminatas largas"],
+            ["Septiembre", "23-27°C", "Esporádicas", "21°C", "Tranquilo sin masa"],
+            ["Octubre", "24-28°C", "Casi nada", "22°C", "Inicio temporada"],
+            ["Noviembre", "26-29°C", "Pocas", "23°C", "Buena vibe pre-temporada"],
+            ["Diciembre", "28-31°C", "Pocas", "25°C", "Fiestas — masivo"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Los detalles del clima que solo se aprenden viviendo aquí",
+      "blocks": [
+        {"type": "p", "text": "Hay tres patrones que ningún pronóstico oficial cuenta:"},
+        {"type": "ul", "items": [
+          "El viento de Manta arranca alrededor de 14:00 todos los días, todo el año. Antes el mar es calmado; después se vuelve revuelto. Si tu plan es nadar tranquilo, mañana",
+          "La garúa de la mañana (junio-octubre) puede dejar visibilidad nula hasta las 10:30, pero abre completo después del mediodía. No canceles plan por la mañana nublada",
+          "Las lluvias del invierno son cortas pero fuertes. Si hay nubes negras al final del día, la lluvia llega en 20 minutos. Conviene tener plan B bajo techo"
+        ]},
+        {"type": "quote", "text": "El error más común del turista de Quito que viene en agosto es esperar el calor de la costa que recuerda. Llega con ropa de playa y se da cuenta a las 8 de la noche en el malecón que necesita buzo. El mantense ya sabe que mayo a octubre es buzo en la tarde, sí o sí.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Qué empacar según la temporada",
+      "blocks": [
+        {"type": "p", "text": "Invierno (ene-abr): ropa fresca, shorts, vestidos ligeros, sandalias, gorra, protector factor 50+, traje de baño, toalla. Para cena al aire libre, ropa fina suelta."},
+        {"type": "p", "text": "Verano (may-dic): mismo que invierno PLUS buzo ligero para tarde-noche, jeans para algunos planes, zapato cerrado para caminatas largas. Sí necesitas protector solar — el sol pega entre los nubes."}
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen las páginas de turismo",
+      "blocks": [
+        {"type": "p", "text": "Dos cosas: primero, los \"meses ideales\" oficiales son enero a abril, pero Manta también es genial en agosto-septiembre si tu plan es kitesurf, caminata, fotos con cielo dramático y sin gente; segundo, los rooftops y restaurantes al aire libre operan todo el año — solo cierran terraza si llueve fuerte. En octubre-noviembre la temperatura ideal para cena al aire libre es perfecta."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Cena al aire libre con vista al Pacífico?",
+  "cta_paragraph": "En Luuma rooftop, operamos todo el año en av. Flavio Reyes. Invierno: ambiente fresco con brisa del Pacífico. Verano: buzo ligero recomendado después de las 18:00. Reservas para mesa con vista directa al mar.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "De Guayaquil/Quito a Manta", "url": "/vida-en-manta/visitar-manta-desde-guayaquil-quito/"},
+    {"label": "Playas de Manta: cuál elegir según tu plan", "url": "/vida-en-manta/playas-manta-cual-elegir/"},
+    {"label": "Qué hacer en Manta: 17 planes reales", "url": "/vida-en-manta/que-hacer-manta-ecuador-guia-turistica/"}
+  ],
+  "faq": [
+    {"q": "¿Cuál es la mejor época para visitar Manta?", "a": "Depende del plan. Enero-abril: temporada caliente, ideal para playa todo el día, mar cálido (25°C), atardeceres fotogénicos. Mayo-diciembre: fresco con viento, ideal para kitesurf, caminatas, fotos con cielo dramático y sin masa turística."},
+    {"q": "¿Cuándo llueve en Manta?", "a": "El invierno (enero-abril) tiene las lluvias más fuertes, generalmente cortas (30-60 minutos) al final de tarde o noche. Mayo-diciembre tiene garúa mañanera (especialmente jun-jul) que abre al mediodía, y lluvias esporádicas casi nulas."},
+    {"q": "¿Cuál es la temperatura del mar en Manta?", "a": "Invierno (enero-abril): 24-26°C, muy agradable. Verano (mayo-diciembre): 20-22°C, fresco — refresca sí, nadar largo no. La transición es en mayo cuando empieza a bajar visible."},
+    {"q": "¿Cuándo es la mejor temporada de kitesurf en Manta?", "a": "Junio a noviembre. Viento constante en Santa Marianita (40 minutos al norte de Manta). Julio-septiembre es el pico. Antes de junio el viento es inconsistente para el deporte."},
+    {"q": "¿Qué llevar al viaje a Manta en agosto?", "a": "Ropa fresca + buzo ligero para tarde-noche, zapato cerrado para caminatas, traje de baño (mar frío pero refresca), protector solar (el sol pega entre las nubes), jeans para planes de noche. Cena al aire libre necesita ropa abrigada después de las 18:00."}
+  ]
+}

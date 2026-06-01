@@ -1,0 +1,104 @@
+{
+  "title": "Sancocho manabita: receta tradicional con yuca, plátano verde y carne",
+  "slug": "sancocho-manabita-receta-tradicional",
+  "status": "publish",
+  "date": "2026-09-16T11:00:00",
+  "category_id": 12,
+  "_category_slug": "recetas-cocina",
+  "featured_media": 178,
+  "tags": ["sancocho manabita", "receta sancocho", "sopa manabita", "yuca", "plátano verde"],
+  "excerpt": "El sancocho manabita es sopa de domingo familiar — carne de res, yuca, plátano verde, maíz. Te enseñamos la receta tradicional con los toques que cambian todo: maní tostado y achiote casero.",
+  "yoast_title": "Sancocho manabita: receta tradicional paso a paso",
+  "yoast_metadesc": "Receta del sancocho manabita real: carne de res, yuca, plátano verde, maíz, maní tostado. Cómo se hace en casas mantenses. Tradición familiar.",
+  "yoast_focuskw": "sancocho manabita",
+  "lead": [
+    "El sancocho manabita es el plato del domingo familiar en las casas de Manabí. Sopa espesa con carne de res, yuca, plátano verde, maíz y un toque de maní tostado que cambia el sabor por completo. Cocinado a fuego lento durante 2 horas mínimo. Las picanterías de Tarqui lo tienen los sábados — pero el real es el de casa.",
+    "Te enseñamos la receta tradicional como se hace en pueblos de Manabí. Paso a paso, los ingredientes que importan y los tres toques que diferencian un sancocho manabita de un sancocho costeño cualquiera."
+  ],
+  "sections": [
+    {
+      "h2": "Lo que hace al sancocho manabita distinto",
+      "blocks": [
+        {"type": "p", "text": "Tres detalles que diferencian el sancocho manabita del costeño promedio:"},
+        {"type": "ul", "items": [
+          "Maní tostado molido agregado al final — aporta cuerpo y sabor tierra",
+          "Achiote casero (no industrial) que le da color rojizo profundo",
+          "Cocción lenta de la carne con hueso — caldo más sustancioso"
+        ]}
+      ]
+    },
+    {
+      "h2": "Ingredientes (6 porciones)",
+      "blocks": [
+        {"type": "ul", "items": [
+          "1 kg de carne de res con hueso (osobuco o costilla)",
+          "2 plátanos verdes en trozos grandes",
+          "500 g de yuca pelada en trozos",
+          "2 mazorcas de maíz en rodajas",
+          "1 cebolla colorada grande en cuadritos",
+          "3 dientes de ajo machacados",
+          "2 tomates maduros picados",
+          "1 cucharada de achiote casero",
+          "3 cucharadas de maní tostado y molido",
+          "Cilantro fresco al final",
+          "Sal y pimienta al gusto",
+          "Para servir: aguacate, ají manabita, limón"
+        ]}
+      ]
+    },
+    {
+      "h2": "Paso a paso (2 horas 30 min)",
+      "blocks": [
+        {"type": "h3", "text": "Cocción de la carne (1 hora)"},
+        {"type": "ul", "items": [
+          "1. En olla grande, cubre la carne con agua y sal. Lleva a hervor",
+          "2. Espuma con cuchara los primeros 10 minutos (sale la espuma blanca de los huesos)",
+          "3. Cocina tapado a fuego medio-bajo 1 hora hasta que la carne empiece a desprenderse"
+        ]},
+        {"type": "h3", "text": "Agregar verduras (40 min)"},
+        {"type": "ul", "items": [
+          "1. Agrega cebolla, ajo, tomate y achiote. Sigue cocinando 10 min",
+          "2. Agrega yuca y plátano verde. Cocina 20 min",
+          "3. Agrega maíz. Cocina 10 min más",
+          "4. Verifica que la yuca esté tierna y la carne se desprenda fácil"
+        ]},
+        {"type": "h3", "text": "El toque final (10 min)"},
+        {"type": "ul", "items": [
+          "1. Diluye el maní tostado molido con un poco del caldo en taza aparte",
+          "2. Agrega al sancocho mezclando. Cocina 5 min más",
+          "3. Sazona con sal y pimienta",
+          "4. Apaga fuego, agrega cilantro fresco picado",
+          "5. Sirve con aguacate en cuadritos, ají manabita y limón al lado"
+        ]}
+      ]
+    },
+    {
+      "h2": "Por qué el maní tostado al final cambia todo",
+      "blocks": [
+        {"type": "p", "text": "El maní agregado al inicio se cocina demasiado tiempo y pierde sabor — queda como espesante sin carácter. El maní agregado al final mantiene el aroma y el sabor tostado, espesa el caldo y le da el tono manabita inconfundible."},
+        {"type": "quote", "text": "El sancocho que hacían nuestras abuelas en pueblos como Junín o Crucita siempre tenía ese punto del maní agregado al final. Lo aprendían de sus mamás, lo enseñaban a sus hijas. Cuando alguien hace sancocho sin ese paso, no es sancocho manabita — es sancocho costeño general.", "citation": "Equipo de cocina de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Dónde comer sancocho en Manta",
+      "blocks": [
+        {"type": "p", "text": "El sancocho casi no se sirve en restaurante formal — es plato de casa o de picantería de pueblo. En Manta: picanterías de Tarqui los sábados tienen sancocho a $5-$8 con porción generosa. Restaurantes de Barbasquillo los domingos lo incluyen como opción de almuerzo familiar a $8-$12."},
+        {"type": "p", "text": "Para versión más elaborada: algunos restaurantes de Crucita y Charapotó (50 minutos de Manta) lo sirven los fines de semana. En Luuma ocasionalmente lo servimos como sopa de almuerzo familiar — preguntar al equipo si está en carta esa semana."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Sopa manabita para acompañar plato fuerte?",
+  "cta_paragraph": "En Luuma av. Flavio Reyes, las sopas manabitas rotan en carta de almuerzo. Sancocho los fines de semana cuando llega la carne fresca. Mejor para almuerzo familiar (12:30-15:00) con vista al Pacífico.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Platos típicos de Manabí: los 12 que probar", "url": "/recetas-cocina/platos-tipicos-manabi-guia-definitiva/"},
+    {"label": "Encocado de pescado manabita receta", "url": "/recetas-cocina/encocado-pescado-receta-manabita/"},
+    {"label": "Almuerzos en Manta por zona", "url": "/gastronomia-manta/almuerzos-manta-por-zona/"}
+  ],
+  "faq": [
+    {"q": "¿Qué es el sancocho manabita?", "a": "Sopa espesa de domingo familiar con carne de res, yuca, plátano verde, maíz, achiote y un toque de maní tostado agregado al final. Se cocina a fuego lento 2-2.5 horas. Acompañado con aguacate, ají manabita y limón al lado."},
+    {"q": "¿Cuál es la diferencia entre sancocho manabita y otros sancochos?", "a": "Tres detalles: el manabita agrega maní tostado molido al final (aporta sabor tierra), usa achiote casero para color rojizo profundo, y cocina la carne con hueso a fuego lento (caldo más sustancioso). El costeño general no incluye estos detalles."},
+    {"q": "¿Cuánto tiempo toma hacer sancocho manabita?", "a": "2 horas 30 min total. Una hora para cocinar la carne hasta que se desprenda. 40 min para las verduras. 10 min finales para integrar el maní tostado y el cilantro fresco."},
+    {"q": "¿Dónde comer sancocho manabita en Manta?", "a": "Picanterías de Tarqui los sábados ($5-$8 con porción generosa). Restaurantes de Barbasquillo los domingos ($8-$12 versión más elaborada). Para versión de pueblo: Crucita y Charapotó (50 min de Manta) los fines de semana."}
+  ]
+}
