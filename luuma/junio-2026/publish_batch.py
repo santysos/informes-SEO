@@ -379,6 +379,8 @@ def build_post(d):
             "_yoast_wpseo_focuskw": d.get("yoast_focuskw", ""),
         },
     }
+    if d.get("featured_media"):
+        payload["featured_media"] = d["featured_media"]
     return payload
 
 

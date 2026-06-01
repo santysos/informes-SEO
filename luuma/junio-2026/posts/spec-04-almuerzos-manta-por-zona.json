@@ -1,0 +1,117 @@
+{
+  "_notes": "Post #4 — defiende query 'almuerzos manta' con foco práctico por zona y rango de precios. Linkea al post #2 y a la /menu-almuerzo/ del sitio.",
+  "title": "Almuerzos en Manta por zona: Tarqui, Umiña, Flavio Reyes, La Quadra",
+  "slug": "almuerzos-manta-por-zona",
+  "status": "publish",
+  "date": "2026-06-26T11:00:00",
+  "category_id": 9,
+  "_category_slug": "gastronomia-manta",
+  "featured_media": 665,
+  "tags": ["almuerzos manta", "menú ejecutivo manta", "almorzar manta", "tarqui", "flavio reyes", "la quadra"],
+  "excerpt": "Dónde almuerzan los mantenses entre semana, por zona y precio. De $5 en una picantería de Tarqui a $20 con vista al mar en Flavio Reyes. Y el menú de Luuma con honestidad.",
+  "yoast_title": "Almuerzos en Manta por zona: dónde y cuánto ($5 a $20)",
+  "yoast_metadesc": "Comparativa real de menús ejecutivos en Manta por zona y precio. De $5 en Tarqui a $20 con vista al mar. Lo que pedimos los locales entre semana.",
+  "yoast_focuskw": "almuerzos manta",
+  "lead": [
+    "Almorzar en Manta entre semana es algo distinto a lo que muchos visitantes esperan. Aquí se almuerza temprano (12:30 a 14:00, máximo), rápido (45 minutos), y por zona la diferencia de precio puede ser de 4x — un mismo almuerzo cuesta $5 en Tarqui y $20 en Flavio Reyes con vista.",
+    "Te decimos qué pedimos los locales en cada zona, cuánto se paga y qué tiene sentido según para qué vas a almorzar — reunión de trabajo, encuentro con clientes, almuerzo familiar de fin de semana, o ese día que solo quieres pescado fresco y volver al trabajo."
+  ],
+  "sections": [
+    {
+      "h2": "Tarqui: el almuerzo manabita real ($5 a $9)",
+      "blocks": [
+        {"type": "p", "text": "Tarqui concentra las picanterías que hacen viche, encocado y ceviche manabita con maní tostado en casa. El menú ejecutivo cuesta entre $5 y $7 e incluye sopa (siempre buena), segundo (pescado, pollo o carne con arroz, ensalada, patacones), jugo natural y postre simple."},
+        {"type": "p", "text": "Si quieres pedir a la carta, el viche del día cuesta $7 a $9 y el ceviche manabita $8. Importante: las picanterías cierran cuando se acaba la olla, así que llegar al mediodía. Las del lado del mercado central no tienen letrero — preguntas \"¿dónde hacen viche?\" y te indican."},
+        {"type": "h3", "text": "Lo que pedimos en Tarqui un miércoles"},
+        {"type": "ul", "items": [
+          "Menú ejecutivo del día — $5 a $7",
+          "Ceviche manabita de concha con chifles y maní tostado — $8",
+          "Viche de pescado con yuca y plátano verde — $7 a $9",
+          "Cazuela de mariscos para compartir entre dos — $14"
+        ]}
+      ]
+    },
+    {
+      "h2": "Umiña y La Aurora: almuerzos de barrio ($6 a $9)",
+      "blocks": [
+        {"type": "p", "text": "Umiña queda al sur de Flavio Reyes y La Aurora pegada al malecón. Los almuerzos aquí son menos turísticos que en Tarqui pero igual de honestos. El menú ejecutivo cuesta $6 a $9 y se nota la diferencia: mejores manteles, postre mejor presentado, jugo de fruta natural en vaso grande."},
+        {"type": "p", "text": "Si trabajas en oficina cerca, estos restaurantes te conocen por nombre a las dos semanas. La queja típica del local: \"el pollo no es como antes\". La realidad: sigue siendo bueno, sólo que comparamos con la cocina de la abuela."}
+      ]
+    },
+    {
+      "h2": "La Quadra: food court premium ($10 a $18)",
+      "blocks": [
+        {"type": "p", "text": "La Quadra abrió en Flavio Reyes hace un par de años. Es patio común con 8 a 10 propuestas distintas — sushi, parrilla argentina, hamburguesas premium, ensaladas saludables, italiano, marisquería contemporánea. El plato fuerte promedio está en $14, con menú ejecutivo de $10 a $12 entre semana."},
+        {"type": "p", "text": "Recomendable cuando vas en grupo con gustos distintos — cada uno pide donde quiere y se sientan juntos. Mal recomendable si quieres comida manabita auténtica, ahí tienes que ir a Tarqui."}
+      ]
+    },
+    {
+      "h2": "Av. Flavio Reyes y Murciélago: almuerzo con vista o de cliente ($12 a $20)",
+      "blocks": [
+        {"type": "p", "text": "Aquí entras a la categoría de almuerzo de cliente, reunión de negocios o almuerzo familiar de fin de semana. Precio promedio del plato fuerte: $14 a $20. La carta es más elaborada — pesca blanca a la grilla con quinua, fettuccine de mariscos, parrilla con bowl de quinoa."},
+        {"type": "p", "text": "En el malecón Murciélago, las marisquerías al borde del mar sirven cazuela de mariscos a $15, langostinos al ajillo a $18, arroz marinero a $14. Mesa con vista a la playa, ambiente turístico, sin reserva los fines de semana es complicado."},
+        {"type": "quote", "text": "Cuando llegan clientes de fuera para reunión de trabajo y son varios, los llevamos a La Quadra. Cuando es uno solo y quiere conocer comida manabita real, lo llevamos a Tarqui. Para cierre de contrato y agradecer, mesa rooftop con vista al Pacífico.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "Comparativa por zona",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Zona", "Tipo de almuerzo", "Precio menú", "Tiempo promedio"],
+          "rows": [
+            ["Tarqui", "Manabí auténtico", "$5–$9", "30–45 min"],
+            ["Umiña / La Aurora", "Barrio fijo", "$6–$9", "45 min"],
+            ["La Quadra", "Food court premium", "$10–$18", "45–60 min"],
+            ["Av. Flavio Reyes", "Cliente / familiar", "$12–$20", "60–90 min"],
+            ["Malecón Murciélago", "Mariscos vista al mar", "$14–$22", "60–90 min"],
+            ["Barbasquillo", "Brunch fin de semana", "$10–$15", "Sin prisa"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Y el menú ejecutivo de Luuma, ¿cuánto cuesta?",
+      "blocks": [
+        {"type": "p", "text": "Luuma sirve almuerzo de martes a domingo entre 12:30 y 15:30. El menú ejecutivo arranca en $9 y sube según el segundo. Incluye entrada del día, plato fuerte (con opciones manabita, internacional, o vegetariana), bebida y postre del día."},
+        {"type": "p", "text": "La diferencia con la cena: a la hora del almuerzo el rooftop está más calmado, hay sombra natural, y los precios son más accesibles que la cena (que sube $5 a $10 por persona). Es la mejor manera de conocer Luuma sin necesidad de venir a cenar de noche."},
+        {"type": "p", "text": "Ve la carta de almuerzo completa con precios actualizados aquí mismo en el sitio."}
+      ]
+    },
+    {
+      "h2": "Lo que no te dicen en TripAdvisor",
+      "blocks": [
+        {"type": "p", "text": "Dos cosas que sólo se aprenden almorzando aquí cada semana: primero, los lunes muchas picanterías de Tarqui cierran o tienen menos opciones porque sábado y domingo son los días fuertes y descansan; segundo, después de las 14:30 ya casi nadie sirve almuerzo manabita en zona céntrica, así que el visitante que llega tarde termina pidiendo pizza. Conviene almorzar al mediodía exacto."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Almorzar en Luuma esta semana?",
+  "cta_paragraph": "Almuerzo de martes a domingo entre 12:30 y 15:30, en rooftop con vista al Pacífico. Menú ejecutivo desde $9 con bebida y postre incluidos. Reservas no son necesarias entre semana — sí los sábados.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Carta de almuerzo de Luuma", "url": "/menu-almuerzo/"},
+    {"label": "Almuerzo ejecutivo en Manta: dónde almuerzan los mantenses", "url": "/gastronomia-manta/menu-ejecutivo-manta-almorzar/"},
+    {"label": "Restaurantes en Manta por zona", "url": "/gastronomia-manta/mejores-restaurantes-manta-ecuador/"}
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto cuesta un menú ejecutivo en Manta?",
+      "a": "Entre $5 y $20 según zona. En Tarqui los menús arrancan en $5 e incluyen sopa, segundo, bebida y postre. En La Quadra y zonas premium están entre $10 y $18. Con vista al mar (malecón Murciélago o rooftop), entre $12 y $20."
+    },
+    {
+      "q": "¿Dónde almuerzan los locales en Manta entre semana?",
+      "a": "Los oficinistas almuerzan en Umiña, La Aurora y Tarqui ($6–$9). Para reuniones de trabajo o clientes, La Quadra o restaurantes de Flavio Reyes ($14–$20). Los fines de semana las familias suelen ir a Barbasquillo o al malecón Murciélago."
+    },
+    {
+      "q": "¿A qué hora se almuerza en Manta?",
+      "a": "Entre 12:30 y 14:00 la mayoría de los locales. Después de las 14:30 muchas picanterías de Tarqui ya cerraron o se quedaron sin platos del día. Los restaurantes premium de Flavio Reyes mantienen servicio hasta las 15:30."
+    },
+    {
+      "q": "¿Hay almuerzos manabitas auténticos en Manta?",
+      "a": "Sí, sobre todo en Tarqui. Las picanterías sin nombre del mercado y del lado del puerto sirven viche, encocado, ceviche manabita y sancocho a $7–$9. Mejor llegar al mediodía exacto — cierran cuando se acaba la olla."
+    },
+    {
+      "q": "¿Luuma sirve almuerzo?",
+      "a": "Sí, de martes a domingo entre 12:30 y 15:30. Menú ejecutivo desde $9 con entrada del día, segundo, bebida y postre. Ambiente rooftop con vista al Pacífico — más calmado que la cena, con sombra natural."
+    }
+  ]
+}

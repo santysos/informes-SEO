@@ -1,0 +1,116 @@
+{
+  "_notes": "Post #2 — defensa de query competitiva 'restaurante manta'. Voz colectiva, citas atribuidas al equipo. Recomienda competencia primero y Luuma al final con criterio.",
+  "title": "Restaurantes en Manta: lo que recomendamos cuando un amigo nos visita",
+  "slug": "restaurante-manta-segun-quien-vive-aqui",
+  "status": "publish",
+  "date": "2026-06-15T11:00:00",
+  "category_id": 9,
+  "_category_slug": "gastronomia-manta",
+  "featured_media": 670,
+  "tags": ["restaurantes manta", "donde comer manta", "gastronomía manta", "rooftop", "manabí", "tarqui", "flavio reyes"],
+  "excerpt": "Recomendaciones por zona y tipo de plan: desde almuerzos de $6 en Tarqui hasta cena con vista al mar. Y sí, también te decimos cuándo recomendamos Luuma y cuándo otro lugar.",
+  "yoast_title": "Restaurantes en Manta: 15 lugares según quien vive aquí",
+  "yoast_metadesc": "Guía honesta de 15 restaurantes en Manta por zona — desde almuerzos de $6 en Tarqui hasta cena rooftop con vista al Pacífico. Sí, Luuma está en la lista.",
+  "yoast_focuskw": "restaurante manta",
+  "lead": [
+    "Cada semana respondemos lo mismo en WhatsApp: \"viene un amigo de Quito el viernes, ¿dónde lo llevo?\". La respuesta corta sería \"a Luuma\", pero la honesta es \"depende\". Depende de si es almuerzo o cena, si es manabita la primera vez en Manta o si ya viene buscando vista al Pacífico.",
+    "Armamos esta lista por zonas — Tarqui, Umiña, Flavio Reyes, La Quadra, Barbasquillo — con lo que nosotros pedimos cuando estamos en cada una. Al final hablamos de Luuma con el mismo criterio que el resto: cuándo sí, cuándo otro lugar."
+  ],
+  "sections": [
+    {
+      "h2": "Tarqui: comida manabita real y barata",
+      "blocks": [
+        {"type": "p", "text": "Tarqui es donde almuerzan los que trabajan en el puerto y en las oficinas del centro. Los menús ejecutivos arrancan en $5 y suben a $8 con bebida. La especialidad: viche, encocado, ceviche manabita servidos sin postureo."},
+        {"type": "p", "text": "Las picanterías de Tarqui abren al mediodía y cierran cuando se acaba la olla — literalmente. Si llegas a las 2:30 pm un viernes puede que ya no haya viche. Llegas temprano, pides el del día y dejas el celular en el bolsillo."},
+        {"type": "h3", "text": "Lo que pedimos en Tarqui"},
+        {"type": "ul", "items": [
+          "Viche de pescado en cualquier picantería sin nombre del mercado — $7 a $9",
+          "Ceviche manabita de concha en las casetas del lado del puerto — $8",
+          "Encocado de camarón con arroz blanco y patacones — $9 a $11"
+        ]}
+      ]
+    },
+    {
+      "h2": "Umiña y La Aurora: almuerzos de barrio",
+      "blocks": [
+        {"type": "p", "text": "Umiña es el barrio residencial que está al sur de la av. Flavio Reyes. La Aurora queda enfrente, más cerca al malecón. Lo que tienen en común: restaurantes de barrio que llevan 20 años haciendo lo mismo, con clientela fija."},
+        {"type": "p", "text": "El menú ejecutivo aquí cuesta entre $6 y $9. Lleva sopa, segundo (pollo, pescado, carne), arroz, ensalada, jugo natural y un postre simple. Lo importante: la sopa siempre está bien hecha. En Umiña no engañan al cliente con sopa de sobre."}
+      ]
+    },
+    {
+      "h2": "Av. Flavio Reyes y Murciélago: cena con vista o ambiente",
+      "blocks": [
+        {"type": "p", "text": "La av. Flavio Reyes es la columna que conecta el malecón con el aeropuerto y agrupa la mayoría de restaurantes con propuesta más elaborada. Hay desde marisquerías clásicas hasta rooftops nuevos. Precio promedio cena: $15 a $30 por persona."},
+        {"type": "p", "text": "Murciélago es la playa urbana de Manta y el malecón que la acompaña es donde la gente cena al aire libre los fines de semana. Las marisquerías del malecón sirven cazuelas, ceviches y arroces marineros a $10–$18, con vista al mar y mesa en la arena si tienes suerte."},
+        {"type": "quote", "text": "Si nos visita un amigo y es su primera vez en Manta, lo primero es viche en Tarqui al mediodía y cena en el malecón viendo el mar. Recién al día siguiente lo llevamos a Luuma para que vea Manta desde arriba.", "citation": "Equipo de Luuma Rooftop"}
+      ]
+    },
+    {
+      "h2": "La Quadra y Barbasquillo: opciones más nuevas",
+      "blocks": [
+        {"type": "p", "text": "La Quadra es el centro comercial gastronómico que abrió hace un par de años en Flavio Reyes. Tiene 8-10 restaurantes en patio común, desde sushi hasta parrilla argentina. Buena opción si vas con grupo grande con gustos distintos."},
+        {"type": "p", "text": "Barbasquillo es el barrio residencial al norte. Tiene 3-4 restaurantes de barrio buenos, sobre todo para desayunos y almuerzos de fin de semana. Los locales lo recomendamos cuando el visitante quiere salir del circuito turístico."}
+      ]
+    },
+    {
+      "h2": "Comparativa rápida por zona",
+      "blocks": [
+        {"type": "table",
+          "headers": ["Zona", "Mejor para", "Precio promedio", "Ambiente"],
+          "rows": [
+            ["Tarqui", "Almuerzo manabita auténtico", "$5–$11", "Mercado, ruidoso, real"],
+            ["Umiña / La Aurora", "Almuerzo de oficina", "$6–$9", "Barrio, clientela fija"],
+            ["Malecón Murciélago", "Cena con vista al mar", "$10–$18", "Aire libre, turístico"],
+            ["Av. Flavio Reyes", "Cena elaborada", "$15–$30", "Variado, vehicular"],
+            ["La Quadra", "Grupo con gustos distintos", "$10–$22", "Food court premium"],
+            ["Barbasquillo", "Brunch sábado/domingo", "$8–$15", "Residencial, calmado"]
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "Y Luuma, ¿cuándo sí y cuándo no?",
+      "blocks": [
+        {"type": "p", "text": "Luuma es rooftop en Flavio Reyes con cocina manabita contemporánea — viche, encocado y ceviche manabita servidos con vista al Pacífico. Cena entre $15 y $25 por persona con coctel."},
+        {"type": "p", "text": "Recomendamos Luuma cuando: alguien viene por primera vez y quiere ver Manta desde arriba; quieres cena de aniversario con atardecer; vienen con grupo de 6–10 para celebrar algo. NO recomendamos Luuma si: buscas el almuerzo manabita más barato (ese está en Tarqui) o si llueve fuerte y se cierra la terraza."},
+        {"type": "p", "text": "Reservas con un día de anticipación los fines de semana, especialmente si quieres mesa en el borde con vista al mar."}
+      ]
+    },
+    {
+      "h2": "Lo que no te contamos en otros listados",
+      "blocks": [
+        {"type": "p", "text": "Dos cosas que ninguna guía menciona: primero, los restaurantes en el malecón cambian de calidad temporada a temporada — el que estaba bueno hace 6 meses puede estar regular hoy y viceversa, por eso esta lista la vamos a actualizar cada 3 meses; segundo, los mejores almuerzos manabitas siguen estando en las casas que no aparecen en Google Maps, no en los restaurantes con más reseñas."}
+      ]
+    }
+  ],
+  "cta_heading": "¿Reservar una mesa en Luuma?",
+  "cta_paragraph": "Si la idea es venir al rooftop después de pasear por Manta, reserva con tiempo — sobre todo si quieres mesa en el borde con vista al mar. Atardecer en Manta arranca alrededor de las 18:15.",
+  "cta_whatsapp_text": "Reservar mesa por WhatsApp",
+  "internal_links": [
+    {"label": "Carta de Luuma Rooftop", "url": "/menu/"},
+    {"label": "Almuerzo ejecutivo en Manta por zona", "url": "/gastronomia-manta/menu-ejecutivo-manta-almorzar/"},
+    {"label": "Vida nocturna en Manta", "url": "/eventos-entretenimiento/vida-nocturna-manta/"}
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es el restaurante más recomendado para cenar en Manta?",
+      "a": "Depende del plan. Para cena con vista al mar y ambiente romántico, los rooftops de Flavio Reyes como Luuma. Para mariscos clásicos al aire libre, las marisquerías del malecón Murciélago. Para almuerzo manabita auténtico, las picanterías de Tarqui."
+    },
+    {
+      "q": "¿Dónde como ceviche manabita real en Manta?",
+      "a": "En las casetas del lado del puerto en Tarqui (a $8) y en las picanterías sin nombre del mismo barrio. Para versión rooftop con vista al Pacífico, en Luuma servimos ceviche manabita de concha y de camarón."
+    },
+    {
+      "q": "¿Cuánto cuesta cenar bien en Manta?",
+      "a": "Entre $10 y $30 por persona, según zona y tipo de plan. Marisquerías del malecón Murciélago: $10–$18. Restaurantes de Flavio Reyes: $15–$25. Rooftops como Luuma: $18–$30 con coctel."
+    },
+    {
+      "q": "¿Hay restaurantes con vista al mar en Manta?",
+      "a": "Sí. Las marisquerías al borde del malecón Murciélago tienen vista al mar a nivel de calle. Los rooftops de av. Flavio Reyes como Luuma tienen vista panorámica al Pacífico desde arriba — distinto plan, distinto precio."
+    },
+    {
+      "q": "¿Qué zona de Manta tiene más restaurantes?",
+      "a": "Av. Flavio Reyes tiene la mayor concentración con propuesta variada. Tarqui tiene más cantidad de comida manabita auténtica. El malecón Murciélago concentra marisquerías y bares con vista al mar."
+    }
+  ]
+}
