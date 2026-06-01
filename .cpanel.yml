@@ -233,3 +233,18 @@ deployment:
     - chmod 644 $BASEPATH/intag-trail/proforma/*.php
     - chmod 644 $BASEPATH/intag-trail/proforma/*.pdf
     - chmod 644 $BASEPATH/intag-trail/proforma/.htaccess
+    # Crear estructura Odontologia Life - Aprobacion Plan Editorial (con login)
+    - /bin/mkdir -p $BASEPATH/odontologia-life/aprobacion-plan-editorial
+    - /bin/mkdir -p $BASEPATH/odontologia-life/aprobacion-plan-editorial/aprobaciones-recibidas
+    - chmod 755 $BASEPATH/odontologia-life/aprobacion-plan-editorial
+    - chmod 755 $BASEPATH/odontologia-life/aprobacion-plan-editorial/aprobaciones-recibidas
+    # Deploy Odontologia Life Aprobacion
+    - /bin/cp -f odontologia-life/aprobacion-plan-editorial/.htaccess $BASEPATH/odontologia-life/aprobacion-plan-editorial/
+    - /bin/cp -f odontologia-life/aprobacion-plan-editorial/login.php $BASEPATH/odontologia-life/aprobacion-plan-editorial/
+    - /bin/cp -f odontologia-life/aprobacion-plan-editorial/index.php $BASEPATH/odontologia-life/aprobacion-plan-editorial/
+    - /bin/cp -f odontologia-life/aprobacion-plan-editorial/enviar.php $BASEPATH/odontologia-life/aprobacion-plan-editorial/
+    - /bin/cp -f odontologia-life/aprobacion-plan-editorial/gracias.php $BASEPATH/odontologia-life/aprobacion-plan-editorial/
+    - /bin/cp -f odontologia-life/aprobacion-plan-editorial/logout.php $BASEPATH/odontologia-life/aprobacion-plan-editorial/
+    # Permisos Odontologia Life Aprobacion
+    - chmod 644 $BASEPATH/odontologia-life/aprobacion-plan-editorial/*.php
+    - chmod 644 $BASEPATH/odontologia-life/aprobacion-plan-editorial/.htaccess
