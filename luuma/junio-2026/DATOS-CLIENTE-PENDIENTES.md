@@ -6,12 +6,11 @@ Lista única de todo lo que necesitamos del cliente para arrancar la campaña SE
 
 ## 🔴 Bloqueantes inmediatos (sin esto no podemos publicar nada)
 
-### 1. Acceso WordPress vía REST API
-- [ ] Application Password de un usuario administrador
-  - Generar en `wp-admin → Usuarios → tu perfil → Application Passwords → Add New → "creative-web-seo"`
-  - Guardar en `.env` del repo como `LUUMA_WP_APP_PASS`
-- [ ] Usuario asociado (login): `LUUMA_WP_USER`
-- [ ] Confirmar URL base de la API: `LUUMA_WP_BASE=https://www.luumarooftop.com/wp-json/wp/v2`
+### 1. Acceso WordPress vía REST API ✅ RECIBIDO 1-jun
+- [x] Application Password recibida y guardada en `.env` como `LUUMA_WP_APP_PASS`
+- [x] Usuario: `admin@creativeweb.com.ec` (LUUMA_WP_USER)
+- [x] URL base: `https://www.luumarooftop.com/wp-json/wp/v2`
+- [ ] **Pendiente:** autorizar a Claude las llamadas REST en producción para verificar acceso, listar IDs de categorías y descubrir IDs de las pages /menu/ y home.
 
 ### 2. IDs de las 5 categorías del blog
 Necesitamos los IDs reales (no slugs) para los specs JSON:
@@ -23,11 +22,14 @@ Necesitamos los IDs reales (no slugs) para los specs JSON:
 
 *Esto lo podemos detectar nosotros via REST una vez tengamos el Application Password. Pero confirmar que las 5 categorías siguen activas.*
 
-### 3. Número de WhatsApp oficial para CTAs
-- [ ] Número de Luuma Rooftop para reservas (formato internacional sin +)
-  - Guardar en `.env` como `LUUMA_WHATSAPP=593XXXXXXXXX`
-- [ ] URL del menú: ¿es `/menu/` la URL pública?
-  - Guardar en `.env` como `LUUMA_MENU_URL`
+### 3. Número de WhatsApp oficial + URLs de carta
+- [ ] Número WhatsApp de Luuma para reservas (formato internacional sin +) → `.env` como `LUUMA_WHATSAPP`
+- [x] **URLs de carta confirmadas (1-jun):**
+  - Menú general (carta): `https://www.luumarooftop.com/menu/` → `LUUMA_MENU_URL`
+  - Menú de almuerzos: `https://www.luumarooftop.com/menu-almuerzo/` → `LUUMA_MENU_ALMUERZO_URL`
+  - Bebidas y cocteles: `https://www.luumarooftop.com/bebidas/` → `LUUMA_BEBIDAS_URL`
+
+  *Estas 3 URLs vivas alimentan: Schema Menu, CTAs específicos por post (post de almuerzos → link a /menu-almuerzo/; post de coctel autor → link a /bebidas/), y tablas de precios reales en cada post.*
 
 ---
 
@@ -53,13 +55,13 @@ Por cada persona del equipo cuyo nombre aparezca en los posts, necesitamos:
 
 **Por qué esto importa:** los posts con cita textual real son los que NO suenan a IA. Es la diferencia entre "El chef se inspira en la cocina manabita" y "Mi mamá hacía el viche con maní que ella misma tostaba, eso no se imita" — Marcia, jefa de cocina.
 
-### 5. Lista de precios actualizada del menú
-- [ ] Carta completa con precios actuales (formato Excel, PDF o foto del menú físico)
-- [ ] Identificar 3-5 platos "signature" (los que diferencian a Luuma)
-- [ ] Identificar 3-5 cocteles "signature"
-- [ ] Identificar el plato y el coctel más vendidos
+### 5. Lista de precios actualizada del menú ✅ PARCIAL 1-jun
+- [x] Las 3 cartas vivas en el sitio: `/menu/`, `/menu-almuerzo/`, `/bebidas/`. Vamos a parsear directamente desde ahí.
+- [ ] Identificar 3-5 platos "signature" (los que diferencian a Luuma) — pedir al chef
+- [ ] Identificar 3-5 cocteles "signature" — pedir al bartender
+- [ ] Identificar el plato y el coctel más vendidos — pedir a operaciones
 
-*Alimenta Schema Menu, tablas de los posts, y el contenido del CTA.*
+*Las URLs vivas alimentan Schema Menu, tablas de los posts, y el contenido del CTA.*
 
 ### 6. Fotos sin marca de agua
 - [ ] 5-10 fotos de platos (alta resolución, sin texto sobre la imagen)
