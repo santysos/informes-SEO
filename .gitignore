@@ -2,3 +2,4 @@
 *.log
 .env
 comercial-hidrobo/marzo-2026/data/
+__pycache__/
