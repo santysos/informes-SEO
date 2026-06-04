@@ -248,3 +248,18 @@ deployment:
     # Permisos Odontologia Life Aprobacion
     - chmod 644 $BASEPATH/odontologia-life/aprobacion-plan-editorial/*.php
     - chmod 644 $BASEPATH/odontologia-life/aprobacion-plan-editorial/.htaccess
+    # Crear estructura Dikapsa Proforma Junio 2026 (con login)
+    - /bin/mkdir -p $BASEPATH/dikapsa/proforma-junio-2026
+    - chmod 755 $BASEPATH/dikapsa
+    - chmod 755 $BASEPATH/dikapsa/proforma-junio-2026
+    # Deploy Dikapsa Proforma
+    - /bin/cp -f dikapsa/proforma-junio-2026/.htaccess $BASEPATH/dikapsa/proforma-junio-2026/
+    - /bin/cp -f dikapsa/proforma-junio-2026/login.php $BASEPATH/dikapsa/proforma-junio-2026/
+    - /bin/cp -f dikapsa/proforma-junio-2026/index.php $BASEPATH/dikapsa/proforma-junio-2026/
+    - /bin/cp -f dikapsa/proforma-junio-2026/descargar-pdf.php $BASEPATH/dikapsa/proforma-junio-2026/
+    - /bin/cp -f dikapsa/proforma-junio-2026/logout.php $BASEPATH/dikapsa/proforma-junio-2026/
+    - /bin/cp -f dikapsa/proforma-junio-2026/Cot-SEO-Dikapsa-2026.pdf $BASEPATH/dikapsa/proforma-junio-2026/
+    # Permisos Dikapsa Proforma
+    - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/*.php
+    - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/*.pdf
+    - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/.htaccess
