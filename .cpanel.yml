@@ -259,6 +259,7 @@ deployment:
     - /bin/cp -f dikapsa/proforma-junio-2026/descargar-pdf.php $BASEPATH/dikapsa/proforma-junio-2026/
     - /bin/cp -f dikapsa/proforma-junio-2026/logout.php $BASEPATH/dikapsa/proforma-junio-2026/
     - /bin/cp -f dikapsa/proforma-junio-2026/Cot-SEO-Dikapsa-2026.pdf $BASEPATH/dikapsa/proforma-junio-2026/
+    - /bin/cp -f dikapsa/proforma-junio-2026/listado-20-posts-mes1.md $BASEPATH/dikapsa/proforma-junio-2026/
     # Permisos Dikapsa Proforma
     - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/*.php
     - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/*.pdf

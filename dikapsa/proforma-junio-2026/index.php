@@ -229,7 +229,7 @@ body { background: #0a1929; color: #e2e8f0; }
                         <p class="text-cyan-200/70 text-sm mb-3">Julio 2026 — mensajes específicos para cada tipo de cliente</p>
                         <div class="grid md:grid-cols-2 gap-3 text-sm">
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">3 páginas dedicadas: una para alimentos, una para retail, una para farmacia</span></div>
-                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Primer caso de éxito publicado: <strong class="text-cyan-300">Frutería Monserrate</strong></span></div>
+                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Primer caso de éxito publicado: <strong class="text-cyan-300">Frutería Monserrate</strong> · artículo con foto del producto, qué cantidad producimos, qué tipo de empaque y por qué nos eligen hace 5 años</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">20 artículos nuevos en el blog</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Conexión entre artículos y páginas de sector para guiar al visitante</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Actualizar el perfil de Google de Dikapsa (Quito y Otavalo)</span></div>
@@ -248,8 +248,8 @@ body { background: #0a1929; color: #e2e8f0; }
                         <h3 class="text-white font-bold text-xl mb-1">Más casos de éxito + 20 artículos</h3>
                         <p class="text-cyan-200/70 text-sm mb-3">Agosto 2026 — mostrar trabajos reales</p>
                         <div class="grid md:grid-cols-2 gap-3 text-sm">
-                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Caso de éxito 2: <strong class="text-cyan-300">Yogurt Amazonas</strong> (cajas y empaques)</span></div>
-                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Caso de éxito 3: <strong class="text-cyan-300">Pedro Moncayo</strong> (cooperativa)</span></div>
+                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Caso de éxito 2: <strong class="text-cyan-300">Yogurt Amazonas</strong> · cajas para el sector lácteo, con datos de cantidad mensual, plazos y testimonio del cliente</span></div>
+                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Caso de éxito 3: <strong class="text-cyan-300">Pedro Moncayo</strong> · papelería para una cooperativa que llegó por la web (importante para mostrar a otras cooperativas)</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">20 artículos nuevos en el blog</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Video corto del taller mostrando la Heidelberg y la Xerox trabajando</span></div>
                         </div>
@@ -288,7 +288,7 @@ body { background: #0a1929; color: #e2e8f0; }
                         <div class="grid md:grid-cols-2 gap-3 text-sm">
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Reescribir 10 artículos que están atrayendo visitas pero no clientes</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Detectar nuevas búsquedas que la gente hace y publicar 20 artículos según eso</span></div>
-                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Caso de éxito 4: <strong class="text-cyan-300">Cervecería Nacional</strong> (material de exhibición)</span></div>
+                            <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Caso de éxito 4: <strong class="text-cyan-300">Cervecería Nacional</strong> · material de exhibición (habladores, cenefas, triaramas) con volúmenes reales y foto del producto en góndola</span></div>
                             <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">→</span><span class="text-cyan-100/80">Hacer que la web cargue más rápido en celular</span></div>
                         </div>
                     </div>
@@ -315,7 +315,38 @@ body { background: #0a1929; color: #e2e8f0; }
             </div>
         </div>
 
-        <div class="mt-10 glass-strong rounded-2xl p-8">
+        <!-- Qué es un caso de éxito -->
+        <div class="mt-10 glass rounded-2xl p-8 border-l-4 border-brand-400">
+            <p class="text-brand-300 text-xs font-bold uppercase tracking-widest mb-2">Aclaración importante</p>
+            <h3 class="text-white font-bold text-xl mb-4">¿Qué es un caso de éxito en este plan?</h3>
+            <p class="text-cyan-100/80 text-sm leading-relaxed mb-5">
+                Cada caso de éxito es un <strong class="text-white">artículo publicado en la web de Dikapsa</strong> que cuenta un trabajo real ya hecho para un cliente específico, con fotos del producto, datos concretos y, si se consigue, una cita del cliente. No es un dosier comercial ni una infografía: es una página dentro de la web con dirección propia (por ejemplo <em>dikapsa.com/casos/yogurt-amazonas/</em>).
+            </p>
+            <div class="grid md:grid-cols-2 gap-5 text-sm">
+                <div>
+                    <p class="text-white font-semibold mb-2">Para qué sirve cada caso</p>
+                    <ul class="space-y-1 text-cyan-100/70">
+                        <li>· Mostrar credibilidad a quien entra a la web por primera vez</li>
+                        <li>· Aparecer en Google cuando alguien busca productos similares</li>
+                        <li>· Material que el vendedor puede compartir cuando visita a un prospecto del mismo sector</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-white font-semibold mb-2">Qué incluye cada caso</p>
+                    <ul class="space-y-1 text-cyan-100/70">
+                        <li>· Fotos del producto y del proceso</li>
+                        <li>· Qué pidió el cliente y qué hicimos</li>
+                        <li>· Cantidades, tiempos y resultado</li>
+                        <li>· (Si se consigue) 2-3 líneas del cliente</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-cyan-100/70 text-sm mt-5">
+                <strong class="text-white">Lo que necesitamos de Dikapsa:</strong> autorización del cliente para publicar su nombre, 2-4 fotos del producto, y 15 minutos de conversación con quien lleva la cuenta. El resto lo redactamos y diseñamos nosotros.
+            </p>
+        </div>
+
+        <div class="mt-6 glass-strong rounded-2xl p-8">
             <h3 class="text-white font-bold text-xl mb-4">Durante los 6 meses, además</h3>
             <div class="grid md:grid-cols-2 gap-4 text-sm">
                 <div class="flex items-start gap-2"><span class="text-brand-400 font-bold">✓</span><span class="text-cyan-100/80"><strong class="text-white">Reunión mensual</strong> con Diego para revisar resultados y ajustar</span></div>
