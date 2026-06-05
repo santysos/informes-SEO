@@ -264,3 +264,18 @@ deployment:
     - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/*.php
     - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/*.pdf
     - chmod 644 $BASEPATH/dikapsa/proforma-junio-2026/.htaccess
+    # Crear estructura Valencia Sports Proforma (con login)
+    - /bin/mkdir -p $BASEPATH/valencia-sports/proforma-junio-2026
+    - chmod 755 $BASEPATH/valencia-sports
+    - chmod 755 $BASEPATH/valencia-sports/proforma-junio-2026
+    # Deploy Valencia Sports Proforma
+    - /bin/cp -f valencia-sports/proforma-junio-2026/.htaccess $BASEPATH/valencia-sports/proforma-junio-2026/
+    - /bin/cp -f valencia-sports/proforma-junio-2026/login.php $BASEPATH/valencia-sports/proforma-junio-2026/
+    - /bin/cp -f valencia-sports/proforma-junio-2026/index.php $BASEPATH/valencia-sports/proforma-junio-2026/
+    - /bin/cp -f valencia-sports/proforma-junio-2026/descargar-pdf.php $BASEPATH/valencia-sports/proforma-junio-2026/
+    - /bin/cp -f valencia-sports/proforma-junio-2026/logout.php $BASEPATH/valencia-sports/proforma-junio-2026/
+    - /bin/cp -f valencia-sports/proforma-junio-2026/Cot-Ecommerce-Valencia-Sports-2026.pdf $BASEPATH/valencia-sports/proforma-junio-2026/
+    # Permisos Valencia Sports Proforma
+    - chmod 644 $BASEPATH/valencia-sports/proforma-junio-2026/*.php
+    - chmod 644 $BASEPATH/valencia-sports/proforma-junio-2026/*.pdf
+    - chmod 644 $BASEPATH/valencia-sports/proforma-junio-2026/.htaccess
