@@ -67,7 +67,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
             <span class="text-grad">desde el celular</span>
         </h1>
         <p class="text-lime-100/80 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed mb-10">
-            Tienda online conectada con TikTok, Instagram y Facebook para que cada visita de las redes pueda comprar sin salir del flujo.
+            Que el cliente que llega desde redes compre por su cuenta — eligiendo talla, color y pagando solo — sin que el equipo tenga que responder cada mensaje por WhatsApp.
         </p>
 
         <div class="flex flex-wrap justify-center gap-4 mb-12">
@@ -80,7 +80,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <p class="text-lime-200/70 text-xs uppercase tracking-widest mt-1">semanas de entrega</p>
             </div>
             <div class="glass rounded-xl px-6 py-4">
-                <div class="text-3xl font-black text-grad">30</div>
+                <div class="text-3xl font-black text-grad">20</div>
                 <p class="text-lime-200/70 text-xs uppercase tracking-widest mt-1">productos cargados por nosotros</p>
             </div>
             <div class="glass rounded-xl px-6 py-4">
@@ -102,7 +102,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
         <div class="text-center mb-12">
             <p class="text-lime-300 font-bold text-sm uppercase tracking-widest mb-2">Lo que recibes</p>
             <h2 class="text-4xl font-extrabold text-white mb-3">Tu tienda online completa</h2>
-            <p class="text-lime-100/70 max-w-2xl mx-auto">Diseñada para que un visitante de TikTok o Instagram pueda comprar guantes o uniforme sin abandonar la compra.</p>
+            <p class="text-lime-100/70 max-w-2xl mx-auto">Pensada para que el equipo de Valencia Sports atienda menos WhatsApp y reciba más pedidos automáticos.</p>
         </div>
 
         <div class="grid lg:grid-cols-3 gap-6">
@@ -122,20 +122,20 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 </ul>
             </div>
 
-            <!-- 2. Redes -->
+            <!-- 2. Compra automática -->
             <div class="glass-strong rounded-2xl p-7 border-2 border-lime-400/40 relative">
                 <span class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full brand-grad text-slate-900 text-xs font-black uppercase tracking-widest">Lo principal</span>
                 <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4 mt-2">
-                    <svg class="w-6 h-6 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z M4 4a2 2 0 11-.001 4.001A2 2 0 014 4z"/></svg>
+                    <svg class="w-6 h-6 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-xl mb-3">Conexión con TikTok, Instagram y Facebook</h3>
+                <h3 class="text-white font-bold text-xl mb-3">Compra automática las 24 horas</h3>
                 <ul class="space-y-2 text-sm">
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90"><strong class="text-white">Pixel de TikTok</strong> para medir qué video genera ventas</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90"><strong class="text-white">Pixel de Facebook e Instagram</strong> para retargeting</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90"><strong class="text-white">Catálogo sincronizado</strong> con Instagram Shopping y Facebook</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">Etiquetar productos en publicaciones e historias</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90"><strong class="text-white">Botón "Comprar por WhatsApp"</strong> en cada producto</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">Chat de Messenger y WhatsApp integrados</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">El cliente elige talla, color y cantidad <strong class="text-white">sin escribir a nadie</strong></span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">Pagina solo desde la web, recibe confirmación al instante</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">Llegan pedidos a la madrugada cuando la tienda está cerrada</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90"><strong class="text-white">Baja la cantidad de mensajes</strong> que el equipo tiene que responder</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">El flujo final: redes → WhatsApp para consultas → tienda para comprar</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/90">Aviso automático del pedido a Valencia Sports por correo</span></li>
                 </ul>
             </div>
 
@@ -146,9 +146,9 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 </div>
                 <h3 class="text-white font-bold text-xl mb-3">Pagos y envíos</h3>
                 <ul class="space-y-2 text-sm">
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80"><strong class="text-white">PayPhone</strong> integrado (tarjeta + transferencia bancaria)</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Pago contra entrega (si aplica en su zona)</span></li>
-                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Confirmación de pedido automática por WhatsApp</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80"><strong class="text-white">PayPhone</strong> integrado (tarjeta de crédito y débito)</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Transferencia bancaria con comprobante</span></li>
+                    <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Confirmación del pedido por correo al cliente</span></li>
                     <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Banner de envíos a todo el país</span></li>
                     <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Costos de envío configurables por ciudad</span></li>
                     <li class="flex items-start gap-2"><span class="text-lime-400 font-bold">→</span><span class="text-lime-100/80">Botón "Retiro en tienda" si quieren ofrecerlo</span></li>
@@ -200,15 +200,15 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <ul class="space-y-3 text-sm">
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-lime-500/15 border border-lime-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-lime-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-lime-100/85 pt-1">El pixel de TikTok midiendo cada visita y compra</span>
+                        <span class="text-lime-100/85 pt-1">Herramienta de medición de Google que cuenta cuántas personas entran cada día</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-lime-500/15 border border-lime-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-lime-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-lime-100/85 pt-1">El catálogo sincronizándose con Instagram y Facebook</span>
+                        <span class="text-lime-100/85 pt-1">Reporte de qué red social trae más visitantes</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-lime-500/15 border border-lime-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-lime-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-lime-100/85 pt-1">Google Analytics registrando todo el tráfico</span>
+                        <span class="text-lime-100/85 pt-1">Reporte de qué productos se ven más y cuáles se venden</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-lime-500/15 border border-lime-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-lime-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
@@ -231,7 +231,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 </div>
                 <div>
                     <h3 class="text-white font-bold text-lg mb-1">Carga inicial de productos</h3>
-                    <p class="text-lime-100/80 text-sm leading-relaxed">Nosotros cargamos los primeros <strong class="text-white">30 productos</strong> con foto, descripción, tallas, colores y precio (incluyendo la línea de portero, que es lo más fuerte de Valencia Sports). El resto del catálogo lo van subiendo ustedes con la capacitación que les damos.</p>
+                    <p class="text-lime-100/80 text-sm leading-relaxed">Nosotros cargamos los primeros <strong class="text-white">20 productos</strong> con foto, descripción, tallas, colores y precio (incluyendo la línea de portero, que es lo más fuerte de Valencia Sports). El resto del catálogo lo van subiendo ustedes con la capacitación que les damos.</p>
                 </div>
             </div>
         </div>
@@ -302,7 +302,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <div class="flex items-start justify-between gap-6 pb-5 border-b border-lime-400/15">
                     <div>
                         <h4 class="text-white font-bold text-lg mb-1">Tienda online a medida</h4>
-                        <p class="text-lime-100/60 text-sm">Diseño exclusivo, conectada con TikTok, Instagram y Facebook. Carga de 30 productos iniciales. Capacitación incluida.</p>
+                        <p class="text-lime-100/60 text-sm">Diseño exclusivo, compra automática sin depender de WhatsApp. Carga de 20 productos iniciales. Capacitación incluida.</p>
                     </div>
                     <div class="text-right whitespace-nowrap">
                         <p class="text-white font-bold text-xl">USD 560</p>
@@ -320,18 +320,13 @@ body { background: #0a0e1a; color: #e2e8f0; }
             </div>
 
             <!-- Total -->
-            <div class="space-y-3 pt-3">
-                <div class="flex justify-between text-lime-100/70 text-sm">
-                    <span>Subtotal</span>
-                    <span>USD 680.00</span>
-                </div>
-                <div class="flex justify-between text-lime-100/70 text-sm">
-                    <span>IVA 15%</span>
-                    <span>USD 102.00</span>
-                </div>
-                <div class="flex justify-between items-baseline pt-4 border-t border-lime-400/20">
-                    <span class="text-white font-bold text-xl">Total</span>
-                    <span class="text-grad font-black text-4xl">USD 782.00</span>
+            <div class="pt-3 border-t border-lime-400/20">
+                <div class="flex justify-between items-baseline">
+                    <span class="text-white font-bold text-xl">Total del proyecto</span>
+                    <div class="text-right">
+                        <span class="text-grad font-black text-4xl md:text-5xl">USD 680</span>
+                        <span class="text-lime-200/80 font-bold text-lg ml-2">+ IVA</span>
+                    </div>
                 </div>
             </div>
 
@@ -339,12 +334,12 @@ body { background: #0a0e1a; color: #e2e8f0; }
             <div class="mt-8 grid md:grid-cols-2 gap-4 text-sm">
                 <div class="glass rounded-xl p-5">
                     <p class="text-lime-300 text-xs font-bold uppercase tracking-widest mb-2">Abono inicial · 60%</p>
-                    <p class="text-white text-2xl font-extrabold">USD 408.00</p>
+                    <p class="text-white text-2xl font-extrabold">USD 408 <span class="text-base text-lime-200/70 font-normal">+ IVA</span></p>
                     <p class="text-lime-100/60 text-xs mt-1">A la firma de aceptación para arrancar el proyecto</p>
                 </div>
                 <div class="glass rounded-xl p-5">
                     <p class="text-lime-300 text-xs font-bold uppercase tracking-widest mb-2">Saldo final · 40%</p>
-                    <p class="text-white text-2xl font-extrabold">USD 272.00</p>
+                    <p class="text-white text-2xl font-extrabold">USD 272 <span class="text-base text-lime-200/70 font-normal">+ IVA</span></p>
                     <p class="text-lime-100/60 text-xs mt-1">Antes de entregar la tienda en vivo</p>
                 </div>
             </div>
@@ -374,14 +369,14 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-slate-900 font-black text-lg">S2</div>
                 <div>
                     <h3 class="text-white font-bold text-lg mb-1">Semana 2 · Productos y pagos</h3>
-                    <p class="text-lime-100/70 text-sm">Carga de los 30 productos iniciales con foto, descripción y precio. Integración de PayPhone y configuración de envíos.</p>
+                    <p class="text-lime-100/70 text-sm">Carga de los 20 productos iniciales con foto, descripción y precio. Integración de PayPhone y configuración de envíos.</p>
                 </div>
             </div>
             <div class="glass rounded-2xl p-6 flex items-start gap-5">
                 <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-slate-900 font-black text-lg">S3</div>
                 <div>
-                    <h3 class="text-white font-bold text-lg mb-1">Semana 3 · Conexión con redes + entrega</h3>
-                    <p class="text-lime-100/70 text-sm">Instalación de los pixels de TikTok, Instagram y Facebook. Sincronización de catálogo. Pruebas de compra reales. Capacitación al equipo. Entrega en vivo.</p>
+                    <h3 class="text-white font-bold text-lg mb-1">Semana 3 · Medición y entrega</h3>
+                    <p class="text-lime-100/70 text-sm">Instalación de la herramienta de medición de Google. Pruebas de compra reales con tarjeta y transferencia. Capacitación al equipo. Entrega de la tienda en vivo.</p>
                 </div>
             </div>
         </div>
