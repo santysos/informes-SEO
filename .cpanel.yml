@@ -276,3 +276,19 @@ deployment:
     # Permisos Valencia Sports Proforma
     - chmod 644 $BASEPATH/valencia-sports/proforma-junio-2026/*.php
     - chmod 644 $BASEPATH/valencia-sports/proforma-junio-2026/.htaccess
+    # Crear estructura Bionext Aprobacion Plan Editorial (con login)
+    - /bin/mkdir -p $BASEPATH/bionext/aprobacion-plan-editorial
+    - /bin/mkdir -p $BASEPATH/bionext/aprobacion-plan-editorial/aprobaciones-recibidas
+    - chmod 755 $BASEPATH/bionext
+    - chmod 755 $BASEPATH/bionext/aprobacion-plan-editorial
+    - chmod 755 $BASEPATH/bionext/aprobacion-plan-editorial/aprobaciones-recibidas
+    # Deploy Bionext Aprobacion
+    - /bin/cp -f bionext/aprobacion-plan-editorial/.htaccess $BASEPATH/bionext/aprobacion-plan-editorial/
+    - /bin/cp -f bionext/aprobacion-plan-editorial/login.php $BASEPATH/bionext/aprobacion-plan-editorial/
+    - /bin/cp -f bionext/aprobacion-plan-editorial/index.php $BASEPATH/bionext/aprobacion-plan-editorial/
+    - /bin/cp -f bionext/aprobacion-plan-editorial/enviar.php $BASEPATH/bionext/aprobacion-plan-editorial/
+    - /bin/cp -f bionext/aprobacion-plan-editorial/gracias.php $BASEPATH/bionext/aprobacion-plan-editorial/
+    - /bin/cp -f bionext/aprobacion-plan-editorial/logout.php $BASEPATH/bionext/aprobacion-plan-editorial/
+    # Permisos Bionext Aprobacion
+    - chmod 644 $BASEPATH/bionext/aprobacion-plan-editorial/*.php
+    - chmod 644 $BASEPATH/bionext/aprobacion-plan-editorial/.htaccess
