@@ -496,9 +496,9 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
                 </div>
-                <p class="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2">Tienda + IA + SGS</p>
+                <p class="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2">Tienda + IA + GSC System</p>
                 <h3 class="text-white font-bold text-xl mb-2">Quimera Clothing</h3>
-                <p class="text-sky-100/70 text-sm leading-relaxed mb-4 flex-1">Tienda online con probador virtual de prendas usando inteligencia artificial. Vinculación con el SGS interno del cliente para control de inventario.</p>
+                <p class="text-sky-100/70 text-sm leading-relaxed mb-4 flex-1">Tienda online con probador virtual de prendas usando inteligencia artificial e integración con el GSC System para control de inventario, pedidos y usuarios.</p>
                 <div class="flex items-center gap-2 text-sky-300 group-hover:text-white text-sm font-bold transition mt-auto">
                     <span>quimeraclothing.com</span>
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
@@ -535,7 +535,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
         </div>
 
         <div class="mt-8 text-center">
-            <p class="text-sky-200/60 text-sm">Multitecnología VyV y Doeco son referencia directa: misma integración con GSC System que vamos a implementar. Quimera y Comercial Hidrobo muestran la calidad técnica del equipo en proyectos con catálogos grandes e integraciones complejas.</p>
+            <p class="text-sky-200/60 text-sm">Tres de las cuatro tiendas — <strong class="text-sky-100">Multitecnología VyV, Quimera y Doeco</strong> — son referencia directa: misma integración con GSC System que vamos a implementar para Electrónica del Norte. Comercial Hidrobo muestra la capacidad del equipo con catálogos grandes y SEO de alto volumen.</p>
         </div>
     </div>
 </section>
