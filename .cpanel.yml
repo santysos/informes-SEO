@@ -304,3 +304,16 @@ deployment:
     # Permisos Electronica del Norte Proforma
     - chmod 644 $BASEPATH/electronica-del-norte/proforma-junio-2026/*.php
     - chmod 644 $BASEPATH/electronica-del-norte/proforma-junio-2026/.htaccess
+    # Crear estructura INKA Presentacion (publica)
+    - /bin/mkdir -p $BASEPATH/inka/presentacion/img
+    - chmod 755 $BASEPATH/inka
+    - chmod 755 $BASEPATH/inka/presentacion
+    - chmod 755 $BASEPATH/inka/presentacion/img
+    # Deploy INKA Presentacion
+    - /bin/cp -f inka/presentacion/.htaccess $BASEPATH/inka/presentacion/
+    - /bin/cp -f inka/presentacion/index.html $BASEPATH/inka/presentacion/
+    - /bin/cp -rf inka/presentacion/img/. $BASEPATH/inka/presentacion/img/
+    # Permisos INKA Presentacion
+    - chmod 644 $BASEPATH/inka/presentacion/index.html
+    - chmod 644 $BASEPATH/inka/presentacion/.htaccess
+    - chmod 644 $BASEPATH/inka/presentacion/img/*.webp
