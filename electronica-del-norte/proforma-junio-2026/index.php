@@ -467,6 +467,65 @@ body { background: #0a0e1a; color: #e2e8f0; }
     </div>
 </section>
 
+<!-- PROYECTOS SIMILARES -->
+<section class="py-16">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <p class="text-sky-300 font-bold text-sm uppercase tracking-widest mb-2">Proyectos similares ya en producción</p>
+            <h2 class="text-4xl font-extrabold text-white">No es propuesta, son tiendas en vivo</h2>
+            <p class="text-sky-100/70 mt-3 max-w-2xl mx-auto">Estas tres tiendas las hicimos nosotros e integran sistemas internos del cliente. Pueden visitarlas y revisar el resultado.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Multitecnología VyV -->
+            <a href="https://vyv.en-otavalo.com/" target="_blank" rel="noopener" class="group glass-strong rounded-2xl p-7 hover:border-sky-400/50 transition flex flex-col">
+                <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>
+                </div>
+                <p class="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2">Tienda + GSC System</p>
+                <h3 class="text-white font-bold text-xl mb-2">Multitecnología VyV</h3>
+                <p class="text-sky-100/70 text-sm leading-relaxed mb-4 flex-1">Tienda online integrada con el GSC System (artículos, inventario, pedidos y usuarios). Misma integración que vamos a hacer para Electrónica del Norte.</p>
+                <div class="flex items-center gap-2 text-sky-300 group-hover:text-white text-sm font-bold transition mt-auto">
+                    <span>vyv.en-otavalo.com</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+
+            <!-- Quimera Clothing -->
+            <a href="https://www.quimeraclothing.com/" target="_blank" rel="noopener" class="group glass-strong rounded-2xl p-7 hover:border-sky-400/50 transition flex flex-col">
+                <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                </div>
+                <p class="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2">Tienda + IA + SGS</p>
+                <h3 class="text-white font-bold text-xl mb-2">Quimera Clothing</h3>
+                <p class="text-sky-100/70 text-sm leading-relaxed mb-4 flex-1">Tienda online con probador virtual de prendas usando inteligencia artificial. Vinculación con el SGS interno del cliente para control de inventario.</p>
+                <div class="flex items-center gap-2 text-sky-300 group-hover:text-white text-sm font-bold transition mt-auto">
+                    <span>quimeraclothing.com</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+
+            <!-- Doeco -->
+            <a href="https://doeco.ec/" target="_blank" rel="noopener" class="group glass-strong rounded-2xl p-7 hover:border-sky-400/50 transition flex flex-col">
+                <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                </div>
+                <p class="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2">Tienda + GSC System</p>
+                <h3 class="text-white font-bold text-xl mb-2">Doeco</h3>
+                <p class="text-sky-100/70 text-sm leading-relaxed mb-4 flex-1">Tienda online ecológica vinculada al GSC del cliente. Manejo de inventario, pedidos y usuarios sincronizados en tiempo real con el sistema interno.</p>
+                <div class="flex items-center gap-2 text-sky-300 group-hover:text-white text-sm font-bold transition mt-auto">
+                    <span>doeco.ec</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+        </div>
+
+        <div class="mt-8 text-center">
+            <p class="text-sky-200/60 text-sm">Sobre todo Multitecnología VyV y Doeco son referencia directa: misma integración con GSC System que vamos a implementar para Electrónica del Norte.</p>
+        </div>
+    </div>
+</section>
+
 <!-- CTA FINAL -->
 <section class="py-20">
     <div class="max-w-4xl mx-auto px-6">
