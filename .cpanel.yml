@@ -312,8 +312,12 @@ deployment:
     # Deploy INKA Presentacion
     - /bin/cp -f inka/presentacion/.htaccess $BASEPATH/inka/presentacion/
     - /bin/cp -f inka/presentacion/index.html $BASEPATH/inka/presentacion/
+    - /bin/cp -f inka/presentacion/print.html $BASEPATH/inka/presentacion/
+    - /bin/cp -f inka/presentacion/presentacion-inka.pdf $BASEPATH/inka/presentacion/
     - /bin/cp -rf inka/presentacion/img/. $BASEPATH/inka/presentacion/img/
     # Permisos INKA Presentacion
     - chmod 644 $BASEPATH/inka/presentacion/index.html
+    - chmod 644 $BASEPATH/inka/presentacion/print.html
+    - chmod 644 $BASEPATH/inka/presentacion/presentacion-inka.pdf
     - chmod 644 $BASEPATH/inka/presentacion/.htaccess
     - chmod 644 $BASEPATH/inka/presentacion/img/*.webp
