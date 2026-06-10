@@ -476,7 +476,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
             <p class="text-sky-100/70 mt-3 max-w-2xl mx-auto">Estas tres tiendas las hicimos nosotros e integran sistemas internos del cliente. Pueden visitarlas y revisar el resultado.</p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Multitecnología VyV -->
             <a href="https://vyv.en-otavalo.com/" target="_blank" rel="noopener" class="group glass-strong rounded-2xl p-7 hover:border-sky-400/50 transition flex flex-col">
                 <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4">
@@ -518,10 +518,24 @@ body { background: #0a0e1a; color: #e2e8f0; }
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </div>
             </a>
+
+            <!-- Comercial Hidrobo -->
+            <a href="https://comercialhidrobo.com/" target="_blank" rel="noopener" class="group glass-strong rounded-2xl p-7 hover:border-sky-400/50 transition flex flex-col">
+                <div class="w-12 h-12 rounded-xl brand-grad flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                </div>
+                <p class="text-sky-300 text-xs font-bold uppercase tracking-widest mb-2">Portal corporativo + SEO</p>
+                <h3 class="text-white font-bold text-xl mb-2">Comercial Hidrobo</h3>
+                <p class="text-sky-100/70 text-sm leading-relaxed mb-4 flex-1">Portal corporativo de concesionario automotor del norte del país con catálogo dinámico de vehículos, formularios de cotización y +8.000 visitas mensuales desde Google.</p>
+                <div class="flex items-center gap-2 text-sky-300 group-hover:text-white text-sm font-bold transition mt-auto">
+                    <span>comercialhidrobo.com</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
         </div>
 
         <div class="mt-8 text-center">
-            <p class="text-sky-200/60 text-sm">Sobre todo Multitecnología VyV y Doeco son referencia directa: misma integración con GSC System que vamos a implementar para Electrónica del Norte.</p>
+            <p class="text-sky-200/60 text-sm">Multitecnología VyV y Doeco son referencia directa: misma integración con GSC System que vamos a implementar. Quimera y Comercial Hidrobo muestran la calidad técnica del equipo en proyectos con catálogos grandes e integraciones complejas.</p>
         </div>
     </div>
 </section>
