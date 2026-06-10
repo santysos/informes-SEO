@@ -292,3 +292,15 @@ deployment:
     # Permisos Bionext Aprobacion
     - chmod 644 $BASEPATH/bionext/aprobacion-plan-editorial/*.php
     - chmod 644 $BASEPATH/bionext/aprobacion-plan-editorial/.htaccess
+    # Crear estructura Electronica del Norte Proforma (con login)
+    - /bin/mkdir -p $BASEPATH/electronica-del-norte/proforma-junio-2026
+    - chmod 755 $BASEPATH/electronica-del-norte
+    - chmod 755 $BASEPATH/electronica-del-norte/proforma-junio-2026
+    # Deploy Electronica del Norte Proforma
+    - /bin/cp -f electronica-del-norte/proforma-junio-2026/.htaccess $BASEPATH/electronica-del-norte/proforma-junio-2026/
+    - /bin/cp -f electronica-del-norte/proforma-junio-2026/login.php $BASEPATH/electronica-del-norte/proforma-junio-2026/
+    - /bin/cp -f electronica-del-norte/proforma-junio-2026/index.php $BASEPATH/electronica-del-norte/proforma-junio-2026/
+    - /bin/cp -f electronica-del-norte/proforma-junio-2026/logout.php $BASEPATH/electronica-del-norte/proforma-junio-2026/
+    # Permisos Electronica del Norte Proforma
+    - chmod 644 $BASEPATH/electronica-del-norte/proforma-junio-2026/*.php
+    - chmod 644 $BASEPATH/electronica-del-norte/proforma-junio-2026/.htaccess
