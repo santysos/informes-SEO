@@ -69,8 +69,8 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <p class="text-sky-200/70 text-xs uppercase tracking-widest mt-1">semanas de entrega</p>
             </div>
             <div class="glass rounded-xl px-6 py-4">
-                <div class="text-3xl font-black text-grad">547</div>
-                <p class="text-sky-200/70 text-xs uppercase tracking-widest mt-1">productos migrados</p>
+                <div class="text-3xl font-black text-grad">Carga masiva</div>
+                <p class="text-sky-200/70 text-xs uppercase tracking-widest mt-1">de productos inicial</p>
             </div>
             <div class="glass rounded-xl px-6 py-4">
                 <div class="text-3xl font-black text-grad">12</div>
@@ -147,26 +147,26 @@ body { background: #0a0e1a; color: #e2e8f0; }
     </div>
 </section>
 
-<!-- MIGRACIÓN DE CATÁLOGO -->
+<!-- CARGA MASIVA + APP -->
 <section class="py-16 bg-gradient-to-b from-transparent via-slate-900/30 to-transparent">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <p class="text-sky-300 font-bold text-sm uppercase tracking-widest mb-2">Sin perder el trabajo hecho</p>
-            <h2 class="text-4xl font-extrabold text-white">Migración de los 547 productos actuales</h2>
-            <p class="text-sky-100/70 mt-3 max-w-2xl mx-auto">El catálogo que tienen hoy se mueve completo a la tienda nueva. Cuando lancemos, ya está todo arriba.</p>
+            <p class="text-sky-300 font-bold text-sm uppercase tracking-widest mb-2">Carga de productos</p>
+            <h2 class="text-4xl font-extrabold text-white">Carga inicial masiva + herramienta para que el equipo siga</h2>
+            <p class="text-sky-100/70 mt-3 max-w-2xl mx-auto">Hacemos el arranque del catálogo y capacitamos al equipo. Además incluimos una app propia que convierte el Excel de productos en algo fácil y sin errores.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-6">
+        <div class="grid md:grid-cols-2 gap-6 mb-6">
             <div class="glass rounded-2xl p-7">
-                <h3 class="text-white font-bold text-xl mb-4">Qué se migra desde la tienda actual</h3>
+                <h3 class="text-white font-bold text-xl mb-4">Qué hacemos nosotros</h3>
                 <ul class="space-y-3 text-sm">
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-sky-100/85 pt-1"><strong class="text-white">547 productos</strong> con foto, nombre, precio, descripción y stock</span>
+                        <span class="text-sky-100/85 pt-1"><strong class="text-white">Carga masiva inicial</strong> del catálogo para que la tienda arranque con productos</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-sky-100/85 pt-1">Las <strong class="text-white">6 categorías</strong> actuales: Accesorios, Audio y Video, Componentes, Energía, Redes, Seguridad</span>
+                        <span class="text-sky-100/85 pt-1">Las <strong class="text-white">6 categorías</strong> configuradas: Accesorios, Audio y Video, Componentes, Energía, Redes, Seguridad</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
@@ -174,41 +174,69 @@ body { background: #0a0e1a; color: #e2e8f0; }
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-sky-100/85 pt-1">Las direcciones web (URLs) actuales se mantienen para no perder lo posicionado en Google</span>
+                        <span class="text-sky-100/85 pt-1">Capacitación al equipo de Electrónica del Norte <strong class="text-white">para que pueda cargar los productos siguientes sin depender de nosotros</strong></span>
                     </li>
                     <li class="flex items-start gap-3">
                         <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><svg class="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></div>
-                        <span class="text-sky-100/85 pt-1">Cuentas de clientes existentes (sin perder los registros)</span>
+                        <span class="text-sky-100/85 pt-1">Las direcciones web (URLs) actuales se mantienen para no perder lo posicionado en Google</span>
                     </li>
                 </ul>
             </div>
 
-            <div class="glass rounded-2xl p-7">
-                <h3 class="text-white font-bold text-xl mb-4">Cómo lo hacemos</h3>
-                <ul class="space-y-3 text-sm">
-                    <li class="flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">1</span></div>
-                        <span class="text-sky-100/85 pt-1">Descargamos todo el catálogo actual a un archivo de respaldo</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">2</span></div>
-                        <span class="text-sky-100/85 pt-1">Construimos la tienda nueva en un servidor de pruebas (sin afectar la tienda actual)</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">3</span></div>
-                        <span class="text-sky-100/85 pt-1">Conectamos la nueva tienda con el GSC System y probamos sincronización</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">4</span></div>
-                        <span class="text-sky-100/85 pt-1">El día del lanzamiento cambiamos del sitio viejo al nuevo en menos de 1 hora</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">5</span></div>
-                        <span class="text-sky-100/85 pt-1">Mantenemos respaldo del sitio anterior por si necesitan algo</span>
-                    </li>
+            <!-- App de Excel -->
+            <div class="glass-strong rounded-2xl p-7 border-2 border-sky-400/40 relative">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full brand-grad text-white text-xs font-black uppercase tracking-widest">Incluida sin costo extra</span>
+                <div class="flex items-center gap-3 mb-4 mt-2">
+                    <div class="w-10 h-10 rounded-xl brand-grad flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 17v-2a4 4 0 014-4h4M5 21h14a2 2 0 002-2V7l-5-5H5a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                    </div>
+                    <h3 class="text-white font-bold text-xl">App para armar el Excel de productos</h3>
+                </div>
+                <p class="text-sky-100/80 text-sm mb-4">Herramienta propia de Creative Web que el equipo de Electrónica del Norte puede usar en cualquier momento para armar el archivo Excel de productos. La idea: que cargar 50 o 200 productos nuevos tome 1 hora, no 1 día.</p>
+                <ul class="space-y-2 text-sm">
+                    <li class="flex items-start gap-2"><span class="text-sky-400 font-bold">→</span><span class="text-sky-100/90"><strong class="text-white">Valida el Excel antes de subirlo:</strong> avisa si faltan campos, si el precio está mal, si la categoría no existe</span></li>
+                    <li class="flex items-start gap-2"><span class="text-sky-400 font-bold">→</span><span class="text-sky-100/90"><strong class="text-white">Acelera la creación del Excel masivo</strong> con plantillas, autocompletado y copia inteligente</span></li>
+                    <li class="flex items-start gap-2"><span class="text-sky-400 font-bold">→</span><span class="text-sky-100/90"><strong class="text-white">Minimiza errores</strong> antes de cargar — menos productos rechazados, menos correcciones después</span></li>
+                    <li class="flex items-start gap-2"><span class="text-sky-400 font-bold">→</span><span class="text-sky-100/90">Funciona desde el navegador, sin instalación, desde cualquier computador del local</span></li>
+                    <li class="flex items-start gap-2"><span class="text-sky-400 font-bold">→</span><span class="text-sky-100/90">Capacitación de uso incluida en las sesiones del proyecto</span></li>
                 </ul>
-                <p class="text-xs text-sky-200/60 mt-5 italic">La tienda actual sigue funcionando durante todo el desarrollo. El cambio se hace en el último día.</p>
             </div>
+        </div>
+
+        <!-- Cómo lo hacemos -->
+        <div class="glass rounded-2xl p-7">
+            <h3 class="text-white font-bold text-xl mb-4">Cómo se ejecuta paso a paso</h3>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="space-y-3 text-sm">
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">1</span></div>
+                        <span class="text-sky-100/85 pt-1">Descargamos respaldo del catálogo actual</span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">2</span></div>
+                        <span class="text-sky-100/85 pt-1">Construimos la tienda nueva en servidor de pruebas (sin afectar la actual)</span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">3</span></div>
+                        <span class="text-sky-100/85 pt-1">Hacemos la carga masiva inicial de productos para que arranque con catálogo</span>
+                    </div>
+                </div>
+                <div class="space-y-3 text-sm">
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">4</span></div>
+                        <span class="text-sky-100/85 pt-1">Capacitamos al equipo en el uso de la app del Excel y en la carga manual</span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">5</span></div>
+                        <span class="text-sky-100/85 pt-1">Día del lanzamiento: cambio del sitio viejo al nuevo en menos de 1 hora</span>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-400/30 flex items-center justify-center flex-shrink-0"><span class="text-sky-300 font-black text-sm">6</span></div>
+                        <span class="text-sky-100/85 pt-1">Mantenemos respaldo del sitio anterior por si necesitan consultar algo</span>
+                    </div>
+                </div>
+            </div>
+            <p class="text-xs text-sky-200/60 mt-5 italic">La tienda actual sigue funcionando durante todo el desarrollo. El cambio se hace en el último día.</p>
         </div>
     </div>
 </section>
@@ -321,7 +349,7 @@ body { background: #0a0e1a; color: #e2e8f0; }
                 <div class="flex items-start justify-between gap-6 pb-5 border-b border-sky-400/15">
                     <div>
                         <h4 class="text-white font-bold text-lg mb-1">Desarrollo de tienda online + integración GSC System</h4>
-                        <p class="text-sky-100/60 text-sm">Diseño nuevo a medida, migración de 547 productos, integración bidireccional con GSC (artículos, inventario, pedidos, usuarios). Capacitación incluida.</p>
+                        <p class="text-sky-100/60 text-sm">Diseño nuevo a medida, carga masiva inicial de productos, integración bidireccional con GSC (artículos, inventario, pedidos, usuarios), app de validación de Excel y capacitación al equipo.</p>
                     </div>
                     <div class="text-right whitespace-nowrap">
                         <p class="text-white font-bold text-xl">USD 2.230</p>
@@ -387,8 +415,8 @@ body { background: #0a0e1a; color: #e2e8f0; }
             <div class="glass rounded-2xl p-6 flex items-start gap-5">
                 <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-white font-black text-lg">S2</div>
                 <div>
-                    <h3 class="text-white font-bold text-lg mb-1">Semana 2 · Migración del catálogo</h3>
-                    <p class="text-sky-100/70 text-sm">Importación de los 547 productos con fotos, categorías, marcas y URLs originales. Revisión de cada categoría.</p>
+                    <h3 class="text-white font-bold text-lg mb-1">Semana 2 · Carga masiva inicial + app de Excel</h3>
+                    <p class="text-sky-100/70 text-sm">Carga masiva inicial de productos con categorías, marcas y URLs originales. Entrega y demostración de la app de validación de Excel para que el equipo siga cargando.</p>
                 </div>
             </div>
             <div class="glass rounded-2xl p-6 flex items-start gap-5">
