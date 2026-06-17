@@ -70,12 +70,12 @@ body { background: #07140d; color: #e7f5ec; }
 
         <div class="flex flex-wrap justify-center gap-4 mb-12">
             <div class="glass rounded-xl px-6 py-4">
-                <div class="text-3xl font-black text-grad">4</div>
-                <p class="text-emerald-200/70 text-xs uppercase tracking-widest mt-1">módulos · arma tu paquete</p>
+                <div class="text-3xl font-black text-grad">3</div>
+                <p class="text-emerald-200/70 text-xs uppercase tracking-widest mt-1">pasos · a tu ritmo</p>
             </div>
             <div class="glass rounded-xl px-6 py-4">
-                <div class="text-3xl font-black text-grad">B2B + B2C</div>
-                <p class="text-emerald-200/70 text-xs uppercase tracking-widest mt-1">mayorista y al detalle</p>
+                <div class="text-3xl font-black text-grad">2 en 1</div>
+                <p class="text-emerald-200/70 text-xs uppercase tracking-widest mt-1">venta al por mayor y al detalle</p>
             </div>
             <div class="glass rounded-xl px-6 py-4">
                 <div class="text-3xl font-black text-grad">8</div>
@@ -94,40 +94,82 @@ body { background: #07140d; color: #e7f5ec; }
     </div>
 </section>
 
-<!-- INDICE DE MODULOS -->
-<section class="py-10">
+<!-- PLAN POR PASOS -->
+<section class="py-12">
     <div class="max-w-6xl mx-auto px-6">
-        <div class="grid md:grid-cols-4 gap-4">
-            <a href="#modulo1" class="glass rounded-2xl p-5 hover:border-emerald-400/40 transition border border-transparent">
-                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1">Módulo 1</p>
-                <h3 class="text-white font-bold text-lg leading-tight">Tienda online</h3>
-                <p class="text-emerald-100/60 text-sm mt-2">USD 680 + IVA</p>
-            </a>
-            <a href="#modulo2" class="glass rounded-2xl p-5 hover:border-emerald-400/40 transition border border-transparent">
-                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1">Módulo 2</p>
-                <h3 class="text-white font-bold text-lg leading-tight">Venta mayorista + detalle</h3>
-                <p class="text-emerald-100/60 text-sm mt-2">USD 380 + IVA</p>
-            </a>
-            <a href="#modulo3" class="glass rounded-2xl p-5 hover:border-emerald-400/40 transition border border-transparent">
-                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1">Módulo 3</p>
-                <h3 class="text-white font-bold text-lg leading-tight">Contenido TikTok</h3>
-                <p class="text-emerald-100/60 text-sm mt-2">USD 275 / mes</p>
-            </a>
-            <a href="#modulo4" class="glass rounded-2xl p-5 hover:border-emerald-400/40 transition border border-transparent">
-                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1">Módulo 4</p>
-                <h3 class="text-white font-bold text-lg leading-tight">Posicionamiento SEO</h3>
-                <p class="text-emerald-100/60 text-sm mt-2">Desde USD 100 / mes</p>
-            </a>
+        <div class="text-center mb-10">
+            <p class="text-emerald-300 font-bold text-sm uppercase tracking-widest mb-2">Cómo avanzamos</p>
+            <h2 class="text-4xl font-extrabold text-white">El plan, paso a paso</h2>
+            <p class="text-emerald-100/70 mt-3 max-w-2xl mx-auto">Cada cosa a su tiempo. Primero la tienda; cuando esté lista, sumamos los videos y el posicionamiento — esos dos pueden ir al mismo tiempo.</p>
         </div>
-        <p class="text-center text-emerald-100/50 text-sm mt-6">Cada módulo se puede contratar por separado o en conjunto. Lo recomendado: arrancar con la tienda online + mayorista y sumar TikTok y SEO desde el primer mes.</p>
+
+        <!-- Paso 1 -->
+        <a href="#paso1" class="block glass rounded-2xl p-6 mb-4 hover:border-emerald-400/40 transition border border-transparent">
+            <div class="flex items-start gap-5">
+                <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-emerald-950 font-black text-lg">1</div>
+                <div class="flex-1">
+                    <div class="flex flex-wrap items-center gap-3 mb-1">
+                        <h3 class="text-white font-bold text-xl">Primero: armamos la tienda web</h3>
+                        <span class="text-emerald-200/80 text-sm font-semibold">· 4 semanas · USD 680 + IVA</span>
+                    </div>
+                    <p class="text-emerald-100/70 text-sm">Diseño a medida, compra automática, dominio y hosting. Aquí tomamos una decisión: si la <strong class="text-white">venta al por mayor</strong> entra desde el primer día o la sumamos más adelante.</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Decisión mayorista -->
+        <a href="#paso1b" class="block glass rounded-2xl p-6 mb-4 ml-0 md:ml-12 border border-gold-400/30 hover:border-gold-400/60 transition">
+            <div class="flex items-start gap-5">
+                <div class="flex-shrink-0 w-14 h-14 rounded-xl gold-grad flex items-center justify-center text-emerald-950 font-black text-xl">+</div>
+                <div class="flex-1">
+                    <div class="flex flex-wrap items-center gap-3 mb-1">
+                        <h3 class="text-white font-bold text-xl">Decisión: venta al por mayor</h3>
+                        <span class="text-gold text-sm font-semibold">· USD 380 + IVA · al inicio o después</span>
+                    </div>
+                    <p class="text-emerald-100/70 text-sm">Que tus revendedores vean precios especiales y compren por cantidad, en la misma web. Se puede activar desde el arranque o agregar cuando quieras — el costo es el mismo.</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Paso 2 -->
+        <a href="#paso2" class="block glass rounded-2xl p-6 mb-4 hover:border-emerald-400/40 transition border border-transparent">
+            <div class="flex items-start gap-5">
+                <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-emerald-950 font-black text-lg">2</div>
+                <div class="flex-1">
+                    <div class="flex flex-wrap items-center gap-3 mb-1">
+                        <h3 class="text-white font-bold text-xl">Con la web lista: videos para TikTok</h3>
+                        <span class="text-emerald-200/80 text-sm font-semibold">· USD 275 / mes</span>
+                    </div>
+                    <p class="text-emerald-100/70 text-sm">8 videos al mes que atraen compradores y los mandan a la tienda. Arranca una vez que la web ya puede recibir los pedidos.</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Paso 3 -->
+        <a href="#paso3" class="block glass rounded-2xl p-6 mb-4 hover:border-emerald-400/40 transition border border-transparent">
+            <div class="flex items-start gap-5">
+                <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-emerald-950 font-black text-lg">3</div>
+                <div class="flex-1">
+                    <div class="flex flex-wrap items-center gap-3 mb-1">
+                        <h3 class="text-white font-bold text-xl">En paralelo: posicionamiento en Google (6 meses)</h3>
+                        <span class="text-emerald-200/80 text-sm font-semibold">· desde USD 100 / mes</span>
+                    </div>
+                    <p class="text-emerald-100/70 text-sm">Para que te encuentren cuando buscan trajes de baño. Corre <strong class="text-white">al mismo tiempo</strong> que los videos de TikTok: uno atrae desde redes, el otro desde Google.</p>
+                </div>
+            </div>
+        </a>
+
+        <div class="glass-strong rounded-2xl p-5 mt-6 text-center">
+            <p class="text-emerald-100/85 text-sm"><strong class="text-white">En resumen:</strong> paso 1 (web) primero. Cuando la web esté lista, los pasos 2 (TikTok) y 3 (posicionamiento) avanzan juntos, mes a mes.</p>
+        </div>
     </div>
 </section>
 
-<!-- ===================== MODULO 1 ===================== -->
-<section id="modulo1" class="py-16">
+<!-- ===================== PASO 1 ===================== -->
+<section id="paso1" class="py-16">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <span class="inline-block px-3 py-1 rounded-full brand-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Módulo 1</span>
+            <span class="inline-block px-3 py-1 rounded-full brand-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Paso 1 · La tienda web</span>
             <h2 class="text-4xl font-extrabold text-white mb-3">Tu tienda online completa</h2>
             <p class="text-emerald-100/70 max-w-2xl mx-auto">Pensada para que el cliente que llega desde redes compre por su cuenta — eligiendo talla, color y pagando solo — sin que el equipo de La Jungla tenga que responder cada mensaje por WhatsApp.</p>
         </div>
@@ -215,7 +257,7 @@ body { background: #07140d; color: #e7f5ec; }
             </div>
         </div>
 
-        <!-- precio modulo 1 -->
+        <!-- precio paso 1 -->
         <div class="mt-6 glass-strong rounded-2xl p-7 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
                 <h4 class="text-white font-bold text-lg">Tienda online + dominio .com + hosting 1 año</h4>
@@ -224,24 +266,24 @@ body { background: #07140d; color: #e7f5ec; }
             <div class="text-right whitespace-nowrap">
                 <span class="text-grad font-black text-4xl">USD 680</span>
                 <span class="text-emerald-200/80 font-bold text-lg ml-1">+ IVA</span>
-                <p class="text-emerald-100/60 text-xs mt-1">Entrega en 3 semanas · pago 60% / 40%</p>
+                <p class="text-emerald-100/60 text-xs mt-1">Entrega en 4 semanas · pago 60% / 40%</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ===================== MODULO 2 ===================== -->
-<section id="modulo2" class="py-16 bg-gradient-to-b from-transparent via-emerald-950/30 to-transparent">
+<!-- ===================== PASO 1B · MAYORISTA ===================== -->
+<section id="paso1b" class="py-16 bg-gradient-to-b from-transparent via-emerald-950/30 to-transparent">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <span class="inline-block px-3 py-1 rounded-full gold-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Módulo 2 · Add-on</span>
+            <span class="inline-block px-3 py-1 rounded-full gold-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Decisión del Paso 1 · al inicio o después</span>
             <h2 class="text-4xl font-extrabold text-white mb-3">Vende al por mayor y al detalle en la misma tienda</h2>
-            <p class="text-emerald-100/70 max-w-2xl mx-auto">El corazón de La Jungla es la venta mayorista. Esta funcionalidad permite que un revendedor vea precios de mayorista y un cliente final vea precio de detalle — todo en la misma web, sin confusiones.</p>
+            <p class="text-emerald-100/70 max-w-2xl mx-auto">El corazón de La Jungla es la venta al por mayor. Esto permite que un revendedor vea sus precios especiales y un cliente final vea el precio normal — todo en la misma web, sin confusiones. Se puede activar desde que arranca la tienda o sumarlo más adelante.</p>
         </div>
 
         <div class="grid lg:grid-cols-2 gap-6">
             <div class="glass-strong rounded-2xl p-7">
-                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-2">B2B · Mayorista</p>
+                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-2">Venta al por mayor</p>
                 <h3 class="text-white font-bold text-xl mb-4">Para tus revendedores</h3>
                 <ul class="space-y-2 text-sm">
                     <li class="flex items-start gap-2"><span class="text-gold-400 font-bold">→</span><span class="text-emerald-100/85">Cuenta de cliente mayorista con <strong class="text-white">precios especiales</strong> al iniciar sesión</span></li>
@@ -253,7 +295,7 @@ body { background: #07140d; color: #e7f5ec; }
                 </ul>
             </div>
             <div class="glass-strong rounded-2xl p-7">
-                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-2">B2C · Detalle</p>
+                <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-2">Venta al detalle</p>
                 <h3 class="text-white font-bold text-xl mb-4">Para el cliente final</h3>
                 <ul class="space-y-2 text-sm">
                     <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">→</span><span class="text-emerald-100/85">Precio de detalle visible para cualquier visitante</span></li>
@@ -267,23 +309,23 @@ body { background: #07140d; color: #e7f5ec; }
 
         <div class="mt-6 glass-strong rounded-2xl p-7 flex flex-col md:flex-row items-center justify-between gap-4 border border-gold-400/30">
             <div>
-                <h4 class="text-white font-bold text-lg">Funcionalidad mayorista + detalle (B2B / B2C)</h4>
-                <p class="text-emerald-100/60 text-sm">Se implementa sobre la tienda del Módulo 1. Doble lista de precios, cuentas mayoristas, mínimos y descuentos por volumen.</p>
+                <h4 class="text-white font-bold text-lg">Venta al por mayor y al detalle</h4>
+                <p class="text-emerald-100/60 text-sm">Se implementa sobre la tienda del Paso 1, al inicio o cuando lo decidas. Doble lista de precios, cuentas de revendedor, pedido mínimo y descuentos por cantidad.</p>
             </div>
             <div class="text-right whitespace-nowrap">
                 <span class="text-gold font-black text-4xl">USD 380</span>
                 <span class="text-emerald-200/80 font-bold text-lg ml-1">+ IVA</span>
-                <p class="text-emerald-100/60 text-xs mt-1">Pago único · complemento del Módulo 1</p>
+                <p class="text-emerald-100/60 text-xs mt-1">Pago único · se suma a la tienda del Paso 1</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ===================== MODULO 3 ===================== -->
-<section id="modulo3" class="py-16">
+<!-- ===================== PASO 2 · TIKTOK ===================== -->
+<section id="paso2" class="py-16">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <span class="inline-block px-3 py-1 rounded-full brand-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Módulo 3 · Mensual</span>
+            <span class="inline-block px-3 py-1 rounded-full brand-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Paso 2 · Mensual (con la web lista)</span>
             <h2 class="text-4xl font-extrabold text-white mb-3">Contenido en TikTok que atrae compradores</h2>
             <p class="text-emerald-100/70 max-w-2xl mx-auto">En Ecuador TikTok es el escaparate número uno para moda. No se trata de "hacerse viral": se trata de publicar con constancia, mostrar el producto en movimiento y mandar ese tráfico a la tienda y al WhatsApp.</p>
         </div>
@@ -331,13 +373,13 @@ body { background: #07140d; color: #e7f5ec; }
     </div>
 </section>
 
-<!-- ===================== MODULO 4 (SEO estilo Dikapsa) ===================== -->
-<section id="modulo4" class="py-16 bg-gradient-to-b from-transparent via-emerald-950/30 to-transparent">
+<!-- ===================== PASO 3 · POSICIONAMIENTO ===================== -->
+<section id="paso3" class="py-16 bg-gradient-to-b from-transparent via-emerald-950/30 to-transparent">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <span class="inline-block px-3 py-1 rounded-full brand-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Módulo 4 · 6 meses</span>
+            <span class="inline-block px-3 py-1 rounded-full brand-grad text-emerald-950 text-xs font-black uppercase tracking-widest mb-3">Paso 3 · 6 meses (en paralelo con TikTok)</span>
             <h2 class="text-4xl font-extrabold text-white mb-3">Que te encuentren en Google cuando buscan trajes de baño</h2>
-            <p class="text-emerald-100/70 max-w-2xl mx-auto">Quien quiere comprar trajes de baño para revender —o para su tienda— busca en Google antes de pedir. Si La Jungla no aparece en los primeros resultados, ese cliente se va a la competencia. Este plan posiciona tu tienda mes a mes con contenido real.</p>
+            <p class="text-emerald-100/70 max-w-2xl mx-auto">Quien quiere comprar trajes de baño para revender —o para su tienda— busca en Google antes de pedir. Si La Jungla no aparece en los primeros resultados, ese cliente se va a la competencia. Este plan posiciona tu tienda mes a mes con contenido real, y puede ir al mismo tiempo que los videos de TikTok.</p>
         </div>
 
         <!-- la oportunidad -->
@@ -429,15 +471,15 @@ body { background: #07140d; color: #e7f5ec; }
             <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-4">Pagos únicos (construcción)</p>
             <div class="space-y-4 mb-8">
                 <div class="flex items-start justify-between gap-6 pb-4 border-b border-emerald-400/15">
-                    <div><h4 class="text-white font-bold text-lg">Módulo 1 · Tienda online + dominio + hosting</h4><p class="text-emerald-100/60 text-sm">Pago único · entrega 3 semanas</p></div>
+                    <div><h4 class="text-white font-bold text-lg">Paso 1 · Tienda web + dominio + hosting</h4><p class="text-emerald-100/60 text-sm">Pago único · entrega 4 semanas</p></div>
                     <p class="text-white font-bold text-xl whitespace-nowrap">USD 680</p>
                 </div>
                 <div class="flex items-start justify-between gap-6 pb-4 border-b border-emerald-400/15">
-                    <div><h4 class="text-white font-bold text-lg">Módulo 2 · Venta mayorista + detalle (B2B/B2C)</h4><p class="text-emerald-100/60 text-sm">Pago único · complemento del Módulo 1</p></div>
+                    <div><h4 class="text-white font-bold text-lg">Venta al por mayor (al inicio o después)</h4><p class="text-emerald-100/60 text-sm">Pago único · se suma a la tienda del Paso 1</p></div>
                     <p class="text-white font-bold text-xl whitespace-nowrap">USD 380</p>
                 </div>
                 <div class="flex items-start justify-between gap-6">
-                    <div><h4 class="text-white font-bold text-lg">Subtotal construcción (Módulos 1 + 2)</h4><p class="text-emerald-100/60 text-sm">Tienda completa lista para vender mayorista y al detalle</p></div>
+                    <div><h4 class="text-white font-bold text-lg">Subtotal de la tienda completa</h4><p class="text-emerald-100/60 text-sm">Lista para vender al por mayor y al detalle</p></div>
                     <p class="text-grad font-black text-2xl whitespace-nowrap">USD 1.060 <span class="text-emerald-200/80 text-base font-bold">+ IVA</span></p>
                 </div>
             </div>
@@ -445,11 +487,11 @@ body { background: #07140d; color: #e7f5ec; }
             <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-4 pt-2">Planes mensuales (crecimiento)</p>
             <div class="space-y-4">
                 <div class="flex items-start justify-between gap-6 pb-4 border-b border-emerald-400/15">
-                    <div><h4 class="text-white font-bold text-lg">Módulo 3 · Contenido TikTok</h4><p class="text-emerald-100/60 text-sm">8 videos/mes · mes a mes · sin permanencia</p></div>
+                    <div><h4 class="text-white font-bold text-lg">Paso 2 · Contenido TikTok</h4><p class="text-emerald-100/60 text-sm">8 videos/mes · mes a mes · sin permanencia</p></div>
                     <p class="text-white font-bold text-xl whitespace-nowrap">USD 275 <span class="text-emerald-200/70 text-base font-normal">/mes</span></p>
                 </div>
                 <div class="flex items-start justify-between gap-6">
-                    <div><h4 class="text-white font-bold text-lg">Módulo 4 · Posicionamiento SEO (6 meses)</h4><p class="text-emerald-100/60 text-sm">USD 600 un pago · o USD 150/mes (total 900)</p></div>
+                    <div><h4 class="text-white font-bold text-lg">Paso 3 · Posicionamiento en Google (6 meses)</h4><p class="text-emerald-100/60 text-sm">USD 600 un pago · o USD 150/mes (total 900) · en paralelo con TikTok</p></div>
                     <p class="text-white font-bold text-xl whitespace-nowrap">desde USD 100 <span class="text-emerald-200/70 text-base font-normal">/mes</span></p>
                 </div>
             </div>
@@ -458,7 +500,7 @@ body { background: #07140d; color: #e7f5ec; }
                 <div class="glass rounded-xl p-5">
                     <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-2">Abono inicial construcción · 60%</p>
                     <p class="text-white text-2xl font-extrabold">USD 636 <span class="text-base text-emerald-200/70 font-normal">+ IVA</span></p>
-                    <p class="text-emerald-100/60 text-xs mt-1">A la firma, para arrancar (Módulos 1 + 2)</p>
+                    <p class="text-emerald-100/60 text-xs mt-1">A la firma, para arrancar la tienda</p>
                 </div>
                 <div class="glass rounded-xl p-5">
                     <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-2">Saldo final construcción · 40%</p>
@@ -466,7 +508,7 @@ body { background: #07140d; color: #e7f5ec; }
                     <p class="text-emerald-100/60 text-xs mt-1">Antes de entregar la tienda en vivo</p>
                 </div>
             </div>
-            <p class="text-center text-emerald-200/60 text-xs mt-6">Cada módulo se puede contratar por separado · Validez 15 días desde la fecha de esta propuesta</p>
+            <p class="text-center text-emerald-200/60 text-xs mt-6">Cada paso se puede contratar por separado · Validez 15 días desde la fecha de esta propuesta</p>
         </div>
     </div>
 </section>
@@ -509,7 +551,7 @@ body { background: #07140d; color: #e7f5ec; }
             <p class="text-emerald-300 font-bold text-sm uppercase tracking-widest mb-3">Siguiente paso</p>
             <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-5">¿Arrancamos esta semana?</h2>
             <p class="text-emerald-100/80 text-lg max-w-2xl mx-auto mb-8">
-                Con el abono inicial empezamos el diseño en 2 días hábiles. En 3 semanas la tienda de La Jungla está en vivo, vendiendo mayorista y al detalle, lista para conectar con TikTok y Google.
+                Con el abono inicial empezamos el diseño en 2 días hábiles. En 4 semanas la tienda de La Jungla está en vivo, vendiendo al por mayor y al detalle, lista para conectar con TikTok y Google.
             </p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20queremos%20aprobar%20la%20propuesta%20de%20La%20Jungla" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-8 py-4 rounded-xl brand-grad text-emerald-950 font-bold text-base hover:opacity-90 transition shadow-2xl">

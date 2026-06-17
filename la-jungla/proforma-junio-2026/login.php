@@ -43,7 +43,7 @@ input:focus { outline: none; border-color: #4ade80; box-shadow: 0 0 0 3px rgba(7
                 <svg class="w-8 h-8 text-emerald-950" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M3 21c4-1 7-4 9-8m0 0c2-4 5-7 9-8-1 6-4 11-9 13M12 13C9 11 6 10 3 11c1 4 4 7 8 8"/></svg>
             </div>
             <p class="text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1">Creative Web · Propuesta</p>
-            <h1 class="text-xl font-bold text-white">Tienda online · B2B/B2C · TikTok · SEO</h1>
+            <h1 class="text-xl font-bold text-white">Tienda online · Mayorista · TikTok · Posicionamiento</h1>
             <p class="text-emerald-100/70 text-sm font-medium mt-1">La Jungla — Otavalo</p>
         </div>
         <form method="POST" class="space-y-5">
