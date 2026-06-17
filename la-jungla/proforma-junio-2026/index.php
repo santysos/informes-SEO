@@ -61,8 +61,8 @@ body { background: #07140d; color: #e7f5ec; }
     <div class="max-w-5xl mx-auto px-6 text-center">
         <p class="text-emerald-300 font-bold text-sm uppercase tracking-widest mb-4">Propuesta integral de marca digital</p>
         <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight text-white">
-            Lleva La Jungla<br>
-            <span class="text-grad">del taller al celular de todo el país</span>
+            De tu taller en Otavalo<br>
+            <span class="text-grad">a todo el Ecuador</span>
         </h1>
         <p class="text-emerald-100/80 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed mb-10">
             La Jungla ya fabrica y vende al por mayor. Esta propuesta arma el siguiente paso: una tienda online que vende sola (mayorista y al detalle), contenido en TikTok que atrae compradores, y posicionamiento en Google para que te encuentren cuando buscan trajes de baño.
