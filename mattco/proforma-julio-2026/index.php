@@ -86,8 +86,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <p class="text-neutral-400 text-[11px] uppercase tracking-widest mt-1 leading-tight">alertas<br>automáticas</p>
             </div>
             <div class="glass rounded-xl px-4 py-5">
-                <div class="text-3xl font-black text-grad">100%</div>
-                <p class="text-neutral-400 text-[11px] uppercase tracking-widest mt-1 leading-tight">funciona<br>sin señal</p>
+                <div class="text-3xl font-black text-grad">1 foto</div>
+                <p class="text-neutral-400 text-[11px] uppercase tracking-widest mt-1 leading-tight">es todo lo que<br>hace el chofer</p>
             </div>
         </div>
 
@@ -244,7 +244,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <div class="glass-neutral rounded-xl p-4">
                         <div class="text-red-400 font-black text-2xl mb-1">4</div>
                         <p class="text-white text-sm font-semibold mb-1">Confirma y listo</p>
-                        <p class="text-neutral-400 text-xs leading-relaxed">Revisa que los datos estén bien y envía. Si no hay señal, se guarda y sube solo después.</p>
+                        <p class="text-neutral-400 text-xs leading-relaxed">Revisa que los datos estén bien y envía. La foto original queda guardada como respaldo.</p>
                     </div>
                 </div>
 
@@ -436,11 +436,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <div class="space-y-4">
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Se instala en el celular como una app</p>
-                    <p class="text-neutral-400 text-sm leading-relaxed">No hay que descargar nada de Play Store. Se abre el enlace una vez, se agrega a la pantalla de inicio y queda con su ícono, como cualquier otra app. Funciona igual en tablet.</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">No hay que descargar nada de Play Store ni actualizar nada nunca. Se abre el enlace una vez, se agrega a la pantalla de inicio y queda con su ícono, como cualquier otra app. Funciona igual en tablet y en computadora.</p>
                 </div>
                 <div>
-                    <p class="text-white font-semibold text-sm mb-1">Funciona sin señal</p>
-                    <p class="text-neutral-400 text-sm leading-relaxed">En la mina y en carretera no hay internet. El chofer registra igual, la información queda guardada en el celular y sube sola apenas hay cobertura. Nunca se pierde un registro.</p>
+                    <p class="text-white font-semibold text-sm mb-1">Nada se borra sin dejar rastro</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Cada corrección queda registrada con quién la hizo, cuándo y qué decía antes. En un sistema de control, poder editar sin dejar huella lo invalidaría por completo.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Tres perfiles de usuario</p>
@@ -460,8 +460,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
     <div class="max-w-5xl mx-auto px-6">
         <div class="text-center mb-10">
             <p class="text-red-400 font-bold text-sm uppercase tracking-widest mb-2">Cómo avanzamos</p>
-            <h2 class="text-3xl md:text-4xl font-extrabold text-white">12 semanas, entregando por partes</h2>
-            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">No esperan tres meses para ver algo. El módulo de combustible &mdash; el que más urge &mdash; entra en operación en la semana 6.</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">11 semanas, entregando por partes</h2>
+            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">No esperan tres meses para ver algo. El módulo de combustible &mdash; el que más urge &mdash; entra en operación en la semana 5.</p>
         </div>
 
         <div class="space-y-4">
@@ -470,9 +470,9 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="flex-1">
                     <div class="flex flex-wrap items-baseline gap-3 mb-2">
                         <h3 class="text-white font-bold text-lg">Base del sistema + Combustible</h3>
-                        <span class="text-red-400 text-sm font-semibold">Semanas 1 a 6</span>
+                        <span class="text-red-400 text-sm font-semibold">Semanas 1 a 5</span>
                     </div>
-                    <p class="text-neutral-400 text-sm leading-relaxed">Usuarios y roles, las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos. Lectura de tickets con IA, foto del odómetro, repartición a máquinas, saldo del tanquero, las 8 alertas, control del crédito con la estación, reportes y exportación. App instalable funcionando sin señal.</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Usuarios y roles, las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos. Lectura de tickets con IA, foto del odómetro, repartición a máquinas, saldo del tanquero, las 8 alertas, control del crédito con la estación, reportes y exportación. App instalable en el celular.</p>
                     <p class="text-neutral-500 text-xs mt-2">Al final de esta fase el sistema ya está en producción y los choferes ya lo usan.</p>
                 </div>
             </div>
@@ -482,7 +482,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="flex-1">
                     <div class="flex flex-wrap items-baseline gap-3 mb-2">
                         <h3 class="text-white font-bold text-lg">Peajes</h3>
-                        <span class="text-red-400 text-sm font-semibold">Semanas 7 y 8</span>
+                        <span class="text-red-400 text-sm font-semibold">Semanas 6 y 7</span>
                     </div>
                     <p class="text-neutral-400 text-sm leading-relaxed">Catálogo de peajes cargado con el histórico de Mattco, registro rápido desde el celular, recargas del prepago, saldo en tiempo real, aviso de saldo bajo y reportes.</p>
                 </div>
@@ -493,7 +493,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="flex-1">
                     <div class="flex flex-wrap items-baseline gap-3 mb-2">
                         <h3 class="text-white font-bold text-lg">Viajes y guías de remisión</h3>
-                        <span class="text-red-400 text-sm font-semibold">Semanas 9 a 12</span>
+                        <span class="text-red-400 text-sm font-semibold">Semanas 8 a 11</span>
                     </div>
                     <p class="text-neutral-400 text-sm leading-relaxed">Catálogo de locales Favorita con tarifas versionadas por mes, cargador del Excel mensual, registro de viajes con guía y kilometraje, cálculo automático del valor y conciliación contra la liquidación de Favorita.</p>
                 </div>
@@ -536,23 +536,23 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <tbody class="divide-y divide-white/6">
                         <tr>
                             <td class="px-6 py-4 text-white font-semibold">Fase 1 &mdash; Base del sistema + Combustible</td>
-                            <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">6 semanas</td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 1.850</td>
+                            <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">5 semanas</td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 1.400</td>
                         </tr>
                         <tr>
                             <td class="px-6 py-4 text-white font-semibold">Fase 2 &mdash; Peajes</td>
                             <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">2 semanas</td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 400</td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 350</td>
                         </tr>
                         <tr>
                             <td class="px-6 py-4 text-white font-semibold">Fase 3 &mdash; Viajes y guías de remisión</td>
                             <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">4 semanas</td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 950</td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 800</td>
                         </tr>
                         <tr class="bg-white/3">
                             <td class="px-6 py-4 text-neutral-300 font-semibold">Suma contratando por separado</td>
                             <td class="px-6 py-4 hidden sm:table-cell"></td>
-                            <td class="px-6 py-4 text-right text-neutral-400 font-bold mono line-through whitespace-nowrap">$ 3.200</td>
+                            <td class="px-6 py-4 text-right text-neutral-400 font-bold mono line-through whitespace-nowrap">$ 2.550</td>
                         </tr>
                     </tbody>
                 </table>
@@ -566,14 +566,14 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <h3 class="text-white font-bold text-xl mb-1">Los 3 módulos completos</h3>
                 <p class="text-neutral-400 text-sm mb-5">Contratando el paquete entero, con entrega por fases.</p>
                 <div class="flex items-baseline gap-2 mb-1">
-                    <span class="text-5xl font-black text-grad mono">$2.900</span>
+                    <span class="text-5xl font-black text-grad mono">$2.300</span>
                     <span class="text-neutral-400 font-semibold">+ IVA</span>
                 </div>
-                <p class="text-emerald-400 text-sm font-semibold mb-5">Ahorro de $300 frente a contratar fase por fase</p>
+                <p class="text-emerald-400 text-sm font-semibold mb-5">Ahorro de $250 frente a contratar fase por fase</p>
                 <div class="border-t border-white/10 pt-4 space-y-1.5 text-sm text-neutral-300">
-                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$1.450</span></div>
-                    <div class="flex justify-between"><span>A la entrega de Fase 1 (25%)</span><span class="mono font-bold text-white">$725</span></div>
-                    <div class="flex justify-between"><span>A la entrega final (25%)</span><span class="mono font-bold text-white">$725</span></div>
+                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$1.150</span></div>
+                    <div class="flex justify-between"><span>A la entrega de Fase 1 (25%)</span><span class="mono font-bold text-white">$575</span></div>
+                    <div class="flex justify-between"><span>A la entrega final (25%)</span><span class="mono font-bold text-white">$575</span></div>
                 </div>
             </div>
 
@@ -581,12 +581,13 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <p class="text-neutral-400 text-xs font-bold uppercase tracking-widest mb-2">Mensualidad</p>
                 <h3 class="text-white font-bold text-xl mb-1">Operación y soporte</h3>
                 <p class="text-neutral-400 text-sm mb-5">Empieza a correr desde el tercer mes. Los dos primeros van incluidos en el desarrollo.</p>
-                <div class="flex items-baseline gap-2 mb-5">
-                    <span class="text-5xl font-black text-grad mono">$110</span>
+                <div class="flex items-baseline gap-2 mb-1">
+                    <span class="text-5xl font-black text-grad mono">$60</span>
                     <span class="text-neutral-400 font-semibold">+ IVA / mes</span>
                 </div>
+                <p class="text-emerald-400 text-sm font-semibold mb-5">Menos de $2 al día por mantener el control de toda la flota</p>
                 <ul class="space-y-2 text-sm text-neutral-300 border-t border-white/10 pt-4">
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Servidor, base de datos y dominio</li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Servidor propio, base de datos y dominio</li>
                     <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Costo de la inteligencia artificial que lee los tickets</li>
                     <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Respaldos diarios de toda la información</li>
                     <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Soporte y ajustes menores</li>
@@ -600,11 +601,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <div class="flex flex-wrap items-center justify-between gap-4">
                 <div class="flex-1 min-w-[260px]">
                     <p class="text-white font-bold text-lg mb-1">¿Prefieren empezar por lo urgente?</p>
-                    <p class="text-neutral-400 text-sm">Se puede arrancar solo con la Fase 1 &mdash; base del sistema y control de combustible &mdash; y decidir después si se suman los peajes y los viajes. En ese caso la mensualidad es de <strong class="text-white">$85 + IVA</strong>.</p>
+                    <p class="text-neutral-400 text-sm">Se puede arrancar solo con la Fase 1 &mdash; base del sistema y control de combustible &mdash; y decidir después si se suman los peajes y los viajes. En ese caso la mensualidad es de <strong class="text-white">$45 + IVA</strong>.</p>
                 </div>
                 <div class="text-right">
-                    <div class="text-3xl font-black text-grad mono">$1.850</div>
-                    <p class="text-neutral-400 text-sm font-semibold">+ IVA &middot; 6 semanas</p>
+                    <div class="text-3xl font-black text-grad mono">$1.400</div>
+                    <p class="text-neutral-400 text-sm font-semibold">+ IVA &middot; 5 semanas</p>
                 </div>
             </div>
         </div>
@@ -665,7 +666,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 </div>
                 <div>
                     <p class="text-white font-semibold mb-1">Plazo de entrega</p>
-                    <p class="text-neutral-400">12 semanas desde el anticipo, con entregas parciales al cierre de cada fase.</p>
+                    <p class="text-neutral-400">11 semanas desde el anticipo, con entregas parciales al cierre de cada fase.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold mb-1">Propiedad del sistema</p>
