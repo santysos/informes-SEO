@@ -252,23 +252,23 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <div>
                         <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Abastecimiento en la estación</p>
                         <ul class="space-y-2 text-neutral-300 text-sm">
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Lectura automática del ticket con inteligencia artificial</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Los tres combustibles: diesel, extra y súper</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> El sistema separa solo las <strong class="text-white">dos razones sociales</strong> leyendo el campo Cliente del ticket</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Vehículos particulares que trabajan para la empresa, marcados aparte</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Imagen original del recibo guardada como respaldo permanente</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> <strong class="text-white">Control del crédito</strong> con la estación: deuda acumulada, pagos y saldo</li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Lectura automática del ticket con inteligencia artificial</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Los tres combustibles: diesel, extra y súper</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>El sistema separa solo las <strong class="text-white">dos razones sociales</strong> leyendo el campo Cliente del ticket</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Vehículos particulares que trabajan para la empresa, marcados aparte</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Imagen original del recibo guardada como respaldo permanente</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><strong class="text-white">Control del crédito</strong> con la estación: deuda acumulada, pagos y saldo</span></li>
                         </ul>
                     </div>
                     <div>
                         <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Repartición a las máquinas</p>
                         <ul class="space-y-2 text-neutral-300 text-sm">
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Catálogo de máquinas con código y nombre (N66h, 257B Bobcat, etc.)</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Galones entregados a cada máquina, tomados del contómetro de la bomba</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> <strong class="text-white">Proyecto o área de trabajo</strong> asociado a cada entrega &mdash; Cumbas, pequeña minería, el que sea</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Saldo del tanquero calculado y alertas de descuadre</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Varios tanqueros, cada uno con su capacidad configurable</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Horas de trabajo declaradas por el operador, para calcular galones por hora</li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Catálogo de máquinas con código y nombre (N66h, 257B Bobcat, etc.)</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Galones entregados a cada máquina, tomados del contómetro de la bomba</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><strong class="text-white">Proyecto o área de trabajo</strong> asociado a cada entrega &mdash; Cumbas, pequeña minería, el que sea</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Saldo del tanquero calculado y alertas de descuadre</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Varios tanqueros, cada uno con su capacidad configurable</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Horas de trabajo declaradas por el operador, para calcular galones por hora</span></li>
                         </ul>
                     </div>
                 </div>
@@ -293,20 +293,20 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div>
                     <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Registro del chofer</p>
                     <ul class="space-y-2 text-neutral-300 text-sm">
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Peaje seleccionado de una <strong class="text-white">lista cerrada</strong> &mdash; no se escribe, se elige, y así no hay errores de tipeo</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Valor, fecha y hora del paso</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Vehículo que pasó</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Tres toques y está registrado</li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Peaje seleccionado de una <strong class="text-white">lista cerrada</strong> &mdash; no se escribe, se elige, y así no hay errores de tipeo</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Valor, fecha y hora del paso</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Vehículo que pasó</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Tres toques y está registrado</span></li>
                     </ul>
                 </div>
                 <div>
                     <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Control del prepago</p>
                     <ul class="space-y-2 text-neutral-300 text-sm">
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Registro de recargas al prepago</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> <strong class="text-white">Saldo disponible al instante</strong>, sin esperar el corte de mes</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Aviso automático cuando el saldo baja del mínimo que ustedes definan</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Gasto de peaje por vehículo y por mes</li>
-                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Catálogo de peajes cargado con el listado histórico de Mattco</li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Registro de recargas al prepago</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><strong class="text-white">Saldo disponible al instante</strong>, sin esperar el corte de mes</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Aviso automático cuando el saldo baja del mínimo que ustedes definan</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Gasto de peaje por vehículo y por mes</span></li>
+                        <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Catálogo de peajes cargado con el listado histórico de Mattco</span></li>
                     </ul>
                 </div>
             </div>
@@ -326,20 +326,20 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <div>
                         <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Cada viaje registrado</p>
                         <ul class="space-y-2 text-neutral-300 text-sm">
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Vehículo y número de guía de remisión</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Fecha y hora de salida, fecha y hora de llegada</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Origen fijo: Centro de Distribución Sangolquí</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Destino elegido del listado de locales &mdash; el valor se calcula solo</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Kilometraje de salida y de llegada</li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Vehículo y número de guía de remisión</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Fecha y hora de salida, fecha y hora de llegada</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Origen fijo: Centro de Distribución Sangolquí</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Destino elegido del listado de locales &mdash; el valor se calcula solo</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Kilometraje de salida y de llegada</span></li>
                         </ul>
                     </div>
                     <div>
                         <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Tarifario que cambia cada mes</p>
                         <ul class="space-y-2 text-neutral-300 text-sm">
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Catálogo completo de locales Favorita, con código, ciudad y zona</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Las tres columnas del tarifario: valor ruta diesel, baja y valor seco</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> <strong class="text-white">Tarifas con fecha de vigencia</strong>: un viaje de junio conserva su tarifa de junio aunque en julio suba</li>
-                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> El Excel mensual de Favorita se carga al sistema y actualiza todo de una vez</li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Catálogo completo de locales Favorita, con código, ciudad y zona</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Las tres columnas del tarifario: valor ruta diesel, baja y valor seco</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><strong class="text-white">Tarifas con fecha de vigencia</strong>: un viaje de junio conserva su tarifa de junio aunque en julio suba</span></li>
+                            <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>El Excel mensual de Favorita se carga al sistema y actualiza todo de una vez</span></li>
                         </ul>
                     </div>
                 </div>
@@ -419,20 +419,20 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-4">Reportes</p>
             <h3 class="text-white font-bold text-2xl mb-5">Todo exportable a Excel y PDF</h3>
             <ul class="space-y-2.5 text-neutral-300 text-sm">
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> <strong class="text-white">Reporte diario</strong> de consumo, con las alertas del día arriba</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Consumo por vehículo y por máquina, con su rendimiento</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> <strong class="text-white">Consumo por proyecto</strong> &mdash; cuánto diesel se llevó cada obra</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Movimiento y descuadres de cada tanquero</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Estado de cuenta del crédito con la estación</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Peajes por vehículo y saldo del prepago</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Viajes realizados, valorizados y conciliados con Favorita</li>
-                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Reporte separado por cada razón social</li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><strong class="text-white">Reporte diario</strong> de consumo, con las alertas del día arriba</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Consumo por vehículo y por máquina, con su rendimiento</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><strong class="text-white">Consumo por proyecto</strong> &mdash; cuánto diesel se llevó cada obra</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Movimiento y descuadres de cada tanquero</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Estado de cuenta del crédito con la estación</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Peajes por vehículo y saldo del prepago</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Viajes realizados, valorizados y conciliados con Favorita</span></li>
+                <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Reporte separado por cada razón social</span></li>
             </ul>
         </div>
 
         <div class="glass rounded-2xl p-7">
             <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-4">Tecnología</p>
-            <h3 class="text-white font-bold text-2xl mb-5">Pensado para la carretera</h3>
+            <h3 class="text-white font-bold text-2xl mb-5">Cómo está construido</h3>
             <div class="space-y-4">
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Se instala en el celular como una app</p>
@@ -503,12 +503,12 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
         <div class="glass-strong rounded-2xl p-6 mt-6">
             <p class="text-white font-semibold mb-3">Incluido en el proyecto</p>
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-neutral-300">
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Dominio propio del sistema</div>
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Servidor, base de datos y respaldos diarios</div>
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Capacitación al personal administrativo</div>
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Capacitación a choferes y operadores</div>
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Carga inicial de vehículos, máquinas y proyectos</div>
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> 30 días de soporte después de la entrega</div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Dominio propio del sistema</span></div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Servidor, base de datos y respaldos diarios</span></div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Capacitación al personal administrativo</span></div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Capacitación a choferes y operadores</span></div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Carga inicial de vehículos, máquinas y proyectos</span></div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>30 días de soporte después de la entrega</span></div>
             </div>
         </div>
     </div>
@@ -549,11 +549,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 </div>
                 <p class="text-emerald-400 text-sm font-semibold mb-5">Poco más de un dólar al día por toda la flota</p>
                 <ul class="space-y-2 text-sm text-neutral-300 border-t border-white/10 pt-4">
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Servidor propio, base de datos y dominio</li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Costo de la inteligencia artificial que lee los tickets</li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Respaldos diarios de toda la información</li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Soporte y ajustes menores</li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Actualizaciones de seguridad</li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Servidor propio, base de datos y dominio</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Costo de la inteligencia artificial que lee los tickets</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Respaldos diarios de toda la información</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Soporte y ajustes menores</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Actualizaciones de seguridad</span></li>
                 </ul>
             </div>
         </div>
