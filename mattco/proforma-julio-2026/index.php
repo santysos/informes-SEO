@@ -730,7 +730,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 </div>
                 <div>
                     <p class="text-white font-semibold mb-1">Capacitación</p>
-                    <p class="text-neutral-400">Incluida, presencial en Otavalo, más manuales en video para consulta.</p>
+                    <p class="text-neutral-400">Incluida y presencial en Otavalo, tanto para el personal administrativo como para los choferes y operadores.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold mb-1">Alcance</p>
