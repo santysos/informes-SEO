@@ -529,13 +529,13 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <h3 class="text-white font-bold text-xl mb-1">Los 3 módulos completos</h3>
                 <p class="text-neutral-400 text-sm mb-5">Pago único. Combustible, peajes y viajes, entregados funcionando.</p>
                 <div class="flex items-baseline gap-2 mb-1">
-                    <span class="text-5xl font-black text-grad mono">$890</span>
+                    <span class="text-5xl font-black text-grad mono">$1.200</span>
                     <span class="text-neutral-400 font-semibold">+ IVA</span>
                 </div>
                 <p class="text-emerald-400 text-sm font-semibold mb-5">2 a 3 semanas &middot; el sistema queda de Mattco</p>
                 <div class="border-t border-white/10 pt-4 space-y-1.5 text-sm text-neutral-300">
-                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$445</span></div>
-                    <div class="flex justify-between"><span>A la entrega final (50%)</span><span class="mono font-bold text-white">$445</span></div>
+                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$600</span></div>
+                    <div class="flex justify-between"><span>A la entrega final (50%)</span><span class="mono font-bold text-white">$600</span></div>
                 </div>
             </div>
 
@@ -564,14 +564,14 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <p class="text-white text-lg font-semibold mb-5">Al precio de hoy del diesel premium, $2,83 el galón:</p>
             <div class="grid sm:grid-cols-2 gap-4">
                 <div class="rounded-xl p-5 bg-black/30 border border-white/8">
-                    <div class="text-3xl font-black text-grad mono mb-1">12 gal</div>
+                    <div class="text-3xl font-black text-grad mono mb-1">13 gal</div>
                     <p class="text-neutral-300 text-sm font-semibold mb-1">al mes</p>
                     <p class="text-neutral-400 text-sm leading-relaxed">Es todo lo que hay que dejar de perder para cubrir la mensualidad del sistema.</p>
                 </div>
                 <div class="rounded-xl p-5 bg-black/30 border border-white/8">
-                    <div class="text-3xl font-black text-grad mono mb-1">315 gal</div>
+                    <div class="text-3xl font-black text-grad mono mb-1">424 gal</div>
                     <p class="text-neutral-300 text-sm font-semibold mb-1">una sola vez</p>
-                    <p class="text-neutral-400 text-sm leading-relaxed">Recuperar eso paga el desarrollo completo. Un solo tanquero de 110 galones son menos de tres.</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Recuperar eso paga el desarrollo completo. Son menos de cuatro llenadas del tanquero.</p>
                 </div>
             </div>
             <p class="text-neutral-500 text-xs mt-5 leading-relaxed">Y eso sin contar lo que se gana en tiempo administrativo, en saber qué obra consume de más, y en cobrarle a Favorita todos los viajes que realmente se hicieron.</p>
