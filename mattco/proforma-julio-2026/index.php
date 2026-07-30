@@ -435,8 +435,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <h3 class="text-white font-bold text-2xl mb-5">Cómo está construido</h3>
             <div class="space-y-4">
                 <div>
-                    <p class="text-white font-semibold text-sm mb-1">Se instala en el celular como una app</p>
-                    <p class="text-neutral-400 text-sm leading-relaxed">No hay que descargar nada de Play Store ni actualizar nada nunca. Se abre el enlace una vez, se agrega a la pantalla de inicio y queda con su ícono, como cualquier otra app. Funciona igual en tablet y en computadora.</p>
+                    <p class="text-white font-semibold text-sm mb-1">Funciona en celular, tablet y computadora</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Una sola dirección web sirve para los tres, y la pantalla se acomoda sola a cada uno. El chofer registra desde su celular en plena estación, el jefe de flota revisa desde una tablet en obra, y contabilidad saca los reportes desde la computadora de la oficina &mdash; todos viendo la misma información al instante. No hay que descargar ni actualizar nada.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Nada se borra sin dejar rastro</p>
@@ -472,7 +472,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                         <h3 class="text-white font-bold text-lg">Base del sistema + Combustible</h3>
                         <span class="text-red-400 text-sm font-semibold">Semana 1</span>
                     </div>
-                    <p class="text-neutral-400 text-sm leading-relaxed">Usuarios y roles, las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos. Lectura de tickets con IA, foto del odómetro, repartición a máquinas, saldo del tanquero, las 8 alertas, control del crédito con la estación, reportes y exportación. App instalable en el celular.</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Usuarios y roles, las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos. Lectura de tickets con IA, foto del odómetro, repartición a máquinas, saldo del tanquero, las 8 alertas, control del crédito con la estación, reportes y exportación. Compatible con celular, tablet y computadora.</p>
                     <p class="text-neutral-500 text-xs mt-2">Al terminar esta semana el módulo principal ya está en línea y se puede empezar a cargar tickets reales.</p>
                 </div>
             </div>
@@ -536,7 +536,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                         <tr>
                             <td class="px-6 py-4">
                                 <p class="text-white font-semibold">Base del sistema y accesos</p>
-                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Usuarios con los tres roles, separación de las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos, historial auditable de cambios y app instalable en el celular.</p>
+                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Usuarios con los tres roles, separación de las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos, historial auditable de cambios y funcionamiento en celular, tablet y computadora.</p>
                             </td>
                             <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 220</td>
                         </tr>
