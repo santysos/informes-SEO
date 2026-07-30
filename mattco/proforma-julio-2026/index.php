@@ -460,8 +460,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
     <div class="max-w-5xl mx-auto px-6">
         <div class="text-center mb-10">
             <p class="text-red-400 font-bold text-sm uppercase tracking-widest mb-2">Cómo avanzamos</p>
-            <h2 class="text-3xl md:text-4xl font-extrabold text-white">11 semanas, entregando por partes</h2>
-            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">No esperan tres meses para ver algo. El módulo de combustible &mdash; el que más urge &mdash; entra en operación en la semana 5.</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Los 3 módulos en 2 a 3 semanas</h2>
+            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">El módulo de combustible &mdash; el que más urge &mdash; queda funcionando en la primera semana.</p>
         </div>
 
         <div class="space-y-4">
@@ -470,10 +470,10 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="flex-1">
                     <div class="flex flex-wrap items-baseline gap-3 mb-2">
                         <h3 class="text-white font-bold text-lg">Base del sistema + Combustible</h3>
-                        <span class="text-red-400 text-sm font-semibold">Semanas 1 a 5</span>
+                        <span class="text-red-400 text-sm font-semibold">Semana 1</span>
                     </div>
                     <p class="text-neutral-400 text-sm leading-relaxed">Usuarios y roles, las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos. Lectura de tickets con IA, foto del odómetro, repartición a máquinas, saldo del tanquero, las 8 alertas, control del crédito con la estación, reportes y exportación. App instalable en el celular.</p>
-                    <p class="text-neutral-500 text-xs mt-2">Al final de esta fase el sistema ya está en producción y los choferes ya lo usan.</p>
+                    <p class="text-neutral-500 text-xs mt-2">Al terminar esta semana el módulo principal ya está en línea y se puede empezar a cargar tickets reales.</p>
                 </div>
             </div>
 
@@ -481,10 +481,10 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-white font-black">2</div>
                 <div class="flex-1">
                     <div class="flex flex-wrap items-baseline gap-3 mb-2">
-                        <h3 class="text-white font-bold text-lg">Peajes</h3>
-                        <span class="text-red-400 text-sm font-semibold">Semanas 6 y 7</span>
+                        <h3 class="text-white font-bold text-lg">Peajes + Viajes y guías de remisión</h3>
+                        <span class="text-red-400 text-sm font-semibold">Semana 2</span>
                     </div>
-                    <p class="text-neutral-400 text-sm leading-relaxed">Catálogo de peajes cargado con el histórico de Mattco, registro rápido desde el celular, recargas del prepago, saldo en tiempo real, aviso de saldo bajo y reportes.</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Peajes con saldo prepago en tiempo real y aviso de saldo bajo. Catálogo de locales Favorita con tarifas versionadas por mes, cargador del Excel mensual, registro de viajes con guía y kilometraje, cálculo automático del valor y conciliación contra la liquidación de Favorita.</p>
                 </div>
             </div>
 
@@ -492,23 +492,23 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="flex-shrink-0 w-14 h-14 rounded-xl brand-grad flex items-center justify-center text-white font-black">3</div>
                 <div class="flex-1">
                     <div class="flex flex-wrap items-baseline gap-3 mb-2">
-                        <h3 class="text-white font-bold text-lg">Viajes y guías de remisión</h3>
-                        <span class="text-red-400 text-sm font-semibold">Semanas 8 a 11</span>
+                        <h3 class="text-white font-bold text-lg">Carga de datos, capacitación y puesta en marcha</h3>
+                        <span class="text-red-400 text-sm font-semibold">Semana 3</span>
                     </div>
-                    <p class="text-neutral-400 text-sm leading-relaxed">Catálogo de locales Favorita con tarifas versionadas por mes, cargador del Excel mensual, registro de viajes con guía y kilometraje, cálculo automático del valor y conciliación contra la liquidación de Favorita.</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Carga del listado de vehículos, máquinas, proyectos, peajes y del tarifario de Favorita. Pruebas con tickets reales, capacitación al personal administrativo y a los choferes, y ajuste de lo que aparezca en el uso diario.</p>
                 </div>
             </div>
         </div>
 
         <div class="glass-strong rounded-2xl p-6 mt-6">
-            <p class="text-white font-semibold mb-3">Incluido en todas las fases</p>
+            <p class="text-white font-semibold mb-3">Incluido en el proyecto</p>
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-neutral-300">
                 <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Dominio propio del sistema</div>
                 <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Servidor, base de datos y respaldos diarios</div>
                 <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Capacitación al personal administrativo</div>
                 <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Capacitación a choferes y operadores</div>
                 <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Carga inicial de vehículos, máquinas y proyectos</div>
-                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> 30 días de soporte después de cada entrega</div>
+                <div class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> 30 días de soporte después de la entrega</div>
             </div>
         </div>
     </div>
@@ -522,58 +522,20 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <h2 class="text-3xl md:text-4xl font-extrabold text-white">Cuánto cuesta</h2>
         </div>
 
-        <!-- Desglose -->
-        <div class="glass rounded-2xl overflow-hidden mb-6">
-            <div class="overflow-x-auto">
-                <table class="w-full text-sm">
-                    <thead>
-                        <tr class="border-b border-red-500/20 brand-grad-soft">
-                            <th class="text-left px-6 py-3 text-red-400 font-bold text-xs uppercase tracking-widest">Fase</th>
-                            <th class="text-left px-6 py-3 text-red-400 font-bold text-xs uppercase tracking-widest hidden sm:table-cell">Plazo</th>
-                            <th class="text-right px-6 py-3 text-red-400 font-bold text-xs uppercase tracking-widest">Valor</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-white/6">
-                        <tr>
-                            <td class="px-6 py-4 text-white font-semibold">Fase 1 &mdash; Base del sistema + Combustible</td>
-                            <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">5 semanas</td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 1.400</td>
-                        </tr>
-                        <tr>
-                            <td class="px-6 py-4 text-white font-semibold">Fase 2 &mdash; Peajes</td>
-                            <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">2 semanas</td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 350</td>
-                        </tr>
-                        <tr>
-                            <td class="px-6 py-4 text-white font-semibold">Fase 3 &mdash; Viajes y guías de remisión</td>
-                            <td class="px-6 py-4 text-neutral-400 hidden sm:table-cell">4 semanas</td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap">$ 800</td>
-                        </tr>
-                        <tr class="bg-white/3">
-                            <td class="px-6 py-4 text-neutral-300 font-semibold">Suma contratando por separado</td>
-                            <td class="px-6 py-4 hidden sm:table-cell"></td>
-                            <td class="px-6 py-4 text-right text-neutral-400 font-bold mono line-through whitespace-nowrap">$ 2.550</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
         <!-- Precio destacado -->
         <div class="grid md:grid-cols-2 gap-6 mb-6">
             <div class="glass-strong rounded-2xl p-7 border-red-500/40">
-                <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-2">Recomendado</p>
+                <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-2">Desarrollo</p>
                 <h3 class="text-white font-bold text-xl mb-1">Los 3 módulos completos</h3>
-                <p class="text-neutral-400 text-sm mb-5">Contratando el paquete entero, con entrega por fases.</p>
+                <p class="text-neutral-400 text-sm mb-5">Pago único. Combustible, peajes y viajes, entregados funcionando.</p>
                 <div class="flex items-baseline gap-2 mb-1">
-                    <span class="text-5xl font-black text-grad mono">$2.300</span>
+                    <span class="text-5xl font-black text-grad mono">$890</span>
                     <span class="text-neutral-400 font-semibold">+ IVA</span>
                 </div>
-                <p class="text-emerald-400 text-sm font-semibold mb-5">Ahorro de $250 frente a contratar fase por fase</p>
+                <p class="text-emerald-400 text-sm font-semibold mb-5">2 a 3 semanas &middot; el sistema queda de Mattco</p>
                 <div class="border-t border-white/10 pt-4 space-y-1.5 text-sm text-neutral-300">
-                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$1.150</span></div>
-                    <div class="flex justify-between"><span>A la entrega de Fase 1 (25%)</span><span class="mono font-bold text-white">$575</span></div>
-                    <div class="flex justify-between"><span>A la entrega final (25%)</span><span class="mono font-bold text-white">$575</span></div>
+                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$445</span></div>
+                    <div class="flex justify-between"><span>A la entrega final (50%)</span><span class="mono font-bold text-white">$445</span></div>
                 </div>
             </div>
 
@@ -582,10 +544,10 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <h3 class="text-white font-bold text-xl mb-1">Operación y soporte</h3>
                 <p class="text-neutral-400 text-sm mb-5">Empieza a correr desde el tercer mes. Los dos primeros van incluidos en el desarrollo.</p>
                 <div class="flex items-baseline gap-2 mb-1">
-                    <span class="text-5xl font-black text-grad mono">$60</span>
+                    <span class="text-5xl font-black text-grad mono">$35</span>
                     <span class="text-neutral-400 font-semibold">+ IVA / mes</span>
                 </div>
-                <p class="text-emerald-400 text-sm font-semibold mb-5">Menos de $2 al día por mantener el control de toda la flota</p>
+                <p class="text-emerald-400 text-sm font-semibold mb-5">Poco más de un dólar al día por toda la flota</p>
                 <ul class="space-y-2 text-sm text-neutral-300 border-t border-white/10 pt-4">
                     <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Servidor propio, base de datos y dominio</li>
                     <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span> Costo de la inteligencia artificial que lee los tickets</li>
@@ -596,18 +558,23 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             </div>
         </div>
 
-        <!-- Opción de entrada -->
-        <div class="glass rounded-2xl p-6">
-            <div class="flex flex-wrap items-center justify-between gap-4">
-                <div class="flex-1 min-w-[260px]">
-                    <p class="text-white font-bold text-lg mb-1">¿Prefieren empezar por lo urgente?</p>
-                    <p class="text-neutral-400 text-sm">Se puede arrancar solo con la Fase 1 &mdash; base del sistema y control de combustible &mdash; y decidir después si se suman los peajes y los viajes. En ese caso la mensualidad es de <strong class="text-white">$45 + IVA</strong>.</p>
+        <!-- Retorno -->
+        <div class="glass-strong rounded-2xl p-7">
+            <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-4">Para ponerlo en perspectiva</p>
+            <p class="text-white text-lg font-semibold mb-5">Al precio de hoy del diesel premium, $2,83 el galón:</p>
+            <div class="grid sm:grid-cols-2 gap-4">
+                <div class="rounded-xl p-5 bg-black/30 border border-white/8">
+                    <div class="text-3xl font-black text-grad mono mb-1">12 gal</div>
+                    <p class="text-neutral-300 text-sm font-semibold mb-1">al mes</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Es todo lo que hay que dejar de perder para cubrir la mensualidad del sistema.</p>
                 </div>
-                <div class="text-right">
-                    <div class="text-3xl font-black text-grad mono">$1.400</div>
-                    <p class="text-neutral-400 text-sm font-semibold">+ IVA &middot; 5 semanas</p>
+                <div class="rounded-xl p-5 bg-black/30 border border-white/8">
+                    <div class="text-3xl font-black text-grad mono mb-1">315 gal</div>
+                    <p class="text-neutral-300 text-sm font-semibold mb-1">una sola vez</p>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Recuperar eso paga el desarrollo completo. Un solo tanquero de 110 galones son menos de tres.</p>
                 </div>
             </div>
+            <p class="text-neutral-500 text-xs mt-5 leading-relaxed">Y eso sin contar lo que se gana en tiempo administrativo, en saber qué obra consume de más, y en cobrarle a Favorita todos los viajes que realmente se hicieron.</p>
         </div>
     </div>
 </section>
@@ -666,7 +633,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 </div>
                 <div>
                     <p class="text-white font-semibold mb-1">Plazo de entrega</p>
-                    <p class="text-neutral-400">11 semanas desde el anticipo, con entregas parciales al cierre de cada fase.</p>
+                    <p class="text-neutral-400">De 2 a 3 semanas, contadas desde que Mattco entregue la información de arranque (listados de vehículos, máquinas, proyectos, peajes y el tarifario de Favorita).</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold mb-1">Propiedad del sistema</p>
@@ -677,8 +644,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <p class="text-neutral-400">Incluida, presencial en Otavalo, más manuales en video para consulta.</p>
                 </div>
                 <div>
-                    <p class="text-white font-semibold mb-1">Cambios de alcance</p>
-                    <p class="text-neutral-400">Funcionalidades nuevas fuera de lo descrito se cotizan aparte, previa aprobación.</p>
+                    <p class="text-white font-semibold mb-1">Alcance</p>
+                    <p class="text-neutral-400">Este valor cubre exactamente lo descrito en esta propuesta. Cualquier funcionalidad adicional se cotiza aparte y por escrito antes de construirla.</p>
                 </div>
             </div>
         </div>
