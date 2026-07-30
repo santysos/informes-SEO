@@ -522,6 +522,58 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             <h2 class="text-3xl md:text-4xl font-extrabold text-white">Cuánto cuesta</h2>
         </div>
 
+        <!-- Desglose por módulo -->
+        <div class="glass rounded-2xl overflow-hidden mb-6">
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="border-b border-red-500/20 brand-grad-soft">
+                            <th class="text-left px-6 py-3 text-red-400 font-bold text-xs uppercase tracking-widest">Desarrollo &mdash; qué se construye</th>
+                            <th class="text-right px-6 py-3 text-red-400 font-bold text-xs uppercase tracking-widest whitespace-nowrap">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-white/6">
+                        <tr>
+                            <td class="px-6 py-4">
+                                <p class="text-white font-semibold">Base del sistema y accesos</p>
+                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Usuarios con los tres roles, separación de las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos, historial auditable de cambios y app instalable en el celular.</p>
+                            </td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 220</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">
+                                <p class="text-white font-semibold">Módulo 1 &mdash; Combustible, con lectura por inteligencia artificial</p>
+                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Lectura automática del ticket con IA y validación aritmética, foto del odómetro, repartición del tanquero a cada máquina por proyecto, saldo del tanquero con calibración, las 8 alertas antifraude, control del crédito con la estación y cálculo de rendimientos.</p>
+                                <p class="text-red-400 text-xs mt-2 font-semibold">Es el módulo más extenso y el corazón del sistema.</p>
+                            </td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 560</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">
+                                <p class="text-white font-semibold">Módulo 2 &mdash; Peajes</p>
+                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Catálogo de peajes, registro desde el celular con lista cerrada, recargas del prepago, saldo en tiempo real y aviso de saldo bajo.</p>
+                            </td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 120</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">
+                                <p class="text-white font-semibold">Módulo 3 &mdash; Viajes y guías de remisión</p>
+                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Catálogo de locales Favorita con tarifas versionadas por mes, cargador del Excel mensual, registro de viajes con guía y kilometraje, cálculo automático del valor y conciliación contra la liquidación de Favorita.</p>
+                            </td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 300</td>
+                        </tr>
+                        <tr class="brand-grad-soft border-t border-red-500/25">
+                            <td class="px-6 py-4">
+                                <p class="text-white font-bold">Total del desarrollo</p>
+                                <p class="text-neutral-400 text-xs mt-1">Incluye reportes, exportación a Excel y PDF, carga inicial de datos y capacitación.</p>
+                            </td>
+                            <td class="px-6 py-4 text-right font-black mono whitespace-nowrap align-top text-lg text-grad">$ 1.200</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <!-- Precio destacado -->
         <div class="grid md:grid-cols-2 gap-6 mb-6">
             <div class="glass-strong rounded-2xl p-7 border-red-500/40">
@@ -537,6 +589,16 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <div class="flex justify-between"><span>Anticipo para arrancar (60%)</span><span class="mono font-bold text-white">$720</span></div>
                     <div class="flex justify-between"><span>A la entrega final (40%)</span><span class="mono font-bold text-white">$480</span></div>
                 </div>
+                <div class="mt-5 pt-4 border-t border-white/10 space-y-3">
+                    <div>
+                        <p class="text-white font-semibold text-sm mb-1">Sin costos ocultos</p>
+                        <p class="text-neutral-400 text-sm leading-relaxed">Los cuatro puntos de arriba son todo el desarrollo. Reportes, exportación a Excel y PDF, carga inicial de datos y capacitación ya están incluidos.</p>
+                    </div>
+                    <div>
+                        <p class="text-white font-semibold text-sm mb-1">El sistema es de Mattco</p>
+                        <p class="text-neutral-400 text-sm leading-relaxed">El código y toda la información les pertenecen. Si algún día deciden llevarlo a otro proveedor, se entrega completo.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="glass rounded-2xl p-7">
@@ -548,13 +610,40 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <span class="text-neutral-400 font-semibold">+ IVA / mes</span>
                 </div>
                 <p class="text-emerald-400 text-sm font-semibold mb-5">Poco más de un dólar al día por toda la flota</p>
-                <ul class="space-y-2 text-sm text-neutral-300 border-t border-white/10 pt-4">
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Servidor propio, base de datos y dominio</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Costo de la inteligencia artificial que lee los tickets</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Respaldos diarios de toda la información</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Soporte y ajustes menores</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span>Actualizaciones de seguridad</span></li>
-                </ul>
+                <div class="border-t border-white/10 pt-4 space-y-3 text-sm">
+                    <div class="flex justify-between gap-4">
+                        <div>
+                            <p class="text-neutral-200 font-semibold">Servidor en la nube y base de datos</p>
+                            <p class="text-neutral-500 text-xs">Donde vive el sistema, con respaldos diarios</p>
+                        </div>
+                        <span class="mono font-bold text-white whitespace-nowrap">$12</span>
+                    </div>
+                    <div class="flex justify-between gap-4">
+                        <div>
+                            <p class="text-neutral-200 font-semibold">Inteligencia artificial</p>
+                            <p class="text-neutral-500 text-xs">Se paga por cada ticket leído</p>
+                        </div>
+                        <span class="mono font-bold text-white whitespace-nowrap">$8</span>
+                    </div>
+                    <div class="flex justify-between gap-4">
+                        <div>
+                            <p class="text-neutral-200 font-semibold">Dominio propio</p>
+                            <p class="text-neutral-500 text-xs">La dirección web del sistema</p>
+                        </div>
+                        <span class="mono font-bold text-white whitespace-nowrap">$2</span>
+                    </div>
+                    <div class="flex justify-between gap-4">
+                        <div>
+                            <p class="text-neutral-200 font-semibold">Soporte y actualizaciones</p>
+                            <p class="text-neutral-500 text-xs">Ajustes menores y parches de seguridad</p>
+                        </div>
+                        <span class="mono font-bold text-white whitespace-nowrap">$13</span>
+                    </div>
+                    <div class="flex justify-between gap-4 border-t border-white/10 pt-3">
+                        <p class="text-white font-bold">Total mensual</p>
+                        <span class="mono font-black text-grad whitespace-nowrap">$35</span>
+                    </div>
+                </div>
             </div>
         </div>
 
