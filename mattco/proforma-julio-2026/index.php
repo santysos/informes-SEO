@@ -535,32 +535,25 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     <tbody class="divide-y divide-white/6">
                         <tr>
                             <td class="px-6 py-4">
-                                <p class="text-white font-semibold">Base del sistema y accesos</p>
-                                <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Usuarios con los tres roles, separación de las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos, historial auditable de cambios y funcionamiento en celular, tablet y computadora.</p>
-                            </td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 220</td>
-                        </tr>
-                        <tr>
-                            <td class="px-6 py-4">
                                 <p class="text-white font-semibold">Módulo 1 &mdash; Combustible, con lectura por inteligencia artificial</p>
                                 <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Lectura automática del ticket con IA y validación aritmética, foto del odómetro, repartición del tanquero a cada máquina por proyecto, saldo del tanquero con calibración, las 8 alertas antifraude, control del crédito con la estación y cálculo de rendimientos.</p>
                                 <p class="text-red-400 text-xs mt-2 font-semibold">Es el módulo más extenso y el corazón del sistema.</p>
                             </td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 560</td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 700</td>
                         </tr>
                         <tr>
                             <td class="px-6 py-4">
                                 <p class="text-white font-semibold">Módulo 2 &mdash; Peajes</p>
                                 <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Catálogo de peajes, registro desde el celular con lista cerrada, recargas del prepago, saldo en tiempo real y aviso de saldo bajo.</p>
                             </td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 120</td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 150</td>
                         </tr>
                         <tr>
                             <td class="px-6 py-4">
                                 <p class="text-white font-semibold">Módulo 3 &mdash; Viajes y guías de remisión</p>
                                 <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Catálogo de locales Favorita con tarifas versionadas por mes, cargador del Excel mensual, registro de viajes con guía y kilometraje, cálculo automático del valor y conciliación contra la liquidación de Favorita.</p>
                             </td>
-                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 300</td>
+                            <td class="px-6 py-4 text-right text-white font-bold mono whitespace-nowrap align-top">$ 350</td>
                         </tr>
                         <tr class="brand-grad-soft border-t border-red-500/25">
                             <td class="px-6 py-4">
@@ -571,6 +564,9 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="border-t border-white/8 px-6 py-4">
+                <p class="text-neutral-400 text-xs leading-relaxed"><strong class="text-neutral-200">Los tres módulos comparten una misma base</strong> &mdash; usuarios con los tres roles, separación de las dos razones sociales, catálogos de vehículos, máquinas, tanqueros, choferes y proyectos, historial auditable de cambios y funcionamiento en celular, tablet y computadora. Ese trabajo se construye una sola vez y su valor está repartido dentro de los tres módulos.</p>
             </div>
         </div>
 
@@ -592,7 +588,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 <div class="mt-5 pt-4 border-t border-white/10 space-y-3">
                     <div>
                         <p class="text-white font-semibold text-sm mb-1">Sin costos ocultos</p>
-                        <p class="text-neutral-400 text-sm leading-relaxed">Los cuatro puntos de arriba son todo el desarrollo. Reportes, exportación a Excel y PDF, carga inicial de datos y capacitación ya están incluidos.</p>
+                        <p class="text-neutral-400 text-sm leading-relaxed">Los tres módulos de arriba son todo el desarrollo. Reportes, exportación a Excel y PDF, carga inicial de datos y capacitación ya están incluidos.</p>
+                    </div>
+                    <div>
+                        <p class="text-white font-semibold text-sm mb-1">Se pueden contratar por separado</p>
+                        <p class="text-neutral-400 text-sm leading-relaxed">Si prefieren arrancar solo con el de combustible, se puede. Los otros dos se suman después al mismo valor de esta propuesta.</p>
                     </div>
                     <div>
                         <p class="text-white font-semibold text-sm mb-1">El sistema es de Mattco</p>
@@ -643,6 +643,27 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                         <p class="text-white font-bold">Total mensual</p>
                         <span class="mono font-black text-grad whitespace-nowrap">$35</span>
                     </div>
+                </div>
+
+                <div class="mt-5 pt-5 border-t border-white/10">
+                    <p class="text-neutral-400 text-xs font-bold uppercase tracking-widest mb-3">Dos formas de pagarlo</p>
+                    <div class="space-y-3">
+                        <div class="rounded-xl p-4 bg-black/30 border border-white/8">
+                            <div class="flex items-baseline justify-between gap-3 mb-1">
+                                <p class="text-white font-semibold text-sm">Mes a mes</p>
+                                <span class="mono font-bold text-white whitespace-nowrap">$35 <span class="text-neutral-400 font-normal text-xs">/ mes</span></span>
+                            </div>
+                            <p class="text-neutral-400 text-xs">Suman $420 en el año.</p>
+                        </div>
+                        <div class="rounded-xl p-4 bg-emerald-500/10 border border-emerald-500/30">
+                            <div class="flex items-baseline justify-between gap-3 mb-1">
+                                <p class="text-white font-semibold text-sm">Año completo por adelantado</p>
+                                <span class="mono font-bold text-emerald-400 whitespace-nowrap">$350 <span class="text-emerald-400/70 font-normal text-xs">/ año</span></span>
+                            </div>
+                            <p class="text-emerald-400 text-xs font-semibold">Dos meses gratis &mdash; ahorro de $70 (17%)</p>
+                        </div>
+                    </div>
+                    <p class="text-neutral-500 text-xs mt-3 leading-relaxed">Ambas opciones cubren exactamente lo mismo. Los valores no cambian durante el primer año.</p>
                 </div>
             </div>
         </div>
