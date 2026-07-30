@@ -520,7 +520,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
         <div class="text-center mb-10">
             <p class="text-red-400 font-bold text-sm uppercase tracking-widest mb-2">Quiénes lo van a construir</p>
             <h2 class="text-3xl md:text-4xl font-extrabold text-white">No es el primer sistema que hacemos</h2>
-            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">Llevamos años construyendo software a medida y presencia digital para empresas del norte del país. Este proyecto lo desarrolla el mismo equipo.</p>
+            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">Desarrollamos software propio que hoy usan empresas en todo el Ecuador, y más de 60 sitios web para clientes de distintos sectores. Este proyecto lo construye el mismo equipo.</p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-6 mb-6">
@@ -531,36 +531,48 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     </div>
                     <h3 class="text-white font-bold text-lg">Sistemas a medida</h3>
                 </div>
-                <p class="text-neutral-400 text-sm leading-relaxed mb-5">Sistemas de gestión construidos desde cero, cada uno resolviendo un problema propio de su negocio &mdash; exactamente como este.</p>
-                <ul class="space-y-2.5 text-sm">
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Quipuy</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">SRIFlow</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Motrix</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Fisiovida Otavalo</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><span class="text-white font-semibold">Dentilab</span> <span class="text-neutral-400">&mdash; Odontología Life</span></span></li>
-                </ul>
+                <p class="text-neutral-400 text-sm leading-relaxed mb-5">Software de gestión construido desde cero, cada uno resolviendo el problema propio de un sector &mdash; exactamente como este.</p>
+                <div class="space-y-4">
+                    <div class="border-l-2 border-red-500/50 pl-4">
+                        <p class="text-white font-bold text-sm">Quipuy</p>
+                        <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Sistema de facturación electrónica del SRI. Con usuarios en todo el país.</p>
+                    </div>
+                    <div class="border-l-2 border-red-500/50 pl-4">
+                        <p class="text-white font-bold text-sm">SRIFlow</p>
+                        <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Descarga automática de comprobantes del SRI. Con usuarios en todo el país.</p>
+                    </div>
+                    <div class="border-l-2 border-red-500/50 pl-4">
+                        <p class="text-white font-bold text-sm">Motrix</p>
+                        <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Gestión para clínicas de fisioterapia. Cliente: FisioVida, Otavalo.</p>
+                    </div>
+                    <div class="border-l-2 border-red-500/50 pl-4">
+                        <p class="text-white font-bold text-sm">Dentilab</p>
+                        <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Gestión para clínicas dentales. Cliente: Odontología Life.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="glass rounded-2xl p-7">
+            <div class="glass rounded-2xl p-7 flex flex-col">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 rounded-xl brand-grad-soft border border-red-500/25 flex items-center justify-center flex-shrink-0">
                         <svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
                     </div>
                     <h3 class="text-white font-bold text-lg">Sitios y tiendas web</h3>
                 </div>
-                <p class="text-neutral-400 text-sm leading-relaxed mb-5">Desde tiendas en línea hasta sitios corporativos con posicionamiento en Google, para clientes de distintos sectores.</p>
-                <ul class="space-y-2.5 text-sm">
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Bosna</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Quimera Clothing</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Comercial Hidrobo</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Hotel Ajavi</span></li>
-                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-neutral-400 italic">y muchos otros más</span></li>
-                </ul>
+                <p class="text-neutral-400 text-sm leading-relaxed mb-6">Desde tiendas en línea hasta sitios corporativos con posicionamiento en Google.</p>
+
+                <div class="rounded-xl bg-black/30 border border-white/8 p-6 text-center mb-5">
+                    <div class="text-5xl font-black text-grad mono">+60</div>
+                    <p class="text-neutral-400 text-xs uppercase tracking-widest mt-2">desarrollos entregados</p>
+                </div>
+
+                <p class="text-neutral-400 text-sm leading-relaxed">Entre ellos <strong class="text-white">Bosna</strong>, <strong class="text-white">Quimera Clothing</strong>, <strong class="text-white">Comercial Hidrobo</strong> y <strong class="text-white">Hotel Ajavi</strong>.</p>
             </div>
         </div>
 
-        <div class="glass rounded-2xl p-6">
-            <p class="text-neutral-300 text-sm leading-relaxed text-center">Un sistema de control de combustible tiene sus particularidades, pero el trabajo de fondo &mdash; entender cómo opera un negocio y convertirlo en algo que la gente use todos los días &mdash; es el mismo que venimos haciendo hace años.</p>
+        <div class="glass-strong rounded-2xl p-7">
+            <p class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Por qué esto le sirve a Mattco</p>
+            <p class="text-neutral-300 text-sm leading-relaxed">Quipuy y SRIFlow trabajan todos los días con documentos del SRI &mdash; comprobantes, RUCs, impuestos y validaciones que tienen que cuadrar al centavo o el sistema no sirve. Es exactamente el mismo rigor que necesita un control donde cada galón, cada ticket y cada guía de remisión tienen que estar bien contados. Y Motrix y Dentilab son, como este, sistemas que un equipo completo usa todos los días para operar su negocio.</p>
         </div>
     </div>
 </section>
