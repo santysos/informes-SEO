@@ -534,15 +534,15 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                 </div>
                 <p class="text-emerald-400 text-sm font-semibold mb-5">2 a 3 semanas &middot; el sistema queda de Mattco</p>
                 <div class="border-t border-white/10 pt-4 space-y-1.5 text-sm text-neutral-300">
-                    <div class="flex justify-between"><span>Anticipo para arrancar (50%)</span><span class="mono font-bold text-white">$600</span></div>
-                    <div class="flex justify-between"><span>A la entrega final (50%)</span><span class="mono font-bold text-white">$600</span></div>
+                    <div class="flex justify-between"><span>Anticipo para arrancar (60%)</span><span class="mono font-bold text-white">$720</span></div>
+                    <div class="flex justify-between"><span>A la entrega final (40%)</span><span class="mono font-bold text-white">$480</span></div>
                 </div>
             </div>
 
             <div class="glass rounded-2xl p-7">
                 <p class="text-neutral-400 text-xs font-bold uppercase tracking-widest mb-2">Mensualidad</p>
                 <h3 class="text-white font-bold text-xl mb-1">Operación y soporte</h3>
-                <p class="text-neutral-400 text-sm mb-5">Empieza a correr desde el tercer mes. Los dos primeros van incluidos en el desarrollo.</p>
+                <p class="text-neutral-400 text-sm mb-5">Empieza a correr desde el segundo mes. El primero va incluido con el soporte de arranque.</p>
                 <div class="flex items-baseline gap-2 mb-1">
                     <span class="text-5xl font-black text-grad mono">$35</span>
                     <span class="text-neutral-400 font-semibold">+ IVA / mes</span>
