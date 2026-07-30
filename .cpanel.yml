@@ -333,3 +333,18 @@ deployment:
     - chmod 644 $BASEPATH/inka/presentacion/presentacion-inka.pdf
     - chmod 644 $BASEPATH/inka/presentacion/.htaccess
     - chmod 644 $BASEPATH/inka/presentacion/img/*.webp
+    # Crear estructura Mattco Proforma (con login)
+    - /bin/mkdir -p $BASEPATH/mattco/proforma-julio-2026/assets
+    - chmod 755 $BASEPATH/mattco
+    - chmod 755 $BASEPATH/mattco/proforma-julio-2026
+    - chmod 755 $BASEPATH/mattco/proforma-julio-2026/assets
+    # Deploy Mattco Proforma
+    - /bin/cp -f mattco/proforma-julio-2026/.htaccess $BASEPATH/mattco/proforma-julio-2026/
+    - /bin/cp -f mattco/proforma-julio-2026/login.php $BASEPATH/mattco/proforma-julio-2026/
+    - /bin/cp -f mattco/proforma-julio-2026/index.php $BASEPATH/mattco/proforma-julio-2026/
+    - /bin/cp -f mattco/proforma-julio-2026/logout.php $BASEPATH/mattco/proforma-julio-2026/
+    - /bin/cp -rf mattco/proforma-julio-2026/assets/. $BASEPATH/mattco/proforma-julio-2026/assets/
+    # Permisos Mattco Proforma
+    - chmod 644 $BASEPATH/mattco/proforma-julio-2026/*.php
+    - chmod 644 $BASEPATH/mattco/proforma-julio-2026/.htaccess
+    - find $BASEPATH/mattco/proforma-julio-2026/assets -type f -exec chmod 644 {} \; 2>/dev/null || true
