@@ -539,7 +539,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
                     </div>
                     <div class="border-l-2 border-red-500/50 pl-4">
                         <p class="text-white font-bold text-sm">SRIFlow</p>
-                        <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Descarga automática de comprobantes del SRI. Con usuarios en todo el país.</p>
+                        <p class="text-neutral-400 text-xs mt-1 leading-relaxed">Descarga automática de comprobantes del SRI. Con usuarios en todo el país, entre ellos Leticia Merlo.</p>
                     </div>
                     <div class="border-l-2 border-red-500/50 pl-4">
                         <p class="text-white font-bold text-sm">Motrix</p>
