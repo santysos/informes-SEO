@@ -514,6 +514,57 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
     </div>
 </section>
 
+<!-- EXPERIENCIA -->
+<section class="py-14">
+    <div class="max-w-5xl mx-auto px-6">
+        <div class="text-center mb-10">
+            <p class="text-red-400 font-bold text-sm uppercase tracking-widest mb-2">Quiénes lo van a construir</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">No es el primer sistema que hacemos</h2>
+            <p class="text-neutral-400 mt-3 max-w-2xl mx-auto">Llevamos años construyendo software a medida y presencia digital para empresas del norte del país. Este proyecto lo desarrolla el mismo equipo.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 mb-6">
+            <div class="glass-strong rounded-2xl p-7">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 rounded-xl brand-grad flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                    </div>
+                    <h3 class="text-white font-bold text-lg">Sistemas a medida</h3>
+                </div>
+                <p class="text-neutral-400 text-sm leading-relaxed mb-5">Sistemas de gestión construidos desde cero, cada uno resolviendo un problema propio de su negocio &mdash; exactamente como este.</p>
+                <ul class="space-y-2.5 text-sm">
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Quipuy</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">SRIFlow</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Motrix</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Fisiovida Otavalo</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span><span class="text-white font-semibold">Dentilab</span> <span class="text-neutral-400">&mdash; Odontología Life</span></span></li>
+                </ul>
+            </div>
+
+            <div class="glass rounded-2xl p-7">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 rounded-xl brand-grad-soft border border-red-500/25 flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+                    </div>
+                    <h3 class="text-white font-bold text-lg">Sitios y tiendas web</h3>
+                </div>
+                <p class="text-neutral-400 text-sm leading-relaxed mb-5">Desde tiendas en línea hasta sitios corporativos con posicionamiento en Google, para clientes de distintos sectores.</p>
+                <ul class="space-y-2.5 text-sm">
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Bosna</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Quimera Clothing</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Comercial Hidrobo</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-white font-semibold">Hotel Ajavi</span></li>
+                    <li class="flex gap-2"><span class="text-red-500 font-bold">&rsaquo;</span><span class="text-neutral-400 italic">y muchos otros más</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6">
+            <p class="text-neutral-300 text-sm leading-relaxed text-center">Un sistema de control de combustible tiene sus particularidades, pero el trabajo de fondo &mdash; entender cómo opera un negocio y convertirlo en algo que la gente use todos los días &mdash; es el mismo que venimos haciendo hace años.</p>
+        </div>
+    </div>
+</section>
+
 <!-- INVERSIÓN -->
 <section id="inversion" class="py-14">
     <div class="max-w-5xl mx-auto px-6">
