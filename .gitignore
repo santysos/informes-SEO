@@ -3,3 +3,7 @@
 .env
 comercial-hidrobo/marzo-2026/data/
 __pycache__/
+
+# Datos crudos GA4/GSC (confidenciales del cliente)
+*/agosto-2026/data/
+luuma/junio-2026/data/
