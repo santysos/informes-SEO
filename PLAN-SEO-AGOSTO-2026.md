@@ -132,12 +132,30 @@ La única consulta con volumen es **`autos ok`** (1.713 impresiones, 30 clics) �
 
 ## 4. Orden de trabajo
 
-**Esta semana — sin depender de nadie**
-1. Borrar `hello-world` de OKCars
-2. Resolver el duplicado `restaurantes-reservaciones-manta-2` en Luuma
-3. Revisar la URL `blog` en Odontología Life
+**Esta semana — ✅ EJECUTADO el 2026-08-04**
+
+| # | Acción | Estado |
+|---|---|---|
+| 1 | `hello-world` de OKCars (ID 1) | ✅ A papelera · verificado 404 en vivo |
+| 2 | Duplicado `restaurantes-reservaciones-manta-2` de Luuma (ID 1701) | ✅ A papelera · verificado 404 · se conservó el slug limpio (ID 1665), que responde 200 |
+| 3 | URL `blog` de Odontología Life | ✅ Revisada — **falsa alarma**, no se tocó |
+
+Detalle del duplicado de Luuma: los dos posts (ID 1665 y 1701) se publicaron el mismo día, con **el mismo título y prácticamente el mismo texto** (423 y 424 palabras). Duplicado literal, sin ambigüedad.
+
+Sobre el `blog` de Odontología Life: no es un post sino la **página índice del blog** (ID 184). Yoast incluye la página de entradas dentro de `post-sitemap.xml` por diseño, así que su presencia ahí es correcta. No había nada que corregir.
+
+Ambos borrados fueron **a papelera, no permanentes** — se pueden restaurar desde `wp-admin` si hiciera falta.
 
 **Siguientes dos semanas — consolidación**
+
+> 🔴 **Bloqueo detectado.** Luuma y Odontología Life tienen instalado **Yoast SEO en su versión gratuita**, que **no incluye gestor de redirecciones** — esa función es de Yoast Premium. Hoy no hay forma de crear un 301 en ninguno de los dos sitios.
+>
+> Para las dos borradas esta semana no importó: `hello-world` no tenía tráfico y el duplicado de Luuma tenía 141 impresiones con cero clics, así que el 404 no cuesta nada.
+>
+> **Para la consolidación sí es obligatorio.** Varias URLs a redirigir tienen tráfico real — `platos-tipicos-manabi-guia-definitiva` acumula **153 clics**. Borrarla sin 301 tira ese tráfico a la basura en vez de traspasarlo.
+>
+> **Antes de tocar nada de esta fase:** instalar el plugin **Redirection** (gratuito, es el estándar) en Luuma y en Odontología Life. Alternativa: reglas en `.htaccess`, que necesita acceso a cPanel de cada sitio.
+
 4. Ejecutar las 301 de la tabla de Luuma (11 pares + almuerzos)
 5. Ejecutar las 301 de Odontología Life, **empezando por las que no tocan `implantes-dentales-ecuador`**
 6. Reescribir títulos y meta descriptions de las tres páginas con muchas impresiones y CTR bajo: `rooftop-bar-ecuador`, el cluster de playas y `traspaso-vehiculo-ecuador-requisitos-pasos`
