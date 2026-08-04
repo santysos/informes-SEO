@@ -156,6 +156,24 @@ Ambos borrados fueron **a papelera, no permanentes** — se pueden restaurar des
 >
 > **Antes de tocar nada de esta fase:** instalar el plugin **Redirection** (gratuito, es el estándar) en Luuma y en Odontología Life. Alternativa: reglas en `.htaccess`, que necesita acceso a cPanel de cada sitio.
 
+#### Registro de ejecución — Luuma (iniciado 2026-08-04)
+
+Método acordado: **fusionar contenido y después redirigir**. Respaldo de los 29 posts en `luuma/agosto-2026/backup-consolidacion/`.
+
+| Par | Estado |
+|---|---|
+| Vida nocturna | ✅ Fusionado — ID 1633 pasó de 759 a 1.002 palabras con el atardecer, dónde comer de noche y la FAQ de pareja del ID 1720. ID 1720 a papelera. **301 pendiente** |
+| Los otros 14 | ⏸ En espera del bloqueo de abajo |
+| Platos típicos | ⛔ **Excluido a propósito** — ver nota |
+
+**Platos típicos queda fuera de la consolidación.** Es el único par donde las dos URLs rinden: `platos-tipicos-manta-ecuador` con 160 clics y `platos-tipicos-manabi-guia-definitiva` con 153. Además una habla de Manta (ciudad) y la otra de Manabí (provincia), que pueden ser búsquedas legítimamente distintas. Fusionarlas arriesga 313 clics para ganar quizás nada. Se trabajarán como piezas separadas, cada una con su keyword y enlazándose entre sí.
+
+> 🔴 **Bloqueo activo: faltan las tablas de Redirection.**
+>
+> El plugin quedó instalado y activo (v5.9.0), pero **no crea sus tablas por API** — hay que abrir una vez **Herramientas → Redirection** en `wp-admin` de Luuma para que corra el asistente y las genere. Son unos 30 segundos.
+>
+> Hasta que eso pase no se pueden crear los 301, y sin 301 no conviene seguir consolidando pares con tráfico.
+
 4. Ejecutar las 301 de la tabla de Luuma (11 pares + almuerzos)
 5. Ejecutar las 301 de Odontología Life, **empezando por las que no tocan `implantes-dentales-ecuador`**
 6. Reescribir títulos y meta descriptions de las tres páginas con muchas impresiones y CTR bajo: `rooftop-bar-ecuador`, el cluster de playas y `traspaso-vehiculo-ecuador-requisitos-pasos`
