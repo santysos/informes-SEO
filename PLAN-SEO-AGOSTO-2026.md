@@ -239,8 +239,12 @@ Todas las 301 verificadas en producción: responden `301 → 200`.
 6. Reescribir títulos y meta descriptions de las tres páginas con muchas impresiones y CTR bajo: `rooftop-bar-ecuador`, el cluster de playas y `traspaso-vehiculo-ecuador-requisitos-pasos`
 
 **Contenido nuevo — por prioridad de retorno**
-7. **Odontología Life: 2 posts de precios** (blanqueamiento e implantes) ← lo de mayor retorno inmediato
-8. **Luuma: versión en inglés o bloque para visitante extranjero**, por las 2.624 impresiones de `best rooftop bars near me`
+7. ✅ **Odontología Life: 2 posts de precios — PUBLICADOS el 2026-08-07.** El bloqueo de los precios se resolvió sin pedirle nada al cliente: la clínica ya tenía sus rangos publicados en los posts existentes, así que se usaron esos ($120–$350 blanqueamiento, $800–$1.500 implante).
+   - `cuanto-cuesta-blanqueamiento-dental-ecuador` (ID 770, 1.234 palabras) — ataca *blanqueamiento dental precio* (419 impr) y *cuánto cuesta un blanqueamiento* (266 impr)
+   - `cuanto-cuesta-implante-dental-ecuador` (ID 771, 1.232 palabras) — ataca *implante dental precio* (238+238 impr)
+   - Enlaces de entrada agregados desde `implantes-dentales-ecuador` (298) y `blanqueamiento-dental-ecuador` (257)
+   - Yoast meta verificado guardado · specs en `odontologia-life/agosto-2026/posts/`
+8. ✅ **Luuma: post en inglés — PUBLICADO el 2026-08-07.** `best-rooftop-bar-manta-ecuador` (ID 2557, 1.202 palabras) para las 2.624 impresiones sin clics de *best rooftop bars near me*. Horarios reales, precios de carta en USD, comparativa honesta con los otros rooftops y ventana del atardecer. Spec en `luuma/agosto-2026/posts/`.
 9. **OKCars: seguir el plan editorial normal.** Es el sitio que más necesita volumen y el que menos riesgo de canibalización tiene.
 
 **Luuma: sostener la pausa de posts nuevos.** El diagnóstico se confirma con datos — 100 posts y las consultas de mayor volumen mal aprovechadas. Consolidar y optimizar snippets rinde más que el post 101.
