@@ -307,3 +307,36 @@ Contrato: 20 posts/mes → mínimo 120 por cliente en 6 meses. Los 20 de la tand
 | Odontología Life | 46 | **56** | 120 | 64 (sept-dic a 20/mes) |
 
 Los specs de los 20 están en `{cliente}/agosto-2026/posts/` para reproducibilidad.
+
+---
+
+## 7. OKCars y Comercial Hidrobo — puesta al día (2026-08-07)
+
+### OKCars: tanda de 10 posts programada (IDs 1324-1333)
+
+Uno diario del 8 al 17 de agosto, 09:30. Escritos con **datos reales del inventario en vivo** (precios y km de las fichas publicadas):
+
+| Fecha | Post | Gancho real |
+|---|---|---|
+| 08 | Hyundai Tucson usada | Las DOS unidades del patio: $16.500/186 mil km vs $9.500/281 mil |
+| 09 | Mazda CX-5 | Unidad real $31.900 con 46.500 km |
+| 10 | Kia Seltos | $20.500 · 2025 · 64 mil km |
+| 11 | Ford Territory | Mismo precio que el Seltos → duelo en vivo |
+| 12 | Mazda BT-50 diésel | $25.900 con 145 mil km |
+| 13 | Changan Hunter | $25.900 con 4.500 km → **duelo de los $25.900** con la BT-50 |
+| 14 | Autos chinos usados | El cluster estrella de CH (26,9% de sus clics) llevado a OKCars |
+| 15 | Híbridos usados | Segundo cluster de CH (14,6%) |
+| 16 | Toyota Sienna / minivan | Unidad real $38.000 |
+| 17 | Camionetas diésel usadas | Hub que enlaza BT-50, Hunter e Hilux |
+
+Con esto OKCars pasa de 20 a **30 posts**. Contrato: 120. **Faltan 90** — la brecha de jun-jul nunca producidos requiere conversación comercial: alcanzar 120 en el plazo original exigiría 45/mes.
+
+**Pendiente OKCars (siguiente tanda — 10 guías ya planificadas):** kilometraje cuánto es mucho · test drive · documentos de compra · revisión técnica vehicular · cómo saber si fue chocado · valor de reventa por marcas · mejor época de compra · automático vs manual · autos para apps · SUV vs camioneta. Los enlaces desde los posts de hoy ya apuntan a esos slugs.
+
+### Comercial Hidrobo: BLOQUEADO — falta Application Password
+
+- Verificado en vivo: **el sitio está congelado desde el 29-may** (18 posts del plan publicados; 35 entregados sin publicar)
+- Probé las credenciales de OKCars contra comercialhidrobo.com: **401** en ambos dominios
+- El usuario confirma que los 35 están **en borrador dentro del WP de CH** y que publicarlos es nuestra responsabilidad
+- **Para desbloquear:** generar Application Password en `comercialhidrobo.com/wp-admin` → Usuarios → Perfil → Contraseñas de aplicación, y guardarlo en `.env` como `CH_WP_USER` / `CH_WP_APP_PASS`
+- Con la clave: se programan los 35 borradores escalonados (cubren las tandas jul-ago de CH) en una sesión
