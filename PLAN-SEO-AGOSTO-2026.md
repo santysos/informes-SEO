@@ -156,25 +156,45 @@ Ambos borrados fueron **a papelera, no permanentes** — se pueden restaurar des
 >
 > **Antes de tocar nada de esta fase:** instalar el plugin **Redirection** (gratuito, es el estándar) en Luuma y en Odontología Life. Alternativa: reglas en `.htaccess`, que necesita acceso a cPanel de cada sitio.
 
-#### Registro de ejecución — Luuma (iniciado 2026-08-04)
+#### Registro de ejecución — Luuma (completado 2026-08-07)
 
-Método acordado: **fusionar contenido y después redirigir**. Respaldo de los 29 posts en `luuma/agosto-2026/backup-consolidacion/`.
+Método: **trasplante** — se conserva la URL con autoridad y se le pasa el contenido del post nuevo, que resultó ser bastante mejor. Respaldo de los 29 posts en `luuma/agosto-2026/backup-consolidacion/`.
 
-| Par | Estado |
+**Hallazgo que cambió el método:** los posts de junio-julio 2026 (el batch escrito con los briefs) son claramente superiores a los de diciembre 2025 — desglose por barrio, datos concretos, comparativas y secciones que recomiendan en contra de algo. Pero la autoridad SEO estaba en los viejos. Se resolvió conservando la URL vieja con el cuerpo del post nuevo.
+
+| Resultado | |
 |---|---|
-| Vida nocturna | ✅ Fusionado — ID 1633 pasó de 759 a 1.002 palabras con el atardecer, dónde comer de noche y la FAQ de pareja del ID 1720. ID 1720 a papelera. **301 pendiente** |
-| Los otros 14 | ⏸ En espera del bloqueo de abajo |
-| Platos típicos | ⛔ **Excluido a propósito** — ver nota |
+| Trasplantes de contenido | **9** |
+| Redirecciones 301 creadas | **15** (14 + vida nocturna) |
+| Posts a papelera | **15** |
+| Enlaces internos corregidos | **15 posts** |
+| Enlaces rotos restantes | **0** ✅ |
+| Posts publicados | 100 → **84** |
 
-**Platos típicos queda fuera de la consolidación.** Es el único par donde las dos URLs rinden: `platos-tipicos-manta-ecuador` con 160 clics y `platos-tipicos-manabi-guia-definitiva` con 153. Además una habla de Manta (ciudad) y la otra de Manabí (provincia), que pueden ser búsquedas legítimamente distintas. Fusionarlas arriesga 313 clics para ganar quizás nada. Se trabajarán como piezas separadas, cada una con su keyword y enlazándose entre sí.
+| Tema | Acción | URL conservada |
+|---|---|---|
+| Playas | Solo 301 | `/vida-en-manta/playas-manta-cual-elegir/` |
+| Restaurantes genérico | Trasplante + 301 | `/gastronomia-manta/mejores-restaurantes-manta-ecuador/` |
+| Cumpleaños | Trasplante + 301 | `/eventos-entretenimiento/restaurantes-cumpleanos-manta/` |
+| Música en vivo | Trasplante + 301 | `/eventos-entretenimiento/eventos-musica-vivo-manta-agenda/` |
+| Corviche | Trasplante + 301 | `/recetas-cocina/corviche-manabita-receta/` |
+| Vista al mar | Trasplante + 301 | `/gastronomia-manta/restaurantes-frente-al-mar-manta/` |
+| ↳ | Trasplante + 301 | `/gastronomia-manta/restaurantes-frente-al-mar-manta/` |
+| Cerveza artesanal | Trasplante + 301 | `/cocteles-mixologia/cerveza-artesanal-manta/` |
+| Desayunos | Trasplante + 301 | `/gastronomia-manta/desayunos-en-manta/` |
+| Brunch | Trasplante + 301 | `/vida-en-manta/brunch-en-manta/` |
+| Almuerzos | Solo 301 | `/gastronomia-manta/menu-ejecutivo-manta-almorzar/` |
+| ↳ | Solo 301 | `/gastronomia-manta/menu-ejecutivo-manta-almorzar/` |
+| ↳ | Solo 301 | `/gastronomia-manta/menu-ejecutivo-manta-almorzar/` |
+| Rooftop | Trasplante + 301 | `/gastronomia-manta/rooftop-manta-experiencia-gastronomica/` |
 
-> 🔴 **Bloqueo activo: faltan las tablas de Redirection.**
->
-> El plugin quedó instalado y activo (v5.9.0), pero **no crea sus tablas por API** — hay que abrir una vez **Herramientas → Redirection** en `wp-admin` de Luuma para que corra el asistente y las genere. Son unos 30 segundos.
->
-> Hasta que eso pase no se pueden crear los 301, y sin 301 no conviene seguir consolidando pares con tráfico.
+Todas las 301 verificadas en producción: responden `301 → 200`.
 
-4. Ejecutar las 301 de la tabla de Luuma (11 pares + almuerzos)
+**Platos típicos queda fuera a propósito.** Único par donde las dos URLs rinden (160 y 153 clics) y además una es Manta ciudad y la otra Manabí provincia. Se diferencian en vez de fusionarse.
+
+**Pendiente:** revisar los títulos de las páginas trasplantadas. Por ejemplo `mejores-restaurantes-manta-ecuador` conserva el título "Los 10 Mejores Restaurantes…" pero el contenido nuevo está organizado por zonas, no como lista numerada de 10. No lo toqué porque cambiar el título de una página que rankea es riesgoso y merece decidirse aparte.
+
+4. ✅ Consolidación de Luuma — completada
 5. Ejecutar las 301 de Odontología Life, **empezando por las que no tocan `implantes-dentales-ecuador`**
 6. Reescribir títulos y meta descriptions de las tres páginas con muchas impresiones y CTR bajo: `rooftop-bar-ecuador`, el cluster de playas y `traspaso-vehiculo-ecuador-requisitos-pasos`
 
