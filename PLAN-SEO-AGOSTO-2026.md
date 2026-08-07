@@ -102,6 +102,46 @@ Es la oportunidad más limpia de los tres sitios: **dos posts con rangos de prec
 
 Requiere que el cliente entregue los precios. Sin eso no se puede escribir, y es exactamente lo que pide la regla 3 de `LINEAMIENTOS-CONTENIDO.md`.
 
+
+### 2.3 Registro de ejecución — Odontología Life (completado 2026-08-07)
+
+| Resultado | |
+|---|---|
+| Fusiones de contenido | **2** |
+| Redirecciones 301 | **9**, verificadas `301 → 200` |
+| Posts a papelera | 9 |
+| Enlaces internos corregidos | 9 posts |
+| Enlaces rotos restantes | **0** ✅ |
+| Posts publicados | 54 → **44** |
+
+| Tema | URL conservada | Redirigida |
+|---|---|---|
+| Implantes | `implantes-dentales-ecuador` | `implantes-dentales` |
+| Emergencias | `emergencias-dentales-dolor-muela-fractura` | `emergencias-dentales-que-hacer` |
+| Ortodoncia | `ortodoncia-otavalo-brackets-o-alineadores` | `ortodoncia-invisible-vs-brackets-tradicionales` |
+| Carillas | `carillas-de-porcelana-vs-resina` | `odontologia-estetica-otavalo-carillas-resinas` |
+| Endodoncia | `endodoncia-ecuador-guia-tratamiento-conducto` | `tratamiento-de-conducto-salvando-diente-del-dolor-y-la-extraccion` |
+| Limpieza dental | `limpieza-dental-otavalo-beneficios` | `limpieza-dental-profesional-beneficios` |
+| Prótesis | `protesis-dental-ecuador-tipos-opciones` | `protesis-dentales-modernas-comodidad-estetica` |
+| Diseño de sonrisa | `diseno-de-sonrisa-ecuador-procedimiento` | `diseno-sonrisa-con-inteligencia-artificial` |
+| ↳ | `diseno-de-sonrisa-ecuador-procedimiento` | `diseno-de-sonrisa-digital` |
+
+**Cambio respecto al plan original: se invirtió la dirección en cuatro pares.** En ellos ninguna de las dos URLs tenía tráfico, así que la autoridad no podía decidir y mandó la calidad:
+
+| Tema | Se descartó | Se conservó |
+|---|---|---|
+| Endodoncia | `tratamiento-de-conducto-salvando…` · 675 pal | `endodoncia-ecuador-guia-tratamiento-conducto` · **2.661 pal** |
+| Prótesis | `protesis-dentales-modernas…` · 687 pal | `protesis-dental-ecuador-tipos-opciones` · **1.310 pal** |
+| Diseño de sonrisa | `diseno-sonrisa-con-inteligencia-artificial` · 773 pal | `diseno-de-sonrisa-ecuador-procedimiento` · **2.106 pal** |
+| Limpieza dental | `limpieza-dental-profesional-beneficios` · 657 pal | `limpieza-dental-otavalo-beneficios` · **923 pal** |
+
+Los conservados son de marzo 2026 o tienen mejor enfoque local; los descartados, de septiembre 2025.
+
+**Las dos fusiones** se hicieron sobre páginas que ya rankeaban, de forma aditiva y sin tocar título ni slug:
+
+- `implantes-dentales-ecuador` (743 → 830 pal): se le agregó el proceso de colocación paso a paso. Es el **70% del tráfico del sitio**, por eso el cambio fue mínimo.
+- `emergencias-dentales-dolor-muela-fractura` (629 → 740 pal): cuándo acudir a un hospital en vez del odontólogo.
+
 ---
 
 ## 3. OKCars
