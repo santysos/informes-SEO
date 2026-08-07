@@ -258,3 +258,52 @@ Todas las 301 verificadas en producción: responden `301 → 200`.
 | Odontología Life | **Rangos de precio** de blanqueamiento e implantes, y qué los encarece. Bloquea los dos posts de mayor retorno. |
 | Luuma | Confirmar si quieren atacar al turista extranjero en inglés |
 | Todos | Una cita del equipo por cada 3-4 posts, según la regla 2 de `LINEAMIENTOS-CONTENIDO.md` |
+
+---
+
+## 6. Tanda de agosto — 20 posts nuevos programados (2026-08-07)
+
+Contrato: 20 posts/mes → mínimo 120 por cliente en 6 meses. Los 20 de la tanda quedaron **programados con fechas escalonadas** (uno cada 2 días, el resto del mes) para respetar la cadencia natural en vez de soltar todo en un día.
+
+### Odontología Life — 10 posts (8 al 26 de agosto, 09:00)
+
+| Fecha | Post | Categoría |
+|---|---|---|
+| 08-ago | ¿Cuánto cuesta una ortodoncia? (precios publicados del cliente) | Ortodoncia |
+| 10-ago | Bruxismo y férula de descarga | Emergencias |
+| 12-ago | Sensibilidad dental | Prevención |
+| 14-ago | Calzas: resina vs amalgama | Tratamientos |
+| 16-ago | Coronas dentales | Rehabilitación |
+| 18-ago | Mal aliento: causas reales | Prevención |
+| 20-ago | Retenedores post-ortodoncia | Ortodoncia |
+| 22-ago | Flemón dental | Emergencias |
+| 24-ago | Manchas blancas en los dientes | Prevención |
+| 26-ago | Ortodoncia interceptiva en niños | Ortodoncia |
+
+### Luuma — 10 posts (9 al 27 de agosto, 15:00)
+
+| Fecha | Post | Tipo |
+|---|---|---|
+| 09-ago | Encebollado en Manta | Gastronomía local |
+| 11-ago | Tonga manabita | Receta |
+| 13-ago | Sal prieta | Receta |
+| 15-ago | Ballenas jorobadas desde Manta | Turismo (temporada jun-sep) |
+| 17-ago | Montecristi y los sombreros | Turismo |
+| 19-ago | Cazuela manabita | Receta |
+| 21-ago | Empanadas de verde | Receta |
+| 23-ago | Mejores lugares para el atardecer | Marca (el producto de Luuma) |
+| 25-ago | Qué hacer cuando llueve | Turismo |
+| 27-ago | Manta Cruise Port Guide (inglés) | Turista de crucero |
+
+**Anti-canibalización:** cada tema fue verificado contra el inventario completo antes de escribirse. Los de Luuma abren territorio nuevo (platos no cubiertos, excursiones, clima) en vez de insistir en los saturados; los de Odontología cubren servicios sin post propio.
+
+**Calidad:** los 20 pasaron el validador de LINEAMIENTOS-CONTENIDO.md — 1.150+ palabras, lista negra, referencias geográficas, blockquote, recomendación en contra, FAQ, 4-10 enlaces internos con URLs verificadas contra el mapa real de cada sitio, sin sección de conclusión. Yoast meta confirmado guardado en los 20.
+
+### Progreso hacia los 120
+
+| | Antes | Con la tanda | Meta | Faltan |
+|---|---:|---:|---:|---:|
+| Luuma | 85 | **95** | 120 | 25 (sept: 20 · oct: 5) |
+| Odontología Life | 46 | **56** | 120 | 64 (sept-dic a 20/mes) |
+
+Los specs de los 20 están en `{cliente}/agosto-2026/posts/` para reproducibilidad.
