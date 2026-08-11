@@ -143,7 +143,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             </div>
             <div class="glass rounded-2xl p-6">
                 <h3 class="text-white font-bold text-lg mb-2">Correos corporativos</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">Correos con el nombre de su empresa: <span class="mono text-[#e9c95c]">magui@suempresa.com</span> y <span class="mono text-[#e9c95c]">leticia@suempresa.com</span>. Escribir desde un correo propio — y no desde un Gmail — cambia por completo la primera impresión.</p>
+                <p class="text-slate-400 text-sm leading-relaxed">Correos con el nombre de su empresa: <span class="mono text-[#e9c95c]">magui@suempresa.com</span> y <span class="mono text-[#e9c95c]">lety@suempresa.com</span>. Escribir desde un correo propio — y no desde un Gmail — cambia por completo la primera impresión.</p>
             </div>
             <div class="glass rounded-2xl p-6">
                 <h3 class="text-white font-bold text-lg mb-2">Formularios de contacto directos</h3>
@@ -274,19 +274,28 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
             </div>
         </div>
 
-        <!-- OPCIONAL SEO MENSUAL -->
-        <div class="glass rounded-2xl p-6">
-            <div class="flex flex-wrap items-center justify-between gap-4">
-                <div class="flex-1 min-w-[260px]">
-                    <p class="text-[#e9c95c] text-xs font-bold uppercase tracking-widest mb-1">Opcional &middot; para más adelante</p>
-                    <p class="text-white font-bold text-lg mb-1">Plan de artículos mensuales para crecer en Google</p>
-                    <p class="text-slate-400 text-sm leading-relaxed">Cuando la página ya esté rodando, se puede crecer más rápido publicando cada mes artículos que responden lo que la gente pregunta en Google: &laquo;¿cuándo vence mi declaración?&raquo;, &laquo;¿qué gastos puedo deducir?&raquo;. Cada artículo es una puerta más de entrada de clientes. <strong class="text-white">No es obligatorio y se puede activar cuando quieran.</strong></p>
+        <!-- OPCIONAL SEO 6 MESES -->
+        <div class="glass rounded-2xl p-7">
+            <p class="text-[#e9c95c] text-xs font-bold uppercase tracking-widest mb-1">Opcional · para más adelante</p>
+            <p class="text-white font-bold text-lg mb-2">Plan de artículos para crecer en Google — 6 meses</p>
+            <p class="text-slate-400 text-sm leading-relaxed mb-5">Cuando la página ya esté rodando, la forma de crecer más rápido es publicar artículos que respondan lo que la gente pregunta en Google: «¿cuándo vence mi declaración?», «¿qué gastos puedo deducir?», «¿qué pasa si no declaro a tiempo?». Cada artículo es una puerta más por donde entran clientes. El plan publica <strong class="text-white">más de 20 artículos al mes</strong>, y al terminar los 6 meses su página tendrá <strong class="text-white">más de 120 artículos</strong> trabajando para ustedes — de por vida. <strong class="text-white">No es obligatorio y se puede activar cuando quieran.</strong></p>
+            <div class="grid sm:grid-cols-2 gap-4">
+                <div class="rounded-xl p-5 bg-emerald-500/10 border border-emerald-500/30">
+                    <div class="flex items-baseline justify-between gap-3 mb-1">
+                        <p class="text-white font-semibold text-sm">Los 6 meses en un solo pago</p>
+                        <span class="mono font-black text-emerald-400 text-2xl whitespace-nowrap">$600</span>
+                    </div>
+                    <p class="text-emerald-400 text-xs font-semibold">+ IVA · ahorran $300 frente al pago mensual</p>
                 </div>
-                <div class="text-right">
-                    <div class="text-3xl font-black text-grad mono">$150</div>
-                    <p class="text-slate-400 text-sm font-semibold">+ IVA / mes &middot; 4 artículos</p>
+                <div class="rounded-xl p-5 bg-black/30 border border-white/8">
+                    <div class="flex items-baseline justify-between gap-3 mb-1">
+                        <p class="text-white font-semibold text-sm">Mes a mes</p>
+                        <span class="mono font-black text-white text-2xl whitespace-nowrap">$150<span class="text-sm font-normal text-slate-400"> / mes</span></span>
+                    </div>
+                    <p class="text-slate-400 text-xs">+ IVA · suman $900 en los 6 meses</p>
                 </div>
             </div>
+            <p class="text-slate-500 text-xs mt-4">Ambas opciones incluyen exactamente lo mismo: +20 artículos mensuales, optimizados para Google, publicados por nosotros.</p>
         </div>
     </div>
 </section>
