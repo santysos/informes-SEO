@@ -1,17 +1,24 @@
 {
   "title": "Cemento vulcanizante: cuál comprar, cuánto rinde y los 4 errores que despegan parches",
   "slug": "cemento-vulcanizante-rendimiento-errores",
-  "status": "future",
+  "status": "draft",
   "date": "2026-08-17T09:00:00",
   "category": "llanteras-y-vulcanizadoras",
-  "tags": ["cemento vulcanizante", "vermar", "parches", "vulcanizadora", "reparación de llantas", "llantera"],
-  "excerpt": "Cemento vulcanizante Vermar: $8,50 el cuarto, $14 el medio y $22 el litro. Cuántas reparaciones rinde cada presentación, cómo se aplica bien y los errores de aplicación que hacen que un parche perfecto se despegue.",
+  "tags": [
+    "cemento vulcanizante",
+    "vermar",
+    "parches",
+    "vulcanizadora",
+    "reparación de llantas",
+    "llantera"
+  ],
+  "excerpt": "Cemento vulcanizante Vermar: $8,50 el cuarto, $14 el medio y $22 el litro. Rendimiento por frasco, técnica de oreo y los errores que despegan parches.",
   "yoast_title": "Cemento vulcanizante: precios, rendimiento y errores (2026)",
   "yoast_desc": "Vermar 1/4 en $8,50, 1/2 en $14, litro en $22. Cuánto rinde cada frasco, el tiempo de oreo correcto y los 4 errores que despegan parches bien puestos.",
   "focus_kw": "cemento vulcanizante",
   "lead": [
     "Cuando un parche se despega, el sospechoso habitual es el parche. Casi nunca es el parche. En 8 de cada 10 reparaciones falladas que nos describen los talleres, el problema estuvo en el cemento: superficie mal raspada, oreo cortado a la mitad, o un frasco que llevaba tres meses abierto y ya era jarabe.",
-    "El cemento vulcanizante es el consumible más barato de la vulcanizadora y el que más reclamos genera cuando se usa mal. Aquí va todo lo que hay que saber: presentaciones y precios de la línea Vermar que distribuimos desde Quito, rendimiento real por frasco y la técnica que hace que el vulcanizado en frío funcione como promete."
+    "El cemento vulcanizante es el consumible más barato de la vulcanizadora y el que más reclamos genera cuando se usa mal. Aquí va todo lo que hay que saber: presentaciones y precios de la <a href=\"https://www.dimaparecuador.com/categoria-producto/cementos-quimicos/\">línea Vermar</a> que distribuimos desde Quito, rendimiento real por frasco y la técnica que hace que el vulcanizado en frío funcione como promete."
   ],
   "sections": [
     {
@@ -19,11 +26,31 @@
       "blocks": [
         {
           "table": {
-            "head": ["Presentación", "Precio", "Rendimiento aproximado", "Para quién"],
+            "head": [
+              "Presentación",
+              "Precio",
+              "Rendimiento aproximado",
+              "Para quién"
+            ],
             "rows": [
-              ["<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-de-1-4-vermar/\">Vermar 1/4 litro</a>", "$8,50", "15-20 reparaciones", "Taller de bajo volumen o moto"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-vulcanizante-1-2-lt-vermar/\">Vermar 1/2 litro</a>", "$14", "30-40 reparaciones", "Vulcanizadora urbana promedio"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-azul-1lt-vermar/\">Vermar azul 1 litro</a>", "$22", "60-80 reparaciones", "Taller de volumen y flota"]
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-de-1-4-vermar/\">Vermar 1/4 litro</a>",
+                "$8,50",
+                "15-20 reparaciones",
+                "Taller de bajo volumen o moto"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-vulcanizante-1-2-lt-vermar/\">Vermar 1/2 litro</a>",
+                "$14",
+                "30-40 reparaciones",
+                "Vulcanizadora urbana promedio"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-azul-1lt-vermar/\">Vermar azul 1 litro</a>",
+                "$22",
+                "60-80 reparaciones",
+                "Taller de volumen y flota"
+              ]
             ]
           }
         },
@@ -89,7 +116,7 @@
     },
     {
       "q": "¿Sirve el mismo cemento para parche radial y diagonal?",
-      "a": "Sí, el cemento es el mismo; lo que cambia es el parche según la carcasa. La línea Vermar que manejamos trabaja con toda nuestra gama de parches XRP, BP y VBR."
+      "a": "Sí, el cemento es el mismo; lo que cambia es el parche según la carcasa. La línea Vermar que manejamos trabaja con toda nuestra gama de <a href=\"https://www.dimaparecuador.com/categoria-producto/consumibles/parches/\">parches XRP, BP y VBR</a>."
     },
     {
       "q": "¿El cemento sirve también para pegar chapetas o taloneras de goma?",
@@ -100,5 +127,5 @@
       "a": "Parche XRP-14 en $1,50 más unos $0,30 de cemento: $1,80 de material para un servicio que se cobra $6-10 en Quito. Es el mejor margen de todo el taller."
     }
   ],
-  "cta": "¿Se te está acabando el cemento o quieres pasarte a la línea Vermar? Escríbenos por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20pedir%20cemento%20vulcanizante%20Vermar\">WhatsApp al 096 866 3866</a> con tu consumo mensual aproximado y te cotizamos la presentación correcta con precio de distribuidor. En Quito entregamos el mismo día desde Guamaní."
+  "cta": "¿Se te está acabando el cemento o quieres pasarte a la línea Vermar? Escríbenos por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20pedir%20cemento%20vulcanizante%20Vermar\">WhatsApp al 096 866 3866</a> con tu consumo mensual aproximado y te cotizamos la presentación correcta con precio de distribuidor. En Quito entregamos el mismo día desde Guamaní; los datos y el horario están en <a href=\"https://www.dimaparecuador.com/contacto/\">contacto</a>."
 }

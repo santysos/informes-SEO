@@ -1,12 +1,20 @@
 {
-  "title": "Calibración y mantenimiento de balanceadora y desmontadora: la rutina que evita reclamos",
-  "slug": "calibracion-mantenimiento-balanceadora-desmontadora",
-  "status": "future",
+  "title": "Calibración y mantenimiento de balanceadora y desenllantadora: la rutina que evita reclamos",
+  "slug": "calibracion-mantenimiento-balanceadora-desenllantadora",
+  "status": "draft",
   "date": "2026-08-23T09:00:00",
   "category": "mantenimiento-de-equipos",
-  "tags": ["mantenimiento", "calibración", "balanceadora", "desmontadora", "hofmann", "besser", "taller automotriz"],
-  "excerpt": "Una balanceadora descalibrada no avisa: sigue dando números, solo que malos. La rutina completa de mantenimiento de balanceadora y desmontadora, qué se hace en casa y qué requiere técnico, con los costos de no hacerlo.",
-  "yoast_title": "Mantenimiento de balanceadora y desmontadora: guía 2026",
+  "tags": [
+    "mantenimiento",
+    "calibración",
+    "balanceadora",
+    "desenllantadora",
+    "hofmann",
+    "besser",
+    "taller automotriz"
+  ],
+  "excerpt": "La rutina de calibración y mantenimiento que alarga la vida de balanceadoras y desenllantadoras, y evita los reclamos que sí cuestan clientes.",
+  "yoast_title": "Mantenimiento de balanceadora y desenllantadora: guía 2026",
   "yoast_desc": "Calibración cada 6 meses, conos que se ovalan, aire sin filtrar que oxida cilindros: la rutina de mantenimiento que alarga la vida de tus equipos de llantera.",
   "focus_kw": "mantenimiento de balanceadora",
   "lead": [
@@ -30,11 +38,11 @@
       ]
     },
     {
-      "h2": "La desmontadora: el enemigo es el aire sucio",
+      "h2": "La desenllantadora: el enemigo es el aire sucio",
       "blocks": [
-        "Lo que mata desmontadoras en Ecuador no es el trabajo duro: es el aire comprimido sin tratar. El compresor condensa agua, el agua viaja por la manguera y termina dentro de los cilindros neumáticos, donde oxida paredes y sellos. El daño es invisible hasta que el cilindro pierde fuerza — y ahí la reparación ya es mayor.",
+        "Lo que mata desenllantadoras en Ecuador no es el trabajo duro: es el aire comprimido sin tratar. El compresor condensa agua, el agua viaja por la manguera y termina dentro de los cilindros neumáticos, donde oxida paredes y sellos. El daño es invisible hasta que el cilindro pierde fuerza — y ahí la reparación ya es mayor.",
         "La defensa cuesta poco: unidad de mantenimiento (filtro, regulador y lubricador) en la entrada de aire de la máquina, purga diaria del tanque del compresor y revisión mensual del vaso del lubricador. Con eso, el sistema neumático de una <a href=\"https://www.dimaparecuador.com/producto/hofmann-megamount-30/\">Megamount 30</a> o una <a href=\"https://www.dimaparecuador.com/producto/desmontadora-de-llantas-semi-automatica-besser-t2/\">Besser T2</a> trabaja una década sin abrirse.",
-        "En la parte mecánica: engrase de la mesa giratoria y las guías cada mes, revisión de las mordazas por desgaste — mordaza gastada resbala el aro, y un aro que resbala con presión es un golpe esperando dónde caer — y cambio de los protectores plásticos en cuanto se agrieten. Los protectores son la única frontera entre el metal de la máquina y el aro de aleación del cliente; el repuesto está en bodega en Guamaní, incluido el <a href=\"https://www.dimaparecuador.com/producto/pato-de-desmontadora-besser/\">pato de desmontadora Besser en $57,26</a>."
+        "En la parte mecánica: engrase de la mesa giratoria y las guías cada mes, revisión de las mordazas por desgaste — mordaza gastada resbala el aro, y un aro que resbala con presión es un golpe esperando dónde caer — y cambio de los protectores plásticos en cuanto se agrieten. Los protectores son la única frontera entre el metal de la máquina y el aro de aleación del cliente; el repuesto está en bodega en Guamaní, incluido el <a href=\"https://www.dimaparecuador.com/producto/pato-de-desmontadora-besser/\">pato de desenllantadora Besser en $57,26</a>."
       ]
     },
     {
@@ -61,14 +69,14 @@
       "blocks": [
         "Pongamos cifras de Quito a la balanceadora descalibrada. Si el 15 % de tus balanceos sale mal y rehaces gratis la mitad de esos — porque la otra mitad no reclama, solo no vuelve — en un taller de 15 balanceos diarios a $3,50 son unos $60 al mes en trabajo regalado, más los clientes perdidos que no se ven en ninguna cuenta.",
         "La calibración semestral con visita técnica cuesta una fracción de eso y deja registro. Y hay un beneficio comercial que pocos explotan: el certificado de máquina calibrada, enmarcado junto al mostrador, es un argumento de venta que las flotas y cooperativas sí miran cuando eligen taller para sus unidades.",
-        "Al final, el mantenimiento es lo que protege las inversiones de las que hablamos en las guías de <a href=\"{{POST:balanceadora-de-llantas-cual-elegir}}\">balanceadoras</a> y <a href=\"{{POST:desmontadora-de-llantas-tipos-precios}}\">desmontadoras</a>: una máquina de $3.000 que dura 12 años cuesta $250 al año; la misma máquina abandonada dura 5 y cuesta $600. La diferencia la pone una hora de atención al mes."
+        "Al final, el mantenimiento es lo que protege las inversiones de las que hablamos en las guías de <a href=\"{{POST:balanceadora-de-llantas-cual-elegir}}\">balanceadoras</a> y <a href=\"{{POST:desenllantadora-de-llantas-tipos-precios}}\">desenllantadoras</a>: una máquina de $3.000 que dura 12 años cuesta $250 al año; la misma máquina abandonada dura 5 y cuesta $600. La diferencia la pone una hora de atención al mes."
       ]
     },
     {
       "h2": "Nuestro soporte técnico, en la práctica",
       "blocks": [
         "Desde la bodega de la av. Maldonado S59-100 en Guamaní atendemos visitas técnicas en Quito y los valles de Los Chillos y Tumbaco, normalmente dentro de la misma semana. Para Guayaquil, Cuenca, Manta y Ambato coordinamos rutas de visita o técnicos aliados, y buena parte de los diagnósticos se resuelve por videollamada mirando la máquina en vivo.",
-        "Repuestos de las marcas que distribuimos — Hofmann, Besser, Muth, Thyson — los mantenemos en stock local. Es la razón de fondo por la que insistimos en marcas con representación: el mejor plan de mantenimiento del mundo no sirve si el repuesto tarda cuatro meses en llegar de un puerto asiático."
+        "Repuestos de las marcas que distribuimos — Hofmann, Besser, Muth, Thyson — los mantenemos en stock local junto con los <a href=\"https://www.dimaparecuador.com/categoria-producto/consumibles/\">consumibles</a> de uso diario. Es la razón de fondo por la que insistimos en marcas con representación: el mejor plan de mantenimiento del mundo no sirve si el repuesto tarda cuatro meses en llegar de un puerto asiático. Los manuales de operación y las actualizaciones de software de las alineadoras Besser están publicados en nuestra página de <a href=\"https://www.dimaparecuador.com/soporte/\">soporte</a>, disponibles para descarga."
       ]
     }
   ],
@@ -78,7 +86,7 @@
       "a": "Prueba rápida: balancea una llanta, anota el resultado, sácala y vuelve a montarla en otra posición del plato. Si los valores difieren más de 5 gramos, toca calibración. Repítela una vez al mes; toma cinco minutos."
     },
     {
-      "q": "¿Qué presión de aire necesita una desmontadora?",
+      "q": "¿Qué presión de aire necesita una desenllantadora?",
       "a": "Entre 8 y 10 bar constantes, con aire filtrado y lubricado. Menos presión hace que las mordazas resbalen; más presión de la de diseño acorta la vida de los sellos."
     },
     {
@@ -91,7 +99,7 @@
     },
     {
       "q": "¿Dan mantenimiento a máquinas que no vendieron ustedes?",
-      "a": "Sí, evaluamos caso por caso según marca y disponibilidad de repuestos. Escríbenos con foto de la placa de datos de la máquina y te confirmamos si podemos atenderla."
+      "a": "Sí, evaluamos caso por caso según marca y disponibilidad de repuestos. Escríbenos por la <a href=\"https://www.dimaparecuador.com/contacto/\">página de contacto</a> con foto de la placa de datos de la máquina y te confirmamos si podemos atenderla."
     }
   ],
   "cta": "¿Cuándo fue la última calibración de tu balanceadora? Si tienes que pensarlo, ya toca. Agenda la visita técnica por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20agendar%20calibraci%C3%B3n%20y%20mantenimiento%20de%20mis%20equipos.%20Tengo%20una%20balanceadora%20__%20y%20una%20desmontadora%20__\">WhatsApp al 096 866 3866</a> con marca y modelo de tus equipos, y te confirmamos fecha y costo el mismo día."

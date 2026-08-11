@@ -1,17 +1,25 @@
 {
   "title": "Elevador para taller: 2 postes, 4 postes o tijera — cuál va con tu trabajo y tu piso",
   "slug": "elevador-para-taller-guia",
-  "status": "future",
+  "status": "draft",
   "date": "2026-08-21T09:00:00",
   "category": "guias-de-compra",
-  "tags": ["elevador", "elevador 2 postes", "elevador de tijera", "besser", "muth", "hofmann", "taller automotriz"],
-  "excerpt": "Elevadores para taller en Ecuador: 2 postes desde $2.402, 4 postes de alineación en $6.439, doble tijera Hofmann en $10.258. Qué tipo corresponde a cada trabajo y los requisitos de piso y altura que hay que verificar antes.",
+  "tags": [
+    "elevador",
+    "elevador 2 postes",
+    "elevador de tijera",
+    "besser",
+    "muth",
+    "hofmann",
+    "taller automotriz"
+  ],
+  "excerpt": "Elevadores para taller: 2 postes desde $2.402, 4 postes de alineación en $6.439 y doble tijera en $10.258. Cuál va con tu trabajo y qué piso exige.",
   "yoast_title": "Elevador para taller: tipos y precios en Ecuador (2026)",
   "yoast_desc": "2 postes Besser $2.402, Muth $2.618, 4 postes $6.439, doble tijera Hofmann $10.258. Cuál elegir según el trabajo del taller y qué piso necesita.",
   "focus_kw": "elevador para taller",
   "lead": [
     "Hay una pregunta que hacemos antes de cotizar cualquier elevador, y que sorprende a más de un cliente: ¿de qué espesor es tu losa de hormigón? Porque el elevador de 2 postes más vendido del mercado se ancla a piso, levanta 4 toneladas, y sobre una losa de 10 centímetros es un accidente en cámara lenta.",
-    "Después de la desmontadora y la balanceadora, el elevador es la tercera compra grande del taller — y la que más depende del local, no de la máquina. Esta guía recorre los tipos que distribuimos desde Quito con sus precios de agosto de 2026, y los requisitos de instalación que conviene verificar antes de enamorarse de un modelo."
+    "Después de la desenllantadora y la balanceadora, el elevador es la tercera compra grande del taller — y la que más depende del local, no de la máquina. Esta guía recorre los tipos que distribuimos desde Quito con sus precios de agosto de 2026, y los requisitos de instalación que conviene verificar antes de enamorarse de un modelo."
   ],
   "sections": [
     {
@@ -19,19 +27,59 @@
       "blocks": [
         {
           "table": {
-            "head": ["Tipo", "Modelo de referencia", "Para qué", "Precio"],
+            "head": [
+              "Tipo",
+              "Modelo de referencia",
+              "Para qué",
+              "Precio"
+            ],
             "rows": [
-              ["2 postes", "<a href=\"https://www.dimaparecuador.com/producto/elevador-2-postes-besser/\">Besser 5 ton</a>", "Mecánica general: frenos, suspensión, embragues", "$2.402"],
-              ["2 postes riel inferior", "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-2-postes-riel-inferior-muth/\">Muth 4 ton</a>", "Galpones con techo bajo", "$2.618"],
-              ["2 postes riel superior", "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-2-postes-riel-superior-4ton-muth/\">Muth 4 ton</a>", "Piso irregular, el riel arriba libera el suelo", "$2.618"],
-              ["4 postes alineación", "<a href=\"https://www.dimaparecuador.com/producto/elevador-4-postes-para-alineacion-5ton-dk-50f4d/\">Besser DK 50F4D 5 ton</a>", "Bahía de alineación", "$6.439"],
-              ["Doble tijera", "<a href=\"https://www.dimaparecuador.com/producto/megalift-sxxd-35-hofmann/\">Hofmann Megalift SXXD.35</a>", "Estética sin postes, acceso total al vehículo", "$10.258"],
-              ["Tijera mecánica rápida", "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-tijera-3-5-ton-torin/\">Torin 3,5 ton</a>", "Llantas y frenos exprés", "consultar"],
-              ["De motos", "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-motos/\">Besser 1.500 lbs</a>", "Taller de motos", "$179"]
+              [
+                "2 postes",
+                "<a href=\"https://www.dimaparecuador.com/producto/elevador-2-postes-besser/\">Besser 5 ton</a>",
+                "Mecánica general: frenos, suspensión, embragues",
+                "$2.402"
+              ],
+              [
+                "2 postes riel inferior",
+                "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-2-postes-riel-inferior-muth/\">Muth 4 ton</a>",
+                "Galpones con techo bajo",
+                "$2.618"
+              ],
+              [
+                "2 postes riel superior",
+                "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-2-postes-riel-superior-4ton-muth/\">Muth 4 ton</a>",
+                "Piso irregular, el riel arriba libera el suelo",
+                "$2.618"
+              ],
+              [
+                "4 postes alineación",
+                "<a href=\"https://www.dimaparecuador.com/producto/elevador-4-postes-para-alineacion-5ton-dk-50f4d/\">Besser DK 50F4D 5 ton</a>",
+                "Bahía de alineación",
+                "$6.439"
+              ],
+              [
+                "Doble tijera",
+                "<a href=\"https://www.dimaparecuador.com/producto/megalift-sxxd-35-hofmann/\">Hofmann Megalift SXXD.35</a>",
+                "Estética sin postes, acceso total al vehículo",
+                "$10.258"
+              ],
+              [
+                "Tijera mecánica rápida",
+                "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-tijera-3-5-ton-torin/\">Torin 3,5 ton</a>",
+                "Llantas y frenos exprés",
+                "consultar"
+              ],
+              [
+                "De motos",
+                "<a href=\"https://www.dimaparecuador.com/producto/elevador-de-motos/\">Besser 1.500 lbs</a>",
+                "Taller de motos",
+                "$179"
+              ]
             ]
           }
         },
-        "Precios antes de IVA, con garantía y repuestos desde nuestra bodega en la av. Maldonado, Guamaní. La instalación en Quito y valles la ejecuta nuestro equipo técnico; a provincias coordinamos con técnicos aliados."
+        "Los 20 modelos de la categoría <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/elevadores/\">elevadores</a> están en línea. Precios antes de IVA, con garantía y repuestos desde nuestra bodega en la av. Maldonado, Guamaní. Las fichas técnicas por marca están en el <a href=\"https://www.dimaparecuador.com/catalogo/\">catálogo en PDF</a>. La instalación en Quito y valles la ejecuta nuestro equipo técnico; a provincias coordinamos con técnicos aliados."
       ]
     },
     {
@@ -57,9 +105,17 @@
     {
       "h2": "4 postes y tijera: cuándo cambia la respuesta",
       "blocks": [
-        "El 4 postes existe casi exclusivamente para alineación: el vehículo sube rodando sobre plataformas niveladas, con platos giratorios adelante — la superficie de medición que la <a href=\"{{POST:alineadora-3d-cuando-invertir}}\">alineadora 3D</a> exige. Si tu proyecto incluye alineación, el <a href=\"https://www.dimaparecuador.com/producto/elevador-4-postes-para-alineacion-5ton-dk-50f4d/\">DK 50F4D</a> en $6.439 entra al presupuesto junto con la alineadora, no después.",
+        "El 4 postes existe casi exclusivamente para alineación: el vehículo sube rodando sobre plataformas niveladas, con platos giratorios adelante — la superficie que exige cualquier equipo de la categoría <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/alineadoras/\">alineadoras</a> — la superficie de medición que la <a href=\"{{POST:alineadora-3d-cuando-invertir}}\">alineadora 3D</a> exige. Si tu proyecto incluye alineación, el <a href=\"https://www.dimaparecuador.com/producto/elevador-4-postes-para-alineacion-5ton-dk-50f4d/\">DK 50F4D</a> en $6.439 entra al presupuesto junto con la alineadora, no después.",
         "La doble tijera como la <a href=\"https://www.dimaparecuador.com/producto/megalift-sxxd-35-hofmann/\">Megalift SXXD.35</a> es la opción sin postes: nada estorba alrededor del vehículo, las puertas abren completas y la estética del taller cambia. Se paga con gusto en tecnicentros de imagen — pensemos en los locales de González Suárez o Cumbayá donde el cliente ve el taller desde la sala de espera. Para el galpón de mecánica pesada de la Maldonado, el 2 postes hace lo mismo por la cuarta parte.",
         "Nuestra recomendación en contra: no compres elevador de parqueadero (los de apilar vehículos, como los Muth MPK que también manejamos) para hacer mecánica. Son máquinas de almacenamiento, sin la altura ni los brazos para trabajar debajo. Cada tanto alguien lo intenta por ahorrar; termina comprando el 2 postes igual, con el parqueador de sobra."
+      ]
+    },
+    {
+      "h2": "Los seguros: la parte que se revisa aunque parezca que no pasa nada",
+      "blocks": [
+        "Todo elevador serio tiene un sistema de trabas mecánicas que sostiene la carga aunque el sistema hidráulico o los cables fallen por completo. Se escuchan como un clic escalonado mientras el vehículo sube. Si tu elevador subió en silencio, algo está mal — y ese silencio es la señal que más veces hemos encontrado en máquinas que llevaban meses trabajando así.",
+        "La rutina es corta: subir el elevador vacío hasta arriba y bajarlo escuchando cada traba, revisar que los cables de sincronización no tengan hilos rotos, y verificar que los brazos giren y traben en posición sin juego. Diez minutos al mes.",
+        "Y una advertencia que vale por todo el artículo: nunca dejes un vehículo apoyado solo en la presión hidráulica durante trabajos largos. Se sube, se baja hasta apoyar en las trabas mecánicas, y ahí se trabaja. Los accidentes graves de elevador casi siempre tienen la misma frase detrás: «es un ratito nomás»."
       ]
     },
     {

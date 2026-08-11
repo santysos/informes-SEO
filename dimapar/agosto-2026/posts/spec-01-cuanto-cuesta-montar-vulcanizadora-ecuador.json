@@ -1,13 +1,22 @@
 {
   "title": "Cuánto cuesta montar una vulcanizadora en Ecuador: presupuesto real 2026",
   "slug": "cuanto-cuesta-montar-vulcanizadora-ecuador",
-  "status": "publish",
+  "status": "draft",
   "date": "2026-08-11T09:00:00",
   "category": "llanteras-y-vulcanizadoras",
-  "tags": ["vulcanizadora", "llantera", "besser", "hofmann", "equipos para taller", "emprender en Ecuador", "parches", "Quito"],
-  "excerpt": "Presupuesto real para montar una vulcanizadora en Ecuador en 2026: desmontadora desde $1.490, balanceadora desde $1.190, compresor, parches y cemento. Números de distribuidor, no estimados.",
+  "tags": [
+    "vulcanizadora",
+    "llantera",
+    "besser",
+    "hofmann",
+    "equipos para taller",
+    "emprender en Ecuador",
+    "parches",
+    "Quito"
+  ],
+  "excerpt": "Presupuesto real para abrir una vulcanizadora en Ecuador: desenllantadora desde $1.490, balanceadora desde $1.190, parches y cemento. Cifras de distribuidor.",
   "yoast_title": "Cuánto cuesta montar una vulcanizadora en Ecuador (2026)",
-  "yoast_desc": "Desmontadora $1.490, balanceadora $1.190, compresor $1.857: el presupuesto real, partida por partida, para abrir una vulcanizadora en Ecuador este año.",
+  "yoast_desc": "Desenllantadora $1.490, balanceadora $1.190, compresor $1.857: el presupuesto real, partida por partida, para abrir una vulcanizadora en Ecuador este año.",
   "focus_kw": "montar una vulcanizadora en Ecuador",
   "lead": [
     "Con $6.500 se abre una vulcanizadora básica en Ecuador. Con $9.000 se abre una que no tiene que rechazar trabajos. Esa es la respuesta corta, y sale de las facturas que emitimos cada semana desde nuestra bodega en la av. Maldonado, en Guamaní, al sur de Quito, a gente que está arrancando su primer local.",
@@ -17,8 +26,8 @@
     {
       "h2": "Las dos máquinas que definen el negocio",
       "blocks": [
-        "Una vulcanizadora vive de dos equipos: la desmontadora y la balanceadora. Todo lo demás se puede improvisar el primer mes; estas dos no, porque sin ellas no hay servicio que cobrar.",
-        "En desmontadoras, el punto de entrada serio es la <a href=\"https://www.dimaparecuador.com/producto/desmontadora-de-llantas-semi-automatica-besser-t2/\">Besser T2 semiautomática</a> en $1.490. Trabaja aros de 10 a 24 pulgadas, que cubre desde un Chevrolet Spark hasta una camioneta de trabajo. Si el local está en una zona de flujo pesado —pensemos en la Panamericana Sur a la altura de Machachi, donde paran camiones todo el día— conviene mirar de una vez la <a href=\"https://www.dimaparecuador.com/producto/desellantadora-besser-t2l/\">Besser T2L</a> en $2.100.",
+        "Una vulcanizadora vive de dos equipos: la <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/desmontadora/\">desenllantadora</a> y la <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/balanceadora/\">balanceadora</a>. Todo lo demás se puede improvisar el primer mes; estas dos no, porque sin ellas no hay servicio que cobrar.",
+        "En desenllantadoras, el punto de entrada serio es la <a href=\"https://www.dimaparecuador.com/producto/desmontadora-de-llantas-semi-automatica-besser-t2/\">Besser T2 semiautomática</a> en $1.490. Trabaja aros de 10 a 24 pulgadas, que cubre desde un Chevrolet Spark hasta una camioneta de trabajo. Si el local está en una zona de flujo pesado —pensemos en la Panamericana Sur a la altura de Machachi, donde paran camiones todo el día— conviene mirar de una vez la <a href=\"https://www.dimaparecuador.com/producto/desellantadora-besser-t2l/\">Besser T2L</a> en $2.100.",
         "En balanceadoras, la <a href=\"https://www.dimaparecuador.com/producto/balanceadora-besser/\">Besser B2P para livianos</a> cuesta $1.190 y es la que más vendemos para primeros locales. El salto siguiente es la <a href=\"https://www.dimaparecuador.com/producto/megaspin-220-hofmann/\">Hofmann Megaspin 220</a> en $3.022: más precisión, ciclo más rápido y una vida útil que en talleres de Quito hemos visto pasar de los diez años."
       ]
     },
@@ -27,31 +36,67 @@
       "blocks": [
         {
           "table": {
-            "head": ["Equipo", "Modelo de referencia", "Precio"],
+            "head": [
+              "Equipo",
+              "Modelo de referencia",
+              "Precio"
+            ],
             "rows": [
-              ["Desmontadora", "Besser T2 semiautomática", "$1.490"],
-              ["Balanceadora", "Besser B2P livianos", "$1.190"],
-              ["Compresor", "Schulz SCL 20.1", "$1.857"],
-              ["Gata lagarto 3 ton", "Thyson", "desde $120 según modelo"],
-              ["Prensa vulcanizadora eléctrica", "Muth, con control de temperatura", "consultar"],
-              ["Tablero inicial de parches", "FLX + XRP surtidos, unas 200 unidades", "$180 aprox."],
-              ["Cemento vulcanizante", "Vermar 1 litro", "$22"],
-              ["Herramienta menor", "llaves, martillo, pato de desmontadora", "$150 aprox."]
+              [
+                "Desenllantadora",
+                "Besser T2 semiautomática",
+                "$1.490"
+              ],
+              [
+                "Balanceadora",
+                "Besser B2P livianos",
+                "$1.190"
+              ],
+              [
+                "Compresor",
+                "Schulz SCL 20.1",
+                "$1.857"
+              ],
+              [
+                "Gata lagarto 3 ton",
+                "Thyson",
+                "desde $120 según modelo"
+              ],
+              [
+                "Prensa vulcanizadora eléctrica",
+                "Muth, con control de temperatura",
+                "consultar"
+              ],
+              [
+                "Tablero inicial de parches",
+                "FLX + XRP surtidos, unas 200 unidades",
+                "$180 aprox."
+              ],
+              [
+                "Cemento vulcanizante",
+                "Vermar 1 litro",
+                "$22"
+              ],
+              [
+                "Herramienta menor",
+                "llaves, martillo, pato de desenllantadora",
+                "$150 aprox."
+              ]
             ]
           }
         },
         "Sumado, el escenario básico queda entre $6.200 y $6.800 dependiendo de la prensa y de cuánta herramienta menor ya tengas. No incluye la adecuación del local ni el letrero, que en el sur de Quito suele agregar entre $800 y $1.500.",
-        "¿Y el escenario de $9.000? Es el mismo local pero con la desmontadora T2L y la Megaspin 220 en lugar de los modelos de entrada. La diferencia práctica: atiendes camionetas y furgonetas sin pelear con la máquina, y el balanceo te sale confiable a la primera, que es lo que hace que un cliente vuelva."
+        "¿Y el escenario de $9.000? Es el mismo local pero con la desenllantadora T2L y la Megaspin 220 en lugar de los modelos de entrada. La diferencia práctica: atiendes camionetas y furgonetas sin pelear con la máquina, y el balanceo te sale confiable a la primera, que es lo que hace que un cliente vuelva."
       ]
     },
     {
       "h2": "El margen está en el parche, no en el desmontaje",
       "blocks": [
         "Aquí va el dato que casi nadie saca antes de abrir: el desmontaje y montaje se cobra en Quito entre $2 y $4 por llanta, y de ahí hay que pagar luz, local y tiempo. El parchado es otra historia. Un <a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-14-cuadrado-azul-e-europeo/\">parche radial XRP-14</a> te cuesta $1,50, el cemento por reparación sale en centavos, y el servicio se cobra entre $6 y $10.",
-        "Ese margen es el que sostiene el negocio los primeros meses, mientras el balanceo y la venta de llantas agarran ritmo. Por eso el tablero de parches surtido no es un accesorio: es la partida con mejor retorno de toda la lista.",
+        "Ese margen es el que sostiene el negocio los primeros meses, mientras el balanceo y la venta de llantas agarran ritmo. Por eso el <a href=\"https://www.dimaparecuador.com/categoria-producto/consumibles/parches/\">tablero de parches surtido</a> no es un accesorio: es la partida con mejor retorno de toda la lista.",
         {
           "quote": {
-            "text": "El error clásico del que abre su primera vulcanizadora es gastarse todo en la desmontadora más grande y quedarse sin plata para el compresor bueno. La desmontadora sin aire constante no sirve de nada. Primero asegura el aire, después sube de máquina.",
+            "text": "El error clásico del que abre su primera vulcanizadora es gastarse todo en la desenllantadora más grande y quedarse sin plata para el compresor bueno. La desenllantadora sin aire constante no sirve de nada. Primero asegura el aire, después sube de máquina.",
             "cite": "Equipo técnico de Dimapar Ecuador"
           }
         }
@@ -69,7 +114,7 @@
       "blocks": [
         "Alineadora: no. Cuesta desde $7.900 y necesita volumen constante para justificarse; es compra del segundo año, cuando ya tienes clientela fija. Lo explicamos con números en la <a href=\"{{POST:alineadora-3d-cuando-invertir}}\">guía de alineadoras</a>.",
         "Elevador: tampoco, salvo que el plan incluya mecánica rápida desde el día uno. Para el trabajo de llantas la gata lagarto resuelve, y un elevador de dos postes serio parte de $2.402. Ese dinero, al inicio, rinde más en inventario de parches, en un segundo juego de contrapesas y en el letrero que hace que te vean desde la vía.",
-        "Máquina usada de origen dudoso: es la tentación más cara. Una desmontadora usada sin repuestos disponibles se convierte en chatarra con la primera pieza rota, y en Ecuador los repuestos de marcas sin representación tardan meses en llegar, si llegan. Las marcas que trabajamos —Besser, Hofmann, Muth— tienen repuesto y soporte local desde Quito, con envíos a Guayaquil, Cuenca, Manta y todo el país."
+        "Máquina usada de origen dudoso: es la tentación más cara. Una desenllantadora usada sin repuestos disponibles se convierte en chatarra con la primera pieza rota, y en Ecuador los repuestos de marcas sin representación tardan meses en llegar, si llegan. Las marcas que trabajamos —Besser, Hofmann, Muth— tienen repuesto y soporte local desde Quito, con envíos a Guayaquil, Cuenca, Manta y todo el país."
       ]
     },
     {
@@ -82,16 +127,16 @@
   ],
   "faq": [
     {
-      "q": "¿Puedo empezar solo con desmontadora, sin balanceadora?",
+      "q": "¿Puedo empezar solo con desenllantadora, sin balanceadora?",
       "a": "Se puede, pero pierdes la mitad del ticket. El cliente que monta llanta nueva casi siempre acepta el balanceo si se lo ofreces en el momento; si lo mandas a otro local, no regresa. La Besser B2P cuesta $1.190 y se paga sola con 30 balanceos al mes."
     },
     {
       "q": "¿Qué compresor necesita una vulcanizadora?",
-      "a": "Mínimo 2 HP con tanque de 100 litros para uso constante de desmontadora e infladora. El Schulz SCL 20.1 que manejamos en $1.857 es el estándar que recomendamos para un local con una sola desmontadora."
+      "a": "Mínimo 2 HP con tanque de 100 litros para uso constante de desenllantadora e infladora. El Schulz SCL 20.1 que manejamos en $1.857 es el estándar que recomendamos para un local con una sola desenllantadora."
     },
     {
       "q": "¿Venden a provincias o solo en Quito?",
-      "a": "Despachamos a todo el Ecuador desde la bodega de la av. Maldonado en Quito. Guayaquil, Cuenca, Manta y Ambato tienen frecuencia semanal de carga; el resto de ciudades se coordina por transportista. El flete de una desmontadora a Guayaquil ronda los $60-80."
+      "a": "Despachamos a todo el Ecuador desde la bodega de la av. Maldonado en Quito; los datos completos están en <a href=\"https://www.dimaparecuador.com/contacto/\">contacto</a>. Guayaquil, Cuenca, Manta y Ambato tienen frecuencia semanal de carga; el resto de ciudades se coordina por transportista. El flete de una desenllantadora a Guayaquil ronda los $60-80."
     },
     {
       "q": "¿Las máquinas vienen con garantía e instalación?",

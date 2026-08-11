@@ -1,11 +1,19 @@
 {
   "title": "Alineadora 3D: cuándo se justifica invertir entre $7.900 y $17.500 (con las cuentas hechas)",
   "slug": "alineadora-3d-cuando-invertir",
-  "status": "future",
+  "status": "draft",
   "date": "2026-08-19T09:00:00",
   "category": "guias-de-compra",
-  "tags": ["alineadora", "alineación 3d", "hofmann", "besser", "tecnicentro", "equipos para taller", "Quito"],
-  "excerpt": "Una alineadora 3D cuesta entre $7.900 y $17.500 en Ecuador. Con la alineación a $15-25, la cuenta de cuántos servicios diarios necesitas para que se pague sola — y las tres condiciones que deben cumplirse antes de comprarla.",
+  "tags": [
+    "alineadora",
+    "alineación 3d",
+    "hofmann",
+    "besser",
+    "tecnicentro",
+    "equipos para taller",
+    "Quito"
+  ],
+  "excerpt": "Una alineadora 3D cuesta de $7.900 a $17.500 en Ecuador. La cuenta de cuántos servicios diarios la pagan y las tres condiciones antes de comprarla.",
   "yoast_title": "Alineadora 3D: precios en Ecuador y cuándo invertir (2026)",
   "yoast_desc": "Besser M240 en $7.900, Hofmann Megaline desde $14.361. Cuántas alineaciones diarias pagan la máquina y qué necesita tu taller antes de dar el salto.",
   "focus_kw": "alineadora 3d",
@@ -19,23 +27,47 @@
       "blocks": [
         {
           "table": {
-            "head": ["Modelo", "Segmento", "Precio"],
+            "head": [
+              "Modelo",
+              "Segmento",
+              "Precio"
+            ],
             "rows": [
-              ["<a href=\"https://www.dimaparecuador.com/producto/alineadora-3d-m240-besser/\">Besser M240 3D</a>", "Livianos, entrada al 3D", "$7.900"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaline-logik-8-hofmann/\">Hofmann Megaline Logik 8</a>", "Livianos, gama profesional", "$14.361"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaline-2500/\">Hofmann Megaline 2500</a>", "Livianos, alto volumen", "$14.475"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-mega-logik8-truck/\">Hofmann Logik 8 Truck</a>", "Solo vehículo pesado", "$13.700"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-camiones-hybrid-8/\">Hofmann Hybrid 8</a>", "Autos y camiones en una máquina", "$17.500"]
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/alineadora-3d-m240-besser/\">Besser M240 3D</a>",
+                "Livianos, entrada al 3D",
+                "$7.900"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaline-logik-8-hofmann/\">Hofmann Megaline Logik 8</a>",
+                "Livianos, gama profesional",
+                "$14.361"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaline-2500/\">Hofmann Megaline 2500</a>",
+                "Livianos, alto volumen",
+                "$14.475"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-mega-logik8-truck/\">Hofmann Logik 8 Truck</a>",
+                "Solo vehículo pesado",
+                "$13.700"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-camiones-hybrid-8/\">Hofmann Hybrid 8</a>",
+                "Autos y camiones en una máquina",
+                "$17.500"
+              ]
             ]
           }
         },
-        "La diferencia entre la Besser de entrada y las Hofmann no está en la física —ambas miden con cámaras y targets 3D— sino en velocidad de medición, profundidad de la base de datos vehicular y robustez para operación continua. Un taller que alinea 4 vehículos al día vive bien con la M240; uno que alinea 12 necesita la Megaline."
+        "Las cinco están en la categoría de <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/alineadoras/\">alineadoras</a> de la tienda. La diferencia entre la Besser de entrada y las Hofmann no está en la física —ambas miden con cámaras y targets 3D— sino en velocidad de medición, profundidad de la base de datos vehicular y robustez para operación continua. Un taller que alinea 4 vehículos al día vive bien con la M240; uno que alinea 12 necesita la Megaline."
       ]
     },
     {
       "h2": "Las tres condiciones antes del cheque",
       "blocks": [
-        "Primera: superficie de trabajo. Una alineadora sin dónde subir el vehículo no mide nada. Necesitas rampa, fosa o elevador de 4 postes nivelado — el <a href=\"https://www.dimaparecuador.com/producto/elevador-4-postes-para-alineacion-5ton-dk-50f4d/\">Besser DK 50F4D de alineación</a> cuesta $6.439 y hay que sumarlo al presupuesto si no lo tienes. Es la mitad del costo del proyecto que casi nadie contempla en la primera cotización.",
+        "Primera: superficie de trabajo. Una alineadora sin dónde subir el vehículo no mide nada. Necesitas rampa, fosa o elevador de 4 postes nivelado — el <a href=\"https://www.dimaparecuador.com/producto/elevador-4-postes-para-alineacion-5ton-dk-50f4d/\">Besser DK 50F4D de alineación</a>, de la categoría <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/elevadores/\">elevadores</a>, cuesta $6.439 y hay que sumarlo al presupuesto si no lo tienes. Es la mitad del costo del proyecto que casi nadie contempla en la primera cotización.",
         "Segunda: alguien que interprete. La máquina entrega números; el técnico decide si el problema es de convergencia, de camber o de un terminal vencido que hay que cambiar antes de alinear. Alinear sobre suspensión dañada es maquillar el síntoma, y el cliente vuelve a quejarse con la alineación «recién hecha». El curso de operación está incluido en nuestra instalación, pero el criterio mecánico lo pone el taller.",
         "Tercera: el volumen, honestamente calculado. No el que te gustaría tener: el que pasa hoy por tu puerta. La referencia práctica está arriba — con 4 servicios diarios la máquina de entrada se paga en un año; con menos de 2, no la compres todavía."
       ]
@@ -47,7 +79,7 @@
           "ul": [
             "Ingreso: 4 alineaciones/día × $18 promedio × 26 días = $1.872 al mes.",
             "Espacio: la bahía de alineación ocupa unos 35 m² que dejan de servir para otra cosa.",
-            "Actualización de base de datos vehicular: anual, para que los modelos nuevos aparezcan con sus especificaciones.",
+            "Actualización de base de datos vehicular: anual, para que los modelos nuevos aparezcan con sus especificaciones. Las actualizaciones y manuales de las alineadoras Besser están en nuestra página de <a href=\"https://www.dimaparecuador.com/soporte/\">soporte</a>.",
             "Targets y garras: se golpean, se caen, se descalibran. Presupuesta repuestos como consumible lento.",
             "El combo natural: quien alinea, balancea. Si el cliente ya está en la bahía, el <a href=\"{{POST:balanceadora-de-llantas-cual-elegir}}\">balanceo</a> es venta cruzada casi automática y mejora todo el retorno del conjunto."
           ]

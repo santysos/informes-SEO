@@ -1,13 +1,21 @@
 {
   "title": "Equipar un taller de llantas para camiones en Ecuador: equipos, precios y el orden correcto",
   "slug": "equipar-taller-llantas-camiones",
-  "status": "future",
+  "status": "draft",
   "date": "2026-08-25T09:00:00",
   "category": "talleres-automotrices",
-  "tags": ["camiones", "vehículo pesado", "hofmann", "desmontadora de camión", "balanceadora de camión", "llantera", "flota"],
-  "excerpt": "El taller de llantas de camión factura distinto: menos clientes, tickets de $200 en adelante y equipos específicos. Desmontadora Megamount T32 en $9.014, balanceadora 3200P en $17.112 y el orden de compra que sí funciona.",
+  "tags": [
+    "camiones",
+    "vehículo pesado",
+    "hofmann",
+    "desenllantadora de camión",
+    "balanceadora de camión",
+    "llantera",
+    "flota"
+  ],
+  "excerpt": "Equipos para atender llantas de camión en Ecuador: desenllantadora T32 en $9.014, balanceadora 3200P en $17.112 y el orden de compra que funciona.",
   "yoast_title": "Taller de llantas para camiones: equipos y precios (Ecuador 2026)",
-  "yoast_desc": "Desmontadora de camión desde $9.014, balanceadora 3200P en $17.112, alineadora Truck en $13.700. Qué se necesita para atender pesados y en qué orden comprarlo.",
+  "yoast_desc": "Desenllantadora de camión desde $9.014, balanceadora 3200P en $17.112, alineadora Truck en $13.700. Qué se necesita para atender pesados y en qué orden comprarlo.",
   "focus_kw": "taller de llantas para camiones",
   "lead": [
     "Una llanta 295/80 R22.5 nueva cuesta entre $380 y $550. El camionero que la compra no discute $10 de montaje: discute el tiempo. Cada hora que su camión pasa parado en un taller es plata que no entra, y por eso el taller de pesados que trabaja rápido y sin dañar nada se queda con las flotas completas.",
@@ -17,7 +25,7 @@
     {
       "h2": "Por qué el equipo de livianos no sirve (y forzarlo sale caro)",
       "blocks": [
-        "La desmontadora de livianos llega hasta aro 24 y sujeta desde el borde con mordazas dimensionadas para llantas de 15 kilos. Una llanta de camión con aro pesa más de 100, monta en aro 22.5 y necesita presiones de destalonado que la máquina chica simplemente no genera.",
+        "La desenllantadora de livianos llega hasta aro 24 y sujeta desde el borde con mordazas dimensionadas para llantas de 15 kilos. Una llanta de camión con aro pesa más de 100, monta en aro 22.5 y necesita presiones de destalonado que la máquina chica simplemente no genera.",
         "Cada tanto encontramos talleres desmontando 22.5 a barreta y marro sobre el piso. Se puede — se ha hecho toda la vida — pero cada llanta toma 40 minutos de dos personas, los aros salen marcados y las cejas dañadas terminan en pérdidas de aire que el cliente descubre en la báscula de Panavial. El camionero que ve ese proceso una vez no regresa: su llanta vale $500 y el trato que recibe se lo cuenta a toda la cooperativa.",
         "Nuestra recomendación en contra es directa: no ofrezcas servicio de pesados hasta tener el equipo de pesados. Un solo aro de aluminio dañado — que en camión moderno cuesta $400-700 — se come el margen de un mes de montajes hechos a la fuerza."
       ]
@@ -27,30 +35,62 @@
       "blocks": [
         {
           "table": {
-            "head": ["Equipo", "Modelo", "Precio"],
+            "head": [
+              "Equipo",
+              "Modelo",
+              "Precio"
+            ],
             "rows": [
-              ["Desmontadora de camión", "<a href=\"https://www.dimaparecuador.com/producto/megamount-t32-hofmann/\">Hofmann Megamount T32</a> (aros 14-32\")", "$9.014"],
-              ["Balanceadora de pesados", "<a href=\"https://www.dimaparecuador.com/producto/megaspin-3200p-hofmann/\">Hofmann Megaspin 3200P</a>", "$17.112"],
-              ["Balanceadora mixta (moto a camión)", "<a href=\"https://www.dimaparecuador.com/producto/megaspin-250-hofmann/\">Hofmann Megaspin 250</a>", "$7.188"],
-              ["Alineadora de pesados", "<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-mega-logik8-truck/\">Hofmann Logik 8 Truck</a>", "$13.700"],
-              ["Alineadora mixta autos y camiones", "<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-camiones-hybrid-8/\">Hofmann Hybrid 8</a>", "$17.500"],
-              ["Gata lagarto 3 ton", "<a href=\"https://www.dimaparecuador.com/producto/gata-lagarto-de-3-ton-thyson/\">Thyson</a>", "consultar"],
-              ["Parches de sección BP-9/BP-10", "FLX goma gris", "$12,68 y $14,46"]
+              [
+                "Desenllantadora de camión",
+                "<a href=\"https://www.dimaparecuador.com/producto/megamount-t32-hofmann/\">Hofmann Megamount T32</a> (aros 14-32\")",
+                "$9.014"
+              ],
+              [
+                "Balanceadora de pesados",
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-3200p-hofmann/\">Hofmann Megaspin 3200P</a>",
+                "$17.112"
+              ],
+              [
+                "Balanceadora mixta (moto a camión)",
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-250-hofmann/\">Hofmann Megaspin 250</a>",
+                "$7.188"
+              ],
+              [
+                "Alineadora de pesados",
+                "<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-mega-logik8-truck/\">Hofmann Logik 8 Truck</a>",
+                "$13.700"
+              ],
+              [
+                "Alineadora mixta autos y camiones",
+                "<a href=\"https://www.dimaparecuador.com/producto/alineadora-hofmann-camiones-hybrid-8/\">Hofmann Hybrid 8</a>",
+                "$17.500"
+              ],
+              [
+                "Gata lagarto 3 ton",
+                "<a href=\"https://www.dimaparecuador.com/producto/gata-lagarto-de-3-ton-thyson/\">Thyson</a>",
+                "consultar"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/categoria-producto/consumibles/parches/\">Parches de sección BP-9/BP-10</a>",
+                "FLX goma gris",
+                "$12,68 y $14,46"
+              ]
             ]
           }
         },
-        "A esto se suma lo que un taller de pesados usa a diario y no aparece en las fichas: compresor de mayor caudal, jaula de inflado (una 22.5 inflando a 120 PSI fuera de jaula es el riesgo más serio del oficio), torquímetro de tuercas de rueda y <a href=\"https://www.dimaparecuador.com/producto/prensa-vulcanizadora/\">prensa vulcanizadora</a> para reparaciones en caliente."
+        "Las fichas completas están en la categoría de <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/\">maquinaria</a> de la tienda. A esto se suma lo que un taller de pesados usa a diario y no aparece en las fichas: compresor de mayor caudal, <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/otros-equipos/\">jaula de inflado</a> (una 22.5 inflando a 120 PSI fuera de jaula es el riesgo más serio del oficio), torquímetro de tuercas de rueda y <a href=\"https://www.dimaparecuador.com/producto/prensa-vulcanizadora/\">prensa vulcanizadora</a> para reparaciones en caliente."
       ]
     },
     {
       "h2": "El orden de compra que funciona",
       "blocks": [
-        "Primero la desmontadora. Es la máquina que abre el negocio: con la <a href=\"https://www.dimaparecuador.com/producto/megamount-t32-hofmann/\">T32</a> y un buen tablero de parches ya vendes montaje, rotación y reparación, que es donde está el flujo diario de un taller de carretera.",
-        "Segundo el balanceo. En pesados no es un lujo: una llanta delantera desbalanceada en un cabezal se come la vida del neumático y cansa al conductor en la ruta Quito-Guayaquil. La decisión entre la <a href=\"https://www.dimaparecuador.com/producto/megaspin-250-hofmann/\">mixta 250</a> y la <a href=\"https://www.dimaparecuador.com/producto/megaspin-3200p-hofmann/\">3200P dedicada</a> depende de si también atiendes livianos — el detalle está en la <a href=\"{{POST:balanceadora-de-llantas-cual-elegir}}\">guía de balanceadoras</a>.",
+        "Primero la desenllantadora. Es la máquina que abre el negocio: con la <a href=\"https://www.dimaparecuador.com/producto/megamount-t32-hofmann/\">T32</a> y un buen tablero de parches ya vendes montaje, rotación y reparación, que es donde está el flujo diario de un taller de carretera.",
+        "Segundo el balanceo. En pesados no es un lujo: una llanta delantera desbalanceada en un cabezal se come la vida de la llanta y cansa al conductor en la ruta Quito-Guayaquil. La decisión entre la <a href=\"https://www.dimaparecuador.com/producto/megaspin-250-hofmann/\">mixta 250</a> y la <a href=\"https://www.dimaparecuador.com/producto/megaspin-3200p-hofmann/\">3200P dedicada</a> depende de si también atiendes livianos — el detalle está en la <a href=\"{{POST:balanceadora-de-llantas-cual-elegir}}\">guía de balanceadoras</a>.",
         "Tercero, y solo con flotas comprometidas, la alineación. La <a href=\"{{POST:alineadora-3d-cuando-invertir}}\">cuenta de la alineadora</a> en pesados cierra rápido porque el servicio se cobra $40-80, pero exige espacio de bahía que un cabezal con remolque convierte en 20 metros lineales. Ese metro cuadrado es la restricción real en la mayoría de locales.",
         {
           "quote": {
-            "text": "Al que arranca con pesados le decimos siempre lo mismo: tu primer cliente no es el camión, es la flota. Consigue dos o tres empresas de transporte que te den sus unidades — con eso la desmontadora se paga sola — y recién ahí hablamos de alineadora. Al revés no funciona: la máquina parada no trae flotas.",
+            "text": "Al que arranca con pesados le decimos siempre lo mismo: tu primer cliente no es el camión, es la flota. Consigue dos o tres empresas de transporte que te den sus unidades — con eso la desenllantadora se paga sola — y recién ahí hablamos de alineadora. Al revés no funciona: la máquina parada no trae flotas.",
             "cite": "Equipo técnico de Dimapar Ecuador"
           }
         }
@@ -64,10 +104,19 @@
       ]
     },
     {
+      "h2": "Rotación y presión: los dos servicios que fidelizan flotas",
+      "blocks": [
+        "El taller de pesados que solo monta llantas compite por precio. El que lleva control de rotación y presión se vuelve parte de la operación del transportista, y eso ya no se cambia por dos dólares de diferencia.",
+        "La rotación en un cabezal con semirremolque sigue un orden: las direccionales van adelante hasta cierto desgaste, luego pasan a posiciones de arrastre y terminan en el remolque. Llevar esa ficha por unidad —qué llanta está en qué posición, con cuántos milímetros de labrado— le alarga la vida al juego completo y le ahorra miles de dólares al año a una flota de diez camiones.",
+        "La presión es el otro frente, y es donde más plata se pierde en Ecuador. Una llanta de carga rodando con 20 % menos de presión de la especificada se calienta, desgasta los hombros y puede terminar en un reventón en la bajada de la Alóag. Un manómetro confiable y la disciplina de revisar en frío —antes de que el camión salga, no después de 200 kilómetros— valen más que cualquier equipo caro del taller.",
+        "Ese es el argumento comercial con el que se entra a una flota: no «le monto la llanta más barato», sino «le llevo la ficha de sus 40 posiciones y le aviso cuándo rotar». El equipo lo compras una vez; ese servicio es el que te renueva el contrato cada año."
+      ]
+    },
+    {
       "h2": "Los números del servicio",
       "blocks": [
         "Referencias de precio de calle en 2026 para pesados: montaje y desmontaje de 22.5, $8-15 por posición; parchado radial de camión, $15-30 según daño; reparación de sección en caliente, $40-80; balanceo de direccionales, $10-15 por llanta; alineación de cabezal, $40-80.",
-        "Un taller de corredor que mueva 10 posiciones de montaje, 4 reparaciones y 4 balanceos al día factura alrededor de $180-250 diarios con dos técnicos. La desmontadora de $9.014 se recupera en el primer año solo con montajes — la reparación y el balanceo son el margen encima. Son mejores números que los de livianos, con una condición: el equipo correcto desde el día uno, porque en este segmento la segunda oportunidad no existe."
+        "Un taller de corredor que mueva 10 posiciones de montaje, 4 reparaciones y 4 balanceos al día factura alrededor de $180-250 diarios con dos técnicos. La desenllantadora de $9.014 se recupera en el primer año solo con montajes — la reparación y el balanceo son el margen encima. Son mejores números que los de livianos, con una condición: el equipo correcto desde el día uno, porque en este segmento la segunda oportunidad no existe."
       ]
     }
   ],
@@ -85,7 +134,7 @@
       "a": "Sí. Despachamos e instalamos en todo el país: los equipos de pesados van con puesta en marcha coordinada, y damos soporte en los ejes de Guayaquil, Cuenca, Manta y Ambato con técnicos propios o aliados."
     },
     {
-      "q": "¿Qué compresor necesita una desmontadora de camión?",
+      "q": "¿Qué compresor necesita una desenllantadora de camión?",
       "a": "Mínimo 3 HP con tanque de 200 litros o más, porque el destalonado de una 22.5 consume aire en ráfagas largas y un tanque chico obliga a esperar entre llantas. Si el mismo compresor alimenta pistolas de impacto de una pulgada, mejor quedarse en 5 HP."
     },
     {
@@ -93,5 +142,5 @@
       "a": "Manejamos condiciones por paquete cuando se llevan dos o más equipos grandes. Escríbenos con los equipos que te interesan y te pasamos las opciones vigentes."
     }
   ],
-  "cta": "Si estás armando o ampliando un taller de pesados, escríbenos por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20equipar%20un%20taller%20de%20llantas%20para%20camiones%20en%20__\">WhatsApp al 096 866 3866</a> con tu ciudad y los servicios que planeas dar. Te cotizamos el paquete en el orden correcto de compra — desmontadora primero, lo demás cuando el flujo lo pida."
+  "cta": "Si estás armando o ampliando un taller de pesados, escríbenos por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20equipar%20un%20taller%20de%20llantas%20para%20camiones%20en%20__\">WhatsApp al 096 866 3866</a> con tu ciudad y los servicios que planeas dar. Te cotizamos el paquete en el orden correcto de compra — desenllantadora primero, lo demás cuando el flujo lo pida."
 }

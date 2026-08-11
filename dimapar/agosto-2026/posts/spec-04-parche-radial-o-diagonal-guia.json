@@ -1,17 +1,25 @@
 {
   "title": "Parche radial o diagonal: cuál usar en cada daño, con precios por unidad",
   "slug": "parche-radial-o-diagonal-guia",
-  "status": "future",
+  "status": "draft",
   "date": "2026-08-15T09:00:00",
   "category": "llanteras-y-vulcanizadoras",
-  "tags": ["parches", "vulcanizadora", "reparación de llantas", "vermar", "llantera", "parche radial", "parche diagonal"],
-  "excerpt": "Guía de parches para vulcanizadora: radiales XRP desde $1,15, diagonales BP desde $0,28, VBR económicos. Cómo elegir por tipo de daño y por qué el parche equivocado devuelve la llanta reventada.",
+  "tags": [
+    "parches",
+    "vulcanizadora",
+    "reparación de llantas",
+    "vermar",
+    "llantera",
+    "parche radial",
+    "parche diagonal"
+  ],
+  "excerpt": "Parches radiales XRP desde $1,15 y diagonales BP desde $0,28: cuál va en cada daño, cuánto rinde un tablero y qué llanta ya no se repara. Guía completa.",
   "yoast_title": "Parche radial o diagonal: guía con precios (Ecuador 2026)",
   "yoast_desc": "Parches radiales XRP desde $1,15 y diagonales BP desde $0,28. Qué parche va en cada daño, cuánto rinde un tablero y cuándo la llanta ya no se repara.",
   "focus_kw": "parche radial o diagonal",
   "lead": [
     "Un parche mal elegido no falla en el taller: falla a 90 km/h en la Panamericana, tres semanas después, y el cliente vuelve furioso — si vuelve. La diferencia entre el parche correcto y el equivocado cuesta centavos, así que este es uno de esos temas donde saber vale más que gastar.",
-    "Distribuimos parches a vulcanizadoras de todo el Ecuador desde Quito, en volúmenes que van del tablero inicial de 200 unidades a pedidos mensuales de talleres de flota. Esta guía resume lo que le explicamos a cada cliente nuevo: qué parche va en qué llanta, qué daño se repara y cuál no, y los precios unitarios exactos."
+    "Distribuimos <a href=\"https://www.dimaparecuador.com/categoria-producto/consumibles/parches/\">parches</a> a vulcanizadoras de todo el Ecuador desde Quito, en volúmenes que van del tablero inicial de 200 unidades a pedidos mensuales de talleres de flota. Esta guía resume lo que le explicamos a cada cliente nuevo: qué parche va en qué llanta, qué daño se repara y cuál no, y los precios unitarios exactos."
   ],
   "sections": [
     {
@@ -26,14 +34,42 @@
       "blocks": [
         {
           "table": {
-            "head": ["Parche", "Uso típico", "Precio unitario"],
+            "head": [
+              "Parche",
+              "Uso típico",
+              "Precio unitario"
+            ],
             "rows": [
-              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-12-azul-e-europeo/\">XRP-12 azul</a>", "Perforación pequeña en banda de rodadura", "$1,15"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-14-cuadrado-azul-e-europeo/\">XRP-14 cuadrado</a>", "Daño mediano en banda", "$1,50"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-35-azul-e-europeo/\">XRP-35 azul</a>", "Daño grande, llanta de camioneta", "$4,25"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-40-azul-e-europeo/\">XRP-40 azul</a>", "Daño grande, refuerzo mayor", "$4,50"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-vbr-25-eco-radial/\">VBR-25 eco</a>", "Línea económica, daño mediano", "$3,52"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-vbr-35-eco-radial/\">VBR-35 eco</a>", "Línea económica, daño grande", "$4,25"]
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-12-azul-e-europeo/\">XRP-12 azul</a>",
+                "Perforación pequeña en banda de rodadura",
+                "$1,15"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-14-cuadrado-azul-e-europeo/\">XRP-14 cuadrado</a>",
+                "Daño mediano en banda",
+                "$1,50"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-35-azul-e-europeo/\">XRP-35 azul</a>",
+                "Daño grande, llanta de camioneta",
+                "$4,25"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-40-azul-e-europeo/\">XRP-40 azul</a>",
+                "Daño grande, refuerzo mayor",
+                "$4,50"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/parche-radial-vbr-25-eco-radial/\">VBR-25 eco</a>",
+                "Línea económica, daño mediano",
+                "$3,52"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/parche-radial-vbr-35-eco-radial/\">VBR-35 eco</a>",
+                "Línea económica, daño grande",
+                "$4,25"
+              ]
             ]
           }
         },
@@ -48,6 +84,14 @@
       ]
     },
     {
+      "h2": "Los tres refuerzos: por qué un parche cuesta $1,15 y otro $4,50",
+      "blocks": [
+        "La diferencia de precio entre un XRP-12 y un XRP-40 no está en el tamaño de la goma: está en el refuerzo interno. El parche lleva una malla de fibras orientadas que reemplaza el trabajo estructural que hacían las cuerdas cortadas de la carcasa. Más grande el daño, más cuerdas cortadas, más refuerzo hace falta.",
+        "Por eso el criterio de selección nunca es «cuál me alcanza a tapar». Un parche pequeño estirado sobre un daño grande tapa el aire pero no reemplaza la estructura, y la zona flexiona distinto al resto de la llanta hasta que se abre. El costo de subir un número de parche es de uno o dos dólares; el costo de quedarse corto es una llanta perdida y un cliente que cuenta la historia.",
+        "La línea VBR económica tiene menos refuerzo que la XRP azul europea al mismo tamaño, y esa es la razón honesta de su precio. Sirve para el cliente que pide precio en una llanta que ya está a mitad de vida; no la pongas en una llanta nueva de $180 ni en un vehículo que hace carretera todos los días."
+      ]
+    },
+    {
       "h2": "Lo que no se parcha, se rechaza",
       "blocks": [
         "Un buen vulcanizador rechaza trabajos, y eso es parte del oficio. No se repara con parche común: daño en el flanco o en la ceja (la flexión ahí destruye cualquier reparación), cortes mayores a 6 mm en llanta de pasajero, llantas con la carcasa separada o rodadas sin aire varios kilómetros, y perforaciones múltiples muy cercanas entre sí.",
@@ -57,7 +101,7 @@
             "cite": "Equipo técnico de Dimapar Ecuador"
           }
         },
-        "Para el daño de flanco en llanta de camión existe la reparación con vulcanizado en caliente y parche de sección, que es otro proceso, con <a href=\"https://www.dimaparecuador.com/producto/prensa-vulcanizadora/\">prensa vulcanizadora eléctrica</a> y criterio de reencauchadora. Si tu volumen de camión lo amerita, conversemos de ese equipo aparte."
+        "Para el daño de flanco en llanta de camión existe la reparación con vulcanizado en caliente, con equipo de la categoría <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/otros-equipos/\">otros equipos</a> y parche de sección, que es otro proceso, con <a href=\"https://www.dimaparecuador.com/producto/prensa-vulcanizadora/\">prensa vulcanizadora eléctrica</a> y criterio de reencauchadora. Si tu volumen de camión lo amerita, conversemos de ese equipo aparte."
       ]
     },
     {
@@ -77,7 +121,7 @@
             "30 unidades XRP-35/40 para camionetas, que en Ecuador son flota de trabajo",
             "40 unidades BP-1 a BP-3 para carretillas, moto y convencional vieja",
             "20 unidades VBR eco para el cliente que pide precio",
-            "Cemento Vermar de 1 litro y rodillo estitcher — sin rodillo no hay adherencia pareja"
+            "<a href=\"https://www.dimaparecuador.com/categoria-producto/cementos-quimicos/\">Cemento Vermar</a> de 1 litro y rodillo estitcher — sin rodillo no hay adherencia pareja"
           ]
         },
         "Ese tablero cuesta alrededor de $180 y rinde entre 6 y 8 semanas de trabajo típico. El cemento tiene su propia ciencia y sus propios errores caros: los detallamos en la <a href=\"{{POST:cemento-vulcanizante-rendimiento-errores}}\">guía del cemento vulcanizante</a>."

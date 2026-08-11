@@ -1,11 +1,19 @@
 {
   "title": "Balanceadora de llantas: cuál comprar según las llantas que mueve tu taller",
   "slug": "balanceadora-de-llantas-cual-elegir",
-  "status": "publish",
+  "status": "draft",
   "date": "2026-08-11T11:00:00",
   "category": "guias-de-compra",
-  "tags": ["balanceadora", "hofmann", "besser", "equipos para taller", "llantera", "balanceo", "Quito"],
-  "excerpt": "Cinco balanceadoras entre $1.190 y $17.112 y una sola pregunta que decide cuál te toca: cuántas llantas balancea tu taller al día. Guía con precios reales de distribuidor en Ecuador.",
+  "tags": [
+    "balanceadora",
+    "hofmann",
+    "besser",
+    "equipos para taller",
+    "llantera",
+    "balanceo",
+    "Quito"
+  ],
+  "excerpt": "De la Besser B2P en $1.190 a la Hofmann Megaspin 3200P en $17.112: qué balanceadora corresponde al volumen real de llantas de tu taller. Con precios.",
   "yoast_title": "Balanceadora de llantas: cuál comprar en Ecuador (precios 2026)",
   "yoast_desc": "De la Besser B2P en $1.190 a la Hofmann Megaspin 3200P de camión en $17.112: qué balanceadora corresponde a tu volumen de trabajo, con precios reales.",
   "focus_kw": "balanceadora de llantas",
@@ -19,18 +27,46 @@
       "blocks": [
         {
           "table": {
-            "head": ["Modelo", "Para qué taller", "Precio"],
+            "head": [
+              "Modelo",
+              "Para qué taller",
+              "Precio"
+            ],
             "rows": [
-              ["<a href=\"https://www.dimaparecuador.com/producto/balanceadora-besser/\">Besser B2P</a>", "Vulcanizadora que arranca, hasta 10 llantas/día", "$1.190"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaspin-220-hofmann/\">Hofmann Megaspin 220</a>", "Llantera establecida, 10-25 llantas/día", "$3.022"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaspin-220v-hofmann/\">Hofmann Megaspin 220V</a>", "Igual que la 220, con pantalla y programas de aro", "$4.710"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaspin-610-hofmann/\">Hofmann Megaspin 610</a>", "Tecnicentro de volumen, entrada automática de datos", "$7.643"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaspin-250-hofmann/\">Hofmann Megaspin 250</a>", "Mixta: motos, autos y camiones en una sola máquina", "$7.188"],
-              ["<a href=\"https://www.dimaparecuador.com/producto/megaspin-3200p-hofmann/\">Hofmann Megaspin 3200P</a>", "Camiones y buses, uso intensivo", "$17.112"]
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/balanceadora-besser/\">Besser B2P</a>",
+                "Vulcanizadora que arranca, hasta 10 llantas/día",
+                "$1.190"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-220-hofmann/\">Hofmann Megaspin 220</a>",
+                "Llantera establecida, 10-25 llantas/día",
+                "$3.022"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-220v-hofmann/\">Hofmann Megaspin 220V</a>",
+                "Igual que la 220, con pantalla y programas de aro",
+                "$4.710"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-610-hofmann/\">Hofmann Megaspin 610</a>",
+                "Tecnicentro de volumen, entrada automática de datos",
+                "$7.643"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-250-hofmann/\">Hofmann Megaspin 250</a>",
+                "Mixta: motos, autos y camiones en una sola máquina",
+                "$7.188"
+              ],
+              [
+                "<a href=\"https://www.dimaparecuador.com/producto/megaspin-3200p-hofmann/\">Hofmann Megaspin 3200P</a>",
+                "Camiones y buses, uso intensivo",
+                "$17.112"
+              ]
             ]
           }
         },
-        "Los precios son de agosto de 2026 e incluyen el juego de conos estándar. Todos los modelos tienen repuestos en Ecuador — un detalle que parece menor hasta que se rompe algo."
+        "Los precios son de agosto de 2026 e incluyen el juego de conos estándar. El catálogo completo de <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/balanceadora/\">balanceadoras</a> está en la tienda. Todos los modelos tienen repuestos en Ecuador — un detalle que parece menor hasta que se rompe algo. El resto del equipamiento está en la categoría de <a href=\"https://www.dimaparecuador.com/categoria-producto/maquinaria/\">maquinaria</a>."
       ]
     },
     {
@@ -98,7 +134,7 @@
     },
     {
       "q": "¿Hacen demostración antes de comprar?",
-      "a": "Sí. En la bodega de la av. Maldonado S59-100, en Guamaní, tenemos máquinas funcionando. Trae una llanta con aro si quieres: la balanceamos frente a ti en el modelo que estés considerando."
+      "a": "Sí. En la bodega de la av. Maldonado S59-100, en Guamaní, tenemos máquinas funcionando. Trae una llanta con aro si quieres: la balanceamos frente a ti en el modelo que estés considerando. El horario y el mapa están en la <a href=\"https://www.dimaparecuador.com/contacto/\">página de contacto</a>."
     }
   ],
   "cta": "Dinos por <a href=\"https://wa.me/593968663866?text=Hola%2C%20balanceo%20unas%20__%20llantas%20al%20d%C3%ADa%20y%20quiero%20saber%20qu%C3%A9%20balanceadora%20me%20conviene\">WhatsApp al 096 866 3866</a> cuántas llantas mueves al día y qué tipo de vehículo atiendes. Con esos dos datos te respondemos el mismo día qué modelo te corresponde — incluido el caso en que la respuesta sea «quédate con la que tienes»."
