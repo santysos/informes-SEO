@@ -1,6 +1,6 @@
 # CLAUDE.md — Repositorio informes-SEO
 
-Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-05-28.
+Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-08-10.
 
 ---
 
@@ -122,6 +122,31 @@ Distribuidor B2B de equipos industriales y herramientas para talleres automotric
 - Guía de reunión (uso interno): `/Users/creativeweb/Downloads/guia-reunion-cotacachi.html`
 - Brief al otro Claude: `/Users/creativeweb/Downloads/intag-trail-app-context.md`
 
+### 5. Mattco — sistema de control de combustible (proforma julio 2026)
+
+Sistema web para control de combustible + peajes + viajes La Favorita. 3 módulos: M1 Combustible con lectura de tickets por IA ($700), M2 Peajes prepago ($150), M3 Viajes cabezal-Favorita ($350). Dos razones sociales (RUCs del ticket). Control antirrobo por saldo del tanquero (110 gal, no siempre a full).
+
+**Números finales de la proforma:**
+- Desarrollo: **$1.200 + IVA** (60% anticipo $720 / 40% entrega $480). Entrega 2-3 semanas.
+- Mensual desde mes 2: **$35 + IVA** (servidor $12 / IA $8 / dominio $2 / soporte $13). Opción anual: **$350/año** (2 meses gratis).
+- Compatible con celular, tablet y computadora (NO decir "app instalable"). NO mencionar funcionalidad offline ni manuales en video.
+- Incluye sección de experiencia: Quipuy (facturación SRI), SRIFlow (descarga comprobantes SRI, usuaria Leticia Merlo), Motrix (FisioVida), Dentilab (Odontología Life), +60 sitios web.
+- OCR de tickets: Claude API claude-opus-5 con structured outputs, ~$0,019/ticket.
+- Pendiente: nombre de contacto + lista de peajes. Logo en `mattco/proforma-julio-2026/assets/logo-mattco.png`.
+
+### 6. Chavarrea-Merlo — página web para nueva empresa contable (proforma agosto 2026)
+
+Magui Chavarrea y **Leticia Merlo** (ya es usuaria de SRIFlow — usar como rompehielos en reunión): dos contadoras que se unen para ofrecer declaraciones en línea a todo el Ecuador. **La empresa aún no tiene nombre** — ellas lo eligen (no ofrecer ayuda de naming); el nombre es el primer insumo del cronograma.
+
+**Números finales de la proforma:**
+- Desarrollo web: **$680 tachado → $500 + IVA** ("precio especial de lanzamiento"). Pago 60/40: $300 al empezar / $200 a la entrega.
+- Incluido 1 año: dominio, hosting, responsive, correos corporativos (ejemplos `magui@suempresa.com` / `lety@suempresa.com`), formularios + WhatsApp, SEO inicial, soporte.
+- Regalo: logotipo + manual de marca ($200 tachado → $0).
+- Renovación año 2: dominio $21,99 + hosting $120,00 = **$141,99/año** ("menos de $12 al mes").
+- Opcional: plan SEO 6 meses — **$600 + IVA un solo pago** o **$150/mes + IVA** (+20 artículos/mes, +120 al final). ⚠️ Mismo precio que Dikapsa pero allá son 4 artículos/mes.
+- Entrega: 3-4 semanas desde que entreguen nombre, fotos y lista de servicios.
+- **Lenguaje 100 % no técnico** (dominio = "dirección de su oficina en internet", hosting = "el local que la mantiene abierta 24h"). Paleta azul marino `#0a1828`/`#16324f` + dorado `#d4af37`/`#e9c95c`.
+
 ---
 
 ## Stack técnico
@@ -182,9 +207,13 @@ informes-SEO/
 │       ├── build_elementor.py        # Inyecta _elementor_data vía REST
 │       ├── wp-plugin/dimapar-rest-meta.php  # mu-plugin (ya subido a sitio)
 │       └── audit/                    # Scripts inventario WC + análisis técnico
-└── cotacachi/
-    ├── proforma/                     # Proforma SaaS Intag Trail (login Cotacachi-2026)
-    └── presentacion/                 # Deck HTML público para reunión
+├── cotacachi/
+│   ├── proforma/                     # Proforma SaaS Intag Trail (login Cotacachi-2026)
+│   └── presentacion/                 # Deck HTML público para reunión
+├── mattco/
+│   └── proforma-julio-2026/          # Proforma sistema combustible (login Mattco-2026)
+└── chavarrea-merlo/
+    └── proforma-agosto-2026/         # Proforma web contadoras (login Contadoras-2026)
 ```
 
 ### Entregables en vivo (resumen por cliente)
@@ -198,6 +227,8 @@ informes-SEO/
 | Dimapar | Preview rediseño home | `creativeweb.com.ec/informes/dimapar/redesign/` | sin login |
 | Cotacachi | Proforma SaaS Intag Trail | `creativeweb.com.ec/informes/cotacachi/proforma/` | `Cotacachi-2026` |
 | Cotacachi | Deck de presentación | `creativeweb.com.ec/informes/cotacachi/presentacion/` | sin login |
+| Mattco | Proforma sistema combustible | `creativeweb.com.ec/informes/mattco/proforma-julio-2026/` | `Mattco-2026` |
+| Chavarrea-Merlo | Proforma página web | `creativeweb.com.ec/informes/chavarrea-merlo/proforma-agosto-2026/` | `Contadoras-2026` |
 
 **Patrón de proforma/informe protegido con login (PHP):**
 - `login.php` con form POST a sí mismo, valida clave hardcoded, setea `$_SESSION['auth_xxx'] = true`, redirige a `index.php`
