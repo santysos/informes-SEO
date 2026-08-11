@@ -1,0 +1,110 @@
+{
+  "title": "Parche radial o diagonal: cuál usar en cada daño, con precios por unidad",
+  "slug": "parche-radial-o-diagonal-guia",
+  "status": "future",
+  "date": "2026-08-15T09:00:00",
+  "category": "llanteras-y-vulcanizadoras",
+  "tags": ["parches", "vulcanizadora", "reparación de llantas", "vermar", "llantera", "parche radial", "parche diagonal"],
+  "excerpt": "Guía de parches para vulcanizadora: radiales XRP desde $1,15, diagonales BP desde $0,28, VBR económicos. Cómo elegir por tipo de daño y por qué el parche equivocado devuelve la llanta reventada.",
+  "yoast_title": "Parche radial o diagonal: guía con precios (Ecuador 2026)",
+  "yoast_desc": "Parches radiales XRP desde $1,15 y diagonales BP desde $0,28. Qué parche va en cada daño, cuánto rinde un tablero y cuándo la llanta ya no se repara.",
+  "focus_kw": "parche radial o diagonal",
+  "lead": [
+    "Un parche mal elegido no falla en el taller: falla a 90 km/h en la Panamericana, tres semanas después, y el cliente vuelve furioso — si vuelve. La diferencia entre el parche correcto y el equivocado cuesta centavos, así que este es uno de esos temas donde saber vale más que gastar.",
+    "Distribuimos parches a vulcanizadoras de todo el Ecuador desde Quito, en volúmenes que van del tablero inicial de 200 unidades a pedidos mensuales de talleres de flota. Esta guía resume lo que le explicamos a cada cliente nuevo: qué parche va en qué llanta, qué daño se repara y cuál no, y los precios unitarios exactos."
+  ],
+  "sections": [
+    {
+      "h2": "Primero: la carcasa manda",
+      "blocks": [
+        "La llanta radial tiene las cuerdas de la carcasa en arcos perpendiculares al sentido de giro; la diagonal (o convencional) las cruza en ángulo. El parche tiene que acompañar esa estructura: los radiales llevan refuerzos orientados que trabajan con la flexión de la carcasa, los diagonales tienen construcción cruzada.",
+        "Poner parche diagonal en llanta radial es la falla más común que vemos en llantas que llegan reventadas a los talleres que atendemos. El parche no acompaña la flexión, se despega por los bordes, la cámara de aire encuentra el camino y la llanta muere en la vía. En auto y camioneta moderna, prácticamente todo es radial. La diagonal sobrevive en carretillas, maquinaria agrícola y camiones viejos."
+      ]
+    },
+    {
+      "h2": "Los radiales XRP y VBR: precios por unidad",
+      "blocks": [
+        {
+          "table": {
+            "head": ["Parche", "Uso típico", "Precio unitario"],
+            "rows": [
+              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-12-azul-e-europeo/\">XRP-12 azul</a>", "Perforación pequeña en banda de rodadura", "$1,15"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-14-cuadrado-azul-e-europeo/\">XRP-14 cuadrado</a>", "Daño mediano en banda", "$1,50"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-35-azul-e-europeo/\">XRP-35 azul</a>", "Daño grande, llanta de camioneta", "$4,25"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-xrp-40-azul-e-europeo/\">XRP-40 azul</a>", "Daño grande, refuerzo mayor", "$4,50"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-vbr-25-eco-radial/\">VBR-25 eco</a>", "Línea económica, daño mediano", "$3,52"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/parche-radial-vbr-35-eco-radial/\">VBR-35 eco</a>", "Línea económica, daño grande", "$4,25"]
+            ]
+          }
+        },
+        "El servicio de parchado radial se cobra en Quito entre $6 y $10 según zona y tamaño. Con el parche a $1,50 y el cemento en centavos, el margen por reparación pasa del 70 % — por eso decimos en la <a href=\"{{POST:cuanto-cuesta-montar-vulcanizadora-ecuador}}\">guía para montar una vulcanizadora</a> que el parche es el corazón del negocio, no el desmontaje."
+      ]
+    },
+    {
+      "h2": "Los diagonales BP: del BP-0 al BP-10",
+      "blocks": [
+        "La línea BP FLX en goma gris escala por tamaño de daño: <a href=\"https://www.dimaparecuador.com/producto/parche-diagonal-bp-0-flx-goma-gris/\">BP-0 en $0,28</a>, BP-1 en $0,34, BP-2 en $0,67, <a href=\"https://www.dimaparecuador.com/producto/parche-diagonal-bp-3-flx-goma-gris/\">BP-3 en $1,09</a>, BP-4 en $1,65, BP-5 en $2,57, <a href=\"https://www.dimaparecuador.com/producto/parche-diaonal-bp-7-flx-goma-gris/\">BP-7 en $5,89</a>, hasta BP-9 y BP-10 ($12,68 y $14,46) para daños grandes en llantas de camión y maquinaria.",
+        "Regla de taller: el parche debe cubrir el daño con margen de al menos una vez y media el diámetro de la rotura hacia cada lado. Si estás entre dos tamaños, va el grande. El ahorro de $0,80 por bajar de tamaño no existe: es un reclamo en potencia."
+      ]
+    },
+    {
+      "h2": "Lo que no se parcha, se rechaza",
+      "blocks": [
+        "Un buen vulcanizador rechaza trabajos, y eso es parte del oficio. No se repara con parche común: daño en el flanco o en la ceja (la flexión ahí destruye cualquier reparación), cortes mayores a 6 mm en llanta de pasajero, llantas con la carcasa separada o rodadas sin aire varios kilómetros, y perforaciones múltiples muy cercanas entre sí.",
+        {
+          "quote": {
+            "text": "Al taller que le enseñas a decir que no, le va mejor. Una llanta de flanco roto parchada aguanta semanas y revienta cargada en plena Simón Bolívar. El cliente al que le dijiste «esta llanta ya fue, no te la voy a cobrar por gusto» es el mismo que te trae las cuatro llantas del próximo carro.",
+            "cite": "Equipo técnico de Dimapar Ecuador"
+          }
+        },
+        "Para el daño de flanco en llanta de camión existe la reparación con vulcanizado en caliente y parche de sección, que es otro proceso, con <a href=\"https://www.dimaparecuador.com/producto/prensa-vulcanizadora/\">prensa vulcanizadora eléctrica</a> y criterio de reencauchadora. Si tu volumen de camión lo amerita, conversemos de ese equipo aparte."
+      ]
+    },
+    {
+      "h2": "Cómo almacenar los parches para que no pierdan la goma activa",
+      "blocks": [
+        "El parche tiene fecha de caducidad práctica aunque la caja no la imprima grande: la goma activa —esa capa gris o azul bajo el foil— se degrada con el calor, la luz directa y el ozono. Un parche guardado un año junto a la ventana del mostrador pega notablemente peor que uno fresco, y el taller le echa la culpa al cemento.",
+        "Tres reglas de bodega que aplicamos nosotros mismos en Guamaní y que valen para cualquier taller: los parches se guardan en su caja cerrada, lejos del sol y del motor del compresor; el foil no se despega hasta el momento de montar (ni «para tenerlo listo»); y la rotación es primero-en-entrar-primero-en-salir, como en un mostrador de alimentos. Si un parche perdió el brillo de la goma activa o los bordes se ven resecos, no se usa — ese ahorro de $1,50 es el reclamo de la próxima semana."
+      ]
+    },
+    {
+      "h2": "El tablero inicial que recomendamos",
+      "blocks": [
+        "Para una vulcanizadora urbana que arranca en Quito, Ambato o Santo Domingo, el surtido con el que casi no fallas:",
+        {
+          "ul": [
+            "60 unidades XRP-12 y XRP-14 — el pan de cada día del auto de ciudad",
+            "30 unidades XRP-35/40 para camionetas, que en Ecuador son flota de trabajo",
+            "40 unidades BP-1 a BP-3 para carretillas, moto y convencional vieja",
+            "20 unidades VBR eco para el cliente que pide precio",
+            "Cemento Vermar de 1 litro y rodillo estitcher — sin rodillo no hay adherencia pareja"
+          ]
+        },
+        "Ese tablero cuesta alrededor de $180 y rinde entre 6 y 8 semanas de trabajo típico. El cemento tiene su propia ciencia y sus propios errores caros: los detallamos en la <a href=\"{{POST:cemento-vulcanizante-rendimiento-errores}}\">guía del cemento vulcanizante</a>."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo se dimensiona el daño para elegir el número de parche?",
+      "a": "Con calibrador o regla, midiendo la perforación por el lado interior de la llanta después de retirar el objeto. Hasta 3 mm en banda va un XRP-12; de 3 a 6 mm, XRP-14; pasado de 6 mm en llanta de pasajero, la reparación con parche común ya es dudosa y hay que evaluar refuerzo mayor o rechazo."
+    },
+    {
+      "q": "¿El parche azul y el gris son diferentes?",
+      "a": "El color indica el compuesto de la goma de contacto. Los azules europeos XRP están formulados para carcasa radial moderna; los grises FLX son el estándar para diagonal. No es estética: es compatibilidad de vulcanizado en frío."
+    },
+    {
+      "q": "¿Cuánto rinde un litro de cemento vulcanizante?",
+      "a": "Entre 60 y 80 reparaciones si se aplica capa fina y pareja como corresponde. El frasco de 1 litro Vermar cuesta $22; el costo de cemento por parche queda en unos $0,30."
+    },
+    {
+      "q": "¿El tarugo o mecha reemplaza al parche?",
+      "a": "No. La mecha es reparación de emergencia para llegar al taller; sella desde afuera sin inspeccionar el interior de la llanta. Toda perforación merece desmontaje, inspección y parche interior. Cobrar una mecha como reparación definitiva es buscarse el reclamo."
+    },
+    {
+      "q": "¿Venden por caja o por unidad?",
+      "a": "Ambos. Por unidad en mostrador en la av. Maldonado S59-100 en Guamaní, y por caja con precio de distribuidor para talleres. A provincias despachamos por transportista con pedidos desde $50."
+    }
+  ],
+  "cta": "Pídenos el tablero inicial o repón tu inventario por <a href=\"https://wa.me/593968663866?text=Hola%2C%20necesito%20surtir%20parches%20para%20mi%20vulcanizadora\">WhatsApp al 096 866 3866</a>. Dinos qué tipo de llanta trabajas más y te armamos el surtido con precios de distribuidor — el mismo día si estás en Quito."
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Cemento vulcanizante: cuál comprar, cuánto rinde y los 4 errores que despegan parches",
+  "slug": "cemento-vulcanizante-rendimiento-errores",
+  "status": "future",
+  "date": "2026-08-17T09:00:00",
+  "category": "llanteras-y-vulcanizadoras",
+  "tags": ["cemento vulcanizante", "vermar", "parches", "vulcanizadora", "reparación de llantas", "llantera"],
+  "excerpt": "Cemento vulcanizante Vermar: $8,50 el cuarto, $14 el medio y $22 el litro. Cuántas reparaciones rinde cada presentación, cómo se aplica bien y los errores de aplicación que hacen que un parche perfecto se despegue.",
+  "yoast_title": "Cemento vulcanizante: precios, rendimiento y errores (2026)",
+  "yoast_desc": "Vermar 1/4 en $8,50, 1/2 en $14, litro en $22. Cuánto rinde cada frasco, el tiempo de oreo correcto y los 4 errores que despegan parches bien puestos.",
+  "focus_kw": "cemento vulcanizante",
+  "lead": [
+    "Cuando un parche se despega, el sospechoso habitual es el parche. Casi nunca es el parche. En 8 de cada 10 reparaciones falladas que nos describen los talleres, el problema estuvo en el cemento: superficie mal raspada, oreo cortado a la mitad, o un frasco que llevaba tres meses abierto y ya era jarabe.",
+    "El cemento vulcanizante es el consumible más barato de la vulcanizadora y el que más reclamos genera cuando se usa mal. Aquí va todo lo que hay que saber: presentaciones y precios de la línea Vermar que distribuimos desde Quito, rendimiento real por frasco y la técnica que hace que el vulcanizado en frío funcione como promete."
+  ],
+  "sections": [
+    {
+      "h2": "Presentaciones y rendimiento real",
+      "blocks": [
+        {
+          "table": {
+            "head": ["Presentación", "Precio", "Rendimiento aproximado", "Para quién"],
+            "rows": [
+              ["<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-de-1-4-vermar/\">Vermar 1/4 litro</a>", "$8,50", "15-20 reparaciones", "Taller de bajo volumen o moto"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-vulcanizante-1-2-lt-vermar/\">Vermar 1/2 litro</a>", "$14", "30-40 reparaciones", "Vulcanizadora urbana promedio"],
+              ["<a href=\"https://www.dimaparecuador.com/producto/cemento-quimico-azul-1lt-vermar/\">Vermar azul 1 litro</a>", "$22", "60-80 reparaciones", "Taller de volumen y flota"]
+            ]
+          }
+        },
+        "Ojo con la trampa del tamaño: el litro es más barato por reparación ($0,30 contra $0,50 del cuarto), pero el cemento abierto pierde solventes con cada destapada. Si tu taller hace 3 parches al día, el litro se te espesa antes de acabarlo y terminaste pagando más. La presentación correcta es la que consumes en 6-8 semanas."
+      ]
+    },
+    {
+      "h2": "La técnica completa, paso por paso",
+      "blocks": [
+        "El vulcanizado en frío es una reacción química entre el cemento y la goma activa del parche. Cada paso existe por una razón, y saltarse cualquiera debilita la unión:",
+        {
+          "ul": [
+            "Marca el daño por dentro y limpia la zona con removedor o raspado inicial.",
+            "Raspa con raspador o taladro de baja revolución hasta dejar la goma opaca y aterciopelada. La goma brillante no pega: la capa de silicona y óxido de la superficie bloquea la reacción.",
+            "Aspira o barre el polvo del raspado. Polvo entre cemento y llanta es un parche flotando.",
+            "Aplica una capa fina y pareja de cemento, más grande que el parche. Fina: si gotea, es demasiado.",
+            "Espera el oreo: 3 a 5 minutos en Quito, hasta que el brillo húmedo desaparece y al tacto (con nudillo, no con dedo grasoso) ya no hila.",
+            "Retira el foil del parche sin tocar la goma activa, centra sobre el daño y presiona del centro hacia afuera.",
+            "Pasa el rodillo estitcher con fuerza, del centro a los bordes, hasta que no quede aire atrapado."
+          ]
+        },
+        "Todo el proceso toma 8-10 minutos bien hecho. El taller que lo hace en 4 está regalando reclamos."
+      ]
+    },
+    {
+      "h2": "Los 4 errores que despegan parches buenos",
+      "blocks": [
+        "Uno: montar sobre cemento húmedo. Es el más común. El solvente atrapado bajo el parche forma burbujas que crecen con el calor de rodadura y despegan la reparación desde adentro. El oreo no es tiempo muerto; es la mitad del proceso.",
+        "Dos: raspar de más o de menos. De menos ya lo dijimos: goma brillante no pega. De más también daña: si llegas a las cuerdas de la carcasa, debilitaste la estructura y esa zona va a flexionar distinto por el resto de la vida de la llanta.",
+        "Tres: cemento viejo o mal tapado. Un frasco que quedó destapado una tarde en el mostrador perdió una parte de sus solventes. Se nota porque espesa y hace hilos largos. Con cemento en ese estado, el rendimiento cae y la adherencia también. Frasco bien tapado, a la sombra, lejos del compresor que calienta el ambiente.",
+        "Cuatro: aplicar con los dedos. La grasa de la piel es antiadherente. Brocha del propio frasco o brocha limpia, siempre.",
+        {
+          "quote": {
+            "text": "Cuando un taller nos dice que los parches de tal marca se despegan, lo primero que preguntamos no es por el parche: es cuánto tiempo dejan orear el cemento. La respuesta casi siempre es «hasta que se ve sequito», que en la práctica es un minuto. Ahí está el problema, no en el parche.",
+            "cite": "Equipo técnico de Dimapar Ecuador"
+          }
+        }
+      ]
+    },
+    {
+      "h2": "Clima y altura: por qué el oreo de Quito no es el de Guayaquil",
+      "blocks": [
+        "El tiempo de oreo depende de qué tan rápido se evaporan los solventes, y eso cambia con la altura y la humedad. En Quito, a 2.800 metros y con aire seco, los 3-5 minutos de referencia funcionan bien. En Guayaquil o Manta, con humedad del 80 %, el solvente tarda más en salir: los talleres de la costa que atendemos trabajan con 6-8 minutos de oreo y les cambia la vida — literalmente dejan de despegarse los parches que «estaban bien puestos».",
+        "La prueba del nudillo manda sobre el reloj: se toca el borde de la zona cementada con el dorso del dedo, y si hila o brilla, falta. En día lluvioso o de garúa costera, dale un par de minutos extra sin miedo. El cemento oreado de más pierde poco; el oreado de menos pierde el parche completo."
+      ]
+    },
+    {
+      "h2": "Frío o caliente: cuándo el cemento no alcanza",
+      "blocks": [
+        "El vulcanizado en frío con cemento y parche resuelve la perforación estándar de banda de rodadura, que es el 90 % del trabajo de una vulcanizadora urbana en Quito o Guayaquil. Para daños de sección en llantas de camión —cortes grandes, daños que comprometen cuerdas— el proceso serio es en caliente, con <a href=\"https://www.dimaparecuador.com/producto/prensa-vulcanizadora/\">prensa vulcanizadora de temperatura controlada</a> y goma cruda.",
+        "Nuestra recomendación en contra: no intentes resolver daños de camión con doble parche y doble cemento. Esa reparación trabaja hasta que el camión sale cargado a la Alóag-Santo Domingo, y ahí falla con la peor carga posible. El daño grande de pesado va en caliente o va a reencauche — qué parche corresponde a cada daño lo cubrimos en la <a href=\"{{POST:parche-radial-o-diagonal-guia}}\">guía de parches radiales y diagonales</a>."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿El cemento vulcanizante y el pegamento de contacto son lo mismo?",
+      "a": "No. El pegamento de contacto solo adhiere superficies; el cemento vulcanizante reacciona químicamente con la goma activa del parche formando un enlace vulcanizado. Un parche con pegamento común es una reparación de días, no de años."
+    },
+    {
+      "q": "¿Cuánto dura un frasco cerrado en bodega?",
+      "a": "Sellado y a la sombra, alrededor de 12 meses conservando propiedades. Abierto y bien tapado, unas 8-10 semanas de uso normal. Si espesa, no lo diluyas con gasolina: cambia la química y la adherencia se vuelve lotería."
+    },
+    {
+      "q": "¿Sirve el mismo cemento para parche radial y diagonal?",
+      "a": "Sí, el cemento es el mismo; lo que cambia es el parche según la carcasa. La línea Vermar que manejamos trabaja con toda nuestra gama de parches XRP, BP y VBR."
+    },
+    {
+      "q": "¿El cemento sirve también para pegar chapetas o taloneras de goma?",
+      "a": "No es su función. El cemento vulcanizante está formulado para reaccionar con la goma activa de los parches; como adhesivo general de cauchos rinde mal y sale caro. Para esos trabajos usa adhesivo de contacto común y guarda el vulcanizante para lo que paga: las reparaciones."
+    },
+    {
+      "q": "¿A cuánto sale el costo de material por reparación?",
+      "a": "Parche XRP-14 en $1,50 más unos $0,30 de cemento: $1,80 de material para un servicio que se cobra $6-10 en Quito. Es el mejor margen de todo el taller."
+    }
+  ],
+  "cta": "¿Se te está acabando el cemento o quieres pasarte a la línea Vermar? Escríbenos por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20pedir%20cemento%20vulcanizante%20Vermar\">WhatsApp al 096 866 3866</a> con tu consumo mensual aproximado y te cotizamos la presentación correcta con precio de distribuidor. En Quito entregamos el mismo día desde Guamaní."
+}

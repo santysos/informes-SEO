@@ -1,0 +1,98 @@
+{
+  "title": "Calibración y mantenimiento de balanceadora y desmontadora: la rutina que evita reclamos",
+  "slug": "calibracion-mantenimiento-balanceadora-desmontadora",
+  "status": "future",
+  "date": "2026-08-23T09:00:00",
+  "category": "mantenimiento-de-equipos",
+  "tags": ["mantenimiento", "calibración", "balanceadora", "desmontadora", "hofmann", "besser", "taller automotriz"],
+  "excerpt": "Una balanceadora descalibrada no avisa: sigue dando números, solo que malos. La rutina completa de mantenimiento de balanceadora y desmontadora, qué se hace en casa y qué requiere técnico, con los costos de no hacerlo.",
+  "yoast_title": "Mantenimiento de balanceadora y desmontadora: guía 2026",
+  "yoast_desc": "Calibración cada 6 meses, conos que se ovalan, aire sin filtrar que oxida cilindros: la rutina de mantenimiento que alarga la vida de tus equipos de llantera.",
+  "focus_kw": "mantenimiento de balanceadora",
+  "lead": [
+    "El cliente que regresa porque «el volante sigue vibrando» no sabe si tu balanceadora está descalibrada. Solo sabe que pagó dos veces por el mismo trabajo. Ese reclamo silencioso — el que no se queja, simplemente no vuelve — es el costo real de saltarse el mantenimiento de los equipos.",
+    "Llevamos más de 20 años dando soporte técnico a talleres desde Quito, y la estadística de nuestras visitas es terca: la mayoría de las «máquinas dañadas» que nos llaman a revisar no están dañadas. Están sucias, desajustadas o trabajando con aire contaminado. Esta es la rutina completa para que la tuya no entre en esa lista."
+  ],
+  "sections": [
+    {
+      "h2": "La balanceadora: calibración y los conos olvidados",
+      "blocks": [
+        "La calibración es el corazón del asunto. Una balanceadora se calibra cada 6 meses en uso normal, después de cualquier traslado — aunque sea al otro lado del mismo local — y cada vez que los resultados se vuelvan inconsistentes: si repites el ciclo y los gramos cambian, la máquina te está pidiendo calibración a gritos.",
+        "El segundo frente son los accesorios. Un cono ovalado por años de apriete centra mal la rueda, y una rueda mal centrada balancea mal aunque la electrónica esté perfecta. Revisa conos, garras y el eje roscado cada tres meses: cualquier juego perceptible o marca de desgaste visible es cambio. El juego de conos de repuesto cuesta una fracción de lo que cuesta un mes de balanceos rehechos.",
+        {
+          "ul": [
+            "Semanal: limpieza del eje y los conos, sopleteo del gabinete por fuera.",
+            "Trimestral: inspección de conos y garras, verificación de anclaje al piso.",
+            "Semestral: calibración con peso patrón — o con nuestro servicio técnico en sitio.",
+            "Siempre tras un traslado: calibración, sin excepción."
+          ]
+        }
+      ]
+    },
+    {
+      "h2": "La desmontadora: el enemigo es el aire sucio",
+      "blocks": [
+        "Lo que mata desmontadoras en Ecuador no es el trabajo duro: es el aire comprimido sin tratar. El compresor condensa agua, el agua viaja por la manguera y termina dentro de los cilindros neumáticos, donde oxida paredes y sellos. El daño es invisible hasta que el cilindro pierde fuerza — y ahí la reparación ya es mayor.",
+        "La defensa cuesta poco: unidad de mantenimiento (filtro, regulador y lubricador) en la entrada de aire de la máquina, purga diaria del tanque del compresor y revisión mensual del vaso del lubricador. Con eso, el sistema neumático de una <a href=\"https://www.dimaparecuador.com/producto/hofmann-megamount-30/\">Megamount 30</a> o una <a href=\"https://www.dimaparecuador.com/producto/desmontadora-de-llantas-semi-automatica-besser-t2/\">Besser T2</a> trabaja una década sin abrirse.",
+        "En la parte mecánica: engrase de la mesa giratoria y las guías cada mes, revisión de las mordazas por desgaste — mordaza gastada resbala el aro, y un aro que resbala con presión es un golpe esperando dónde caer — y cambio de los protectores plásticos en cuanto se agrieten. Los protectores son la única frontera entre el metal de la máquina y el aro de aleación del cliente; el repuesto está en bodega en Guamaní, incluido el <a href=\"https://www.dimaparecuador.com/producto/pato-de-desmontadora-besser/\">pato de desmontadora Besser en $57,26</a>."
+      ]
+    },
+    {
+      "h2": "Lo que se hace en casa y lo que no",
+      "blocks": [
+        "Casi todo lo anterior lo ejecuta el propio taller con disciplina de calendario. Hay tres cosas que recomendamos no hacer por cuenta propia:",
+        {
+          "ul": [
+            "Abrir la electrónica de la balanceadora. Los tableros de las Hofmann y Besser modernas se diagnostican con procedimiento del fabricante; el destornillador exploratorio convierte fallas de $80 en fallas de $500.",
+            "Calibrar «a ojo» contra otra máquina. Calibrar es ajustar contra peso patrón conocido, no igualar dos máquinas que pueden estar ambas mal.",
+            "Modificar la presión de trabajo del sistema neumático para «dar más fuerza». Los cilindros están dimensionados para su presión de diseño; subirla acorta la vida de sellos y mangueras y es riesgo directo para el operario."
+          ]
+        },
+        {
+          "quote": {
+            "text": "El taller que nos llama cada seis meses para calibración gasta al año menos de lo que factura en una mañana. El que nos llama cuando la máquina ya no prende gasta cinco veces eso y pierde la semana de trabajo. El mantenimiento no es un costo: es la diferencia entre esos dos talleres.",
+            "cite": "Equipo técnico de Dimapar Ecuador"
+          }
+        }
+      ]
+    },
+    {
+      "h2": "El costo de no hacerlo, en números",
+      "blocks": [
+        "Pongamos cifras de Quito a la balanceadora descalibrada. Si el 15 % de tus balanceos sale mal y rehaces gratis la mitad de esos — porque la otra mitad no reclama, solo no vuelve — en un taller de 15 balanceos diarios a $3,50 son unos $60 al mes en trabajo regalado, más los clientes perdidos que no se ven en ninguna cuenta.",
+        "La calibración semestral con visita técnica cuesta una fracción de eso y deja registro. Y hay un beneficio comercial que pocos explotan: el certificado de máquina calibrada, enmarcado junto al mostrador, es un argumento de venta que las flotas y cooperativas sí miran cuando eligen taller para sus unidades.",
+        "Al final, el mantenimiento es lo que protege las inversiones de las que hablamos en las guías de <a href=\"{{POST:balanceadora-de-llantas-cual-elegir}}\">balanceadoras</a> y <a href=\"{{POST:desmontadora-de-llantas-tipos-precios}}\">desmontadoras</a>: una máquina de $3.000 que dura 12 años cuesta $250 al año; la misma máquina abandonada dura 5 y cuesta $600. La diferencia la pone una hora de atención al mes."
+      ]
+    },
+    {
+      "h2": "Nuestro soporte técnico, en la práctica",
+      "blocks": [
+        "Desde la bodega de la av. Maldonado S59-100 en Guamaní atendemos visitas técnicas en Quito y los valles de Los Chillos y Tumbaco, normalmente dentro de la misma semana. Para Guayaquil, Cuenca, Manta y Ambato coordinamos rutas de visita o técnicos aliados, y buena parte de los diagnósticos se resuelve por videollamada mirando la máquina en vivo.",
+        "Repuestos de las marcas que distribuimos — Hofmann, Besser, Muth, Thyson — los mantenemos en stock local. Es la razón de fondo por la que insistimos en marcas con representación: el mejor plan de mantenimiento del mundo no sirve si el repuesto tarda cuatro meses en llegar de un puerto asiático."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo sé si mi balanceadora está descalibrada?",
+      "a": "Prueba rápida: balancea una llanta, anota el resultado, sácala y vuelve a montarla en otra posición del plato. Si los valores difieren más de 5 gramos, toca calibración. Repítela una vez al mes; toma cinco minutos."
+    },
+    {
+      "q": "¿Qué presión de aire necesita una desmontadora?",
+      "a": "Entre 8 y 10 bar constantes, con aire filtrado y lubricado. Menos presión hace que las mordazas resbalen; más presión de la de diseño acorta la vida de los sellos."
+    },
+    {
+      "q": "¿El mantenimiento anula la garantía si lo hago yo?",
+      "a": "La limpieza, engrase y purga de rutina no afectan la garantía — al contrario, son condición de ella. Lo que sí la compromete es abrir electrónica o modificar el sistema neumático fuera del procedimiento del fabricante."
+    },
+    {
+      "q": "¿Conviene un contrato de mantenimiento anual o llamar cuando toca?",
+      "a": "Para un taller con dos o más máquinas grandes, el plan anual con visitas programadas sale más barato que las visitas sueltas y garantiza que la calibración no se posponga «para el otro mes», que es como se pierde la disciplina. Para una sola máquina, la visita semestral agendada resuelve igual."
+    },
+    {
+      "q": "¿Dan mantenimiento a máquinas que no vendieron ustedes?",
+      "a": "Sí, evaluamos caso por caso según marca y disponibilidad de repuestos. Escríbenos con foto de la placa de datos de la máquina y te confirmamos si podemos atenderla."
+    }
+  ],
+  "cta": "¿Cuándo fue la última calibración de tu balanceadora? Si tienes que pensarlo, ya toca. Agenda la visita técnica por <a href=\"https://wa.me/593968663866?text=Hola%2C%20quiero%20agendar%20calibraci%C3%B3n%20y%20mantenimiento%20de%20mis%20equipos.%20Tengo%20una%20balanceadora%20__%20y%20una%20desmontadora%20__\">WhatsApp al 096 866 3866</a> con marca y modelo de tus equipos, y te confirmamos fecha y costo el mismo día."
+}
