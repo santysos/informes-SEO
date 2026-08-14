@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Valencia Sports — Borradores de diseño web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vs.css">
+<style>
+body{background:var(--fondo)}
+.cab{background:var(--navy); color:#fff; padding:44px 0 40px}
+.cab .logo .txt{color:#fff}
+.cab h1{font-size:clamp(30px,4vw,50px); margin:22px 0 14px}
+.cab .lead{color:rgba(255,255,255,.7); max-width:640px}
+.cab .meta{
+  display:flex; gap:26px; flex-wrap:wrap; margin-top:26px; padding-top:22px;
+  border-top:1px solid rgba(255,255,255,.15);
+  font-family:var(--f-mono); font-size:11.5px; letter-spacing:.08em;
+  color:rgba(255,255,255,.6);
+}
+.cab .meta b{color:var(--rojo)}
+
+.paso{
+  background:var(--papel); border:1px solid var(--linea);
+  border-left:3px solid var(--rojo); padding:22px 26px; margin:34px 0 0;
+}
+.paso h3{font-size:16px; font-weight:700; margin-bottom:7px}
+.paso p{font-size:14px; color:var(--texto-2); line-height:1.65}
+
+.opcion{
+  background:var(--papel); border:1px solid var(--linea);
+  margin-bottom:26px; overflow:hidden;
+}
+.op-cab{
+  display:grid; grid-template-columns:auto 1fr auto; gap:22px;
+  align-items:center; padding:24px 28px; border-bottom:1px solid var(--linea);
+}
+.op-letra{
+  width:56px; height:56px; display:grid; place-items:center;
+  background:var(--navy); color:#fff;
+  font-family:var(--f-display); font-weight:900; font-size:26px;
+}
+.opcion.rec .op-letra{background:var(--rojo)}
+.op-cab h2{font-family:var(--f-display); font-weight:800; font-size:23px; text-transform:uppercase; letter-spacing:-.02em}
+.op-cab .sub{font-size:14px; color:var(--texto-2); margin-top:5px}
+.sello-rec{
+  background:var(--rojo); color:#fff; padding:6px 13px;
+  font-family:var(--f-mono); font-size:10.5px; font-weight:700;
+  letter-spacing:.12em; text-transform:uppercase; white-space:nowrap;
+}
+
+.op-cuerpo{display:grid; grid-template-columns:1.25fr .75fr; gap:0}
+.op-shot{border-right:1px solid var(--linea); background:var(--fondo); position:relative}
+.op-shot img{width:100%; display:block}
+.op-shot::after{
+  content:'Vista previa del inicio'; position:absolute; bottom:0; left:0; right:0;
+  padding:9px 16px; background:rgba(31,22,70,.9); color:#fff;
+  font-family:var(--f-mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase;
+}
+.op-txt{padding:28px}
+.op-txt h4{
+  font-family:var(--f-mono); font-size:10.5px; font-weight:700;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--texto-2);
+  margin-bottom:11px;
+}
+.op-txt ul{list-style:none; display:grid; gap:9px; margin-bottom:22px}
+.op-txt li{display:flex; gap:10px; font-size:13.5px; line-height:1.55; color:var(--texto-2)}
+.op-txt li::before{content:'—'; color:var(--rojo); flex-shrink:0}
+.op-txt .para{
+  background:var(--fondo); padding:14px 16px; margin-bottom:20px;
+  border-left:2px solid var(--navy); font-size:13.5px; line-height:1.6;
+}
+.op-txt .para b{display:block; margin-bottom:4px; color:var(--texto)}
+
+.pagina-fija{
+  background:var(--papel); border:1px solid var(--linea); margin-bottom:26px;
+}
+.pf-cab{padding:24px 28px; border-bottom:1px solid var(--linea)}
+.pf-cab h2{font-family:var(--f-display); font-weight:800; font-size:23px; text-transform:uppercase; letter-spacing:-.02em}
+.pf-cab .sub{font-size:14px; color:var(--texto-2); margin-top:5px; max-width:700px; line-height:1.6}
+.pf-grid{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--linea)}
+.pf-item{background:var(--papel)}
+.pf-item img{width:100%; display:block; border-bottom:1px solid var(--linea)}
+.pf-item .txt{padding:22px 26px}
+.pf-item h3{font-size:17px; font-weight:700; margin-bottom:9px}
+.pf-item ul{list-style:none; display:grid; gap:8px; margin-bottom:18px}
+.pf-item li{display:flex; gap:10px; font-size:13.5px; color:var(--texto-2); line-height:1.55}
+.pf-item li::before{content:'—'; color:var(--rojo); flex-shrink:0}
+
+.nota{
+  background:var(--navy); color:#fff; padding:34px 38px; margin:36px 0 60px;
+}
+.nota h3{font-family:var(--f-display); font-weight:800; font-size:24px; text-transform:uppercase; letter-spacing:-.02em; margin-bottom:14px}
+.nota p{color:rgba(255,255,255,.72); font-size:14.5px; line-height:1.7; max-width:760px; margin-bottom:14px}
+.nota .cols{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:26px; padding-top:24px; border-top:1px solid rgba(255,255,255,.15)}
+.nota h4{font-family:var(--f-mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--rojo); margin-bottom:9px}
+.nota .cols p{font-size:13.5px; margin:0}
+
+@media(max-width:900px){
+  .op-cuerpo{grid-template-columns:1fr}
+  .op-shot{border-right:0; border-bottom:1px solid var(--linea)}
+  .pf-grid{grid-template-columns:1fr}
+  .nota .cols{grid-template-columns:1fr}
+  .op-cab{grid-template-columns:auto 1fr; gap:16px}
+  .sello-rec{grid-column:2}
+}
+</style>
+</head>
+<body>
+
+<div class="cab">
+  <div class="wrap">
+    <div class="logo">
+      <img src="assets/iso-white.png" alt="Valencia Sports" style="height:38px">
+      <span class="txt"><span>Valencia</span><span>Sports</span></span>
+    </div>
+    <p class="eyebrow" style="margin-top:26px">Borrador de diseño · Agosto 2026</p>
+    <h1 class="display">Tres caminos para<br>la tienda en línea</h1>
+    <p class="lead">
+      Las tres usan la misma paleta, el mismo logo y el mismo menú que definiste. Lo que
+      cambia es cómo se ordena la página de inicio y qué se le pide al visitante que haga
+      primero. El catálogo y la ficha de producto son iguales para las tres.
+    </p>
+    <div class="meta">
+      <span>WordPress + <b>Elementor Pro</b></span>
+      <span>WooCommerce</span>
+      <span>Fondo <b>#F7F7F7</b> · Rojo <b>#FF4438</b> · Azul <b>#1F1646</b></span>
+      <span>Productos y precios reales del catálogo</span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="paso">
+    <h3>Cómo revisar esto</h3>
+    <p>
+      Abre las tres y quédate con una — o dime qué te gusta de cada una y armamos una
+      cuarta mezclando. Todo lo que ves es navegable: los filtros del catálogo funcionan de
+      verdad, las pestañas de la ficha cambian, y el menú de marcas se despliega. Las fotos
+      de guantes salieron de tu propio catálogo en PDF.
+    </p>
+  </div>
+
+  <div class="sec" style="padding:40px 0 0">
+    <p class="eyebrow">Página de inicio</p>
+    <h2 class="display" style="font-size:34px; margin:10px 0 26px">Las tres propuestas</h2>
+  </div>
+
+  <!-- OPCIÓN A -->
+  <div class="opcion rec">
+    <div class="op-cab">
+      <div class="op-letra">A</div>
+      <div>
+        <h2>La casa del portero</h2>
+        <div class="sub">Editorial. El guante manda y el visitante entra por su nivel de juego.</div>
+      </div>
+      <span class="sello-rec">Nuestra recomendación</span>
+    </div>
+    <div class="op-cuerpo">
+      <a href="home-a.html" class="op-shot"><img src="assets/thumbs/home-a.jpg" alt="Opción A"></a>
+      <div class="op-txt">
+        <h4>Qué la define</h4>
+        <ul>
+          <li>Un guante grande de apertura, con etiquetas que señalan látex, corte y precio</li>
+          <li>Bloque «Elige por nivel»: profesional, semi-pro, entrenamiento, infantil</li>
+          <li>Guía de cortes explicada — Roll Finger, negativo, híbrido, plano</li>
+          <li>Fila de accesorios y franja de garantías al pie</li>
+        </ul>
+        <div class="para">
+          <b>Por qué la recomiendo</b>
+          Es la que mejor cuenta que ustedes son especialistas y no una tienda deportiva
+          genérica. El que entra sin saber qué comprar encuentra el camino solo, y ese es
+          justo el cliente que hoy pregunta todo por WhatsApp.
+        </div>
+        <a href="home-a.html" class="btn btn-rojo">Abrir opción A</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPCIÓN B -->
+  <div class="opcion">
+    <div class="op-cab">
+      <div class="op-letra">B</div>
+      <div>
+        <h2>Mosaico de tienda</h2>
+        <div class="sub">La home es la tienda. Todas las categorías visibles sin bajar.</div>
+      </div>
+    </div>
+    <div class="op-cuerpo">
+      <a href="home-b.html" class="op-shot"><img src="assets/thumbs/home-b.jpg" alt="Opción B"></a>
+      <div class="op-txt">
+        <h4>Qué la define</h4>
+        <ul>
+          <li>Mosaico de cinco bloques: guantes, ropa, accesorios, protección y ofertas</li>
+          <li>Filtro rápido por nivel y talla apenas entras</li>
+          <li>Las diez marcas en cuadrícula con su número de modelos</li>
+          <li>Bloque de personalización explicado en tres pasos</li>
+        </ul>
+        <div class="para">
+          <b>Cuándo conviene</b>
+          Si la prioridad es que se vea de una que venden más que guantes. Es la más parecida
+          a una tienda en línea clásica y la más fácil de mantener cuando crezca el catálogo
+          de ropa y balones.
+        </div>
+        <a href="home-b.html" class="btn btn-navy">Abrir opción B</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPCIÓN C -->
+  <div class="opcion">
+    <div class="op-cab">
+      <div class="op-letra">C</div>
+      <div>
+        <h2>Diagonal</h2>
+        <div class="sub">La forma del logo convertida en estructura. La más de marca.</div>
+      </div>
+    </div>
+    <div class="op-cuerpo">
+      <a href="home-c.html" class="op-shot"><img src="assets/thumbs/home-c.jpg" alt="Opción C"></a>
+      <div class="op-txt">
+        <h4>Qué la define</h4>
+        <ul>
+          <li>Apertura partida en diagonal, citando el corte de la V del isotipo</li>
+          <li>Secciones numeradas 01, 02, 03 con ritmo de revista</li>
+          <li>Comparador de niveles en franjas horizontales, más fácil de leer</li>
+          <li>Un producto destacado a media pantalla con su ficha técnica</li>
+        </ul>
+        <div class="para">
+          <b>Cuándo conviene</b>
+          Si quieres que la web se vea distinta a todo lo que hay en el mercado ecuatoriano.
+          Es la más arriesgada visualmente y la que más depende de tener buenas fotos.
+        </div>
+        <a href="home-c.html" class="btn btn-navy">Abrir opción C</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PÁGINAS DE TIENDA -->
+  <div class="sec" style="padding:26px 0 0">
+    <p class="eyebrow">Iguales para las tres opciones</p>
+    <h2 class="display" style="font-size:34px; margin:10px 0 26px">Catálogo y ficha de producto</h2>
+  </div>
+
+  <div class="pagina-fija">
+    <div class="pf-cab">
+      <h2>Las dos páginas que venden</h2>
+      <div class="sub">
+        Diseñadas con lo que un portero pregunta antes de comprar: talla, corte, tipo de
+        látex y si le va a durar. Ese es el contenido que además posiciona en Google.
+      </div>
+    </div>
+    <div class="pf-grid">
+      <div class="pf-item">
+        <a href="catalogo.html"><img src="assets/thumbs/catalogo.jpg" alt="Catálogo"></a>
+        <div class="txt">
+          <h3>Catálogo de guantes</h3>
+          <ul>
+            <li>Filtros por nivel, marca, corte, talla y precio — funcionan en el borrador</li>
+            <li>Contador de resultados y etiquetas de los filtros activos</li>
+            <li>Bloque de ayuda de tallas con salida directa a WhatsApp</li>
+            <li>Sirve igual para ropa, accesorios y balones</li>
+          </ul>
+          <a href="catalogo.html" class="btn btn-line">Abrir catálogo</a>
+        </div>
+      </div>
+      <div class="pf-item">
+        <a href="producto.html"><img src="assets/thumbs/producto.jpg" alt="Ficha de producto"></a>
+        <div class="txt">
+          <h3>Ficha de producto</h3>
+          <ul>
+            <li>Campo de personalización con el nombre, marcado como incluido</li>
+            <li>Tallas agotadas tachadas en lugar de ocultas</li>
+            <li>Cuatro pestañas: descripción, especificaciones, guía de tallas y cuidado del látex</li>
+            <li>Tabla de tallas con medida en centímetros y edad orientativa</li>
+          </ul>
+          <a href="producto.html" class="btn btn-line">Abrir ficha</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nota">
+    <h3>Tres cosas que necesito de tu lado</h3>
+    <p>
+      El borrador usa las fotos del catálogo en PDF, que sirven perfecto para mostrar la idea
+      pero se quedan cortas para la tienda real. Con esto se termina de armar:
+    </p>
+    <div class="cols">
+      <div>
+        <h4>01 · Fotos de producto</h4>
+        <p>
+          Fondo blanco o transparente, mismo encuadre para todos. Con celular y buena luz
+          alcanza. Son las que más venden y hoy es lo único que falta.
+        </p>
+      </div>
+      <div>
+        <h4>02 · Stock y precios al día</h4>
+        <p>
+          Los precios que ves salieron del catálogo. Hay que confirmar cuáles siguen vigentes
+          y qué tallas hay de cada modelo antes de publicar.
+        </p>
+      </div>
+      <div>
+        <h4>03 · Una foto del local o del equipo</h4>
+        <p>
+          Para la sección de confianza. A la gente que compra por internet en Ecuador le
+          importa ver que hay alguien real detrás.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="pie-web" style="margin-top:0">
+  <div class="wrap">
+    <div class="pie-abajo" style="margin-top:0; border-top:0; padding-top:0">
+      <span>Valencia Sports · Borrador de diseño, agosto 2026</span>
+      <span>Creative Web</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

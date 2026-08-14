@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Valencia Sports — Opción B: Mosaico de tienda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vs.css">
+<style>
+/* ====== Opción B — mosaico: la home ES la tienda ====== */
+
+.mosaico{padding:28px 0 0}
+.mos-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:290px 290px;
+  gap:14px;
+}
+.tile{
+  position:relative; overflow:hidden;
+  display:flex; flex-direction:column; justify-content:flex-end;
+  padding:26px; border-radius:var(--r);
+  transition:.25s ease;
+}
+.tile:hover{transform:translateY(-3px)}
+.tile h3{
+  font-family:var(--f-display); font-weight:800; text-transform:uppercase;
+  letter-spacing:-.025em; line-height:.95; position:relative; z-index:2;
+}
+.tile p{
+  font-family:var(--f-mono); font-size:11px; letter-spacing:.12em;
+  text-transform:uppercase; margin-top:9px; position:relative; z-index:2;
+}
+.tile img{
+  position:absolute; z-index:1; pointer-events:none;
+  transition:transform .35s ease;
+}
+.tile:hover img{transform:scale(1.07) rotate(-3deg)}
+
+/* tile principal: 2x2 */
+.t-main{
+  grid-column:span 2; grid-row:span 2;
+  background:var(--navy); color:#fff;
+}
+.t-main h3{font-size:46px}
+.t-main p{color:rgba(255,255,255,.6)}
+.t-main img{right:-6%; top:6%; width:74%; filter:drop-shadow(0 30px 46px rgba(0,0,0,.45))}
+.t-main .precio-flota{
+  position:absolute; z-index:3; top:26px; left:26px;
+  background:var(--rojo); color:#fff; padding:7px 12px;
+  font-family:var(--f-mono); font-size:11px; font-weight:700;
+  letter-spacing:.1em; text-transform:uppercase;
+}
+
+.t-rojo{background:var(--rojo); color:#fff}
+.t-rojo h3{font-size:26px}
+.t-rojo p{color:rgba(255,255,255,.75)}
+
+.t-blanco{background:var(--papel); border:1px solid var(--linea)}
+.t-blanco h3{font-size:26px}
+.t-blanco p{color:var(--texto-2)}
+
+.t-navy{background:var(--navy-2); color:#fff}
+.t-navy h3{font-size:26px}
+.t-navy p{color:rgba(255,255,255,.62)}
+
+/* en los tiles chicos la foto vive arriba y el texto abajo: nunca se pisan */
+.t-chico img{
+  right:-4%; top:-4%; width:58%; max-height:62%;
+  object-fit:contain; object-position:top right;
+}
+.t-chico::after{
+  content:''; position:absolute; inset:auto 0 0 0; height:62%;
+  background:linear-gradient(transparent, currentColor);
+  opacity:.14; z-index:1; pointer-events:none;
+}
+
+.t-oferta{
+  background:var(--papel); border:1px solid var(--linea);
+  border-top:3px solid var(--rojo);
+  justify-content:center; text-align:center; align-items:center;
+}
+.t-oferta .off{
+  font-family:var(--f-display); font-weight:900; font-size:60px;
+  line-height:.85; letter-spacing:-.04em; color:var(--rojo);
+}
+.t-oferta h3{font-size:19px; margin-top:8px}
+.t-oferta p{color:var(--texto-2)}
+
+/* filtro rápido por talla y nivel */
+.filtro-rapido{
+  background:var(--papel); border:1px solid var(--linea);
+  margin-top:14px; padding:22px 26px;
+  display:flex; align-items:center; gap:26px; flex-wrap:wrap;
+}
+.filtro-rapido .lbl{
+  font-family:var(--f-mono); font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--texto-2);
+}
+.chips{display:flex; gap:8px; flex-wrap:wrap}
+.chip{
+  border:1px solid var(--linea); padding:8px 15px; border-radius:var(--r);
+  font-size:13px; font-weight:600; transition:.16s;
+}
+.chip:hover,.chip.on{background:var(--navy); border-color:var(--navy); color:#fff}
+.filtro-rapido .go{margin-left:auto}
+
+/* fila de marcas con logos-texto en tarjetas */
+.marca-fila{display:grid; grid-template-columns:repeat(5,1fr); gap:1px; background:var(--linea); border:1px solid var(--linea)}
+.marca-c{
+  background:var(--papel); padding:24px 18px; text-align:center;
+  transition:.18s;
+}
+.marca-c:hover{background:var(--navy); color:#fff}
+.marca-c .nom{
+  font-family:var(--f-display); font-weight:800; font-size:17px;
+  text-transform:uppercase; letter-spacing:-.01em;
+}
+.marca-c .cant{
+  font-family:var(--f-mono); font-size:10.5px; color:var(--texto-2);
+  letter-spacing:.1em; margin-top:5px;
+}
+.marca-c:hover .cant{color:rgba(255,255,255,.6)}
+
+/* bloque de personalización */
+.person{background:var(--navy); color:#fff; overflow:hidden; position:relative}
+.person .wrap{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; position:relative; z-index:2}
+.person h2{font-size:clamp(30px,3.6vw,48px); margin:14px 0 18px}
+.person .lead{color:rgba(255,255,255,.68)}
+.person-visual{position:relative; display:grid; place-items:center; min-height:340px}
+.person-visual img{width:84%; max-width:400px; filter:drop-shadow(0 30px 50px rgba(0,0,0,.5))}
+.person-visual .nombre{
+  position:absolute; bottom:18%; left:50%; transform:translateX(-50%) rotate(-4deg);
+  font-family:var(--f-display); font-weight:900; font-size:26px;
+  text-transform:uppercase; letter-spacing:.04em;
+  border:2px dashed rgba(255,255,255,.4); padding:8px 18px;
+}
+.person ul{list-style:none; display:grid; gap:11px; margin-bottom:26px}
+.person li{display:flex; gap:11px; font-size:14.5px; color:rgba(255,255,255,.8)}
+.person li b{color:var(--rojo)}
+
+/* grids */
+.grid-4{grid-template-columns:repeat(4,1fr)}
+.grid-6{grid-template-columns:repeat(6,1fr)}
+
+@media(max-width:1080px){
+  .mos-grid{grid-template-columns:repeat(2,1fr); grid-template-rows:repeat(4,240px)}
+  .t-main{grid-column:span 2; grid-row:span 1}
+  .t-main h3{font-size:34px}
+  .marca-fila{grid-template-columns:repeat(3,1fr)}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .grid-6{grid-template-columns:repeat(3,1fr)}
+  .person .wrap{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .mos-grid{grid-template-columns:1fr; grid-template-rows:auto}
+  .tile{min-height:210px}
+  .marca-fila{grid-template-columns:repeat(2,1fr)}
+  .grid-4,.grid-6{grid-template-columns:repeat(2,1fr)}
+  .filtro-rapido{flex-direction:column; align-items:flex-start; gap:14px}
+}
+</style>
+</head>
+<body data-pagina="inicio">
+
+<div data-header></div>
+
+<!-- ============ MOSAICO ============ -->
+<section class="mosaico">
+  <div class="wrap">
+    <div class="mos-grid">
+      <a href="catalogo.html" class="tile t-main">
+        <span class="precio-flota">Temporada 25-26 · desde $130</span>
+        <img src="assets/prod/rg-aversa.png" alt="RG Aversa">
+        <h3>Guantes de<br>portero</h3>
+        <p>10 marcas · 166 modelos · tallas 5 a 11</p>
+      </a>
+      <a href="#" class="tile t-chico t-rojo">
+        <img src="assets/prod/licra-proone.png" alt="Ropa deportiva">
+        <h3>Ropa<br>deportiva</h3>
+        <p>Licras · buzos · pecheras</p>
+      </a>
+      <a href="#" class="tile t-chico t-blanco">
+        <img src="assets/prod/gloveglu.png" alt="Accesorios">
+        <h3>Accesorios</h3>
+        <p>Glove Glu · grip · espuma</p>
+      </a>
+      <a href="#" class="tile t-chico t-navy">
+        <img src="assets/prod/canilleras-rinat.png" alt="Protección">
+        <h3>Protección</h3>
+        <p>Canilleras · rodilleras · coderas</p>
+      </a>
+      <a href="#" class="tile t-oferta">
+        <div class="off">-20%</div>
+        <h3>Ofertas</h3>
+        <p>Modelos de temporada anterior</p>
+      </a>
+    </div>
+
+    <div class="filtro-rapido">
+      <span class="lbl">Encuentra rápido</span>
+      <div class="chips">
+        <a href="catalogo.html" class="chip on">Profesional</a>
+        <a href="catalogo.html" class="chip">Semi-Pro</a>
+        <a href="catalogo.html" class="chip">Entrenamiento</a>
+        <a href="catalogo.html" class="chip">Infantil</a>
+      </div>
+      <span class="lbl">Talla</span>
+      <div class="chips">
+        <a href="catalogo.html" class="chip">7</a><a href="catalogo.html" class="chip">8</a>
+        <a href="catalogo.html" class="chip">9</a><a href="catalogo.html" class="chip">10</a>
+      </div>
+      <a href="catalogo.html" class="btn btn-rojo go">Buscar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARCAS ============ -->
+<section class="sec" style="padding-top:56px">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">Distribuidores oficiales</p>
+        <h2 class="display">Compra por marca</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver todas →</a>
+    </div>
+    <div class="marca-fila" id="marcas1"></div>
+    <div class="marca-fila" style="border-top:0" id="marcas2"></div>
+  </div>
+</section>
+
+<!-- ============ MÁS VENDIDOS ============ -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">Los que más salen</p>
+        <h2 class="display">Más vendidos<br>este mes</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver catálogo completo →</a>
+    </div>
+    <div class="grid-prod grid-4" id="vendidos"></div>
+  </div>
+</section>
+
+<!-- ============ FRANJA ============ -->
+<div class="franja">
+  <div class="marquee">
+    <span>Rinat <i>·</i> RG <i>·</i> Elite Sport <i>·</i> Uhlsport <i>·</i> Reusch <i>·</i> Bambino Sport <i>·</i> ADM Keeper <i>·</i> Aurik <i>·</i> SP Fútbol <i>·</i> Ranic <i>·</i></span>
+    <span>Rinat <i>·</i> RG <i>·</i> Elite Sport <i>·</i> Uhlsport <i>·</i> Reusch <i>·</i> Bambino Sport <i>·</i> ADM Keeper <i>·</i> Aurik <i>·</i> SP Fútbol <i>·</i> Ranic <i>·</i></span>
+  </div>
+</div>
+
+<!-- ============ PERSONALIZACIÓN ============ -->
+<section class="sec person">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Incluido en el precio</p>
+      <h2 class="display">Con tu nombre<br>en el guante</h2>
+      <p class="lead" style="margin-bottom:26px">
+        Todos los guantes profesionales y semi-pro salen personalizados sin costo extra.
+        Es el detalle que hace que un guante deje de ser un producto y pase a ser tuyo.
+      </p>
+      <ul>
+        <li><b>01</b> Elige el modelo y la talla</li>
+        <li><b>02</b> Nos escribes el nombre o número que quieres</li>
+        <li><b>03</b> Lo bordamos y despachamos en 48 horas</li>
+      </ul>
+      <div style="display:flex; gap:12px; flex-wrap:wrap">
+        <a href="catalogo.html" class="btn btn-rojo">Elegir mi guante</a>
+        <a href="#" class="btn btn-line-w">Ver ejemplos</a>
+      </div>
+    </div>
+    <div class="person-visual">
+      <img src="assets/prod/rinat-asimetrik-pro.png" alt="Guante personalizado">
+      <span class="nombre">Tu nombre</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INFANTIL / ENTRADA ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">Primer guante</p>
+        <h2 class="display">Para los que<br>recién empiezan</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver línea infantil →</a>
+    </div>
+    <div class="grid-prod grid-6" id="infantil"></div>
+  </div>
+</section>
+
+<div data-footer></div>
+
+<script src="assets/partes.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+  const mc = ([m,n]) => `<a href="catalogo.html" class="marca-c"><div class="nom">${m}</div><div class="cant">${n} modelos</div></a>`;
+  document.getElementById('marcas1').innerHTML = VS.marcas.slice(0,5).map(mc).join('');
+  document.getElementById('marcas2').innerHTML = VS.marcas.slice(5).map(mc).join('');
+
+  const top = ['rinat-egotiko-xpro','rg-bacan','elite-supreme-aqua','rinat-aries-xpro'];
+  document.getElementById('vendidos').innerHTML =
+    top.map(s=>cardProducto(PRODUCTOS.find(p=>p.s===s))).join('');
+
+  const inf = ['ranic-az','ranic-ng','ranic-vd','aurik-ngrj','aurik-rsng','aurik-clnj'];
+  document.getElementById('infantil').innerHTML =
+    inf.map(s=>cardProducto(PRODUCTOS.find(p=>p.s===s))).join('');
+});
+</script>
+</body>
+</html>

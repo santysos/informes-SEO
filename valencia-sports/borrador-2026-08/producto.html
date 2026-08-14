@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>RG Toride 25-26 — Valencia Sports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vs.css">
+<style>
+/* ====== Ficha de producto ====== */
+
+.miga{font-family:var(--f-mono); font-size:11.5px; color:var(--texto-2); padding:18px 0; letter-spacing:.06em}
+.miga a:hover{color:var(--rojo)}
+
+.ficha{display:grid; grid-template-columns:1.05fr .95fr; gap:52px; padding-bottom:64px; align-items:start}
+
+/* galería */
+.galeria{position:sticky; top:calc(var(--h) + 18px)}
+.foto-grande{
+  background:var(--papel); border:1px solid var(--linea);
+  aspect-ratio:1/1; display:grid; place-items:center;
+  position:relative; overflow:hidden; padding:38px;
+}
+.foto-grande img{max-height:100%; width:auto; object-fit:contain; transition:transform .35s}
+.foto-grande:hover img{transform:scale(1.07)}
+.foto-grande .et{
+  position:absolute; top:18px; left:18px;
+  background:var(--rojo); color:#fff; padding:6px 12px;
+  font-family:var(--f-mono); font-size:10.5px; font-weight:700;
+  letter-spacing:.12em; text-transform:uppercase;
+}
+.miniaturas{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:10px}
+.mini{
+  background:var(--papel); border:1px solid var(--linea);
+  aspect-ratio:1/1; display:grid; place-items:center; padding:12px;
+  cursor:pointer; transition:.15s; overflow:hidden;
+}
+.mini.on,.mini:hover{border-color:var(--navy)}
+.mini img{max-height:100%; width:auto; object-fit:contain}
+
+/* columna de compra */
+.compra{position:relative; z-index:3}
+.compra .marca-p{
+  font-family:var(--f-mono); font-size:11.5px; font-weight:700;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--rojo);
+}
+.compra h1{font-size:clamp(30px,3.7vw,46px); margin:10px 0 12px}
+.linea-meta{
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  font-family:var(--f-mono); font-size:12px; color:var(--texto-2);
+  padding-bottom:20px; border-bottom:1px solid var(--linea);
+}
+.stock{display:inline-flex; align-items:center; gap:7px; color:var(--ok); font-weight:700}
+.stock::before{content:''; width:7px; height:7px; border-radius:50%; background:var(--ok)}
+
+.precio-b{display:flex; align-items:baseline; gap:14px; margin:22px 0 6px}
+.precio-b .now{font-family:var(--f-display); font-weight:800; font-size:46px; letter-spacing:-.03em}
+.precio-b .antes{font-size:19px; color:var(--texto-2); text-decoration:line-through}
+.precio-b .off{background:var(--rojo); color:#fff; padding:4px 9px; font-family:var(--f-mono); font-size:11px; font-weight:700}
+.cuotas{font-family:var(--f-mono); font-size:12.5px; color:var(--texto-2); margin-bottom:26px}
+
+.selector{margin-bottom:22px}
+.selector .tit{
+  display:flex; align-items:baseline; justify-content:space-between;
+  font-family:var(--f-mono); font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--texto-2); margin-bottom:11px;
+}
+.selector .tit a{color:var(--rojo); text-decoration:underline; text-underline-offset:3px}
+.tallas-p{display:flex; gap:9px; flex-wrap:wrap}
+.talla-p{
+  min-width:52px; height:48px; padding:0 14px;
+  display:grid; place-items:center;
+  border:1.5px solid var(--linea); border-radius:var(--r);
+  font-family:var(--f-mono); font-weight:700; font-size:14px;
+  cursor:pointer; transition:.15s; background:var(--papel);
+}
+.talla-p:hover{border-color:var(--navy)}
+.talla-p.on{background:var(--navy); border-color:var(--navy); color:#fff}
+.talla-p.off{opacity:.35; cursor:not-allowed; text-decoration:line-through}
+
+/* personalización — el diferencial del negocio */
+.person-box{
+  border:1px solid var(--linea); border-left:3px solid var(--rojo);
+  background:var(--papel); padding:18px 20px; margin-bottom:22px;
+}
+.person-box .cab{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:11px}
+.person-box h4{font-size:14.5px; font-weight:700}
+.person-box .gratis{
+  background:var(--ok); color:#fff; padding:3px 9px;
+  font-family:var(--f-mono); font-size:10px; font-weight:700;
+  letter-spacing:.1em; text-transform:uppercase;
+}
+.person-box input{
+  width:100%; padding:11px 13px; border:1px solid var(--linea);
+  border-radius:var(--r); font:inherit; font-size:14px;
+  background:var(--fondo);
+}
+.person-box input:focus{outline:none; border-color:var(--navy); background:#fff}
+.person-box small{display:block; margin-top:8px; font-size:12px; color:var(--texto-2)}
+
+.acciones-c{display:flex; gap:11px; margin-bottom:14px}
+.acciones-c .btn{flex:1; justify-content:center; padding:17px 22px; font-size:14px}
+.wa-btn{
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  width:100%; padding:14px; border:1.5px solid var(--linea);
+  border-radius:var(--r); font-size:13.5px; font-weight:700; transition:.15s;
+}
+.wa-btn:hover{border-color:var(--ok); color:var(--ok)}
+
+.envios{border-top:1px solid var(--linea); margin-top:24px; padding-top:20px; display:grid; gap:14px}
+.envio{display:flex; gap:13px; align-items:flex-start}
+.envio svg{width:19px; height:19px; color:var(--rojo); flex-shrink:0; margin-top:2px}
+.envio .t{font-size:13.5px; font-weight:700}
+.envio .d{font-size:12.5px; color:var(--texto-2); line-height:1.5}
+
+/* pestañas de detalle */
+.detalle{background:var(--papel); border-top:1px solid var(--linea); border-bottom:1px solid var(--linea)}
+.tabs{display:flex; gap:0; border-bottom:1px solid var(--linea)}
+.tab{
+  padding:18px 26px; font-size:13.5px; font-weight:700;
+  letter-spacing:.03em; text-transform:uppercase;
+  border-bottom:3px solid transparent; margin-bottom:-1px; transition:.15s;
+}
+.tab.on{border-bottom-color:var(--rojo); color:var(--rojo)}
+.tab:hover{color:var(--rojo)}
+.panel{padding:38px 0; display:none}
+.panel.on{display:grid; grid-template-columns:1.3fr .7fr; gap:52px}
+.panel p{color:var(--texto-2); line-height:1.75; margin-bottom:16px; max-width:640px}
+.panel h3{font-size:19px; font-weight:700; margin:26px 0 12px}
+.panel h3:first-child{margin-top:0}
+
+.tabla-esp{width:100%; border-collapse:collapse; border:1px solid var(--linea)}
+.tabla-esp tr{border-bottom:1px solid var(--linea)}
+.tabla-esp tr:last-child{border-bottom:0}
+.tabla-esp td{padding:13px 16px; font-size:13.5px}
+.tabla-esp td:first-child{
+  font-family:var(--f-mono); font-size:11px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--texto-2);
+  background:var(--fondo); width:44%;
+}
+.tabla-esp td:last-child{font-weight:600}
+
+.aviso{
+  background:var(--fondo); border-left:3px solid var(--navy);
+  padding:18px 20px; margin-top:22px;
+}
+.aviso .t{font-weight:700; font-size:14px; margin-bottom:6px}
+.aviso p{font-size:13.5px; margin:0}
+
+/* guía de tallas */
+.tabla-tallas{width:100%; border-collapse:collapse; border:1px solid var(--linea); background:var(--papel)}
+.tabla-tallas th{
+  background:var(--navy); color:#fff; padding:12px 14px;
+  font-family:var(--f-mono); font-size:11px; letter-spacing:.1em;
+  text-transform:uppercase; text-align:left; font-weight:700;
+}
+.tabla-tallas td{padding:11px 14px; font-size:13.5px; border-bottom:1px solid var(--linea)}
+.tabla-tallas tr:last-child td{border-bottom:0}
+.tabla-tallas tbody tr:hover{background:var(--fondo)}
+
+.grid-4{grid-template-columns:repeat(4,1fr)}
+
+@media(max-width:980px){
+  .ficha{grid-template-columns:1fr; gap:34px}
+  .galeria{position:static}
+  .panel.on{grid-template-columns:1fr; gap:28px}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .tabs{overflow-x:auto}
+  .tab{white-space:nowrap; padding:16px 18px}
+}
+@media(max-width:520px){
+  .grid-4{grid-template-columns:1fr}
+  .acciones-c{flex-direction:column}
+}
+</style>
+</head>
+<body data-pagina="guantes">
+
+<div data-header></div>
+
+<div class="wrap">
+  <div class="miga">
+    <a href="home-a.html">Inicio</a> / <a href="catalogo.html">Guantes de portero</a> /
+    <a href="catalogo.html">RG</a> / <b style="color:var(--texto)">Toride 25-26</b>
+  </div>
+
+  <!-- ============ FICHA ============ -->
+  <div class="ficha">
+
+    <div class="galeria">
+      <div class="foto-grande">
+        <span class="et">Nuevo · Temporada 25-26</span>
+        <img src="assets/prod/rg-toride.png" alt="RG Toride 25-26" id="foto">
+      </div>
+      <div class="miniaturas">
+        <div class="mini on"><img src="assets/prod/rg-toride.png" alt=""></div>
+        <div class="mini"><img src="assets/prod/rg-aversa.png" alt=""></div>
+        <div class="mini"><img src="assets/prod/rg-aegix.png" alt=""></div>
+        <div class="mini"><img src="assets/prod/rg-bacan.png" alt=""></div>
+      </div>
+    </div>
+
+    <div class="compra">
+      <div class="marca-p">RG</div>
+      <h1 class="display">Toride 25-26</h1>
+      <div class="linea-meta">
+        <span class="stock">En stock · 6 unidades</span>
+        <span>·</span>
+        <span>SKU RG-TOR-2526</span>
+        <span>·</span>
+        <span>Nivel profesional</span>
+      </div>
+
+      <div class="precio-b">
+        <span class="now">$130</span>
+        <span class="antes">$155</span>
+        <span class="off">-16%</span>
+      </div>
+      <p class="cuotas">o 3 cuotas sin interés de $43,33 · precio con IVA incluido</p>
+
+      <div class="selector">
+        <div class="tit">
+          <span>Talla · elige la tuya</span>
+          <a href="#tallas">Ver guía de tallas</a>
+        </div>
+        <div class="tallas-p">
+          <span class="talla-p off">7</span>
+          <span class="talla-p on">8</span>
+          <span class="talla-p">9</span>
+          <span class="talla-p">10</span>
+          <span class="talla-p off">11</span>
+        </div>
+      </div>
+
+      <div class="person-box">
+        <div class="cab">
+          <h4>Personaliza tu guante</h4>
+          <span class="gratis">Sin costo</span>
+        </div>
+        <input type="text" placeholder="Nombre o número que quieres bordado" maxlength="14">
+        <small>Máximo 14 caracteres. Si lo dejas vacío, sale sin personalizar.</small>
+      </div>
+
+      <div class="acciones-c">
+        <button class="btn btn-rojo">Agregar al carrito</button>
+        <button class="btn btn-navy">Comprar ahora</button>
+      </div>
+      <a href="https://wa.me/593981140524?text=Hola%2C%20me%20interesa%20el%20RG%20Toride%2025-26" class="wa-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.8.8.8-2.8-.2-.3A8 8 0 1112 20z"/></svg>
+        Consultar disponibilidad por WhatsApp
+      </a>
+
+      <div class="envios">
+        <div class="envio">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h11v9H3zm12 3h3.6l2.4 3.2V15h-6z"/><circle cx="7" cy="18.2" r="1.7"/><circle cx="17.4" cy="18.2" r="1.7"/></svg>
+          <div>
+            <div class="t">Envío a todo el Ecuador</div>
+            <div class="d">Sierra y costa en 24-48 horas hábiles desde que se confirma el pago.</div>
+          </div>
+        </div>
+        <div class="envio">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4 5.2v6.3c0 5 3.4 9.2 8 10.5 4.6-1.3 8-5.5 8-10.5V5.2zm-1 13.4l-3.2-3.2 1.5-1.5 1.7 1.7 4-4 1.5 1.5z"/></svg>
+          <div>
+            <div class="t">Producto original RG</div>
+            <div class="d">Somos distribuidores autorizados. Nada de réplicas ni importación paralela.</div>
+          </div>
+        </div>
+        <div class="envio">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 4h18v11H8l-5 4.5z"/></svg>
+          <div>
+            <div class="t">¿Dudas con la talla?</div>
+            <div class="d">Escríbenos con la medida de tu mano y te confirmamos antes de despachar.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============ DETALLE ============ -->
+<section class="detalle">
+  <div class="wrap">
+    <div class="tabs">
+      <a class="tab on" data-tab="desc">Descripción</a>
+      <a class="tab" data-tab="esp">Especificaciones</a>
+      <a class="tab" data-tab="tallas" id="tallas">Guía de tallas</a>
+      <a class="tab" data-tab="cuidado">Cuidado del látex</a>
+    </div>
+
+    <div class="panel on" data-panel="desc">
+      <div>
+        <h3>Qué lo diferencia</h3>
+        <p>
+          El Toride es el modelo con el que RG se metió de lleno en la gama alta. La tecnología
+          Seamless elimina el dobladillo interno: el guante se siente como una segunda piel y
+          desaparece la costura que en modelos convencionales termina marcando el dedo después
+          de 80 minutos de partido.
+        </p>
+        <p>
+          La palma es látex KRITON Grip de 4 mm, el compuesto que RG desarrolló buscando
+          equilibrio entre agarre en seco y en mojado. En cancha húmeda rinde notablemente
+          mejor que un látex convencional; en cancha sintética seca se desgasta como todo
+          látex profesional, y ahí conviene reservarlo para partidos.
+        </p>
+        <h3>Para quién es</h3>
+        <p>
+          Para el portero que ya juega en categoría formativa avanzada o en primera de barrio
+          en serio, y que sabe que un guante profesional se cuida. Si entrenas cuatro veces por
+          semana en cemento, este no es tu guante de entrenamiento — es tu guante de partido.
+        </p>
+        <div class="aviso">
+          <div class="t">Nuestra recomendación honesta</div>
+          <p>
+            Si vas a usarlo todos los días en superficie dura, mejor llévate un modelo de
+            entrenamiento a $34 y guarda el Toride para los partidos. Te dura tres veces más
+            y gastas lo mismo al año.
+          </p>
+        </div>
+      </div>
+      <div>
+        <table class="tabla-esp">
+          <tr><td>Marca</td><td>RG</td></tr>
+          <tr><td>Modelo</td><td>Toride 25-26</td></tr>
+          <tr><td>Nivel</td><td>Profesional</td></tr>
+          <tr><td>Palma</td><td>Látex KRITON Grip 4 mm</td></tr>
+          <tr><td>Corte</td><td>Híbrido (roll + negativo)</td></tr>
+          <tr><td>Dorso</td><td>Neopreno con relieve 3D</td></tr>
+          <tr><td>Cierre</td><td>Muñequera elástica con velcro</td></tr>
+          <tr><td>Protección de dedos</td><td>No incluye férulas</td></tr>
+          <tr><td>Tallas</td><td>8 · 9 · 10</td></tr>
+          <tr><td>Personalización</td><td>Incluida</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel" data-panel="esp">
+      <div>
+        <h3>Ficha técnica completa</h3>
+        <p>
+          Todos los datos que el fabricante declara para este modelo, más lo que hemos
+          comprobado nosotros vendiéndolo desde que salió.
+        </p>
+        <table class="tabla-esp">
+          <tr><td>Compuesto de palma</td><td>KRITON Grip — látex alemán de 4 mm</td></tr>
+          <tr><td>Rendimiento en seco</td><td>Alto</td></tr>
+          <tr><td>Rendimiento en húmedo</td><td>Muy alto</td></tr>
+          <tr><td>Durabilidad en sintética</td><td>Media — es látex de competencia</td></tr>
+          <tr><td>Ajuste</td><td>Ceñido: si dudas entre dos tallas, pide la mayor</td></tr>
+          <tr><td>Peso aproximado</td><td>158 g el par en talla 9</td></tr>
+          <tr><td>Temporada</td><td>2025-2026</td></tr>
+        </table>
+      </div>
+      <div>
+        <div class="aviso" style="margin-top:0">
+          <div class="t">Sobre el ajuste</div>
+          <p>
+            El Toride calza más ceñido que el Bacan de la misma marca. Un portero que usa
+            talla 9 en Bacan normalmente necesita 9 en Toride, pero si tiene la mano ancha
+            conviene subir a 10.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" data-panel="tallas">
+      <div>
+        <h3>Cómo medir tu mano</h3>
+        <p>
+          Con una cinta métrica, mide el contorno de la palma a la altura de los nudillos,
+          sin apretar y sin incluir el pulgar. Ese número en centímetros es el que manda.
+          Si te queda entre dos tallas, pide la mayor: un guante apretado te resta movilidad
+          en el dedo y se rompe antes por la costura.
+        </p>
+        <table class="tabla-tallas">
+          <thead><tr><th>Talla</th><th>Contorno de palma</th><th>Edad orientativa</th></tr></thead>
+          <tbody>
+            <tr><td>5</td><td>15 – 16 cm</td><td>6 a 8 años</td></tr>
+            <tr><td>6</td><td>16 – 18 cm</td><td>8 a 10 años</td></tr>
+            <tr><td>7</td><td>18 – 20 cm</td><td>10 a 13 años</td></tr>
+            <tr><td>8</td><td>20 – 21,5 cm</td><td>13 a 15 años</td></tr>
+            <tr><td>9</td><td>21,5 – 23 cm</td><td>Adulto, mano estándar</td></tr>
+            <tr><td>10</td><td>23 – 24,5 cm</td><td>Adulto, mano grande</td></tr>
+            <tr><td>11</td><td>24,5 cm o más</td><td>Adulto, mano muy grande</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="aviso" style="margin-top:0">
+          <div class="t">Mándanos la foto</div>
+          <p>
+            Si no tienes cinta métrica, toma una foto de tu mano abierta junto a una hoja A4
+            y mándala por WhatsApp. Con eso calculamos la talla y te confirmamos antes de
+            que pagues.
+          </p>
+        </div>
+        <a href="https://wa.me/593981140524" class="btn btn-navy" style="margin-top:16px">Consultar mi talla</a>
+      </div>
+    </div>
+
+    <div class="panel" data-panel="cuidado">
+      <div>
+        <h3>Cómo hacer que dure el triple</h3>
+        <p>
+          El látex profesional se seca y se cristaliza si se guarda mal. Estas cuatro cosas
+          son las que separan un guante que dura tres meses de uno que dura un año.
+        </p>
+        <h3>1. Humedece la palma antes de jugar</h3>
+        <p>
+          El látex agarra cuando está húmedo. Un poco de agua antes del partido y en el
+          entretiempo cambia por completo el rendimiento. Para eso está también el
+          Glove Glu Megagrip que vendemos a $28.
+        </p>
+        <h3>2. Lávalo después de cada uso</h3>
+        <p>
+          Agua tibia, sin detergente fuerte y sin lavadora. La tierra que queda entre los
+          poros del látex es lo que lo lija desde adentro.
+        </p>
+        <h3>3. Sécalo a la sombra</h3>
+        <p>
+          Nunca al sol directo ni sobre un radiador. El calor endurece el látex y ahí ya
+          no hay vuelta atrás.
+        </p>
+        <h3>4. Guárdalo con las palmas separadas</h3>
+        <p>
+          Si se guardan palma con palma y húmedos, se pegan entre sí y al despegarlos se
+          arranca la capa de agarre.
+        </p>
+      </div>
+      <div>
+        <div style="background:var(--fondo); border:1px solid var(--linea); padding:22px">
+          <p class="eyebrow" style="margin-bottom:12px">Te puede servir</p>
+          <a href="producto.html" style="display:flex; gap:14px; align-items:center">
+            <img src="assets/prod/gloveglu.png" alt="Glove Glu" style="width:66px; height:auto">
+            <div>
+              <div style="font-weight:700; font-size:14px">Glove Glu Megagrip</div>
+              <div style="font-family:var(--f-mono); font-size:12px; color:var(--texto-2); margin-top:4px">Aerosol 120 ml · $28</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RELACIONADOS ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">También de gama profesional</p>
+        <h2 class="display">Quien vio este,<br>vio estos</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver todo el catálogo →</a>
+    </div>
+    <div class="grid-prod grid-4" id="relacionados"></div>
+  </div>
+</section>
+
+<div data-footer></div>
+
+<script src="assets/partes.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+  const rel = ['rg-aversa','rg-aegix','elite-revolution-x','rinat-egotiko-xpro'];
+  document.getElementById('relacionados').innerHTML =
+    rel.map(s=>cardProducto(PRODUCTOS.find(p=>p.s===s))).join('');
+
+  document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click', e=>{
+    e.preventDefault();
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('on'));
+    t.classList.add('on');
+    document.querySelector(`[data-panel="${t.dataset.tab}"]`).classList.add('on');
+  }));
+
+  document.querySelectorAll('.talla-p:not(.off)').forEach(t=>t.addEventListener('click', ()=>{
+    document.querySelectorAll('.talla-p').forEach(x=>x.classList.remove('on'));
+    t.classList.add('on');
+  }));
+
+  document.querySelectorAll('.mini').forEach(m=>m.addEventListener('click', ()=>{
+    document.querySelectorAll('.mini').forEach(x=>x.classList.remove('on'));
+    m.classList.add('on');
+    document.getElementById('foto').src = m.querySelector('img').src;
+  }));
+});
+</script>
+</body>
+</html>

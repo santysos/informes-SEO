@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Valencia Sports — Opción A: La casa del portero</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vs.css">
+<style>
+/* ====== Opción A — editorial, la vitrina es el guante ====== */
+
+.hero{
+  background:var(--papel);
+  border-bottom:1px solid var(--linea);
+  position:relative; overflow:hidden;
+}
+.hero .wrap{
+  display:grid; grid-template-columns:1.05fr .95fr;
+  gap:40px; align-items:center;
+  min-height:min(640px, 78vh); padding-top:36px; padding-bottom:36px;
+}
+/* triángulo del isotipo como textura de fondo, muy tenue */
+.hero::before{
+  content:''; position:absolute; right:-6%; top:-18%;
+  width:640px; height:640px;
+  background:url('assets/iso-red.png') center/contain no-repeat;
+  opacity:.045; transform:rotate(-8deg); pointer-events:none;
+}
+.hero-txt h1{
+  font-size:clamp(42px, 5.3vw, 76px);
+  margin:16px 0 20px;
+}
+.hero-txt h1 em{font-style:normal; color:var(--rojo)}
+.hero-txt .lead{max-width:430px; margin-bottom:30px}
+.hero-cta{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:34px}
+.hero-datos{
+  display:flex; gap:32px; padding-top:24px;
+  border-top:1px solid var(--linea);
+}
+.hero-datos div .num{
+  font-family:var(--f-display); font-weight:800;
+  font-size:30px; line-height:1; letter-spacing:-.03em;
+}
+.hero-datos div .txt{
+  font-family:var(--f-mono); font-size:10.5px; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--texto-2); margin-top:6px;
+}
+
+.hero-img{position:relative; display:grid; place-items:center}
+.hero-img > img{
+  width:100%; max-width:520px;
+  filter:drop-shadow(0 40px 60px rgba(31,22,70,.24));
+  transform:rotate(-6deg);
+}
+.hero-tag{
+  position:absolute; background:var(--papel);
+  border:1px solid var(--linea); border-left:3px solid var(--rojo);
+  padding:11px 15px; box-shadow:0 14px 34px rgba(31,22,70,.12);
+}
+.hero-tag .k{
+  font-family:var(--f-mono); font-size:9.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--texto-2);
+}
+.hero-tag .v{font-weight:700; font-size:14px; margin-top:2px}
+.hero-tag.t1{top:12%; left:-4%}
+.hero-tag.t2{bottom:20%; right:-2%}
+.hero-tag.t3{
+  bottom:6%; left:4%;
+  border-left-color:var(--navy);
+}
+
+/* barra de marcas */
+.marcas-bar{background:var(--papel); border-bottom:1px solid var(--linea)}
+.marcas-bar .wrap{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:20px; padding-top:22px; padding-bottom:22px; flex-wrap:wrap;
+}
+.marcas-bar a{
+  font-family:var(--f-display); font-weight:800; font-size:17px;
+  letter-spacing:-.01em; text-transform:uppercase;
+  color:#b6b2c4; transition:color .2s;
+}
+.marcas-bar a:hover{color:var(--navy)}
+
+/* selector por nivel de juego — el corazón de la opción A */
+.niveles{background:var(--navy); color:#fff}
+.niveles .sec-tit h2{color:#fff}
+.niveles .lead{color:rgba(255,255,255,.66)}
+.nivel-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:18px}
+.nivel{
+  border:1px solid rgba(255,255,255,.16);
+  padding:26px 22px 24px; position:relative;
+  transition:.22s ease; overflow:hidden;
+}
+.nivel:hover{background:rgba(255,255,255,.05); border-color:var(--rojo)}
+.nivel .n{
+  font-family:var(--f-mono); font-size:11px; color:var(--rojo);
+  letter-spacing:.14em;
+}
+.nivel h3{
+  font-family:var(--f-display); font-weight:800; text-transform:uppercase;
+  font-size:23px; letter-spacing:-.02em; margin:12px 0 10px; line-height:1;
+}
+.nivel p{font-size:13.5px; color:rgba(255,255,255,.62); line-height:1.6; min-height:62px}
+.nivel .rango{
+  font-family:var(--f-mono); font-size:12px; color:#fff;
+  border-top:1px solid rgba(255,255,255,.16);
+  margin-top:16px; padding-top:14px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.nivel .rango span:last-child{color:var(--rojo); font-weight:700}
+
+/* destacados */
+.destacados{background:var(--fondo)}
+.grid-4{grid-template-columns:repeat(4,1fr)}
+
+/* bloque editorial: guía de corte */
+.guia{background:var(--papel); border-top:1px solid var(--linea); border-bottom:1px solid var(--linea)}
+.guia .wrap{display:grid; grid-template-columns:.85fr 1.15fr; gap:56px; align-items:center}
+.guia h2{font-size:clamp(28px,3.2vw,40px); margin:14px 0 18px}
+.cortes{display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--linea); border:1px solid var(--linea)}
+.corte{background:var(--papel); padding:22px 20px}
+.corte .ic{
+  width:40px; height:40px; border:1.5px solid var(--navy);
+  display:grid; place-items:center; margin-bottom:14px;
+  font-family:var(--f-mono); font-weight:700; font-size:13px;
+}
+.corte h4{font-size:15px; font-weight:700; margin-bottom:7px}
+.corte p{font-size:13px; color:var(--texto-2); line-height:1.6}
+
+/* accesorios en fila */
+.acc-scroll{display:grid; grid-template-columns:repeat(6,1fr); gap:1px; background:var(--linea); border:1px solid var(--linea)}
+.acc{background:var(--papel); padding:18px 16px; text-align:center}
+.acc img{height:110px; margin:0 auto 14px; object-fit:contain; width:auto}
+.acc h4{font-size:13.5px; font-weight:700; line-height:1.3; margin-bottom:6px}
+.acc .p{font-family:var(--f-display); font-weight:800; font-size:19px}
+
+/* franja de confianza */
+.confianza{background:var(--papel); border-top:1px solid var(--linea)}
+.conf-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--linea)}
+.conf{background:var(--papel); padding:30px 24px}
+.conf .ic{color:var(--rojo); margin-bottom:12px}
+.conf .ic svg{width:26px; height:26px}
+.conf h4{font-size:15px; font-weight:700; margin-bottom:6px}
+.conf p{font-size:13px; color:var(--texto-2); line-height:1.6}
+
+@media(max-width:980px){
+  .hero .wrap{grid-template-columns:1fr; text-align:left}
+  .hero-img{order:-1}
+  .hero-img > img{max-width:340px}
+  .hero-tag{display:none}
+  .nivel-grid{grid-template-columns:repeat(2,1fr)}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .guia .wrap{grid-template-columns:1fr; gap:32px}
+  .acc-scroll{grid-template-columns:repeat(3,1fr)}
+  .conf-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+  .nivel-grid,.grid-4,.cortes,.conf-grid{grid-template-columns:1fr}
+  .acc-scroll{grid-template-columns:repeat(2,1fr)}
+  .hero-datos{gap:20px; flex-wrap:wrap}
+}
+</style>
+</head>
+<body data-pagina="inicio">
+
+<div data-header></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-txt">
+      <p class="eyebrow">Especialistas en portería desde el primer día</p>
+      <h1 class="display">Todo lo que<br>usa el que<br><em>ataja</em></h1>
+      <p class="lead">
+        Guantes profesionales, semi-profesionales y de entrenamiento de las diez marcas que
+        de verdad se usan en cancha. Con personalización y envío a todo el Ecuador.
+      </p>
+      <div class="hero-cta">
+        <a href="catalogo.html" class="btn btn-rojo">Ver guantes</a>
+        <a href="#niveles" class="btn btn-line">¿Cuál me toca?</a>
+      </div>
+      <div class="hero-datos">
+        <div><div class="num">166</div><div class="txt">modelos en catálogo</div></div>
+        <div><div class="num">10</div><div class="txt">marcas oficiales</div></div>
+        <div><div class="num">$15</div><div class="txt">desde, talla infantil</div></div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="assets/prod/rg-toride.png" alt="RG Toride 25-26">
+      <div class="hero-tag t1"><div class="k">Palma</div><div class="v">Látex KRITON Grip</div></div>
+      <div class="hero-tag t2"><div class="k">Corte</div><div class="v">Híbrido · Tallas 8-10</div></div>
+      <div class="hero-tag t3"><div class="k">RG Toride 25-26</div><div class="v" style="color:var(--rojo)">$130</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARCAS ============ -->
+<div class="marcas-bar">
+  <div class="wrap">
+    <a href="catalogo.html">Rinat</a><a href="catalogo.html">RG</a>
+    <a href="catalogo.html">Elite Sport</a><a href="catalogo.html">Uhlsport</a>
+    <a href="catalogo.html">Reusch</a><a href="catalogo.html">Bambino</a>
+    <a href="catalogo.html">ADM Keeper</a><a href="catalogo.html">Aurik</a>
+    <a href="catalogo.html">SP Fútbol</a><a href="catalogo.html">Ranic</a>
+  </div>
+</div>
+
+<!-- ============ NIVELES ============ -->
+<section class="sec niveles" id="niveles">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">Empieza por acá</p>
+        <h2 class="display">Elige por nivel,<br>no por precio</h2>
+      </div>
+      <p class="lead" style="max-width:330px">
+        Un guante profesional en una cancha de tierra dura tres meses. Dinos dónde
+        juegas y te mandamos al estante correcto.
+      </p>
+    </div>
+    <div class="nivel-grid">
+      <a href="catalogo.html" class="nivel">
+        <div class="n">01</div>
+        <h3>Profesional</h3>
+        <p>Látex alemán de 4 mm, corte negativo o híbrido. Máximo agarre, vida útil corta si se usa en sintética dura.</p>
+        <div class="rango"><span>Rinat · RG · Elite</span><span>$85–130</span></div>
+      </a>
+      <a href="catalogo.html" class="nivel">
+        <div class="n">02</div>
+        <h3>Semi-Pro</h3>
+        <p>El equilibrio real: buen agarre con látex que aguanta partido y entrenamiento en la misma semana.</p>
+        <div class="rango"><span>Bambino · Aurik</span><span>$45–85</span></div>
+      </a>
+      <a href="catalogo.html" class="nivel">
+        <div class="n">03</div>
+        <h3>Entrenamiento</h3>
+        <p>Palma resistente al desgaste. Para el que entrena tres veces por semana y no quiere gastar el guante bueno.</p>
+        <div class="rango"><span>Aurik · Rinat Nkam</span><span>$26–45</span></div>
+      </a>
+      <a href="catalogo.html" class="nivel">
+        <div class="n">04</div>
+        <h3>Infantil</h3>
+        <p>Tallas 5 a 8, con protección de dedos y precio de campeonato de barrio. El primer guante bueno.</p>
+        <div class="rango"><span>Ranic · Bambino</span><span>$15–34</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRANJA ============ -->
+<div class="franja">
+  <div class="marquee">
+    <span>Personalización con tu nombre <i>·</i> Envío a todo el Ecuador <i>·</i> Tallas 5 a 11 <i>·</i> Asesoría por WhatsApp <i>·</i> Distribuidor oficial</span>
+    <span>Personalización con tu nombre <i>·</i> Envío a todo el Ecuador <i>·</i> Tallas 5 a 11 <i>·</i> Asesoría por WhatsApp <i>·</i> Distribuidor oficial</span>
+  </div>
+</div>
+
+<!-- ============ DESTACADOS ============ -->
+<section class="sec destacados">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">Temporada 25-26</p>
+        <h2 class="display">Lo que acaba<br>de llegar</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver los 166 modelos →</a>
+    </div>
+    <div class="grid-prod grid-4" id="destacados"></div>
+  </div>
+</section>
+
+<!-- ============ GUÍA DE CORTE ============ -->
+<section class="guia sec">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Guía rápida</p>
+      <h2 class="display">El corte cambia<br>más que el color</h2>
+      <p class="lead" style="margin-bottom:24px">
+        Es la pregunta que más nos llega por WhatsApp. El corte define cómo se siente
+        el balón en la mano — y no hay uno mejor: hay uno que va con tu forma de atajar.
+      </p>
+      <a href="#" class="btn btn-navy">Leer la guía completa</a>
+    </div>
+    <div class="cortes">
+      <div class="corte">
+        <div class="ic">RF</div>
+        <h4>Roll Finger</h4>
+        <p>El látex envuelve el dedo. Más superficie de contacto y sensación de guante lleno. El clásico para manos delgadas.</p>
+      </div>
+      <div class="corte">
+        <div class="ic">NG</div>
+        <h4>Negativo</h4>
+        <p>Costura interna: el guante queda pegado a la mano. Es el que usan casi todos los profesionales hoy.</p>
+      </div>
+      <div class="corte">
+        <div class="ic">HY</div>
+        <h4>Híbrido</h4>
+        <p>Roll en los dedos exteriores y negativo en los interiores. Punto medio entre ajuste y agarre.</p>
+      </div>
+      <div class="corte">
+        <div class="ic">PL</div>
+        <h4>Plano</h4>
+        <p>Costura externa, el más holgado y económico. Para el que empieza o entrena a diario.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACCESORIOS ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <p class="eyebrow">No solo la mano</p>
+        <h2 class="display">Protección y cuidado</h2>
+      </div>
+      <a href="#" class="ver-todo">Ver accesorios →</a>
+    </div>
+    <div class="acc-scroll" id="accesorios"></div>
+  </div>
+</section>
+
+<!-- ============ CONFIANZA ============ -->
+<section class="confianza">
+  <div class="wrap" style="padding:0">
+    <div class="conf-grid">
+      <div class="conf">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h11v9H3zm12 3h3.6l2.4 3.2V15h-6zM7 20a1.8 1.8 0 100-3.6A1.8 1.8 0 007 20zm10.5 0a1.8 1.8 0 100-3.6 1.8 1.8 0 000 3.6z"/></svg></div>
+        <h4>Envío a todo el Ecuador</h4>
+        <p>Despachamos apenas se confirma el pago. Sierra y costa en 24-48 horas.</p>
+      </div>
+      <div class="conf">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4 5.2v6.3c0 5 3.4 9.2 8 10.5 4.6-1.3 8-5.5 8-10.5V5.2zm-1 13.4l-3.2-3.2 1.5-1.5 1.7 1.7 4-4 1.5 1.5z"/></svg></div>
+        <h4>Producto original</h4>
+        <p>Distribuidores de Rinat, RG, Elite Sport y Reusch. Sin réplicas, sin sorpresas.</p>
+      </div>
+      <div class="conf">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 4h18v11H8l-5 4.5z"/></svg></div>
+        <h4>Te asesoramos la talla</h4>
+        <p>Mándanos la medida de tu mano por WhatsApp y te decimos qué talla pedir.</p>
+      </div>
+      <div class="conf">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v2.6H4zm0 5.7h16v2.6H4zm0 5.7h10V18H4z"/></svg></div>
+        <h4>Personalización</h4>
+        <p>Tu nombre o el número en el guante. Se coordina al confirmar el pedido.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div data-footer></div>
+
+<script src="assets/partes.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+  const dest = PRODUCTOS.filter(p=>['rg-toride','rg-aegix','rinat-egotiko-xpro','elite-revolution-x','rg-aversa','rinat-asimetrik-pro','bambino-ares-pro','rinat-quetzalcoatl'].includes(p.s));
+  document.getElementById('destacados').innerHTML = dest.map(p=>cardProducto(p)).join('');
+  document.getElementById('accesorios').innerHTML = ACCESORIOS.map(a=>`
+    <a href="producto.html" class="acc">
+      <img src="assets/prod/${a.s}.png" alt="${a.n}" loading="lazy">
+      <h4>${a.n}</h4>
+      <div class="p">$${a.p}</div>
+    </a>`).join('');
+});
+</script>
+</body>
+</html>

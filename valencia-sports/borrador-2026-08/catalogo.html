@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Guantes de portero — Valencia Sports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vs.css">
+<style>
+/* ====== Página de categoría / listado ====== */
+
+.miga{
+  font-family:var(--f-mono); font-size:11.5px; color:var(--texto-2);
+  padding:18px 0; letter-spacing:.06em;
+}
+.miga a:hover{color:var(--rojo)}
+
+.cab-cat{
+  background:var(--papel); border-top:1px solid var(--linea);
+  border-bottom:1px solid var(--linea); padding:36px 0;
+}
+.cab-cat .wrap{display:grid; grid-template-columns:1.2fr .8fr; gap:40px; align-items:end}
+.cab-cat h1{font-size:clamp(32px,4vw,52px); margin:12px 0 14px}
+.cab-cat .lead{max-width:520px}
+.cab-cat .resumen{
+  display:flex; gap:26px; justify-content:flex-end; flex-wrap:wrap;
+}
+.cab-cat .resumen div{text-align:right}
+.cab-cat .resumen .n{font-family:var(--f-display); font-weight:800; font-size:26px; letter-spacing:-.02em}
+.cab-cat .resumen .t{font-family:var(--f-mono); font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:var(--texto-2); margin-top:4px}
+
+/* layout con sidebar de filtros */
+.cat-layout{display:grid; grid-template-columns:250px 1fr; gap:36px; padding:34px 0 70px; align-items:start}
+
+aside.filtros{position:sticky; top:calc(var(--h) + 18px)}
+.f-bloque{
+  background:var(--papel); border:1px solid var(--linea);
+  padding:20px; margin-bottom:14px;
+}
+.f-bloque h3{
+  font-family:var(--f-mono); font-size:11px; font-weight:700;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--texto-2);
+  margin-bottom:14px; padding-bottom:11px; border-bottom:1px solid var(--linea);
+}
+.f-op{
+  display:flex; align-items:center; gap:10px;
+  padding:7px 0; font-size:13.5px; cursor:pointer; user-select:none;
+}
+.f-op input{accent-color:var(--rojo); width:15px; height:15px; cursor:pointer}
+.f-op .c{margin-left:auto; font-family:var(--f-mono); font-size:11px; color:var(--texto-2)}
+.f-op:hover{color:var(--rojo)}
+
+.tallas{display:flex; flex-wrap:wrap; gap:7px}
+.talla{
+  width:38px; height:38px; display:grid; place-items:center;
+  border:1px solid var(--linea); border-radius:var(--r);
+  font-family:var(--f-mono); font-size:13px; font-weight:700;
+  cursor:pointer; transition:.15s;
+}
+.talla:hover,.talla.on{background:var(--navy); border-color:var(--navy); color:#fff}
+
+.rango-precio{padding-top:4px}
+.rango-precio input[type=range]{width:100%; accent-color:var(--rojo)}
+.rango-precio .vals{
+  display:flex; justify-content:space-between;
+  font-family:var(--f-mono); font-size:12px; color:var(--texto-2); margin-top:8px;
+}
+
+.limpiar{
+  width:100%; text-align:center; padding:11px;
+  border:1px solid var(--linea); border-radius:var(--r);
+  font-size:12.5px; font-weight:700; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--texto-2); transition:.15s;
+}
+.limpiar:hover{border-color:var(--rojo); color:var(--rojo)}
+
+/* barra superior del listado */
+.barra{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:16px; flex-wrap:wrap; margin-bottom:18px;
+}
+.barra .cuenta{font-family:var(--f-mono); font-size:12.5px; color:var(--texto-2)}
+.barra .cuenta b{color:var(--texto)}
+.orden{
+  border:1px solid var(--linea); background:var(--papel);
+  padding:10px 14px; border-radius:var(--r);
+  font-size:13.5px; font-weight:600; cursor:pointer;
+}
+.pills-activos{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px}
+.pill-a{
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--navy); color:#fff; padding:6px 12px;
+  border-radius:var(--r); font-size:12.5px; font-weight:600;
+}
+.pill-a span{opacity:.6; cursor:pointer}
+
+.grid-cat{grid-template-columns:repeat(3,1fr)}
+
+/* paginación */
+.pagin{display:flex; gap:8px; justify-content:center; margin-top:36px}
+.pagin a{
+  min-width:40px; height:40px; display:grid; place-items:center;
+  border:1px solid var(--linea); background:var(--papel);
+  font-family:var(--f-mono); font-size:13px; font-weight:700;
+  border-radius:var(--r); transition:.15s; padding:0 12px;
+}
+.pagin a:hover,.pagin a.on{background:var(--navy); border-color:var(--navy); color:#fff}
+
+/* bloque de ayuda al pie del listado */
+.ayuda{
+  background:var(--navy); color:#fff; padding:38px;
+  display:grid; grid-template-columns:1fr auto; gap:30px;
+  align-items:center; margin-top:44px;
+}
+.ayuda h3{font-family:var(--f-display); font-weight:800; font-size:26px; text-transform:uppercase; letter-spacing:-.02em; margin-bottom:8px}
+.ayuda p{color:rgba(255,255,255,.68); font-size:14.5px; max-width:520px}
+
+@media(max-width:1080px){
+  .cat-layout{grid-template-columns:1fr}
+  aside.filtros{position:static; display:grid; grid-template-columns:repeat(2,1fr); gap:14px}
+  .grid-cat{grid-template-columns:repeat(3,1fr)}
+  .cab-cat .wrap{grid-template-columns:1fr}
+  .cab-cat .resumen{justify-content:flex-start}
+  .cab-cat .resumen div{text-align:left}
+}
+@media(max-width:720px){
+  .grid-cat{grid-template-columns:repeat(2,1fr)}
+  aside.filtros{grid-template-columns:1fr}
+  .ayuda{grid-template-columns:1fr; padding:26px}
+}
+@media(max-width:460px){ .grid-cat{grid-template-columns:1fr} }
+</style>
+</head>
+<body data-pagina="guantes">
+
+<div data-header></div>
+
+<div class="wrap">
+  <div class="miga"><a href="home-a.html">Inicio</a> / <a href="catalogo.html">Guantes de portero</a> / <b style="color:var(--texto)">Todos los modelos</b></div>
+</div>
+
+<!-- ============ CABECERA DE CATEGORÍA ============ -->
+<section class="cab-cat">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Categoría</p>
+      <h1 class="display">Guantes de portero</h1>
+      <p class="lead">
+        Todo el catálogo de las diez marcas que trabajamos, filtrable por nivel, marca,
+        corte y talla. Si dudas entre dos modelos, escríbenos: te decimos cuál aguanta
+        más en la cancha donde juegas.
+      </p>
+    </div>
+    <div class="resumen">
+      <div><div class="n">166</div><div class="t">modelos</div></div>
+      <div><div class="n">10</div><div class="t">marcas</div></div>
+      <div><div class="n">$15–130</div><div class="t">rango de precio</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LISTADO ============ -->
+<div class="wrap">
+  <div class="cat-layout">
+
+    <aside class="filtros">
+      <div class="f-bloque">
+        <h3>Nivel de juego</h3>
+        <label class="f-op"><input type="checkbox" data-f="nivel" value="Profesional" checked> Profesional <span class="c" data-cnt="Profesional"></span></label>
+        <label class="f-op"><input type="checkbox" data-f="nivel" value="Semi-Pro"> Semi-Pro <span class="c" data-cnt="Semi-Pro"></span></label>
+        <label class="f-op"><input type="checkbox" data-f="nivel" value="Entrenamiento"> Entrenamiento <span class="c" data-cnt="Entrenamiento"></span></label>
+        <label class="f-op"><input type="checkbox" data-f="nivel" value="Infantil"> Infantil <span class="c" data-cnt="Infantil"></span></label>
+      </div>
+
+      <div class="f-bloque">
+        <h3>Marca</h3>
+        <div id="fmarcas"></div>
+      </div>
+
+      <div class="f-bloque">
+        <h3>Tipo de corte</h3>
+        <label class="f-op"><input type="checkbox" data-f="corte" value="Negativo"> Negativo <span class="c" data-cnt-c="Negativo"></span></label>
+        <label class="f-op"><input type="checkbox" data-f="corte" value="Roll Finger"> Roll Finger <span class="c" data-cnt-c="Roll Finger"></span></label>
+        <label class="f-op"><input type="checkbox" data-f="corte" value="Híbrido"> Híbrido <span class="c" data-cnt-c="Híbrido"></span></label>
+        <label class="f-op"><input type="checkbox" data-f="corte" value="Plano"> Plano <span class="c" data-cnt-c="Plano"></span></label>
+      </div>
+
+      <div class="f-bloque">
+        <h3>Talla</h3>
+        <div class="tallas">
+          <span class="talla">5</span><span class="talla">6</span><span class="talla">7</span>
+          <span class="talla on">8</span><span class="talla">9</span><span class="talla">10</span>
+          <span class="talla">11</span>
+        </div>
+      </div>
+
+      <div class="f-bloque">
+        <h3>Precio</h3>
+        <div class="rango-precio">
+          <input type="range" min="15" max="130" value="130" id="rango">
+          <div class="vals"><span>$15</span><span id="vmax">$130</span></div>
+        </div>
+      </div>
+
+      <a href="catalogo.html" class="limpiar">Limpiar filtros</a>
+    </aside>
+
+    <main>
+      <div class="barra">
+        <div class="cuenta">Mostrando <b id="n-mostrados">0</b> de <b>166</b> modelos</div>
+        <select class="orden" id="orden">
+          <option value="rel">Ordenar: relevancia</option>
+          <option value="asc">Precio: de menor a mayor</option>
+          <option value="desc">Precio: de mayor a menor</option>
+          <option value="nom">Nombre A-Z</option>
+        </select>
+      </div>
+
+      <div class="pills-activos" id="pills"></div>
+
+      <div class="grid-prod grid-cat" id="listado"></div>
+
+      <div class="pagin">
+        <a href="#" class="on">1</a><a href="#">2</a><a href="#">3</a>
+        <a href="#">4</a><a href="#">Siguiente →</a>
+      </div>
+
+      <div class="ayuda">
+        <div>
+          <h3>¿No sabes qué talla pedir?</h3>
+          <p>
+            Mide el contorno de tu mano en centímetros a la altura de los nudillos y
+            mándanos la foto por WhatsApp. Te decimos la talla exacta y, si el modelo
+            calza chico, te lo advertimos antes de que compres.
+          </p>
+        </div>
+        <a href="https://wa.me/593981140524" class="btn btn-rojo">Consultar mi talla</a>
+      </div>
+    </main>
+
+  </div>
+</div>
+
+<div data-footer></div>
+
+<script src="assets/partes.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+
+  /* checkboxes de marca generados desde el catálogo */
+  const marcasEnStock = [...new Set(PRODUCTOS.map(p=>p.m))];
+  document.getElementById('fmarcas').innerHTML = marcasEnStock.map(m=>{
+    const n = PRODUCTOS.filter(p=>p.m===m).length;
+    return `<label class="f-op"><input type="checkbox" data-f="m" value="${m}"> ${m} <span class="c">${n}</span></label>`;
+  }).join('');
+
+  /* contadores por nivel y corte */
+  document.querySelectorAll('[data-cnt]').forEach(e=>{
+    e.textContent = PRODUCTOS.filter(p=>p.nivel===e.dataset.cnt).length;
+  });
+  document.querySelectorAll('[data-cnt-c]').forEach(e=>{
+    e.textContent = PRODUCTOS.filter(p=>p.corte===e.dataset.cntC).length;
+  });
+
+  const $listado = document.getElementById('listado');
+  const $pills   = document.getElementById('pills');
+  const $n       = document.getElementById('n-mostrados');
+  const $rango   = document.getElementById('rango');
+  const $vmax    = document.getElementById('vmax');
+  const $orden   = document.getElementById('orden');
+
+  function activos(campo){
+    return [...document.querySelectorAll(`input[data-f="${campo}"]:checked`)].map(i=>i.value);
+  }
+
+  function pintar(){
+    const niveles = activos('nivel'), marcas = activos('m'), cortes = activos('corte');
+    const max = +$rango.value;
+
+    let lista = PRODUCTOS.filter(p =>
+      (!niveles.length || niveles.includes(p.nivel)) &&
+      (!marcas.length  || marcas.includes(p.m))     &&
+      (!cortes.length  || cortes.includes(p.corte)) &&
+      p.p <= max
+    );
+
+    const o = $orden.value;
+    if(o==='asc')  lista.sort((a,b)=>a.p-b.p);
+    if(o==='desc') lista.sort((a,b)=>b.p-a.p);
+    if(o==='nom')  lista.sort((a,b)=>a.n.localeCompare(b.n));
+
+    $listado.innerHTML = lista.length
+      ? lista.map(p=>cardProducto(p)).join('')
+      : `<div style="grid-column:1/-1; background:#fff; padding:48px; text-align:center">
+           <p class="eyebrow muted" style="margin-bottom:10px">Sin resultados</p>
+           <p class="lead">Ningún modelo cumple esos filtros. Prueba ampliando el rango de precio.</p>
+         </div>`;
+    $n.textContent = lista.length;
+
+    const chips = [...niveles, ...marcas, ...cortes];
+    $pills.innerHTML = chips.map(c=>`<span class="pill-a">${c} <span>✕</span></span>`).join('');
+  }
+
+  document.querySelectorAll('input[data-f]').forEach(i=>i.addEventListener('change', pintar));
+  $orden.addEventListener('change', pintar);
+  $rango.addEventListener('input', ()=>{ $vmax.textContent = '$'+$rango.value; pintar(); });
+  document.querySelectorAll('.talla').forEach(t=>t.addEventListener('click', ()=>{
+    t.classList.toggle('on');
+  }));
+
+  pintar();
+});
+</script>
+</body>
+</html>

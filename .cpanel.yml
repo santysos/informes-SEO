@@ -360,3 +360,17 @@ deployment:
     # Permisos Chavarrea-Merlo Proforma
     - chmod 644 $BASEPATH/chavarrea-merlo/proforma-agosto-2026/*.php
     - chmod 644 $BASEPATH/chavarrea-merlo/proforma-agosto-2026/.htaccess
+    # ---- Valencia Sports: borradores de diseño (público, sin login) ----
+    - /bin/mkdir -p $BASEPATH/valencia-sports/borrador-2026-08/assets/prod
+    - /bin/mkdir -p $BASEPATH/valencia-sports/borrador-2026-08/assets/thumbs
+    - chmod 755 $BASEPATH/valencia-sports
+    - chmod 755 $BASEPATH/valencia-sports/borrador-2026-08
+    - /bin/cp -f valencia-sports/borrador-2026-08/*.html $BASEPATH/valencia-sports/borrador-2026-08/
+    - /bin/cp -f valencia-sports/borrador-2026-08/assets/*.css $BASEPATH/valencia-sports/borrador-2026-08/assets/
+    - /bin/cp -f valencia-sports/borrador-2026-08/assets/*.js $BASEPATH/valencia-sports/borrador-2026-08/assets/
+    - /bin/cp -f valencia-sports/borrador-2026-08/assets/*.png $BASEPATH/valencia-sports/borrador-2026-08/assets/
+    - /bin/cp -rf valencia-sports/borrador-2026-08/assets/prod/. $BASEPATH/valencia-sports/borrador-2026-08/assets/prod/
+    - /bin/cp -rf valencia-sports/borrador-2026-08/assets/thumbs/. $BASEPATH/valencia-sports/borrador-2026-08/assets/thumbs/
+    - chmod -R 644 $BASEPATH/valencia-sports/borrador-2026-08/*.html
+    - find $BASEPATH/valencia-sports/borrador-2026-08/assets -type f -exec chmod 644 {} \;
+    - find $BASEPATH/valencia-sports/borrador-2026-08/assets -type d -exec chmod 755 {} \;

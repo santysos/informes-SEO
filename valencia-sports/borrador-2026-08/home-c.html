@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Valencia Sports — Opción C: Diagonal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vs.css">
+<style>
+/* ====== Opción C — la diagonal del isotipo como estructura ====== */
+
+/* HERO partido en diagonal, igual que el corte de la V del logo */
+.hero-c{
+  position:relative; background:var(--fondo);
+  min-height:min(660px,84vh); display:flex; align-items:center;
+  overflow:hidden;
+}
+.hero-c::before{
+  content:''; position:absolute; inset:0; z-index:0;
+  background:var(--navy);
+  clip-path:polygon(60% 0, 100% 0, 100% 100%, 44% 100%);
+}
+.hero-c::after{
+  content:''; position:absolute; inset:0; z-index:1;
+  background:var(--rojo);
+  clip-path:polygon(60% 0, 64.5% 0, 48.5% 100%, 44% 100%);
+}
+.hero-c .wrap{position:relative; z-index:3; display:grid; grid-template-columns:.86fr 1.14fr; gap:34px; align-items:center; width:100%}
+.hero-c .hero-c-txt{max-width:460px}
+.hero-c h1{font-size:clamp(40px,4.8vw,68px); margin:16px 0 20px}
+.hero-c h1 .l2{display:block; -webkit-text-stroke:2px var(--navy); color:transparent}
+.hero-c .lead{max-width:410px; margin-bottom:30px; font-size:16px}
+.hero-c .acciones-h{display:flex; gap:12px; flex-wrap:wrap}
+
+.hero-c-vis{position:relative; display:grid; place-items:center; min-height:460px}
+.hero-c-vis img{
+  width:100%; max-width:470px; transform:rotate(8deg);
+  filter:drop-shadow(0 40px 70px rgba(0,0,0,.55));
+}
+/* número gigante de temporada, tipo dorsal */
+.dorsal{
+  position:absolute; z-index:-1; right:-2%; top:2%;
+  font-family:var(--f-display); font-weight:900; font-size:250px;
+  line-height:.8; color:rgba(255,255,255,.07);
+  letter-spacing:-.06em; pointer-events:none;
+}
+.hero-precio{
+  position:absolute; bottom:8%; left:0;
+  background:var(--rojo); color:#fff; padding:14px 20px;
+}
+.hero-precio .k{font-family:var(--f-mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; opacity:.85}
+.hero-precio .v{font-family:var(--f-display); font-weight:800; font-size:30px; line-height:1; margin-top:4px; letter-spacing:-.02em}
+
+/* tira de datos bajo el hero */
+.tira{background:var(--navy); color:#fff}
+.tira .wrap{display:grid; grid-template-columns:repeat(4,1fr)}
+.tira div{padding:22px 0; border-right:1px solid rgba(255,255,255,.13)}
+.tira div:last-child{border-right:0}
+.tira .n{font-family:var(--f-display); font-weight:800; font-size:26px; letter-spacing:-.02em}
+.tira .t{font-family:var(--f-mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.55); margin-top:5px}
+
+/* secciones numeradas, ritmo editorial */
+.num-sec{display:flex; align-items:baseline; gap:18px; margin-bottom:8px}
+.num-sec .idx{
+  font-family:var(--f-display); font-weight:900; font-size:56px;
+  line-height:.8; color:var(--linea); letter-spacing:-.04em;
+}
+
+/* marcas en columna alta con foto */
+.marcas-c{background:var(--papel); border-top:1px solid var(--linea); border-bottom:1px solid var(--linea)}
+.mar-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:1px; background:var(--linea); border:1px solid var(--linea)}
+.mar{background:var(--papel); padding:26px 20px; text-align:center; position:relative; overflow:hidden; transition:.2s}
+.mar img{height:96px; width:auto; margin:0 auto 16px; object-fit:contain; transition:transform .3s}
+.mar:hover{background:var(--navy)}
+.mar:hover img{transform:scale(1.1) rotate(-5deg)}
+.mar .nom{font-family:var(--f-display); font-weight:800; font-size:16px; text-transform:uppercase}
+.mar .desde{font-family:var(--f-mono); font-size:10.5px; color:var(--texto-2); margin-top:5px; letter-spacing:.08em}
+.mar:hover .nom{color:#fff} .mar:hover .desde{color:var(--rojo)}
+
+/* comparador de niveles en franjas horizontales */
+.franjas{display:grid; gap:0; border:1px solid var(--linea)}
+.fr{
+  display:grid; grid-template-columns:80px 1fr 1.4fr 160px 120px;
+  align-items:center; gap:22px;
+  background:var(--papel); padding:22px 26px;
+  border-bottom:1px solid var(--linea); transition:.18s;
+}
+.fr:last-child{border-bottom:0}
+.fr:hover{background:var(--navy); color:#fff}
+.fr .idx{font-family:var(--f-mono); font-size:12px; color:var(--rojo); letter-spacing:.12em}
+.fr h3{font-family:var(--f-display); font-weight:800; font-size:22px; text-transform:uppercase; letter-spacing:-.02em}
+.fr p{font-size:13.5px; color:var(--texto-2); line-height:1.55}
+.fr:hover p{color:rgba(255,255,255,.68)}
+.fr .marcas-t{font-family:var(--f-mono); font-size:11.5px; color:var(--texto-2)}
+.fr:hover .marcas-t{color:rgba(255,255,255,.6)}
+.fr .rango{font-family:var(--f-display); font-weight:800; font-size:19px; text-align:right; letter-spacing:-.02em}
+.fr:hover .rango{color:var(--rojo)}
+
+/* bloque grande de producto destacado, media pantalla */
+.hero-prod{background:var(--papel); border-top:1px solid var(--linea)}
+.hero-prod .wrap{display:grid; grid-template-columns:1fr 1fr; gap:0; align-items:stretch}
+.hp-vis{
+  background:var(--fondo); display:grid; place-items:center;
+  padding:56px 40px; position:relative; border-right:1px solid var(--linea);
+}
+.hp-vis img{max-width:400px; width:100%}
+.hp-vis .sello{
+  position:absolute; top:26px; left:26px;
+  background:var(--navy); color:#fff; padding:6px 12px;
+  font-family:var(--f-mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+}
+.hp-txt{padding:56px 0 56px 52px; display:flex; flex-direction:column; justify-content:center}
+.hp-txt h2{font-size:clamp(28px,3.4vw,42px); margin:12px 0 16px}
+.especs{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--linea); border:1px solid var(--linea); margin:22px 0 26px}
+.esp{background:var(--papel); padding:15px 18px}
+.esp .k{font-family:var(--f-mono); font-size:10px; letter-spacing:.13em; text-transform:uppercase; color:var(--texto-2)}
+.esp .v{font-weight:700; font-size:14.5px; margin-top:4px}
+.hp-precio{display:flex; align-items:baseline; gap:12px; margin-bottom:22px}
+.hp-precio .now{font-family:var(--f-display); font-weight:800; font-size:42px; letter-spacing:-.03em}
+.hp-precio .cuotas{font-family:var(--f-mono); font-size:12px; color:var(--texto-2)}
+
+.grid-4{grid-template-columns:repeat(4,1fr)}
+
+@media(max-width:1080px){
+  .hero-c::before{clip-path:polygon(0 58%, 100% 42%, 100% 100%, 0 100%)}
+  .hero-c::after{clip-path:polygon(0 62%, 100% 46%, 100% 50%, 0 66%)}
+  .hero-c .wrap{grid-template-columns:1fr}
+  .hero-c-vis{min-height:340px; order:-1}
+  .dorsal{font-size:150px}
+  .mar-grid{grid-template-columns:repeat(3,1fr)}
+  .fr{grid-template-columns:60px 1fr; gap:12px}
+  .fr p,.fr .marcas-t{grid-column:2}
+  .fr .rango{grid-column:2; text-align:left}
+  .hero-prod .wrap{grid-template-columns:1fr}
+  .hp-vis{border-right:0; border-bottom:1px solid var(--linea)}
+  .hp-txt{padding:40px 0}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+  .tira .wrap{grid-template-columns:repeat(2,1fr)}
+  .tira div{border-bottom:1px solid rgba(255,255,255,.13)}
+}
+@media(max-width:600px){
+  .grid-4{grid-template-columns:1fr}
+  .mar-grid{grid-template-columns:repeat(2,1fr)}
+  .especs{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body data-pagina="inicio">
+
+<div data-header></div>
+
+<!-- ============ HERO DIAGONAL ============ -->
+<section class="hero-c">
+  <div class="wrap">
+    <div class="hero-c-txt">
+      <p class="eyebrow">Temporada 25-26 · ya disponible</p>
+      <h1 class="display">Manos<span class="l2">que deciden</span>partidos</h1>
+      <p class="lead">
+        La tienda de porteros más completa del Ecuador. Rinat, RG, Elite Sport y siete
+        marcas más — con la talla, el corte y el látex que de verdad necesitas.
+      </p>
+      <div class="acciones-h">
+        <a href="catalogo.html" class="btn btn-rojo">Ver catálogo</a>
+        <a href="#niveles" class="btn btn-line">Guía de tallas</a>
+      </div>
+    </div>
+    <div class="hero-c-vis">
+      <span class="dorsal">26</span>
+      <img src="assets/prod/rinat-asimetrik-pro.png" alt="Rinat Asimetrik Pro">
+      <div class="hero-precio">
+        <div class="k">Rinat Asimetrik Pro</div>
+        <div class="v">$95</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIRA DE DATOS ============ -->
+<div class="tira">
+  <div class="wrap">
+    <div><div class="n">166</div><div class="t">Modelos disponibles</div></div>
+    <div><div class="n">10</div><div class="t">Marcas oficiales</div></div>
+    <div><div class="n">24-48h</div><div class="t">Despacho nacional</div></div>
+    <div><div class="n">Gratis</div><div class="t">Personalización</div></div>
+  </div>
+</div>
+
+<!-- ============ 01 MARCAS ============ -->
+<section class="sec marcas-c">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <div class="num-sec"><span class="idx">01</span><p class="eyebrow">Distribuidores oficiales</p></div>
+        <h2 class="display">Las marcas que<br>usa un portero</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver todas las marcas →</a>
+    </div>
+    <div class="mar-grid" id="marcasc"></div>
+  </div>
+</section>
+
+<!-- ============ 02 NIVELES ============ -->
+<section class="sec" id="niveles">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <div class="num-sec"><span class="idx">02</span><p class="eyebrow">Antes de comprar</p></div>
+        <h2 class="display">Cada nivel tiene<br>su guante</h2>
+      </div>
+      <p class="lead" style="max-width:320px">
+        El error más caro es comprar profesional para entrenar todos los días
+        en cancha sintética.
+      </p>
+    </div>
+    <div class="franjas">
+      <a href="catalogo.html" class="fr">
+        <span class="idx">NIVEL 01</span>
+        <h3>Profesional</h3>
+        <p>Látex alemán de 4 mm, corte negativo o híbrido. Agarre máximo, vida útil corta en superficie dura.</p>
+        <span class="marcas-t">Rinat · RG · Elite Sport</span>
+        <span class="rango">$85 – $130</span>
+      </a>
+      <a href="catalogo.html" class="fr">
+        <span class="idx">NIVEL 02</span>
+        <h3>Semi-Pro</h3>
+        <p>Buen agarre con látex que resiste partido y entrenamiento en la misma semana. El más equilibrado.</p>
+        <span class="marcas-t">Bambino · Aurik · Rinat</span>
+        <span class="rango">$45 – $85</span>
+      </a>
+      <a href="catalogo.html" class="fr">
+        <span class="idx">NIVEL 03</span>
+        <h3>Entrenamiento</h3>
+        <p>Palma de máxima resistencia al desgaste. Para entrenar tres veces por semana sin gastar el guante bueno.</p>
+        <span class="marcas-t">Aurik · Rinat Nkam</span>
+        <span class="rango">$26 – $45</span>
+      </a>
+      <a href="catalogo.html" class="fr">
+        <span class="idx">NIVEL 04</span>
+        <h3>Infantil</h3>
+        <p>Tallas 5 a 8 con protección de dedos. El primer guante de verdad, a precio de campeonato de barrio.</p>
+        <span class="marcas-t">Ranic · Bambino</span>
+        <span class="rango">$15 – $34</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTO DESTACADO ============ -->
+<section class="hero-prod">
+  <div class="wrap">
+    <div class="hp-vis">
+      <span class="sello">El más vendido</span>
+      <img src="assets/prod/rg-toride.png" alt="RG Toride 25-26">
+    </div>
+    <div class="hp-txt">
+      <p class="eyebrow">RG · Temporada 25-26</p>
+      <h2 class="display">Toride 25-26</h2>
+      <p class="lead">
+        Tecnología Seamless: sin dobladillo, con sensación de segunda piel. Es el guante
+        que más nos piden desde que entró, y el que menos devoluciones tiene.
+      </p>
+      <div class="especs">
+        <div class="esp"><div class="k">Palma</div><div class="v">Látex KRITON Grip</div></div>
+        <div class="esp"><div class="k">Corte</div><div class="v">Híbrido</div></div>
+        <div class="esp"><div class="k">Tallas</div><div class="v">8 · 9 · 10</div></div>
+        <div class="esp"><div class="k">Nivel</div><div class="v">Profesional</div></div>
+      </div>
+      <div class="hp-precio">
+        <span class="now">$130</span>
+        <span class="cuotas">o 3 cuotas de $43,33 · personalización incluida</span>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap">
+        <a href="producto.html" class="btn btn-rojo">Ver ficha completa</a>
+        <a href="catalogo.html" class="btn btn-line">Comparar modelos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRANJA ============ -->
+<div class="franja">
+  <div class="marquee">
+    <span>Envío a todo el Ecuador <i>·</i> Personalización sin costo <i>·</i> Producto original <i>·</i> Asesoría de talla por WhatsApp <i>·</i></span>
+    <span>Envío a todo el Ecuador <i>·</i> Personalización sin costo <i>·</i> Producto original <i>·</i> Asesoría de talla por WhatsApp <i>·</i></span>
+  </div>
+</div>
+
+<!-- ============ 03 NOVEDADES ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-tit">
+      <div>
+        <div class="num-sec"><span class="idx">03</span><p class="eyebrow">Recién llegados</p></div>
+        <h2 class="display">Nuevos en bodega</h2>
+      </div>
+      <a href="catalogo.html" class="ver-todo">Ver los 166 modelos →</a>
+    </div>
+    <div class="grid-prod grid-4" id="nuevos"></div>
+  </div>
+</section>
+
+<div data-footer></div>
+
+<script src="assets/partes.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', ()=>{
+  const marcasFoto = [
+    ['Rinat','rinat-egotiko-xpro','$34'], ['RG','rg-aegix','$68'],
+    ['Elite Sport','elite-revolution-x','$53'], ['Bambino Sport','bambino-ares-bl','$55'],
+    ['Aurik','aurik-clnj','$26']
+  ];
+  document.getElementById('marcasc').innerHTML = marcasFoto.map(([n,s,d])=>`
+    <a href="catalogo.html" class="mar">
+      <img src="assets/prod/${s}.png" alt="${n}" loading="lazy">
+      <div class="nom">${n}</div>
+      <div class="desde">desde ${d}</div>
+    </a>`).join('');
+
+  const nuevos = ['rg-aversa','rg-aegix','rinat-quetzalcoatl','elite-supreme-aqua'];
+  document.getElementById('nuevos').innerHTML =
+    nuevos.map(s=>cardProducto(PRODUCTOS.find(p=>p.s===s))).join('');
+});
+</script>
+</body>
+</html>
