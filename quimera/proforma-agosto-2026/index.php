@@ -421,11 +421,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
         </div>
 
         <div class="grid lg:grid-cols-2 gap-6 mb-6">
-            <div class="glass-strong rounded-2xl p-7">
+            <div class="glass-strong rounded-2xl p-7 flex flex-col">
                 <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">Desarrollo completo</p>
                 <p class="text-white font-bold text-lg mb-5">Todo el trabajo descrito</p>
 
-                <div class="space-y-3 mb-6">
+                <div class="flex-1 flex flex-col justify-evenly gap-3 py-2">
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
                         <span class="text-slate-300 text-sm">01 &middot; Canal mayorista B2B</span>
                         <span class="mono text-white font-semibold whitespace-nowrap">$220</span>
@@ -444,7 +444,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                     </div>
                 </div>
 
-                <div class="flex items-baseline flex-wrap gap-3">
+                <div class="mt-auto pt-6 border-t border-[#62ab9d]/12 flex items-baseline flex-wrap gap-3">
+                    <span class="text-slate-400 text-sm font-semibold uppercase tracking-widest mr-auto">Total</span>
                     <span class="text-5xl font-black text-grad">$495</span>
                     <span class="text-slate-400 font-semibold">+ IVA</span>
                 </div>
