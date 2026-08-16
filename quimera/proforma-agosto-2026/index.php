@@ -448,18 +448,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                     <span class="text-5xl font-black text-grad">$495</span>
                     <span class="text-slate-400 font-semibold">+ IVA</span>
                 </div>
-                <p class="text-slate-400 text-sm mb-6">Precio cerrado por todo el alcance descrito.</p>
+                <p class="text-slate-400 text-sm">Precio cerrado por todo el alcance descrito.</p>
 
-                <div class="space-y-2 pt-5 border-t border-[#62ab9d]/12">
-                    <div class="flex items-center justify-between gap-3">
-                        <span class="text-slate-300 text-sm">Para empezar</span>
-                        <span class="mono text-white font-semibold">$300</span>
-                    </div>
-                    <div class="flex items-center justify-between gap-3">
-                        <span class="text-slate-300 text-sm">Al entregar funcionando</span>
-                        <span class="mono text-white font-semibold">$195</span>
-                    </div>
-                </div>
             </div>
 
             <div class="glass rounded-2xl p-7">
@@ -591,7 +581,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Entrega</p>
-                    <p class="text-slate-400 text-sm">2 semanas desde el anticipo y la entrega de la clasificación de productos.</p>
+                    <p class="text-slate-400 text-sm">2 semanas desde la confirmación y la entrega de la clasificación de productos.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Alcance</p>
