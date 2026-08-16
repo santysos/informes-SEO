@@ -374,3 +374,13 @@ deployment:
     - chmod -R 644 $BASEPATH/valencia-sports/borrador-2026-08/*.html
     - find $BASEPATH/valencia-sports/borrador-2026-08/assets -type f -exec chmod 644 {} \;
     - find $BASEPATH/valencia-sports/borrador-2026-08/assets -type d -exec chmod 755 {} \;
+    # ---- Quimera: proforma ventas por mayor B2B (login Quimera-2026) ----
+    - /bin/mkdir -p $BASEPATH/quimera/proforma-agosto-2026
+    - chmod 755 $BASEPATH/quimera
+    - chmod 755 $BASEPATH/quimera/proforma-agosto-2026
+    - /bin/cp -f quimera/proforma-agosto-2026/.htaccess $BASEPATH/quimera/proforma-agosto-2026/
+    - /bin/cp -f quimera/proforma-agosto-2026/login.php $BASEPATH/quimera/proforma-agosto-2026/
+    - /bin/cp -f quimera/proforma-agosto-2026/index.php $BASEPATH/quimera/proforma-agosto-2026/
+    - /bin/cp -f quimera/proforma-agosto-2026/logout.php $BASEPATH/quimera/proforma-agosto-2026/
+    - chmod 644 $BASEPATH/quimera/proforma-agosto-2026/*.php
+    - chmod 644 $BASEPATH/quimera/proforma-agosto-2026/.htaccess
