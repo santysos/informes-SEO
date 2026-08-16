@@ -72,7 +72,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
         </p>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-3xl mx-auto">
             <div class="glass rounded-xl px-4 py-5">
-                <div class="text-3xl font-black text-grad">4</div>
+                <div class="text-3xl font-black text-grad">3</div>
                 <p class="text-slate-400 text-[11px] uppercase tracking-widest mt-1 leading-tight">módulos<br>a construir</p>
             </div>
             <div class="glass rounded-xl px-4 py-5">
@@ -119,8 +119,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                     <p class="text-slate-400 text-xs leading-relaxed">Plugin de protección de datos del Ecuador instalado y activo.</p>
                 </div>
                 <div class="rounded-xl p-5 bg-black/25 border border-[#62ab9d]/12">
-                    <p class="text-white font-semibold text-sm mb-1">Facturación y tracking</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">Conector de facturación electrónica y módulo de pedidos con seguimiento.</p>
+                    <p class="text-white font-semibold text-sm mb-1">Pedidos y seguimiento</p>
+                    <p class="text-slate-400 text-xs leading-relaxed">Módulo propio de gestión de pedidos con tracking para la clienta.</p>
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
             <p class="text-[#87CDB9] font-bold text-sm uppercase tracking-widest mb-2">Lo que vamos a construir</p>
-            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Cuatro módulos</h2>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Tres módulos</h2>
         </div>
 
         <!-- MODULO 1 -->
@@ -141,40 +141,6 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 <div class="flex items-start gap-5">
                     <div class="w-12 h-12 rounded-xl brand-grad-soft border border-[#62ab9d]/25 flex items-center justify-center flex-shrink-0">
                         <span class="mono font-bold text-[#87CDB9]">01</span>
-                    </div>
-                    <div>
-                        <h3 class="text-white font-bold text-xl mb-2">Nueva Colección automática</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">
-                            Hoy la categoría <span class="text-white font-semibold">Nueva Colección</span> tiene 20 productos
-                            puestos a mano. Vamos a hacer que se llene sola: todo producto creado en los últimos 30 días
-                            entra automáticamente, y sale cuando cumple el mes. Sin que nadie tenga que acordarse.
-                        </p>
-                    </div>
-                </div>
-                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$80</div>
-            </div>
-            <div class="grid md:grid-cols-3 gap-4">
-                <div class="rounded-lg p-4 bg-black/25 border border-[#62ab9d]/12">
-                    <p class="text-white text-sm font-semibold mb-1">Entra solo</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">Al publicar un producto queda visible en la sección sin pasos extra.</p>
-                </div>
-                <div class="rounded-lg p-4 bg-black/25 border border-[#62ab9d]/12">
-                    <p class="text-white text-sm font-semibold mb-1">Sale solo a los 30 días</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">La sección nunca queda con ropa de hace seis meses.</p>
-                </div>
-                <div class="rounded-lg p-4 bg-black/25 border border-[#62ab9d]/12">
-                    <p class="text-white text-sm font-semibold mb-1">Se puede forzar</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">Si quieren dejar un producto más tiempo, se marca a mano y se queda.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- MODULO 2 -->
-        <div class="glass rounded-2xl p-8 mb-6">
-            <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
-                <div class="flex items-start gap-5">
-                    <div class="w-12 h-12 rounded-xl brand-grad-soft border border-[#62ab9d]/25 flex items-center justify-center flex-shrink-0">
-                        <span class="mono font-bold text-[#87CDB9]">02</span>
                     </div>
                     <div>
                         <h3 class="text-white font-bold text-xl mb-2">Canal mayorista B2B</h3>
@@ -206,26 +172,27 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                         registrada. Se aplica en la ficha, en el listado, en el carrito y en el correo de confirmación.
                     </p>
                     <p class="text-slate-500 text-[11px] leading-relaxed">
-                        Se implementa con B2BKing, el plugin estándar del mercado para esto. La licencia corre por
-                        nuestra cuenta &mdash; ustedes no la pagan.
+                        Se implementa con B2BKing, la herramienta estándar del mercado para manejar precios
+                        diferenciados en WooCommerce.
                     </p>
                 </div>
             </div>
             <div class="rounded-lg p-4 bg-[#62ab9d]/8 border border-[#62ab9d]/20">
-                <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">Incluido sin costo</p>
+                <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">La tienda actual no se toca</p>
                 <p class="text-slate-300 text-sm leading-relaxed">
-                    La licencia de B2BKing (unos $149 al año) va por nuestra cuenta: ya contamos con una licencia
-                    para varios sitios. Es un ahorro directo para ustedes desde el primer año.
+                    Quien compra al detalle sigue viendo exactamente lo mismo de hoy: mismos precios, mismo
+                    carrito, mismo proceso de pago. El canal mayorista se monta encima, sin alterar nada de
+                    lo que ya funciona.
                 </p>
             </div>
         </div>
 
-        <!-- MODULO 3 -->
+        <!-- MODULO 2 -->
         <div class="glass rounded-2xl p-8 mb-6">
             <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
                 <div class="flex items-start gap-5">
                     <div class="w-12 h-12 rounded-xl brand-grad-soft border border-[#62ab9d]/25 flex items-center justify-center flex-shrink-0">
-                        <span class="mono font-bold text-[#87CDB9]">03</span>
+                        <span class="mono font-bold text-[#87CDB9]">02</span>
                     </div>
                     <div>
                         <h3 class="text-white font-bold text-xl mb-2">Descuentos por cantidad con aviso en vivo</h3>
@@ -306,22 +273,22 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
             </div>
         </div>
 
-        <!-- MODULO 4 -->
+        <!-- MODULO 3 -->
         <div class="glass rounded-2xl p-8">
             <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
                 <div class="flex items-start gap-5">
                     <div class="w-12 h-12 rounded-xl brand-grad-soft border border-[#62ab9d]/25 flex items-center justify-center flex-shrink-0">
-                        <span class="mono font-bold text-[#87CDB9]">04</span>
+                        <span class="mono font-bold text-[#87CDB9]">03</span>
                     </div>
                     <div>
-                        <h3 class="text-white font-bold text-xl mb-2">Envíos mayoristas y productos exclusivos de tienda</h3>
+                        <h3 class="text-white font-bold text-xl mb-2">Envíos del canal mayorista</h3>
                         <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">
-                            Reglas de envío distintas para el canal mayorista, y la posibilidad de reservar ciertas
-                            camisetas para que solo se vendan al detalle.
+                            Reglas de envío propias para el pedido al por mayor, distintas de las que aplican
+                            hoy en las compras al detalle.
                         </p>
                     </div>
                 </div>
-                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$80</div>
+                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$60</div>
             </div>
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="rounded-lg p-5 bg-black/25 border border-[#62ab9d]/12">
@@ -335,9 +302,9 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                     <p class="text-slate-400 text-xs leading-relaxed">Alternativa con costo fijo, si la clienta prefiere esa transportadora.</p>
                 </div>
                 <div class="rounded-lg p-5 bg-black/25 border border-[#62ab9d]/12">
-                    <p class="text-white text-sm font-semibold mb-2">Exclusivas de tienda</p>
-                    <p class="mono text-[#87CDB9] text-lg font-bold mb-2">Se ocultan</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">Las camisetas que marquen como exclusivas no aparecen en el catálogo mayorista.</p>
+                    <p class="text-white text-sm font-semibold mb-2">Al detalle</p>
+                    <p class="mono text-[#87CDB9] text-lg font-bold mb-2">Sin cambios</p>
+                    <p class="text-slate-400 text-xs leading-relaxed">Las compras normales conservan las mismas reglas de envío que tienen hoy.</p>
                 </div>
             </div>
         </div>
@@ -375,7 +342,71 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
             <div class="glass rounded-xl p-5">
                 <div class="mono text-[#87CDB9] text-xs font-bold mb-3">PASO 5</div>
                 <p class="text-white font-semibold text-sm mb-2">Paga y recibe</p>
-                <p class="text-slate-400 text-xs leading-relaxed">Con Payphone, envío gratis por Laar y su factura electrónica.</p>
+                <p class="text-slate-400 text-xs leading-relaxed">Con Payphone y envío gratis por Laar. El pedido entra al mismo panel de siempre.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESO INTERNO -->
+<section class="py-14">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="glass-strong rounded-2xl p-8 md:p-10">
+            <div class="grid lg:grid-cols-2 gap-10 items-start">
+                <div>
+                    <p class="text-[#87CDB9] font-bold text-xs uppercase tracking-widest mb-3">Lo más importante</p>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-4">
+                        Para ustedes el trabajo diario no cambia en nada
+                    </h2>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Un pedido mayorista llega exactamente por donde llegan hoy los pedidos de la tienda:
+                        al mismo listado de WooCommerce, con la misma pantalla, los mismos estados y el mismo
+                        correo de aviso. No hay un segundo panel que aprender ni un sistema aparte que revisar.
+                    </p>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        La única diferencia visible es una etiqueta que dice <span class="text-white font-semibold">Mayorista</span>
+                        junto al número de pedido, para que quien prepara el paquete sepa de una que va con
+                        24 prendas o más. De ahí en adelante &mdash; preparar, despachar, marcar como enviado,
+                        dar seguimiento &mdash; es el proceso que ya manejan.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="text-white text-sm font-semibold mb-4">El pedido, como lo van a ver</p>
+                    <div class="rounded-xl bg-black/35 border border-[#62ab9d]/15 overflow-hidden">
+                        <div class="px-5 py-3 border-b border-[#62ab9d]/12 flex items-center justify-between gap-3">
+                            <span class="mono text-slate-400 text-xs uppercase tracking-wider">Pedidos</span>
+                            <span class="mono text-slate-500 text-[11px]">WooCommerce</span>
+                        </div>
+                        <div class="px-5 py-4 border-b border-[#62ab9d]/10 flex items-center justify-between gap-3">
+                            <div>
+                                <p class="text-white text-sm font-semibold">#4821 &middot; María Torres</p>
+                                <p class="text-slate-500 text-xs mt-1">3 prendas</p>
+                            </div>
+                            <span class="mono text-white text-sm">$74,70</span>
+                        </div>
+                        <div class="px-5 py-4 border-b border-[#62ab9d]/10 flex items-center justify-between gap-3 bg-[#62ab9d]/8">
+                            <div>
+                                <p class="text-white text-sm font-semibold">
+                                    #4822 &middot; Boutique Anahí
+                                    <span class="ml-2 inline-block align-middle text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded bg-[#62ab9d] text-[#0a1c19]">Mayorista</span>
+                                </p>
+                                <p class="text-slate-400 text-xs mt-1">28 prendas &middot; envío Laar</p>
+                            </div>
+                            <span class="mono text-white text-sm">$438,20</span>
+                        </div>
+                        <div class="px-5 py-4 flex items-center justify-between gap-3">
+                            <div>
+                                <p class="text-white text-sm font-semibold">#4823 &middot; Carla Benítez</p>
+                                <p class="text-slate-500 text-xs mt-1">1 prenda</p>
+                            </div>
+                            <span class="mono text-white text-sm">$24,90</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-500 text-xs leading-relaxed mt-3">
+                        Mismo listado, mismos botones. La etiqueta verde es lo único que se agrega.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -392,33 +423,29 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
         <div class="grid lg:grid-cols-2 gap-6 mb-6">
             <div class="glass-strong rounded-2xl p-7">
                 <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">Desarrollo completo</p>
-                <p class="text-white font-bold text-lg mb-5">Los cuatro módulos</p>
+                <p class="text-white font-bold text-lg mb-5">Los tres módulos</p>
 
                 <div class="space-y-3 mb-6">
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
-                        <span class="text-slate-300 text-sm">01 &middot; Nueva Colección automática</span>
-                        <span class="mono text-white font-semibold whitespace-nowrap">$80</span>
-                    </div>
-                    <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
-                        <span class="text-slate-300 text-sm">02 &middot; Canal mayorista B2B</span>
+                        <span class="text-slate-300 text-sm">01 &middot; Canal mayorista B2B</span>
                         <span class="mono text-white font-semibold whitespace-nowrap">$220</span>
                     </div>
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
-                        <span class="text-slate-300 text-sm">03 &middot; Descuentos por cantidad con aviso</span>
+                        <span class="text-slate-300 text-sm">02 &middot; Descuentos por cantidad con aviso</span>
                         <span class="mono text-white font-semibold whitespace-nowrap">$120</span>
                     </div>
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
-                        <span class="text-slate-300 text-sm">04 &middot; Envíos y exclusivas de tienda</span>
-                        <span class="mono text-white font-semibold whitespace-nowrap">$80</span>
+                        <span class="text-slate-300 text-sm">03 &middot; Envíos del canal mayorista</span>
+                        <span class="mono text-white font-semibold whitespace-nowrap">$60</span>
                     </div>
                     <div class="flex items-baseline justify-between gap-3">
-                        <span class="text-slate-400 text-sm">Licencia B2BKing (primer año)</span>
-                        <span class="mono text-[#87CDB9] font-semibold whitespace-nowrap">Incluida</span>
+                        <span class="text-slate-300 text-sm">Pruebas y capacitación</span>
+                        <span class="mono text-white font-semibold whitespace-nowrap">$50</span>
                     </div>
                 </div>
 
                 <div class="flex items-baseline gap-3 mb-2">
-                    <span class="text-5xl font-black text-grad">$500</span>
+                    <span class="text-5xl font-black text-grad">$450</span>
                     <span class="text-slate-400 font-semibold">+ IVA</span>
                 </div>
                 <p class="text-slate-400 text-sm mb-6">Precio cerrado por todo el alcance descrito.</p>
@@ -426,11 +453,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 <div class="space-y-2 pt-5 border-t border-[#62ab9d]/12">
                     <div class="flex items-center justify-between gap-3">
                         <span class="text-slate-300 text-sm">Para empezar (60%)</span>
-                        <span class="mono text-white font-semibold">$300</span>
+                        <span class="mono text-white font-semibold">$270</span>
                     </div>
                     <div class="flex items-center justify-between gap-3">
                         <span class="text-slate-300 text-sm">Al entregar funcionando (40%)</span>
-                        <span class="mono text-white font-semibold">$200</span>
+                        <span class="mono text-white font-semibold">$180</span>
                     </div>
                 </div>
             </div>
@@ -455,8 +482,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                         <div>
                             <p class="text-white text-sm font-semibold mb-1">Reglas, avisos y pruebas</p>
                             <p class="text-slate-400 text-xs leading-relaxed">
-                                Descuentos por cantidad, contador en vivo del carrito, reglas de envío, Nueva Colección
-                                automática y pruebas con pedidos reales de punta a punta.
+                                Descuentos por cantidad, contador en vivo del carrito, reglas de envío y pruebas con
+                                pedidos reales de punta a punta.
                             </p>
                         </div>
                     </div>
@@ -473,8 +500,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 <div class="rounded-lg p-4 bg-[#62ab9d]/8 border border-[#62ab9d]/20">
                     <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">Incluye capacitación</p>
                     <p class="text-slate-300 text-sm leading-relaxed">
-                        Una sesión para mostrarles cómo aprobar o dar de baja mayoristas, cambiar los porcentajes de
-                        descuento y marcar una camiseta como exclusiva de tienda &mdash; sin depender de nosotros.
+                        Una sesión para mostrarles cómo dar de baja un mayorista, cambiar los porcentajes de
+                        descuento y ajustar el mínimo de unidades &mdash; sin depender de nosotros.
                     </p>
                 </div>
             </div>
@@ -492,8 +519,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 <div>
                     <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">Sin mensualidad</p>
                     <p class="text-slate-300 text-sm leading-relaxed">
-                        Este desarrollo no agrega ningún cobro recurrente. La licencia del plugin corre por
-                        nuestra cuenta.
+                        Es un desarrollo de una sola vez: no agrega ningún cobro recurrente al hosting ni al
+                        mantenimiento que ya tienen.
                     </p>
                 </div>
                 <div>
@@ -524,10 +551,10 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 </p>
             </div>
             <div class="glass rounded-2xl p-6">
-                <p class="text-white font-semibold mb-2">Cuáles son exclusivas de tienda</p>
+                <p class="text-white font-semibold mb-2">Quién administra los mayoristas</p>
                 <p class="text-slate-400 text-sm leading-relaxed">
-                    Los modelos que no quieren vender al por mayor, para dejarlos fuera del catálogo mayorista
-                    desde el primer día.
+                    La persona del equipo que va a revisar los registros y atender el canal, para dejarle
+                    los accesos y darle la capacitación.
                 </p>
             </div>
             <div class="glass rounded-2xl p-6">
@@ -568,11 +595,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Alcance</p>
-                    <p class="text-slate-400 text-sm">Cubre los cuatro módulos descritos. Funciones nuevas se cotizan aparte y por escrito.</p>
+                    <p class="text-slate-400 text-sm">Cubre los tres módulos descritos. Funciones nuevas se cotizan aparte y por escrito.</p>
                 </div>
                 <div>
-                    <p class="text-white font-semibold text-sm mb-1">Licencia del plugin</p>
-                    <p class="text-slate-400 text-sm">B2BKing corre por cuenta de Creative Web mientras se mantenga la relación de servicio.</p>
+                    <p class="text-white font-semibold text-sm mb-1">Proceso interno</p>
+                    <p class="text-slate-400 text-sm">Los pedidos mayoristas se gestionan en el mismo panel y con el mismo flujo actual.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Respaldo</p>
