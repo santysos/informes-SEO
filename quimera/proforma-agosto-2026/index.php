@@ -73,7 +73,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-3xl mx-auto">
             <div class="glass rounded-xl px-4 py-5">
                 <div class="text-3xl font-black text-grad">3</div>
-                <p class="text-slate-400 text-[11px] uppercase tracking-widest mt-1 leading-tight">módulos<br>a construir</p>
+                <p class="text-slate-400 text-[11px] uppercase tracking-widest mt-1 leading-tight">funciones<br>nuevas</p>
             </div>
             <div class="glass rounded-xl px-4 py-5">
                 <div class="text-3xl font-black text-grad">24</div>
@@ -120,7 +120,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 </div>
                 <div class="rounded-xl p-5 bg-black/25 border border-[#62ab9d]/12">
                     <p class="text-white font-semibold text-sm mb-1">Pedidos y seguimiento</p>
-                    <p class="text-slate-400 text-xs leading-relaxed">Módulo propio de gestión de pedidos con tracking para la clienta.</p>
+                    <p class="text-slate-400 text-xs leading-relaxed">Desarrollo propio de gestión de pedidos con tracking para la clienta.</p>
                 </div>
             </div>
         </div>
@@ -131,11 +131,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
 <section class="py-14" id="alcance">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <p class="text-[#87CDB9] font-bold text-sm uppercase tracking-widest mb-2">Lo que vamos a construir</p>
-            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Tres módulos</h2>
+            <p class="text-[#87CDB9] font-bold text-sm uppercase tracking-widest mb-2">Alcance del trabajo</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Qué se va a construir</h2>
         </div>
 
-        <!-- MODULO 1 -->
+        <!-- FUNCIONALIDAD 1 -->
         <div class="glass rounded-2xl p-8 mb-6">
             <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
                 <div class="flex items-start gap-5">
@@ -187,7 +187,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
             </div>
         </div>
 
-        <!-- MODULO 2 -->
+        <!-- FUNCIONALIDAD 2 -->
         <div class="glass rounded-2xl p-8 mb-6">
             <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
                 <div class="flex items-start gap-5">
@@ -203,7 +203,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                         </p>
                     </div>
                 </div>
-                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$120</div>
+                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$145</div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-5 mb-5">
@@ -273,7 +273,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
             </div>
         </div>
 
-        <!-- MODULO 3 -->
+        <!-- FUNCIONALIDAD 3 -->
         <div class="glass rounded-2xl p-8">
             <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
                 <div class="flex items-start gap-5">
@@ -288,7 +288,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                         </p>
                     </div>
                 </div>
-                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$60</div>
+                <div class="mono text-[#87CDB9] font-bold text-lg whitespace-nowrap">$80</div>
             </div>
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="rounded-lg p-5 bg-black/25 border border-[#62ab9d]/12">
@@ -423,7 +423,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
         <div class="grid lg:grid-cols-2 gap-6 mb-6">
             <div class="glass-strong rounded-2xl p-7">
                 <p class="text-[#87CDB9] text-xs font-bold uppercase tracking-widest mb-2">Desarrollo completo</p>
-                <p class="text-white font-bold text-lg mb-5">Los tres módulos</p>
+                <p class="text-white font-bold text-lg mb-5">Todo el trabajo descrito</p>
 
                 <div class="space-y-3 mb-6">
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
@@ -432,11 +432,11 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                     </div>
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
                         <span class="text-slate-300 text-sm">02 &middot; Descuentos por cantidad con aviso</span>
-                        <span class="mono text-white font-semibold whitespace-nowrap">$120</span>
+                        <span class="mono text-white font-semibold whitespace-nowrap">$145</span>
                     </div>
                     <div class="flex items-baseline justify-between gap-3 pb-3 border-b border-[#62ab9d]/12">
                         <span class="text-slate-300 text-sm">03 &middot; Envíos del canal mayorista</span>
-                        <span class="mono text-white font-semibold whitespace-nowrap">$60</span>
+                        <span class="mono text-white font-semibold whitespace-nowrap">$80</span>
                     </div>
                     <div class="flex items-baseline justify-between gap-3">
                         <span class="text-slate-300 text-sm">Pruebas y capacitación</span>
@@ -445,19 +445,19 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 </div>
 
                 <div class="flex items-baseline gap-3 mb-2">
-                    <span class="text-5xl font-black text-grad">$450</span>
+                    <span class="text-5xl font-black text-grad">$495</span>
                     <span class="text-slate-400 font-semibold">+ IVA</span>
                 </div>
                 <p class="text-slate-400 text-sm mb-6">Precio cerrado por todo el alcance descrito.</p>
 
                 <div class="space-y-2 pt-5 border-t border-[#62ab9d]/12">
                     <div class="flex items-center justify-between gap-3">
-                        <span class="text-slate-300 text-sm">Para empezar (60%)</span>
-                        <span class="mono text-white font-semibold">$270</span>
+                        <span class="text-slate-300 text-sm">Para empezar</span>
+                        <span class="mono text-white font-semibold">$300</span>
                     </div>
                     <div class="flex items-center justify-between gap-3">
-                        <span class="text-slate-300 text-sm">Al entregar funcionando (40%)</span>
-                        <span class="mono text-white font-semibold">$180</span>
+                        <span class="text-slate-300 text-sm">Al entregar funcionando</span>
+                        <span class="mono text-white font-semibold">$195</span>
                     </div>
                 </div>
             </div>
@@ -595,7 +595,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Alcance</p>
-                    <p class="text-slate-400 text-sm">Cubre los tres módulos descritos. Funciones nuevas se cotizan aparte y por escrito.</p>
+                    <p class="text-slate-400 text-sm">Cubre las tres funcionalidades descritas. Funciones nuevas se cotizan aparte y por escrito.</p>
                 </div>
                 <div>
                     <p class="text-white font-semibold text-sm mb-1">Proceso interno</p>
