@@ -444,16 +444,10 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                     </div>
                 </div>
 
-                <div class="flex items-baseline flex-wrap gap-3 mb-3">
+                <div class="flex items-baseline flex-wrap gap-3">
                     <span class="text-5xl font-black text-grad">$495</span>
                     <span class="text-slate-400 font-semibold">+ IVA</span>
-                    <span class="text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded bg-[#62ab9d] text-[#0a1c19] whitespace-nowrap">Precio de cliente</span>
                 </div>
-                <p class="text-slate-300 text-sm leading-relaxed">
-                    <span class="text-white font-semibold">Tarifa preferencial por ser cliente de casa.</span>
-                    Cotizado sobre la tienda que ya conocemos por dentro: eso ahorra horas de
-                    diagnóstico que en un proyecto desde cero sí se cobran.
-                </p>
 
             </div>
 
