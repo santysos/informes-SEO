@@ -147,7 +147,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
                         <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">
                             Dos tiendas dentro de la misma web. La clienta normal sigue viendo todo igual que hoy;
                             la mayorista se registra, entra con su cuenta y ve <span class="text-white font-semibold">sus
-                            propios precios</span> en cada producto, en el carrito y en la factura.
+                            propios precios</span> en cada producto, en el carrito y al momento de pagar.
                         </p>
                     </div>
                 </div>
