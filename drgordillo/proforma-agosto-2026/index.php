@@ -290,7 +290,6 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       </p>
       <div class="acc">
         <a href="#inversion" class="btn btn-aqua">Ver la inversión</a>
-        <a href="../preview/" target="_blank" class="btn btn-line">Ver el diseño aprobado</a>
       </div>
     </div>
     <div class="retrato">
@@ -397,7 +396,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <h3>Sitio web nuevo en WordPress</h3>
           <p>
             Una web nueva, propia y rápida, construida con nuestra estructura y pensada
-            para que el paciente pida su valoración. Con el diseño que usted ya aprobó.
+            para que el paciente pida su valoración.
           </p>
         </div>
         <div class="proy-precio">
@@ -410,7 +409,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
         <div class="cols-3" style="margin-bottom:22px">
           <div class="c3">
             <h5>Diseño a medida</h5>
-            <p>El preview que aprobó, llevado a WordPress y adaptado a computador, tablet y celular.</p>
+            <p>Diseño propio, creado para su consultorio y adaptado a computador, tablet y celular.</p>
           </div>
           <div class="c3">
             <h5>Velocidad</h5>
@@ -424,7 +423,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 
         <p class="eyebrow gris" style="margin-bottom:14px">Las páginas que se construyen</p>
         <div class="paginas">
-          <div class="pag"><span class="i">01</span><div><b>Portada</b> <span>· según el diseño aprobado</span></div></div>
+          <div class="pag"><span class="i">01</span><div><b>Portada</b> <span>· diseño a medida</span></div></div>
           <div class="pag"><span class="i">02</span><div><b>Quién es el Dr. Gordillo</b> <span>· trayectoria y credenciales</span></div></div>
           <div class="pag"><span class="i">03</span><div><b>Bypass gástrico</b> <span>· página propia</span></div></div>
           <div class="pag"><span class="i">04</span><div><b>Manga gástrica</b> <span>· página propia</span></div></div>
@@ -701,7 +700,6 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
         <svg viewBox="0 0 24 24" fill="currentColor" style="width:19px;height:19px"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.8.8.8-2.8-.2-.3A8 8 0 1112 20z"/></svg>
         Escribir por WhatsApp
       </a>
-      <a href="../preview/" target="_blank" class="btn btn-line no-print">Ver el diseño otra vez</a>
     </div>
     <p class="mono" style="font-size:12.5px;color:var(--niebla);margin-top:26px">
       +593 99 917 4980 &middot; Creative Web &middot; Ibarra, Ecuador
