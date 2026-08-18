@@ -363,7 +363,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           </p>
         </div>
         <div class="proy-precio">
-          <div class="v">$1.500</div>
+          <div class="v">$720</div>
           <div class="u">+ IVA · pago único</div>
         </div>
       </div>
@@ -514,7 +514,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <div class="d">Sitio web nuevo en WordPress
             <small>Pago único · incluye dominio, hosting y textos</small>
           </div>
-          <div class="v">$1.500</div>
+          <div class="v">$720</div>
         </div>
         <div class="inv-linea">
           <div class="d">Plan de posicionamiento
@@ -525,7 +525,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 
         <div class="inv-total">
           <span class="lbl">Total del primer semestre</span>
-          <span class="big">$2.400</span>
+          <span class="big">$1.620</span>
           <span class="iva">+ IVA</span>
         </div>
       </div>
@@ -536,11 +536,11 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 
         <div class="inv-linea">
           <div class="d">Al iniciar el sitio web <small>60 % del desarrollo</small></div>
-          <div class="v">$900</div>
+          <div class="v">$432</div>
         </div>
         <div class="inv-linea">
           <div class="d">Al entregar el sitio <small>40 % restante</small></div>
-          <div class="v">$600</div>
+          <div class="v">$288</div>
         </div>
         <div class="inv-linea">
           <div class="d">Posicionamiento <small>mensual, desde que la web esté en línea</small></div>
