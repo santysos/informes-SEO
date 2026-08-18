@@ -384,3 +384,22 @@ deployment:
     - /bin/cp -f quimera/proforma-agosto-2026/logout.php $BASEPATH/quimera/proforma-agosto-2026/
     - chmod 644 $BASEPATH/quimera/proforma-agosto-2026/*.php
     - chmod 644 $BASEPATH/quimera/proforma-agosto-2026/.htaccess
+    # ---- Dr. Gordillo: proforma (login Gordillo-2026) + preview publico ----
+    - /bin/mkdir -p $BASEPATH/drgordillo/proforma-agosto-2026/assets
+    - /bin/mkdir -p $BASEPATH/drgordillo/preview/img
+    - chmod 755 $BASEPATH/drgordillo
+    - chmod 755 $BASEPATH/drgordillo/proforma-agosto-2026
+    - chmod 755 $BASEPATH/drgordillo/preview
+    - /bin/cp -f drgordillo/proforma-agosto-2026/.htaccess $BASEPATH/drgordillo/proforma-agosto-2026/
+    - /bin/cp -f drgordillo/proforma-agosto-2026/login.php $BASEPATH/drgordillo/proforma-agosto-2026/
+    - /bin/cp -f drgordillo/proforma-agosto-2026/index.php $BASEPATH/drgordillo/proforma-agosto-2026/
+    - /bin/cp -f drgordillo/proforma-agosto-2026/logout.php $BASEPATH/drgordillo/proforma-agosto-2026/
+    - /bin/cp -rf drgordillo/proforma-agosto-2026/assets/. $BASEPATH/drgordillo/proforma-agosto-2026/assets/
+    - /bin/cp -f drgordillo/preview/index.html $BASEPATH/drgordillo/preview/
+    - /bin/cp -f drgordillo/preview/.htaccess $BASEPATH/drgordillo/preview/
+    - /bin/cp -rf drgordillo/preview/img/. $BASEPATH/drgordillo/preview/img/
+    - chmod 644 $BASEPATH/drgordillo/proforma-agosto-2026/*.php
+    - chmod 644 $BASEPATH/drgordillo/proforma-agosto-2026/.htaccess
+    - find $BASEPATH/drgordillo -type f -name "*.png" -exec chmod 644 {} \;
+    - find $BASEPATH/drgordillo -type f -name "*.jpg" -exec chmod 644 {} \;
+    - chmod 644 $BASEPATH/drgordillo/preview/index.html
