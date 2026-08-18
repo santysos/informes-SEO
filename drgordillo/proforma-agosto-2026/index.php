@@ -134,6 +134,11 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 .proy-cab h3{font-size:26px;margin-bottom:9px}
 .proy-cab p{font-size:14.5px;color:var(--niebla);max-width:640px;line-height:1.65}
 .proy-precio{text-align:right}
+.proy-precio .antes{
+  font-size:17px;font-weight:600;color:var(--niebla);
+  text-decoration:line-through;text-decoration-color:rgba(240,161,75,.85);
+  margin-bottom:2px;
+}
 .proy-precio .v{font-size:31px;font-weight:800;letter-spacing:-.03em;color:var(--aqua)}
 .proy-precio .u{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--niebla);margin-top:3px}
 .proy-cuerpo{padding:28px 32px}
@@ -178,6 +183,38 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 .inv-total .big{font-size:46px;font-weight:800;letter-spacing:-.04em;color:var(--aqua);line-height:1}
 .inv-total .iva{color:var(--niebla);font-weight:600;font-size:14px}
 
+
+.precio-tach{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.precio-tach .tachado{
+  font-size:23px;font-weight:600;color:var(--niebla);
+  text-decoration:line-through;text-decoration-color:rgba(240,161,75,.9);
+}
+.precio-tach .etiq{
+  font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;
+  background:rgba(240,161,75,.16);border:1px solid rgba(240,161,75,.4);
+  color:var(--ambar);padding:4px 9px;border-radius:6px;
+}
+.opcion-pago{
+  background:rgba(4,18,26,.55);border:1px solid var(--linea);
+  border-radius:12px;padding:16px 18px;margin-bottom:11px;
+}
+.opcion-pago.destacada{border-color:rgba(46,211,198,.45);background:rgba(46,211,198,.07)}
+.opcion-pago .op-cab{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.opcion-pago .op-t{font-size:14.5px;font-weight:700}
+.opcion-pago .op-s{font-size:12.5px;color:var(--niebla);margin-top:3px}
+.opcion-pago.destacada .op-s{color:var(--aqua)}
+.opcion-pago .op-v{
+  font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;
+  white-space:nowrap;letter-spacing:-.02em;
+}
+.opcion-pago.destacada .op-v{color:var(--aqua)}
+.totales{margin-top:20px;padding:26px 30px;display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.totales .tot .et{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--niebla);margin-bottom:9px}
+.totales .tot .v{font-size:31px;font-weight:800;letter-spacing:-.03em;color:var(--aqua);line-height:1}
+.totales .tot .v span{font-size:13px;font-weight:600;color:var(--niebla)}
+.totales .tot .d{font-size:12.5px;color:var(--niebla);margin-top:8px;line-height:1.5}
+
 .nota-b{background:rgba(46,211,198,.07);border:1px solid rgba(46,211,198,.24);border-radius:13px;padding:18px 20px}
 .nota-b .t{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--aqua);margin-bottom:8px}
 .nota-b p{font-size:13.8px;color:var(--hueso);line-height:1.65;opacity:.92}
@@ -210,6 +247,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
   .hall,.paginas,.cond{grid-template-columns:1fr}
   .cols-3{grid-template-columns:1fr}
   .inv-grid{grid-template-columns:1fr}
+  .totales{grid-template-columns:1fr;gap:22px}
   .barra nav a:not(.salir){display:none}
   .mes{grid-template-columns:1fr;gap:10px}
 }
@@ -358,11 +396,12 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <div class="num">PROYECTO 01</div>
           <h3>Sitio web nuevo en WordPress</h3>
           <p>
-            Migración completa desde Wix a una web propia, rápida y pensada para que el
-            paciente pida su valoración. Con el diseño que usted ya aprobó.
+            Una web nueva, propia y rápida, construida con nuestra estructura y pensada
+            para que el paciente pida su valoración. Con el diseño que usted ya aprobó.
           </p>
         </div>
         <div class="proy-precio">
+          <div class="antes">$980</div>
           <div class="v">$720</div>
           <div class="u">+ IVA · pago único</div>
         </div>
@@ -378,8 +417,8 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
             <p>Objetivo: bajar de 9,1 segundos a menos de 2. Sin los 93 scripts que Wix obliga a cargar.</p>
           </div>
           <div class="c3">
-            <h5>Sin perder posiciones</h5>
-            <p>Redirecciones de las páginas que hoy sí funcionan, para que Google no pierda el rastro.</p>
+            <h5>Su información, mejor contada</h5>
+            <p>Partimos de lo que ya tiene publicado y lo reescribimos con la estructura que Google entiende.</p>
           </div>
         </div>
 
@@ -440,8 +479,8 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           </p>
         </div>
         <div class="proy-precio">
-          <div class="v">$150</div>
-          <div class="u">+ IVA / mes · 6 meses</div>
+          <div class="v">$680</div>
+          <div class="u">+ IVA · los 6 meses<br>o $150 al mes</div>
         </div>
       </div>
       <div class="proy-cuerpo">
@@ -507,44 +546,56 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 
     <div class="inv-grid">
       <div class="panel inv-card">
-        <p class="eyebrow gris" style="margin-bottom:6px">Resumen</p>
-        <p style="font-size:19px;font-weight:700;margin-bottom:16px">Los dos proyectos</p>
+        <p class="eyebrow gris" style="margin-bottom:6px">Proyecto 01</p>
+        <p style="font-size:19px;font-weight:700;margin-bottom:6px">Sitio web nuevo</p>
+        <p style="font-size:13.5px;color:var(--niebla);line-height:1.6;margin-bottom:20px">
+          Pago único. Incluye las 12 páginas, los textos de los procedimientos, y el dominio
+          y hosting del primer año.
+        </p>
 
-        <div class="inv-linea">
-          <div class="d">Sitio web nuevo en WordPress
-            <small>Pago único · incluye dominio, hosting y textos</small>
-          </div>
-          <div class="v">$720</div>
+        <div class="precio-tach">
+          <span class="tachado">$980</span>
+          <span class="etiq">Precio de lanzamiento</span>
         </div>
-        <div class="inv-linea">
-          <div class="d">Plan de posicionamiento
-            <small>$150 al mes durante 6 meses</small>
-          </div>
-          <div class="v">$900</div>
-        </div>
-
-        <div class="inv-total">
-          <span class="lbl">Total del primer semestre</span>
-          <span class="big">$1.620</span>
+        <div class="inv-total" style="margin-top:10px;padding-top:0;border-top:0">
+          <span class="big">$720</span>
           <span class="iva">+ IVA</span>
+        </div>
+
+        <div class="nota-b" style="margin-top:auto">
+          <div class="t">Un solo pago</div>
+          <p>
+            Sin anticipos ni cuotas: se cancela el valor completo al confirmar el proyecto y
+            arrancamos.
+          </p>
         </div>
       </div>
 
       <div class="panel inv-card">
-        <p class="eyebrow gris" style="margin-bottom:6px">Cómo se paga</p>
-        <p style="font-size:19px;font-weight:700;margin-bottom:16px">Sin desembolsar todo de una</p>
+        <p class="eyebrow gris" style="margin-bottom:6px">Proyecto 02</p>
+        <p style="font-size:19px;font-weight:700;margin-bottom:6px">Posicionamiento · 6 meses</p>
+        <p style="font-size:13.5px;color:var(--niebla);line-height:1.6;margin-bottom:20px">
+          Dos formas de tomarlo. El contenido y el trabajo son exactamente los mismos.
+        </p>
 
-        <div class="inv-linea">
-          <div class="d">Al iniciar el sitio web <small>60 % del desarrollo</small></div>
-          <div class="v">$432</div>
+        <div class="opcion-pago destacada">
+          <div class="op-cab">
+            <div>
+              <p class="op-t">Los 6 meses por adelantado</p>
+              <p class="op-s">Ahorra $220 frente al pago mensual</p>
+            </div>
+            <span class="op-v">$680</span>
+          </div>
         </div>
-        <div class="inv-linea">
-          <div class="d">Al entregar el sitio <small>40 % restante</small></div>
-          <div class="v">$288</div>
-        </div>
-        <div class="inv-linea">
-          <div class="d">Posicionamiento <small>mensual, desde que la web esté en línea</small></div>
-          <div class="v">$150</div>
+
+        <div class="opcion-pago">
+          <div class="op-cab">
+            <div>
+              <p class="op-t">Mes a mes</p>
+              <p class="op-s">$150 al mes durante 6 meses · suman $900</p>
+            </div>
+            <span class="op-v">$150</span>
+          </div>
         </div>
 
         <div class="nota-b" style="margin-top:auto">
@@ -554,6 +605,19 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
             por la web en todo el semestre ya cubre la inversión completa.
           </p>
         </div>
+      </div>
+    </div>
+
+    <div class="panel totales">
+      <div class="tot">
+        <p class="et">Todo junto, con el plan pagado por adelantado</p>
+        <p class="v">$1.400 <span>+ IVA</span></p>
+        <p class="d">$720 el sitio web + $680 los seis meses de posicionamiento</p>
+      </div>
+      <div class="tot">
+        <p class="et">Todo junto, con el plan mes a mes</p>
+        <p class="v">$1.620 <span>+ IVA</span></p>
+        <p class="d">$720 el sitio web + $150 al mes durante seis meses</p>
       </div>
     </div>
 
@@ -594,7 +658,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
     <div class="hall">
       <div class="h-item" style="border-left:2px solid var(--aqua)">
         <h4 style="--d:none">Accesos</h4>
-        <p>Cuenta de Wix, dominio, Google Analytics y Search Console. Son necesarios para migrar sin perder lo que hoy funciona.</p>
+        <p>Dominio, Google Analytics y Search Console. Son necesarios para publicar el sitio y empezar a medir desde el primer día.</p>
       </div>
       <div class="h-item" style="border-left:2px solid var(--aqua)">
         <h4>Datos de contacto reales</h4>
@@ -613,10 +677,10 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
     <div class="nota-a" style="margin-top:18px">
       <div class="t">Sobre la suscripción de Wix</div>
       <p>
-        Mientras construimos el sitio nuevo, el actual debe seguir en línea para no perder
-        visitas. Conviene definir desde ahora quién mantiene esa suscripción durante la
-        migración y en qué momento se cancela — normalmente, una vez que el sitio nuevo ya
-        está publicado y las redirecciones funcionando.
+        Mientras construimos el sitio nuevo, el actual debe seguir en línea para no quedarse
+        sin presencia. Conviene definir desde ahora en qué momento se cancela esa
+        suscripción — normalmente, apenas el sitio nuevo queda publicado y apuntando a su
+        dominio.
       </p>
     </div>
   </div>
