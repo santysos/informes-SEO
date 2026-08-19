@@ -197,8 +197,8 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
     <div class="chips">
       <span class="chip"><b>12</b> meses de cobertura</span>
       <span class="chip"><b>2</b> sitios</span>
-      <span class="chip"><b>12</b> informes mensuales</span>
-      <span class="chip"><b>2 h</b> de soporte al mes</span>
+      <span class="chip"><b>24</b> informes al año</span>
+      <span class="chip"><b>4 h</b> de soporte al mes</span>
     </div>
     <a href="#inversion" class="btn btn-azul no-print">Ver la inversión</a>
   </div>
@@ -210,9 +210,10 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
     <div class="sec-cab">
       <p class="eyebrow">Respecto al plan anterior</p>
       <h2>Qué se mantiene y qué se suma</h2>
-      <p class="lead" style="max-width:700px">
-        El plan 2025 cubría lo esencial. Para este período se conserva todo y se agregan dos
-        cosas que hoy se piden por WhatsApp y no estaban cotizadas en ninguna parte.
+      <p class="lead" style="max-width:720px">
+        El valor del plan para comercialhidrobo.com <strong>se mantiene en $380</strong>, igual
+        que el período anterior. Lo que cambia es lo que incluye: se conserva todo lo que ya
+        tenía y se suman dos servicios que hasta ahora se hacían sin estar cotizados.
       </p>
     </div>
     <div class="compara">
@@ -231,9 +232,9 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <div class="nuevo">
         <div class="et" style="color:var(--verde)">Nuevo en 2026-2027</div>
         <ul>
-          <li><strong>2 horas mensuales de soporte</strong> para cambios menores: banners, textos, subir un PDF, corregir un dato</li>
+          <li><strong>2 horas mensuales de soporte por cada sitio</strong> — 4 al mes, 48 al año. A tarifa normal de $25 la hora, son $1.200 anuales que no se cobran</li>
           <li><strong>Optimización de velocidad trimestral</strong> con limpieza de base de datos y revisión de imágenes</li>
-          <li><strong>Cobertura de okcars.ec</strong> bajo el mismo plan, con su propio informe</li>
+          <li><strong>Cobertura de okcars.ec</strong> bajo el mismo plan, con su propio informe mensual</li>
         </ul>
       </div>
     </div>
@@ -275,8 +276,8 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       </div>
       <div class="panel card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 4h18v11H8l-5 4.5z"/></svg></div>
-        <h3>2 horas de soporte</h3>
-        <p>Cambios menores sin cotizar aparte: cambiar un banner, corregir un texto, subir un documento o actualizar un dato de contacto.</p>
+        <h3>2 horas de soporte por sitio</h3>
+        <p>Cada mes, por cada web — 48 horas al año en total. Fuera de plan, la hora técnica cuesta $25. Cambios menores sin cotizar aparte: un banner, un texto, subir un documento o corregir un dato.</p>
       </div>
     </div>
   </div>
@@ -292,7 +293,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <h2 style="font-size:26px;margin:12px 0 14px">El informe mensual</h2>
           <p style="font-size:14.5px;color:var(--gris);line-height:1.7">
             Un documento claro con todo lo que se hizo en el mes, para que sepan exactamente
-            en qué se invirtió el plan. Uno por cada sitio.
+            en qué se invirtió el plan. Uno por cada sitio: <strong>24 informes al año</strong>.
           </p>
         </div>
         <div>
@@ -321,7 +322,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <div class="panel sitio">
         <div class="dom">comercialhidrobo.com</div>
         <h3>Sitio principal</h3>
-        <p>E-commerce con catálogo de vehículos, blog activo y tráfico de más de 4.300 visitas orgánicas al mes.</p>
+        <p>Sitio corporativo con catálogo de vehículos, postventa y blog activo, con más de 4.300 visitas orgánicas al mes.</p>
         <div class="precio">$380 <span>+ IVA / año</span></div>
       </div>
       <div class="panel sitio">
@@ -353,18 +354,40 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <tr><td>Licencia Elementor Pro<small>Constructor visual sobre el que está hecho el sitio</small></td><td>$99,00</td></tr>
           <tr><td>Licencia Crocoblock para Elementor<small>Conjunto de plugins Jet que sostienen el catálogo y los filtros</small></td><td>$199,00</td></tr>
           <tr class="total"><td>Subtotal solo en licencias</td><td>$298,00</td></tr>
-          <tr><td>Mantenimiento, respaldos, seguridad, informes y 2 h de soporte al mes</td><td>$82,00</td></tr>
+          <tr><td>Mantenimiento, respaldos, seguridad e informes mensuales</td><td>$82,00</td></tr>
           <tr class="total"><td>Plan anual comercialhidrobo.com</td><td>$380,00</td></tr>
         </tbody>
       </table>
       <div class="nota" style="margin-top:18px">
-        <div class="t">Por qué sube respecto al año pasado</div>
+        <div class="t">El precio no sube</div>
         <p>
-          El plan 2025 se cotizó en $280 cuando las licencias por sí solas ya costaban $298.
-          Es decir, el año pasado el mantenimiento no solo salió gratis: el plan quedó por
-          debajo de su propio costo. El valor de este período corrige eso y suma las horas de
-          soporte y la optimización trimestral, que hasta ahora se hacían sin estar cotizadas.
+          comercialhidrobo.com mantiene el mismo valor del período anterior: <strong>$380 + IVA
+          al año</strong>. Como las licencias por sí solas cuestan $298, el trabajo de
+          mantenimiento queda en $82 anuales — poco menos de $7 al mes. Y este año, además,
+          entran las horas de soporte y la optimización trimestral sin costo adicional.
         </p>
+      </div>
+
+      <!-- valor de las horas incluidas -->
+      <div style="margin-top:26px">
+        <p class="eyebrow" style="margin-bottom:14px">Lo que además va incluido y no se cobra</p>
+        <table class="tabla">
+          <thead><tr><th>Soporte incluido</th><th style="text-align:right">Si se cobrara aparte</th></tr></thead>
+          <tbody>
+            <tr><td>Tarifa de hora técnica fuera de plan<small>Es lo que cuesta hoy cualquier cambio pedido suelto</small></td><td>$25,00 / hora</td></tr>
+            <tr><td>2 horas mensuales por sitio<small>24 horas al año por cada web</small></td><td>$50,00 / mes</td></tr>
+            <tr class="total"><td>Valor anual del soporte, por sitio</td><td>$600,00</td></tr>
+            <tr class="total"><td>Valor anual del soporte, por los dos sitios</td><td>$1.200,00</td></tr>
+          </tbody>
+        </table>
+        <div class="nota" style="margin-top:16px;border-color:rgba(37,211,102,.4);background:rgba(37,211,102,.08)">
+          <div class="t" style="color:var(--verde)">Para dimensionarlo</div>
+          <p>
+            Las 48 horas de soporte que entran en el plan valdrían <strong>$1.200 al año</strong>
+            si se cobraran por hora. El plan completo por los dos sitios cuesta $670. Dicho de
+            otro modo: con usar poco más de la mitad de las horas, el plan ya se pagó solo.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -386,7 +409,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
         </div>
         <div>
           <p>Horas de soporte</p>
-          <p>2 horas mensuales para cambios menores. No se acumulan de un mes al siguiente.</p>
+          <p>2 horas mensuales por cada sitio, 4 en total. No se acumulan de un mes al siguiente.</p>
         </div>
         <div>
           <p>Qué no incluye</p>
