@@ -200,7 +200,10 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <span class="chip"><b>24</b> informes al año</span>
       <span class="chip"><b>4 h</b> de soporte al mes</span>
     </div>
-    <a href="#inversion" class="btn btn-azul no-print">Ver la inversión</a>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      <a href="#inversion" class="btn btn-azul no-print">Ver la inversión</a>
+      <a href="pdf/cot-2-sitios.pdf" download class="btn btn-line no-print">Descargar cotización</a>
+    </div>
   </div>
 </section>
 
@@ -439,6 +442,44 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <p>Elementor Pro y Crocoblock quedan activas sobre sus dominios mientras el plan esté vigente.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- DESCARGA DE COTIZACIONES -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-cab" style="text-align:center">
+      <p class="eyebrow">Documentos formales</p>
+      <h2>Descargar la cotización en PDF</h2>
+      <p class="lead" style="max-width:620px;margin:0 auto">
+        Dos versiones, según qué decidan contratar. Ambas con el mismo formato de siempre,
+        listas para revisar o firmar.
+      </p>
+    </div>
+    <div class="sitios">
+      <a href="pdf/cot-1-sitio.pdf" download class="panel sitio no-print" style="display:block">
+        <div class="dom">COT-2026-CH-01</div>
+        <h3>Solo comercialhidrobo.com</h3>
+        <p>Plan anual para el sitio principal, con licencias, mantenimiento, informes y 2 horas mensuales de soporte.</p>
+        <div class="precio" style="margin-bottom:16px">$380 <span>+ IVA / año</span></div>
+        <span class="btn btn-azul" style="width:100%;justify-content:center">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:17px;height:17px"><path d="M12 3v10.6l3.3-3.3 1.4 1.4L11 17.4 5.3 11.7l1.4-1.4L10 13.6V3zM5 19h14v2H5z"/></svg>
+          Descargar PDF
+        </span>
+      </a>
+      <a href="pdf/cot-2-sitios.pdf" download class="panel sitio no-print" style="display:block;border-color:rgba(37,211,102,.4)">
+        <span class="tag">Recomendada</span>
+        <div class="dom">COT-2026-CH-02</div>
+        <h3>Los dos sitios</h3>
+        <p>comercialhidrobo.com y okcars.ec bajo el mismo plan, con 24 informes al año y 4 horas mensuales de soporte.</p>
+        <div class="precio" style="margin-bottom:16px">$670 <span>+ IVA / año</span></div>
+        <span class="btn btn-azul" style="width:100%;justify-content:center">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:17px;height:17px"><path d="M12 3v10.6l3.3-3.3 1.4 1.4L11 17.4 5.3 11.7l1.4-1.4L10 13.6V3zM5 19h14v2H5z"/></svg>
+          Descargar PDF
+        </span>
+      </a>
     </div>
   </div>
 </section>
