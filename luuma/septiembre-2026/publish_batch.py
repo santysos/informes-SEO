@@ -30,7 +30,9 @@ CATEGORIAS = {
     13: "Cócteles y Mixología",
 }
 
-# Referencias geográficas reales de Manta — mínimo 2 por post
+# Referencias geográficas reales de Manta — mínimo 2 por post.
+# OJO: la dirección de Luuma es Plaza La Quadra, redondel de Barbasquillo, 130214 Manta.
+# La av. Flavio Reyes es una zona real de la ciudad pero NO es donde está el local.
 MANTA_REFS = [
     "manta", "flavio reyes", "malecón", "malecon", "la quadra", "tarqui", "umiña", "umina",
     "barbasquillo", "murciélago", "murcielago", "san mateo", "santa marianita", "manabí",
@@ -176,6 +178,14 @@ def validar(spec):
 
     if not spec.get("date"):
         issues.append("sin fecha")
+
+    # la dirección de Luuma es La Quadra / Barbasquillo, nunca av. Flavio Reyes
+    for m in re.finditer(r"[Ff]lavio\s+[Rr]eyes", texto):
+        frag = texto[max(0, m.start() - 60): m.end() + 60]
+        if re.search(r"luuma|nuestro local|estamos en|nos ubicamos", frag, re.I):
+            issues.append("ubica a Luuma en av. Flavio Reyes; la dirección real es "
+                          "Plaza La Quadra, redondel de Barbasquillo")
+            break
 
     return issues, palabras
 

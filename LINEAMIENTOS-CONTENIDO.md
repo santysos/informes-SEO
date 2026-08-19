@@ -195,7 +195,10 @@ def validate_anti_ai(content, slug):
 ```
 
 `GEO_REFERENCES` se define por cliente. Ejemplos:
-- **Luuma (Manta):** av. Flavio Reyes, malecón, La Quadra, Tarqui, Umiña, Barbasquillo, Murciélago, San Mateo
+- **Luuma (Manta):** La Quadra, redondel de Barbasquillo, malecón, Murciélago, Tarqui, Umiña, San Mateo, av. Flavio Reyes
+  > ⚠️ **Dirección real de Luuma: Plaza La Quadra, redondel de Barbasquillo, 130214 Manta.**
+  > La av. Flavio Reyes existe y es la zona gastronómica de la ciudad, pero **Luuma no está ahí**.
+  > Sirve como referencia geográfica de Manta; nunca para ubicar al cliente.
 - **OKCars / CH (Ibarra):** Ibarra, Otavalo, Cayambe, Tulcán, Panamericana, Yahuarcocha, Atuntaqui
 - **Odontología Life (Otavalo):** Otavalo, plaza de Ponchos, Imbabura, Cotacachi
 
