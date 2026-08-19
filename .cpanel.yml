@@ -403,3 +403,12 @@ deployment:
     - find $BASEPATH/drgordillo -type f -name "*.png" -exec chmod 644 {} \;
     - find $BASEPATH/drgordillo -type f -name "*.jpg" -exec chmod 644 {} \;
     - chmod 644 $BASEPATH/drgordillo/preview/index.html
+    # ---- Comercial Hidrobo: plan de soporte 2026-2027 (login Soporte-CH-2026) ----
+    - /bin/mkdir -p $BASEPATH/comercial-hidrobo/soporte-2026
+    - chmod 755 $BASEPATH/comercial-hidrobo/soporte-2026
+    - /bin/cp -f comercial-hidrobo/soporte-2026/.htaccess $BASEPATH/comercial-hidrobo/soporte-2026/
+    - /bin/cp -f comercial-hidrobo/soporte-2026/login.php $BASEPATH/comercial-hidrobo/soporte-2026/
+    - /bin/cp -f comercial-hidrobo/soporte-2026/index.php $BASEPATH/comercial-hidrobo/soporte-2026/
+    - /bin/cp -f comercial-hidrobo/soporte-2026/logout.php $BASEPATH/comercial-hidrobo/soporte-2026/
+    - chmod 644 $BASEPATH/comercial-hidrobo/soporte-2026/*.php
+    - chmod 644 $BASEPATH/comercial-hidrobo/soporte-2026/.htaccess
