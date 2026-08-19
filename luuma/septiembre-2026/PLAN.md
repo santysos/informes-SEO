@@ -56,6 +56,37 @@ El post en inglés publicado el 7 de agosto (`best-rooftop-bar-manta-ecuador`) y
 
 ---
 
+## 2.bis De dónde llega la gente (canales, mismo periodo)
+
+| Canal | Sesiones | % | Interacción | Eventos clave | Conversión |
+|---|---:|---:|---:|---:|---:|
+| Organic Search | 3.523 | 41,6 % | 58,3 % | 64 | 1,82 % |
+| Direct | 3.128 | 36,9 % | 53,0 % | 40 | 1,28 % |
+| Organic Social | 1.576 | 18,6 % | **74,6 %** | 29 | 1,84 % |
+| **AI Assistant** | **72** | 0,9 % | 69,4 % | 6 | **8,33 %** |
+| Referral | 74 | 0,9 % | 63,5 % | 1 | 1,35 % |
+
+Total: 8.466 sesiones, 143 eventos clave, 1,69 % de conversión global.
+
+### El dato que vale la pena mirar dos veces
+
+**El tráfico que llega desde asistentes de IA convierte al 8,33 %** — entre cuatro y seis
+veces mejor que cualquier otro canal. Son solo 72 sesiones, así que el número tiene poca
+base estadística, pero apunta a algo razonable: quien pregunta a ChatGPT «dónde cenar en
+Manta con vista» llega con la decisión medio tomada, no explorando.
+
+Esto refuerza el bloque en inglés más de lo que ya lo hacía el SEO clásico. Los asistentes
+citan contenido con datos concretos y verificables: precios, horarios, tablas comparativas,
+distancias. Los seis posts internacionales de este lote están escritos así a propósito —
+tablas de precios por ciudad, tiempos de taxi, rangos reales del menú— porque es el formato
+que un asistente puede citar y un buscador puede convertir en fragmento destacado.
+
+**Organic Social tiene la mejor interacción del sitio (74,6 %)** pero solo 1,84 % de
+conversión: la gente que llega de redes se queda leyendo y no reserva. Vale la pena revisar
+qué CTA está viendo ese tráfico.
+
+---
+
 ## 3. Antes de los posts: dos problemas que cuestan más que veinte artículos
 
 ### 3.1 El post más importante del negocio no captura nada

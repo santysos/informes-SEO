@@ -71,6 +71,24 @@ POSTS.append({
      "<strong>Season.</strong> January to April is hot with warmer water; June to September is cooler, greyer and better for whales.",
    ]},
 
+   {"h2": "Getting to each one"},
+   "None of these need a rental car except Los Frailes, and even that is easier by tour. Taxis in Manta are cheap and everywhere; agree the price before you get in, since meters are rarely used.",
+   {"tabla": [["To", "Taxi from Manta", "Time"], [
+     ["Playa Murciélago", "$2 – $4", "5 min"],
+     ["San Mateo", "$8 – $12", "15 min"],
+     ["Santa Marianita", "$12 – $18", "25 min"],
+     ["Los Frailes", "tour $45 – $70 pp", "1 h 30"],
+   ]]},
+   "For Santa Marianita and San Mateo, arrange the return with the same driver or you may wait a while — neither has a taxi rank. A round trip with waiting time usually costs $25 to $35 and removes the problem entirely.",
+
+   {"h2": "What to bring"},
+   {"ul": [
+     "<strong>Cash in small bills.</strong> Loungers, vendors and taxis are cash only. Nobody at the beach breaks a $50.",
+     "<strong>Sunscreen, more than you think.</strong> You are on the equator and cloud cover hides the intensity, not the UV.",
+     "<strong>Water.</strong> Only Murciélago has reliable vendors; Los Frailes has none at all.",
+     "<strong>A light layer for the evening.</strong> Between June and September the breeze turns cool as soon as the sun drops.",
+   ]},
+
    {"h2": "How to end a beach day"},
    f"Sunset on the Ecuadorian coast lands between 18:15 and 18:40 every day of the year, because the equator does not do seasons. That makes the last part of a beach day easy to plan: come off the sand around five thirty, and be somewhere with a view by quarter to six.",
    f"La Quadra, the restaurant district five minutes from Murciélago, is where the rooftops are. Our own kitchen opens at 11:00 with the {link(MENU_ALMUERZO, 'lunch menu')} — grilled wahoo or albacora with rice and salad at $8,90 — and the {link(MENU, 'full menu')} runs from 16:00. Cocktails go from $8,50 to $13,60.",
@@ -148,6 +166,15 @@ POSTS.append({
    ]]},
    f"Our own kitchen serves the criollo dishes from 11:00 and the {link(MENU, 'evening menu')} from 16:00 — mixed viche is $9,80 and the grilled catch of the day is $8,90 on the {link(MENU_ALMUERZO, 'lunch menu')}.",
 
+   {"h2": "What to drink with it"},
+   "Ecuador is not a wine country and importing it is expensive, so a bottle in a restaurant starts around $30. Beer is the everyday choice — a local one runs about $6 in a restaurant, imported $8 to $10.",
+   "The non-alcoholic options are better than the wine list. Fresh juices are everywhere and cost $2 to $3: maracuyá (passion fruit), naranjilla, tree tomato, guanábana. Ordering a juice you cannot identify is one of the better decisions available on this coast.",
+   "For cocktails, anything with passion fruit is the local move. A caipirinha with maracuyá or guava runs $9,95 and works far better with seafood than the classic version.",
+
+   {"h2": "The market, and why to go"},
+   "The Playita Mía fish market in Manta is worth an hour even if you do not intend to buy anything. The boats come in at dawn, the auction happens in shouted Spanish, and several stalls will cook whatever you point at for a few dollars.",
+   "It is also where you understand the pricing. Seeing a whole wahoo change hands for what a restaurant charges for one fillet explains the entire economics of eating on this coast.",
+
    {"h2": "Two rules for eating well here"},
    "First: eat seafood in the morning and meat at night. The fish that arrived at dawn is at its best before noon, and every local eats accordingly.",
    "Second: if a menu is translated into four languages and has photographs, you are in a tourist place and paying for it. The comedores that locals use rarely have a written menu at all — someone tells you what there is.",
@@ -215,9 +242,28 @@ POSTS.append({
    {"h3": "Jantar com vista"},
    f"La Quadra é o bairro dos restaurantes, a cinco minutos da Praia Murciélago. É onde ficam os rooftops. O {link(MENU, 'cardápio da noite')} abre às 16:00 e os coquetéis vão de $8,50 a $13,60.",
 
+   {"h2": "Quando ir"},
+   "A costa equatoriana tem duas estações e mudam bastante a viagem. De janeiro a abril faz calor e umidade, com chuva forte e curta no fim da tarde — são os meses de noite quente, bons para ficar ao ar livre depois do jantar. De junho a setembro o ar é mais fresco e os dias costumam ser nublados, o que parece ruim mas rende os melhores pores do sol do ano, porque há nuvem para a luz pegar.",
+   "Junho a setembro é também temporada de baleias jubarte. Elas passam pela costa de Manabí vindas da Antártida e os passeios saem de Puerto López, a uma hora e quarenta e cinco de Manta. Uma manhã de baleias e um fim de tarde no rooftop é o melhor dia que esta costa oferece.",
+
    {"h2": "O pôr do sol é pontual"},
    "O Equador fica sobre a linha do equador, então o sol se põe entre 18:15 e 18:40 todos os dias do ano. Não muda com a estação. É a única coisa nesta cidade que se pode agendar com meses de antecedência.",
    "Chegue às 17:45 se quiser mesa na grade. Todo mundo quer a mesma mesa no mesmo momento, e esse momento dura quinze minutos.",
+
+   {"h2": "O que beber"},
+   "O Equador não é país de vinho e importar sai caro: uma garrafa em restaurante começa nos $30. A cerveja é a escolha do dia a dia — a da casa custa $6 e a importada entre $8 e $10.",
+   "Os sucos naturais valem mais a pena que a carta de vinhos. Custam $2 a $3 e as frutas são diferentes das brasileiras: maracujá sim, mas também naranjilla, tomate de árvore e guanábana. Pedir um suco que você não conhece é das melhores decisões possíveis aqui.",
+   "Para coquetel, qualquer coisa com maracujá funciona. A caipirinha de maracujá ou goiaba sai $9,95 e combina muito melhor com frutos do mar do que a clássica.",
+
+   {"h2": "Como chegar e circular"},
+   "Manta tem aeroporto com voos de Quito e Guayaquil, cerca de uma hora. De Guayaquil por estrada são três horas e meia; de Quito, oito. Muitos brasileiros chegam de navio — o porto fica dentro da cidade e um táxi até a praia custa $3 a $5.",
+   {"tabla": [["Trajeto", "Preço", "Tempo"], [
+     ["Porto ou aeroporto → praia", "$3 – $7", "10–15 min"],
+     ["Dentro da cidade", "$2 – $4", "5–15 min"],
+     ["Manta → Montecristi", "$10 – $15", "20 min"],
+     ["Manta → Puerto López", "$60 – $80", "1 h 45"],
+   ]]},
+   "Montecristi vale a viagem: é de lá que vem o chapéu panamá, que na verdade é equatoriano. Um bom exemplar custa a partir de $150 e os de turista, $20 a $40.",
 
    {"h2": "Detalhes práticos"},
    {"ul": [
