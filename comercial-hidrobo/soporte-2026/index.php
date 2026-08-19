@@ -211,9 +211,8 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <p class="eyebrow">Respecto al plan anterior</p>
       <h2>Qué se mantiene y qué se suma</h2>
       <p class="lead" style="max-width:720px">
-        El valor del plan para comercialhidrobo.com <strong>se mantiene en $380</strong>, igual
-        que el período anterior. Lo que cambia es lo que incluye: se conserva todo lo que ya
-        tenía y se suman dos servicios que hasta ahora se hacían sin estar cotizados.
+        Se conserva todo lo que el plan ya tenía y se suman dos servicios que hasta ahora se
+        hacían sin estar cotizados: las horas de soporte y la optimización trimestral.
       </p>
     </div>
     <div class="compara">
@@ -358,13 +357,29 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
           <tr class="total"><td>Plan anual comercialhidrobo.com</td><td>$380,00</td></tr>
         </tbody>
       </table>
-      <div class="nota" style="margin-top:18px">
-        <div class="t">El precio no sube</div>
+      <div style="margin-top:26px">
+        <p class="eyebrow" style="margin-bottom:14px">Histórico del plan · comercialhidrobo.com</p>
+        <table class="tabla">
+          <thead><tr><th>Período</th><th style="text-align:right">Valor facturado</th></tr></thead>
+          <tbody>
+            <tr><td>2024 – 2025</td><td>$380,00</td></tr>
+            <tr><td>2025 – 2026<small>Se emitió por $280 debido a un error nuestro al elaborar la cotización</small></td><td>$280,00</td></tr>
+            <tr class="total"><td>2026 – 2027<small>Vuelve al valor que corresponde al plan</small></td><td>$380,00</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="nota" style="margin-top:18px;border-color:rgba(240,161,75,.45);background:rgba(240,161,75,.09)">
+        <div class="t" style="color:var(--ambar)">Sobre el valor del período pasado</div>
         <p>
-          comercialhidrobo.com mantiene el mismo valor del período anterior: <strong>$380 + IVA
-          al año</strong>. Como las licencias por sí solas cuestan $298, el trabajo de
-          mantenimiento queda en $82 anuales — poco menos de $7 al mes. Y este año, además,
-          entran las horas de soporte y la optimización trimestral sin costo adicional.
+          Preferimos decirlo con claridad: la cotización 2025-2026 salió en $280 por un error
+          nuestro al elaborarla. Lo asumimos y lo sostuvimos durante todo el año sin trasladarles
+          ninguna diferencia, porque el error fue nuestro y no de ustedes.
+        </p>
+        <p style="margin-top:12px">
+          Este período vuelve a <strong>$380 + IVA</strong>, que es el valor que ya estuvo
+          vigente en 2024-2025 y el que sostiene el plan: solo en licencias se van $298 al año.
+          Y esta vez el plan llega con más de lo que tenía entonces.
         </p>
       </div>
 
