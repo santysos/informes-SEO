@@ -1,125 +1,162 @@
-# Comercial Hidrobo — plan de contenido, agosto 2026
+# Comercial Hidrobo — plan de contenido y optimización, agosto 2026
 
-Análisis hecho el 2026-08-19 sobre los **196 posts publicados**, descargados por la API
-pública de `comercialhidrobo.com` (no hace falta credencial para leer).
+Basado en **datos reales** de Search Console vía GA4, periodo **21-may a 18-ago de 2026**,
+cruzados con los **196 posts publicados** (descargados por la API pública del sitio).
 
 ---
 
-## 1. Estado del blog
+## 1. El dato que cambia la prioridad
 
 | | |
 |---|---|
-| Posts publicados | 196 |
-| Publicados por nosotros (may–ago 2026) | 36 |
-| Última publicación | **4 de agosto de 2026** |
-| Ritmo de agosto | **2 posts** — cayó respecto a mayo (16), junio (9) y julio (9) |
+| Impresiones en el periodo | **350.210** |
+| Clics | **4.307** |
+| **CTR global** | **1,23 %** |
+| Consultas distintas | 27.651 |
+| Páginas con tráfico | 482 |
 
-El blog está vivo y el equipo de CH sí publica lo que entregamos. El problema es de ritmo:
-agosto va en 2 posts contra un compromiso de 20 mensuales.
+**El problema de CH no es falta de contenido: es que no convierte las impresiones que ya
+tiene.** Con 350 mil impresiones y un CTR de 1,23 %, cada punto porcentual de mejora vale
+unos 3.500 clics adicionales.
 
----
-
-## 2. Dónde está saturado y dónde está el hueco
-
-Conteo de menciones en los 196 títulos:
-
-| Tema | Posts | Lectura |
-|---|---|---|
-| Marcas japonesas/europeas | 41 | bien cubierto |
-| Compra y financiamiento | 40 | bien cubierto |
-| Electrificados (híbrido/eléctrico/PHEV/REEV) | 30 | **saturado** — junio a agosto fue casi solo esto |
-| Marcas chinas | 27 | bien cubierto, pero concentrado en Chery y DongFeng |
-| Mantenimiento | 27 | bien cubierto |
-| Local / geográfico | 20 | correcto |
-| SUV | 16 | correcto |
-| Camionetas | 15 | correcto |
-| Seguridad | 13 | mejorable |
-| **Trámites** | **5** | 🔴 **el hueco más grande** |
-| **Seminuevos** | **5** | 🟡 lo cubre OKCars, pero CH también vende |
-
-### Marcas sin un solo post
-
-`Omoda` · `Geely` · `BYD` · `Jetour` — cero menciones en 196 títulos.
-
-El informe de mayo ya había detectado a **Omoda y Geely como marcas emergentes** en las
-consultas de búsqueda del sitio. Siguen sin contenido.
-
-### El detalle de trámites
-
-De los 5 posts que rozan el tema, solo **uno** es de trámite puro:
-*Matriculación vehicular en Imbabura 2026*. El resto son de seguros y de pico y placa.
-
-Quedan sin cubrir, todos con volumen de búsqueda alto en Ecuador:
-traspaso de dominio · revisión técnica vehicular · cómo sacar placas por primera vez ·
-impuestos anuales del vehículo · consulta y pago de multas · licencia de conducir ·
-qué hacer si el auto tiene prenda · duplicado de matrícula.
+Hay páginas en **posición 5-8** —primera página de Google— con CTR de **0,2 % a 0,9 %**,
+cuando lo esperable en esas posiciones es **3 % a 6 %**. Eso no se arregla escribiendo más
+posts: se arregla reescribiendo títulos y descripciones.
 
 ---
 
-## 3. Propuesta: 20 posts
+## 2. Prioridad 1 · Reescribir títulos y metas (impacto inmediato)
 
-Reparto pensado para atacar los huecos sin repetir nada de lo publicado.
+Estas doce páginas concentran **~290.000 impresiones** y solo capturan 2.000 clics.
+Ninguna necesita contenido nuevo: necesitan un título que responda a lo que la gente busca.
 
-### Bloque A · Trámites vehiculares (8 posts) — la mayor oportunidad
+### 2.1 Las de alto valor comercial — atacar primero
 
-1. Traspaso de dominio de un vehículo en Ecuador: pasos, costos y errores que lo demoran
-2. Revisión técnica vehicular en Imbabura: qué revisan, cuánto cuesta y por qué reprueban
-3. Cómo sacar las placas de un auto nuevo en Ecuador y cuánto tarda
-4. Impuestos del vehículo en Ecuador: cuáles se pagan cada año y cómo se calculan
-5. Cómo consultar y pagar las multas de tránsito en Ecuador
-6. Comprar un auto con prenda: qué significa y cómo se levanta
-7. Duplicado de matrícula: qué hacer si la perdió
-8. Papeles que debe pedir antes de comprar un auto usado en Ecuador
+| Página | Impr. | CTR | Pos. | Qué falla en el título actual |
+|---|---:|---:|---:|---|
+| `/ram/ram-1500-ecuador-lujo-motor-hemi/` | 10.777 | 0,45 % | 6,7 | Dice «lujo, motor HEMI y fuerza bruta». La gente busca **precio**: «ram 1500 precio ecuador» son 1.018 impr. con 4 clics |
+| `/chery/chery-arrizo-5-equipamiento-sedan/` | 16.169 | 0,22 % | 7,8 | «¿el mejor en precio y tecnología?» — pregunta vaga, sin año ni precio concreto |
+| `/renault/renault-arkana-2025-ecuador/` | 16.883 | 0,63 % | 4,6 | Año 2025 desactualizado estando en agosto de 2026 |
+| `/dongfeng/dongfeng-huge-2025-precio-en-ecuador/` | 17.102 | 0,82 % | 6,2 | Año 2025; la consulta «huge» sola son 743 impr. |
+| `/consejos/camionetas-con-mejor-consumo-de-combustible/` | 31.418 | 0,96 % | 6,2 | Dice «en el 2025». Actualizar a 2026 y añadir «Ecuador» |
+| `/consejos/como-funciona-la-exoneracion-de-autos-en-ecuador/` | 30.012 | 0,89 % | 8,4 | Tema con demanda alta («hyundai exonerados», 611 impr.); falta el año y el «quién califica» |
+| `/reanult/renault-duster/` | 22.356 | 1,31 % | 6,8 | ⚠️ **La URL tiene un error de tipeo: `reanult`.** Ver punto 4 |
+| `/renault/renault-duster-2025-precio-ecuador/` | 21.713 | 1,38 % | 5,8 | Año 2025 desactualizado |
 
-### Bloque B · Marcas sin contenido (5 posts)
+### 2.2 Las informativas — segundo turno
 
-9. Omoda en Ecuador: qué modelos hay y a quién le convienen
-10. Geely en Ecuador 2026: la marca, los modelos y qué respaldo tienen
-11. BYD en Ecuador: qué llegó, qué cuesta y cómo se compara con Chery y DongFeng
-12. Jetour: la marca china de SUV que está creciendo en el norte del país
-13. Omoda o Chery: son de la misma casa, ¿en qué se diferencian?
+| Página | Impr. | CTR | Pos. |
+|---|---:|---:|---:|
+| `/consejos/cilindrada-del-motor/` | 54.918 | 0,46 % | 5,4 |
+| `/consejos/que-significa-torque-y-como-influye-al-conducir/` | 23.396 | 0,38 % | 6,3 |
+| `/financiacion-y-tramites/seguro-auto-nuevo-ecuador/` | 20.730 | 0,18 % | 9,9 |
+| `/consejos/cada-cuantos-km-se-hace-el-cambio-de-aceite-en-ecuador/` | 15.255 | 0,81 % | 4,9 |
 
-### Bloque C · Renault y Nissan con enfoque local (4 posts)
+`cilindrada-del-motor` es la segunda página con más impresiones de todo el sitio (54.918) y
+solo trae 254 clics. Atrae búsquedas como «que significa 1.6 en un auto» (563 impr.) y «que
+es el torque» (494 impr.): tráfico informativo que no compra un auto, pero que a este
+volumen igual conviene capturar.
 
-*(Son las marcas fuertes del concesionario y las que más venden, pero el contenido
-reciente se fue todo a electrificados.)*
+> **Nota sobre `seguro-auto-nuevo-ecuador`:** sus 20.730 impresiones vienen sobre todo de
+> «seguro de auto cotizar **quito** ecuador» (8.064 impr., **0 clics**). Es tráfico de otra
+> ciudad y de otro producto. No vale la pena forzarlo: mejor reorientar la página al seguro
+> del vehículo comprado en el concesionario.
 
-14. Renault Duster 2026 en Ecuador: precio, versiones y para quién es
-15. Nissan Kicks: por qué sigue siendo el SUV más vendido del norte
-16. Renault o Nissan: cuál conviene según cómo maneja usted
-17. Repuestos Renault y Nissan en Ibarra: disponibilidad, precios y tiempos
-
-### Bloque D · Local y conversión (3 posts)
-
-18. Comprar un auto en Ibarra sin vivir en Imbabura: cómo funciona el proceso
-19. Cuánto cuesta mantener un auto al año en el norte del Ecuador
-20. Test drive: qué probar de verdad en los 20 minutos que dura
+**Un patrón que se repite en todas:** las meta descripciones empiezan con «Descubre…».
+Son plantilla, no argumento. Y varios títulos llevan «2025» en pleno agosto de 2026.
 
 ---
 
-## 4. Qué hace falta para ejecutar
+## 3. Prioridad 2 · Posts nuevos, ordenados por demanda medida
+
+El plan anterior proponía marcas emergentes como bloque grande. **Los datos lo desmienten:**
+Omoda, Geely, BYD y Jetour ya rankean en posición 2,5-4 pero suman apenas ~250 impresiones
+entre todas. Hay poca demanda real todavía. Se reduce a 2 posts de posicionamiento anticipado.
+
+Lo que sí tiene demanda comprobada:
+
+### Bloque A · RAM (5.500+ impresiones desaprovechadas) — 3 posts
+
+CH vende RAM y el sitio ya aparece en posición 5-9 para esas búsquedas, pero no captura.
+
+1. RAM 1500 en Ecuador 2026: precios, versiones y cuál conviene
+2. RAM 700 doble cabina: precio en Ecuador y para qué trabajo sirve *(«camioneta ram 700 doble cabina precio», posición 1,0 y aún 0 clics)*
+3. RAM 1500 o Ford F-150: cuál rinde más en carretera ecuatoriana
+
+### Bloque B · Trámites (7.880 impr., CTR 1,55 % — el más alto de los temas) — 5 posts
+
+El cluster de **«calendario de matriculación 2026»** suma ~1.270 impresiones con casi cero
+clics: hay un post de matriculación pero no cubre el calendario.
+
+4. Calendario de matriculación vehicular 2026 en Ecuador: fechas por último dígito
+5. Revisión técnica vehicular en Ibarra: qué revisan y por qué reprueban *(162 impr.)*
+6. Traspaso de dominio de un vehículo: pasos, costos y qué lo demora
+7. Impuestos del vehículo en Ecuador: cuáles se pagan cada año
+8. Comprar un auto con prenda: qué significa y cómo se levanta
+
+### Bloque C · Exoneración (30.012 impr. en una sola página) — 2 posts
+
+9. Exoneración de vehículos 2026: quién califica y cómo se tramita
+10. Autos exonerados: qué marcas y modelos aplican en Ecuador
+
+### Bloque D · Renault y Nissan, las que más venden — 4 posts
+
+11. Renault Duster 2026: precio en Ecuador, versiones y cambios frente al 2025
+12. Renault Arkana 2026: precio y a quién le sirve ese SUV coupé
+13. Nissan Kicks 2026: precio en Ecuador y por qué sigue vendiendo
+14. Renault o Nissan: cuál conviene según cómo maneja usted
+
+### Bloque E · Marcas emergentes (posicionamiento anticipado) — 2 posts
+
+15. BYD, Geely y Jetour en Ecuador: qué marcas nuevas llegaron y qué respaldo tienen
+16. Marcas chinas de autos en Ecuador 2026: cuáles hay y cuál elegir *(«carros chinos» 1.329 impr., «marcas de carros chinos en ecuador» 601)*
+
+### Bloque F · Local y conversión — 4 posts
+
+17. Cuánto cuesta mantener un auto al año en el norte del Ecuador
+18. Comprar un auto en Ibarra sin vivir en Imbabura: cómo funciona
+19. Test drive: qué probar de verdad en los 20 minutos que dura
+20. Papeles que debe pedir antes de comprar un auto usado
+
+---
+
+## 4. Hallazgo aparte: la URL con error de tipeo
+
+`https://comercialhidrobo.com/**reanult**/renault-duster/` — la categoría dice «reanult»
+en lugar de «renault». Esa URL recibe **22.356 impresiones** y responde 200.
+
+Existe también `/renault/renault-duster/`, que responde 200 igualmente. Hay que revisar si
+es contenido duplicado en dos categorías: si lo es, se consolida y se redirige la mal
+escrita a la correcta. Conviene verificarlo antes de tocar nada, porque la URL con typo es
+la que hoy acumula las impresiones.
+
+---
+
+## 5. Qué hace falta para ejecutar
 
 | | Estado |
 |---|---|
-| Saber qué está publicado, para no repetir | ✅ resuelto por API pública |
-| Escribir los 20 posts | ✅ podemos empezar ya |
-| **Publicarlos por API** | 🔴 **falta Application Password** |
-| Priorizar por datos reales de búsqueda | 🟡 opcional, con los CSV de Search Console |
+| Saber qué está publicado, para no repetir | ✅ 196 posts inventariados |
+| Datos de demanda para priorizar | ✅ Search Console procesado |
+| Escribir los 20 posts | ✅ se puede empezar ya |
+| **Publicar por API** | 🔴 **falta el Application Password** |
+| **Editar títulos y metas de lo existente** | 🔴 **falta el Application Password** |
 
-### Para el Application Password
+La Prioridad 1 —reescribir títulos y metas— es la de mayor retorno y la más rápida, pero
+**requiere acceso de escritura al sitio**. Sin credencial solo se puede entregar una lista
+para que CH la aplique a mano, que es justo el cuello de botella que tiene frenado al blog
+en 2 posts este mes.
 
-En `comercialhidrobo.com/wp-admin` → **Usuarios** → perfil del administrador →
-**Contraseñas de aplicación** → nombre «Creative Web API» → generar. Se guarda en `.env`
-como `CH_WP_USER` y `CH_WP_APP_PASS`.
+### Cómo generar el acceso
 
-Sin eso, la alternativa es entregar los 20 posts en un documento y que CH los publique a
-mano — que es lo que se hizo hasta ahora y lo que explica que agosto vaya en 2.
+`comercialhidrobo.com/wp-admin` → **Usuarios** → perfil del administrador →
+**Contraseñas de aplicación** → nombre «Creative Web API» → generar.
+Se guarda en `.env` como `CH_WP_USER` y `CH_WP_APP_PASS`.
 
 ---
 
-## 5. Nota sobre el ritmo
+## 6. Contexto de ritmo
 
-El compromiso es de 20 posts mensuales. Con 36 entregados entre mayo y agosto, el ritmo
-real va muy por debajo. Conviene revisar con el cliente si el cuello de botella es la
-publicación manual — si es así, el Application Password lo resuelve de raíz y permite
-programar los 20 del mes de una sola vez, escalonados.
+Publicados por nosotros entre mayo y agosto: **36 posts**. Última publicación: **4 de
+agosto**. Agosto va en **2 posts** contra un compromiso de 20 mensuales. Con acceso por API
+se pueden dejar los 20 del mes programados y escalonados de una sola vez.
