@@ -209,6 +209,25 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
   white-space:nowrap;letter-spacing:-.02em;
 }
 .opcion-pago.destacada .op-v{color:var(--aqua)}
+
+
+.informe{margin-top:20px;border:1px solid rgba(46,211,198,.24);background:rgba(46,211,198,.05);border-radius:14px;overflow:hidden}
+.informe .inf-cab{padding:22px 24px;border-bottom:1px solid rgba(46,211,198,.18)}
+.informe .inf-t{font-size:18px;font-weight:700;letter-spacing:-.02em;margin-bottom:7px}
+.informe .inf-s{font-size:13.5px;color:var(--niebla);line-height:1.65;max-width:620px}
+.informe .inf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--linea)}
+.informe .inf-i{background:rgba(4,18,26,.62);padding:17px 20px}
+.informe .inf-i .k{font-size:13.5px;font-weight:700;margin-bottom:5px}
+.informe .inf-i .s{font-size:12.3px;color:var(--niebla);line-height:1.55}
+.renov{margin-top:20px;padding:28px 30px;display:grid;grid-template-columns:1fr .9fr;gap:34px;align-items:center}
+.renov-tabla{border:1px solid var(--linea);border-radius:13px;overflow:hidden}
+.renov .rl{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-bottom:1px solid var(--linea);background:rgba(4,18,26,.5)}
+.renov .rl:last-child{border-bottom:0}
+.renov .rl.total{background:rgba(46,211,198,.08)}
+.renov .rl .k{font-size:14px;font-weight:700}
+.renov .rl .s{font-size:12px;color:var(--niebla);margin-top:2px}
+.renov .rl .v{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;white-space:nowrap}
+.renov .rl.total .v{color:var(--aqua);font-size:17px}
 .totales{margin-top:20px;padding:26px 30px;display:grid;grid-template-columns:1fr 1fr;gap:30px}
 .totales .tot .et{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--niebla);margin-bottom:9px}
 .totales .tot .v{font-size:31px;font-weight:800;letter-spacing:-.03em;color:var(--aqua);line-height:1}
@@ -248,6 +267,8 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
   .cols-3{grid-template-columns:1fr}
   .inv-grid{grid-template-columns:1fr}
   .totales{grid-template-columns:1fr;gap:22px}
+  .renov{grid-template-columns:1fr;gap:22px}
+  .informe .inf-grid{grid-template-columns:1fr}
   .barra nav a:not(.salir){display:none}
   .mes{grid-template-columns:1fr;gap:10px}
 }
@@ -505,8 +526,47 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
                 <li>Mejora continua de las páginas de procedimientos</li>
                 <li>Publicaciones y gestión del Perfil de Empresa en Google</li>
                 <li>Seguimiento de su posición frente a la competencia local</li>
-                <li>Informe mensual de lo trabajado y lo conseguido</li>
+                <li>Mantenimiento del sitio: actualizaciones, copias de seguridad y revisión de seguridad</li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="informe">
+          <div class="inf-cab">
+            <div>
+              <p class="eyebrow" style="margin-bottom:7px">Cada mes en su correo</p>
+              <p class="inf-t">El informe mensual</p>
+              <p class="inf-s">
+                Un documento claro con todo lo que se hizo en el mes, para que usted sepa
+                exactamente en qué se invirtió — sin tener que entender de tecnología.
+              </p>
+            </div>
+          </div>
+          <div class="inf-grid">
+            <div class="inf-i">
+              <p class="k">Contenido publicado</p>
+              <p class="s">Los artículos del mes, con el tema y la búsqueda que atacan.</p>
+            </div>
+            <div class="inf-i">
+              <p class="k">Posiciones y visitas</p>
+              <p class="s">Cómo se mueve su sitio en Google mes contra mes.</p>
+            </div>
+            <div class="inf-i">
+              <p class="k">Actualizaciones aplicadas</p>
+              <p class="s">Qué se actualizó del sistema y de los complementos, con fecha.</p>
+            </div>
+            <div class="inf-i">
+              <p class="k">Copias de seguridad</p>
+              <p class="s">Respaldos realizados y dónde quedaron guardados.</p>
+            </div>
+            <div class="inf-i">
+              <p class="k">Seguridad y disponibilidad</p>
+              <p class="s">Revisión de vulnerabilidades y si el sitio estuvo caído en algún momento.</p>
+            </div>
+            <div class="inf-i">
+              <p class="k">Velocidad</p>
+              <p class="s">Tiempo de carga del mes, para confirmar que sigue rápido.</p>
             </div>
           </div>
         </div>
@@ -607,6 +667,37 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       </div>
     </div>
 
+    <div class="panel renov">
+      <div>
+        <p class="eyebrow gris" style="margin-bottom:8px">A partir del segundo año</p>
+        <p style="font-size:17px;font-weight:700;margin-bottom:6px">Qué se renueva y cuánto cuesta</p>
+        <p style="font-size:13.5px;color:var(--niebla);line-height:1.6;max-width:430px">
+          El primer año está incluido en el precio del sitio. Desde el segundo, la web solo
+          necesita renovar estas dos cosas para seguir en línea.
+        </p>
+      </div>
+      <div class="renov-tabla">
+        <div class="rl">
+          <div>
+            <p class="k">Hosting</p>
+            <p class="s">Donde vive la página, con los correos incluidos</p>
+          </div>
+          <span class="v">$120,00</span>
+        </div>
+        <div class="rl">
+          <div>
+            <p class="k">Dominio</p>
+            <p class="s">Su dirección drrenegordillo.com</p>
+          </div>
+          <span class="v">$21,99</span>
+        </div>
+        <div class="rl total">
+          <p class="k">Total por año</p>
+          <span class="v">$141,99</span>
+        </div>
+      </div>
+    </div>
+
     <div class="panel totales">
       <div class="tot">
         <p class="et">Todo junto, con el plan pagado por adelantado</p>
@@ -628,7 +719,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
         </div>
         <div>
           <p>Renovación desde el segundo año</p>
-          <p>Dominio y hosting: alrededor de $142 al año. El primer año va incluido.</p>
+          <p>Hosting $120,00 + dominio $21,99 = <strong style="color:var(--aqua)">$141,99 al año</strong>. El primer año va incluido en el precio del sitio.</p>
         </div>
         <div>
           <p>El sitio es suyo</p>
