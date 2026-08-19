@@ -12,6 +12,8 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FECHA = "Otavalo, 19 de agosto de 2026"
+PERIODO = "1 de octubre de 2026 al 1 de octubre de 2027"
+VENCE = "1 de octubre de 2026"
 
 CSS = """
 @page { size: A4; margin: 16mm 17mm; }
@@ -96,7 +98,8 @@ def carta(ref):
 <p>De nuestra consideraci&oacute;n:</p>
 <p>Por medio del presente me permito saludarles muy cordialmente y a la vez poner a su
 consideraci&oacute;n la <b>renovaci&oacute;n del Plan de Soporte, Actualizaci&oacute;n y Mantenimiento Web
-Anual</b> para el per&iacute;odo <span class="dest">2026 &ndash; 2027</span>.</p>
+Anual</b>, cuyo per&iacute;odo vigente concluye el <span class="dest">{VENCE}</span>. La presente
+cotizaci&oacute;n corresponde al per&iacute;odo <span class="dest">{PERIODO}</span>.</p>
 <p>Creative Web es una empresa con m&aacute;s de diez a&ntilde;os de experiencia en desarrollo web,
 comercio electr&oacute;nico y marketing digital. Durante los &uacute;ltimos per&iacute;odos hemos tenido el gusto
 de mantener y dar soporte a los sitios de Comercial Hidrobo, garantizando su funcionamiento,
@@ -108,6 +111,12 @@ de este per&iacute;odo, <b>horas de soporte incluidas</b> para cambios menores y
 <b>optimizaci&oacute;n de velocidad trimestral</b>.</p>
 <p>Agradecemos de antemano la atenci&oacute;n prestada al presente documento y quedamos atentos a
 cualquier consulta o aclaraci&oacute;n que requieran.</p>
+<div class="caja ambar" style="margin-top:14px">
+  <div class="t">Continuidad del servicio</div>
+  <p>Las licencias comerciales del sitio se renuevan en la fecha de corte. Para que no exista
+  interrupci&oacute;n en las actualizaciones ni en la cobertura de soporte, agradecemos confirmar la
+  renovaci&oacute;n antes del <b>{VENCE}</b>.</p>
+</div>
 <div class="firma">
   <div class="linea"></div>
   <b>Ing. Santiago O&ntilde;a S&aacute;nchez</b>
@@ -195,17 +204,17 @@ disponibilidad y rendimiento del mes.</p>""")
 
 HISTORICO = """<div class="caja ambar">
   <div class="t">Sobre el valor del per&iacute;odo anterior</div>
-  <p>El plan 2024&ndash;2025 se factur&oacute; en $380,00. La cotizaci&oacute;n 2025&ndash;2026 se emiti&oacute; por
-  $280,00 debido a un error nuestro al elaborarla, que asumimos y sostuvimos durante todo el
-  a&ntilde;o sin trasladar diferencia alguna al cliente.</p>
+  <p>El per&iacute;odo octubre 2024 &ndash; octubre 2025 se factur&oacute; en $380,00. El per&iacute;odo octubre 2025
+  &ndash; octubre 2026 se emiti&oacute; por $280,00 debido a un error nuestro al elaborar la cotizaci&oacute;n,
+  que asumimos y sostuvimos durante todo el a&ntilde;o sin trasladar diferencia alguna al cliente.</p>
   <p>El presente per&iacute;odo retoma el valor que corresponde al plan y que ya estuvo vigente en
-  2024&ndash;2025.</p>
+  2024 &ndash; 2025.</p>
 </div>"""
 
 
 def valor_1(ref):
     return hoja(ref, f"""<h1>Valor del plan</h1>
-<p class="sub">Per&iacute;odo 2026 &ndash; 2027 &middot; sitio comercialhidrobo.com</p>
+<p class="sub">Per&iacute;odo {PERIODO} &middot; sitio comercialhidrobo.com</p>
 <table>
   <thead><tr><th>Concepto</th><th style="text-align:right">Valor anual</th></tr></thead>
   <tbody>
@@ -224,7 +233,7 @@ def valor_1(ref):
 {HISTORICO}
 <h2>Condiciones</h2>
 <ul>
-  <li>Vigencia de doce meses desde la fecha de contrataci&oacute;n.</li>
+  <li>Vigencia del {PERIODO}.</li>
   <li>Pago anual por adelantado, que es lo que permite renovar las licencias por el per&iacute;odo completo.</li>
   <li>Las horas de soporte no son acumulables de un mes al siguiente.</li>
   <li>No incluye desarrollo de funciones nuevas, redise&ntilde;os ni creaci&oacute;n de contenido; se cotizan por separado.</li>
@@ -235,7 +244,7 @@ def valor_1(ref):
 
 def valor_2(ref):
     return hoja(ref, f"""<h1>Valor del plan</h1>
-<p class="sub">Per&iacute;odo 2026 &ndash; 2027 &middot; sitios comercialhidrobo.com y okcars.ec</p>
+<p class="sub">Per&iacute;odo {PERIODO} &middot; sitios comercialhidrobo.com y okcars.ec</p>
 <table>
   <thead><tr><th>Sitio</th><th style="text-align:right">Valor anual</th></tr></thead>
   <tbody>
@@ -254,7 +263,7 @@ def valor_2(ref):
 {HISTORICO}
 <h2>Condiciones</h2>
 <ul>
-  <li>Vigencia de doce meses desde la fecha de contrataci&oacute;n, para ambos sitios.</li>
+  <li>Vigencia del {PERIODO}, para ambos sitios.</li>
   <li>Pago anual por adelantado, que es lo que permite renovar las licencias por el per&iacute;odo completo.</li>
   <li>Dos horas mensuales de soporte por cada sitio, cuatro en total. No acumulables entre meses.</li>
   <li>Un informe mensual por cada sitio: veinticuatro informes en el per&iacute;odo.</li>
@@ -279,12 +288,12 @@ if __name__ == "__main__":
         "cot-1-sitio.html": documento(
             "Cotizacion Plan de Soporte Anual 2026-2027 - Comercial Hidrobo",
             [carta(r1), empresa(r1),
-             servicio(r1, "Per&iacute;odo 2026 &ndash; 2027 &middot; sitio comercialhidrobo.com"),
+             servicio(r1, f"Per&iacute;odo {PERIODO} &middot; sitio comercialhidrobo.com"),
              valor_1(r1)]),
         "cot-2-sitios.html": documento(
             "Cotizacion Plan de Soporte Anual 2026-2027 - Comercial Hidrobo y OKCars",
             [carta(r2), empresa(r2),
-             servicio(r2, "Per&iacute;odo 2026 &ndash; 2027 &middot; sitios comercialhidrobo.com y okcars.ec"),
+             servicio(r2, f"Per&iacute;odo {PERIODO} &middot; sitios comercialhidrobo.com y okcars.ec"),
              valor_2(r2)]),
     }
     for nombre, html in docs.items():

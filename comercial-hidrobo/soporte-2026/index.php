@@ -173,7 +173,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <div class="pt">CH</div>
       <div>
         <p>Creative Web &middot; Renovación</p>
-        <p>Comercial Hidrobo &middot; 2026-2027</p>
+        <p>Comercial Hidrobo &middot; oct 2026 – oct 2027</p>
       </div>
     </div>
     <nav>
@@ -187,7 +187,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
 <!-- PORTADA -->
 <section class="portada">
   <div class="wrap">
-    <p class="eyebrow">Plan de soporte y mantenimiento web &middot; período 2026-2027</p>
+    <p class="eyebrow">Plan de soporte y mantenimiento web &middot; 1 de octubre de 2026 al 1 de octubre de 2027</p>
     <h1>Sus dos sitios, cuidados<br>durante todo el año</h1>
     <p class="lead">
       Renovación del plan de soporte para <strong>comercialhidrobo.com</strong>, ahora con la
@@ -203,6 +203,14 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
       <a href="#inversion" class="btn btn-azul no-print">Ver la inversión</a>
       <a href="pdf/cot-2-sitios.pdf" download class="btn btn-line no-print">Descargar cotización</a>
+    </div>
+    <div class="panel" style="max-width:640px;margin:30px auto 0;padding:18px 22px;border-color:rgba(240,161,75,.4);background:rgba(240,161,75,.09)">
+      <p style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ambar);margin-bottom:8px">Continuidad del servicio</p>
+      <p style="font-size:14px;line-height:1.65;color:#dbe5f5">
+        El período vigente concluye el <strong>1 de octubre de 2026</strong>. Las licencias se
+        renuevan en esa fecha de corte, así que para que no haya interrupción en las
+        actualizaciones ni en la cobertura conviene confirmar la renovación antes.
+      </p>
     </div>
   </div>
 </section>
@@ -365,9 +373,9 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
         <table class="tabla">
           <thead><tr><th>Período</th><th style="text-align:right">Valor facturado</th></tr></thead>
           <tbody>
-            <tr><td>2024 – 2025</td><td>$380,00</td></tr>
-            <tr><td>2025 – 2026<small>Se emitió por $280 debido a un error nuestro al elaborar la cotización</small></td><td>$280,00</td></tr>
-            <tr class="total"><td>2026 – 2027<small>Vuelve al valor que corresponde al plan</small></td><td>$380,00</td></tr>
+            <tr><td>Octubre 2024 – Octubre 2025</td><td>$380,00</td></tr>
+            <tr><td>Octubre 2025 – Octubre 2026<small>Se emitió por $280 debido a un error nuestro al elaborar la cotización</small></td><td>$280,00</td></tr>
+            <tr class="total"><td>Octubre 2026 – Octubre 2027<small>Vuelve al valor que corresponde al plan</small></td><td>$380,00</td></tr>
           </tbody>
         </table>
       </div>
@@ -419,7 +427,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <div class="cond">
         <div>
           <p>Vigencia</p>
-          <p>12 meses desde la fecha de contratación, con las licencias activas durante todo el período.</p>
+          <p>Del 1 de octubre de 2026 al 1 de octubre de 2027, con las licencias activas durante todo el período.</p>
         </div>
         <div>
           <p>Forma de pago</p>

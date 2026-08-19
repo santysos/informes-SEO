@@ -90,7 +90,7 @@ button:hover{filter:brightness(1.14)}
   </div>
   <p class="eyebrow">Creative Web &middot; Renovación anual</p>
   <h1>Plan de Soporte y Mantenimiento Web</h1>
-  <p class="sub">Comercial Hidrobo &middot; período 2026-2027</p>
+  <p class="sub">Comercial Hidrobo &middot; oct 2026 – oct 2027</p>
   <form method="POST">
     <label for="p">Clave de acceso</label>
     <input id="p" type="password" name="password" placeholder="Ingrese su clave" required autofocus>
