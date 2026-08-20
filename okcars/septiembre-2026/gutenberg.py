@@ -14,6 +14,15 @@ LISTADO = f"{SITE}/vehiculos-okcars/"
 CAT = {"guias": 42, "modelos": 43, "financiamiento": 44,
        "tramites": 45, "ibarra": 46}
 
+# Los permalinks del sitio son /{slug-categoria}/{slug-post}/
+CAT_SLUG = {42: "guias-de-compra", 43: "modelos-y-comparativas",
+            44: "financiamiento", 45: "tramites", 46: "seminuevos-ibarra"}
+
+
+def post_url(cat_id, slug):
+    """URL pública de un post según su categoría."""
+    return f"{SITE}/{CAT_SLUG[cat_id]}/{slug}/"
+
 # Inventario verificado en las fichas públicas (agosto 2026).
 # Sirve para dar ejemplos reales en lugar de cifras inventadas.
 INVENTARIO = {
