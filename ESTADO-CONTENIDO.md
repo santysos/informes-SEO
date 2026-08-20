@@ -1,4 +1,14 @@
-# Estado del contenido por cliente — 19 de agosto de 2026
+# Estado del contenido por cliente — 20 de agosto de 2026
+
+> **Actualización 20-ago:** los 20 posts de OKCars están escritos, validados y subidos
+> programados entre el 1 de septiembre y el 14 de octubre. Con eso OKCars pasa de 30 a
+> **50 de 120**. El detalle está en `okcars/septiembre-2026/` y el resumen de la tanda en
+> `okcars/septiembre-2026/RESUMEN.md`.
+>
+> Se abrió además un frente nuevo: **DentiLab** (SaaS dental B2B, repo aparte). Se le
+> entregó el método de contenido como skill de su propio repo — ver
+> `DENTILAB/.claude/skills/seo-contenido/`. No entra en el contrato de 120 posts.
+
 
 Verificado por API en los sitios de cada cliente, cruzado con los datos de Search Console
 disponibles.
