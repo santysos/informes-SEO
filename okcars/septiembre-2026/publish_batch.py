@@ -186,6 +186,9 @@ def validar(spec):
 def main():
     solo_validar = "--validate" in sys.argv
     dry = "--dry-run" in sys.argv
+    # Para relanzar un lote que se cortó a mitad: salta los slugs que ya subieron
+    # en vez de abortar por duplicado.
+    reanudar = "--resume" in sys.argv
 
     specs = []
     for path in sorted(glob.glob(os.path.join(HERE, "posts", "spec-*.json"))):
@@ -230,9 +233,17 @@ def main():
         existentes |= {p["slug"] for p in d}
     print(f"  {len(existentes)} slugs ya en el sitio")
     dupes = [s["slug"] for _, s in specs if s["slug"] in existentes]
+    if dupes and not reanudar:
+        print(f"  ⚠ ya existen: {dupes}")
+        print("     Si es un lote interrumpido, relanza con --resume para saltarlos.")
+        sys.exit(1)
     if dupes:
-        print(f"  ⚠ ya existen: {dupes}"); sys.exit(1)
-    print("  ninguno colisiona")
+        print(f"  saltando {len(dupes)} ya subidos: {dupes}")
+        specs = [(f, s) for f, s in specs if s["slug"] not in existentes]
+        if not specs:
+            print("  no queda nada por subir."); return
+    else:
+        print("  ninguno colisiona")
 
     if dry:
         print("\n== Dry run · se publicaría ==")
