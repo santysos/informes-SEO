@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<title>Propuesta — Óptica Pluss · Creative Web</title>
+<style>
+@page{size:A4;margin:14mm 15mm}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#16233a;font-size:11.5px;line-height:1.5}
+.navy{color:#111c4e}.teal{color:#00af9a}
+h1{font-size:22px;color:#111c4e;line-height:1.15;margin-bottom:8px;letter-spacing:-.01em}
+h2{font-size:15px;color:#111c4e;margin:0 0 8px;letter-spacing:-.01em}
+h3{font-size:12.5px;color:#111c4e;margin-bottom:4px}
+.tag{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#00af9a;font-weight:700;margin-bottom:6px;display:block}
+.top{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:3px solid #00af9a;padding-bottom:12px;margin-bottom:16px}
+.top img{height:40px}
+.top .r{text-align:right;font-size:10px;color:#5b6478}
+.top .r b{color:#111c4e}
+.lead{color:#3a4560;font-size:12.5px;margin-bottom:6px}
+.meta{font-size:10px;color:#5b6478;margin-top:8px}
+.meta b{color:#16233a}
+section{margin-top:16px;page-break-inside:avoid}
+.p{color:#4a5468;margin-bottom:6px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.card{border:1px solid #e3e7f0;border-radius:8px;padding:10px 12px;background:#f7f9fc}
+.card p{color:#5b6478;font-size:10.5px;margin-top:2px}
+.flow{font-size:10.5px;color:#16233a;background:#eefaf8;border:1px solid #b8ece6;border-radius:8px;padding:9px 12px;margin:8px 0}
+.flow b{color:#00857a}
+.cols{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;margin-top:8px}
+h4{font-size:10px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}
+h4.ok{color:#00857a}h4.no{color:#c07a1f}
+ul{list-style:none}
+li{position:relative;padding-left:16px;margin-bottom:4px;font-size:10.8px}
+.ok li::before{content:"\2713";position:absolute;left:0;color:#00af9a;font-weight:800}
+.no li{color:#6b7488}.no li::before{content:"\2014";position:absolute;left:0;color:#c07a1f}
+.planes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+.plan{border:1px solid #e3e7f0;border-radius:10px;padding:14px 16px;position:relative}
+.plan.pop{border-color:#00af9a;background:#f4fdfb}
+.badge{position:absolute;top:-8px;left:14px;background:#00af9a;color:#fff;font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:99px}
+.precio{font-size:26px;font-weight:800;color:#111c4e;margin:2px 0 6px}
+.precio small{font-size:11px;color:#5b6478;font-weight:600}
+.plan .pd{font-size:10.5px;color:#5b6478}
+.cuadro{border:1px solid #e3e7f0;border-radius:8px;overflow:hidden;margin-top:6px}
+.fila{display:flex;justify-content:space-between;gap:14px;padding:8px 12px;border-bottom:1px solid #eef1f6;font-size:11px;color:#5b6478}
+.fila:last-child{border-bottom:none}.fila b{color:#111c4e}
+.nota{font-size:9.5px;color:#6b7488;margin-top:8px}
+.ti{display:flex;gap:12px;padding:7px 0;border-bottom:1px solid #eef1f6}
+.ti .w{color:#00857a;font-weight:700;min-width:80px;font-size:10.5px}
+.ti p{font-size:10.8px;color:#4a5468}
+.need{background:#fff7ec;border:1px solid #f2ddbb;border-radius:8px;padding:10px 14px;margin-top:10px}
+.need h4{color:#c07a1f}
+.foot{margin-top:18px;border-top:1px solid #e3e7f0;padding-top:10px;text-align:center;color:#5b6478;font-size:10px}
+.foot b{color:#111c4e}
+</style></head><body>
+
+<div class="top">
+  <img src="data:image/png;base64,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UmVhZHlxyWU8AAADKWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgMTAuMC1jMDAwIDc5LmQyMGU0NjYzMCwgMjAyNS8xMi8wOS0wMjoxMToyMyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI3LjUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkYzRDBDN0QzNEQ3MTFGMTg5NDRCRURBMjAzNEM2QTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkYzRDBDN0UzNEQ3MTFGMTg5NDRCRURBMjAzNEM2QTIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGRjNEMEM3QjM0RDcxMUYxODk0NEJFREEyMDM0QzZBMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGRjNEMEM3QzM0RDcxMUYxODk0NEJFREEyMDM0QzZBMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpTfkCQAABojSURBVHja7F0LnI7V1l8zmExSkiSh6Y4T8XWb4nRECamYXLpqRNNNN5869SlSp059TVJH5UzRhBxRk4RTuikSKSkV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" alt="Creative Web">
+  <div class="r"><b>PROPUESTA</b> &middot; Agosto 2026<br>Para: <b>&Oacute;ptica Pluss</b><br>De: <b>Creative Web</b> &middot; RUC 1002906426001</div>
+</div>
+
+<h1>Un solo sistema para tu &oacute;ptica:<br>pacientes, ex&aacute;menes, ventas e inventario</h1>
+<p class="lead">Deja el Excel y los formularios a mano. Toda la operaci&oacute;n de tus <b>4 locales</b> y tus <b>2 RUCs</b> en un solo lugar, con la ficha del paciente capturada una sola vez.</p>
+
+<section>
+  <span class="tag">01 &middot; C&oacute;mo trabajas hoy</span>
+  <h2>El problema no es la falta de datos: est&aacute;n sueltos</h2>
+  <div class="grid">
+    <div class="card"><h3>Tres formularios a mano</h3><p>Ficha de ex&aacute;menes, recibo y orden de trabajo, repitiendo los datos del cliente en cada uno.</p></div>
+    <div class="card"><h3>Todo en Excel</h3><p>Clientes, ventas e inventario en hojas separadas, sin conexi&oacute;n ni respaldo real.</p></div>
+    <div class="card"><h3>Sin historial del paciente</h3><p>No hay forma r&aacute;pida de ver visitas y recetas anteriores, ni de reusar la medida.</p></div>
+    <div class="card"><h3>4 locales, 2 RUCs, sin vista &uacute;nica</h3><p>Cada local y RUC por su lado; no hay tablero que muestre las ventas de todos juntos.</p></div>
+  </div>
+</section>
+
+<section>
+  <span class="tag">02 &middot; Lo que proponemos</span>
+  <h2>Quipuy + un m&oacute;dulo hecho para &oacute;pticas</h2>
+  <p class="p">Sobre <b>Quipuy</b> &mdash; nuestra plataforma de facturaci&oacute;n electr&oacute;nica e inventario, ya autorizada por el SRI y en producci&oacute;n &mdash; construimos un <b>m&oacute;dulo de &oacute;ptica</b> que cierra todo el circuito:</p>
+  <div class="flow">Paciente <b>&rarr;</b> Examen + lectura de tickets <b>&rarr;</b> Proforma de lunas <b>&rarr;</b> Recibo + anticipo <b>&rarr;</b> Orden al laboratorio <b>&rarr;</b> Aviso de retiro <b>&rarr;</b> Pago y entrega</div>
+  <p class="p">El dato del cliente y su receta se capturan <b>una sola vez</b> y viajan por todo el flujo. Un solo acceso para los 4 locales y 2 RUCs, con un <b>panel del due&ntilde;o</b> que muestra las ventas por sucursal de todo el negocio.</p>
+</section>
+
+<section>
+  <span class="tag">03 &middot; Qu&eacute; incluye</span>
+  <div class="cols">
+    <div><h4 class="ok">Incluido</h4><ul class="ok">
+      <li>Ficha del paciente &uacute;nica (se captura una vez).</li>
+      <li>Ficha de ex&aacute;menes digital, imprimible.</li>
+      <li>Receta estructurada + historial de visitas.</li>
+      <li>Proforma con opciones de lunas por material.</li>
+      <li>Promociones y combos (marco de cortes&iacute;a con lunas premium).</li>
+      <li>Recibo con anticipo y fecha de entrega (apartado).</li>
+      <li>Orden de trabajo al laboratorio, imprimible.</li>
+      <li>Aviso &laquo;ya puede retirar&raquo; por email + WhatsApp manual.</li>
+      <li>Facturaci&oacute;n electr&oacute;nica SRI (por cada RUC).</li>
+      <li>Inventario por local + multi&ndash;sucursal.</li>
+      <li>Un solo acceso para 4 locales / 2 RUCs + panel del due&ntilde;o.</li>
+    </ul></div>
+    <div><h4 class="no">No incluye</h4><ul class="no">
+      <li>Certificado de firma electr&oacute;nica (lo emite el cliente, ~$25&ndash;40/a&ntilde;o).</li>
+      <li>Recordatorios autom&aacute;ticos + WhatsApp por API (fase futura).</li>
+      <li>Equipos y hardware (autorefract&oacute;metro, lens&oacute;metro, impresoras).</li>
+    </ul></div>
+  </div>
+</section>
+
+<section>
+  <span class="tag">04 &middot; Inversi&oacute;n</span>
+  <h2>Elige c&oacute;mo empezar</h2>
+  <p class="p">La diferencia es la <b>lectura autom&aacute;tica de los tickets con IA</b>: subes la foto del examen computarizado y del lens&oacute;metro y el sistema llena la receta solo; el opt&oacute;metra la revisa. Probamos con tus propios tickets y sali&oacute; exacta.</p>
+  <div class="planes">
+    <div class="plan pop"><span class="badge">Recomendado</span><h3>Con lectura por IA</h3><div class="precio">$1.200 <small>+ IVA</small></div><p class="pd">Pago &uacute;nico. Todo el m&oacute;dulo &oacute;ptica <b>+ lectura autom&aacute;tica de los 2 tickets con IA</b> (validaci&oacute;n del opt&oacute;metra).</p></div>
+    <div class="plan"><h3>Sin lectura por IA</h3><div class="precio">$980 <small>+ IVA</small></div><p class="pd">Pago &uacute;nico. Todo el m&oacute;dulo &oacute;ptica; la receta se escribe a mano en la ficha.</p></div>
+  </div>
+  <div class="cuadro">
+    <div class="fila"><span>Forma de pago</span><b>70% al iniciar &middot; 30% a la entrega</b></div>
+    <div class="fila"><span>Suscripci&oacute;n mensual (Quipuy, 4 locales / 2 RUCs)</span><b>$60 / mes + IVA</b></div>
+    <div class="fila"><span>Lectura con IA (solo opci&oacute;n con IA)</span><b>al costo real, con informe mensual</b></div>
+  </div>
+  <p class="nota">Todos los valores en d&oacute;lares y <b>no incluyen IVA</b>. La lectura con IA se factura seg&uacute;n el uso real (~1 centavo por examen, ref. ~$2&ndash;4/mes por local); cada mes recibes un informe con la cantidad de lecturas y su costo.</p>
+</section>
+
+<section>
+  <span class="tag">05 &middot; Costos recurrentes</span>
+  <div class="grid">
+    <div class="card"><h3>Quipuy &mdash; $60/mes + IVA</h3><p>4 locales y 2 RUCs, todos los m&oacute;dulos. Sin costo mensual extra por el m&oacute;dulo &oacute;ptica.</p></div>
+    <div class="card"><h3>Lectura con IA &mdash; al costo</h3><p>Solo con la opci&oacute;n de IA. ~$2&ndash;4/mes por local seg&uacute;n volumen, con informe transparente.</p></div>
+    <div class="card"><h3>Certificado de firma &mdash; lo renuevas t&uacute;</h3><p>Cada RUC usa su certificado (~$25&ndash;40/a&ntilde;o). No es cobro de Creative Web.</p></div>
+    <div class="card"><h3>Facturaci&oacute;n por RUC</h3><p>Por norma del SRI, cada RUC factura y numera por separado; el sistema lo unifica para gestionar.</p></div>
+  </div>
+</section>
+
+<section>
+  <span class="tag">06 &middot; Cronograma estimado</span>
+  <div class="ti"><span class="w">Semana 1</span><p>Configuraci&oacute;n de las 2 empresas (RUCs) y 4 locales, carga de cat&aacute;logo e inventario, certificados.</p></div>
+  <div class="ti"><span class="w">Semanas 2&ndash;3</span><p>M&oacute;dulo &oacute;ptica: ficha, receta, orden de trabajo, panel del due&ntilde;o. Lectura con IA (si aplica).</p></div>
+  <div class="ti"><span class="w">Semana 4</span><p>Capacitaci&oacute;n al personal y puesta en marcha.</p></div>
+  <div class="need"><h4>Para arrancar necesitamos de ti</h4><ul class="ok">
+    <li>Los 2 certificados de firma (.p12) con sus claves.</li>
+    <li>El cat&aacute;logo e inventario actual (tus Excel).</li>
+    <li>Datos de los 4 locales: direcciones y establecimientos SRI.</li>
+    <li>Acceso a los equipos para calibrar la lectura de tickets.</li>
+  </ul></div>
+</section>
+
+<section>
+  <span class="tag">07 &middot; Con qui&eacute;n trabajas</span>
+  <p class="p"><b>Quipuy</b> (quipuy.com) es nuestra propia plataforma de facturaci&oacute;n electr&oacute;nica e inventario, <b>autorizada por el SRI</b> y en producci&oacute;n con negocios reales en Ecuador. El m&oacute;dulo de &oacute;ptica se construye sobre esa base ya probada &mdash; no es un experimento, es una extensi&oacute;n de un sistema que ya factura todos los d&iacute;as.</p>
+</section>
+
+<div class="foot"><b>Creative Web</b> &middot; H&eacute;ctor Santiago O&ntilde;a S&aacute;nchez &middot; RUC 1002906426001 &middot; WhatsApp 0999174980 &middot; info@creativeweb.com.ec<br>Propuesta v&aacute;lida por 30 d&iacute;as. Precios sin IVA.</div>
+
+</body></html>

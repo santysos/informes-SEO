@@ -417,3 +417,14 @@ deployment:
     - /bin/cp -f comercial-hidrobo/soporte-2026/pdf/cot-2-sitios.pdf $BASEPATH/comercial-hidrobo/soporte-2026/pdf/
     - chmod 755 $BASEPATH/comercial-hidrobo/soporte-2026/pdf
     - chmod 644 $BASEPATH/comercial-hidrobo/soporte-2026/pdf/*.pdf
+    # ---- Óptica Pluss: proforma sistema óptica (login OpticaPluss-2026) ----
+    - /bin/mkdir -p $BASEPATH/optica-pluss/proforma-agosto-2026
+    - chmod 755 $BASEPATH/optica-pluss/proforma-agosto-2026
+    - /bin/cp -f optica-pluss/proforma-agosto-2026/.htaccess $BASEPATH/optica-pluss/proforma-agosto-2026/
+    - /bin/cp -f optica-pluss/proforma-agosto-2026/login.php $BASEPATH/optica-pluss/proforma-agosto-2026/
+    - /bin/cp -f optica-pluss/proforma-agosto-2026/index.php $BASEPATH/optica-pluss/proforma-agosto-2026/
+    - /bin/cp -f optica-pluss/proforma-agosto-2026/logout.php $BASEPATH/optica-pluss/proforma-agosto-2026/
+    - /bin/cp -f optica-pluss/proforma-agosto-2026/proforma.pdf $BASEPATH/optica-pluss/proforma-agosto-2026/
+    - chmod 644 $BASEPATH/optica-pluss/proforma-agosto-2026/*.php
+    - chmod 644 $BASEPATH/optica-pluss/proforma-agosto-2026/.htaccess
+    - chmod 644 $BASEPATH/optica-pluss/proforma-agosto-2026/proforma.pdf
