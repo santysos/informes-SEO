@@ -96,6 +96,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
             <button onclick="switchTab('mes1')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Mes 1: Abril</button>
             <button onclick="switchTab('contenido')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Contenido: Abril y Mayo</button>
             <button onclick="switchTab('avance')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-amber-500/40 text-amber-400 hover:text-white hover:bg-amber-500/10 transition">📊 Avance Mes 1 (Abr-May)</button>
+            <button onclick="switchTab('agosto')" class="tab-btn px-4 py-2 text-sm font-medium rounded-lg border border-emerald-500/40 text-emerald-400 hover:text-white hover:bg-emerald-500/10 transition">📈 Avance Agosto (May-Ago)</button>
         </div>
     </div>
 
@@ -1114,6 +1115,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     </div>
 
     <?php include __DIR__ . '/avance-mayo.php'; ?>
+    <?php include __DIR__ . '/avance-agosto.php'; ?>
 
 </main>
 

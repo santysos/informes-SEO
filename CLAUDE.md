@@ -46,7 +46,8 @@ Submarca de seminuevos de Comercial Hidrobo. Sitio nuevo, sin trabajo SEO previo
 - 84 % del tráfico es brand (`ok cars`, `okcars`, `autos ok`) — 16 % non-brand
 - 36 URLs con tráfico orgánico (la home concentra 40 %, fichas suman 60 clics, listado y financiamiento aparecen mínimo)
 - Top no-brand: `deepal s05 precio ecuador` (10 clics, pos 6,9)
-- **GTM instalado y activo** (mismos eventos que CH: `whatsapp_click`, `form_submit`)
+- **Medición (verificado 2026-08-24, corrige lo que decía antes este archivo):** hasta agosto OKCars **NO tenía GTM ni eventos de contacto**. Solo GA4 vía Site Kit (`GT-P3JC26Q9`, medición `G-F0H5W02BRF`) con los eventos automáticos. El único evento clave configurado era `purchase`, que nunca se disparó. El 24-ago se creó el contenedor **GTM-P7MNVQ65** (cuenta OKCars) y se instaló por Site Kit → Tag Manager.
+- ⚠️ **El botón de WhatsApp existe solo en las fichas de vehículo.** Home, posts, páginas de marca y contacto no lo tienen: ~1.300 de 1.659 vistas caen en páginas sin salida. Medir no arregla eso.
 
 **Trabajo realizado por nosotros (abril-mayo 2026):**
 - 20 posts publicados vía REST API (IDs 1110-1130, fechas escalonadas 1-abr a 28-may, uno cada 3 días). 17 con status `publish`, 3 con `future` (los del 22, 25 y 28 de mayo).
