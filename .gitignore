@@ -7,3 +7,8 @@ __pycache__/
 # Datos crudos GA4/GSC (confidenciales del cliente)
 */agosto-2026/data/
 luuma/junio-2026/data/
+
+# Tracking: credenciales OAuth de Google
+tracking/credentials.json
+tracking/token.json
+tracking/.venv/
