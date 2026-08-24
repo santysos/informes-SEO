@@ -8,7 +8,7 @@ __pycache__/
 */agosto-2026/data/
 luuma/junio-2026/data/
 
-# Tracking: credenciales OAuth de Google
+# Tracking: credenciales OAuth de Google (proyecto GCP creative-web-tracking)
 tracking/credentials.json
 tracking/token.json
 tracking/.venv/

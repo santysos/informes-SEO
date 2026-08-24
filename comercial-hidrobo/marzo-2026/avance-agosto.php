@@ -36,11 +36,15 @@
                 <p class="text-3xl font-bold text-brand-500">16.076</p>
                 <p class="text-xs text-slate-500 mt-1">19.324 sesiones</p>
             </div>
-            <div class="rounded-xl border border-slate-800/50 glass p-5">
-                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Páginas con tráfico</p>
-                <p class="text-3xl font-bold text-purple-400">482</p>
-                <p class="text-xs text-slate-500 mt-1">URLs con clics</p>
+            <div class="rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-5">
+                <p class="text-xs text-emerald-400 uppercase tracking-wider mb-1">Contactos generados</p>
+                <p class="text-3xl font-bold text-emerald-400">288</p>
+                <p class="text-xs text-slate-400 mt-1">WhatsApp y formularios</p>
             </div>
+        </div>
+
+        <div class="rounded-xl border border-emerald-500/30 bg-gradient-to-r from-emerald-500/10 to-transparent p-5 mt-4">
+            <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">Lo primero que hay que saber de este corte:</strong> el trabajo de posicionamiento está trayendo clientes. En 90 días <strong class="text-white">288 personas se pusieron en contacto</strong> desde el sitio —170 por WhatsApp y 118 por formulario—, y ocho de cada diez visitantes llegaron desde una búsqueda en Google. El panel de Analytics solo reporta 73 de esos contactos por un tema de configuración que se explica más abajo, así que <strong class="text-white">el retorno real del trabajo es bastante mayor de lo que muestran las cifras del sistema</strong>.</p>
         </div>
 
         <!-- ── Hallazgo 1: contactos sin contar ── -->
@@ -69,11 +73,25 @@
                 </div>
             </div>
 
-            <p class="text-sm text-slate-300 leading-relaxed mb-3">La causa es de configuración, no del sitio. En el panel de Analytics hay una lista de «eventos clave» —las acciones que cuentan como conversión— y ahí hay dos problemas:</p>
-            <ul class="space-y-2 text-sm text-slate-300 mb-4">
-                <li class="flex gap-2"><span class="text-red-400">✗</span><div><strong>El envío de formulario no está marcado como conversión.</strong> Son 118 contactos reales que el sistema registra pero no cuenta.</div></li>
-                <li class="flex gap-2"><span class="text-amber-400">⚠</span><div><strong>Hay cuatro conversiones configuradas que nunca ocurren:</strong> <code class="text-xs bg-slate-800 px-1 rounded">cta_cita_taller</code>, <code class="text-xs bg-slate-800 px-1 rounded">cta_cotizacion_repuestos</code>, <code class="text-xs bg-slate-800 px-1 rounded">generate_lead</code> y <code class="text-xs bg-slate-800 px-1 rounded">purchase</code>. Están declaradas en el panel pero no existen en el sitio, así que ensucian el reporte.</div></li>
-            </ul>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">La causa es de configuración, no del sitio. El panel está contando como conversión únicamente dos formularios concretos —el de cita de taller (62) y el de repuestos (11)—, que suman exactamente los 73 reportados. Todo lo demás queda fuera del conteo:</p>
+            <div class="overflow-x-auto mb-4">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="text-xs text-slate-500 uppercase tracking-wider border-b border-slate-800">
+                            <th class="text-left py-2">Acción de contacto</th>
+                            <th class="text-right py-2">Veces</th>
+                            <th class="text-center py-2">¿Se cuenta hoy?</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-300">
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Clic al botón de WhatsApp</td><td class="text-right font-semibold">170</td><td class="text-center text-red-400">No</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Formulario enviado <span class="text-xs text-slate-500">(cualquier formulario del sitio)</span></td><td class="text-right font-semibold">118</td><td class="text-center text-red-400">No</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Formulario de cita de taller</td><td class="text-right">62</td><td class="text-center text-emerald-400">Sí</td></tr>
+                        <tr><td class="py-2">Formulario de repuestos</td><td class="text-right">11</td><td class="text-center text-emerald-400">Sí</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-sm text-slate-300 leading-relaxed mb-4">El más importante de la lista es <strong class="text-white">«formulario enviado»</strong>: es la medición general de Google, se dispara con cualquier formulario del sitio y engloba a los otros dos. Activarlo como conversión es lo que permite ver el total real de personas que dejan sus datos, venga de donde venga el formulario.</p>
             <p class="text-sm text-slate-400 leading-relaxed">Es un ajuste de minutos y no requiere tocar la web. <strong class="text-slate-300">Importante:</strong> las conversiones solo se cuentan desde el momento en que se corrigen; el histórico no se recalcula. Mientras antes se haga, antes empieza a medirse bien.</p>
         </div>
 
@@ -348,7 +366,7 @@
         <!-- ── Medición ── -->
         <div class="rounded-xl border border-slate-800/50 glass p-6 mt-8">
             <h3 class="text-lg font-semibold text-white mb-4">Medición: instalada durante este período</h3>
-            <p class="text-sm text-slate-300 leading-relaxed mb-4">Hasta agosto, OKCars registraba visitas pero no contactos: no existía forma de saber cuántas personas escribían por WhatsApp o enviaban un formulario. Durante este corte se dejó montada la infraestructura para medirlo.</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-4">Hasta agosto, OKCars registraba visitas pero no contactos: no existía forma de saber cuántas personas escribían por WhatsApp o enviaban un formulario, porque el sitio <strong class="text-white">no tenía instalado el gestor de etiquetas</strong> que hace posible esa medición. <strong class="text-emerald-400">Durante este corte se creó e instaló</strong>, integrado con la configuración que ya existía para que no se dupliquen los datos.</p>
             <ul class="space-y-2 text-sm text-slate-300">
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Gestor de etiquetas instalado</strong> en el sitio, integrado con la configuración existente para no duplicar datos.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Seguimiento de clics a WhatsApp</strong> configurado.</div></li>

@@ -8,13 +8,36 @@ cliente sin volver a hacer cuarenta clics en la interfaz.
 
 ## Setup, una sola vez
 
+> **Estado al 2026-08-24:** el proyecto **`creative-web-tracking`** ya existe con las tres
+> APIs habilitadas. Solo faltan los pasos 2 y 3 (consentimiento y cliente OAuth).
+
 ### 1. Proyecto en Google Cloud
 
+**Usa un proyecto nuevo y dedicado. No reutilices uno existente.**
+
+La pantalla de consentimiento de OAuth es **una sola por proyecto** y la comparten todos
+los clientes OAuth que vivan ahí. Si reutilizas un proyecto que ya tiene clientes, al
+cambiarle el nombre de la app los usuarios de esos productos verán el nombre nuevo al
+iniciar sesión. Nos pasó al evaluar dos candidatos:
+
+| Proyecto | Por qué no servía |
+|---|---|
+| `reCAPTCHA Migrated` | Su consentimiento ya decía «Energy Trail Team» (Intag Trail) |
+| `CreativeWeb` | Tenía 3 clientes OAuth vivos: Quipuy, Boxpli y EnOtavalo-login (este último desde 2020) |
+
+**Antes de tocar la pantalla de consentimiento de cualquier proyecto, revisa
+*Clientes*.** Que el nombre de la app esté vacío no significa que el proyecto esté libre.
+
 1. Entra a `console.cloud.google.com` con la cuenta que administra los GTM/GA4.
-2. **Crear proyecto** → nombre `creativeweb-tracking`.
-3. **APIs y servicios → Biblioteca**, y habilita las dos:
-   - *Tag Manager API*
-   - *Google Analytics Admin API*
+2. **Crear proyecto** → nombre `Creative Web Tracking`.
+3. **APIs y servicios → Biblioteca**, y habilita las tres:
+   - *Tag Manager API* — crear triggers, tags y publicar
+   - *Google Analytics Admin API* — marcar eventos clave
+   - *Google Search Console API* — bajar consultas, páginas, CTR y posiciones sin pedir CSV
+
+> La de Search Console suele necesitar **dos clics** en «Habilitar»: el primero no toma
+> efecto. Verifica que el encabezado diga «Inhabilitar API» antes de dar por hecho que
+> quedó activa.
 
 ### 2. Pantalla de consentimiento
 
