@@ -283,8 +283,8 @@ footer .fine{margin-top:8px;font-size:12px;opacity:.7}
       <h3>&iquest;Arrancamos?</h3>
       <p>Cuando confirme la opci&oacute;n, preparamos la configuraci&oacute;n de sus 2 RUCs y coordinamos la carga de datos.</p>
       <div class="cta-btns">
-        <a class="btn btn-wa" href="https://wa.me/593999174980" target="_blank" rel="noopener">&#128241; Escribir por WhatsApp</a>
-        <a class="btn btn-mail" href="mailto:info@creativeweb.com.ec">&#9993;&#65039; info@creativeweb.com.ec</a>
+        <a class="btn btn-wa" href="https://wa.me/593999174980?text=Hola%2C%20revis%C3%A9%20la%20propuesta%20del%20sistema%20para%20%C3%93ptica%20Pluss%20y%20deseo%20aceptarla%20para%20iniciar.%20Quedo%20atento%20a%20los%20siguientes%20pasos." target="_blank" rel="noopener">&#128241; Aceptar por WhatsApp</a>
+        <a class="btn btn-mail" href="mailto:info@creativeweb.com.ec?subject=Aceptaci%C3%B3n%20de%20propuesta%20%E2%80%94%20%C3%93ptica%20Pluss&body=Estimados%20Creative%20Web%2C%0D%0A%0D%0ARevis%C3%A9%20la%20propuesta%20del%20sistema%20para%20la%20%C3%B3ptica%20y%20deseo%20aceptarla%20para%20iniciar%20el%20desarrollo.%20Por%20favor%20ind%C3%ADquenme%20los%20siguientes%20pasos%20y%20la%20coordinaci%C3%B3n%20para%20la%20configuraci%C3%B3n%20de%20nuestros%202%20RUCs.%0D%0A%0D%0AGracias.">&#9993;&#65039; Aceptar por correo</a>
       </div>
     </div>
   </div>
