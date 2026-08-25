@@ -95,7 +95,10 @@
             <div class="rounded-lg border border-slate-800/50 bg-slate-900/40 p-4 mb-4">
                 <p class="text-sm text-slate-300 leading-relaxed">Dicho en claro: al activar «formulario enviado» como conversión, el conteo de formularios pasa de <strong class="text-red-400">73</strong> a <strong class="text-emerald-400">118</strong>. Son <strong class="text-white">45 personas más</strong> que dejaron sus datos por otros formularios del sitio y que hoy no aparecen en ningún reporte. Sumando los 170 clics a WhatsApp, el total de contactos del período es <strong class="text-emerald-400">288</strong>.</p>
             </div>
-            <p class="text-sm text-slate-400 leading-relaxed">Es un ajuste de minutos y no requiere tocar la web. <strong class="text-slate-300">Importante:</strong> las conversiones solo se cuentan desde el momento en que se corrigen; el histórico no se recalcula. Mientras antes se haga, antes empieza a medirse bien.</p>
+            <div class="rounded-lg border border-emerald-500/40 bg-emerald-500/10 p-4">
+                <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">✅ Ya está corregido.</strong> Activamos «formulario enviado» como conversión en su panel de Analytics. A partir de ahora el sistema cuenta los 118 envíos, no 73.</p>
+                <p class="text-sm text-slate-400 leading-relaxed mt-3"><strong class="text-slate-300">Una precisión importante:</strong> las conversiones solo se contabilizan desde el momento en que se activan y el histórico no se recalcula. Los meses anteriores van a seguir mostrando la cifra baja en el panel, aunque los contactos hayan existido. La comparación limpia empieza desde este corte.</p>
+            </div>
         </div>
 
         <!-- ── Hallazgo 2: CTR ── -->
@@ -250,7 +253,7 @@
 
             <h4 class="text-sm font-semibold text-emerald-400 mb-3">Revisiones técnicas y correcciones</h4>
             <ul class="space-y-2 text-sm text-slate-300 mb-5">
-                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Sistema de medición instalado y depurado.</strong> Se configuró el registro de clics a WhatsApp y envíos de formulario, y se corrigió la falla que hacía que Analytics reportara 73 contactos en lugar de 288.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Sistema de medición instalado, auditado y corregido.</strong> Se configuró el registro de clics a WhatsApp y envíos de formulario, se auditó la configuración completa de conversiones y se activó la que faltaba. El panel pasó de reportar 73 contactos a contar los 288 reales, sin tocar una línea del sitio.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Datos estructurados en la home</strong> para que Google entienda que es un concesionario con sucursales, horarios y marcas — no una página cualquiera.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Revisión de las 482 páginas con tráfico</strong>, de donde salieron los dos hallazgos de este informe y la detección de la dirección duplicada de Renault Duster.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Inventario de los 196 artículos existentes</strong>, para que todo lo nuevo cubra territorio libre y no compita contra lo que ya está posicionado.</div></li>
