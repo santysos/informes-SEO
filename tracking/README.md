@@ -39,20 +39,57 @@ iniciar sesión. Nos pasó al evaluar dos candidatos:
 > efecto. Verifica que el encabezado diga «Inhabilitar API» antes de dar por hecho que
 > quedó activa.
 
-### 2. Pantalla de consentimiento
+### 2. Autorizar — por consola (recomendado)
+
+Con la CLI de Google no hace falta crear cliente OAuth ni configurar la pantalla de
+consentimiento: **ADC** (credenciales por defecto de la aplicación) usa el cliente de la
+propia CLI.
+
+```bash
+brew install --cask google-cloud-sdk    # solo la primera vez
+
+gcloud auth login
+gcloud config set project creative-web-tracking
+gcloud auth application-default login --scopes=\
+https://www.googleapis.com/auth/tagmanager.readonly,\
+https://www.googleapis.com/auth/tagmanager.edit.containers,\
+https://www.googleapis.com/auth/tagmanager.edit.containerversions,\
+https://www.googleapis.com/auth/tagmanager.publish,\
+https://www.googleapis.com/auth/analytics.edit,\
+https://www.googleapis.com/auth/analytics.readonly,\
+https://www.googleapis.com/auth/webmasters.readonly,\
+https://www.googleapis.com/auth/cloud-platform
+```
+
+Los dos `login` abren el navegador una vez. Después, comprobar:
+
+```bash
+tracking/.venv/bin/python tracking/auth.py
+```
+
+Debe listar las cuentas de Tag Manager, las propiedades de GA4 y los sitios de Search
+Console.
+
+> Si `--scopes` falla porque Google no permite alguno con el cliente de la CLI, usa el
+> camino manual de abajo. `auth.py` prueba ADC primero y cae a `credentials.json` solo si
+> ADC no está disponible.
+
+---
+
+### 3. Camino manual — pantalla de consentimiento
 
 **APIs y servicios → Pantalla de consentimiento de OAuth**
 - Tipo: **Externo** (o Interno si la cuenta es de Workspace).
 - Nombre de la app: `Creative Web Tracking`. Correo de asistencia y de contacto: el tuyo.
 - En **Usuarios de prueba**, agrega tu propio correo de Google. Sin esto el flujo falla.
 
-### 3. Credenciales
+### 4. Credenciales
 
 **APIs y servicios → Credenciales → Crear credenciales → ID de cliente de OAuth**
 - Tipo de aplicación: **Aplicación de escritorio**.
 - Descarga el JSON y guárdalo en esta carpeta como **`credentials.json`**.
 
-### 4. Autorizar
+### 5. Autorizar
 
 ```bash
 tracking/.venv/bin/python tracking/auth.py
