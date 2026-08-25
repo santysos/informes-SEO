@@ -411,26 +411,58 @@
             </div>
         </div>
 
-        <!-- ── Medición ── -->
-        <div class="rounded-xl border border-slate-800/50 glass p-6 mt-8">
-            <h3 class="text-lg font-semibold text-white mb-4">Medición: instalada durante este período</h3>
-            <p class="text-sm text-slate-300 leading-relaxed mb-4">Hasta agosto, OKCars registraba visitas pero no contactos: no existía forma de saber cuántas personas escribían por WhatsApp o enviaban un formulario, porque el sitio <strong class="text-white">no tenía instalado el gestor de etiquetas</strong> que hace posible esa medición. <strong class="text-emerald-400">Durante este corte se creó e instaló</strong>, integrado con la configuración que ya existía para que no se dupliquen los datos.</p>
-            <ul class="space-y-2 text-sm text-slate-300">
-                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Gestor de etiquetas instalado</strong> en el sitio, integrado con la configuración existente para no duplicar datos.</div></li>
-                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Seguimiento de clics a WhatsApp</strong> configurado.</div></li>
-                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Seguimiento de envío de formularios</strong> configurado. Los formularios del sitio envían sin recargar la página, lo que impide que se midan de forma automática; se resolvió con configuración específica.</div></li>
+        <!-- ── LO QUE HEMOS HECHO (OK) ── -->
+        <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-6 mt-8">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">✅</span>
+                <h3 class="text-lg font-semibold text-white">Lo que hemos hecho</h3>
+            </div>
+
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3">Contenido: de 0 a 50 artículos</h4>
+            <ul class="space-y-2 text-sm text-slate-300 mb-5">
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>50 artículos publicados o programados</strong> desde que arrancó el plan. El sitio pasó de no tener blog a tener 42 páginas que reciben visitas desde Google.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Los tres primeros ya son el 33 % del tráfico</strong> del sitio, y son las páginas donde la gente más tiempo se queda.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Temas elegidos con datos, no por intuición.</strong> Se detectó que financiamiento, seguros y trámites sumaban cerca de 1.000 apariciones en Google sin que el sitio capturara una sola visita, y ahí se concentró el trabajo.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Estructura de categorías y enlaces internos</strong> creada desde cero, para que los artículos se apoyen entre sí en lugar de competir.</div></li>
             </ul>
-            <p class="text-sm text-slate-400 leading-relaxed mt-4">A partir del próximo corte se podrá reportar <strong class="text-slate-300">cuántos contactos genera cada artículo</strong>, y no solo cuántas visitas. Conviene tener presente que los primeros números serán bajos mientras el botón de contacto siga limitado a las fichas de vehículo.</p>
+
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3">Medición: instalada por primera vez</h4>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">Hasta agosto, OKCars registraba visitas pero <strong class="text-white">no podía registrar contactos</strong>: no existía forma de saber cuántas personas escribían por WhatsApp o enviaban un formulario, porque el sitio no tenía instalada la herramienta que lo permite. Durante este corte se creó e instaló.</p>
+            <ul class="space-y-2 text-sm text-slate-300 mb-3">
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Gestor de etiquetas creado e instalado</strong>, integrado con la configuración que ya existía para que no se dupliquen los datos.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Registro de clics a WhatsApp</strong> configurado y publicado.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Registro de envíos de formulario</strong> configurado. Los formularios del sitio envían sin recargar la página, algo que impide medirlos de forma automática; se resolvió con configuración específica.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Ambas acciones marcadas como conversión</strong> en Analytics.</div></li>
+            </ul>
+            <p class="text-xs text-slate-400 leading-relaxed">A partir del próximo corte se podrá reportar cuántos contactos genera cada artículo, y no solo cuántas visitas.</p>
         </div>
 
-        <!-- ── Próximos pasos OK ── -->
+        <!-- ── LO QUE ESTAMOS HACIENDO (OK) ── -->
+        <div class="rounded-xl border border-amber-500/30 bg-amber-500/5 p-6 mt-8">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">🔄</span>
+                <h3 class="text-lg font-semibold text-white">Lo que estamos haciendo ahora</h3>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>20 artículos nuevos ya escritos y programados</strong> entre septiembre y octubre, uno cada dos o tres días. Cubren el hueco de mayor demanda detectado: financiamiento y crédito (8), seguros (4), trámites (4) y decisión de compra (4).</div></li>
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Midiendo los primeros contactos.</strong> Es la primera vez que el sitio puede registrarlos, así que estamos construyendo la línea base.</div></li>
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Siguiendo el peso de las búsquedas de marca.</strong> Bajó de 84 % a un nivel mucho menor: es la señal de que el sitio empieza a atraer gente que no conocía OKCars.</div></li>
+            </ul>
+        </div>
+
+        <!-- ── LO QUE DEBEMOS HACER (OK) ── -->
         <div class="rounded-xl border border-brand-500/30 bg-brand-500/5 p-6 mt-8">
-            <h3 class="text-lg font-semibold text-white mb-4">Próximos pasos para OKCars</h3>
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">🎯</span>
+                <h3 class="text-lg font-semibold text-white">Lo que debemos hacer, en orden de retorno</h3>
+            </div>
             <ol class="space-y-3 text-sm text-slate-300">
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Agregar el botón de contacto</strong> en la página principal, los artículos y las páginas de marca. Es lo que desbloquea todo lo demás.</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>20 artículos nuevos ya programados</strong> entre septiembre y octubre, enfocados en el hueco de mayor demanda detectado: financiamiento y crédito (8), seguros (4), trámites (4) y decisión de compra (4).</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Mejorar el título de la página principal.</strong> Recibe 3.569 impresiones en posición 9,2 con 3,87 % de CTR: hay margen claro.</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Revisar la página de seguro vehicular:</strong> 2.487 impresiones y 2 clics. Google la muestra pero nadie entra.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Agregar el botón de contacto en la home, los artículos y las páginas de marca.</strong> Es lo que desbloquea todo lo demás: hoy el 80 % de las visitas termina en una página sin salida. No depende de ganar más tráfico, aprovecha el que ya llega.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>Un llamado a la acción al final de cada artículo.</strong> Son las páginas donde la gente lee más de un minuto y hoy no ofrecen nada al terminar.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Mejorar el título de la página principal.</strong> Recibe 3.569 apariciones en Google en posición 9,2 con 3,87 % de clics: hay margen claro.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Revisar la página de seguro vehicular:</strong> 2.487 apariciones y 2 clics. Google la muestra pero nadie entra.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">5.</span><div><strong>Continuar hacia los 120 artículos</strong> del plan. Con los 20 de esta tanda, el sitio queda en 50.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">6.</span><div><strong>Llevar el trabajo de conversión de Comercial Hidrobo a OKCars.</strong> El rediseño de la home del sitio principal ya probó qué funciona; OKCars todavía no tiene ese trabajo hecho.</div></li>
             </ol>
         </div>
     </div>
