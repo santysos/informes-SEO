@@ -8,7 +8,7 @@
             <span class="text-xs text-slate-400">Periodo analizado: 21 mayo – 18 agosto 2026 (90 días)</span>
         </div>
         <h2 class="text-3xl font-bold text-white mb-2">Avance del plan — corte de agosto 2026</h2>
-        <p class="text-sm text-slate-400 leading-relaxed">Segundo corte del plan de seis meses. Cubre <strong class="text-slate-300">Comercial Hidrobo</strong> y <strong class="text-slate-300">OKCars</strong> con datos de Google Analytics 4 y Search Console del período. Trae dos hallazgos que cambian cómo hay que leer los resultados: uno sobre <strong class="text-slate-300">contactos que el sistema no está contando</strong> y otro sobre <strong class="text-slate-300">dónde se está perdiendo el tráfico que ya se ganó</strong>.</p>
+        <p class="text-sm text-slate-400 leading-relaxed">Segundo corte del plan de seis meses. Cubre <strong class="text-slate-300">Comercial Hidrobo</strong> y <strong class="text-slate-300">OKCars</strong> con datos de Google Analytics 4 y Search Console del período. Está organizado en tres partes: <strong class="text-slate-300">lo que hemos hecho</strong>, <strong class="text-slate-300">lo que estamos haciendo</strong> y <strong class="text-slate-300">lo que debemos hacer</strong>. Antes de eso, dos hallazgos que cambian cómo hay que leer los resultados: uno sobre <strong class="text-slate-300">contactos que el sistema no estaba contando</strong> y otro sobre <strong class="text-slate-300">dónde se pierde el tráfico que ya se ganó</strong>.</p>
     </div>
 
     <!-- Sub-tabs -->
@@ -210,42 +210,87 @@
             <p class="text-sm text-slate-400 leading-relaxed mt-4">Los dos ejes que veníamos siguiendo se confirman: <strong class="text-slate-300">eléctricos e híbridos</strong> y <strong class="text-slate-300">autos chinos</strong> ocupan el primer y tercer puesto. La página de autos eléctricos sola trae el 13 % de todo el tráfico del sitio.</p>
         </div>
 
-        <!-- ── Trabajo realizado ── -->
-        <div class="rounded-xl border border-slate-800/50 glass p-6 mt-8">
-            <h3 class="text-lg font-semibold text-white mb-4">Trabajo realizado en el período</h3>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div>
-                    <h4 class="text-sm font-semibold text-brand-500 mb-3">Análisis y diagnóstico</h4>
-                    <ul class="space-y-2 text-sm text-slate-300">
-                        <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Inventario completo de los 196 artículos publicados</strong>, para que todo contenido nuevo cubra territorio libre y no compita con lo existente.</div></li>
-                        <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Cruce de Search Console con los 27.651 términos de búsqueda</strong> del período, para priorizar por demanda medida en lugar de por intuición.</div></li>
-                        <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Auditoría de la configuración de medición</strong> en Analytics, de donde salió el hallazgo de los 288 contactos.</div></li>
-                        <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Detección de la dirección duplicada</strong> de Renault Duster y verificación de su estado actual.</div></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-sm font-semibold text-purple-400 mb-3">Preparado y listo para ejecutar</h4>
-                    <ul class="space-y-2 text-sm text-slate-300">
-                        <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>12 títulos y descripciones reescritos</strong> para las páginas de la tabla de arriba. Es la acción de mayor retorno del trimestre.</div></li>
-                        <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>20 artículos nuevos planificados</strong> y priorizados por demanda real: RAM (3), trámites y matriculación (5), exoneración (2), Renault y Nissan (4), marcas emergentes (2) y conversión local (4).</div></li>
-                        <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Corrección de la configuración de conversiones</strong> en Analytics.</div></li>
-                    </ul>
-                    <p class="text-xs text-slate-500 mt-4 leading-relaxed">Sobre el bloque de marcas emergentes: el plan original contemplaba cinco artículos sobre Omoda, Geely, BYD y Jetour. Los datos mostraron que entre todas suman apenas 250 impresiones — la demanda todavía no existe. Se redujo a dos artículos de posicionamiento anticipado y el resto se reasignó a temas con demanda comprobada.</p>
-                </div>
+        <!-- ── LO QUE HEMOS HECHO ── -->
+        <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-6 mt-8">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">✅</span>
+                <h3 class="text-lg font-semibold text-white">Lo que hemos hecho</h3>
+            </div>
+
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3 mt-2">Rediseño completo de la página principal</h4>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">La home se rehízo entera con un enfoque de <strong class="text-white">conversión primero</strong> y estética actual. Ya está publicada y funcionando. Diez secciones nuevas, cada una con su propio objetivo:</p>
+            <div class="grid md:grid-cols-2 gap-x-6 gap-y-1 text-sm text-slate-300 mb-3">
+                <div>• Portada con buscador y llamado directo</div>
+                <div>• Barra de confianza (años, marcas, sucursales)</div>
+                <div>• Las 12 marcas que representan</div>
+                <div>• Bloque de financiamiento</div>
+                <div>• Bloque de taller</div>
+                <div>• Bloque de repuestos</div>
+                <div>• Testimonios de clientes</div>
+                <div>• Preguntas frecuentes</div>
+                <div>• Últimas publicaciones del blog</div>
+                <div>• Llamado final a contacto</div>
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed mb-5">Se construyó como plantilla propia en lugar de con el maquetador visual. La razón es concreta: el maquetador añade entre 40 y 60 capas de código por sección, y eso diluye la estructura de títulos que Google usa para entender la página. Con plantilla propia el código queda limpio, la página carga más rápido y los buscadores leen mejor la jerarquía.</p>
+
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3">Llamados a la acción y rutas de contacto</h4>
+            <ul class="space-y-2 text-sm text-slate-300 mb-5">
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>CTAs en las páginas de mayor tráfico</strong>, no solo en la home. Las páginas que más visitas reciben ahora ofrecen una salida clara en lugar de terminar en nada.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Mensaje de WhatsApp prellenado según la sección.</strong> Quien escribe desde taller no manda el mismo texto que quien escribe desde repuestos o financiamiento: el equipo recibe el contexto ya escrito y responde más rápido.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Rutas al formulario acortadas.</strong> Se revisó cuántos clics separaban al visitante del formulario y se recortó el camino.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Los formularios existentes se conservaron.</strong> Los de cita de taller y repuestos ya funcionaban y traían clientes; cambiarlos habría sido romper algo que anda. Se mantuvieron y se les mejoró el acceso.</div></li>
+            </ul>
+
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3">Contenido publicado</h4>
+            <ul class="space-y-2 text-sm text-slate-300 mb-5">
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>36 artículos publicados</strong> entre mayo y agosto, con foco en los dos ejes que hoy sostienen el sitio: <strong class="text-white">autos eléctricos e híbridos</strong> y <strong class="text-white">marcas chinas</strong>.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Contenido pensado para llevar visitas al taller</strong>, no solo para informar: mantenimiento por kilometraje, cambio de aceite, costos de mantenimiento. La página de tabla de mantenimiento es hoy la cuarta del sitio con <strong class="text-white">497 clics</strong>.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Contenido de trámites locales</strong>: matriculación en Imbabura trae 361 clics y es de los que mejor convierte, porque quien lo busca está resolviendo algo hoy.</div></li>
+            </ul>
+
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3">Revisiones técnicas y correcciones</h4>
+            <ul class="space-y-2 text-sm text-slate-300 mb-5">
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Sistema de medición instalado y depurado.</strong> Se configuró el registro de clics a WhatsApp y envíos de formulario, y se corrigió la falla que hacía que Analytics reportara 73 contactos en lugar de 288.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Datos estructurados en la home</strong> para que Google entienda que es un concesionario con sucursales, horarios y marcas — no una página cualquiera.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Revisión de las 482 páginas con tráfico</strong>, de donde salieron los dos hallazgos de este informe y la detección de la dirección duplicada de Renault Duster.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Inventario de los 196 artículos existentes</strong>, para que todo lo nuevo cubra territorio libre y no compita contra lo que ya está posicionado.</div></li>
+            </ul>
+        </div>
+
+        <!-- ── LO QUE ESTAMOS HACIENDO ── -->
+        <div class="rounded-xl border border-amber-500/30 bg-amber-500/5 p-6 mt-8">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">🔄</span>
+                <h3 class="text-lg font-semibold text-white">Lo que estamos haciendo ahora</h3>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Reescritura de 12 títulos y descripciones.</strong> Ya están redactados. Son las páginas que aparecen en primera página de Google pero reciben menos del 2 % de los clics.</div></li>
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>20 artículos nuevos, escritos y priorizados por demanda medida:</strong> RAM (3), trámites y matriculación (5), exoneración (2), Renault y Nissan (4), marcas emergentes (2) y conversión local (4).</div></li>
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Análisis continuo de qué contenido lleva gente al taller.</strong> Los artículos de mantenimiento son los que mejor cumplen ese rol; estamos ampliando ese bloque y sumándole llamados a agendar cita.</div></li>
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Seguimiento de la medición corregida</strong> para poder reportar, desde el próximo corte, cuántos contactos genera cada página.</div></li>
+            </ul>
+            <p class="text-xs text-slate-400 mt-4 leading-relaxed"><strong class="text-slate-300">Nota sobre el plan original:</strong> contemplaba cinco artículos sobre marcas emergentes (Omoda, Geely, BYD, Jetour). Al medirlo, entre todas suman apenas 250 impresiones: la demanda todavía no existe en Ecuador. Se redujo a dos artículos de posicionamiento anticipado y los otros tres se reasignaron a temas con demanda comprobada.</p>
+        </div>
+
+        <!-- ── LO QUE DEBEMOS HACER ── -->
+        <div class="rounded-xl border border-brand-500/30 bg-brand-500/5 p-6 mt-8">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">🎯</span>
+                <h3 class="text-lg font-semibold text-white">Lo que debemos hacer, en orden de retorno</h3>
+            </div>
+            <ol class="space-y-3 text-sm text-slate-300">
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Aplicar los 12 títulos nuevos.</strong> Potencial de ~7.100 clics adicionales por trimestre sobre tráfico que ya está ganado. No requiere escribir contenido nuevo.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>Publicar los 20 artículos</strong>, escalonados a lo largo del mes.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Resolver la dirección duplicada de Renault Duster.</strong> Concentra 22.356 impresiones hoy repartidas entre dos direcciones que compiten entre sí.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Actualizar los títulos que dicen «2025»</strong> en todo el sitio, no solo en las doce páginas prioritarias.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">5.</span><div><strong>Llevar el enfoque de la home al resto del sitio.</strong> Las páginas de marca y de vehículos todavía no tienen el mismo trabajo de conversión que se hizo en la portada.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">6.</span><div><strong>Reforzar el bloque de taller.</strong> Es donde el contenido informativo mejor se convierte en visita, y hoy tiene menos artículos de los que la demanda justifica.</div></li>
+            </ol>
+            <div class="rounded-lg border border-amber-500/30 bg-amber-500/5 p-4 mt-5">
+                <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-amber-400">Lo que necesitamos de ustedes:</strong> un acceso de edición al sitio para poder aplicar los títulos y publicar los artículos directamente. Es el único punto que hoy separa el trabajo ya hecho de que esté en línea.</p>
             </div>
         </div>
 
-        <!-- ── Recomendaciones ── -->
-        <div class="rounded-xl border border-brand-500/30 bg-brand-500/5 p-6 mt-8">
-            <h3 class="text-lg font-semibold text-white mb-4">Qué hacer primero, en orden de retorno</h3>
-            <ol class="space-y-3 text-sm text-slate-300">
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Corregir la medición de conversiones.</strong> Minutos de trabajo y sin tocar la web. Sin esto no se puede saber cuántos clientes trae el trabajo SEO, y hoy se está subestimando en un 75 %.</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>Reescribir los 12 títulos y descripciones.</strong> Potencial de ~7.100 clics adicionales por trimestre sobre tráfico que ya está ganado. No requiere contenido nuevo.</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Resolver la dirección duplicada de Renault Duster.</strong> Concentra 22.356 impresiones que hoy se reparten entre dos direcciones.</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Publicar los 20 artículos nuevos</strong>, escalonados a lo largo del mes.</div></li>
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">5.</span><div><strong>Actualizar los títulos que dicen «2025»</strong> en todo el sitio, no solo en las doce páginas prioritarias.</div></li>
-            </ol>
-        </div>
     </div>
 
     <!-- ══════════════ OKCARS ══════════════ -->
