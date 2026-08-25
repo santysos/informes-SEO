@@ -73,21 +73,22 @@
                 </div>
             </div>
 
-            <p class="text-sm text-slate-300 leading-relaxed mb-3">La causa es de configuración, no del sitio. El sitio ya mide correctamente <strong class="text-white">todos</strong> los envíos de formulario, pero en el panel solo están marcados como conversión dos formularios concretos: el de cita de taller y el de repuestos. Todo lo demás se registra y no se cuenta:</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">La causa es de configuración, no del sitio. El sitio <strong class="text-white">sí registraba</strong> todas esas acciones; lo que faltaba era marcarlas como conversión en el panel. Durante el período analizado solo estaban activas dos, ambas configuradas en septiembre de 2025:</p>
             <div class="overflow-x-auto mb-4">
                 <table class="w-full text-sm">
                     <thead>
                         <tr class="text-xs text-slate-500 uppercase tracking-wider border-b border-slate-800">
                             <th class="text-left py-2">Acción de contacto</th>
                             <th class="text-right py-2">Veces</th>
-                            <th class="text-center py-2">¿Se cuenta hoy?</th>
+                            <th class="text-center py-2">¿Contaba en el período?</th>
+                            <th class="text-center py-2">¿Cuenta ahora?</th>
                         </tr>
                     </thead>
                     <tbody class="text-slate-300">
-                        <tr class="border-b border-slate-800/50"><td class="py-2">Clic al botón de WhatsApp</td><td class="text-right font-semibold">170</td><td class="text-center text-red-400">No</td></tr>
-                        <tr class="border-b border-slate-800/50"><td class="py-2">Formulario enviado <span class="text-xs text-slate-500">(cualquier formulario del sitio)</span></td><td class="text-right font-semibold">118</td><td class="text-center text-red-400">No</td></tr>
-                        <tr class="border-b border-slate-800/50"><td class="py-2">Formulario de cita de taller</td><td class="text-right">62</td><td class="text-center text-emerald-400">Sí</td></tr>
-                        <tr><td class="py-2">Formulario de repuestos</td><td class="text-right">11</td><td class="text-center text-emerald-400">Sí</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Clic al botón de WhatsApp</td><td class="text-right font-semibold">170</td><td class="text-center text-red-400">No</td><td class="text-center text-emerald-400">Sí · desde el 19 ago</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Formulario enviado <span class="text-xs text-slate-500">(cualquier formulario del sitio)</span></td><td class="text-right font-semibold">118</td><td class="text-center text-red-400">No</td><td class="text-center text-emerald-400">Sí · desde el 25 ago</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Formulario de cita de taller</td><td class="text-right">62</td><td class="text-center text-emerald-400">Sí</td><td class="text-center text-emerald-400">Sí</td></tr>
+                        <tr><td class="py-2">Formulario de repuestos</td><td class="text-right">11</td><td class="text-center text-emerald-400">Sí</td><td class="text-center text-emerald-400">Sí</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -96,7 +97,7 @@
                 <p class="text-sm text-slate-300 leading-relaxed">Dicho en claro: al activar «formulario enviado» como conversión, el conteo de formularios pasa de <strong class="text-red-400">73</strong> a <strong class="text-emerald-400">118</strong>. Son <strong class="text-white">45 personas más</strong> que dejaron sus datos por otros formularios del sitio y que hoy no aparecen en ningún reporte. Sumando los 170 clics a WhatsApp, el total de contactos del período es <strong class="text-emerald-400">288</strong>.</p>
             </div>
             <div class="rounded-lg border border-emerald-500/40 bg-emerald-500/10 p-4">
-                <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">✅ Ya está corregido.</strong> Activamos «formulario enviado» como conversión en su panel de Analytics. A partir de ahora el sistema cuenta los 118 envíos, no 73.</p>
+                <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">✅ Ya está corregido, en dos pasos.</strong> El <strong class="text-white">19 de agosto</strong> activamos los clics a WhatsApp como conversión, y el <strong class="text-white">25 de agosto</strong> los envíos de formulario. Las cuatro acciones de contacto ya se cuentan.</p>
                 <p class="text-sm text-slate-400 leading-relaxed mt-3"><strong class="text-slate-300">Una precisión importante:</strong> las conversiones solo se contabilizan desde el momento en que se activan y el histórico no se recalcula. Los meses anteriores van a seguir mostrando la cifra baja en el panel, aunque los contactos hayan existido. La comparación limpia empieza desde este corte.</p>
             </div>
         </div>
