@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <p class="text-sm text-slate-300 leading-relaxed mb-3">La causa es de configuración, no del sitio. El panel está contando como conversión únicamente dos formularios concretos —el de cita de taller (62) y el de repuestos (11)—, que suman exactamente los 73 reportados. Todo lo demás queda fuera del conteo:</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">La causa es de configuración, no del sitio. El sitio ya mide correctamente <strong class="text-white">todos</strong> los envíos de formulario, pero en el panel solo están marcados como conversión dos formularios concretos: el de cita de taller y el de repuestos. Todo lo demás se registra y no se cuenta:</p>
             <div class="overflow-x-auto mb-4">
                 <table class="w-full text-sm">
                     <thead>
@@ -91,7 +91,10 @@
                     </tbody>
                 </table>
             </div>
-            <p class="text-sm text-slate-300 leading-relaxed mb-4">El más importante de la lista es <strong class="text-white">«formulario enviado»</strong>: es la medición general de Google, se dispara con cualquier formulario del sitio y engloba a los otros dos. Activarlo como conversión es lo que permite ver el total real de personas que dejan sus datos, venga de donde venga el formulario.</p>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">El más importante de la lista es <strong class="text-white">«formulario enviado»</strong>, con 118 envíos. Se dispara con <strong class="text-white">cualquier</strong> formulario del sitio, así que <strong class="text-white">ya incluye</strong> a los de taller (62) y repuestos (11). No son cifras que se sumen: los 73 que hoy se cuentan son una parte de esos 118.</p>
+            <div class="rounded-lg border border-slate-800/50 bg-slate-900/40 p-4 mb-4">
+                <p class="text-sm text-slate-300 leading-relaxed">Dicho en claro: al activar «formulario enviado» como conversión, el conteo de formularios pasa de <strong class="text-red-400">73</strong> a <strong class="text-emerald-400">118</strong>. Son <strong class="text-white">45 personas más</strong> que dejaron sus datos por otros formularios del sitio y que hoy no aparecen en ningún reporte. Sumando los 170 clics a WhatsApp, el total de contactos del período es <strong class="text-emerald-400">288</strong>.</p>
+            </div>
             <p class="text-sm text-slate-400 leading-relaxed">Es un ajuste de minutos y no requiere tocar la web. <strong class="text-slate-300">Importante:</strong> las conversiones solo se cuentan desde el momento en que se corrigen; el histórico no se recalcula. Mientras antes se haga, antes empieza a medirse bien.</p>
         </div>
 
