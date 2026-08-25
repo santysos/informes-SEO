@@ -268,7 +268,7 @@
                 <h3 class="text-lg font-semibold text-white">Lo que estamos haciendo ahora</h3>
             </div>
             <ul class="space-y-3 text-sm text-slate-300">
-                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Reescritura de 12 títulos y descripciones.</strong> Ya están redactados. Son las páginas que aparecen en primera página de Google pero reciben menos del 2 % de los clics.</div></li>
+                <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Reescritura de los títulos y descripciones de las 12 páginas prioritarias.</strong> Son las que aparecen en primera página de Google y reciben menos del 2 % de los clics. Ya están identificadas y analizadas; los textos nuevos se entregan esta semana.</div></li>
                 <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>20 artículos nuevos, escritos y priorizados por demanda medida:</strong> RAM (3), trámites y matriculación (5), exoneración (2), Renault y Nissan (4), marcas emergentes (2) y conversión local (4).</div></li>
                 <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Análisis continuo de qué contenido lleva gente al taller.</strong> Los artículos de mantenimiento son los que mejor cumplen ese rol; estamos ampliando ese bloque y sumándole llamados a agendar cita.</div></li>
                 <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Seguimiento de la medición corregida</strong> para poder reportar, desde el próximo corte, cuántos contactos genera cada página.</div></li>
@@ -283,7 +283,7 @@
                 <h3 class="text-lg font-semibold text-white">Lo que debemos hacer, en orden de retorno</h3>
             </div>
             <ol class="space-y-3 text-sm text-slate-300">
-                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Aplicar los 12 títulos nuevos.</strong> Potencial de ~7.100 clics adicionales por trimestre sobre tráfico que ya está ganado. No requiere escribir contenido nuevo.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Aplicar los títulos nuevos en las 12 páginas prioritarias.</strong> Potencial de ~7.100 clics adicionales por trimestre sobre tráfico que ya está ganado. No requiere escribir contenido nuevo — es reescribir lo que Google ya muestra.</div></li>
                 <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>Publicar los 20 artículos</strong>, escalonados a lo largo del mes.</div></li>
                 <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Resolver la dirección duplicada de Renault Duster.</strong> Concentra 22.356 impresiones hoy repartidas entre dos direcciones que compiten entre sí.</div></li>
                 <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Actualizar los títulos que dicen «2025»</strong> en todo el sitio, no solo en las doce páginas prioritarias.</div></li>
