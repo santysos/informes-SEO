@@ -110,12 +110,17 @@ def publicar(ws, nombre, notas=""):
 # ── plantillas de configuración reutilizables ────────────────────────
 
 def trigger_clic_enlace(nombre, contiene):
-    """Trigger de clic en enlaces cuya URL contenga `contiene`."""
+    """Trigger de clic en enlaces cuya URL contenga `contiene`.
+
+    Ojo con la forma del payload: `waitForTags` y `checkValidation` son objetos
+    Parameter sueltos, NO listas. Mandarlos como lista devuelve un 400 con
+    «Proto field is not repeating».
+    """
     return {
         "name": nombre,
         "type": "linkClick",
-        "waitForTags": [{"type": "boolean", "key": "waitForTags", "value": "false"}],
-        "checkValidation": [{"type": "boolean", "key": "checkValidation", "value": "false"}],
+        "waitForTags": {"type": "boolean", "key": "waitForTags", "value": "false"},
+        "checkValidation": {"type": "boolean", "key": "checkValidation", "value": "false"},
         "filter": [{
             "type": "contains",
             "parameter": [

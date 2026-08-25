@@ -90,9 +90,10 @@ def main():
     # ── Formulario ───────────────────────────────────────────────────
     print(f"\n== Formulario ({args.formulario}) ==")
     t_all = _trigger_todas_las_paginas(ws)
+    # Nombre fijo a propósito: si dependiera de --formulario, cambiar de plugin
+    # crearía una etiqueta nueva en vez de actualizar la existente.
     tag_lis, e3 = gtm.upsert_tag(ws, gtm.tag_html(
-        f"Listener — formulario {args.formulario}",
-        LISTENERS[args.formulario], [t_all]))
+        "Listener — formulario", LISTENERS[args.formulario], [t_all]))
     print(f"  listener    {e3}: {tag_lis['name']}")
     t_form, e4 = gtm.upsert_trigger(ws, gtm.trigger_evento_personalizado(
         "Formulario enviado", "form_enviado"))
