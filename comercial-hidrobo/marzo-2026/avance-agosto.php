@@ -247,7 +247,7 @@
 
             <h4 class="text-sm font-semibold text-emerald-400 mb-3">Contenido publicado</h4>
             <ul class="space-y-2 text-sm text-slate-300 mb-5">
-                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>36 artículos publicados</strong> entre mayo y agosto, con foco en los dos ejes que hoy sostienen el sitio: <strong class="text-white">autos eléctricos e híbridos</strong> y <strong class="text-white">marcas chinas</strong>.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>38 artículos publicados</strong> entre mayo y agosto, con foco en los dos ejes que hoy sostienen el sitio: <strong class="text-white">autos eléctricos e híbridos</strong> y <strong class="text-white">marcas chinas</strong>.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Contenido pensado para llevar visitas al taller</strong>, no solo para informar: mantenimiento por kilometraje, cambio de aceite, costos de mantenimiento. La página de tabla de mantenimiento es hoy la cuarta del sitio con <strong class="text-white">497 clics</strong>.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Contenido de trámites locales</strong>: matriculación en Imbabura trae 361 clics y es de los que mejor convierte, porque quien lo busca está resolviendo algo hoy.</div></li>
             </ul>
@@ -258,6 +258,52 @@
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Datos estructurados en la home</strong> para que Google entienda que es un concesionario con sucursales, horarios y marcas — no una página cualquiera.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Revisión de las 482 páginas con tráfico</strong>, de donde salieron los dos hallazgos de este informe y la detección de la dirección duplicada de Renault Duster.</div></li>
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Inventario de los 196 artículos existentes</strong>, para que todo lo nuevo cubra territorio libre y no compita contra lo que ya está posicionado.</div></li>
+            </ul>
+        </div>
+
+        <!-- ── Listado de contenido CH ── -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6 mt-8">
+            <h3 class="text-lg font-semibold text-white mb-2">Los 38 artículos publicados en el período</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4">El bloque más grande corresponde al cluster de <strong class="text-slate-300">híbridos y eléctricos</strong>, que hoy es el tema que más tráfico trae al sitio, seguido del de <strong class="text-slate-300">taller y mantenimiento</strong>, que es el que más visitas lleva al servicio.</p>
+            <ul class="space-y-1 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Matriculación vehicular en Imbabura 2026: requisitos, costos y lugares</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Fiat Pulse 2026: precio en Ecuador, versiones y guía de compra</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Changan Hunter Plus 2026: camioneta china con precio competitivo</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>DongFeng Rich 6 vs Changan Hunter Plus: pickups chinas en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Renault Duster vs Chery Tiggo 4 Pro: SUV accesibles en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Mazda CX-30 vs Nissan Kicks: SUV urbanas premium</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Mantenimiento de frenos en Ibarra: señales de desgaste, precios y servicio</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Financiamiento automotriz sin entrada en Ecuador: opciones reales 2026</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Taller automotriz en Tulcán: servicios disponibles en Comercial Hidrobo</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Repuestos originales Renault en Ibarra: disponibilidad y precios</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Tabla de mantenimiento Toyota por kilometraje: cuándo y qué cambiar</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Seguro vehicular en Ecuador: cuánto cuesta y qué cubre según su auto</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Concesionario en Tulcán: marcas, inventario y formas de pago</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Diagnóstico computarizado automotriz en Ibarra: qué es y cuándo lo necesita</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Accesorios originales para camionetas: barras, estribos y recubrimientos</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuánto cuesta tener un Nissan Kicks al año en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Deepal en Ecuador: qué es la marca eléctrica de Changan y qué modelos hay</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>PHEV, HEV, REEV y EV: las cuatro tecnologías explicadas con autos que se venden en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuál es el mejor híbrido enchufable en Ecuador: los 8 que puede comprar hoy</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Camionetas híbridas y eléctricas en Ecuador 2026: qué hay de verdad y cuánto cuesta</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>El auto eléctrico más barato que puede comprar en Ecuador en 2026</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Los mejores SUV híbridos y eléctricos que se venden en Ecuador en 2026</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Deepal S05 o S07: cuál de los dos conviene y en qué se diferencian de verdad</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>DongFeng Z9 PHEV: qué hace bien, qué no y a quién le sirve de verdad</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Chery Súper Hybrid CSH: qué es y cuáles llegan a Ecuador (Tiggo 7, 8 y 9)</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Qué es un REEV y por qué Changan trae dos a Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>DongFeng Mage: ¿la eléctrica o la híbrida? Mil dólares los separan</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>DongFeng Z9 PHEV o Changan Hunter REEV: cuál de las dos pickups electrificadas conviene</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>¿Eléctrico o híbrido? Cuál conviene de verdad en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuánto cuesta cargar un auto eléctrico en casa en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Pico y placa: ¿aplica a los autos híbridos y eléctricos?</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Toyota RAV4 Híbrido vs Chery Tiggo 8 Súper Hybrid: garantía japonesa contra potencia china</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>La batería de un híbrido: cuánto dura, cuánto cuesta cambiarla y quién la repara en Imbabura</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Mantenimiento de vehículos híbridos en Ecuador: qué se revisa, cada cuánto y qué cuesta</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Dónde ver y probar un híbrido o eléctrico en el norte del país (y por qué vienen desde Quito)</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Guía para comprar su primer híbrido en Ecuador: siete decisiones antes de firmar</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Por qué chirrían los frenos y cuándo es peligroso seguir manejando</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Qué significa cada luz del tablero y cuáles obligan a parar el auto</div></li>
             </ul>
         </div>
 
@@ -439,6 +485,68 @@
                 <li class="flex gap-2"><span class="text-emerald-400">✓</span><div><strong>Ambas acciones marcadas como conversión</strong> en Analytics.</div></li>
             </ul>
             <p class="text-xs text-slate-400 leading-relaxed">A partir del próximo corte se podrá reportar cuántos contactos genera cada artículo, y no solo cuántas visitas.</p>
+        </div>
+
+        <!-- ── Listado de contenido OK ── -->
+        <div class="rounded-xl border border-slate-800/50 glass p-6 mt-8">
+            <h3 class="text-lg font-semibold text-white mb-2">Los 50 artículos del plan</h3>
+            <p class="text-sm text-slate-400 leading-relaxed mb-4"><strong class="text-emerald-400">30 publicados</strong> y <strong class="text-amber-400">20 programados</strong>, que se irán publicando solos cada dos o tres días.</p>
+            <h4 class="text-sm font-semibold text-emerald-400 mb-3">Publicados</h4>
+            <ul class="space-y-1 text-sm text-slate-300 mb-5">
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cómo comprar un auto seminuevo en Ecuador 2026: guía sin errores</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Concesionario de seminuevos vs comprar en la calle: ventajas y riesgos</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Autos seminuevos en Ibarra con garantía: dónde comprar con respaldo</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Qué revisar antes de comprar un auto usado: checklist de 20 puntos</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cómo funciona el financiamiento para autos usados en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Los 10 autos usados más vendidos en Ecuador y por qué son buena compra</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Comprar auto seminuevo en Imbabura con respaldo: por qué importa el concesionario detrás</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Traspaso de vehículo en Ecuador 2026: requisitos, costos y pasos</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuánto cuesta realmente mantener un auto usado al año en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Toyota Hilux usada en Ecuador: guía de compra y qué año elegir</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Primer auto en Ecuador: guía 2026 para compradores primerizos</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Autos seminuevos desde $8.000 en Ecuador: opciones reales que valen la pena</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cómo saber si un auto usado tiene deudas o problemas legales en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Chevrolet Sail usado en Ecuador: ¿vale la pena en 2026?</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Crédito directo vs crédito bancario para auto usado: cuál te conviene</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Vende tu auto o entrégalo como parte de pago en Ibarra</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Seguro vehicular para autos usados en Ecuador: cuánto cuesta y qué cubre</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Kia Rio usado en Ecuador: precio, versiones y qué buscar antes de comprar</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>5 señales de que un concesionario de seminuevos es realmente confiable</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Autos seminuevos con garantía en Ibarra: qué cubre y por qué importa</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Hyundai Tucson usada en Ecuador: precios reales y la lección de dos unidades</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Mazda CX-5 usada en Ecuador: por qué cuesta más y cuándo vale la pena</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Kia Seltos usado en Ecuador: la guía del SUV compacto de moda</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Ford Territory usado: el SUV «chino de Ford» explicado sin prejuicios</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Mazda BT-50 usada: la guía del diésel de trabajo (y el duelo de los $25.900)</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Changan Hunter en Ecuador: la camioneta china con 4.500 km que desafía a las clásicas</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Autos chinos usados en Ecuador: la guía para cazar la ganga y esquivar la trampa</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Autos híbridos usados en Ecuador: la guía completa (y la palabra que decide todo)</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Toyota Sienna y el caso de la minivan: el vehículo familiar que nadie considera y todos necesitan</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Camionetas diésel usadas en Ecuador: la guía del norte para comprar sin heredar problemas</div></li>
+            </ul>
+            <h4 class="text-sm font-semibold text-amber-400 mb-3">Programados</h4>
+            <ul class="space-y-1 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuánto de entrada piden para un auto usado en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Comprar auto a crédito sin historial crediticio: qué piden y qué opciones hay</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Comprar auto estando en central de riesgos: qué se puede y qué no</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuánto tarda la aprobación de un crédito para auto usado</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Crédito directo para auto usado: cómo funciona y qué piden</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuota mensual de un auto usado: cómo se calcula y qué la sube</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Banco o crédito directo para un seminuevo: cuál conviene</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cambiar de auto entregando el tuyo como parte de pago</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Seguro para auto usado en Ecuador: qué cubre y cuánto cuesta</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Seguro contra daños a terceros: qué es y cuándo alcanza</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>¿Se puede asegurar un auto viejo? Requisitos y límites de antigüedad</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Seguro y viajes interprovinciales: lo que hay que revisar antes de salir</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Papeles que debes pedir antes de comprar un auto usado</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Traspaso de dominio de un vehículo: pasos, costos y quién lo paga</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Comprar un auto con prenda: qué significa y cómo se levanta</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Revisión mecánica antes de comprar: qué mirar y dónde hacerla</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Cuánto se devalúa un auto en Ecuador y qué años conviene comprar</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Kilometraje de un auto usado: cuánto es mucho según el año</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Qué autos usados piden menos mantenimiento en Ecuador</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Comprar en patio o a particular: ventajas y riesgos de cada opción</div></li>
+            </ul>
         </div>
 
         <!-- ── LO QUE ESTAMOS HACIENDO (OK) ── -->
