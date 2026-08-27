@@ -172,53 +172,54 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     </div>
   </div>
 
-  <!-- Resto de módulos -->
-  <div class="rounded-xl border border-slate-800/50 glass p-6 mb-6">
-    <h3 class="text-lg font-semibold text-white mb-4">Otros módulos disponibles</h3>
-    <div class="overflow-x-auto">
-      <table class="w-full text-sm">
-        <thead>
-          <tr class="text-[11px] text-slate-500 uppercase tracking-wider border-b border-slate-800">
-            <th class="text-left py-2">Módulo</th>
-            <th class="text-left py-2">Para qué sirve</th>
-            <th class="text-right py-2">Valor</th>
-          </tr>
-        </thead>
-        <tbody class="text-slate-300">
-          <tr class="border-b border-slate-800/50">
-            <td class="py-3 font-semibold text-white whitespace-nowrap">Portal de distribuidores</td>
-            <td class="py-3 text-slate-400">Precios de mayorista, registro con aprobación, pedidos por cantidad y condiciones distintas al cliente final</td>
-            <td class="py-3 text-right font-semibold text-white whitespace-nowrap">$420</td>
-          </tr>
-          <tr class="border-b border-slate-800/50">
-            <td class="py-3 font-semibold text-white whitespace-nowrap">Buscador avanzado</td>
-            <td class="py-3 text-slate-400">Búsqueda instantánea con sugerencias mientras escribe, tolerante a errores de tipeo, sobre los 2.109 productos</td>
-            <td class="py-3 text-right font-semibold text-white whitespace-nowrap">$320</td>
-          </tr>
-          <tr class="border-b border-slate-800/50">
-            <td class="py-3 font-semibold text-white whitespace-nowrap">Multi-bodega</td>
-            <td class="py-3 text-slate-400">Stock separado por ubicación, para que el cliente sepa dónde está disponible lo que busca</td>
-            <td class="py-3 text-right font-semibold text-white whitespace-nowrap">$380</td>
-          </tr>
-          <tr class="border-b border-slate-800/50">
-            <td class="py-3 font-semibold text-white whitespace-nowrap">Agenda de servicio técnico</td>
-            <td class="py-3 text-slate-400">Solicitud de mantenimiento en línea, asignación a técnico y seguimiento del estado</td>
-            <td class="py-3 text-right font-semibold text-white whitespace-nowrap">$390</td>
-          </tr>
-          <tr class="border-b border-slate-800/50">
-            <td class="py-3 font-semibold text-white whitespace-nowrap">Cotizador en línea</td>
-            <td class="py-3 text-slate-400">El cliente arma su lista y recibe una proforma en PDF; ustedes la aprueban y se convierte en pedido</td>
-            <td class="py-3 text-right font-semibold text-white whitespace-nowrap">$350</td>
-          </tr>
-          <tr>
-            <td class="py-3 font-semibold text-white whitespace-nowrap">Carga masiva de productos</td>
-            <td class="py-3 text-slate-400">Actualizar precios y stock desde un archivo Excel, sin entrar producto por producto</td>
-            <td class="py-3 text-right font-semibold text-white whitespace-nowrap">$260</td>
-          </tr>
-        </tbody>
-      </table>
+  <!-- B2B + B2C -->
+  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-6 mb-4">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-[10px] font-mono uppercase tracking-widest bg-marca-500/25 text-marca-300 px-2 py-1 rounded">Dos negocios, una tienda</span>
+        </div>
+        <h3 class="text-lg font-semibold text-white">Venta a empresas y a público, en el mismo sitio</h3>
+      </div>
+      <div class="text-right">
+        <p class="text-3xl font-bold text-white">$520</p>
+        <p class="text-xs text-slate-500">+ IVA</p>
+      </div>
     </div>
-    <p class="text-xs text-slate-500 mt-4">Todos los valores son sin IVA. Contratando tres o más módulos junto con la base, se aplica un descuento del 10 % sobre el total de módulos.</p>
+    <p class="text-sm text-slate-300 leading-relaxed mb-5">Hoy un mayorista y un cliente final ven exactamente lo mismo. Este módulo separa los dos mundos <strong class="text-white">sin necesidad de tener dos tiendas</strong>: la misma web se comporta distinto según quién esté mirando.</p>
+
+    <div class="grid md:grid-cols-2 gap-4 mb-5">
+      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5">
+        <p class="font-mono text-[10px] tracking-widest uppercase text-marca-400 mb-2">Cliente final &middot; B2C</p>
+        <p class="text-white font-semibold mb-3 text-sm">Compra normal, como cualquier tienda</p>
+        <ul class="space-y-2 text-sm text-slate-400">
+          <li class="flex gap-2"><span class="text-marca-400">›</span><div>Ve los precios de venta al público</div></li>
+          <li class="flex gap-2"><span class="text-marca-400">›</span><div>Compra sin registrarse</div></li>
+          <li class="flex gap-2"><span class="text-marca-400">›</span><div>Paga en línea con tarjeta o transferencia</div></li>
+        </ul>
+      </div>
+      <div class="rounded-lg border border-emerald-500/30 bg-emerald-500/5 p-5">
+        <p class="font-mono text-[10px] tracking-widest uppercase text-emerald-400 mb-2">Empresa &middot; B2B</p>
+        <p class="text-white font-semibold mb-3 text-sm">Acceso aprobado por ustedes</p>
+        <ul class="space-y-2 text-sm text-slate-400">
+          <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Solicita su cuenta con RUC y datos de la empresa</div></li>
+          <li class="flex gap-2"><span class="text-emerald-400">›</span><div><strong class="text-slate-300">Ustedes aprueban o rechazan</strong> cada solicitud</div></li>
+          <li class="flex gap-2"><span class="text-emerald-400">›</span><div>Recién ahí ve los precios de mayorista</div></li>
+        </ul>
+      </div>
+    </div>
+
+    <h4 class="text-sm font-semibold text-white mb-3">Cómo funciona en la práctica</h4>
+    <ul class="space-y-3 text-sm text-slate-300 mb-5">
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">1</span><div><strong class="text-white">Los precios de mayorista están ocultos.</strong> Quien no tiene cuenta aprobada no los ve — ni entrando por Google, ni compartiendo el enlace. En su lugar aparece un botón para solicitar acceso.</div></li>
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">2</span><div><strong class="text-white">La empresa se registra y queda en espera.</strong> Ustedes reciben la solicitud con el RUC y los datos, y deciden. Nadie entra al canal mayorista sin su aprobación.</div></li>
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">3</span><div><strong class="text-white">Al aprobarla, la tienda cambia para ese cliente.</strong> Entra con su usuario y ve sus precios, sus condiciones y sus mínimos de compra. El resto del mundo sigue viendo el precio normal.</div></li>
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">4</span><div><strong class="text-white">Reglas de descuento por cliente.</strong> Pueden dar un porcentaje distinto a cada empresa, o por categoría de producto, o por volumen de compra. Un distribuidor grande no tiene por qué ver lo mismo que uno que recién empieza.</div></li>
+    </ul>
+
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Lo importante:</strong> su equipo administra todo desde el mismo panel. Aprobar una empresa, cambiarle el descuento o suspenderle el acceso son tres clics, sin depender de nosotros.</p>
+    </div>
   </div>
 
   <!-- Ejemplos de armado -->
@@ -236,36 +237,33 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
           <p class="text-xs text-slate-500">+ IVA</p>
         </div>
       </div>
-      <div class="rounded-lg border border-marca-500/40 bg-marca-500/10 p-5 flex flex-col">
+      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5 flex flex-col">
         <p class="text-white font-semibold mb-1">Con facturación</p>
-        <p class="text-xs text-slate-500 mb-4">Lo anterior, sin digitar facturas</p>
+        <p class="text-xs text-slate-500 mb-4">Sin volver a digitar una factura</p>
         <ul class="space-y-1 text-sm text-slate-400 mb-4">
           <li>› Tienda completa</li>
           <li>› Facturación e inventario</li>
-          <li>› Buscador avanzado</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-slate-700">
-          <p class="text-2xl font-bold text-marca-400">$2.000</p>
+        <div class="mt-auto pt-4 border-t border-slate-800">
+          <p class="text-2xl font-bold text-white">$1.680</p>
           <p class="text-xs text-slate-500">+ IVA</p>
         </div>
       </div>
-      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5 flex flex-col">
+      <div class="rounded-lg border border-marca-500/40 bg-marca-500/10 p-5 flex flex-col">
         <p class="text-white font-semibold mb-1">Completo</p>
-        <p class="text-xs text-slate-500 mb-4">Mayoristas y servicio incluidos</p>
+        <p class="text-xs text-slate-500 mb-4">Mayoristas y facturación incluidos</p>
         <ul class="space-y-1 text-sm text-slate-400 mb-4">
           <li>› Tienda completa</li>
           <li>› Facturación e inventario</li>
-          <li>› Buscador avanzado</li>
-          <li>› Portal de distribuidores</li>
-          <li>› Agenda de servicio técnico</li>
+          <li>› Venta a empresas y a público</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-slate-800">
-          <p class="text-2xl font-bold text-white">$2.649</p>
-          <p class="text-xs text-slate-500">+ IVA · con el 10 % de descuento aplicado</p>
+        <div class="mt-auto pt-4 border-t border-slate-700">
+          <p class="text-2xl font-bold text-marca-400">$2.100</p>
+          <p class="text-xs text-slate-500">+ IVA · con 10 % de descuento en los módulos</p>
         </div>
       </div>
     </div>
-    <p class="text-xs text-slate-500 mt-4">Son ejemplos para dimensionar. El armado final se define según lo que necesiten.</p>
+    <p class="text-xs text-slate-500 mt-4">Son ejemplos para dimensionar. Si contratan dos o más módulos junto con la base. se aplica un <strong class="text-slate-400">10 % de descuento sobre el total de módulos</strong>.</p>
   </div>
 
   <!-- Forma de pago -->
