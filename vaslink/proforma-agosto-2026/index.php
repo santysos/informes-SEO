@@ -46,7 +46,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
   </div>
 
   <div class="rounded-xl border border-slate-700/60 bg-slate-900/40 p-5 mb-10">
-    <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Antes de que sigan leyendo, algo que corresponde decir de entrada:</strong> el tercer escenario propone Quipuy, y Quipuy lo desarrollamos nosotros. No somos un tercero neutral recomendándolo. Lo decimos ahora y no al final, porque de eso dependen tanto las ventajas de ese escenario como los reparos que ustedes tengan derecho a ponerle. Está tratado a fondo más abajo.</p>
+    <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Algo que corresponde decir de entrada:</strong> el tercer escenario propone Quipuy, y Quipuy es un producto nuestro. Lo mencionamos ahora para que lean esa recomendación sabiéndolo. Es también la razón por la que en ese escenario podemos comprometernos con una fecha y con adaptar el sistema a cómo trabajan ustedes: no dependemos de nadie más para hacerlo.</p>
   </div>
 
   <!-- ══════════ DIAGNÓSTICO ══════════ -->
@@ -97,7 +97,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
 
   <!-- ══════════ COMPARATIVA ══════════ -->
   <h2 class="text-2xl font-bold text-white mb-2">Los tres escenarios, de un vistazo</h2>
-  <p class="text-sm text-slate-400 mb-6">Incluida la fila incómoda: los años que lleva cada sistema en el mercado.</p>
+  <p class="text-sm text-slate-400 mb-6">Qué resuelve cada uno, de quién depende la fecha y cuánto cuesta.</p>
 
   <div class="rounded-xl border border-slate-800/50 glass p-4 md:p-6 mb-4 tabla-scroll">
     <table class="w-full text-sm border-collapse min-w-[620px]">
@@ -139,12 +139,6 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
           <td class="py-3 px-3 text-amber-400">De TINI</td>
           <td class="py-3 px-3 text-amber-400">De TINI</td>
           <td class="py-3 pl-3 text-emerald-400">De nosotros</td>
-        </tr>
-        <tr class="border-b border-slate-800/60">
-          <td class="py-3 pr-3 text-slate-500">Años del sistema en el mercado</td>
-          <td class="py-3 px-3 text-emerald-400">Más de 15</td>
-          <td class="py-3 px-3 text-emerald-400">Más de 15</td>
-          <td class="py-3 pl-3 text-amber-400">1 <span class="text-slate-500">(10 con su versión anterior)</span></td>
         </tr>
         <tr class="border-b border-slate-800/60">
           <td class="py-3 pr-3 text-slate-500">¿Se adapta a cómo trabajan ustedes?</td>
@@ -286,6 +280,10 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">La integración ya está construida y funcionando.</strong> No es un desarrollo por hacer ni una promesa: es una pieza probada que se instala y se configura. Por eso acá la fecha de entrega la ponemos nosotros y la cumplimos, sin depender del calendario de nadie más.</p>
     </div>
 
+    <div class="rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-4 mb-4">
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">No hace falta que nos crean:</strong> les mostramos el sistema funcionando, con un caso de su propia operación, antes de que decidan nada. Es media hora y se resuelven en la práctica las dudas que en papel quedan abiertas.</p>
+    </div>
+
     <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
       <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-white">Desde el año 2: $350 + IVA anuales.</strong> Es el plan Empresarial de Quipuy —facturas ilimitadas, 10 usuarios, multisucursal y contabilidad completa—. El primer año va incluido en los $1.350.</p>
       <p class="text-sm text-slate-400 leading-relaxed">Contra lo que hoy pagan por TINI, es una comparación que vale la pena que hagan ustedes con la factura en la mano.</p>
@@ -302,21 +300,6 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <div class="flex justify-between items-baseline py-2 text-sm"><span class="text-slate-400">Renovación anual</span><strong class="text-white">$300</strong></div>
     </div>
     <p class="text-sm text-slate-300 leading-relaxed">Casi <strong class="text-white">$4.700 la primera vez</strong>, contra $1.350 acá — y con la página web incluida el total sigue quedando por debajo. <strong class="text-white">La renovación anual, en cambio, es prácticamente la misma:</strong> $300 allá, $350 acá. Se lo decimos para que quede claro dónde está la diferencia y dónde no.</p>
-  </div>
-
-  <!-- Quipuy es nuevo -->
-  <div class="rounded-xl border border-amber-500/30 bg-amber-500/5 p-6 mb-4">
-    <h3 class="text-lg font-semibold text-white mb-3">Quipuy es nuevo. Hablemos de eso.</h3>
-    <p class="text-sm text-slate-300 leading-relaxed mb-4"><strong class="text-white">TINI lleva más de quince años en el mercado y Quipuy lleva uno.</strong> Preferimos ponerlo nosotros sobre la mesa antes de que lo pregunten, porque es la objeción correcta y merece una respuesta, no una esquivada.</p>
-    <ul class="space-y-4 text-sm text-slate-300 mb-5">
-      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Un año de producto, diez de recorrido.</strong> Quipuy es la reconstrucción de Geven, que salió hace diez años con el mismo equipo detrás. Lo nuevo es la herramienta, no la experiencia en facturación y contabilidad ecuatoriana.</div></li>
-      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Lo desarrollamos nosotros, y por eso lo recomendamos.</strong> No estamos pasándoles el producto de un tercero: es nuestro. Eso tiene una contra evidente —no somos imparciales— y una ventaja concreta: si algo falla entre la tienda y la facturación, no hay a quién derivar el problema.</div></li>
-      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Un sistema de quince años no se va a mover por ustedes.</strong> Cuando un producto tiene miles de clientes, cada cambio se decide pensando en todos. Ustedes piden algo y entran a una fila. Acá la adaptación a su forma de trabajar ya está presupuestada, y es la razón por la que este escenario incluye desarrollo.</div></li>
-      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Sus datos no quedan secuestrados.</strong> Las facturas electrónicas son archivos XML en formato del SRI: son suyas, se exportan cuando quieran y sirven en cualquier otro sistema. La validez ante el SRI la da el SRI, no los años del proveedor.</div></li>
-    </ul>
-    <div class="rounded-lg border border-emerald-500/40 bg-emerald-500/10 p-4">
-      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">Y no hace falta que nos crean:</strong> les mostramos Quipuy funcionando, con un caso de su propia operación, antes de que decidan nada. Un sistema de quince años se elige por referencias; este lo pueden ver trabajando en la reunión siguiente.</p>
-    </div>
   </div>
 
   <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-6 mb-10">
