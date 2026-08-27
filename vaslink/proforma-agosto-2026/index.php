@@ -46,7 +46,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
   </div>
 
   <div class="rounded-xl border border-slate-700/60 bg-slate-900/40 p-5 mb-10">
-    <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Algo que corresponde decir de entrada:</strong> el tercer escenario propone Quipuy, y Quipuy es un producto nuestro. Lo mencionamos ahora para que lean esa recomendación sabiéndolo. Es también la razón por la que en ese escenario podemos comprometernos con una fecha y con adaptar el sistema a cómo trabajan ustedes: no dependemos de nadie más para hacerlo.</p>
+    <p class="text-sm text-slate-300 leading-relaxed">Como ya conversamos, el sistema contable del tercer escenario &mdash;Quipuy&mdash; lo desarrollamos nosotros y la integración con la tienda ya está construida. Por eso ahí la fecha de entrega la ponemos nosotros. <strong class="text-white">A cambio, es el escenario que exige un paso previo:</strong> confirmar que Quipuy cubre todo lo que hoy hacen con TINI, antes de que nadie firme nada. Está descrito más abajo y no tiene costo.</p>
   </div>
 
   <!-- ══════════ DIAGNÓSTICO ══════════ -->
@@ -272,8 +272,25 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     </div>
 
     <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
-      <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-emerald-400">Los $1.350 no son una licencia: son el sistema puesto a funcionar como ustedes trabajan.</strong> No sabemos todavía qué módulos de TINI usan en el día a día. Puede que Quipuy los cubra todos, o puede que haya que desarrollar alguno. Ese presupuesto de adaptación va incluido en el valor.</p>
-      <p class="text-sm text-slate-400 leading-relaxed">Es exactamente lo contrario de lo que pasa con un sistema grande: ahí el que se adapta es el cliente.</p>
+      <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-emerald-400">Los $1.350 no son una licencia: son el sistema puesto a funcionar como ustedes trabajan.</strong> Cubren la implementación, la carga inicial de datos, la capacitación y los ajustes de configuración, reportes y formatos para que calce con su operación.</p>
+      <p class="text-sm text-slate-400 leading-relaxed">Es lo contrario de lo que pasa con un sistema grande, donde el que se adapta es el cliente. Pero tiene un límite y conviene decirlo: ajustar lo que existe está incluido; <strong class="text-slate-300">construir un módulo que Quipuy hoy no tiene, no</strong>. Para eso está el paso previo.</p>
+    </div>
+
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4 mb-4">
+      <p class="text-sm font-semibold text-white mb-3">Lo que Quipuy cubre hoy, sin desarrollar nada</p>
+      <div class="grid md:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-slate-400 mb-4">
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Facturación electrónica SRI</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Inventario con kardex</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Compras y retenciones</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Cuentas por cobrar y planes de pago</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Caja y proformas</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>ATS mensual</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Multisucursal</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Contabilidad completa y reportes fiscales</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Etiquetas de código de barras</div></div>
+        <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>10 usuarios</div></div>
+      </div>
+      <p class="text-sm text-slate-400 leading-relaxed">Comparen esta lista contra lo que usan en TINI. <strong class="text-slate-300">Si hay algo que acá no aparezca, díganlo ahora</strong> y les decimos de una si es un ajuste, un desarrollo aparte, o una razón para quedarse en el escenario 2.</p>
     </div>
 
     <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
@@ -310,6 +327,28 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">3</span><div><strong class="text-white">Un solo responsable.</strong> La tienda, el sistema contable y la conexión entre ambos los hace el mismo equipo. No hay dos proveedores señalándose entre sí.</div></li>
       <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">4</span><div><strong class="text-white">No quedan amarrados.</strong> Si más adelante prefieren volver a TINI, la tienda queda hecha igual y el conector se cotiza aparte. Sus datos salen en formato del SRI cuando quieran.</div></li>
     </ul>
+  </div>
+
+  <div class="rounded-xl border border-marca-500/40 bg-marca-500/10 p-6 mb-10">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-3">
+      <div class="flex-1 min-w-[240px]">
+        <span class="text-[10px] font-mono uppercase tracking-widest bg-marca-500/25 text-marca-300 px-2 py-1 rounded">Antes de firmar</span>
+        <h3 class="text-lg font-semibold text-white mt-3">Paso previo: comparar Quipuy contra lo que hacen en TINI</h3>
+      </div>
+      <div class="text-right">
+        <p class="text-2xl font-bold text-marca-400">Sin costo</p>
+        <p class="text-xs text-slate-500">2 a 3 días</p>
+      </div>
+    </div>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4">Llevan quince años operando con TINI y hay procesos suyos que nosotros todavía no conocemos. <strong class="text-white">Ese es el único riesgo real del escenario 3</strong>, y la manera de resolverlo no es prometer que todo va a estar cubierto: es revisarlo antes de que pongan un dólar.</p>
+    <ul class="space-y-3 text-sm text-slate-300 mb-4">
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">1</span><div>Nos sentamos con quien usa TINI todos los días y anotamos qué módulos abre, qué reportes saca y qué pasos del proceso pasan por ahí.</div></li>
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">2</span><div>Marcamos cada punto en tres columnas: <strong class="text-white">lo cubre Quipuy tal cual</strong>, <strong class="text-white">es un ajuste incluido</strong>, o <strong class="text-white">es un desarrollo aparte</strong>.</div></li>
+      <li class="flex gap-3"><span class="text-marca-400 mt-0.5">3</span><div>Les entregamos esa lista. Si aparece un desarrollo aparte, va con su valor y su plazo antes de que decidan nada.</div></li>
+    </ul>
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+      <p class="text-sm text-slate-300 leading-relaxed">Puede pasar perfectamente que de esa revisión salga que <strong class="text-white">les conviene el escenario 2 y quedarse en TINI</strong>. Si es así se los vamos a decir, aunque nos convenga menos. Preferimos eso a entregarles un sistema al que le falte algo que usan todos los días.</p>
+    </div>
   </div>
 
   <!-- ══════════ QUÉ INCLUYE LA TIENDA NUEVA ══════════ -->
@@ -420,7 +459,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
         <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 6</span><div class="text-slate-300">Pruebas, capacitación y salida en vivo.</div></div>
       </div>
       <p class="text-sm text-slate-400 leading-relaxed mt-4"><strong class="text-slate-300">Seis semanas.</strong> En el escenario 3 esa fecha es firme, porque la integración ya está construida. En el escenario 2, la semana 5 puede correrse según el equipo de TINI.</p>
-      <p class="text-sm text-slate-400 leading-relaxed mt-3">Para el escenario 3, la semana 1 arranca con un <strong class="text-slate-300">levantamiento de lo que usan hoy en TINI</strong>: qué módulos, qué reportes, qué pasos del día a día. De ahí sale qué cubre Quipuy tal cual y qué hay que adaptar. Si algo excede el presupuesto de adaptación incluido, se los decimos ahí y no después.</p>
+      <p class="text-sm text-slate-400 leading-relaxed mt-3">En el escenario 3 estas seis semanas empiezan a contar <strong class="text-slate-300">después del paso previo</strong>, que se hace antes de firmar y no tiene costo. Si de ahí sale algún desarrollo aparte, se suma al plazo con su propio valor, ya conversado.</p>
     </div>
 
     <p class="text-sm text-slate-400 leading-relaxed">La tienda actual sigue funcionando mientras tanto: el cambio se hace recién cuando la nueva está probada.</p>
@@ -435,6 +474,8 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Costos de pasarela de pagos ni comisiones bancarias</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>La suscripción anual del sistema de facturación <span class="text-xs">(en el escenario 3, el primer año va incluido y la renovación es de $350 + IVA desde el año 2)</span></div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Desarrollos que TINI tenga que hacer de su lado</div></li>
+      <li class="flex gap-2"><span class="text-slate-600">·</span><div>Módulos que Quipuy hoy no tenga y que su operación necesite <span class="text-xs">(se identifican en el paso previo y se cotizan aparte, antes de firmar; los ajustes de configuración, reportes y formatos sí van incluidos)</span></div></li>
+      <li class="flex gap-2"><span class="text-slate-600">·</span><div>Migración del historial contable que tengan cargado en TINI <span class="text-xs">(se cotiza según el volumen y en qué formato lo puedan exportar)</span></div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Alojamiento y dominio <span class="text-xs">(se cotizan aparte según el tráfico que necesiten)</span></div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Plan de posicionamiento en Google <span class="text-xs">(se puede cotizar por separado)</span></div></li>
     </ul>
