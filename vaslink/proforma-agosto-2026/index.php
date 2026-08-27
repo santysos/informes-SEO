@@ -77,7 +77,7 @@ section{scroll-margin-top:80px}
     </a>
     <a href="#esc3" class="rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-6 hover:border-emerald-500/70 transition">
       <p class="eyebrow text-emerald-400 mb-3">Escenario 3 &middot; recomendado</p>
-      <p class="text-3xl font-bold text-emerald-400 mb-2">$2.550</p>
+      <p class="text-3xl font-bold text-emerald-400 mb-2">$3.280</p>
       <p class="text-sm text-slate-400">Web nueva + Quipuy</p>
     </a>
   </div>
@@ -187,7 +187,7 @@ section{scroll-margin-top:80px}
               <td class="py-4 pr-3 text-slate-500 font-semibold">Inversión</td>
               <td class="py-4 px-3 text-xl font-bold text-white">$680</td>
               <td class="py-4 px-3 text-xl font-bold text-white">$1.680</td>
-              <td class="py-4 pl-3 text-xl font-bold text-emerald-400">$2.550</td>
+              <td class="py-4 pl-3 text-xl font-bold text-emerald-400">$3.280</td>
             </tr>
           </tbody>
         </table>
@@ -259,7 +259,7 @@ section{scroll-margin-top:80px}
         <div class="md:sticky md:top-24">
           <span class="eyebrow bg-emerald-500/20 text-emerald-300 px-2 py-1 rounded">Recomendado</span>
           <h3 class="text-xl font-semibold text-white leading-tight mb-4 mt-3">Tienda nueva + Quipuy</h3>
-          <p class="text-3xl font-bold text-emerald-400">$2.550</p>
+          <p class="text-3xl font-bold text-emerald-400">$3.280</p>
           <p class="text-xs text-slate-500">+ IVA</p>
         </div>
       </div>
@@ -271,7 +271,7 @@ section{scroll-margin-top:80px}
           </div>
           <div class="rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-4">
             <p class="text-xs text-slate-500 mb-1">Quipuy implementado y adaptado</p>
-            <p class="text-xl font-bold text-emerald-400">$1.350</p>
+            <p class="text-xl font-bold text-emerald-400">$2.080</p>
           </div>
         </div>
 
@@ -296,7 +296,7 @@ section{scroll-margin-top:80px}
 
         <div class="grid sm:grid-cols-2 gap-3">
           <div class="rounded-xl border border-slate-800/60 bg-slate-900/40 p-5">
-            <p class="text-sm font-semibold text-white mb-2">Qué cubren los $1.350</p>
+            <p class="text-sm font-semibold text-white mb-2">Qué cubren los $2.080</p>
             <p class="text-sm text-slate-400 leading-relaxed">Implementación, carga inicial, capacitación, primer año del sistema y los ajustes de configuración, reportes y formatos. Un módulo nuevo también lo desarrollamos, con valor y plazo propios.</p>
           </div>
           <div class="rounded-xl border border-slate-800/60 bg-slate-900/40 p-5">

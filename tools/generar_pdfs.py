@@ -187,9 +187,9 @@ DOCS["vaslink/proforma-agosto-2026/pdf/escenario-3"] = hoja(
       "M&oacute;dulo de conexi&oacute;n con la tienda, ya construido, instalado y configurado",
       "Implementaci&oacute;n, carga inicial, capacitaci&oacute;n y primer a&ntilde;o del sistema incluidos",
       "<b style='display:inline;font-size:9.2pt'>Renovaci&oacute;n desde el a&ntilde;o 2: $350.00 + IVA anuales</b>",
-  ], "1,350.00"),
-  totales([("Subtotal:", "$ 2,550.00", ""), ("Descuento:", "", ""),
-           ("IVA 15%:", "", ""), ("TOTAL:", "$ 2,550.00", "total")]),
+  ], "2,080.00"),
+  totales([("Subtotal:", "$ 3,280.00", ""), ("Descuento:", "", ""),
+           ("IVA 15%:", "", ""), ("TOTAL:", "$ 3,280.00", "total")]),
   "",
   "Antes de firmar se realiza, sin costo, el levantamiento de los m&oacute;dulos que hoy usan en TINI. "
   "Los ajustes de configuraci&oacute;n, reportes y formatos van incluidos; un m&oacute;dulo que Quipuy no "
