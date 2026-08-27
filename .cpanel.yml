@@ -429,3 +429,13 @@ deployment:
     - chmod 644 $BASEPATH/optica-pluss/proforma-agosto-2026/*.php
     - chmod 644 $BASEPATH/optica-pluss/proforma-agosto-2026/.htaccess
     - chmod 644 $BASEPATH/optica-pluss/proforma-agosto-2026/proforma.pdf
+    # ---- Multitecnología VYV: plan de acción velocidad (login VYV-2026) ----
+    - /bin/mkdir -p $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026
+    - chmod 755 $BASEPATH/multitecnologia-vyv
+    - chmod 755 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026
+    - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/.htaccess $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/login.php $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/index.php $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/logout.php $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
+    - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/*.php
+    - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/.htaccess
