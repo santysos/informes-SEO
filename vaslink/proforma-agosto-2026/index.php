@@ -41,8 +41,12 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     <a href="logout.php" class="text-xs text-slate-500 hover:text-slate-300 whitespace-nowrap mt-2">Salir</a>
   </div>
 
-  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-5 mb-10">
+  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-5 mb-6">
     <p class="text-sm text-slate-300 leading-relaxed">Después de conversar quedaron <strong class="text-white">tres caminos posibles</strong>, y no son tres precios del mismo trabajo: son tres decisiones distintas. Este documento los presenta uno por uno, con lo que cada uno resuelve y lo que cada uno deja pendiente.</p>
+  </div>
+
+  <div class="rounded-xl border border-slate-700/60 bg-slate-900/40 p-5 mb-10">
+    <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Antes de que sigan leyendo, algo que corresponde decir de entrada:</strong> el tercer escenario propone Quipuy, y Quipuy lo desarrollamos nosotros. No somos un tercero neutral recomendándolo. Lo decimos ahora y no al final, porque de eso dependen tanto las ventajas de ese escenario como los reparos que ustedes tengan derecho a ponerle. Está tratado a fondo más abajo.</p>
   </div>
 
   <!-- ══════════ DIAGNÓSTICO ══════════ -->
@@ -93,7 +97,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
 
   <!-- ══════════ COMPARATIVA ══════════ -->
   <h2 class="text-2xl font-bold text-white mb-2">Los tres escenarios, de un vistazo</h2>
-  <p class="text-sm text-slate-400 mb-6">La diferencia entre el segundo y el tercero es de $120. Vale la pena mirar esa fila con calma.</p>
+  <p class="text-sm text-slate-400 mb-6">Incluida la fila incómoda: los años que lleva cada sistema en el mercado.</p>
 
   <div class="rounded-xl border border-slate-800/50 glass p-4 md:p-6 mb-4 tabla-scroll">
     <table class="w-full text-sm border-collapse min-w-[620px]">
@@ -137,16 +141,28 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
           <td class="py-3 pl-3 text-emerald-400">De nosotros</td>
         </tr>
         <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">Años del sistema en el mercado</td>
+          <td class="py-3 px-3 text-emerald-400">Más de 15</td>
+          <td class="py-3 px-3 text-emerald-400">Más de 15</td>
+          <td class="py-3 pl-3 text-amber-400">1 <span class="text-slate-500">(10 con su versión anterior)</span></td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">¿Se adapta a cómo trabajan ustedes?</td>
+          <td class="py-3 px-3 text-slate-400">Ustedes se adaptan a él</td>
+          <td class="py-3 px-3 text-slate-400">Ustedes se adaptan a él</td>
+          <td class="py-3 pl-3 text-emerald-400">Sí, y está presupuestado</td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
           <td class="py-3 pr-3 text-slate-500">Costo anual del sistema</td>
           <td class="py-3 px-3">El que ya pagan a TINI</td>
           <td class="py-3 px-3">El que ya pagan a TINI</td>
-          <td class="py-3 pl-3 text-white">$350 + IVA al año</td>
+          <td class="py-3 pl-3 text-white">$350 + IVA, desde el año 2</td>
         </tr>
         <tr>
           <td class="py-4 pr-3 text-slate-500 font-semibold">Inversión</td>
           <td class="py-4 px-3 text-xl font-bold text-white">$680</td>
           <td class="py-4 px-3 text-xl font-bold text-white">$1.680</td>
-          <td class="py-4 pl-3 text-xl font-bold text-marca-400">$1.800</td>
+          <td class="py-4 pl-3 text-xl font-bold text-marca-400">$2.550</td>
         </tr>
       </tbody>
     </table>
@@ -234,20 +250,36 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
         <h3 class="text-lg font-semibold text-white mt-3">Tienda nueva + sistema contable completo, ya integrados</h3>
       </div>
       <div class="text-right">
-        <p class="text-4xl font-bold text-emerald-400">$1.800</p>
+        <p class="text-4xl font-bold text-emerald-400">$2.550</p>
         <p class="text-xs text-slate-500">+ IVA</p>
       </div>
     </div>
 
     <p class="text-sm text-slate-300 leading-relaxed mb-5">Acá no cambian de facturador: cambian de sistema. <strong class="text-white">Quipuy no es solo facturación electrónica</strong> — es facturación, inventario con kardex, compras, retenciones, caja, proformas, cuentas por cobrar, multisucursal y contabilidad completa, en un solo lugar y sincronizado con la tienda.</p>
 
+    <div class="grid md:grid-cols-2 gap-4 mb-5">
+      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+        <p class="text-xs text-slate-500 mb-1">Tienda en línea completa</p>
+        <p class="text-2xl font-bold text-white">$1.200</p>
+      </div>
+      <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4">
+        <p class="text-xs text-slate-500 mb-1">Quipuy implementado y adaptado</p>
+        <p class="text-2xl font-bold text-emerald-400">$1.350</p>
+      </div>
+    </div>
+
     <div class="grid md:grid-cols-2 gap-3 text-sm text-slate-300 mb-5">
       <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Tienda en línea completa (todo el detalle de abajo)</div></div>
       <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Módulo de conexión instalado y configurado</div></div>
       <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Factura electrónica emitida y enviada sola</div></div>
       <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Inventario sincronizado en los dos sentidos</div></div>
-      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Puesta en marcha del sistema y carga inicial</div></div>
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Primer año del sistema incluido</div></div>
       <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Capacitación a su equipo en el sistema</div></div>
+    </div>
+
+    <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
+      <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-emerald-400">Los $1.350 no son una licencia: son el sistema puesto a funcionar como ustedes trabajan.</strong> No sabemos todavía qué módulos de TINI usan en el día a día. Puede que Quipuy los cubra todos, o puede que haya que desarrollar alguno. Ese presupuesto de adaptación va incluido en el valor.</p>
+      <p class="text-sm text-slate-400 leading-relaxed">Es exactamente lo contrario de lo que pasa con un sistema grande: ahí el que se adapta es el cliente.</p>
     </div>
 
     <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
@@ -255,18 +287,45 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     </div>
 
     <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
-      <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-white">Costo anual del sistema: $350 + IVA</strong> — es el plan Empresarial de Quipuy, con facturas ilimitadas, 10 usuarios, multisucursal y contabilidad completa. Se paga directamente a Quipuy, una vez al año, y no es una comisión nuestra.</p>
+      <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-white">Desde el año 2: $350 + IVA anuales.</strong> Es el plan Empresarial de Quipuy —facturas ilimitadas, 10 usuarios, multisucursal y contabilidad completa—. El primer año va incluido en los $1.350.</p>
       <p class="text-sm text-slate-400 leading-relaxed">Contra lo que hoy pagan por TINI, es una comparación que vale la pena que hagan ustedes con la factura en la mano.</p>
     </div>
   </div>
 
+  <!-- Ancla de precio -->
+  <div class="rounded-xl border border-slate-800/50 glass p-6 mb-4">
+    <h3 class="text-base font-semibold text-white mb-3">Para ubicar los $2.550</h3>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4">El año pasado conectamos una tienda WooCommerce con otro sistema contable ecuatoriano de este mismo alcance. Lo que costó armar esa operación, sin la página web:</p>
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4 mb-4">
+      <div class="flex justify-between items-baseline py-2 border-b border-slate-800/60 text-sm"><span class="text-slate-400">Sistema contable</span><strong class="text-white">$4.000</strong></div>
+      <div class="flex justify-between items-baseline py-2 border-b border-slate-800/60 text-sm"><span class="text-slate-400">Desarrollo adicional para su operación</span><strong class="text-white">$700</strong></div>
+      <div class="flex justify-between items-baseline py-2 text-sm"><span class="text-slate-400">Renovación anual</span><strong class="text-white">$300</strong></div>
+    </div>
+    <p class="text-sm text-slate-300 leading-relaxed">Casi <strong class="text-white">$4.700 la primera vez</strong>, contra $1.350 acá — y con la página web incluida el total sigue quedando por debajo. <strong class="text-white">La renovación anual, en cambio, es prácticamente la misma:</strong> $300 allá, $350 acá. Se lo decimos para que quede claro dónde está la diferencia y dónde no.</p>
+  </div>
+
+  <!-- Quipuy es nuevo -->
+  <div class="rounded-xl border border-amber-500/30 bg-amber-500/5 p-6 mb-4">
+    <h3 class="text-lg font-semibold text-white mb-3">Quipuy es nuevo. Hablemos de eso.</h3>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4"><strong class="text-white">TINI lleva más de quince años en el mercado y Quipuy lleva uno.</strong> Preferimos ponerlo nosotros sobre la mesa antes de que lo pregunten, porque es la objeción correcta y merece una respuesta, no una esquivada.</p>
+    <ul class="space-y-4 text-sm text-slate-300 mb-5">
+      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Un año de producto, diez de recorrido.</strong> Quipuy es la reconstrucción de Geven, que salió hace diez años con el mismo equipo detrás. Lo nuevo es la herramienta, no la experiencia en facturación y contabilidad ecuatoriana.</div></li>
+      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Lo desarrollamos nosotros, y por eso lo recomendamos.</strong> No estamos pasándoles el producto de un tercero: es nuestro. Eso tiene una contra evidente —no somos imparciales— y una ventaja concreta: si algo falla entre la tienda y la facturación, no hay a quién derivar el problema.</div></li>
+      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Un sistema de quince años no se va a mover por ustedes.</strong> Cuando un producto tiene miles de clientes, cada cambio se decide pensando en todos. Ustedes piden algo y entran a una fila. Acá la adaptación a su forma de trabajar ya está presupuestada, y es la razón por la que este escenario incluye desarrollo.</div></li>
+      <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Sus datos no quedan secuestrados.</strong> Las facturas electrónicas son archivos XML en formato del SRI: son suyas, se exportan cuando quieran y sirven en cualquier otro sistema. La validez ante el SRI la da el SRI, no los años del proveedor.</div></li>
+    </ul>
+    <div class="rounded-lg border border-emerald-500/40 bg-emerald-500/10 p-4">
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">Y lo ponemos por escrito:</strong> si dentro de los primeros doce meses deciden que Quipuy no les sirve, les descontamos íntegros los $1.350 del desarrollo de la integración con TINI. La tienda queda hecha igual. <strong class="text-white">El riesgo de probar algo nuevo lo asumimos nosotros, no ustedes.</strong></p>
+    </div>
+  </div>
+
   <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-6 mb-10">
-    <h3 class="text-base font-semibold text-white mb-3">Por qué recomendamos este</h3>
+    <h3 class="text-base font-semibold text-white mb-3">Por qué recomendamos este escenario</h3>
     <ul class="space-y-3 text-sm text-slate-300">
-      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">1</span><div><strong class="text-white">Cuesta $120 más que el escenario 2</strong> y por esa diferencia no reciben una conexión: reciben un sistema contable completo instalado y andando.</div></li>
-      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">2</span><div><strong class="text-white">Es el único con fecha firme.</strong> En los otros dos, el día en que la facturación quede automática depende de un tercero. Acá no hay tercero.</div></li>
-      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">3</span><div><strong class="text-white">Un solo responsable.</strong> Si algo falla entre la tienda y la facturación, no hay a quién derivar el problema: es nuestro y lo arreglamos nosotros.</div></li>
-      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">4</span><div><strong class="text-white">Es reversible.</strong> Si más adelante quieren volver a TINI, la tienda queda hecha igual y el módulo de conexión se cotiza aparte. No quedan amarrados.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">1</span><div><strong class="text-white">Es el único con fecha firme.</strong> En los otros dos, el día en que la facturación quede automática depende de un tercero. Acá no hay tercero.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">2</span><div><strong class="text-white">Es el único que se acomoda a ustedes.</strong> En los escenarios 1 y 2, si TINI no hace algo que necesitan, no hay conversación posible. Acá sí, y ya está pagada.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">3</span><div><strong class="text-white">Un solo responsable.</strong> La tienda, el sistema contable y la conexión entre ambos los hace el mismo equipo. No hay dos proveedores señalándose entre sí.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">4</span><div><strong class="text-white">Es reversible, con garantía escrita.</strong> Si en el primer año no funciona para ustedes, los $1.350 se acreditan a la integración con TINI. No quedan amarrados.</div></li>
     </ul>
   </div>
 
@@ -378,6 +437,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
         <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 6</span><div class="text-slate-300">Pruebas, capacitación y salida en vivo.</div></div>
       </div>
       <p class="text-sm text-slate-400 leading-relaxed mt-4"><strong class="text-slate-300">Seis semanas.</strong> En el escenario 3 esa fecha es firme, porque la integración ya está construida. En el escenario 2, la semana 5 puede correrse según el equipo de TINI.</p>
+      <p class="text-sm text-slate-400 leading-relaxed mt-3">Para el escenario 3, la semana 1 arranca con un <strong class="text-slate-300">levantamiento de lo que usan hoy en TINI</strong>: qué módulos, qué reportes, qué pasos del día a día. De ahí sale qué cubre Quipuy tal cual y qué hay que adaptar. Si algo excede el presupuesto de adaptación incluido, se los decimos ahí y no después.</p>
     </div>
 
     <p class="text-sm text-slate-400 leading-relaxed">La tienda actual sigue funcionando mientras tanto: el cambio se hace recién cuando la nueva está probada.</p>
@@ -390,7 +450,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Fotografía de producto ni edición de imágenes existentes</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Redacción de descripciones para los 2.109 productos</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Costos de pasarela de pagos ni comisiones bancarias</div></li>
-      <li class="flex gap-2"><span class="text-slate-600">·</span><div>La suscripción anual del sistema de facturación <span class="text-xs">(en el escenario 3 son los $350 + IVA indicados arriba, que se pagan a Quipuy)</span></div></li>
+      <li class="flex gap-2"><span class="text-slate-600">·</span><div>La suscripción anual del sistema de facturación <span class="text-xs">(en el escenario 3, el primer año va incluido y la renovación es de $350 + IVA desde el año 2)</span></div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Desarrollos que TINI tenga que hacer de su lado</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Alojamiento y dominio <span class="text-xs">(se cotizan aparte según el tráfico que necesiten)</span></div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Plan de posicionamiento en Google <span class="text-xs">(se puede cotizar por separado)</span></div></li>
@@ -401,7 +461,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
   <div class="rounded-xl border border-slate-800/50 glass p-6 mb-10">
     <h3 class="text-lg font-semibold text-white mb-4">Por qué nosotros</h3>
     <p class="text-sm text-slate-300 leading-relaxed mb-4">Trabajamos tiendas en línea sobre WooCommerce con catálogos grandes y necesidades de mayorista, y desarrollamos las integraciones de facturación electrónica nosotros mismos — no las tercerizamos ni dependemos de un plugin de terceros que mañana deje de actualizarse.</p>
-    <p class="text-sm text-slate-300 leading-relaxed mb-4">El módulo de conexión con Quipuy está construido y en uso. Hicimos también la misma integración contra otro sistema de facturación distinto, así que el problema de conectar WooCommerce con un facturador electrónico ecuatoriano ya lo resolvimos dos veces. Es por eso que podemos decirles con confianza qué se puede prometer con TINI y qué no.</p>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4">El módulo de conexión con Quipuy está construido y en uso, y Quipuy es un producto nuestro. Hicimos también la misma integración contra otro sistema contable ecuatoriano distinto —el de los $4.700 que aparece arriba—, así que el problema de conectar WooCommerce con un facturador electrónico del país ya lo resolvimos desde los dos lados: desarrollando el sistema y desarrollando el conector hacia uno ajeno. Es por eso que podemos decirles con confianza qué se puede prometer con TINI y qué no.</p>
     <p class="text-sm text-slate-400 leading-relaxed">Además llevamos planes de contenido y posicionamiento para varios clientes en Ecuador, así que la tienda no se entrega y se abandona: sabemos qué hace falta después para que la encuentren.</p>
   </div>
 
