@@ -484,3 +484,22 @@ deployment:
     - /bin/cp -f assets/creativeweb-blanco.png $BASEPATH/assets/
     - /bin/cp -f assets/creativeweb-iso.png $BASEPATH/assets/
     - chmod 644 $BASEPATH/assets/*.png
+    - /bin/mkdir -p $BASEPATH/motrix/proforma-agosto-2026/pdf
+    - chmod 755 $BASEPATH/motrix/proforma-agosto-2026/pdf
+    - /bin/cp -f motrix/proforma-agosto-2026/pdf/cotizacion.pdf $BASEPATH/motrix/proforma-agosto-2026/pdf/
+    - chmod 644 $BASEPATH/motrix/proforma-agosto-2026/pdf/*.pdf
+    - /bin/mkdir -p $BASEPATH/vaslink/proforma-agosto-2026/pdf
+    - chmod 755 $BASEPATH/vaslink/proforma-agosto-2026/pdf
+    - /bin/cp -f vaslink/proforma-agosto-2026/pdf/escenario-1.pdf $BASEPATH/vaslink/proforma-agosto-2026/pdf/
+    - /bin/cp -f vaslink/proforma-agosto-2026/pdf/escenario-2.pdf $BASEPATH/vaslink/proforma-agosto-2026/pdf/
+    - /bin/cp -f vaslink/proforma-agosto-2026/pdf/escenario-3.pdf $BASEPATH/vaslink/proforma-agosto-2026/pdf/
+    - chmod 644 $BASEPATH/vaslink/proforma-agosto-2026/pdf/*.pdf
+    - /bin/mkdir -p $BASEPATH/parque-condor/proforma-agosto-2026/pdf
+    - chmod 755 $BASEPATH/parque-condor/proforma-agosto-2026/pdf
+    - /bin/cp -f parque-condor/proforma-agosto-2026/pdf/sitio-web.pdf $BASEPATH/parque-condor/proforma-agosto-2026/pdf/
+    - /bin/cp -f parque-condor/proforma-agosto-2026/pdf/plan-seo.pdf $BASEPATH/parque-condor/proforma-agosto-2026/pdf/
+    - chmod 644 $BASEPATH/parque-condor/proforma-agosto-2026/pdf/*.pdf
+    - /bin/mkdir -p $BASEPATH/dikapsa/proforma-seo-agosto-2026/pdf
+    - chmod 755 $BASEPATH/dikapsa/proforma-seo-agosto-2026/pdf
+    - /bin/cp -f dikapsa/proforma-seo-agosto-2026/pdf/plan-seo.pdf $BASEPATH/dikapsa/proforma-seo-agosto-2026/pdf/
+    - chmod 644 $BASEPATH/dikapsa/proforma-seo-agosto-2026/pdf/*.pdf

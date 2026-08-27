@@ -422,6 +422,13 @@ section{scroll-margin-top:80px}
             </div>
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20de%20SEO%20para%20Dikapsa%20y%20Doeco" target="_blank" rel="noopener" class="px-6 py-3 rounded-xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold text-sm hover:brightness-110 transition whitespace-nowrap">Escribir por WhatsApp</a>
+        
+          <div class="mt-8 pt-6 border-t border-slate-800/60">
+            <p class="text-xs text-slate-500 mb-3">Descargue la cotización en PDF</p>
+            <div class="flex flex-wrap gap-3">
+            <a href="pdf/plan-seo.pdf" download class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition whitespace-nowrap">&darr;&nbsp; Descargar cotización</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

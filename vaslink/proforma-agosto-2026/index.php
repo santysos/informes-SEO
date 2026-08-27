@@ -311,21 +311,10 @@ section{scroll-margin-top:80px}
     <div class="md:grid md:grid-cols-12 md:gap-10 mt-14 pt-10 border-t border-slate-800/50">
       <div class="md:col-span-3 mb-6 md:mb-0">
         <p class="eyebrow text-marca-400 mb-2">Antes de decidir</p>
-        <h3 class="text-xl font-semibold text-white leading-tight">Dos cosas que conviene tener claras</h3>
+        <h3 class="text-xl font-semibold text-white leading-tight">Lo que conviene tener claro</h3>
       </div>
       <div class="md:col-span-9">
-        <div class="grid lg:grid-cols-2 gap-4 mb-4">
-          <div class="rounded-2xl border border-slate-800/50 glass p-6">
-            <h4 class="text-base font-semibold text-white mb-3">Para ubicar el valor</h4>
-            <p class="text-sm text-slate-400 leading-relaxed mb-4">El año pasado conectamos una tienda WooCommerce con otro sistema contable ecuatoriano del mismo alcance. Lo que costó, sin la página web:</p>
-            <div class="mb-4">
-              <div class="flex justify-between py-2 border-b border-slate-800/60 text-sm"><span class="text-slate-400">Sistema contable</span><strong class="text-white">$4.000</strong></div>
-              <div class="flex justify-between py-2 border-b border-slate-800/60 text-sm"><span class="text-slate-400">Desarrollo adicional</span><strong class="text-white">$700</strong></div>
-              <div class="flex justify-between py-2 text-sm"><span class="text-slate-400">Renovación anual</span><strong class="text-white">$300</strong></div>
-            </div>
-            <p class="text-sm text-slate-300 leading-relaxed">Casi <strong class="text-white">$4.700 la primera vez</strong>, contra $1.350 acá. La renovación anual, en cambio, es casi la misma: $300 allá, $350 acá.</p>
-          </div>
-
+        <div class="mb-4">
           <div class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-6">
             <div class="flex items-start justify-between gap-3 mb-3">
               <h4 class="text-base font-semibold text-white">Paso previo, antes de firmar</h4>
@@ -490,7 +479,7 @@ section{scroll-margin-top:80px}
       </div>
       <div class="md:col-span-9">
         <p class="text-sm text-slate-300 leading-relaxed prosa mb-4">Trabajamos tiendas WooCommerce con catálogos grandes y necesidades de mayorista, y las integraciones de facturación las desarrollamos nosotros: no dependemos de un plugin de terceros que mañana deje de actualizarse.</p>
-        <p class="text-sm text-slate-300 leading-relaxed prosa mb-10">Quipuy es un producto nuestro, y también construimos el conector hacia otro sistema contable ajeno &mdash;el de los $4.700&mdash;. Resolvimos el problema desde los dos lados, y por eso podemos decirles con criterio qué se puede prometer con TINI y qué no.</p>
+        <p class="text-sm text-slate-300 leading-relaxed prosa mb-10">Quipuy es un producto nuestro, y también construimos el conector hacia otro sistema contable ajeno. Resolvimos el problema desde los dos lados &mdash;desarrollando el sistema y desarrollando la conexión hacia uno que no controlamos&mdash;, y por eso podemos decirles con criterio qué se puede prometer con TINI y qué no.</p>
 
         <div class="rounded-2xl border border-marca-500/30 bg-marca-500/5 p-8 flex flex-wrap items-center justify-between gap-5">
           <div>
@@ -501,6 +490,15 @@ section{scroll-margin-top:80px}
             </div>
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20de%20la%20tienda%20en%20linea" class="px-6 py-3 rounded-xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold text-sm hover:brightness-110 transition whitespace-nowrap">Escribir por WhatsApp</a>
+        
+          <div class="mt-8 pt-6 border-t border-slate-800/60">
+            <p class="text-xs text-slate-500 mb-3">Descargue en PDF la cotización que prefiera</p>
+            <div class="flex flex-wrap gap-3">
+            <a href="pdf/escenario-1.pdf" download class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition whitespace-nowrap">&darr;&nbsp; Escenario 1</a>
+            <a href="pdf/escenario-2.pdf" download class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition whitespace-nowrap">&darr;&nbsp; Escenario 2</a>
+            <a href="pdf/escenario-3.pdf" download class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition whitespace-nowrap">&darr;&nbsp; Escenario 3</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -66,19 +66,19 @@ section{scroll-margin-top:80px}
 
   <div class="grid md:grid-cols-3 gap-4 mb-4">
     <a href="#inversion" class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-6 hover:border-marca-500/70 transition">
-      <p class="eyebrow text-marca-400 mb-3">Desarrollo &middot; pago único</p>
-      <p class="text-3xl font-bold text-marca-400 mb-2">$480</p>
-      <p class="text-sm text-slate-400">Los cinco módulos, + IVA</p>
+      <p class="eyebrow text-marca-400 mb-3">Nuevas funciones</p>
+      <p class="text-3xl font-bold text-marca-400 mb-2">$280</p>
+      <p class="text-sm text-slate-400">Los cuatro módulos, + IVA</p>
     </a>
     <a href="#sri" class="rounded-2xl border border-slate-700/60 glass p-6 hover:border-slate-500 transition">
-      <p class="eyebrow text-slate-500 mb-3">Recurrente</p>
-      <p class="text-3xl font-bold text-white mb-2">$28</p>
-      <p class="text-sm text-slate-400">Al año + IVA, facturas ilimitadas</p>
+      <p class="eyebrow text-slate-500 mb-3">Facturación electrónica</p>
+      <p class="text-3xl font-bold text-white mb-2">$100</p>
+      <p class="text-sm text-slate-400">+ IVA &middot; y <strong class="text-slate-300">$28 al año</strong>, facturas ilimitadas</p>
     </a>
     <a href="#inversion" class="rounded-2xl border border-slate-700/60 glass p-6 hover:border-slate-500 transition">
-      <p class="eyebrow text-slate-500 mb-3">Entrega estimada</p>
-      <p class="text-3xl font-bold text-white mb-2">4 semanas</p>
-      <p class="text-sm text-slate-400">Desde el anticipo</p>
+      <p class="eyebrow text-slate-500 mb-3">Total una sola vez</p>
+      <p class="text-3xl font-bold text-white mb-2">$380</p>
+      <p class="text-sm text-slate-400">+ IVA &middot; entrega en 4 semanas</p>
     </a>
   </div>
   <p class="text-xs text-slate-500 prosa">Todo se construye sobre el Motrix que ya está funcionando en la clínica. No hay que reinstalar nada ni migrar información.</p>
@@ -90,7 +90,7 @@ section{scroll-margin-top:80px}
         <div class="md:sticky md:top-24">
           <p class="eyebrow text-marca-400 mb-2">Módulo 01</p>
           <h2 class="text-2xl font-bold text-white leading-tight mb-4">Consentimiento informado y enfermedades preexistentes</h2>
-          <p class="text-3xl font-bold text-white">$150</p>
+          <p class="text-3xl font-bold text-white">$110</p>
           <p class="text-xs text-slate-500">+ IVA</p>
         </div>
       </div>
@@ -127,7 +127,7 @@ section{scroll-margin-top:80px}
         <div class="md:sticky md:top-24">
           <p class="eyebrow text-marca-400 mb-2">Módulo 02</p>
           <h2 class="text-2xl font-bold text-white leading-tight mb-4">Reportes gerenciales por rango de fechas</h2>
-          <p class="text-3xl font-bold text-white">$130</p>
+          <p class="text-3xl font-bold text-white">$95</p>
           <p class="text-xs text-slate-500">+ IVA</p>
           <p class="text-xs text-slate-500 mt-3">Los solicitó Ricardo.</p>
         </div>
@@ -178,7 +178,7 @@ section{scroll-margin-top:80px}
         <div class="md:sticky md:top-24">
           <p class="eyebrow text-marca-400 mb-2">Módulo 03</p>
           <h2 class="text-2xl font-bold text-white leading-tight mb-4">Registro de asistencias en PDF</h2>
-          <p class="text-3xl font-bold text-white">$70</p>
+          <p class="text-3xl font-bold text-white">$50</p>
           <p class="text-xs text-slate-500">+ IVA</p>
         </div>
       </div>
@@ -216,7 +216,7 @@ section{scroll-margin-top:80px}
         <div class="md:sticky md:top-24">
           <p class="eyebrow text-marca-400 mb-2">Módulo 04</p>
           <h2 class="text-2xl font-bold text-white leading-tight mb-4">Origen del paciente y período en el tablero</h2>
-          <p class="text-3xl font-bold text-white">$30</p>
+          <p class="text-3xl font-bold text-white">$25</p>
           <p class="text-xs text-slate-500">+ IVA</p>
         </div>
       </div>
@@ -292,36 +292,46 @@ section{scroll-margin-top:80px}
               <tr class="border-b border-slate-800/60">
                 <td class="py-3 pr-3 text-slate-500 w-10">01</td>
                 <td class="py-3 px-3">Consentimiento informado y enfermedades preexistentes</td>
-                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$150</td>
+                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$110</td>
               </tr>
               <tr class="border-b border-slate-800/60">
                 <td class="py-3 pr-3 text-slate-500">02</td>
                 <td class="py-3 px-3">Reportes gerenciales por rango de fechas</td>
-                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$130</td>
+                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$95</td>
               </tr>
               <tr class="border-b border-slate-800/60">
                 <td class="py-3 pr-3 text-slate-500">03</td>
                 <td class="py-3 px-3">Registro de asistencias en PDF</td>
-                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$70</td>
+                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$50</td>
               </tr>
               <tr class="border-b border-slate-800/60">
                 <td class="py-3 pr-3 text-slate-500">04</td>
                 <td class="py-3 px-3">Origen del paciente y período en el tablero</td>
-                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$30</td>
+                <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$25</td>
               </tr>
               <tr class="border-b border-slate-700">
+                <td class="py-3 pr-3"></td>
+                <td class="py-3 px-3 font-semibold text-white">Nuevas funciones del sistema</td>
+                <td class="py-3 pl-3 text-right text-xl font-bold text-white whitespace-nowrap">$280</td>
+              </tr>
+              <tr class="border-b border-slate-800/60">
                 <td class="py-3 pr-3 text-slate-500">05</td>
-                <td class="py-3 px-3">Facturación electrónica SRI</td>
+                <td class="py-3 px-3">Facturación electrónica SRI &mdash; puesta en marcha</td>
                 <td class="py-3 pl-3 text-right font-semibold text-white whitespace-nowrap">$100</td>
+              </tr>
+              <tr class="border-b border-slate-700">
+                <td class="py-3 pr-3"></td>
+                <td class="py-3 px-3 font-semibold text-white">Facturación electrónica</td>
+                <td class="py-3 pl-3 text-right text-xl font-bold text-white whitespace-nowrap">$100</td>
               </tr>
               <tr>
                 <td class="py-4 pr-3"></td>
-                <td class="py-4 px-3 font-semibold text-white">Total desarrollo</td>
-                <td class="py-4 pl-3 text-right text-2xl font-bold text-marca-400 whitespace-nowrap">$480</td>
+                <td class="py-4 px-3 font-semibold text-white">Total a pagar una sola vez</td>
+                <td class="py-4 pl-3 text-right text-2xl font-bold text-marca-400 whitespace-nowrap">$380</td>
               </tr>
               <tr>
                 <td class="py-1 pr-3"></td>
-                <td class="py-1 px-3 text-slate-500">Costo anual del facturador, desde la puesta en marcha</td>
+                <td class="py-1 px-3 text-slate-500">Facturación electrónica, costo anual desde la puesta en marcha</td>
                 <td class="py-1 pl-3 text-right font-semibold text-white whitespace-nowrap">$28 / año</td>
               </tr>
             </tbody>
@@ -335,11 +345,11 @@ section{scroll-margin-top:80px}
         <div class="grid sm:grid-cols-2 gap-3 mb-10">
           <div class="rounded-xl border border-slate-800/60 bg-slate-900/40 p-5">
             <p class="text-xs text-slate-500 mb-1">Para empezar &middot; 60 %</p>
-            <p class="text-2xl font-bold text-white">$288</p>
+            <p class="text-2xl font-bold text-white">$228</p>
           </div>
           <div class="rounded-xl border border-slate-800/60 bg-slate-900/40 p-5">
             <p class="text-xs text-slate-500 mb-1">Al entregar funcionando &middot; 40 %</p>
-            <p class="text-2xl font-bold text-white">$192</p>
+            <p class="text-2xl font-bold text-white">$152</p>
           </div>
         </div>
 
@@ -382,6 +392,13 @@ section{scroll-margin-top:80px}
             </div>
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20de%20las%20nuevas%20funciones%20de%20Motrix" class="px-6 py-3 rounded-xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold text-sm hover:brightness-110 transition whitespace-nowrap">Escribir por WhatsApp</a>
+        
+          <div class="mt-8 pt-6 border-t border-slate-800/60">
+            <p class="text-xs text-slate-500 mb-3">Descargue la cotización en PDF</p>
+            <div class="flex flex-wrap gap-3">
+            <a href="pdf/cotizacion.pdf" download class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition whitespace-nowrap">&darr;&nbsp; Descargar cotización</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
