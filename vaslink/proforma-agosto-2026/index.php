@@ -273,7 +273,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
 
     <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
       <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-emerald-400">Los $1.350 no son una licencia: son el sistema puesto a funcionar como ustedes trabajan.</strong> Cubren la implementación, la carga inicial de datos, la capacitación y los ajustes de configuración, reportes y formatos para que calce con su operación.</p>
-      <p class="text-sm text-slate-400 leading-relaxed">Es lo contrario de lo que pasa con un sistema grande, donde el que se adapta es el cliente. Pero tiene un límite y conviene decirlo: ajustar lo que existe está incluido; <strong class="text-slate-300">construir un módulo que Quipuy hoy no tiene, no</strong>. Para eso está el paso previo.</p>
+      <p class="text-sm text-slate-400 leading-relaxed">Es lo contrario de lo que pasa con un sistema grande, donde el que se adapta es el cliente. Para que sepan dónde está la línea: los ajustes van incluidos y <strong class="text-slate-300">un módulo nuevo también lo desarrollamos</strong>, con su valor y su plazo propios. Al ser Quipuy modular, agregarlo es sumar una pieza, no intervenir todo el sistema.</p>
     </div>
 
     <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4 mb-4">
@@ -290,7 +290,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
         <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Etiquetas de código de barras</div></div>
         <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>10 usuarios</div></div>
       </div>
-      <p class="text-sm text-slate-400 leading-relaxed">Comparen esta lista contra lo que usan en TINI. <strong class="text-slate-300">Si hay algo que acá no aparezca, díganlo ahora</strong> y les decimos de una si es un ajuste, un desarrollo aparte, o una razón para quedarse en el escenario 2.</p>
+      <p class="text-sm text-slate-400 leading-relaxed">Comparen esta lista con lo que usan en TINI. <strong class="text-slate-300">Si hay algo que acá no aparece, cuéntenoslo con confianza: se puede implementar.</strong> Quipuy está construido por módulos independientes, así que sumar uno no obliga a rehacer el resto y los plazos son cortos. Lo evaluamos directo con el equipo que desarrolla el sistema y les damos valor y tiempo antes de que decidan nada.</p>
     </div>
 
     <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
