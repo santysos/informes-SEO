@@ -447,3 +447,11 @@ deployment:
     - /bin/cp -f dimapar/proforma-agosto-2026/logout.php $BASEPATH/dimapar/proforma-agosto-2026/
     - chmod 644 $BASEPATH/dimapar/proforma-agosto-2026/*.php
     - chmod 644 $BASEPATH/dimapar/proforma-agosto-2026/.htaccess
+    - /bin/mkdir -p $BASEPATH/vaslink/proforma-agosto-2026
+    - chmod 755 $BASEPATH/vaslink/proforma-agosto-2026
+    - /bin/cp -f vaslink/proforma-agosto-2026/.htaccess $BASEPATH/vaslink/proforma-agosto-2026/
+    - /bin/cp -f vaslink/proforma-agosto-2026/login.php $BASEPATH/vaslink/proforma-agosto-2026/
+    - /bin/cp -f vaslink/proforma-agosto-2026/index.php $BASEPATH/vaslink/proforma-agosto-2026/
+    - /bin/cp -f vaslink/proforma-agosto-2026/logout.php $BASEPATH/vaslink/proforma-agosto-2026/
+    - chmod 644 $BASEPATH/vaslink/proforma-agosto-2026/*.php
+    - chmod 644 $BASEPATH/vaslink/proforma-agosto-2026/.htaccess
