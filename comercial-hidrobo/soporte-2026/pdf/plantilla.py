@@ -193,7 +193,7 @@ mensual y el reporte de gesti&oacute;n.</p>
 <ul>
   <li><b>Dos horas mensuales de soporte por cada sitio</b> para cambios menores: actualizar un
       banner, corregir un texto, subir un documento o modificar un dato de contacto. La hora
-      t&eacute;cnica fuera de plan tiene un valor de $25,00.</li>
+      t&eacute;cnica fuera de plan tiene un valor de $15,00 + IVA.</li>
   <li><b>Optimizaci&oacute;n de velocidad trimestral,</b> con limpieza de base de datos y revisi&oacute;n de
       im&aacute;genes.</li>
 </ul>
@@ -227,8 +227,8 @@ def valor_1(ref):
 </table>
 <div class="caja verde">
   <div class="t">Soporte incluido sin costo adicional</div>
-  <p>24 horas de soporte al a&ntilde;o, dos cada mes. A la tarifa de $25,00 la hora representan
-  <b>$600,00 anuales</b> que no se facturan.</p>
+  <p>24 horas de soporte al a&ntilde;o, dos cada mes. A la tarifa de $15,00 + IVA la hora representan
+  <b>$360,00 anuales</b> que no se facturan.</p>
 </div>
 {HISTORICO}
 <h2>Condiciones</h2>
@@ -257,8 +257,8 @@ def valor_2(ref):
   <div class="t">Ventajas de contratar los dos juntos</div>
   <p>Por separado los dos planes suman $760,00; en conjunto quedan en <b>$670,00</b>, con un
   ahorro de $90,00 anuales.</p>
-  <p>Adem&aacute;s, las 48 horas de soporte del per&iacute;odo (24 por sitio) equivalen a <b>$1.200,00</b> a
-  la tarifa de $25,00 la hora, incluidas sin costo.</p>
+  <p>Adem&aacute;s, las 48 horas de soporte del per&iacute;odo (24 por sitio) equivalen a <b>$720,00</b> a
+  la tarifa de $15,00 + IVA la hora, incluidas sin costo.</p>
 </div>
 {HISTORICO}
 <h2>Condiciones</h2>

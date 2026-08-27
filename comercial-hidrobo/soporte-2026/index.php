@@ -242,7 +242,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <div class="nuevo">
         <div class="et" style="color:var(--verde)">Nuevo en 2026-2027</div>
         <ul>
-          <li><strong>2 horas mensuales de soporte por cada sitio</strong> — 4 al mes, 48 al año. A tarifa normal de $25 la hora, son $1.200 anuales que no se cobran</li>
+          <li><strong>2 horas mensuales de soporte por cada sitio</strong> — 4 al mes, 48 al año. A tarifa normal de $15 + IVA la hora, son $720 anuales que no se cobran</li>
           <li><strong>Optimización de velocidad trimestral</strong> con limpieza de base de datos y revisión de imágenes</li>
           <li><strong>Cobertura de okcars.ec</strong> bajo el mismo plan, con su propio informe mensual</li>
         </ul>
@@ -287,7 +287,7 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
       <div class="panel card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 4h18v11H8l-5 4.5z"/></svg></div>
         <h3>2 horas de soporte por sitio</h3>
-        <p>Cada mes, por cada web — 48 horas al año en total. Fuera de plan, la hora técnica cuesta $25. Cambios menores sin cotizar aparte: un banner, un texto, subir un documento o corregir un dato.</p>
+        <p>Cada mes, por cada web — 48 horas al año en total. Fuera de plan, la hora técnica cuesta $15 + IVA. Cambios menores sin cotizar aparte: un banner, un texto, subir un documento o corregir un dato.</p>
       </div>
     </div>
   </div>
@@ -400,18 +400,19 @@ header.barra .wrap{display:flex;align-items:center;justify-content:space-between
         <table class="tabla">
           <thead><tr><th>Soporte incluido</th><th style="text-align:right">Si se cobrara aparte</th></tr></thead>
           <tbody>
-            <tr><td>Tarifa de hora técnica fuera de plan<small>Es lo que cuesta hoy cualquier cambio pedido suelto</small></td><td>$25,00 / hora</td></tr>
-            <tr><td>2 horas mensuales por sitio<small>24 horas al año por cada web</small></td><td>$50,00 / mes</td></tr>
-            <tr class="total"><td>Valor anual del soporte, por sitio</td><td>$600,00</td></tr>
-            <tr class="total"><td>Valor anual del soporte, por los dos sitios</td><td>$1.200,00</td></tr>
+            <tr><td>Tarifa de hora técnica fuera de plan<small>Es lo que cuesta hoy cualquier cambio pedido suelto</small></td><td>$15,00 / hora</td></tr>
+            <tr><td>2 horas mensuales por sitio<small>24 horas al año por cada web</small></td><td>$30,00 / mes</td></tr>
+            <tr class="total"><td>Valor anual del soporte, por sitio</td><td>$360,00</td></tr>
+            <tr class="total"><td>Valor anual del soporte, por los dos sitios</td><td>$720,00</td></tr>
           </tbody>
         </table>
         <div class="nota" style="margin-top:16px;border-color:rgba(37,211,102,.4);background:rgba(37,211,102,.08)">
           <div class="t" style="color:var(--verde)">Para dimensionarlo</div>
           <p>
-            Las 48 horas de soporte que entran en el plan valdrían <strong>$1.200 al año</strong>
-            si se cobraran por hora. El plan completo por los dos sitios cuesta $670. Dicho de
-            otro modo: con usar poco más de la mitad de las horas, el plan ya se pagó solo.
+            Las 48 horas de soporte que entran en el plan valdrían <strong>$720 al año</strong>
+            si se cobraran sueltas a $15 + IVA la hora. El plan completo por los dos sitios
+            cuesta $670: las horas incluidas ya valen más que todo lo que paga, y encima van
+            las licencias, los respaldos, la seguridad y los 24 informes.
           </p>
         </div>
       </div>

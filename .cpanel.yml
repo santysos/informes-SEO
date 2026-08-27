@@ -455,3 +455,27 @@ deployment:
     - /bin/cp -f vaslink/proforma-agosto-2026/logout.php $BASEPATH/vaslink/proforma-agosto-2026/
     - chmod 644 $BASEPATH/vaslink/proforma-agosto-2026/*.php
     - chmod 644 $BASEPATH/vaslink/proforma-agosto-2026/.htaccess
+    - /bin/mkdir -p $BASEPATH/motrix/proforma-agosto-2026
+    - chmod 755 $BASEPATH/motrix/proforma-agosto-2026
+    - /bin/cp -f motrix/proforma-agosto-2026/.htaccess $BASEPATH/motrix/proforma-agosto-2026/
+    - /bin/cp -f motrix/proforma-agosto-2026/login.php $BASEPATH/motrix/proforma-agosto-2026/
+    - /bin/cp -f motrix/proforma-agosto-2026/index.php $BASEPATH/motrix/proforma-agosto-2026/
+    - /bin/cp -f motrix/proforma-agosto-2026/logout.php $BASEPATH/motrix/proforma-agosto-2026/
+    - chmod 644 $BASEPATH/motrix/proforma-agosto-2026/*.php
+    - chmod 644 $BASEPATH/motrix/proforma-agosto-2026/.htaccess
+    - /bin/mkdir -p $BASEPATH/parque-condor/proforma-agosto-2026
+    - chmod 755 $BASEPATH/parque-condor/proforma-agosto-2026
+    - /bin/cp -f parque-condor/proforma-agosto-2026/.htaccess $BASEPATH/parque-condor/proforma-agosto-2026/
+    - /bin/cp -f parque-condor/proforma-agosto-2026/login.php $BASEPATH/parque-condor/proforma-agosto-2026/
+    - /bin/cp -f parque-condor/proforma-agosto-2026/index.php $BASEPATH/parque-condor/proforma-agosto-2026/
+    - /bin/cp -f parque-condor/proforma-agosto-2026/logout.php $BASEPATH/parque-condor/proforma-agosto-2026/
+    - chmod 644 $BASEPATH/parque-condor/proforma-agosto-2026/*.php
+    - chmod 644 $BASEPATH/parque-condor/proforma-agosto-2026/.htaccess
+    - /bin/mkdir -p $BASEPATH/dikapsa/proforma-seo-agosto-2026
+    - chmod 755 $BASEPATH/dikapsa/proforma-seo-agosto-2026
+    - /bin/cp -f dikapsa/proforma-seo-agosto-2026/.htaccess $BASEPATH/dikapsa/proforma-seo-agosto-2026/
+    - /bin/cp -f dikapsa/proforma-seo-agosto-2026/login.php $BASEPATH/dikapsa/proforma-seo-agosto-2026/
+    - /bin/cp -f dikapsa/proforma-seo-agosto-2026/index.php $BASEPATH/dikapsa/proforma-seo-agosto-2026/
+    - /bin/cp -f dikapsa/proforma-seo-agosto-2026/logout.php $BASEPATH/dikapsa/proforma-seo-agosto-2026/
+    - chmod 644 $BASEPATH/dikapsa/proforma-seo-agosto-2026/*.php
+    - chmod 644 $BASEPATH/dikapsa/proforma-seo-agosto-2026/.htaccess
