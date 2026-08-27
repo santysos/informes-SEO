@@ -11,7 +11,7 @@ if (empty($_SESSION['auth_vaslink'])) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Desarrollo de tienda en línea &mdash; Vaslink</title>
+<title>Tienda en línea y facturación electrónica &mdash; Vaslink</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +19,13 @@ if (empty($_SESSION['auth_vaslink'])) {
 <script>
 tailwind.config={theme:{extend:{
   fontFamily:{sans:['Outfit','system-ui','sans-serif'],mono:['JetBrains Mono','monospace']},
-  colors:{marca:{400:'#60a5fa',500:'#3b82f6',600:'#2563eb'}}
+  colors:{marca:{300:'#93c5fd',400:'#60a5fa',500:'#3b82f6',600:'#2563eb'}}
 }}}
 </script>
 <style>
 body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), transparent 60%), #0a0f16;}
 .glass{background:rgba(17,26,36,.55);backdrop-filter:blur(18px)}
+.tabla-scroll{overflow-x:auto}
 </style>
 </head>
 <body class="text-slate-200 font-sans antialiased">
@@ -34,10 +35,14 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
   <div class="flex items-start justify-between gap-4 mb-10">
     <div>
       <p class="font-mono text-[10.5px] tracking-[.2em] uppercase text-marca-400 mb-2">Creative Web &middot; Propuesta</p>
-      <h1 class="text-3xl md:text-4xl font-bold text-white leading-tight">Desarrollo de la nueva<br>tienda en línea</h1>
+      <h1 class="text-3xl md:text-4xl font-bold text-white leading-tight">Tienda en línea y<br>facturación electrónica</h1>
       <p class="text-slate-400 mt-3 text-sm">Preparado para <strong class="text-slate-300">Vaslink</strong> &middot; agosto de 2026</p>
     </div>
     <a href="logout.php" class="text-xs text-slate-500 hover:text-slate-300 whitespace-nowrap mt-2">Salir</a>
+  </div>
+
+  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-5 mb-10">
+    <p class="text-sm text-slate-300 leading-relaxed">Después de conversar quedaron <strong class="text-white">tres caminos posibles</strong>, y no son tres precios del mismo trabajo: son tres decisiones distintas. Este documento los presenta uno por uno, con lo que cada uno resuelve y lo que cada uno deja pendiente.</p>
   </div>
 
   <!-- ══════════ DIAGNÓSTICO ══════════ -->
@@ -86,22 +91,190 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     </ul>
   </div>
 
-  <!-- ══════════ PROPUESTA ══════════ -->
-  <h2 class="text-2xl font-bold text-white mb-2">Qué proponemos</h2>
-  <p class="text-sm text-slate-400 mb-6">Una tienda nueva, construida sobre WooCommerce, con los 2.109 productos migrados y la experiencia de compra rehecha.</p>
+  <!-- ══════════ COMPARATIVA ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-2">Los tres escenarios, de un vistazo</h2>
+  <p class="text-sm text-slate-400 mb-6">La diferencia entre el segundo y el tercero es de $120. Vale la pena mirar esa fila con calma.</p>
 
-  <div class="rounded-xl border border-marca-500/30 bg-gradient-to-br from-marca-500/10 to-transparent p-6 mb-6">
-    <div class="flex items-start justify-between gap-4 flex-wrap mb-5">
-      <div>
-        <p class="font-mono text-[10px] tracking-widest uppercase text-marca-400 mb-1">Base del proyecto</p>
-        <h3 class="text-xl font-semibold text-white">Tienda en línea completa</h3>
+  <div class="rounded-xl border border-slate-800/50 glass p-4 md:p-6 mb-4 tabla-scroll">
+    <table class="w-full text-sm border-collapse min-w-[620px]">
+      <thead>
+        <tr class="border-b border-slate-700">
+          <th class="text-left py-3 pr-3 font-mono text-[10px] uppercase tracking-widest text-slate-500 font-normal"></th>
+          <th class="text-left py-3 px-3 text-white font-semibold">1 · Solo integrar</th>
+          <th class="text-left py-3 px-3 text-white font-semibold">2 · Web nueva + TINI</th>
+          <th class="text-left py-3 pl-3 text-marca-300 font-semibold">3 · Web nueva + Quipuy</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-300">
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">La página web</td>
+          <td class="py-3 px-3">La que tienen hoy</td>
+          <td class="py-3 px-3 text-white">Nueva, desde cero</td>
+          <td class="py-3 pl-3 text-white">Nueva, desde cero</td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">Búsqueda de 7,3 s</td>
+          <td class="py-3 px-3 text-red-400">Sigue igual</td>
+          <td class="py-3 px-3 text-emerald-400">Resuelta</td>
+          <td class="py-3 pl-3 text-emerald-400">Resuelta</td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">Sistema de facturación</td>
+          <td class="py-3 px-3">TINI</td>
+          <td class="py-3 px-3">TINI</td>
+          <td class="py-3 pl-3 text-white">Quipuy, sistema contable completo</td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">La conexión</td>
+          <td class="py-3 px-3 text-amber-400">Por desarrollar</td>
+          <td class="py-3 px-3 text-amber-400">Por desarrollar</td>
+          <td class="py-3 pl-3 text-emerald-400">Ya construida y en uso</td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">¿De quién depende la fecha?</td>
+          <td class="py-3 px-3 text-amber-400">De TINI</td>
+          <td class="py-3 px-3 text-amber-400">De TINI</td>
+          <td class="py-3 pl-3 text-emerald-400">De nosotros</td>
+        </tr>
+        <tr class="border-b border-slate-800/60">
+          <td class="py-3 pr-3 text-slate-500">Costo anual del sistema</td>
+          <td class="py-3 px-3">El que ya pagan a TINI</td>
+          <td class="py-3 px-3">El que ya pagan a TINI</td>
+          <td class="py-3 pl-3 text-white">$350 + IVA al año</td>
+        </tr>
+        <tr>
+          <td class="py-4 pr-3 text-slate-500 font-semibold">Inversión</td>
+          <td class="py-4 px-3 text-xl font-bold text-white">$680</td>
+          <td class="py-4 px-3 text-xl font-bold text-white">$1.680</td>
+          <td class="py-4 pl-3 text-xl font-bold text-marca-400">$1.800</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs text-slate-500 mb-10">Todos los valores son + IVA.</p>
+
+  <!-- ══════════ ESCENARIO 1 ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-6">Escenario 1 &mdash; Conectar la tienda actual con TINI</h2>
+
+  <div class="rounded-xl border border-slate-700/60 glass p-6 mb-4">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-4">
+      <div class="flex-1 min-w-[240px]">
+        <span class="text-[10px] font-mono uppercase tracking-widest bg-slate-700/50 text-slate-300 px-2 py-1 rounded">La inversión más baja</span>
+        <h3 class="text-lg font-semibold text-white mt-3">Nos encargamos solo del conector</h3>
       </div>
       <div class="text-right">
-        <p class="text-xs text-slate-500">desde</p>
-        <p class="text-4xl font-bold text-white">$1.200</p>
+        <p class="text-4xl font-bold text-white">$680</p>
         <p class="text-xs text-slate-500">+ IVA</p>
       </div>
     </div>
+    <p class="text-sm text-slate-300 leading-relaxed mb-5">La tienda se queda como está y desarrollamos el módulo que la conecta con TINI. Cuando entra un pedido deja de haber digitación manual: el pedido viaja a TINI y el stock, los precios y los datos de producto bajan a la web desde ahí.</p>
+
+    <div class="grid md:grid-cols-2 gap-3 text-sm text-slate-300 mb-5">
+      <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Desarrollo del módulo de conexión</div></div>
+      <div class="flex gap-2"><span class="text-marca-400">✓</span><div>El pedido de la web viaja a TINI</div></div>
+      <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Stock, precios y detalles llegan desde TINI</div></div>
+      <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Registro de cada envío para auditoría</div></div>
+      <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Pruebas con pedidos reales antes de activarlo</div></div>
+      <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Capacitación a quien lo va a operar</div></div>
+    </div>
+
+    <div class="rounded-lg border border-amber-500/30 bg-amber-500/5 p-4">
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-amber-400">Sea consciente de esto:</strong> este escenario no toca ninguno de los problemas del diagnóstico. La búsqueda va a seguir tardando 7,3 segundos, las 65 imágenes van a seguir cargándose de más y mayoristas y clientes finales van a seguir viendo lo mismo. Resuelve la parte administrativa, no la comercial.</p>
+    </div>
+  </div>
+
+  <div class="rounded-xl border border-slate-800/50 bg-slate-900/30 p-5 mb-10">
+    <p class="text-sm text-slate-400 leading-relaxed">Cuesta más que los $480 que aparecen abajo como módulo porque acá va solo: hay que estudiar una tienda que no construimos nosotros, y adaptarnos a cómo esté armada por dentro. Dentro de un proyecto de web nueva ese trabajo ya está hecho.</p>
+  </div>
+
+  <!-- ══════════ ESCENARIO 2 ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-6">Escenario 2 &mdash; Tienda nueva conectada con TINI</h2>
+
+  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-6 mb-4">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-4">
+      <div class="flex-1 min-w-[240px]">
+        <span class="text-[10px] font-mono uppercase tracking-widest bg-marca-500/25 text-marca-300 px-2 py-1 rounded">Siguen con su facturador</span>
+        <h3 class="text-lg font-semibold text-white mt-3">Tienda nueva + módulo de conexión con TINI</h3>
+      </div>
+      <div class="text-right">
+        <p class="text-4xl font-bold text-white">$1.680</p>
+        <p class="text-xs text-slate-500">+ IVA</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4 mb-5">
+      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+        <p class="text-xs text-slate-500 mb-1">Tienda en línea completa</p>
+        <p class="text-2xl font-bold text-white">$1.200</p>
+      </div>
+      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+        <p class="text-xs text-slate-500 mb-1">Módulo de conexión con TINI</p>
+        <p class="text-2xl font-bold text-white">$480</p>
+      </div>
+    </div>
+    <p class="text-sm text-slate-300 leading-relaxed">Se resuelve todo el diagnóstico —búsqueda, velocidad, imágenes, fichas— y encima queda conectada con el sistema que ya usan. El detalle de lo que incluye la tienda nueva está más abajo, y aplica igual para el escenario 3.</p>
+  </div>
+
+  <div class="rounded-xl border border-amber-500/30 bg-amber-500/5 p-6 mb-10">
+    <h3 class="text-base font-semibold text-white mb-3">Lo que tienen que saber antes de elegir TINI</h3>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4">Preferimos decirlo ahora y no en la semana seis. <strong class="text-white">En una integración con TINI, una parte del trabajo no es nuestra.</strong> El envío del stock, los precios y los detalles de producto hacia la web lo hace TINI desde su lado; nosotros construimos la parte de la tienda que recibe esa información y la que devuelve el pedido.</p>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4">Eso significa que <strong class="text-white">el plazo de la integración lo marca el equipo de TINI, no nosotros.</strong> Podemos comprometernos con la fecha de la tienda; con la fecha en que la conexión quede andando, no, porque depende de cuándo ellos tengan lista su parte.</p>
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Qué hacemos al respecto:</strong> antes de firmar nada hablamos con TINI, revisamos su documentación y les traemos por escrito qué permite hacer y en qué plazo. <strong class="text-marca-400">Esa revisión no tiene costo</strong> y toma dos o tres días. Si de ahí sale que el valor final cambia, se los decimos antes de que paguen el anticipo.</p>
+    </div>
+  </div>
+
+  <!-- ══════════ ESCENARIO 3 ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-2">Escenario 3 &mdash; Tienda nueva + Quipuy</h2>
+  <p class="text-sm text-slate-400 mb-6">Es el que recomendamos, y abajo está el porqué en números.</p>
+
+  <div class="rounded-xl border-2 border-emerald-500/50 bg-emerald-500/10 p-6 mb-4">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-4">
+      <div class="flex-1 min-w-[240px]">
+        <span class="text-[10px] font-mono uppercase tracking-widest bg-emerald-500/25 text-emerald-300 px-2 py-1 rounded">Nuestra recomendación</span>
+        <h3 class="text-lg font-semibold text-white mt-3">Tienda nueva + sistema contable completo, ya integrados</h3>
+      </div>
+      <div class="text-right">
+        <p class="text-4xl font-bold text-emerald-400">$1.800</p>
+        <p class="text-xs text-slate-500">+ IVA</p>
+      </div>
+    </div>
+
+    <p class="text-sm text-slate-300 leading-relaxed mb-5">Acá no cambian de facturador: cambian de sistema. <strong class="text-white">Quipuy no es solo facturación electrónica</strong> — es facturación, inventario con kardex, compras, retenciones, caja, proformas, cuentas por cobrar, multisucursal y contabilidad completa, en un solo lugar y sincronizado con la tienda.</p>
+
+    <div class="grid md:grid-cols-2 gap-3 text-sm text-slate-300 mb-5">
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Tienda en línea completa (todo el detalle de abajo)</div></div>
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Módulo de conexión instalado y configurado</div></div>
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Factura electrónica emitida y enviada sola</div></div>
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Inventario sincronizado en los dos sentidos</div></div>
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Puesta en marcha del sistema y carga inicial</div></div>
+      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Capacitación a su equipo en el sistema</div></div>
+    </div>
+
+    <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4 mb-4">
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">La integración ya está construida y funcionando.</strong> No es un desarrollo por hacer ni una promesa: es una pieza probada que se instala y se configura. Por eso acá la fecha de entrega la ponemos nosotros y la cumplimos, sin depender del calendario de nadie más.</p>
+    </div>
+
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
+      <p class="text-sm text-slate-300 leading-relaxed mb-3"><strong class="text-white">Costo anual del sistema: $350 + IVA</strong> — es el plan Empresarial de Quipuy, con facturas ilimitadas, 10 usuarios, multisucursal y contabilidad completa. Se paga directamente a Quipuy, una vez al año, y no es una comisión nuestra.</p>
+      <p class="text-sm text-slate-400 leading-relaxed">Contra lo que hoy pagan por TINI, es una comparación que vale la pena que hagan ustedes con la factura en la mano.</p>
+    </div>
+  </div>
+
+  <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-6 mb-10">
+    <h3 class="text-base font-semibold text-white mb-3">Por qué recomendamos este</h3>
+    <ul class="space-y-3 text-sm text-slate-300">
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">1</span><div><strong class="text-white">Cuesta $120 más que el escenario 2</strong> y por esa diferencia no reciben una conexión: reciben un sistema contable completo instalado y andando.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">2</span><div><strong class="text-white">Es el único con fecha firme.</strong> En los otros dos, el día en que la facturación quede automática depende de un tercero. Acá no hay tercero.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">3</span><div><strong class="text-white">Un solo responsable.</strong> Si algo falla entre la tienda y la facturación, no hay a quién derivar el problema: es nuestro y lo arreglamos nosotros.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">4</span><div><strong class="text-white">Es reversible.</strong> Si más adelante quieren volver a TINI, la tienda queda hecha igual y el módulo de conexión se cotiza aparte. No quedan amarrados.</div></li>
+    </ul>
+  </div>
+
+  <!-- ══════════ QUÉ INCLUYE LA TIENDA NUEVA ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-2">Qué incluye la tienda nueva</h2>
+  <p class="text-sm text-slate-400 mb-6">Aplica igual a los escenarios 2 y 3. Construida sobre WooCommerce, con los 2.109 productos migrados.</p>
+
+  <div class="rounded-xl border border-marca-500/30 bg-gradient-to-br from-marca-500/10 to-transparent p-6 mb-10">
     <div class="grid md:grid-cols-2 gap-x-6 gap-y-2 text-sm text-slate-300">
       <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Diseño propio, no plantilla comprada</div></div>
       <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Migración de los 2.109 productos</div></div>
@@ -120,70 +293,20 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     </div>
   </div>
 
-  <!-- ══════════ MÓDULOS ══════════ -->
-  <h2 class="text-2xl font-bold text-white mb-2">Módulos e integraciones</h2>
-  <p class="text-sm text-slate-400 mb-6">Se suman a la base según lo que necesiten. Cada uno se puede agregar ahora o más adelante.</p>
+  <!-- ══════════ MÓDULO OPCIONAL B2B ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-2">Módulo opcional</h2>
+  <p class="text-sm text-slate-400 mb-6">Se puede sumar a cualquiera de los tres escenarios, ahora o más adelante.</p>
 
-  <!-- Quipuy destacado -->
-  <div class="rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-6 mb-4">
+  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-6 mb-10">
     <div class="flex items-start justify-between gap-4 flex-wrap mb-3">
       <div class="flex-1 min-w-[240px]">
-        <div class="flex items-center gap-2 mb-2">
-          <span class="text-[10px] font-mono uppercase tracking-widest bg-emerald-500/25 text-emerald-300 px-2 py-1 rounded">Ya desarrollado</span>
-        </div>
-        <h3 class="text-lg font-semibold text-white">Facturación electrónica e inventario en tiempo real</h3>
-      </div>
-      <div class="text-right">
-        <p class="text-3xl font-bold text-emerald-400">$480</p>
-        <p class="text-xs text-slate-500">+ IVA</p>
-      </div>
-    </div>
-    <p class="text-sm text-slate-300 leading-relaxed mb-4">Conecta la tienda con su sistema de facturación. Cuando entra un pedido, <strong class="text-white">se emite la factura electrónica sola y el inventario se descuenta al instante</strong>, sin que nadie tenga que copiar datos de un sistema a otro.</p>
-    <div class="grid md:grid-cols-2 gap-3 text-sm text-slate-300 mb-4">
-      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Factura emitida y enviada automáticamente</div></div>
-      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Inventario sincronizado en ambos sentidos</div></div>
-      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Sin doble digitación ni errores de tipeo</div></div>
-      <div class="flex gap-2"><span class="text-emerald-400">✓</span><div>Registro de cada envío para auditoría</div></div>
-    </div>
-    <div class="rounded-lg border border-emerald-500/30 bg-slate-900/40 p-4">
-      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">Este módulo ya está construido y funcionando</strong> con Quipuy, uno de los proveedores de facturación electrónica autorizados en Ecuador. No es un desarrollo por hacer: es una pieza probada que se instala y se configura.</p>
-    </div>
-  </div>
-
-  <!-- TINI -->
-  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-6 mb-4">
-    <div class="flex items-start justify-between gap-4 flex-wrap mb-3">
-      <div class="flex-1 min-w-[240px]">
-        <div class="flex items-center gap-2 mb-2">
-          <span class="text-[10px] font-mono uppercase tracking-widest bg-marca-500/25 text-marca-300 px-2 py-1 rounded">A medida</span>
-        </div>
-        <h3 class="text-lg font-semibold text-white">Integración con TINI</h3>
-      </div>
-      <div class="text-right">
-        <p class="text-xs text-slate-500">desde</p>
-        <p class="text-3xl font-bold text-white">$480</p>
-        <p class="text-xs text-slate-500">+ IVA</p>
-      </div>
-    </div>
-    <p class="text-sm text-slate-300 leading-relaxed mb-4">Si prefieren seguir con TINI, desarrollamos la misma conexión contra ese sistema: factura automática al confirmarse el pedido e inventario sincronizado.</p>
-    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
-      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-white">Ya hicimos esta integración con dos sistemas de facturación distintos.</strong> La lógica de conexión está resuelta y probada; lo que cambia entre uno y otro es la forma en que cada sistema recibe los datos. Por eso el precio parte del mismo valor.</p>
-      <p class="text-sm text-slate-400 leading-relaxed mt-3">Para confirmar el valor final necesitamos revisar la documentación técnica de TINI y saber si permite conexión externa. <strong class="text-slate-300">Esa revisión no tiene costo</strong> y toma dos o tres días.</p>
-    </div>
-  </div>
-
-  <!-- B2B + B2C -->
-  <div class="rounded-xl border border-marca-500/30 bg-marca-500/5 p-6 mb-4">
-    <div class="flex items-start justify-between gap-4 flex-wrap mb-3">
-      <div class="flex-1 min-w-[240px]">
-        <div class="flex items-center gap-2 mb-2">
-          <span class="text-[10px] font-mono uppercase tracking-widest bg-marca-500/25 text-marca-300 px-2 py-1 rounded">Dos negocios, una tienda</span>
-        </div>
-        <h3 class="text-lg font-semibold text-white">Venta a empresas y a público, en el mismo sitio</h3>
+        <span class="text-[10px] font-mono uppercase tracking-widest bg-marca-500/25 text-marca-300 px-2 py-1 rounded">Dos negocios, una tienda</span>
+        <h3 class="text-lg font-semibold text-white mt-3">Venta a empresas y a público, en el mismo sitio</h3>
       </div>
       <div class="text-right">
         <p class="text-3xl font-bold text-white">$520</p>
         <p class="text-xs text-slate-500">+ IVA</p>
+        <p class="text-xs text-marca-400 mt-1">$470 junto al escenario 2 o 3</p>
       </div>
     </div>
     <p class="text-sm text-slate-300 leading-relaxed mb-5">Hoy un mayorista y un cliente final ven exactamente lo mismo. Este módulo separa los dos mundos <strong class="text-white">sin necesidad de tener dos tiendas</strong>: la misma web se comporta distinto según quién esté mirando.</p>
@@ -222,54 +345,11 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
     </div>
   </div>
 
-  <!-- Ejemplos de armado -->
-  <div class="rounded-xl border border-slate-800/50 glass p-6 mb-10">
-    <h3 class="text-lg font-semibold text-white mb-4">Tres formas de armarlo</h3>
-    <div class="grid md:grid-cols-3 gap-4">
-      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5 flex flex-col">
-        <p class="text-white font-semibold mb-1">Para arrancar</p>
-        <p class="text-xs text-slate-500 mb-4">La tienda nueva funcionando</p>
-        <ul class="space-y-1 text-sm text-slate-400 mb-4">
-          <li>› Tienda completa</li>
-        </ul>
-        <div class="mt-auto pt-4 border-t border-slate-800">
-          <p class="text-2xl font-bold text-white">$1.200</p>
-          <p class="text-xs text-slate-500">+ IVA</p>
-        </div>
-      </div>
-      <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5 flex flex-col">
-        <p class="text-white font-semibold mb-1">Con facturación</p>
-        <p class="text-xs text-slate-500 mb-4">Sin volver a digitar una factura</p>
-        <ul class="space-y-1 text-sm text-slate-400 mb-4">
-          <li>› Tienda completa</li>
-          <li>› Facturación e inventario</li>
-        </ul>
-        <div class="mt-auto pt-4 border-t border-slate-800">
-          <p class="text-2xl font-bold text-white">$1.680</p>
-          <p class="text-xs text-slate-500">+ IVA</p>
-        </div>
-      </div>
-      <div class="rounded-lg border border-marca-500/40 bg-marca-500/10 p-5 flex flex-col">
-        <p class="text-white font-semibold mb-1">Completo</p>
-        <p class="text-xs text-slate-500 mb-4">Mayoristas y facturación incluidos</p>
-        <ul class="space-y-1 text-sm text-slate-400 mb-4">
-          <li>› Tienda completa</li>
-          <li>› Facturación e inventario</li>
-          <li>› Venta a empresas y a público</li>
-        </ul>
-        <div class="mt-auto pt-4 border-t border-slate-700">
-          <p class="text-2xl font-bold text-marca-400">$2.100</p>
-          <p class="text-xs text-slate-500">+ IVA · con 10 % de descuento en los módulos</p>
-        </div>
-      </div>
-    </div>
-    <p class="text-xs text-slate-500 mt-4">Son ejemplos para dimensionar. Si contratan dos o más módulos junto con la base. se aplica un <strong class="text-slate-400">10 % de descuento sobre el total de módulos</strong>.</p>
-  </div>
+  <!-- ══════════ PAGO Y PLAZOS ══════════ -->
+  <h2 class="text-2xl font-bold text-white mb-6">Forma de pago y plazos</h2>
 
-  <!-- Forma de pago -->
   <div class="rounded-xl border border-slate-800/50 glass p-6 mb-10">
-    <h3 class="text-lg font-semibold text-white mb-4">Forma de pago y plazos</h3>
-    <div class="grid md:grid-cols-2 gap-4 mb-5">
+    <div class="grid md:grid-cols-2 gap-4 mb-6">
       <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-4">
         <p class="text-xs text-slate-500 mb-1">Para empezar</p>
         <p class="text-2xl font-bold text-white">60 %</p>
@@ -279,33 +359,49 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
         <p class="text-2xl font-bold text-white">40 %</p>
       </div>
     </div>
-    <div class="space-y-3 text-sm">
-      <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-1 w-24">Semana 1&ndash;2</span><div class="text-slate-300">Diseño y estructura de la tienda para su revisión.</div></div>
-      <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-1 w-24">Semana 3&ndash;4</span><div class="text-slate-300">Desarrollo, migración de los 2.109 productos y optimización.</div></div>
-      <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-1 w-24">Semana 5</span><div class="text-slate-300">Módulos e integraciones contratadas.</div></div>
-      <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-1 w-24">Semana 6</span><div class="text-slate-300">Pruebas, capacitación y salida en vivo.</div></div>
+
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5 mb-4">
+      <p class="font-mono text-[10px] tracking-widest uppercase text-slate-500 mb-3">Escenario 1</p>
+      <div class="space-y-2 text-sm">
+        <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 1</span><div class="text-slate-300">Revisión de la documentación de TINI y de la tienda actual.</div></div>
+        <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 2&ndash;3</span><div class="text-slate-300">Desarrollo del conector y pruebas con pedidos reales.</div></div>
+      </div>
+      <p class="text-sm text-slate-400 leading-relaxed mt-4"><strong class="text-slate-300">Dos a tres semanas de nuestro lado.</strong> La fecha en que quede andando depende además de cuándo TINI tenga lista su parte.</p>
     </div>
-    <p class="text-sm text-slate-400 leading-relaxed mt-5"><strong class="text-slate-300">Seis semanas</strong> para la tienda base. Los módulos pueden alargar el plazo una o dos semanas según cuáles se contraten. La tienda actual sigue funcionando mientras tanto: el cambio se hace cuando la nueva está probada.</p>
+
+    <div class="rounded-lg border border-slate-800/60 bg-slate-900/40 p-5 mb-4">
+      <p class="font-mono text-[10px] tracking-widest uppercase text-slate-500 mb-3">Escenarios 2 y 3</p>
+      <div class="space-y-2 text-sm">
+        <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 1&ndash;2</span><div class="text-slate-300">Diseño y estructura de la tienda para su revisión.</div></div>
+        <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 3&ndash;4</span><div class="text-slate-300">Desarrollo, migración de los 2.109 productos y optimización.</div></div>
+        <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 5</span><div class="text-slate-300">Facturación e inventario, y el módulo opcional si lo contratan.</div></div>
+        <div class="flex gap-4"><span class="font-mono text-xs text-marca-400 whitespace-nowrap mt-0.5 w-24">Semana 6</span><div class="text-slate-300">Pruebas, capacitación y salida en vivo.</div></div>
+      </div>
+      <p class="text-sm text-slate-400 leading-relaxed mt-4"><strong class="text-slate-300">Seis semanas.</strong> En el escenario 3 esa fecha es firme, porque la integración ya está construida. En el escenario 2, la semana 5 puede correrse según el equipo de TINI.</p>
+    </div>
+
+    <p class="text-sm text-slate-400 leading-relaxed">La tienda actual sigue funcionando mientras tanto: el cambio se hace recién cuando la nueva está probada.</p>
   </div>
 
-  <!-- Qué no incluye -->
+  <!-- ══════════ NO INCLUYE ══════════ -->
   <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-6 mb-10">
     <h3 class="text-sm font-semibold text-slate-400 mb-3">Qué no está incluido</h3>
     <ul class="space-y-2 text-sm text-slate-400">
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Fotografía de producto ni edición de imágenes existentes</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Redacción de descripciones para los 2.109 productos</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Costos de pasarela de pagos ni comisiones bancarias</div></li>
-      <li class="flex gap-2"><span class="text-slate-600">·</span><div>Licencias del sistema de facturación electrónica</div></li>
+      <li class="flex gap-2"><span class="text-slate-600">·</span><div>La suscripción anual del sistema de facturación <span class="text-xs">(en el escenario 3 son los $350 + IVA indicados arriba, que se pagan a Quipuy)</span></div></li>
+      <li class="flex gap-2"><span class="text-slate-600">·</span><div>Desarrollos que TINI tenga que hacer de su lado</div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Alojamiento y dominio <span class="text-xs">(se cotizan aparte según el tráfico que necesiten)</span></div></li>
       <li class="flex gap-2"><span class="text-slate-600">·</span><div>Plan de posicionamiento en Google <span class="text-xs">(se puede cotizar por separado)</span></div></li>
     </ul>
   </div>
 
-  <!-- Experiencia -->
+  <!-- ══════════ EXPERIENCIA ══════════ -->
   <div class="rounded-xl border border-slate-800/50 glass p-6 mb-10">
     <h3 class="text-lg font-semibold text-white mb-4">Por qué nosotros</h3>
     <p class="text-sm text-slate-300 leading-relaxed mb-4">Trabajamos tiendas en línea sobre WooCommerce con catálogos grandes y necesidades de mayorista, y desarrollamos las integraciones de facturación electrónica nosotros mismos — no las tercerizamos ni dependemos de un plugin de terceros que mañana deje de actualizarse.</p>
-    <p class="text-sm text-slate-300 leading-relaxed mb-4">El módulo de facturación con Quipuy que se menciona arriba está construido y en uso. Hicimos también la misma integración contra otro sistema de facturación distinto, así que el problema de conectar WooCommerce con un facturador electrónico ecuatoriano ya lo resolvimos dos veces.</p>
+    <p class="text-sm text-slate-300 leading-relaxed mb-4">El módulo de conexión con Quipuy está construido y en uso. Hicimos también la misma integración contra otro sistema de facturación distinto, así que el problema de conectar WooCommerce con un facturador electrónico ecuatoriano ya lo resolvimos dos veces. Es por eso que podemos decirles con confianza qué se puede prometer con TINI y qué no.</p>
     <p class="text-sm text-slate-400 leading-relaxed">Además llevamos planes de contenido y posicionamiento para varios clientes en Ecuador, así que la tienda no se entrega y se abandona: sabemos qué hace falta después para que la encuentren.</p>
   </div>
 
