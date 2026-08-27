@@ -337,7 +337,7 @@ section{scroll-margin-top:80px}
           <h4 class="text-base font-semibold text-white mb-3">Por qué recomendamos el escenario 3</h4>
           <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-slate-300">
             <div class="flex gap-3"><span class="text-emerald-400">1</span><div><strong class="text-white">Fecha firme.</strong> En los otros dos depende de un tercero.</div></div>
-            <div class="flex gap-3"><span class="text-emerald-400">2</span><div><strong class="text-white">Se acomoda a ustedes.</strong> Con TINI, si falta algo no hay conversación posible.</div></div>
+            <div class="flex gap-3"><span class="text-emerald-400">2</span><div><strong class="text-white">La adaptación ya está presupuestada.</strong> Con TINI también se puede pedir, pero se cotiza y se agenda con ellos.</div></div>
             <div class="flex gap-3"><span class="text-emerald-400">3</span><div><strong class="text-white">Un solo responsable.</strong> Tienda, sistema y conexión los hace el mismo equipo.</div></div>
             <div class="flex gap-3"><span class="text-emerald-400">4</span><div><strong class="text-white">No quedan amarrados.</strong> Sus datos salen en formato del SRI cuando quieran.</div></div>
           </div>
