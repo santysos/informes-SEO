@@ -315,7 +315,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <li class="flex gap-3"><span class="text-amber-400 mt-0.5">›</span><div><strong class="text-white">Sus datos no quedan secuestrados.</strong> Las facturas electrónicas son archivos XML en formato del SRI: son suyas, se exportan cuando quieran y sirven en cualquier otro sistema. La validez ante el SRI la da el SRI, no los años del proveedor.</div></li>
     </ul>
     <div class="rounded-lg border border-emerald-500/40 bg-emerald-500/10 p-4">
-      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">Y lo ponemos por escrito:</strong> si dentro de los primeros doce meses deciden que Quipuy no les sirve, les descontamos íntegros los $1.350 del desarrollo de la integración con TINI. La tienda queda hecha igual. <strong class="text-white">El riesgo de probar algo nuevo lo asumimos nosotros, no ustedes.</strong></p>
+      <p class="text-sm text-slate-300 leading-relaxed"><strong class="text-emerald-400">Y no hace falta que nos crean:</strong> les mostramos Quipuy funcionando, con un caso de su propia operación, antes de que decidan nada. Un sistema de quince años se elige por referencias; este lo pueden ver trabajando en la reunión siguiente.</p>
     </div>
   </div>
 
@@ -325,7 +325,7 @@ body{background:radial-gradient(1100px 720px at 25% 0%, rgba(59,130,246,.14), tr
       <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">1</span><div><strong class="text-white">Es el único con fecha firme.</strong> En los otros dos, el día en que la facturación quede automática depende de un tercero. Acá no hay tercero.</div></li>
       <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">2</span><div><strong class="text-white">Es el único que se acomoda a ustedes.</strong> En los escenarios 1 y 2, si TINI no hace algo que necesitan, no hay conversación posible. Acá sí, y ya está pagada.</div></li>
       <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">3</span><div><strong class="text-white">Un solo responsable.</strong> La tienda, el sistema contable y la conexión entre ambos los hace el mismo equipo. No hay dos proveedores señalándose entre sí.</div></li>
-      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">4</span><div><strong class="text-white">Es reversible, con garantía escrita.</strong> Si en el primer año no funciona para ustedes, los $1.350 se acreditan a la integración con TINI. No quedan amarrados.</div></li>
+      <li class="flex gap-3"><span class="text-emerald-400 mt-0.5">4</span><div><strong class="text-white">No quedan amarrados.</strong> Si más adelante prefieren volver a TINI, la tienda queda hecha igual y el conector se cotiza aparte. Sus datos salen en formato del SRI cuando quieran.</div></li>
     </ul>
   </div>
 
