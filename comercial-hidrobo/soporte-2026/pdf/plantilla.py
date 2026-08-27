@@ -11,8 +11,8 @@ import os, base64
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 # ─── Datos que se cambian a mano ────────────────────────────────────────────
-PROFORMA_1 = "(por asignar)"     # cotización de un solo sitio
-PROFORMA_2 = "(por asignar)"     # cotización de los dos sitios
+PROFORMA_1 = "1-2-1318"          # cotización de un solo sitio
+PROFORMA_2 = "1-2-1319"          # cotización de los dos sitios
 CLIENTE    = "Comercial Hidrobo S.A."
 FECHA      = "27 de agosto de 2026"
 VALIDEZ    = "30 días"
