@@ -82,13 +82,8 @@ button:hover{filter:brightness(1.12)}
 </head>
 <body>
 <div class="caja">
-  <div class="sello">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M16 7h.01M3.4 18a10 10 0 0 1 8.3-15.9 1 1 0 0 1 .8 1.7l-1.3 1.3 3.3 3.3a1 1 0 0 0 .7.3H21a1 1 0 0 1 .8 1.6l-2.5 3.2a10 10 0 0 1-8.1 4.1"/>
-      <path d="M3.4 18h8.3"/>
-    </svg>
-  </div>
-  <p class="eyebrow">Creative Web &middot; Propuesta</p>
+  <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" style="height:34px;width:auto;display:block;margin:0 auto 22px">
+  <p class="eyebrow">Propuesta</p>
   <h1>Sitio web nuevo para Parque Cóndor</h1>
   <p class="sub">Fundación Parque Cóndor &middot; agosto de 2026</p>
   <form method="POST">

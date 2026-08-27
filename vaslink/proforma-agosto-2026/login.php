@@ -82,14 +82,10 @@ button:hover{filter:brightness(1.12)}
 </head>
 <body>
 <div class="caja">
-  <div class="sello">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>
-    </svg>
-  </div>
-  <p class="eyebrow">Creative Web &middot; Propuesta</p>
-  <h1>Desarrollo de tienda en línea</h1>
-  <p class="sub">Vaslink Dimapar Ecuador &middot; agosto 2026middot; agosto 2026</p>
+  <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" style="height:34px;width:auto;display:block;margin:0 auto 22px">
+  <p class="eyebrow">Propuesta</p>
+  <h1>Tienda en línea y facturación electrónica</h1>
+  <p class="sub">Vaslink &middot; agosto de 2026</p>
   <form method="POST">
     <label for="p">Clave de acceso</label>
     <input id="p" type="password" name="password" placeholder="Ingrese su clave" required autofocus>

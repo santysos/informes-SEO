@@ -55,7 +55,8 @@ section{scroll-margin-top:80px}
   <header class="pt-14 pb-10">
     <div class="flex items-start justify-between gap-6">
       <div>
-        <p class="eyebrow text-marca-400 mb-3">Creative Web &middot; Propuesta</p>
+        <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-8 w-auto mb-5">
+        <p class="eyebrow text-marca-400 mb-3">Propuesta</p>
         <h1 class="text-4xl md:text-5xl font-bold text-white leading-[1.08] tracking-tight">Tienda en línea y<br>facturación electrónica</h1>
         <p class="text-slate-400 mt-4">Vaslink &middot; agosto de 2026</p>
       </div>
@@ -494,7 +495,10 @@ section{scroll-margin-top:80px}
         <div class="rounded-2xl border border-marca-500/30 bg-marca-500/5 p-8 flex flex-wrap items-center justify-between gap-5">
           <div>
             <p class="text-lg font-semibold text-white">Cualquier duda, la conversamos.</p>
-            <p class="text-xs text-slate-500 mt-2">Creative Web &middot; Otavalo, Ecuador &middot; agosto de 2026</p>
+            <div class="flex items-center gap-3 mt-3">
+              <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-6 w-auto opacity-80">
+              <p class="text-xs text-slate-500">Otavalo, Ecuador &middot; agosto de 2026</p>
+            </div>
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20de%20la%20tienda%20en%20linea" class="px-6 py-3 rounded-xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold text-sm hover:brightness-110 transition whitespace-nowrap">Escribir por WhatsApp</a>
         </div>

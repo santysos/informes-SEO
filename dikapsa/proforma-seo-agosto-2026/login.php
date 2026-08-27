@@ -82,12 +82,8 @@ button:hover{filter:brightness(1.12)}
 </head>
 <body>
 <div class="caja">
-  <div class="sello">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
-    </svg>
-  </div>
-  <p class="eyebrow">Creative Web &middot; Propuesta</p>
+  <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" style="height:34px;width:auto;display:block;margin:0 auto 22px">
+  <p class="eyebrow">Propuesta</p>
   <h1>Plan de posicionamiento en Google</h1>
   <p class="sub">Dikapsa y Doeco &middot; agosto de 2026</p>
   <form method="POST">

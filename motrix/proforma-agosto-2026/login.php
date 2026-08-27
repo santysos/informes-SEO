@@ -82,12 +82,8 @@ button:hover{filter:brightness(1.12)}
 </head>
 <body>
 <div class="caja">
-  <div class="sello">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M3 12h4l2.5-7 4 14L16 12h5"/>
-    </svg>
-  </div>
-  <p class="eyebrow">Creative Web &middot; Propuesta</p>
+  <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" style="height:34px;width:auto;display:block;margin:0 auto 22px">
+  <p class="eyebrow">Propuesta</p>
   <h1>Nuevas funciones para Motrix</h1>
   <p class="sub">FisioVida &middot; agosto de 2026</p>
   <form method="POST">

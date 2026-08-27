@@ -479,3 +479,8 @@ deployment:
     - /bin/cp -f dikapsa/proforma-seo-agosto-2026/logout.php $BASEPATH/dikapsa/proforma-seo-agosto-2026/
     - chmod 644 $BASEPATH/dikapsa/proforma-seo-agosto-2026/*.php
     - chmod 644 $BASEPATH/dikapsa/proforma-seo-agosto-2026/.htaccess
+    - /bin/mkdir -p $BASEPATH/assets
+    - chmod 755 $BASEPATH/assets
+    - /bin/cp -f assets/creativeweb-blanco.png $BASEPATH/assets/
+    - /bin/cp -f assets/creativeweb-iso.png $BASEPATH/assets/
+    - chmod 644 $BASEPATH/assets/*.png
