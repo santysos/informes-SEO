@@ -174,7 +174,7 @@ footer b{color:var(--hueso)}
       <li><strong>CDN incluido y respaldos diarios</strong> <span>(hoy son semanales).</span></li>
       <li><strong>Velocidad estable en horas pico</strong> <span>&mdash; sin lentitud ni pedidos duplicados.</span></li>
     </ul>
-    <p class="p" style="margin-top:22px">La prueba del 27 de agosto ya demostr&oacute; el efecto. Este plan lo vuelve <strong>permanente</strong>. Quedamos atentos para coordinar la actualizaci&oacute;n cuando lo decidas.</p>
+    <p class="p" style="margin-top:22px">La prueba del 27 de agosto ya demostr&oacute; el efecto. Este plan lo vuelve <strong>permanente</strong>. Quedamos atentos para coordinar la actualizaci&oacute;n cuando usted lo decida.</p>
   </div>
 </section>
 
