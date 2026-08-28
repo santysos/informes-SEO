@@ -154,6 +154,22 @@ footer b{color:var(--hueso)}
       <div class="lbl">C&oacute;mo leer estos n&uacute;meros</div>
       <p><strong>El puntaje de Google es una prueba dura y relativa</strong>, <span>que simula un celular modesto con internet lento. Bajo esa vara, casi todas las tiendas grandes puntúan bajo &mdash; por ejemplo, <b>Nike obtiene un puntaje a&uacute;n m&aacute;s bajo</b> que VYV. En la vida real la tienda carga en tiempos razonables; el &uacute;nico punto rojo de fondo es la <b>respuesta del servidor en horas pico</b>, que es justo lo que resuelve m&aacute;s capacidad.</span></p>
     </div>
+
+    <h3 style="margin-top:32px">En la vida real, la tienda carga r&aacute;pido</h3>
+    <p class="p">Otras herramientas, midiendo la carga real desde distintas ciudades, muestran <strong>buenos tiempos</strong> y calificaciones B/A:</p>
+    <div class="metricrow">
+      <div class="m"><div class="v ok">752 ms</div><div class="l">Pingdom &middot; Londres</div></div>
+      <div class="m"><div class="v ok">1.29 s</div><div class="l">ManageWP &middot; Londres</div></div>
+      <div class="m"><div class="v ok">B (83%)</div><div class="l">ManageWP PageSpeed</div></div>
+    </div>
+    <figure class="shot">
+      <img src="test-pingdom.jpg" alt="Prueba en Pingdom Tools: 752 ms de carga" loading="lazy">
+      <figcaption>Prueba en <b>Pingdom Tools</b> (Londres): la tienda carg&oacute; en <b>752 ms</b>.</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="test-managewp.jpg" alt="Historial de rendimiento en ManageWP con calificaciones B y buenos tiempos" loading="lazy">
+      <figcaption>Historial de <b>ManageWP</b>: calificaci&oacute;n <b>B (83%)</b> y tiempos de <b>1.29 a 3.23 s</b> desde varias ciudades (una hasta con <b>A 91%</b>).</figcaption>
+    </figure>
   </div>
 </section>
 
