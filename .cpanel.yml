@@ -438,9 +438,10 @@ deployment:
     - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/index.php $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
     - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/logout.php $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
     - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/test-pagespeed.jpg $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/plan-accion-agosto-2026/test-cpu-saturacion.jpg $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/
     - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/*.php
     - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/.htaccess
-    - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/test-pagespeed.jpg
+    - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/*.jpg
     - /bin/mkdir -p $BASEPATH/dimapar/proforma-agosto-2026
     - chmod 755 $BASEPATH/dimapar/proforma-agosto-2026
     - /bin/cp -f dimapar/proforma-agosto-2026/.htaccess $BASEPATH/dimapar/proforma-agosto-2026/
