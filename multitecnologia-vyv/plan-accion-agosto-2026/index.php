@@ -93,6 +93,16 @@ strong{color:var(--hueso)}
 .estado.done{color:var(--verde);background:rgba(52,211,158,.14)}
 .estado.now{color:var(--ambar);background:rgba(240,161,75,.14)}
 .estado.next{color:var(--rojo);background:rgba(233,69,96,.14)}
+/* Evidencia / capturas */
+.metricrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.metricrow .m{flex:1 1 120px;background:rgba(19,28,46,.55);border:1px solid var(--linea);border-radius:12px;padding:14px 16px;text-align:center}
+.metricrow .m .v{font-size:24px;font-weight:800;color:#fff;line-height:1.1}
+.metricrow .m .v.bad{color:var(--rojo)} .metricrow .m .v.ok{color:var(--verde)}
+.metricrow .m .l{font-size:11.5px;color:var(--niebla);text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
+.shot{margin:22px 0 0;border:1px solid var(--linea);border-radius:14px;overflow:hidden;background:#0f1626;box-shadow:0 24px 60px rgba(0,0,0,.4)}
+.shot img{display:block;width:100%;height:auto}
+.shot figcaption{padding:14px 20px;font-size:13.5px;color:var(--niebla);border-top:1px solid var(--linea);background:rgba(19,28,46,.7);line-height:1.55}
+.shot figcaption b{color:var(--hueso)}
 /* Footer */
 footer{padding:40px 0 60px;color:var(--niebla);font-size:13px}
 footer b{color:var(--hueso)}
@@ -168,6 +178,24 @@ footer b{color:var(--hueso)}
   </div>
 </section>
 
+<!-- EVIDENCIA / PRUEBAS -->
+<section class="sec">
+  <div class="wrap">
+    <span class="eyebrow">Evidencia de las pruebas</span>
+    <h2>Lo que miden las herramientas de Google</h2>
+    <p class="p">Corrimos pruebas de velocidad con <strong>Google PageSpeed Insights</strong>. Estas son las m&eacute;tricas reales de la tienda:</p>
+    <div class="metricrow">
+      <div class="m"><div class="v bad">2.6 s</div><div class="l">Respuesta del servidor</div></div>
+      <div class="m"><div class="v bad">4.8 s</div><div class="l">Carga principal</div></div>
+      <div class="m"><div class="v ok">0.02</div><div class="l">Estabilidad visual</div></div>
+    </div>
+    <figure class="shot">
+      <img src="test-pagespeed.jpg" alt="Prueba de velocidad de multitecnologiavyv.com en Google PageSpeed Insights" loading="lazy">
+      <figcaption>Prueba real en <b>Google PageSpeed Insights</b> (28 ago 2026). El punto rojo a resolver es la <b>respuesta del servidor (2.6 s)</b> &mdash; justo lo que mejoran la Cach&eacute; de Objetos y m&aacute;s recursos. En verde, la <b>estabilidad (0.02)</b> confirma que la web est&aacute; bien construida.</figcaption>
+    </figure>
+  </div>
+</section>
+
 <!-- PEDIDOS DUPLICADOS -->
 <section class="sec">
   <div class="wrap">
@@ -202,39 +230,46 @@ footer b{color:var(--hueso)}
   <div class="wrap">
     <span class="eyebrow">La prueba de ayer</span>
     <h2>Ampliamos los recursos del servidor para medir hoy</h2>
-    <p class="p">El proveedor actual permite <strong>aumentar temporalmente los recursos del servidor por 24 horas, sin costo</strong>, para probar el desempe&ntilde;o. <strong>Lo activamos ayer</strong> con un objetivo concreto:</p>
-    <div class="callout">
-      <div class="lbl">Objetivo de la prueba</div>
-      <p>Observar <strong>hoy, en un d&iacute;a normal de VYV</strong>, <span>cu&aacute;nto mejora la experiencia con m&aacute;s recursos disponibles. As&iacute; tenemos evidencia real &mdash;con el flujo verdadero de clientes&mdash; antes de tomar la decisi&oacute;n del cambio permanente.</span></p>
+    <p class="p">El proveedor actual permite <strong>aumentar temporalmente los recursos del servidor por 24 horas, sin costo</strong>, para probar el desempe&ntilde;o. <strong>Lo activamos</strong> y medimos el comportamiento con el flujo real de clientes.</p>
+    <div class="callout" style="border-color:rgba(52,211,158,.45)">
+      <div class="lbl" style="color:var(--verde)">Resultado de la prueba</div>
+      <p><strong>El sitio mejor&oacute; notablemente.</strong> <span>Con m&aacute;s recursos disponibles, la navegaci&oacute;n se sinti&oacute; m&aacute;s fluida y el proceso de compra (checkout) fue m&aacute;s r&aacute;pido. La diferencia fue clara durante el uso normal de la tienda.</span></p>
     </div>
-    <p class="p" style="margin-top:16px">Si con recursos ampliados la web se siente notablemente m&aacute;s fluida y estable, confirma que el camino correcto es darle a VYV recursos propios de forma permanente.</p>
+    <p class="p" style="margin-top:16px">Esta prueba <strong>confirma el diagn&oacute;stico</strong>: darle a VYV m&aacute;s recursos de forma permanente es lo que resuelve la lentitud. Y hay una forma directa de lograrlo &mdash; a continuaci&oacute;n.</p>
   </div>
 </section>
 
-<!-- SERVIDOR VPS -->
+<!-- SERVIDOR: PLAN CON CACHÉ DE OBJETOS -->
 <section class="sec alt" id="servidor">
   <div class="wrap">
-    <span class="eyebrow">El paso principal</span>
-    <h2>Un servidor dedicado (VPS) solo para VYV</h2>
-    <p class="p">La forma m&aacute;s simple de entender la diferencia:</p>
+    <span class="eyebrow">El paso recomendado</span>
+    <h2>Subir al plan con Cach&eacute; de Objetos</h2>
+    <p class="p">El plan de hosting actual <strong>no incluye Cach&eacute; de Objetos</strong>. El siguiente plan (<strong>Business</strong>) s&iacute; la trae, adem&aacute;s de m&aacute;s recursos. Es el cambio de mayor impacto para la velocidad.</p>
+
+    <div class="callout">
+      <div class="lbl">&iquest;Qu&eacute; es la Cach&eacute; de Objetos?</div>
+      <p><strong>Una memoria r&aacute;pida donde el servidor guarda los datos que m&aacute;s usa</strong> <span>(precios, men&uacute;s, productos), para no recalcularlos desde cero en cada visita. Resultado: mucho <strong>menos trabajo para el servidor</strong> &rarr; la web responde m&aacute;s r&aacute;pido y se mantiene estable, sobre todo en horas pico.</span></p>
+    </div>
+
     <div class="analogia">
       <div class="ahora">
-        <div class="tag">Hoy &middot; Servidor compartido</div>
-        <h4>&#127970; Como un edificio de departamentos</h4>
-        <p>Todos comparten el agua y la luz. Si un vecino consume mucho, a los dem&aacute;s les baja la presi&oacute;n. En horas pico, la web se resiente.</p>
+        <div class="tag">Plan actual</div>
+        <h4>&#10007; Sin Cach&eacute; de Objetos</h4>
+        <p>El servidor recalcula todo en cada visita. En horas pico se satura y la web se pone lenta.</p>
       </div>
       <div class="meta2">
-        <div class="tag">Recomendado &middot; Servidor VPS</div>
-        <h4>&#127968; Como tu propia casa</h4>
-        <p>Los recursos son exclusivos de VYV. No importa qu&eacute; hagan los dem&aacute;s: la velocidad se mantiene estable siempre, incluso con mucha gente.</p>
+        <div class="tag">Recomendado &middot; Plan Business</div>
+        <h4>&#10003; Con Cach&eacute; de Objetos</h4>
+        <p>Guarda en memoria lo m&aacute;s usado &rarr; menos carga, m&aacute;s velocidad y estabilidad, adem&aacute;s de m&aacute;s recursos.</p>
       </div>
     </div>
-    <p class="p" style="margin-top:24px">Con un <strong>VPS (servidor privado)</strong>, VYV deja de compartir capacidad. Los beneficios directos:</p>
+
+    <p class="p" style="margin-top:24px">Adem&aacute;s de la Cach&eacute; de Objetos, el plan Business suma:</p>
     <ul class="li">
-      <li><strong>Velocidad constante</strong>, <span>sin los picos lentos de ahora.</span></li>
-      <li><strong>Aguanta campa&ntilde;as y promociones</strong> <span>sin caerse ni ralentizarse.</span></li>
-      <li><strong>Elimina de ra&iacute;z</strong> <span>los pedidos duplicados por lentitud.</span></li>
-      <li><strong>Base s&oacute;lida para crecer</strong> <span>a medida que aumenten las visitas y ventas.</span></li>
+      <li><strong>Almacenamiento NVMe</strong> <span>(m&aacute;s r&aacute;pido que el actual).</span></li>
+      <li><strong>M&aacute;s capacidad</strong> <span>(m&aacute;s archivos y recursos disponibles).</span></li>
+      <li><strong>CDN incluido y respaldos diarios</strong> <span>(hoy los respaldos son semanales).</span></li>
+      <li><strong>Velocidad estable en horas pico</strong> <span>&mdash; adi&oacute;s a los picos lentos y a los pedidos duplicados por lentitud.</span></li>
     </ul>
   </div>
 </section>
@@ -255,15 +290,15 @@ footer b{color:var(--hueso)}
       <div class="ti">
         <div class="num">2</div>
         <div>
-          <h3>Prueba de rendimiento con m&aacute;s recursos <span class="estado now">En curso hoy</span></h3>
-          <p>Ampliamos temporalmente el servidor (prueba gratuita de 24 h) para medir hoy, con el flujo real de clientes, cu&aacute;nto mejora la experiencia.</p>
+          <h3>Prueba de rendimiento con m&aacute;s recursos <span class="estado done">Hecho &middot; resultado positivo</span></h3>
+          <p>Ampliamos temporalmente el servidor (prueba gratuita de 24 h). Resultado: la web se sinti&oacute; m&aacute;s fluida y el checkout m&aacute;s r&aacute;pido.</p>
         </div>
       </div>
       <div class="ti">
         <div class="num">3</div>
         <div>
-          <h3>Migraci&oacute;n a servidor dedicado (VPS) <span class="estado next">Recomendado</span></h3>
-          <p>El paso principal: pasar a un servidor con recursos exclusivos para VYV, para lograr velocidad estable de forma permanente. Te presentaremos las opciones con sus costos.</p>
+          <h3>Subir al plan Business con Cach&eacute; de Objetos <span class="estado next">Recomendado</span></h3>
+          <p>El paso de mayor impacto: pasar al plan que incluye Cach&eacute; de Objetos y m&aacute;s recursos, para lograr velocidad estable de forma permanente.</p>
         </div>
       </div>
       <div class="ti">
@@ -282,8 +317,8 @@ footer b{color:var(--hueso)}
   <div class="wrap">
     <span class="eyebrow">Recomendaci&oacute;n</span>
     <h2>Nuestra recomendaci&oacute;n</h2>
-    <p class="p">Las mejoras en la web <strong>ya est&aacute;n hechas</strong>. Con la prueba de hoy confirmaremos el impacto de tener m&aacute;s recursos. El siguiente paso &mdash;y el de mayor efecto&mdash; es <strong>migrar a un servidor dedicado (VPS)</strong> para que la tienda sea r&aacute;pida de forma constante, sin depender de la carga de otros sitios.</p>
-    <p class="p">Quedamos atentos para presentarte las opciones de servidor con sus costos y coordinar el cambio cuando lo decidas.</p>
+    <p class="p">Las mejoras en la web <strong>ya est&aacute;n hechas</strong>, y la prueba de recursos <strong>confirm&oacute;</strong> que el servidor es el factor clave. El siguiente paso &mdash;y el de mayor efecto&mdash; es <strong>subir al plan Business de Hostinger, que incluye Cach&eacute; de Objetos</strong> y m&aacute;s recursos, para que la tienda sea r&aacute;pida de forma constante.</p>
+    <p class="p">Quedamos atentos para coordinar la actualizaci&oacute;n del plan cuando lo decidas.</p>
   </div>
 </section>
 
