@@ -58,6 +58,13 @@ strong{color:var(--hueso)}
 .tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.05em;padding:3px 9px;border-radius:999px;text-transform:uppercase}
 .tag.inc{color:var(--verde);background:rgba(52,211,158,.14)}
 .tag.no{color:var(--ambar);background:rgba(240,161,75,.14)}
+.cuadro{background:rgba(19,28,46,.55);border:1px solid var(--linea);border-radius:14px;overflow:hidden;margin-top:14px;max-width:540px}
+.fila{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 22px;border-bottom:1px solid var(--linea);font-size:15.5px;color:var(--niebla)}
+.fila:last-child{border-bottom:none}
+.fila strong{color:var(--hueso);font-variant-numeric:tabular-nums}
+.fila.total{background:rgba(233,69,96,.12)}
+.fila.total span,.fila.total strong{color:#fff;font-size:18px;font-weight:800}
+.nota{margin-top:12px;font-size:13px;color:var(--niebla)}
 footer{padding:40px 0 60px;color:var(--niebla);font-size:13px}
 footer b{color:var(--hueso)}
 </style>
@@ -166,8 +173,23 @@ footer b{color:var(--hueso)}
   </div>
 </section>
 
-<!-- LÍMITES / ACLARACIONES -->
+<!-- INVERSIÓN / VALOR DE CIERRE -->
 <section class="sec">
+  <div class="wrap">
+    <span class="eyebrow">Inversi&oacute;n</span>
+    <h2>Valor de cierre</h2>
+    <p class="p">Por <strong>todos los trabajos adicionales</strong> detallados anteriormente, se establece un <strong>&uacute;nico valor de cierre</strong>, reducido como gesto para finalizar el proyecto en buenos t&eacute;rminos:</p>
+    <div class="cuadro">
+      <div class="fila"><span>Trabajos adicionales (todos los descritos)</span><strong>USD 450,00</strong></div>
+      <div class="fila"><span>IVA 15%</span><strong>USD 67,50</strong></div>
+      <div class="fila total"><span>TOTAL</span><strong>USD 517,50</strong></div>
+    </div>
+    <p class="nota">Valores expresados en d&oacute;lares de los Estados Unidos de Am&eacute;rica.</p>
+  </div>
+</section>
+
+<!-- LÍMITES / ACLARACIONES -->
+<section class="sec alt">
   <div class="wrap">
     <span class="eyebrow">Para su referencia</span>
     <h2>Qu&eacute; cubre el contrato y qu&eacute; no</h2>
@@ -198,7 +220,7 @@ footer b{color:var(--hueso)}
 </section>
 
 <!-- CIERRE -->
-<section class="sec alt">
+<section class="sec">
   <div class="wrap">
     <span class="eyebrow">Cierre</span>
     <h2>Quedamos a su disposici&oacute;n</h2>
