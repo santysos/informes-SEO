@@ -53,6 +53,10 @@ strong{color:var(--hueso)}
 .fila.total{background:rgba(233,69,96,.12)}
 .fila.total span,.fila.total strong{color:#fff;font-size:18px;font-weight:800}
 .nota{margin-top:12px;font-size:13px;color:var(--niebla)}
+.valorbox{margin-top:18px;background:linear-gradient(135deg, rgba(233,69,96,.12), rgba(19,28,46,.55));border:1px solid rgba(233,69,96,.35);border-radius:16px;padding:28px 30px;max-width:460px;text-align:center}
+.valorbox .monto{font-size:42px;font-weight:800;color:#fff;line-height:1;font-variant-numeric:tabular-nums}
+.valorbox .monto small{font-size:17px;font-weight:600;color:var(--niebla)}
+.valorbox .sub{margin-top:9px;font-size:14px;color:var(--niebla)}
 footer{padding:38px 0 56px;color:var(--niebla);font-size:13px}
 footer b{color:var(--hueso)}
 </style>
@@ -81,7 +85,7 @@ footer b{color:var(--hueso)}
 <!-- TRABAJOS ADICIONALES -->
 <section class="sec">
   <div class="wrap">
-    <p class="p">Ante todo, le agradecemos la confianza depositada en Creative Web. A lo largo del proyecto realizamos, a su solicitud, algunas tareas y desarrollos que no formaban parte del alcance inicial. Con gusto se los detallamos:</p>
+    <p class="p">Ante todo, le agradecemos la confianza depositada en Creative Web. A lo largo del proyecto fueron surgiendo, a su solicitud, varias tareas y desarrollos adicionales para mejorar y hacer crecer su tienda. Con gusto se los resumimos:</p>
     <ul class="items">
       <li>
         <h3>Migraci&oacute;n del sitio anterior (PrestaShop)</h3>
@@ -132,18 +136,16 @@ footer b{color:var(--hueso)}
   </div>
 </section>
 
-<!-- VALOR PREFERENCIAL -->
+<!-- RECONOCIMIENTO SIMBÓLICO -->
 <section class="sec alt">
   <div class="wrap">
-    <span class="eyebrow">Valor</span>
-    <h2>Valor preferencial</h2>
-    <p class="p">Agradeciendo su confianza y en consideraci&oacute;n a la relaci&oacute;n de trabajo que con gusto mantenemos, aplicamos un <strong>valor preferencial</strong> por todo lo anterior:</p>
-    <div class="cuadro">
-      <div class="fila"><span>Trabajos adicionales realizados</span><strong>USD 450,00</strong></div>
-      <div class="fila"><span>IVA 15%</span><strong>USD 67,50</strong></div>
-      <div class="fila total"><span>TOTAL</span><strong>USD 517,50</strong></div>
+    <span class="eyebrow">Reconocimiento</span>
+    <h2>Un valor simb&oacute;lico</h2>
+    <p class="p">Todo este trabajo lo hicimos con gusto, como parte de nuestro compromiso con el crecimiento de su tienda. <strong>M&aacute;s que un costo adicional, lo entendemos como parte de acompa&ntilde;arlos.</strong> Por eso, y muy por debajo de su valor real, consideramos un &uacute;nico valor simb&oacute;lico de reconocimiento:</p>
+    <div class="valorbox">
+      <div class="monto">USD 450 <small>+ IVA</small></div>
+      <div class="sub">por todo el trabajo adicional descrito</div>
     </div>
-    <p class="nota">Valores en d&oacute;lares de los Estados Unidos de Am&eacute;rica.</p>
   </div>
 </section>
 
