@@ -89,49 +89,31 @@ footer b{color:var(--hueso)}
     <ul class="items">
       <li>
         <h3>Migraci&oacute;n del sitio anterior (PrestaShop)</h3>
-        <p>Reubicaci&oacute;n del sistema anterior a un nuevo dominio, migraci&oacute;n de m&aacute;s de 1.600 productos y vinculaci&oacute;n de aproximadamente 1.777 im&aacute;genes.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Reubicaci&oacute;n del sistema anterior a un nuevo dominio, migraci&oacute;n de m&aacute;s de 1.600 productos y vinculaci&oacute;n de aproximadamente 1.777 im&aacute;genes.</p>      </li>
       <li>
         <h3>Depuraci&oacute;n y normalizaci&oacute;n del cat&aacute;logo</h3>
-        <p>Correcci&oacute;n de nombres, reorganizaci&oacute;n de productos y atributos, y auditor&iacute;as de inventario.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Correcci&oacute;n de nombres, reorganizaci&oacute;n de productos y atributos, y auditor&iacute;as de inventario.</p>      </li>
       <li>
         <h3>Sistema de env&iacute;os por ciudad</h3>
-        <p>Complemento propio para env&iacute;os por ciudad y provincia con m&uacute;ltiples transportistas y retiro en oficina.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Complemento propio para env&iacute;os por ciudad y provincia con m&uacute;ltiples transportistas y retiro en oficina.</p>      </li>
       <li>
         <h3>Buscador mejorado</h3>
-        <p>Buscador que prioriza el nombre del producto para resultados m&aacute;s precisos.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Buscador que prioriza el nombre del producto para resultados m&aacute;s precisos.</p>      </li>
       <li>
         <h3>N&uacute;meros de parte compatibles</h3>
-        <p>Ingreso y gesti&oacute;n de n&uacute;meros de parte compatibles en las fichas de producto.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Ingreso y gesti&oacute;n de n&uacute;meros de parte compatibles en las fichas de producto.</p>      </li>
       <li>
         <h3>Documentaci&oacute;n legal</h3>
-        <p>T&eacute;rminos y Condiciones, Devoluciones, Privacidad y Env&iacute;os, seg&uacute;n la normativa ecuatoriana.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>T&eacute;rminos y Condiciones, Devoluciones, Privacidad y Env&iacute;os, seg&uacute;n la normativa ecuatoriana.</p>      </li>
       <li>
         <h3>Herramientas de gesti&oacute;n</h3>
-        <p>Archivo de gesti&oacute;n de stock y precios, y herramienta de carga masiva de productos.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Archivo de gesti&oacute;n de stock y precios, y herramienta de carga masiva de productos.</p>      </li>
       <li>
         <h3>Creaci&oacute;n masiva de cuentas de clientes</h3>
-        <p>Creaci&oacute;n y aprobaci&oacute;n de 323 cuentas de clientes, cada una con su grupo de descuento asignado.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Creaci&oacute;n y aprobaci&oacute;n de 323 cuentas de clientes, cada una con su grupo de descuento asignado.</p>      </li>
       <li>
         <h3>Optimizaci&oacute;n de rendimiento</h3>
-        <p>Diagn&oacute;stico del servidor, informe de rendimiento y optimizaciones t&eacute;cnicas del sitio.</p>
-        <span class="solic">Solicitado por: [POR CONFIRMAR]</span>
-      </li>
+        <p>Diagn&oacute;stico del servidor, informe de rendimiento y optimizaciones t&eacute;cnicas del sitio.</p>      </li>
     </ul>
   </div>
 </section>
