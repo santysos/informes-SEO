@@ -444,6 +444,15 @@ deployment:
     - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/*.php
     - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/.htaccess
     - chmod 644 $BASEPATH/multitecnologia-vyv/plan-accion-agosto-2026/*.jpg
+    # ---- Multitecnología VYV: trabajos adicionales (login VYV-2026) ----
+    - /bin/mkdir -p $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026
+    - chmod 755 $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026
+    - /bin/cp -f multitecnologia-vyv/adicionales-agosto-2026/.htaccess $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/adicionales-agosto-2026/login.php $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/adicionales-agosto-2026/index.php $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026/
+    - /bin/cp -f multitecnologia-vyv/adicionales-agosto-2026/logout.php $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026/
+    - chmod 644 $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026/*.php
+    - chmod 644 $BASEPATH/multitecnologia-vyv/adicionales-agosto-2026/.htaccess
     - /bin/mkdir -p $BASEPATH/dimapar/proforma-agosto-2026
     - chmod 755 $BASEPATH/dimapar/proforma-agosto-2026
     - /bin/cp -f dimapar/proforma-agosto-2026/.htaccess $BASEPATH/dimapar/proforma-agosto-2026/
