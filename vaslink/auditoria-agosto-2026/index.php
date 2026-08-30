@@ -102,7 +102,7 @@ section{scroll-margin-top:80px}
           <p class="text-sm text-slate-300 leading-relaxed prosa">Nada más. Ni resultados, ni sugerencias, ni un camino de vuelta al catálogo.</p>
         </div>
 
-        <p class="text-sm text-slate-300 leading-relaxed prosa mb-5">Se probaron seis términos &mdash;<span class="text-white">laptop, mouse, disco duro, impresora, teclado y memoria</span>&mdash;. Los seis fallan, y siempre igual: unos <strong class="text-white">4 segundos</strong> de espera y una respuesta de <strong class="text-white">182 bytes</strong>, el tamaño de una página de error, no el de un listado de productos.</p>
+        <p class="text-sm text-slate-300 leading-relaxed prosa mb-5">Se probaron seis términos &mdash;<span class="text-white">laptop, mouse, disco duro, impresora, teclado y memoria</span>&mdash;. Los seis fallan, y siempre igual: 182 bytes de respuesta, el tamaño de una página de error, no el de un listado de productos.</p>
 
         <div class="tabla-scroll mb-6">
           <table class="w-full text-sm border-collapse min-w-[520px]">
@@ -129,12 +129,12 @@ section{scroll-margin-top:80px}
         </div>
 
         <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
-          <li class="flex gap-3"><span class="text-red-400">›</span><div>El fallo es <strong class="text-white">específico de las búsquedas de productos</strong>, que es exactamente lo que envía la caja de búsqueda de la tienda. La búsqueda general del sitio responde bien.</div></li>
+          <li class="flex gap-3"><span class="text-red-400">›</span><div>El fallo es <strong class="text-white">específico de las búsquedas de productos</strong>, que es justo lo que envía la caja de búsqueda de la tienda.</div></li>
           <li class="flex gap-3"><span class="text-red-400">›</span><div>Con <strong class="text-white">2.109 productos en 48 categorías</strong>, buscar es la forma principal de encontrar algo. Nadie recorre 48 categorías a mano, y quien usa el buscador es justamente el que ya sabe qué quiere comprar.</div></li>
         </ul>
 
         <div class="border-l-2 border-marca-500 pl-6">
-          <p class="text-sm text-slate-300 leading-relaxed prosa"><strong class="text-white">Esto se arregla ya</strong>, sin esperar a ninguna otra decisión de este informe. Se rehaga o no el sitio, el buscador no puede seguir devolviendo un error.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa"><strong class="text-white">Esto se arregla ya</strong>, sin esperar a ninguna otra decisión de este informe.</p>
         </div>
       </div>
     </div>
@@ -210,7 +210,7 @@ section{scroll-margin-top:80px}
         <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
           <li class="flex gap-3"><span class="text-amber-400">›</span><div><strong class="text-white">16 imágenes pesan más de 1 MB cada una.</strong> La más pesada, <span class="font-mono text-xs text-slate-400">ANGOCHAGUA.png</span>, pesa 1,81 MB &mdash; ella sola, casi tanto como todos los scripts, estilos y fuentes juntos.</div></li>
           <li class="flex gap-3"><span class="text-amber-400">›</span><div><strong class="text-white">77 archivos PNG distintos</strong> en la portada. Ninguno está en WebP, el formato liviano que hoy entienden todos los navegadores.</div></li>
-          <li class="flex gap-3"><span class="text-amber-400">›</span><div><strong class="text-white">34 imágenes se entregan en su tamaño original</strong> en vez de una miniatura: fotos de 1080&times;1080 px guardadas como PNG, con nombres de cantones &mdash;Angochagua, Ibarra, Cotacachi, Urcuquí, Carchi, Cayambe, La Esperanza, San Isidro, Mira&mdash;.</div></li>
+          <li class="flex gap-3"><span class="text-amber-400">›</span><div><strong class="text-white">34 imágenes se entregan en su tamaño original</strong> en vez de una miniatura: fotos de 1080&times;1080 px guardadas como PNG, con nombres de cantones &mdash;Angochagua, Ibarra, Cotacachi, Urcuquí y cinco más&mdash;.</div></li>
         </ul>
 
         <div class="border-l-2 border-amber-500 pl-6">
@@ -278,7 +278,7 @@ section{scroll-margin-top:80px}
 
         <ul class="space-y-2.5 text-sm text-slate-300 mb-8">
           <li class="flex gap-3"><span class="text-amber-400">›</span><div>En celular pasan <strong class="text-white">12 segundos</strong> hasta que se ve el contenido principal, y <strong class="text-white">casi medio minuto</strong> hasta que la página responde bien a un toque.</div></li>
-          <li class="flex gap-3"><span class="text-amber-400">›</span><div>En escritorio el peso es mayor &mdash;se cargan las imágenes a tamaño completo&mdash;, pero la prueba simula una conexión más rápida y por eso los tiempos son mejores. <strong class="text-white">En celular ese peso sí se paga.</strong></div></li>
+          <li class="flex gap-3"><span class="text-amber-400">›</span><div>En escritorio el peso es mayor &mdash;se cargan las imágenes a tamaño completo&mdash;, pero la prueba simula una conexión más rápida. <strong class="text-white">En celular ese peso sí se paga.</strong></div></li>
         </ul>
 
         <p class="text-sm font-semibold text-white mb-3">Cuánto tarda el servidor en responder, por tipo de página</p>
@@ -322,7 +322,7 @@ section{scroll-margin-top:80px}
         </div>
 
         <div class="border-l-2 border-emerald-500 pl-6">
-          <p class="text-sm text-slate-300 leading-relaxed prosa"><strong class="text-white">El servidor responde bien: menos de un segundo en todas las páginas.</strong> El problema no está en dónde está alojado el sitio, está en la cantidad de cosas que se le pide cargar. Una ficha de producto, por ejemplo, arrastra 69 archivos de programación y estilos y 78 imágenes, ninguna en formato liviano.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa"><strong class="text-white">El servidor responde bien: menos de un segundo en todas las páginas.</strong> El problema no es dónde está alojado el sitio, sino cuánto se le pide cargar: una ficha de producto arrastra 69 archivos de programación y estilos y 78 imágenes, ninguna en formato liviano.</p>
         </div>
       </div>
     </div>
@@ -342,7 +342,7 @@ section{scroll-margin-top:80px}
       <div class="md:col-span-9">
         <div class="border-l-2 border-amber-500 pl-6 mb-8">
           <h3 class="text-lg font-semibold text-white mb-3">Se cargan dos constructores, pero cada uno hace algo distinto</h3>
-          <p class="text-sm text-slate-300 leading-relaxed prosa mb-4">Un constructor es la herramienta con la que se arman visualmente las páginas. El sitio tiene dos instalados y ambos viajan en cada visita, pero el reparto del trabajo es muy desigual:</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa mb-4">Un constructor es la herramienta con la que se arman visualmente las páginas. Hay dos instalados y ambos viajan en cada visita, pero el reparto del trabajo es muy desigual:</p>
           <div class="grid sm:grid-cols-2 gap-3 mb-5">
             <div class="rounded-xl border border-slate-800/60 bg-slate-900/40 p-4">
               <p class="text-xs text-slate-500 mb-1">WPBakery &middot; lo trae el tema</p>
@@ -355,7 +355,7 @@ section{scroll-margin-top:80px}
               <p class="text-xs text-slate-500 mt-1">entre 9 y 22 widgets por página</p>
             </div>
           </div>
-          <p class="text-sm text-slate-300 leading-relaxed prosa mb-4">Revisamos 20 páginas. En todas hay exactamente los mismos 178 bloques de WPBakery, incluso en las de políticas de privacidad y garantía, que no tienen diseño ninguno. Ese número idéntico es la prueba: <strong class="text-white">no es contenido de página, es la cabecera del tema Electro repitiéndose igual en todo el sitio.</strong> El contenido &mdash;cambio de teclado, reballing de procesadores, mantenimiento de impresoras, quiénes somos, formas de pago&mdash; está hecho en Elementor, y no quedó ni un solo bloque de WPBakery a medio convertir.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa mb-4">Revisamos 20 páginas y en todas aparecen exactamente los mismos 178 bloques, incluso en las de políticas, que no tienen diseño ninguno. Ese número idéntico es la prueba: <strong class="text-white">no es contenido de página, es la cabecera del tema Electro repitiéndose en todo el sitio.</strong> El contenido &mdash;servicios, quiénes somos, formas de pago&mdash; está hecho en Elementor, sin un solo bloque de WPBakery a medio convertir.</p>
           <p class="text-sm text-slate-300 leading-relaxed prosa">El problema sigue siendo real, pero la causa es otra: <strong class="text-white">nadie construyó con los dos. El tema obliga a cargar WPBakery aunque el contenido no lo use.</strong></p>
         </div>
 
@@ -371,7 +371,7 @@ section{scroll-margin-top:80px}
               <p class="text-xs text-slate-500 mt-1">bytes de cabecera, sobre 223.901 del código de la página sin comprimir</p>
             </div>
           </div>
-          <p class="text-sm text-slate-300 leading-relaxed prosa">Es el mega menú de Electro, que escribe las <strong class="text-white">48 categorías completas dentro de cada página</strong> del sitio. Se descarga entero en cada visita, esté o no desplegado, y hay que atravesarlo antes de llegar a lo que la persona vino a leer.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa">Es el mega menú de Electro, que escribe las <strong class="text-white">48 categorías completas dentro de cada página</strong> del sitio. Se descarga entero en cada visita, esté o no desplegado. <span class="text-slate-500">Medido sobre la página de políticas de garantía, una de las más simples del sitio.</span></p>
         </div>
 
         <div class="tabla-scroll mb-6">
@@ -420,8 +420,8 @@ section{scroll-margin-top:80px}
         </div>
 
         <ul class="space-y-2.5 text-sm text-slate-300">
-          <li class="flex gap-3"><span class="text-amber-400">›</span><div><strong class="text-white">El tema Electro y WPBakery son productos con licencia de pago.</strong> Mientras el sitio dependa de ellos hay que sostener esas licencias al día para seguir recibiendo actualizaciones y correcciones de seguridad. La última versión publicada por el autor del tema es del 5 de junio de 2026.</div></li>
-          <li class="flex gap-3"><span class="text-amber-400">›</span><div>Aparecen instalados <strong class="text-white">CookieAdmin y CookieAdmin Pro</strong>, que cumplen la misma función. Vale revisar si los dos hacen falta.</div></li>
+          <li class="flex gap-3"><span class="text-amber-400">›</span><div><strong class="text-white">El tema Electro y WPBakery son productos con licencia de pago.</strong> Mientras el sitio dependa de ellos hay que sostener esas licencias al día para recibir actualizaciones y parches de seguridad.</div></li>
+          <li class="flex gap-3"><span class="text-amber-400">›</span><div>Aparecen instalados <strong class="text-white">CookieAdmin y CookieAdmin Pro</strong>, que cumplen la misma función. Vale revisar si hacen falta los dos.</div></li>
         </ul>
       </div>
     </div>
@@ -446,20 +446,19 @@ section{scroll-margin-top:80px}
               <li class="flex gap-2"><span class="text-emerald-400">✓</span><div>Servidor LiteSpeed con HTTP/2, rápido y moderno</div></li>
               <li class="flex gap-2"><span class="text-emerald-400">✓</span><div>Compresión activa: la portada viaja de 291 KB a 55 KB</div></li>
               <li class="flex gap-2"><span class="text-emerald-400">✓</span><div>El navegador guarda los archivos fijos 7 días, así que quien vuelve no los descarga otra vez</div></li>
-              <li class="flex gap-2"><span class="text-emerald-400">✓</span><div>Responde en menos de un segundo en todas las páginas probadas</div></li>
             </ul>
           </div>
           <div class="rounded-xl border border-amber-500/30 bg-amber-500/5 p-5">
             <p class="eyebrow text-amber-400 mb-3">Lo que falta</p>
             <ul class="space-y-2 text-sm text-slate-300">
               <li class="flex gap-2"><span class="text-amber-400">›</span><div>No hay caché de página: <strong class="text-white">cada visita vuelve a armar la página desde cero</strong>, ejecutando programación y consultando la base de datos</div></li>
-              <li class="flex gap-2"><span class="text-amber-400">›</span><div>Entrar por «www» agrega un salto de redirección: 1,44 s contra 0,83 s del dominio sin «www», que es el oficial</div></li>
+              <li class="flex gap-2"><span class="text-amber-400">›</span><div>Entrar por «www» agrega un salto de redirección evitable, y casi duplica el tiempo de la primera respuesta</div></li>
             </ul>
           </div>
         </div>
 
         <div class="border-l-2 border-slate-700 pl-6">
-          <p class="text-sm text-slate-300 leading-relaxed prosa">El servidor tiene activado lo que hay que tener activado, salvo lo principal: guardar la página ya armada para no volver a construirla en cada visita. Es de las mejoras más rápidas de aplicar y de las que más alivian a un sitio con este catálogo.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa">El servidor tiene activado lo que hay que tener activado, salvo lo principal: guardar la página ya armada para no volver a construirla en cada visita. Es de las mejoras más rápidas de aplicar en un sitio con este catálogo.</p>
         </div>
       </div>
     </div>
@@ -479,8 +478,8 @@ section{scroll-margin-top:80px}
       <div class="md:col-span-9">
         <div class="border-l-2 border-amber-500 pl-6 mb-8">
           <h3 class="text-lg font-semibold text-white mb-3">La lentitud no se arregla haciendo otra página</h3>
-          <p class="text-sm text-slate-300 leading-relaxed prosa mb-3">Conviene decirlo antes que nada, aunque juegue en contra de proponer un sitio nuevo. <strong class="text-white">Si se migran esas mismas 99 imágenes a un sitio nuevo, el sitio nuevo va a pesar los mismos 31,8 MB.</strong> El peso no viene del diseño ni de la plataforma: viene de los archivos.</p>
-          <p class="text-sm text-slate-300 leading-relaxed prosa">Optimizar esas imágenes deja la portada por debajo de <strong class="text-white">2 MB</strong>, y ese trabajo se hace sobre la web actual, sin tocar nada más.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa mb-3">Conviene decirlo antes que nada, aunque juegue en contra de proponer un sitio nuevo. <strong class="text-white">Si se migran esas mismas 99 imágenes a un sitio nuevo, va a pesar los mismos 31,8 MB.</strong> El peso no viene del diseño ni de la plataforma: viene de los archivos.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa">Optimizarlas deja la portada por debajo de <strong class="text-white">2 MB</strong>, y ese trabajo se hace sobre la web actual.</p>
         </div>
 
         <div class="border-l-2 border-marca-500 pl-6 mb-8">
@@ -494,9 +493,8 @@ section{scroll-margin-top:80px}
 
         <div class="border-l-2 border-emerald-500 pl-6 mb-8">
           <h3 class="text-lg font-semibold text-white mb-3">La buena noticia: el contenido ya está en Elementor</h3>
-          <p class="text-sm text-slate-300 leading-relaxed prosa mb-3">Esto cambia las cuentas a favor de ustedes. <strong class="text-white">Cambiar de tema no obliga a rehacer el contenido de las páginas</strong>: las páginas de servicios, «quiénes somos», formas de pago y demás están armadas con Elementor y sobreviven al cambio.</p>
-          <p class="text-sm text-slate-300 leading-relaxed prosa mb-4">Lo que habría que rehacer es acotado: <strong class="text-white">la cabecera, el pie, y las plantillas de la tienda y de la ficha de producto.</strong> Es un trabajo de estructura, no de volver a escribir el sitio entero.</p>
-          <p class="text-sm text-slate-400 leading-relaxed prosa">Una condición técnica a tener en cuenta antes de decidir: armar esas plantillas de tienda con Elementor requiere su versión de pago. No damos esa compra por hecha &mdash;hay otros caminos&mdash;, pero es de las cosas que conviene evaluar antes y no descubrir a mitad del trabajo.</p>
+          <p class="text-sm text-slate-300 leading-relaxed prosa mb-3">Esto cambia las cuentas a favor de ustedes. <strong class="text-white">Cambiar de tema no obliga a rehacer el contenido de las páginas</strong>: está armado con Elementor y sobrevive al cambio. Lo que habría que rehacer es acotado &mdash;<strong class="text-white">cabecera, pie y las plantillas de tienda y de ficha de producto</strong>&mdash;: es un trabajo de estructura, no volver a escribir el sitio entero.</p>
+          <p class="text-sm text-slate-400 leading-relaxed prosa">Una condición técnica a evaluar antes de decidir: armar esas plantillas de tienda con Elementor requiere su versión de pago. No damos esa compra por hecha &mdash;hay otros caminos&mdash;, pero conviene resolverlo antes y no a mitad del trabajo.</p>
         </div>
 
         <div class="grid sm:grid-cols-2 gap-3 mb-6">
@@ -559,10 +557,10 @@ section{scroll-margin-top:80px}
       <div class="md:col-span-9">
         <p class="text-sm text-slate-300 leading-relaxed prosa mb-5">Todo lo anterior se midió desde afuera, sin acceso al panel de administración del sitio. Con ese acceso se podría confirmar:</p>
         <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
-          <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">La causa exacta del error del buscador</strong>, revisando el registro de errores del servidor. Sabemos que falla y qué lo dispara; no cuál de los componentes lo provoca.</div></li>
-          <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">La lista completa de plugins instalados</strong>, incluidos los que no dejan rastro visible en la página, y cuáles quedaron activos sin uso.</div></li>
+          <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">La causa exacta del error del buscador</strong>, en el registro de errores del servidor. Sabemos que falla y qué lo dispara; no cuál de los componentes lo provoca.</div></li>
+          <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">La lista completa de plugins</strong>, incluidos los que no dejan rastro visible, y cuáles quedaron activos sin uso.</div></li>
           <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">La configuración de LiteSpeed Cache</strong> y por qué el sitio no está entregando páginas guardadas.</div></li>
-          <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">El tamaño y el estado de la base de datos</strong>, que en tiendas con este catálogo suele acumular datos que ya no se usan.</div></li>
+          <li class="flex gap-3"><span class="text-marca-400">›</span><div><strong class="text-white">El tamaño y el estado de la base de datos</strong>, que en catálogos así suele acumular datos sin uso.</div></li>
         </ul>
 
         <div class="border-l-2 border-slate-700 pl-6 mb-10">
