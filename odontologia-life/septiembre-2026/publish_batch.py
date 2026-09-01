@@ -199,11 +199,26 @@ def main():
     print(f"\nAutenticado como: {me.get('name')}")
 
     print("\n== Comprobando duplicados ==")
+    # Ojo con dos trampas, las dos costaron 20 posts duplicados en OLIFE:
+    #  1. `status=any` NO devuelve los programados (`future`). Hay que
+    #     enumerar los estados a mano.
+    #  2. Sin paginar solo se leen los primeros 100 y el resto se vuelve a
+    #     subir. WordPress les pone sufijo -2 y quedan como contenido
+    #     duplicado en el sitio del cliente.
     existentes = set()
-    d = api.call("GET", "/posts", params={"per_page": 100, "status": "any",
-                                          "_fields": "slug"})
-    existentes |= {p["slug"] for p in d}
-    print(f"  {len(existentes)} slugs ya en el sitio")
+    for estado in ("publish", "future", "draft", "pending", "private"):
+        pagina = 1
+        while True:
+            lote = api.call("GET", "/posts",
+                            params={"per_page": 100, "page": pagina,
+                                    "status": estado, "_fields": "slug"})
+            if not lote:
+                break
+            existentes |= {p["slug"] for p in lote}
+            if len(lote) < 100:
+                break
+            pagina += 1
+    print(f"  {len(existentes)} slugs ya en el sitio (publicados + programados + borradores)")
     dupes = [s["slug"] for _, s in specs if s["slug"] in existentes]
     if dupes and not reanudar:
         print(f"  ⚠ ya existen: {dupes}")
@@ -225,13 +240,34 @@ def main():
 
     print("\n== Tags ==")
     todos = sorted({t for _, s in specs for t in s.get("tags", [])})
-    tg = api.call("GET", "/tags", params={"per_page": 100, "_fields": "id,name"})
-    tag_ids = {t["name"].lower(): t["id"] for t in tg}
+    # Ojo: hay que paginar. Con `per_page=100` a secas solo se leen las primeras
+    # 100 etiquetas del sitio, y a partir de ahí el script intenta crear de nuevo
+    # las que ya existen -> 400 term_exists. Pasó al superar las 100 en OLIFE.
+    tag_ids, pagina = {}, 1
+    while True:
+        lote = api.call("GET", "/tags",
+                        params={"per_page": 100, "page": pagina, "_fields": "id,name"})
+        if not lote:
+            break
+        tag_ids.update({t["name"].lower(): t["id"] for t in lote})
+        if len(lote) < 100:
+            break
+        pagina += 1
+    print(f"  {len(tag_ids)} tags ya existen en el sitio")
     for t in todos:
         if t.lower() not in tag_ids:
-            r = api.call("POST", "/tags", {"name": t})
-            tag_ids[t.lower()] = r["id"]
-            print(f"  + {t}")
+            try:
+                r = api.call("POST", "/tags", {"name": t})
+                tag_ids[t.lower()] = r["id"]
+                print(f"  + {t}")
+            except RuntimeError as e:
+                # Si ya existe con otro casing o con tilde distinta, WP devuelve
+                # el term_id en el error: se reutiliza en vez de abortar el lote.
+                m = re.search(r'"term_id":(\d+)', str(e))
+                if not m:
+                    raise
+                tag_ids[t.lower()] = int(m.group(1))
+                print(f"  = {t} (ya existía)")
     print(f"  {len(todos)} tags listos")
 
     print("\n== Publicando ==")
