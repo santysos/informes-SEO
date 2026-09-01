@@ -109,8 +109,17 @@ def publicar(ws, nombre, notas=""):
 
 # ── plantillas de configuración reutilizables ────────────────────────
 
-def trigger_clic_enlace(nombre, contiene):
-    """Trigger de clic en enlaces cuya URL contenga `contiene`.
+def trigger_clic_enlace(nombre, contiene, tipo="contains"):
+    """Trigger de clic en enlaces cuya URL cumpla `contiene`.
+
+    `tipo` es el operador de GTM: "contains" por defecto, o "matchRegex"
+    cuando hay que cubrir varias formas del mismo enlace.
+
+    ⚠️ Para WhatsApp usa SIEMPRE matchRegex con `wa\\.me|whatsapp`. Un
+    "contains whatsapp" a secas **no captura los enlaces `wa.me/593…`**,
+    que es la forma corta que usan la mitad de los sitios. Se detectó en
+    Odontología Life: 5 enlaces `api.whatsapp.com` y 1 `wa.me`, del que
+    no se habría medido ni un clic.
 
     Ojo con la forma del payload: `waitForTags` y `checkValidation` son objetos
     Parameter sueltos, NO listas. Mandarlos como lista devuelve un 400 con
@@ -122,7 +131,7 @@ def trigger_clic_enlace(nombre, contiene):
         "waitForTags": {"type": "boolean", "key": "waitForTags", "value": "false"},
         "checkValidation": {"type": "boolean", "key": "checkValidation", "value": "false"},
         "filter": [{
-            "type": "contains",
+            "type": tipo,
             "parameter": [
                 {"type": "template", "key": "arg0", "value": "{{Click URL}}"},
                 {"type": "template", "key": "arg1", "value": contiene},

@@ -80,7 +80,7 @@ def main():
     # ── WhatsApp ─────────────────────────────────────────────────────
     print("\n== WhatsApp ==")
     t_wa, e1 = gtm.upsert_trigger(ws, gtm.trigger_clic_enlace(
-        "Clic — WhatsApp", "whatsapp"))
+        "Clic — WhatsApp", r"wa\.me|whatsapp", tipo="matchRegex"))
     print(f"  trigger     {e1}: {t_wa['name']}")
     tag_wa, e2 = gtm.upsert_tag(ws, gtm.tag_ga4_evento(
         "GA4 — whatsapp_click", "whatsapp_click", mid, [t_wa["triggerId"]],
