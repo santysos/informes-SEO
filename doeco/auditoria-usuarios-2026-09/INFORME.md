@@ -77,3 +77,30 @@ sobre empaques biodegradables del editor Erick Maigua. Sin inyección de spam.
 4. Rotar contraseñas de las cuentas con privilegios y revocar Application Passwords.
 5. Revisar accesos de **ManageWP - Worker**, que da control remoto del sitio.
 6. Pedir al hosting los registros de acceso de diciembre 2024 para rastrear a los admin.
+
+---
+
+## Correcciones aplicadas el 1 de septiembre de 2026
+
+**Sufijo de precio.** El ajuste global de WooCommerce decía `por caja + IVA` y se cambió a
+`por paquete + IVA`. La frase no estaba escrita en cada producto: WooCommerce la pega a
+todos los precios, así que un solo cambio corrigió los 52. Verificado después: cero
+productos con «por caja», cero con la frase duplicada.
+
+Queda pendiente, porque no se resuelve con un ajuste: los **10 productos variables** dicen
+«por paquete» sin el «+ IVA», y **5 con precio rebajado** no muestran ningún sufijo, así
+que ahí no se sabe si el precio es por unidad o por paquete.
+
+**Auditoría de Code Snippets: limpio.** De los 9 snippets, 5 son los ejemplos que trae el
+plugin. Los 4 propios son el CPT de Marcas y tres versiones del campo RUC/cédula con
+consulta al SRI y al Registro Civil. Ninguno crea usuarios, otorga roles, escribe archivos
+ni ejecuta código ofuscado; las llamadas externas van a `srienlinea.sri.gob.ec` y
+`si.secap.gob.ec`. Descartada como vía de la puerta trasera.
+
+Nota menor: los dos snippets de RUC contactan `infoplacas.herokuapp.com` como parte de la
+cascada. Conviene comprobar si ese servicio sigue vivo.
+
+**reCAPTCHA.** Se instaló en Elementor, pero **no protege el formulario nativo de
+WooCommerce**: el `<form>` de registro de `/mi-cuenta/` solo tiene `email`, `password`,
+nonce y referer, sin ningún widget. Para cerrarlo hay que engancharlo a
+`woocommerce_register_form` y `woocommerce_registration_errors`. PENDIENTE.
