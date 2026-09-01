@@ -103,4 +103,20 @@ cascada. Conviene comprobar si ese servicio sigue vivo.
 **reCAPTCHA.** Se instaló en Elementor, pero **no protege el formulario nativo de
 WooCommerce**: el `<form>` de registro de `/mi-cuenta/` solo tiene `email`, `password`,
 nonce y referer, sin ningún widget. Para cerrarlo hay que engancharlo a
-`woocommerce_register_form` y `woocommerce_registration_errors`. PENDIENTE.
+`woocommerce_register_form` y `woocommerce_registration_errors`.
+
+**RESUELTO el 1 de septiembre.** Se creó el snippet **«reCAPTCHA v3 en el registro de
+WooCommerce»** (id 10, ámbito global, activo), que reutiliza las claves ya configuradas en
+Elementor Pro (`elementor_pro_recaptcha_v3_site_key` / `_secret_key`). Sin plugins nuevos.
+
+Comprobado en vivo: el campo del token está, el script de v3 carga, `grecaptcha.execute`
+corre, el formulario sigue intacto y no hay error de PHP.
+
+Decisiones de diseño del snippet:
+- Si faltan las claves de Elementor, **no hace nada**: el registro nunca queda roto.
+- Si Google no responde, **deja pasar**. Mejor una cuenta basura de más que bloquear a un
+  cliente real por una caída ajena.
+- Umbral de puntuación **0,5**, el recomendado por Google. Subir a 0,7 si se cuela spam.
+- Mensajes de error sin jerga y con salida para el cliente que caiga por error.
+
+El código está versionado en `snippet-recaptcha-woo.php`, junto a este informe.
