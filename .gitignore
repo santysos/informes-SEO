@@ -12,3 +12,6 @@ luuma/junio-2026/data/
 tracking/credentials.json
 tracking/token.json
 tracking/.venv/
+
+# datos personales de clientes: no van al repo
+doeco/auditoria-usuarios-2026-09/usuarios-a-borrar.csv
