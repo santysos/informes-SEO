@@ -41,7 +41,13 @@ PROHIBIDAS = [
     "es fundamental entender", "ya sea", "sinergia",
 ]
 
+# Ojo: la comparación es por subcadena sobre el texto en minúsculas, así que
+# hay que listar las variantes con y sin tilde. Las parroquias del foco local
+# (Peguche, San Pablo, Gonzáles Suárez) faltaban y hacían fallar por «1 sola
+# referencia» a posts que hablaban justamente de esas zonas.
 GEO = ["otavalo", "ibarra", "cotacachi", "atuntaqui", "imbabura",
+       "peguche", "san pablo", "gonzález suárez", "gonzales suarez",
+       "gonzalez suarez", "quiroga", "ilumán", "iluman", "san rafael",
        "plaza de ponchos", "ecuador", "sierra norte"]
 
 CATEGORIAS = {
