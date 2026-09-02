@@ -50,6 +50,32 @@ def main():
     ids = sorted(set(ids))
     print(f"lista: {antes} → {len(ids)} tras las verificaciones de seguridad")
     print(f"protegidos por tener pedidos: {len(protegidos)}")
+
+    # Arranque rápido: se pregunta al sitio qué ids siguen existiendo y solo se
+    # recorren esos. Sin esto, un relanzamiento gasta 1,5 s por cada cuenta ya
+    # borrada solo para confirmar un 404 — con 1.000 hechas son 25 minutos.
+    print("\nconsultando qué cuentas siguen vivas…", flush=True)
+    vivos, pagina = set(), 1
+    while True:
+        u = f"{base}/users?context=edit&roles=customer&per_page=100&page={pagina}&_fields=id"
+        try:
+            lote = json.loads(urllib.request.urlopen(
+                urllib.request.Request(u, headers=h), timeout=90).read())
+        except Exception:
+            print("  no se pudo consultar; se recorre la lista completa")
+            vivos = None
+            break
+        if not lote:
+            break
+        vivos |= {x["id"] for x in lote}
+        if len(lote) < 100:
+            break
+        pagina += 1
+        time.sleep(1)
+    if vivos is not None:
+        antes_vivos = len(ids)
+        ids = [i for i in ids if i in vivos]
+        print(f"  {antes_vivos - len(ids)} ya estaban borradas · quedan {len(ids)} por borrar")
     if seco:
         print("\n--dry-run: no se borra nada. Primeros 10 ids:", ids[:10])
         return
