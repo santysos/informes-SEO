@@ -120,3 +120,27 @@ Decisiones de diseño del snippet:
 - Mensajes de error sin jerga y con salida para el cliente que caiga por error.
 
 El código está versionado en `snippet-recaptcha-woo.php`, junto a este informe.
+
+---
+
+## Resultado de la limpieza · 2 de septiembre de 2026
+
+**1.827 cuentas eliminadas, cero fallos.**
+
+| | Antes | Después |
+|---|---:|---:|
+| Usuarios totales | 2.253 | **426** |
+| Clientes | 2.249 | **422** |
+| Administradores | 1 | 1 |
+| Editores | 2 | 2 |
+| Shop manager | 1 | 1 |
+
+Verificado contra el sitio, no contra el log:
+
+- Los **171 compradores sobrevivieron los 171**. Ninguno se perdió.
+- Las cuatro cuentas con privilegios, intactas.
+- Los 422 clientes finales coinciden exactamente con lo calculado antes de empezar.
+
+El borrado se hizo en tres tandas con interrupciones, sin ningún problema: el script es
+reanudable y en la última versión consulta primero qué ids siguen vivos, así que retomar
+cuesta menos de un minuto en vez de veinte.
