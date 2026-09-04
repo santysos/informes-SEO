@@ -40,6 +40,11 @@ strong{color:var(--hueso)}
 .meta{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:20px;font-size:13.5px;color:var(--niebla)}
 .meta strong{color:var(--hueso)}
 .sec{padding:42px 0;border-bottom:1px solid var(--linea)}
+.items .sublista{list-style:none;margin:10px 0 0;padding:0}
+.items .sublista li{position:relative;padding:0 0 0 18px;margin-bottom:8px;font-size:15px;color:var(--niebla);line-height:1.55;background:none;border:0;border-radius:0}
+.items .sublista li:before{content:'';position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--rojo);opacity:.7}
+.items .sublista li b{color:var(--hueso);font-weight:600}
+.nota-sub{margin-top:12px;font-size:14.5px;color:var(--niebla);opacity:.9;font-style:italic}
 .sec.alt{background:linear-gradient(180deg,var(--carbon2),var(--noche))}
 .items{list-style:none;display:grid;gap:16px;margin-top:8px}
 .items li{background:rgba(19,28,46,.5);border:1px solid var(--linea);border-radius:13px;padding:16px 20px}
@@ -94,8 +99,29 @@ footer b{color:var(--hueso)}
         <h3>Depuraci&oacute;n y normalizaci&oacute;n del cat&aacute;logo</h3>
         <p>Correcci&oacute;n de nombres, reorganizaci&oacute;n de productos y atributos, y auditor&iacute;as de inventario.</p>      </li>
       <li>
-        <h3>Sistema de env&iacute;os por ciudad</h3>
-        <p>Complemento propio para env&iacute;os por ciudad y provincia con m&uacute;ltiples transportistas y retiro en oficina.</p>      </li>
+        <h3>Complemento de env&iacute;os, desarrollado a medida</h3>
+        <p>No exist&iacute;a nada en el mercado que resolviera su log&iacute;stica, as&iacute; que
+        <b>programamos un complemento propio</b> para su tienda. Hoy va por su
+        versi&oacute;n 1.18, despu&eacute;s de diecinueve entregas de mejoras entre mayo y julio.
+        Es lo que permite que:</p>
+        <ul class="sublista">
+          <li>el cliente elija <b>provincia y ciudad</b>, y solo vea los transportistas que
+              llegan hasta all&aacute;;</li>
+          <li>est&eacute;n cargados sus <b>diez transportistas</b> con la cobertura y las
+              tarifas de su Excel;</li>
+          <li>cada transportista ofrezca <b>entrega a domicilio o retiro en oficina</b>,
+              con su propio precio;</li>
+          <li>el flete se muestre como <b>referencial</b> &mdash;&laquo;desde $X&raquo;&mdash;
+              sin sumarse al total, porque el valor exacto lo confirma un asesor;</li>
+          <li>haya <b>env&iacute;o gratis</b> configurable por monto m&iacute;nimo;</li>
+          <li>el checkout hable el idioma de su negocio: <b>Raz&oacute;n social</b> y
+              <b>Nombre comercial</b> en vez de Nombre y Apellidos;</li>
+          <li>el <b>RUC</b> del cliente viaje bloqueado hacia la factura, sin que nadie
+              pueda alterarlo por error.</li>
+        </ul>
+        <p class="nota-sub">Todo se administra desde un panel propio dentro de WordPress,
+        con pesta&ntilde;as para transportistas, ciudades y ajustes. Su equipo puede cambiar
+        coberturas y tarifas sin tocar una l&iacute;nea de c&oacute;digo ni depender de nosotros.</p>      </li>
       <li>
         <h3>Buscador mejorado</h3>
         <p>Buscador que prioriza el nombre del producto para resultados m&aacute;s precisos.</p>      </li>
