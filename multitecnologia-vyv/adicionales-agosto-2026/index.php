@@ -123,6 +123,32 @@ footer b{color:var(--hueso)}
         con pesta&ntilde;as para transportistas, ciudades y ajustes. Su equipo puede cambiar
         coberturas y tarifas sin tocar una l&iacute;nea de c&oacute;digo ni depender de nosotros.</p>      </li>
       <li>
+        <h3>Integraci&oacute;n con su facturaci&oacute;n electr&oacute;nica</h3>
+        <p>El complemento que conecta la tienda con su sistema de facturaci&oacute;n
+        tambi&eacute;n es <b>desarrollo nuestro</b>, y no se qued&oacute; en la primera
+        entrega: hoy va por su <b>versi&oacute;n 1.10</b>, con mejoras que fueron
+        surgiendo del uso real. Entre ellas:</p>
+        <ul class="sublista">
+          <li>los pedidos <b>viajan solos</b> a facturaci&oacute;n, con la opci&oacute;n
+              de hacerlo a mano cuando prefieran revisarlos antes;</li>
+          <li><b>stock y precios sincronizados</b>, con registro de qu&eacute; cambi&oacute;
+              en cada producto y cu&aacute;l era el valor anterior;</li>
+          <li>un <b>historial de actividad</b> dentro de WordPress, para ver qu&eacute;
+              se envi&oacute;, cu&aacute;ndo y con qu&eacute; resultado;</li>
+          <li><b>aviso por correo</b> si un pedido no logra enviarse, para que nadie se
+              entere tarde;</li>
+          <li>una <b>columna en la lista de pedidos</b> que muestra de un vistazo
+              cu&aacute;les ya se facturaron;</li>
+          <li>el <b>flete referencial no infla la factura</b>: el pedido viaja valorado
+              solo con los productos, en coordinaci&oacute;n con el complemento de env&iacute;os;</li>
+          <li>sus <b>credenciales guardadas cifradas</b>, no en texto plano.</li>
+        </ul>
+        <p class="nota-sub">Buena parte de estas mejoras salieron de auditar el
+        funcionamiento real y corregir lo que aparec&iacute;a: casos como recuperar
+        c&oacute;digos de producto que quedaban bloqueados por art&iacute;culos en la
+        papelera, o evitar que una carga masiva leg&iacute;tima fuera tomada por un
+        error.</p>      </li>
+      <li>
         <h3>Buscador mejorado</h3>
         <p>Buscador que prioriza el nombre del producto para resultados m&aacute;s precisos.</p>      </li>
       <li>
