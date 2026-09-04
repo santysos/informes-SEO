@@ -149,11 +149,31 @@ footer b{color:var(--hueso)}
         papelera, o evitar que una carga masiva leg&iacute;tima fuera tomada por un
         error.</p>      </li>
       <li>
-        <h3>Buscador mejorado</h3>
-        <p>Buscador que prioriza el nombre del producto para resultados m&aacute;s precisos.</p>      </li>
+        <h3>Buscador propio para su cat&aacute;logo</h3>
+        <p>Con m&aacute;s de mil productos, el buscador es la puerta de entrada de la
+        tienda. El que trae WordPress no daba abasto, as&iacute; que <b>programamos uno
+        pensado para su cat&aacute;logo</b>. Va por la <b>versi&oacute;n 1.11</b> y hace esto:</p>
+        <ul class="sublista">
+          <li>busca a la vez en el <b>nombre, la descripci&oacute;n, el c&oacute;digo del
+              producto y los n&uacute;meros de parte compatibles</b>;</li>
+          <li>entiende los <b>plurales</b>: quien escribe &laquo;cables&raquo; encuentra
+              &laquo;cable&raquo;;</li>
+          <li>si escriben el <b>nombre de una marca</b>, salen todos los productos de esa
+              marca;</li>
+          <li>los resultados se ordenan por <b>relevancia del t&iacute;tulo</b>, y los
+              <b>agotados van al final</b> en vez de estorbar arriba;</li>
+          <li>encuentra el producto <b>aunque el c&oacute;digo est&eacute; en una
+              variaci&oacute;n</b> y no en la ficha principal &mdash; un caso que dejaba
+              art&iacute;culos invisibles y que corregimos.</li>
+        </ul>      </li>
       <li>
-        <h3>N&uacute;meros de parte compatibles</h3>
-        <p>Ingreso y gesti&oacute;n de n&uacute;meros de parte compatibles en las fichas de producto.</p>      </li>
+        <h3>Compatibilidad por n&uacute;mero de parte</h3>
+        <p>Otro complemento nuestro, pensado para los repuestos: cada producto puede
+        guardar <b>todos los n&uacute;meros de parte con los que es compatible</b>. Ese
+        campo <b>no se muestra en la tienda</b> &mdash;no ensucia la ficha&mdash;, pero el
+        buscador s&iacute; lo lee. As&iacute;, un cliente que llega con el c&oacute;digo de
+        la pieza de su equipo encuentra el repuesto que le sirve, aunque ese c&oacute;digo
+        no sea el de ustedes.</p>      </li>
       <li>
         <h3>Documentaci&oacute;n legal</h3>
         <p>T&eacute;rminos y Condiciones, Devoluciones, Privacidad y Env&iacute;os, seg&uacute;n la normativa ecuatoriana.</p>      </li>
