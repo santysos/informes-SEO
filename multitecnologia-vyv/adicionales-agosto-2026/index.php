@@ -40,11 +40,6 @@ strong{color:var(--hueso)}
 .meta{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:20px;font-size:13.5px;color:var(--niebla)}
 .meta strong{color:var(--hueso)}
 .sec{padding:42px 0;border-bottom:1px solid var(--linea)}
-.items .sublista{list-style:none;margin:12px 0 0;padding:0}
-.items .sublista li{position:relative;padding:0 0 0 18px;margin-bottom:9px;font-size:15px;color:var(--niebla);line-height:1.55;background:none;border:0;border-radius:0;box-shadow:none}
-.items .sublista li:before{content:'';position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--rojo);opacity:.7}
-.items .sublista li b{color:var(--hueso);font-weight:600}
-.nota-sub{margin-top:14px;font-size:14.5px;color:var(--niebla);opacity:.9;font-style:italic}
 .sec.alt{background:linear-gradient(180deg,var(--carbon2),var(--noche))}
 .items{list-style:none;display:grid;gap:16px;margin-top:8px}
 .items li{background:rgba(19,28,46,.5);border:1px solid var(--linea);border-radius:13px;padding:16px 20px}
@@ -119,33 +114,7 @@ footer b{color:var(--hueso)}
       <li>
         <h3>Optimizaci&oacute;n de rendimiento</h3>
         <p>Diagn&oacute;stico del servidor, informe de rendimiento y optimizaciones t&eacute;cnicas del sitio.</p>      </li>
-      <li>
-        <h3>Herramientas licenciadas instaladas y configuradas</h3>
-        <p>Para que la tienda haga todo lo anterior no basta con WooCommerce: hubo que
-        incorporar y dejar funcionando varios complementos profesionales, la mayor&iacute;a
-        de pago. Estos son los principales y para qu&eacute; sirve cada uno:</p>
-        <ul class="sublista">
-          <li><b>B2BKing</b> &mdash; el motor de la venta mayorista: grupos de clientes,
-              precios diferenciados y la aprobaci&oacute;n de cuentas.</li>
-          <li><b>Crocoblock (suite Jet)</b> &mdash; ocho complementos que sostienen el
-              buscador, los filtros, el men&uacute; y las fichas de producto:
-              JetSearch, JetSmartFilters, JetEngine, JetWooBuilder, JetWooProductGallery,
-              JetMenu, JetBlocks y JetThemeCore.</li>
-          <li><b>Elementor Pro</b> &mdash; el constructor con el que est&aacute; armada
-              la tienda, sobre el tema Hello Elementor.</li>
-          <li><b>Variation Swatches</b> &mdash; muestra las variaciones de producto como
-              botones y colores en vez de listas desplegables.</li>
-          <li><b>LiteSpeed Cache</b> &mdash; la capa de velocidad del sitio.</li>
-          <li><b>Yoast SEO</b> y <b>Google Site Kit</b> &mdash; posicionamiento en Google
-              y medici&oacute;n de visitas.</li>
-          <li><b>WPForms</b> &mdash; los formularios de contacto de la tienda.</li>
-          <li><b>M&oacute;dulo de facturaci&oacute;n</b> &mdash; desarrollo propio de
-              Creative Web, integrado a su tienda.</li>
-        </ul>
-        <p class="nota-sub">Cada uno hubo que instalarlo, configurarlo y dejarlo
-        conviviendo con el resto sin conflictos, que suele ser la parte que m&aacute;s
-        tiempo lleva.</p>
-      </li>
+      
     </ul>
   </div>
 </section>
