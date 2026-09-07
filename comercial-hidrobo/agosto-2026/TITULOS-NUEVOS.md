@@ -239,3 +239,50 @@ Cada página en WordPress → panel de Yoast SEO al final del editor → campos 
 **Meta descripción**. No se toca el contenido.
 
 Con un acceso de edición al sitio se pueden aplicar los doce por API en una sola pasada.
+
+---
+
+## Estado de aplicación — 7 de septiembre de 2026
+
+**11 de los 12 aplicados por API y verificados en el HTML en vivo.** Todos entre 54 y 58
+caracteres. Respaldo de los valores anteriores en
+`Comercial Hidrobo/backup/yoast-antes-2026-09-07.json`.
+
+| # | Página | ID | Estado |
+|---|---|---|---|
+| 1 | Cilindrada del motor | 8117 | ✅ |
+| 2 | Camionetas con mejor consumo | 8220 | ✅ |
+| 3 | Exoneración de autos | 8237 | ✅ |
+| 4 | Tabla de mantenimiento Toyota | 11364 | ✅ |
+| 5 | Qué significa torque | 8099 | ✅ |
+| 6 | Renault Duster (`/reanult/`) | 2857 | ⏳ **manual** |
+| 7 | Renault Duster precio | 7991 | ✅ |
+| 8 | Seguro de auto nuevo | 8516 | ✅ |
+| 9 | DongFeng Huge | 9385 | ✅ |
+| 10 | Renault Arkana | 9124 | ✅ |
+| 11 | Chery Arrizo 5 | 9267 | ✅ |
+| 12 | Cambio de aceite | 8126 | ✅ |
+
+### El que falta (#6) hay que hacerlo a mano
+
+`/reanult/renault-duster/` es una **página**, no una entrada, y en este sitio Yoast no
+expone sus campos por API (solo los de las entradas). Hoy ni siquiera tiene título propio:
+lo que sale en Google —«Renault Duster - Comercial Hidrobo SA COMHIDROBO»— es el relleno
+automático de Yoast.
+
+Se arregla en wp-admin → Páginas → Renault Duster (id 2857) → panel de Yoast al final:
+
+- **Título SEO:** `Renault Duster 2026: precio en Ecuador y versiones`
+- **Meta descripción:** `Precio actualizado de cada versión, qué trae de serie y en qué cambió frente al modelo anterior. Disponible en Ibarra, Cayambe y Tulcán. Cotice por WhatsApp.`
+
+Sigue pendiente decidir la consolidación con la otra ficha de Duster antes de invertir más
+en esta dirección mal escrita.
+
+### Nota aparte: la fecha mínima del formulario de taller
+
+Se revisó la macro `'%CT::CurrentDate|addDay(1)|toDate%'` del campo «Fecha de la cita». La
+sintaxis es la que documenta Crocoblock —las comillas simples sí van—, pero **el sitio no
+la evalúa**: la sirve tal cual, como texto. El formulario viejo (id 8767) la tiene idéntica,
+así que nunca funcionó y no es algo que se haya roto con la versión de agosto. El navegador
+descarta un `min` inválido, de modo que el formulario funciona; lo único que falta es el
+bloqueo de fechas pasadas. Se resuelve con un snippet corto, no editando el atributo.
