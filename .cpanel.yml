@@ -525,3 +525,16 @@ deployment:
     - /bin/cp -f vaslink/auditoria-agosto-2026/logout.php $BASEPATH/vaslink/auditoria-agosto-2026/
     - chmod 644 $BASEPATH/vaslink/auditoria-agosto-2026/*.php
     - chmod 644 $BASEPATH/vaslink/auditoria-agosto-2026/.htaccess
+    # ---- Stelmap S.A.S.: proforma alojamiento + dominio (login Stelmap-2026) ----
+    - /bin/mkdir -p $BASEPATH/stelmap/proforma-septiembre-2026/pdf
+    - chmod 755 $BASEPATH/stelmap
+    - chmod 755 $BASEPATH/stelmap/proforma-septiembre-2026
+    - chmod 755 $BASEPATH/stelmap/proforma-septiembre-2026/pdf
+    - /bin/cp -f stelmap/proforma-septiembre-2026/.htaccess $BASEPATH/stelmap/proforma-septiembre-2026/
+    - /bin/cp -f stelmap/proforma-septiembre-2026/login.php $BASEPATH/stelmap/proforma-septiembre-2026/
+    - /bin/cp -f stelmap/proforma-septiembre-2026/index.php $BASEPATH/stelmap/proforma-septiembre-2026/
+    - /bin/cp -f stelmap/proforma-septiembre-2026/logout.php $BASEPATH/stelmap/proforma-septiembre-2026/
+    - /bin/cp -f stelmap/proforma-septiembre-2026/pdf/cotizacion.pdf $BASEPATH/stelmap/proforma-septiembre-2026/pdf/
+    - chmod 644 $BASEPATH/stelmap/proforma-septiembre-2026/*.php
+    - chmod 644 $BASEPATH/stelmap/proforma-septiembre-2026/.htaccess
+    - chmod 644 $BASEPATH/stelmap/proforma-septiembre-2026/pdf/*.pdf
