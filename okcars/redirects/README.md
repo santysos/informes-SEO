@@ -18,8 +18,26 @@ fichas de vehículo iban a páginas con error.**
 
 ## Qué se hizo (2026-09-08)
 
-Se instaló **Redirection 5.10.0** por API y se cargaron **12 redirecciones 301**.
-Verificadas en vivo: las doce devuelven 200 en el destino final.
+Se instaló **Redirection 5.10.0** por API y se cargaron **13 reglas**:
+
+- **12 redirecciones 301** para las fichas que ya se vendieron, cada una a su destino.
+- **1 regla general (id 13)**: regex `^/vehiculos-okcars/(.+)$` con `match_type: page`
+  sobre el tipo de página 404, que manda al listado cualquier ficha inexistente. Es la que
+  hace que **no haya que configurar nada cuando se venda el próximo vehículo**.
+
+La regla general usa **302 y no 301** a propósito: si una ficha se despublica por error y
+luego vuelve, un 301 quedaría cacheado en el navegador del visitante.
+
+Verificado en vivo:
+
+| Prueba | Resultado |
+|---|---|
+| Vehículos en stock | 200 ✅ |
+| Ficha inexistente | 302 → listado ✅ |
+| Listado y páginas normales | 200 ✅ |
+| 404 fuera de `/vehiculos-okcars/` | sigue 404 ✅ |
+
+Para el equipo de OKCars: ver `INSTRUCTIVO-ADMIN.md`.
 
 ## ⚠️ Pendiente: reapuntar cuando se publiquen los artículos
 
