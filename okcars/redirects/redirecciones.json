@@ -1,0 +1,86 @@
+[
+  {
+    "origen": "/vehiculos-okcars/changan-deepal-s05-ac-1-5l-4x2-hybrid/",
+    "nota": "865 impresiones, pos 6,9 — el de mayor trafico del sitio",
+    "destino_final": "/modelos-y-comparativas/deepal-s05-ecuador-precio/",
+    "destino_actual": "/guias-de-compra/autos-chinos-usados-ecuador-guia/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/chery-tiggo-4-t-a/",
+    "nota": "51 impresiones, pos 9,9",
+    "destino_final": "/guias-de-compra/autos-chinos-usados-ecuador-guia/",
+    "destino_actual": "/guias-de-compra/autos-chinos-usados-ecuador-guia/",
+    "pendiente_reapuntar": false
+  },
+  {
+    "origen": "/vehiculos-okcars/ford-escape-t-a/",
+    "nota": "13 impresiones, pos 4,5",
+    "destino_final": "/guias-de-compra/suv-o-sedan-usado-cual-conviene/",
+    "destino_actual": "/vehiculos-okcars/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/grand-vitara-sz-next-sport-ac-2-4-5p-4x2-ta/",
+    "nota": "19 impresiones, pos 6,6",
+    "destino_final": "/guias-de-compra/suv-o-sedan-usado-cual-conviene/",
+    "destino_actual": "/vehiculos-okcars/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/citroen-c5-aircross-ac-1-6-5p-4x2-ta/",
+    "nota": "13 impresiones, pos 7,2",
+    "destino_final": "/guias-de-compra/suv-o-sedan-usado-cual-conviene/",
+    "destino_actual": "/vehiculos-okcars/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/x-trail-advance-cvt-ac-2-5-5p-4x2-ta/",
+    "nota": "en borrador desde 2026-07-24",
+    "destino_final": "/guias-de-compra/suv-o-sedan-usado-cual-conviene/",
+    "destino_actual": "/vehiculos-okcars/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/kia-sorento-3-5-t-a/",
+    "nota": "en borrador desde 2026-05-27",
+    "destino_final": "/guias-de-compra/suv-o-sedan-usado-cual-conviene/",
+    "destino_actual": "/vehiculos-okcars/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/chevrolet-captiva-ltz-turbo-5-pas-ac-1-5-5p/",
+    "nota": "hay una Captiva viva en stock; el articulo la cubre",
+    "destino_final": "/modelos-y-comparativas/chevrolet-captiva-turbo-usada-ecuador/",
+    "destino_actual": "/vehiculos-okcars/chevrolet-captiva-ltz-turbo-5pas-ac-1-5-5p-4x2-tm/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/bt-50-ac-3-2-cd-4x4-tm-diesel/",
+    "nota": "en borrador desde 2026-09-03",
+    "destino_final": "/guias-de-compra/camionetas-diesel-usadas-ecuador/",
+    "destino_actual": "/guias-de-compra/camionetas-diesel-usadas-ecuador/",
+    "pendiente_reapuntar": false
+  },
+  {
+    "origen": "/vehiculos-okcars/terralord-hd-ac-2-8-cd-4x4-tm-diesel/",
+    "nota": "en borrador desde 2026-07-24",
+    "destino_final": "/guias-de-compra/camionetas-diesel-usadas-ecuador/",
+    "destino_actual": "/guias-de-compra/camionetas-diesel-usadas-ecuador/",
+    "pendiente_reapuntar": false
+  },
+  {
+    "origen": "/vehiculos-okcars/aion-ut-ac-5p-4x2-ta-ev/",
+    "nota": "electrico vendido; el articulo del Tang cubre la intencion",
+    "destino_final": "/modelos-y-comparativas/byd-tang-electrico-usado-ecuador/",
+    "destino_actual": "/vehiculos-okcars/byd-tang-ac-5p-4x4-ta-ev/",
+    "pendiente_reapuntar": true
+  },
+  {
+    "origen": "/vehiculos-okcars/toyota-prius-c-2013/",
+    "nota": "hay un Prius C vivo en stock",
+    "destino_final": "/modelos-y-comparativas/toyota-prius-c-usado-ecuador-kilometraje/",
+    "destino_actual": "/vehiculos-okcars/toyota-prius-c-sport-ac-1-5-5p-4x2-ta-hybrid/",
+    "pendiente_reapuntar": true
+  }
+]
