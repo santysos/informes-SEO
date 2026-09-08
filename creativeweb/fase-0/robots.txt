@@ -1,0 +1,50 @@
+# ventas.creativeweb.com.ec — robots.txt
+# Creado el 2026-09-08.
+#
+# Motivo: Google había indexado decenas de páginas de inicio de sesión y de base de
+# conocimiento en alemán, italiano, holandés, árabe, ruso, húngaro, farsi y portugués.
+# Esas URLs se llevaron 3.196 apariciones y 20 clics en 16 meses, y hundieron la
+# posición media de la tienda de 11,8 en noviembre de 2025 a 76,6 en marzo de 2026.
+#
+# Este archivo va en la raíz del subdominio: /public_html/ventas/robots.txt
+# (o la carpeta que corresponda a ventas.creativeweb.com.ec)
+
+User-agent: *
+
+# Variantes de idioma: la misma página repetida decenas de veces
+Disallow: /*?language=
+Disallow: /*&language=
+
+# Áreas privadas y de cliente: no aportan nada en búsqueda
+Disallow: /login
+Disallow: /logout
+Disallow: /password/reset
+Disallow: /register
+Disallow: /clientarea.php
+Disallow: /clientarea
+Disallow: /cart.php?a=view
+Disallow: /viewcart
+Disallow: /submitticket.php
+Disallow: /supporttickets.php
+Disallow: /viewticket.php
+Disallow: /affiliates.php
+Disallow: /contact.php
+Disallow: /serverstatus.php
+Disallow: /pwreset.php
+Disallow: /dl.php
+Disallow: /index.php?rp=/login
+Disallow: /index.php?rp=/password/reset
+
+# Base de conocimiento: se puede abrir más adelante si se le da contenido propio
+Disallow: /knowledgebase
+Disallow: /index.php?rp=/knowledgebase
+
+# Anuncios y descargas duplicados
+Disallow: /announcements
+Disallow: /download
+
+# Lo que SÍ queremos que Google lea: el catálogo y los planes
+Allow: /store
+Allow: /store/
+
+Sitemap: https://ventas.creativeweb.com.ec/sitemap.xml
