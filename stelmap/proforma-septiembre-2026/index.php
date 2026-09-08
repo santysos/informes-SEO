@@ -94,7 +94,7 @@ if (empty($_SESSION['auth_stelmap_proforma'])) {
       ['Instalador de plantillas','WordPress, Joomla y m&aacute;s de 150 aplicaciones en un clic.'],
       ['Antispam avanzado',       'Filtro de correo basura, autocontestadores y reenviadores.'],
       ['Correo en todo lado',     'Configurable en Outlook, en el celular y por webmail.'],
-      ['Soporte por WhatsApp',    'Atenci&oacute;n directa, tambi&eacute;n por Zoom si hace falta.'],
+      ['Soporte por 12 meses',    'Atenci&oacute;n directa por WhatsApp, tambi&eacute;n por Zoom si hace falta.'],
     ];
     foreach ($items as $i): ?>
       <div class="glass rounded-xl p-5">
@@ -129,9 +129,9 @@ if (empty($_SESSION['auth_stelmap_proforma'])) {
         <tr>
           <td class="px-6 py-5">
             <p class="font-semibold">Plan de alojamiento Pymes &mdash; 12 meses</p>
-            <p class="text-sm text-slate-400 mt-1">$7,99 mensuales. El contrato y el pago son anuales.</p>
+            <p class="text-sm text-slate-400 mt-1">Pago anual. Equivale a menos de $8 al mes. Incluye soporte t&eacute;cnico por los 12 meses.</p>
           </td>
-          <td class="px-6 py-5 text-right text-lg font-semibold whitespace-nowrap">$&nbsp;95,88</td>
+          <td class="px-6 py-5 text-right text-lg font-semibold whitespace-nowrap">$&nbsp;95,99</td>
         </tr>
         <tr>
           <td class="px-6 py-5">
@@ -142,25 +142,21 @@ if (empty($_SESSION['auth_stelmap_proforma'])) {
         </tr>
       </tbody>
       <tfoot class="bg-white/5">
-        <tr class="text-slate-300">
-          <td class="px-6 py-3 text-right text-sm">Subtotal</td>
-          <td class="px-6 py-3 text-right text-sm whitespace-nowrap">$&nbsp;117,87</td>
-        </tr>
-        <tr class="text-slate-300">
-          <td class="px-6 py-3 text-right text-sm">IVA 15&nbsp;%</td>
-          <td class="px-6 py-3 text-right text-sm whitespace-nowrap">$&nbsp;17,68</td>
-        </tr>
         <tr class="text-sky-300">
-          <td class="px-6 py-4 text-right font-semibold">Total a pagar</td>
-          <td class="px-6 py-4 text-right text-2xl font-bold whitespace-nowrap">$&nbsp;135,55</td>
+          <td class="px-6 py-4 text-right font-semibold">Total sin IVA</td>
+          <td class="px-6 py-4 text-right text-2xl font-bold whitespace-nowrap">$&nbsp;117,98</td>
+        </tr>
+        <tr class="text-slate-400">
+          <td class="px-6 py-3 text-right text-sm">Con IVA 15&nbsp;% incluido</td>
+          <td class="px-6 py-3 text-right text-sm whitespace-nowrap">$&nbsp;135,68</td>
         </tr>
       </tfoot>
     </table>
   </div>
 
   <p class="text-sm text-slate-500 mt-4">
-    Los valores de la tabla no incluyen IVA; el total s&iacute; lo incluye. Pago anual por anticipado.
-    La cuenta queda activa el mismo d&iacute;a del pago.
+    Los precios no incluyen IVA. Pago anual por anticipado; la cuenta queda activa el mismo
+    d&iacute;a del pago. Validez de esta proforma: 10 d&iacute;as.
   </p>
 </section>
 
@@ -175,15 +171,15 @@ if (empty($_SESSION['auth_stelmap_proforma'])) {
     <div class="grid sm:grid-cols-3 gap-4">
       <div class="rounded-xl bg-white/5 p-5">
         <p class="text-sm text-slate-400 mb-1">Alojamiento</p>
-        <p class="text-2xl font-semibold">$&nbsp;95,88</p>
+        <p class="text-2xl font-semibold">$&nbsp;95,99</p>
       </div>
       <div class="rounded-xl bg-white/5 p-5">
         <p class="text-sm text-slate-400 mb-1">Dominio</p>
         <p class="text-2xl font-semibold">$&nbsp;21,99</p>
       </div>
       <div class="rounded-xl bg-sky-500/10 border border-sky-500/25 p-5">
-        <p class="text-sm text-sky-300 mb-1">Total anual + IVA</p>
-        <p class="text-2xl font-semibold text-sky-300">$&nbsp;117,87</p>
+        <p class="text-sm text-sky-300 mb-1">Total anual sin IVA</p>
+        <p class="text-2xl font-semibold text-sky-300">$&nbsp;117,98</p>
       </div>
     </div>
   </div>

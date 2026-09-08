@@ -12,8 +12,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PROFORMA   = "1-2-1327"
 CLIENTE    = "STELMAP S.A.S."
 FECHA      = "8 de septiembre de 2026"
-VALIDEZ    = "30 días"
-COBERTURA  = "12 meses"
+VALIDEZ    = "10 días"
+COBERTURA  = "Inmediato"
 TELEFONO   = "099 594 3386"
 RENOVACION = "RENOVACION ANUAL"
 
@@ -125,7 +125,7 @@ def documento(numero, filas_items, filas_tot, nota):
         <div class="k">Fecha:</div><div class="v">{FECHA}</div>
       </div>
       <div class="col">
-        <div class="k">Cobertura:</div><div class="v">{COBERTURA}</div>
+        <div class="k">Tiempo de Entrega:</div><div class="v">{COBERTURA}</div>
         <div class="k">Tiempo de Validez:</div><div class="v">{VALIDEZ}</div>
         <div class="k">Telefono:</div><div class="v">{TELEFONO}</div>
       </div>
@@ -173,9 +173,9 @@ ITEM_HOSTING = fila("a",
       "Antispam avanzado, autocontestadores y reenviadores de correo",
       "Correo configurable en Outlook, celular y webmail",
       "Soporte por WhatsApp y Zoom",
-      "Valor mensual referencial $7,99 &ndash; el contrato y el pago son anuales",
+      "Soporte t&eacute;cnico por 12 meses",
     ],
-    "95.88")
+    "95.99")
 
 ITEM_DOMINIO = fila("b",
     "REGISTRO DE DOMINIO .COM &ndash; 12 MESES",
@@ -188,14 +188,14 @@ ITEM_DOMINIO = fila("b",
 
 NOTA = ("La instalaci&oacute;n de WordPress en su alojamiento no tiene costo. El plan incluye el "
         "instalador de plantillas para que usted mismo arme su sitio.<br>"
-        "Los valores se renuevan cada a&ntilde;o: alojamiento $95.88 y dominio $21.99.<br>"
+        "Los valores se renuevan cada a&ntilde;o: alojamiento $95.99 y dominio $21.99.<br>"
         "Facturaci&oacute;n anual por anticipado. La cuenta queda activa el mismo d&iacute;a del pago.")
 
 DOCS = {
  "cotizacion": documento(
     PROFORMA, ITEM_HOSTING + ITEM_DOMINIO,
-    totales([("Subtotal:", "$ 117.87", ""), ("Descuento:", "", ""),
-             ("IVA 15%:", "$ 17.68", ""), ("TOTAL:", "$ 135.55", "total")]),
+    totales([("Subtotal:", "$ 117.98", ""), ("Descuento:", "", ""),
+             ("IVA 15%:", "", ""), ("TOTAL:", "$ 117.98", "total")]),
     NOTA),
 }
 
