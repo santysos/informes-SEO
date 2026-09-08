@@ -34,40 +34,43 @@ if (!defined('WHMCS')) {
  * La clave es la ruta que WHMCS entrega en «templatefile» + el grupo de producto.
  * Ajustar los textos cuando cambien los planes; las cifras deben coincidir con lo
  * que efectivamente cobra la tienda.
+ *
+ * OJO: WHMCS agrega « - Creative Web» (15 caracteres) al final de cada titulo.
+ * Por eso los de aqui son cortos: el resultado final debe quedar bajo 60.
  */
 function cw_seo_tienda_mapa()
 {
     return array(
         // ── catálogo general ─────────────────────────────────────────────
         'store' => array(
-            'titulo' => 'Hosting y dominios en Ecuador — Creative Web',
+            'titulo' => 'Hosting y dominios en Ecuador',
             'desc'   => 'Planes de hosting con correos corporativos, certificado SSL y '
                       . 'cPanel en español, desde $59,99 al año. Soporte directo por WhatsApp desde Otavalo.',
         ),
         // ── grupo de hosting ─────────────────────────────────────────────
         'hosting-web' => array(
-            'titulo' => 'Planes de hosting web en Ecuador desde $59,99 al año',
+            'titulo' => 'Hosting en Ecuador desde $59,99 al año',
             'desc'   => 'Cuatro planes de alojamiento con correos corporativos, SSL incluido y '
                       . 'cPanel en español. Contrátalo en línea y tu cuenta queda activa el mismo día del pago.',
         ),
         // ── fichas de plan ───────────────────────────────────────────────
         'inicial' => array(
-            'titulo' => 'Plan Inicial de hosting: 10 correos y 3 GB — $59,99/año',
+            'titulo' => 'Plan Inicial: 10 correos y 3 GB SSD',
             'desc'   => 'Alojamiento para un sitio con 10 cuentas de correo corporativo, 3 GB en '
                       . 'disco SSD y certificado SSL incluido. Ideal para tu primer sitio. $59,99 al año.',
         ),
         'webmaster' => array(
-            'titulo' => 'Plan Webmaster de hosting: 20 correos y 10 GB — $83,88/año',
+            'titulo' => 'Plan Webmaster: 20 correos y 10 GB SSD',
             'desc'   => 'Dominios y bases de datos ilimitados, 20 correos corporativos y 10 GB en '
                       . 'disco SSD. Pensado para quien administra varios sitios a la vez. $83,88 al año.',
         ),
         'pymes' => array(
-            'titulo' => 'Plan Pymes: correos corporativos ilimitados — $95,88/año',
+            'titulo' => 'Plan Pymes: correos ilimitados y 20 GB',
             'desc'   => 'Cuentas de correo corporativo sin tope, 20 GB en disco SSD y 200 GB de '
                       . 'transferencia mensual. Es el plan que eligen la mayoría de empresas. $95,88 al año.',
         ),
         'pro' => array(
-            'titulo' => 'Plan Pro de hosting: recursos ilimitados — $239,88/año',
+            'titulo' => 'Plan Pro: hosting sin límites',
             'desc'   => 'Espacio y transferencia sin límite, correos ilimitados y soporte '
                       . 'prioritario. Para sitios con mucho tráfico o muchos proyectos a la vez. $239,88 al año.',
         ),
