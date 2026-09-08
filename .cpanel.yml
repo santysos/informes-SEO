@@ -525,3 +525,16 @@ deployment:
     - /bin/cp -f vaslink/auditoria-agosto-2026/logout.php $BASEPATH/vaslink/auditoria-agosto-2026/
     - chmod 644 $BASEPATH/vaslink/auditoria-agosto-2026/*.php
     - chmod 644 $BASEPATH/vaslink/auditoria-agosto-2026/.htaccess
+    # ---- CompuZero: proforma tienda en linea (login CompuZero-2026) ----
+    - /bin/mkdir -p $BASEPATH/compuzero/proforma-septiembre-2026/pdf
+    - chmod 755 $BASEPATH/compuzero
+    - chmod 755 $BASEPATH/compuzero/proforma-septiembre-2026
+    - chmod 755 $BASEPATH/compuzero/proforma-septiembre-2026/pdf
+    - /bin/cp -f compuzero/proforma-septiembre-2026/.htaccess $BASEPATH/compuzero/proforma-septiembre-2026/
+    - /bin/cp -f compuzero/proforma-septiembre-2026/login.php $BASEPATH/compuzero/proforma-septiembre-2026/
+    - /bin/cp -f compuzero/proforma-septiembre-2026/index.php $BASEPATH/compuzero/proforma-septiembre-2026/
+    - /bin/cp -f compuzero/proforma-septiembre-2026/logout.php $BASEPATH/compuzero/proforma-septiembre-2026/
+    - /bin/cp -f compuzero/proforma-septiembre-2026/pdf/cotizacion.pdf $BASEPATH/compuzero/proforma-septiembre-2026/pdf/
+    - chmod 644 $BASEPATH/compuzero/proforma-septiembre-2026/*.php
+    - chmod 644 $BASEPATH/compuzero/proforma-septiembre-2026/.htaccess
+    - chmod 644 $BASEPATH/compuzero/proforma-septiembre-2026/pdf/*.pdf
