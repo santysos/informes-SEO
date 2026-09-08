@@ -69,7 +69,7 @@ matricula = {
         "ocho años encima.",
 
         "Para quien compra usado, esto es una ventaja concreta que rara vez se contabiliza. "
-        "Un vehículo de cinco o seis años no solo cuesta menos: también paga menos "
+        "Un vehículo de cinco o seis años cuesta menos de entrada y además paga menos "
         "matrícula todos los años, y esa diferencia se acumula.",
 
         {"quote": "Cuando alguien compara un auto nuevo con un seminuevo, siempre le "
@@ -125,7 +125,32 @@ matricula = {
         "el cantón de matriculación y qué implica hacerlo. En Imbabura el trámite se "
         "resuelve en las agencias locales sin necesidad de viajar a Quito.",
 
+        {"h2": "Cuándo se matricula"},
+
+        "El calendario de matriculación se organiza por el último dígito de la placa, y "
+        "cada organismo de tránsito publica su cronograma anual. Matricular fuera del plazo "
+        "genera un recargo, así que conviene tener presente el mes que corresponde.",
+
+        "Para quien acaba de comprar un vehículo hay un detalle que sorprende: el "
+        "calendario sigue a la placa, no al dueño. Si comprás en un mes cercano al plazo de "
+        "esa placa, la matrícula te toca casi enseguida aunque el vendedor haya pagado la "
+        "del año anterior.",
+
+        "Por eso, al negociar, conviene preguntar cuándo le corresponde matricular a esa "
+        "placa. Es información gratuita que puede significar un gasto inmediato que no "
+        "tenías previsto, y es perfectamente razonable pedir que se considere en el precio "
+        "si el plazo está a la vuelta de la esquina.",
+
+        "En OKCars entregamos cada vehículo con impuestos y multas al día, y con la última "
+        "matrícula pagada en la carpeta. Así el comprador sabe desde el primer momento cuál "
+        "va a ser su gasto anual, sin estimaciones ni sorpresas en la primera renovación.",
+
         {"faq": [
+            ("¿Puedo matricular un auto que compré en otra provincia?",
+             "Sí. El vehículo se matricula donde está registrado, y existe el trámite de "
+             "cambio de cantón si preferís pasarlo a tu jurisdicción. Conviene consultarlo "
+             "en la agencia local, porque el componente municipal del impuesto varía y en "
+             "algunos casos el cambio conviene y en otros no."),
             ("¿Cuánto cuesta matricular un auto en Ecuador?",
              "No hay una cifra única. La matrícula suma impuesto al rodaje municipal, "
              "impuesto a la propiedad, impuesto ambiental, SPPAT y tasas administrativas. "
@@ -255,7 +280,51 @@ consultar = {
         "rechaza. Si alguien se resiste a darte la placa antes de que vayas a ver el auto, "
         "esa negativa ya es toda la información que necesitás.",
 
+        {"h2": "Las multas del comprador también cuentan"},
+
+        "Hay una variante que descoloca a mucha gente: las obligaciones pendientes del "
+        "comprador pueden trabar el trámite, aunque no tengan relación con el vehículo que "
+        "está comprando.",
+
+        "Si arrastrás multas a tu nombre, conviene regularizarlas antes de iniciar la "
+        "compra. Descubrirlo en la ventanilla, con el vendedor esperando y la señal ya "
+        "entregada, es una situación incómoda y perfectamente evitable con una consulta "
+        "previa por cédula.",
+
+        {"h2": "Qué hacer si ya entregaste dinero"},
+
+        "Es el escenario que queremos ayudarte a evitar, pero conviene saber qué hacer si "
+        "ya pasó.",
+
+        {"ol": [
+            "Reunir todo lo que documente la entrega: transferencias, recibos, mensajes.",
+            "Poner por escrito, aunque sea tarde, el acuerdo sobre quién paga qué y en qué "
+            "plazo.",
+            "Consultar el monto exacto de la deuda para saber de qué tamaño es el problema.",
+            "Evaluar si conviene pagar vos y descontar, si el vendedor sigue dispuesto a "
+            "firmar.",
+            "Si el vendedor desaparece o se niega, buscar asesoría legal antes de entregar "
+            "más dinero.",
+        ]},
+
+        "La lección que deja cada uno de estos casos es la misma: la consulta que cuesta "
+        "dos minutos antes puede costar meses después.",
+
+        "Nuestra recomendación final es tratar estas cuatro consultas como un solo paso "
+        "obligatorio, no como algo opcional que se hace si sobra tiempo. Son quince minutos "
+        "de trabajo que se pagan solos la primera vez que evitan una compra mal hecha.",
+
         {"faq": [
+            ("¿Qué pasa si el vendedor no me quiere dar la placa?",
+             "Es una señal de alerta suficiente para no avanzar. La placa es un dato "
+             "público que se ve en cualquier fotografía del vehículo, y la única razón para "
+             "ocultarla es que la consulta arroje algo que el vendedor prefiere que no "
+             "sepas hasta que ya hayas entregado dinero."),
+            ("¿Cuándo conviene hacer estas consultas?",
+             "Antes de acordar el precio, e incluso antes de ir a ver el auto. Pedir la "
+             "placa por adelantado es normal y ningún vendedor honesto se niega. Llegar a "
+             "negociar sabiendo qué arrastra el vehículo te da argumentos; descubrirlo "
+             "después de dar una señal te deja pidiendo favores."),
             ("¿Cómo consulto las multas de un vehículo?",
              "Con la placa, en el sistema de consultas de la Agencia Nacional de Tránsito "
              "para multas de tránsito, y en el portal del SRI para impuestos vehiculares. "
@@ -381,7 +450,50 @@ rtv = {
         f"Sobre los costos de tenencia asociados, la matrícula anual y sus rubros están "
         f"explicados en nuestro artículo sobre {link(MANTENIMIENTO, 'qué autos usados piden menos mantenimiento')}.",
 
+        {"h2": "Cómo preparar el auto antes de ir"},
+
+        "Una preparación de media hora evita la mayoría de los rechazos y el viaje de "
+        "vuelta. Esto es lo que conviene revisar antes de salir de casa:",
+
+        {"ol": [
+            "Encender todas las luces con alguien afuera confirmando que funcionan: bajas, "
+            "altas, direccionales, freno, reversa y placa.",
+            "Mirar el labrado de las cuatro llantas y la presión.",
+            "Revisar que los limpiaparabrisas funcionen y no estén resecos.",
+            "Confirmar que el cinturón de seguridad de cada plaza traba correctamente.",
+            "Comprobar que el freno de mano sostenga el vehículo en pendiente.",
+            "Ver que no haya fisuras del parabrisas en el campo visual del conductor.",
+            "Llevar el auto con el motor caliente, lo que ayuda en la medición de "
+            "emisiones.",
+        ]},
+
+        "Ese último punto es el que menos gente sabe. Un motor frío emite más y puede "
+        "reprobar una medición que con el motor a temperatura habría pasado sin problema. "
+        "Conviene manejar unos veinte minutos antes de llegar al centro.",
+
+        {"h2": "Qué pasa si el auto no pasa"},
+
+        "No es el fin del mundo. Se entrega un informe con las observaciones y un plazo "
+        "para corregirlas y volver, generalmente sin pagar la tarifa completa otra vez.",
+
+        "Lo que sí conviene es no dejarlo para el final del plazo de matriculación. Si "
+        "reprobás en la última semana y la reparación necesita un repuesto que hay que "
+        "pedir, terminás fuera de plazo y con recargo.",
+
+        "Si vas a comprar un usado en Imbabura y el vehículo viene de otra provincia, "
+        "confirmá además en qué cantón está matriculado: el esquema de revisión y el "
+        "calendario pueden ser distintos a los de Ibarra, y eso cambia cuándo te toca.",
+
         {"faq": [
+            ("¿La revisión técnica es obligatoria en todo el Ecuador?",
+             "No con el mismo esquema. Cada cantón define su propio sistema y su "
+             "periodicidad, y en varios es requisito para completar la matrícula. Conviene "
+             "confirmarlo en el organismo de tránsito del cantón donde el vehículo está "
+             "registrado, que no siempre es donde vivís."),
+            ("¿Conviene comprar un auto sin revisión vigente?",
+             "No necesariamente hay que descartarlo, pero sí conviene pedir que el vendedor "
+             "la apruebe antes de cerrar la compra. Si se niega, lo más probable es que "
+             "haya algo que el vehículo no va a pasar, y ese arreglo terminaría siendo tuyo."),
             ("¿Cada cuánto se hace la revisión técnica vehicular?",
              "Depende del cantón y del tipo de vehículo. En varios cantones es anual para "
              "vehículos particulares y más frecuente para transporte público y comercial. "
@@ -422,7 +534,7 @@ deepal = {
                "alternativas que ya se consiguen usadas.",
     "yoast_title": "Deepal S05 en Ecuador: precio y con qué compite",
     "yoast_desc": "Qué es el Deepal S05, de qué marca viene, qué autonomía ofrece y con "
-                  "qué alternativas compite en Ecuador si preferís comprar seminuevo.",
+                  "qué alternativas compite en Ecuador si preferís comprar un seminuevo hoy mismo.",
     "focus_kw": "deepal s05 precio ecuador",
     "bloques": [
         "El Deepal S05 se convirtió en uno de los modelos más consultados del mercado "
@@ -510,6 +622,31 @@ deepal = {
         f"categoría, vale la pena comparar. Para entender el segmento completo escribimos "
         f"la {link(HIBRIDOS, 'guía de híbridos usados')} y la de "
         f"{link(CHINOS, 'autos chinos usados en Ecuador')}.",
+
+        {"h2": "Lo que hay que entender de la autonomía extendida"},
+
+        "Es el concepto que más confusión genera en el mercado ecuatoriano y conviene "
+        "explicarlo bien, porque cambia por completo la experiencia de uso.",
+
+        "En un eléctrico puro, las ruedas las mueve un motor eléctrico alimentado por la "
+        "batería, y punto. Cuando la batería se agota, hay que cargarla. En un vehículo de "
+        "autonomía extendida hay además un motor de combustión, pero ese motor no mueve las "
+        "ruedas: funciona como generador para recargar la batería mientras andás.",
+
+        "La ventaja práctica es enorme para quien no tiene dónde cargar: el vehículo se "
+        "comporta como eléctrico en el día a día y, cuando la batería baja, el generador "
+        "resuelve sin que tengas que buscar un punto de carga. La contrapartida es que "
+        "seguís consumiendo combustible y llevando encima un motor más.",
+
+        "Para alguien en Imbabura o el Carchi, donde la red de carga sigue siendo delgada, "
+        "esa diferencia puede ser el factor decisivo entre un vehículo cómodo y uno que te "
+        "obliga a planificar cada viaje.",
+
+        "Lo que sí podemos decirte con seguridad es que el Deepal es hoy uno de los "
+        "modelos más buscados del país, y que buena parte de esa búsqueda es gente "
+        "informándose, no comprando todavía. Vale la pena tomarse el tiempo de comparar "
+        "antes de decidir: en electrificados, la diferencia entre acertar y equivocarse no "
+        "está en el modelo, está en si calza con cómo y dónde vas a usarlo.",
 
         {"faq": [
             ("¿De qué marca es el Deepal S05?",
@@ -645,7 +782,48 @@ sail = {
         f"la {link(FICHA['captiva'][0], FICHA['captiva'][1])}. Y si es tu primera compra, "
         f"la {link(PRIMER, 'guía para comprar el primer auto')} cubre lo esencial.",
 
+        {"h2": "El uso comercial y cómo detectarlo"},
+
+        "El Sail se usó mucho como vehículo de trabajo, y eso deja huellas que conviene "
+        "saber leer. Un auto que hizo taxi o reparto no está necesariamente mal, pero "
+        "acumuló mucho más desgaste que uno particular del mismo año.",
+
+        {"ul": [
+            "<strong>Desgaste del asiento del conductor</strong> muy superior al del resto "
+            "del habitáculo.",
+            "<strong>Pedales y palanca de cambios</strong> con el revestimiento gastado o "
+            "reemplazado.",
+            "<strong>Volante pulido</strong> en las zonas de agarre.",
+            "<strong>Marcas de soportes</strong> en el parabrisas o en el tablero, de "
+            "equipos que ya no están.",
+            "<strong>Kilometraje bajo que no cuadra</strong> con el desgaste visible: la "
+            "señal más clara de un odómetro alterado.",
+        ]},
+
+        "Ese último punto es el que más caro sale. Un interior muy gastado con un "
+        "kilometraje modesto en el tablero es motivo suficiente para retirarse, por más "
+        "atractivo que sea el precio.",
+
+        {"h2": "Consumo y costo mensual"},
+
+        "El Sail es de los autos más económicos de sostener en su categoría, y esa es su "
+        "principal virtud. Motor de cilindrada moderada, peso bajo y una mecánica sin "
+        "complicaciones se traducen en un gasto mensual contenido entre combustible y "
+        "mantenimiento.",
+
+        "Para quien recorre distancias cortas todos los días —del trabajo a la casa dentro "
+        "de Ibarra, por ejemplo— la diferencia frente a un vehículo más grande se acumula "
+        "mes a mes de forma notoria.",
+
+        "En el patio de Ibarra el Sail entra y sale rápido, porque es de los modelos con "
+        "más demanda del mercado de usados. Si te interesa, lo más práctico es avisarnos "
+        "para escribirte apenas ingrese uno, en lugar de estar revisando el listado.",
+
         {"faq": [
+            ("¿Cómo sé si un Sail fue usado como taxi o para reparto?",
+             "Mirá el desgaste del asiento del conductor, los pedales, la palanca y el "
+             "volante, y comparalo con el kilometraje del tablero. Un interior muy gastado "
+             "con pocos kilómetros marcados es la señal más clara de un odómetro alterado."),
             ("¿Cuánto cuesta un Chevrolet Sail usado en Ecuador?",
              "Varía mucho según año, kilometraje y estado. Es uno de los sedanes más "
              "accesibles del mercado de usados, y el rango entre una unidad antigua y una "
@@ -687,7 +865,7 @@ suv_sedan = {
                "reventa, con ejemplos reales del patio.",
     "yoast_title": "SUV o sedán usado: cuál conviene según tu uso",
     "yoast_desc": "Consumo, mantenimiento, comodidad y reventa comparados sin adornos. "
-                  "Cuándo una SUV vale lo que cuesta y cuándo un sedán rinde más.",
+                  "Cuándo una SUV vale de verdad lo que cuesta y cuándo un sedán te rinde bastante más.",
     "focus_kw": "suv o sedan cual conviene",
     "bloques": [
         "La SUV se comió el mercado. En Ecuador y en casi todo el mundo, los compradores "
@@ -782,7 +960,42 @@ suv_sedan = {
         f"{link(MANTENIMIENTO, 'qué autos usados piden menos mantenimiento')} y sobre "
         f"{link(SEGURO, 'cuánto cuesta el seguro de un auto usado')}.",
 
+        {"h2": "El sedán tiene una ventaja que nadie menciona"},
+
+        "Con toda la conversación volcada hacia la SUV, hay un punto a favor del sedán que "
+        "casi no aparece: la seguridad activa.",
+
+        "Un vehículo con el centro de gravedad más bajo se comporta mejor en una maniobra "
+        "de emergencia. Frena en menos distancia porque pesa menos, y balancea menos en un "
+        "esquive brusco. En una curva mal tomada en la Panamericana, esa diferencia importa.",
+
+        "Las SUV modernas compensan buena parte de eso con control de estabilidad y "
+        "electrónica, y hoy son vehículos seguros. Pero la física no se negocia: entre dos "
+        "vehículos de la misma generación y el mismo equipamiento, el más bajo y liviano "
+        "tiene ventaja en frenado y en estabilidad.",
+
+        {"h2": "El precio de compra y lo que compra"},
+
+        "A igualdad de año y kilometraje, un sedán cuesta menos que una SUV. Dicho de otro "
+        "modo: con el mismo presupuesto podés comprar un sedán bastante más nuevo o mejor "
+        "equipado que la SUV a la que llegás.",
+
+        "Esa es la comparación que recomendamos hacer y que casi nadie hace. En lugar de "
+        "comparar una SUV y un sedán del mismo año, compará los dos vehículos que "
+        "efectivamente podés pagar. Muchas veces el sedán que alcanza tiene tres años menos "
+        "y cincuenta mil kilómetros menos que la SUV que alcanza.",
+
+        "La conclusión práctica es que no hay una respuesta general: hay una respuesta para "
+        "tu caso. Y se llega a ella mirando tu recorrido real de la última semana, no el "
+        "viaje que hacés dos veces al año. Ese viaje se resuelve alquilando; los otros "
+        "trescientos sesenta días los resuelve el auto que compres.",
+
         {"faq": [
+            ("Con el mismo presupuesto, ¿qué conviene?",
+             "A igualdad de precio podés comprar un sedán bastante más nuevo o mejor "
+             "equipado que la SUV a la que llegás. Esa es la comparación útil: no una SUV "
+             "contra un sedán del mismo año, sino los dos vehículos que realmente podés "
+             "pagar hoy."),
             ("¿Una SUV consume mucho más que un sedán?",
              "Sí, por peso y aerodinámica. La diferencia varía entre modelos, pero es "
              "consistente y se acumula todos los meses. En uso urbano intensivo es donde "
