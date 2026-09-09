@@ -95,3 +95,39 @@ clics. Son páginas estructurales y quedaron excluidas.
 - `mapa-redirecciones.json` — el mapa completo, con las correcciones aplicadas
 - `redirecciones-ahora.json` — las 30 listas para ejecutar
 - `redirecciones-en-espera.json` — las que esperan a la Fase 2
+
+---
+
+## Ejecutado el 2026-09-09
+
+**Las cuatro páginas de servicio, enriquecidas antes de redirigir nada:**
+
+| Página | Palabras antes | Después | Título |
+|---|---|---|---|
+| Correos corporativos | 535 | **1.122** | 49 car. |
+| Hosting | 435 | **793** | 38 car. |
+| Dominios | 333 | **629** | 47 car. |
+| Páginas web | 264 | **638** | 50 car. |
+
+Y el H1 del home pasó de «Páginas Web en Quito» a «Páginas Web en Otavalo e Ibarra».
+
+**Redirection 5.10.0 instalado por API** y las 30 redirecciones cargadas.
+Verificado: las 28 que corresponden a páginas redirigen con 301 y aterrizan en un 200.
+
+### Dos entradas inertes que conviene borrar
+
+Dos de las 30 apuntaban a archivos `.webp`, no a páginas. Aparecían en Search Console
+porque salen en búsqueda de imágenes, y el script las trató como páginas.
+
+**No hacen daño**: los archivos estáticos los sirve el servidor sin pasar por WordPress,
+así que esas reglas nunca se disparan — comprobado, las dos imágenes siguen devolviendo 200
+con su contenido. Pero ensucian la lista y conviene eliminarlas desde
+wp-admin → Herramientas → Redirection (ids 29 y 30).
+
+Para la próxima tanda hay que filtrar `/wp-content/` antes de generar el mapa.
+
+## Lo que sigue
+
+- **28 URLs de SEO** esperando a que exista la página de servicio de SEO (Fase 2).
+- **32 URLs sin tema dominante**, para revisar una a una.
+- Pedir en Search Console la reindexación de las cuatro páginas de servicio.
