@@ -78,12 +78,12 @@ function cw_refrescar_indexable_yoast( $meta_id, $post_id, $meta_key, $meta_valu
 		return;
 	}
 
-	// La forma soportada de pedirle a Yoast que reconstruya: avisar que el post cambió.
-	if ( function_exists( 'do_action' ) ) {
-		do_action( 'wpseo_save_indexable', $post_id );
-	}
-
-	// Respaldo: borrar el indexable para que Yoast lo vuelva a construir al leerlo.
+	// Se borra el indexable para que Yoast lo reconstruya la próxima vez que lo lea.
+	//
+	// OJO: aquí NO va do_action( 'wpseo_save_indexable', $post_id ). Se probó el
+	// 2026-09-08 y provoca un error fatal: Yoast engancha ese aviso a
+	// Indexable_Ancestor_Watcher::reset_children(), que espera más argumentos.
+	// El meta alcanzaba a guardarse, pero la petición devolvía un 500.
 	global $wpdb;
 	$tabla = $wpdb->prefix . 'yoast_indexable';
 	if ( $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $tabla ) ) === $tabla ) {

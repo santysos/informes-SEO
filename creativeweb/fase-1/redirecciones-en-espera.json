@@ -1,0 +1,587 @@
+[
+ {
+  "de": "/chatbots-vs-whatsapp-business-ecuador/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 846,
+  "pos": 7.6
+ },
+ {
+  "de": "/como-mejorar-el-posicionamiento-seo-de-tu-pagina-web-en-ecuador/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 2103,
+  "pos": 23.2
+ },
+ {
+  "de": "/contactanos/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 492,
+  "pos": 39.1
+ },
+ {
+  "de": "/el-impacto-del-seo-en-la-experiencia-del-usuario-ux/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 509,
+  "pos": 57.9
+ },
+ {
+  "de": "/estudio-de-palabras-clave-en-ecuador/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 521,
+  "pos": 7.8
+ },
+ {
+  "de": "/landing-pages-efectivas-2025/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 628,
+  "pos": 10.8
+ },
+ {
+  "de": "/progressive-web-apps-futuro-aplicaciones-moviles/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 346,
+  "pos": 8.2
+ },
+ {
+  "de": "/seo-off-page-construyendo-autoridad-y-relevancia-en-la-web/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 614,
+  "pos": 49.7
+ },
+ {
+  "de": "/seo-para-blogs-estrategias-para-aumentar-tu-trafico-organico/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 408,
+  "pos": 28.2
+ },
+ {
+  "de": "/seo-y-contenido-que-es-el-content-gap-y-como-aprovecharlo/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 2,
+  "impr": 1150,
+  "pos": 13.1
+ },
+ {
+  "de": "/blog/4/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 54,
+  "pos": 39.1
+ },
+ {
+  "de": "/contrasenas-seguras-panel-administracion/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 94,
+  "pos": 7.4
+ },
+ {
+  "de": "/desarrollo-web-profesional-la-importancia-del-codigo-limpio-y-eficiente/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 644,
+  "pos": 12.2
+ },
+ {
+  "de": "/estrategias-de-seo-para-e-commerce-aumenta-tus-ventas/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 653,
+  "pos": 40.0
+ },
+ {
+  "de": "/firewall-para-sitios-web/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 103,
+  "pos": 8.6
+ },
+ {
+  "de": "/guia-completa-para-agregar-un-nuevo-producto-en-woocommerce-y-maximizar-tus-ventas/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 167,
+  "pos": 3.9
+ },
+ {
+  "de": "/link-building-como-generar-enlaces-de-calidad-y-mejorar-tu-seo/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "fusionar",
+  "clics": 1,
+  "impr": 406,
+  "pos": 54.2
+ },
+ {
+  "de": "https://www.constante.creativeweb.com.ec/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 3,
+  "pos": 31
+ },
+ {
+  "de": "/actualizaciones-de-wordpress/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 38,
+  "pos": 11.6
+ },
+ {
+  "de": "/backup-automatico-para-sitios-web/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 170,
+  "pos": 26.4
+ },
+ {
+  "de": "/blog/2/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 39,
+  "pos": 6.6
+ },
+ {
+  "de": "/blog/3/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 40,
+  "pos": 10.9
+ },
+ {
+  "de": "/blog/5/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 37,
+  "pos": 9.4
+ },
+ {
+  "de": "/caso-exito-comercial-hidrobo-creative-web/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 48,
+  "pos": 11.0
+ },
+ {
+  "de": "/como-crear-una-estrategia-de-seo-internacional-para-expandir-tu-negocio/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 244,
+  "pos": 46.1
+ },
+ {
+  "de": "/como-hacer-una-auditoria-seo-y-detectar-problemas-ocultos/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 253,
+  "pos": 30.0
+ },
+ {
+  "de": "/como-instalar-google-analytics-en-wordpress-sin-plugin/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 136,
+  "pos": 49.7
+ },
+ {
+  "de": "/como-mejorar-el-seo-de-tu-pagina-web-en-2024-guia-completa/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 53,
+  "pos": 23.6
+ },
+ {
+  "de": "/como-un-buen-posicionamiento-seo-hace-la-diferencia-en-tu-exito-online/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 122,
+  "pos": 17.6
+ },
+ {
+  "de": "/core-web-vitals-factores-ranking/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 227,
+  "pos": 16.5
+ },
+ {
+  "de": "/el-rol-de-la-inteligencia-artificial-en-el-seo-moderno/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1387,
+  "pos": 17.7
+ },
+ {
+  "de": "/errores-en-sitios-web-que-afectan-ventas/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 184,
+  "pos": 12.5
+ },
+ {
+  "de": "/las-10-mejores-estrategias-de-seo-para-negocios-locales/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 112,
+  "pos": 48.7
+ },
+ {
+  "de": "/los-beneficios-de-un-sitio-web-100-responsivo-para-tu-negocio-en-2024/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 17,
+  "pos": 5.5
+ },
+ {
+  "de": "/migrar-sitio-web-a-creative-web/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 26,
+  "pos": 21.5
+ },
+ {
+  "de": "/mitos-sobre-el-seo-en-ecuador/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 56,
+  "pos": 22.7
+ },
+ {
+  "de": "/optimizar-seo-on-page-15-consejos-para-potenciar-tu-contenido/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 296,
+  "pos": 50.3
+ },
+ {
+  "de": "/page/5/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 6
+ },
+ {
+  "de": "/palabras-clave-la-base-de-una-estrategia-seo-exitosa/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 249,
+  "pos": 5.6
+ },
+ {
+  "de": "/quienes-somos/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 430,
+  "pos": 37.4
+ },
+ {
+  "de": "/rich-snippets-como-destacar-tu-contenido-en-los-resultados-de-busqueda/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 152,
+  "pos": 24.3
+ },
+ {
+  "de": "/seo-local-como-aparecer-en-los-primeros-resultados-de-google-maps/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 60,
+  "pos": 47.1
+ },
+ {
+  "de": "/seo-local-para-paginas-web-en-ecuador-como-destacar-en-tu-region/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 381,
+  "pos": 32.4
+ },
+ {
+  "de": "/seo-movil-asegura-el-exito-de-tu-sitio-en-dispositivos-moviles/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 224,
+  "pos": 40.7
+ },
+ {
+  "de": "/seo-para-principiantes-en-ecuador/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 461,
+  "pos": 27.2
+ },
+ {
+  "de": "/seo-tecnico-errores-comunes/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1908,
+  "pos": 40.7
+ },
+ {
+  "de": "/seo-tecnico-los-aspectos-clave-que-no-puedes-ignorar/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 288,
+  "pos": 15.2
+ },
+ {
+  "de": "/seo-y-redes-sociales-como-integrar-tus-estrategias-para-maximos-resultados/",
+  "a": "/servicios/paginas-web/",
+  "tema": "seo",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 128,
+  "pos": 16.9
+ },
+ {
+  "de": "/soporte/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 54,
+  "pos": 3.6
+ },
+ {
+  "de": "/wp-content/uploads/2019/01/exportar.jpg",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 26
+ },
+ {
+  "de": "/wp-content/uploads/2019/01/mbox-archivo.jpg",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 23
+ },
+ {
+  "de": "/wp-content/uploads/2019/10/olimpiadas-otavalo-2019.jpeg",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 15
+ },
+ {
+  "de": "/wp-content/uploads/2020/06/Captura-de-Pantalla-2020-06-15-a-las-17.22.52.png",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 5,
+  "pos": 16.8
+ },
+ {
+  "de": "/wp-content/uploads/2024/07/correo-empresarial-ecuador.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 66
+ },
+ {
+  "de": "/wp-content/uploads/2024/07/email-de-empresa-correo-creative-web-ecuador.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 28
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/diseno-web-moderno-768x439.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 2,
+  "pos": 11.5
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/diseno-web-moderno.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 2,
+  "pos": 22
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/diseno-web-resposive-1024x574.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 3,
+  "pos": 20.3
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/futuro-sitio-web-768x445.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 8
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/hosting-dominio-web-768x486.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 29
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/mobile-web.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 30
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/porque-renovar-dominio-768x487.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 24
+ },
+ {
+  "de": "/wp-content/uploads/2024/08/realidad-virtual-programar.webp",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 19
+ },
+ {
+  "de": "https://www.parquecondor.creativeweb.com.ec/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 2
+ },
+ {
+  "de": "https://www.unaymuchiku.creativeweb.com.ec/",
+  "a": "/",
+  "tema": "—",
+  "cubo": "consolidar",
+  "clics": 0,
+  "impr": 1,
+  "pos": 1
+ }
+]
