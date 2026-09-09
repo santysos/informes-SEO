@@ -43,7 +43,7 @@ creativeweb.com.ec es un premio bastante mayor que seguir puliendo este sitio.
 | Motrix | `/servicios/motrix-software-consultorios/` | 451 |
 | Probador virtual | `/servicios/probador-virtual-tienda-ropa/` | 415 |
 | Quipuy (enlaza a quipuy.com) | `/servicios/quipuy-facturacion-electronica/` | 244 |
-| DentiLab (enlaza al subdominio) | `/servicios/dentilab-software-clinicas-dentales/` | 201 |
+| DentiLab (enlaza a denti-lab.com) | `/servicios/dentilab-software-clinicas-dentales/` | 201 |
 
 Todas con título entre 45 y 55 caracteres y descripción entre 140 y 149.
 
@@ -73,3 +73,21 @@ Cada una lleva algo que la mayoría de agencias omite, porque es lo que genera c
 - Enlazar las páginas nuevas desde el menú y desde el home.
 - Las 32 URLs sin tema dominante siguen esperando revisión una a una.
 - Pedir reindexación en Search Console de las 7 páginas nuevas.
+
+
+## Corrección · 2026-09-09
+
+DentiLab tiene dominio propio: **denti-lab.com**, no el subdominio. La página ya apunta al
+sitio correcto.
+
+Dos cosas que aparecieron al verificarlo:
+
+**El subdominio `dentilab.creativeweb.com.ec` muestra un «Index of /»** — un listado de
+directorio vacío, accesible desde internet. No es contenido duplicado, pero no debería estar
+expuesto. Conviene cerrarlo o apuntarlo a denti-lab.com.
+
+**denti-lab.com está en Search Console y recién arranca:** 67 impresiones en 12 meses, cero
+clics, posición media 16,4. Su blog empieza a aparecer por «radiografías dentales archivo
+digital», «presupuesto dental paciente» e «historia clínica odontológica MSP» — búsquedas
+correctas para el producto. Es un sitio nuevo haciendo lo que corresponde; lo que necesita es
+tiempo y constancia, no correcciones.
