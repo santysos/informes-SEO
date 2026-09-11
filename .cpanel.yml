@@ -538,3 +538,16 @@ deployment:
     - chmod 644 $BASEPATH/compuzero/proforma-septiembre-2026/*.php
     - chmod 644 $BASEPATH/compuzero/proforma-septiembre-2026/.htaccess
     - chmod 644 $BASEPATH/compuzero/proforma-septiembre-2026/pdf/*.pdf
+    # ---- Sueños Bilingües: proforma sistema de matrícula (login Suenos-2026) ----
+    - /bin/mkdir -p $BASEPATH/suenos-bilingues/proforma-septiembre-2026/pdf
+    - chmod 755 $BASEPATH/suenos-bilingues
+    - chmod 755 $BASEPATH/suenos-bilingues/proforma-septiembre-2026
+    - chmod 755 $BASEPATH/suenos-bilingues/proforma-septiembre-2026/pdf
+    - /bin/cp -f suenos-bilingues/proforma-septiembre-2026/.htaccess $BASEPATH/suenos-bilingues/proforma-septiembre-2026/
+    - /bin/cp -f suenos-bilingues/proforma-septiembre-2026/login.php $BASEPATH/suenos-bilingues/proforma-septiembre-2026/
+    - /bin/cp -f suenos-bilingues/proforma-septiembre-2026/index.php $BASEPATH/suenos-bilingues/proforma-septiembre-2026/
+    - /bin/cp -f suenos-bilingues/proforma-septiembre-2026/logout.php $BASEPATH/suenos-bilingues/proforma-septiembre-2026/
+    - /bin/cp -f suenos-bilingues/proforma-septiembre-2026/pdf/cotizacion.pdf $BASEPATH/suenos-bilingues/proforma-septiembre-2026/pdf/
+    - chmod 644 $BASEPATH/suenos-bilingues/proforma-septiembre-2026/*.php
+    - chmod 644 $BASEPATH/suenos-bilingues/proforma-septiembre-2026/.htaccess
+    - chmod 644 $BASEPATH/suenos-bilingues/proforma-septiembre-2026/pdf/*.pdf
