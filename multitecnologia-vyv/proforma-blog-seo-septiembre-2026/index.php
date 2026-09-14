@@ -220,7 +220,7 @@ if (empty($_SESSION['auth_vyv_blog'])) {
       '20 artículos al mes &mdash; 120 en los seis meses',
       'Reescritura de títulos y descripciones de las páginas que ya posicionan',
       'Medición instalada y funcionando',
-      'Reunión y reporte mensual',
+      'Informe mensual del trabajo, las métricas y la estrategia del mes siguiente',
     ] as $i): ?>
       <div class="card p-4 flex gap-3 items-start">
         <span class="text-[#34d39e] shrink-0">✓</span>
@@ -229,11 +229,46 @@ if (empty($_SESSION['auth_vyv_blog'])) {
     <?php endforeach; ?>
   </div>
 
-  <div class="card p-6 border-l-2 border-l-[#e94560]">
-    <p class="font-semibold mb-2">Sin cobro por venta</p>
+  <h3 class="text-lg font-semibold mb-3 mt-8">El informe mensual</h3>
+  <p class="text-[#94a3b8] mb-5 max-w-3xl leading-relaxed">
+    Cada mes reciben un informe con tres cosas, y lo conversamos en una reunión. No es una
+    planilla de números sueltos: es lo que se hizo, qué resultado dio y qué sigue.
+  </p>
+
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="card p-6">
+      <p class="mono text-xs text-[#e94560] mb-3">01</p>
+      <p class="font-semibold mb-2">El trabajo realizado</p>
+      <p class="text-sm text-[#94a3b8] leading-relaxed">
+        Qué artículos se publicaron, qué títulos y descripciones se reescribieron, qué se
+        corrigió en el sitio. Con el detalle de cada pieza, no un resumen.
+      </p>
+    </div>
+    <div class="card p-6">
+      <p class="mono text-xs text-[#e94560] mb-3">02</p>
+      <p class="font-semibold mb-2">Las métricas</p>
+      <p class="text-sm text-[#94a3b8] leading-relaxed">
+        Cuánta gente los vio en Google y cuánta entró, en qué posición aparecen por las
+        búsquedas que importan, y cómo se movió cada cifra frente al mes anterior.
+      </p>
+    </div>
+    <div class="card p-6">
+      <p class="mono text-xs text-[#e94560] mb-3">03</p>
+      <p class="font-semibold mb-2">La estrategia del mes que viene</p>
+      <p class="text-sm text-[#94a3b8] leading-relaxed">
+        Qué vamos a atacar y por qué, decidido con los datos del mes que cerró. Si algo no
+        funcionó, se cambia el enfoque y se dice.
+      </p>
+    </div>
+  </div>
+
+  <div class="card p-6 mt-5 border-l-2 border-l-[#34d39e]">
     <p class="text-sm text-[#94a3b8] leading-relaxed">
-      No cobramos un porcentaje de los clientes nuevos. Si los clientes no llegan, ajustamos sin
-      costo extra.
+      Ese tercer punto es el que hace que el plan no sea siempre lo mismo. Los primeros meses
+      suelen ir a corregir lo que ya está posicionado, porque es lo que rinde más rápido;
+      después el peso se mueve hacia el contenido nuevo. <strong class="text-[#e8edf5]">Las
+      decisiones se toman con los números del mes anterior</strong>, no con un calendario
+      escrito de antemano.
     </p>
   </div>
 </section>

@@ -182,8 +182,10 @@ ITEM_C = fila("c",
     ["20 art&iacute;culos al mes &mdash; 120 en los seis meses",
      "Reescritura de t&iacute;tulos y descripciones de las p&aacute;ginas que ya posicionan",
      "Medici&oacute;n instalada y funcionando",
-     "Reuni&oacute;n y reporte mensual",
-     "Sin cobro por venta: no se cobra porcentaje de los clientes nuevos",
+     "Informe mensual con el detalle del trabajo realizado en el mes",
+     "M&eacute;tricas: apariciones, visitas y posiciones, comparadas con el mes anterior",
+     "Estrategia del mes siguiente, decidida con los datos del mes que cierra",
+     "Reuni&oacute;n mensual para revisarlo",
      "Alternativa mes a mes: $150.00 + IVA mensuales, $900.00 en total"],
     "600.00")
 
