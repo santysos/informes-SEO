@@ -1,6 +1,6 @@
 # CLAUDE.md — Repositorio informes-SEO
 
-Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-08-10.
+Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-09-14.
 
 ---
 
@@ -48,6 +48,12 @@ Submarca de seminuevos de Comercial Hidrobo. Sitio nuevo, sin trabajo SEO previo
 - Top no-brand: `deepal s05 precio ecuador` (10 clics, pos 6,9)
 - **Medición (verificado 2026-08-24, corrige lo que decía antes este archivo):** hasta agosto OKCars **NO tenía GTM ni eventos de contacto**. Solo GA4 vía Site Kit (`GT-P3JC26Q9`, medición `G-F0H5W02BRF`) con los eventos automáticos. El único evento clave configurado era `purchase`, que nunca se disparó. El 24-ago se creó el contenedor **GTM-P7MNVQ65** (cuenta OKCars) y se instaló por Site Kit → Tag Manager.
 - ⚠️ **El botón de WhatsApp existe solo en las fichas de vehículo.** Home, posts, páginas de marca y contacto no lo tienen: ~1.300 de 1.659 vistas caen en páginas sin salida. Medir no arregla eso.
+
+**Estado al 2026-09-14:** 76 posts en el sitio (34 publicados, 42 programados hasta el 30 de
+noviembre). Faltan 44 para los 120 del contrato. Se reescribieron 5 títulos que estaban en
+posición 3 a 9 con cero clics, y se instaló Redirection con 13 reglas para las fichas de
+vehículos vendidos — antes el 87 % de las impresiones de fichas caía en 404 porque al vender
+se pasan a borrador. Instructivo para el equipo del cliente en `okcars/redirects/`.
 
 **Trabajo realizado por nosotros (abril-mayo 2026):**
 - 20 posts publicados vía REST API (IDs 1110-1130, fechas escalonadas 1-abr a 28-may, uno cada 3 días). 17 con status `publish`, 3 con `future` (los del 22, 25 y 28 de mayo).
@@ -149,6 +155,61 @@ Magui Chavarrea y **Leticia Merlo** (ya es usuaria de SRIFlow — usar como romp
 - **Lenguaje 100 % no técnico** (dominio = "dirección de su oficina en internet", hosting = "el local que la mantiene abierta 24h"). Paleta azul marino `#0a1828`/`#16324f` + dorado `#d4af37`/`#e9c95c`.
 
 ---
+
+### 7. Creative Web — nuestro propio sitio (septiembre 2026)
+
+**El proyecto más importante en curso y el que más aprendizaje dejó.** Diagnóstico completo
+en los artefactos «Casa de herrero» y «Del tráfico a la venta».
+
+**La línea base, registrada el 2026-09-08 para poder medir la mejora:**
+1.239.269 impresiones · 1.384 clics · CTR 0,11 % · posición media 6,5 en 12 meses.
+
+**El diagnóstico, en cuatro hechos:**
+- **El 84 % de las impresiones venía de UNA URL**: el post «qué significa .com», que atrae
+  gente escribiendo mal una dirección. 912.093 impresiones y 251 clics en el año.
+- **261 de 353 URLs tuvieron impresiones y CERO clics** en 12 meses.
+- **Nuestro blog enterraba nuestras páginas de servicio**: 33 URLs competían por «correo
+  corporativo» con la página que vende en posición 52; 36 por «dominio» con 5 clics en todo
+  el año. Esa canibalización es la explicación mecánica de por qué el contenido SEO no vendió.
+- **Dejar de publicar costó tres cuartas partes del tráfico.** El contenido de septiembre 2025
+  siguió madurando seis meses (posición 45 → 14, clics 58 → 128) y al parar cayó a 32 clics y
+  posición 31 en cuatro meses. **El ritmo vale más que el volumen.**
+
+**Lo ejecutado (fases 0, 1 y 2):**
+- Tienda WHMCS (`ventas.creativeweb.com.ec`): `robots.txt` + hook `seo_tienda.php` que da
+  título, descripción y canonical a cada página del catálogo. Antes todas se llamaban
+  «Carrito» y Google indexaba los `/login?language=alemán|holandés|farsi`; la tienda había
+  caído de posición 11,8 a 76,6.
+- 4 páginas de servicio enriquecidas **antes** de redirigir hacia ellas (correos 535→1.122
+  palabras, hosting 435→793, dominios 333→629, páginas web 264→638).
+- 7 páginas comerciales nuevas · **58 redirecciones activas** con Redirection.
+- Menú reorganizado en Servicios (6) y Productos (5).
+
+**Pendiente:** 32 URLs sin tema dominante para revisar una a una, y la medición a fin de
+octubre contra la línea base.
+
+### 8. Quipuy — pendiente de tratamiento SEO
+
+**El premio más grande del grupo y está sin tocar.** quipuy.com tiene **1.138 clics y
+174.445 impresiones en 90 días** (posición 7,8): más en tres meses que creativeweb.com.ec en
+doce. Y tiene exactamente la misma enfermedad: todo su tráfico es blog, **ninguna página de
+producto entre sus 20 más vistas**, y sus dos artículos mayores son consultas al portal del
+SRI con 0,06 % y 0,12 % de CTR — el mismo caso del «.com».
+
+Es **Next.js, no WordPress**, así que los cambios van por código. En Search Console como
+`sc-domain:quipuy.com`. El repositorio local no se encontró en la búsqueda inicial.
+
+### 9. Proformas de septiembre 2026
+
+| Cliente | Qué | Valor | Nº |
+|---|---|---|---|
+| **Stelmap S.A.S.** (Dalila Andrango) | Hosting Pymes + dominio | $117,98 + IVA | 1-2-1327 |
+| **CompuZero** (Fabián Ortega) | Tienda catálogo de laptops y PC | $1.200 + IVA | 1-2-1328 |
+| **Sueños Bilingües** (Saravino) | Quipuy + módulo de matrícula y agenda | $260 + IVA | 1-2-1329 |
+| **Multitecnología VYV** | Blog + plan SEO 6 meses | $140 + $600 | 1-2-1330 |
+
+Detalles y hallazgos de cada una en sus carpetas.
+
 
 ## Stack técnico
 
@@ -304,6 +365,11 @@ Documentado en el tab "Avance Mes 1" del informe. Resumen:
 - **Idioma:** español neutro ecuatoriano. Usar **tú** (no vos, no usted). Imperativos directos: "toca", "abre", "envía", "mira".
 - **Comunicación:** terso y directo. Sin trailing summaries cuando no agregan valor.
 - **Git workflow:** siempre push a `origin/main` al finalizar una tarea (auto-deploy del repo aunque haya que disparar manualmente en cPanel).
+- **Lenguaje en páginas públicas:** sin jerga técnica. Nada de SPF, DKIM, IMAP, puertos ni
+  propagación de DNS. El término técnico se convierte en promesa: «configuramos SPF y DKIM» se
+  escribe «dejamos todo listo para que tus correos lleguen y no caigan en spam». El
+  diferenciador frente a los proveedores grandes es **la atención personalizada y el soporte
+  inmediato por WhatsApp**, no las especificaciones.
 - **Confidencialidad:** datos crudos de GA4 / Search Console del cliente NO van al repo (están en `.gitignore`). Application Passwords NO van al repo (están en `.env`).
 
 ---
@@ -321,3 +387,111 @@ Documentado en el tab "Avance Mes 1" del informe. Resumen:
 9. **Elementor purga `<style>` en widgets HTML por seguridad** pero permite `<link rel="stylesheet">` y `<script src=...>`. Para inyectar CSS custom desde un widget HTML, subir el CSS como archivo externo y referenciarlo con `<link>`.
 10. **ModSecurity del hosting bloquea uploads de `.css` y `.js` vía WP REST media** (HTTP 406). Para subir esos archivos hay que usar cPanel File Manager directamente, no automatizar vía REST.
 11. **Proyecto Cotacachi/Intag Trail = SaaS nuevo, NO Otavalo Explorer:** si el usuario menciona la app de inscripciones, recordar que el desarrollo es en otro repo nuevo (no en `/App-registros-online`) y lo maneja otro Claude. Yo aquí solo manejo entregables comerciales.
+
+---
+
+## Notas técnicas de septiembre 2026
+
+Todas comprobadas en producción, no teóricas.
+
+### APIs de Google — el entorno
+
+Las librerías no están en el Python del sistema. **Hay un venv en `.venv/` del repo**
+(gitignored) con `google-auth`, `google-auth-oauthlib` y `google-api-python-client`. Se usa
+`../.venv/bin/python` desde `tracking/`.
+
+El **token OAuth expira cada 7 días** con la pantalla de consentimiento en modo prueba. Se
+renueva con `rm tracking/token.json && .venv/bin/python tracking/auth.py`, que abre el
+navegador. El usuario tiene que correrlo él.
+
+**El alcance es solo de lectura** (`webmasters.readonly`): se puede consultar Search Console
+e inspeccionar URLs, pero **no reenviar sitemaps**. Y pedir indexación de una URL **no existe
+en la API** de Google, solo en la interfaz — hay que pedírselo al usuario.
+
+### Elementor — la trampa que apareció cinco veces
+
+Escribir `_elementor_data` por REST **guarda en la base pero no se ve en el sitio**: Elementor
+sirve una copia cacheada y la escritura por API no dispara su hook de guardado.
+
+Después de cualquier cambio hay que pedirle al usuario:
+**wp-admin → Elementor → Herramientas → Regenerar archivos y datos**.
+
+Detalle que costó un rato: el contenido guarda los acentos escapados, así que para buscar y
+reemplazar hay que usar `"P\\u00e1ginas Web en Quito"`, no el texto con tilde.
+
+Y el CSS de Elementor convierte `<b>` en bloque dentro de `td.desc`, así que **una negrita
+dentro de una viñeta parte la línea en dos**.
+
+### Yoast por API — necesita un mu-plugin
+
+WordPress descarta silenciosamente los metas con prefijo `_` en escrituras REST, así que los
+campos de Yoast no se pueden editar. Peor: **cambiar el título del post no cambia lo que se ve
+en Google**, porque Yoast guarda el suyo aparte y ese es el que manda (el H1 sí cambia, el
+`<title>` no).
+
+La solución está en `creativeweb/fase-0/cw-yoast-rest.php`, lista para reusar.
+
+⚠️ **No llamar a `do_action('wpseo_save_indexable', $post_id)`**: Yoast lo engancha a
+`Indexable_Ancestor_Watcher::reset_children()`, que espera más argumentos, y provoca un error
+fatal. El meta alcanza a guardarse y la petición devuelve 500, así que las escrituras quedan
+a medias. Basta con borrar la fila de `wp_yoast_indexable`.
+
+### Redirection — se instala entero por API
+
+`POST /wp/v2/plugins {"slug":"redirection","status":"active"}` y después
+`POST /redirection/v1/plugin/data {"upgrade":"retry"}` (el parámetro solo acepta
+`stop`, `skip` o `retry`) para crear las tablas. Hay que repetirlo hasta que devuelva
+`finish-install`.
+
+Las redirecciones se crean con `POST /redirection/v1/redirect`. **El borrado por API no
+funcionó** con ninguna de las formas probadas; hay que hacerlo desde wp-admin.
+
+Para un catch-all de 404 se usa `match_type: "page"` con
+`action_data: {"page":"404","url":"..."}` y regex en `url`. Así solo actúa sobre páginas que
+no existen y no toca las vivas.
+
+⚠️ **Filtrar `/wp-content/` al generar un mapa de redirecciones.** Search Console devuelve
+archivos de imagen como si fueran páginas, porque aparecen en búsqueda de imágenes.
+Redirigirlos es inofensivo —los estáticos no pasan por WordPress— pero ensucia la lista.
+
+### Redirecciones — la regla que se aprendió fallando
+
+**Verificar que el destino exista antes de crear el 301.** En OKCars se crearon
+redirecciones hacia artículos que estaban programados y todavía no publicados: el resultado
+era 301 → 404, que es peor que el 404 original.
+
+Y al consolidar contenido: **enriquecer la página destino antes de redirigir hacia ella**.
+Redirigir ocho artículos hacia una página delgada es una degradación, no una consolidación.
+
+### publish_batch.py — el bug de los duplicados
+
+El detector usaba `status=any`, que **no devuelve los posts programados**. Un relanzamiento
+duplicaba todo el lote (pasó en Odontología Life con 20 posts). Ya está corregido en OKCars:
+pide cada estado por nombre y pagina. **Verificar que la copia que se use tenga el arreglo.**
+
+### Números de proforma
+
+Se usan dos series: **1-2-13XX** para desarrollo y **1-6-XXXX** para hosting (la real de
+hosting, vista en la proforma 1-6-2374 de junio 2026). La serie 1-2 la veníamos inventando;
+si hay duda, preguntar el número que corresponde.
+
+### Precios anuales de hosting — no multiplicar
+
+| Plan | Anual | Correos | Disco |
+|---|---|---|---|
+| Inicial | $59,99 | 10 | 3 GB |
+| Webmaster | $83,88 | 20 | 10 GB |
+| Pymes | $95,88 | ilimitados | 20 GB |
+| Pro (la web lo llama «Ilimitado») | $239,88 | ilimitados | ilimitado |
+| Dominio .com | $21,99 | | |
+| Dominio .com.ec / .ec | $48,99 | | |
+
+Los $4,99 / $6,99 / $7,99 de la web son **valores mensuales de escaparate**; el anual no
+siempre es esa cifra × 12. **La tienda manda**: es lo que efectivamente se cobra.
+
+### Acceso a archivos del usuario
+
+macOS bloquea iCloud, Escritorio y Descargas. Con el sandbox desactivado se puede abrir un
+archivo suelto de Descargas si se conoce la ruta exacta, pero **no listar la carpeta**. Lo
+práctico es pedirle que pegue la imagen con `Ctrl+V` o que deje el archivo en
+`_entrada/` del repo (gitignored).
