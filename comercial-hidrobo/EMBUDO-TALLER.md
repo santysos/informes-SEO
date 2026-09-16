@@ -41,9 +41,15 @@ Respaldo del contenido previo en `backup/contenido/{id}-{slug}-antes.html`.
 Con esto los ~10 posts de mayor tráfico (≈206k de las 267k impresiones de dueño) rutean a
 reserva.
 
+### 2026-09-16 — despliegue completo
+
+**Los 47 posts de dueño con tráfico ya tienen el bloque de reserva.** El lote final aplicó
+30 posts nuevos (0 errores); 17 ya lo tenían de tandas previas. Respaldo del contenido
+anterior de cada uno en `backup/contenido/{id}-{slug}-antes.html`. Con esto el 100 % de las
+267k impresiones de dueño ya rutea a la página de cita o al WhatsApp del taller.
+
 ## Pendiente
 
-- Los ~37 posts de dueño restantes (cola larga, ~60k impresiones).
 - Enlazado interno: informativos → Tabla Toyota y página de reserva.
 - Schema `AutoRepair` en los de servicio.
 - Fichas de modelo (compradores): coherencia de año-modelo (título ya en 2026/2027 según
