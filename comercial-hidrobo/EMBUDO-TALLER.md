@@ -59,11 +59,15 @@ anterior de cada uno en `backup/contenido/{id}-{slug}-antes.html`. Con esto el 1
   `areaServed` Ibarra/Cayambe/Tulcán, catálogo de 4 servicios y `ReserveAction` a la página
   de cita. Validado parseable en vivo.
 
+## Fuera de nuestro alcance
+
+**Las fichas de modelo (CPT de vehículos, ~97 URLs en `/vehiculos/`) NO se tocan.** No son
+post ni blog; las administra directamente el equipo de CH, incluidos precios y año-modelo.
+Nuestro trabajo se limita a los posts/blog del embudo de taller.
+
 ## Pendiente
 
 - **Schema en la página de reserva `/solicitar-cita-taller-mecanico/`**: es Elementor, hay
   que meter el JSON-LD `AutoRepair` a mano en un widget HTML (no por API).
-- Fichas de modelo (compradores): coherencia de año-modelo (título ya en 2026/2027 según
-  unidad en piso; cuerpo aún en 2025) + puente suave a taller. Precios los actualiza CH.
 - Medir a 30-60 días: % de sesiones que llegan a la página de reserva y reservas confirmadas
   contra la línea base (1,7 % / 25).
