@@ -10,77 +10,76 @@
 <style>
   :root{
     --navy:#0c2440; --navy2:#12365e; --accent:#0e7490; --accent-soft:#e0f2f5;
-    --ink:#1e293b; --muted:#64748b; --line:#e2e8f0; --paper:#ffffff;
+    --ink:#1e293b; --muted:#64748b; --line:#e2e8f0;
   }
-  @page { size:A4; margin:0; }
+  @page { size:A4; margin:15mm 15mm 14mm; }
   *{ box-sizing:border-box; margin:0; padding:0; }
-  body{ font-family:"Inter",-apple-system,sans-serif; color:var(--ink); font-size:10.6pt; line-height:1.52; background:#f1f5f9; }
-  .sheet{ width:210mm; margin:0 auto; background:var(--paper); position:relative; }
+  body{ font-family:"Inter",-apple-system,sans-serif; color:var(--ink); font-size:10.4pt; line-height:1.52; }
 
-  /* Cabecera */
-  .top{ background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%); color:#fff; padding:12mm 16mm 7mm; position:relative; overflow:hidden; }
-  .top::after{ content:""; position:absolute; right:-40mm; top:-40mm; width:90mm; height:90mm; border-radius:50%; background:rgba(14,116,144,.18); }
+  /* Cabecera (tarjeta, dentro de los márgenes) */
+  .top{ background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%); color:#fff; border-radius:14px; padding:22px 26px 24px; position:relative; overflow:hidden; margin-bottom:8mm; }
+  .top::after{ content:""; position:absolute; right:-30mm; top:-34mm; width:78mm; height:78mm; border-radius:50%; background:rgba(14,116,144,.20); }
   .top .row{ display:flex; justify-content:space-between; align-items:flex-start; position:relative; z-index:1; }
-  .logo{ font-size:16pt; font-weight:700; letter-spacing:.2px; }
-  .logo span{ display:block; font-size:8pt; font-weight:400; opacity:.75; letter-spacing:1.5px; text-transform:uppercase; margin-top:2px; }
+  .logo{ font-size:15pt; font-weight:700; letter-spacing:.2px; }
+  .logo span{ display:block; font-size:7.5pt; font-weight:400; opacity:.75; letter-spacing:1.5px; text-transform:uppercase; margin-top:2px; }
   .meta{ text-align:right; font-size:8.5pt; opacity:.9; line-height:1.7; }
   .meta b{ color:#7dd3e0; font-weight:600; }
-  .title{ position:relative; z-index:1; margin-top:8mm; }
-  .title .kicker{ font-size:8.5pt; letter-spacing:3px; text-transform:uppercase; color:#7dd3e0; font-weight:600; }
-  .title h1{ font-family:"Fraunces",serif; font-weight:600; font-size:24pt; line-height:1.1; margin-top:4px; }
-  .title .lead{ font-size:10pt; opacity:.85; margin-top:6px; }
-
-  /* Cuerpo */
-  .body{ padding:9mm 16mm 0; }
+  .title{ position:relative; z-index:1; margin-top:7mm; }
+  .title .kicker{ font-size:8pt; letter-spacing:3px; text-transform:uppercase; color:#7dd3e0; font-weight:600; }
+  .title h1{ font-family:"Fraunces",serif; font-weight:600; font-size:22pt; line-height:1.1; margin-top:4px; }
+  .title .lead{ font-size:9.5pt; opacity:.85; margin-top:6px; }
 
   /* Partes */
   .parties{ display:flex; gap:6mm; margin-bottom:5mm; }
   .party{ flex:1; border:1px solid var(--line); border-radius:10px; padding:11px 14px; background:#fbfcfe; }
   .party .tag{ display:inline-block; font-size:7.5pt; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); padding:2px 8px; border-radius:20px; margin-bottom:7px; }
-  .party .nm{ font-weight:700; color:var(--navy); font-size:11pt; }
-  .party .det{ font-size:9pt; color:var(--muted); line-height:1.75; margin-top:3px; }
-  .party .fill{ color:#cbd5e1; }
+  .party .nm{ font-weight:700; color:var(--navy); font-size:10.5pt; }
+  .party .det{ font-size:8.8pt; color:var(--muted); line-height:1.75; margin-top:3px; }
 
-  .intro{ text-align:justify; color:var(--muted); font-size:9.5pt; margin-bottom:5mm; }
+  .intro{ text-align:justify; color:var(--muted); font-size:9.3pt; margin-bottom:5mm; }
 
   /* Cláusulas */
-  .clause{ margin-bottom:3.6mm; break-inside:avoid; }
-  .clause h2{ display:flex; align-items:center; gap:9px; font-size:10.5pt; color:var(--navy); font-weight:700; margin-bottom:5px; }
-  .clause h2 .n{ flex:none; width:22px; height:22px; border-radius:6px; background:var(--navy); color:#fff; font-size:8.5pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .clause{ margin-bottom:3.8mm; break-inside:avoid; }
+  .clause h2{ display:flex; align-items:center; gap:9px; font-size:10.3pt; color:var(--navy); font-weight:700; margin-bottom:5px; }
+  .clause h2 .n{ flex:none; width:21px; height:21px; border-radius:6px; background:var(--navy); color:#fff; font-size:8.5pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
   .clause p{ text-align:justify; margin:4px 0; }
   .clause ul{ list-style:none; margin:5px 0; }
   .clause li{ position:relative; padding-left:18px; margin:5px 0; text-align:justify; }
   .clause li::before{ content:""; position:absolute; left:2px; top:8px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
-  .note{ font-size:9pt; color:var(--muted); font-style:italic; }
+  .note{ font-size:8.8pt; color:var(--muted); font-style:italic; }
 
   /* Caja Qué NO incluye */
-  .exclude{ border:1px solid #f0c9c0; background:#fdf5f3; border-radius:10px; padding:12px 16px; margin-bottom:6mm; break-inside:avoid; }
+  .exclude{ border:1px solid #f0c9c0; background:#fdf5f3; border-radius:10px; padding:12px 16px; margin-bottom:4mm; break-inside:avoid; }
   .exclude h2{ color:#b03a2e; }
   .exclude h2 .n{ background:#b03a2e; }
   .exclude li::before{ background:#b03a2e; }
 
   /* Tabla de pago */
-  .pay{ width:100%; border-collapse:collapse; margin:6px 0 8px; font-size:9.8pt; border-radius:10px; overflow:hidden; box-shadow:0 0 0 1px var(--line); }
+  .pay{ width:100%; border-collapse:collapse; margin:6px 0 8px; font-size:9.6pt; border-radius:10px; overflow:hidden; box-shadow:0 0 0 1px var(--line); }
   .pay td{ padding:9px 14px; border-bottom:1px solid var(--line); }
   .pay td:last-child{ text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
   .pay tr:nth-child(odd) td{ background:#fbfcfe; }
   .pay .sub td{ font-weight:600; }
-  .pay .total td{ background:var(--navy)!important; color:#fff; font-weight:700; font-size:11pt; border:0; }
+  .pay .total td{ background:var(--navy)!important; color:#fff; font-weight:700; font-size:10.6pt; border:0; }
 
   /* Firmas */
-  .signs{ display:flex; gap:16mm; margin-top:7mm; break-inside:avoid; }
+  .signs{ display:flex; gap:16mm; margin-top:8mm; break-inside:avoid; }
   .signs div{ flex:1; text-align:center; }
   .signs .ln{ border-top:1.5px solid var(--navy); margin-bottom:6px; }
   .signs .who{ font-weight:700; color:var(--navy); font-size:9.5pt; }
   .signs .ci{ font-size:8.5pt; color:var(--muted); margin-top:2px; }
 
-  .foot{ background:var(--navy); color:rgba(255,255,255,.85); font-size:7.8pt; text-align:center; padding:8px 16mm; letter-spacing:.3px; margin-top:10mm; break-inside:avoid; }
+  .foot{ text-align:center; color:var(--muted); font-size:8pt; margin-top:6mm; letter-spacing:.3px; break-inside:avoid; }
 
-  @media screen{ body{ padding:20px 0; } .sheet{ box-shadow:0 8px 40px rgba(12,36,64,.16); } }
+  /* Preview en pantalla (no afecta la impresión) */
+  @media screen{
+    body{ background:#eef2f7; }
+    .wrap{ max-width:780px; margin:26px auto; background:#fff; padding:15mm; border-radius:6px; box-shadow:0 10px 44px rgba(12,36,64,.16); }
+  }
 </style>
 </head>
 <body>
-<div class="sheet">
+<div class="wrap">
 
   <div class="top">
     <div class="row">
@@ -94,134 +93,129 @@
     </div>
   </div>
 
-  <div class="body">
-
-    <div class="parties">
-      <div class="party">
-        <span class="tag">El Proveedor</span>
-        <div class="nm">Creative Web — Santiago Oña Sánchez</div>
-        <div class="det">
-          RUC: 1002906426001<br>
-          Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo<br>
-          info@creativeweb.com.ec · 099 917 4980
-        </div>
-      </div>
-      <div class="party">
-        <span class="tag">El Cliente</span>
-        <div class="nm">Viviana Celi — Multitecnología VYV</div>
-        <div class="det">
-          RUC: 1001549508001<br>
-          Miraflores, Armero y El Oro<br>
-          +593 98 407 2123
-        </div>
+  <div class="parties">
+    <div class="party">
+      <span class="tag">El Proveedor</span>
+      <div class="nm">Creative Web — Santiago Oña Sánchez</div>
+      <div class="det">
+        RUC: 1002906426001<br>
+        Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo<br>
+        info@creativeweb.com.ec · 099 917 4980
       </div>
     </div>
-
-    <p class="intro">Las partes, mayores de edad y legalmente capaces, acuerdan celebrar el presente contrato de prestación de servicios al tenor de las siguientes cláusulas.</p>
-
-    <div class="clause">
-      <h2><span class="n">1</span> Antecedentes</h2>
-      <p>El PROVEEDOR presentó al CLIENTE la proforma N.º 1-2-1330 del 14 de septiembre de 2026, que incluye un plan de posicionamiento web y la recuperación de direcciones rotas de la migración anterior. El CLIENTE aprobó la contratación del plan de posicionamiento por un período de tres (3) meses junto con la recuperación de direcciones rotas. El presente contrato formaliza ese acuerdo y define con precisión lo que se realizará y lo que no.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">2</span> Objeto</h2>
-      <p>El PROVEEDOR prestará al CLIENTE un servicio de posicionamiento web (SEO) durante tres (3) meses para su sitio en WordPress, orientado a atraer visitantes nuevos desde Google hacia sus productos, más la corrección de las direcciones rotas del sitio.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">3</span> Alcance del servicio (qué incluye)</h2>
-      <p>Durante los tres meses de vigencia, el servicio comprende:</p>
-      <ul>
-        <li><b>Contenido:</b> veinte (20) artículos al mes — sesenta (60) en total —, optimizados para búsqueda y enlazados a los productos de la tienda de los que trata cada uno.</li>
-        <li><b>Optimización:</b> reescritura de títulos y meta descripciones de las páginas que ya posicionan en Google, para mejorar su tasa de clic.</li>
-        <li><b>Medición:</b> instalación y funcionamiento del seguimiento (Google Search Console y Analytics) para medir visitas, posiciones y su evolución.</li>
-        <li><b>Informe mensual:</b> cada mes el CLIENTE recibe un informe con (1) el trabajo realizado a detalle, (2) las métricas y su comparación con el mes anterior y (3) la estrategia del mes siguiente, conversado en una reunión.</li>
-        <li><b>Recuperación de direcciones rotas (una sola vez):</b> se identifican y resuelven <b>todas las direcciones (URLs) del sitio que devuelven error 404</b>, redirigiéndolas a la página que corresponde, para evitar enlaces rotos y que Google penalice el posicionamiento del sitio. Se entregan verificadas.</li>
-      </ul>
-      <p class="note">La estrategia no es un calendario fijo: los primeros trabajos priorizan corregir lo que ya posiciona (rinde más rápido) y luego el peso se mueve al contenido nuevo, decidido con los datos del mes anterior.</p>
-    </div>
-
-    <div class="exclude clause">
-      <h2><span class="n">4</span> Qué NO incluye</h2>
-      <p>Para que no aparezca ningún costo a mitad del trabajo, se deja por escrito que <b>este contrato no cubre</b>:</p>
-      <ul>
-        <li>Publicidad pagada en Google o redes sociales (pauta).</li>
-        <li>Rediseño del sitio web.</li>
-        <li>Fotografía de producto.</li>
-        <li>Manejo de redes sociales.</li>
-        <li>Alojamiento (hosting) y dominio.</li>
-        <li>Carga o corrección del catálogo de productos.</li>
-      </ul>
-      <p class="note" style="margin-bottom:0;">Si alguno de estos u otros trabajos hace falta, se cotiza aparte y con anticipación, previa aprobación escrita del CLIENTE.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">5</span> Plazo y cronograma</h2>
-      <p>El contrato tiene una duración de <b>tres (3) meses</b> contados desde la fecha de inicio, que será el día hábil siguiente a la confirmación del pago y de los accesos. La recuperación de las direcciones rotas se ejecuta durante la primera semana. Los veinte artículos mensuales y el informe se entregan dentro de cada mes calendario de vigencia.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">6</span> Valor y forma de pago</h2>
-      <table class="pay">
-        <tr><td>Plan de posicionamiento SEO — 3 meses (60 artículos, optimización, medición e informes)</td><td>USD&nbsp;$310,00</td></tr>
-        <tr><td>Recuperación de todas las direcciones rotas / errores 404 (una sola vez)</td><td>USD&nbsp;$40,00</td></tr>
-        <tr class="sub"><td>Subtotal</td><td>USD&nbsp;$350,00</td></tr>
-        <tr><td>IVA 15%</td><td>USD&nbsp;$52,50</td></tr>
-        <tr class="total"><td>TOTAL A PAGAR</td><td>USD&nbsp;$402,50</td></tr>
-      </table>
-      <p>El pago se realiza en <b>un solo pago</b> de USD $350,00 más IVA (USD $402,50) al inicio del contrato. El servicio arranca una vez confirmado el pago.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">7</span> Obligaciones del PROVEEDOR</h2>
-      <ul>
-        <li>Ejecutar el servicio descrito en la cláusula tercera con calidad profesional y dentro de los plazos.</li>
-        <li>Entregar el informe mensual y sostener la reunión de revisión.</li>
-        <li>Usar los accesos del CLIENTE solo para lo pactado y mantener la confidencialidad.</li>
-      </ul>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">8</span> Obligaciones del CLIENTE</h2>
-      <ul>
-        <li>Entregar, dentro de los primeros días, los accesos necesarios (WordPress, Search Console, Analytics) y la información de productos que se requiera.</li>
-        <li>Revisar y dar retroalimentación de los entregables en un plazo razonable; el silencio por más de cinco (5) días hábiles se entiende como conformidad.</li>
-        <li>Realizar el pago acordado en la cláusula sexta.</li>
-      </ul>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">9</span> Sobre los resultados</h2>
-      <p>El SEO es un trabajo acumulativo cuyos efectos se consolidan con el tiempo; las visitas y posiciones dependen también de factores externos (algoritmo de Google, competencia, estacionalidad). Por ello el PROVEEDOR <b>no garantiza una posición específica ni un número exacto de visitas o ventas</b>, sino la ejecución profesional del trabajo descrito y su medición transparente mes a mes.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">10</span> Propiedad, confidencialidad y terminación</h2>
-      <p>Los artículos y textos entregados y pagados pasan a ser propiedad del CLIENTE y permanecen publicados en su sitio al terminar el contrato. Ambas partes guardarán reserva sobre la información y los accesos a los que tengan acceso con ocasión de este contrato. Al concluir los tres meses el contrato termina sin necesidad de aviso; las partes podrán acordar por escrito una renovación o un nuevo plan, y el trabajo realizado permanece en beneficio del CLIENTE.</p>
-    </div>
-
-    <div class="clause">
-      <h2><span class="n">11</span> Aceptación</h2>
-      <p>Las partes declaran haber leído y entendido este contrato y lo aceptan en todas sus cláusulas, firmando en dos ejemplares de igual tenor.</p>
-    </div>
-
-    <div class="signs">
-      <div>
-        <div class="ln"></div>
-        <div class="who">EL PROVEEDOR</div>
-        <div class="ci">Santiago Oña Sánchez · Creative Web<br>RUC 1002906426001</div>
-      </div>
-      <div>
-        <div class="ln"></div>
-        <div class="who">EL CLIENTE</div>
-        <div class="ci">Viviana Celi · Multitecnología VYV<br>RUC 1001549508001</div>
+    <div class="party">
+      <span class="tag">El Cliente</span>
+      <div class="nm">Viviana Celi — Multitecnología VYV</div>
+      <div class="det">
+        RUC: 1001549508001<br>
+        Miraflores, Armero y El Oro<br>
+        +593 98 407 2123
       </div>
     </div>
-
-    <p style="text-align:center; color:var(--muted); font-size:8pt; margin-top:5mm; letter-spacing:.3px;">Creative Web · Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo · info@creativeweb.com.ec · 099 917 4980 · 062 924 887</p>
-
   </div>
+
+  <p class="intro">Las partes, mayores de edad y legalmente capaces, acuerdan celebrar el presente contrato de prestación de servicios al tenor de las siguientes cláusulas.</p>
+
+  <div class="clause">
+    <h2><span class="n">1</span> Antecedentes</h2>
+    <p>El PROVEEDOR presentó al CLIENTE la proforma N.º 1-2-1330 del 14 de septiembre de 2026, que incluye un plan de posicionamiento web y la recuperación de direcciones rotas de la migración anterior. El CLIENTE aprobó la contratación del plan de posicionamiento por un período de tres (3) meses junto con la recuperación de direcciones rotas. El presente contrato formaliza ese acuerdo y define con precisión lo que se realizará y lo que no.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">2</span> Objeto</h2>
+    <p>El PROVEEDOR prestará al CLIENTE un servicio de posicionamiento web (SEO) durante tres (3) meses para su sitio en WordPress, orientado a atraer visitantes nuevos desde Google hacia sus productos, más la corrección de las direcciones rotas del sitio.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">3</span> Alcance del servicio (qué incluye)</h2>
+    <p>Durante los tres meses de vigencia, el servicio comprende:</p>
+    <ul>
+      <li><b>Contenido:</b> veinte (20) artículos al mes — sesenta (60) en total —, optimizados para búsqueda y enlazados a los productos de la tienda de los que trata cada uno.</li>
+      <li><b>Optimización:</b> reescritura de títulos y meta descripciones de las páginas que ya posicionan en Google, para mejorar su tasa de clic.</li>
+      <li><b>Medición:</b> instalación y funcionamiento del seguimiento (Google Search Console y Analytics) para medir visitas, posiciones y su evolución.</li>
+      <li><b>Informe mensual:</b> cada mes el CLIENTE recibe un informe con (1) el trabajo realizado a detalle, (2) las métricas y su comparación con el mes anterior y (3) la estrategia del mes siguiente, conversado en una reunión.</li>
+      <li><b>Recuperación de direcciones rotas (una sola vez):</b> se identifican y resuelven <b>todas las direcciones (URLs) del sitio que devuelven error 404</b>, redirigiéndolas a la página que corresponde, para evitar enlaces rotos y que Google penalice el posicionamiento del sitio. Se entregan verificadas.</li>
+    </ul>
+    <p class="note">La estrategia no es un calendario fijo: los primeros trabajos priorizan corregir lo que ya posiciona (rinde más rápido) y luego el peso se mueve al contenido nuevo, decidido con los datos del mes anterior.</p>
+  </div>
+
+  <div class="exclude clause">
+    <h2><span class="n">4</span> Qué NO incluye</h2>
+    <p>Para que no aparezca ningún costo a mitad del trabajo, se deja por escrito que <b>este contrato no cubre</b>:</p>
+    <ul>
+      <li>Publicidad pagada en Google o redes sociales (pauta).</li>
+      <li>Rediseño del sitio web.</li>
+      <li>Fotografía de producto.</li>
+      <li>Manejo de redes sociales.</li>
+      <li>Alojamiento (hosting) y dominio.</li>
+      <li>Carga o corrección del catálogo de productos.</li>
+    </ul>
+    <p class="note" style="margin-bottom:0;">Si alguno de estos u otros trabajos hace falta, se cotiza aparte y con anticipación, previa aprobación escrita del CLIENTE.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">5</span> Plazo y cronograma</h2>
+    <p>El contrato tiene una duración de <b>tres (3) meses</b> contados desde la fecha de inicio, que será el día hábil siguiente a la confirmación del pago y de los accesos. La recuperación de las direcciones rotas se ejecuta durante la primera semana. Los veinte artículos mensuales y el informe se entregan dentro de cada mes calendario de vigencia.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">6</span> Valor y forma de pago</h2>
+    <table class="pay">
+      <tr><td>Plan de posicionamiento SEO — 3 meses (60 artículos, optimización, medición e informes)</td><td>USD&nbsp;$310,00</td></tr>
+      <tr><td>Recuperación de todas las direcciones rotas / errores 404 (una sola vez)</td><td>USD&nbsp;$40,00</td></tr>
+      <tr class="sub"><td>Subtotal</td><td>USD&nbsp;$350,00</td></tr>
+      <tr><td>IVA 15%</td><td>USD&nbsp;$52,50</td></tr>
+      <tr class="total"><td>TOTAL A PAGAR</td><td>USD&nbsp;$402,50</td></tr>
+    </table>
+    <p>El pago se realiza en <b>un solo pago</b> de USD $350,00 más IVA (USD $402,50) al inicio del contrato. El servicio arranca una vez confirmado el pago.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">7</span> Obligaciones del PROVEEDOR</h2>
+    <ul>
+      <li>Ejecutar el servicio descrito en la cláusula tercera con calidad profesional y dentro de los plazos.</li>
+      <li>Entregar el informe mensual y sostener la reunión de revisión.</li>
+      <li>Usar los accesos del CLIENTE solo para lo pactado y mantener la confidencialidad.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">8</span> Obligaciones del CLIENTE</h2>
+    <ul>
+      <li>Entregar, dentro de los primeros días, los accesos necesarios (WordPress, Search Console, Analytics) y la información de productos que se requiera.</li>
+      <li>Revisar y dar retroalimentación de los entregables en un plazo razonable; el silencio por más de cinco (5) días hábiles se entiende como conformidad.</li>
+      <li>Realizar el pago acordado en la cláusula sexta.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">9</span> Sobre los resultados</h2>
+    <p>El SEO es un trabajo acumulativo cuyos efectos se consolidan con el tiempo; las visitas y posiciones dependen también de factores externos (algoritmo de Google, competencia, estacionalidad). Por ello el PROVEEDOR <b>no garantiza una posición específica ni un número exacto de visitas o ventas</b>, sino la ejecución profesional del trabajo descrito y su medición transparente mes a mes.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">10</span> Propiedad, confidencialidad y terminación</h2>
+    <p>Los artículos y textos entregados y pagados pasan a ser propiedad del CLIENTE y permanecen publicados en su sitio al terminar el contrato. Ambas partes guardarán reserva sobre la información y los accesos a los que tengan acceso con ocasión de este contrato. Al concluir los tres meses el contrato termina sin necesidad de aviso; las partes podrán acordar por escrito una renovación o un nuevo plan, y el trabajo realizado permanece en beneficio del CLIENTE.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">11</span> Aceptación</h2>
+    <p>Las partes declaran haber leído y entendido este contrato y lo aceptan en todas sus cláusulas, firmando en dos ejemplares de igual tenor.</p>
+  </div>
+
+  <div class="signs">
+    <div>
+      <div class="ln"></div>
+      <div class="who">EL PROVEEDOR</div>
+      <div class="ci">Santiago Oña Sánchez · Creative Web<br>RUC 1002906426001</div>
+    </div>
+    <div>
+      <div class="ln"></div>
+      <div class="who">EL CLIENTE</div>
+      <div class="ci">Viviana Celi · Multitecnología VYV<br>RUC 1001549508001</div>
+    </div>
+  </div>
+
 
 </div>
 </body>
