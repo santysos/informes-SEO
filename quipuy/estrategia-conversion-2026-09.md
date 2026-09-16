@@ -53,8 +53,17 @@ lo desmiente:** la infraestructura de conversión ya está bien construida.
    **«el facturador del sri no funciona» (CTR 6,4 %)**, «no puedo ingresar al facturador sri».
    El frustrado con el facturador gratuito del SRI es el cliente ideal de Quipuy.
 
-**Hueco de medición:** GA4 mide `sign_up_completed` y `onboarding_completed`, pero **no hay
-evento de suscripción pagada**. No se puede optimizar "más compras" sin instrumentar el pago.
+**Sobre la medición (corregido tras revisar el código):** el evento de compra **sí existe y
+está bien cableado** — `subscription_paid` (GA4 + Meta "Subscribe" con monto), disparado por
+`WelcomeAnalytics` cuando PayPhone redirige a `/dashboard/suscripcion?paid=<monto>`. Que GA4
+muestre **cero en 90 días no es un bug: es que casi no hubo pagos nuevos por PayPhone** en la
+ventana. Es un hallazgo de negocio, no de instrumentación: el problema está arriba del embudo
+(captación de compradores), no en la medición.
+
+**Y los títulos/metas de los posts comerciales ya están bien escritos** (el de "facturador
+SRI" ya dice "por qué falla tanto y qué usar en su lugar"). La operación de contenido es
+madura. Por eso la Palanca 2 rinde menos de lo que parecía, y el peso real cae en las
+Palancas 1 y 3.
 
 ---
 
@@ -101,6 +110,13 @@ Los 143 posts informativos tienen tráfico y autoridad; hoy se enlazan solo entr
 
 **Repo ya localizado**, así que las palancas 1-3 son ejecutables por código (MDX + componentes).
 
-## 6. Meta a medir
-Línea base 90 días: **23 registros · 6 onboarding · 9 registros orgánicos.** Medición a
-30-60 días tras aplicar palancas 2 y 3.
+## 6. Ejecutado el 16-sep-2026
+- **Palanca 3 (enlazado interno) — arrancada.** En el repo Quipuy, rama
+  `seo/enlaces-comerciales-blog`: bloque de enlaces comerciales contextuales por categoría en
+  la plantilla del post (`src/app/blog/[slug]/page.tsx`). Rutea a los 166 posts hacia
+  `/precios`, la alternativa al facturador SRI y las comparativas. Typecheck limpio. **En rama,
+  pendiente de revisar y desplegar** (el repo publica a producción en Vercel).
+
+## 7. Meta a medir
+Línea base 90 días: **23 registros · 6 onboarding · 9 registros orgánicos · ~0 pagos nuevos
+PayPhone.** Medición a 30-60 días tras aplicar las palancas.
