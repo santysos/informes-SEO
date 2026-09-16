@@ -59,9 +59,17 @@ El blog ya cubre las consultas de compra (descargar por rango, exportar a Excel,
 SRIFlow vs descarga manual). No se crearon posts que canibalizaran; el valor se puso en CTR
 (título de anulados) y en el gap real (aceptar anulación).
 
+## Eventos clave en GA4 (marcados el 16-sep-2026)
+- **SRIFlow** (prop 501535833): creados como key events `sign_up_completed`,
+  `subscription_paid`, `app_downloaded`.
+- **Quipuy** (prop 536146659): ya tenía `sign_up_completed` y `first_invoice_authorized`;
+  se agregó el que faltaba, `subscription_paid`.
+- Nota: en ambas quedan key events por defecto de GA4 (`purchase`, `qualify_lead`,
+  `close_convert_lead`) que no se disparan — plantillas vacías, se pueden desactivar.
+
 ## Pendiente (recomendado, por prioridad)
-1. Desplegar la rama de eventos (`SRIFlow` / `seo/eventos-conversion`) y marcar los 3 eventos
-   como conversiones en GA4.
+1. Desplegar la rama de eventos (`SRIFlow` / `seo/eventos-conversion`) para que los eventos
+   empiecen a disparar. (Los key events ya están creados en GA4.)
 2. `npm run build` + deploy del `sriflow-blog` con el título nuevo y el post nuevo.
 3. Imágenes hero propias para el post nuevo (hoy placeholder).
 4. Medir a 30-60 días: CTR del post de anulados y primeras conversiones instrumentadas.
