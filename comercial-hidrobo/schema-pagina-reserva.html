@@ -1,0 +1,102 @@
+<!--
+  SCHEMA AutoRepair — Página de reserva de taller de Comercial Hidrobo
+  ==================================================================
+  Pegar TAL CUAL dentro de un widget "HTML" de Elementor en la página
+  /solicitar-cita-taller-mecanico/  (ver instrucciones al final del archivo).
+
+  Usa el mismo @id "#taller" que ya tienen los 24 posts de servicio, para que
+  Google entienda que todo (posts + esta página) describe UN solo taller, y
+  que ESTA es su página principal (la que permite reservar).
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "@id": "https://www.comercialhidrobo.com/#taller",
+  "name": "Comercial Hidrobo — Taller de servicio automotriz",
+  "image": "https://www.comercialhidrobo.com/wp-content/uploads/2021/08/logo-234x76-1.png",
+  "logo": "https://www.comercialhidrobo.com/wp-content/uploads/2021/08/logo-234x76-1.png",
+  "url": "https://www.comercialhidrobo.com/solicitar-cita-taller-mecanico/",
+  "telephone": "+593996390233",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Mariano Acosta 20-120 y Lucio Tarquino Páez",
+    "addressLocality": "Ibarra",
+    "addressRegion": "Imbabura",
+    "addressCountry": "EC"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Ibarra" },
+    { "@type": "City", "name": "Cayambe" },
+    { "@type": "City", "name": "Tulcán" }
+  ],
+  "sameAs": [ "https://www.facebook.com/comercialhidroboec" ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mantenimiento preventivo programado" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cambio de aceite y filtros" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Revisión y cambio de frenos" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Servicio postventa con repuestos originales" } }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de taller",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mantenimiento preventivo programado" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cambio de aceite y filtros" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Revisión y cambio de frenos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Servicio postventa con repuestos originales" } }
+    ]
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "name": "Reservar cita de taller",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.comercialhidrobo.com/solicitar-cita-taller-mecanico/",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    },
+    "result": { "@type": "Reservation", "name": "Cita de taller" }
+  }
+}
+</script>
+
+<!--
+  ============================================================
+  OPCIONAL — HORARIO DE ATENCIÓN
+  ------------------------------------------------------------
+  Si quieres que Google pueda mostrar el horario del taller, agrega ESTA
+  propiedad dentro del JSON de arriba (antes de "potentialAction"), ajustando
+  días y horas a las reales del taller. NO la dejes con horas inventadas.
+
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "13:00"
+    }
+  ],
+
+  ============================================================
+  CÓMO INSTALARLO EN ELEMENTOR
+  ------------------------------------------------------------
+  1. wp-admin → Páginas → "Solicitar cita taller mecánico" → Editar con Elementor.
+  2. Arrastra un widget "HTML" al final de la página (da igual dónde se vea:
+     el <script> no dibuja nada en pantalla).
+  3. Pega TODO el bloque <script>...</script> de arriba.
+  4. Publicar / Actualizar.
+  5. Verifica en https://search.google.com/test/rich-results con la URL
+     /solicitar-cita-taller-mecanico/ → debe detectar "AutoRepair".
+
+  No hace falta "Regenerar CSS" de Elementor: un widget HTML no depende de eso.
+-->
