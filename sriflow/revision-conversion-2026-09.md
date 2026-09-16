@@ -37,13 +37,34 @@ en `frontend/dashboard/src/lib/track.ts`, cableado en:
 Typecheck limpio. **En rama, pendiente de revisar y desplegar.** Los tres eventos deben
 marcarse como **conversiones clave / eventos clave en GA4** una vez que empiecen a llegar.
 
+## Ejecutado el 16-sep-2026 — CTR y contenido (repo `sriflow-blog`)
+
+⚠️ `sriflow-blog` **no está bajo git** (export estático que se despliega a `/blog/` de nginx).
+Los cambios están en disco; requieren `npm run build` + deploy manual.
+
+- **Título/meta reescritos** en `como-revisar-comprobantes-anulados-sri.mdx` (8.602 imp a
+  0,9 % CTR). Antes: «Cómo revisar comprobantes anulados del SRI». Ahora:
+  **«Cómo saber si una factura está anulada en el SRI (2026)»** — calza con la consulta real
+  que la gente escribe («como saber si una factura esta anulada», 145+ imp). Sube el CTR sin
+  tocar el contenido.
+- **Post nuevo** `aceptar-anulacion-comprobante-sri.mdx` — gap con demanda sin cubrir
+  («aceptar anulacion de retencion sri» y variantes, ~250 imp, pos 15-21, sin post). Escrito
+  con la normativa verificada (Resolución NAC-DGERCGC25-00000014): 5 días hábiles, silencio =
+  rechazo, solo retenciones/NC/ND requieren aceptación. 1.159 palabras, build OK. El blog de
+  compra ya estaba maduro (por-rango-fechas, exportar-excel, año-completo, vs-manual existen),
+  así que en vez de canibalizar se atacó este gap.
+
+## Sobre el "contenido de compra"
+El blog ya cubre las consultas de compra (descargar por rango, exportar a Excel, año completo,
+SRIFlow vs descarga manual). No se crearon posts que canibalizaran; el valor se puso en CTR
+(título de anulados) y en el gap real (aceptar anulación).
+
 ## Pendiente (recomendado, por prioridad)
-1. Desplegar la rama y marcar los 3 eventos como conversiones en GA4.
-2. Reescribir el título/meta del post de "comprobantes anulados" (8.602 imp a 0,9 % CTR) —
-   máximo retorno inmediato.
-3. Contenido de intención de compra alineado al producto: "descargar comprobantes SRI masivo /
-   por rango de fechas", "exportar comprobantes SRI a Excel", ampliar "SRIFlow vs descarga
-   manual".
+1. Desplegar la rama de eventos (`SRIFlow` / `seo/eventos-conversion`) y marcar los 3 eventos
+   como conversiones en GA4.
+2. `npm run build` + deploy del `sriflow-blog` con el título nuevo y el post nuevo.
+3. Imágenes hero propias para el post nuevo (hoy placeholder).
+4. Medir a 30-60 días: CTR del post de anulados y primeras conversiones instrumentadas.
 
 ## Nota de alcance
 El repo `SRIFlow` tenía cambios de backend ajenos sin commitear (generadores de Excel); no se
