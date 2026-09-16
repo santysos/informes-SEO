@@ -1,100 +1,106 @@
 # Quipuy — Estrategia de conversión (registros y compras)
-**Fecha:** 16 de septiembre de 2026 · **Fuentes:** Search Console + GA4 (90 días, 16-jun a 14-sep)
-**Producto propio.** quipuy.com es Next.js (los cambios van por código, no por WordPress).
+**Fecha:** 16 de septiembre de 2026 · **Fuentes:** Search Console + GA4 (90 días) + código del repo
+**Producto propio.** Repo: `/Users/creativeweb/DESARROLLO/CLAUDIO/Quipuy` — Next.js 16, blog en
+`content/posts` (166 MDX), deploy en Vercel. Remote git: `santysos/libmay`.
 
 ---
 
 ## 1. Los números de partida
 
-### Búsqueda (Search Console, `sc-domain:quipuy.com`)
+### Búsqueda (Search Console, `sc-domain:quipuy.com`, 90 días)
 - 1.225 clics · 184.653 impresiones · CTR 0,66 % · posición 7,8.
-- **Toda la visibilidad es blog.** La única página comercial en el top es la home
-  (126 clics, CTR 27,5 %, pos 3,9).
+- Toda la visibilidad es blog; la única página comercial en el top es la home (126 clics).
 
-### Comportamiento y conversión (GA4, propiedad 536146659)
-- 7.034 sesiones · 2.412 usuarios · 2.385 nuevos.
-- Producto muy activo entre usuarios existentes: **6.754 ventas creadas, 1.159 facturas
-  autorizadas**.
-- **Registros nuevos: 23 en 90 días.** Onboarding completado: **6**.
-- Registros por canal: Directo 11 · **Orgánico 9** · IA 2 · otros 1.
-- **De dónde registran: 17 de 23 aterrizaron en la home; solo ~4 desde el blog.**
+### Conversión (GA4, propiedad 536146659, 90 días)
+- 7.034 sesiones · 2.385 usuarios nuevos.
+- Producto muy activo entre usuarios existentes: 6.754 ventas creadas, 1.159 facturas.
+- **Registros nuevos: 23.** Onboarding completado: **6.** Orgánico aportó 9 de los 23.
+- **17 de 23 registros aterrizaron en la home; solo ~4 desde el blog.**
 
 ---
 
-## 2. El diagnóstico, en cuatro hechos
+## 2. Corrección al diagnóstico inicial
 
-1. **El blog trae el tráfico pero no convierte.** ~2.477 sesiones orgánicas y casi ningún
-   registro salen de él. Son guías del SRI (retenciones, depreciación, formularios) que
-   posicionan pero terminan en un callejón sin salida: no llevan a registrarse.
+Mi primera lectura (solo con GSC/GA4) fue que «el blog no lleva a registrarse». **El código
+lo desmiente:** la infraestructura de conversión ya está bien construida.
+- Cada post cierra con un `CTABox` fuerte («Empieza desde $6/año · Crear mi cuenta / Ver planes»).
+- **162 de 166 posts enlazan a `/registro`** en el cuerpo.
+- Hay CTAs contextuales (`CtaInline`) en 21 posts y sección «Sigue leyendo».
 
-2. **La home convierte pero casi no recibe demanda de búsqueda.** Es la que genera 17 de 23
-   registros, pero en Search Console apenas tiene 458 impresiones. Convierte a quien llega,
-   pero llega poca gente por SEO.
-
-3. **Las páginas comerciales posicionan y nadie las ve.** `/precios` está en **posición 1,7**
-   con solo 104 impresiones. Los posts de comparación (Quipuy vs Datil, vs Siigo/Contifico,
-   alternativa a Alegra) rankean ~pos 6 con **0 clics**. Es el contenido que más convierte y
-   está desaprovechado, sin enlaces internos que empujen hacia él.
-
-4. **Hay una mina de intención comercial sin capturar.** «facturador sri» (19.460 imp),
-   «sri y yo» (13.534), «sri y yo en línea» (~10k) son ~60k impresiones de gente que busca el
-   **portal del propio SRI** — intención equivocada, CTR ~0 %. Pero dentro de eso hay oro
-   comercial: **«el facturador del sri no funciona» (CTR 6,4 %)**, «no puedo ingresar al
-   facturador sri» (79 sesiones), «recuperar clave facturador sri» (110 sesiones). Quien está
-   frustrado con el facturador gratuito del SRI es el cliente ideal de Quipuy.
-
-**Además — hueco de medición:** GA4 registra `sign_up_completed` y `onboarding_completed`,
-pero **no hay evento de suscripción pagada / compra**. No se puede optimizar lo que no se mide:
-hay que instrumentar el paso de pago para hablar de "más compras" con datos.
+**Entonces el cuello de botella NO es el CTA.** Es más de fondo.
 
 ---
 
-## 3. La estrategia — tres palancas por impacto en conversión
+## 3. El diagnóstico real, en cuatro hechos
 
-### Palanca 1 — Convertir el tráfico del blog (el mayor golpe inmediato)
-El tráfico ya existe; falta el puente a registrarse. Mismo principio que funcionó en el
-embudo de taller de Comercial Hidrobo, pero **contextual, no genérico**:
-- En cada post, cerrar con un CTA atado al dolor del artículo. Ej.: el post «cómo facturar a
-  cliente extranjero» termina con «Quipuy lo hace en un clic → crea tu cuenta gratis».
-- Mención de producto dentro del texto donde el artículo resuelve el problema **a mano** y
-  Quipuy lo resuelve **automático**.
-- Enlazar del blog a `/precios` y a las comparaciones (que hoy no reciben enlaces internos).
-- Aprovechar que existe **plan gratis** (visto en el flujo `/auth/completar?plan=FREE`): el
-  CTA es «empieza gratis», que es la fricción más baja.
+1. **La mezcla de intención está desbalanceada.** De 166 posts, **143 (86 %) son informativos
+   del SRI** (cómo declarar el formulario 104, actualizar RUC, etc.) y solo **23 (14 %) son de
+   intención de compra** (comparaciones, alternativas, «software», precios). El contenido
+   informativo atrae a quien hace un trámite puntual o busca el portal del SRI —**no a quien
+   evalúa comprar un software**. Lee y se va, por bueno que sea el CTA.
 
-### Palanca 2 — Ganar las consultas de intención comercial
-- **Post «alternativas al facturador SRI»** (36.530 imp, CTR 0,1 %, pos 8,7): reescribir
-  título y meta para capturar el clic y reorientarlo a la conversión. Quipuy ES la
+2. **El CTR es el muro antes de la conversión.** 184k impresiones → 1.225 clics (0,66 %). Y los
+   dos posts de mayor volumen —«alternativas al facturador SRI» (36.530 imp) y «sri y yo»
+   (38.517 imp)— rinden **0,1 % de CTR**. Sin clic no hay conversión, y aquí casi no hay clic.
+
+3. **El contenido que SÍ convierte está desaprovechado.** Los registros orgánicos salieron de
+   posts de compra (alternativa a Alegra, sistemas contables pymes). Pero las comparaciones
+   (Quipuy vs Datil, vs Siigo/Contífico) rankean en **posición ~6 con 0 clics**, y `/precios`
+   está en **posición 1,7 sin demanda** (104 impresiones). Solo **6 posts enlazan a `/precios`**.
+
+4. **Mina de intención comercial sin tocar.** «facturador sri» / «sri y yo» son ~60k
+   impresiones de intención equivocada (quieren el portal del gobierno). Pero dentro hay oro:
+   **«el facturador del sri no funciona» (CTR 6,4 %)**, «no puedo ingresar al facturador sri».
+   El frustrado con el facturador gratuito del SRI es el cliente ideal de Quipuy.
+
+**Hueco de medición:** GA4 mide `sign_up_completed` y `onboarding_completed`, pero **no hay
+evento de suscripción pagada**. No se puede optimizar "más compras" sin instrumentar el pago.
+
+---
+
+## 4. La estrategia — por impacto en conversión
+
+### Palanca 1 — Reorientar la inversión de contenido a intención de compra
+El problema no es el CTA, es a quién atrae el contenido. Hay que inclinar la balanza:
+- **Expandir el contenido de compra** (hoy solo 23 de 166): más comparaciones («Quipuy vs
+  Contífico/Datil/Siigo/Alegra»), «mejor software de facturación electrónica Ecuador»,
+  «software contable para pymes», y sobre todo el ángulo **alternativa/frustración con el
+  facturador del SRI**.
+- **Subir de posición y CTR** las comparaciones que ya existen (pos 6 → top 3). Es el contenido
+  que más convierte.
+
+### Palanca 2 — CTR en los posts de intención comercial (no en los de portal)
+- Reescribir título y meta del post **«alternativas al facturador SRI»** (36.530 imp, 0,1 %)
+  para capturar el clic del que busca reemplazar el facturador gratuito. Quipuy ES la
   alternativa.
-- **Contenido de frustración**: «el facturador del SRI no funciona», «no puedo ingresar al
-  facturador» — alta intención, poca competencia. Posicionar y convertir.
-- **Comparaciones** (vs Datil, Siigo, Contífico, Alegra): subirlas de posición y CTR. Es el
-  contenido que más convierte (ya produjo un registro).
-- **`/precios`**: darle enlaces internos y trabajar la consulta «precio software facturación
-  Ecuador» para que su posición 1,7 reciba demanda real.
+- Trabajar las consultas de frustración («no funciona», «no puedo ingresar»): alta intención,
+  poca competencia.
+- **No** perseguir CTR en «sri y yo» / «sri facturador» puros: esos rebotan.
 
-### Palanca 3 — Cerrar la fuga posterior al registro (activación)
-23 registros → solo 6 onboarding completado. Aunque dupliquemos registros, se pierde la mitad
-en el onboarding. Es un arreglo de producto/UX en la app (Next.js): reducir fricción del
-onboarding y llevar al usuario a su primera factura. Se sale del SEO, pero es donde se pierde
-la mitad del valor.
+### Palanca 3 — Rutear la autoridad del blog informativo hacia las páginas que venden
+Los 143 posts informativos tienen tráfico y autoridad; hoy se enlazan solo entre ellos.
+- Enlazar desde los informativos relevantes hacia `/precios`, las comparaciones y el post de
+  alternativa (hoy solo 6 apuntan a `/precios`).
+- Añadir en «Sigue leyendo» / CTABox un enlace a la página comercial pertinente según la
+  categoría del post.
 
----
-
-## 4. Orden de ejecución propuesto
-
-1. **Instrumentar el evento de compra/suscripción** en GA4 — sin esto no medimos "más compras".
-2. **Palanca 1** (CTA contextual + enlazado interno en el blog): golpe rápido sobre tráfico
-   existente.
-3. **Palanca 2** (títulos/meta de alternativas y comparaciones + `/precios`).
-4. **Palanca 3** (onboarding) — coordinar con el desarrollo de la app.
-
-**Bloqueo de ejecución:** quipuy.com es Next.js y el **repositorio local no está ubicado**.
-Para ejecutar palancas 1 y 2 (que son cambios de contenido/código) hay que localizar el repo o
-definir cómo se gestiona el blog. Paso previo a cualquier cambio.
+### Palanca 4 — Instrumentar la compra y cerrar la activación
+- **Medición:** agregar el evento de suscripción/pago en GA4 (sin esto no medimos compras).
+- **Activación:** 23 registros → 6 onboarding. Reducir fricción del onboarding (producto/UX,
+  Next.js) — se pierde la mitad del valor después del registro.
 
 ---
 
-## 5. La meta a medir
-Línea base 90 días: **23 registros / 6 onboarding / 9 registros orgánicos.** El objetivo es
-subir esos números; medición a 30-60 días tras aplicar las palancas 1 y 2.
+## 5. Orden de ejecución
+
+1. Instrumentar el evento de compra en GA4 (base de medición).
+2. Palanca 2 (títulos/meta de posts comerciales) — rápido, sobre impresiones existentes.
+3. Palanca 3 (enlazado interno informativo → comercial).
+4. Palanca 1 (nuevos posts de compra + subir comparaciones).
+5. Palanca 4-activación (con el equipo de la app).
+
+**Repo ya localizado**, así que las palancas 1-3 son ejecutables por código (MDX + componentes).
+
+## 6. Meta a medir
+Línea base 90 días: **23 registros · 6 onboarding · 9 registros orgánicos.** Medición a
+30-60 días tras aplicar palancas 2 y 3.
