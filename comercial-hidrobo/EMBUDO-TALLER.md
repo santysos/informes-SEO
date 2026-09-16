@@ -48,10 +48,21 @@ reserva.
 anterior de cada uno en `backup/contenido/{id}-{slug}-antes.html`. Con esto el 100 % de las
 267k impresiones de dueño ya rutea a la página de cita o al WhatsApp del taller.
 
+### 2026-09-16 — enlazado interno + schema
+
+- **Enlazado interno (47/47):** cada post de dueño lleva un bloque «Contenido relacionado»
+  que apunta a las 3 páginas pilar del taller (Tabla de mantenimiento, Cambio de aceite,
+  Costos de mantenimiento), saltando el autoenlace. Consolida enlaces internos hacia las
+  páginas que convierten.
+- **Schema `AutoRepair` (24/24):** JSON-LD con `@id` compartido `#taller` en los posts del
+  clúster de servicio/mantenimiento — nombre, dirección real (Ibarra), teléfono del taller,
+  `areaServed` Ibarra/Cayambe/Tulcán, catálogo de 4 servicios y `ReserveAction` a la página
+  de cita. Validado parseable en vivo.
+
 ## Pendiente
 
-- Enlazado interno: informativos → Tabla Toyota y página de reserva.
-- Schema `AutoRepair` en los de servicio.
+- **Schema en la página de reserva `/solicitar-cita-taller-mecanico/`**: es Elementor, hay
+  que meter el JSON-LD `AutoRepair` a mano en un widget HTML (no por API).
 - Fichas de modelo (compradores): coherencia de año-modelo (título ya en 2026/2027 según
   unidad en piso; cuerpo aún en 2025) + puente suave a taller. Precios los actualiza CH.
 - Medir a 30-60 días: % de sesiones que llegan a la página de reserva y reservas confirmadas
