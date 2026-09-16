@@ -64,8 +64,10 @@ SRIFlow vs descarga manual). No se crearon posts que canibalizaran; el valor se 
   `subscription_paid`, `app_downloaded`.
 - **Quipuy** (prop 536146659): ya tenía `sign_up_completed` y `first_invoice_authorized`;
   se agregó el que faltaba, `subscription_paid`.
-- Nota: en ambas quedan key events por defecto de GA4 (`purchase`, `qualify_lead`,
-  `close_convert_lead`) que no se disparan — plantillas vacías, se pueden desactivar.
+- Limpieza: se desactivaron `qualify_lead` y `close_convert_lead` (por defecto, no se
+  disparan) en ambas propiedades. `purchase` **no se puede eliminar por API** (GA4 lo bloquea:
+  "The event cannot be deleted"), pero como nunca se dispara en estos productos queda en cero
+  y no genera conversiones fantasma.
 
 ## Pendiente (recomendado, por prioridad)
 1. Desplegar la rama de eventos (`SRIFlow` / `seo/eventos-conversion`) para que los eventos
