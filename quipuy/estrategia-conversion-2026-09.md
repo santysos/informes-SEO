@@ -117,6 +117,17 @@ Los 143 posts informativos tienen tráfico y autoridad; hoy se enlazan solo entr
   `/precios`, la alternativa al facturador SRI y las comparativas. Typecheck limpio. **En rama,
   pendiente de revisar y desplegar** (el repo publica a producción en Vercel).
 
+- **Palanca 1 (contenido de compra) — arrancada.** Rama `seo/enlaces-comerciales-blog`:
+  - `mejor-software-facturacion-electronica-ecuador-2026` — roundup buyer-intent (hub hacia
+    las comparativas + /precios), consulta head sin post previo.
+  - Clúster honorarios (2 posts, diferenciados de los 2 existentes para no canibalizar):
+    `tabla-honorarios-contadores-ecuador-2026` (consulta head «tabla de honorarios 2026»,
+    doble audiencia, CTA al programa de contadores) y
+    `cuanto-cobra-contador-facturas-electronicas` (task específico, ángulo emitir-tú-vs-delegar).
+  - Los 3 validados: 1.100-1.300 palabras, sin frases de IA, tabla + blockquote + 4 FAQ,
+    enlaces internos a slugs reales. Imágenes hero placeholder (reemplazar por diseño).
+  - **Pendiente de revisar y desplegar** (la rama junta enlazado interno + 3 posts).
+
 ## 7. Meta a medir
 Línea base 90 días: **23 registros · 6 onboarding · 9 registros orgánicos · ~0 pagos nuevos
 PayPhone.** Medición a 30-60 días tras aplicar las palancas.
