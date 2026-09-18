@@ -51,3 +51,19 @@ MVYV_WP_APP_PASS=<application password>
 ```
 
 Pendiente: que el cliente/us genere ese Application Password para ejecutar.
+
+---
+
+## Aplicado el 2026-09-17 ✅
+
+Ejecutado con `aplicar.py` sobre el sitio live (`multitecnologiavyv.com`), autenticando con
+las llaves WooCommerce (el usuario admin id 1). Redirection se instaló por API.
+
+- **100 redirecciones específicas + 3 regex creadas · 0 errores.**
+- Verificado en vivo (301, ya no 404):
+  - `/content/13-…-fuente-de-poder` → `/categoria-producto/fuente-de-poder-pc/`
+  - `/content/6-sobre-nosotros` → `/nosotros/` · `/contactenos` → `/contactanos/`
+  - `/299-repuestos-laptop`, `/319-hub-usb`, `/356-pantallas`, `/396-te-hp` → su categoría
+  - `/inicio/NNN-producto.html` y `/2-inicio?page=N` → `/tienda/` (regex)
+
+Las credenciales quedaron en `.env` como `MVYV_WP_*` (son las WC keys; gitignored).
