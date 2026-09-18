@@ -1,0 +1,721 @@
+{
+ "especificas": [
+  {
+   "de": "/content/13-blog-cual-es-la-importancia-de-la-fuente-de-poder",
+   "a": "/categoria-producto/fuente-de-poder-pc/",
+   "tipo": "contenido",
+   "impr": 887,
+   "nota": ""
+  },
+  {
+   "de": "/content/6-sobre-nosotros",
+   "a": "/nosotros/",
+   "tipo": "contenido",
+   "impr": 421,
+   "nota": ""
+  },
+  {
+   "de": "/portafolio-de-marcas/",
+   "a": "/tienda/",
+   "tipo": "contenido",
+   "impr": 333,
+   "nota": ""
+  },
+  {
+   "de": "/contactenos",
+   "a": "/contactanos/",
+   "tipo": "contenido",
+   "impr": 332,
+   "nota": ""
+  },
+  {
+   "de": "/299-repuestos-laptop",
+   "a": "/categoria-producto/repuestos-laptop/",
+   "tipo": "categoria",
+   "impr": 293,
+   "nota": ""
+  },
+  {
+   "de": "/339-cable-de-impresora",
+   "a": "/categoria-producto/cable-de-impresora/",
+   "tipo": "categoria",
+   "impr": 290,
+   "nota": ""
+  },
+  {
+   "de": "/319-hub-usb",
+   "a": "/categoria-producto/hub-usb/",
+   "tipo": "categoria",
+   "impr": 278,
+   "nota": ""
+  },
+  {
+   "de": "/318-mica-y-protector-de-teclado",
+   "a": "/categoria-producto/mica-y-protector-de-teclado/",
+   "tipo": "categoria",
+   "impr": 273,
+   "nota": ""
+  },
+  {
+   "de": "/iniciar-sesion",
+   "a": "/mi-cuenta/",
+   "tipo": "contenido",
+   "impr": 244,
+   "nota": ""
+  },
+  {
+   "de": "/356-pantallas",
+   "a": "/categoria-producto/pantallas/",
+   "tipo": "categoria",
+   "impr": 212,
+   "nota": ""
+  },
+  {
+   "de": "/305-cargador-para-camaras",
+   "a": "/categoria-producto/cargadores-varios/",
+   "tipo": "categoria",
+   "impr": 208,
+   "nota": ""
+  },
+  {
+   "de": "/357-ventilador-laptop",
+   "a": "/categoria-producto/ventilador-laptop/",
+   "tipo": "categoria",
+   "impr": 191,
+   "nota": ""
+  },
+  {
+   "de": "/327-candados-laptop",
+   "a": "/categoria-producto/candados-laptop/",
+   "tipo": "categoria",
+   "impr": 184,
+   "nota": ""
+  },
+  {
+   "de": "/346-cable-usb-tipo-c",
+   "a": "/categoria-producto/cable-usb/",
+   "tipo": "categoria",
+   "impr": 157,
+   "nota": ""
+  },
+  {
+   "de": "/316-extensor-de-senal",
+   "a": "/categoria-producto/extensor-de-senal/",
+   "tipo": "categoria",
+   "impr": 148,
+   "nota": ""
+  },
+  {
+   "de": "/343-extension-usb",
+   "a": "/categoria-producto/cable-usb/",
+   "tipo": "categoria",
+   "impr": 125,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/2-inicio",
+   "a": "/tienda/",
+   "tipo": "categoria",
+   "impr": 118,
+   "nota": "baja confianza (0.42) → tienda"
+  },
+  {
+   "de": "/369-intercomunicador",
+   "a": "/categoria-producto/controles-de-acceso/",
+   "tipo": "categoria",
+   "impr": 96,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/342-cable-hdmi",
+   "a": "/categoria-producto/cable-hdmi/",
+   "tipo": "categoria",
+   "impr": 86,
+   "nota": ""
+  },
+  {
+   "de": "/362-cargador-universal",
+   "a": "/categoria-producto/cargador-universal/",
+   "tipo": "categoria",
+   "impr": 82,
+   "nota": ""
+  },
+  {
+   "de": "/309-teclados-mouse-pad-mouse",
+   "a": "/categoria-producto/teclados-mouse-pad-mouse/",
+   "tipo": "categoria",
+   "impr": 77,
+   "nota": ""
+  },
+  {
+   "de": "/338-cables-de-audio",
+   "a": "/categoria-producto/cables-de-audio/",
+   "tipo": "categoria",
+   "impr": 67,
+   "nota": ""
+  },
+  {
+   "de": "/434-laptop",
+   "a": "/categoria-producto/bateria-laptop/",
+   "tipo": "categoria",
+   "impr": 66,
+   "nota": ""
+  },
+  {
+   "de": "/359-flex-de-video",
+   "a": "/categoria-producto/flex-de-video/",
+   "tipo": "categoria",
+   "impr": 61,
+   "nota": ""
+  },
+  {
+   "de": "/361-cargador-monitor",
+   "a": "/categoria-producto/cargador-monitor/",
+   "tipo": "categoria",
+   "impr": 57,
+   "nota": ""
+  },
+  {
+   "de": "/355-pin-de-carga",
+   "a": "/categoria-producto/pin-de-carga/",
+   "tipo": "categoria",
+   "impr": 55,
+   "nota": ""
+  },
+  {
+   "de": "/329-cooler-para-laptop",
+   "a": "/categoria-producto/cooler-para-laptop/",
+   "tipo": "categoria",
+   "impr": 53,
+   "nota": ""
+  },
+  {
+   "de": "/336-cable-utp",
+   "a": "/categoria-producto/cable-utp/",
+   "tipo": "categoria",
+   "impr": 51,
+   "nota": ""
+  },
+  {
+   "de": "/332-lb-link",
+   "a": "/categoria-producto/networking-redes/",
+   "tipo": "categoria",
+   "impr": 43,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/321-puntero-laser-y-bluetooth",
+   "a": "/categoria-producto/puntero-laser-y-bluetooth/",
+   "tipo": "categoria",
+   "impr": 40,
+   "nota": ""
+  },
+  {
+   "de": "/306-balun",
+   "a": "/categoria-producto/convertidores-de-senal/",
+   "tipo": "categoria",
+   "impr": 37,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/312-ventilador-de-fuente",
+   "a": "/categoria-producto/ventilador-de-fuente/",
+   "tipo": "categoria",
+   "impr": 37,
+   "nota": ""
+  },
+  {
+   "de": "/323-adaptador-usb-a-lan",
+   "a": "/categoria-producto/adaptador-usb-a-lan/",
+   "tipo": "categoria",
+   "impr": 36,
+   "nota": ""
+  },
+  {
+   "de": "/459-audifono-para-call-center",
+   "a": "/categoria-producto/audifonos-y-parlantes/",
+   "tipo": "categoria",
+   "impr": 33,
+   "nota": ""
+  },
+  {
+   "de": "/387-ba-hp",
+   "a": "/categoria-producto/bateria-laptop/",
+   "tipo": "categoria",
+   "impr": 32,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/313-disco-solido",
+   "a": "/categoria-producto/disco-solido/",
+   "tipo": "categoria",
+   "impr": 29,
+   "nota": ""
+  },
+  {
+   "de": "/325-case",
+   "a": "/categoria-producto/case/",
+   "tipo": "categoria",
+   "impr": 27,
+   "nota": ""
+  },
+  {
+   "de": "/425-alambricos",
+   "a": "/tienda/",
+   "tipo": "categoria",
+   "impr": 27,
+   "nota": "baja confianza (0.44) → tienda"
+  },
+  {
+   "de": "/431-rack-y-accesorios",
+   "a": "/categoria-producto/accesorios-de-cableado-estructurado/",
+   "tipo": "categoria",
+   "impr": 27,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/358-teclado-laptop",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 26,
+   "nota": ""
+  },
+  {
+   "de": "/447-cable-de-bateria",
+   "a": "/categoria-producto/cable-de-bateria/",
+   "tipo": "categoria",
+   "impr": 25,
+   "nota": ""
+  },
+  {
+   "de": "/451-aplus",
+   "a": "/tienda/",
+   "tipo": "categoria",
+   "impr": 25,
+   "nota": "baja confianza (0.57) → tienda"
+  },
+  {
+   "de": "/308-tarjetas-pci-pci-exp-pci-exp-wireless",
+   "a": "/categoria-producto/tarjetas-pci-pci-exp/",
+   "tipo": "categoria",
+   "impr": 23,
+   "nota": ""
+  },
+  {
+   "de": "/296-networking-redes",
+   "a": "/categoria-producto/networking-redes/",
+   "tipo": "categoria",
+   "impr": 21,
+   "nota": ""
+  },
+  {
+   "de": "/310-cable-de-datos-y-extensiones",
+   "a": "/categoria-producto/cable-de-datos-y-extensiones/",
+   "tipo": "categoria",
+   "impr": 21,
+   "nota": ""
+  },
+  {
+   "de": "/333-telefonos-ip",
+   "a": "/categoria-producto/telefonos-ip/",
+   "tipo": "categoria",
+   "impr": 19,
+   "nota": ""
+  },
+  {
+   "de": "/353-cargador-laptop",
+   "a": "/categoria-producto/cargador-laptop/",
+   "tipo": "categoria",
+   "impr": 19,
+   "nota": ""
+  },
+  {
+   "de": "/326-estuches-laptop",
+   "a": "/categoria-producto/estuches-laptop/",
+   "tipo": "categoria",
+   "impr": 18,
+   "nota": ""
+  },
+  {
+   "de": "/367-pilas",
+   "a": "/categoria-producto/pilas/",
+   "tipo": "categoria",
+   "impr": 16,
+   "nota": ""
+  },
+  {
+   "de": "/304-camara-vigilancia",
+   "a": "/categoria-producto/camara-espia/",
+   "tipo": "categoria",
+   "impr": 15,
+   "nota": ""
+  },
+  {
+   "de": "/365-pasta-termica",
+   "a": "/categoria-producto/pasta-termica/",
+   "tipo": "categoria",
+   "impr": 15,
+   "nota": ""
+  },
+  {
+   "de": "/452-switch-rj45",
+   "a": "/categoria-producto/networking-redes/",
+   "tipo": "categoria",
+   "impr": 15,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/317-union-vga-hdmi-dvi-usb",
+   "a": "/categoria-producto/union-vga-hdmi-dvi-usb/",
+   "tipo": "categoria",
+   "impr": 12,
+   "nota": ""
+  },
+  {
+   "de": "/424-parlantes",
+   "a": "/categoria-producto/parlantes/",
+   "tipo": "categoria",
+   "impr": 12,
+   "nota": ""
+  },
+  {
+   "de": "/322-spliter-switch-kvm",
+   "a": "/categoria-producto/spliter-switch-kvm/",
+   "tipo": "categoria",
+   "impr": 10,
+   "nota": ""
+  },
+  {
+   "de": "/347-cable-usb-celular",
+   "a": "/categoria-producto/cable-usb-celular/",
+   "tipo": "categoria",
+   "impr": 9,
+   "nota": ""
+  },
+  {
+   "de": "/448-smart-home",
+   "a": "/categoria-producto/smart-home/",
+   "tipo": "categoria",
+   "impr": 9,
+   "nota": ""
+  },
+  {
+   "de": "/320-tarjetas-externas-de-sonido",
+   "a": "/categoria-producto/tarjetas-externas-de-sonido/",
+   "tipo": "categoria",
+   "impr": 8,
+   "nota": ""
+  },
+  {
+   "de": "/344-cable-vga",
+   "a": "/categoria-producto/cable-vga/",
+   "tipo": "categoria",
+   "impr": 8,
+   "nota": ""
+  },
+  {
+   "de": "/381-ca-original",
+   "a": "/categoria-producto/cargador-laptop/",
+   "tipo": "categoria",
+   "impr": 8,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/328-camara-web",
+   "a": "/categoria-producto/camara-web/",
+   "tipo": "categoria",
+   "impr": 7,
+   "nota": ""
+  },
+  {
+   "de": "/297-cables",
+   "a": "/categoria-producto/cables/",
+   "tipo": "categoria",
+   "impr": 6,
+   "nota": ""
+  },
+  {
+   "de": "/341-cable-de-poder",
+   "a": "/categoria-producto/cable-de-poder/",
+   "tipo": "categoria",
+   "impr": 6,
+   "nota": ""
+  },
+  {
+   "de": "/311-fuente-de-poder-pc",
+   "a": "/categoria-producto/fuente-de-poder-pc/",
+   "tipo": "categoria",
+   "impr": 5,
+   "nota": ""
+  },
+  {
+   "de": "/345-cable-display-port",
+   "a": "/categoria-producto/cable-display-port/",
+   "tipo": "categoria",
+   "impr": 5,
+   "nota": ""
+  },
+  {
+   "de": "/370-accesorios-de-video",
+   "a": "/categoria-producto/accesorios-de-video-y-audio/",
+   "tipo": "categoria",
+   "impr": 5,
+   "nota": ""
+  },
+  {
+   "de": "/421-inalambrico",
+   "a": "/tienda/",
+   "tipo": "categoria",
+   "impr": 5,
+   "nota": "baja confianza (0.48) → tienda"
+  },
+  {
+   "de": "/430-bat-original",
+   "a": "/categoria-producto/bateria-laptop/",
+   "tipo": "categoria",
+   "impr": 5,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/450-parlantes-1h",
+   "a": "/categoria-producto/parlantes/",
+   "tipo": "categoria",
+   "impr": 4,
+   "nota": ""
+  },
+  {
+   "de": "/298-accesorios-celulares",
+   "a": "/categoria-producto/accesorios-celulares/",
+   "tipo": "categoria",
+   "impr": 3,
+   "nota": ""
+  },
+  {
+   "de": "/324-convertidores-de-senal",
+   "a": "/categoria-producto/convertidores-de-senal/",
+   "tipo": "categoria",
+   "impr": 3,
+   "nota": ""
+  },
+  {
+   "de": "/395-te-acer",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 3,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/398-te-sony",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 3,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/449-comprobadores",
+   "a": "/categoria-producto/comprobador-de-repuestos/",
+   "tipo": "categoria",
+   "impr": 3,
+   "nota": ""
+  },
+  {
+   "de": "/295-accesorios-computadoras",
+   "a": "/categoria-producto/accesorios-computadoras/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/307-cables-de-vigilancia",
+   "a": "/categoria-producto/cable-de-bateria/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/331-accesorios-de-cableado-estructurado",
+   "a": "/categoria-producto/accesorios-de-cableado-estructurado/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/354-baterias",
+   "a": "/categoria-producto/bateria-laptop/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/363-cargadores-varios",
+   "a": "/categoria-producto/cargadores-varios/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/368-termometros",
+   "a": "/categoria-producto/termometro/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/390-ba-asus",
+   "a": "/categoria-producto/bateria-laptop/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/397-te-toshiba",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/429-cable-disco-duro",
+   "a": "/categoria-producto/cable-de-poder/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": ""
+  },
+  {
+   "de": "/435-desktop",
+   "a": "/categoria-producto/componentes-de-pc/",
+   "tipo": "categoria",
+   "impr": 2,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/293-vigilancia",
+   "a": "/categoria-producto/vigilancia-y-seguridad/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/302-accesorios-varios",
+   "a": "/categoria-producto/accesorios-varios/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/303-audifonos-y-parlantes",
+   "a": "/categoria-producto/audifonos-y-parlantes/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/314-memorias",
+   "a": "/categoria-producto/memorias/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/334-herramientas",
+   "a": "/categoria-producto/herramientas-varias/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/348-microfono",
+   "a": "/categoria-producto/microfono-headphone/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/352-banco-de-carga",
+   "a": "/categoria-producto/pin-de-carga/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/364-limpieza",
+   "a": "/categoria-producto/limpieza/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/396-te-hp",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/400-te-asus",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/402-te-lenovo",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/403-te-mac",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/412-audifonos-para-call-center",
+   "a": "/categoria-producto/audifonos-y-parlantes/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/433-te-msi",
+   "a": "/categoria-producto/teclado-laptop/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": "rescatada manual"
+  },
+  {
+   "de": "/457-hubs-usb",
+   "a": "/categoria-producto/hub-usb/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  },
+  {
+   "de": "/458-ventiladores-laptop",
+   "a": "/categoria-producto/ventilador-laptop/",
+   "tipo": "categoria",
+   "impr": 1,
+   "nota": ""
+  }
+ ],
+ "regex": [
+  {
+   "de": "^/inicio/\\d+-.*\\.html$",
+   "a": "/tienda/",
+   "nota": "regex productos viejos"
+  },
+  {
+   "de": "^/\\d+-.+",
+   "a": "/tienda/",
+   "nota": "regex catch-all restante /NNN-"
+  },
+  {
+   "de": "^/2-inicio",
+   "a": "/tienda/",
+   "nota": "paginación/home viejo"
+  }
+ ]
+}
