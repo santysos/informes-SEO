@@ -85,6 +85,38 @@ correcto, el título de Yoast aplicado y el botón de WhatsApp presente. Publica
 
 ---
 
+## Frente 3 — Análisis de competencia y optimización por posicionamiento (2026-09-19)
+
+Detalle completo en `analisis-competencia-2026-09.md`.
+
+**Hallazgo:** los competidores de Otavalo (Livi Dental, Dentsonrisas) **no hacen contenido
+SEO** — Life ya les gana en cualquier consulta informativa o de precio. La pelea real por las
+palabras que dan dinero es contra clínicas de Quito/Guayaquil con más autoridad. La estrategia
+se enfocó en el terreno disputado que muestra nuestro propio Search Console.
+
+**Consolidación de canibalización — blanqueamiento:** había tres URLs peleando por las mismas
+consultas de precio (todas en posición 5-6, alternándose y frenándose entre sí):
+- Se conservó el post principal (id 257, más impresiones e historial) y se le trasplantó el
+  cuerpo superior del duplicado (1.262 palabras: tabla de precios por técnica, costo por año,
+  «cuándo NO», aviso de ofertas de $49, Otavalo vs. Quito, FAQ). Se le quitó una frase de la
+  lista negra de IA que arrastraba.
+- El duplicado (id 770) pasó a borrador y **redirige 301** al principal.
+- El viejo duplicado de `/uncategorized/` ya redirigía al principal (verificado).
+
+**Reescrituras verificadas, ya estaban hechas:** los posts de ortodoncia/brackets (id 774,
+«desde $900», pos 4,9-8) ya tenían título y meta optimizados. No requerían cambios.
+
+**Posts nuevos de gaps reales de precio** (los cachaba por accidente el post de implantes,
+en posición 9-12; los posts dedicados los capturan y descargan ese post):
+
+| Post | Categoría | ID | Palabras |
+|---|---|----|----------|
+| ¿Cuánto cuesta una corona dental en Ecuador? Precios 2026 | Rehabilitación oral | 1193 | 1034 |
+| ¿Cuánto cuesta reemplazar un diente en Ecuador? Precios 2026 | Rehabilitación oral | 1194 | 1009 |
+
+Ambos con tabla de precios referenciales por opción, «cuándo NO», FAQ, enlaces internos a los
+posts de implantes/puente/prótesis, y el CTA de WhatsApp medible. Verificados en vivo (200).
+
 ## Diagnóstico de tráfico (por qué esta estrategia)
 
 El blog está bien cubierto (ahora 82 posts en todos los clusters). La demanda grande de
@@ -99,9 +131,9 @@ ranking/CTR, no de posts faltantes. Por eso la palanca del mes fue **convertir**
 
 | Métrica | Valor |
 |---------|-------|
-| Posts en el sitio | 82 / 120 (contrato) |
-| Posts nuevos este mes | 4 (IDs 1188-1191) |
-| Posts con CTA de WhatsApp medible | 82 (78 previos + 4 nuevos) |
+| Posts nuevos este mes | 6 (lote captación 1188-1191 + lote precios 1193-1194) |
+| Consolidación anti-canibalización | Blanqueamiento: 3 URLs → 1 (301 aplicado) |
+| Posts con CTA de WhatsApp medible | Todos los publicados |
 | Leads WhatsApp (90 días) | 22 (82 % orgánicos) |
 | Eventos clave en GA4 | `whatsapp_click`, `form_submit` |
 
