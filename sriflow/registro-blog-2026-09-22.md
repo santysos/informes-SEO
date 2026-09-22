@@ -33,11 +33,19 @@ Verificado en vivo: los tres posts top muestran CTA mid + final y enlazan a `/si
   medir ni optimizar la conversión a pago. (El evento `subscription_paid` se instrumentó en
   `RespuestaPayphone`; hay que verificar que dispare en el flujo real de PayPhone.)
 
-## Riesgo a resolver
+## Riesgo — resuelto
 
-- **El blog no está bajo control de versiones.** Se editó código fuente de producción sin
-  historial git. Conviene inicializar un repo para `sriflow-blog` (como Quipuy/SRIFlow) antes
-  de seguir tocándolo.
+- **El blog ya está bajo control de versiones.** Se inicializó git en `sriflow-blog`
+  (`.gitignore` con node_modules/.next/out, commit inicial `e6ef013`, 34 posts + fuente).
+  Falta solo, si se quiere, crear el remoto en GitHub (como Quipuy/SRIFlow).
+
+## Aviso al equipo/otro Claude de SRIFlow
+
+Se dejó un handoff con las correcciones del lado de la app en
+`/Users/creativeweb/DESARROLLO/boxpli/AVISO-SRIFLOW-CONVERSION-2026-09-22.md` (boxpli es el hub
+del VPS compartido Boxpli+SRIFlow). Incluye: (1) el bug de `subscription_paid` con el fix por
+Measurement Protocol server-side, (2) fricción de registro, (3) el acantilado de descarga de la
+app.
 
 ## Pendiente del blog (siguiente pasada)
 
