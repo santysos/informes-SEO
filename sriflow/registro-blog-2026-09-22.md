@@ -54,3 +54,29 @@ app.
 - Reforzar el pivote al producto dentro del texto de los posts del cluster de anulaciones y
   104-Excel (el contenido ya es bueno; el CTA visible ya se agregó).
 - A 2-3 semanas: revisar `blog_cta_click` por `cta_location` para ver qué CTA rinde y ajustar.
+
+## Ampliación: 8 posts nuevos (2026-09-22, tarde)
+
+Se agregaron 8 posts al blog (34 → 42), con verificación anti-canibalización previa contra
+los focus keywords existentes. Enfoque: **intención comercial** (atraer a quien busca una
+herramienta, que convierte mejor) + gaps reales, en vez de más contenido informativo que ya
+estaba cubierto. Todos heredan el CTA mid+final medible y llevan enlazado interno.
+
+**Intención de herramienta (mayor conversión):**
+1. `programa-para-descargar-comprobantes-del-sri` — quien busca una solución, no un tutorial.
+2. `herramientas-estudio-contable-ecuador-2026` — persona compradora (estudios con varios clientes).
+3. `cuanto-tiempo-pierde-contador-portal-sri` — ángulo dolor/ROI.
+
+**Gaps reales / volumen:**
+4. `formulario-104a-rimpe-que-es-como-llenarlo` — el cluster RIMPE estaba mal cubierto (pos 40-62).
+5. `calendario-tributario-sri-2026` — imán estacional recurrente.
+6. `respaldar-comprobantes-sri-antes-de-que-caduquen` — encaje directo con el producto.
+7. `notas-de-credito-y-debito-sri-como-afectan-iva` — gap (no había post dedicado).
+8. `declarar-iva-en-cero-sri-sin-movimientos` — demanda real, distinto de los 104 existentes.
+
+Descartados por canibalización: "descarga masiva/varios RUC" (pisaba `como-manejar-multiples-rucs`)
+y un 3er post de anulaciones (pisaba los 2 existentes).
+
+Desplegado (`blog.backup-20260922-124143`), los 8 verificados en vivo (200) con CTA. Commit del
+blog `733f808`. **Recordatorio:** esto es la palanca #2 (alcance); la #1 sigue siendo la
+conversión de la app (aviso en `boxpli/AVISO-SRIFLOW-CONVERSION-2026-09-22.md`).
