@@ -111,19 +111,18 @@ por `pageview(url)`.)
 
 ---
 
-## 4. Registrar las definiciones en GA4 (una sola vez)
+## 4. Registrar las definiciones en GA4 — ✅ YA HECHO por Creative Web
 
-Sin esto, el dato llega pero no aparece en informes/segmentos.
+La dimensión personalizada ya está creada en la propiedad, **no tienen que hacer nada aquí**:
+- Nombre: **`Login status`** · Parámetro de evento: **`login_status`** · **Alcance: Evento**
+- `properties/536146659/customDimensions/15821249839`
 
-**Admin → Definiciones personalizadas → Crear dimensión personalizada:**
-- Nombre: `Login status`
-- **Alcance: Evento**
-- Parámetro de evento: `login_status`
+Los datos empiezan a contarse **desde que ustedes desplacen el código** (secciones 1-3); el
+histórico no se recalcula.
 
-(Opcional, para audiencias de usuario) crear otra con **Alcance: Usuario** y propiedad de
-usuario `login_status`.
-
-Los datos empiezan a contarse **desde que se marca**; el histórico no se recalcula.
+(Opcional, si más adelante quieren audiencias de usuario: pueden crear otra dimensión con
+**Alcance: Usuario** y propiedad de usuario `login_status`. No es necesario para separar las
+visitas.)
 
 ---
 
