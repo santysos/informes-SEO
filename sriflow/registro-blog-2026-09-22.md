@@ -80,3 +80,12 @@ y un 3er post de anulaciones (pisaba los 2 existentes).
 Desplegado (`blog.backup-20260922-124143`), los 8 verificados en vivo (200) con CTA. Commit del
 blog `733f808`. **Recordatorio:** esto es la palanca #2 (alcance); la #1 sigue siendo la
 conversión de la app (aviso en `boxpli/AVISO-SRIFLOW-CONVERSION-2026-09-22.md`).
+
+## Secreto de Measurement Protocol puesto (2026-09-22)
+
+El otro Claude ya implementó el envío server-side de `subscription_paid`. Creé el
+Measurement Protocol API secret en GA4 (stream "Sriflow Web", `dataStreams/12044904694`), lo
+escribí en `/root/SRIFlow/backend/.env` (`GA4_API_SECRET=`, por stdin) y reinicié `sriflow`
+(active, sitio 200). Validado contra el endpoint debug de MP: `validationMessages: []`.
+Falta que el equipo confirme con una compra de prueba que aparece en GA4 y marque
+`subscription_paid` como evento clave. Detalle en `boxpli/AVISO-SRIFLOW-CONVERSION-2026-09-22.md`.
