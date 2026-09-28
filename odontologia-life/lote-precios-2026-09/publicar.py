@@ -15,7 +15,7 @@ AUTH=base64.b64encode(f"{env['OLIFE_WP_USER']}:{env['OLIFE_WP_APP_PASS']}".encod
 Hg={"Authorization":f"Basic {AUTH}","User-Agent":"Mozilla/5.0 Chrome/120"}
 Hp={**Hg,"Content-Type":"application/json"}
 API=env["OLIFE_WP_BASE"]
-WA="https://api.whatsapp.com/send?phone=593984582733&text=Hola%2C%20quiero%20saber%20el%20precio%20de%20mi%20caso%20y%20agendar%20una%20valoraci%C3%B3n."
+WA="https://api.whatsapp.com/send?phone=593984582733&text=Hola%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20saber%20el%20precio%20de%20mi%20caso%20y%20agendar%20una%20valoraci%C3%B3n."
 
 # URLs internas reales (verificadas)
 L_IMP_COSTO="https://www.odontologialife.com/implantologia/cuanto-cuesta-implante-dental-ecuador/"

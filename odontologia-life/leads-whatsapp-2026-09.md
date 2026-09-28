@@ -40,3 +40,14 @@ no de posts faltantes.
 2. **Post nuevo del gap real:** «implantes All-on-4 en Ecuador» (74 imp, sin post).
 3. **Ritmo constante** hacia los 120 del contrato (78/120), con temas frescos, no relleno.
 4. Medir a 30-60 días el aumento de `whatsapp_click` tras el CTA nuevo (línea base: 22/90d).
+
+## Marcador de origen web en el botón de WhatsApp (2026-09-27)
+
+Para que el consultorio distinga los leads que vienen del sitio, se cambió el texto prellenado
+del botón de WhatsApp en los **84 posts del blog** a:
+«Hola, **vi su página web** y quiero saber el precio de mi caso y agendar una valoración.»
+Así, todo mensaje que llegue con «vi su página web» es un lead del blog. Verificado en vivo.
+
+Pendiente (opcional): los botones de las páginas principales (home, contacto, servicios) están
+en Elementor con otros textos («quiero agendar una cita», «me interesa el servicio de…») y no
+se tocaron aquí; si se quiere el mismo marcador ahí, es un cambio en Elementor.
