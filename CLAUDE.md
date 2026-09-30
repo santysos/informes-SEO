@@ -211,6 +211,43 @@ Es **Next.js, no WordPress**, así que los cambios van por código. En Search Co
 Detalles y hallazgos de cada una en sus carpetas.
 
 
+### 10. DentiLab — denti-lab.com (SaaS dental B2B)
+
+Software para clínicas dentales (pacientes, historias, citas, cobros). **Repo propio**
+`github.com/santysos/dentilab`, local en `/Users/creativeweb/DESARROLLO/CLAUDIO/DENTILAB`.
+Stack: **Next.js 16 + React 19 + Supabase + Vercel**, gtag.js directo. Escribir en **usted**
+(ver memory `project_dentilab_seo`). Lo mantiene otro Claude/sesión — trabajar en rama y no
+pisar `main`.
+
+**Analítica:** GA4 propiedad **550937814**, measurement **G-2KR6LYXZVP** (stream «Dentilab»,
+denti-lab.com). Search Console: `sc-domain:denti-lab.com`.
+
+**SEO (sep 2026):** sitio nuevo (arrancó ago-2026), en crecimiento (~82 usuarios/30d). Rankea
+consultas de dentistas (CIE-10 odontología, formulario 033, abrir consultorio) — público B2B
+correcto. **Captación por IA comprobada:** `chatgpt.com` envía leads reales (8 sesiones/8
+usuarios/90d) — el primer cliente del grupo con leads de ChatGPT medibles.
+
+**Medición de leads — DESPLEGADA en producción 2026-09-30** (rama `seo/medicion-leads`
+mergeada a `main`, commit `075950d`). Embudo: `sign_up_completed` (registro por correo y por
+Google, con parámetro `lead_source` del campo «¿Cómo nos conoció?») → `first_record_created`
+(primer paciente de la clínica = activación, modelo Quipuy) → pago. Piezas:
+- `src/lib/ga-mp.ts`: envío server-side por Measurement Protocol, **inerte sin `GA4_API_SECRET`**
+  (no envía, solo loguea → desplegar es seguro). Reutilizable en cualquier proyecto.
+- `sign_up_completed` en `signup/actions.ts` y `completar-registro/actions.ts` (Google).
+- `first_record_created` en `pacientes/actions.ts` (cuando la org llega a 1 paciente).
+- GA4: dimensión `lead_source` + eventos clave `sign_up_completed` y `first_record_created`
+  creados por API. `GA4_API_SECRET` en el entorno de Vercel (valor NO va a git).
+- Pendiente opcional: conectar `qualify_lead`/`close_convert_lead` desde el CRM.
+
+Spec/registro: `dentilab/medicion-leads-2026-09.md`.
+
+**⚠️ Gotcha GA4 Measurement Protocol:** para crear un `api_secret` por API primero hay que
+aceptar el **«Reconocimiento de recolección de datos de usuario»** en la interfaz de GA4
+(Admin → Flujos de datos → stream → Secretos de MP → Revisar términos). No se puede por API.
+Y `subscription_paid`/`sign_up_completed` que dependen de un redirect a una página sin GA
+(server action → `/app`) deben enviarse **server-side por MP**, no client-side. Mismo patrón
+aplicado en SRIFlow.
+
 ## Stack técnico
 
 ### Sitios WordPress de los clientes
