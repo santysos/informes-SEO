@@ -80,17 +80,34 @@ POST https://www.google-analytics.com/mp/collect?measurement_id=G-2KR6LYXZVP&api
 
 ---
 
-## 🟠 4. Conectar el embudo que ya existe
+## 🔴 4. El embudo: replicar el modelo de Quipuy (falta la ACTIVACIÓN)
 
-DentiLab ya tiene los eventos clave **`qualify_lead`** y **`close_convert_lead`** (y `purchase`)
-configurados en GA4, pero **no se disparan** (0 eventos). Conectarlos desde donde se gestionan
-los leads para seguir el camino completo:
+**Verificación (2026-09-29):** los eventos clave de DentiLab (`purchase`, `qualify_lead`,
+`close_convert_lead`, `sign_up_completed`) están **definidos en GA4 pero no se disparan**
+(0 eventos en 180 días). El embudo está declarado, no cableado.
 
-`sign_up_completed` (registro) → `qualify_lead` (lead con intención real) → `close_convert_lead`
-/ `purchase` (cliente que paga).
+Como referencia, el embudo de **Quipuy sí funciona** porque cada evento se dispara desde el
+propio producto, y su señal más fuerte es la **activación** intermedia:
 
-Así el informe podrá decir no solo cuántos se registran, sino cuántos se vuelven clientes y por
-qué canal.
+| Quipuy (funciona) | DentiLab (equivalente a instrumentar) |
+|---|---|
+| `sign_up_completed` — registro | `sign_up_completed` — registro de prueba |
+| **`first_invoice_authorized` — ACTIVACIÓN** (usó el producto de verdad) | **falta:** un evento de activación, p.ej. `first_patient_created` o `first_record_created` (creó su primer paciente / historia clínica / cita) |
+| `subscription_paid` / `purchase` — pago | `subscription_paid` / `purchase` — pago |
+
+**Lo que falta y más importa: el evento de ACTIVACIÓN.** No basta con medir el registro y
+saltar a las etapas de CRM (`qualify_lead`/`close_convert_lead`). El paso que predice si un
+lead se vuelve cliente es **que el dentista realmente use el sistema** la primera vez. Definir
+y disparar ese evento (nombre a elección del equipo, sugerido `first_record_created`) es la
+pieza clave del embudo.
+
+Embudo objetivo de DentiLab:
+`sign_up_completed` (registro) → **`first_record_created`** (activación: usó el sistema) →
+`subscription_paid`/`purchase` (pago). Los `qualify_lead`/`close_convert_lead` quedan como
+etapas de venta opcionales encima de eso, disparadas desde el CRM.
+
+Cada evento debe **dispararse desde la app en la acción real** (como en Quipuy), no quedar solo
+declarado en GA4.
 
 ---
 
