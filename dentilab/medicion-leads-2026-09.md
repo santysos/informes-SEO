@@ -74,9 +74,10 @@ POST https://www.google-analytics.com/mp/collect?measurement_id=G-2KR6LYXZVP&api
   }]
 }
 ```
-- El `api_secret` se crea en GA4 → Admin → Flujos de datos → stream de DentiLab →
-  **Measurement Protocol API secrets**, y se guarda en el `.env` del backend (no commitear).
-  (Creative Web puede crearlo y pasártelo si prefieres.)
+- ✅ **El `api_secret` ya está creado** por Creative Web (2026-09-29): stream de DentiLab
+  `G-2KR6LYXZVP`, apodo «api», validado contra el endpoint debug de Google. El valor se
+  entregó aparte (no se commitea). **Solo falta ponerlo en las variables de entorno de
+  producción (Vercel) como `GA4_API_SECRET`** al desplegar la rama `seo/medicion-leads`.
 
 ---
 
