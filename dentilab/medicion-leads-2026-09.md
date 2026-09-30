@@ -1,4 +1,11 @@
-# DentiLab — medir cómo llegan los leads (spec para el equipo)
+# DentiLab — medir cómo llegan los leads
+
+> **✅ DESPLEGADO EN PRODUCCIÓN (2026-09-29).** Rama `seo/medicion-leads` mergeada a `main`
+> (commit `075950d`) y desplegada en Vercel; `GA4_API_SECRET` puesta en el entorno de
+> producción. El `/signup` ya muestra el campo «¿Cómo nos conoció?» y el embudo mide:
+> `sign_up_completed` (correo y Google) → `first_record_created` (primer paciente) → pago.
+> Verificado que el campo está en vivo. Falta solo confirmar el flujo de eventos con un
+> registro de prueba en GA4 → Tiempo real.
 
 **Objetivo:** saber de dónde viene cada registro de prueba (Google, ChatGPT/IA, recomendación,
 redes…), sin depender de que la persona lo cuente. Hoy los registros **no se miden** como
