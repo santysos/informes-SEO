@@ -96,11 +96,14 @@ propio producto, y su señal más fuerte es la **activación** intermedia:
 | **`first_invoice_authorized` — ACTIVACIÓN** (usó el producto de verdad) | **falta:** un evento de activación, p.ej. `first_patient_created` o `first_record_created` (creó su primer paciente / historia clínica / cita) |
 | `subscription_paid` / `purchase` — pago | `subscription_paid` / `purchase` — pago |
 
-**Lo que falta y más importa: el evento de ACTIVACIÓN.** No basta con medir el registro y
-saltar a las etapas de CRM (`qualify_lead`/`close_convert_lead`). El paso que predice si un
-lead se vuelve cliente es **que el dentista realmente use el sistema** la primera vez. Definir
-y disparar ese evento (nombre a elección del equipo, sugerido `first_record_created`) es la
-pieza clave del embudo.
+**✅ Implementado (rama `seo/medicion-leads`, 2026-09-29):**
+- `first_record_created` se dispara al crear el **primer paciente** de la clínica
+  (`src/app/app/pacientes/actions.ts`), que es la activación del embudo. Evento clave ya
+  creado en GA4.
+- `sign_up_completed` también en el **registro con Google** (`completar-registro/actions.ts`),
+  con el campo «¿Cómo nos conoció?» agregado a esa pantalla.
+
+Solo falta que esto se **mergee a `main` y se despliegue** (+ la env var del punto 1).
 
 Embudo objetivo de DentiLab:
 `sign_up_completed` (registro) → **`first_record_created`** (activación: usó el sistema) →
