@@ -53,6 +53,9 @@ Submarca de seminuevos de Comercial Hidrobo. Sitio nuevo, sin trabajo SEO previo
 del 2 al 31 de octubre (IDs 1824-1844, sin el 1830, que era un duplicado y está en la
 papelera). Tanda en `okcars/octubre-2026-tanda2/`. Faltan **24**: 20 en noviembre y 4 en
 diciembre.
+**2026-10-01:** metas de traspaso y seguro reescritas (`okcars/titulos-2026-10/`) y el post de
+seguro 1405 consolidado en el 1127 con 301 (`okcars/consolidacion-seguro-2026-10/`). Medir
+desde el 1-nov.
 **OKCars se escribe en USTED** (decisión 2026-09-30); 27 posts publicados están en voseo y
 casi todo el resto en tú. El `publish_batch.py` de la tanda nueva rechaza tú y vos.
 

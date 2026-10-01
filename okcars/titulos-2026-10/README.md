@@ -26,8 +26,8 @@ Desde el **1 de noviembre**: comparar 2 al 31 de octubre contra la línea base. 
 traspaso no supera el 1 %, el problema no es el snippet, y lo más probable es que la
 respuesta directa de Google se esté quedando con el clic.
 
-## Pendiente detectado
+## Consolidación hecha el mismo día
 
-`/guias-de-compra/seguro-auto-usado-ecuador-precio/` (publicado el 18 de septiembre)
-apunta a la misma búsqueda que este post y tiene cero impresiones. Candidato a
-consolidar dentro del 1127, trasplantando sus mejores secciones, con un 301.
+El 1405 (`seguro-auto-usado-ecuador-precio`) se fusionó dentro del 1127: está en borrador,
+con un 301 hacia el 1127 (regla 14 de Redirection), y se corrigieron los 8 posts que lo
+enlazaban. Detalle en `../consolidacion-seguro-2026-10/`.
