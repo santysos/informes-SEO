@@ -49,10 +49,13 @@ Submarca de seminuevos de Comercial Hidrobo. Sitio nuevo, sin trabajo SEO previo
 - **Medición (verificado 2026-08-24, corrige lo que decía antes este archivo):** hasta agosto OKCars **NO tenía GTM ni eventos de contacto**. Solo GA4 vía Site Kit (`GT-P3JC26Q9`, medición `G-F0H5W02BRF`) con los eventos automáticos. El único evento clave configurado era `purchase`, que nunca se disparó. El 24-ago se creó el contenedor **GTM-P7MNVQ65** (cuenta OKCars) y se instaló por Site Kit → Tag Manager.
 - ⚠️ **El botón de WhatsApp existe solo en las fichas de vehículo.** Home, posts, páginas de marca y contacto no lo tienen: ~1.300 de 1.659 vistas caen en páginas sin salida. Medir no arregla eso.
 
-**Estado al 2026-10-01 (verificado por API):** **96 posts** — 76 publicados + 20 programados
-del 2 al 31 de octubre (IDs 1824-1844, sin el 1830, que era un duplicado y está en la
-papelera). Tanda en `okcars/octubre-2026-tanda2/`. Faltan **24**: 20 en noviembre y 4 en
-diciembre.
+**Estado al 2026-10-01 (verificado por API):** **115 posts** — 75 publicados + 40 programados
+(octubre: IDs 1824-1844 en `okcars/octubre-2026-tanda2/`; noviembre: IDs 1858-1877 en
+`okcars/noviembre-2026/`). El 1405 está en borrador (consolidado en el 1127) y el 1830 en la
+papelera (duplicado). **Faltan 5**, para diciembre. Los datos de Search Console ya no tienen
+huecos sin cubrir: la tanda de noviembre fue estratégica (modelos comunes, temporada,
+trámites). Para diciembre conviene volver a mirar los datos con los 40 posts nuevos ya
+indexados.
 **2026-10-01:** metas de traspaso y seguro reescritas (`okcars/titulos-2026-10/`) y el post de
 seguro 1405 consolidado en el 1127 con 301 (`okcars/consolidacion-seguro-2026-10/`). Medir
 desde el 1-nov.
