@@ -121,6 +121,14 @@ DEDUCIBLE_EJEMPLO = "10 % del siniestro con un mínimo de $250"
 # Entrada habitual: 20-40 % según el año; cuota ≤ 25 % del ingreso neto.
 ENTRADA_RANGO = "entre el 20 % y el 40 % del valor del auto"
 CUOTA_TOPE = "el 25 % del ingreso neto"
+# Tasa referencial única para todos los ejemplos de crédito (corregido el 2026-10-01: el post
+# de cuota mezclaba 12 % y 14 %). Calcular cuotas con cuota(), nunca a ojo.
+TASA_ANUAL = 0.14
+
+
+def cuota(monto, meses, tasa=TASA_ANUAL):
+    r = tasa / 12
+    return monto * r / (1 - (1 + r) ** -meses)
 
 # ── inventario real (fichas verificadas el 2026-09-30) ──────────────────────
 # (url, nombre, año, km, precio). Año None = no confirmado: NO mencionarlo.
