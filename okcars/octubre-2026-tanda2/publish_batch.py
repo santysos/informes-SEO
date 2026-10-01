@@ -119,7 +119,22 @@ class Api:
                 r = self.s.request(method, url, auth=self.auth, params=p,
                                    json=payload, timeout=60)
             except requests.RequestException as e:
-                print(f"    red: {e} · reintento en {BACKOFF}s"); time.sleep(BACKOFF); continue
+                print(f"    red: {e} · reintento en {BACKOFF}s"); time.sleep(BACKOFF)
+                # Un POST cortado por timeout puede haberse creado igual en el servidor.
+                # Reintentarlo a ciegas duplicó un post el 2026-10-01 (slug con -2).
+                if method == "POST" and path == "/posts" and payload and payload.get("slug"):
+                    for estado in ("future", "publish", "draft"):
+                        try:
+                            ya = self.s.get(url, auth=self.auth, timeout=60, params={
+                                "slug": payload["slug"], "status": estado,
+                                "_fields": "id,status"}).json()
+                        except requests.RequestException:
+                            ya = []
+                        time.sleep(DELAY)
+                        if ya:
+                            print(f"    el post ya se había creado (id {ya[0]['id']}); no reintento")
+                            return ya[0]
+                continue
             if r.status_code in (429, 502, 503, 504):
                 print(f"    HTTP {r.status_code} · espero {BACKOFF}s"); time.sleep(BACKOFF); continue
             if r.status_code >= 400:

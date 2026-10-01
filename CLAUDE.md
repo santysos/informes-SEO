@@ -49,10 +49,10 @@ Submarca de seminuevos de Comercial Hidrobo. Sitio nuevo, sin trabajo SEO previo
 - **Medición (verificado 2026-08-24, corrige lo que decía antes este archivo):** hasta agosto OKCars **NO tenía GTM ni eventos de contacto**. Solo GA4 vía Site Kit (`GT-P3JC26Q9`, medición `G-F0H5W02BRF`) con los eventos automáticos. El único evento clave configurado era `purchase`, que nunca se disparó. El 24-ago se creó el contenedor **GTM-P7MNVQ65** (cuenta OKCars) y se instaló por Site Kit → Tag Manager.
 - ⚠️ **El botón de WhatsApp existe solo en las fichas de vehículo.** Home, posts, páginas de marca y contacto no lo tienen: ~1.300 de 1.659 vistas caen en páginas sin salida. Medir no arregla eso.
 
-**Estado al 2026-09-30 (verificado por API):** 76 posts, **todos publicados**, ninguno
-programado (los de la tanda «octubre» salieron con fechas de ago-sep). Tanda de 20 para
-octubre escrita y validada en `okcars/octubre-2026-tanda2/` (2 al 31-oct), **sin subir**.
-Con ella quedan 24: 20 en noviembre y 4 en diciembre.
+**Estado al 2026-10-01 (verificado por API):** **96 posts** — 76 publicados + 20 programados
+del 2 al 31 de octubre (IDs 1824-1844, sin el 1830, que era un duplicado y está en la
+papelera). Tanda en `okcars/octubre-2026-tanda2/`. Faltan **24**: 20 en noviembre y 4 en
+diciembre.
 **OKCars se escribe en USTED** (decisión 2026-09-30); 27 posts publicados están en voseo y
 casi todo el resto en tú. El `publish_batch.py` de la tanda nueva rechaza tú y vos.
 
@@ -511,6 +511,11 @@ Redirigir ocho artículos hacia una página delgada es una degradación, no una 
 El detector usaba `status=any`, que **no devuelve los posts programados**. Un relanzamiento
 duplicaba todo el lote (pasó en Odontología Life con 20 posts). Ya está corregido en OKCars:
 pide cada estado por nombre y pagina. **Verificar que la copia que se use tenga el arreglo.**
+
+Segunda trampa (2026-10-01): **un POST que se corta por timeout puede haberse creado igual**
+en el servidor, y el reintento a ciegas lo duplica con slug `-2`. La copia de
+`okcars/octubre-2026-tanda2/publish_batch.py` ya busca el slug antes de reintentar. **Usar
+esa copia como base de las tandas siguientes.**
 
 ### Números de proforma
 
