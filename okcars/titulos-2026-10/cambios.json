@@ -1,0 +1,29 @@
+[
+ {
+  "id": 1118,
+  "url": "https://okcars.ec/tramites/traspaso-vehiculo-ecuador-requisitos-pasos/",
+  "por_que": "Título cambiado el 2026-09-08 sin efecto en el CTR (0,69 % → 0,62 %, pos 6,8). La meta daba la respuesta completa (los dos costos) y quien busca «cuánto cuesta» no necesitaba entrar. Solo se cambia la meta para aislar el efecto.",
+  "antes": {
+   "_yoast_wpseo_title": "¿Cuánto cuesta el traspaso de un carro en Ecuador 2026?",
+   "_yoast_wpseo_metadesc": "La notaría cobra entre $20 y $40 y la tasa de la ANT entre $30 y $50. Qué documentos piden, quién paga cada rubro y por qué el trámite se traba."
+  },
+  "despues": {
+   "_yoast_wpseo_metadesc": "Cuánto se paga en notaría y en la ANT, qué documentos pedirle al vendedor antes de pagar y los errores que dejan el traspaso parado en la agencia."
+  }
+ },
+ {
+  "id": 1127,
+  "url": "https://okcars.ec/financiamiento/seguro-vehicular-autos-usados-ecuador/",
+  "por_que": "Problema de posición, no de CTR: «seguro vehicular» en pos 13,9 y el título no empezaba con esa frase. La meta prometía un 15-25 % de ahorro por convenio que no está verificado.",
+  "antes": {
+   "_yoast_wpseo_title": "¿Cuánto cuesta un seguro de auto en Ecuador? Guía 2026",
+   "_yoast_wpseo_metadesc": "Qué determina la prima, qué cubre una póliza todo riesgo frente a una de terceros y por qué contratarlo con el concesionario sale 15-25 % más barato.",
+   "_yoast_wpseo_focuskw": "seguro vehicular para autos usados en Ecuador"
+  },
+  "despues": {
+   "_yoast_wpseo_title": "Seguro vehicular en Ecuador: cuánto cuesta en 2026",
+   "_yoast_wpseo_metadesc": "Cuánto cuesta asegurar un auto usado según su valor, qué cubre de verdad el todo riesgo y los errores al contratar que salen caros el día del choque.",
+   "_yoast_wpseo_focuskw": "seguro vehicular"
+  }
+ }
+]
