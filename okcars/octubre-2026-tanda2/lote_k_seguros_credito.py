@@ -745,14 +745,14 @@ precancelar = {
         f"Un ejemplo con números que ya publicamos en {link(CUOTA, 'cómo se calcula la cuota')}: "
         f"un {link(_u, 'Kia Seltos')} de {_p} con 30 % de entrada deja $14.350 por financiar. "
         "A 48 meses, la cuota ronda los $395 y los intereses del crédito completo suman "
-        "cerca de $3.900.",
+        "cerca de $4.600.",
 
         "Con esa misma deuda, el efecto de un abono cambia mucho según el momento en que "
         "se haga:",
 
         {"tabla": [
             ["Momento del abono", "Capital pendiente aproximado", "Intereses que quedan por delante"],
-            ["Mes 6", "la mayor parte de la deuda", "la mayor parte de los $3.900"],
+            ["Mes 6", "la mayor parte de la deuda", "la mayor parte de los $4.600"],
             ["Mes 24 (mitad del plazo)", "algo más de la mitad", "menos de un tercio"],
             ["Mes 42", "una fracción pequeña", "muy poco"],
         ]},
