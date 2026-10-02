@@ -129,3 +129,27 @@ vehículos, inmobiliarias y constructoras, cooperativas y cajas de ahorro, joyer
 2. **La clienta que llegó:** ¿se le puede pedir permiso para contar su caso (sin nombre) en el
    post central? «Una clienta de [provincia] necesitaba…» es el tipo de insumo que no se
    puede inventar.
+
+---
+
+## Estado — 2 de octubre de 2026
+
+**Landing publicada:** `/servicios/correo-institucional-uafe/` (página 4063), construida con
+`creativeweb/build-elementor/build_uafe.py`.
+
+- **Paquete UAFE: $81,98 + IVA al año** = dominio .com ($21,99) + Plan Inicial ($59,99):
+  hasta 10 correos con 4.000 MB compartidos. El argumento de las 10 cuentas: el correo del
+  oficial tiene que ser exclusivo, así que titular y suplente necesitan una cada uno, y el
+  resto sirve para ordenar la empresa (gerencia@, contabilidad@…).
+- Plazo publicado (el mismo que ya decía la página de correos): el mismo día si ya hay
+  dominio, de 1 a 3 días hábiles si hay que registrarlo.
+- Yoast: «Correo institucional para la UAFE: listo para tu registro» (57) · meta de 155.
+- Schema `Service` con oferta de $81,98 + `FAQPage` con 9 preguntas sacadas del texto
+  visible.
+- WhatsApp con mensaje propio: «necesito el correo institucional para registrar al
+  oficial de cumplimiento en la UAFE». Sirve para contar los leads de este nicho.
+- Enlazada desde la página de correos (931, pregunta nueva «¿Me sirve como correo
+  institucional para la UAFE?») y desde el post 2730, el que está en posición 1 para «qué es
+  un correo institucional».
+
+**Siguiente:** post 1, «Qué correo pide la UAFE para registrar al oficial de cumplimiento».

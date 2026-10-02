@@ -200,6 +200,13 @@ en los artefactos «Casa de herrero» y «Del tráfico a la venta».
 **Pendiente:** 32 URLs sin tema dominante para revisar una a una, y la medición a fin de
 octubre contra la línea base.
 
+**Nicho UAFE (2-oct-2026):** los sujetos obligados a reportar a la UAFE necesitan un correo
+institucional exclusivo para el oficial de cumplimiento (requisito oficial), y desde
+septiembre de 2025 el SRI les da 30 días hábiles o les suspende el RUC. Landing publicada en
+`/servicios/correo-institucional-uafe/` con el **Paquete UAFE de $81,98 + IVA al año**
+(dominio .com + Plan Inicial: 10 correos y 4.000 MB compartidos). Estrategia y 6 posts
+planificados en `creativeweb/uafe-2026-10/ESTRATEGIA.md`.
+
 ### 8. Quipuy — pendiente de tratamiento SEO
 
 **El premio más grande del grupo y está sin tocar.** quipuy.com tiene **1.138 clics y
