@@ -130,13 +130,15 @@ oficial sin trabarte en ese paso.</p>
 <p>La UAFE pide que el correo institucional sea <strong>de uso exclusivo del oficial de
 cumplimiento</strong>. Eso significa que no sirve el info@ que contesta todo el mundo en la
 empresa: el oficial necesita su propia cuenta.</p>
-<p>Y casi nunca es una sola persona. Si registras un oficial <strong>titular</strong> y uno
-<strong>suplente</strong>, cada uno necesita la suya. Con el paquete te sobran cuentas para
-ordenar el resto de la empresa con el mismo dominio:</p>
+<p>Y casi nunca es una sola cuenta. Al pedir el código de registro, la UAFE también le pide
+al <strong>representante legal</strong> un correo corporativo, además del personal. Y si tu
+organismo de control es la Superintendencia de Bancos, tienes que registrar además un
+<strong>oficial suplente</strong>, con su propio correo. Con el paquete te sobran cuentas
+para ordenar el resto de la empresa con el mismo dominio:</p>
 <ul>
 <li><strong>cumplimiento@</strong> para el oficial titular.</li>
-<li><strong>suplente@</strong> o <strong>cumplimiento2@</strong> para el suplente.</li>
 <li><strong>gerencia@</strong> para el representante legal.</li>
+<li><strong>suplente@</strong> para el oficial suplente, si te lo piden.</li>
 <li><strong>contabilidad@</strong>, <strong>ventas@</strong> o <strong>facturacion@</strong> para el día a día.</li>
 </ul>
 <p>Las 10 cuentas comparten 4.000 MB. Para correo de trabajo, que es casi todo texto y
@@ -151,9 +153,9 @@ documentos, alcanza con holgura. Si algún día se llena, subes de plan sin perd
         tarjeta("Con el nombre de tu empresa",
                 "Tu dominio propio, registrado a nombre de tu empresa. Es tuyo: si algún día "
                 "te vas, te lo llevas."),
-        tarjeta("Una cuenta para cada oficial",
-                "Titular y suplente con su propio correo, como pide la UAFE. Y cuentas de "
-                "sobra para el resto del equipo."),
+        tarjeta("Una cuenta para cada rol",
+                "El oficial con su correo exclusivo, el representante legal con el suyo y "
+                "cuentas de sobra para el resto del equipo."),
         tarjeta("Lo dejamos funcionando contigo",
                 "Creamos las cuentas y las configuramos en tu celular y tu computadora. No "
                 "cerramos el tema hasta que envíes un correo de prueba."),
@@ -174,7 +176,7 @@ documentos, alcanza con holgura. Si algún día se llena, subes de plan sin perd
 <li><strong>Nos escribes por WhatsApp</strong> y elegimos juntos el dominio: casi siempre el
 nombre de tu empresa terminado en .com.</li>
 <li><strong>Registramos el dominio</strong> a nombre de tu empresa y creamos las cuentas que
-necesitas: la del oficial titular, la del suplente y las que quieras.</li>
+necesitas: la del oficial de cumplimiento, la del representante legal y las que quieras.</li>
 <li><strong>Las configuramos contigo</strong> en el celular y la computadora del oficial, y
 probamos que envíe y reciba.</li>
 <li><strong>Ya puedes registrar al oficial en la UAFE</strong> con su correo institucional
@@ -193,11 +195,12 @@ para hacerlo; si no, el SRI puede <strong>suspender tu RUC</strong>.</p>
 <ul>
 <li>Comercializadoras de vehículos.</li>
 <li>Constructoras e inmobiliarias.</li>
+<li>Contadores y abogados.</li>
 <li>Negocios de joyas, metales y piedras preciosas.</li>
-<li>Notarías.</li>
-<li>Empresas de transferencia de fondos.</li>
-<li>Cooperativas, cajas de ahorro, cajas y bancos comunales.</li>
-<li>Asesores productores de seguros y fundaciones.</li>
+<li>Notarías y registros de la propiedad y mercantiles.</li>
+<li>Couriers y empresas de transferencia de fondos.</li>
+<li>Cooperativas de ahorro y crédito, mutualistas, cajas de ahorro y bancos comunales.</li>
+<li>Fundaciones, ONG, asociaciones, consorcios y sociedades de hecho.</li>
 </ul>
 <p>La lista la define la UAFE y se ha ampliado en los últimos años. Si no estás seguro de si
 tu negocio entra, confírmalo con tu contador o directamente en la UAFE antes de que corra el
