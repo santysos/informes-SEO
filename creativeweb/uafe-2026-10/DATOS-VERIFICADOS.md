@@ -14,6 +14,23 @@ falta otro, se verifica en la fuente oficial y se agrega primero en este archivo
 - El enlace de activación de la solicitud llega **al correo del representante legal** (o de
   la persona natural), y después el usuario y la contraseña. **La solicitud se activa dentro
   de las 48 horas.**
+- ⚠️ **FORMATO OBLIGATORIO — fuente: notificación de rechazo de la UAFE del 28-09-2026**
+  (notificacion@uafe.gob.ec, solicitud de código de registro y acreditación de oficiales,
+  **negada**). Texto literal del motivo:
+  > «SE RECHAZA: en virtud de que el correo electrónico registrado del sujeto obligado, del
+  > representante legal y del oficial de cumplimiento son incorrectos (deben ser
+  > personalizados, no deben ser seudónimos o alias o departamentales o dominio de TERCEROS),
+  > debe identificar el nombre completo del sujeto obligado, representante legal, o del
+  > oficial de cumplimiento. Ej: juan.perez@hotmail.com juan.perez@empresaabc.com.»
+  - **Nada de cuentas por cargo o área:** cumplimiento@, gerencia@, oficial@, info@, ventas@
+    son departamentales → **rechazo**. El formato correcto es **nombre.apellido@empresa.com**.
+  - **Nada de dominio de terceros:** el correo institucional va con el dominio del propio
+    sujeto obligado, no con el del contador, el abogado ni el proveedor.
+  - El ejemplo oficial usa una cuenta de Hotmail con nombre y apellido como correo personal.
+  - Si cambia el oficial, **cuenta nueva con el nombre de la persona que entra** (no se
+    «hereda» la cuenta cambiando la contraseña) y se informa el cambio en 15 días.
+  - El caso es real y llegó por una clienta: se cita el motivo, nunca el nombre del negocio
+    ni el número de solicitud.
 - **No afirmar que la UAFE rechaza Gmail.** Lo verificado es que pide un correo institucional
   o corporativo además del personal.
 
@@ -80,6 +97,9 @@ falta otro, se verifica en la fuente oficial y se agrega primero en este archivo
 
 ## Lo nuestro (Creative Web)
 
+- Argumento del paquete: cada persona registrada necesita SU cuenta con nombre y apellido
+  (representante legal, oficial, suplente si aplica), y cuando cambia el oficial hace falta
+  otra cuenta nueva. Por eso 10 cuentas tiene sentido.
 - Paquete UAFE: $81,98 + IVA al año = dominio .com $21,99 + Plan Inicial $59,99. Hasta 10
   correos, 4.000 MB compartidos.
 - Plazo: el mismo día si ya hay dominio; de 1 a 3 días hábiles si hay que registrarlo.

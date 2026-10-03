@@ -90,19 +90,21 @@ oficial = {
         {"ul": [
             "Nombres y apellidos completos.",
             "Número de cédula.",
-            "Dos correos: uno personal y uno institucional, de uso exclusivo del oficial.",
+            "Dos correos: uno personal y uno institucional, de uso exclusivo del oficial, "
+            "los dos con su nombre y apellido.",
             "Teléfono celular y teléfono fijo.",
             "Dirección del domicilio del sujeto obligado.",
         ]},
 
-        "El tercer punto es el que más detiene a las empresas pequeñas. El correo personal "
-        "lo tiene cualquiera. El institucional tiene que llevar el dominio de tu empresa y "
-        "ser solo del oficial: no sirve el info@ que revisan tres personas. Si todavía no lo "
+        "El tercer punto es el que más fácil se resuelve mal. El correo personal "
+        "lo tiene cualquiera. El institucional tiene que llevar el dominio de tu empresa, "
+        "ser solo del oficial e identificarlo por su nombre: no sirve el info@ que revisan "
+        "tres personas ni un cumplimiento@. Si todavía no lo "
         f"tienes, en {link(P1, 'qué correo pide la UAFE')} te explicamos el detalle.",
 
         {"quote": "Elige al oficial pensando en quién va a seguir en la empresa dentro de un "
-                  "año. Cada cambio se vuelve a informar, y el correo exclusivo se le "
-                  "entrega a la persona nueva, no se comparte."},
+                  "año. Cada cambio se vuelve a informar, con una cuenta nueva que lleve el "
+                  "nombre de la persona que entra."},
 
         {"h2": "El suplente: solo obligatorio en la Superintendencia de Bancos"},
 
@@ -111,7 +113,7 @@ oficial = {
         "Superintendencia de Bancos. Para el resto, el titular alcanza.",
 
         "Si te toca registrar suplente, necesita sus propios datos y su propio correo "
-        "institucional. Son dos personas distintas con dos cuentas distintas.",
+        "institucional con su nombre. Son dos personas distintas con dos cuentas distintas.",
 
         {"h2": "Cómo se informa el registro o el cambio, paso a paso"},
 
@@ -119,7 +121,8 @@ oficial = {
             "Confirma qué organismo controla a tu negocio.",
             "Elige a la persona y reúne su documento: oficio con título o experiencia, o la "
             "resolución de calificación de tu superintendencia.",
-            "Crea la cuenta institucional exclusiva del oficial antes de llenar nada.",
+            "Crea la cuenta institucional exclusiva del oficial, con su nombre y apellido "
+            "(maria.lopez@tuempresa.com), antes de llenar nada.",
             "Escanea los documentos en PDF de máximo 2 MB cada uno.",
             "Envíalos a secretariageneral@uafe.gob.ec o entrégalos en la oficina de la UAFE "
             "en Quito (Av. Portugal E9-138 y Av. República de El Salvador, edificio Plaza Real).",
@@ -127,33 +130,43 @@ oficial = {
         ]},
 
         "Cuando cambia el oficial, el proceso se repite con la persona nueva. Del lado del "
-        "correo es simple: se cambia la contraseña de la cuenta o se crea una nueva, en un "
-        "par de minutos.",
+        "correo, se crea una cuenta nueva con su nombre y apellido, en un par de minutos. La "
+        "del oficial anterior no se le pasa al nuevo: la dirección tiene que identificar a "
+        "quien está registrado.",
 
-        {"h2": "Cómo nombrar y cuidar la cuenta del oficial"},
+        {"h2": "El formato del correo: nombre y apellido, nunca el cargo"},
 
-        "Un detalle que parece menor y ahorra problemas: el nombre de la cuenta. Si la creas "
-        "con el nombre de la persona (maria@tuempresa.com), cuando cambie el oficial vas a "
-        "tener que crear otra y volver a informar un correo distinto. Si la creas por la "
-        "función (cumplimiento@tuempresa.com), la cuenta sigue siendo la misma y solo cambia "
-        "quién la usa.",
+        "Este punto hace caer solicitudes. En sus notificaciones de rechazo, la UAFE indica "
+        "que los correos del oficial, del representante legal y del sujeto obligado «deben "
+        "ser personalizados, no deben ser seudónimos o alias o departamentales o dominio de "
+        "terceros», y que deben identificar el nombre completo. Su ejemplo es "
+        "juan.perez@empresaabc.com.",
 
-        "Las dos opciones son válidas. Lo que conviene evitar es que la cuenta del oficial "
-        "termine compartida con otras tareas, porque la UAFE la pide de uso exclusivo:",
+        {"tabla": [
+            ["Así sí", "Así no", "Motivo"],
+            ["maria.lopez@tuempresa.com", "cumplimiento@tuempresa.com", "Departamental"],
+            ["maria.lopez@tuempresa.com", "oficial@tuempresa.com", "Es un cargo"],
+            ["maria.lopez@tuempresa.com", "maria.lopez@estudiojuridico.com",
+             "Dominio de terceros"],
+        ]},
+
+        "Y una vez creada, la cuenta del oficial no se mezcla con otras tareas, porque la "
+        "UAFE la pide de uso exclusivo:",
 
         {"ul": [
             "No la uses para facturación, ventas ni atención a clientes.",
             "No la reenvíes automáticamente a la bandeja de otra persona.",
             "Guarda la contraseña en un lugar seguro de la empresa, además del celular del "
             "oficial.",
-            "Revísala con frecuencia: es la que la UAFE tiene registrada para contactarte.",
+            "Ábrela con frecuencia: es la que queda registrada ante la UAFE a nombre del "
+            "oficial.",
         ]},
 
         {"h2": "Cuándo esto no te aplica"},
 
         "Si tu negocio no figura como sujeto obligado, no necesitas registrar oficial de "
-        "cumplimiento. Y si ya lo tienes registrado con un correo de tu dominio que usa solo "
-        "esa persona, no hay nada que cambiar. Este artículo tampoco reemplaza lo que te diga "
+        "cumplimiento. Y si ya lo tienes registrado con un correo de tu dominio, con su "
+        "nombre y que usa solo esa persona, no hay nada que cambiar. Este artículo tampoco reemplaza lo que te diga "
         "tu contador, tu abogado o la propia UAFE sobre tu caso concreto.",
 
         {"h2": "Lo que conviene dejar listo esta semana"},
@@ -176,11 +189,13 @@ oficial = {
              "La UAFE da un máximo de 15 días para informar el registro o el cambio del "
              "oficial de cumplimiento."),
             ("¿Puede el oficial usar el correo general de la empresa?",
-             "La UAFE pide un correo institucional de uso exclusivo del oficial. Lo correcto "
-             "es crearle una cuenta propia con el dominio de tu empresa."),
+             "No. La UAFE pide un correo institucional de uso exclusivo y personalizado, y "
+             "rechaza los departamentales. Lo correcto es crearle una cuenta propia con su "
+             "nombre y el dominio de tu empresa."),
             ("¿Qué pasa con el correo si el oficial se va?",
-             "La cuenta es de la empresa, no de la persona. Se cambia la contraseña o se crea "
-             "una nueva para quien entra, y el cambio se informa a la UAFE."),
+             "Se crea una cuenta nueva con el nombre y apellido de quien entra, porque el "
+             "correo tiene que identificarlo, y el cambio se informa a la UAFE en 15 días. "
+             "La cuenta anterior la puede conservar la empresa para no perder el historial."),
         ]},
 
         cierre("del oficial de cumplimiento"),
@@ -222,7 +237,7 @@ codigo = {
         "adjuntos. Lo llena el representante legal o un apoderado, o la persona natural si el "
         "obligado eres tú.",
 
-        "El detalle que más gente pasa por alto: el enlace para activar la solicitud llega "
+        "Un detalle fácil de pasar por alto: el enlace para activar la solicitud llega "
         "al correo del representante legal, y hay que activarla dentro de las 48 horas. Si "
         "ese correo no existe todavía o nadie lo revisa, el trámite se queda a medias.",
 
@@ -232,9 +247,10 @@ codigo = {
             ["Sección de SISLAFT", "Qué tener a mano"],
             ["Datos de la institución", "El RUC. Al ingresarlo, el sistema completa los datos "
              "que tiene el SRI"],
-            ["Representante legal", "Sus datos y dos correos: uno corporativo y uno personal"],
+            ["Representante legal", "Sus datos y dos correos, corporativo y personal, los dos "
+             "con su nombre y apellido"],
             ["Oficial de cumplimiento titular", "Sus datos, calificados ante tu organismo de "
-             "control, y la cuenta institucional exclusiva del oficial"],
+             "control, y su cuenta institucional exclusiva con nombre y apellido"],
             ["Oficial suplente", "Solo si te controla la Superintendencia de Bancos"],
             ["Oficinas y agencias", "Los establecimientos de tu negocio"],
             ["Documentos adjuntos", "Los requisitos de tu sector, escaneados en PDF"],
@@ -261,8 +277,29 @@ codigo = {
         ]},
 
         "En la práctica son al menos dos cuentas con el dominio de tu empresa, una para cada "
-        "persona. Si el representante legal y el oficial son la misma persona, igual conviene "
-        "separar la cuenta del oficial, porque la UAFE la pide de uso exclusivo.",
+        "persona.",
+
+        {"h2": "El formato exacto: personalizado, con nombre completo y dominio propio"},
+
+        "Aquí puede caerse la solicitud. En sus notificaciones de rechazo, la UAFE "
+        "explica que los correos del sujeto obligado, del representante legal y del oficial "
+        "de cumplimiento «deben ser personalizados, no deben ser seudónimos o alias o "
+        "departamentales o dominio de terceros», y que deben identificar el nombre completo. "
+        "El ejemplo oficial es juan.perez@hotmail.com y juan.perez@empresaabc.com. Antes de "
+        "entrar a SISLAFT, revisa cada dirección con estas tres preguntas:",
+
+        {"ul": [
+            "<strong>¿Lleva el nombre y apellido de la persona?</strong> Un cargo "
+            "(gerencia@), un área (cumplimiento@, contabilidad@) o un apodo no sirven.",
+            "<strong>¿Los institucionales usan el dominio de tu propio negocio?</strong> El "
+            "correo del estudio de tu contador o de tu proveedor cuenta como dominio de "
+            "terceros.",
+            "<strong>¿Cada persona tiene la suya?</strong> El representante legal y el oficial "
+            "registran cuentas distintas, cada una con su nombre.",
+        ]},
+
+        "Si alguna respuesta es «no», la solicitud puede ser negada y tendrás que empezar "
+        "otra vez, con el reloj de los 30 días hábiles corriendo.",
 
         {"quote": "Haz una prueba antes de abrir SISLAFT: envíate un correo desde otra cuenta "
                   "a la del representante legal y confirma que llega. Son dos minutos que "
@@ -273,8 +310,8 @@ codigo = {
         {"ol": [
             "Confirma en tu certificado de RUC que eres sujeto obligado y qué organismo te "
             "controla.",
-            "Crea los correos con el dominio de tu empresa: el del representante legal y el "
-            "del oficial.",
+            "Crea los correos con el dominio de tu empresa y el nombre y apellido de cada "
+            "persona: el del representante legal y el del oficial.",
             "Prueba que los dos envían y reciben.",
             "Reúne los documentos de tu sector y escanéalos en PDF.",
             "Entra a SISLAFT por el enlace que corresponde a tu organismo de control y llena "
@@ -295,9 +332,12 @@ codigo = {
         {"ul": [
             "<strong>Usar un correo que nadie revisa.</strong> El enlace de activación llega, "
             "pasan las 48 horas y hay que volver a empezar.",
+            "<strong>Usar correos departamentales, alias o de otra empresa.</strong> Es un "
+            "motivo de rechazo explícito: cada correo tiene que identificar a la persona con "
+            "su nombre completo.",
             "<strong>Registrar el mismo correo para el representante legal y para el "
-            "oficial.</strong> La cuenta del oficial es de uso exclusivo; conviene que sean "
-            "cuentas distintas.",
+            "oficial.</strong> La cuenta del oficial es de uso exclusivo y cada una lleva el "
+            "nombre de su dueño.",
             "<strong>Llegar sin los documentos del sector.</strong> Cada sector tiene los "
             "suyos, y subir los de otro obliga a corregir.",
             "<strong>Escanear mal.</strong> Los documentos se suben en PDF; un archivo "
@@ -311,7 +351,7 @@ codigo = {
         "en un plazo de 15 días; el código se pide en SISLAFT dentro de los 30 días hábiles "
         "que da el SRI. Conviene llevar las dos fechas anotadas.",
 
-        "El último punto es el que más se subestima. Si no tienes dominio propio, el correo "
+        "No subestimes el último punto. Si no tienes dominio propio, el correo "
         "es lo primero que hay que pedir, porque es lo único del trámite que depende de un "
         "tercero y no de ti.",
 
@@ -395,21 +435,45 @@ contadores = {
 
         {"tabla": [
             ["Quién", "Correos que se registran", "Por qué importa"],
-            ["Representante legal", "Uno corporativo y uno personal",
+            ["Representante legal", "Uno corporativo y uno personal, con su nombre",
              "Al correo del representante legal llega el enlace de activación, que vence "
              "en 48 horas"],
             ["Oficial de cumplimiento", "Uno personal y uno institucional de uso exclusivo",
-             "La cuenta institucional es solo del oficial; no sirve la general del estudio"],
+             "La cuenta institucional es solo del oficial y lleva su nombre; no sirve la "
+             "general del estudio"],
         ]},
 
         "Muchos estudios contables y jurídicos pequeños trabajan con una cuenta gratuita a "
-        "nombre del titular. Para este trámite lo que corresponde es una cuenta con el "
-        "dominio del estudio. El detalle de lo que pide la SISLAFT está en "
+        "nombre del titular. Para el campo institucional lo que corresponde es una cuenta con "
+        "el dominio del estudio y el nombre de la persona, del tipo "
+        "juan.perez@tuestudio.com. El detalle de lo que pide la SISLAFT está en "
         f"{link(P5, 'qué tener listo para el código de registro')}.",
 
         {"quote": "Si vas a ayudar a tus clientes con la UAFE, resuelve primero tu propio "
                   "registro. Es la mejor forma de conocer de memoria dónde se traba cada "
                   "paso antes de explicárselo a otro."},
+
+        {"h2": "El error que más te conviene evitar: registrar al cliente con tu correo"},
+
+        "Es la tentación lógica: el cliente no tiene correo con su dominio, el plazo corre y "
+        "tú tienes el del estudio a mano. No lo hagas. En sus notificaciones de rechazo, la "
+        "UAFE indica que los correos del sujeto obligado, del representante legal y del "
+        "oficial «deben ser personalizados, no deben ser seudónimos o alias o departamentales "
+        "o dominio de terceros», y que deben identificar el nombre completo.",
+
+        "El dominio de tu estudio, para el registro de tu cliente, es justamente un "
+        "<strong>dominio de terceros</strong>. Lo mismo un correo genérico del estudio o un "
+        "alias creado para el trámite. Cada cliente necesita correos con <strong>su propio "
+        "dominio</strong> y el nombre de <strong>sus</strong> personas: su representante "
+        "legal y su oficial de cumplimiento.",
+
+        {"tabla": [
+            ["Para el registro de tu cliente", "¿Pasa?"],
+            ["juan.perez@negociodelcliente.com", "Sí: dominio propio y nombre completo"],
+            ["juan.perez@tuestudio.com", "No: dominio de terceros"],
+            ["tramites.uafe@tuestudio.com", "No: alias y dominio de terceros"],
+            ["cumplimiento@negociodelcliente.com", "No: departamental"],
+        ]},
 
         {"h2": "Tus clientes: quiénes te van a preguntar"},
 
@@ -442,7 +506,8 @@ contadores = {
         {"ol": [
             "Tu cliente nos escribe por WhatsApp, o nos escribes tú por él.",
             "Elegimos el dominio con el nombre del negocio y lo registramos a su nombre.",
-            "Creamos las cuentas del representante legal, del oficial y las que necesite.",
+            "Creamos las cuentas del representante legal y del oficial con su nombre y "
+            "apellido, y las que necesite.",
             "Las dejamos funcionando en su celular y su computadora, con un correo de prueba.",
             "Tu cliente vuelve contigo con los correos listos para completar el registro.",
         ]},
@@ -458,11 +523,12 @@ contadores = {
         "que necesitan entender es corto:",
 
         {"ol": [
-            "«La UAFE te pide un correo con el nombre de tu negocio para el oficial de "
-            "cumplimiento, aparte del correo personal del oficial.»",
+            "«La UAFE te pide correos con el dominio de tu negocio y el nombre de cada "
+            "persona: uno para el oficial y otro para el representante legal.»",
             "«Si hoy usas un correo gratuito, hay que crear uno nuevo con tu propio "
             "dominio.»",
-            "«Eso se resuelve aparte y rápido; mientras tanto, yo preparo los documentos.»",
+            "«No puedo registrarte con el correo de mi estudio, porque la UAFE lo rechaza; "
+            "eso se resuelve aparte y rápido, mientras yo preparo los documentos.»",
         ]},
 
         "Si el cliente prefiere que lo hagas tú, también funciona: nos escribes con el nombre "

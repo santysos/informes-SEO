@@ -204,8 +204,11 @@ octubre contra la línea base.
 institucional exclusivo para el oficial de cumplimiento (requisito oficial), y desde
 septiembre de 2025 el SRI les da 30 días hábiles o les suspende el RUC. Landing publicada en
 `/servicios/correo-institucional-uafe/` con el **Paquete UAFE de $81,98 + IVA al año**
-(dominio .com + Plan Inicial: 10 correos y 4.000 MB compartidos). Estrategia y 6 posts
-planificados en `creativeweb/uafe-2026-10/ESTRATEGIA.md`.
+(dominio .com + Plan Inicial: 10 correos y 4.000 MB compartidos). 6 posts publicados el 2-oct.
+⚠️ **Formato de correos que acepta la UAFE** (rechazo real del 28-09-2026): personalizados, con
+nombre y apellido (`juan.perez@empresa.com`); **rechaza departamentales (cumplimiento@,
+gerencia@), alias y dominio de terceros** (p. ej. el del estudio del contador). Si cambia el
+oficial, cuenta nueva con su nombre. Todo en `creativeweb/uafe-2026-10/DATOS-VERIFICADOS.md`.
 
 ### 8. Quipuy — pendiente de tratamiento SEO
 

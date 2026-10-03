@@ -90,8 +90,12 @@ arbol = [
     prosa("""
 <p>Si tu negocio es sujeto obligado, la UAFE te pide registrar a un <strong>oficial de
 cumplimiento</strong> con dos correos: uno personal y otro <strong>institucional, de uso
-exclusivo del oficial</strong>. El personal puede ser el de siempre. El institucional es el que
-lleva el nombre de tu empresa: <strong>cumplimiento@tuempresa.com</strong>.</p>
+exclusivo del oficial</strong>. Y los dos tienen que llevar <strong>el nombre y apellido de
+la persona</strong>: el institucional, con el dominio de tu empresa, del tipo
+<strong>juan.perez@tuempresa.com</strong>.</p>
+<p>Ese detalle es un motivo real de rechazo. La UAFE rechaza los correos
+<strong>departamentales, los alias y los de dominio de terceros</strong>: un cumplimiento@,
+un gerencia@ o el correo de la empresa de tu contador no pasan.</p>
 <p>Si todavía no lo tienes, te lo armamos: registramos tu dominio, creamos las cuentas y te
 acompañamos hasta que envíes el primer correo. Con eso ya puedes completar el registro del
 oficial sin trabarte en ese paso.</p>
@@ -126,21 +130,36 @@ oficial sin trabarte en ese paso.</p>
        padding=pad(70, 24, 70, 24)),
 
     prosa("""
+<h2>El formato que la UAFE acepta: nombre y apellido</h2>
+<p>En las notificaciones de rechazo de la UAFE el motivo está escrito así: los correos del
+sujeto obligado, del representante legal y del oficial de cumplimiento «deben ser
+personalizados, no deben ser seudónimos o alias o departamentales o dominio de terceros»,
+y «debe identificar el nombre completo». El ejemplo que da la propia UAFE es
+<strong>juan.perez@empresaabc.com</strong>.</p>
+<table>
+<thead><tr><th>Así sí</th><th>Así no</th></tr></thead>
+<tbody>
+<tr><td>maria.lopez@tuempresa.com</td><td>cumplimiento@tuempresa.com (departamental)</td></tr>
+<tr><td>juan.perez@tuempresa.com</td><td>gerencia@tuempresa.com (cargo, no persona)</td></tr>
+<tr><td>maria.lopez@tuempresa.com</td><td>maria@estudiocontable.com (dominio de terceros)</td></tr>
+<tr><td>juan.perez@tuempresa.com</td><td>jefe.ventas@tuempresa.com (alias)</td></tr>
+</tbody>
+</table>
+
 <h2>Por qué 10 correos y no solo uno</h2>
-<p>La UAFE pide que el correo institucional sea <strong>de uso exclusivo del oficial de
-cumplimiento</strong>. Eso significa que no sirve el info@ que contesta todo el mundo en la
-empresa: el oficial necesita su propia cuenta.</p>
-<p>Y casi nunca es una sola cuenta. Al pedir el código de registro, la UAFE también le pide
-al <strong>representante legal</strong> un correo corporativo, además del personal. Y si tu
-organismo de control es la Superintendencia de Bancos, tienes que registrar además un
-<strong>oficial suplente</strong>, con su propio correo. Con el paquete te sobran cuentas
-para ordenar el resto de la empresa con el mismo dominio:</p>
+<p>Si cada correo tiene que llevar el nombre de una persona, cada persona registrada
+necesita el suyo. Casi nunca es una sola:</p>
 <ul>
-<li><strong>cumplimiento@</strong> para el oficial titular.</li>
-<li><strong>gerencia@</strong> para el representante legal.</li>
-<li><strong>suplente@</strong> para el oficial suplente, si te lo piden.</li>
-<li><strong>contabilidad@</strong>, <strong>ventas@</strong> o <strong>facturacion@</strong> para el día a día.</li>
+<li><strong>El oficial de cumplimiento</strong>, con su cuenta de uso exclusivo.</li>
+<li><strong>El representante legal</strong>: al pedir el código de registro, la UAFE también
+le pide un correo corporativo, además del personal.</li>
+<li><strong>El oficial suplente</strong>, si tu organismo de control es la Superintendencia de
+Bancos.</li>
+<li><strong>El próximo oficial</strong>: si un día cambia, la cuenta nueva va con el nombre de
+quien entra.</li>
 </ul>
+<p>Y las que sobran sirven para el resto del equipo, cada uno con su nombre y el dominio de
+la empresa.</p>
 <p>Las 10 cuentas comparten 4.000 MB. Para correo de trabajo, que es casi todo texto y
 documentos, alcanza con holgura. Si algún día se llena, subes de plan sin perder nada.</p>
 """, pad(70, 24, 24, 24)),
@@ -153,9 +172,9 @@ documentos, alcanza con holgura. Si algún día se llena, subes de plan sin perd
         tarjeta("Con el nombre de tu empresa",
                 "Tu dominio propio, registrado a nombre de tu empresa. Es tuyo: si algún día "
                 "te vas, te lo llevas."),
-        tarjeta("Una cuenta para cada rol",
-                "El oficial con su correo exclusivo, el representante legal con el suyo y "
-                "cuentas de sobra para el resto del equipo."),
+        tarjeta("Con el formato que pide la UAFE",
+                "Cuentas con nombre y apellido, del tipo juan.perez@tuempresa.com, que es lo "
+                "que acepta la UAFE. Nada de cargos, alias ni dominios ajenos."),
         tarjeta("Lo dejamos funcionando contigo",
                 "Creamos las cuentas y las configuramos en tu celular y tu computadora. No "
                 "cerramos el tema hasta que envíes un correo de prueba."),
@@ -176,7 +195,8 @@ documentos, alcanza con holgura. Si algún día se llena, subes de plan sin perd
 <li><strong>Nos escribes por WhatsApp</strong> y elegimos juntos el dominio: casi siempre el
 nombre de tu empresa terminado en .com.</li>
 <li><strong>Registramos el dominio</strong> a nombre de tu empresa y creamos las cuentas que
-necesitas: la del oficial de cumplimiento, la del representante legal y las que quieras.</li>
+necesitas con el nombre y apellido de cada persona: la del oficial de cumplimiento, la del
+representante legal y las que quieras.</li>
 <li><strong>Las configuramos contigo</strong> en el celular y la computadora del oficial, y
 probamos que envíe y reciba.</li>
 <li><strong>Ya puedes registrar al oficial en la UAFE</strong> con su correo institucional
@@ -215,7 +235,7 @@ decírtelo claro desde el principio.</p>
 
     prosa("""
 <h2>Guías para resolver el registro en la UAFE</h2>
-<p>Escribimos una serie corta con lo que más preguntan los negocios que llegan hasta acá. Toda
+<p>Escribimos una serie corta con las dudas que aparecen en cada paso del registro. Toda
 la información sale de las fuentes oficiales de la UAFE y del SRI:</p>
 <ul>
 <li><a href="/que-correo-pide-la-uafe/">Qué correo pide la UAFE para registrar al oficial de cumplimiento</a></li>
@@ -231,9 +251,9 @@ la información sale de las fuentes oficiales de la UAFE y del SRI:</p>
 <h2>Preguntas frecuentes sobre el correo para la UAFE</h2>
 
 <h3>¿Qué es un correo institucional?</h3>
-<p>Es el que lleva el dominio de tu empresa u organización, como nombre@tuempresa.com, en vez
-de una cuenta gratuita a nombre de una persona. Identifica a la institución, no solo a quien lo
-usa.</p>
+<p>Es el que lleva el dominio de tu empresa u organización en vez de una cuenta gratuita. Para
+la UAFE además tiene que identificar a la persona con nombre y apellido:
+juan.perez@tuempresa.com, no ventas@tuempresa.com.</p>
 
 <h3>¿Puedo usar mi Gmail como correo institucional?</h3>
 <p>La UAFE pide dos correos distintos: uno personal y uno institucional. Tu Gmail puede ser el
@@ -241,12 +261,19 @@ personal. Para el institucional lo que corresponde es una cuenta con el dominio 
 que es justamente lo que te armamos.</p>
 
 <h3>¿El oficial de cumplimiento puede usar el correo general de la empresa?</h3>
-<p>No es lo recomendable: la UAFE indica que el correo institucional es de uso exclusivo del
-oficial. Por eso le creamos una cuenta propia, separada del info@ o del correo de ventas.</p>
+<p>No. El correo del oficial es de uso exclusivo y tiene que llevar su nombre: un info@ o un
+ventas@ es departamental y la UAFE lo rechaza. Por eso le creamos una cuenta propia, con su
+nombre y apellido.</p>
 
 <h3>¿Qué pasa si cambia el oficial de cumplimiento?</h3>
-<p>Cambias la contraseña de la cuenta o creas una nueva para la persona que entra, en un par
-de minutos. Recuerda que el cambio de oficial también se informa a la UAFE.</p>
+<p>Se crea una cuenta nueva con el nombre y apellido de la persona que entra: como el correo
+tiene que identificarla, no sirve heredar la del anterior. Con el paquete la creas en un par
+de minutos, y el cambio de oficial se informa a la UAFE en un plazo de 15 días.</p>
+
+<h3>¿Puedo usar el correo de la empresa de mi contador?</h3>
+<p>No. La UAFE rechaza los correos con dominio de terceros: tiene que ser el dominio de tu
+propio negocio, con el nombre de la persona. Ese es justamente el caso para el que existe el
+paquete.</p>
 
 <h3>¿Cuánto tarda en estar funcionando?</h3>
 <p>Si ya tienes el dominio, el mismo día. Si hay que registrarlo, entre uno y tres días

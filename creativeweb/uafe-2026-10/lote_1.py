@@ -20,11 +20,11 @@ post1 = {
     "tags": ["UAFE", "correo institucional", "oficial de cumplimiento",
              "sujetos obligados", "código de registro"],
     "excerpt": "La UAFE pide dos correos para el oficial de cumplimiento y otros dos para el "
-               "representante legal. Cuáles son, por qué el correo compartido de la empresa no "
-               "sirve y cómo nombrar cada cuenta.",
+               "representante legal, todos con nombre y apellido. Cuáles son, qué formato "
+               "rechaza la UAFE y qué hacer si cambia el oficial.",
     "yoast_title": "Qué correo pide la UAFE: oficial y representante legal",
-    "yoast_desc": "Cuatro correos en total, dos de ellos con el dominio de tu empresa. Quién "
-                  "necesita cada uno, por qué el info@ no sirve y qué hacer si cambia el oficial.",
+    "yoast_desc": "Cuatro correos con nombre y apellido, dos con el dominio de tu empresa. "
+                  "Qué formato rechaza la UAFE, quién necesita cada uno y qué hacer si cambia.",
     "focus_kw": "que correo pide la uafe",
     "bloques": [
         "Una clienta de otra provincia nos encontró buscando correo con el nombre de la "
@@ -37,7 +37,7 @@ post1 = {
         "a necesitar varias direcciones de correo, y no cualquiera. Aquí va la respuesta "
         "completa, con lo que dice la propia UAFE.",
 
-        {"h2": "La respuesta corta: cuatro correos, dos con el dominio de tu empresa"},
+        {"h2": "La respuesta corta: cuatro correos con nombre y apellido"},
 
         "La UAFE pide correos en dos momentos distintos del trámite, para dos personas "
         "distintas:",
@@ -49,17 +49,44 @@ post1 = {
             "un correo <strong>corporativo</strong> y otro personal.",
         ]},
 
-        f"Los personales pueden ser los que ya usan. Los otros dos son los que llevan el "
-        f"nombre de tu empresa, del tipo cumplimiento@tuempresa.com. Lo puedes confirmar en la "
+        f"Y todos tienen que identificar a la persona con su nombre completo. Los personales "
+        f"pueden ser los que ya usan, siempre que lleven su nombre. Los otros dos van con el "
+        f"dominio de tu empresa, del tipo <strong>juan.perez@tuempresa.com</strong>. "
+        f"Un cumplimiento@ o un gerencia@ se rechaza. Lo puedes confirmar en la "
         f"{link(UAFE_OFICIAL, 'página oficial de registro del oficial de cumplimiento')} y en "
         f"la de {link(UAFE_CODIGO, 'solicitud del código de registro')}.",
 
         {"tabla": [
             ["Quién", "Qué correos pide la UAFE", "Ejemplo"],
             ["Oficial de cumplimiento", "Personal + institucional de uso exclusivo",
-             "maria.lopez@gmail.com + cumplimiento@tuempresa.com"],
+             "maria.lopez@hotmail.com + maria.lopez@tuempresa.com"],
             ["Representante legal", "Personal + corporativo",
-             "jperez@gmail.com + gerencia@tuempresa.com"],
+             "juan.perez@gmail.com + juan.perez@tuempresa.com"],
+        ]},
+
+        {"h2": "El formato que la UAFE rechaza"},
+
+        "Es un motivo real de rechazo: lo vimos en una notificación de la UAFE que nos "
+        "llegó por una clienta. En las notificaciones de rechazo de la UAFE el motivo aparece escrito así:",
+
+        "<em>«SE RECHAZA: en virtud de que el correo electrónico registrado del sujeto "
+        "obligado, del representante legal y del oficial de cumplimiento son incorrectos "
+        "(deben ser personalizados, no deben ser seudónimos o alias o departamentales o "
+        "dominio de terceros), debe identificar el nombre completo del sujeto obligado, "
+        "representante legal, o del oficial de cumplimiento. Ej: juan.perez@hotmail.com "
+        "juan.perez@empresaabc.com».</em>",
+
+        "Traducido a la práctica: la dirección tiene que decir quién es la persona. No sirve "
+        "el nombre de un cargo, de un área ni un apodo, y tampoco sirve el dominio de otra "
+        "empresa.",
+
+        {"tabla": [
+            ["Así sí", "Así no", "Por qué se rechaza"],
+            ["maria.lopez@tuempresa.com", "cumplimiento@tuempresa.com", "Es departamental"],
+            ["juan.perez@tuempresa.com", "gerencia@tuempresa.com", "Es un cargo, no una persona"],
+            ["juan.perez@tuempresa.com", "jefazo@tuempresa.com", "Es un alias o seudónimo"],
+            ["maria.lopez@tuempresa.com", "maria.lopez@estudiocontable.com",
+             "Es el dominio de un tercero"],
         ]},
 
         {"h2": "Por qué el representante legal también necesita uno"},
@@ -69,20 +96,13 @@ post1 = {
         "correos: uno corporativo y uno personal. Y es a esa dirección adonde llega el enlace "
         "para activar la solicitud, que hay que usar dentro de las 48 horas.",
 
-        "Si ese correo no existe o nadie lo revisa, la solicitud queda a medias. Por eso "
-        "conviene crear las dos cuentas el mismo día: la del oficial y la del representante "
-        "legal.",
+        "Si ese correo no existe o nadie lo revisa, la solicitud queda a medias.",
 
         {"h2": "Qué es un correo institucional y en qué se diferencia del tuyo"},
 
         "Un correo institucional es el que lleva el dominio de la organización: lo que va "
         "después de la arroba es el nombre de tu empresa, no el de un proveedor gratuito. "
-        "Identifica a la institución y, después, a la persona que lo usa.",
-
-        "Esa diferencia importa en un trámite como este. La UAFE necesita saber que la "
-        "dirección pertenece al negocio y no a alguien que mañana puede irse con ella. Por "
-        "eso pide los dos: el personal sirve para ubicar a la persona y el institucional "
-        "queda atado a la empresa.",
+        "Y para la UAFE, además, tiene que identificar a la persona que lo usa.",
 
         "Ojo con un detalle: la UAFE pide un correo institucional <em>además</em> del "
         "personal. No dice que tu Gmail esté prohibido; dice que ese no alcanza para el campo "
@@ -94,26 +114,28 @@ post1 = {
         "revisan dos o tres personas. Parece la solución obvia, pero la UAFE pide que el "
         "correo institucional del oficial sea <strong>de uso exclusivo</strong> del oficial.",
 
-        "Un buzón compartido no cumple esa condición. Si por ahí llegan cotizaciones, "
-        "reclamos y comunicaciones de la UAFE al mismo tiempo, cualquiera de los que lo "
-        "revisan puede abrir, borrar o pasar por alto un mensaje que solo le corresponde al "
-        "oficial. La salida es una cuenta propia, separada del resto.",
+        "Un buzón compartido no cumple esa condición, y además es departamental: no "
+        "identifica a ninguna persona, que es justo el motivo de rechazo que vimos arriba. La "
+        "salida es una cuenta propia del oficial, con su nombre y apellido.",
 
-        {"quote": "El correo del oficial no es un trámite más que se llena y se olvida. Es la dirección que queda registrada a su nombre ante la UAFE, así que conviene que funcione desde el primer día y que el oficial la abra con frecuencia."},
+        {"h2": "Cómo nombrar las cuentas para que no te las rechacen"},
 
-        {"h2": "Cómo nombrar las cuentas para que no haya confusiones"},
-
-        "Te recomendamos nombrar las cuentas por función y no por persona. Así, si cambia "
-        "quien ocupa el puesto, la dirección se queda y solo cambias la contraseña:",
+        "La regla es una sola: <strong>nombre y apellido de la persona, arroba, el dominio "
+        "de tu empresa</strong>. En la práctica queda así:",
 
         {"ol": [
-            "<strong>cumplimiento@tuempresa.com</strong> para el oficial de cumplimiento.",
-            "<strong>gerencia@tuempresa.com</strong> para el representante legal.",
-            "<strong>suplente@tuempresa.com</strong> si tu organismo de control te pide "
-            "también un oficial suplente (es obligatorio solo para la Superintendencia de "
-            "Bancos).",
-            "El resto del equipo, con el mismo dominio: contabilidad@, ventas@, facturacion@.",
+            "<strong>El oficial de cumplimiento:</strong> maria.lopez@tuempresa.com, con su "
+            "nombre real.",
+            "<strong>El representante legal:</strong> juan.perez@tuempresa.com, con su nombre "
+            "real.",
+            "<strong>El oficial suplente</strong>, si tu organismo de control lo pide (es "
+            "obligatorio solo para la Superintendencia de Bancos): también con su nombre.",
+            "Si dos personas se llaman parecido, agrega la segunda inicial o el segundo "
+            "apellido, pero sin cambiar el formato.",
         ]},
+
+        {"quote": "Antes de llenar el formulario, lee la dirección en voz alta. Si no dice el "
+                  "nombre de una persona, la UAFE la va a devolver."},
 
         f"Si todavía no tienes dominio, ese es el primer paso. Lo explicamos en nuestra página "
         f"de {link(LANDING, 'correo institucional para la UAFE')}, donde está el paquete con "
@@ -125,10 +147,10 @@ post1 = {
         "la UAFE da un plazo máximo de <strong>15 días</strong> para informar el registro o "
         "el cambio. Entre los datos que vuelve a pedir están, otra vez, sus dos correos.",
 
-        "Aquí se ve la ventaja de haber nombrado la cuenta por función. Si el correo era "
-        "cumplimiento@, el nuevo oficial recibe la misma dirección con una contraseña nueva y "
-        "el historial queda en la empresa. Si el correo llevaba el nombre de la persona que "
-        "se fue, toca crear otro y explicar el cambio.",
+        "Como el correo tiene que identificar a la persona, el nuevo oficial no hereda la "
+        "cuenta del anterior: se le crea una <strong>cuenta nueva con su propio nombre y "
+        "apellido</strong>. La del oficial que se fue la puede conservar la empresa para no "
+        "perder el historial, pero ya no es la que se registra.",
 
         {"h2": "Cuándo nada de esto te aplica"},
 
@@ -148,14 +170,15 @@ post1 = {
             "Que el representante legal tenga el correo corporativo listo, porque el enlace de "
             "activación de la solicitud llega a esa dirección y hay que activarla dentro de las "
             "48 horas.",
-            "Que las contraseñas estén guardadas donde la empresa las pueda recuperar.",
+            "Que cada dirección lleve el nombre y apellido de su dueño: ni cargos, ni áreas, "
+            "ni el dominio de otra empresa.",
         ]},
 
         {"faq": [
             ("¿Puedo usar mi Gmail para el registro en la UAFE?",
-             "Sí, como correo personal. Para el campo institucional del oficial y el "
-             "corporativo del representante legal corresponde una cuenta con el dominio de tu "
-             "empresa."),
+             "Como correo personal, sí, si lleva tu nombre: el ejemplo de la propia UAFE es "
+             "juan.perez@hotmail.com. Para el campo institucional del oficial y el corporativo "
+             "del representante legal corresponde una cuenta con el dominio de tu empresa."),
             ("¿El oficial y el representante legal pueden compartir el mismo correo?",
              "No es lo recomendable. El correo institucional del oficial tiene que ser de uso "
              "exclusivo, así que lo correcto es que cada uno tenga su propia cuenta."),
@@ -163,8 +186,13 @@ post1 = {
              "Dos con el dominio de tu empresa: la del oficial de cumplimiento y la del "
              "representante legal. Si te piden suplente, una más."),
             ("¿Qué hago si el oficial deja la empresa?",
-             "Cambias la contraseña de su cuenta y se la entregas al nuevo oficial. El cambio "
-             "se informa a la UAFE en un plazo máximo de 15 días."),
+             "Creas una cuenta nueva con el nombre y apellido del oficial que entra, porque "
+             "la dirección tiene que identificarlo. El cambio se informa a la UAFE en un "
+             "plazo máximo de 15 días."),
+            ("¿Puedo usar un correo tipo cumplimiento@ o gerencia@?",
+             "No. En sus notificaciones de rechazo, la UAFE indica que los correos deben ser "
+             "personalizados y no departamentales, alias ni de dominio de terceros. El "
+             "formato que acepta es nombre.apellido@tuempresa.com."),
             ("¿Creative Web hace el trámite ante la UAFE?",
              "No. Nosotros dejamos los correos funcionando. El registro lo hace tu negocio en "
              "la plataforma de la UAFE, normalmente con su contador."),
@@ -265,7 +293,9 @@ post2 = {
         {"ul": [
             "<strong>Los correos.</strong> El representante legal necesita un correo "
             "corporativo y uno personal, y el oficial de cumplimiento uno personal y otro "
-            f"institucional de uso exclusivo. Lo explicamos en detalle en "
+            "institucional de uso exclusivo. Todos con nombre y apellido: la UAFE rechaza los "
+            f"departamentales, los alias y los de dominio de terceros. Lo explicamos en "
+            f"detalle en "
             f"{link(P1, 'qué correo pide la UAFE')}.",
             "<strong>El oficial de cumplimiento.</strong> Hay que designarlo y registrarlo. "
             "Los requisitos cambian según el organismo de control.",
@@ -273,8 +303,8 @@ post2 = {
             "línea de la UAFE, y lo hace el representante legal o apoderado.",
         ]},
 
-        "Los correos son la pieza más rápida de resolver y la que más gente deja para el "
-        "final. Sin ellos no puedes completar el formulario, y el enlace para activar la "
+        "Los correos son la pieza más rápida de resolver, y dejarlos para el final es un "
+        "error. Sin ellos no puedes completar el formulario, y el enlace para activar la "
         "solicitud llega precisamente al correo del representante legal.",
 
         {"h2": "Tres confusiones frecuentes"},
@@ -400,13 +430,17 @@ post3 = {
 
         {"h2": "El orden de pasos para salir de la suspensión"},
 
-        "Este es el orden que conviene seguir. Saltarse el primero es lo que más tiempo "
-        "hace perder:",
+        "Este es el orden que conviene seguir. Si te saltas el primero, el resto "
+        "se traba:",
 
         {"ol": [
-            "<strong>Deja listos los correos.</strong> El formulario del código de registro "
-            "pide un correo corporativo y uno personal del representante legal, y el oficial "
-            "necesita uno institucional de uso exclusivo.",
+            "<strong>Deja listos los correos, con el formato correcto.</strong> El "
+            "formulario del código de registro pide un correo corporativo y uno personal del "
+            "representante legal, y el oficial necesita uno institucional de uso exclusivo. "
+            "Todos tienen que llevar el nombre y apellido de la persona, del tipo "
+            "juan.perez@tuempresa.com. Un correo departamental o con el dominio de otra "
+            "empresa es causa de rechazo, y un rechazo te obliga a empezar la solicitud otra "
+            "vez mientras el RUC sigue suspendido.",
             "<strong>Designa al oficial de cumplimiento</strong> y reúne sus documentos, que "
             "varían según tu organismo de control.",
             "<strong>Solicita el código de registro en SISLAFT</strong>, el sistema en línea "
@@ -442,9 +476,9 @@ post3 = {
 
         {"tabla": [
             ["Qué", "Para qué sirve", "Quién lo prepara"],
-            ["Correo corporativo del representante legal",
+            ["Correo corporativo del representante legal, con su nombre",
              "Recibir el enlace de activación y las credenciales", "La empresa"],
-            ["Correo institucional del oficial",
+            ["Correo institucional del oficial, con su nombre",
              "Registrar al oficial de cumplimiento", "La empresa"],
             ["Documentos del sector, en PDF",
              "Adjuntarlos en la solicitud del código", "La empresa con su contador"],
@@ -461,8 +495,9 @@ post3 = {
             "<strong>Usar un correo que nadie revisa.</strong> El enlace de activación llega "
             "al correo del representante legal y vence a las 48 horas. Si se pierde, toca "
             "volver a empezar.",
-            "<strong>Registrar al oficial con el correo general de la empresa.</strong> La "
-            "UAFE pide que el institucional sea de uso exclusivo del oficial.",
+            "<strong>Usar correos departamentales o ajenos.</strong> Un cumplimiento@, un "
+            "gerencia@ o el correo del estudio del contador hacen que la UAFE niegue la "
+            "solicitud: los correos deben ser personalizados, con el nombre completo.",
             "<strong>Subir documentos que no corresponden a tu sector.</strong> La propia UAFE "
             "recomienda verificar los requisitos de tu sector económico antes de cargar los "
             "PDF.",
@@ -487,8 +522,8 @@ post3 = {
 
         "Guarda en un mismo lugar el código de registro, el certificado de cumplimiento y "
         "las contraseñas de los correos del oficial y del representante legal. Cada vez que "
-        "cambie el oficial, recuerda que hay un máximo de 15 días para informar el cambio a "
-        "la UAFE. Con eso ordenado, una actualización del RUC no te vuelve a tomar por "
+        "cambie el oficial, crea una cuenta nueva con el nombre de quien entra y recuerda "
+        "que hay un máximo de 15 días para informar el cambio a la UAFE. Con eso ordenado, una actualización del RUC no te vuelve a tomar por "
         "sorpresa.",
 
         {"faq": [
