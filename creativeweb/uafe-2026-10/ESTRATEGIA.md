@@ -152,4 +152,34 @@ vehículos, inmobiliarias y constructoras, cooperativas y cajas de ahorro, joyer
   institucional para la UAFE?») y desde el post 2730, el que está en posición 1 para «qué es
   un correo institucional».
 
-**Siguiente:** post 1, «Qué correo pide la UAFE para registrar al oficial de cumplimiento».
+
+
+## Serie publicada — 2 de octubre de 2026
+
+Los 6 posts se publicaron **juntos el mismo día** (IDs 4094-4099), no uno por semana como
+decía el plan. Decisión del usuario, que comparto: la demanda es urgente por los 30 días
+hábiles del SRI, una serie enlazada se refuerza completa desde el primer día, y en DentiLab
+publicar todo junto funcionó. La lección de septiembre de 2025 era que **dejar de publicar**
+cuesta tráfico, no que haya que gotear una serie corta. El ritmo se sostiene con posts nuevos.
+
+| ID | Post |
+|---|---|
+| 4096 | /que-correo-pide-la-uafe/ |
+| 4098 | /sujeto-obligado-uafe-como-saber/ |
+| 4097 | /ruc-suspendido-uafe-que-hacer/ |
+| 4095 | /oficial-de-cumplimiento-uafe-requisitos/ |
+| 4094 | /codigo-de-registro-uafe-requisitos/ |
+| 4099 | /uafe-contadores-abogados/ (reemplaza al de «Gmail no sirve», que habría competido con el tutorial 1014) |
+
+- Cada post termina con un bloque «Sigue la serie» que enlaza a los otros cinco
+  (`publicar_ya.py`), y la landing tiene una sección de guías que enlaza a los seis.
+- Datos: solo los de `DATOS-VERIFICADOS.md`.
+- Enlaces a la landing agregados también en los posts viejos 2730 y 1014, y en la página de
+  correos (931).
+
+**Medición:** primera lectura el **1 de diciembre** en Search Console (consultas con «uafe»,
+«oficial de cumplimiento», «sujeto obligado», «código de registro») y leads de WhatsApp con el
+mensaje de la landing.
+
+**Siguiente, si responde:** variantes por sector (comercializadoras de vehículos, constructoras
+e inmobiliarias, cooperativas, joyerías), una por mes para sostener el ritmo.

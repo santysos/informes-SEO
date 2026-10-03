@@ -214,6 +214,20 @@ decírtelo claro desde el principio.</p>
 """, pad(30, 24, 40, 24)),
 
     prosa("""
+<h2>Guías para resolver el registro en la UAFE</h2>
+<p>Escribimos una serie corta con lo que más preguntan los negocios que llegan hasta acá. Toda
+la información sale de las fuentes oficiales de la UAFE y del SRI:</p>
+<ul>
+<li><a href="/que-correo-pide-la-uafe/">Qué correo pide la UAFE para registrar al oficial de cumplimiento</a></li>
+<li><a href="/sujeto-obligado-uafe-como-saber/">¿Mi negocio es sujeto obligado a la UAFE? Cómo saberlo</a></li>
+<li><a href="/ruc-suspendido-uafe-que-hacer/">RUC suspendido por no registrarse en la UAFE: qué hacer</a></li>
+<li><a href="/oficial-de-cumplimiento-uafe-requisitos/">Oficial de cumplimiento: quién puede ser y qué te piden</a></li>
+<li><a href="/codigo-de-registro-uafe-requisitos/">Código de registro UAFE: lo que tienes que tener listo</a></li>
+<li><a href="/uafe-contadores-abogados/">Contadores y abogados ante la UAFE</a></li>
+</ul>
+""", pad(10, 24, 20, 24)),
+
+    prosa("""
 <h2>Preguntas frecuentes sobre el correo para la UAFE</h2>
 
 <h3>¿Qué es un correo institucional?</h3>
