@@ -88,4 +88,10 @@ Torque 8099 (318/622) y Exoneración 8237 (434/1033, este a exonerados/ventas, n
 Cada botón lleva un mensaje propio («vengo de…») → se atribuye en GA4 por `linkUrl` del
 evento `whatsapp_click`.
 
-**Medir a fin de octubre:** clics con «vengo%20de» en `linkUrl`. Si funciona, extender a los 47.
+**Extendido el mismo día a los 48 restantes** (`aplicar_resto.py`): los 53 posts con bloque de
+taller tienen ahora exactamente 1 CTA temprano (verificado por API). 4 de compra (REEV, e-POWER,
+carrocerías, pendientes) llevan botón de consulta/prueba de manejo; 3 de repuestos, consulta de
+repuesto. Se pierde el A/B limpio 5 vs resto, pero cada post sigue atribuible por su mensaje.
+
+**Medir a fin de octubre:** clics con «vengo%20de» en `linkUrl` del evento `whatsapp_click`,
+formularios `form_taller_cita` y visitas a `/gracias-cita-taller/` contra 20-27/mes.
