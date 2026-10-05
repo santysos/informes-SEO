@@ -434,3 +434,22 @@ Estrategia en `../uafe-2026-10/ESTRATEGIA.md`. Se reconstruye entera con
   trae la página.
 - Las capturas de Chrome sin pantalla a 390 px cortan el texto a la derecha en TODAS las
   páginas (también en la 931). Es un efecto de la captura, no del diseño.
+
+## Marca perdida en la portada (5-oct-2026)
+
+Desde el cutover, la búsqueda «creative web» pasó de **posición 1-2 con sitelinks** a
+**42-49 sin sitelinks** (la tienda `ventas.` aparecía antes que la web). La portada nueva
+(3643) estaba bien indexada y el título era el mismo de antes, pero la marca solo aparecía en
+el alt del logo: el H1 decía «Creamos páginas web…» y el wordmark gigante es un div decorativo
+(«creative<small>web</small>», sin espacio).
+
+Corregido en la base y en `build_home.py`:
+- H1: «**En Creative Web** creamos páginas web, tiendas en línea y programas…»
+- Kicker: «**Creative Web** · empresa ecuatoriana de tecnología · Otavalo, desde 2010»
+- Yoast: «Creative Web | Diseño web, hosting y dominios en Otavalo» (56) + meta que
+  empieza con la marca + focus «creative web».
+- Respaldo previo en `backups-cutover/pagina-3643-antes-marca.json`.
+
+**Regla para próximos rediseños:** la portada tiene que nombrar la marca en el H1 o justo al
+lado, en texto real. Un logo y un wordmark decorativo no bastan para que Google la siga
+reconociendo como la página de la marca.
