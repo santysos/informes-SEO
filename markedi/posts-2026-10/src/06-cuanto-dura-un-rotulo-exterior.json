@@ -1,0 +1,73 @@
+{
+  "n": 6,
+  "slug": "cuanto-dura-un-rotulo-exterior",
+  "cat": 8,
+  "title": "Cuánto dura un rótulo exterior y qué lo daña primero",
+  "yoast_title": "Cuánto dura un rótulo exterior: qué falla primero",
+  "yoast_desc": "Un rótulo no envejece parejo: primero falla la fuente, luego el vinil, al final la estructura. Mira qué dura cada pieza al sol de la Sierra y al salitre.",
+  "focus_kw": "cuánto dura un rótulo exterior",
+  "excerpt": "Un rótulo exterior no se daña de una sola vez: cada pieza tiene su ritmo. Te contamos qué falla primero, cómo reconocerlo y qué decisiones al fabricar alargan su vida.",
+  "tags": ["rótulos exteriores", "durabilidad", "letreros luminosos", "alucobond", "mantenimiento"],
+  "wa_tema": "cuánto dura un rótulo exterior",
+  "bloques": [
+    "Pagaste un rótulo para tu fachada y quieres saber si vas a volver a pagarlo en tres años o en diez. La respuesta honesta es otra pregunta: ¿cuál parte? Un rótulo exterior es un conjunto de piezas con vidas muy distintas, y casi nunca se muere entero.",
+    "Lo normal es que una letra se apague mientras las otras siguen encendidas, que el vinil se decolore mientras el aluminio sigue intacto, o que un tornillo oxidado en la Costa deje colgando una pieza sana. Saber qué falla primero te sirve para dos cosas: elegir bien al fabricar y no reemplazar un rótulo completo cuando bastaba con cambiar una fuente.",
+    {"h2": "La respuesta corta: la estructura dura más que la luz, y la luz más que el color barato"},
+    "En orden de qué suele fallar primero, la lista típica es esta: la <strong>fuente de poder</strong> de la iluminación, el <strong>vinil y la pintura</strong> expuestos al sol, los <strong>plásticos</strong> de baja resistencia UV, los <strong>módulos LED</strong> y, al final, la <strong>estructura metálica</strong> y el aluminio compuesto, siempre que la tornillería sea la correcta.",
+    "Los fabricantes de módulos LED para letreros declaran vidas de unas 50.000 horas hasta que la luz cae al 70 % de su brillo inicial (a eso le llaman L70). Encendido 12 horas al día, eso equivale a más de once años. La fuente que alimenta esos módulos, en cambio, rara vez llega tan lejos, y por eso es la primera que se cambia.",
+    {"h2": "Qué daña cada parte del rótulo"},
+    {"tabla": [
+      ["Componente", "Qué lo daña", "Primera señal", "Referencia de fabricantes"],
+      [
+        ["Fuente de poder (driver)", "Calor encerrado, humedad, picos de voltaje", "Parpadeo, encendido tardío, todo el letrero apagado", "La vida de sus condensadores se reduce a la mitad por cada 10 °C extra"],
+        ["Módulos y tiras LED", "Calor, agua en conexiones, soldaduras frías", "Una letra o un tramo más oscuro o apagado", "Unas 50.000 h hasta 70 % de brillo (L70)"],
+        ["Vinil adhesivo", "Radiación UV", "Colores rojos y amarillos que se lavan; bordes que se levantan", "Calandrado: hasta unos 6 años; fundido (cast): 7 a 8 años"],
+        ["PVC espumado", "UV y calor", "Amarilleo, piezas curvadas", "3 a 5 años al exterior en versión estándar"],
+        ["Pintura del aluminio compuesto (ACM)", "UV", "Pérdida de brillo, polvo blanco al pasar el dedo", "PVDF dura bastante más que el poliéster"],
+        ["Tornillería y anclajes", "Salitre y humedad", "Manchas de óxido que escurren por la fachada", "Acero inoxidable A4 (316) resiste mejor el cloruro que el A2 (304)"]
+      ]
+    ]},
+    "Las referencias de la tabla son las que publican los fabricantes, medidas en climas templados. Con el índice UV de 11 a 13 que el INAMHI reporta en Quito en días despejados, el vinil y los plásticos envejecen más rápido que en esos ensayos. En la Sierra el enemigo es el sol; en Manta, Esmeraldas o Salinas, el salitre.",
+    {"h2": "La fuente de poder: la pieza que más se cambia"},
+    "La fuente convierte los 120 voltios de la red eléctrica del Ecuador en los 12 o 24 voltios que usan los LED. Por dentro lleva condensadores electrolíticos, y esos componentes tienen una regla conocida en electrónica: por cada 10 °C de temperatura adicional, su vida útil se reduce a la mitad. Una fuente encerrada en una caja metálica al sol, sin ventilación, trabaja muchos grados por encima del aire exterior.",
+    "Por eso importa dónde se ubica. Una fuente dentro de la letra de aluminio, en la cara que recibe la tarde, dura menos que la misma fuente montada en un lugar sombreado y accesible. Además, que esté accesible significa que cambiarla toma minutos y no obliga a desarmar el rótulo.",
+    "Fíjate también en su protección contra agua. Una fuente IP65 resiste chorros de agua; una IP67 soporta inmersión temporal. Para letreros que reciben la lluvia de frente, como en Santo Domingo o en el invierno de la Costa, la segunda da más margen.",
+    {"h2": "El color: el vinil y la pintura dicen la verdad del presupuesto"},
+    "El vinil calandrado es más barato y se usa mucho en rotulación; el fundido (cast) es más estable y conserva mejor el color. Con el sol de la Sierra, los rojos y amarillos son los primeros en lavarse. Si tu marca es roja, pregunta qué vinil o qué pintura se va a usar, porque es la parte que más se nota envejecida.",
+    "En fachadas de aluminio compuesto, la pintura de fábrica de la lámina define cuánto mantiene el tono. Las de PVDF (un recubrimiento a base de flúor) conservan el color durante muchos más años que las de poliéster, que se ven bien al inicio y luego pierden brillo de forma brusca. Si vas a revestir tu fachada, pregúntalo antes de elegir el color; más detalles en <a href=\"https://www.markedi.ec/revestimiento-de-fachadas/\">revestimiento de fachadas</a>.",
+    {"quote": "Un rótulo bien hecho envejece por partes, y eso es bueno: si la fuente está donde se puede alcanzar y la tornillería no se oxida, cambiar lo que se gastó cuesta una fracción del letrero nuevo.", "cite": "Equipo de Markedi"},
+    {"h2": "Cómo alargar la vida de tu rótulo desde el diseño"},
+    {"ol": [
+      "<strong>Pide la fuente en un lugar accesible y con sombra,</strong> nunca sellada dentro de una pieza que hay que romper para abrir.",
+      "<strong>Usa tornillería inoxidable A4 en la Costa</strong> y, como mínimo, inoxidable o galvanizada en la Sierra. El tornillo común es el que primero mancha la fachada.",
+      "<strong>Elige acrílico o aluminio para piezas al sol</strong> y deja el PVC espumado para interiores o campañas cortas.",
+      "<strong>Pregunta por la pintura de la lámina de ACM</strong> si tu fachada va a recibir sol de la tarde.",
+      "<strong>Deja sellados los pasos de cable</strong> y las uniones donde entra el agua, sobre todo en la parte superior de las letras.",
+      "<strong>Agenda una revisión antes de las lluvias:</strong> en la Sierra, antes de octubre; en la Costa, antes de diciembre."
+    ]},
+    {"h2": "Cuándo no te conviene reparar y sí cambiar"},
+    "Reparar no siempre gana. Si el letrero tiene tubos fluorescentes o neón de vidrio, cambiar balastos y tubos uno por uno suele terminar costando más que pasar a LED, que además consume menos. Si la estructura tiene óxido que ya se come el metal, más allá de la pintura, soldar parches sobre un perfil debilitado es un riesgo para quien camina debajo.",
+    "Tampoco conviene reparar cuando tu marca cambió. Si el logo se renovó, adaptar el rótulo viejo casi siempre deja algo a medias. Y si el letrero de PVC o vinil barato ya amarilleó por completo, cambiar piezas sueltas deja manchas de tonos distintos que se notan desde la vereda de enfrente.",
+    "En cambio, sí conviene reparar cuando el problema es la luz: una fuente, un tramo de LED o una conexión mojada. Ahí la estructura y las caras siguen sirviendo y la intervención es corta. Si estás por fabricar uno nuevo, revisa nuestros <a href=\"https://www.markedi.ec/rotulos-luminosos/\">rótulos luminosos</a> y pide que la fuente quede accesible desde el diseño.",
+    {"h2": "Regla práctica para estimar cuánto te va a durar"},
+    "Mira la pieza más débil, porque esa marca el primer gasto. Si tu rótulo es de aluminio con caras de acrílico, LED de buena marca y tornillería inoxidable, el primer gasto probablemente será la fuente. Si es de PVC con vinil calandrado al sol de Quito, lo primero será el color. Desde nuestro taller en Otavalo atendemos proyectos en todo el país, y en la consulta revisamos contigo qué pieza va a fallar primero en tu clima. Para referencias de materiales en uso, mira las <a href=\"https://www.markedi.ec/portafolio/letras-de-aluminio/\">letras de aluminio con LED</a> de nuestro portafolio.",
+    {"faq": [
+      ["¿Cuánto dura un letrero LED?", "Los módulos LED de calidad se declaran para unas 50.000 horas hasta perder el 30 % de brillo, más de una década a 12 horas diarias. La fuente de poder suele fallar antes y es la pieza que se cambia con más frecuencia."],
+      ["¿El alucobond se decolora con el sol?", "Depende de la pintura de la lámina. Las de PVDF conservan el color muchos años; las de poliéster pierden brillo antes, sobre todo en colores intensos a pleno sol."],
+      ["¿Por qué mi rótulo se oxida si es de aluminio?", "El aluminio casi nunca es el que se oxida: suele ser la tornillería, la estructura de hierro o los soportes. En zonas con salitre conviene usar acero inoxidable A4 (316)."],
+      ["¿Cada cuánto hay que revisar un rótulo exterior?", "Una revisión al año es lo mínimo, idealmente antes de la temporada de lluvias de tu región. En la Costa, con salitre, conviene revisar anclajes con más frecuencia."]
+    ]}
+  ],
+  "fuentes": [
+    "https://allanson.com/wp-content/uploads/L307W2TW12G-Specification-Sheet-21-493.pdf y https://perspex.co.uk/leds/rgb-rgbw-modules/rgb-module (módulos LED L70 ~50.000 h)",
+    "https://www.analog.com/en/resources/technical-articles/ensure-long-lifetimes-from-electrolytic-capacitors-a-case-study-in-led-light-bulbs.html (vida del condensador x2 por cada 10 °C menos)",
+    "https://signwarehouse.com/blogs/content/cast-vs-calendered-vinyl y https://blog.wensco.com/en/the-supply/cast-vs.-calendered-vinyl (vinil calandrado ~6 años, fundido 7-8)",
+    "https://lairdplastics.com/resources/pvc-foam-board-guide-2025-update/ (PVC espumado 3-5 años al exterior antes de amarillear)",
+    "https://www.glasscanadamag.com/pvdf-versus-smp-2421/ (PVDF vs poliéster)",
+    "https://fairwindfasteners.com/pages/metric-316-a4-stainless-steel-fasteners (A4/316 vs A2/304 en ambiente salino)",
+    "https://seller.alibaba.com/blogs/2026/southeast-asia/outdoor-led/ip65-ip66-ip67-waterproof-rating-guide-alibaba-b2b (IP65 vs IP67)",
+    "https://www.vistazo.com/servicios/clima/2026-07-21-quito-vivira-jornada-radiacion-extrema-vientos-helados-21-julio-CD11122563 (UV 11-12 en Quito, INAMHI)",
+    "https://www.teleamazonas.com/actualidad/noticias/ecuador/radiacion-uv-niveles-extremos-sierra-quito-119846/ (UV 13 en Pichincha)",
+    "https://primicias.ec/noticias/sociedad/epoca-seca-ecuador-clima-junio-julio-temperaturas (temporadas de lluvia Sierra octubre-mayo, Costa desde diciembre)"
+  ]
+}

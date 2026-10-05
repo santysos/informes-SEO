@@ -1,0 +1,154 @@
+{
+  "n": 24,
+  "slug": "senaletica-para-clinicas-y-consultorios",
+  "cat": 9,
+  "title": "Señalética para clínicas y consultorios: fachada, interior y lo que piden las normas de accesibilidad",
+  "yoast_title": "Señalética para clínicas y consultorios en Ecuador",
+  "yoast_desc": "Cómo señalizar una clínica o consultorio: rótulo de fachada, rótulos de puertas con la letra que pide la norma de accesibilidad y la ruta de evacuación.",
+  "focus_kw": "señalética para clínicas",
+  "excerpt": "En una clínica, la señalética guía a gente que llega nerviosa o con dolor. Qué piezas lleva, qué dice la Norma Ecuatoriana de la Construcción sobre accesibilidad y cómo fabricarlas.",
+  "tags": [
+    "señalética para clínicas",
+    "señalética para consultorios",
+    "accesibilidad",
+    "rótulos de puertas",
+    "router CNC"
+  ],
+  "wa_tema": "señalética para clínicas y consultorios",
+  "bloques": [
+    "Quien entra a una clínica rara vez está tranquilo. Llega con dolor, acompañando a un familiar o con el tiempo justo para una cita. En ese estado, un pasillo con cinco puertas iguales y sin rótulos claros se convierte en una pequeña angustia, y en una pregunta más para la recepcionista, que ya tiene la fila llena.",
+    "La señalética de una clínica o consultorio tiene un trabajo concreto: que el paciente encuentre el edificio, la recepción y su consultorio sin preguntar, y que cualquiera pueda salir rápido si hay una emergencia. Además, en Ecuador hay normas de accesibilidad que dicen cómo deben hacerse esos rótulos. Aquí las resumimos con lo que pudimos verificar en las fuentes oficiales.",
+    {
+      "h2": "Qué señalética necesita una clínica: el mapa completo"
+    },
+    "Una clínica o un centro de consultorios suele necesitar cuatro grupos de piezas. Afuera, <strong>el rótulo de fachada</strong> con el nombre y la especialidad, y el <strong>símbolo de accesibilidad</strong> si el edificio es accesible. Adentro, la <strong>señalética de orientación</strong>, que va de los directorios por piso a las flechas y los rótulos de cada puerta, y la <strong>señalética de seguridad</strong>: salidas, rutas de evacuación y equipos contra incendios.",
+    "Los dos primeros grupos son de imagen y orientación; el último lo revisa la autoridad. Conviene diseñarlos juntos, con la misma tipografía y los mismos colores de base, para que el edificio se lea como un sistema y no como letreros sueltos comprados en distintos momentos.",
+    {
+      "h2": "Lo que dice la norma de accesibilidad sobre los rótulos"
+    },
+    "La Norma Ecuatoriana de la Construcción incluye un capítulo de accesibilidad universal, la NEC-HS-AU, publicada por el Ministerio de Desarrollo Urbano y Vivienda. Es de aplicación obligatoria en edificaciones con acceso al público, como una clínica. Para edificios nuevos rige directamente; para edificaciones existentes ya regularizadas, su aplicación la define la entidad local competente. En su anexo de orientación y señalización pide, entre otras cosas:",
+    {
+      "ul": [
+        "Pictogramas y texto en alto relieve, con un relieve de entre 1 y 1,5 mm.",
+        "Tipografía de palo seco, es decir, sin remates en los extremos de las letras, como Arial o Helvetica.",
+        "Contraste entre el texto y el fondo del rótulo, y entre el rótulo y la pared.",
+        "Soporte mate o de bajo brillo, para que la luz no rebote y tape la lectura.",
+        "Rótulos de ambientes a una altura de entre 1.200 y 1.600 mm.",
+        "Información en braille en español en la señalización de ambientes."
+      ]
+    },
+    "La misma norma da tamaños de letra según la distancia de lectura, y remite para el detalle técnico a la NTE INEN 2850, de requisitos de accesibilidad para la rotulación. Por su parte, la NTE INEN 2239 establece que en el exterior de los edificios públicos y privados accesibles debe existir el símbolo de accesibilidad.",
+    {
+      "tabla": [
+        [
+          "Distancia de lectura",
+          "Altura mínima de letra",
+          "Altura máxima de letra",
+          "Dónde aplica en una clínica"
+        ],
+        [
+          [
+            "0,5 m",
+            "7 mm",
+            "20 mm",
+            "Placas junto a la puerta, botoneras"
+          ],
+          [
+            "1 m",
+            "14 mm",
+            "20 mm",
+            "Rótulos de consultorio"
+          ],
+          [
+            "2 m",
+            "28 mm",
+            "56 mm",
+            "Directorio de piso, recepción"
+          ],
+          [
+            "3 m",
+            "42 mm",
+            "84 mm",
+            "Rótulos colgantes de pasillo"
+          ],
+          [
+            "4 m",
+            "56 mm",
+            "110 mm",
+            "Señales de área en salas de espera"
+          ],
+          [
+            "Más de 5 m",
+            "70 mm",
+            "140 mm",
+            "Accesos y halls amplios"
+          ]
+        ]
+      ]
+    },
+    "Esta tabla resume el anexo de la NEC-HS-AU. Si tu proyecto pasa por aprobación municipal, pide al arquitecto o al municipio la versión vigente que te van a exigir.",
+    {
+      "quote": "El rótulo de un consultorio se lee a un metro y de frente. Un acrílico brillante bajo la luz del techo puede ser imposible de leer aunque la letra tenga el tamaño correcto. Por eso la norma pide superficies mate.",
+      "cite": "Equipo de Markedi"
+    },
+    {
+      "h2": "Señalética de evacuación: colores y quién la revisa"
+    },
+    "Las señales de seguridad siguen un código internacional de colores, la norma ISO 3864-1, que Ecuador adoptó como NTE INEN-ISO 3864-1. En ese código, el verde indica salvamento: salidas, rutas de evacuación y puntos de primeros auxilios. El rojo se reserva para equipos contra incendios. No es un tema de diseño: una salida de emergencia en el color de tu marca es un error.",
+    "Quien inspecciona estas señales es el Cuerpo de Bomberos de tu cantón, como parte del permiso de funcionamiento. Los requisitos y la forma de inspección cambian de un cantón a otro, así que antes de fabricar conviene preguntar qué piden en tu ciudad, sea Quito, Cuenca o Santo Domingo.",
+    {
+      "h2": "Materiales para cada pieza"
+    },
+    "En el interior de una clínica todo se limpia con frecuencia y con desinfectantes. Eso descarta los materiales porosos en las zonas de atención. El acrílico mate y el PVC funcionan bien para rótulos de puertas y directorios: son livianos, se limpian con un paño y se cortan con precisión en <a href=\"https://www.markedi.ec/router-cnc/\">router CNC</a>, que también permite grabar o resaltar letras y pictogramas para lograr el relieve que pide la norma. Si tu proyecto requiere braille, coméntalo desde el inicio para definir cómo se integra en cada placa.",
+    "Para la fachada, el rótulo con el nombre de la clínica suele ir en letras corpóreas, con o sin iluminación. Si atiendes emergencias o en horario nocturno, la luz deja de ser un adorno. Puedes ver opciones en <a href=\"https://www.markedi.ec/rotulacion-3d/\">rotulación 3D</a> y en <a href=\"https://www.markedi.ec/rotulos-luminosos/\">rótulos luminosos</a>.",
+    {
+      "h2": "Cómo planificar la señalética de tu clínica"
+    },
+    {
+      "ol": [
+        "<strong>Recorre el edificio como un paciente nuevo</strong>, desde la calle hasta el consultorio más lejano, y anota cada punto donde dudas.",
+        "<strong>Haz la lista de ambientes</strong>: consultorios, laboratorio, baños, caja, sala de espera, salidas.",
+        "<strong>Define la nomenclatura</strong>: números de consultorio, nombres de especialidades y cómo se escribe cada uno, igual en todos los rótulos.",
+        "<strong>Consulta la normativa</strong> que te exige tu municipio y el Cuerpo de Bomberos de tu cantón.",
+        "<strong>Aprueba un prototipo</strong> de rótulo de puerta y revísalo con la luz real del pasillo.",
+        "<strong>Deja espacio para los cambios</strong>: si el nombre del médico rota, que vaya en una pieza intercambiable."
+      ]
+    },
+    "Por lo general, los proyectos con router CNC toman de dos a cuatro semanas según su complejidad. Desde nuestro taller en Otavalo atendemos proyectos en todo el Ecuador.",
+    {
+      "h2": "Cuándo no te conviene grabar todo en piezas fijas"
+    },
+    "Si en tu centro médico los profesionales cambian de consultorio o rotan por días, grabar el nombre de cada médico en la puerta te obliga a rehacer placas cada pocos meses. Lo práctico es un rótulo fijo con el número y la especialidad, y una ranura o placa pequeña para el nombre.",
+    "Tampoco conviene fabricar la señalética antes de cerrar la distribución. En consultorios en remodelación, los ambientes cambian de lugar hasta el último momento.",
+    {
+      "h2": "Regla práctica para revisar tu clínica"
+    },
+    "Pídele a alguien que nunca ha ido a tu clínica que llegue desde la calle hasta un consultorio sin preguntar. Cada vez que se detenga a dudar, ahí falta un rótulo o sobra uno que confunde.",
+    {
+      "faq": [
+        [
+          "¿Es obligatoria la señalética accesible en un consultorio?",
+          "La NEC-HS-AU es obligatoria en edificaciones con acceso al público. En edificios existentes ya regularizados, su aplicación la define la entidad local, así que consulta en tu municipio qué te exigen."
+        ],
+        [
+          "¿Qué tamaño de letra debe tener el rótulo de un consultorio?",
+          "Según la tabla de la NEC-HS-AU, para leer a un metro la letra va de 14 a 20 mm de alto. Para un directorio que se lee a dos metros, de 28 a 56 mm."
+        ],
+        [
+          "¿De qué color van las señales de salida de emergencia?",
+          "Según el código de colores de seguridad de la norma ISO 3864-1, adoptada en Ecuador por el INEN, el verde indica salvamento, salidas y rutas de evacuación. El Cuerpo de Bomberos de tu cantón revisa estas señales en su inspección."
+        ],
+        [
+          "¿Pueden hacer la señalética de una clínica fuera de Imbabura?",
+          "Sí. Fabricamos en nuestro taller de Otavalo y atendemos proyectos en todo el país; la logística se coordina por proyecto. La consulta inicial no tiene costo."
+        ]
+      ]
+    }
+  ],
+  "fuentes": [
+    "https://www.mit.gob.ec/wp-content/uploads/downloads/2026/03/3.-NEC-HS-AU-Accesibilidad-Universal.pdf (NEC-HS-AU, MIDUVI 2019: campo de aplicación; Anexo 2 Tabla 17: pictogramas y texto en alto relieve, palo seco, tabla de tamaños de letra por distancia, contraste, soporte mate, altura 1.200-1.600 mm, relieve 1-1,5 mm, braille; remite a NTE INEN 2850 y 2239)",
+    "https://fenedif.org/wp-content/uploads/2021/08/1normas_inen_acceso_medio_fisico2.pdf (NTE INEN 2239:2000, 2.1.2.6: símbolo de accesibilidad en el exterior de edificios públicos y privados; superficies sin reflejos)",
+    "https://online.standard.no/en/iso-3864-1-2011 (ISO 3864-1: colores de seguridad para evacuación); adopción como NTE INEN-ISO 3864-1:2013 según resultados de búsqueda, no se pudo abrir el texto del INEN",
+    "https://repositorio.uisek.edu.ec/handle/123456789/3643 (inspecciones de los Cuerpos de Bomberos cantonales; requisitos varían por cantón)"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "n": 31,
+  "slug": "exhibidores-y-displays-en-mdf-con-cnc",
+  "cat": 9,
+  "title": "Exhibidores y displays de punto de venta en MDF y acrílico cortados con CNC",
+  "yoast_title": "Exhibidores en MDF y acrílico con CNC: guía práctica",
+  "yoast_desc": "Displays de mostrador, torres y porta folletos en MDF, melamínico y acrílico cortados con router CNC: qué material resiste, cómo se arman y cómo pedirlos.",
+  "focus_kw": "exhibidores en mdf",
+  "excerpt": "Cómo elegir material y diseño para un exhibidor de punto de venta cortado con router CNC, y qué revisar antes de fabricar un lote para varias tiendas.",
+  "tags": ["exhibidores", "displays", "mdf", "acrílico", "punto de venta", "router cnc"],
+  "wa_tema": "exhibidores y displays en MDF",
+  "bloques": [
+    "Tu producto está en la percha junto a otros veinte del mismo tipo, y el comprador decide en segundos. Por eso las marcas piden exhibidores propios: un display de mostrador junto a la caja, una torre en la entrada, un porta folletos en la sala de espera. El problema aparece cuando el primero que fabricaste se pandeó con el peso, o llegó a la tienda de Guayaquil con una esquina hinchada por la humedad.",
+    "Un exhibidor bien hecho es una pieza de carpintería con lógica de marca: tiene que aguantar el producto, armarse sin herramientas raras y verse igual en la tienda número uno y en la número treinta. El router CNC lo hace posible porque repite cada pieza al milímetro. Lo que sigue es cómo decidir material, forma y armado.",
+    {"h2": "Qué material elegir para un exhibidor cortado con CNC"},
+    "La respuesta directa: MDF pintado o lacado para cuerpos de color de marca, melamínico cuando quieres una cara ya terminada sin pintar, y acrílico para todo lo que debe ser transparente o tener brillo. Muchas veces la mejor pieza combina dos: estructura en MDF y frente o bandejas en acrílico. Todo se corta en <a href=\"https://www.markedi.ec/router-cnc/\">router CNC</a>, una fresadora controlada por computadora que sigue el dibujo vectorial con precisión milimétrica.",
+    {"tabla": [
+      ["Material", "Qué es", "Dónde funciona", "Su punto débil"],
+      [
+        ["MDF", "Tablero de fibras de madera prensadas, sin veta", "Cuerpos pintados con los colores de la marca, piezas caladas", "Absorbe humedad por los cantos si no se sella"],
+        ["Melamínico", "Tablero con una lámina decorativa ya aplicada (blanco, colores, imitación madera)", "Repisas y cuerpos sin pintura, góndolas de tienda", "El canto cortado queda crudo y necesita tapacanto"],
+        ["Acrílico", "Plancha plástica rígida, transparente o de color", "Porta folletos, bandejas, frentes con logo, cubiertas", "Se raya si se limpia con paños ásperos"],
+        ["PVC espumado", "Plancha plástica liviana", "Cabeceras y logos que se montan sobre el exhibidor", "Poca rigidez para cargar peso"],
+        ["Contrachapado", "Láminas de madera en capas cruzadas", "Displays con estética natural, encastres resistentes", "Las capas del canto se ven; a algunas marcas les gusta y a otras no"]
+      ]
+    ]},
+    {"h2": "Encastre o tornillo: cómo se arma un display que viaja"},
+    "El encastre es un sistema donde las piezas tienen ranuras que encajan unas en otras, como un rompecabezas en tres dimensiones. Con router CNC las ranuras salen exactas, así que el display se arma a mano en minutos y se desarma igual de rápido. Su gran virtud es que viaja plano: un exhibidor de piso se convierte en un paquete delgado, más fácil de enviar desde un taller en Otavalo hacia Quito, Cuenca o cualquier ciudad del Ecuador.",
+    "El ajuste de la ranura es todo. El ancho debe calcularse con el espesor real de la plancha, que no siempre coincide con el nominal; una plancha que se vende como 15 mm puede medir unas décimas más o menos. Si la ranura queda floja, el display baila; si queda justa de más, la pintura se raspa al armar. Por eso conviene cortar una pieza de prueba con el lote de material que se va a usar.",
+    "El tornillo y la escuadra metálica son la alternativa cuando el exhibidor va a quedar fijo o tiene que soportar mucho peso. Quedan más rígidos, pero el armado lo hace alguien con herramienta y el envío ocupa más volumen.",
+    {"h2": "El peso del producto manda sobre el diseño"},
+    "Un display de mostrador para cosméticos no tiene nada que ver con una torre para botellas de aceite. Antes de dibujar, pesa una unidad de tu producto y multiplica por la cantidad que irá en cada bandeja. Las repisas largas se pandean con el tiempo, aunque el primer día se vean rectas; la solución es acortar el vano entre apoyos, aumentar el espesor o agregar un refuerzo debajo de la bandeja.",
+    "En acrílico, el peso además se concentra en los dobleces y en los agujeros de tornillo, que es donde aparecen las fisuras. Para bandejas cargadas, el acrílico funciona mejor como frente o cubierta que como estructura.",
+    {"quote": "Un exhibidor se aprueba con el producto encima, no en el render. La primera unidad armada con la carga real te dice más que diez vistas en pantalla.", "cite": "Equipo de Markedi"},
+    {"h2": "Cómo pedir un lote de exhibidores para varias tiendas"},
+    {"ol": [
+      "Define dónde va el exhibidor: mostrador, piso, pared o vitrina, con las medidas del espacio disponible en la tienda más pequeña.",
+      "Pesa el producto y calcula la carga por bandeja.",
+      "Elige el material de la estructura y el de las piezas visibles, con los colores de marca en código.",
+      "Decide si se arma por encastre (viaja plano) o con tornillería (queda más rígido).",
+      "Envía los planos o el logo en vectorial, idealmente DXF o DWG; si no los tienes, Markedi te ayuda a prepararlos.",
+      "Aprueba un prototipo armado y cargado antes de fabricar el lote.",
+      "Indica en qué ciudades se distribuye, para coordinar empaque y logística del proyecto."
+    ]},
+    "Los proyectos de router CNC en Markedi toman por lo general de 2 a 4 semanas según la complejidad. Si el display acompaña un lanzamiento con fecha, el prototipo debe aprobarse con tiempo.",
+    {"h2": "Humedad, sol y manos: lo que desgasta un exhibidor en Ecuador"},
+    "El MDF tiene un enemigo: el agua. En la Costa, una tienda sin aire acondicionado y un trapeador húmedo que golpea la base todos los días bastan para hinchar el canto inferior. La respuesta es sellar y pintar todos los cantos, levantar la base unos milímetros con regatones (tacos plásticos) y, si el ambiente es muy húmedo, preguntar por tableros resistentes a la humedad o pasar la base a otro material.",
+    "En la Sierra el desgaste viene más por el sol que entra por las vitrinas: los vinilos impresos baratos pierden color y el acrílico de mala calidad puede amarillear. Y en cualquier ciudad, el peor enemigo son las manos: los bordes que el cliente toca deben ir redondeados y con pintura resistente al roce.",
+    {"h2": "Cuándo NO te conviene un exhibidor en MDF o acrílico"},
+    "Si la activación dura una semana y luego el display se bota, el cartón corrugado impreso sale mucho más barato y cumple. El MDF y el acrílico se justifican cuando el exhibidor va a estar meses en la tienda, se va a mover entre puntos de venta o tiene que transmitir una marca de cierto nivel.",
+    "Tampoco es buena idea para cargas muy pesadas, como herramientas, pintura en galón o bebidas en cantidad. Ahí la estructura debe ser metálica, y el MDF o el acrílico quedan como frentes de marca. Para otros formatos, como banners y muros pop-up, revisa la sección de <a href=\"https://www.markedi.ec/soportes-publicitarios/\">soportes publicitarios</a>.",
+    {"h2": "Checklist antes de aprobar tu exhibidor"},
+    {"ul": [
+      "El prototipo se probó armado y con el producto real encima.",
+      "Las repisas no se pandean después de un par de días cargadas.",
+      "Todos los cantos de MDF están sellados y pintados.",
+      "El encastre entra firme sin raspar la pintura.",
+      "El logo se lee desde el pasillo, también de lado."
+    ]},
+    "Si tu exhibidor pasa esa lista, puedes fabricar el lote con tranquilidad. Para cotizar, cuéntanos medidas, producto y cantidad desde <a href=\"https://www.markedi.ec/contacto/\">contacto</a>; la consulta inicial no tiene costo.",
+    {"faq": [
+      ["¿MDF o melamínico para un exhibidor?", "El MDF es mejor cuando el exhibidor se pinta con colores de marca o lleva formas caladas. El melamínico conviene cuando quieres una cara ya terminada en blanco, color o imitación madera, aunque sus cantos necesitan tapacanto."],
+      ["¿Se pueden enviar los exhibidores desarmados?", "Sí, si se diseñan por encastre viajan planos y se arman a mano en la tienda. Markedi trabaja proyectos en todo el Ecuador y la logística se coordina en cada caso."],
+      ["¿Cuánto tarda un lote de displays cortados con CNC?", "Los proyectos de router CNC en Markedi toman por lo general de 2 a 4 semanas, según la complejidad y la cantidad. Conviene sumar el tiempo de aprobación del prototipo."],
+      ["¿Necesito tener los planos listos?", "Ayuda tener el diseño en vectorial, idealmente DXF o DWG. Si solo tienes una idea o un boceto, Markedi te ayuda a preparar los archivos para el corte."]
+    ]}
+  ],
+  "fuentes": []
+}

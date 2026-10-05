@@ -1,0 +1,71 @@
+{
+  "n": 23,
+  "slug": "rotulos-para-cooperativas-y-agencias",
+  "cat": 8,
+  "title": "Rótulos para cooperativas y agencias financieras: del manual de marca a la fachada de cada sucursal",
+  "yoast_title": "Rótulos para cooperativas: que cada agencia se vea igual",
+  "yoast_desc": "Cómo rotular las agencias de una cooperativa o entidad financiera: convertir el manual de marca en planos y replicar letras con LED igual en cada sucursal.",
+  "focus_kw": "rótulos para cooperativas",
+  "excerpt": "Una cooperativa con varias agencias necesita que todas se vean como la misma institución. Cómo pasar del manual de marca a planos de fabricación y repetir el resultado en cada ciudad.",
+  "tags": ["rótulos para cooperativas", "letras de aluminio", "letras iluminadas", "señalética de agencias", "manual de marca"],
+  "wa_tema": "rótulos para cooperativas y agencias",
+  "bloques": [
+    "Una cooperativa de ahorro y crédito vende confianza antes que cualquier producto. El socio que entra a una agencia nueva quiere reconocer, desde la vereda, que es la misma institución donde tiene su cuenta en otra ciudad. Si el logo de la fachada tiene otro tono o una tipografía parecida pero no igual, esa confianza se resiente aunque nadie sepa explicar por qué.",
+    "El problema casi nunca es fabricar un buen rótulo. Es fabricar el mismo rótulo diez veces, en fachadas distintas y a lo largo de varios años, a veces con otro proveedor. Aquí te contamos cómo se resuelve eso en la práctica, desde el manual de marca hasta la placa de la ventanilla.",
+    {"h2": "Qué necesita la rotulación de una cooperativa, en pocas palabras"},
+    "Una agencia financiera bien rotulada tiene <strong>un rótulo de fachada con el logo y el nombre en letras corpóreas</strong>, casi siempre iluminadas, porque muchas agencias atienden hasta la tarde y el cajero automático funciona de noche. Adentro lleva <strong>señalética de servicio</strong>: ventanillas, atención al socio, créditos, gerencia. Y lo más importante es que ambas cosas salgan de <strong>un mismo paquete de planos aprobados</strong> que se reutiliza en cada sucursal.",
+    "Ese paquete es lo que separa una red de agencias coherente de una colección de letreros parecidos. Sin él, cada apertura empieza de cero, con el logo descargado de la página web y los colores elegidos a ojo frente a un muestrario.",
+    {"h2": "Del manual de marca al plano de fabricación"},
+    "El manual de marca dice cómo se ve el logo en papel y en pantalla. No dice de qué espesor es la letra, qué acrílico reproduce el color institucional cuando tiene luz detrás ni cuánto se separa de la pared. Esa traducción la tiene que hacer el taller, y conviene que quede documentada.",
+    {"ul": [
+      "<strong>Color:</strong> el código del manual se compara con muestras físicas de acrílico y vinil, encendidas y apagadas. Un azul institucional puede verse correcto de día y morado con LED blanco detrás.",
+      "<strong>Proporciones:</strong> se definen dos o tres tamaños estándar del rótulo según el ancho de fachada, para no rediseñar en cada agencia.",
+      "<strong>Construcción:</strong> material de las letras, profundidad, tipo de iluminación y forma de anclaje, todo por escrito.",
+      "<strong>Archivo maestro:</strong> el logo en vectorial, el mismo que alimenta el corte en <a href=\"https://www.markedi.ec/router-cnc/\">router CNC</a>, para que cada juego de letras salga idéntico."
+    ]},
+    "Con ese documento, la agencia número ocho se fabrica con la misma receta que la primera. Y si un día cambias de proveedor, el plano sigue siendo tuyo.",
+    {"h2": "El caso de la Cooperativa Andalucía: letras de aluminio con LED"},
+    "Para la Cooperativa Andalucía fabricamos <a href=\"https://www.markedi.ec/portafolio/letras-de-aluminio/\">letras de aluminio con iluminación LED</a>. Es una combinación que tiene sentido para una entidad financiera: el aluminio da cantos firmes y rectos que transmiten solidez y aguanta bien la intemperie, y el LED permite que el nombre siga visible cuando la agencia cierra y el cajero sigue operando.",
+    "Frente a las letras de PVC o de acrílico macizo, el aluminio cuesta más, pero en una fachada que tiene que verse igual durante años suele compensar. En agencias ubicadas en la Costa, la tornillería y los soportes deben ser inoxidables para que el óxido no manche la pared bajo cada letra.",
+    {"quote": "En una red de agencias, el rótulo más caro es el que hay que repetir porque no coincide con los demás. Por eso el plano aprobado vale tanto como la letra.", "cite": "Equipo de Markedi"},
+    {"h2": "Qué piezas lleva cada agencia y con qué material"},
+    {"tabla": [
+      ["Pieza", "Material habitual", "Comentario"],
+      [
+        ["Logo y nombre en fachada", "Letras de aluminio con LED, o acrílico iluminado", "La pieza que define la imagen; va con plano maestro"],
+        ["Fachada o frontis", "Revestimiento en aluminio compuesto (ACM)", "Unifica agencias con edificios muy distintos"],
+        ["Señalética de ventanillas y áreas", "Acrílico o PVC cortado con CNC", "Numeración y nombres de servicio iguales en todas las agencias"],
+        ["Placa de horario", "Acrílico grabado o con vinil", "El horario cambia: que se pueda actualizar sin rehacerla"],
+        ["Logo de recepción", "Acrílico, aluminio o MDF pintado", "Va a la altura de la vista y se ve de cerca"]
+      ]
+    ]},
+    "El aluminio compuesto, o ACM, es una lámina de dos capas finas de aluminio con un núcleo plástico en medio; se conoce también por la marca Alucobond. Sirve para que una agencia instalada en una casa antigua y otra en un local de centro comercial compartan el mismo frente. Lo explicamos con más detalle en <a href=\"https://www.markedi.ec/revestimiento-de-fachadas/\">revestimiento de fachadas</a>.",
+    {"h2": "Cómo replicar la imagen en varias sucursales"},
+    {"ol": [
+      "<strong>Levanta un inventario</strong> de agencias con fotos de fachada, medidas y estado actual del rótulo.",
+      "<strong>Agrupa las fachadas</strong> por tamaño y define un modelo de rótulo para cada grupo.",
+      "<strong>Aprueba una agencia piloto</strong>: se fabrica, se instala y se revisa de día y de noche antes de repetir.",
+      "<strong>Congela el plano</strong> con los ajustes del piloto: colores, medidas, iluminación y anclajes.",
+      "<strong>Programa las demás agencias</strong> por lotes, empezando por las de mayor afluencia.",
+      "<strong>Guarda el registro</strong> de cada instalación con fecha y fotos, útil para el mantenimiento y la garantía."
+    ]},
+    "Por lo general, cada proyecto de rotulación 3D toma de una a dos semanas desde el diseño hasta la instalación, según su tamaño. Para una red de agencias, el calendario se arma por lotes. Desde el taller en Otavalo atendemos proyectos en todo el Ecuador, de la Sierra a la Costa, y la logística se coordina por proyecto.",
+    {"h2": "Cuándo no te conviene renovar todos los rótulos a la vez"},
+    "Si la cooperativa está a meses de cambiar su identidad, no tiene sentido fabricar letras de aluminio para veinte agencias con el logo que va a salir. Lo sensato es esperar el manual nuevo y usar ese tiempo para el inventario de fachadas.",
+    "Tampoco conviene cambiar todo si el problema está en una o dos agencias. A veces basta con reponer la iluminación o reparar las letras dañadas y reservar la inversión para las aperturas. Y si la agencia está en un edificio con reglas estrictas de fachada, primero hay que conocerlas: el rótulo ideal en el papel puede no ser el que la administración aprueba.",
+    {"h2": "Lista de control para el comité o el área de marketing"},
+    {"ul": [
+      "¿Existe un plano de fabricación aprobado, aparte del manual de marca?",
+      "¿El color se aprobó con muestras encendidas y apagadas?",
+      "¿Hay modelos estándar según el ancho de fachada?",
+      "¿Se revisó la agencia piloto de noche?",
+      "¿El permiso municipal del letrero está gestionado en cada cantón?"
+    ]},
+    {"faq": [
+      ["¿Qué material conviene para el rótulo de una cooperativa?", "Para fachada, las letras de aluminio con LED son una elección frecuente porque mantienen la forma y el color con el sol y se ven de noche. El acrílico iluminado también funciona y suele costar menos. Lo decisivo es que todas las agencias usen el mismo."],
+      ["¿Pueden fabricar con nuestro manual de marca?", "Sí. Con el logo en vectorial y los códigos de color hacemos muestras físicas para aprobarlas y luego el plano de fabricación. Si no tienes el archivo vectorial, te ayudamos a prepararlo."],
+      ["¿Cuánto tarda rotular una agencia?", "Por lo general, entre una y dos semanas desde el diseño hasta la instalación, según el proyecto. Para varias agencias se define un calendario por lotes."],
+      ["¿Qué cubre la garantía?", "La garantía cubre defectos de material y mano de obra. Los detalles se definen en la consulta inicial, que no tiene costo."]
+    ]}
+  ]
+}

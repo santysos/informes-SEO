@@ -1,0 +1,165 @@
+{
+  "n": 13,
+  "slug": "rotulos-en-manta-salitre",
+  "cat": 8,
+  "title": "Rótulos en Manta: qué metales y tornillos aguantan el salitre",
+  "yoast_title": "Rótulos en Manta: materiales que resisten el salitre",
+  "yoast_desc": "En Manta el salitre oxida un rótulo mal armado en meses. Qué aluminio, qué acero inoxidable y qué tornillería usar, y cómo pedir el permiso municipal.",
+  "focus_kw": "rótulos en manta",
+  "excerpt": "El aire salino de Manta corroe tornillos, estructuras y fuentes de luz antes que las letras. Qué materiales resisten de verdad frente al mar y cómo armar un rótulo que no se oxide.",
+  "tags": [
+    "rótulos",
+    "manta",
+    "salitre",
+    "letras corpóreas",
+    "costa"
+  ],
+  "wa_tema": "rótulos en Manta y el salitre",
+  "bloques": [
+    "Si tienes un local en Manta ya conoces la escena: un letrero que el primer año se veía bien y al segundo tiene chorreaduras café bajando por la pared, tornillos hinchados y una letra que se ladea con el viento de la tarde. Casi nunca falla la letra. Falla lo que no se ve: el tornillo barato, el ángulo de hierro pintado, el empalme eléctrico sin sellar.",
+    "En septiembre de 2025 El Diario publicó fotos de estructuras de letreros en la avenida Flavio Reyes, a la altura de la avenida 24, con óxido, pintura descascarada y bases que se balancean con el viento. Eso le pasa a un rótulo armado con materiales de Sierra y montado frente al mar.",
+    {
+      "h2": "Qué materiales resisten el salitre en Manta"
+    },
+    "La respuesta corta: <strong>aluminio en las letras y las cajas, acrílico en las caras, acero inoxidable 316 en la tornillería y estructura galvanizada en caliente y bien pintada</strong>. Con esa combinación un rótulo frente al mar dura muchos años con un mantenimiento sencillo. Si cualquiera de esas piezas se cambia por algo más barato, ahí empieza la corrosión.",
+    "El aluminio forma una capa de óxido propia que lo protege; no se pudre como el hierro. El acrílico no se oxida y aguanta la humedad. El acero inoxidable 316 lleva cerca de un 2 % de molibdeno, un aditivo que mejora su resistencia a los cloruros, que es justamente lo que trae el salitre. El 304, el inoxidable más común en ferreterías, sirve bien en la Sierra, pero cerca del mar puede presentar picaduras: pequeños puntos de óxido que avanzan hacia adentro.",
+    "En Markedi trabajamos letras corpóreas en aluminio y acrílico, como las <a href=\"https://www.markedi.ec/portafolio/letras-de-aluminio/\">letras de aluminio con LED que hicimos para la Cooperativa Andalucía</a>. Para un proyecto en Manta o en cualquier punto de la Costa ajustamos la tornillería, los selladores y la protección eléctrica a ese ambiente.",
+    {
+      "h2": "Cómo se come el salitre un rótulo, pieza por pieza"
+    },
+    "El viento del mar trae sal que se pega en todo. Con la humedad se disuelve y forma una película que ataca los metales. En Manta pasa a diario y se nota más cerca de la playa: Barrio Umiña, la Flavio Reyes, el malecón y la zona del puerto reciben más sal que un local tierra adentro.",
+    {
+      "tabla": [
+        [
+          "Material o pieza",
+          "Cómo se porta frente al salitre",
+          "Uso recomendado en Manta"
+        ],
+        [
+          [
+            "Aluminio (letras, cajas)",
+            "Se opaca pero no se pudre; con pintura de horno o anodizado aguanta muy bien",
+            "Letras corpóreas, cajas de luz, marcos"
+          ],
+          [
+            "Acrílico",
+            "No se oxida; con filtro UV conserva el color",
+            "Caras de letras iluminadas, logos"
+          ],
+          [
+            "Aluminio compuesto (ACM)",
+            "Bueno si los bordes quedan sellados y la pintura es de exterior",
+            "Fachadas y fondos de rótulo"
+          ],
+          [
+            "Acero inoxidable 304",
+            "Puede picarse cerca del mar",
+            "Interiores o locales alejados de la playa"
+          ],
+          [
+            "Acero inoxidable 316",
+            "Resiste mejor los cloruros",
+            "Tornillos, pernos, separadores visibles"
+          ],
+          [
+            "Hierro negro pintado",
+            "Se oxida en poco tiempo si la pintura se raya",
+            "Evitarlo en exteriores"
+          ]
+        ]
+      ]
+    },
+    {
+      "h2": "La tornillería y el contacto entre metales"
+    },
+    "Aquí está el error más común. Cuando dos metales distintos se tocan y les cae agua salada, uno de los dos se corroe más rápido. Se llama corrosión galvánica. Si atornillas una letra de aluminio con un tornillo inoxidable sin aislarlos, sufre el aluminio, justo alrededor del agujero.",
+    "La solución no es cara, pero hay que pedirla:",
+    {
+      "ul": [
+        "Arandelas de nylon o de neopreno entre el tornillo y el aluminio, para que no se toquen.",
+        "Separadores plásticos o de aluminio, nunca de hierro, entre la letra y la pared.",
+        "Tornillería de inoxidable 316 en todo lo que quede expuesto al aire.",
+        "Sellador en cada perforación de la pared, para que el agua salada no entre al taco ni a la estructura.",
+        "Estructuras de soporte galvanizadas en caliente y pintadas, con los cortes y soldaduras retocados después de armar."
+      ]
+    },
+    {
+      "quote": "En la Costa el rótulo casi nunca se cae por la letra. Se cae por el tornillo de dos centavos que nadie quiso cambiar por uno inoxidable.",
+      "cite": "Equipo de Markedi"
+    },
+    {
+      "h2": "La parte eléctrica: LED, fuentes y empalmes cerca del mar"
+    },
+    "Las letras iluminadas son las que más sufren, porque juntan metal, electricidad y humedad. La fuente de poder, la caja que alimenta los LED, debe ser para exterior. Mira el código IP de su etiqueta: IP65 aguanta lluvia y polvo, IP67 aguanta inmersión breve. En Manta no bajes de IP65 en nada que quede afuera.",
+    "Los empalmes van soldados y sellados con termocontraíble, no con cinta aislante, que con sal y calor se despega. Y las cajas de las letras necesitan pequeños agujeros de drenaje abajo: si no, el agua que entra por condensación se queda adentro y oxida los módulos. Puedes ver cómo armamos una letra iluminada en aluminio, acrílico y resina en el proyecto de <a href=\"https://www.markedi.ec/portafolio/letras-iluminadas-lovisa/\">letras iluminadas para Lovisa</a>.",
+    {
+      "h2": "Pasos para encargar un rótulo para tu local en Manta"
+    },
+    "Nuestro taller está en Otavalo y atendemos proyectos en todo el Ecuador; la logística de cada trabajo se coordina por proyecto. Así se arma un pedido para la Costa sin perder tiempo:",
+    {
+      "ol": [
+        "Mándanos fotos de la fachada de frente y desde la vereda de enfrente, con una medida de referencia (el ancho de la puerta sirve).",
+        "Dinos a cuántas cuadras del mar está el local y hacia dónde mira la fachada; eso define cuánto salitre y cuánto sol recibe.",
+        "Comparte tu logo en vector (AI, PDF o SVG). Si solo tienes una imagen, te ayudamos a prepararlo.",
+        "Revisamos contigo el material de letras, la tornillería y si llevará iluminación, y te enviamos la propuesta.",
+        "Con el diseño aprobado, tramita el permiso municipal: en Manta se pide por escrito al Director de Avalúos, Catastros, Permisos Municipales y Atención Ciudadana, con fotos del lugar y las medidas del rótulo.",
+        "El municipio notifica una inspección en sitio; luego se pagan los valores, que dependen del tipo y el tamaño del rótulo, y se emite el permiso, con vigencia de un año.",
+        "Fabricación e instalación, que en rotulación 3D toman por lo general de 1 a 2 semanas según el proyecto."
+      ]
+    },
+    {
+      "h2": "Cuándo no te conviene un rótulo de metal frente al mar"
+    },
+    "Hay casos en que la letra corpórea metálica no es la respuesta:",
+    {
+      "ul": [
+        "Si tu arriendo es corto y el local da directo a la playa, un rótulo plano en ACM o letras de PVC espumado de exterior rinden mejor para el tiempo que vas a estar.",
+        "Si nadie va a lavar el rótulo nunca, evita colores oscuros brillantes: la sal seca deja una capa blanca que se nota mucho más sobre negro o azul marino.",
+        "Si la pared tiene humedad o el enlucido se desmorona, primero hay que resolver la pared."
+      ]
+    },
+    "Si tu negocio funciona sobre todo de noche, como los bares de Playa Murciélago, invierte primero en la parte eléctrica y después en el tamaño. Mira opciones en <a href=\"https://www.markedi.ec/rotulos-luminosos/\">rótulos luminosos</a>.",
+    {
+      "h2": "Checklist para que el rótulo dure en la Costa"
+    },
+    {
+      "ul": [
+        "Letras y cajas de aluminio o acrílico; nada de hierro sin galvanizar.",
+        "Tornillería de acero inoxidable 316, con arandelas aislantes entre metales distintos.",
+        "Fuente de poder y empalmes para exterior, con protección IP65 o superior.",
+        "Agujeros de drenaje en las letras iluminadas.",
+        "Acrílico con protección UV si las caras son de color.",
+        "Un plan de lavado con agua dulce cada pocos meses y una revisión de anclajes al año."
+      ]
+    },
+    "Ese último punto cuesta casi nada. La sal que se lava no alcanza a trabajar.",
+    {
+      "faq": [
+        [
+          "¿El aluminio se oxida en Manta?",
+          "El aluminio se opaca, pero no se pudre ni se desarma como el hierro. Con pintura de horno o anodizado y un lavado periódico conserva su aspecto muchos años frente al mar."
+        ],
+        [
+          "¿Qué acero inoxidable debo pedir para un rótulo en la playa?",
+          "Pide 316 para tornillos, pernos y piezas expuestas. El 304 funciona en la Sierra, pero cerca del mar puede presentar picaduras por los cloruros del salitre."
+        ],
+        [
+          "¿Necesito permiso municipal para poner un letrero en mi local de Manta?",
+          "Sí. El GAD de Manta emite un permiso de instalación de rótulos publicitarios que se pide con fotos del lugar y las medidas, pasa por una inspección y tiene vigencia de un año. Confirma los requisitos vigentes con el municipio antes de instalar."
+        ],
+        [
+          "¿Markedi hace rótulos para Manta si el taller está en Otavalo?",
+          "Sí, atendemos proyectos en todo el Ecuador y la logística se coordina para cada uno. Escríbenos por WhatsApp con fotos y medidas."
+        ]
+      ]
+    }
+  ],
+  "fuentes": [
+    "https://www.eldiario.ec/manta/peligro-en-la-avenida-flavio-reyes-estructuras-de-letreros-deteriorados-amenazan-a-peatones-26092025/",
+    "https://www.gob.ec/gadmc-manta/tramites/permiso-instalacion-letreros-publicitarios-canton-manta",
+    "https://www.gob.ec/regulaciones/ordenanza-regula-instalacion-control-publicidad-propaganda-exterior-canton-manta",
+    "https://www.cedinox.es/export/sites/cedinox/.galleries/fichas-sabiasque/05-FAQ-AISI316-AISI316L.pdf",
+    "https://agris.fao.org/search/en/records/65df07f76eef00c2cea1b1d0",
+    "https://www.mwalloys.com/es/galvanic-corrosion-between-stainless-steel-and-aluminum/"
+  ]
+}

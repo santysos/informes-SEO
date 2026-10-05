@@ -1,0 +1,159 @@
+{
+  "n": 28,
+  "slug": "como-preparar-archivo-para-corte-cnc",
+  "cat": 11,
+  "title": "Cómo preparar tu archivo para corte CNC: DXF, curvas cerradas, texto convertido y radios de fresa",
+  "yoast_title": "Cómo preparar un archivo para corte CNC (DXF/DWG)",
+  "yoast_desc": "Guía práctica para enviar tu diseño al router CNC: DXF o DWG a escala 1:1, curvas cerradas, texto a curvas, líneas duplicadas y radios mínimos por la fresa.",
+  "focus_kw": "archivo para corte cnc",
+  "excerpt": "La mayoría de retrasos en un trabajo de router CNC no vienen de la máquina, sino del archivo. Esto es lo que hay que revisar antes de enviarlo para que se corte tal como lo dibujaste.",
+  "tags": [
+    "router cnc",
+    "dxf",
+    "dwg",
+    "corte cnc",
+    "diseño para cnc"
+  ],
+  "wa_tema": "cómo preparar un archivo para corte CNC",
+  "bloques": [
+    "Tienes el diseño listo: un logo para la recepción, unas letras en MDF, un panel calado. Lo exportas, lo envías y te responden que el archivo «no sirve». Desde tu lado se ve perfecto.",
+    "El problema casi nunca es el dibujo, sino cómo está construido. Un router CNC lee líneas y sigue trayectorias: lo que en pantalla parece una letra, para la máquina puede ser una caja de texto vacía o un contorno abierto.",
+    {
+      "h2": "La respuesta corta: vector a escala 1:1, curvas cerradas y nada de texto vivo"
+    },
+    "Para que un archivo se pueda cortar en router CNC sin retrabajo tiene que cumplir cinco condiciones: estar en formato vectorial (DXF o DWG son los que pedimos en Markedi), estar dibujado a tamaño real en milímetros, tener todas las figuras de corte como contornos cerrados, no tener líneas duplicadas ni superpuestas, y tener el texto convertido a curvas. Además, el diseño tiene que respetar lo que físicamente puede hacer una fresa redonda, sobre todo en las esquinas interiores.",
+    "Si no lo tienes así, en nuestro servicio de <a href=\"https://www.markedi.ec/router-cnc/\">router CNC</a> te ayudamos a prepararlo. Conocer estas reglas igual te ahorra idas y vueltas.",
+    {
+      "h2": "Formato y escala: DXF o DWG, en milímetros y a tamaño real"
+    },
+    "DXF y DWG guardan líneas, arcos y curvas con coordenadas exactas. Un JPG o PNG es una imagen de puntos, sin contornos que seguir. Un PDF puede tener vectores o solo una foto pegada.",
+    {
+      "ul": [
+        "<strong>Escala 1:1.</strong> Si la letra mide 40 cm en la pared, en el archivo debe medir 400 mm. Dibujar a escala y anotar «ampliar al doble» es una fuente segura de errores.",
+        "<strong>Unidades.</strong> Trabaja en milímetros y confírmalo al exportar. Un archivo que viaja en pulgadas y se abre en milímetros llega 25,4 veces más pequeño.",
+        "<strong>Versión del DXF.</strong> Si el programa te deja elegir, una versión antigua del formato (por ejemplo 2000 o 2004) es más compatible que la última.",
+        "<strong>Un archivo limpio.</strong> Borra cotas, marcos, notas y referencias que no se cortan, o déjalas en una capa aparte y avísalo."
+      ]
+    },
+    {
+      "h2": "Curvas cerradas, sin duplicados y con el texto convertido"
+    },
+    "Un contorno abierto es una figura cuyo final no se une con su inicio, aunque falte una décima de milímetro. Para la máquina eso es un trazo, no una pieza: no sabe de qué lado está el material bueno, y el software lo rechaza o lo corta mal. Revisa el dibujo en modo contorno o alambre, donde se ven los huecos.",
+    "Las líneas duplicadas son el otro error clásico: dos trazos idénticos superpuestos, por copiar y pegar o por unir piezas que comparten borde. La fresa pasa dos veces y el corte se ensucia. En AutoCAD, OVERKILL las elimina y JOIN o PEDIT unen segmentos sueltos en una polilínea cerrada.",
+    "El texto editable depende de la fuente instalada en tu computadora; en otro equipo se reemplaza o desaparece. Conviértelo en curvas antes de exportar:",
+    {
+      "ul": [
+        "<strong>Illustrator:</strong> Texto, Crear contornos.",
+        "<strong>CorelDRAW:</strong> Convertir a curvas (Ctrl+Q).",
+        "<strong>Inkscape:</strong> Trayecto, Objeto a trayecto.",
+        "<strong>AutoCAD:</strong> TXTEXP, de las Express Tools, y luego revisar que los contornos queden cerrados."
+      ]
+    },
+    {
+      "h2": "Lo que la fresa puede y no puede hacer"
+    },
+    "Aquí está la parte que más sorprende a quien viene del diseño gráfico o del corte láser. La fresa del router es un cilindro que gira, y un círculo no puede entrar en una esquina en ángulo recto. Toda esquina interior queda redondeada con un radio igual a la mitad del diámetro de la fresa: con una fresa de 6 mm, las esquinas interiores quedan con un radio de 3 mm. Las esquinas exteriores sí salen vivas.",
+    "Esto tiene tres consecuencias prácticas. Primero, los huecos y ranuras más angostos que la fresa no se pueden cortar. Segundo, los remates finos de algunas tipografías, los serifs muy delgados y las puntas agudas hacia adentro se suavizan o se pierden. Tercero, si una pieza tiene que encajar en otra con esquinas rectas, el ensamble no calza a menos que se dibujen alivios en las esquinas. Ese alivio se conoce como hueso de perro (dogbone): un pequeño corte circular extra en la esquina interior, del diámetro de la fresa, que deja espacio para que entre la esquina recta de la otra pieza.",
+    "La otra regla es la compensación de herramienta. Si la fresa corta con su centro sobre tu línea, la pieza sale más pequeña en medio diámetro por cada lado. Por eso en el programa de mecanizado se indica si el corte va por fuera de la línea (para piezas que deben medir exacto), por dentro (para agujeros y calados) o sobre la línea (para grabados y ranuras decorativas). Tú no tienes que calcularlo, pero sí aclarar qué medida es la importante: la de la pieza o la del hueco.",
+    {
+      "tabla": [
+        [
+          "Error en el archivo",
+          "Qué pasa en la máquina",
+          "Cómo se corrige"
+        ],
+        [
+          [
+            "Logo en JPG o PNG",
+            "No hay contornos que seguir",
+            "Redibujar o vectorizar y limpiar a mano"
+          ],
+          [
+            "Contorno abierto",
+            "El software lo rechaza o corta mal",
+            "Unir los extremos en una polilínea cerrada"
+          ],
+          [
+            "Líneas duplicadas",
+            "Doble pasada, corte sucio, más tiempo",
+            "Eliminar duplicados (OVERKILL en AutoCAD)"
+          ],
+          [
+            "Texto sin convertir",
+            "Cambia la fuente o desaparece",
+            "Convertir a curvas antes de exportar"
+          ],
+          [
+            "Detalles menores que la fresa",
+            "Se pierden o se rompen",
+            "Engrosar el detalle o elegir otra técnica"
+          ],
+          [
+            "Esquinas interiores rectas en un ensamble",
+            "Las piezas no encajan",
+            "Dibujar alivios tipo dogbone"
+          ],
+          [
+            "Archivo a escala o en pulgadas",
+            "Pieza de tamaño equivocado",
+            "Dibujar 1:1 en milímetros"
+          ]
+        ]
+      ]
+    },
+    {
+      "quote": "Un archivo bien preparado se corta el día que entra a máquina. Uno con contornos abiertos y texto vivo primero pasa por el escritorio, y ese tiempo también es parte del plazo.",
+      "cite": "Equipo de Markedi"
+    },
+    {
+      "h2": "Checklist de preparación paso a paso"
+    },
+    {
+      "ol": [
+        "Dibuja o ajusta el diseño a tamaño real, en milímetros.",
+        "Convierte todo el texto a curvas.",
+        "Revisa en modo contorno que cada figura de corte esté cerrada.",
+        "Elimina líneas duplicadas y superpuestas.",
+        "Separa en capas lo que se corta, lo que se graba y lo que se rebaja a cierta profundidad, e indica las profundidades.",
+        "Revisa que no haya huecos ni detalles más angostos que la fresa y, si hay ensambles, dibuja los alivios en las esquinas.",
+        "Indica el material y el espesor, y cuál es la medida crítica: la de la pieza o la del hueco.",
+        "Exporta a DXF o DWG y envía también un PDF o una imagen de referencia de cómo debe verse."
+      ]
+    },
+    "Con eso el archivo entra directo a programación. Trabajamos MDF, madera, melamínico, acrílico, PVC, POM y aluminio; mira un ejemplo en nuestros <a href=\"https://www.markedi.ec/portafolio/letras-de-mdf/\">cortes en MDF</a>.",
+    {
+      "h2": "Cuándo no te conviene el router CNC"
+    },
+    "Si tu diseño tiene detalles más finos que la fresa más pequeña que admite ese material y espesor, el router no es la herramienta. Si solo tienes el logo como foto de baja resolución, el trabajo empieza por redibujarlo. Y si necesitas esquinas interiores vivas por estética, habrá que aceptar el radio o rediseñar esa zona.",
+    {
+      "h2": "Plazos y cómo enviarnos tu archivo"
+    },
+    "Según nuestra web, los proyectos de router CNC toman por lo general de 2 a 4 semanas, según la complejidad. Un archivo limpio ayuda a que el plazo dependa del corte y no de la corrección. Nuestro taller está en Otavalo, en Imbabura, y recibimos archivos de todo el Ecuador; si tu diseño todavía no está listo para máquina, envíalo como lo tengas por la <a href=\"https://www.markedi.ec/contacto/\">página de contacto</a> y te decimos qué falta.",
+    {
+      "faq": [
+        [
+          "¿Puedo enviar mi diseño en PDF o en Illustrator?",
+          "Si el PDF o el archivo de Illustrator contiene vectores, se puede convertir a DXF. Lo que no sirve es una imagen pegada dentro del PDF, porque no tiene contornos que la máquina pueda seguir."
+        ],
+        [
+          "¿Por qué las esquinas interiores salen redondeadas?",
+          "Porque la fresa es redonda. Toda esquina interior queda con un radio igual a la mitad del diámetro de la fresa; con una de 6 mm, ese radio es de 3 mm."
+        ],
+        [
+          "¿Qué pasa si no convierto el texto a curvas?",
+          "Si la computadora que abre el archivo no tiene esa fuente, la reemplaza por otra o el texto desaparece. Convertirlo a curvas lo vuelve una forma fija que se corta igual en cualquier equipo."
+        ],
+        [
+          "¿Me ayudan si no tengo el archivo en DXF o DWG?",
+          "Sí. Si no tienes el archivo vectorial, te ayudamos a prepararlo a partir de lo que tengas y te avisamos qué detalles conviene ajustar para el corte."
+        ]
+      ]
+    }
+  ],
+  "fuentes": [
+    "https://sendcutsend.com/?p=5888 (formatos DXF/DWG, texto a contornos, contornos cerrados, sin líneas superpuestas, escala 1:1, hueco mínimo = diámetro de fresa)",
+    "https://docs.vectric.com/docs/V9.5/VCarveProTrialEdition/ENU/Help/Reference Manual/Toolpaths/2D Profile Toolpath/2D Profile Toolpath.html (perfil por fuera, por dentro o sobre la línea; compensación por diámetro)",
+    "https://fablab.ruc.dk/more-elegant-cnc-dogbones (radio interior = mitad del diámetro de la fresa; fresa de 6 mm deja 3 mm; dogbones)",
+    "https://www.markedi.ec/router-cnc/ (DXF o DWG, ayuda a preparar, 2 a 4 semanas, materiales)"
+  ]
+}

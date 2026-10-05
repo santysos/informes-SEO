@@ -1,0 +1,147 @@
+{
+  "n": 8,
+  "slug": "tamano-de-letras-para-rotulo-segun-distancia",
+  "cat": 8,
+  "title": "Qué tamaño deben tener las letras de tu rótulo según la distancia y la velocidad",
+  "yoast_title": "Tamaño de letras para rótulo según la distancia",
+  "yoast_desc": "Cuántos centímetros de letra necesitas para que te lean a 30, 100 o 200 metros, a pie o desde un carro a 50 o 90 km/h. Con tabla y cálculo paso a paso.",
+  "focus_kw": "tamaño de letras para rótulo",
+  "excerpt": "La altura de las letras no se elige a ojo: depende de la distancia de lectura, la velocidad de quien pasa y cuánto texto tiene el rótulo. Aquí tienes la tabla y el cálculo.",
+  "tags": [
+    "tamaño de letras",
+    "rótulos",
+    "legibilidad",
+    "letras corpóreas",
+    "diseño de rótulos"
+  ],
+  "wa_tema": "tamaño de letras para rótulos",
+  "bloques": [
+    "En la pantalla del computador el logo se ve enorme. En la fachada, visto desde el carro a 50 km/h, es una mancha que pasa en dos segundos y nadie alcanza a leer. Es el error más caro de la rotulación, porque cuando se nota el rótulo ya está fabricado e instalado.",
+    "La buena noticia es que la altura de letra no es cuestión de gusto. Hay estudios de legibilidad hechos con conductores reales, y con ellos se puede calcular cuántos centímetros necesitas según la distancia y la velocidad de la vía. Aquí te damos la regla, una tabla en medidas métricas y el cálculo paso a paso para tu caso.",
+    {
+      "h2": "La regla corta: 1 cm de letra por cada 3 metros, y más si la calle es complicada"
+    },
+    "La referencia más usada en el rubro viene del United States Sign Council (USSC), que midió a qué distancia se leen letras de distintos tamaños, colores e iluminación. Su índice de legibilidad promedio es de 30 pies por cada pulgada de altura de letra. Pasado a métricas: <strong>1 cm de letra se lee a unos 3,6 metros</strong> en condiciones ideales.",
+    "En la calle no hay condiciones ideales. El mismo estudio reconoce que, con tráfico, semáforos y locales pegados uno al otro, la distancia de lectura cae. En zonas moderadamente congestionadas recomienda usar 1 cm por cada 3 metros, y en zonas muy congestionadas, 1 cm por cada 2,4 metros. Para la mayoría de calles comerciales del Ecuador, la cifra segura es la segunda.",
+    "Hay otra regla que circula entre rotulistas, más generosa: una pulgada por cada 10 pies, que equivale a unos 8 cm por cada 10 metros. Esa no marca el mínimo para leer, sino una lectura cómoda y con presencia. Entre las dos tienes el rango: el mínimo legible y el tamaño que se nota.",
+    {
+      "h2": "Distancia y altura de letra, ya calculadas"
+    },
+    "Para conductores, la distancia no la pones tú: la pone la velocidad. El USSC estima que, en un entorno simple, alguien necesita unos 8 segundos para ver el rótulo, leerlo y decidir girar o frenar. En vías complejas, de varios carriles, sube a 10 u 11 segundos. Multiplica la velocidad en metros por segundo por esos segundos y obtienes desde qué distancia debe leerse.",
+    {
+      "tabla": [
+        [
+          "Velocidad",
+          "Distancia recorrida en 8 s",
+          "Altura mínima en vía despejada",
+          "Altura en calle congestionada"
+        ],
+        [
+          [
+            "Peatón (vereda de enfrente, 15 m)",
+            "15 m",
+            "4 a 5 cm",
+            "6 a 7 cm"
+          ],
+          [
+            "30 km/h",
+            "67 m",
+            "19 cm",
+            "28 cm"
+          ],
+          [
+            "50 km/h (límite urbano)",
+            "111 m",
+            "31 cm",
+            "46 cm"
+          ],
+          [
+            "70 km/h",
+            "156 m",
+            "43 cm",
+            "65 cm"
+          ],
+          [
+            "90 km/h (límite en perimetrales)",
+            "200 m",
+            "56 cm",
+            "83 cm"
+          ],
+          [
+            "100 km/h (rectas en carretera)",
+            "222 m",
+            "62 cm",
+            "93 cm"
+          ]
+        ]
+      ]
+    },
+    "Los límites de la tabla son los de la Ley de Tránsito para vehículos livianos: 50 km/h en zona urbana, 90 km/h en perimetrales y 100 km/h en rectas de carretera. Las alturas corresponden a la mayúscula inicial, con el texto en altas y bajas. Si el texto va <strong>todo en mayúsculas</strong>, súmale un 15 %: el USSC midió que las palabras en mayúsculas se reconocen más tarde.",
+    {
+      "h2": "Cómo calcularlo para tu local, paso a paso"
+    },
+    {
+      "ol": [
+        "<strong>Ubica desde dónde te deben leer.</strong> Para una tienda de barrio, la vereda de enfrente. Para un restaurante en una vía de paso, el punto donde el conductor todavía puede frenar y entrar.",
+        "<strong>Convierte la velocidad a metros por segundo:</strong> divide los km/h para 3,6. Por ejemplo, 50 km/h son 13,9 m/s.",
+        "<strong>Multiplica por el tiempo de reacción:</strong> 8 segundos en una calle simple, 10 en una avenida de varios carriles. A 50 km/h en una avenida: 13,9 × 10 = 139 m.",
+        "<strong>Divide la distancia para el factor de tu calle:</strong> 3 si el tráfico es moderado, 2,4 si es muy congestionado. 139 ÷ 2,4 = 58 cm.",
+        "<strong>Ajusta:</strong> +15 % si todo va en mayúsculas, y más todavía si la tipografía es delgada, cursiva o con mucho adorno.",
+        "<strong>Deja aire alrededor.</strong> El USSC recomienda que el espacio libre sea al menos 60 % del área total del rótulo, y el texto el 40 % restante. Un rótulo lleno de borde a borde se lee peor aunque las letras sean grandes."
+      ]
+    },
+    {
+      "h2": "Lo que cambia la cuenta más allá del tamaño"
+    },
+    "La altura es la mitad del problema. Estas condiciones pueden hacer que una letra de 40 cm se lea peor que una de 30:",
+    {
+      "ul": [
+        "<strong>Contraste.</strong> Letra blanca sobre fondo oscuro o negra sobre fondo claro funcionan. Dorado sobre crema o gris sobre aluminio cepillado pierden distancia, sobre todo con el cielo nublado de la Sierra a media tarde.",
+        "<strong>Grosor del trazo.</strong> Las tipografías muy delgadas, cursivas o con remates finos se «cierran» a la distancia y se confunden con el fondo. Para fachada, mejor un trazo firme.",
+        "<strong>Iluminación.</strong> De noche manda la luz. El USSC mide índices de legibilidad distintos para letras con reflector, con cara iluminada desde dentro, con fondo translúcido o con neón expuesto. Un halo sobre la pared se ve elegante de cerca; si te deben leer desde lejos, prueba el efecto antes de decidir.",
+        "<strong>Posición.</strong> Un rótulo en bandera, perpendicular a la calle, se detecta antes que uno pegado a la fachada, que el conductor ve de lado y tarde. Un estudio de campo con conductores y peatones lo confirmó."
+      ]
+    },
+    {
+      "quote": "Antes de fabricar, imprime la palabra a escala real y pégala en la fachada. Cinco minutos mirándola desde la vereda de enfrente ahorran un rótulo mal dimensionado.",
+      "cite": "Equipo de Markedi"
+    },
+    {
+      "h2": "Cuándo no te conviene agrandar las letras"
+    },
+    "Más grande no siempre es mejor. Si tu local está en un centro histórico, como el de Quito o el de Cuenca, el municipio limita el tamaño y la ubicación de los rótulos; agrandar la letra puede costarte el permiso. Consulta las condiciones con tu municipio antes de diseñar.",
+    "Tampoco conviene si la fachada es angosta. Meter letras de 60 cm en un frente de 3 metros obliga a cortar el nombre o a apretar el espacio, y el resultado se lee peor. Ahí funciona mejor reducir el texto: el nombre corto en grande y el resto (horarios, servicios, teléfono) en una placa a la altura de los ojos, que se lee a pie.",
+    "Y si tu clientela llega caminando, como en una calle peatonal de Otavalo o en un pasillo de centro comercial, letras de 20 a 30 cm bien iluminadas dicen más que unas de 80 que obligan a levantar la cabeza.",
+    {
+      "h2": "Checklist antes de aprobar el diseño"
+    },
+    "Pide que el diseño indique la altura real de cada línea en centímetros, además del ancho total del rótulo. Comprueba con la tabla de arriba que la línea principal cumple para la velocidad de tu calle. Verifica que haya aire alrededor del texto y que el contraste funcione de día y de noche. Si el rótulo va en altura, considera que el USSC recomienda colocar el texto a más de 2,1 m del suelo en vías de cuatro carriles, para que los carros no lo tapen.",
+    "Si estás definiendo materiales, revisa nuestras opciones de <a href=\"https://www.markedi.ec/rotulacion-3d/\">rotulación 3D</a> y de <a href=\"https://www.markedi.ec/rotulos-luminosos/\">rótulos luminosos</a>, o mira las <a href=\"https://www.markedi.ec/portafolio/letras-de-aluminio/\">letras de aluminio con LED</a> que hicimos para la Cooperativa Andalucía. Fabricamos en Otavalo y atendemos proyectos en todo el Ecuador; en la consulta calculamos contigo la altura según tu calle.",
+    {
+      "faq": [
+        [
+          "¿Qué tamaño de letra necesito para que me lean a 100 metros?",
+          "Como mínimo unos 28 cm en una vía despejada, unos 33 cm con tráfico moderado y unos 42 cm en una calle muy congestionada. Si el texto va todo en mayúsculas, súmale un 15 %."
+        ],
+        [
+          "¿Las letras en mayúsculas se leen mejor de lejos?",
+          "No. Los estudios de legibilidad muestran que las palabras en altas y bajas se reconocen antes, porque la forma de la palabra ayuda. En mayúsculas conviene subir la altura un 15 %."
+        ],
+        [
+          "¿Cuánto texto debe tener un rótulo de fachada?",
+          "El menos posible: el nombre y, como mucho, una palabra que diga qué vendes. Cada letra adicional suma tiempo de lectura, y a 50 km/h el conductor tiene pocos segundos."
+        ],
+        [
+          "¿El rótulo luminoso necesita letras más grandes?",
+          "No necesariamente, pero el tipo de luz cambia la distancia de lectura de noche. Lo práctico es definir la altura con la tabla y luego elegir una iluminación que deje el contorno de la letra bien definido."
+        ]
+      ]
+    }
+  ],
+  "fuentes": [
+    "https://usscfoundation.org/wp-content/uploads/2018/03/USSC-Guideline-Standards-for-On-Premise-Signs-2018.pdf (índice de legibilidad promedio 30 ft/in; factores 0,83 y 0,67 en zonas congestionadas; tiempo de reacción 8 s simple / 10-11 s complejo; +15 % en mayúsculas; espacio libre 60/40; altura mínima 7 ft en vías de 4 carriles)",
+    "https://www.signs.com/blog/?p=16381 (regla de 1 pulgada por cada 10 pies)",
+    "https://journals.shareok.org/ijsw/article/view/48 (letreros en bandera se detectan y leen a mayor distancia que los adosados)",
+    "https://primicias.ec/noticias/sociedad/accidentes-transito-exceso-velocidad-ecuador (límites: 50 km/h urbano, 90 perimetral, 100 rectas en carretera)"
+  ]
+}

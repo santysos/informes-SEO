@@ -1,0 +1,77 @@
+{
+  "n": 32,
+  "slug": "router-cnc-o-laser-para-acrilico",
+  "cat": 11,
+  "title": "Router CNC o láser para acrílico y MDF: espesores, bordes y cuándo usar cada uno",
+  "yoast_title": "Router CNC o láser para acrílico y MDF: cuál elegir",
+  "yoast_desc": "Láser o router CNC para cortar acrílico y MDF: qué borde deja cada uno, acrílico cast o extruido, espesores y materiales que el láser no debe cortar.",
+  "focus_kw": "router cnc o laser",
+  "excerpt": "Qué deja cada tecnología en el borde del acrílico y del MDF, qué acrílico conviene para cada una y en qué trabajos el router CNC es la única opción razonable.",
+  "tags": ["router cnc", "corte láser", "acrílico", "mdf", "corte cnc"],
+  "wa_tema": "router CNC o láser",
+  "bloques": [
+    "Tienes un logo para cortar en acrílico, o cuarenta piezas de MDF para un exhibidor, y te encuentras dos ofertas: corte láser y corte con router CNC. Las dos prometen precisión, las dos trabajan con el mismo archivo vectorial y en la cotización parecen intercambiables. No lo son.",
+    "Cada tecnología deja un borde distinto, tolera espesores distintos y hay materiales que una de ellas no debe tocar. Te lo explicamos desde el lado del taller. Para que quede claro desde el inicio: en Markedi trabajamos con router CNC, así que te vamos a decir también en qué casos un láser te sirve mejor.",
+    {"h2": "La diferencia en una línea: el láser quema, el router corta"},
+    "El corte láser usa un haz de luz concentrado que vaporiza o funde el material por donde pasa. El router CNC es una fresadora controlada por computadora: una herramienta giratoria (la fresa) retira material de forma mecánica, como un serrucho muy preciso que sigue el dibujo. De ahí salen todas las diferencias prácticas.",
+    "La respuesta directa: para acrílico delgado con detalle fino y canto brillante sin pulir, el láser suele ganar. Para espesores grandes, piezas que se van a pegar con solvente, MDF que no debe quedar con el canto quemado, aluminio compuesto, PVC o piezas en relieve, el router es la herramienta correcta.",
+    {"tabla": [
+      ["Criterio", "Corte láser", "Router CNC"],
+      [
+        ["Canto en acrílico", "Brillante, pulido por el propio calor", "Mate o satinado; se pule después si se quiere brillo"],
+        ["Canto en MDF", "Oscuro, quemado", "Color natural del MDF, listo para sellar y pintar"],
+        ["Esquinas interiores", "Casi en punta", "Con un radio mínimo igual al de la fresa"],
+        ["Detalle muy pequeño", "Muy fino", "Limitado por el diámetro de la fresa"],
+        ["Tensión en el borde del acrílico", "Alta; puede agrietarse al pegar con solvente", "Menor"],
+        ["Grabado en profundidad y relieve", "Superficial", "Sí: bajorrelieve, cajeados, chaflanes"],
+        ["PVC", "No debe cortarse: libera gases corrosivos y tóxicos", "Sí"],
+        ["Aluminio compuesto (ACM)", "Prácticamente imposible", "Sí, incluido el ranurado para doblarlo"]
+      ]
+    ]},
+    {"h2": "Acrílico cast o extruido: el detalle que cambia el resultado"},
+    "El acrílico se fabrica de dos maneras. El cast (colado) se produce vertiendo el material en moldes; el extruido se fabrica empujándolo de forma continua por una boquilla. A simple vista son iguales, pero se comportan distinto frente a cada máquina.",
+    {"ul": [
+      "<strong>Con láser:</strong> el extruido corta más fácil y con menos potencia, pero puede dejar rebaba en el borde. El cast necesita más potencia y deja un canto muy limpio.",
+      "<strong>Grabado láser:</strong> el cast se pone blanco escarchado donde se graba, que es el efecto que la mayoría busca. El extruido no escarcha: el grabado queda casi transparente.",
+      "<strong>Con router:</strong> el cast se mecaniza mejor y es menos propenso a fisurarse por tensión. El extruido se ablanda antes con el calor de la fresa, y si la pasada es lenta el plástico se funde y se vuelve a pegar en el canto."
+    ]},
+    "Si alguien te cotiza «acrílico» sin decir cuál, pregunta. Para letras corpóreas que van a pegarse, para piezas gruesas y para todo lo que se va a mecanizar con detalle, el cast suele ser la elección segura.",
+    {"h2": "El problema que nadie te cuenta: la tensión del borde láser"},
+    "El calor del láser deja el canto del acrílico brillante, pero también lo deja tensionado. Mientras la pieza esté sola, no pasa nada. El problema aparece cuando se pega con cementos a base de solvente, que es lo habitual para armar letras corpóreas, cajas o exhibidores: alrededor de la unión aparecen fisuras finas, como una telaraña dentro del material. Los fabricantes de adhesivos para acrílico recomiendan recocer (calentar en horno a baja temperatura durante horas) las piezas cortadas con láser antes de pegarlas.",
+    "El router no calienta tanto el borde. Con la fresa adecuada (de un solo filo, pensada para plásticos, que evacua la viruta rápido) el canto sale limpio y con menos tensión. Si después quieres brillo, se lija y se pule, o se flamea: pasar una llama rápida que funde la capa exterior y la deja transparente. Esto encaja con trabajos como las <a href=\"https://www.markedi.ec/portafolio/letras-corporeas-en-acrilico/\">letras corpóreas en acrílico que hicimos para Payless</a>.",
+    {"quote": "Elegir entre láser y router no es una cuestión de cuál es mejor. Es preguntarse qué va a pasar con la pieza después del corte: si se pega, si se pinta, si va al sol, si carga peso.", "cite": "Equipo de Markedi"},
+    {"h2": "MDF: el canto quemado y los espesores gruesos"},
+    "El láser corta MDF delgado con mucho detalle. Un equipo de CO2 de potencia media corta planchas de 3 y 6 mm de una pasada, y las de 12 o 18 mm suelen pedir varias pasadas. El precio de ese detalle es el canto: queda negro, huele a quemado y libera humo de las resinas que unen las fibras del tablero, entre ellas formaldehído, así que la máquina necesita buena extracción.",
+    "Si la pieza va pintada en un color claro, ese canto oscuro se nota y hay que lijarlo antes. Con router CNC el canto sale del color natural del MDF, se sella y se pinta directo. Por eso en exhibidores, letras para pared y piezas gruesas el router suele ser más práctico. Puedes ver un ejemplo de <a href=\"https://www.markedi.ec/portafolio/letras-de-mdf/\">cortes en MDF con router CNC</a> en nuestro portafolio.",
+    {"h2": "Cuándo NO te conviene el router CNC"},
+    "Si necesitas cientos de piezas muy pequeñas en acrílico delgado (llaveros, aretes, etiquetas con texto diminuto), el láser es más rápido y logra detalles que una fresa no alcanza. Lo mismo si quieres un grabado escarchado sobre acrílico cast o una marca superficial sobre madera: el láser lo hace en una pasada.",
+    "Tampoco es la herramienta para esquinas interiores totalmente en punta. La fresa es redonda, así que en cada esquina interna queda un radio mínimo. En la mayoría de letras y logos no se nota; en una pieza técnica que encaja con otra en ángulo recto, hay que tenerlo en cuenta al dibujar.",
+    {"h2": "Cómo decidir para tu proyecto"},
+    {"ol": [
+      "Identifica el material: acrílico (pregunta si es cast o extruido), MDF, PVC, madera o aluminio compuesto.",
+      "Si es PVC o aluminio compuesto, la respuesta es router: el láser no aplica.",
+      "Mira el espesor y el tamaño del detalle más pequeño del diseño.",
+      "Piensa qué pasa después: si la pieza se pega con solvente, se pinta en claro o lleva relieve, inclínate por router.",
+      "Si buscas canto brillante en acrílico delgado sin pulir, o grabado escarchado, considera láser.",
+      "Envía el archivo en vectorial, idealmente DXF o DWG, para que el taller revise radios y detalles antes de cortar."
+    ]},
+    "Nuestro taller está en Otavalo y atendemos proyectos en todo el Ecuador, desde la Sierra hasta la Costa. Los trabajos de router CNC toman por lo general de 2 a 4 semanas según la complejidad. Si tienes el archivo y no sabes qué tecnología pide, mándalo por <a href=\"https://www.markedi.ec/contacto/\">contacto</a> y te decimos con franqueza si el router es lo indicado.",
+    {"faq": [
+      ["¿El router CNC deja el acrílico transparente en el canto?", "No directamente: el canto sale mate o satinado. Si quieres brillo, se lija y se pule, o se flamea con una llama rápida que deja la superficie transparente."],
+      ["¿Por qué no se puede cortar PVC con láser?", "Al calentarse, el PVC libera cloruro de hidrógeno, un gas tóxico que con la humedad forma ácido clorhídrico. Daña los pulmones del operador y corroe la máquina, así que se corta con router."],
+      ["¿Qué acrílico es mejor para letras corpóreas?", "Para piezas que se van a pegar, mecanizar con detalle o que son gruesas, el cast suele ser más seguro porque tolera mejor la tensión. El extruido funciona en trabajos sencillos y planos."],
+      ["¿Markedi tiene corte láser?", "Markedi trabaja con router CNC para corte, fresado, grabado y tallado. Si tu proyecto pide láser, te lo decimos al revisar el archivo."]
+    ]}
+  ],
+  "fuentes": [
+    "https://www.troteclaser.com/da/hjaelpecenter/materialer/tips-til-materialeanvendelse/laser-cutting-acrylic-flame-polished-edges (cast vs extruido: el extruido corta con menos potencia y puede dejar rebaba; el cast escarcha al grabar, el extruido no)",
+    "https://delviesplastics.com/blogs/tips-and-tricks/cast-acrylic-sheet-vs-extruded-acrylic-sheet-for-laser-cutting (borde pulido por láser; router deja borde que requiere pulido)",
+    "https://www.plexiglas.nl/wp-content/uploads/2015/01/391-20-ACRIFIX-1R-0192-en.pdf (piezas cortadas con láser deben recocerse antes de pegar para evitar fisuras por tensión)",
+    "https://www.acrylite.co/files/content/acrylite.co/documents/fabrication-briefs/Extruded-Fabrication-Cutting-Technical-Information.pdf (corte de acrílico extruido)",
+    "https://uksignboards.com/forums-2/discussion/cast-extruded-acrylic/ (cast menos propenso a fisuras y mejor para mecanizar; fuente de foro, dato de práctica)",
+    "https://www.cncrouterstore.ca/collections/spiral-o-flute-cnc-bits (fresa de un filo para plásticos: evacua viruta y evita que el acrílico se funda)",
+    "https://www.xometry.com/resources/sheet/mdf-cutting/ (láser CO2 de 40 W: 3 y 6 mm en una pasada, 12-18 mm en varias; resinas con formaldehído)",
+    "https://www.thunderlaserusa.com/knowledge/can-i-cut-vinyl-pvc-in-a-laser (PVC libera HCl, no cortar con láser)",
+    "https://www.simplyplastics.com/help-support/faqs/is-it-possible-to-laser-cut-aluminium-composite-panel (ACM prácticamente imposible de cortar con láser)"
+  ]
+}

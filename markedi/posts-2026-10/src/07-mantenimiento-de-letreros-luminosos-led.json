@@ -1,0 +1,73 @@
+{
+  "n": 7,
+  "slug": "mantenimiento-de-letreros-luminosos-led",
+  "cat": 8,
+  "title": "Mantenimiento de letreros luminosos LED: qué revisar y por qué fallan",
+  "yoast_title": "Mantenimiento de letreros luminosos LED: guía",
+  "yoast_desc": "Qué revisar cada 6 a 12 meses en tu letrero LED, cómo leer cada falla (parpadeo, letra apagada, tramo oscuro) y qué no debes intentar tú mismo.",
+  "focus_kw": "mantenimiento de letreros luminosos",
+  "excerpt": "Un letrero LED casi no pide mantenimiento, pero lo poco que pide es decisivo. Te explicamos qué revisar, cada cuánto y cómo interpretar las fallas más comunes.",
+  "tags": ["letreros luminosos", "mantenimiento", "led", "fuente de poder", "rótulos"],
+  "wa_tema": "mantenimiento de letreros luminosos LED",
+  "bloques": [
+    "Tu letrero se ve bien de día. Una noche, al cerrar, notas que la «A» del medio está apagada o que todo el rótulo parpadea como si tuviera hipo. Lo apagas, lo vuelves a prender, funciona dos días y vuelve a fallar. Y justo esa semana empezaron las lluvias.",
+    "Los letreros con LED necesitan muy poco mantenimiento comparados con los antiguos de tubo fluorescente o neón de vidrio. Pero ese poco es el que decide si el letrero dura una década o te deja a oscuras en temporada alta. Aquí va lo que conviene mirar, cada cuánto y qué significa cada síntoma, explicado desde el taller de Markedi.",
+    {"h2": "Cada cuánto revisar: 12 meses en interior, 6 meses en exterior expuesto"},
+    "Un letrero dentro de un centro comercial o bajo una marquesina puede ir con una revisión al año. Uno en fachada que recibe lluvia directa, sol de tarde o brisa marina pide una cada seis meses. La mejor fecha es justo antes de las lluvias: en la Sierra, que llueve de octubre a mayo con picos entre marzo y mayo y entre octubre y noviembre, conviene revisar en septiembre. En la Costa, donde el invierno empieza en diciembre, en noviembre.",
+    "La razón es simple: la mayoría de las fallas eléctricas de un letrero exterior empiezan con agua. Una conexión que estuvo un poco floja en verano se moja, se oxida y deja de conducir en la primera semana de aguaceros.",
+    {"h2": "Qué significa cada falla"},
+    "Antes de llamar a nadie, observa con calma qué se apaga y cuándo. El síntoma dice mucho de dónde está el problema.",
+    {"tabla": [
+      ["Lo que ves", "Causa más probable", "Qué hacer"],
+      [
+        ["Todo el letrero apagado", "Breaker disparado, temporizador o fotocelda dañados, fuente de poder muerta", "Revisa el breaker y el temporizador; si están bien, el problema es la fuente"],
+        ["Todo parpadea", "Fuente sobrecargada o envejecida, conexión floja a la entrada", "Cambio o redimensionamiento de la fuente"],
+        ["Una letra apagada y las demás bien", "Cable cortado o conexión mojada en esa letra", "Abrir la letra y revisar el empalme de entrada"],
+        ["Un tramo oscuro dentro de la letra", "Un módulo LED dañado o una soldadura que se soltó en la cadena", "Reemplazar el módulo o rehacer la unión"],
+        ["Se apaga solo cuando llueve", "Agua en una caja de conexión; salta la protección", "Sellar pasos de cable y cambiar empalmes oxidados"],
+        ["Zonas con tono distinto", "Módulos reemplazados de otro lote o de otra temperatura de color", "Reponer con el mismo tono en kelvin"]
+      ]
+    ]},
+    {"h2": "La fuente de poder, el primer sospechoso"},
+    "La fuente es la caja que convierte la corriente de la red en los 12 o 24 voltios que usan los LED. Es la pieza que más falla, y casi siempre por calor. Los condensadores que lleva por dentro pierden vida a la mitad por cada 10 °C extra de temperatura. Una fuente encerrada en una caja metálica al sol trabaja mucho más caliente que el aire de la calle.",
+    "La otra causa es la sobrecarga. Una práctica habitual en el oficio es no cargar la fuente por encima del 80 % de su capacidad. Si al letrero se le agregó una letra o un logo después, sin cambiar la fuente, es fácil que esté trabajando al límite. El síntoma suele ser el parpadeo, que empeora en las noches más calurosas.",
+    "Revisa también su protección contra agua. Una fuente con grado IP65 resiste chorros de agua; una IP67 aguanta inmersión temporal. Si la tuya no tiene ningún grado indicado y está a la intemperie, ahí probablemente esté el problema.",
+    {"quote": "Cuando un letrero parpadea, la gente piensa que se dañaron los LED. En la gran mayoría de casos los LED están bien y lo que está cansada es la fuente.", "cite": "Equipo de Markedi"},
+    {"h2": "Los módulos LED y sus conexiones"},
+    "Dentro de una letra iluminada hay módulos pequeños unidos con cable, uno detrás de otro. Si una soldadura se suelta en la mitad de la cadena, se apaga todo lo que viene después. Por eso un tramo oscuro rara vez es «el LED quemado»: muchas veces es una unión.",
+    "Los módulos de calidad se declaran para unas 50.000 horas antes de perder el 30 % de su brillo. Eso es más de una década a 12 horas diarias. Si tu letrero tiene tres años y ya tiene tramos apagados, sospecha de las conexiones, del agua o de módulos de baja calidad antes que del desgaste normal.",
+    {"h2": "Checklist de revisión semestral"},
+    {"ol": [
+      "<strong>Con el letrero encendido de noche,</strong> mira desde la vereda de enfrente: letras apagadas, tramos oscuros, tonos distintos, parpadeo.",
+      "<strong>Apaga el breaker</strong> antes de tocar cualquier cosa. Sin esa condición no sigas.",
+      "<strong>Revisa la fuente:</strong> que no esté hinchada, quemada ni con óxido en los bornes, y que tenga ventilación.",
+      "<strong>Revisa los pasos de cable</strong> en la parte de arriba de las letras y cajas: el sello de silicona se cuartea con el sol.",
+      "<strong>Abre una o dos letras</strong> y busca agua, insectos o sarro en los empalmes.",
+      "<strong>Prueba el temporizador o la fotocelda:</strong> un letrero que se enciende a mediodía consume de más y envejece la fuente.",
+      "<strong>Revisa anclajes y tornillos.</strong> En la Costa, cualquier mancha de óxido que escurre es señal de cambiar tornillería.",
+      "<strong>Limpia las caras de acrílico</strong> con agua tibia, jabón neutro y paño suave."
+    ]},
+    {"h2": "Cómo limpiar sin dañar el acrílico"},
+    "El acrílico de las caras y las letras se arruina con productos que en casa parecen inofensivos. Los limpiavidrios con amoníaco, el alcohol y los solventes como el thinner o la acetona le producen microfisuras (en el oficio se dice que el acrílico «se cuartea»), y lo dejan opaco para siempre. Ese daño no se pule.",
+    "Usa agua tibia con jabón neutro, un paño suave de microfibra y presión ligera. Enjuaga y seca a toques, sin frotar en seco, porque el polvo raya. En la Sierra el polvo de las vías se pega con la llovizna; en la Costa, la sal deja una película blanquecina que conviene retirar antes de que se acumule.",
+    {"h2": "Cuándo no te conviene hacerlo tú mismo"},
+    "Mirar, limpiar a nivel del piso y revisar el breaker lo puede hacer cualquiera. Lo demás tiene dos riesgos reales. El primero es eléctrico: la entrada de la fuente trabaja con el voltaje de la red, y un empalme mal aislado bajo la lluvia es peligroso para quien lo toca después. El segundo es la altura: subir a una escalera apoyada en una fachada para abrir una letra a 4 metros, sin arnés ni anclaje, es la forma más común de accidente en este trabajo.",
+    "Tampoco conviene reemplazar módulos con lo primero que se encuentre en una ferretería. Si el tono o la potencia no coinciden, la letra reparada queda más blanca, más amarilla o más brillante que sus vecinas, y se nota a una cuadra.",
+    {"h2": "Regla práctica para no quedarte a oscuras"},
+    "Revisa antes de las lluvias, cuida la fuente del calor y no dejes pasar un parpadeo, porque casi nunca se corrige solo. Desde nuestro taller en Otavalo atendemos proyectos en todo el Ecuador y la logística se coordina según el caso. Puedes ver cómo armamos nuestros <a href=\"https://www.markedi.ec/rotulos-luminosos/\">rótulos luminosos</a> o el proyecto de <a href=\"https://www.markedi.ec/portafolio/letras-iluminadas-lovisa/\">letras iluminadas para Lovisa</a>, en aluminio y acrílico con resina epóxica.",
+    {"faq": [
+      ["¿Cada cuánto se da mantenimiento a un letrero LED?", "Una vez al año si está bajo techo o en interior, y cada seis meses si está expuesto a lluvia, sol directo o salitre. La mejor fecha es antes de la temporada de lluvias de tu región."],
+      ["¿Por qué parpadea mi letrero luminoso?", "Lo más común es una fuente de poder envejecida o sobrecargada, o una conexión floja a su entrada. Rara vez son los LED."],
+      ["¿Se puede cambiar solo una letra que no prende?", "Sí. En la mayoría de casos basta con revisar la conexión o reemplazar los módulos de esa letra, sin tocar el resto. Lo importante es usar módulos del mismo tono y potencia."],
+      ["¿Con qué limpio las letras de acrílico?", "Con agua tibia, jabón neutro y un paño de microfibra. Evita limpiavidrios con amoníaco, alcohol y solventes, porque cuartean el acrílico."]
+    ]}
+  ],
+  "fuentes": [
+    "https://primicias.ec/noticias/sociedad/epoca-seca-ecuador-clima-junio-julio-temperaturas (Sierra: lluvias octubre-mayo, picos mar-may y oct-nov; Costa desde diciembre, según INAMHI)",
+    "https://www.eldiario.ec/ecuador/asi-cambiara-el-clima-en-ecuador-durante-octubre-y-noviembre-segun-el-inamhi-03102025 (transición oct-nov, lluvias en la Costa desde diciembre)",
+    "https://www.analog.com/en/resources/technical-articles/ensure-long-lifetimes-from-electrolytic-capacitors-a-case-study-in-led-light-bulbs.html (condensadores: vida x2 por cada 10 °C menos)",
+    "https://allanson.com/wp-content/uploads/L307W2TW12G-Specification-Sheet-21-493.pdf (módulos LED L70 ~50.000 h)",
+    "https://seller.alibaba.com/blogs/2026/southeast-asia/outdoor-led/ip65-ip66-ip67-waterproof-rating-guide-alibaba-b2b (IP65 vs IP67)",
+    "https://www.acrylite.co/resources/knowledge-base/article/what-recommendations-do-you-have-for-the-caring-and-cleaning-of-acrylic-sheet y https://www.acplasticsinc.com/resource/how-to-maintain-acrylic-sheeting/ (limpieza del acrílico)"
+  ]
+}

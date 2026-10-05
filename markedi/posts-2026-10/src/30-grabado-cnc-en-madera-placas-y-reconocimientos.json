@@ -1,0 +1,140 @@
+{
+  "n": 30,
+  "slug": "grabado-cnc-en-madera-placas-y-reconocimientos",
+  "cat": 11,
+  "title": "Grabado CNC en madera: placas, reconocimientos y piezas decorativas que no parecen de catálogo",
+  "yoast_title": "Grabado CNC en madera: placas y reconocimientos",
+  "yoast_desc": "Cómo se graba madera con router CNC: madera maciza o MDF, fresa en V o bajorrelieve, relleno de color y qué pedir para que tu placa o reconocimiento quede bien.",
+  "focus_kw": "grabado cnc en madera",
+  "excerpt": "Qué se puede grabar en madera con router CNC, qué madera elegir, qué técnica usar en placas y reconocimientos, y cómo preparar el pedido.",
+  "tags": [
+    "grabado cnc",
+    "madera",
+    "placas",
+    "reconocimientos",
+    "router cnc"
+  ],
+  "wa_tema": "grabado CNC en madera",
+  "bloques": [
+    "Necesitas veinte placas de reconocimiento para el aniversario de la cooperativa y lo que te ofrecen es una lámina de metal impresa sobre un trozo de madera barnizada. Funciona, pero se ve igual a la que recibió todo el mundo el año pasado.",
+    "El grabado con router CNC abre otra posibilidad: que las letras y el logo queden tallados dentro de la madera, con profundidad real, bordes nítidos y la veta visible alrededor. Antes de pedirlo conviene saber qué se puede lograr, qué madera aguanta el detalle y dónde suelen fallar estos trabajos.",
+    {
+      "h2": "Qué es el grabado CNC en madera y qué resultado puedes esperar"
+    },
+    "Un router CNC es una fresadora controlada por computadora: una herramienta giratoria (la fresa) baja sobre la madera y sigue el dibujo vectorial con precisión milimétrica, retirando material. A diferencia del grabado láser, que quema la superficie y deja una marca oscura casi plana, el router talla. Hay profundidad, hay sombra dentro de la letra y la pieza se puede pintar o rellenar después.",
+    "Con un <a href=\"https://www.markedi.ec/router-cnc/\">router CNC</a> puedes hacer tres tipos de trabajo en madera: grabado de texto y logos (surcos finos), bajorrelieve (vaciar el fondo para que el diseño quede en alto) y corte de silueta (recortar la pieza completa con la forma del logo). En una placa de reconocimiento suelen combinarse los tres.",
+    {
+      "h2": "Fresa en V, fresa plana o bajorrelieve: cuál pide cada pieza"
+    },
+    "La técnica depende de la herramienta. La fresa en V tiene punta cónica: entra más profundo donde el trazo es ancho y menos donde es fino, por eso el texto grabado con ella tiene ese corte en cuña que se ve elegante y recoge bien la luz. La fresa plana (de punta recta) vacía áreas a una profundidad pareja; se usa para bajorrelieves y para cajear zonas que después se rellenan.",
+    {
+      "tabla": [
+        [
+          "Técnica",
+          "Cómo se ve",
+          "Para qué sirve",
+          "Ojo con"
+        ],
+        [
+          [
+            "Grabado con fresa en V",
+            "Surco en cuña, bordes nítidos",
+            "Textos, nombres, logos lineales",
+            "Letras muy pequeñas o muy finas se pierden"
+          ],
+          [
+            "Bajorrelieve",
+            "El diseño queda en alto y el fondo rebajado",
+            "Logos institucionales, escudos, piezas decorativas",
+            "Más tiempo de máquina; el fondo puede quedar con marcas de pasada"
+          ],
+          [
+            "Cajeado y relleno",
+            "Zona vaciada rellena con pintura o resina",
+            "Contraste fuerte en placas y señalética",
+            "La madera se sella antes para que la pintura no se corra por la veta"
+          ],
+          [
+            "Corte de silueta",
+            "Pieza recortada con la forma del logo",
+            "Logos para pared, trofeos, piezas sueltas",
+            "Puentes en letras como la O o la A si se quiere conservar el centro"
+          ]
+        ]
+      ]
+    },
+    "Si recortas la letra O completa, el círculo interior se cae: para conservarlo se dibujan pequeñas uniones (puentes) en el archivo o se monta la pieza sobre un fondo.",
+    {
+      "h2": "Madera maciza o MDF: la decisión que más cambia el resultado"
+    },
+    "La madera maciza tiene veta, color propio y se ve noble sin pintar. El problema es que la veta no es pareja: en las zonas donde la fresa corta a contraveta la fibra puede levantarse o astillarse, sobre todo en detalles finos. Las maderas de grano cerrado graban más limpio que las de poro abierto. Y se mueve con la humedad: una placa que sale seca de un taller de la Sierra y se cuelga en una oficina de la Costa puede abrirse o torcerse si no está bien estabilizada y sellada.",
+    "El MDF (tablero de fibras de densidad media) no tiene veta. Graba parejo, no se astilla y sale más económico, pero su interior es café opaco y sin dibujo, así que casi siempre se pinta o se lacan las caras. Funciona muy bien en placas con relleno de color, en piezas decorativas pintadas y en todo lo que va a llevar laca de color. En el portafolio de Markedi puedes ver <a href=\"https://www.markedi.ec/portafolio/letras-de-mdf/\">cortes en MDF hechos con router CNC</a>.",
+    "El contrachapado (plywood, láminas en capas cruzadas) es estable y su canto con capas visibles da un aire artesanal.",
+    {
+      "quote": "En madera, el archivo define la mitad del trabajo y la madera define la otra mitad. Un texto que se ve perfecto en pantalla puede astillarse si la letra es demasiado fina para la veta que te tocó.",
+      "cite": "Equipo de Markedi"
+    },
+    {
+      "h2": "Placas y reconocimientos: lo que hay que decidir antes de cotizar"
+    },
+    "En reconocimientos, el detalle que más se olvida es la variable: veinte placas iguales con veinte nombres distintos. Eso no complica el router, pero sí exige una lista limpia, con los nombres escritos como deben salir, tildes incluidas. Lo que se graba no se borra.",
+    {
+      "ol": [
+        "Define el tamaño de la placa y si será rectangular o con silueta propia.",
+        "Elige el material: madera maciza al natural, MDF pintado o contrachapado.",
+        "Decide la técnica: texto grabado en V, logo en bajorrelieve o cajeado con relleno de color.",
+        "Envía el logo en vectorial, idealmente DXF o DWG. Si no lo tienes, Markedi te ayuda a preparar el archivo.",
+        "Arma la lista de nombres en una hoja de cálculo, revisada por dos personas.",
+        "Indica cómo se exhibirá: colgada en pared, con soporte de escritorio o dentro de un estuche.",
+        "Aprueba una prueba de la primera pieza antes de grabar el lote completo."
+      ]
+    },
+    "Sobre plazos: los proyectos de router CNC en Markedi toman por lo general de 2 a 4 semanas según la complejidad. Si la ceremonia tiene fecha fija, escribe con margen.",
+    {
+      "h2": "Piezas decorativas y de marca: más allá de la placa"
+    },
+    "El grabado CNC sirve también para un logo en bajorrelieve en la pared de un restaurante o la señalización de un sendero en una hacienda. En Imbabura la talla en madera tiene una tradición conocida, la de San Antonio de Ibarra, y el router no la reemplaza: la talla a mano tiene un volumen orgánico que la máquina no imita. Lo que el router aporta es repetición exacta y letras perfectas, que es lo que una marca necesita cuando pide la misma pieza para varios locales en Quito, Cuenca o Guayaquil.",
+    "Si la pieza va a la intemperie, piensa en el acabado desde el inicio. La madera al sol y la lluvia se agrisa y se agrieta sin protección; necesita un sellador o barniz apto para exterior y mantenimiento periódico. Para letreros exteriores grandes suele convenir otro material, como aluminio o aluminio compuesto, y dejar la madera para interiores o zonas cubiertas.",
+    {
+      "h2": "Cuándo NO te conviene el grabado CNC en madera"
+    },
+    "Si necesitas cientos de piezas pequeñas con un logo diminuto y sin profundidad (llaveros, posavasos con texto fino), el grabado láser suele ser más rápido y deja más detalle en tamaños pequeños. El router brilla cuando hay profundidad, relieve o corte de piezas gruesas.",
+    "Tampoco conviene si el diseño depende de degradados o fotografías: el router trabaja con líneas y áreas, y una foto en relieve deja de ser un retrato fiel.",
+    {
+      "h2": "Regla práctica para que tu pieza grabada quede bien"
+    },
+    {
+      "ul": [
+        "Texto grabado en V: evita tipografías muy finas o letras muy pequeñas; prueba a tamaño real en papel.",
+        "Madera maciza: elige grano cerrado si hay detalle fino y pide que se selle antes del relleno de color.",
+        "MDF: piensa en él como base para pintar, no como madera para dejar al natural.",
+        "Lista de nombres: revisada dos veces antes de mandarla al taller.",
+        "Exterior: sellador apto para intemperie, o mejor otro material."
+      ]
+    },
+    "Nuestro taller está en Otavalo y atendemos proyectos en todo el Ecuador; la logística se coordina en cada caso. Si quieres ver opciones para tu pieza, escríbenos desde <a href=\"https://www.markedi.ec/contacto/\">contacto</a>.",
+    {
+      "faq": [
+        [
+          "¿Qué diferencia hay entre grabado CNC y grabado láser en madera?",
+          "El láser quema la superficie y deja una marca oscura casi plana, muy buena para detalles pequeños. El router CNC retira material con una fresa, así que da profundidad, relieve y permite rellenar con color."
+        ],
+        [
+          "¿Se puede grabar sobre una madera que yo entregue?",
+          "En general sí, si la pieza es plana, está seca y no tiene clavos ni grapas. Envía fotos y medidas antes para revisar la veta y el espesor."
+        ],
+        [
+          "¿Qué formato de archivo necesito?",
+          "Un archivo vectorial, idealmente DXF o DWG. Si solo tienes el logo en imagen, Markedi te ayuda a preparar el vectorial antes de grabar."
+        ],
+        [
+          "¿Las placas de madera grabada sirven para exterior?",
+          "Pueden ir afuera con un sellador o barniz apto para intemperie y mantenimiento periódico, pero la madera sufre con el sol y la lluvia. Para exteriores expuestos suele convenir aluminio o aluminio compuesto."
+        ]
+      ]
+    }
+  ],
+  "fuentes": [
+    "https://www.expreso.ec/buenavida/san-antonio-de-ibarra-arte-tradicion-y-sabores-en-un-pueblo-magico-278676.html (tradición de talla en madera de San Antonio de Ibarra)"
+  ]
+}

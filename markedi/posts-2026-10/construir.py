@@ -15,6 +15,9 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 WA = "593998255046"
 INICIO = dt.datetime(2026, 10, 7, 9, 0)
 CADA_DIAS = 2
+# Orden de publicación intercalando grupos (materiales, ciudad, trámites, negocio, CNC)
+GRUPOS = [list(range(1, 9)), list(range(9, 17)), list(range(17, 21)), list(range(21, 28)), list(range(28, 33))]
+ORDEN = [g[i] for i in range(8) for g in GRUPOS if i < len(g)]
 
 MIN_PAL, MAX_TITULO, META = 1150, 60, (140, 160)
 URLS_OK = {
@@ -147,7 +150,7 @@ def main():
     slugs = [x["slug"] for x in specs]
     assert len(slugs) == len(set(slugs)), "slugs repetidos"
     os.makedirs(os.path.join(AQUI, "posts"), exist_ok=True)
-    for i, s in enumerate(sorted(specs, key=lambda x: x["n"])):
+    for i, s in enumerate(sorted(specs, key=lambda x: ORDEN.index(x["n"]))):
         fecha = INICIO + dt.timedelta(days=CADA_DIAS * i)
         payload = {
             "title": s["title"], "slug": s["slug"], "status": "future",

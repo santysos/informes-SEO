@@ -1,0 +1,164 @@
+{
+ "n": 3,
+ "slug": "letras-iluminadas-luz-frontal-o-retroiluminadas",
+ "cat": 8,
+ "title": "Letras iluminadas: luz frontal, retroiluminadas (halo) o luz lateral, cuál se lee mejor",
+ "yoast_title": "Letras iluminadas: luz frontal, halo o lateral",
+ "yoast_desc": "Letras iluminadas de frente, retroiluminadas con halo o con luz lateral: cuál se lee desde la avenida, cuál pide pared clara y cuál cuesta más de mantener.",
+ "focus_kw": "letras iluminadas",
+ "excerpt": "Tres formas de iluminar una letra corpórea y lo que cambia en cada una: lectura a distancia, tipo de pared que necesitas y cómo se hace el mantenimiento.",
+ "tags": [
+  "letras iluminadas",
+  "retroiluminadas",
+  "letras con luz LED",
+  "rótulos luminosos"
+ ],
+ "wa_tema": "letras iluminadas con luz frontal o halo",
+ "bloques": [
+  "Ya decidiste que tu rótulo va con luz. Ahora el proveedor te pregunta si la quieres frontal, retroiluminada o lateral, y te muestra tres fotos tomadas de noche, todas bonitas. Lo que la foto no cuenta es desde qué distancia se lee cada una, qué pasa si tu pared es oscura o qué hay que desmontar cuando un módulo LED se apaga.",
+  "La forma en que sale la luz cambia la lectura, el costo y el mantenimiento más que el material de la letra. Te lo explicamos con lo que vemos al fabricar e instalar estas letras.",
+  {
+   "h2": "Si te tienen que leer desde lejos, luz frontal; si la pared es parte del diseño, halo"
+  },
+  "La <strong>luz frontal</strong> sale por la cara de la letra: la caja es de aluminio y la cara de acrílico translúcido, con LED dentro. Es la que se lee a más distancia y la más usada en avenidas, cooperativas, farmacias y locales que abren de noche. La <strong>retroiluminada o con halo</strong> tiene la cara opaca y los LED apuntando hacia la pared: la letra se ve como una silueta oscura rodeada de un resplandor. Se usa en hoteles, consultorios, recepciones y marcas que buscan un efecto sobrio. La <strong>luz lateral</strong> ilumina los cantos (los costados) de la letra, que son translúcidos, mientras la cara queda sólida. Es un punto intermedio, muy usado en interiores.",
+  {
+   "h2": "Cómo funciona cada una por dentro"
+  },
+  {
+   "h3": "Luz frontal"
+  },
+  "La letra es una caja hueca con fondo, cantos de aluminio y una cara de acrílico opal (lechoso), que difunde la luz para que no se vean los puntos de cada LED. La profundidad de la caja importa: si es muy baja para la separación de los módulos, la cara se ve con manchas claras y oscuras. En proyectos como las <a href=\"https://www.markedi.ec/portafolio/letras-iluminadas-lovisa/\">letras iluminadas de Lovisa</a> usamos aluminio y acrílico con resina epóxica, que deja una superficie de luz pareja.",
+  {
+   "h3": "Retroiluminada (halo)"
+  },
+  "La cara y los cantos son opacos, de aluminio o acero, y el fondo queda abierto o con acrílico transparente hacia la pared. La letra se monta separada del muro con espaciadores. Las guías del gremio de rótulos recomiendan entre 3,8 y 5 cm de separación: más cerca, el halo sale corto y la palabra se pierde; mucho más lejos, el resplandor se difumina y las letras se ven borrosas.",
+  {
+   "h3": "Luz lateral"
+  },
+  "Los cantos son de acrílico translúcido o de color y la cara es opaca o vinilada. La luz se ve como un contorno. Funciona muy bien a pocos metros, en un mostrador o una pared de recepción, y pierde fuerza en una fachada vista desde la calle.",
+  {
+   "h2": "Comparación rápida"
+  },
+  {
+   "tabla": [
+    [
+     "Criterio",
+     "Luz frontal",
+     "Retroiluminada (halo)",
+     "Luz lateral"
+    ],
+    [
+     [
+      "Lectura a distancia de noche",
+      "La mejor",
+      "Media",
+      "Baja"
+     ],
+     [
+      "Depende del color de la pared",
+      "No",
+      "Mucho: pide pared clara y mate",
+      "Poco"
+     ],
+     [
+      "Efecto",
+      "Bloque de luz, muy legible",
+      "Silueta con resplandor, sobrio",
+      "Contorno luminoso"
+     ],
+     [
+      "Uso típico",
+      "Fachadas, avenidas, agencias",
+      "Hoteles, recepciones, oficinas",
+      "Interiores, mostradores"
+     ],
+     [
+      "Acceso a los LED",
+      "Retirando la cara",
+      "Desmontando la letra del muro",
+      "Retirando la cara o el fondo"
+     ],
+     [
+      "Costo relativo",
+      "Base",
+      "Similar o algo mayor",
+      "Similar"
+     ]
+    ]
+   ]
+  },
+  {
+   "h2": "Lo que casi nadie te dice: la pared hace la mitad del trabajo del halo"
+  },
+  "Una letra con halo proyecta luz sobre el muro, y el muro es lo que ves brillar. Sobre una pared blanca o crema y de acabado mate, el halo se ve limpio. Sobre una pared negra, gris oscuro o de madera oscura, la luz se absorbe y casi desaparece. Sobre un porcelanato brillante o un vidrio, en lugar de halo ves el reflejo de cada LED como una fila de puntos.",
+  "Si tu fachada tiene un color oscuro, la solución es poner detrás de las letras un panel claro, por ejemplo de aluminio compuesto blanco mate, que funcione como pantalla. Encarece algo el proyecto, pero es la diferencia entre un halo que se ve y uno que no.",
+  {
+   "h2": "Fallas reales y cómo evitarlas"
+  },
+  {
+   "ul": [
+    "<strong>Agua dentro de la letra:</strong> en lluvias fuertes, como las de la Costa entre enero y mayo o las tardes de la Sierra, el agua entra por las uniones. Las letras de exterior llevan pequeños agujeros de drenaje en la parte baja y juntas selladas arriba.",
+    "<strong>Fuente de poder escondida:</strong> si la fuente (el transformador que alimenta los LED) quedó dentro de una pared o tras un panel atornillado, cambiarla cuesta más que la fuente. Debe quedar en una caja accesible y ventilada.",
+    "<strong>Un módulo apagado en una letra con halo:</strong> como hay que desmontar la letra del muro, una falla pequeña obliga a subir con escalera o andamio. Por eso conviene que el cableado tenga conectores, no empalmes con cinta.",
+    "<strong>Manchas en la cara de luz frontal:</strong> caja demasiado baja o pocos módulos. Se ve desde el primer día: revisa una foto de noche de un trabajo anterior del proveedor."
+   ]
+  },
+  {
+   "quote": "Antes de diseñar una letra con halo preguntamos de qué color es la pared y qué acabado tiene. Esa respuesta decide más que el tipo de LED.",
+   "cite": "Equipo de Markedi"
+  },
+  {
+   "h2": "Cuándo NO te conviene cada sistema"
+  },
+  {
+   "ul": [
+    "<strong>Halo en una avenida rápida:</strong> el conductor tiene pocos segundos para leerte. La luz frontal gana.",
+    "<strong>Halo sobre fachada oscura o brillante sin panel de fondo:</strong> vas a pagar el efecto y no vas a verlo.",
+    "<strong>Luz frontal en una recepción pequeña:</strong> a dos o tres metros puede resultar demasiado intensa; ahí la lateral o el halo se ven mejor.",
+    "<strong>Luz lateral para que te vean desde la esquina:</strong> el contorno no alcanza a esa distancia."
+   ]
+  },
+  "También se pueden combinar: cara iluminada de frente y halo detrás. Da lectura a distancia y profundidad, a cambio de más módulos y más trabajo de armado.",
+  {
+   "h2": "Cómo elegir en cuatro pasos"
+  },
+  {
+   "ol": [
+    "<strong>Mide desde dónde te deben leer.</strong> Párate en la esquina o en el carril más lejano y calcula la distancia. Si son varias decenas de metros, empieza por luz frontal.",
+    "<strong>Revisa la pared.</strong> Color, acabado y si es plana. Si quieres halo y la pared es oscura, suma un panel claro al presupuesto.",
+    "<strong>Define el horario.</strong> Un local que cierra a las siete no necesita lo mismo que una farmacia o un hotel abiertos toda la noche.",
+    "<strong>Pregunta por el mantenimiento.</strong> Dónde queda la fuente, cómo se accede a los LED y qué cubre la garantía en material y mano de obra."
+   ]
+  },
+  "Puedes ver ejemplos de los dos sistemas en nuestros <a href=\"https://www.markedi.ec/portafolio/letreros-luminosos/\">letreros luminosos</a> y conocer el servicio completo en <a href=\"https://www.markedi.ec/rotulos-luminosos/\">rótulos luminosos</a>. Fabricamos en Otavalo y atendemos proyectos en todo el Ecuador.",
+  {
+   "h2": "Regla práctica para no equivocarte"
+  },
+  "Calle y distancia: luz frontal. Pared clara y lectura a pocos metros: halo. Interior y detalle: lateral. Si dudas entre dos, pide una foto nocturna de un trabajo real de cada tipo, no un render.",
+  {
+   "faq": [
+    [
+     "¿Qué letras iluminadas se ven mejor de noche?",
+     "Las de luz frontal, porque toda la cara de la letra emite luz y se lee como un bloque. Las retroiluminadas se ven elegantes, pero se leen a menos distancia."
+    ],
+    [
+     "¿A qué distancia de la pared van las letras con halo?",
+     "Las guías del gremio recomiendan entre 3,8 y 5 cm. Más cerca, el halo queda corto; más lejos, se difumina y las letras pierden nitidez."
+    ],
+    [
+     "¿Las letras con halo funcionan en una pared oscura?",
+     "Funcionan mal, porque la pared absorbe la luz. Lo habitual es colocar detrás un panel claro y mate que sirva de pantalla."
+    ],
+    [
+     "¿Cuánto tarda fabricar letras iluminadas?",
+     "Por lo general entre una y dos semanas desde el diseño hasta la instalación, según el tamaño, la cantidad de letras y la altura de montaje. El plazo exacto se define en la consulta."
+    ]
+   ]
+  }
+ ],
+ "fuentes": [
+  "https://graphics-pro.com/feature/hello-halo-a-deeper-look-at-halo-lit-channel-letters/ (separación 1,5-2 in / 38-51 mm para halo)",
+  "https://www.signmedia.ca/leds-the-challenges-of-illuminating-channel-letters/3/ (separación del halo y legibilidad)",
+  "https://www.expreso.ec/guayaquil/recibe-primeras-lluvias-diciembre-invierno-224319.html (estación lluviosa del Litoral, enero-mayo)"
+ ]
+}
