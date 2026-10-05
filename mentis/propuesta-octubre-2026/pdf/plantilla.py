@@ -230,7 +230,7 @@ W_D = fila("d",
      "Alternativa mes a mes: $ 150.00 + IVA mensuales, $ 900.00 en total"],
     "600.00")
 W_NOTA = ("<b>Forma de pago:</b> 60&nbsp;% al iniciar ($ 600.00) y 40&nbsp;% a la entrega ($ 400.00). El &iacute;tem d es opcional.<br>"
-          "<b>Renovaci&oacute;n desde el segundo a&ntilde;o:</b> hosting $ 83.88 + dominio $ 21.99 = $ 105.87 al a&ntilde;o.<br>"
+          "<b>Renovaci&oacute;n desde el segundo a&ntilde;o:</b> hosting y correos corporativos $ 120.00 + dominio $ 21.99 = $ 141.99 + IVA al a&ntilde;o.<br>"
           "<b>Costos de terceros:</b> la pasarela de pago cobra su comisi&oacute;n por cada venta de cursos. "
           "Los tests son de orientaci&oacute;n y no reemplazan la evaluaci&oacute;n de un profesional.")
 

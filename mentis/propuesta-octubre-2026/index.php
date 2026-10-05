@@ -71,8 +71,8 @@ section{scroll-margin-top:64px}
       </div>
       <p class="text-suave mb-6">Un solo lugar para las <strong class="text-tinta">citas, las fichas de los pacientes, los cobros y las facturas</strong> de las dos sedes. Funciona en la computadora y en el celular, sin instalar nada.</p>
       <div class="flex items-end justify-between gap-4 border-t border-crema-200 pt-5">
-        <div><p class="text-sm text-suave">Para dejarlo listo</p><p class="precio text-4xl">$1.200</p></div>
-        <div class="text-right"><p class="text-sm text-suave">Luego, cada mes</p><p class="precio text-2xl">$59 <span class="text-base font-normal text-suave">por sede</span></p></div>
+        <div><p class="text-sm text-suave">Para dejarlo listo</p><p class="precio text-4xl">$1.200<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p></div>
+        <div class="text-right"><p class="text-sm text-suave">Luego, cada mes</p><p class="precio text-2xl">$59 <span class="text-base font-normal text-suave">+ IVA por sede</span></p></div>
       </div>
     </a>
     <a href="#web" class="card p-6 sm:p-8 block hover:border-azul-500 transition">
@@ -82,8 +82,8 @@ section{scroll-margin-top:64px}
       </div>
       <p class="text-suave mb-6">Su consultorio abierto en internet las 24 horas: los pacientes <strong class="text-tinta">conocen sus servicios, hacen un test, agendan su cita y compran un curso</strong> sin escribir a nadie.</p>
       <div class="flex items-end justify-between gap-4 border-t border-crema-200 pt-5">
-        <div><p class="text-sm text-suave">Pago único</p><p class="precio text-4xl">$1.000</p></div>
-        <div class="text-right"><p class="text-sm text-suave">Desde el 2.º año</p><p class="precio text-2xl">$105,87 <span class="text-base font-normal text-suave">al año</span></p></div>
+        <div><p class="text-sm text-suave">Pago único</p><p class="precio text-4xl">$1.000<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p></div>
+        <div class="text-right"><p class="text-sm text-suave">Desde el 2.º año</p><p class="precio text-2xl">$141,99 <span class="text-base font-normal text-suave">+ IVA al año</span></p></div>
       </div>
     </a>
   </div>
@@ -161,7 +161,7 @@ section{scroll-margin-top:64px}
   <div class="grid md:grid-cols-2 gap-4">
     <div class="card p-6 sm:p-8">
       <p class="text-suave">Para dejarlo listo · <strong class="text-tinta">se paga una vez</strong></p>
-      <p class="precio text-5xl mt-2 mb-4">$1.200</p>
+      <p class="precio text-5xl mt-2 mb-4">$1.200<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p>
       <ul class="space-y-2 text-[15px] text-suave">
         <li>✓ Adaptarlo a psicología y a sus dos sedes</li>
         <li>✓ Pasar sus pacientes actuales al sistema</li>
@@ -171,8 +171,8 @@ section{scroll-margin-top:64px}
     </div>
     <div class="card p-6 sm:p-8">
       <p class="text-suave">Para usarlo · <strong class="text-tinta">cada mes</strong></p>
-      <p class="precio text-5xl mt-2 mb-1">$59 <span class="text-xl font-normal text-suave">por sede</span></p>
-      <p class="text-suave mb-4">Quito + Ibarra = <strong class="text-tinta">$118 al mes</strong>, desde la entrega.</p>
+      <p class="precio text-5xl mt-2 mb-1">$59 <span class="text-xl font-normal text-suave">+ IVA por sede</span></p>
+      <p class="text-suave mb-4">Quito + Ibarra = <strong class="text-tinta">$118 + IVA al mes</strong>, desde la entrega.</p>
       <ul class="space-y-2 text-[15px] text-suave">
         <li>✓ Psicólogas y pacientes sin límite</li>
         <li>✓ Facturas electrónicas sin límite</li>
@@ -244,11 +244,11 @@ section{scroll-margin-top:64px}
     <div class="lg:grid lg:grid-cols-2 lg:gap-10">
       <div class="mb-6 lg:mb-0">
         <p class="text-suave">La página web · <strong class="text-tinta">pago único</strong></p>
-        <p class="precio text-5xl mt-2 mb-5">$1.000</p>
+        <p class="precio text-5xl mt-2 mb-5">$1.000<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p>
         <div class="space-y-2.5 text-[16px]">
-          <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Página web completa</span><strong>$500</strong></div>
-          <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Tests gratuitos en línea</span><strong>$200</strong></div>
-          <div class="flex justify-between gap-4"><span>Cursos con pago en línea</span><strong>$300</strong></div>
+          <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Página web completa</span><strong>$500 + IVA</strong></div>
+          <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Tests gratuitos en línea</span><strong>$200 + IVA</strong></div>
+          <div class="flex justify-between gap-4"><span>Cursos con pago en línea</span><strong>$300 + IVA</strong></div>
         </div>
         <p class="text-sm text-suave mt-4">Se paga 60 % al empezar ($600) y 40 % al entregar ($400).</p>
       </div>
@@ -259,7 +259,13 @@ section{scroll-margin-top:64px}
           <li><strong>El hosting:</strong> <span class="text-suave">el espacio en internet donde vive la página, encendido las 24 horas.</span></li>
           <li><strong>Correos con su nombre,</strong> <span class="text-suave">como citas@mentispsicologiaecuador.com.</span></li>
         </ul>
-        <p class="text-[15px] mt-4 pt-4 border-t border-crema-200">Desde el segundo año: <strong>$105,87 al año</strong> <span class="text-suave">(menos de $9 al mes) por mantener dominio y hosting.</span></p>
+        <div class="mt-4 pt-4 border-t border-crema-200 text-[15px]">
+          <p class="font-semibold mb-2">Desde el segundo año, cada año:</p>
+          <div class="flex justify-between gap-4"><span class="text-suave">Hosting y correos corporativos</span><strong>$120,00 + IVA</strong></div>
+          <div class="flex justify-between gap-4 mt-1"><span class="text-suave">Dominio</span><strong>$21,99 + IVA</strong></div>
+          <div class="flex justify-between gap-4 mt-2 pt-2 border-t border-crema-200"><span class="font-semibold">Total al año</span><strong>$141,99 + IVA</strong></div>
+          <p class="text-suave text-sm mt-2">Menos de $12 al mes por mantener la página, la dirección y los correos.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -284,8 +290,8 @@ section{scroll-margin-top:64px}
         <p class="font-d text-xl font-bold mb-1">Plan de 6 meses</p>
         <p class="text-suave text-[15px] mb-5">20 artículos al mes, 120 en total · un informe y una reunión cada mes para ver el avance</p>
         <div class="grid grid-cols-2 gap-3">
-          <div class="rounded-2xl bg-azul-50 p-5"><p class="text-sm text-suave">Un solo pago</p><p class="precio text-4xl mt-1">$600</p></div>
-          <div class="rounded-2xl bg-crema-50 border border-crema-200 p-5"><p class="text-sm text-suave">Mes a mes</p><p class="precio text-4xl mt-1">$150</p><p class="text-xs text-suave mt-1">$900 en total</p></div>
+          <div class="rounded-2xl bg-azul-50 p-5"><p class="text-sm text-suave">Un solo pago</p><p class="precio text-4xl mt-1">$600<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p></div>
+          <div class="rounded-2xl bg-crema-50 border border-crema-200 p-5"><p class="text-sm text-suave">Mes a mes</p><p class="precio text-4xl mt-1">$150<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p><p class="text-xs text-suave mt-1">al mes · $900 en total</p></div>
         </div>
       </div>
     </div>
