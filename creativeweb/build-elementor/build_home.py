@@ -50,7 +50,7 @@ header = C([
 
 # ============ HERO partido ============
 hero_izq = C([
-    H("empresa ecuatoriana de tecnología · Ibarra, desde 2010", "div", cls="cw-cap"),
+    H("Creative Web · empresa ecuatoriana de tecnología · Otavalo, desde 2010", "div", cls="cw-cap"),
     H("En Creative Web creamos páginas web, tiendas en línea y programas que hacen crecer tu negocio. "
       "Y lo probamos <b>con datos</b>.", "h1", cls="cw-h1"),
     C([BTNP("Cotiza tu proyecto", "#contacto", "cw-btn-pill cw-btn-lleno"),
