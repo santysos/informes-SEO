@@ -571,3 +571,19 @@ deployment:
     - chmod 644 $BASEPATH/multitecnologia-vyv/proforma-blog-seo-septiembre-2026/*.php
     - chmod 644 $BASEPATH/multitecnologia-vyv/proforma-blog-seo-septiembre-2026/.htaccess
     - chmod 644 $BASEPATH/multitecnologia-vyv/proforma-blog-seo-septiembre-2026/pdf/*.pdf
+    # ---- Mentis Psicología: proformas sistema 1-2-1333 + web 1-2-1334 (login Mentis-2026) ----
+    - /bin/mkdir -p $BASEPATH/mentis/propuesta-octubre-2026/pdf
+    - chmod 755 $BASEPATH/mentis
+    - chmod 755 $BASEPATH/mentis/propuesta-octubre-2026
+    - chmod 755 $BASEPATH/mentis/propuesta-octubre-2026/pdf
+    - /bin/cp -f mentis/propuesta-octubre-2026/.htaccess $BASEPATH/mentis/propuesta-octubre-2026/
+    - /bin/cp -f mentis/propuesta-octubre-2026/login.php $BASEPATH/mentis/propuesta-octubre-2026/
+    - /bin/cp -f mentis/propuesta-octubre-2026/index.php $BASEPATH/mentis/propuesta-octubre-2026/
+    - /bin/cp -f mentis/propuesta-octubre-2026/logout.php $BASEPATH/mentis/propuesta-octubre-2026/
+    - /bin/cp -f mentis/propuesta-octubre-2026/logo-mentis.jpg $BASEPATH/mentis/propuesta-octubre-2026/
+    - /bin/cp -f mentis/propuesta-octubre-2026/pdf/proforma-1-2-1333-sistema.pdf $BASEPATH/mentis/propuesta-octubre-2026/pdf/
+    - /bin/cp -f mentis/propuesta-octubre-2026/pdf/proforma-1-2-1334-web.pdf $BASEPATH/mentis/propuesta-octubre-2026/pdf/
+    - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/*.php
+    - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/.htaccess
+    - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/logo-mentis.jpg
+    - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/pdf/*.pdf
