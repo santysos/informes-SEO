@@ -178,7 +178,7 @@ def documento(numero, cobertura, renovacion, filas_items, filas_tot, nota):
 # ─── Proforma 1-2-1333 · Sistema ───────────────────────────────────────────
 S_A = fila("a",
     "IMPLEMENTACI&Oacute;N DEL SISTEMA PARA LAS SEDES DE QUITO E IBARRA &ndash; PAGO &Uacute;NICO",
-    ["Ficha cl&iacute;nica psicol&oacute;gica: motivo de consulta, anamnesis, antecedentes, examen mental, diagn&oacute;stico CIE-10 y plan terap&eacute;utico",
+    ["Ficha cl&iacute;nica psicol&oacute;gica: motivo de consulta, anamnesis, antecedentes, evaluaci&oacute;n del estado, diagn&oacute;stico CIE-10 y plan terap&eacute;utico",
      "Registro de cada sesi&oacute;n con notas de terapia e historial del paciente",
      "Cada sede ve solo sus ingresos y saldos; la propietaria ve las dos por separado",
      "Tarifas propias por sede y profesionales asignados a cada una",
@@ -191,14 +191,14 @@ S_B = fila("b",
     ["Profesionales y pacientes ilimitados en cada sede",
      "Agenda por profesional, con bloqueo de feriados, vacaciones y ausencias",
      "Recordatorios y confirmaciones de cita por WhatsApp",
-     "Reserva de citas en l&iacute;nea por sede",
+     "Reservas en tiempo real desde la p&aacute;gina web, con la agenda en vivo",
+     "Cada psic&oacute;logo recibe su lista de pacientes el d&iacute;a anterior y la ma&ntilde;ana de la cita",
      "Cobros, abonos y saldos del paciente, con pago mixto",
      "Facturaci&oacute;n electr&oacute;nica al SRI ilimitada, incluida en este valor",
      "Servidor, respaldos diarios y soporte"],
     "118.00")
 S_NOTA = ("<b>Primer pago:</b> 60&nbsp;% de la implementaci&oacute;n ($ 720.00). La suscripci&oacute;n se cobra desde la entrega.<br>"
-          "<b>Incluye una ficha psicol&oacute;gica</b>, con secciones que se definen en una reuni&oacute;n de dise&ntilde;o; "
-          "los cambios posteriores a lo aprobado se cobran por hora t&eacute;cnica.<br>"
+          "<b>La ficha psicol&oacute;gica</b> se define con Mentis en una reuni&oacute;n de dise&ntilde;o.<br>"
           "<b>Costos de terceros, no los cobra Creative Web:</b> mensajes de WhatsApp que cobra Meta (aprox. $ 0.01 por mensaje) "
           "y la firma electr&oacute;nica de cada RUC para facturar.")
 
@@ -207,7 +207,7 @@ W_A = fila("a",
     "SITIO WEB MENTIS PSICOLOG&Iacute;A",
     ["Inicio, servicios (ni&ntilde;os, adolescentes, adultos, adultos mayores, parejas y familias), presencial y virtual",
      "Sedes de Quito e Ibarra con mapa y WhatsApp &middot; equipo, testimonios y blog",
-     "Bot&oacute;n &laquo;Agendar cita&raquo; conectado a la agenda del sistema de cada sede",
+     "Reservas en tiempo real: muestra en vivo los horarios libres de la agenda del sistema",
      "Adaptado a celular &middot; SEO b&aacute;sico: Google Business, Search Console y t&iacute;tulos",
      "Primer a&ntilde;o incluido: dominio mentispsicologiaecuador.com, hosting y correos"],
     "500.00")

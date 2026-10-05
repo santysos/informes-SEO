@@ -95,25 +95,29 @@ section{scroll-margin-top:64px}
   <h2 class="font-d text-[28px] sm:text-4xl font-bold leading-tight mb-3 max-w-3xl">Así sería un día en Mentis con el sistema</h2>
   <p class="text-suave text-lg max-w-2xl mb-8">Es el mismo programa que vio en la reunión, adaptado a la psicología y a sus dos sedes.</p>
 
-  <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-10">
-    <div class="card p-5">
-      <div class="flex items-center gap-3 mb-3"><span class="paso-n">1</span><p class="font-d font-semibold text-lg leading-tight">El paciente agenda</p></div>
-      <p class="text-[15px] text-suave">Por la página web o en recepción. La cita aparece en la agenda de su psicóloga.</p>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+    <div class="card p-5 border-azul-500/40">
+      <div class="flex items-center gap-3 mb-3"><span class="paso-n">1</span><p class="font-d font-semibold text-lg leading-tight">Reserva en tiempo real</p></div>
+      <p class="text-[15px] text-suave">Desde la página web ve en vivo los horarios libres de su psicóloga y reserva. La cita entra sola a la agenda.</p>
     </div>
     <div class="card p-5">
       <div class="flex items-center gap-3 mb-3"><span class="paso-n">2</span><p class="font-d font-semibold text-lg leading-tight">Le llega un recordatorio</p></div>
-      <p class="text-[15px] text-suave">Antes de la cita recibe un WhatsApp automático y confirma con un clic. Menos citas perdidas.</p>
-    </div>
-    <div class="card p-5">
-      <div class="flex items-center gap-3 mb-3"><span class="paso-n">3</span><p class="font-d font-semibold text-lg leading-tight">La psicóloga abre su ficha</p></div>
-      <p class="text-[15px] text-suave">Ve el historial completo y escribe las notas de la sesión. Nada se pierde en cuadernos.</p>
-    </div>
-    <div class="card p-5">
-      <div class="flex items-center gap-3 mb-3"><span class="paso-n">4</span><p class="font-d font-semibold text-lg leading-tight">Recepción cobra</p></div>
-      <p class="text-[15px] text-suave">Registra el pago y la factura electrónica sale en un clic, con el RUC de esa sede.</p>
+      <p class="text-[15px] text-suave">Antes de la cita el paciente recibe un WhatsApp automático y confirma con un clic. Menos citas perdidas.</p>
     </div>
     <div class="card p-5 border-azul-500/40">
-      <div class="flex items-center gap-3 mb-3"><span class="paso-n">5</span><p class="font-d font-semibold text-lg leading-tight">Usted ve los números</p></div>
+      <div class="flex items-center gap-3 mb-3"><span class="paso-n">3</span><p class="font-d font-semibold text-lg leading-tight">La psicóloga recibe su lista</p></div>
+      <p class="text-[15px] text-suave">El día anterior y otra vez la mañana de la cita le llega el listado de pacientes que atiende ese día.</p>
+    </div>
+    <div class="card p-5">
+      <div class="flex items-center gap-3 mb-3"><span class="paso-n">4</span><p class="font-d font-semibold text-lg leading-tight">Abre la ficha y escribe</p></div>
+      <p class="text-[15px] text-suave">Ve el historial completo y anota lo de la sesión. Nada se pierde en cuadernos.</p>
+    </div>
+    <div class="card p-5">
+      <div class="flex items-center gap-3 mb-3"><span class="paso-n">5</span><p class="font-d font-semibold text-lg leading-tight">Recepción cobra</p></div>
+      <p class="text-[15px] text-suave">Registra el pago y la factura electrónica sale en un clic, con el RUC de esa sede.</p>
+    </div>
+    <div class="card p-5">
+      <div class="flex items-center gap-3 mb-3"><span class="paso-n">6</span><p class="font-d font-semibold text-lg leading-tight">Usted ve los números</p></div>
       <p class="text-[15px] text-suave">Cuánto ingresó Quito y cuánto Ibarra, por separado. Cada sede ve solo lo suyo.</p>
     </div>
   </div>
@@ -133,7 +137,8 @@ section{scroll-margin-top:64px}
       <p class="font-d text-xl font-bold mb-4 text-verde-600">Con el sistema</p>
       <ul class="space-y-3 text-[16px]">
         <li class="flex gap-3"><span class="text-verde-600 font-bold">✓</span>Cada psicóloga tiene su agenda, con feriados y vacaciones marcados.</li>
-        <li class="flex gap-3"><span class="text-verde-600 font-bold">✓</span>Los recordatorios salen solos por WhatsApp.</li>
+        <li class="flex gap-3"><span class="text-verde-600 font-bold">✓</span>Los pacientes reservan solos en la página web, con la agenda en vivo.</li>
+        <li class="flex gap-3"><span class="text-verde-600 font-bold">✓</span>Los recordatorios salen solos, y cada psicóloga recibe su lista del día.</li>
         <li class="flex gap-3"><span class="text-verde-600 font-bold">✓</span>Cada paciente tiene su ficha y lo que debe, siempre al día.</li>
         <li class="flex gap-3"><span class="text-verde-600 font-bold">✓</span>Cada sede factura con su propio RUC, sin límite de facturas.</li>
       </ul>
@@ -150,7 +155,7 @@ section{scroll-margin-top:64px}
     <div class="lg:col-span-3 grid grid-cols-2 gap-2.5 text-[15px]">
       <div class="rounded-xl bg-azul-50 px-4 py-3">Motivo de consulta</div>
       <div class="rounded-xl bg-azul-50 px-4 py-3">Historia personal y familiar</div>
-      <div class="rounded-xl bg-azul-50 px-4 py-3">Evaluación del estado mental</div>
+      <div class="rounded-xl bg-azul-50 px-4 py-3">Evaluación del estado</div>
       <div class="rounded-xl bg-azul-50 px-4 py-3">Diagnóstico</div>
       <div class="rounded-xl bg-azul-50 px-4 py-3">Plan de terapia</div>
       <div class="rounded-xl bg-azul-50 px-4 py-3">Notas de cada sesión</div>
@@ -181,7 +186,7 @@ section{scroll-margin-top:64px}
       </ul>
     </div>
   </div>
-  <p class="text-sm text-suave mt-4 max-w-3xl">Aparte, y no lo cobramos nosotros: los mensajes de WhatsApp tienen un costo de Meta de aprox. $0,01 cada uno, y cada sede necesita su firma electrónica para facturar. La ficha se diseña una vez; los cambios que se pidan después de aprobada se cobran por hora.</p>
+  <p class="text-sm text-suave mt-4 max-w-3xl">Aparte, y no lo cobramos nosotros: los mensajes de WhatsApp tienen un costo de Meta de aprox. $0,01 cada uno, y cada sede necesita su firma electrónica para facturar.</p>
 </section>
 
 <!-- ═════════ LA WEB ═════════ -->
@@ -222,7 +227,7 @@ section{scroll-margin-top:64px}
     <div class="lg:col-span-7 space-y-4">
       <div class="card p-5 sm:p-6 flex gap-4">
         <div class="ico bg-azul-50 text-azul-600"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4M9 15l2 2 4-4"/></svg></div>
-        <div><p class="font-d font-semibold text-lg">Agendar su cita</p><p class="text-[15px] text-suave">Elige sede, psicóloga y horario. La cita entra directo a la agenda del sistema.</p></div>
+        <div><p class="font-d font-semibold text-lg">Reservar su cita en tiempo real</p><p class="text-[15px] text-suave">Ve en vivo los horarios libres de cada psicóloga, elige sede y hora, y reserva. La cita entra directo a la agenda del sistema, sin que nadie la pase a mano.</p></div>
       </div>
       <div class="card p-5 sm:p-6 flex gap-4">
         <div class="ico bg-azul-50 text-azul-600"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M9 5h10M9 12h10M9 19h10"/><path d="M4 5l1 1 2-2M4 12l1 1 2-2M4 19l1 1 2-2"/></svg></div>
