@@ -67,7 +67,9 @@ def slugs_existentes():
     for estado in ("publish", "future", "draft", "pending", "private"):
         pag = 1
         while True:
-            lote = call("GET", "/posts", params={"per_page": 100, "page": pag, "status": estado, "_fields": "slug"})
+            # nc: el sitio cachea los GET del REST y devolvía el listado viejo tras publicar
+            lote = call("GET", "/posts", params={"per_page": 100, "page": pag, "status": estado,
+                                                 "_fields": "slug", "nc": int(time.time())})
             vistos |= {p["slug"] for p in lote}
             if len(lote) < 100:
                 break
