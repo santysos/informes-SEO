@@ -229,7 +229,7 @@ W_D = fila("d",
      "Informe y reuni&oacute;n mensual con apariciones, visitas y posiciones en Google",
      "Alternativa mes a mes: $ 150.00 + IVA mensuales, $ 900.00 en total"],
     "600.00")
-W_NOTA = ("<b>Forma de pago:</b> 60&nbsp;% al iniciar ($ 600.00) y 40&nbsp;% a la entrega ($ 400.00). El &iacute;tem d es opcional.<br>"
+W_NOTA = ("<b>Forma de pago:</b> 60&nbsp;% al iniciar ($ 492.00) y 40&nbsp;% a la entrega ($ 328.00). El &iacute;tem d es opcional.<br>"
           "<b>Renovaci&oacute;n desde el segundo a&ntilde;o:</b> hosting y correos corporativos $ 120.00 + dominio $ 21.99 = $ 141.99 + IVA al a&ntilde;o.<br>"
           "<b>Costos de terceros:</b> la pasarela de pago cobra su comisi&oacute;n por cada venta de cursos. "
           "Los tests son de orientaci&oacute;n y no reemplazan la evaluaci&oacute;n de un profesional.")
@@ -239,8 +239,8 @@ DOCS = {
     totales([("Implementaci&oacute;n:", "$ 1,200.00", ""), ("Mensual (2 sedes):", "$ 118.00", ""),
              ("IVA 15%:", "", ""), ("TOTAL:", "$ 1,318.00", "total")]), S_NOTA),
  "proforma-1-2-1334-web": documento("1-2-1334", "Anual", "RENOVACI&Oacute;N ANUAL DESDE EL A&Ntilde;O 2", W_A + W_B + W_C + W_D,
-    totales([("Subtotal:", "$ 1,000.00", ""), ("Descuento:", "", ""),
-             ("IVA 15%:", "", ""), ("TOTAL:", "$ 1,000.00", "total")]), W_NOTA),
+    totales([("Subtotal:", "$ 1,000.00", ""), ("Descuento:", "$ 180.00", ""),
+             ("IVA 15%:", "", ""), ("TOTAL:", "$ 820.00", "total")]), W_NOTA),
 }
 
 if __name__ == "__main__":

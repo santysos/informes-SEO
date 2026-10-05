@@ -82,7 +82,7 @@ section{scroll-margin-top:64px}
       </div>
       <p class="text-suave mb-6">Su consultorio abierto en internet las 24 horas: los pacientes <strong class="text-tinta">conocen sus servicios, hacen un test, agendan su cita y compran un curso</strong> sin escribir a nadie.</p>
       <div class="flex items-end justify-between gap-4 border-t border-crema-200 pt-5">
-        <div><p class="text-sm text-suave">Pago único</p><p class="precio text-4xl">$1.000<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p></div>
+        <div><p class="text-sm text-suave">Pago único <span class="line-through">$1.000</span></p><p class="precio text-4xl">$820<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p></div>
         <div class="text-right"><p class="text-sm text-suave">Desde el 2.º año</p><p class="precio text-2xl">$141,99 <span class="text-base font-normal text-suave">+ IVA al año</span></p></div>
       </div>
     </a>
@@ -244,13 +244,14 @@ section{scroll-margin-top:64px}
     <div class="lg:grid lg:grid-cols-2 lg:gap-10">
       <div class="mb-6 lg:mb-0">
         <p class="text-suave">La página web · <strong class="text-tinta">pago único</strong></p>
-        <p class="precio text-5xl mt-2 mb-5">$1.000<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p>
+        <p class="text-lg text-suave line-through mt-2">$1.000</p><p class="precio text-5xl mb-5">$820<span class="text-sm font-medium text-suave align-top ml-1">+ IVA</span></p>
         <div class="space-y-2.5 text-[16px]">
           <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Página web completa</span><strong>$500 + IVA</strong></div>
           <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Tests gratuitos en línea</span><strong>$200 + IVA</strong></div>
-          <div class="flex justify-between gap-4"><span>Cursos con pago en línea</span><strong>$300 + IVA</strong></div>
+          <div class="flex justify-between gap-4 border-b border-crema-200 pb-2.5"><span>Cursos con pago en línea</span><strong>$300 + IVA</strong></div>
+          <div class="flex justify-between gap-4 text-verde-600"><span>Descuento</span><strong>− $180</strong></div>
         </div>
-        <p class="text-sm text-suave mt-4">Se paga 60 % al empezar ($600) y 40 % al entregar ($400).</p>
+        <p class="text-sm text-suave mt-4">Se paga 60 % al empezar ($492) y 40 % al entregar ($328).</p>
       </div>
       <div class="rounded-2xl bg-crema-50 border border-crema-200 p-5 sm:p-6">
         <p class="font-d font-semibold text-lg mb-3">El primer año ya está incluido</p>
