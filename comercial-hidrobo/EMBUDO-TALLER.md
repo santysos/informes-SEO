@@ -71,3 +71,21 @@ Nuestro trabajo se limita a los posts/blog del embudo de taller.
   que meter el JSON-LD `AutoRepair` a mano en un widget HTML (no por API).
 - Medir a 30-60 días: % de sesiones que llegan a la página de reserva y reservas confirmadas
   contra la línea base (1,7 % / 25).
+
+### 2026-10-05 — CTA temprano en los 5 posts con más visitas
+
+**Medición a 19 días (16-sep → 4-oct, GA4):** sin efecto todavía. `form_taller_cita` 14 → 13,
+gracias-cita 16 → 19 frente a los 20 días previos. Por mes, las citas web se mantienen en 20-27
+(ago fue la excepción con 8; sep 24). El tracking funciona (GTM v4, disparador `wa.me|whatsapp`
+en todo el sitio), pero **el botón del bloque en los posts tuvo 0 clics** en ~700 vistas, y solo
+1 llegada a la página de reserva vino de un post. Causa probable: el bloque está al ~90 % del
+artículo; el lector se va al encontrar su respuesta.
+
+**Aplicado:** recuadro con botón de WhatsApp + enlace a reserva a mitad del texto
+(`cta-temprano-2026-10/aplicar.py`, marcador `cta-temprano-v1`, respaldo en `antes/`):
+Toyota 11364 (palabra 533/994), Consumo 8220 (325/957), Cilindrada 8117 (311/640),
+Torque 8099 (318/622) y Exoneración 8237 (434/1033, este a exonerados/ventas, no al taller).
+Cada botón lleva un mensaje propio («vengo de…») → se atribuye en GA4 por `linkUrl` del
+evento `whatsapp_click`.
+
+**Medir a fin de octubre:** clics con «vengo%20de» en `linkUrl`. Si funciona, extender a los 47.
