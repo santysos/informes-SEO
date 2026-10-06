@@ -15,3 +15,10 @@ tracking/.venv/
 
 # datos personales de clientes: no van al repo
 doeco/auditoria-usuarios-2026-09/usuarios-a-borrar.csv
+
+# Archivos que me pasa el usuario (no van al repo)
+_entrada/
+
+# entorno de Python para las APIs de Google
+.venv/
+casa-del-bandolin/analisis-2026-10/data/
