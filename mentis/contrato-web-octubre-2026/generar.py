@@ -94,11 +94,12 @@ table.valores th { background: #c9e3f7; border: .35mm solid #7fa9cc; font-weight
 table.valores th:last-child, table.valores td:last-child { text-align: right; width: 38mm; white-space: nowrap; }
 table.valores td { border: .35mm solid #7fa9cc; padding: 2mm 4mm; }
 table.valores tr.tot td { font-weight: 700; background: #eef6fc; }
-.firmas { display: flex; gap: 18mm; margin-top: 16mm; break-inside: avoid; }
+.final { break-before: page; height: 262mm; display: flex; flex-direction: column; }
+.firmas { display: flex; gap: 18mm; margin-top: 38mm; break-inside: avoid; }
 .firmas div { flex: 1; text-align: center; font-size: 9.5pt; line-height: 1.45; }
 .firmas .ln { border-top: .35mm solid #22344f; margin-bottom: 2mm; }
 .firmas b { font-weight: 600; display: block; }
-.pie { margin-top: 10mm; padding-top: 3mm; border-top: .35mm solid #b9c6d6; display: flex; justify-content: space-between;
+.pie { margin-top: auto; padding-top: 3mm; border-top: .35mm solid #b9c6d6; display: flex; justify-content: space-between;
        align-items: center; font-size: 8.5pt; color: #46586f; break-inside: avoid; }
 .pie img { height: 8mm; }
 @media screen { body { background: #eef2f7; } .hoja { max-width: 800px; margin: 24px auto; background: #fff; padding: 16mm 18mm; } }
@@ -106,7 +107,9 @@ table.valores tr.tot td { font-weight: 700; background: #eef6fc; }
 
 
 def html():
-    cl = "".join(f'<div class="clausula"><h2>{ORD[i]}. <span>{t.upper()}</span></h2>{c}</div>' for i, (t, c) in enumerate(CLAUSULAS))
+    bloque = lambda i, t, c: f'<div class="clausula"><h2>{ORD[i]}. <span>{t.upper()}</span></h2>{c}</div>'
+    cl = "".join(bloque(i, t, c) for i, (t, c) in enumerate(CLAUSULAS[:-2]))
+    fin = "".join(bloque(i, t, c) for i, (t, c) in list(enumerate(CLAUSULAS))[-2:])
     return f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
 <title>Contrato sitio web — Mentis Psicología</title>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -116,11 +119,14 @@ def html():
 <p class="sub">Contrato N.º CW-WEB-2026-MEN &nbsp;·&nbsp; Proforma N.º 1-2-1334 &nbsp;·&nbsp; Otavalo, 6 de octubre de 2026</p>
 <p class="comparecientes">Comparecen a la celebración del presente contrato, por una parte, <b>Santiago Oña Sánchez</b>, con RUC 1002906426001, en representación de <b>Creative Web</b>, con domicilio en Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo, a quien en adelante se denominará <b>EL PROVEEDOR</b>; y, por otra parte, <b>Ana Cristina Muñoz Cervantes</b>, con cédula de ciudadanía 1003084082, por <b>Mentis Psicología</b>, domiciliada en Ibarra, teléfono +593 99 108 9666, a quien en adelante se denominará <b>EL CLIENTE</b>. Las partes, mayores de edad y legalmente capaces, acuerdan las siguientes cláusulas:</p>
 {cl}
+<div class="final">
+{fin}
 <div class="firmas">
 <div><div class="ln"></div><b>EL PROVEEDOR</b>Santiago Oña Sánchez<br>Creative Web · RUC 1002906426001</div>
 <div><div class="ln"></div><b>EL CLIENTE</b>Ana Cristina Muñoz Cervantes<br>Mentis Psicología · C.I. 1003084082</div>
 </div>
 <div class="pie"><span>Creative Web · Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo · 099 917 4980 · info@creativeweb.com.ec</span><img src="data:image/png;base64,{ISO}" alt=""></div>
+</div>
 </div></body></html>"""
 
 
