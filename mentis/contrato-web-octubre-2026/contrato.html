@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contrato sitio web — Mentis Psicología</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0c2440; --navy2:#12365e; --accent:#0e7490; --accent-soft:#e0f2f5;
+    --ink:#1e293b; --muted:#64748b; --line:#e2e8f0;
+  }
+  @page { size:A4; margin:15mm 15mm 14mm; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font-family:"Inter",-apple-system,sans-serif; color:var(--ink); font-size:10.4pt; line-height:1.52; }
+
+  /* Cabecera (tarjeta, dentro de los márgenes) */
+  .top{ background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%); color:#fff; border-radius:14px; padding:22px 26px 24px; position:relative; overflow:hidden; margin-bottom:8mm; }
+  .top::after{ content:""; position:absolute; right:-30mm; top:-34mm; width:78mm; height:78mm; border-radius:50%; background:rgba(14,116,144,.20); }
+  .top .row{ display:flex; justify-content:space-between; align-items:flex-start; position:relative; z-index:1; }
+  .logo{ font-size:15pt; font-weight:700; letter-spacing:.2px; }
+  .logo span{ display:block; font-size:7.5pt; font-weight:400; opacity:.75; letter-spacing:1.5px; text-transform:uppercase; margin-top:2px; }
+  .meta{ text-align:right; font-size:8.5pt; opacity:.9; line-height:1.7; }
+  .meta b{ color:#7dd3e0; font-weight:600; }
+  .title{ position:relative; z-index:1; margin-top:7mm; }
+  .title .kicker{ font-size:8pt; letter-spacing:3px; text-transform:uppercase; color:#7dd3e0; font-weight:600; }
+  .title h1{ font-family:"Fraunces",serif; font-weight:600; font-size:22pt; line-height:1.1; margin-top:4px; }
+  .title .lead{ font-size:9.5pt; opacity:.85; margin-top:6px; }
+
+  /* Partes */
+  .parties{ display:flex; gap:6mm; margin-bottom:5mm; }
+  .party{ flex:1; border:1px solid var(--line); border-radius:10px; padding:11px 14px; background:#fbfcfe; }
+  .party .tag{ display:inline-block; font-size:7.5pt; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); padding:2px 8px; border-radius:20px; margin-bottom:7px; }
+  .party .nm{ font-weight:700; color:var(--navy); font-size:10.5pt; }
+  .party .det{ font-size:8.8pt; color:var(--muted); line-height:1.75; margin-top:3px; }
+
+  .intro{ text-align:justify; color:var(--muted); font-size:9.3pt; margin-bottom:5mm; }
+
+  /* Cláusulas — fluyen entre páginas; el título nunca queda huérfano al pie */
+  .clause{ margin-bottom:3.8mm; }
+  .clause h2{ display:flex; align-items:center; gap:9px; font-size:10.3pt; color:var(--navy); font-weight:700; margin-bottom:5px; break-after:avoid; }
+  .clause h2 .n{ flex:none; width:21px; height:21px; border-radius:6px; background:var(--navy); color:#fff; font-size:8.5pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .clause p{ text-align:justify; margin:4px 0; }
+  .clause ul{ list-style:none; margin:5px 0; }
+  .clause li{ position:relative; padding-left:18px; margin:5px 0; text-align:justify; break-inside:avoid; }
+  .clause li::before{ content:""; position:absolute; left:2px; top:8px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
+  .note{ font-size:8.8pt; color:var(--muted); font-style:italic; }
+
+  /* Caja Qué NO incluye */
+  .exclude{ border:1px solid #f0c9c0; background:#fdf5f3; border-radius:10px; padding:12px 16px; margin-bottom:4mm; break-inside:avoid; }
+  .exclude h2{ color:#b03a2e; }
+  .exclude h2 .n{ background:#b03a2e; }
+  .exclude li::before{ background:#b03a2e; }
+
+  /* Tabla de pago */
+  .pay{ width:100%; border-collapse:collapse; margin:6px 0 8px; font-size:9.6pt; border-radius:10px; overflow:hidden; box-shadow:0 0 0 1px var(--line); }
+  .pay td{ padding:9px 14px; border-bottom:1px solid var(--line); }
+  .pay td:last-child{ text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .pay tr:nth-child(odd) td{ background:#fbfcfe; }
+  .pay .sub td{ font-weight:600; }
+  .pay .total td{ background:var(--navy)!important; color:#fff; font-weight:700; font-size:10.6pt; border:0; }
+
+  /* Firmas */
+  .signs{ display:flex; gap:16mm; margin-top:8mm; break-inside:avoid; }
+  .signs div{ flex:1; text-align:center; }
+  .signs .ln{ border-top:1.5px solid var(--navy); margin-bottom:6px; }
+  .signs .who{ font-weight:700; color:var(--navy); font-size:9.5pt; }
+  .signs .ci{ font-size:8.5pt; color:var(--muted); margin-top:2px; }
+
+  .foot{ text-align:center; color:var(--muted); font-size:8pt; margin-top:6mm; letter-spacing:.3px; break-inside:avoid; }
+
+  /* Preview en pantalla (no afecta la impresión) */
+  @media screen{
+    body{ background:#eef2f7; }
+    .wrap{ max-width:780px; margin:26px auto; background:#fff; padding:15mm; border-radius:6px; box-shadow:0 10px 44px rgba(12,36,64,.16); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="row">
+      <div class="logo">Creative Web<span>Diseño web · Posicionamiento · Sistemas</span></div>
+      <div class="meta">Contrato <b>N.º CW-WEB-2026-MEN</b><br>Otavalo, ____ de octubre de 2026</div>
+    </div>
+    <div class="title">
+      <div class="kicker">Contrato de prestación de servicios</div>
+      <h1>Diseño y desarrollo del sitio web</h1>
+      <div class="lead">Sitio web Mentis Psicología · proforma N.º 1-2-1334</div>
+    </div>
+  </div>
+
+  <div class="parties">
+    <div class="party">
+      <span class="tag">El Proveedor</span>
+      <div class="nm">Creative Web — Santiago Oña Sánchez</div>
+      <div class="det">
+        RUC: 1002906426001<br>
+        Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo<br>
+        info@creativeweb.com.ec · 099 917 4980
+      </div>
+    </div>
+    <div class="party">
+      <span class="tag">El Cliente</span>
+      <div class="nm">Ana Cristina Muñoz Cervantes — Mentis Psicología</div>
+      <div class="det">
+        C.I.: 1003084082<br>
+        Dirección: ______________________________<br>
+        Teléfono: ______________ · Correo: ______________________
+      </div>
+    </div>
+  </div>
+
+  <p class="intro">Las partes, mayores de edad y legalmente capaces, acuerdan celebrar el presente contrato de prestación de servicios al tenor de las siguientes cláusulas.</p>
+
+  <div class="clause">
+    <h2><span class="n">1</span> Antecedentes</h2>
+    <p>El PROVEEDOR presentó al CLIENTE la proforma N.º 1-2-1334 del 5 de octubre de 2026 para el sitio web de Mentis Psicología. El CLIENTE aprobó el desarrollo del <b>sitio web</b> descrito en esa proforma (ítem «Sitio web Mentis Psicología»). Los tests psicológicos en línea, la venta de cursos con pago en línea y el plan de posicionamiento, también cotizados, no forman parte de este contrato. El presente contrato formaliza el acuerdo y define con precisión lo que se realizará y lo que no.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">2</span> Objeto</h2>
+    <p>El PROVEEDOR diseñará, desarrollará y publicará el sitio web de Mentis Psicología, con sus sedes de Quito e Ibarra, para presentar sus servicios y facilitar que los pacientes la contacten y agenden su cita.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">3</span> Alcance del servicio (qué incluye)</h2>
+    <p>Conforme a la proforma N.º 1-2-1334, el sitio web comprende:</p>
+    <ul>
+      <li><b>Páginas:</b> inicio y servicios para niños, adolescentes, adultos, adultos mayores, parejas y familias, en modalidad presencial y virtual.</li>
+      <li><b>Sedes de Quito e Ibarra</b> con su mapa y WhatsApp; equipo, testimonios y blog.</li>
+      <li><b>Reservas en tiempo real:</b> el sitio muestra en vivo los horarios libres de la agenda del sistema de cada sede y la cita entra directo a esa agenda.</li>
+      <li><b>Adaptado a celular.</b> <b>SEO básico:</b> Google Business, Search Console y títulos de cada página.</li>
+      <li><b>Primer año incluido:</b> dominio mentispsicologiaecuador.com (sujeto a disponibilidad al momento de registrarlo), hosting y correos corporativos.</li>
+    </ul>
+    <p class="note">Las reservas en tiempo real funcionan con el sistema de gestión de Mentis (proforma N.º 1-2-1333). Mientras ese sistema no esté activo, el botón «Agendar cita» lleva al WhatsApp de la sede correspondiente.</p>
+  </div>
+
+  <div class="exclude clause">
+    <h2><span class="n">4</span> Qué NO incluye</h2>
+    <p>Para que no aparezca ningún costo a mitad del trabajo, se deja por escrito que <b>este contrato no cubre</b>:</p>
+    <ul>
+      <li>Tests psicológicos en línea y venta de cursos o talleres con pago en línea.</li>
+      <li>El sistema de gestión para las sedes (agenda, fichas, cobros y facturación), que se rige por la proforma N.º 1-2-1333.</li>
+      <li>Plan de posicionamiento mensual con artículos de blog.</li>
+      <li>Fotos, videos y manejo de redes sociales.</li>
+    </ul>
+    <p class="note" style="margin-bottom:0;">Si alguno de estos u otros trabajos hace falta, se cotiza aparte y con anticipación, previa aprobación escrita del CLIENTE.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">5</span> Plazo y cronograma</h2>
+    <p>El sitio se entrega en un plazo de <b>cuatro (4) a cinco (5) semanas</b>, contadas desde la confirmación del anticipo y la entrega completa de la información por parte del CLIENTE (cláusula octava). El trabajo sigue este orden: (1) aprobación de la estructura y el diseño, (2) desarrollo de las páginas con los contenidos, (3) revisión del CLIENTE y ajustes, y (4) publicación y alta en Google.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">6</span> Valor y forma de pago</h2>
+    <table class="pay">
+      <tr><td>Sitio web Mentis Psicología (incluye el primer año de dominio, hosting y correos)</td><td>USD $500,00</td></tr>
+      <tr class="sub"><td>Subtotal</td><td>USD $500,00</td></tr>
+      <tr><td>IVA 15%</td><td>USD $75,00</td></tr>
+      <tr class="total"><td>TOTAL A PAGAR</td><td>USD $575,00</td></tr>
+    </table>
+    <p>El pago se realiza en dos partes:</p>
+    <ul>
+      <li><b>Anticipo del 60 %:</b> USD $300,00 más IVA (<b>USD $345,00</b>) a la firma del contrato. El trabajo arranca una vez confirmado este pago.</li>
+      <li><b>Saldo del 40 %:</b> USD $200,00 más IVA (<b>USD $230,00</b>) a la entrega del sitio publicado y aprobado.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">7</span> Renovación desde el segundo año</h2>
+    <p>Para mantener el sitio en línea desde el segundo año, el CLIENTE renovará cada año el alojamiento y los correos corporativos (USD $120,00) y el dominio (USD $21,99): <b>USD $141,99 más IVA al año</b>. El PROVEEDOR avisará con anticipación antes de cada vencimiento.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">8</span> Obligaciones del CLIENTE</h2>
+    <ul>
+      <li>Entregar la información necesaria para el sitio: lista de servicios, datos de las sedes, profesionales del equipo, fotografías, logotipo y testimonios autorizados.</li>
+      <li>Revisar y dar retroalimentación de los avances en un plazo razonable; el silencio por más de cinco (5) días hábiles se entiende como conformidad.</li>
+      <li>Realizar los pagos acordados en la cláusula sexta.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">9</span> Obligaciones del PROVEEDOR</h2>
+    <ul>
+      <li>Desarrollar el sitio descrito en la cláusula tercera con calidad profesional y dentro del plazo.</li>
+      <li>Registrar el dominio a nombre del CLIENTE y entregarle todos los accesos al finalizar.</li>
+      <li>Usar la información del CLIENTE solo para lo pactado y mantener la confidencialidad.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">10</span> Propiedad, confidencialidad y terminación</h2>
+    <p>Una vez pagado el valor total, el sitio web, sus textos y el dominio son propiedad del CLIENTE. Ambas partes guardarán reserva sobre la información y los accesos a los que tengan acceso con ocasión de este contrato. Si el CLIENTE decide no continuar después de pagar el anticipo, este cubre el trabajo realizado hasta ese momento.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">11</span> Aceptación</h2>
+    <p>Las partes declaran haber leído y entendido este contrato y lo aceptan en todas sus cláusulas, firmando en dos ejemplares de igual tenor.</p>
+  </div>
+
+  <div class="signs">
+    <div><div class="ln"></div><div class="who">EL PROVEEDOR</div><div class="ci">Santiago Oña Sánchez · Creative Web<br>RUC 1002906426001</div></div>
+    <div><div class="ln"></div><div class="who">EL CLIENTE</div><div class="ci">Ana Cristina Muñoz Cervantes · Mentis Psicología<br>C.I. 1003084082</div></div>
+  </div>
+
+</div>
+</body>
+</html>
