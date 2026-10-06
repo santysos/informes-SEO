@@ -1,0 +1,5 @@
+{
+ "_elementor_location": "elementor_head",
+ "_elementor_priority": 1,
+ "_elementor_code": "<!-- Google tag (gtag.js) -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-VWW08N474C\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-VWW08N474C');\r\n</script>"
+}
