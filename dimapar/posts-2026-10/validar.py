@@ -48,7 +48,9 @@ def validar(p):
         v = num(m)
         if v is None or v not in PERMITIDOS:
             e.append(f"precio no permitido: {m.strip()}")
-    for t in (p["title"], p["yoast_title"], p["yoast_desc"]):
+    if "excerpt" in p and re.search(r"\$\s?\d", p["excerpt"]):
+        e.append("el resumen (excerpt) tiene precios")
+    for t in (p["title"], p["yoast_title"], p["yoast_desc"], p.get("excerpt", "")):
         if re.search(r"\$\s?\d|precios? reales|con precios|precios 20", t, re.I):
             e.append(f"promete precios: «{t[:60]}»")
     if len(p["yoast_title"]) > 60:
