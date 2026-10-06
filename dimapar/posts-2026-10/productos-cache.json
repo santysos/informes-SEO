@@ -1,0 +1,380 @@
+{
+ "desmontadora-de-llantas-semi-automatica-besser-t2": {
+  "id": 325,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 661,
+  "name": "Desenllantadora BESSER T2"
+ },
+ "desellantadora-besser-t2l": {
+  "id": 21,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 19,
+  "name": "Desellantadora Besser T2L"
+ },
+ "balanceadora-besser": {
+  "id": 338,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 653,
+  "name": "Balanceadora B2P para Vehículos Livianos Besser"
+ },
+ "megaspin-220-hofmann": {
+  "id": 47,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 45,
+  "name": "Megaspin 220 &#8211; Blanceadora  Hofmann"
+ },
+ "parche-radial-xrp-14-cuadrado-azul-e-europeo": {
+  "id": 79,
+  "price": 1.5,
+  "regular": 1.5,
+  "img": 78,
+  "name": "PARCHE RADIAL XRP-14 CUADRADO AZUL E. EUROPEO"
+ },
+ "megaspin-220v-hofmann": {
+  "id": 50,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 48,
+  "name": "Megaspin 220v &#8211;  Balanceadora Hofmann"
+ },
+ "megaspin-610-hofmann": {
+  "id": 44,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 42,
+  "name": "Megaspin 610 &#8211;  Balanceadora Hofmann"
+ },
+ "megaspin-250-hofmann": {
+  "id": 41,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 39,
+  "name": "Megaspin 250 &#8211;  Balanceadora Motocicletas Camiones Autos Hofmann"
+ },
+ "megaspin-3200p-hofmann": {
+  "id": 52,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 51,
+  "name": "Megaspin 3200P &#8211;  Balanceadora Hofmann"
+ },
+ "hofmann-megamount-30": {
+  "id": 71,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 69,
+  "name": "Megamount 30 Desmontadora &#8211; Hofmann"
+ },
+ "desmontadora-t4se": {
+  "id": 323,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 322,
+  "name": "Desmontadora de Neumáticos T4SE Besser"
+ },
+ "megamount-15fs-hofmann": {
+  "id": 68,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 66,
+  "name": "Megamount 15FS &#8211; Desmontadora con Brazo Hofmann"
+ },
+ "megamount-t32-hofmann": {
+  "id": 56,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 55,
+  "name": "Megamount T32 &#8211;  Desmontadora de Camión Hofmann"
+ },
+ "megamount-2-26t2-hofmann": {
+  "id": 54,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 53,
+  "name": "Megamount 2-26T2 &#8211; Desmontadora Hofmann"
+ },
+ "pato-de-desmontadora-besser": {
+  "id": 134,
+  "price": 57.26,
+  "regular": 57.26,
+  "img": 133,
+  "name": "Pato de Desmontadora Besser"
+ },
+ "compresor-schulz-scl-20-1": {
+  "id": 340,
+  "price": 1857.14,
+  "regular": 1857.14,
+  "img": 339,
+  "name": "COMPRESOR SCHULZ SCL 20.1"
+ },
+ "parche-radial-xrp-12-azul-e-europeo": {
+  "id": 77,
+  "price": 1.15,
+  "regular": 1.15,
+  "img": 76,
+  "name": "PARCHE RADIAL XRP-12 AZUL E. EUROPEO"
+ },
+ "parche-radial-xrp-35-azul-e-europeo": {
+  "id": 83,
+  "price": 4.25,
+  "regular": 4.25,
+  "img": 82,
+  "name": "PARCHE RADIAL XRP-35 AZUL E. EUROPEO"
+ },
+ "parche-radial-xrp-40-azul-e-europeo": {
+  "id": 81,
+  "price": 4.5,
+  "regular": 4.5,
+  "img": 80,
+  "name": "PARCHE RADIAL XRP-40 AZUL E. EUROPEO"
+ },
+ "parche-radial-vbr-25-eco-radial": {
+  "id": 73,
+  "price": 3.52,
+  "regular": 3.52,
+  "img": 72,
+  "name": "PARCHE RADIAL VBR-25 ECO RADIAL"
+ },
+ "parche-radial-vbr-35-eco-radial": {
+  "id": 75,
+  "price": 4.25,
+  "regular": 4.25,
+  "img": 74,
+  "name": "PARCHE RADIAL VBR-35 ECO RADIAL"
+ },
+ "parche-diagonal-bp-0-flx-goma-gris": {
+  "id": 101,
+  "price": 0.28,
+  "regular": 0.28,
+  "img": 100,
+  "name": "PARCHE DIAGONAL BP-0 FLX GOMA GRIS"
+ },
+ "parche-diagonal-bp-3-flx-goma-gris": {
+  "id": 95,
+  "price": 1.09,
+  "regular": 1.09,
+  "img": 94,
+  "name": "PARCHE DIAGONAL BP-3 FLX GOMA GRIS"
+ },
+ "parche-diaonal-bp-7-flx-goma-gris": {
+  "id": 89,
+  "price": 5.89,
+  "regular": 5.89,
+  "img": 88,
+  "name": "PARCHE DIAONAL BP-7 FLX GOMA GRIS"
+ },
+ "prensa-vulcanizadora": {
+  "id": 231,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 230,
+  "name": "Prensa Vulcanizadora Eléctrica de Temperatura Muth"
+ },
+ "cemento-quimico-de-1-4-vermar": {
+  "id": 65,
+  "price": 8.5,
+  "regular": 8.5,
+  "img": 64,
+  "name": "Cemento Químico de 1/4 &#8211; Vermar"
+ },
+ "cemento-quimico-vulcanizante-1-2-lt-vermar": {
+  "id": 63,
+  "price": 14.0,
+  "regular": 14.0,
+  "img": 62,
+  "name": "Cemento Químico Vulcanizante 1/2 Lt &#8211;  Vermar"
+ },
+ "cemento-quimico-azul-1lt-vermar": {
+  "id": 61,
+  "price": 22.0,
+  "regular": 22.0,
+  "img": 60,
+  "name": "Cemento Quimico Azul 1Lt &#8211; Vermar"
+ },
+ "alineadora-3d-m240-besser": {
+  "id": 380,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 378,
+  "name": "Alineadora 4D BESSER M240"
+ },
+ "megaline-logik-8-hofmann": {
+  "id": 35,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 33,
+  "name": "Megaline Logik 8 &#8211;  Alienadora Hofmann"
+ },
+ "megaline-2500": {
+  "id": 38,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 36,
+  "name": "Megaline 2500- Alineadora Hofmann"
+ },
+ "alineadora-hofmann-mega-logik8-truck": {
+  "id": 24,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 22,
+  "name": "Alineadora Hofmann Mega logik8 &#8211; Truck  (Solo vehículo pesado)"
+ },
+ "alineadora-hofmann-camiones-hybrid-8": {
+  "id": 27,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 25,
+  "name": "Alineadora Hofmann &#8211; Autos y Camiones Hybrid  8"
+ },
+ "elevador-4-postes-para-alineacion-5ton-dk-50f4d": {
+  "id": 321,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 320,
+  "name": "Elevador 4 postes para alineación 5ton DK 50F4D Besser"
+ },
+ "elevador-2-postes-besser": {
+  "id": 200,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 198,
+  "name": "Elevador Besser de 5TON"
+ },
+ "elevador-de-2-postes-riel-inferior-muth": {
+  "id": 281,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 280,
+  "name": "Elevador de 2 postes Riel inferior Muth"
+ },
+ "elevador-de-2-postes-riel-superior-4ton-muth": {
+  "id": 283,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 282,
+  "name": "Elevador de 2 postes Riel Superior 4Ton Muth"
+ },
+ "megalift-sxxd-35-hofmann": {
+  "id": 32,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 30,
+  "name": "Megalift SXXD. 35 &#8211; Elevador electrohidráulico de doble tijera Hofmann"
+ },
+ "elevador-de-tijera-3-5-ton-torin": {
+  "id": 197,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 196,
+  "name": "Elevador De Tijera Para Mecánica Rápida 3.5 Ton Torin"
+ },
+ "elevador-de-motos": {
+  "id": 366,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 364,
+  "name": "ELEVADOR DE MOTOS Peq.1500 LBS &#8211; Besser"
+ },
+ "gata-lagarto-de-3-ton-thyson": {
+  "id": 223,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 222,
+  "name": "Gata Lagarto Normal de 3 Ton Thyson"
+ },
+ "prensa-hidraulica-taller-12ton-thyson": {
+  "id": 219,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 218,
+  "name": "Prensa Hidráulica Taller 12ton Thyson"
+ },
+ "prensa-hidraulica-taller-20-ton-thyson": {
+  "id": 217,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 216,
+  "name": "Prensa Hidráulica Taller 20 Ton Thyson"
+ },
+ "prensa-hidraulica-30-ton-thyson": {
+  "id": 215,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 212,
+  "name": "Prensa Hidráulica 30 Ton Thyson"
+ },
+ "prensa-50-ton-con-medidor-torin": {
+  "id": 195,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 194,
+  "name": "Prensa Hidráulica c/Bomba Neumática Big Red 50Ton Torin"
+ },
+ "gata-lagarto-bajo-perfil-3-ton-doble-bomba-thyson": {
+  "id": 221,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 220,
+  "name": "Gata Hidráulica Lagarto 3Ton Thyson"
+ },
+ "engrasadora-manual-12lt-muth": {
+  "id": 246,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 245,
+  "name": "Engrasadora Manual 12lt -Muth"
+ },
+ "engrasadora-manual-con-tanque-de-25-litros-muth": {
+  "id": 244,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 243,
+  "name": "Engrasadora Manual con tanque de 25 litros Muth"
+ },
+ "engrasadora-neumatica-tanque-de-12-litros-muth": {
+  "id": 239,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 238,
+  "name": "Engrasadora Neumática Tanque de 12 Litros Muth"
+ },
+ "engrasadora-neumatica-tanque-de-45-lt-muth": {
+  "id": 237,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 236,
+  "name": "Engrasadora Neumática tanque de 45 lt Muth"
+ },
+ "tanque-recolector-succionador-neumatico-de-aceite-80-lt-thyson": {
+  "id": 209,
+  "price": 0.0,
+  "regular": 0.0,
+  "img": 208,
+  "name": "Tanque Recolector-Succionador Neumático de Aceite 80 LT Thyson"
+ },
+ "llave-para-tubo-14-tramontina": {
+  "id": 28,
+  "price": 20.33,
+  "regular": 20.33,
+  "img": null,
+  "name": "LLAVE PARA TUBO 14 &#8211; TRAMONTINA"
+ },
+ "martillo-de-bola-mango-de-madera-500g-tramontina": {
+  "id": 29,
+  "price": 9.89,
+  "regular": 9.89,
+  "img": null,
+  "name": "MARTILLO DE BOLA MANGO DE MADERA 500G &#8211; TRAMONTINA"
+ },
+ "aceitera-manual-26q-20lt-tuta": {
+  "id": 363,
+  "price": 88.83,
+  "regular": 88.83,
+  "img": 361,
+  "name": "Aceitera Manual 26Q 20LT -BESSER"
+ }
+}
