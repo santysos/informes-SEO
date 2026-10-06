@@ -15,6 +15,7 @@ el mismo gtag, desde el mismo snippet. Nombres iguales a los de los demás clien
 | form_submit    | submit_success de Elementor (con form_name)               |
 | phone_click    | enlace tel:                                               |
 | email_click    | enlace mailto:                                            |
+| cta_click      | enlace a /contacto/ (botón «Escribir por el formulario»)  |
 
 Además corrige ventas@markedi.com → ventas@markedi.ec en la cabecera (plantilla 21):
 markedi.com no tiene servidor de correo y esos mensajes rebotaban.
@@ -22,7 +23,7 @@ markedi.com no tiene servidor de correo y esos mensajes rebotaban.
     python3 aplicar_medicion.py        # simulación
     python3 aplicar_medicion.py --ya   # aplica
 """
-import base64, json, os, sys, urllib.request
+import base64, json, os, re, sys, urllib.request
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 env = dict(l.strip().split("=", 1) for l in open(os.path.join(AQUI, "..", "..", ".env"))
@@ -31,7 +32,8 @@ AUTH = base64.b64encode(f"{env['MARKEDI_WP_USER']}:{env['MARKEDI_WP_APP_PASS']}"
 H = {"Authorization": f"Basic {AUTH}", "User-Agent": "Mozilla/5.0 (Macintosh) Chrome/128",
      "Content-Type": "application/json"}
 API = "https://www.markedi.ec/wp-json/wp/v2"
-MARCA = "cw-medicion-contactos-v1"
+MARCA = "cw-medicion-contactos-v2"
+MARCA_V1 = "cw-medicion-contactos-v1"
 
 LISTENER = """
 <!-- %s -->
@@ -56,6 +58,8 @@ LISTENER = """
       base.link_url = href; ev('phone_click', base);
     } else if (/^mailto:/i.test(href)) {
       base.link_url = href.split('?')[0]; ev('email_click', base);
+    } else if (/\\/contacto\\/?($|[?#])/i.test(href)) {
+      base.link_url = href; base.cta_texto = (a.textContent || '').trim().slice(0, 60); ev('cta_click', base);
     }
   }, true);
   document.addEventListener('DOMContentLoaded', function(){
@@ -85,9 +89,11 @@ def main():
     code = s["meta"]["_elementor_code"]
     open(os.path.join(AQUI, "antes", "snippet-441-head.html"), "w").write(code)
     if MARCA in code:
-        print("snippet 441: ya tiene el listener")
+        print("snippet 441: ya tiene el listener v2")
     else:
-        print("snippet 441: agrega listener (whatsapp_click, form_submit, phone_click, email_click)")
+        if MARCA_V1 in code:   # quita el v1 (sin cta_click) antes de poner el v2
+            code = re.sub(r"\n?<!-- %s -->.*?<!-- /%s -->" % (MARCA_V1, MARCA_V1), "", code, flags=re.S)
+        print("snippet 441: listener v2 (whatsapp_click, form_submit, phone_click, email_click, cta_click)")
         if ya:
             r = pedir("elementor_snippet/441", {"meta": {"_elementor_code": code + LISTENER}})
             print("   →", "OK" if MARCA in r["meta"]["_elementor_code"] else "FALLÓ")
