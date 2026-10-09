@@ -1,6 +1,6 @@
 # CLAUDE.md — Repositorio informes-SEO
 
-Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-09-14.
+Contexto operativo para futuras sesiones de Claude trabajando en este repo. Última actualización: 2026-10-09.
 
 ---
 
@@ -269,6 +269,52 @@ aceptar el **«Reconocimiento de recolección de datos de usuario»** en la inte
 Y `subscription_paid`/`sign_up_completed` que dependen de un redirect a una página sin GA
 (server action → `/app`) deben enviarse **server-side por MP**, no client-side. Mismo patrón
 aplicado en SRIFlow.
+
+### 11. Markedi — markedi.ec (rotulación 3D, CNC, alucobond · Otavalo, vende a todo Ecuador)
+
+WP + Elementor Pro + LiteSpeed. Credencial `.env` `MARKEDI_WP_*`. GA4 `properties/428649383`
+(`G-88TSD23EQB`, gtag en Código personalizado de Elementor 441 — sin GTM). Search Console
+`sc-domain:markedi.ec` (creada por el usuario 2026-10-05, sin historial).
+- **Medición (oct-2026):** listener en el snippet 441: whatsapp_click, form_submit, phone_click,
+  email_click, cta_click; dimensiones `pagina`, `form_name`, `cta_texto`.
+- **32 posts publicados 2026-10-05** (`markedi/posts-2026-10/`, sin precios). Faltan 8 de precios
+  hasta que el cliente dé tarifas (PLAN.md n 33-40).
+- Pendiente del usuario: abrir Header_1 (id 21) en Elementor y «Actualizar» (sigue mostrando
+  ventas@markedi.com aunque la base ya dice .ec). Testimonios del home son de relleno.
+
+### 12. La Casa del Bandolín — lacasadelbandolin.com (Woo de instrumentos andinos, Otavalo)
+
+Credencial `.env` `BANDOLIN_WP_*` (admin). GA4 `properties/366860071` (`G-S8L98L3HEL`, plugin
+woocommerce-google-analytics-integration). WhatsApp 098 078 8561 (`593980788561`).
+- **Hallazgo clave:** 12 meses → 31 pedidos sin pagar por $20.062 y solo 6 pagados ($1.554).
+  Transferencia desde el exterior: 0 cobrados de 18. **GA4 infla `purchase`** (se dispara al llegar
+  a «gracias» aunque no paguen): medir ventas en WooCommerce, no en GA4.
+- **Hecho 2026-10-06:** WhatsApp flotante + medición (snippet Elementor 3602), números clicables,
+  bloques de venta con 3 productos reales en los 102 posts (`cw-cta-ventas-v1`), 14 títulos Yoast,
+  51 fichas reescritas, plantilla de producto 371 ahora muestra la descripción, transferencia oculta
+  fuera de Ecuador (Code Snippets id 5), requinto vs guitarra unificado (301).
+- **Decisiones del usuario:** no tocar envíos ($120 SA / $180 NA-EU), no hacer seguimiento de
+  pedidos sin pagar. Pendientes: afinador de charango online, velocidad (sin caché).
+
+### 13. Mentis Psicología Ecuador (Quito + Ibarra) — cliente nuevo de octubre
+
+Proformas 1-2-1333 (sistema DentiLab adaptado: $1.200 + $59/sede/mes) y 1-2-1334 (web).
+**Aprobado solo el sitio web: $500 + IVA**, 60/40 ($345 / $230). El cliente **ya tiene hosting y
+dominio**: no se incluyen ni se renuevan con Creative Web. Contrato en
+`mentis/contrato-web-octubre-2026/` (`generar.py`, formato Creative Web con Outfit) con Ana Cristina
+Muñoz Cervantes, C.I. 1003084082, Ibarra, +593 99 108 9666. Escribir en **usted**.
+
+### Actualizaciones de octubre en proyectos existentes
+
+- **Dimapar:** GA4 único `properties/549438826`; gtag duplicado del snippet 488 reemplazado por un
+  listener (whatsapp_click, form_contacto, phone_click, ficha_tecnica_click, cta_click). Las
+  máquinas **no llevan precio** desde el 28-sep (decisión del cliente). WhatsApp correcto
+  **593997966191**. 10 posts publicados, página /blog/ (Elementor, id 700), Redirection instalado,
+  robots.txt bloquea `?wprfilters` y `filter_*` (eran los 5xx). Bot de Singapur: no se bloquea.
+- **Creative Web:** el GTM-5H98NZ63 recién se instaló el **2026-10-08** (snippet 2599): antes no
+  había ningún lead medido. Contar leads desde esa fecha y solo `whatsapp_click`.
+- **Quipuy:** `first_invoice_authorized` cuenta ~500/mes, se dispara con cada factura y no con la
+  primera: revisar en el código antes de usarlo como métrica de activación.
 
 ## Stack técnico
 
@@ -559,3 +605,88 @@ macOS bloquea iCloud, Escritorio y Descargas. Con el sandbox desactivado se pued
 archivo suelto de Descargas si se conoce la ruta exacta, pero **no listar la carpeta**. Lo
 práctico es pedirle que pegue la imagen con `Ctrl+V` o que deje el archivo en
 `_entrada/` del repo (gitignored).
+
+---
+
+## Notas técnicas de octubre 2026
+
+Todas comprobadas en producción.
+
+### El navegador del usuario bloquea Google Analytics
+
+En el Chrome del usuario no cargan gtag.js ni gtm.js (y los `collect` dan 503). **No sirve para
+probar medición ni para el «Tiempo real».** Verificar así:
+- interceptar `window.gtag` con JavaScript y disparar el clic (sin abrir WhatsApp);
+- bajar `gtm.js?id=GTM-XXXX` y buscar los eventos y el ID de medición;
+- pedirle que pruebe desde el celular sin bloqueador.
+Chrome headless no sirve para GA4: Google lo filtra como bot, y además no baja de 500 px de ancho
+(una captura a 390 px recorta una página de 500).
+
+### LiteSpeed esconde los scripts
+
+LiteSpeed convierte el JS inline en `src="data:text/javascript;base64,..."` y quita los comentarios
+HTML. Un `grep` del texto da 0 aunque el código esté. **Decodificar los base64 antes de concluir
+que algo no está instalado.**
+
+### Elementor por REST
+
+- `DELETE /wp-json/elementor/v1/cache` = «Regenerar archivos y datos». Funciona sin wp-admin.
+- Las metas de Elementor se escriben **de a una** en llamadas separadas; enviadas juntas con
+  `template` dieron 403 en Dimapar.
+- Los Códigos personalizados (`elementor_snippet`) se crean y editan por REST con
+  `_elementor_location`, `_elementor_code` y `_elementor_conditions`.
+- Un widget agregado a una plantilla de Theme Builder afecta a todos los productos que la usan
+  (Bandolín: la plantilla 371 no tenía el widget de descripción y 39 fichas no la mostraban).
+
+### GA4 duplicado por gtag pegado a mano
+
+Patrón repetido (Dimapar, Creative Web): Site Kit carga GA4 y además hay un gtag del mismo ID en un
+Código personalizado. gtag une el mismo ID y no duplica el `page_view` (verificado contando
+`collect` en el navegador), pero sobra: reemplazar ese snippet por el listener o por GTM.
+
+### GTM por API
+
+- El tipo de condición CSS se llama `cssSelector` (no `matchCssSelector`).
+- Botones flotantes de Click to Chat no son enlaces: `linkClick` no los ve. Agregar un disparador
+  `click` con `cssSelector` `#ht-ctc-chat, #ht-ctc-chat *` a la misma etiqueta `whatsapp_click`.
+- Un mismo clic de WhatsApp puede aparecer como `whatsapp_click`, `click` (medición mejorada) y
+  `Click` (Click to Chat). **En informes contar solo `whatsapp_click`.**
+- El `form_submit` automático de GA4 sale del buscador (formularios GET): para las cotizaciones de
+  Elementor usar otro nombre (`form_contacto`) y no mezclarlos.
+
+### Otros plugins por REST
+
+- **WP Super Cache:** `POST /wp-super-cache/v1/cache {"wp_delete_all_cache": true}`.
+- **Code Snippets:** se instala por `wp/v2/plugins` y los PHP se crean en
+  `POST /code-snippets/v1/snippets` (`scope: global`, `active: true`).
+- Al instalar un plugin, WordPress pone el sitio en «mantenimiento» unos segundos: si otra
+  actualización corre a la vez, la instalación devuelve 503. Verificar que el home responda 200 y
+  reintentar.
+- **WooCommerce Store API** sirve para probar el pago por país sin tocar el admin: `GET cart` →
+  `Cart-Token` y `Nonce`, `add-item`, `update-customer` con país y **provincia válida**.
+
+### Search Console
+
+- Picos de impresiones con 0 clics en 2-3 días (Dimapar `/contacto/`: 564 mil) son búsquedas
+  automatizadas: excluirlos de cualquier comparación.
+- Filtros de WooCommerce (`?wprfilters&filter_product_tag=…`) generan miles de URLs: bloquearlas en
+  robots.txt (Yoast → Editor de archivos, **fuera** del bloque de Yoast).
+- La URL Inspection API da el estado de cada URL según Google (fetch y cobertura); 587 URLs tardan
+  ~40 min a 1 por segundo.
+
+### Git: el puerto 22 puede estar bloqueado
+
+Si `git push` falla con «Operation timed out», subir por HTTPS con la sesión de `gh`, sin tocar la
+configuración:
+`git -c credential.helper= -c credential.helper='!gh auth git-credential' push https://github.com/santysos/informes-SEO.git main`
+
+### Agentes en paralelo
+
+Comparten el scratchpad y se pisan los scripts con el mismo nombre (pasó con `gen.py`). En el
+prompt, pedir que usen una subcarpeta propia, y al final **revalidar todo el lote**.
+
+### Firma electrónica
+
+No pedir ni aceptar la clave del `.p12` por el chat (queda en el historial). Firmar con FirmaEC o
+con un script que el usuario corre en su propia terminal.
+
