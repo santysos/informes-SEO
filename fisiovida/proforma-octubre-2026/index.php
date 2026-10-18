@@ -256,6 +256,7 @@ input:checked + .tog::after{left:23px}
               <ul class="space-y-2 text-sm text-slate-300">
                 <li>✓ Autorizada por el SRI al momento</li>
                 <li>✓ Facturas ilimitadas, con Quipuy</li>
+                <li>✓ <strong class="text-marca-300">Quipuy va incluido en la mensualidad</strong>: ahorran $28 + IVA al año por cada médico</li>
               </ul>
             </div>
           </div>
@@ -381,6 +382,10 @@ input:checked + .tog::after{left:23px}
           <p class="text-sm text-slate-400">Uso del sistema, cada mes</p>
           <p class="text-3xl font-bold text-white mt-1"><span id="mes">$98</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
           <p class="text-sm text-slate-400 mt-1">$49 por sede · servidor propio, respaldos diarios y soporte por WhatsApp</p>
+          <div class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-4 mt-4 text-sm">
+            <p class="text-white font-semibold">🎁 Quipuy incluido, sin costo</p>
+            <p class="text-slate-300 mt-1">Por ser clientes del sistema, cada médico factura con Quipuy sin pagar su licencia: <strong class="text-marca-300">un ahorro de $28 + IVA al año por médico</strong>, con facturas ilimitadas.</p>
+          </div>
           <div class="rounded-2xl bg-slate-950/50 border border-slate-800 p-4 mt-6 text-sm text-slate-300">
             Son <strong class="text-marca-300">$275 por especialidad</strong> en el sistema base, y <strong class="text-marca-300">menos de $1,70 al día por sede</strong> para usarlo.
           </div>
@@ -412,7 +417,7 @@ input:checked + .tog::after{left:23px}
       <div class="rounded-2xl border border-slate-700/60 p-6">
         <p class="text-white font-semibold mb-3">Para que no haya sorpresas</p>
         <ul class="space-y-1.5 text-slate-400">
-          <li>· Aparte cobran Meta (aprox. $0,01 por mensaje), PayPhone (comisión por pago) y Quipuy ($28 + IVA al año por médico que factura)</li>
+          <li>· Aparte cobran Meta (aprox. $0,01 por mensaje) y PayPhone (comisión por pago)</li>
           <li>· Cada médico que factura necesita su firma electrónica</li>
           <li>· Meta aprueba cada número en días o hasta dos semanas</li>
           <li>· No incluye pasar datos de Motrix ni paquetes de sesiones</li>

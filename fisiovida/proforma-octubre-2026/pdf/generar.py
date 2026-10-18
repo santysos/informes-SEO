@@ -179,12 +179,13 @@ ITEMS = (
     "Un n&uacute;mero por especialidad &middot; recordatorio y confirmaci&oacute;n de cita &middot; lista diaria para cada m&eacute;dico",
   ], "350.00")
   + fila("d", "ADICIONAL C &ndash; FACTURA ELECTR&Oacute;NICA EN UN CLIC (QUIPUY)", [
-    "Cada m&eacute;dico factura su atenci&oacute;n con su propio RUC, autorizada por el SRI",
+    "Cada m&eacute;dico factura su atenci&oacute;n con su propio RUC, autorizada por el SRI &middot; licencia Quipuy incluida en la mensualidad",
   ], "200.00")
 )
 
 NOTA = ("Uso del sistema desde la entrega: <b>$49 + IVA al mes por sede</b> (servidor, respaldos y soporte).<br>"
-        "Terceros, no incluidos: Quipuy $28 + IVA al a&ntilde;o por m&eacute;dico que factura; firma electr&oacute;nica "
+        "<b>Quipuy incluido en la mensualidad:</b> ahorro de $28 + IVA al a&ntilde;o por cada m&eacute;dico que factura.<br>"
+        "Terceros, no incluidos: firma electr&oacute;nica "
         "de cada m&eacute;dico; mensajes de WhatsApp de Meta (aprox. $0,01 c/u); comisi&oacute;n de PayPhone por pago.<br>"
         "Entrega del sistema: 6 semanas; los adicionales suman 1 a 2. No incluye pasar datos de Motrix.")
 
