@@ -598,3 +598,11 @@ deployment:
     - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/.htaccess
     - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/logo-mentis.jpg
     - chmod 644 $BASEPATH/mentis/propuesta-octubre-2026/pdf/*.pdf
+    - /bin/mkdir -p $BASEPATH/fisiovida/proforma-octubre-2026/pdf
+    - chmod 755 $BASEPATH/fisiovida $BASEPATH/fisiovida/proforma-octubre-2026 $BASEPATH/fisiovida/proforma-octubre-2026/pdf
+    - /bin/cp -f fisiovida/proforma-octubre-2026/.htaccess $BASEPATH/fisiovida/proforma-octubre-2026/
+    - /bin/cp -f fisiovida/proforma-octubre-2026/login.php $BASEPATH/fisiovida/proforma-octubre-2026/
+    - /bin/cp -f fisiovida/proforma-octubre-2026/index.php $BASEPATH/fisiovida/proforma-octubre-2026/
+    - /bin/cp -f fisiovida/proforma-octubre-2026/logout.php $BASEPATH/fisiovida/proforma-octubre-2026/
+    - /bin/cp -f fisiovida/proforma-octubre-2026/pdf/proforma-1-2-1336.pdf $BASEPATH/fisiovida/proforma-octubre-2026/pdf/
+    - chmod 644 $BASEPATH/fisiovida/proforma-octubre-2026/*.php $BASEPATH/fisiovida/proforma-octubre-2026/.htaccess $BASEPATH/fisiovida/proforma-octubre-2026/pdf/*.pdf
