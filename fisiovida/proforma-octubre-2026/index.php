@@ -11,7 +11,7 @@ if (empty($_SESSION['auth_fisiovida'])) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Sistema multiespecialidad &mdash; FisioVida</title>
+<title>Un solo centro &mdash; FisioVida</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,345 +19,471 @@ if (empty($_SESSION['auth_fisiovida'])) {
 <script>
 tailwind.config={theme:{extend:{
   fontFamily:{sans:['Outfit','system-ui','sans-serif'],mono:['JetBrains Mono','monospace']},
-  colors:{marca:{300:'#5eead4',400:'#2dd4bf',500:'#14b8a6',600:'#0d9488'}}
+  colors:{marca:{200:'#99f6e4',300:'#5eead4',400:'#2dd4bf',500:'#14b8a6',600:'#0d9488',700:'#0f766e'}}
 }}}
 </script>
 <style>
 html{scroll-behavior:smooth}
-body{background:radial-gradient(1200px 780px at 22% 0%, rgba(20,184,166,.13), transparent 62%), #0a0f16;overflow-x:hidden}
-.glass{background:rgba(17,26,36,.5);backdrop-filter:blur(18px)}
-section{scroll-margin-top:80px}
-.anc{scroll-margin-top:80px}
+body{background:#0a0f16;overflow-x:hidden}
+section{scroll-margin-top:70px}
+.glass{background:rgba(17,26,36,.55);backdrop-filter:blur(18px)}
 .nav a.on{color:#fff;background:rgba(20,184,166,.18)}
-.prosa{max-width:64ch}
-.eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase}
-.paso{width:28px;height:28px;border-radius:999px;background:rgba(20,184,166,.15);color:#2dd4bf;font-weight:700;font-size:13px;display:grid;place-items:center;flex:none}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+.hero-bg{background:radial-gradient(900px 600px at 15% 10%,rgba(20,184,166,.22),transparent 60%),radial-gradient(700px 500px at 90% 40%,rgba(56,189,248,.10),transparent 60%)}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.vis{opacity:1;transform:none}
+.paso-btn{transition:all .25s}
+.paso-btn.on{background:rgba(20,184,166,.14);border-color:rgba(45,212,191,.6)}
+.paso-btn.on .num{background:#14b8a6;color:#0a0f16}
+.pantalla{display:none;animation:fade .45s ease}
+.pantalla.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.tel{width:250px;border-radius:34px;background:#1e293b;padding:9px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6)}
+.tel .in{border-radius:27px;overflow:hidden;background:#f8fafc;color:#0f172a;min-height:420px}
+.nav-scroll{scrollbar-width:none}.nav-scroll::-webkit-scrollbar{display:none}
+.tog{width:44px;height:24px;border-radius:99px;background:#334155;position:relative;transition:.25s;flex:none}
+.tog::after{content:'';position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:99px;background:#fff;transition:.25s}
+input:checked + .tog{background:#14b8a6}
+input:checked + .tog::after{left:23px}
+.opcion{transition:.25s}
+.opcion:has(input:checked){border-color:rgba(45,212,191,.6);background:rgba(20,184,166,.07)}
 </style>
 </head>
-<body class="text-slate-200 font-sans antialiased">
+<body class="text-slate-200 font-sans antialiased pb-20 lg:pb-0">
 
 <nav class="nav sticky top-0 z-50 border-b border-slate-800/60 backdrop-blur-xl bg-[#0a0f16]/85">
-  <div class="max-w-6xl mx-auto px-6">
-    <div class="flex gap-1 overflow-x-auto py-3 text-[13px] font-medium">
-      <a href="#sistema" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 whitespace-nowrap transition">El sistema</a>
-      <a href="#historia" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 whitespace-nowrap transition">Historia clínica</a>
-      <a href="#adicionales" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 whitespace-nowrap transition">Adicionales</a>
-      <a href="#inversion" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 whitespace-nowrap transition">Inversión</a>
-      <a href="#cronograma" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 whitespace-nowrap transition">Cronograma</a>
+  <div class="max-w-6xl mx-auto px-5 flex items-center gap-4">
+    <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-6 w-auto hidden md:block">
+    <div class="nav-scroll flex gap-1 overflow-x-auto py-3 text-[13px] font-medium">
+      <a href="#reto" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap transition">El reto</a>
+      <a href="#recorrido" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap transition">Un día en FisioVida</a>
+      <a href="#historia" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap transition">La historia</a>
+      <a href="#cambia" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap transition">Lo que cambia</a>
+      <a href="#arme" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap transition">Arme su sistema</a>
     </div>
+    <a href="logout.php" class="ml-auto text-xs text-slate-500 hover:text-slate-300 whitespace-nowrap">Salir</a>
   </div>
 </nav>
 
-<div class="max-w-6xl mx-auto px-6">
-
-  <!-- ══════════ PORTADA ══════════ -->
-  <header class="pt-14 pb-10">
-    <div class="flex items-start justify-between gap-6">
-      <div>
-        <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-8 w-auto mb-5">
-        <p class="eyebrow text-marca-400 mb-3">Propuesta &middot; Proforma 1-2-1336</p>
-        <h1 class="text-4xl md:text-5xl font-bold text-white leading-[1.08] tracking-tight">Un sistema para todas<br>las especialidades de FisioVida</h1>
-        <p class="text-slate-400 mt-4">FisioVida &middot; Sr. Fernando Landeta &middot; octubre de 2026</p>
-      </div>
-      <a href="logout.php" class="text-xs text-slate-500 hover:text-slate-300 whitespace-nowrap mt-2">Salir</a>
-    </div>
-  </header>
-
-  <div class="grid md:grid-cols-3 gap-4 mb-4">
-    <a href="#inversion" class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-6 hover:border-marca-500/70 transition flex flex-col">
-      <p class="eyebrow text-marca-400 mb-3">El sistema</p>
-      <p class="text-3xl font-bold text-marca-400 mb-2">$2.200</p>
-      <p class="text-sm text-slate-400 mt-auto">+ IVA &middot; una sola vez, 8 especialidades y todas las sedes</p>
-    </a>
-    <a href="#adicionales" class="rounded-2xl border border-slate-700/60 glass p-6 hover:border-slate-500 transition flex flex-col">
-      <p class="eyebrow text-slate-500 mb-3">Adicionales</p>
-      <p class="text-3xl font-bold text-white mb-2">$200 a $350</p>
-      <p class="text-sm text-slate-400 mt-auto">+ IVA cada uno &middot; reserva en línea, WhatsApp y facturación</p>
-    </a>
-    <a href="#inversion" class="rounded-2xl border border-slate-700/60 glass p-6 hover:border-slate-500 transition flex flex-col">
-      <p class="eyebrow text-slate-500 mb-3">Cada mes</p>
-      <p class="text-3xl font-bold text-white mb-2">$49</p>
-      <p class="text-sm text-slate-400 mt-auto">+ IVA por sede &middot; desde la entrega</p>
-    </a>
+<!-- ══════════ PORTADA ══════════ -->
+<header class="hero-bg">
+  <div class="max-w-6xl mx-auto px-5 pt-16 pb-20 md:pt-24 md:pb-28">
+    <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-8 w-auto mb-8 md:hidden">
+    <p class="eyebrow text-marca-400 mb-5">Propuesta para FisioVida &middot; Sr. Fernando Landeta</p>
+    <h1 class="text-[40px] md:text-7xl font-bold text-white leading-[1.03] tracking-tight max-w-4xl">Ocho especialidades.<br><span class="text-marca-400">Un solo centro.</span></h1>
+    <p class="text-lg md:text-xl text-slate-400 mt-6 max-w-2xl">Un sistema hecho solo para FisioVida, donde cada médico tiene su agenda y cada paciente tiene una sola historia, la de todas las especialidades.</p>
+    <a href="#reto" class="inline-flex items-center gap-2 mt-10 px-7 py-4 rounded-2xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold hover:brightness-110 transition">Empezar el recorrido <span aria-hidden="true">↓</span></a>
   </div>
-  <p class="text-xs text-slate-500 prosa">Es un sistema nuevo, solo para FisioVida. Motrix sigue funcionando como hoy.</p>
+</header>
 
-  <!-- ══════════ EL SISTEMA ══════════ -->
-  <section id="sistema" class="mt-20 pt-10 border-t border-slate-800/70">
-    <p class="eyebrow text-marca-400 mb-2">El sistema</p>
-    <h2 class="text-3xl font-bold text-white leading-tight mb-3">Agenda, atención y ficha, especialidad por especialidad</h2>
-    <p class="text-slate-400 prosa mb-10">Funciona en la computadora, la tablet y el celular, sin instalar nada. Cada persona entra con su usuario y ve lo que le corresponde.</p>
+<div class="max-w-6xl mx-auto px-5">
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <div class="flex items-center gap-3 mb-3"><span class="paso">1</span><p class="font-semibold text-white">Recepción agenda</p></div>
-        <p class="text-sm text-slate-400">Filtra por especialidad, médico o sede y ve los espacios libres. Cada especialidad con la duración de cita que le corresponde.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <div class="flex items-center gap-3 mb-3"><span class="paso">2</span><p class="font-semibold text-white">El médico ve su día</p></div>
-        <p class="text-sm text-slate-400">Su agenda, sus pacientes y sus horarios, con feriados y vacaciones bloqueados.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <div class="flex items-center gap-3 mb-3"><span class="paso">3</span><p class="font-semibold text-white">Atiende y registra</p></div>
-        <p class="text-sm text-slate-400">Abre la ficha de su especialidad y anota la sesión. Cada atención queda guardada con fecha y médico.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <div class="flex items-center gap-3 mb-3"><span class="paso">4</span><p class="font-semibold text-white">Receta y certificado</p></div>
-        <p class="text-sm text-slate-400">Los imprime desde la atención, con el logo de FisioVida y los datos del médico.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <div class="flex items-center gap-3 mb-3"><span class="paso">5</span><p class="font-semibold text-white">Adjunta exámenes</p></div>
-        <p class="text-sm text-slate-400">Radiografías, exámenes de laboratorio y fotos quedan dentro de la historia del paciente.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <div class="flex items-center gap-3 mb-3"><span class="paso">6</span><p class="font-semibold text-white">Administración controla</p></div>
-        <p class="text-sm text-slate-400">Atenciones por especialidad, médico y sede, en el rango de fechas que elija.</p>
-      </div>
+  <!-- ══════════ EL RETO ══════════ -->
+  <section id="reto" class="pt-20 md:pt-28">
+    <div class="reveal max-w-3xl">
+      <p class="eyebrow text-marca-400 mb-3">El reto</p>
+      <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Cuando un centro crece, la información se reparte</h2>
+      <p class="text-lg text-slate-400 mt-5">Con ocho especialidades y varias sedes, lo que ustedes nos pidieron resolver es esto:</p>
     </div>
-
-    <div class="grid md:grid-cols-3 gap-4">
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <p class="eyebrow text-marca-400 mb-2">Especialidades</p>
-        <p class="text-sm text-slate-300">Arranca con las 8 de hoy. Si suman otra, se agrega desde el sistema.</p>
+    <div class="grid md:grid-cols-3 gap-4 mt-10">
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-7">
+        <p class="text-4xl mb-4">🗓️</p>
+        <p class="text-xl font-semibold text-white mb-2">Una agenda que se entienda</p>
+        <p class="text-slate-400">Por especialidad y por médico, en todas las sedes, cada una con su duración de cita.</p>
       </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <p class="eyebrow text-marca-400 mb-2">Sedes</p>
-        <p class="text-sm text-slate-300">Cada médico y cada cita pertenecen a una sede. Se filtra y se reporta por sede.</p>
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-7" style="transition-delay:.1s">
+        <p class="text-4xl mb-4">📋</p>
+        <p class="text-xl font-semibold text-white mb-2">Cada sesión registrada</p>
+        <p class="text-slate-400">Que cada atención quede guardada, con lo que anotó el médico en su propia ficha.</p>
       </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <p class="eyebrow text-marca-400 mb-2">Usuarios</p>
-        <p class="text-sm text-slate-300">Médicos, recepción y administración, sin límite. Cada rol ve solo lo que necesita.</p>
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-7" style="transition-delay:.2s">
+        <p class="text-4xl mb-4">🔎</p>
+        <p class="text-xl font-semibold text-white mb-2">El paciente completo</p>
+        <p class="text-slate-400">Que el médico vea en un solo lugar todo lo que se le ha hecho, en todas las especialidades.</p>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ HISTORIA CLÍNICA ══════════ -->
-  <section id="historia" class="mt-20 pt-10 border-t border-slate-800/70">
-    <div class="md:grid md:grid-cols-12 md:gap-10">
-      <div class="md:col-span-5 mb-8 md:mb-0">
-        <p class="eyebrow text-marca-400 mb-2">Historia clínica</p>
-        <h2 class="text-3xl font-bold text-white leading-tight mb-4">Todo el paciente en una sola pantalla</h2>
-        <p class="text-slate-400 mb-6">El médico abre al paciente y ve cada sesión de cada especialidad, en orden, con sus antecedentes arriba. No hace falta preguntarle a otro colega qué se le hizo.</p>
-        <div class="space-y-2.5 text-sm text-slate-300">
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Una ficha propia por especialidad, hecha a partir de lo que llena hoy cada médico</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Antecedentes comunes: alergias, enfermedades y medicación</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Diagnósticos con código CIE-10, en las especialidades que lo usen</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Todos los médicos ven toda la historia, salvo lo marcado como privado</div></div>
-        </div>
-        <div class="border-l-2 border-amber-500 pl-5 mt-6">
-          <p class="text-sm text-slate-300"><strong class="text-white">Lo privado se queda en su especialidad.</strong> Psicología, o cualquier parte que ustedes decidan, solo la ve la especialidad que la escribió.</p>
-        </div>
+  <!-- ══════════ RECORRIDO ══════════ -->
+  <section id="recorrido" class="pt-24 md:pt-32">
+    <div class="reveal max-w-3xl mb-10">
+      <p class="eyebrow text-marca-400 mb-3">Un día en FisioVida</p>
+      <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Acompañe a una paciente de principio a fin</h2>
+      <p class="text-lg text-slate-400 mt-5">Toque cada paso para ver lo que pasa en el sistema.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-12 gap-6 lg:gap-10 items-start">
+      <!-- pasos -->
+      <div class="lg:col-span-5 flex lg:flex-col gap-2 overflow-x-auto nav-scroll pb-2 lg:pb-0 -mx-5 px-5 lg:mx-0 lg:px-0" id="pasos">
+        <button data-p="0" class="paso-btn on shrink-0 w-64 lg:w-auto text-left rounded-2xl border border-slate-700/60 px-4 py-3.5 flex gap-3 items-start">
+          <span class="num w-7 h-7 rounded-full bg-slate-800 text-slate-300 grid place-items-center text-sm font-bold shrink-0">1</span>
+          <span><span class="block text-white font-semibold">Reserva desde su celular</span><span class="block text-sm text-slate-400">Elige especialidad, sede y hora</span></span>
+        </button>
+        <button data-p="1" class="paso-btn shrink-0 w-64 lg:w-auto text-left rounded-2xl border border-slate-700/60 px-4 py-3.5 flex gap-3 items-start">
+          <span class="num w-7 h-7 rounded-full bg-slate-800 text-slate-300 grid place-items-center text-sm font-bold shrink-0">2</span>
+          <span><span class="block text-white font-semibold">Le llega un recordatorio</span><span class="block text-sm text-slate-400">Por WhatsApp, de su especialidad</span></span>
+        </button>
+        <button data-p="2" class="paso-btn shrink-0 w-64 lg:w-auto text-left rounded-2xl border border-slate-700/60 px-4 py-3.5 flex gap-3 items-start">
+          <span class="num w-7 h-7 rounded-full bg-slate-800 text-slate-300 grid place-items-center text-sm font-bold shrink-0">3</span>
+          <span><span class="block text-white font-semibold">Recepción la recibe</span><span class="block text-sm text-slate-400">El día de todo el centro a la vista</span></span>
+        </button>
+        <button data-p="3" class="paso-btn shrink-0 w-64 lg:w-auto text-left rounded-2xl border border-slate-700/60 px-4 py-3.5 flex gap-3 items-start">
+          <span class="num w-7 h-7 rounded-full bg-slate-800 text-slate-300 grid place-items-center text-sm font-bold shrink-0">4</span>
+          <span><span class="block text-white font-semibold">El médico la atiende</span><span class="block text-sm text-slate-400">Ve su historia y anota la sesión</span></span>
+        </button>
+        <button data-p="4" class="paso-btn shrink-0 w-64 lg:w-auto text-left rounded-2xl border border-slate-700/60 px-4 py-3.5 flex gap-3 items-start">
+          <span class="num w-7 h-7 rounded-full bg-slate-800 text-slate-300 grid place-items-center text-sm font-bold shrink-0">5</span>
+          <span><span class="block text-white font-semibold">Sale con su factura</span><span class="block text-sm text-slate-400">Un clic, con el RUC del médico</span></span>
+        </button>
+        <button data-p="5" class="paso-btn shrink-0 w-64 lg:w-auto text-left rounded-2xl border border-slate-700/60 px-4 py-3.5 flex gap-3 items-start">
+          <span class="num w-7 h-7 rounded-full bg-slate-800 text-slate-300 grid place-items-center text-sm font-bold shrink-0">6</span>
+          <span><span class="block text-white font-semibold">Usted ve cómo va el centro</span><span class="block text-sm text-slate-400">Por especialidad, médico y sede</span></span>
+        </button>
       </div>
 
-      <!-- Maqueta de línea de tiempo -->
-      <div class="md:col-span-7">
-        <div class="rounded-2xl border border-slate-700/60 glass p-6">
-          <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-5">
+      <!-- pantallas -->
+      <div class="lg:col-span-7 rounded-3xl border border-slate-700/60 glass p-6 md:p-8 min-h-[520px] flex flex-col">
+
+        <!-- 1 reserva -->
+        <div class="pantalla on" data-s="0">
+          <div class="flex flex-col md:flex-row gap-8 items-center">
+            <div class="tel shrink-0"><div class="in">
+              <div class="bg-marca-600 text-white px-5 py-4"><p class="text-xs opacity-80">FisioVida</p><p class="font-semibold">Reserve su cita</p></div>
+              <div class="p-4 space-y-2 text-sm">
+                <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Especialidad</p>
+                <div class="rounded-xl border-2 border-marca-500 bg-marca-500/10 px-3 py-2 font-medium">Fisioterapia</div>
+                <div class="rounded-xl border border-slate-200 px-3 py-2 text-slate-500">Medicina general</div>
+                <div class="rounded-xl border border-slate-200 px-3 py-2 text-slate-500">Nutrición</div>
+                <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider pt-2">Martes 14</p>
+                <div class="grid grid-cols-3 gap-1.5 text-center text-xs">
+                  <span class="rounded-lg border border-slate-200 py-1.5 text-slate-300 line-through">08:00</span>
+                  <span class="rounded-lg bg-marca-600 text-white py-1.5">09:00</span>
+                  <span class="rounded-lg border border-slate-200 py-1.5">10:00</span>
+                </div>
+                <div class="rounded-xl bg-slate-900 text-white text-center py-2.5 mt-3 font-medium">Pagar y confirmar</div>
+              </div>
+            </div></div>
             <div>
-              <p class="text-white font-semibold">María Pérez &middot; 42 años</p>
-              <p class="text-xs text-slate-500">Paciente de ejemplo</p>
-            </div>
-            <span class="text-xs rounded-full bg-red-500/15 text-red-300 px-3 py-1">Alergia: penicilina</span>
-          </div>
-          <div class="space-y-4">
-            <div class="flex gap-4">
-              <div class="w-24 shrink-0 text-xs text-slate-500 pt-0.5">14 oct</div>
-              <div class="flex-1 rounded-xl bg-marca-500/10 border border-marca-500/30 px-4 py-3">
-                <p class="text-xs text-marca-300 mb-1">Fisioterapia &middot; Sesión 6</p>
-                <p class="text-sm text-slate-300">Lumbalgia. Mejora la movilidad; se ajustan ejercicios.</p>
-              </div>
-            </div>
-            <div class="flex gap-4">
-              <div class="w-24 shrink-0 text-xs text-slate-500 pt-0.5">10 oct</div>
-              <div class="flex-1 rounded-xl bg-slate-800/50 border border-slate-700/60 px-4 py-3">
-                <p class="text-xs text-sky-300 mb-1">Medicina general</p>
-                <p class="text-sm text-slate-300">M54.5 &middot; Receta de antiinflamatorio. Se deriva a fisioterapia.</p>
-              </div>
-            </div>
-            <div class="flex gap-4">
-              <div class="w-24 shrink-0 text-xs text-slate-500 pt-0.5">3 oct</div>
-              <div class="flex-1 rounded-xl bg-slate-800/50 border border-slate-700/60 px-4 py-3">
-                <p class="text-xs text-violet-300 mb-1">Psicología</p>
-                <p class="text-sm text-slate-500 italic">🔒 Nota privada de la especialidad</p>
-              </div>
-            </div>
-            <div class="flex gap-4">
-              <div class="w-24 shrink-0 text-xs text-slate-500 pt-0.5">28 sep</div>
-              <div class="flex-1 rounded-xl bg-slate-800/50 border border-slate-700/60 px-4 py-3">
-                <p class="text-xs text-amber-300 mb-1">Nutrición</p>
-                <p class="text-sm text-slate-300">Plan de alimentación. Adjunto: exámenes de laboratorio.pdf</p>
-              </div>
+              <span class="inline-block text-[11px] font-mono uppercase tracking-widest text-amber-300 bg-amber-500/10 rounded-full px-3 py-1 mb-3">Adicional A</span>
+              <p class="text-2xl font-bold text-white mb-3">La cita se agenda sola</p>
+              <p class="text-slate-400 mb-4">Desde la web, Instagram o Facebook. Ve solo los horarios libres, así que nunca choca con otra cita.</p>
+              <ul class="space-y-2 text-sm text-slate-300">
+                <li>✓ Con pago anticipado por PayPhone, queda confirmada al pagar</li>
+                <li>✓ O gratis: recepción la aprueba con un clic</li>
+              </ul>
             </div>
           </div>
         </div>
-        <p class="text-xs text-slate-500 mt-3">Ilustración. Las especialidades y los campos reales salen de las fichas de FisioVida.</p>
+
+        <!-- 2 whatsapp -->
+        <div class="pantalla" data-s="1">
+          <div class="flex flex-col md:flex-row gap-8 items-center">
+            <div class="tel shrink-0"><div class="in" style="background:#e7ded3">
+              <div class="bg-[#075e54] text-white px-4 py-3 flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-white/20 grid place-items-center text-xs">FV</span><div><p class="text-sm font-semibold">FisioVida · Fisioterapia</p><p class="text-[10px] opacity-75">Cuenta de empresa</p></div></div>
+              <div class="p-3 space-y-2 text-[13px]">
+                <div class="bg-white rounded-lg rounded-tl-none p-3 max-w-[90%] shadow-sm">Hola María 👋 Le recordamos su cita de <b>Fisioterapia</b> mañana martes 14 a las <b>09:00</b> en la sede Centro.<p class="text-[10px] text-slate-400 text-right mt-1">18:00</p></div>
+                <div class="flex gap-1.5"><span class="bg-white rounded-lg px-3 py-1.5 text-[#075e54] font-medium shadow-sm">✓ Confirmo</span><span class="bg-white rounded-lg px-3 py-1.5 text-[#075e54] font-medium shadow-sm">No puedo ir</span></div>
+                <div class="bg-[#dcf8c6] rounded-lg rounded-tr-none p-3 max-w-[60%] ml-auto shadow-sm">✓ Confirmo<p class="text-[10px] text-slate-400 text-right mt-1">18:03 ✓✓</p></div>
+              </div>
+            </div></div>
+            <div>
+              <span class="inline-block text-[11px] font-mono uppercase tracking-widest text-amber-300 bg-amber-500/10 rounded-full px-3 py-1 mb-3">Adicional B</span>
+              <p class="text-2xl font-bold text-white mb-3">Nadie tiene que llamar a recordar</p>
+              <p class="text-slate-400 mb-4">El mensaje sale solo, desde el número de cada especialidad, como trabajan hoy.</p>
+              <ul class="space-y-2 text-sm text-slate-300">
+                <li>✓ La paciente confirma o avisa que no va</li>
+                <li>✓ Si no va, el espacio queda libre para otro</li>
+                <li>✓ Cada médico recibe su lista del día</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 recepción -->
+        <div class="pantalla" data-s="2">
+          <p class="text-2xl font-bold text-white mb-2">Todo el centro en una pantalla</p>
+          <p class="text-slate-400 mb-6">Recepción filtra por sede, especialidad o médico. Cada especialidad con su duración de cita.</p>
+          <div class="rounded-2xl bg-slate-950/60 border border-slate-800 p-4 overflow-x-auto">
+            <div class="flex gap-2 mb-4 text-xs">
+              <span class="rounded-full bg-marca-500/20 text-marca-300 px-3 py-1">Sede Centro</span>
+              <span class="rounded-full bg-slate-800 text-slate-400 px-3 py-1">Todas las especialidades</span>
+              <span class="rounded-full bg-slate-800 text-slate-400 px-3 py-1">Martes 14</span>
+            </div>
+            <div class="grid grid-cols-[52px_repeat(4,minmax(110px,1fr))] gap-1.5 text-[11px] min-w-[520px]">
+              <span></span><span class="text-slate-400 font-semibold px-1">Fisioterapia</span><span class="text-slate-400 font-semibold px-1">Medicina</span><span class="text-slate-400 font-semibold px-1">Nutrición</span><span class="text-slate-400 font-semibold px-1">Psicología</span>
+              <span class="text-slate-500 pt-2">08:00</span><span class="rounded-lg bg-marca-500/20 text-marca-200 p-2">Luis A. · S4</span><span class="rounded-lg bg-sky-500/20 text-sky-200 p-2">Ana T.</span><span></span><span class="rounded-lg bg-violet-500/20 text-violet-200 p-2 row-span-2">Carlos M.</span>
+              <span class="text-slate-500 pt-2">09:00</span><span class="rounded-lg bg-marca-500/30 text-white p-2 ring-1 ring-marca-400">María P. ✓</span><span></span><span class="rounded-lg bg-amber-500/20 text-amber-200 p-2">Rosa Q.</span>
+              <span class="text-slate-500 pt-2">10:00</span><span class="rounded-lg bg-marca-500/20 text-marca-200 p-2">Jorge V. · S9</span><span class="rounded-lg bg-sky-500/20 text-sky-200 p-2">Pedro L.</span><span></span><span></span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 mt-3">Pantalla de ejemplo.</p>
+        </div>
+
+        <!-- 4 médico -->
+        <div class="pantalla" data-s="3">
+          <p class="text-2xl font-bold text-white mb-2">Antes de saludarla, ya la conoce</p>
+          <p class="text-slate-400 mb-6">El fisioterapeuta ve que la semana pasada fue a medicina general y qué le recetaron. Luego anota la sesión en su propia ficha.</p>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="rounded-2xl bg-slate-950/60 border border-slate-800 p-4 text-sm space-y-2.5">
+              <p class="text-xs text-slate-500 uppercase tracking-wider">Historia de María</p>
+              <div class="rounded-lg bg-sky-500/10 border border-sky-500/30 p-2.5"><p class="text-[11px] text-sky-300">Medicina general · 10 oct</p><p class="text-slate-300">Lumbalgia (M54.5). Se deriva a fisioterapia.</p></div>
+              <div class="rounded-lg bg-amber-500/10 border border-amber-500/30 p-2.5"><p class="text-[11px] text-amber-300">Nutrición · 28 sep</p><p class="text-slate-300">Plan de alimentación · exámenes.pdf</p></div>
+              <div class="rounded-lg bg-slate-800/60 border border-slate-700 p-2.5"><p class="text-[11px] text-violet-300">Psicología · 3 oct</p><p class="text-slate-500 italic">🔒 Privado</p></div>
+            </div>
+            <div class="rounded-2xl bg-slate-950/60 border border-marca-500/40 p-4 text-sm space-y-2.5">
+              <p class="text-xs text-marca-300 uppercase tracking-wider">Ficha de fisioterapia · Sesión 6</p>
+              <div><p class="text-[11px] text-slate-500">Dolor (0-10)</p><div class="h-2 rounded-full bg-slate-800 mt-1"><div class="h-2 rounded-full bg-marca-500 w-[30%]"></div></div></div>
+              <div><p class="text-[11px] text-slate-500">Técnicas aplicadas</p><p class="text-slate-300">Terapia manual · ejercicios de core</p></div>
+              <div><p class="text-[11px] text-slate-500">Evolución</p><p class="text-slate-300">Mejora la movilidad lumbar.</p></div>
+              <div class="flex gap-2 pt-1"><span class="rounded-lg bg-marca-600 text-white px-3 py-1.5 text-xs">Guardar sesión</span><span class="rounded-lg border border-slate-700 px-3 py-1.5 text-xs text-slate-300">Receta</span><span class="rounded-lg border border-slate-700 px-3 py-1.5 text-xs text-slate-300">Certificado</span></div>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 mt-3">Ejemplo. Los campos reales salen de la ficha que hoy usa cada especialidad.</p>
+        </div>
+
+        <!-- 5 factura -->
+        <div class="pantalla" data-s="4">
+          <div class="flex flex-col md:flex-row gap-8 items-center">
+            <div class="w-full md:w-72 shrink-0 rounded-2xl bg-white text-slate-900 p-5 shadow-2xl">
+              <div class="flex justify-between items-start mb-4"><div><p class="text-[10px] text-slate-500 uppercase tracking-wider">Factura electrónica</p><p class="font-bold text-sm whitespace-nowrap">001-001-000000245</p></div><span class="text-[10px] rounded-full bg-emerald-100 text-emerald-700 px-2 py-1 font-semibold">AUTORIZADA SRI</span></div>
+              <div class="text-xs space-y-1 border-y border-slate-200 py-3 mb-3"><p><span class="text-slate-500">Emisor:</span> Dr. (RUC del médico)</p><p><span class="text-slate-500">Cliente:</span> María Pérez</p><p><span class="text-slate-500">Servicio:</span> Sesión de fisioterapia</p></div>
+              <p class="text-xs text-slate-500">Enviada a su correo ✓</p>
+            </div>
+            <div>
+              <span class="inline-block text-[11px] font-mono uppercase tracking-widest text-amber-300 bg-amber-500/10 rounded-full px-3 py-1 mb-3">Adicional C</span>
+              <p class="text-2xl font-bold text-white mb-3">Factura sin volver a escribir nada</p>
+              <p class="text-slate-400 mb-4">Los datos de la paciente y del servicio ya están en la atención. El médico toca un botón y la factura sale con su propio RUC.</p>
+              <ul class="space-y-2 text-sm text-slate-300">
+                <li>✓ Autorizada por el SRI al momento</li>
+                <li>✓ Facturas ilimitadas, con Quipuy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 administración -->
+        <div class="pantalla" data-s="5">
+          <p class="text-2xl font-bold text-white mb-2">Decidir con datos, no con intuición</p>
+          <p class="text-slate-400 mb-6">Atenciones por especialidad, médico y sede, en las fechas que usted elija.</p>
+          <div class="rounded-2xl bg-slate-950/60 border border-slate-800 p-5">
+            <p class="text-xs text-slate-500 mb-4">Atenciones del mes por especialidad</p>
+            <div class="space-y-2.5 text-xs">
+              <div class="flex items-center gap-3"><span class="w-28 text-slate-400">Fisioterapia</span><div class="flex-1 h-5 rounded bg-slate-800"><div class="h-5 rounded bg-marca-500 w-[88%]"></div></div></div>
+              <div class="flex items-center gap-3"><span class="w-28 text-slate-400">Medicina</span><div class="flex-1 h-5 rounded bg-slate-800"><div class="h-5 rounded bg-sky-500 w-[62%]"></div></div></div>
+              <div class="flex items-center gap-3"><span class="w-28 text-slate-400">Nutrición</span><div class="flex-1 h-5 rounded bg-slate-800"><div class="h-5 rounded bg-amber-500 w-[45%]"></div></div></div>
+              <div class="flex items-center gap-3"><span class="w-28 text-slate-400">Psicología</span><div class="flex-1 h-5 rounded bg-slate-800"><div class="h-5 rounded bg-violet-500 w-[38%]"></div></div></div>
+              <div class="flex items-center gap-3"><span class="w-28 text-slate-400">+ 4 más</span><div class="flex-1 h-5 rounded bg-slate-800"><div class="h-5 rounded bg-slate-600 w-[30%]"></div></div></div>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 mt-3">Gráfico de ejemplo, sin datos reales.</p>
+        </div>
+
+        <div class="mt-auto pt-6 flex justify-between items-center">
+          <button id="ant" class="text-sm text-slate-400 hover:text-white">← Anterior</button>
+          <button id="sig" class="px-5 py-2.5 rounded-xl bg-marca-600 hover:bg-marca-500 text-white text-sm font-semibold transition">Siguiente paso →</button>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ ADICIONALES ══════════ -->
-  <section id="adicionales" class="mt-20 pt-10 border-t border-slate-800/70">
-    <p class="eyebrow text-marca-400 mb-2">Adicionales</p>
-    <h2 class="text-3xl font-bold text-white leading-tight mb-3">Tres funciones que se contratan por separado</h2>
-    <p class="text-slate-400 prosa mb-10">Se pueden sumar al inicio o después. Cada una funciona sobre el sistema.</p>
-
-    <div class="grid md:grid-cols-3 gap-4">
-      <div class="rounded-2xl border border-slate-700/60 glass p-6 flex flex-col">
-        <p class="eyebrow text-marca-400 mb-2">Adicional A</p>
-        <p class="text-xl font-bold text-white mb-1">Reserva en línea</p>
-        <p class="text-2xl font-bold text-white mb-4">$300 <span class="text-xs font-normal text-slate-500">+ IVA</span></p>
-        <div class="space-y-2 text-sm text-slate-300">
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>El paciente elige especialidad, sede y hora libre</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div><strong class="text-white">Con pago anticipado</strong> por PayPhone: la cita queda confirmada al pagar</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div><strong class="text-white">O gratis</strong>: la solicitud llega a recepción y se confirma al aprobarla</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Un enlace para la web, Instagram y Facebook</div></div>
-        </div>
+  <!-- ══════════ HISTORIA / PRIVACIDAD ══════════ -->
+  <section id="historia" class="pt-24 md:pt-32">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div class="reveal">
+        <p class="eyebrow text-marca-400 mb-3">La historia clínica</p>
+        <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Todos ven todo.<br>Salvo lo que debe ser privado.</h2>
+        <p class="text-lg text-slate-400 mt-5">Psicología, o cualquier parte que ustedes decidan, solo la ve la especialidad que la escribió. El resto del equipo sabe que existe, pero no la lee.</p>
       </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6 flex flex-col">
-        <p class="eyebrow text-marca-400 mb-2">Adicional B</p>
-        <p class="text-xl font-bold text-white mb-1">Recordatorios por WhatsApp</p>
-        <p class="text-2xl font-bold text-white mb-4">$350 <span class="text-xs font-normal text-slate-500">+ IVA</span></p>
-        <div class="space-y-2 text-sm text-slate-300">
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Cada especialidad envía desde su propio número</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Recordatorio automático antes de la cita</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>El paciente confirma o avisa que no va</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Cada médico recibe la lista de pacientes de su día</div></div>
-        </div>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6 flex flex-col">
-        <p class="eyebrow text-marca-400 mb-2">Adicional C</p>
-        <p class="text-xl font-bold text-white mb-1">Factura en un clic</p>
-        <p class="text-2xl font-bold text-white mb-4">$200 <span class="text-xs font-normal text-slate-500">+ IVA</span></p>
-        <div class="space-y-2 text-sm text-slate-300">
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Cada médico factura su atención con su propio RUC</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Los datos del paciente y del servicio ya van llenados</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Autorizada por el SRI y enviada al correo del paciente</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Con Quipuy, nuestro sistema de facturación: facturas ilimitadas</div></div>
-        </div>
+      <div class="reveal grid grid-cols-2 gap-3">
+        <div class="rounded-2xl border border-slate-700/60 glass p-5"><p class="text-2xl mb-2">🧾</p><p class="text-white font-semibold">Una ficha por especialidad</p><p class="text-sm text-slate-400 mt-1">Armada con lo que hoy llena cada médico</p></div>
+        <div class="rounded-2xl border border-slate-700/60 glass p-5"><p class="text-2xl mb-2">📎</p><p class="text-white font-semibold">Exámenes adjuntos</p><p class="text-sm text-slate-400 mt-1">Radiografías, laboratorio y fotos</p></div>
+        <div class="rounded-2xl border border-slate-700/60 glass p-5"><p class="text-2xl mb-2">💊</p><p class="text-white font-semibold">Recetas y certificados</p><p class="text-sm text-slate-400 mt-1">Impresos con el logo de FisioVida</p></div>
+        <div class="rounded-2xl border border-slate-700/60 glass p-5"><p class="text-2xl mb-2">🏷️</p><p class="text-white font-semibold">Diagnósticos CIE-10</p><p class="text-sm text-slate-400 mt-1">En las especialidades que lo usen</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ INVERSIÓN ══════════ -->
-  <section id="inversion" class="mt-20 pt-10 border-t border-slate-800/70">
-    <p class="eyebrow text-marca-400 mb-2">Inversión</p>
-    <h2 class="text-3xl font-bold text-white leading-tight mb-8">Valores en dólares, sin IVA</h2>
-
-    <div class="grid md:grid-cols-2 gap-4 mb-4">
-      <div class="rounded-2xl border border-marca-500/40 bg-marca-500/5 p-7 flex flex-col">
-        <p class="text-slate-400 text-sm">Desarrollo &middot; se paga una vez</p>
-        <div class="mt-4 space-y-2.5 text-sm">
-          <div class="flex justify-between gap-4 border-b border-slate-800 pb-2.5"><span class="text-slate-300">Sistema multiespecialidad</span><strong class="text-white">$2.200</strong></div>
-          <div class="flex justify-between gap-4 border-b border-slate-800 pb-2.5"><span class="text-slate-400">A &middot; Reserva en línea</span><span class="text-slate-300">$300</span></div>
-          <div class="flex justify-between gap-4 border-b border-slate-800 pb-2.5"><span class="text-slate-400">B &middot; Recordatorios por WhatsApp</span><span class="text-slate-300">$350</span></div>
-          <div class="flex justify-between gap-4 border-b border-slate-800 pb-2.5"><span class="text-slate-400">C &middot; Factura en un clic</span><span class="text-slate-300">$200</span></div>
-          <div class="flex justify-between gap-4 pt-1"><span class="text-white font-semibold">Todo junto</span><strong class="text-marca-400 text-lg">$3.050 + IVA</strong></div>
-        </div>
-        <p class="text-xs text-slate-500 mt-auto pt-5">Forma de pago: 60 % al empezar y 40 % a la entrega. Solo el sistema: $1.320 y $880.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-7 flex flex-col">
-        <p class="text-slate-400 text-sm">Uso del sistema &middot; cada mes</p>
-        <p class="text-4xl font-bold text-white mt-3">$49 <span class="text-base font-normal text-slate-400">+ IVA por sede</span></p>
-        <p class="text-sm text-slate-400 mt-1 mb-5">Desde la entrega.</p>
-        <div class="space-y-2 text-sm text-slate-300">
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Médicos, usuarios y pacientes sin límite</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Servidor propio de FisioVida y respaldos diarios</div></div>
-          <div class="flex gap-2"><span class="text-marca-400">✓</span><div>Soporte por WhatsApp</div></div>
-        </div>
-      </div>
+  <!-- ══════════ LO QUE CAMBIA ══════════ -->
+  <section id="cambia" class="pt-24 md:pt-32">
+    <div class="reveal max-w-3xl mb-10">
+      <p class="eyebrow text-marca-400 mb-3">Lo que cambia</p>
+      <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Para cada persona del centro</h2>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-6"><p class="eyebrow text-marca-400 mb-3">El paciente</p><p class="text-slate-300">Reserva a cualquier hora, recibe su recordatorio y no tiene que repetir su historia en cada consulta.</p></div>
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.08s"><p class="eyebrow text-marca-400 mb-3">El médico</p><p class="text-slate-300">Su agenda, su ficha y la historia completa del paciente, desde la computadora o el celular.</p></div>
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.16s"><p class="eyebrow text-marca-400 mb-3">Recepción</p><p class="text-slate-300">Un solo lugar para agendar las ocho especialidades de todas las sedes, sin cruces.</p></div>
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.24s"><p class="eyebrow text-marca-400 mb-3">Administración</p><p class="text-slate-300">Cuántas atenciones hace cada especialidad, cada médico y cada sede.</p></div>
     </div>
 
-    <div class="rounded-2xl border border-slate-700/60 p-6">
-      <p class="text-sm font-semibold text-white mb-3">Costos de terceros, que no cobra Creative Web</p>
-      <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-slate-400">
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Quipuy: $28 + IVA al año por cada médico que factura <span class="text-xs">(adicional C)</span></div></div>
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Firma electrónica de cada médico que factura</div></div>
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Meta cobra cada mensaje de WhatsApp, aprox. $0,01 <span class="text-xs">(adicional B)</span></div></div>
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>PayPhone cobra una comisión por cada pago <span class="text-xs">(adicional A)</span></div></div>
+    <!-- confianza -->
+    <div class="reveal mt-16 rounded-3xl border border-marca-500/30 bg-marca-500/5 p-7 md:p-10">
+      <p class="eyebrow text-marca-400 mb-3">Por qué nosotros</p>
+      <p class="text-2xl md:text-3xl font-bold text-white leading-snug max-w-3xl">Ya conocemos FisioVida: Motrix trabaja con ustedes todos los días.</p>
+      <div class="grid md:grid-cols-3 gap-6 mt-8 text-sm">
+        <div><p class="text-white font-semibold mb-1">Motrix</p><p class="text-slate-400">Su sistema de fisioterapia. Sigue funcionando como hoy.</p></div>
+        <div><p class="text-white font-semibold mb-1">DentiLab</p><p class="text-slate-400">Agenda, historias, reservas y recordatorios para clínicas. Es la base del sistema nuevo.</p></div>
+        <div><p class="text-white font-semibold mb-1">Quipuy</p><p class="text-slate-400">Nuestro sistema de facturación electrónica SRI.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ CRONOGRAMA ══════════ -->
-  <section id="cronograma" class="mt-20 pt-10 border-t border-slate-800/70">
-    <p class="eyebrow text-marca-400 mb-2">Cronograma</p>
-    <h2 class="text-3xl font-bold text-white leading-tight mb-8">De la aprobación a funcionar</h2>
-
-    <div class="grid md:grid-cols-3 gap-4 mb-10">
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <p class="text-marca-400 font-semibold mb-1">Semanas 1 a 2</p>
-        <p class="text-white font-semibold mb-2">Las fichas</p>
-        <p class="text-sm text-slate-400">Reunión con cada especialidad para armar su ficha. Configuramos sedes, médicos y horarios.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <p class="text-marca-400 font-semibold mb-1">Semanas 3 a 5</p>
-        <p class="text-white font-semibold mb-2">El sistema</p>
-        <p class="text-sm text-slate-400">Agenda, atenciones e historia clínica. Lo prueban con pacientes de ejemplo.</p>
-      </div>
-      <div class="rounded-2xl border border-slate-700/60 glass p-6">
-        <p class="text-marca-400 font-semibold mb-1">Semana 6</p>
-        <p class="text-white font-semibold mb-2">Entrega</p>
-        <p class="text-sm text-slate-400">Capacitación a médicos, recepción y administración. Los adicionales suman 1 a 2 semanas.</p>
-      </div>
+  <!-- ══════════ ARME SU SISTEMA ══════════ -->
+  <section id="arme" class="pt-24 md:pt-32">
+    <div class="reveal max-w-3xl mb-10">
+      <p class="eyebrow text-marca-400 mb-3">Arme su sistema</p>
+      <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Empiece con lo esencial y sume lo que necesite</h2>
+      <p class="text-lg text-slate-400 mt-5">El sistema base ya resuelve agenda, sesiones e historia clínica. Los adicionales se suman ahora o más adelante.</p>
     </div>
 
-    <div class="border-l-2 border-amber-500 pl-6 mb-10">
-      <h3 class="text-base font-semibold text-white mb-3">Lo que necesitamos de ustedes</h3>
-      <div class="grid sm:grid-cols-2 gap-x-8 gap-y-1.5 text-sm text-slate-300">
-        <div class="flex gap-2"><span class="text-amber-400">›</span><div>El formulario que llena hoy cada especialidad</div></div>
-        <div class="flex gap-2"><span class="text-amber-400">›</span><div>Médicos con su especialidad, sede, horario y duración de cita</div></div>
-        <div class="flex gap-2"><span class="text-amber-400">›</span><div>Usuarios de recepción y administración de cada sede</div></div>
-        <div class="flex gap-2"><span class="text-amber-400">›</span><div>Qué partes de la historia van como privadas</div></div>
-        <div class="flex gap-2"><span class="text-amber-400">›</span><div>Para WhatsApp: el número de cada especialidad</div></div>
-        <div class="flex gap-2"><span class="text-amber-400">›</span><div>Para facturar: RUC y firma electrónica de cada médico</div></div>
-      </div>
-      <p class="text-xs text-slate-500 mt-4 prosa">WhatsApp necesita que Meta apruebe cada número y los mensajes. Ese trámite suele tomar de unos días a dos semanas y no depende de nosotros.</p>
-    </div>
-
-    <div class="border-l-2 border-slate-700 pl-6 mb-12">
-      <h3 class="text-sm font-semibold text-slate-400 mb-3">Qué no está incluido</h3>
-      <div class="grid sm:grid-cols-2 gap-x-8 gap-y-1.5 text-sm text-slate-400">
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Pasar los datos de Motrix al sistema nuevo</div></div>
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Paquetes de sesiones prepagadas</div></div>
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Página web de FisioVida</div></div>
-        <div class="flex gap-2"><span class="text-slate-600">·</span><div>Cambios fuera de lo descrito, que se cotizan aparte</div></div>
-      </div>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-4 mb-12">
-      <div class="rounded-2xl border border-slate-700/60 p-5"><p class="text-white font-semibold mb-1">Motrix</p><p class="text-sm text-slate-400">El sistema que FisioVida ya usa en fisioterapia.</p></div>
-      <div class="rounded-2xl border border-slate-700/60 p-5"><p class="text-white font-semibold mb-1">DentiLab</p><p class="text-sm text-slate-400">Agenda, historias y recordatorios para clínicas dentales. Es la base de este sistema.</p></div>
-      <div class="rounded-2xl border border-slate-700/60 p-5"><p class="text-white font-semibold mb-1">Quipuy</p><p class="text-sm text-slate-400">Nuestro sistema de facturación electrónica SRI.</p></div>
-    </div>
-
-    <div class="rounded-2xl border border-marca-500/30 bg-marca-500/5 p-8 mb-16">
-      <div class="flex flex-wrap items-center justify-between gap-5">
-        <div>
-          <p class="text-lg font-semibold text-white">Cualquier duda, la conversamos.</p>
-          <div class="flex items-center gap-3 mt-3">
-            <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-6 w-auto opacity-80">
-            <p class="text-xs text-slate-500">Otavalo, Ecuador &middot; octubre de 2026</p>
+    <div class="grid lg:grid-cols-12 gap-6 items-start">
+      <div class="lg:col-span-7 space-y-3">
+        <div class="opcion rounded-2xl border border-marca-500/60 bg-marca-500/10 p-5">
+          <div class="flex justify-between gap-4">
+            <div><p class="text-white font-semibold text-lg">Sistema multiespecialidad</p><p class="text-sm text-slate-400 mt-1">8 especialidades · todas las sedes · agenda, sesiones, historia clínica unificada, recetas, certificados y reportes · capacitación al equipo</p></div>
+            <div class="text-right shrink-0"><p class="text-white font-bold text-lg">$2.200</p><p class="text-[11px] text-marca-300">Incluido</p></div>
           </div>
         </div>
-        <div class="flex flex-wrap gap-3">
-          <a href="pdf/proforma-1-2-1336.pdf" download="Proforma-1-2-1336-FisioVida.pdf" class="px-6 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition whitespace-nowrap">&darr;&nbsp; Proforma en PDF</a>
-          <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20del%20sistema%20multiespecialidad%20de%20FisioVida" class="px-6 py-3 rounded-xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold text-sm hover:brightness-110 transition whitespace-nowrap">Escribir por WhatsApp</a>
+        <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
+          <div class="flex justify-between gap-4 items-center">
+            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="300" checked><span class="tog"></span><div><p class="text-white font-semibold">Reserva en línea</p><p class="text-sm text-slate-400">Con pago por PayPhone o con aprobación de recepción</p></div></div>
+            <p class="text-white font-bold shrink-0">$300</p>
+          </div>
+        </label>
+        <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
+          <div class="flex justify-between gap-4 items-center">
+            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="350" checked><span class="tog"></span><div><p class="text-white font-semibold">Recordatorios por WhatsApp</p><p class="text-sm text-slate-400">Un número por especialidad</p></div></div>
+            <p class="text-white font-bold shrink-0">$350</p>
+          </div>
+        </label>
+        <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
+          <div class="flex justify-between gap-4 items-center">
+            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="200" checked><span class="tog"></span><div><p class="text-white font-semibold">Factura en un clic</p><p class="text-sm text-slate-400">Cada médico con su RUC, vía Quipuy</p></div></div>
+            <p class="text-white font-bold shrink-0">$200</p>
+          </div>
+        </label>
+        <div class="rounded-2xl border border-slate-700/60 glass p-5 flex justify-between items-center gap-4">
+          <div><p class="text-white font-semibold">¿Cuántas sedes?</p><p class="text-sm text-slate-400">Médicos, usuarios y pacientes sin límite</p></div>
+          <div class="flex items-center gap-3">
+            <button id="menos" class="w-9 h-9 rounded-full border border-slate-600 text-white text-lg leading-none">−</button>
+            <span id="sedes" class="text-2xl font-bold text-white w-6 text-center">2</span>
+            <button id="mas" class="w-9 h-9 rounded-full border border-slate-600 text-white text-lg leading-none">+</button>
+          </div>
         </div>
       </div>
+
+      <div class="lg:col-span-5 lg:sticky lg:top-20">
+        <div class="rounded-3xl border border-marca-500/40 bg-gradient-to-b from-marca-500/15 to-transparent p-7">
+          <p class="text-sm text-slate-400">Inversión para dejarlo funcionando</p>
+          <p class="text-5xl font-bold text-white mt-2"><span id="total">$3.050</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
+          <p class="text-sm text-slate-400 mt-2">Se paga una sola vez: <span id="p60" class="text-slate-200">$1.830</span> al empezar y <span id="p40" class="text-slate-200">$1.220</span> a la entrega.</p>
+          <div class="border-t border-slate-700/60 my-6"></div>
+          <p class="text-sm text-slate-400">Uso del sistema, cada mes</p>
+          <p class="text-3xl font-bold text-white mt-1"><span id="mes">$98</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
+          <p class="text-sm text-slate-400 mt-1">$49 por sede · servidor propio, respaldos diarios y soporte por WhatsApp</p>
+          <div class="rounded-2xl bg-slate-950/50 border border-slate-800 p-4 mt-6 text-sm text-slate-300">
+            Son <strong class="text-marca-300">$275 por especialidad</strong> en el sistema base, y <strong class="text-marca-300">menos de $1,70 al día por sede</strong> para usarlo.
+          </div>
+          <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20del%20sistema%20de%20FisioVida%20y%20quiero%20conversar" class="block text-center mt-6 px-6 py-4 rounded-2xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold hover:brightness-110 transition">Quiero empezar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- detalles finos -->
+    <div class="grid md:grid-cols-3 gap-4 mt-12 text-sm">
+      <div class="rounded-2xl border border-slate-700/60 p-6">
+        <p class="text-white font-semibold mb-3">En 6 semanas</p>
+        <ol class="space-y-2 text-slate-400">
+          <li><span class="text-marca-400">1–2</span> · Armamos la ficha con cada especialidad</li>
+          <li><span class="text-marca-400">3–5</span> · Construimos y prueban con pacientes de ejemplo</li>
+          <li><span class="text-marca-400">6</span> · Capacitación y entrega</li>
+        </ol>
+        <p class="text-slate-500 mt-3">Los adicionales suman 1 a 2 semanas.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-700/60 p-6">
+        <p class="text-white font-semibold mb-3">Para empezar necesitamos</p>
+        <ul class="space-y-1.5 text-slate-400">
+          <li>› El formulario que hoy llena cada especialidad</li>
+          <li>› Médicos con sede, horario y duración de cita</li>
+          <li>› Qué partes de la historia son privadas</li>
+          <li>› Números de WhatsApp y RUC de los médicos, si suman esos adicionales</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-slate-700/60 p-6">
+        <p class="text-white font-semibold mb-3">Para que no haya sorpresas</p>
+        <ul class="space-y-1.5 text-slate-400">
+          <li>· Aparte cobran Meta (aprox. $0,01 por mensaje), PayPhone (comisión por pago) y Quipuy ($28 + IVA al año por médico que factura)</li>
+          <li>· Cada médico que factura necesita su firma electrónica</li>
+          <li>· Meta aprueba cada número en días o hasta dos semanas</li>
+          <li>· No incluye pasar datos de Motrix ni paquetes de sesiones</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-between gap-5 mt-12 mb-16 pt-8 border-t border-slate-800/70">
+      <div class="flex items-center gap-3">
+        <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-6 w-auto opacity-80">
+        <p class="text-xs text-slate-500">Proforma 1-2-1336 &middot; Otavalo, Ecuador &middot; octubre de 2026 &middot; Valores sin IVA</p>
+      </div>
+      <a href="pdf/proforma-1-2-1336.pdf" download="Proforma-1-2-1336-FisioVida.pdf" class="px-5 py-3 rounded-xl border border-slate-600 text-slate-200 font-semibold text-sm hover:border-slate-400 hover:text-white transition">&darr;&nbsp; Proforma formal en PDF</a>
     </div>
   </section>
 
 </div>
 
+<!-- barra fija en celular -->
+<div class="lg:hidden fixed bottom-0 inset-x-0 z-50 border-t border-slate-800 bg-[#0a0f16]/95 backdrop-blur px-4 py-3" style="padding-bottom:max(12px,env(safe-area-inset-bottom))">
+  <div class="grid grid-cols-2 gap-2 text-sm font-semibold">
+    <a href="#recorrido" class="text-center py-3 rounded-xl border border-slate-700 text-slate-200">Ver el recorrido</a>
+    <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20del%20sistema%20de%20FisioVida" class="text-center py-3 rounded-xl bg-marca-600 text-white">WhatsApp</a>
+  </div>
+</div>
+
 <script>
+// aparición al hacer scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// recorrido
+const btns=[...document.querySelectorAll('.paso-btn')], pants=[...document.querySelectorAll('.pantalla')];
+let cur=0;
+function ir(i){
+  cur=(i+btns.length)%btns.length;
+  btns.forEach((b,k)=>b.classList.toggle('on',k===cur));
+  pants.forEach((p,k)=>p.classList.toggle('on',k===cur));
+  const b=btns[cur], cont=document.getElementById('pasos');
+  if(cont.scrollWidth>cont.clientWidth) cont.scrollTo({left:b.offsetLeft-20,behavior:'smooth'});
+  document.getElementById('sig').textContent = cur===btns.length-1 ? 'Volver al inicio ↺' : 'Siguiente paso →';
+}
+btns.forEach((b,i)=>b.addEventListener('click',()=>ir(i)));
+document.getElementById('sig').onclick=()=>ir(cur+1);
+document.getElementById('ant').onclick=()=>ir(cur-1);
+
+// arme su sistema
+const fmt=n=>'$'+n.toLocaleString('es-EC').replace(/,/g,'.');
+let sedes=2;
+function calc(){
+  let t=2200; document.querySelectorAll('.extra').forEach(c=>{if(c.checked)t+=+c.dataset.v});
+  document.getElementById('total').textContent=fmt(t);
+  document.getElementById('p60').textContent=fmt(Math.round(t*.6));
+  document.getElementById('p40').textContent=fmt(t-Math.round(t*.6));
+  document.getElementById('sedes').textContent=sedes;
+  document.getElementById('mes').textContent=fmt(49*sedes);
+}
+document.querySelectorAll('.extra').forEach(c=>c.addEventListener('change',calc));
+document.getElementById('mas').onclick=()=>{if(sedes<10){sedes++;calc()}};
+document.getElementById('menos').onclick=()=>{if(sedes>1){sedes--;calc()}};
+calc();
+
+// menú activo
 const secs=[...document.querySelectorAll('section')];
-const links=new Map([...document.querySelectorAll('.nav a')].map(a=>[a.getAttribute('href').slice(1),a]));
+const links=new Map([...document.querySelectorAll('.nav a[href^="#"]')].map(a=>[a.getAttribute('href').slice(1),a]));
 const obs=new IntersectionObserver(es=>{
   const vis=es.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];
   if(!vis) return;
   const a=links.get(vis.target.id);
   if(a){links.forEach(l=>l.classList.remove('on'));a.classList.add('on');}
-},{rootMargin:'-80px 0px -55% 0px'});
+},{rootMargin:'-70px 0px -55% 0px'});
 secs.forEach(s=>obs.observe(s));
 </script>
 </body>
