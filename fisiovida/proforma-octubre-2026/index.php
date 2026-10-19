@@ -382,7 +382,7 @@ input:checked + .tog::after{left:23px}
         <div class="rounded-3xl border border-marca-500/40 bg-gradient-to-b from-marca-500/15 to-transparent p-7">
           <p class="text-sm text-slate-400">Inversión para dejarlo funcionando</p>
           <p class="text-5xl font-bold text-white mt-2"><span id="total">$820</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
-          <p class="text-sm text-slate-400 mt-2">Se paga una sola vez: <span id="p60" class="text-slate-200">$492</span> al empezar y <span id="p40" class="text-slate-200">$328</span> a la entrega.</p>
+          <p class="text-sm text-slate-400 mt-2">Se paga una sola vez: 70 % al empezar (<span id="p60" class="text-slate-200">$574</span>) y 30 % a la entrega (<span id="p40" class="text-slate-200">$246</span>).</p>
           <div class="border-t border-slate-700/60 my-6"></div>
           <p class="text-sm text-slate-400">Uso del sistema, cada mes</p>
           <p class="text-3xl font-bold text-white mt-1"><span id="mes">$49</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
@@ -477,8 +477,8 @@ const fmt=n=>'$'+n.toLocaleString('es-EC').replace(/,/g,'.');
 function calc(){
   let t=820; document.querySelectorAll('.extra').forEach(c=>{if(c.checked)t+=+c.dataset.v});
   document.getElementById('total').textContent=fmt(t);
-  document.getElementById('p60').textContent=fmt(Math.round(t*.6));
-  document.getElementById('p40').textContent=fmt(t-Math.round(t*.6));
+  document.getElementById('p60').textContent=fmt(Math.round(t*.7));
+  document.getElementById('p40').textContent=fmt(t-Math.round(t*.7));
 }
 document.querySelectorAll('.extra').forEach(c=>c.addEventListener('change',calc));
 calc();

@@ -17,7 +17,7 @@ FECHA      = "17 de octubre de 2026"
 VALIDEZ    = "30 días"
 COBERTURA  = "8 especialidades"
 TELEFONO   = ""
-RENOVACION = "FORMA DE PAGO 60 % / 40 %"
+RENOVACION = "FORMA DE PAGO 70 % / 30 %"
 
 def _b64(nombre):
     ruta = os.path.join(HERE, "assets", nombre)
