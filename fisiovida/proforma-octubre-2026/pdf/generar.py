@@ -187,12 +187,14 @@ NOTA = ("Uso del sistema desde la entrega: <b>$49 + IVA al mes por sede</b> (ser
         "<b>Quipuy incluido en la mensualidad:</b> ahorro de $28 + IVA al a&ntilde;o por cada m&eacute;dico que factura.<br>"
         "Terceros, no incluidos: firma electr&oacute;nica "
         "de cada m&eacute;dico; mensajes de WhatsApp de Meta (aprox. $0,01 c/u); comisi&oacute;n de PayPhone por pago.<br>"
-        "Entrega del sistema: 6 semanas; los adicionales suman 1 a 2. No incluye pasar datos de Motrix.")
+        "<b>Precio de lanzamiento del sistema: $820</b> (descuento de $1,380), con permanencia m&iacute;nima de 12 meses "
+        "en la mensualidad; si se retiran antes, se factura la diferencia.<br>"
+        "Entrega: 6 semanas; adicionales 1 a 2 m&aacute;s. No incluye pasar datos de Motrix.")
 
 DOCS = {
  "proforma-1-2-1336": documento(PROFORMA, ITEMS,
-    totales([("Subtotal:", "$ 3,050.00", ""), ("Descuento:", "", ""),
-             ("IVA 15%:", "", ""), ("TOTAL:", "$ 3,050.00", "total")]),
+    totales([("Subtotal:", "$ 3,050.00", ""), ("Descuento:", "$ 1,380.00", ""),
+             ("IVA 15%:", "", ""), ("TOTAL:", "$ 1,670.00", "total")]),
     NOTA),
 }
 
