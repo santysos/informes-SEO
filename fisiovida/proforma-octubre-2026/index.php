@@ -337,6 +337,23 @@ input:checked + .tog::after{left:23px}
       <p class="text-lg text-slate-400 mt-5">El sistema base ya resuelve agenda, sesiones e historia clínica. Los adicionales se suman ahora o más adelante.</p>
     </div>
 
+    <div class="reveal grid md:grid-cols-2 gap-4 mb-10">
+      <div class="relative overflow-hidden rounded-3xl border border-marca-500/50 bg-gradient-to-br from-marca-500/25 via-marca-500/10 to-transparent p-8 md:p-10">
+        <p class="eyebrow text-marca-300 mb-4">Para usarlo cada día</p>
+        <p class="text-slate-300 text-lg">menos de</p>
+        <p class="text-7xl md:text-8xl font-extrabold text-white leading-none tracking-tight">$1,70</p>
+        <p class="text-2xl font-semibold text-marca-300 mt-2">al día</p>
+        <p class="text-slate-400 mt-5">Para todo el equipo: médicos, recepción y administración, con Quipuy incluido.</p>
+      </div>
+      <div class="relative overflow-hidden rounded-3xl border border-slate-700/60 glass p-8 md:p-10">
+        <p class="eyebrow text-marca-300 mb-4">Para dejarlo listo</p>
+        <p class="text-slate-300 text-lg">menos de</p>
+        <p class="text-7xl md:text-8xl font-extrabold text-white leading-none tracking-tight">$103</p>
+        <p class="text-2xl font-semibold text-marca-300 mt-2">por especialidad</p>
+        <p class="text-slate-400 mt-5">Las 8 fichas a la medida de cada especialidad, en un solo pago.</p>
+      </div>
+    </div>
+
     <div class="grid lg:grid-cols-12 gap-6 items-start">
       <div class="lg:col-span-7 space-y-3">
         <div class="opcion rounded-2xl border border-marca-500/60 bg-marca-500/10 p-5">
@@ -378,9 +395,6 @@ input:checked + .tog::after{left:23px}
           <div class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-4 mt-4 text-sm">
             <p class="text-white font-semibold">🎁 Quipuy incluido, sin costo</p>
             <p class="text-slate-300 mt-1">Por ser clientes del sistema, cada médico factura con Quipuy sin pagar su licencia: <strong class="text-marca-300">un ahorro de $28 + IVA al año por médico</strong>, con facturas ilimitadas.</p>
-          </div>
-          <div class="rounded-2xl bg-slate-950/50 border border-slate-800 p-4 mt-6 text-sm text-slate-300">
-            Son <strong class="text-marca-300">menos de $103 por especialidad</strong> en el sistema base, y <strong class="text-marca-300">menos de $1,70 al día</strong> para usarlo.
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20del%20sistema%20de%20FisioVida%20y%20quiero%20conversar" class="block text-center mt-6 px-6 py-4 rounded-2xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold hover:brightness-110 transition">Quiero empezar</a>
         </div>
