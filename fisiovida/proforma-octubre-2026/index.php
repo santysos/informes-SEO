@@ -355,7 +355,7 @@ input:checked + .tog::after{left:23px}
         <div class="opcion rounded-2xl border border-marca-500/60 bg-marca-500/10 p-5">
           <div class="flex justify-between gap-4">
             <div><p class="text-white font-semibold text-lg">Sistema multiespecialidad</p><p class="text-sm text-slate-400 mt-1">8 especialidades · agenda, sesiones, historia clínica unificada, recetas, certificados y reportes · capacitación al equipo</p></div>
-            <div class="text-right shrink-0"><p class="text-sm text-slate-500 line-through">$2.200</p><p class="text-white font-bold text-lg">$820</p><p class="text-[11px] text-marca-300">Precio de lanzamiento</p></div>
+            <div class="text-right shrink-0"><p class="text-sm text-slate-500 line-through">$1.200</p><p class="text-white font-bold text-lg">$820</p><p class="text-[11px] text-marca-300">Precio de lanzamiento</p></div>
           </div>
         </div>
         <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
@@ -388,9 +388,13 @@ input:checked + .tog::after{left:23px}
           <p class="text-3xl font-bold text-white mt-1"><span id="mes">$49</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
           <p class="text-sm text-slate-400 mt-1">Servidor propio, respaldos diarios y soporte por WhatsApp. Médicos, usuarios y pacientes sin límite.</p>
           <p class="text-xs text-slate-500 mt-2">Valor por sede. Si FisioVida atiende en más de una sede, se suman $49 + IVA por cada sede adicional.</p>
-          <div class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-4 mt-4 text-sm">
-            <p class="text-white font-semibold">🎁 Quipuy incluido, sin costo</p>
-            <p class="text-slate-300 mt-1">Por ser clientes del sistema, cada médico factura con Quipuy sin pagar su licencia: <strong class="text-marca-300">un ahorro de $28 + IVA al año por médico</strong>, con facturas ilimitadas.</p>
+          <div class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-5 mt-5 text-sm">
+            <p class="text-white font-semibold">🎁 Plan de lanzamiento · 12 meses</p>
+            <ul class="text-slate-300 mt-3 space-y-2">
+              <li>✓ El sistema a <strong class="text-marca-300">$820</strong> en vez de $1.200</li>
+              <li>✓ Su mensualidad de $49 queda <strong class="text-marca-300">congelada por 12 meses</strong></li>
+              <li>✓ <strong class="text-marca-300">Quipuy incluido</strong> para cada médico: ahorran $28 + IVA al año por médico, con facturas ilimitadas</li>
+            </ul>
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20del%20sistema%20de%20FisioVida%20y%20quiero%20conversar" class="block text-center mt-6 px-6 py-4 rounded-2xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold hover:brightness-110 transition">Quiero empezar</a>
         </div>
@@ -424,7 +428,7 @@ input:checked + .tog::after{left:23px}
           <li>· Cada médico que factura necesita su firma electrónica</li>
           <li>· Meta aprueba cada número en días o hasta dos semanas</li>
           <li>· No incluye pasar datos de Motrix ni paquetes de sesiones</li>
-          <li>· El precio de lanzamiento pide una permanencia mínima de 12 meses en la mensualidad. Si se retiran antes, se factura la diferencia ($1.380)</li>
+          <li>· El precio de lanzamiento corresponde al plan de 12 meses. Si lo terminan antes, se factura la parte proporcional del descuento: $31,67 por cada mes que falte</li>
         </ul>
       </div>
     </div>

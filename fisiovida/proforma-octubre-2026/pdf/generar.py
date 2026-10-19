@@ -171,7 +171,7 @@ ITEMS = (
     "Historia cl&iacute;nica unificada de todas las especialidades, con secciones privadas (p. ej. psicolog&iacute;a)",
     "Adjuntos (ex&aacute;menes, radiograf&iacute;as), recetas y certificados impresos, diagn&oacute;sticos CIE-10",
     "Reportes de atenciones por especialidad, m&eacute;dico y sede &middot; capacitaci&oacute;n al equipo",
-  ], "2,200.00")
+  ], "1,200.00")
   + fila("b", "ADICIONAL A &ndash; RESERVA EN L&Iacute;NEA", [
     "El paciente elige especialidad, sede y hora: con pago anticipado por PayPhone o gratis con aprobaci&oacute;n de recepci&oacute;n",
   ], "300.00")
@@ -187,13 +187,13 @@ NOTA = ("Uso del sistema desde la entrega: <b>$49 + IVA al mes</b> (servidor, re
         "<b>Quipuy incluido en la mensualidad:</b> ahorro de $28 + IVA al a&ntilde;o por cada m&eacute;dico que factura.<br>"
         "Terceros, no incluidos: firma electr&oacute;nica "
         "de cada m&eacute;dico; mensajes de WhatsApp de Meta (aprox. $0,01 c/u); comisi&oacute;n de PayPhone por pago.<br>"
-        "<b>Precio de lanzamiento del sistema: $820</b> (descuento de $1,380), con permanencia m&iacute;nima de 12 meses "
-        "en la mensualidad; si se retiran antes, se factura la diferencia.<br>"
+        "<b>Plan de lanzamiento 12 meses:</b> sistema a $820 (descuento de $380) y mensualidad congelada por 12 meses. "
+        "Si el plan termina antes, se factura la parte proporcional del descuento ($31,67 por mes que falte).<br>"
         "Entrega: 6 semanas; adicionales 1 a 2 m&aacute;s. No incluye pasar datos de Motrix.")
 
 DOCS = {
  "proforma-1-2-1336": documento(PROFORMA, ITEMS,
-    totales([("Subtotal:", "$ 3,050.00", ""), ("Descuento:", "$ 1,380.00", ""),
+    totales([("Subtotal:", "$ 2,050.00", ""), ("Descuento:", "$ 380.00", ""),
              ("IVA 15%:", "", ""), ("TOTAL:", "$ 1,670.00", "total")]),
     NOTA),
 }
