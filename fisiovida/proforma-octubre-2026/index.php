@@ -337,20 +337,16 @@ input:checked + .tog::after{left:23px}
       <p class="text-lg text-slate-400 mt-5">El sistema base ya resuelve agenda, sesiones e historia clínica. Los adicionales se suman ahora o más adelante.</p>
     </div>
 
-    <div class="reveal grid md:grid-cols-2 gap-4 mb-10">
-      <div class="relative overflow-hidden rounded-3xl border border-marca-500/50 bg-gradient-to-br from-marca-500/25 via-marca-500/10 to-transparent p-8 md:p-10">
-        <p class="eyebrow text-marca-300 mb-4">Para usarlo cada día</p>
-        <p class="text-slate-300 text-lg">menos de</p>
-        <p class="text-7xl md:text-8xl font-extrabold text-white leading-none tracking-tight">$1,70</p>
-        <p class="text-2xl font-semibold text-marca-300 mt-2">al día</p>
-        <p class="text-slate-400 mt-5">Para todo el equipo: médicos, recepción y administración, con Quipuy incluido.</p>
+    <div class="reveal grid sm:grid-cols-2 gap-3 mb-8">
+      <div class="rounded-2xl border border-marca-500/30 bg-marca-500/5 px-5 py-4 flex items-baseline gap-3">
+        <p class="text-sm text-slate-400">menos de</p>
+        <p class="text-3xl font-bold text-white">$1,70</p>
+        <p class="text-marca-300 font-semibold">al día para usarlo</p>
       </div>
-      <div class="relative overflow-hidden rounded-3xl border border-slate-700/60 glass p-8 md:p-10">
-        <p class="eyebrow text-marca-300 mb-4">Para dejarlo listo</p>
-        <p class="text-slate-300 text-lg">menos de</p>
-        <p class="text-7xl md:text-8xl font-extrabold text-white leading-none tracking-tight">$103</p>
-        <p class="text-2xl font-semibold text-marca-300 mt-2">por especialidad</p>
-        <p class="text-slate-400 mt-5">Las 8 fichas a la medida de cada especialidad, en un solo pago.</p>
+      <div class="rounded-2xl border border-slate-700/60 glass px-5 py-4 flex items-baseline gap-3">
+        <p class="text-sm text-slate-400">menos de</p>
+        <p class="text-3xl font-bold text-white">$103</p>
+        <p class="text-marca-300 font-semibold">por especialidad</p>
       </div>
     </div>
 
