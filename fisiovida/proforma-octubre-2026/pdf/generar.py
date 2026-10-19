@@ -15,7 +15,7 @@ PROFORMA  = "1-2-1336"
 CLIENTE    = "FisioVida &ndash; Sr. Fernando Landeta"
 FECHA      = "17 de octubre de 2026"
 VALIDEZ    = "30 días"
-COBERTURA  = "Todas las sedes"
+COBERTURA  = "8 especialidades"
 TELEFONO   = ""
 RENOVACION = "FORMA DE PAGO 60 % / 40 %"
 
@@ -165,7 +165,7 @@ def documento(numero, filas_items, filas_tot, nota):
 # ─── Contenido de los ítems ─────────────────────────────────────────────────
 ITEMS = (
   fila("a", "SISTEMA WEB MULTIESPECIALIDAD &ndash; FISIOVIDA", [
-    "8 especialidades, varias sedes; usuarios de m&eacute;dicos, recepci&oacute;n y administraci&oacute;n sin l&iacute;mite",
+    "8 especialidades; usuarios de m&eacute;dicos, recepci&oacute;n y administraci&oacute;n sin l&iacute;mite",
     "Agenda por especialidad, m&eacute;dico y sede, con duraci&oacute;n de cita por especialidad",
     "Ficha propia por especialidad y registro de cada sesi&oacute;n o atenci&oacute;n",
     "Historia cl&iacute;nica unificada de todas las especialidades, con secciones privadas (p. ej. psicolog&iacute;a)",
@@ -183,7 +183,7 @@ ITEMS = (
   ], "200.00")
 )
 
-NOTA = ("Uso del sistema desde la entrega: <b>$49 + IVA al mes por sede</b> (servidor, respaldos y soporte).<br>"
+NOTA = ("Uso del sistema desde la entrega: <b>$49 + IVA al mes</b> (servidor, respaldos y soporte), por sede; cada sede adicional suma $49 + IVA.<br>"
         "<b>Quipuy incluido en la mensualidad:</b> ahorro de $28 + IVA al a&ntilde;o por cada m&eacute;dico que factura.<br>"
         "Terceros, no incluidos: firma electr&oacute;nica "
         "de cada m&eacute;dico; mensajes de WhatsApp de Meta (aprox. $0,01 c/u); comisi&oacute;n de PayPhone por pago.<br>"

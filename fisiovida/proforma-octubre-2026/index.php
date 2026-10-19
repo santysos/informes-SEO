@@ -83,13 +83,13 @@ input:checked + .tog::after{left:23px}
     <div class="reveal max-w-3xl">
       <p class="eyebrow text-marca-400 mb-3">El reto</p>
       <h2 class="text-3xl md:text-5xl font-bold text-white leading-tight">Cuando un centro crece, la información se reparte</h2>
-      <p class="text-lg text-slate-400 mt-5">Con ocho especialidades y varias sedes, lo que ustedes nos pidieron resolver es esto:</p>
+      <p class="text-lg text-slate-400 mt-5">Con ocho especialidades, lo que ustedes nos pidieron resolver es esto:</p>
     </div>
     <div class="grid md:grid-cols-3 gap-4 mt-10">
       <div class="reveal rounded-3xl border border-slate-700/60 glass p-7">
         <p class="text-4xl mb-4">🗓️</p>
         <p class="text-xl font-semibold text-white mb-2">Una agenda que se entienda</p>
-        <p class="text-slate-400">Por especialidad y por médico, en todas las sedes, cada una con su duración de cita.</p>
+        <p class="text-slate-400">Por especialidad y por médico, cada una con su duración de cita.</p>
       </div>
       <div class="reveal rounded-3xl border border-slate-700/60 glass p-7" style="transition-delay:.1s">
         <p class="text-4xl mb-4">📋</p>
@@ -313,7 +313,7 @@ input:checked + .tog::after{left:23px}
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
       <div class="reveal rounded-3xl border border-slate-700/60 glass p-6"><p class="eyebrow text-marca-400 mb-3">El paciente</p><p class="text-slate-300">Reserva a cualquier hora, recibe su recordatorio y no tiene que repetir su historia en cada consulta.</p></div>
       <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.08s"><p class="eyebrow text-marca-400 mb-3">El médico</p><p class="text-slate-300">Su agenda, su ficha y la historia completa del paciente, desde la computadora o el celular.</p></div>
-      <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.16s"><p class="eyebrow text-marca-400 mb-3">Recepción</p><p class="text-slate-300">Un solo lugar para agendar las ocho especialidades de todas las sedes, sin cruces.</p></div>
+      <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.16s"><p class="eyebrow text-marca-400 mb-3">Recepción</p><p class="text-slate-300">Un solo lugar para agendar las ocho especialidades, sin cruces.</p></div>
       <div class="reveal rounded-3xl border border-slate-700/60 glass p-6" style="transition-delay:.24s"><p class="eyebrow text-marca-400 mb-3">Administración</p><p class="text-slate-300">Cuántas atenciones hace cada especialidad, cada médico y cada sede.</p></div>
     </div>
 
@@ -341,53 +341,46 @@ input:checked + .tog::after{left:23px}
       <div class="lg:col-span-7 space-y-3">
         <div class="opcion rounded-2xl border border-marca-500/60 bg-marca-500/10 p-5">
           <div class="flex justify-between gap-4">
-            <div><p class="text-white font-semibold text-lg">Sistema multiespecialidad</p><p class="text-sm text-slate-400 mt-1">8 especialidades · todas las sedes · agenda, sesiones, historia clínica unificada, recetas, certificados y reportes · capacitación al equipo</p></div>
+            <div><p class="text-white font-semibold text-lg">Sistema multiespecialidad</p><p class="text-sm text-slate-400 mt-1">8 especialidades · agenda, sesiones, historia clínica unificada, recetas, certificados y reportes · capacitación al equipo</p></div>
             <div class="text-right shrink-0"><p class="text-sm text-slate-500 line-through">$2.200</p><p class="text-white font-bold text-lg">$820</p><p class="text-[11px] text-marca-300">Precio de lanzamiento</p></div>
           </div>
         </div>
         <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
           <div class="flex justify-between gap-4 items-center">
-            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="300" checked><span class="tog"></span><div><p class="text-white font-semibold">Reserva en línea</p><p class="text-sm text-slate-400">Con pago por PayPhone o con aprobación de recepción</p></div></div>
+            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="300"><span class="tog"></span><div><p class="text-white font-semibold">Reserva en línea</p><p class="text-sm text-slate-400">Con pago por PayPhone o con aprobación de recepción</p></div></div>
             <p class="text-white font-bold shrink-0">$300</p>
           </div>
         </label>
         <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
           <div class="flex justify-between gap-4 items-center">
-            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="350" checked><span class="tog"></span><div><p class="text-white font-semibold">Recordatorios por WhatsApp</p><p class="text-sm text-slate-400">Un número por especialidad</p></div></div>
+            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="350"><span class="tog"></span><div><p class="text-white font-semibold">Recordatorios por WhatsApp</p><p class="text-sm text-slate-400">Un número por especialidad</p></div></div>
             <p class="text-white font-bold shrink-0">$350</p>
           </div>
         </label>
         <label class="opcion block cursor-pointer rounded-2xl border border-slate-700/60 glass p-5">
           <div class="flex justify-between gap-4 items-center">
-            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="200" checked><span class="tog"></span><div><p class="text-white font-semibold">Factura en un clic</p><p class="text-sm text-slate-400">Cada médico con su RUC, vía Quipuy</p></div></div>
+            <div class="flex gap-4 items-center"><input type="checkbox" class="sr-only extra" data-v="200"><span class="tog"></span><div><p class="text-white font-semibold">Factura en un clic</p><p class="text-sm text-slate-400">Cada médico con su RUC, vía Quipuy</p></div></div>
             <p class="text-white font-bold shrink-0">$200</p>
           </div>
         </label>
-        <div class="rounded-2xl border border-slate-700/60 glass p-5 flex justify-between items-center gap-4">
-          <div><p class="text-white font-semibold">¿Cuántas sedes?</p><p class="text-sm text-slate-400">Médicos, usuarios y pacientes sin límite</p></div>
-          <div class="flex items-center gap-3">
-            <button id="menos" class="w-9 h-9 rounded-full border border-slate-600 text-white text-lg leading-none">−</button>
-            <span id="sedes" class="text-2xl font-bold text-white w-6 text-center">2</span>
-            <button id="mas" class="w-9 h-9 rounded-full border border-slate-600 text-white text-lg leading-none">+</button>
-          </div>
-        </div>
       </div>
 
       <div class="lg:col-span-5 lg:sticky lg:top-20">
         <div class="rounded-3xl border border-marca-500/40 bg-gradient-to-b from-marca-500/15 to-transparent p-7">
           <p class="text-sm text-slate-400">Inversión para dejarlo funcionando</p>
-          <p class="text-5xl font-bold text-white mt-2"><span id="total">$1.670</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
-          <p class="text-sm text-slate-400 mt-2">Se paga una sola vez: <span id="p60" class="text-slate-200">$1.002</span> al empezar y <span id="p40" class="text-slate-200">$668</span> a la entrega.</p>
+          <p class="text-5xl font-bold text-white mt-2"><span id="total">$820</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
+          <p class="text-sm text-slate-400 mt-2">Se paga una sola vez: <span id="p60" class="text-slate-200">$492</span> al empezar y <span id="p40" class="text-slate-200">$328</span> a la entrega.</p>
           <div class="border-t border-slate-700/60 my-6"></div>
           <p class="text-sm text-slate-400">Uso del sistema, cada mes</p>
-          <p class="text-3xl font-bold text-white mt-1"><span id="mes">$98</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
-          <p class="text-sm text-slate-400 mt-1">$49 por sede · servidor propio, respaldos diarios y soporte por WhatsApp</p>
+          <p class="text-3xl font-bold text-white mt-1"><span id="mes">$49</span><span class="text-base font-normal text-slate-400"> + IVA</span></p>
+          <p class="text-sm text-slate-400 mt-1">Servidor propio, respaldos diarios y soporte por WhatsApp. Médicos, usuarios y pacientes sin límite.</p>
+          <p class="text-xs text-slate-500 mt-2">Valor por sede. Si FisioVida atiende en más de una sede, se suman $49 + IVA por cada sede adicional.</p>
           <div class="rounded-2xl border border-marca-500/40 bg-marca-500/10 p-4 mt-4 text-sm">
             <p class="text-white font-semibold">🎁 Quipuy incluido, sin costo</p>
             <p class="text-slate-300 mt-1">Por ser clientes del sistema, cada médico factura con Quipuy sin pagar su licencia: <strong class="text-marca-300">un ahorro de $28 + IVA al año por médico</strong>, con facturas ilimitadas.</p>
           </div>
           <div class="rounded-2xl bg-slate-950/50 border border-slate-800 p-4 mt-6 text-sm text-slate-300">
-            Son <strong class="text-marca-300">menos de $103 por especialidad</strong> en el sistema base, y <strong class="text-marca-300">menos de $1,70 al día por sede</strong> para usarlo.
+            Son <strong class="text-marca-300">menos de $103 por especialidad</strong> en el sistema base, y <strong class="text-marca-300">menos de $1,70 al día</strong> para usarlo.
           </div>
           <a href="https://wa.me/593999174980?text=Hola%20Santiago%2C%20vi%20la%20propuesta%20del%20sistema%20de%20FisioVida%20y%20quiero%20conversar" class="block text-center mt-6 px-6 py-4 rounded-2xl bg-gradient-to-r from-marca-600 to-marca-500 text-white font-semibold hover:brightness-110 transition">Quiero empezar</a>
         </div>
@@ -467,18 +460,13 @@ document.getElementById('ant').onclick=()=>ir(cur-1);
 
 // arme su sistema
 const fmt=n=>'$'+n.toLocaleString('es-EC').replace(/,/g,'.');
-let sedes=2;
 function calc(){
   let t=820; document.querySelectorAll('.extra').forEach(c=>{if(c.checked)t+=+c.dataset.v});
   document.getElementById('total').textContent=fmt(t);
   document.getElementById('p60').textContent=fmt(Math.round(t*.6));
   document.getElementById('p40').textContent=fmt(t-Math.round(t*.6));
-  document.getElementById('sedes').textContent=sedes;
-  document.getElementById('mes').textContent=fmt(49*sedes);
 }
 document.querySelectorAll('.extra').forEach(c=>c.addEventListener('change',calc));
-document.getElementById('mas').onclick=()=>{if(sedes<10){sedes++;calc()}};
-document.getElementById('menos').onclick=()=>{if(sedes>1){sedes--;calc()}};
 calc();
 
 // menú activo
