@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contrato SEO y verificación de RUC — Multitecnología VYV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0c2440; --navy2:#12365e; --accent:#0e7490; --accent-soft:#e0f2f5;
+    --ink:#1e293b; --muted:#64748b; --line:#e2e8f0;
+  }
+  @page { size:A4; margin:15mm 15mm 14mm; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font-family:"Inter",-apple-system,sans-serif; color:var(--ink); font-size:10.4pt; line-height:1.52; }
+
+  /* Cabecera (tarjeta, dentro de los márgenes) */
+  .top{ background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 100%); color:#fff; border-radius:14px; padding:22px 26px 24px; position:relative; overflow:hidden; margin-bottom:8mm; }
+  .top::after{ content:""; position:absolute; right:-30mm; top:-34mm; width:78mm; height:78mm; border-radius:50%; background:rgba(14,116,144,.20); }
+  .top .row{ display:flex; justify-content:space-between; align-items:flex-start; position:relative; z-index:1; }
+  .logo{ font-size:15pt; font-weight:700; letter-spacing:.2px; }
+  .logo span{ display:block; font-size:7.5pt; font-weight:400; opacity:.75; letter-spacing:1.5px; text-transform:uppercase; margin-top:2px; }
+  .meta{ text-align:right; font-size:8.5pt; opacity:.9; line-height:1.7; }
+  .meta b{ color:#7dd3e0; font-weight:600; }
+  .title{ position:relative; z-index:1; margin-top:7mm; }
+  .title .kicker{ font-size:8pt; letter-spacing:3px; text-transform:uppercase; color:#7dd3e0; font-weight:600; }
+  .title h1{ font-family:"Fraunces",serif; font-weight:600; font-size:22pt; line-height:1.1; margin-top:4px; }
+  .title .lead{ font-size:9.5pt; opacity:.85; margin-top:6px; }
+
+  /* Partes */
+  .parties{ display:flex; gap:6mm; margin-bottom:5mm; }
+  .party{ flex:1; border:1px solid var(--line); border-radius:10px; padding:11px 14px; background:#fbfcfe; }
+  .party .tag{ display:inline-block; font-size:7.5pt; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); padding:2px 8px; border-radius:20px; margin-bottom:7px; }
+  .party .nm{ font-weight:700; color:var(--navy); font-size:10.5pt; }
+  .party .det{ font-size:8.8pt; color:var(--muted); line-height:1.75; margin-top:3px; }
+
+  .intro{ text-align:justify; color:var(--muted); font-size:9.3pt; margin-bottom:5mm; }
+
+  /* Cláusulas — fluyen entre páginas; el título nunca queda huérfano al pie */
+  .clause{ margin-bottom:3.8mm; }
+  .clause h2{ display:flex; align-items:center; gap:9px; font-size:10.3pt; color:var(--navy); font-weight:700; margin-bottom:5px; break-after:avoid; }
+  .clause h2{ break-inside:avoid; page-break-inside:avoid; page-break-after:avoid; }
+  .clause h2 + ul li:first-child, .clause h2 + p{ break-before:avoid; }
+  .clause h2 .n{ flex:none; width:21px; height:21px; border-radius:6px; background:var(--navy); color:#fff; font-size:8.5pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .clause p{ text-align:justify; margin:4px 0; }
+  .clause ul{ list-style:none; margin:5px 0; }
+  .clause li{ position:relative; padding-left:18px; margin:5px 0; text-align:justify; break-inside:avoid; }
+  .clause li::before{ content:""; position:absolute; left:2px; top:8px; width:6px; height:6px; border-radius:50%; background:var(--accent); }
+  .note{ font-size:8.8pt; color:var(--muted); font-style:italic; }
+
+  /* Caja Qué NO incluye */
+  .exclude{ border:1px solid #f0c9c0; background:#fdf5f3; border-radius:10px; padding:12px 16px; margin-bottom:4mm; break-inside:avoid; }
+  .exclude h2{ color:#b03a2e; }
+  .exclude h2 .n{ background:#b03a2e; }
+  .exclude li::before{ background:#b03a2e; }
+
+  /* Tabla de pago */
+  .pay{ width:100%; border-collapse:collapse; margin:6px 0 8px; font-size:9.6pt; border-radius:10px; overflow:hidden; box-shadow:0 0 0 1px var(--line); }
+  .pay td{ padding:9px 14px; border-bottom:1px solid var(--line); }
+  .pay td:last-child{ text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .pay tr:nth-child(odd) td{ background:#fbfcfe; }
+  .pay .sub td{ font-weight:600; }
+  .pay .total td{ background:var(--navy)!important; color:#fff; font-weight:700; font-size:10.6pt; border:0; }
+
+  /* Firmas */
+  .signs{ display:flex; gap:16mm; margin-top:8mm; break-inside:avoid; }
+  .signs div{ flex:1; text-align:center; }
+  .signs .ln{ border-top:1.5px solid var(--navy); margin-bottom:6px; }
+  .signs .who{ font-weight:700; color:var(--navy); font-size:9.5pt; }
+  .signs .ci{ font-size:8.5pt; color:var(--muted); margin-top:2px; }
+
+  .foot{ text-align:center; color:var(--muted); font-size:8pt; margin-top:6mm; letter-spacing:.3px; break-inside:avoid; }
+
+  /* Preview en pantalla (no afecta la impresión) */
+  @media screen{
+    body{ background:#eef2f7; }
+    .wrap{ max-width:780px; margin:26px auto; background:#fff; padding:15mm; border-radius:6px; box-shadow:0 10px 44px rgba(12,36,64,.16); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <div class="row">
+      <div class="logo">Creative Web<span>Diseño web · Posicionamiento · Sistemas</span></div>
+      <div class="meta">Contrato <b>N.º CW-SEO-RUC-2026-MVY</b><br>Otavalo, 23 de octubre de 2026</div>
+    </div>
+    <div class="title">
+      <div class="kicker">Contrato de prestación de servicios</div>
+      <h1>Posicionamiento Web (SEO) y Verificación Automática de RUC</h1>
+      <div class="lead">Plan de posicionamiento por 3 meses y complemento de verificación de RUC · Multitecnología VYV</div>
+    </div>
+  </div>
+
+  <div class="parties">
+    <div class="party">
+      <span class="tag">El Proveedor</span>
+      <div class="nm">Creative Web — Santiago Oña Sánchez</div>
+      <div class="det">
+        RUC: 1002906426001<br>
+        Modesto Jaramillo 3-60 y Abdón Calderón, 2.º piso, Otavalo<br>
+        info@creativeweb.com.ec · 099 917 4980
+      </div>
+    </div>
+    <div class="party">
+      <span class="tag">El Cliente</span>
+      <div class="nm">Viviana Celi — Multitecnología VYV</div>
+      <div class="det">
+        RUC: 1001549508001<br>
+        Miraflores, Armero y El Oro<br>
+        +593 98 407 2123
+      </div>
+    </div>
+  </div>
+
+  <p class="intro">Las partes, mayores de edad y legalmente capaces, acuerdan celebrar el presente contrato de prestación de servicios al tenor de las siguientes cláusulas.</p>
+
+  <div class="clause">
+    <h2><span class="n">1</span> Antecedentes</h2>
+    <p>El PROVEEDOR presentó al CLIENTE la proforma N.º 1-2-1330 del 14 de septiembre de 2026, que incluye un plan de posicionamiento web y la recuperación de direcciones rotas de la migración anterior, y la proforma N.º 1-2-1335 del 13 de octubre de 2026, de verificación automática de RUC en el registro de clientes. El CLIENTE aprobó el plan de posicionamiento por tres (3) meses con la recuperación de direcciones rotas, y la verificación automática de RUC junto con su opcional de actualización de los clientes ya registrados. El presente contrato formaliza en un solo documento ambos acuerdos y define con precisión lo que se realizará y lo que no.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">2</span> Objeto</h2>
+    <p>El PROVEEDOR prestará al CLIENTE, para su sitio en WordPress: (a) un servicio de posicionamiento web (SEO) durante tres (3) meses, orientado a atraer visitantes nuevos desde Google hacia sus productos, más la corrección de las direcciones rotas del sitio; y (b) el desarrollo e instalación de un complemento de verificación automática del RUC en el formulario de registro de clientes, más la actualización de los clientes ya registrados con los datos del SRI.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">3</span> Alcance del servicio de posicionamiento (qué incluye)</h2>
+    <p>Durante los tres meses de vigencia, el servicio comprende:</p>
+    <ul>
+      <li><b>Contenido:</b> veinte (20) artículos al mes — sesenta (60) en total —, optimizados para búsqueda y enlazados a los productos de la tienda de los que trata cada uno.</li>
+      <li><b>Optimización:</b> reescritura de títulos y meta descripciones de las páginas que ya posicionan en Google, para mejorar su tasa de clic.</li>
+      <li><b>Medición:</b> instalación y funcionamiento del seguimiento (Google Search Console y Analytics) para medir visitas, posiciones y su evolución.</li>
+      <li><b>Informe mensual:</b> cada mes el CLIENTE recibe un informe con (1) el trabajo realizado a detalle, (2) las métricas y su comparación con el mes anterior y (3) la estrategia del mes siguiente, conversado en una reunión.</li>
+      <li><b>Recuperación de direcciones rotas (una sola vez):</b> se identifican y resuelven <b>todas las direcciones (URLs) del sitio que devuelven error 404</b>, redirigiéndolas a la página que corresponde, para evitar enlaces rotos y que Google penalice el posicionamiento del sitio. Se entregan verificadas.</li>
+    </ul>
+    <p class="note">La estrategia no es un calendario fijo: los primeros trabajos priorizan corregir lo que ya posiciona (rinde más rápido) y luego el peso se mueve al contenido nuevo, decidido con los datos del mes anterior.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">4</span> Alcance de la verificación automática de RUC (qué incluye)</h2>
+    <ul>
+      <li><b>Verificación en el registro:</b> complemento propio del PROVEEDOR para el formulario de registro de clientes. Al escribir el RUC se obtiene la razón social y el estado (activo / no activo) y el campo Empresa se llena solo. Un RUC inexistente o no activo no puede registrarse, y un mismo RUC no puede abrir dos cuentas.</li>
+      <li><b>Protección contra registros falsos:</b> reCAPTCHA invisible, campo trampa, tiempo mínimo de envío, validación del formato y dígito verificador del RUC, y bloqueo de correos temporales y de enlaces en los campos.</li>
+      <li><b>Datos en la ficha del cliente:</b> razón social, nombre comercial, estado del RUC, tipo de contribuyente, actividad económica y fecha de verificación.</li>
+      <li><b>Consultas:</b> incluye las primeras mil (1.000) consultas, con aviso en el panel cuando queden cien (100). Un RUC ya consultado no vuelve a descontarse y solo se descuentan las consultas exitosas. Se registran los intentos bloqueados con fecha, motivo, correo y RUC.</li>
+      <li><b>Actualización de los clientes ya registrados (una sola vez):</b> respaldo de los datos actuales, consulta del RUC de cada cliente, entrega de un Excel con la razón social actual frente a la del SRI y el estado de cada RUC y, con la aprobación del CLIENTE, actualización de cada ficha. Incluye las consultas de todos los clientes. No se cambia ni se borra ninguna cuenta sin su aprobación.</li>
+      <li><b>Pruebas e instalación</b> en la tienda, con RUC reales activos y no activos.</li>
+    </ul>
+    <p class="note">Después de las primeras 1.000 consultas, el CLIENTE puede adquirir paquetes de 1.000 consultas por USD $10,00 más IVA cada uno, sin mensualidad y sin caducidad. Si las consultas se agotan, el registro sigue protegido contra registros falsos y ninguna venta se detiene.</p>
+  </div>
+
+  <div class="exclude clause">
+    <h2><span class="n">5</span> Qué NO incluye</h2>
+    <p>Para que no aparezca ningún costo a mitad del trabajo, se deja por escrito que <b>este contrato no cubre</b>:</p>
+    <ul>
+      <li>Publicidad pagada en Google o redes sociales (pauta).</li>
+      <li>Rediseño del sitio web.</li>
+      <li>Fotografía de producto.</li>
+      <li>Manejo de redes sociales.</li>
+      <li>Alojamiento (hosting) y dominio.</li>
+      <li>Carga o corrección del catálogo de productos.</li>
+      <li>Paquetes de consultas de RUC adicionales a las 1.000 incluidas.</li>
+      <li>Verificación del RUC en el checkout para compras sin cuenta.</li>
+      <li>Nueva verificación automática y periódica de los clientes existentes.</li>
+      <li>Cambios de diseño del formulario de registro.</li>
+    </ul>
+    <p class="note" style="margin-bottom:0;">Si alguno de estos u otros trabajos hace falta, se cotiza aparte y con anticipación, previa aprobación escrita del CLIENTE.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">6</span> Plazo y cronograma</h2>
+    <p>El servicio de posicionamiento tiene una duración de <b>tres (3) meses</b> contados desde la fecha de inicio, que será el día hábil siguiente a la confirmación del pago y de los accesos. La recuperación de las direcciones rotas se ejecuta durante la primera semana. Los veinte artículos mensuales y el informe se entregan dentro de cada mes calendario de vigencia.</p>
+    <p>La verificación automática de RUC se entrega instalada y probada en un plazo de <b>cinco (5) días hábiles</b> desde la misma fecha de inicio. La actualización de los clientes ya registrados se realiza después de la entrega y su aplicación final depende de la aprobación del Excel de revisión por parte del CLIENTE.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">7</span> Valor y forma de pago</h2>
+    <table class="pay">
+      <tr><td>Plan de posicionamiento SEO — 3 meses (60 artículos, optimización, medición e informes)</td><td>USD&nbsp;$310,00</td></tr>
+      <tr><td>Recuperación de todas las direcciones rotas / errores 404 (una sola vez)</td><td>USD&nbsp;$40,00</td></tr>
+      <tr><td>Verificación automática de RUC en el registro (complemento, protección, 1.000 consultas, pruebas e instalación)</td><td>USD&nbsp;$150,00</td></tr>
+      <tr><td>Actualización de los clientes ya registrados con los datos del SRI (una sola vez)</td><td>USD&nbsp;$60,00</td></tr>
+      <tr class="sub"><td>Subtotal</td><td>USD&nbsp;$560,00</td></tr>
+      <tr><td>IVA 15%</td><td>USD&nbsp;$84,00</td></tr>
+      <tr class="total"><td>TOTAL A PAGAR</td><td>USD&nbsp;$644,00</td></tr>
+    </table>
+    <p>El pago se realiza en <b>un solo pago</b> de USD $560,00 más IVA (USD $644,00) al inicio del contrato. Los servicios arrancan una vez confirmado el pago.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">8</span> Obligaciones del PROVEEDOR</h2>
+    <ul>
+      <li>Ejecutar los servicios descritos en las cláusulas tercera y cuarta con calidad profesional y dentro de los plazos.</li>
+      <li>Entregar el informe mensual y sostener la reunión de revisión.</li>
+      <li>Usar los accesos del CLIENTE solo para lo pactado y mantener la confidencialidad.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">9</span> Obligaciones del CLIENTE</h2>
+    <ul>
+      <li>Entregar, dentro de los primeros días, los accesos necesarios (WordPress, Search Console, Analytics) y la información de productos que se requiera.</li>
+      <li>Revisar y dar retroalimentación de los entregables en un plazo razonable; el silencio por más de cinco (5) días hábiles se entiende como conformidad.</li>
+      <li>Revisar el Excel de los clientes ya registrados y aprobar por escrito su actualización, decidiendo qué hacer con las cuentas señaladas.</li>
+      <li>Realizar el pago acordado en la cláusula séptima.</li>
+    </ul>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">10</span> Sobre los resultados</h2>
+    <p>El SEO es un trabajo acumulativo cuyos efectos se consolidan con el tiempo; las visitas y posiciones dependen también de factores externos (algoritmo de Google, competencia, estacionalidad). Por ello el PROVEEDOR <b>no garantiza una posición específica ni un número exacto de visitas o ventas</b>, sino la ejecución profesional del trabajo descrito y su medición transparente mes a mes.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">11</span> Propiedad, confidencialidad y terminación</h2>
+    <p>Los artículos y textos entregados y pagados pasan a ser propiedad del CLIENTE y permanecen publicados en su sitio al terminar el contrato. El complemento de verificación de RUC queda instalado en el sitio del CLIENTE con derecho de uso por tiempo indefinido; el PROVEEDOR conserva la titularidad del código. Ambas partes guardarán reserva sobre la información y los accesos a los que tengan acceso con ocasión de este contrato. Al concluir los tres meses del servicio de posicionamiento, y entregada la verificación de RUC, el contrato termina sin necesidad de aviso; las partes podrán acordar por escrito una renovación o un nuevo plan, y el trabajo realizado permanece en beneficio del CLIENTE.</p>
+  </div>
+
+  <div class="clause">
+    <h2><span class="n">12</span> Aceptación</h2>
+    <p>Las partes declaran haber leído y entendido este contrato y lo aceptan en todas sus cláusulas, firmando en dos ejemplares de igual tenor.</p>
+  </div>
+
+  <div class="signs">
+    <div>
+      <div class="ln"></div>
+      <div class="who">EL PROVEEDOR</div>
+      <div class="ci">Santiago Oña Sánchez · Creative Web<br>RUC 1002906426001</div>
+    </div>
+    <div>
+      <div class="ln"></div>
+      <div class="who">EL CLIENTE</div>
+      <div class="ci">Viviana Celi · Multitecnología VYV<br>RUC 1001549508001</div>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
