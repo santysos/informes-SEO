@@ -1,0 +1,95 @@
+{
+  "n": 10,
+  "slug": "teclado-laptop-por-modelo",
+  "title": "Teclado de laptop por modelo: cómo acertar a la primera",
+  "focus_kw": "teclado de laptop por modelo",
+  "meta_desc": "Teclado de laptop por modelo: cómo identificar el correcto con frame o sin frame, big enter, retroiluminado e idioma, y probarlo antes de montar.",
+  "excerpt": "Frame, big enter, retroiluminación, pointer e idioma: los detalles que separan un teclado que encaja de una devolución. Guía para técnicos.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "teclado laptop",
+    "repuestos laptop",
+    "teclado retroiluminado",
+    "comprobador de teclados",
+    "Lenovo",
+    "HP"
+  ],
+  "featured": {
+    "pexels_query": "laptop keyboard replacement repair",
+    "alt": "Técnico cambiando el teclado de una laptop en su mesa de trabajo"
+  },
+  "inline_image": {
+    "pexels_query": "laptop keyboard closeup keys",
+    "alt": "Detalle de las teclas de un teclado de laptop",
+    "after_section": 2
+  },
+  "intro_html": "<p>El teclado es de los repuestos que más se dañan: café derramado, teclas que dejan de responder o que se salen. Y también de los que más se piden mal, porque un modelo de laptop puede tener varios teclados distintos.</p>\n<p>Para elegir el <strong>teclado de laptop por modelo</strong> sin equivocarte, no basta con el nombre del equipo. En esta guía te mostramos qué detalles revisar, cómo leer los nombres de los productos y cómo probar el teclado antes de montarlo.</p>",
+  "sections": [
+    {
+      "h2": "Empieza por el modelo exacto, no por el nombre comercial",
+      "html": "<p>“Lenovo IdeaPad 3” o “HP 15” no son modelos: son familias con decenas de versiones. El modelo exacto está en la etiqueta de la base de la laptop, por ejemplo <strong>IdeaPad 3-15ITL6</strong> o <strong>HP 15-ay</strong>.</p>\n<p>Con ese código ya puedes buscar en el catálogo. Los nombres de nuestros productos incluyen los modelos compatibles, como el <a href=\"https://multitecnologiavyv.com/producto/teclado-para-lenovo-ideapad-3-15ada6-3-15alc6-3-15itl6-no-frame-big-enter/\">teclado para Lenovo IdeaPad 3-15ADA6, 3-15ALC6 y 3-15ITL6</a>, que sirve para esas tres variantes.</p>\n<p>Si además quieres más seguridad, retira el teclado dañado y busca el número de parte en su etiqueta trasera. Es el dato más preciso que existe.</p>"
+    },
+    {
+      "h2": "Con frame o sin frame",
+      "html": "<p>El frame es el marco plástico que rodea las teclas. Algunos teclados se venden con ese marco incluido y otros solo con las teclas sobre su base.</p>\n<ul>\n<li><strong>Con frame:</strong> el teclado trae su propio marco y se monta como una pieza completa.</li>\n<li><strong>Sin frame (no frame):</strong> el marco forma parte de la carcasa de la laptop, y el teclado entra dentro de él.</li>\n</ul>\n<p>Si pides uno con frame para un equipo que no lo lleva, no va a encajar. Fíjate en cómo está montado el original antes de pedir. El nombre del producto siempre lo indica, como en el <a href=\"https://multitecnologiavyv.com/producto/teclado-para-hp-15-15ac-15ay-255-big-enter-sin-frame/\">teclado HP 15-ac 15-ay 255 big enter sin frame</a>.</p>"
+    },
+    {
+      "h2": "Big enter o small enter",
+      "html": "<p>La tecla Enter tiene dos formas, y no es un detalle estético: cambia la distribución de las teclas de esa zona.</p>\n<table>\n<thead><tr><th>Tipo</th><th>Cómo es</th><th>Dónde se usa</th></tr></thead>\n<tbody>\n<tr><td>Big enter</td><td>Enter grande, en forma de L invertida, de dos filas de alto.</td><td>Distribución en español y otras latinoamericanas.</td></tr>\n<tr><td>Small enter</td><td>Enter rectangular de una sola fila.</td><td>Distribución en inglés de Estados Unidos.</td></tr>\n</tbody>\n</table>\n<p>Para el usuario en Ecuador, lo habitual es el big enter con la Ñ. Si el cliente trae un equipo comprado afuera con small enter, pregúntale cuál prefiere antes de pedir: la diferencia se nota apenas empieza a escribir.</p>"
+    },
+    {
+      "h2": "Retroiluminado, con pointer y otros detalles",
+      "html": "<h3>Retroiluminado</h3>\n<p>Un teclado retroiluminado tiene luz debajo de las teclas y, por lo general, un segundo cable flex para esa luz. Puede existir la misma referencia en dos versiones, con luz y sin luz, como el <a href=\"https://multitecnologiavyv.com/producto/teclado-para-lenovo-ideapad-3-15ada6-3-15alc6-3-15itl6-no-frame-big-enter-retroiluminado/\">teclado retroiluminado para IdeaPad 3-15ITL6</a>. Si el equipo no tiene el conector para la luz en la placa, el teclado retroiluminado escribe, pero no enciende la luz.</p>\n<h3>Con pointer</h3>\n<p>Algunas laptops de empresa, como ThinkPad o Dell Latitude, tienen un pequeño botón en el centro del teclado que mueve el cursor, llamado pointer o track point. Si el original lo tiene, pide la versión con pointer.</p>\n<h3>Color y posición del flex</h3>\n<p>Revisa también el color, negro, blanco o plateado, y dónde sale el cable flex. Un flex en otra posición no llega al conector de la placa.</p>"
+    },
+    {
+      "h2": "Teclados atornillados, con clips o pegados",
+      "html": "<p>No todos los teclados se cambian igual, y eso afecta el tiempo de la reparación.</p>\n<ul>\n<li><strong>Con clips o pestañas:</strong> se libera presionando unas pestañas en el borde superior. Es el más rápido.</li>\n<li><strong>Atornillado por debajo:</strong> hay que abrir la base para retirar los tornillos.</li>\n<li><strong>Remachado o pegado al reposamanos:</strong> en muchas laptops recientes el teclado viene fijado a la carcasa superior. Hay que desarmar el equipo casi completo y retirarlo con cuidado.</li>\n</ul>\n<p>Saber esto antes de cotizar te ayuda a cobrar bien la mano de obra y a no prometerle al cliente un tiempo que no puedes cumplir.</p>"
+    },
+    {
+      "h2": "Prueba el teclado antes de montarlo",
+      "html": "<p>Montar un teclado, cerrar el equipo y descubrir que una tecla no responde es tiempo perdido. Un comprobador de teclados te permite conectar el teclado nuevo y probar todas las teclas antes de instalarlo.</p>\n<p>En la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/comprobador-de-repuestos/\">comprobadores de repuestos</a> encuentras modelos como el <a href=\"https://multitecnologiavyv.com/producto/comprobador-de-teclados-ak15/\">comprobador de teclados AK15</a>. Para un taller que cambia teclados cada semana, se paga solo con las devoluciones que evita.</p>\n<p>Y si el teclado nuevo tampoco responde dentro del equipo, revisa el conector de la placa y el cable flex antes de culpar al repuesto.</p>"
+    },
+    {
+      "h2": "Qué teclados tener en stock",
+      "html": "<p>Los teclados que más rotan son los de los modelos que más se venden en Ecuador: líneas de oficina y hogar de Lenovo, HP, Dell, Asus y Acer. Mira qué modelos entran más a tu taller y arma tu stock con esos.</p>\n<p>En la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/teclado-laptop/\">teclados de laptop</a> encuentras modelos para Lenovo, HP, Dell, Toshiba, Sony, Samsung y MSI, con frame, big enter y retroiluminación indicados en el nombre. Con tu cuenta comercial ves los precios de distribuidor y despachamos desde Quito a todo el país.</p>"
+    }
+  ],
+  "products": [
+    9340,
+    10272,
+    9351,
+    10237
+  ],
+  "cta_mid": {
+    "title": "¿No encuentras el teclado de tu modelo?",
+    "text": "Envíanos el modelo exacto de la laptop o una foto del teclado y un asesor lo busca contigo.",
+    "wa_text": "Hola, busco un teclado de laptop para este modelo. Te envío la foto"
+  },
+  "cta_end": {
+    "title": "Teclados de laptop por mayor",
+    "text": "Crea tu cuenta comercial para ver precios de distribuidor y tener en stock los teclados que más entran a tu taller.",
+    "wa_text": "Hola, quiero cotizar teclados de laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Cómo sé qué teclado lleva mi laptop?",
+      "a": "Busca el modelo exacto en la etiqueta de la base, por ejemplo IdeaPad 3-15ITL6 o HP 15-ay, y no solo el nombre comercial. Para más precisión, retira el teclado y lee el número de parte en su etiqueta trasera."
+    },
+    {
+      "q": "¿Qué significa big enter en un teclado de laptop?",
+      "a": "Que la tecla Enter es grande, en forma de L invertida y de dos filas de alto. Es la que se usa en la distribución en español. El small enter, de una sola fila, corresponde a la distribución en inglés."
+    },
+    {
+      "q": "¿Puedo poner un teclado retroiluminado en una laptop que no lo tenía?",
+      "a": "Puede escribir sin problema, pero la luz solo funciona si la placa tiene el conector y el soporte para la retroiluminación. Si el equipo original no tenía luz, lo normal es que no encienda."
+    },
+    {
+      "q": "¿Qué es un teclado sin frame?",
+      "a": "Es un teclado que se vende sin el marco plástico alrededor de las teclas, porque ese marco ya forma parte de la carcasa de la laptop. Debe coincidir con la forma en que estaba montado el original."
+    },
+    {
+      "q": "¿Para qué sirve un comprobador de teclados?",
+      "a": "Para conectar el teclado y probar todas las teclas antes de instalarlo en la laptop. Así detectas una tecla que no responde sin tener que desarmar el equipo dos veces."
+    }
+  ]
+}

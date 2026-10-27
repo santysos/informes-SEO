@@ -1,0 +1,90 @@
+{
+  "n": 12,
+  "slug": "pin-de-carga-laptop",
+  "title": "Pin de carga de laptop: cómo saber si falla y cuál pedir",
+  "focus_kw": "pin de carga laptop",
+  "meta_desc": "Pin de carga de laptop: cómo diagnosticar la falla, diferenciar plug 7.4x5.0, 4.5x3.0 o rectangular y pedir el repuesto correcto por número de parte.",
+  "excerpt": "La laptop carga solo si mueves el cable o no carga nada. Aprende a confirmar que el problema es el pin de carga y a elegir el repuesto por plug, largo y número de parte.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "pin de carga",
+    "DC jack",
+    "repuestos laptop",
+    "reparación de laptops",
+    "cargador de laptop"
+  ],
+  "featured": {
+    "pexels_query": "laptop dc power jack repair soldering",
+    "alt": "Técnico soldando el pin de carga en la placa de una laptop"
+  },
+  "inline_image": {
+    "pexels_query": "laptop charger plug connector closeup",
+    "alt": "Punta de un cargador de laptop junto al puerto de carga",
+    "after_section": 1
+  },
+  "intro_html": "<p>“Solo carga si muevo el cable” es una de las frases que más se escuchan en un servicio técnico. Casi siempre apunta al pin de carga, también llamado DC jack: la pieza donde se conecta el cargador.</p><p>Es una reparación rápida y rentable, siempre que pidas el repuesto correcto. En esta guía vas a ver cómo confirmar la falla, qué tipos de pin existen y qué datos revisar para no equivocarte.</p>",
+  "sections": [
+    {
+      "h2": "Qué es el pin de carga y por qué se daña",
+      "html": "<p>El pin de carga es el conector de entrada de energía de la laptop. Recibe el voltaje del cargador y lo pasa a la placa madre, a veces directamente y a veces mediante un pequeño cable.</p><p>Se daña por uso diario más que por defecto de fábrica:</p><ul><li>Tirones al cable mientras la laptop está conectada.</li><li>Laptop usada sobre las piernas o la cama, con el plug doblado.</li><li>Caídas con el cargador puesto.</li><li>Cargadores genéricos con una punta que no ajusta bien.</li></ul><p>Con el tiempo, el conector se afloja, se rompe la soldadura o se parte el pin central. El resultado es una carga intermitente o nula.</p>"
+    },
+    {
+      "h2": "Cómo confirmar que la falla es el pin y no el cargador",
+      "html": "<p>Antes de abrir la laptop, descarta lo obvio. Así no cambias una pieza que estaba bien.</p><ol><li><strong>Prueba el cargador.</strong> Mide el voltaje con un multímetro o usa otro cargador compatible. Si con otro cargador carga bien, el problema no es el pin.</li><li><strong>Mueve el plug con cuidado.</strong> Si la luz de carga se prende y se apaga al moverlo, hay un falso contacto.</li><li><strong>Mira el conector con linterna.</strong> Un pin central doblado, quemado o hundido se ve a simple vista.</li><li><strong>Revisa la batería.</strong> Una batería muerta puede parecer un problema de carga. Prueba la laptop sin batería y solo con el cargador.</li></ol><p>Si el cargador está bien y el falso contacto se repite, el pin es el sospechoso principal. Si necesitas reemplazar también el cargador, revisa los <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/cargador-laptop/\">cargadores de laptop</a> por voltaje y tipo de punta.</p>"
+    },
+    {
+      "h2": "Pin soldado o pin con cable: los dos tipos",
+      "html": "<p>Hay dos formas de montaje y conviene identificarla antes de pedir:</p><table><thead><tr><th>Tipo</th><th>Cómo se reconoce</th><th>Qué implica para la reparación</th></tr></thead><tbody><tr><td>Pin soldado a la placa</td><td>El conector está fijo sobre la placa madre</td><td>Hay que desoldar y soldar; requiere estación de calor y práctica</td></tr><tr><td>Pin con cable</td><td>El conector va en un soporte y un cable lo une a la placa</td><td>Se desconecta y se cambia; es más rápido y menos riesgoso</td></tr></tbody></table><p>Los pines con cable son comunes en laptops HP, Dell, Lenovo y Toshiba de las últimas generaciones. El nombre del producto suele indicar “con cable” o el largo del cable (L=15cm, por ejemplo), como en el <a href=\"https://multitecnologiavyv.com/producto/pin-de-carga-para-dell-g3-15-17-3379-3579-3779-0f5my1-p75f003-con-cable/\">pin de carga para Dell G3 con cable</a>.</p>"
+    },
+    {
+      "h2": "Medidas del plug: 7.4x5.0, 4.5x3.0, 5.5x2.5 y rectangular",
+      "html": "<p>La medida del plug indica el diámetro exterior e interior de la punta del cargador, en milímetros. Es el dato que más ayuda a filtrar repuestos.</p><ul><li><strong>7.4x5.0:</strong> punta gruesa con un pin central. Muy usada en HP y Dell de generaciones anteriores.</li><li><strong>4.5x3.0:</strong> punta delgada, también con pin central. Es la de muchas HP y Dell más recientes; en HP suele reconocerse por la punta azul del cargador.</li><li><strong>5.5x2.5:</strong> punta redonda sin pin central, frecuente en Toshiba, Asus y algunas Lenovo antiguas.</li><li><strong>Rectangular:</strong> la punta plana tipo “slim tip” de Lenovo.</li><li><strong>6.0x4.4:</strong> usada en varias Sony Vaio.</li></ul><p>Que la medida coincida no basta. Dos pines 4.5x3.0 pueden tener cables de largos distintos o conectores de placa diferentes.</p>"
+    },
+    {
+      "h2": "El número de parte manda",
+      "html": "<p>Para acertar, busca el número de parte (P/N) impreso en el cable o en la placa del pin original. Ejemplos del catálogo: DC30100YN00 en el <a href=\"https://multitecnologiavyv.com/producto/pin-de-carga-para-dell-p66f001-plug-4-5x3-0-15-5567-l18cm-p-n-dc30100yn00/\">pin de carga para Dell 15-5567</a> o DC30100LM00 en el <a href=\"https://multitecnologiavyv.com/producto/pin-de-carga-para-lenovo-g70-p-n-dc30100lm00-l15cm-plug-rectangular/\">pin para Lenovo G70 con plug rectangular</a>.</p><p>Si no encuentras el P/N, usa el modelo exacto de la laptop (por ejemplo 15-DH o E6400) y compara tres datos:</p><ul><li>Medida del plug.</li><li>Largo del cable (L=), si es un pin con cable.</li><li>Forma del soporte y posición de los tornillos.</li></ul><p>En la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/pin-de-carga/\">pines de carga</a> los nombres incluyen modelo, P/N, largo y plug, así que la comparación es directa.</p>"
+    },
+    {
+      "h2": "Consejos al momento de cambiarlo",
+      "html": "<ul><li>Desconecta la batería antes de tocar la placa.</li><li>Si el pin es soldado, limpia bien los puntos con malla desoldadora antes de colocar el nuevo.</li><li>Revisa que el cable del pin nuevo no quede aplastado por la carcasa al cerrar.</li><li>Prueba la carga con la laptop abierta, moviendo el plug, antes de armar todo.</li><li>Recomienda al cliente no tirar del cable y no usar la laptop con el plug doblado.</li></ul><p>Si el puerto de la placa también quedó dañado o hay pistas levantadas, la reparación ya es de placa y conviene avisar al cliente antes de seguir.</p>"
+    },
+    {
+      "h2": "Ten los pines más comunes en tu taller",
+      "html": "<p>El pin de carga es un repuesto pequeño que se pide seguido. Tener a mano los modelos más frecuentes de HP, Dell y Lenovo te permite entregar el mismo día, algo que el cliente valora mucho.</p><p>Con una cuenta comercial ves precios de distribuidor y ofertas por volumen, y puedes sumar otros <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/\">repuestos de laptop</a> en el mismo pedido. Enviamos a todo Ecuador desde Quito; el valor del flete lo confirma un asesor según tu pedido.</p>"
+    }
+  ],
+  "products": [
+    9132,
+    9126,
+    9150,
+    10270
+  ],
+  "cta_mid": {
+    "title": "¿Tienes el P/N del pin?",
+    "text": "Envíanoslo por WhatsApp y te confirmamos cuál es el repuesto compatible.",
+    "wa_text": "Hola, necesito un pin de carga para laptop, tengo el número de parte"
+  },
+  "cta_end": {
+    "title": "Pines de carga para tu stock",
+    "text": "Crea tu cuenta comercial y revisa los precios de distribuidor en pines de carga HP, Dell, Lenovo y Toshiba.",
+    "wa_text": "Hola, quiero cotizar pines de carga de laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Cómo sé si se dañó el pin de carga de mi laptop?",
+      "a": "Si la laptop carga solo al mover el cable, o no carga aunque el cargador funciona en otra máquina, el pin es el principal sospechoso. Revisa también si el conector está flojo o tiene el pin central doblado."
+    },
+    {
+      "q": "¿El pin de carga es igual para todas las laptops de una marca?",
+      "a": "No. Cambia según el modelo, la medida del plug, el largo del cable y la forma del soporte. Lo más seguro es buscar por número de parte o por el modelo exacto de la laptop."
+    },
+    {
+      "q": "¿Qué significa plug 7.4x5.0 o 4.5x3.0?",
+      "a": "Son el diámetro exterior e interior de la punta del cargador, en milímetros. El 7.4x5.0 es la punta gruesa de HP y Dell anteriores; el 4.5x3.0 es la punta delgada de modelos más recientes."
+    },
+    {
+      "q": "¿Se puede cambiar el pin de carga sin soldar?",
+      "a": "Sí, cuando el pin viene con cable y se conecta a la placa con un conector. Si el pin está soldado a la placa madre, sí necesitas desoldar y soldar."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "n": 2,
+  "slug": "repuestos-laptop-por-mayor-ecuador",
+  "title": "Repuestos de laptop al por mayor en Ecuador: guía de compra",
+  "focus_kw": "repuestos de laptop al por mayor Ecuador",
+  "meta_desc": "Repuestos de laptop al por mayor en Ecuador: qué piezas rotan más, cómo pedirlas por número de parte y cómo armar el stock de tu servicio técnico.",
+  "excerpt": "Baterías, teclados, pantallas, ventiladores y pines de carga: qué repuestos de laptop conviene comprar al por mayor y cómo pedirlos sin equivocarte de pieza.",
+  "category": "Compras al por mayor",
+  "tags": [
+    "repuestos laptop",
+    "compras al por mayor",
+    "baterías de laptop",
+    "teclados de laptop",
+    "pantallas de laptop",
+    "Ecuador"
+  ],
+  "featured": {
+    "pexels_query": "laptop parts disassembled keyboard battery motherboard",
+    "alt": "Repuestos de laptop desarmados sobre una mesa: teclado, batería y placa"
+  },
+  "inline_image": {
+    "pexels_query": "laptop screen replacement repair technician hands",
+    "alt": "Manos de un técnico cambiando la pantalla de una laptop",
+    "after_section": 3
+  },
+  "intro_html": "<p>En un servicio técnico, el repuesto es la mitad del trabajo. Si lo tienes en el cajón, entregas la laptop el mismo día. Si tienes que buscarlo, el cliente se va a otro lado. Comprar <strong>repuestos de laptop al por mayor en Ecuador</strong> te da margen y, sobre todo, velocidad.</p><p>Aquí repasamos qué piezas conviene tener en stock, cómo identificarlas por número de parte y cómo comprar a un distribuidor sin quedarte con piezas que no rotan.</p>",
+  "sections": [
+    {
+      "h2": "Por qué comprar repuestos al por mayor y no por unidad",
+      "html": "<p>Comprar una pieza cada vez que llega una laptop parece prudente, pero sale caro. Pagas precio de unidad, pagas transporte por cada pedido y pierdes horas yendo y viniendo.</p><ul><li><strong>Mejor margen:</strong> con una cuenta comercial accedes a precios de distribuidor y a ofertas por volumen.</li><li><strong>Menos fletes:</strong> un pedido consolidado reparte el costo del envío entre muchas piezas.</li><li><strong>Respuesta rápida:</strong> las reparaciones comunes se resuelven con lo que ya tienes en el taller.</li></ul><p>La clave no es comprar mucho, sino comprar bien: pocas referencias de alta rotación en cantidad y el resto bajo pedido.</p>"
+    },
+    {
+      "h2": "Los repuestos de laptop que más se cambian",
+      "html": "<p>Cada taller tiene su realidad, pero estas piezas aparecen en casi todos:</p><table><thead><tr><th>Repuesto</th><th>Falla típica</th><th>Qué revisar al pedir</th></tr></thead><tbody><tr><td>Batería</td><td>No carga o dura minutos</td><td>Número de parte, voltaje y vatios-hora</td></tr><tr><td>Teclado</td><td>Teclas muertas, líquidos derramados</td><td>Modelo, con o sin marco, forma del Enter, retroiluminación</td></tr><tr><td>Pantalla</td><td>Golpe, líneas, sin imagen</td><td>Pulgadas, resolución, número de pines y soportes</td></tr><tr><td>Ventilador</td><td>Ruido o recalentamiento</td><td>Modelo del equipo y tipo de conector</td></tr><tr><td>Pin de carga</td><td>Carga solo si mueves el cable</td><td>Modelo y número de parte del conector</td></tr><tr><td>Cargador</td><td>Perdido o quemado</td><td>Voltaje, amperaje y medida del plug</td></tr></tbody></table><p>Puedes ver todo el surtido en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/\">repuestos de laptop</a>, organizada por tipo de pieza.</p>"
+    },
+    {
+      "h2": "Baterías: la pieza que más se busca por número de parte",
+      "html": "<p>La batería es el repuesto que más se vende y el que más se confunde. En Google, los técnicos buscan directamente códigos como HT03XL, GK5KY o L18C4PF3, porque el número de parte es lo único que asegura la compatibilidad.</p><p>Ese código está impreso en la etiqueta de la batería que sale del equipo. Junto a él suelen aparecer el voltaje (por ejemplo 11,1 V o 11,4 V) y la capacidad en Wh. Una batería con otro voltaje no debe instalarse aunque el conector encaje.</p><p>Un ejemplo: la <a href=\"https://multitecnologiavyv.com/producto/bateria-para-dell-gk5ky-11-1v-43wh/\">batería para Dell GK5KY</a> se pide por ese código, no por el nombre comercial de la laptop. Revisa la sección de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/bateria-laptop/\">baterías de laptop</a> buscando por el número de parte de la pieza que vas a reemplazar.</p>"
+    },
+    {
+      "h2": "Teclados y pantallas: los detalles que hacen fallar un pedido",
+      "html": "<h3>Teclados</h3><p>Un mismo modelo de laptop puede salir con teclado <strong>con marco (frame)</strong> o <strong>sin marco</strong>, con Enter grande o pequeño, con o sin luz. Antes de pedir, mira la pieza que vas a reemplazar. El <a href=\"https://multitecnologiavyv.com/producto/teclado-para-lenovo-ideapad-3-15ada6-3-15alc6-3-15itl6-no-frame-big-enter/\">teclado para Lenovo IdeaPad 3 sin frame y Big Enter</a> es un buen ejemplo de cómo se describe un teclado para no fallar.</p><h3>Pantallas</h3><p>En pantallas, lo que más se confunde es el conector. Los paneles más comunes usan 30 o 40 pines: 30 pines suele ser resolución HD o Full HD sin funciones extra, y 40 pines aparece en paneles de mayor resolución o frecuencia. Además revisa si el panel lleva soportes (brackets) arriba y abajo. Lo más seguro es pedir por el código del panel, que viene en la etiqueta trasera.</p>"
+    },
+    {
+      "h2": "Cargadores y pines de carga: tres datos y no te equivocas",
+      "html": "<p>Cuando una laptop llega diciendo que no carga, el problema puede estar en tres lugares: el cargador, el pin de carga o la batería. Antes de pedir nada, prueba con un cargador que sepas que funciona. Si la laptop carga, el culpable era el cargador; si sigue igual, revisa el pin.</p><p>Para pedir un cargador necesitas tres datos de la etiqueta del cargador que vas a reemplazar:</p><ul><li><strong>Voltaje (V):</strong> debe ser igual al del cargador anterior.</li><li><strong>Amperaje (A) o vatios (W):</strong> igual o mayor; con menos, la laptop carga lento o se apaga.</li><li><strong>Medida del plug:</strong> diámetro exterior e interior en milímetros, o USB tipo C.</li></ul><p>El pin de carga, en cambio, va soldado o con cable a la placa, y se pide por modelo y número de parte del conector. Es un repuesto pequeño que conviene tener para los modelos que más recibes.</p>"
+    },
+    {
+      "h2": "Cómo armar tu stock sin quedarte con piezas paradas",
+      "html": "<p>El error más común es llenar el taller de repuestos de equipos que casi no llegan. Antes de comprar, mira tu historial:</p><ol><li><strong>Anota las reparaciones</strong> de los últimos tres meses: marca, modelo y pieza cambiada.</li><li><strong>Identifica los modelos que se repiten</strong>. En la mayoría de talleres son pocas familias de HP, Lenovo, Dell y Asus.</li><li><strong>Compra en cantidad solo esas referencias</strong> y deja el resto para pedir cuando llegue el equipo.</li><li><strong>Revisa cada mes</strong> qué se vendió y qué sigue en el cajón.</li></ol><p>Los consumibles de mantenimiento, como la pasta térmica, rotan con casi cualquier reparación y siempre conviene tenerlos. Lo mismo pasa con piezas de desgaste como el <a href=\"https://multitecnologiavyv.com/producto/ventilador-laptop-hp-15-cs-15-cw/\">ventilador para HP 15-Cs y 15-Cw</a> en los modelos que más atiendes.</p>"
+    },
+    {
+      "h2": "Comprar repuestos desde cualquier ciudad de Ecuador",
+      "html": "<p>Multitecnología VYV tiene su oficina en Quito y despacha a todo el país. Hoy compran técnicos y tiendas de Guayaquil, Cuenca, Ambato, Riobamba, Ibarra, Manta, Loja, Puyo y Portoviejo.</p><p>El flujo es simple: creas tu cuenta comercial, ves los precios de distribuidor y armas el pedido. Un asesor confirma la compatibilidad de las piezas que te generen duda y el valor del flete según tu ciudad, que no se cobra en línea.</p><p>Con más de 2.000 productos en stock y más de 15 años en el mercado, la idea es que encuentres en un solo proveedor lo que tu taller necesita cada semana.</p>"
+    }
+  ],
+  "products": [
+    8380,
+    9340,
+    10382,
+    9402
+  ],
+  "cta_mid": {
+    "title": "¿No encuentras tu repuesto?",
+    "text": "Envía el número de parte o una foto de la etiqueta y te confirmamos si lo tenemos.",
+    "wa_text": "Hola, busco un repuesto de laptop por número de parte"
+  },
+  "cta_end": {
+    "title": "Arma el stock de tu taller",
+    "text": "Crea tu cuenta comercial y mira los precios de distribuidor en baterías, teclados, pantallas y más.",
+    "wa_text": "Hola, quiero cotizar repuestos de laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Dónde comprar repuestos de laptop al por mayor en Ecuador?",
+      "a": "Con un distribuidor que tenga stock por modelo y cuenta comercial para negocios. Multitecnología VYV está en Quito y envía a todo el país; el flete lo confirma un asesor según tu pedido."
+    },
+    {
+      "q": "¿Cómo sé qué batería necesita una laptop?",
+      "a": "Retira la batería que tiene el equipo y busca el número de parte en su etiqueta, junto con el voltaje y los Wh. Pide por ese código y no solo por el modelo de la laptop."
+    },
+    {
+      "q": "¿Qué repuestos de laptop se venden más?",
+      "a": "En la mayoría de talleres: baterías, cargadores, teclados, pantallas, ventiladores y pines de carga. Los que más rotan en el tuyo dependen de las marcas y modelos que atiendes."
+    },
+    {
+      "q": "¿Puedo comprar repuestos sin ser técnico?",
+      "a": "La tienda está pensada para negocios con cuenta comercial. Si eres técnico independiente o tienes un taller pequeño, puedes registrarte y el equipo revisa tu solicitud."
+    }
+  ]
+}

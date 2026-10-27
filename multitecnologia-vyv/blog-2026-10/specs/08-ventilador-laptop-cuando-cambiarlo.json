@@ -1,0 +1,94 @@
+{
+  "n": 8,
+  "slug": "ventilador-laptop-cuando-cambiarlo",
+  "title": "Ventilador para laptop: cuándo cambiarlo y cómo elegirlo",
+  "focus_kw": "ventilador para laptop",
+  "meta_desc": "Ventilador para laptop: señales de que hay que cambiarlo, limpiar o reemplazar, y cómo elegir el repuesto por modelo, cables y conector.",
+  "excerpt": "Ruido, calor y apagones son señales de un ventilador cansado. Te contamos cuándo basta con limpiar, cuándo cambiarlo y cómo elegir el repuesto correcto.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "ventilador laptop",
+    "repuestos laptop",
+    "sobrecalentamiento",
+    "mantenimiento laptop",
+    "pasta térmica"
+  ],
+  "featured": {
+    "pexels_query": "laptop cooling fan repair technician",
+    "alt": "Técnico revisando el ventilador de una laptop abierta"
+  },
+  "inline_image": {
+    "pexels_query": "laptop motherboard heatsink fan closeup",
+    "alt": "Disipador y ventilador de una laptop sobre la placa madre",
+    "after_section": 2
+  },
+  "intro_html": "<p>Una laptop que se calienta, hace ruido o se apaga sola casi siempre tiene el mismo origen: el sistema de enfriamiento no está sacando el calor. Y el corazón de ese sistema es el <strong>ventilador para laptop</strong>.</p>\n<p>No siempre hay que cambiarlo. A veces basta con una limpieza y pasta térmica nueva. En esta guía te explicamos cómo diagnosticar, cuándo conviene reemplazarlo y qué revisar para pedir el repuesto correcto a la primera.</p>",
+  "sections": [
+    {
+      "h2": "Señales de que el ventilador está fallando",
+      "html": "<p>El cliente rara vez dice “falla el ventilador”. Dice que la laptop está lenta o que se apaga. Estas son las señales que apuntan al enfriamiento:</p>\n<ul>\n<li><strong>Ruido nuevo:</strong> zumbido, roce o un chillido que cambia con la carga de trabajo.</li>\n<li><strong>Silencio total</strong> aunque el equipo esté caliente: el ventilador no gira.</li>\n<li><strong>Apagones</strong> al abrir programas pesados, jugar o ver video.</li>\n<li><strong>Lentitud</strong> después de unos minutos de uso. El procesador baja su velocidad para no quemarse.</li>\n<li><strong>Calor fuerte</strong> en la base o en el teclado, y poco aire en la salida lateral.</li>\n<li><strong>Mensaje de error</strong> del ventilador al encender, que algunas marcas muestran antes de cargar el sistema.</li>\n</ul>"
+    },
+    {
+      "h2": "Limpiar o cambiar: cómo decidir",
+      "html": "<p>Antes de pedir un repuesto, abre el equipo y revisa. Muchas veces el problema es polvo acumulado o pasta térmica seca.</p>\n<table>\n<thead><tr><th>Lo que encuentras</th><th>Qué hacer</th></tr></thead>\n<tbody>\n<tr><td>Polvo en las aspas y en la rejilla del disipador</td><td>Limpiar y volver a probar.</td></tr>\n<tr><td>Pasta térmica seca o cuarteada</td><td>Cambiar la pasta térmica.</td></tr>\n<tr><td>Aspas rotas o deformadas</td><td>Cambiar el ventilador.</td></tr>\n<tr><td>Juego en el eje: el rotor se mueve de lado</td><td>Cambiar el ventilador.</td></tr>\n<tr><td>Ruido que sigue después de limpiar</td><td>Cambiar el ventilador.</td></tr>\n<tr><td>No gira con el equipo caliente</td><td>Revisar conector y cable; si están bien, cambiarlo.</td></tr>\n</tbody>\n</table>\n<p>Un consejo: si el ventilador tiene varios años y vas a abrir el equipo de todas formas, ofrécele al cliente el cambio. Te ahorras una segunda visita por el mismo problema.</p>"
+    },
+    {
+      "h2": "Cómo identificar el ventilador correcto",
+      "html": "<p>El ventilador de una laptop no es universal. Cambian la forma de la carcasa, la posición de los tornillos, la salida de aire y el conector. Para acertar, sigue este orden:</p>\n<ol>\n<li><strong>Modelo exacto de la laptop:</strong> está en la etiqueta de la base, por ejemplo HP 240 G6 o Dell Inspiron 15 5567.</li>\n<li><strong>Número de parte del ventilador:</strong> viene en la etiqueta del propio ventilador. Algunos productos lo incluyen en el nombre, como el <a href=\"https://multitecnologiavyv.com/producto/ventilador-laptop-hp-cq42-g4-g42-g62-3-cables-delta-ksb06105ha-9h1x/\">ventilador HP CQ42 G4 KSB06105HA</a>.</li>\n<li><strong>Número de cables y tipo de conector</strong>, que te explicamos abajo.</li>\n<li><strong>Posición</strong> si el equipo tiene más de un ventilador.</li>\n</ol>\n<p>En la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/ventilador-laptop/\">ventiladores para laptop</a> encuentras modelos para HP, Dell, Lenovo, Asus, Toshiba, Samsung, MSI y Mac, con el modelo del equipo en el nombre.</p>"
+    },
+    {
+      "h2": "3 cables o 4 cables: qué cambia",
+      "html": "<p>Es una de las dudas más comunes, y hay laptops de la misma familia que usan una u otra versión.</p>\n<ul>\n<li><strong>2 cables:</strong> solo alimentación. El ventilador gira, pero la placa no sabe a qué velocidad.</li>\n<li><strong>3 cables:</strong> alimentación más un cable de sensor que le dice a la placa a cuántas vueltas gira.</li>\n<li><strong>4 cables:</strong> lo anterior más un cable de control (PWM) con el que la placa ajusta la velocidad según la temperatura.</li>\n</ul>\n<p>Por eso existen productos como el <a href=\"https://multitecnologiavyv.com/producto/ventilador-laptop-hp-g4-g6-g7-hp1000-2000-4-cables/\">ventilador HP G4 G6 G7 de 4 cables</a>, que convive con versiones de 3 cables para equipos parecidos. Cuenta los cables del ventilador que sacas y pide el mismo número.</p>\n<p>También cambia el conector. En algunos modelos, como la Toshiba P850, hay una versión con <a href=\"https://multitecnologiavyv.com/producto/ventilador-laptop-toshiba-p850-conector-plano/\">conector plano</a> y otra con conector común grueso. Mira el conector antes de pedir.</p>"
+    },
+    {
+      "h2": "Laptops con dos ventiladores: CPU y GPU",
+      "html": "<p>Las laptops gamer y algunas de trabajo pesado tienen dos ventiladores: uno para el procesador (CPU) y otro para la tarjeta de video (GPU). No son intercambiables entre sí.</p>\n<p>Por eso verás repuestos marcados como izquierdo y derecho, o como CPU y GPU, por ejemplo el ventilador de GPU para Dell G3 y G5. Cuando los dos tienen el mismo desgaste, conviene cambiar el par completo, como en el kit de CPU y GPU para Lenovo Y540.</p>\n<p>Antes de desarmar, toma una foto de la posición de cada ventilador y de sus cables. Te evita confusiones al montar.</p>"
+    },
+    {
+      "h2": "Cómo hacer el cambio sin dañar el equipo",
+      "html": "<ul>\n<li>Desconecta el cargador y la batería antes de abrir.</li>\n<li>Usa una pulsera antiestática o toca una superficie metálica antes de manipular la placa.</li>\n<li>Saca los tornillos del disipador en el orden numerado, si lo tiene.</li>\n<li>Limpia la pasta vieja del procesador con alcohol isopropílico y aplica <a href=\"https://multitecnologiavyv.com/categoria-producto/mantenimiento/pasta-termica/\">pasta térmica</a> nueva.</li>\n<li>Conecta el ventilador sin forzar el conector: es pequeño y se rompe con facilidad.</li>\n<li>Prueba el equipo con carga durante unos minutos y confirma que el ventilador acelera.</li>\n</ul>"
+    },
+    {
+      "h2": "Qué tener en stock si haces mantenimiento",
+      "html": "<p>Si en tu taller entran muchas laptops por calentamiento, vale la pena tener a mano los ventiladores de los modelos que más llegan, junto con pasta térmica y productos de limpieza. Así resuelves el mismo día.</p>\n<p>A tu cliente también puedes ofrecerle una <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/cooler-para-laptop/\">base con ventiladores</a> para el escritorio. No reemplaza al ventilador interno, pero ayuda a que el equipo trabaje más fresco.</p>\n<p>Con tu cuenta comercial ves los precios de distribuidor y las ofertas por volumen. Despachamos desde Quito a todo Ecuador.</p>"
+    }
+  ],
+  "products": [
+    9414,
+    9400,
+    11578,
+    9411
+  ],
+  "cta_mid": {
+    "title": "¿Dudas con el ventilador correcto?",
+    "text": "Envíanos el modelo de la laptop y una foto del ventilador; un asesor te confirma cuál necesitas.",
+    "wa_text": "Hola, necesito un ventilador para laptop. Te envío el modelo y una foto"
+  },
+  "cta_end": {
+    "title": "Ventiladores para laptop por mayor",
+    "text": "Crea tu cuenta comercial y arma tu stock de ventiladores y pasta térmica con precios de distribuidor.",
+    "wa_text": "Hola, quiero cotizar ventiladores para laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Cómo sé si el ventilador de mi laptop está dañado?",
+      "a": "Las señales más comunes son ruido nuevo, calor fuerte, apagones y lentitud después de unos minutos de uso. Si al abrir el equipo el ventilador no gira con la laptop caliente, o tiene juego en el eje, hay que cambiarlo."
+    },
+    {
+      "q": "¿Basta con limpiar el ventilador?",
+      "a": "Muchas veces sí. Si el problema es polvo o pasta térmica seca, una limpieza y pasta nueva lo resuelven. Si después de limpiar sigue el ruido o las aspas están dañadas, toca cambiarlo."
+    },
+    {
+      "q": "¿Puedo poner un ventilador de 3 cables donde iba uno de 4?",
+      "a": "No es lo recomendable. El cable extra permite que la placa controle la velocidad, y sin él el ventilador puede trabajar siempre al máximo o dar error. Pide el mismo número de cables que el original."
+    },
+    {
+      "q": "¿Cada cuánto se debe hacer mantenimiento a una laptop?",
+      "a": "Depende del uso y del ambiente. Un equipo que trabaja en lugares con polvo o con mucha carga necesita limpieza más seguido. La regla práctica es revisar cuando aparezcan calor o ruido, sin esperar a que se apague."
+    },
+    {
+      "q": "¿Una base con ventiladores reemplaza al ventilador interno?",
+      "a": "No. La base ayuda a que entre aire fresco por debajo, pero el ventilador interno es el que saca el calor del procesador. Si el interno falla, hay que cambiarlo."
+    }
+  ]
+}

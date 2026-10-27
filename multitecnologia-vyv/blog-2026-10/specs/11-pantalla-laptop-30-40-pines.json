@@ -1,0 +1,90 @@
+{
+  "n": 11,
+  "slug": "pantalla-laptop-30-40-pines",
+  "title": "Pantalla de laptop 30 o 40 pines: cómo leer el código",
+  "focus_kw": "pantalla laptop 30 pines 40 pines",
+  "meta_desc": "Pantalla de laptop de 30 o 40 pines: aprende a leer el código del panel (B156HTN…) y a revisar brackets y conector antes de pedir el repuesto.",
+  "excerpt": "Antes de pedir una pantalla de laptop revisa el conector de 30 o 40 pines, el código del panel y los brackets. Así evitas devoluciones y clientes molestos.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "pantallas de laptop",
+    "repuestos laptop",
+    "pantalla 30 pines",
+    "pantalla 40 pines",
+    "código de panel"
+  ],
+  "featured": {
+    "pexels_query": "laptop screen replacement technician repair",
+    "alt": "Técnico cambiando la pantalla de una laptop en su mesa de trabajo"
+  },
+  "inline_image": {
+    "pexels_query": "laptop lcd panel back connector closeup",
+    "alt": "Parte trasera de un panel de laptop con su etiqueta y conector a la vista",
+    "after_section": 1
+  },
+  "intro_html": "<p>Cambiar una pantalla de laptop parece fácil hasta que llega el repuesto y no encaja. El tamaño coincide, la resolución también, pero el conector tiene otro número de pines o faltan las orejas para atornillar.</p><p>Esta guía es para el técnico que quiere acertar a la primera. Vas a ver cómo diferenciar una pantalla de 30 pines de una de 40, cómo leer un código como B156HTN06.2 y qué más revisar en la etiqueta antes de hacer el pedido.</p>",
+  "sections": [
+    {
+      "h2": "Lo primero: desarma y lee la etiqueta del panel",
+      "html": "<p>El dato más confiable no está en la carcasa ni en el modelo de la laptop: está en la etiqueta pegada atrás del panel. Ahí aparece el fabricante, el código del panel y, a veces, una versión de hardware (H/W).</p><p>¿Por qué no basta con el modelo de la laptop? Porque un mismo modelo puede salir de fábrica con paneles distintos. Una HP o una Lenovo de la misma serie puede traer pantalla HD en una versión y Full HD en otra, con conectores diferentes.</p><ul><li>Toma una foto clara de la etiqueta antes de sacar el panel.</li><li>Cuenta los pines del conector o mira la referencia en la etiqueta.</li><li>Revisa si el panel tiene brackets (soportes metálicos laterales con agujeros para tornillos).</li><li>Mide la distancia entre los puntos de fijación si dudas.</li></ul>"
+    },
+    {
+      "h2": "Pantalla de 30 pines vs 40 pines: qué cambia",
+      "html": "<p>La diferencia está en el conector donde entra el flex de video, el cable plano que lleva la imagen desde la placa hasta la pantalla. Un panel de 30 pines no funciona con un flex de 40, aunque el tamaño sea idéntico.</p><table><thead><tr><th>Conector</th><th>Dónde suele aparecer</th><th>Qué revisar</th></tr></thead><tbody><tr><td>30 pines (eDP)</td><td>La mayoría de laptops recientes con pantalla HD o Full HD a 60 Hz</td><td>Que el flex de la laptop también sea de 30 pines</td></tr><tr><td>40 pines (eDP)</td><td>Pantallas táctiles, de alta frecuencia (120 o 144 Hz) o de mayor resolución</td><td>Que la placa y el flex estén preparados para ese panel</td></tr><tr><td>40 pines (LVDS)</td><td>Laptops antiguas</td><td>No mezclar con paneles eDP modernos aunque cuenten 40 pines</td></tr></tbody></table><p><strong>eDP</strong> es el estándar digital actual para conectar pantallas internas; <strong>LVDS</strong> es el sistema anterior. Contar pines no es suficiente: un panel LVDS de 40 pines y uno eDP de 40 pines no son intercambiables.</p><p>En el catálogo puedes ver los dos casos lado a lado. Por ejemplo, la <a href=\"https://multitecnologiavyv.com/producto/pantalla-laptop-15-6-ips-lcd-fhd-1920x1080-30-pines-19mm-no-brackets-b156htn06-2/\">pantalla 15.6 FHD de 30 pines B156HTN06.2</a> y la <a href=\"https://multitecnologiavyv.com/producto/pantalla-laptop-15-6-ips-lcd-fhd-1920x1080-40-pin-25mm-no-brackets-144-hz-b156han09-2-lm15qf2f03/\">pantalla 15.6 FHD de 40 pines a 144 Hz B156HAN09.2</a> tienen el mismo tamaño y resolución, pero no se reemplazan una por otra.</p>"
+    },
+    {
+      "h2": "Cómo leer el código del panel (B156HTN06.2 y similares)",
+      "html": "<p>El código del panel resume casi todo lo que necesitas. Cada fabricante tiene su propia lógica, pero hay patrones que se repiten:</p><ul><li><strong>Prefijo del fabricante:</strong> B suele ser AU Optronics (AUO), NT o NV es BOE, N es Innolux, LP es LG y LTN es Samsung.</li><li><strong>Tamaño:</strong> los tres dígitos siguientes indican las pulgadas. 156 es 15,6\"; 140 es 14\"; 173 es 17,3\".</li><li><strong>Resolución y tecnología:</strong> en muchos códigos AUO, una H indica Full HD y una X indica HD; TN o AN suelen señalar el tipo de panel.</li><li><strong>Versión:</strong> el número final (06.2, 08.1) marca la revisión del panel.</li></ul><p>Así, B156HTN06.2 se lee como un panel AUO de 15,6\" Full HD. Con ese código buscas en la tienda y comparas el conector y los brackets en el nombre del producto.</p><p>Muchos paneles son equivalentes entre marcas: un BOE y un Innolux pueden servir para la misma laptop si coinciden tamaño, resolución, conector, brackets y posición del conector. Por eso varios productos listan dos códigos en el nombre.</p>"
+    },
+    {
+      "h2": "Brackets, grosor y posición del conector",
+      "html": "<p>Una pantalla puede tener el conector correcto y aun así no quedar bien montada. Revisa tres cosas más:</p><ol><li><strong>Brackets o no brackets.</strong> Algunas laptops atornillan el panel por los costados; otras lo pegan con cinta o lo fijan arriba y abajo.</li><li><strong>Medidas indicadas en el nombre.</strong> Varias referencias traen datos como 19 mm o 25 mm; compáralos con el panel original antes de pedir.</li><li><strong>Posición del conector.</strong> Casi siempre va abajo a la derecha (visto desde atrás), pero hay excepciones. Si el flex queda corto, no sirve.</li></ol><p>Un caso típico: la <a href=\"https://multitecnologiavyv.com/producto/pantalla-laptop-15-6-lcd-hd-1366x768-40-pines-25mm-bracket-nt156whm-n10-v5-0/\">pantalla 15.6 HD de 40 pines con bracket NT156WHM-N10</a> no reemplaza a una sin brackets aunque todo lo demás coincida.</p>"
+    },
+    {
+      "h2": "Pantallas táctiles y de alta frecuencia: cuidado extra",
+      "html": "<p>Las pantallas on-cell touch integran la capa táctil en el mismo panel. Por eso necesitan más líneas de datos y suelen venir con 40 pines. Si la laptop original era táctil, el repuesto también debe serlo.</p><p>Lo mismo pasa con las laptops gamer de 120 o 144 Hz. Un panel de 60 Hz quizá encienda, pero el cliente nota la diferencia de inmediato y vuelve al taller.</p><p>Si el problema no es el panel sino líneas, parpadeo o imagen que va y viene al mover la tapa, revisa primero el <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/flex-de-video/\">flex de video</a>. Cambiar la pantalla sin revisar el flex es una forma cara de no resolver nada.</p>"
+    },
+    {
+      "h2": "Checklist antes de pedir la pantalla",
+      "html": "<p>Antes de escribir al proveedor, ten a mano estos datos:</p><ul><li>Código completo del panel original (foto de la etiqueta).</li><li>Tamaño en pulgadas y resolución (HD 1366x768, HD+ 1600x900 o FHD 1920x1080).</li><li>Número de pines: 30 o 40.</li><li>Brackets: sí o no.</li><li>Táctil o no táctil.</li><li>Frecuencia si es una laptop gamer (60, 120 o 144 Hz).</li></ul><p>Con eso, la búsqueda en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/pantalla-laptop/\">pantallas de laptop</a> se vuelve rápida. Y si no encuentras la referencia exacta, un asesor puede ayudarte a ubicar un equivalente compatible.</p>"
+    },
+    {
+      "h2": "Por qué conviene tener pantallas en stock",
+      "html": "<p>Las pantallas rotas son de las reparaciones más frecuentes en cualquier servicio técnico de Quito o de cualquier ciudad de Ecuador. Tener en tu taller las medidas más pedidas (15,6\" HD y FHD de 30 pines, sobre todo) te permite entregar el mismo día y no perder al cliente.</p><p>Con una cuenta comercial ves los precios de distribuidor y las ofertas por volumen, y puedes armar un pedido mixto con otros <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/\">repuestos de laptop</a>. El envío llega a todo el país y el valor del flete lo confirma un asesor según tu pedido.</p>"
+    }
+  ],
+  "products": [
+    8959,
+    8946,
+    9017,
+    8989
+  ],
+  "cta_mid": {
+    "title": "¿No ubicas el código de tu panel?",
+    "text": "Envíanos la foto de la etiqueta y te ayudamos a encontrar la pantalla compatible.",
+    "wa_text": "Hola, necesito una pantalla de laptop, tengo el código del panel"
+  },
+  "cta_end": {
+    "title": "Ten las pantallas más pedidas en tu taller",
+    "text": "Crea tu cuenta comercial y mira los precios de distribuidor en pantallas de 30 y 40 pines.",
+    "wa_text": "Hola, quiero cotizar pantallas de laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Puedo poner una pantalla de 40 pines en una laptop de 30 pines?",
+      "a": "No directamente. El flex de video de la laptop tiene un conector fijo y el panel no va a encajar ni a funcionar. Busca un panel con el mismo número de pines que el original."
+    },
+    {
+      "q": "¿Dónde veo cuántos pines tiene la pantalla de mi laptop?",
+      "a": "Desmonta el bisel y mira la parte trasera del panel. El conector está en un extremo, casi siempre abajo a la derecha, y en la etiqueta aparece el código del panel, que te confirma el modelo exacto."
+    },
+    {
+      "q": "¿Qué significa B156HTN06.2?",
+      "a": "Es el código de un panel de AU Optronics de 15,6 pulgadas con resolución Full HD; el 06.2 es la versión. Con ese código buscas el repuesto y verificas conector y brackets en el nombre del producto."
+    },
+    {
+      "q": "¿Una pantalla de otra marca de panel sirve para mi laptop?",
+      "a": "Sí, si coinciden tamaño, resolución, número de pines, brackets y posición del conector. Por eso muchos repuestos indican dos o más códigos equivalentes."
+    }
+  ]
+}

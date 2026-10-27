@@ -1,0 +1,94 @@
+{
+  "n": 9,
+  "slug": "cargador-laptop-voltaje-conector",
+  "title": "Cargador de laptop: voltaje, vatios y conector correctos",
+  "focus_kw": "cargador de laptop",
+  "meta_desc": "Cómo elegir un cargador de laptop: voltaje, amperios, vatios y medida del conector. Evita dañar la placa y acierta con el repuesto.",
+  "excerpt": "Voltaje, amperios, vatios y conector: los cuatro datos que tienes que comparar para elegir un cargador de laptop sin riesgo para el equipo.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "cargador laptop",
+    "repuestos laptop",
+    "voltaje",
+    "USB tipo C",
+    "cargador universal"
+  ],
+  "featured": {
+    "pexels_query": "laptop charger power adapter plug",
+    "alt": "Cargador de laptop con su cable y conector sobre un escritorio"
+  },
+  "inline_image": {
+    "pexels_query": "power adapter label voltage closeup",
+    "alt": "Etiqueta de un cargador con los datos de voltaje y amperaje",
+    "after_section": 1
+  },
+  "intro_html": "<p>El cargador es el repuesto que más rápido se pierde, se rompe o se cambia. Y también el que más se compra mal: el conector entra, pero el voltaje no es el correcto o la potencia no alcanza.</p>\n<p>Para elegir un <strong>cargador de laptop</strong> sin riesgo tienes que comparar cuatro datos: voltaje, amperios, vatios y conector. Aquí te explicamos cómo leerlos en la etiqueta y qué puede variar y qué no.</p>",
+  "sections": [
+    {
+      "h2": "Dónde leer los datos del cargador",
+      "html": "<p>Todos los datos están en la etiqueta del cargador original, en la línea que dice <em>Output</em> (salida). Ahí verás algo como <strong>19.5V ⎓ 3.33A</strong> o <strong>20V ⎓ 3.25A</strong>.</p>\n<p>No confundas la salida con la entrada (<em>Input</em>), que suele decir 100-240V. Ese dato solo indica que el cargador funciona con la corriente de casa, y casi todos lo cumplen.</p>\n<p>Si el cliente no trae el cargador, busca la etiqueta de la base de la laptop. Muchas indican el voltaje y el amperaje que necesita el equipo.</p>"
+    },
+    {
+      "h2": "Voltaje: el dato que no se negocia",
+      "html": "<p>El voltaje (V) del cargador tiene que coincidir con el que pide la laptop. Las diferencias pequeñas son normales entre marcas, por ejemplo 19 V y 19,5 V, pero no puedes poner un cargador de 12 V donde va uno de 19 V, ni uno de 20 V donde va uno de 15 V.</p>\n<p>Con un voltaje más bajo, la laptop no carga o se apaga. Con uno más alto, puedes dañar la placa. Por eso, si tienes dudas, no lo pruebes en el equipo del cliente.</p>\n<p>Los valores más comunes en laptops son 19 V, 19,5 V y 20 V.</p>"
+    },
+    {
+      "h2": "Amperios y vatios: cuánta potencia necesitas",
+      "html": "<p>Los amperios (A) indican cuánta corriente puede entregar el cargador. Los vatios (W) son la potencia total y se calculan así: <strong>voltios × amperios = vatios</strong>.</p>\n<table>\n<thead><tr><th>Salida</th><th>Potencia</th><th>Uso típico</th></tr></thead>\n<tbody>\n<tr><td>19 V × 2,37 A</td><td>45 W</td><td>Laptops básicas y ultradelgadas</td></tr>\n<tr><td>19,5 V × 3,33 A</td><td>65 W</td><td>Laptops de oficina</td></tr>\n<tr><td>20 V × 3,25 A</td><td>65 W</td><td>Laptops de oficina</td></tr>\n<tr><td>19,5 V × 4,62 A</td><td>90 W</td><td>Laptops con más rendimiento</td></tr>\n<tr><td>20 V × 10 A o más</td><td>200 W o más</td><td>Laptops gamer</td></tr>\n</tbody>\n</table>\n<p>La regla es simple: el cargador nuevo debe tener <strong>igual o más amperaje</strong> que el original. La laptop solo toma lo que necesita. Si le das menos, el cargador se recalienta, la batería carga lento o el equipo se apaga cuando trabaja con carga.</p>"
+    },
+    {
+      "h2": "El conector: medida y pin central",
+      "html": "<p>El conector o plug se describe con dos medidas en milímetros: diámetro externo × diámetro interno. Por ejemplo, 4.5x3.0 o 5.5x1.7. Un conector parecido no sirve: si queda flojo, hace falso contacto y termina dañando el pin de carga.</p>\n<ul>\n<li><strong>4.5x3.0:</strong> común en HP y Dell recientes, con un pin central delgado. Por ejemplo, el <a href=\"https://multitecnologiavyv.com/producto/cargador-para-hp-19-5v-3-33a-plug-4-5x3-0-org/\">cargador HP 19.5V 3.33A con plug 4.5x3.0</a>.</li>\n<li><strong>7.4x5.0:</strong> Dell y HP de generaciones anteriores.</li>\n<li><strong>5.5x1.7:</strong> muy usado en Acer.</li>\n<li><strong>4.0x1.35:</strong> Asus de equipos delgados.</li>\n<li><strong>4.0x1.7:</strong> Lenovo de algunas series, como el <a href=\"https://multitecnologiavyv.com/producto/cargador-para-lenovo-20v-3-25a-plug-4-0x1-7-org/\">cargador Lenovo 20V 3.25A con plug 4.0x1.7</a>.</li>\n<li><strong>Rectangular:</strong> Lenovo y ThinkPad de varias series.</li>\n</ul>\n<p>En HP y Dell, el pin central además le dice a la laptop qué cargador está conectado. Si ese pin está roto, el equipo puede mostrar un aviso de cargador no reconocido o no cargar la batería, aunque la laptop encienda.</p>"
+    },
+    {
+      "h2": "Cargadores USB tipo C",
+      "html": "<p>Cada vez más laptops cargan por USB tipo C. Aquí el voltaje se negocia: el cargador y la laptop acuerdan cuánto entregar, por eso en la etiqueta verás varios valores, como 5 V, 9 V, 15 V y 20 V.</p>\n<p>Lo que sí tienes que cuidar es la <strong>potencia</strong>. Un cargador de 45 W en una laptop que pide 65 W cargará lento o no cargará mientras trabajas. Revisa los vatios del original y busca uno igual o mayor, como el <a href=\"https://multitecnologiavyv.com/producto/cargador-para-asus-20v-4-5a-plug-usb-tipo-c/\">cargador Asus 20V 4.5A USB tipo C</a>, que entrega 90 W.</p>\n<p>Ojo con los cargadores de celular: un cargador de 5 V 2 A, que es de 10 W, sirve para teléfonos y accesorios, no para una laptop. Si buscas ese tipo, está en <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/cargador-de-celulares/\">cargadores de celulares</a>.</p>"
+    },
+    {
+      "h2": "¿Y los cargadores universales?",
+      "html": "<p>Un cargador universal trae varios conectores intercambiables y permite elegir el voltaje. Es útil en el taller para probar equipos o como solución de emergencia.</p>\n<p>Para el cliente final, en cambio, suele ser mejor un cargador específico para su marca y modelo: el conector queda firme y no hay riesgo de que alguien cambie el voltaje por error. Si usas uno universal, confirma el voltaje antes de conectar y elige el conector exacto.</p>"
+    },
+    {
+      "h2": "Qué cargadores tener en stock",
+      "html": "<p>Si reparas o vendes, conviene tener los cargadores de 65 W de HP, Dell y Lenovo, que son los que más se piden, y algunos USB tipo C. Con eso cubres buena parte de las consultas del día.</p>\n<p>En la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/cargador-laptop/\">cargadores de laptop</a> encuentras modelos para HP, Dell, Lenovo, Asus, Acer, Toshiba, Samsung y Gateway, con el voltaje, el amperaje y el plug en el nombre. Con tu cuenta comercial ves los precios de distribuidor y enviamos desde Quito a todo Ecuador.</p>"
+    }
+  ],
+  "products": [
+    8761,
+    8764,
+    10374,
+    8758
+  ],
+  "cta_mid": {
+    "title": "¿No sabes qué cargador pedir?",
+    "text": "Envíanos una foto de la etiqueta del cargador o de la base de la laptop y te decimos cuál corresponde.",
+    "wa_text": "Hola, necesito un cargador de laptop. Te envío la foto de la etiqueta"
+  },
+  "cta_end": {
+    "title": "Cargadores de laptop por mayor",
+    "text": "Crea tu cuenta comercial para ver los precios de distribuidor y tener en stock los cargadores que más se piden.",
+    "wa_text": "Hola, quiero cotizar cargadores de laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Puedo usar un cargador con más amperios que el original?",
+      "a": "Sí. La laptop solo toma la corriente que necesita, así que un cargador con más amperios funciona bien. Lo que debe coincidir es el voltaje y el conector."
+    },
+    {
+      "q": "¿Qué pasa si uso un cargador de menos vatios?",
+      "a": "El cargador trabaja forzado y se calienta, la batería carga lento y la laptop puede apagarse cuando hace tareas pesadas. Usa uno con la misma potencia o mayor."
+    },
+    {
+      "q": "¿Cómo sé la medida del conector de mi laptop?",
+      "a": "Revisa la etiqueta del cargador original o el nombre del producto, que suele indicar la medida, como 4.5x3.0 o 5.5x1.7. Si no la tienes, envía una foto del conector junto a una regla a un asesor."
+    },
+    {
+      "q": "¿Sirve un cargador de celular para cargar una laptop por USB tipo C?",
+      "a": "Por lo general no. Un cargador de celular entrega mucha menos potencia de la que pide una laptop. Puede que cargue muy lento con el equipo apagado, pero no es una solución para el uso diario."
+    },
+    {
+      "q": "¿Por qué mi laptop HP o Dell dice que el cargador no es reconocido?",
+      "a": "Suele pasar cuando el pin central del conector está dañado o cuando el cargador tiene menos potencia de la que pide el equipo. Revisa el conector, el cable y los vatios del cargador."
+    }
+  ]
+}

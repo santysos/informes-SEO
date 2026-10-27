@@ -1,0 +1,90 @@
+{
+  "n": 14,
+  "slug": "fuente-de-poder-pc",
+  "title": "Fuente de poder para PC: para qué sirve y cuál elegir",
+  "focus_kw": "fuente de poder para PC",
+  "meta_desc": "Fuente de poder para PC: qué es, para qué sirve, cómo calcular los vatios, qué conectores revisar y cómo saber si está dañada.",
+  "excerpt": "La fuente de poder alimenta todos los componentes de la PC. Te explicamos para qué sirve, cómo calcular cuántos vatios necesitas y qué revisar antes de venderla o instalarla.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "fuente de poder",
+    "componentes de PC",
+    "armado de PC",
+    "fuente ATX",
+    "PC gamer"
+  ],
+  "featured": {
+    "pexels_query": "pc power supply unit installation desktop",
+    "alt": "Fuente de poder instalada dentro de un case de computadora de escritorio"
+  },
+  "inline_image": {
+    "pexels_query": "computer power supply cables connectors",
+    "alt": "Cables y conectores de una fuente de poder de PC",
+    "after_section": 2
+  },
+  "intro_html": "<p>La fuente de poder es el componente que menos se mira al armar una PC y el que más problemas causa cuando se elige mal. Reinicios, apagados al jugar o una tarjeta gráfica que no arranca suelen tener el mismo origen.</p><p>En esta guía vas a ver qué es una fuente de poder, para qué sirve, cómo calcular cuántos vatios necesita un equipo y qué revisar si sospechas que está fallando. Sirve tanto para el técnico que arma equipos como para la tienda que los vende.</p>",
+  "sections": [
+    {
+      "h2": "Qué es y para qué sirve la fuente de poder",
+      "html": "<p>La fuente de poder (PSU, por sus siglas en inglés) toma la corriente alterna del tomacorriente, de 110 V en Ecuador, y la convierte en corriente continua de bajo voltaje: 12 V, 5 V y 3,3 V. Esos son los voltajes que usan la placa madre, el procesador, la tarjeta gráfica, los discos y los ventiladores.</p><p>Además de convertir, debe entregar una energía estable. Una fuente de mala calidad puede dar voltajes que suben y bajan, y eso desgasta los componentes o provoca fallas que parecen de otra pieza.</p>"
+    },
+    {
+      "h2": "Los conectores que tienes que revisar",
+      "html": "<p>No basta con los vatios: la fuente tiene que traer los conectores que pide el equipo.</p><table><thead><tr><th>Conector</th><th>Para qué sirve</th></tr></thead><tbody><tr><td>ATX de 24 pines</td><td>Alimenta la placa madre</td></tr><tr><td>CPU de 4+4 u 8 pines (EPS)</td><td>Alimenta el procesador</td></tr><tr><td>PCIe de 6 o 6+2 pines</td><td>Alimenta la tarjeta gráfica dedicada</td></tr><tr><td>SATA</td><td>Discos duros, SSD de 2,5\" y unidades ópticas</td></tr><tr><td>Molex de 4 pines</td><td>Equipos antiguos, ventiladores y algunos accesorios</td></tr></tbody></table><p>Si a la fuente le falta un conector, a veces se resuelve con un adaptador, como un <a href=\"https://multitecnologiavyv.com/producto/cable-de-poder-sata-a-6-pines/\">cable de poder SATA a 6 pines</a>. Pero es un parche: para una gráfica exigente lo correcto es una fuente con sus propios conectores PCIe. Otros adaptadores y extensiones están en <a href=\"https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/cable-de-datos-y-extensiones/\">cables de datos y extensiones</a>.</p>"
+    },
+    {
+      "h2": "Cómo calcular cuántos vatios necesita la PC",
+      "html": "<p>El cálculo práctico es sumar el consumo de los componentes principales y dejar margen:</p><ol><li>Busca el consumo del procesador y de la tarjeta gráfica en la ficha del fabricante. Son los que más gastan.</li><li>Suma un estimado para placa, memorias, discos y ventiladores.</li><li>Agrega un margen de entre 30 % y 40 % sobre el total. La fuente trabaja más fresca y eficiente lejos de su límite, y queda espacio para una mejora futura.</li></ol><p>Como orientación general:</p><ul><li><strong>PC de oficina sin gráfica dedicada:</strong> el consumo es bajo; una fuente de gama de entrada cumple sin problema.</li><li><strong>PC con gráfica de gama media:</strong> conviene subir a una fuente de más vatios y con conectores PCIe.</li><li><strong>PC gamer o de diseño con gráfica potente:</strong> fuentes de mayor potencia, como una <a href=\"https://multitecnologiavyv.com/producto/au-fuente-de-poder-para-pc-850w-viggo/\">fuente de 850 W</a>, dan margen de sobra.</li></ul><p>Usa siempre los datos del fabricante de cada componente; cada equipo es distinto.</p>"
+    },
+    {
+      "h2": "Certificación y calidad: no todo es vatios",
+      "html": "<p>Dos fuentes de 650 W pueden ser muy distintas. La diferencia está en la eficiencia y en la estabilidad.</p><ul><li><strong>Certificación 80 Plus:</strong> indica que la fuente aprovecha al menos el 80 % de la energía que toma de la red; el resto se pierde en calor. Hay niveles (Bronze, Silver, Gold y superiores), y cada nivel exige una eficiencia mayor.</li><li><strong>Vatios reales:</strong> las fuentes genéricas muy baratas suelen anunciar una potencia que no entregan de forma sostenida.</li><li><strong>Protecciones:</strong> una buena fuente se apaga sola ante un cortocircuito o una sobrecarga en lugar de dañar los componentes.</li></ul><p>Para un cliente que juega o trabaja muchas horas, una <a href=\"https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/fuente-de-poder-pc/\">fuente de poder certificada</a> es una inversión que protege todo lo demás.</p>"
+    },
+    {
+      "h2": "Síntomas de una fuente de poder dañada",
+      "html": "<ul><li>La PC no enciende o enciende un segundo y se apaga.</li><li>Se reinicia sola, sobre todo al exigirle (juegos, render).</li><li>El ventilador de la fuente hace ruido o no gira.</li><li>Olor a quemado o un chasquido al encender.</li><li>Discos que se desconectan o puertos USB que fallan sin razón aparente.</li></ul><p>Antes de cambiar la placa o la gráfica, mide la fuente. Un <a href=\"https://multitecnologiavyv.com/producto/comprobador-de-fuentes-de-poder/\">comprobador de fuentes de poder</a> te dice en segundos si los voltajes están dentro de rango. Si el problema es solo el ventilador, a veces basta con reemplazarlo.</p>"
+    },
+    {
+      "h2": "Protege la fuente con un UPS o regulador",
+      "html": "<p>En muchas zonas de Ecuador los cortes y las variaciones de voltaje son frecuentes, y la fuente es la primera que recibe el golpe. Recomendar un UPS o un regulador junto con la PC es un buen consejo para el cliente y una venta adicional para tu tienda.</p><p>Los encuentras en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/proteccion-de-energia/\">protección de energía</a>: UPS interactivos, reguladores de voltaje y protectores.</p>"
+    },
+    {
+      "h2": "Fuentes de poder al por mayor para tu negocio",
+      "html": "<p>Si armas equipos o vendes componentes, tener fuentes de varias potencias en stock te permite cerrar la venta en el momento. Con una cuenta comercial ves los precios de distribuidor y las ofertas por volumen.</p><p>Somos importadores directos con más de 15 años en el mercado y enviamos a todo Ecuador desde Quito. El valor del flete lo confirma un asesor según tu pedido.</p>"
+    }
+  ],
+  "products": [
+    7617,
+    10248,
+    7618,
+    8771
+  ],
+  "cta_mid": {
+    "title": "¿No sabes qué potencia elegir?",
+    "text": "Cuéntanos qué componentes lleva el equipo y te ayudamos a escoger la fuente.",
+    "wa_text": "Hola, necesito ayuda para elegir una fuente de poder para PC"
+  },
+  "cta_end": {
+    "title": "Fuentes de poder para tu tienda o taller",
+    "text": "Crea tu cuenta comercial y revisa precios de distribuidor en fuentes de poder y comprobadores.",
+    "wa_text": "Hola, quiero cotizar fuentes de poder para PC al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la fuente de poder de una PC?",
+      "a": "Convierte la corriente del tomacorriente en los voltajes bajos que usan los componentes: 12 V, 5 V y 3,3 V. También debe entregar esa energía de forma estable para no dañar el equipo."
+    },
+    {
+      "q": "¿Cuántos vatios de fuente necesito?",
+      "a": "Suma el consumo del procesador, la tarjeta gráfica y el resto de componentes, y agrega un margen de 30 % a 40 %. Un equipo de oficina necesita bastante menos que una PC gamer con gráfica dedicada."
+    },
+    {
+      "q": "¿Cómo sé si la fuente de poder está dañada?",
+      "a": "Si la PC no enciende, se apaga sola al exigirle o se reinicia sin motivo, la fuente es sospechosa. Un comprobador de fuentes te confirma en segundos si los voltajes están bien."
+    },
+    {
+      "q": "¿Qué significa que una fuente sea certificada 80 Plus?",
+      "a": "Que aprovecha al menos el 80 % de la energía que toma de la red y desperdicia menos en calor. Los niveles más altos, como Gold, son todavía más eficientes."
+    }
+  ]
+}

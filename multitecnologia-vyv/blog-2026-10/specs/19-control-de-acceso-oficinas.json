@@ -1,0 +1,89 @@
+{
+  "n": 19,
+  "slug": "control-de-acceso-oficinas",
+  "title": "Control de acceso para oficinas y negocios: guía práctica",
+  "focus_kw": "control de acceso para oficinas",
+  "meta_desc": "Control de acceso para oficinas: tarjeta, huella o rostro, qué piezas lleva la instalación y cómo elegir el equipo. Guía para instaladores en Ecuador.",
+  "excerpt": "Cómo elegir un control de acceso para una oficina o negocio: métodos de identificación, piezas de la instalación, control de asistencia y errores que conviene evitar.",
+  "category": "Redes y seguridad",
+  "tags": [
+    "control de acceso",
+    "control de asistencia",
+    "seguridad para oficinas",
+    "lector biométrico",
+    "tarjetas MIFARE"
+  ],
+  "featured": {
+    "pexels_query": "access control card reader office door",
+    "alt": "Persona acercando una tarjeta a un lector de control de acceso en la puerta de una oficina"
+  },
+  "inline_image": {
+    "pexels_query": "fingerprint scanner door security",
+    "alt": "Lector de huella instalado junto a una puerta"
+  },
+  "intro_html": "<p>Las llaves se copian, se pierden y nunca dicen quién entró ni a qué hora. Por eso cada vez más oficinas, consultorios, bodegas y locales comerciales cambian la cerradura tradicional por un <strong>control de acceso</strong>: un equipo que decide quién abre la puerta y deja registro de cada ingreso.</p><p>Es también uno de los productos más buscados en nuestra tienda. En esta guía te explicamos qué métodos de identificación existen, qué piezas lleva una instalación completa y cómo elegir el equipo según el tipo de negocio. Sirve tanto al instalador que cotiza el proyecto como al dueño del negocio que quiere entender qué está comprando.</p>",
+  "sections": [
+    {
+      "h2": "Qué hace un control de acceso",
+      "html": "<p>Un control de acceso tiene tres funciones básicas:</p><ul><li><strong>Identificar</strong> a la persona: con tarjeta, huella, rostro o clave.</li><li><strong>Autorizar o negar</strong> la entrada según los permisos y horarios que configures.</li><li><strong>Registrar</strong> cada evento: quién entró, por qué puerta y a qué hora.</li></ul><p>Esa última función es la que más valoran las empresas. Con el registro sabes quién estaba en la oficina cuando pasó algo, y muchos equipos sirven además como <strong>control de asistencia</strong> para el personal, con lo que reemplazan al reloj marcador.</p><p>Cuando un empleado se va, se borra su permiso en el sistema. No hace falta cambiar la cerradura ni recuperar llaves.</p>"
+    },
+    {
+      "h2": "Tarjeta, huella, rostro o clave: cómo elegir",
+      "html": "<p>Cada método de identificación tiene ventajas según el lugar y el número de usuarios:</p><table><thead><tr><th>Método</th><th>Ventajas</th><th>A tener en cuenta</th></tr></thead><tbody><tr><td>Tarjeta o llavero RFID</td><td>Rápido, cómodo, fácil de reemplazar</td><td>La tarjeta se presta o se pierde</td></tr><tr><td>Huella digital</td><td>No se presta ni se olvida</td><td>Manos sucias o con cortes leen peor; útil en oficinas</td></tr><tr><td>Reconocimiento facial</td><td>Sin contacto, muy rápido, ideal para muchos usuarios</td><td>Requiere buena ubicación y luz</td></tr><tr><td>Clave o PIN</td><td>No requiere nada físico</td><td>Las claves se comparten; mejor como respaldo</td></tr></tbody></table><p>Los equipos más usados combinan dos o más métodos. Un lector como el <a href='https://multitecnologiavyv.com/producto/control-de-acceso-idflex-v-2-huella-rfid-mifare-pin-control-id/'>iDFlex V2 con huella, RFID MIFARE y PIN</a> permite que cada persona use el que le resulte más práctico. En oficinas con mucho personal, el <a href='https://multitecnologiavyv.com/producto/control-de-acceso-idface-3000-faces-rfid-mifare-qr-pin-control-id/'>iDFace con reconocimiento facial, RFID, QR y PIN</a> agiliza la entrada en horas pico.</p><p>Un dato útil: <strong>RFID</strong> es la tecnología de las tarjetas que se leen al acercarlas. <strong>MIFARE</strong> (13,56 MHz) es un tipo de tarjeta RFID más segura y difícil de copiar que las de proximidad básicas de 125 kHz.</p>"
+    },
+    {
+      "h2": "Las piezas de una instalación completa",
+      "html": "<p>El lector es solo una parte. Para que la puerta realmente abra y cierre, una instalación típica lleva:</p><ol><li><strong>Lector o terminal de acceso:</strong> el equipo que identifica a la persona.</li><li><strong>Cerradura eléctrica o electroimán:</strong> lo que mantiene la puerta cerrada y la libera cuando el lector autoriza.</li><li><strong>Soportes de cerradura:</strong> adaptan el electroimán al tipo de puerta. Hay soportes en L, en Z y en U según la puerta sea de madera, vidrio o marco angosto.</li><li><strong>Botón de salida:</strong> para salir desde adentro sin identificarse. El <a href='https://multitecnologiavyv.com/producto/boton-de-salida-no-touch-2/'>botón de salida no touch</a> se activa acercando la mano, sin contacto.</li><li><strong>Fuente de alimentación con respaldo:</strong> idealmente con batería, para que el sistema siga funcionando en un corte de luz.</li><li><strong>Tarjetas o llaveros</strong> para los usuarios, si el sistema usa RFID.</li><li><strong>Brazo cierrapuertas:</strong> asegura que la puerta vuelva a cerrarse sola.</li></ol><p>Lectores, soportes de cerradura, botones de salida, tarjetas y brazos de puerta los encuentras en la categoría de <a href='https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/controles-de-acceso/'>controles de acceso</a>.</p>"
+    },
+    {
+      "h2": "Qué equipo según el tipo de negocio",
+      "html": "<ul><li><strong>Consultorio, oficina pequeña o local:</strong> un lector compacto con huella, tarjeta y clave en la puerta principal. Unos pocos usuarios, instalación sencilla.</li><li><strong>Oficina mediana con control de asistencia:</strong> un terminal con huella o rostro que también registre entradas y salidas del personal para nómina.</li><li><strong>Empresa con varias áreas:</strong> lectores en cada puerta (bodega, sistemas, gerencia), con permisos distintos por persona y horario.</li><li><strong>Exteriores o accesos vehiculares:</strong> equipos con protección contra polvo y agua, y antenas de lectura a distancia para vehículos.</li></ul><p>Antes de cotizar, pregunta al cliente cuántas personas usarán el sistema, cuántas puertas quiere controlar y si necesita reportes de asistencia. Con esas tres respuestas eliges el equipo correcto.</p><p>Si el sistema funciona con tarjetas, calcula unas cuantas de reserva para el personal nuevo y para reponer las que se pierden. Las <a href='https://multitecnologiavyv.com/producto/tarjeta-ic-mifare/'>tarjetas IC MIFARE</a> se compran por volumen y son un repuesto que el cliente te volverá a pedir. Para negocios pequeños, un lector compacto como el iDAccess Nano, con huella, RFID y PIN, cubre la puerta principal sin complicar la instalación.</p>"
+    },
+    {
+      "h2": "Errores comunes en la instalación",
+      "html": "<ul><li><strong>Olvidar el respaldo de energía.</strong> Sin batería, un corte de luz deja la puerta abierta o cerrada, según el tipo de cerradura. Las dos situaciones son un problema.</li><li><strong>Electroimán sin el soporte adecuado.</strong> Si no asienta bien contra la placa, la puerta se abre con un empujón.</li><li><strong>No dejar salida de emergencia.</strong> Siempre debe haber un botón de salida y, en lugares con público, un mecanismo de apertura de emergencia.</li><li><strong>Lector facial a contraluz.</strong> Una ventana detrás de la persona complica el reconocimiento. Prueba la ubicación antes de fijar el equipo.</li><li><strong>No capacitar al cliente.</strong> Enséñale a dar de alta y de baja usuarios y a sacar reportes. Un sistema que nadie sabe administrar termina con la puerta siempre abierta.</li></ul>"
+    },
+    {
+      "h2": "Una oportunidad para instaladores de cámaras y redes",
+      "html": "<p>Si ya instalas cámaras o cableado, el control de acceso es una venta natural: el cliente que protege su negocio con cámaras quiere también controlar quién entra. Comparten cableado, canaleta y muchas veces el mismo cuarto de equipos.</p><p>Además, deja ingresos recurrentes: altas y bajas de usuarios, tarjetas adicionales, mantenimiento y ampliaciones a nuevas puertas. Con la cuenta comercial accedes a precios de distribuidor en lectores, accesorios y tarjetas para tus proyectos en Quito y en todo Ecuador.</p>"
+    }
+  ],
+  "products": [
+    9468,
+    9467,
+    9465,
+    10386
+  ],
+  "cta_mid": {
+    "title": "¿Tienes un proyecto de control de acceso?",
+    "text": "Cotiza lectores, botones de salida, soportes y tarjetas en una sola compra con asesoramiento técnico.",
+    "wa_text": "Hola, quiero cotizar controles de acceso para un proyecto"
+  },
+  "cta_end": {
+    "title": "Precios de distribuidor en control de acceso",
+    "text": "Crea tu cuenta comercial y arma tus instalaciones con lectores Control iD y todos los accesorios.",
+    "wa_text": "Hola, necesito un control de acceso para una oficina, ¿qué equipo me recomiendan?"
+  },
+  "faq": [
+    {
+      "q": "¿Qué es un control de acceso para oficinas?",
+      "a": "Es un sistema que identifica a cada persona con tarjeta, huella, rostro o clave y solo abre la puerta a quien tiene permiso. Además, registra quién entró y a qué hora."
+    },
+    {
+      "q": "¿Un control de acceso sirve también para controlar la asistencia?",
+      "a": "Muchos equipos registran las entradas y salidas del personal y permiten sacar reportes, por lo que reemplazan al reloj marcador. Revisa en la ficha del equipo si incluye esa función."
+    },
+    {
+      "q": "¿Qué es mejor, huella o reconocimiento facial?",
+      "a": "La huella es confiable y económica para pocos usuarios. El reconocimiento facial es más rápido, no requiere contacto y conviene cuando entra mucha gente a la misma hora."
+    },
+    {
+      "q": "¿Qué pasa con la puerta si se va la luz?",
+      "a": "Depende de la cerradura y de la fuente. Por eso se recomienda una fuente con batería de respaldo, para que el sistema siga funcionando durante el corte."
+    },
+    {
+      "q": "¿Qué necesito además del lector para instalar un control de acceso?",
+      "a": "Una cerradura eléctrica o electroimán con su soporte, un botón de salida, una fuente de alimentación y, si el sistema usa RFID, tarjetas o llaveros para los usuarios."
+    }
+  ]
+}

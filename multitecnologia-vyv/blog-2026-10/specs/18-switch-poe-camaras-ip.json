@@ -1,0 +1,93 @@
+{
+  "n": 18,
+  "slug": "switch-poe-camaras-ip",
+  "title": "Switch PoE para cámaras IP: cómo elegir 4, 8 o 16 puertos",
+  "focus_kw": "switch PoE para cámaras IP",
+  "meta_desc": "Switch PoE para cámaras IP: qué es PoE, cuántos puertos necesitas, cómo calcular la potencia y cuándo basta un inyector. Guía para instaladores en Ecuador.",
+  "excerpt": "Cómo funciona un switch PoE, cuántos puertos elegir según el número de cámaras, cómo sumar el consumo y cuándo conviene un inyector o un NVR con PoE.",
+  "category": "Redes y seguridad",
+  "tags": [
+    "switch PoE",
+    "cámaras IP",
+    "videovigilancia",
+    "inyector PoE",
+    "redes"
+  ],
+  "featured": {
+    "pexels_query": "network switch ethernet cables rack",
+    "alt": "Switch de red con varios cables UTP conectados en un rack"
+  },
+  "inline_image": {
+    "pexels_query": "security camera installation wall",
+    "alt": "Cámara de seguridad IP instalada en una pared exterior"
+  },
+  "intro_html": "<p>Cuando instalas cámaras IP, cada cámara necesita dos cosas: datos para enviar el video y energía para funcionar. Hacerlo con un cable de red y una fuente por cámara multiplica los tomacorrientes, los adaptadores y los puntos de falla.</p><p>El <strong>switch PoE</strong> resuelve las dos cosas con un solo cable. En esta guía te explicamos cómo funciona, cómo elegir entre un switch PoE de 4, 8 o 16 puertos, cómo calcular la potencia y cuándo te alcanza con un inyector. Está pensada para instaladores y técnicos que arman sistemas de videovigilancia en Quito y el resto de Ecuador.</p>",
+  "sections": [
+    {
+      "h2": "Qué es PoE y por qué simplifica una instalación",
+      "html": "<p><strong>PoE</strong> significa <em>Power over Ethernet</em>: energía por el cable de red. El switch envía corriente por los mismos pares del cable UTP que llevan los datos, y la cámara se alimenta de ahí. No necesita fuente propia ni tomacorriente junto a ella.</p><p>En la práctica eso significa:</p><ul><li><strong>Un solo cable por cámara</strong>, del switch hasta el punto de instalación.</li><li><strong>Menos fuentes de poder</strong> repartidas por el techo o los postes.</li><li><strong>Respaldo centralizado:</strong> si conectas el switch a un UPS, todas las cámaras siguen grabando durante un corte de luz.</li><li><strong>Reinicio remoto:</strong> desconectar el puerto reinicia la cámara sin subir una escalera.</li></ul><p>Para que funcione, la cámara también debe ser PoE. La mayoría de cámaras IP actuales lo son, y suele indicarse en el nombre del producto, como en la <a href='https://multitecnologiavyv.com/producto/camara-ip-sk-color-maker-tipo-bala-4mp-2-8mm-ir-50m-mic-poe-tc-c34qn-tiandy/'>cámara IP tipo bala 4MP PoE de Tiandy</a>.</p>"
+    },
+    {
+      "h2": "Cuántos puertos necesitas",
+      "html": "<p>La regla es simple: cuenta las cámaras y suma margen para crecer. Un cliente que hoy pide 4 cámaras casi siempre pide más en un año.</p><table><thead><tr><th>Cámaras del proyecto</th><th>Switch sugerido</th><th>Comentario</th></tr></thead><tbody><tr><td>1 o 2</td><td>Inyector PoE</td><td>No hace falta un switch</td></tr><tr><td>3 a 4</td><td>Switch PoE de 4 puertos o NVR con PoE integrado</td><td>Casas, locales pequeños</td></tr><tr><td>5 a 8</td><td>Switch PoE de 8 puertos</td><td>Negocios, oficinas, conjuntos pequeños</td></tr><tr><td>9 a 16</td><td>Switch PoE de 16 puertos</td><td>Bodegas, colegios, edificios</td></tr></tbody></table><p>Además de los puertos PoE, el switch necesita un puerto de subida (<em>uplink</em>) para conectarse al NVR o al router. Revisa que quede uno libre para eso.</p>"
+    },
+    {
+      "h2": "Calcula la potencia antes de comprar",
+      "html": "<p>Este es el error más común. Un switch tiene un <strong>presupuesto de potencia total</strong> que reparte entre todos sus puertos. Si la suma del consumo de las cámaras lo supera, algunas se reinician solas o no encienden.</p><p>Cómo calcularlo:</p><ol><li>Busca en la ficha de cada cámara su consumo máximo en vatios.</li><li>Ten en cuenta que el consumo sube de noche, cuando se encienden los LED infrarrojos, y en cámaras motorizadas o con calefactor.</li><li>Suma el consumo de todas las cámaras.</li><li>Compara con la potencia total del switch y deja un margen de al menos 20 a 30 %.</li></ol><p>Si el cálculo no cierra, tienes dos salidas: pasar a un switch con más presupuesto de potencia o repartir las cámaras entre dos equipos.</p>"
+    },
+    {
+      "h2": "Distancia y cable: lo que limita al PoE",
+      "html": "<p>El estándar Ethernet llega hasta <strong>100 metros por tramo</strong> de cable UTP, y PoE respeta ese mismo límite. Pasado ese punto, la señal y la energía caen.</p><ul><li>Usa cable de cobre puro siempre que puedas. El cable de aleación de cobre y aluminio (CCA) tiene más resistencia y pierde más energía en el camino, algo que se nota en tramos largos.</li><li>Pon conectores de buena calidad y prueba cada cable con un comprobador antes de cerrar la canaleta.</li><li>En exteriores, usa cable para exteriores y protege los conectores de la lluvia.</li></ul><p>Para el cableado tienes bobinas Cat5e y Cat6 en <a href='https://multitecnologiavyv.com/categoria-producto/networking-redes/cable-utp/'>cable UTP</a>, y ponchadoras y probadores en herramientas de cableado.</p>"
+    },
+    {
+      "h2": "Inyector PoE, switch PoE o NVR con PoE",
+      "html": "<p>No siempre hace falta un switch. Elige según el tamaño del proyecto:</p><ul><li><strong>Inyector PoE:</strong> alimenta una cámara a partir de un switch normal. Ideal para agregar una cámara a una red existente. Hay kits de inyector más splitter, como el <a href='https://multitecnologiavyv.com/producto/poe-inyectorspliter/'>PoE inyector + splitter</a>, que también sirve para alimentar un equipo que no es PoE.</li><li><strong>Switch PoE:</strong> la opción estándar desde 4 cámaras. Centraliza energía y datos en un solo equipo, con el <a href='https://multitecnologiavyv.com/producto/switch-poe-8-puertos-10-100-deltatech/'>switch PoE de 8 puertos</a> como medida más vendida.</li><li><strong>NVR con PoE integrado:</strong> el grabador ya trae los puertos para conectar las cámaras. Reduce equipos en instalaciones pequeñas. Revisa en la ficha cuántos puertos PoE trae antes de proponerlo.</li></ul>"
+    },
+    {
+      "h2": "Velocidad del switch: 10/100 o gigabit",
+      "html": "<p>Las cámaras IP envían video comprimido, y una cámara de 2 a 4 MP usa una fracción del ancho de un puerto de 100 Mbps. Por eso los switches PoE de puertos 10/100 son habituales en videovigilancia.</p><p>Donde sí importa la velocidad es en el <strong>puerto de subida</strong>, que lleva el video de todas las cámaras juntas hacia el NVR. En sistemas grandes, con muchas cámaras de alta resolución, conviene que ese tramo sea gigabit.</p><p>Otro punto a revisar es si el switch es <strong>administrable</strong> o no. Los no administrables se conectan y funcionan sin configurar nada, que es lo que necesita la mayoría de casas y negocios. Los administrables permiten separar las cámaras del resto de la red y ver el consumo de cada puerto, algo útil en proyectos grandes o en empresas con un área de sistemas.</p>"
+    },
+    {
+      "h2": "Para el instalador: arma el kit completo",
+      "html": "<p>Un sistema de cámaras IP bien cotizado incluye cámaras, NVR, switch PoE, cable, conectores, canaleta y un UPS. Comprar todo con un solo distribuidor simplifica la compatibilidad y la garantía, y te deja un solo interlocutor si algo falla.</p><p>En la categoría de <a href='https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-ip/'>cámaras IP</a> encuentras cámaras Tiandy, NVR y switches PoE para armar el sistema completo. Con la cuenta comercial ves los precios de distribuidor y las ofertas por volumen para tus proyectos.</p>"
+    }
+  ],
+  "products": [
+    7980,
+    7976,
+    9484,
+    9510
+  ],
+  "cta_mid": {
+    "title": "¿Cotizando un sistema de cámaras?",
+    "text": "Pide switches PoE, cámaras IP y NVR en una sola cotización con precios de distribuidor.",
+    "wa_text": "Hola, quiero cotizar switches PoE para cámaras IP al por mayor"
+  },
+  "cta_end": {
+    "title": "Arma tus proyectos de videovigilancia con un distribuidor",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en switches PoE, cámaras Tiandy y cableado.",
+    "wa_text": "Hola, necesito un switch PoE y cámaras IP para un proyecto, ¿me ayudan con la cotización?"
+  },
+  "faq": [
+    {
+      "q": "¿Qué es un switch PoE?",
+      "a": "Es un switch de red que, además de transmitir datos, envía energía por el cable UTP. Así una cámara IP o un teléfono IP funcionan con un solo cable, sin fuente de poder propia."
+    },
+    {
+      "q": "¿Cuántas cámaras puedo conectar a un switch PoE de 4 puertos?",
+      "a": "Hasta cuatro cámaras PoE, siempre que la suma de su consumo no supere la potencia total del switch. Revisa también que quede un puerto de subida para conectar el NVR o el router."
+    },
+    {
+      "q": "¿Necesito switch PoE si mi NVR ya tiene PoE?",
+      "a": "No, si el NVR tiene suficientes puertos PoE para todas tus cámaras. El switch se vuelve necesario cuando hay más cámaras que puertos o cuando las cámaras están lejos del grabador."
+    },
+    {
+      "q": "¿Hasta qué distancia funciona una cámara PoE?",
+      "a": "Hasta 100 metros de cable UTP por tramo, el límite del estándar Ethernet. Para distancias mayores se usan extensores PoE o un segundo switch en el camino."
+    },
+    {
+      "q": "¿Puedo conectar una cámara que no es PoE a un switch PoE?",
+      "a": "Sí, con un splitter PoE que separa los datos de la energía y entrega el voltaje que la cámara necesita. Conecta la cámara al splitter y el splitter al puerto PoE."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "n": 13,
+  "slug": "pasta-termica-mantenimiento-laptop",
+  "title": "Pasta térmica y mantenimiento de laptop paso a paso",
+  "focus_kw": "pasta térmica laptop",
+  "meta_desc": "Pasta térmica y mantenimiento de laptop: cuándo cambiarla, cómo aplicarla, qué conductividad elegir y qué insumos tener en el taller.",
+  "excerpt": "Una laptop que se calienta y se apaga casi siempre pide mantenimiento. Te explicamos cuándo cambiar la pasta térmica, cómo aplicarla bien y qué insumos tener en tu taller.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "pasta térmica",
+    "mantenimiento de laptop",
+    "limpieza de laptop",
+    "sobrecalentamiento",
+    "insumos para técnicos"
+  ],
+  "featured": {
+    "pexels_query": "applying thermal paste cpu laptop",
+    "alt": "Técnico aplicando pasta térmica sobre el procesador de una laptop"
+  },
+  "inline_image": {
+    "pexels_query": "cleaning laptop fan dust brush",
+    "alt": "Limpieza del ventilador de una laptop con brocha para retirar el polvo",
+    "after_section": 2
+  },
+  "intro_html": "<p>La laptop se calienta, el ventilador suena fuerte y de repente se apaga. El cliente cree que se dañó, pero en muchos casos lo que necesita es un mantenimiento: limpieza del sistema de enfriamiento y cambio de pasta térmica.</p><p>Es un servicio que todo taller debería ofrecer y cobrar bien, porque alarga la vida del equipo. Aquí tienes cuándo hacerlo, cómo aplicar la pasta y qué insumos conviene tener siempre.</p>",
+  "sections": [
+    {
+      "h2": "Para qué sirve la pasta térmica",
+      "html": "<p>El procesador y la tarjeta gráfica generan calor, y ese calor tiene que pasar al disipador de cobre que lo saca de la laptop. Entre el chip y el disipador hay imperfecciones microscópicas que dejan aire atrapado, y el aire conduce mal el calor.</p><p>La pasta térmica rellena esos huecos y mejora la transferencia. Con los años se seca, se agrieta y pierde esa capacidad. El resultado: temperaturas altas, ventilador a tope y apagados por protección.</p>"
+    },
+    {
+      "h2": "Señales de que la laptop necesita mantenimiento",
+      "html": "<ul><li>El ventilador suena fuerte incluso con tareas simples.</li><li>La base o el teclado se calientan más de lo normal.</li><li>La laptop se pone lenta cuando se calienta (el procesador baja su velocidad para protegerse).</li><li>Se apaga sola al jugar, editar video o en llamadas largas.</li><li>Sale poco aire por la rejilla o el aire sale muy caliente.</li></ul><p>Como regla práctica, un equipo de uso diario agradece un mantenimiento cada uno o dos años. En zonas con polvo o en laptops gamer, antes. Si al revisar ves que el ventilador hace ruido o gira con dificultad, conviene cambiarlo: en la categoría de ventiladores de laptop se buscan por modelo y número de parte.</p>"
+    },
+    {
+      "h2": "El mantenimiento completo, paso a paso",
+      "html": "<ol><li><strong>Desconecta todo.</strong> Cargador fuera y batería desconectada de la placa antes de tocar nada.</li><li><strong>Retira el disipador.</strong> Afloja los tornillos en el orden numerado que suele venir marcado y levántalo con cuidado.</li><li><strong>Limpia la pasta vieja.</strong> Usa alcohol isopropílico y un paño que no suelte pelusa, como un <a href=\"https://multitecnologiavyv.com/producto/pano-limpieza-de-micro-fibra-16x18-cm/\">paño de microfibra</a>. Deja el chip y el cobre sin residuos.</li><li><strong>Limpia el ventilador y la rejilla.</strong> Retira el polvo con brocha y aire. Sujeta las aspas al soplar para que no giren sin control.</li><li><strong>Aplica la pasta nueva.</strong> Una cantidad pequeña al centro del chip (más abajo te explicamos cuánto).</li><li><strong>Monta el disipador.</strong> Aprieta los tornillos en cruz, de forma pareja, para que la presión se reparta.</li><li><strong>Prueba.</strong> Enciende, deja el equipo trabajando unos minutos y revisa temperaturas con un programa de monitoreo.</li></ol><p>Si hay contactos sucios u oxidados en conectores o ranuras de memoria, un <a href=\"https://multitecnologiavyv.com/producto/limpiador-de-contactos-senfineco-450ml-mod-9992/\">limpiador de contactos</a> ayuda a dejarlos en buen estado sin dejar residuos.</p>"
+    },
+    {
+      "h2": "Cuánta pasta aplicar y cómo",
+      "html": "<p>El error más común es poner demasiada. La pasta sobrante no mejora nada y puede ensuciar los componentes de alrededor.</p><ul><li><strong>Procesadores de laptop:</strong> una gota del tamaño de un grano de arroz al centro, o una línea fina si el chip es alargado.</li><li><strong>Chips con el núcleo expuesto</strong> (sin tapa metálica): cubre toda la superficie con una capa muy delgada usando una espátula.</li><li><strong>Nunca</strong> reutilices la pasta vieja ni pongas pasta nueva sobre la anterior.</li></ul><p>Ojo con los <em>pads térmicos</em>: son almohadillas que cubren memorias de video y reguladores de voltaje en algunos modelos. No los reemplaces por pasta, porque la distancia hasta el disipador es distinta y el contacto quedaría mal.</p><p>Otro error frecuente es dejar burbujas o aplicar la pasta con el dedo. La grasa de la piel contamina la superficie y empeora el contacto. Usa la jeringa o una espátula limpia, y si al levantar el disipador para revisar ves zonas sin pasta, limpia todo y vuelve a empezar: no se rellena por partes.</p>"
+    },
+    {
+      "h2": "Cómo elegir la pasta térmica",
+      "html": "<p>El dato clave es la <strong>conductividad térmica</strong>, que se mide en W/mK: cuanto más alta, mejor pasa el calor. En el catálogo cada pasta indica su valor en el nombre, así que puedes comparar directamente.</p><table><thead><tr><th>Uso</th><th>Qué buscar</th></tr></thead><tbody><tr><td>Mantenimiento de oficina, gran volumen</td><td>Presentación grande para rendir muchos servicios</td></tr><tr><td>Laptops gamer o equipos que trabajan exigidos</td><td>Mayor conductividad</td></tr><tr><td>Chips con núcleo expuesto</td><td>Una pasta que se extienda en capa fina con facilidad</td></tr></tbody></table><p>Por ejemplo, la <a href=\"https://multitecnologiavyv.com/producto/pasta-termica-4g-delta-color-ploma-cond-15-2/\">pasta térmica de 4 g con conductividad 15.2</a> está pensada para equipos exigentes, mientras que una presentación de 30 g rinde para muchos mantenimientos de rutina. Revisa todas las opciones en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/mantenimiento/pasta-termica/\">pasta térmica</a>.</p>"
+    },
+    {
+      "h2": "Insumos que no deberían faltar en tu mesa",
+      "html": "<ul><li>Pasta térmica en dos presentaciones: una de alto rendimiento y otra de volumen.</li><li>Alcohol isopropílico y paños de microfibra o toallitas para limpieza.</li><li>Limpiador de contactos.</li><li>Brocha antiestática y aire.</li><li>Destornilladores de precisión y espátulas plásticas.</li></ul><p>Todo esto lo encuentras en la sección de <a href=\"https://multitecnologiavyv.com/categoria-producto/mantenimiento/\">productos de mantenimiento</a>. Para el cliente que usa la laptop muchas horas, también puedes ofrecer una <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/cooler-para-laptop/\">base con ventiladores</a> como complemento del servicio.</p>"
+    },
+    {
+      "h2": "Compra insumos al por mayor y rinde más cada servicio",
+      "html": "<p>El mantenimiento es un servicio de alta rotación: cada laptop que entra al taller es una oportunidad. Comprar los insumos por volumen baja tu costo por servicio y te evita quedarte sin pasta a mitad de semana.</p><p>Con una cuenta comercial ves los precios de distribuidor y las ofertas por volumen. Atendemos desde Quito y enviamos a todo Ecuador; el flete lo confirma un asesor según tu pedido.</p>"
+    }
+  ],
+  "products": [
+    7716,
+    7717,
+    7713,
+    7723
+  ],
+  "cta_mid": {
+    "title": "¿Qué pasta conviene para tu taller?",
+    "text": "Cuéntanos qué equipos atiendes y te recomendamos la presentación adecuada.",
+    "wa_text": "Hola, quiero asesoría para comprar pasta térmica para mi taller"
+  },
+  "cta_end": {
+    "title": "Insumos de mantenimiento por volumen",
+    "text": "Crea tu cuenta comercial y revisa los precios de distribuidor en pasta térmica y productos de limpieza.",
+    "wa_text": "Hola, quiero cotizar pasta térmica e insumos de mantenimiento al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Cada cuánto se cambia la pasta térmica de una laptop?",
+      "a": "En uso normal, cada uno o dos años es una buena referencia. Si la laptop se calienta mucho, se pone lenta o se apaga sola, revísala antes, sin esperar ese plazo."
+    },
+    {
+      "q": "¿Cuánta pasta térmica se pone en el procesador?",
+      "a": "Una gota del tamaño de un grano de arroz al centro del chip es suficiente en la mayoría de laptops. Al montar el disipador, la presión la reparte."
+    },
+    {
+      "q": "¿Qué significa la conductividad de la pasta térmica?",
+      "a": "Indica qué tan bien transmite el calor y se mide en W/mK. Un valor más alto conviene para equipos exigentes, como laptops gamer o de diseño."
+    },
+    {
+      "q": "¿Se puede usar pasta térmica en lugar de pads térmicos?",
+      "a": "No es recomendable. Los pads cubren una distancia mayor entre el componente y el disipador; con pasta, el contacto queda incompleto y el componente se calienta."
+    },
+    {
+      "q": "¿Qué pasa si no cambio la pasta térmica?",
+      "a": "La pasta seca deja de transferir el calor y el procesador trabaja más caliente. La laptop se pone lenta, el ventilador suena más y, con el tiempo, aparecen apagados repentinos. A largo plazo, el calor constante también acorta la vida de otros componentes."
+    }
+  ]
+}

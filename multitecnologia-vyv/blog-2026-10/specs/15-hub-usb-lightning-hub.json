@@ -1,0 +1,94 @@
+{
+  "n": 15,
+  "slug": "hub-usb-lightning-hub",
+  "title": "Hub USB y lightning hub: cuál elegir y para qué sirve",
+  "focus_kw": "hub USB",
+  "meta_desc": "Hub USB y lightning hub: diferencias entre USB 2.0, 3.0 y tipo C, qué puertos buscar y cómo recomendar el correcto a cada cliente.",
+  "excerpt": "Un hub USB multiplica los puertos de una laptop, un iPhone o un iPad. Te explicamos los tipos, del USB 2.0 al lightning hub, y cómo recomendar el adecuado a cada cliente.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "hub USB",
+    "lightning hub",
+    "hub tipo C",
+    "accesorios de computación",
+    "accesorios iPhone"
+  ],
+  "featured": {
+    "pexels_query": "usb c hub connected to laptop desk",
+    "alt": "Hub USB tipo C conectado a una laptop sobre un escritorio"
+  },
+  "inline_image": {
+    "pexels_query": "ipad connected usb adapter accessories",
+    "alt": "iPad conectado a un adaptador con puertos USB y HDMI",
+    "after_section": 3
+  },
+  "intro_html": "<p>Las laptops nuevas vienen cada vez más delgadas y con menos puertos. Muchas solo traen uno o dos USB tipo C, y el cliente se encuentra con que no puede conectar su mouse, su memoria y el proyector al mismo tiempo.</p><p>Ahí entra el hub USB. Y para quien usa iPhone o iPad con puerto Lightning existe el lightning hub. En esta guía vas a ver los tipos, para qué sirve cada uno y cómo recomendar el correcto en tu tienda.</p>",
+  "sections": [
+    {
+      "h2": "Qué es un hub USB y para qué sirve",
+      "html": "<p>Un hub USB es un concentrador: toma un solo puerto del equipo y lo convierte en varios. Sirve para conectar al mismo tiempo teclado, mouse, memorias, discos externos, impresoras o lectores de tarjetas.</p><p>Los modelos más completos, llamados también <em>docks</em> o multipuertos, suman salidas que no son USB: HDMI o VGA para un monitor, RJ45 para red cableada, lector de tarjetas SD y entrada de carga para no dejar sin energía a la laptop.</p>"
+    },
+    {
+      "h2": "USB 2.0, USB 3.0 y tipo C: la diferencia que importa",
+      "html": "<table><thead><tr><th>Tipo</th><th>Velocidad de referencia</th><th>Uso recomendado</th></tr></thead><tbody><tr><td>USB 2.0</td><td>Hasta 480 Mbps</td><td>Mouse, teclado, impresora, lector de código de barras</td></tr><tr><td>USB 3.0 (3.2 Gen 1)</td><td>Hasta 5 Gbps</td><td>Discos externos, memorias rápidas, cámaras</td></tr><tr><td>USB tipo C</td><td>Depende del estándar que use</td><td>Laptops y tablets modernas; permite multipuertos con video y carga</td></tr></tbody></table><p>Ojo: <strong>tipo C es la forma del conector, no la velocidad</strong>. Un puerto tipo C puede trabajar a velocidad USB 2.0, USB 3.x o soportar video, según el equipo. Antes de vender un hub con HDMI, confirma que el puerto tipo C de la laptop del cliente admite salida de video.</p><p>Para oficinas con muchos periféricos simples, un <a href=\"https://multitecnologiavyv.com/producto/hub-usb-2-0-10-puertos-mod-p-1603/\">hub USB 2.0 de 10 puertos</a> resuelve con poco. Para quien mueve archivos pesados, conviene uno USB 3.0.</p>"
+    },
+    {
+      "h2": "Hub tipo C multipuerto: el más pedido por laptops nuevas",
+      "html": "<p>Las laptops ultradelgadas y las MacBook recientes dependen de los hubs tipo C. Al recomendar uno, pregunta al cliente qué va a conectar y busca estas funciones en el nombre del producto:</p><ul><li><strong>HDMI o VGA:</strong> para monitor, televisor o proyector.</li><li><strong>PD (Power Delivery):</strong> entrada para conectar el cargador de la laptop en el mismo hub y no perder el único puerto de carga.</li><li><strong>RJ45:</strong> internet por cable, útil en oficinas o cuando el wifi falla.</li><li><strong>SD y TF (microSD):</strong> para fotógrafos o quien descarga cámaras de seguridad.</li></ul><p>Si el cliente solo necesita red cableada, un <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/adaptador-usb-a-lan/\">adaptador USB a LAN</a> es más simple. Si necesita red y puertos USB, el <a href=\"https://multitecnologiavyv.com/producto/hub-usb-3-0-3-puertos-usb-3-0-rj45-10-100-1000-1gbps/\">hub USB 3.0 con RJ45 gigabit</a> junta las dos cosas.</p>"
+    },
+    {
+      "h2": "Lightning hub: puertos para iPhone y iPad",
+      "html": "<p>El lightning hub cumple la misma función, pero para iPhone y iPad con conector Lightning. Permite, por ejemplo:</p><ul><li>Pasar fotos o documentos a una memoria USB.</li><li>Conectar un teclado o un lector de tarjetas.</li><li>Mostrar la pantalla en un televisor o proyector por HDMI.</li><li>Seguir cargando el equipo mientras usas los accesorios, si el hub tiene entrada de carga.</li></ul><p>Algunas funciones dependen del modelo de iPhone o iPad y de su versión de sistema, y ciertos accesorios piden más energía de la que da el teléfono: por eso los hubs con entrada de carga funcionan mejor. Encuentra opciones en <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/accesorios-y-cables-iphone/\">accesorios y cables para iPhone</a>.</p><p>Los modelos más recientes de iPhone y iPad ya usan USB tipo C. Para ellos sirve un hub tipo C, no uno Lightning: revisa el puerto del equipo antes de venderlo.</p>"
+    },
+    {
+      "h2": "Hub con o sin alimentación externa",
+      "html": "<p>Un hub sin fuente propia reparte la energía del puerto al que está conectado. Funciona bien con mouse, teclado y memorias, pero se queda corto si conectas varios discos externos a la vez.</p><ul><li><strong>Sin alimentación:</strong> portátil, ideal para la laptop que se mueve.</li><li><strong>Con alimentación o entrada de carga:</strong> mejor para escritorios con muchos periféricos o discos.</li></ul><p>Si el cliente tiene una PC de escritorio y le faltan puertos al frente, otra alternativa es un <a href=\"https://multitecnologiavyv.com/producto/panel-frontal-4-puertos-usb-3-0/\">panel frontal de 4 puertos USB 3.0</a> que se instala en una bahía del case.</p><p>Un detalle que evita reclamos: cuando el cliente conecta un disco externo y el hub lo desconecta a cada rato, casi nunca es un hub dañado. Suele ser falta de energía. En ese caso recomienda conectar el disco directo a la laptop o usar un hub con entrada de carga.</p>"
+    },
+    {
+      "h2": "Cómo recomendar el hub correcto en tu tienda",
+      "html": "<p>Tres preguntas resuelven casi todas las ventas:</p><ol><li><strong>¿Qué puerto tiene tu equipo?</strong> USB-A, tipo C o Lightning.</li><li><strong>¿Qué vas a conectar?</strong> Solo periféricos, o también monitor, red o tarjetas.</li><li><strong>¿Necesitas cargar al mismo tiempo?</strong> Si la laptop tiene un solo tipo C, la respuesta casi siempre es sí.</li></ol><p>Con eso eliges entre un hub simple, un multipuerto tipo C o un lightning hub. Revisa todas las opciones en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/hub-usb/\">hubs USB</a>.</p>"
+    },
+    {
+      "h2": "Hubs USB al por mayor para tiendas",
+      "html": "<p>Los hubs son accesorios de rotación constante: cada laptop nueva que se vende en Ecuador es un posible cliente de hub. Tener varios modelos en vitrina, desde el básico hasta el multipuerto, te permite atender a todos.</p><p>Con una cuenta comercial ves precios de distribuidor y ofertas por volumen. Enviamos a todo el país desde Quito y el flete lo confirma un asesor según tu pedido.</p>"
+    }
+  ],
+  "products": [
+    6858,
+    6869,
+    6649,
+    6646
+  ],
+  "cta_mid": {
+    "title": "¿Qué hub le sirve a tu cliente?",
+    "text": "Dinos el equipo y lo que necesita conectar, y te recomendamos el modelo.",
+    "wa_text": "Hola, necesito asesoría para elegir un hub USB"
+  },
+  "cta_end": {
+    "title": "Hubs USB y lightning hubs para tu vitrina",
+    "text": "Crea tu cuenta comercial y revisa los precios de distribuidor en hubs USB, tipo C y Lightning.",
+    "wa_text": "Hola, quiero cotizar hubs USB y lightning hubs al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve un hub USB?",
+      "a": "Para convertir un solo puerto en varios y conectar al mismo tiempo mouse, teclado, memorias o discos. Los modelos multipuerto también suman HDMI, red cableada, lector de tarjetas y carga."
+    },
+    {
+      "q": "¿Qué es un lightning hub?",
+      "a": "Es un hub para iPhone y iPad con conector Lightning. Permite conectar memorias USB, teclados, lectores de tarjetas o una salida HDMI, y en algunos modelos cargar el equipo al mismo tiempo."
+    },
+    {
+      "q": "¿Cualquier hub tipo C saca video por HDMI?",
+      "a": "El hub puede tener HDMI, pero el puerto tipo C de la laptop también debe admitir salida de video. Revisa las especificaciones del equipo antes de comprar."
+    },
+    {
+      "q": "¿Qué diferencia hay entre un hub USB 2.0 y uno 3.0?",
+      "a": "La velocidad: USB 2.0 llega hasta 480 Mbps y USB 3.0 hasta 5 Gbps. Para mouse y teclado da igual; para discos externos y archivos grandes conviene 3.0."
+    },
+    {
+      "q": "¿Por qué mi disco externo se desconecta cuando lo uso con un hub?",
+      "a": "Lo más común es que el hub no entregue suficiente energía para el disco y el resto de accesorios a la vez. Prueba con un hub que tenga entrada de carga o conecta el disco directo al equipo."
+    }
+  ]
+}

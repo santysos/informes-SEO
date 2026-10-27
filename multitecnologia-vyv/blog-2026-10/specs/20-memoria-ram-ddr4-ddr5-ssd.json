@@ -1,0 +1,94 @@
+{
+  "n": 20,
+  "slug": "memoria-ram-ddr4-ddr5-ssd",
+  "title": "Memoria RAM DDR4 vs DDR5 y SSD vs disco duro: qué elegir",
+  "focus_kw": "memoria RAM DDR4 vs DDR5",
+  "meta_desc": "Memoria RAM DDR4 vs DDR5 y SSD vs disco duro: diferencias, compatibilidad y la mejora que más rinde en una laptop o PC lenta. Guía para técnicos.",
+  "excerpt": "Las diferencias entre DDR4 y DDR5, por qué no son intercambiables, cómo elegir entre SSD SATA, NVMe y disco duro, y qué mejora conviene ofrecer a cada cliente.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "memoria RAM",
+    "DDR4",
+    "DDR5",
+    "disco sólido SSD",
+    "NVMe",
+    "actualización de laptop"
+  ],
+  "featured": {
+    "pexels_query": "ram memory module installation motherboard",
+    "alt": "Técnico instalando un módulo de memoria RAM en una placa madre"
+  },
+  "inline_image": {
+    "pexels_query": "nvme ssd m.2 drive close up",
+    "alt": "Disco sólido NVMe M.2 sobre una mesa de trabajo"
+  },
+  "intro_html": "<p>\"Mi laptop está lenta\" es la frase que más se escucha en un servicio técnico. Y en la mayoría de casos la solución no es una computadora nueva, sino dos mejoras: <strong>más memoria RAM</strong> y <strong>un disco sólido (SSD)</strong> en lugar del disco duro mecánico.</p><p>Para hacerlo bien hay que saber qué memoria acepta el equipo y qué tipo de SSD le corresponde. En esta guía te explicamos la diferencia entre <strong>DDR4 y DDR5</strong>, entre <strong>SSD y disco duro</strong>, y cómo decidir qué mejora ofrecer primero. Sirve para el técnico que arma la cotización y para la tienda que quiere saber qué tener en stock.</p>",
+  "sections": [
+    {
+      "h2": "Qué hace la RAM y qué hace el disco",
+      "html": "<p>Conviene tenerlo claro para explicárselo al cliente:</p><ul><li><strong>La memoria RAM</strong> es el espacio de trabajo. Ahí se cargan los programas y pestañas que están abiertos. Si se llena, el equipo empieza a usar el disco como memoria de reserva y todo se vuelve lento.</li><li><strong>El disco</strong> (duro o sólido) es el almacenamiento permanente: sistema operativo, programas y archivos. Su velocidad decide cuánto tarda en encender, en abrir programas y en copiar archivos.</li></ul><p>Una analogía que funciona en mostrador: la RAM es el escritorio y el disco es el archivador. Un escritorio pequeño obliga a ir al archivador a cada rato; un archivador lento hace que cada viaje tome más tiempo.</p>"
+    },
+    {
+      "h2": "DDR4 vs DDR5: diferencias que importan",
+      "html": "<p>DDR4 y DDR5 son dos generaciones de memoria RAM. La DDR5 es la más reciente y la usan las placas y laptops de las últimas generaciones de Intel y AMD.</p><table><thead><tr><th>Característica</th><th>DDR4</th><th>DDR5</th></tr></thead><tbody><tr><td>Velocidad típica</td><td>2133 a 3200 MHz</td><td>Desde 4800 MHz en adelante</td></tr><tr><td>Voltaje</td><td>1,2 V</td><td>1,1 V</td></tr><tr><td>Equipos</td><td>La gran mayoría de laptops y PC en uso</td><td>Equipos recientes de gama media y alta</td></tr><tr><td>Rotación en taller</td><td>Alta</td><td>En crecimiento</td></tr></tbody></table><p>La regla más importante: <strong>no son intercambiables</strong>. La muesca del módulo está en otra posición, así que una DDR4 no entra en una ranura DDR5 ni al revés. La placa madre define cuál usa el equipo, no el gusto del cliente.</p><p>En el taller, la DDR4 sigue siendo la que más se vende, porque es la que llevan la mayoría de equipos que llegan a reparación. Un módulo como la <a href='https://multitecnologiavyv.com/producto/memoria-ram-kingspec-ddr4-laptop-8gb-1-2v-2666-mhz/'>memoria RAM DDR4 de 8 GB para laptop a 2666 MHz</a> cubre muchas actualizaciones.</p>"
+    },
+    {
+      "h2": "Cómo saber qué RAM acepta un equipo",
+      "html": "<ol><li><strong>Revisa el módulo instalado.</strong> La etiqueta indica el tipo (DDR4 o DDR5), la capacidad y la velocidad.</li><li><strong>Mira el formato.</strong> Las laptops usan módulos cortos <em>SO-DIMM</em>; las PC de escritorio, módulos largos <em>DIMM</em>. No se mezclan.</li><li><strong>Consulta cuántas ranuras tiene y si alguna memoria viene soldada.</strong> Muchas laptops delgadas traen parte de la RAM soldada a la placa y una sola ranura libre.</li><li><strong>Verifica la capacidad máxima</strong> que soporta la placa en la ficha del fabricante.</li></ol><p>Si mezclas módulos de distinta velocidad, el equipo los hará trabajar a la velocidad del más lento. Funciona, pero conviene igualar capacidad y velocidad para aprovechar el doble canal, que reparte el trabajo entre los dos módulos.</p>"
+    },
+    {
+      "h2": "SSD vs disco duro: la mejora que más se nota",
+      "html": "<p>Un <strong>disco duro (HDD)</strong> guarda los datos en platos que giran, con un brazo mecánico que los lee. Un <strong>disco sólido (SSD)</strong> los guarda en chips de memoria, sin piezas móviles. La diferencia en el uso diario es enorme:</p><ul><li>El equipo enciende en segundos en lugar de minutos.</li><li>Los programas abren casi al instante.</li><li>Es más resistente a golpes, algo clave en laptops.</li><li>Consume menos energía y no hace ruido.</li></ul><p>El disco duro mantiene una ventaja: mucha capacidad a menor costo por gigabyte. Por eso sigue siendo útil como segundo disco para respaldos, fotos y videos, mientras el sistema va en el SSD.</p>"
+    },
+    {
+      "h2": "SSD SATA o NVMe: cuál le corresponde al equipo",
+      "html": "<p>No todos los SSD se conectan igual. Antes de vender uno, revisa qué tiene el equipo:</p><ul><li><strong>SSD SATA de 2,5 pulgadas:</strong> tiene el mismo tamaño y conector que el disco duro de laptop. Es el reemplazo directo en equipos que traen HDD. Ejemplo: el <a href='https://multitecnologiavyv.com/producto/disco-solido-kingspec-p3-512gb-2-5-pulg-sata/'>disco sólido SATA de 2,5 pulgadas de 512 GB</a>.</li><li><strong>SSD NVMe M.2:</strong> una tarjeta pequeña que va en una ranura M.2 de la placa. Es bastante más rápido que el SATA porque usa el bus PCIe. Ejemplo: el <a href='https://multitecnologiavyv.com/producto/disco-solido-kingspec-nvme-2280-ne-512-gb/'>SSD NVMe 2280 de 512 GB</a>. El número 2280 indica el tamaño: 22 mm de ancho por 80 mm de largo.</li></ul><p>Cuidado con las ranuras M.2: algunas solo aceptan SATA M.2 y otras solo NVMe. La ficha de la placa o del equipo lo indica. Si una laptop tiene unidad de DVD, se puede retirar y poner un <a href='https://multitecnologiavyv.com/producto/lector-para-segundo-disco-duro-sata-hdd-ssd-caddy-9-5-mm-delta/'>caddy para segundo disco de 9,5 mm</a> para sumar un SSD o conservar el disco duro como almacenamiento.</p>"
+    },
+    {
+      "h2": "Qué mejora ofrecer primero",
+      "html": "<p>Con un presupuesto limitado, el cliente quiere saber qué rinde más. Una guía práctica:</p><ul><li><strong>Equipo con disco duro mecánico:</strong> el SSD va primero, casi siempre. Es la mejora que más se siente.</li><li><strong>Equipo con SSD y 4 GB de RAM:</strong> subir a 8 GB o más. Con navegador y programas de oficina abiertos, 4 GB se queda corto.</li><li><strong>Equipo con SSD y 8 GB:</strong> pasar a 16 GB solo si el cliente usa diseño, edición o muchas pestañas a la vez.</li></ul><p>Al cambiar el disco, ofrece clonar el sistema o instalarlo desde cero, y entrega el disco viejo en un case externo para que el cliente lo use como respaldo. Es un servicio adicional que el cliente agradece y que suma valor a la reparación.</p>"
+    },
+    {
+      "h2": "Qué tener en stock si tienes taller o tienda",
+      "html": "<p>Las actualizaciones de RAM y SSD son de los trabajos más rentables y repetidos en un servicio técnico. Para no hacer esperar al cliente, conviene tener a mano:</p><ul><li>Módulos DDR4 SO-DIMM de 8 GB, los de mayor rotación.</li><li>SSD SATA de 2,5 pulgadas y NVMe M.2 en capacidades de uso común.</li><li>Cases externos para discos de 2,5 pulgadas y M.2, para reutilizar el disco retirado.</li><li>Cables SATA de datos y de poder para equipos de escritorio.</li></ul><p>En las categorías de <a href='https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/memorias/'>memorias</a> y <a href='https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/disco-solido/'>discos sólidos</a> encuentras lo que manejamos para talleres y tiendas de Ecuador.</p>"
+    }
+  ],
+  "products": [
+    7629,
+    7616,
+    7609,
+    6743
+  ],
+  "cta_mid": {
+    "title": "¿Haces actualizaciones de RAM y SSD?",
+    "text": "Cotiza memorias DDR4, discos sólidos SATA y NVMe y cases externos en volumen para tu taller.",
+    "wa_text": "Hola, quiero cotizar memorias RAM y discos SSD al por mayor"
+  },
+  "cta_end": {
+    "title": "Abastece tu taller con precios de distribuidor",
+    "text": "Crea tu cuenta comercial para ver precios y ofertas por volumen en RAM, SSD y accesorios.",
+    "wa_text": "Hola, necesito memorias RAM DDR4 y discos SSD para mi taller, ¿me ayudan con una cotización?"
+  },
+  "faq": [
+    {
+      "q": "¿Puedo poner memoria DDR5 en una computadora que tiene DDR4?",
+      "a": "No. Los módulos tienen la muesca en otra posición y la placa madre solo acepta el tipo para el que fue diseñada. Para pasar a DDR5 habría que cambiar la placa y, por lo general, el procesador."
+    },
+    {
+      "q": "¿Qué es mejor para una laptop lenta, más RAM o un SSD?",
+      "a": "Si la laptop todavía tiene disco duro mecánico, el SSD es la mejora que más se nota. Si ya tiene SSD y solo 4 GB de RAM, lo siguiente es aumentar la memoria."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre un SSD SATA y uno NVMe?",
+      "a": "El SATA usa la misma conexión que los discos duros y es el reemplazo directo en equipos que los traen. El NVMe va en una ranura M.2 y es bastante más rápido porque usa el bus PCIe, pero el equipo debe tener esa ranura."
+    },
+    {
+      "q": "¿Puedo mezclar memorias RAM de distinta capacidad o velocidad?",
+      "a": "Por lo general funciona, pero el equipo hará trabajar todos los módulos a la velocidad del más lento. Para mejor rendimiento conviene usar módulos iguales en capacidad y velocidad."
+    },
+    {
+      "q": "¿Qué hago con el disco duro viejo después de poner un SSD?",
+      "a": "Puedes colocarlo en un case externo y usarlo como disco de respaldo, o instalarlo como segundo disco con un caddy en el lugar de la unidad de DVD de la laptop."
+    }
+  ]
+}

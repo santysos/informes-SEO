@@ -1,0 +1,95 @@
+{
+  "n": 7,
+  "slug": "bateria-laptop-numero-de-parte",
+  "title": "Batería de laptop por número de parte: cómo encontrarla",
+  "focus_kw": "batería laptop número de parte",
+  "meta_desc": "Encuentra la batería de laptop por número de parte (HT03XL, GK5KY, L18C4PF3): dónde leer el código, qué revisar y cómo evitar devoluciones.",
+  "excerpt": "El modelo de la laptop no basta para pedir una batería. Te explicamos dónde está el número de parte, cómo leerlo en HP, Dell y Lenovo y qué datos comparar.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "baterías de laptop",
+    "número de parte",
+    "repuestos laptop",
+    "HP",
+    "Dell",
+    "Lenovo"
+  ],
+  "featured": {
+    "pexels_query": "laptop battery replacement repair technician",
+    "alt": "Técnico retirando la batería interna de una laptop abierta"
+  },
+  "inline_image": {
+    "pexels_query": "open laptop internal battery closeup",
+    "alt": "Batería interna de una laptop con su etiqueta de código visible",
+    "after_section": 1
+  },
+  "intro_html": "<p>Un cliente llega con su laptop que ya no aguanta ni media hora desconectada. Buscas una batería por el modelo del equipo, la pides y, al abrir, el conector no coincide o la batería no entra en el espacio. Es una de las devoluciones más comunes en un servicio técnico.</p>\n<p>La forma segura de acertar es buscar la <strong>batería de laptop por número de parte</strong>. En esta guía te mostramos dónde está ese código, cómo se leen los de HP, Dell y Lenovo, y qué datos tienes que comparar antes de comprar.</p>",
+  "sections": [
+    {
+      "h2": "Por qué el modelo de la laptop no basta",
+      "html": "<p>Un mismo modelo comercial, por ejemplo una HP 15 o una Lenovo IdeaPad, se fabrica en muchas versiones. Cambian el procesador, el tamaño de la placa y, con frecuencia, la batería.</p>\n<p>Por eso dos laptops que se llaman casi igual pueden usar baterías distintas: una de 3 celdas y otra de 4, con otro conector o con otra forma. Si compras solo por el nombre del equipo, estás adivinando.</p>\n<p>El número de parte, en cambio, identifica a la batería misma. Si coincide, el repuesto encaja y funciona.</p>"
+    },
+    {
+      "h2": "Dónde encontrar el número de parte de la batería",
+      "html": "<p>El código está casi siempre en la etiqueta de la propia batería. Según el tipo de equipo, lo encuentras así:</p>\n<ul>\n<li><strong>Batería externa (removible):</strong> sácala y lee la etiqueta. El código suele estar junto a las palabras <em>Model</em>, <em>Type</em> o <em>P/N</em>.</li>\n<li><strong>Batería interna:</strong> desconecta el cargador, quita la tapa inferior y lee la etiqueta de la batería antes de desconectarla.</li>\n<li><strong>Si la etiqueta está dañada:</strong> revisa la etiqueta de la base de la laptop para obtener el modelo exacto y busca la batería compatible con ese modelo. En este caso, consulta con un asesor antes de comprar.</li>\n</ul>\n<p>Fíjate bien en los caracteres que se confunden: la O y el 0, la I y el 1, la S y el 5. Un solo carácter mal leído te lleva a otra batería.</p>"
+    },
+    {
+      "h2": "Cómo leer los códigos de HP, Dell y Lenovo",
+      "html": "<p>Cada marca tiene su propio estilo de código. Conocerlo te ayuda a reconocerlo rápido en la etiqueta.</p>\n<h3>HP: dos letras, dos números y XL</h3>\n<p>HP usa códigos cortos como HT03XL, TF03XL o PP03XL. Las letras identifican la familia de batería y el número suele indicar la cantidad de celdas. Por ejemplo, la <a href=\"https://multitecnologiavyv.com/producto/bateria-para-hp-tf03xl-11-55v-42wh-3470mah/\">batería HP TF03XL</a> lleva ese mismo código en su etiqueta.</p>\n<h3>Dell: cinco caracteres</h3>\n<p>Dell identifica sus baterías con un código de cinco letras y números, como GK5KY, WDX0R o 3HWPP. Ese código es el que tienes que buscar, por ejemplo en la <a href=\"https://multitecnologiavyv.com/producto/bateria-para-dell-gk5ky-11-1v-43wh/\">batería Dell GK5KY</a>.</p>\n<h3>Lenovo: L, año y celdas</h3>\n<p>Lenovo usa códigos como L18C4PF3. La L inicial y los dos números indican el año de la serie (L18), la letra siguiente suele variar según el fabricante de las celdas y el número que viene después indica las celdas (4). Por eso verás variantes como L18C4PF3 y L18M4PF3 para el mismo equipo. Un caso típico es la <a href=\"https://multitecnologiavyv.com/producto/bateria-para-lenovo-l18c4pf3-15-36v-45wh-org/\">batería Lenovo L18C4PF3</a>.</p>"
+    },
+    {
+      "h2": "Qué datos comparar antes de comprar",
+      "html": "<p>Con el número de parte en la mano, confirma estos datos en la etiqueta y en el nombre del producto:</p>\n<table>\n<thead><tr><th>Dato</th><th>Qué revisar</th><th>¿Puede variar?</th></tr></thead>\n<tbody>\n<tr><td>Voltaje (V)</td><td>Debe coincidir. 11,1 V, 11,4 V y 11,55 V corresponden a 3 celdas; 14,8 V a 15,4 V, a 4 celdas.</td><td>No</td></tr>\n<tr><td>Capacidad (Wh o mAh)</td><td>Indica cuánta energía guarda.</td><td>Un poco, si el resto coincide</td></tr>\n<tr><td>Conector</td><td>Forma y número de pines.</td><td>No</td></tr>\n<tr><td>Forma y tamaño</td><td>Debe entrar en el espacio de la batería.</td><td>No</td></tr>\n<tr><td>Tipo A o tipo B</td><td>Algunas baterías se venden en dos versiones con distinta forma o conector.</td><td>No</td></tr>\n</tbody>\n</table>\n<p>Un detalle sobre el voltaje: 11,1 V y 11,4 V son el mismo tipo de batería de 3 celdas descrito con criterios distintos. Lo que no puedes mezclar es una de 3 celdas con una de 4.</p>"
+    },
+    {
+      "h2": "Códigos alternativos: una batería, varios números",
+      "html": "<p>Muchas baterías sirven con varios números de parte. El fabricante cambia el código según el lote o el proveedor de celdas, aunque la batería sea equivalente.</p>\n<p>Por eso, en nuestro catálogo varios productos incluyen más de un código en el nombre, como la <a href=\"https://multitecnologiavyv.com/producto/bateria-para-hp-hs04-hs03-14-8v-2200mah/\">batería HP HS04 HS03</a>. Si tu código aparece en la lista, es la batería que buscas.</p>\n<p>Si tu código no aparece en el nombre, no lo descartes: puede existir una equivalente. Envíanos una foto de la etiqueta por WhatsApp y un asesor revisa la compatibilidad contigo.</p>"
+    },
+    {
+      "h2": "Errores frecuentes al cambiar una batería",
+      "html": "<ul>\n<li><strong>Comprar por el modelo comercial</strong> y no por el número de parte.</li>\n<li><strong>Ignorar el tipo A o tipo B</strong> cuando la batería se vende en dos versiones.</li>\n<li><strong>Culpar a la batería cuando falla el cable.</strong> En varias laptops Dell la batería se conecta a la placa con un cable aparte. Si la batería nueva no carga, revisa ese <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/cable-de-bateria/\">cable de batería</a> antes de devolverla.</li>\n<li><strong>No revisar el cargador ni el pin de carga.</strong> Una batería que no carga puede ser un problema de entrada de energía y no de la batería.</li>\n<li><strong>Trabajar con el equipo conectado.</strong> Desconecta el cargador y la batería antes de tocar la placa.</li>\n</ul>"
+    },
+    {
+      "h2": "Ten en stock las baterías que más piden",
+      "html": "<p>En un servicio técnico, la batería es de los repuestos que más se cambian. Tener en stock las de los modelos que más llegan a tu taller te permite entregar el mismo día y no perder al cliente.</p>\n<p>En la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/bateria-laptop/\">baterías de laptop</a> encuentras modelos para HP, Dell, Lenovo, Asus, Toshiba y Sony, con el número de parte en el nombre para que busques directo por código. Con tu cuenta comercial ves los precios de distribuidor y las ofertas por volumen, y enviamos a todo Ecuador desde Quito.</p>"
+    }
+  ],
+  "products": [
+    8380,
+    8618,
+    8470,
+    8426
+  ],
+  "cta_mid": {
+    "title": "¿No encuentras tu código?",
+    "text": "Envíanos una foto de la etiqueta de la batería y un asesor revisa la compatibilidad contigo.",
+    "wa_text": "Hola, busco una batería de laptop por número de parte. Te envío la foto de la etiqueta"
+  },
+  "cta_end": {
+    "title": "Baterías de laptop por mayor",
+    "text": "Crea tu cuenta comercial para ver los precios de distribuidor y armar tu stock de baterías.",
+    "wa_text": "Hola, quiero cotizar baterías de laptop al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Dónde está el número de parte de la batería de mi laptop?",
+      "a": "En la etiqueta de la propia batería, junto a las palabras Model, Type o P/N. Si la batería es interna, tienes que quitar la tapa inferior para leerla. Si la etiqueta está borrada, usa el modelo exacto de la laptop y confirma con un asesor."
+    },
+    {
+      "q": "¿Puedo usar una batería con más mAh que la original?",
+      "a": "Sí, siempre que el voltaje, el conector y la forma sean los mismos. La capacidad solo cambia cuánto dura la carga. Lo que no puedes cambiar es el número de celdas ni el conector."
+    },
+    {
+      "q": "¿Qué significa XL en las baterías HP como HT03XL?",
+      "a": "Es parte del código de batería que usa HP en muchas de sus series. Lo importante es que el código completo coincida con el de tu batería, incluidas las letras y los números del inicio."
+    },
+    {
+      "q": "¿L18C4PF3 y L18M4PF3 son la misma batería?",
+      "a": "En Lenovo, la letra después del año suele cambiar según el fabricante de las celdas, y estas variantes suelen ser equivalentes para el mismo equipo. Aun así, confirma el voltaje y el conector antes de comprar."
+    },
+    {
+      "q": "¿Por qué mi batería nueva no carga?",
+      "a": "Puede ser el cable de la batería, el pin de carga, el cargador o la placa. Antes de dar la batería por mala, revisa esos puntos, sobre todo en laptops Dell que usan un cable aparte."
+    }
+  ]
+}
