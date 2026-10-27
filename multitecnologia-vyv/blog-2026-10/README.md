@@ -6,7 +6,7 @@ Search Console mostró con impresiones y sin clics.
 
 - `specs/` — los 20 artículos (JSON). `publish_batch.py` los publica: imagen destacada + imagen
   interna de Pexels (WebP), tarjetas de productos reales, 2 CTA (WhatsApp 0984072123 + cuenta
-  comercial), FAQ con schema. Programados a las 08:00 entre el 26-oct y el 22-nov.
+  comercial), FAQ con schema. Publicados con fecha pasada, uno por día del 6 al 25 de octubre (`retrofechar.py`).
   `--rearmar` regenera el HTML de los ya publicados sin tocar imágenes.
 - `build_blog_elementor.py` — plantilla de entrada única (13112), archivo de categorías/etiquetas
   (13115), página /blog/ (13117) y sección «Guías para tu negocio» al final del home (id
