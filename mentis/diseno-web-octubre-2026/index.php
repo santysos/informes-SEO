@@ -1,0 +1,257 @@
+<?php
+session_start();
+if (empty($_SESSION['auth_mentis'])) { header('Location: login.php'); exit; }
+?>
+<!doctype html>
+<html lang="es-EC">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Psicólogos en Quito e Ibarra | Mentis Psicología</title>
+<meta name="description" content="Terapia psicológica para niños, adolescentes, adultos, parejas y familias en Quito e Ibarra. Enfoque cognitivo constructivista, presencial y en línea.">
+<meta property="og:title" content="Psicólogos en Quito e Ibarra | Mentis Psicología">
+<meta property="og:description" content="Terapia psicológica para niños, adolescentes, adultos, parejas y familias en Quito e Ibarra. Enfoque cognitivo constructivista, presencial y en línea.">
+<meta property="og:image" content="img/equipo-sala.webp">
+<meta name="theme-color" content="#F7F3EE">
+<meta name="robots" content="noindex, nofollow">  <!-- borrador: quitar al publicar la web real -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..400&family=Outfit:wght@300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=1793456252">
+<script>try{var t=new URLSearchParams(location.search).get('paleta')||localStorage.getItem('mentis-paleta');if(t&&t!=='a')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalOrganization", "name": "Mentis Psicología", "url": "https://www.mentispsicologiaecuador.com", "description": "Red de servicios psicológicos con enfoque cognitivo constructivista en Quito, Ibarra y en línea.", "areaServed": ["Quito", "Ibarra", "Ecuador"], "sameAs": ["https://www.instagram.com/mentispsicologiaecuador/", "https://www.tiktok.com/@mentis_psicologia", "https://www.facebook.com/mentis.psicologiauio", "https://www.facebook.com/mentis.psicologia.ibarra"], "department": [{"@type": "MedicalClinic", "name": "Mentis Psicología Quito", "address": {"@type": "PostalAddress", "streetAddress": "El Porvenir y El Telégrafo", "addressLocality": "Quito", "postalCode": "170135", "addressCountry": "EC"}}, {"@type": "MedicalClinic", "name": "Mentis Psicología Ibarra", "address": {"@type": "PostalAddress", "streetAddress": "Luis Cabezas Borja 1-35", "addressLocality": "Ibarra", "postalCode": "100102", "addressCountry": "EC"}}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="index.php" class="logo" aria-label="Mentis Psicología, inicio"><span class="l1">MENTIS</span><span class="l2">PSICOLOGÍA</span></a>
+    <nav aria-label="Principal"><ul class="menu"><li><a href="nosotros.php">Nosotros</a></li><li class="has-mega"><a href="servicios.php" aria-haspopup="true">Servicios</a>
+          <div class="mega" role="region" aria-label="Servicios">
+            <div class="wrap mega-in">
+              <div class="mm-intro">
+                <span class="label">Servicios</span>
+                <p class="mm-title">Acompañamiento para cada <em>etapa</em> de la vida</p>
+                <p class="muted">Presencial en Quito e Ibarra, o en línea desde cualquier lugar.</p>
+                <a href="servicios.php" class="link">Ver todos los servicios <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+              <ul class="mm-grid"><li><a href="servicio-terapia-individual.php" class="mm-item">
+              <span class="mm-th"><img src="img/ref-consulta.webp" alt="" loading="lazy"></span>
+              <span class="mm-tx"><span class="mm-no">01 · Adultos y adultos mayores</span><b>Terapia individual</b><small>Ansiedad, estrés, duelos, autoestima y conflictos internos.</small></span></a></li><li><a href="servicio-terapia-de-pareja.php" class="mm-item">
+              <span class="mm-th"><img src="img/ref-pareja.webp" alt="" loading="lazy"></span>
+              <span class="mm-tx"><span class="mm-no">02 · Parejas</span><b>Terapia de pareja</b><small>Comunicación, conflictos y fortalecimiento del vínculo.</small></span></a></li><li><a href="servicio-psicologia-infantil.php" class="mm-item">
+              <span class="mm-th"><img src="img/ref-ninos.webp" alt="" loading="lazy"></span>
+              <span class="mm-tx"><span class="mm-no">03 · Niños y adolescentes</span><b>Psicología infantil y neuropsicología</b><small>Neurodesarrollo, aprendizaje, conducta y atención temprana.</small></span></a></li><li><a href="servicio-psicopedagogia.php" class="mm-item">
+              <span class="mm-th"><img src="img/ref-escritura.webp" alt="" loading="lazy"></span>
+              <span class="mm-tx"><span class="mm-no">04 · Aprendizaje e inclusión</span><b>Psicopedagogía</b><small>Dificultades escolares, adaptación e inclusión educativa.</small></span></a></li><li><a href="servicio-evaluacion-y-orientacion-vocacional.php" class="mm-item">
+              <span class="mm-th"><img src="img/ref-lectura.webp" alt="" loading="lazy"></span>
+              <span class="mm-tx"><span class="mm-no">05 · Evaluación</span><b>Evaluación y orientación vocacional</b><small>Para decidir qué estudiar o hacia dónde crecer.</small></span></a></li><li><a href="servicio-supervision-clinica.php" class="mm-item">
+              <span class="mm-th"><img src="img/ref-mesa.webp" alt="" loading="lazy"></span>
+              <span class="mm-tx"><span class="mm-no">06 · Para psicólogos</span><b>Supervisión clínica</b><small>Supervisión de casos ética y basada en evidencia.</small></span></a></li></ul>
+              <a href="empezar.php" class="mm-feature">
+                <img src="img/equipo-sillones.webp" alt="" loading="lazy">
+                <span class="mm-feature-tx"><small>¿No sabes por dónde empezar?</small><b>Te orientamos sin compromiso</b><span class="mm-cta">Escríbenos <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+              </a>
+            </div>
+          </div></li><li><a href="equipo.php">Equipo</a></li><li><a href="cursos.php">Cursos y clases</a></li><li><a href="profesionales.php">Para profesionales</a></li><li><a href="contacto.php">Contacto</a></li></ul></nav>
+    <div class="nav-cta">
+      <a href="empezar.php" class="btn">Agendar cita <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <button class="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu">
+  <ul><li><a href="index.php">Inicio</a></li><li><a href="nosotros.php">Nosotros</a></li><li><a href="servicios.php">Servicios</a><div class="mob-sub"><a href="servicio-terapia-individual.php">Terapia individual</a><a href="servicio-terapia-de-pareja.php">Terapia de pareja</a><a href="servicio-psicologia-infantil.php">Psicología infantil y neuropsicología</a><a href="servicio-psicopedagogia.php">Psicopedagogía</a><a href="servicio-evaluacion-y-orientacion-vocacional.php">Evaluación y orientación vocacional</a><a href="servicio-supervision-clinica.php">Supervisión clínica</a></div></li><li><a href="equipo.php">Equipo</a></li><li><a href="cursos.php">Cursos y clases</a></li><li><a href="profesionales.php">Para profesionales</a></li><li><a href="contacto.php">Contacto</a></li></ul>
+  <div class="meta">Quito · Ibarra · En línea<br><a href="empezar.php" class="link">Agendar cita <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a></div>
+</div>
+<main>
+<section class="hero"><svg class="deco corner tr" viewBox="0 0 300 300" aria-hidden="true"><path class="d-fill" d="M300 0V300C252 262 238 206 198 174C150 136 82 152 50 104C24 64 38 22 58 0Z"/><path class="d-line" pathLength="1" d="M34 0C14 34 22 86 58 120C100 158 168 146 214 186C250 218 262 262 298 292"/></svg><svg class="deco leaf hero-leaf" viewBox="0 0 120 200" aria-hidden="true"><g pathLength="1"><path pathLength="1" d="M60 196C57 150 61 100 71 8"/><path pathLength="1" d="M59.5 152C40 142 28 122 30 100C46 108 58 128 59.5 152Z"/><path pathLength="1" d="M61 122C80 114 92 94 90 72C74 80 63 98 61 122Z"/><path pathLength="1" d="M64 86C46 77 38 59 41 41C56 50 64 67 64 86Z"/><path pathLength="1" d="M67.5 56C82 49 90 33 88 17C76 23 68 39 67.5 56Z"/></g></svg>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="label fade"><span class="n">Psicólogos</span> en Quito e Ibarra</span>
+        <h1 class="split">Te acompañamos a <span class="ring"><em>comprenderte</em><svg viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 15C46 8 118 5 184 5.5c42 .3 82 2 110 4.6 3 .3 4 3.4 1.4 4.6-2 .9-6 1.3-12 1.5C214 17 150 16.5 92 18.6 58 19.8 30 21.6 10 22.6 4 23 1 21.4 1.6 18.6 2 17 2.8 15.7 4 15z"/><path class="b2" d="M24 21.4c48-2.6 120-4.4 190-4.6 26 0 52 .4 70 1.4" fill="none"/></svg></span> y a sentirte mejor</h1>
+        <p class="lead fade" style="--d:.5s">Terapia psicológica para niños, adolescentes, adultos, parejas y familias. Un espacio seguro, cercano y libre de juicios, desde el enfoque cognitivo constructivista.</p>
+        <div class="hero-actions fade" style="--d:.7s">
+          <a href="empezar.php" class="btn">Agendar mi cita <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="servicios.php" class="link">Ver servicios <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </div>
+      <div class="hero-img fade" style="--d:.3s">
+        <svg class="deco blob behind" viewBox="0 0 400 400" aria-hidden="true"><path class="d-fill" d="M322 26C380 66 404 152 378 232C352 312 270 382 180 372C92 362 22 302 12 212C2 122 62 42 150 16C212-2 272-6 322 26Z"/><path class="d-line" pathLength="1" transform="translate(-16 14)" d="M322 26C380 66 404 152 378 232C352 312 270 382 180 372C92 362 22 302 12 212C2 122 62 42 150 16C212-2 272-6 322 26Z"/></svg><div class="arch"><img data-parallax=".06" src="img/equipo-sala.webp" alt="Equipo de psicólogas y psicólogos de Mentis Psicología" fetchpriority="high"></div>
+        <div class="stamp-wrap" aria-hidden="true">
+          <svg class="stamp" viewBox="0 0 120 120"><defs><path id="c" d="M60 60m-46 0a46 46 0 1192 0a46 46 0 11-92 0"/></defs><text><textPath href="#c">Mentis · Psicología · Quito · Ibarra ·</textPath></text></svg>
+          <span class="c">m</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <div class="facts" data-stagger>
+        <div class="fact"><div class="num">+<span data-count="20">20</span></div><span>años de experiencia clínica en el equipo</span></div>
+        <div class="fact"><div class="num"><span data-count="2">2</span></div><span>sedes: Quito e Ibarra</span></div>
+        <div class="fact"><div class="num">+<span data-count="10">10</span></div><span>especialistas dedicados a tu bienestar</span></div>
+        <div class="fact"><div class="num"><span data-count="6">6</span></div><span>áreas de especialización</span></div>
+      </div>
+      <div class="scroll-cue"><i></i>Desliza</div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track"><span>Ansiedad</span><span>Autoestima</span><span>Duelo</span><span>Terapia de pareja</span><span>Neurodesarrollo</span><span>Orientación vocacional</span><span>Estrés</span><span>Identidad</span><span>Aprendizaje</span><span>Adultez mayor</span><span>Ansiedad</span><span>Autoestima</span><span>Duelo</span><span>Terapia de pareja</span><span>Neurodesarrollo</span><span>Orientación vocacional</span><span>Estrés</span><span>Identidad</span><span>Aprendizaje</span><span>Adultez mayor</span></div></div>
+
+<section>
+  <div class="wrap two-col wide">
+    <span class="label fade"><span class="n">(01)</span> Quiénes somos</span>
+    <div>
+      <p class="statement split">Somos una red de psicólogos que cree en una psicología <em>cercana, consciente</em> y respetuosa con cada proceso. <span class="soft">Acompañamos procesos reales, sin juicios, con herramientas prácticas y humanas.</span></p>
+      <div class="fade" style="margin-top:40px"><a href="nosotros.php" class="link">Conocer Mentis <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-top">
+      <div><span class="label fade"><span class="n">(02)</span> Servicios</span><h2 class="split">¿En qué podemos <em>ayudarte?</em></h2></div>
+      <p class="lead fade">Atención para cada etapa de la vida, en Quito, Ibarra o en línea. Cada servicio tiene su página con lo que incluye y preguntas frecuentes.</p>
+    </div>
+    <ul class="svc-list" data-stagger><li><a href="servicio-terapia-individual.php" data-img="img/ref-consulta.webp">
+  <span class="no">01</span><span class="ttl"><span class="thumb"><img src="img/ref-consulta.webp" alt="" loading="lazy"></span><h3>Terapia individual</h3></span><p>Ansiedad, estrés, duelos, autoestima y conflictos internos.</p><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a></li><li><a href="servicio-terapia-de-pareja.php" data-img="img/ref-pareja.webp">
+  <span class="no">02</span><span class="ttl"><span class="thumb"><img src="img/ref-pareja.webp" alt="" loading="lazy"></span><h3>Terapia de pareja</h3></span><p>Comunicación, conflictos y fortalecimiento del vínculo.</p><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a></li><li><a href="servicio-psicologia-infantil.php" data-img="img/ref-ninos.webp">
+  <span class="no">03</span><span class="ttl"><span class="thumb"><img src="img/ref-ninos.webp" alt="" loading="lazy"></span><h3>Psicología infantil y neuropsicología</h3></span><p>Neurodesarrollo, aprendizaje, conducta y atención temprana.</p><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a></li><li><a href="servicio-psicopedagogia.php" data-img="img/ref-escritura.webp">
+  <span class="no">04</span><span class="ttl"><span class="thumb"><img src="img/ref-escritura.webp" alt="" loading="lazy"></span><h3>Psicopedagogía</h3></span><p>Dificultades escolares, adaptación e inclusión educativa.</p><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a></li><li><a href="servicio-evaluacion-y-orientacion-vocacional.php" data-img="img/ref-lectura.webp">
+  <span class="no">05</span><span class="ttl"><span class="thumb"><img src="img/ref-lectura.webp" alt="" loading="lazy"></span><h3>Evaluación y orientación vocacional</h3></span><p>Para decidir qué estudiar o hacia dónde crecer.</p><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a></li><li><a href="servicio-supervision-clinica.php" data-img="img/ref-mesa.webp">
+  <span class="no">06</span><span class="ttl"><span class="thumb"><img src="img/ref-mesa.webp" alt="" loading="lazy"></span><h3>Supervisión clínica</h3></span><p>Supervisión de casos ética y basada en evidencia.</p><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a></li></ul>
+  </div>
+</section>
+
+<section class="process">
+  <div class="wrap sticky-grid">
+    <div class="stick">
+      <span class="label fade"><span class="n">(03)</span> Tu primera cita</span>
+      <h2 class="split" style="margin-top:22px">Empezar es más sencillo <em>de lo que crees</em></h2>
+      <div class="fade" style="margin-top:36px"><a href="empezar.php" class="btn btn-light">Agendar ahora <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    </div>
+    <ol class="steps" data-stagger>
+      <li><div><h3>Escríbenos</h3><p>Por WhatsApp a la sede que prefieras, o cuéntanos que quieres atención en línea.</p></div></li>
+      <li><div><h3>Te orientamos</h3><p>Te ayudamos a elegir la profesional indicada para tu caso y tu edad.</p></div></li>
+      <li><div><h3>Primera sesión</h3><p>Una conversación de unos 50 minutos, a tu ritmo, presencial o por videollamada. No necesitas tenerlo todo claro desde el inicio.</p></div></li>
+      <li><div><h3>Plan y seguimiento</h3><p>Definimos juntos objetivos claros y la frecuencia de las sesiones, y revisamos tu progreso para ajustar el plan cuando haga falta.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col" style="align-items:center">
+    <div class="collage">
+      <div class="reveal-img tall"><img src="img/equipo-arco.webp" alt="Equipo de Mentis Psicología" loading="lazy"></div>
+      <div class="reveal-img short"><img src="img/equipo-sillones.webp" alt="Psicólogos de Mentis en el consultorio" loading="lazy"></div>
+    </div>
+    <div>
+      <span class="label fade"><span class="n">(04)</span> Equipo</span>
+      <h2 class="split" style="margin:22px 0 26px">Profesionales que te <span class="underline-hand">escuchan<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M3 14C50 6 120 4 197 9"/></svg></span> de verdad</h2>
+      <p class="lead fade">Psicólogas, psicólogos y psicopedagogas formados en Ecuador, Argentina y España, que se capacitan constantemente para ofrecerte una psicología ética y actualizada.</p>
+      <div class="fade" style="margin-top:36px"><a href="equipo.php" class="btn btn-line">Conocer al equipo <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="unis" aria-label="Nuestro equipo se formó en">
+  <p class="unis-t">Nuestro equipo se formó en</p>
+  <div class="unis-row"><div class="unis-track"><span>Universidad Central del Ecuador</span><span>Universidad de las Américas</span><span>Universidad San Francisco de Quito</span><span>Universidad Técnica Particular de Loja</span><span>Universidad Técnica del Norte</span><span>Universitat de Barcelona</span><span>Universidad de Palermo</span><span>Universidad Maimónides</span><span>Universidad Central del Ecuador</span><span>Universidad de las Américas</span><span>Universidad San Francisco de Quito</span><span>Universidad Técnica Particular de Loja</span><span>Universidad Técnica del Norte</span><span>Universitat de Barcelona</span><span>Universidad de Palermo</span><span>Universidad Maimónides</span></div></div>
+</section>
+
+<section class="quote-sec"><svg class="deco leaf q-leaf" viewBox="0 0 120 200" aria-hidden="true"><g pathLength="1"><path pathLength="1" d="M60 196C57 150 61 100 71 8"/><path pathLength="1" d="M59.5 152C40 142 28 122 30 100C46 108 58 128 59.5 152Z"/><path pathLength="1" d="M61 122C80 114 92 94 90 72C74 80 63 98 61 122Z"/><path pathLength="1" d="M64 86C46 77 38 59 41 41C56 50 64 67 64 86Z"/><path pathLength="1" d="M67.5 56C82 49 90 33 88 17C76 23 68 39 67.5 56Z"/></g></svg><svg class="deco blob side" viewBox="0 0 400 400" aria-hidden="true"><path class="d-fill" d="M322 26C380 66 404 152 378 232C352 312 270 382 180 372C92 362 22 302 12 212C2 122 62 42 150 16C212-2 272-6 322 26Z"/><path class="d-line" pathLength="1" transform="translate(-16 14)" d="M322 26C380 66 404 152 378 232C352 312 270 382 180 372C92 362 22 302 12 212C2 122 62 42 150 16C212-2 272-6 322 26Z"/></svg>
+  <div class="wrap" data-quotes>
+    <span class="label fade">Testimonios</span>
+    <div class="fade" style="margin-top:36px"><svg class="quote-mark" viewBox="0 0 48 48" fill="currentColor"><path d="M20 12C11 14 6 21 6 30v6h14V24h-7c0-5 3-8 8-9zM42 12c-9 2-14 9-14 18v6h14V24h-7c0-5 3-8 8-9z"/></svg><div class="q-slide"><p class="q">Desde la primera sesión me sentí escuchada de verdad, <em>sin juicios</em> y con mucha calma.</p><cite class="who"><span class="av">P</span><span><b>Paciente de Francisco</b><small>Terapia individual · Ciudad por confirmar</small></span></cite></div><div class="q-slide"><p class="q">Hoy en casa hay más calma, más comunicación y nuestra hija está <em>mucho más segura</em> de sí misma.</p><cite class="who"><span class="av">F</span><span><b>Familia de una paciente</b><small>Psicología infantil · Ciudad por confirmar</small></span></cite></div><div class="q-slide"><p class="q">Lo que más aprecio es lo seguro que se siente poder ser sincero y <em>hablar desde la realidad</em>.</p><cite class="who"><span class="av">A</span><span><b>Alejandro, 22 años</b><small>Estudiante universitario · Ciudad por confirmar</small></span></cite></div><div class="q-slide"><p class="q">Me ayudó a ver mis fortalezas y no mis debilidades, a <em>amarme más</em> y a cerrar heridas.</p><cite class="who"><span class="av">P</span><span><b>Paciente de Camila</b><small>Terapia individual · Ciudad por confirmar</small></span></cite></div></div>
+    <div class="q-nav">
+      <button class="prev" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+      <span class="count">1 / 4</span>
+      <button class="next" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-top">
+      <div><span class="label fade"><span class="n">(05)</span> Cursos y clases</span><h2 class="split">Aprende con <em>nosotros</em></h2></div>
+      <p class="lead fade">Talleres para todo público y formación para profesionales de la salud mental, en Ecuador y en línea.</p>
+    </div>
+    <div class="course-list" data-stagger>
+      <article class="course dark"><span class="kind">Diplomado · Profesionales</span><h3>Psicoterapia Cognitivo-Constructivista</h3><div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M16 3v4M8 3v4M3 10h18"/></svg> Próxima cohorte por anunciar</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg> Presencial y en línea</span></div><p>Formación en el modelo con el que trabaja Mentis: creencias, significados y experiencias personales.</p><a href="cursos.php" class="btn btn-light">Ver detalles <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></article>
+      <article class="course"><span class="kind">Taller · Público general</span><h3>Manejo de la ansiedad</h3><div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M16 3v4M8 3v4M3 10h18"/></svg> Fecha por anunciar</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Quito</span></div><p>Herramientas prácticas para reconocer la ansiedad y responder a ella en el día a día.</p><a href="cursos.php" class="btn btn-line">Ver detalles <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></article>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-top">
+      <div><span class="label fade"><span class="n">(06)</span> Sedes</span><h2 class="split">Te esperamos en <em>Quito</em> e <em>Ibarra</em></h2></div>
+      <p class="lead fade">O en línea, desde donde estés.</p>
+    </div>
+    <div class="loc-grid">
+      <article class="loc fade"><div class="reveal-img"><img src="img/sede-casa.webp" alt="Sede de Mentis Psicología en Quito" loading="lazy"></div><h3>Quito</h3><dl><dt>Dirección</dt><dd>El Porvenir y El Telégrafo, Quito</dd><dt>Horario</dt><dd>Por confirmar</dd></dl><a href="contacto.php" class="link">Cómo llegar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a></article>
+      <article class="loc fade" style="--d:.15s"><div class="reveal-img"><img src="img/sede-piedra.webp" alt="Sede de Mentis Psicología en Ibarra" loading="lazy"></div><h3>Ibarra</h3><dl><dt>Dirección</dt><dd>Luis Cabezas Borja 1-35, San Miguel de Ibarra</dd><dt>Horario</dt><dd>Por confirmar</dd></dl><a href="contacto.php" class="link">Cómo llegar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a></article>
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <div class="cta-box fade">
+      <svg class="deco corner tr cta-c" viewBox="0 0 300 300" aria-hidden="true"><path class="d-fill" d="M300 0V300C252 262 238 206 198 174C150 136 82 152 50 104C24 64 38 22 58 0Z"/><path class="d-line" pathLength="1" d="M34 0C14 34 22 86 58 120C100 158 168 146 214 186C250 218 262 262 298 292"/></svg>
+      <svg class="deco corner bl cta-c" viewBox="0 0 300 300" aria-hidden="true"><path class="d-fill" d="M300 0V300C252 262 238 206 198 174C150 136 82 152 50 104C24 64 38 22 58 0Z"/><path class="d-line" pathLength="1" d="M34 0C14 34 22 86 58 120C100 158 168 146 214 186C250 218 262 262 298 292"/></svg>
+      <span class="label">El primer paso</span>
+      <h2 class="split">Pedir ayuda también es <span class="ring"><em>cuidarte</em><svg viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 15C46 8 118 5 184 5.5c42 .3 82 2 110 4.6 3 .3 4 3.4 1.4 4.6-2 .9-6 1.3-12 1.5C214 17 150 16.5 92 18.6 58 19.8 30 21.6 10 22.6 4 23 1 21.4 1.6 18.6 2 17 2.8 15.7 4 15z"/><path class="b2" d="M24 21.4c48-2.6 120-4.4 190-4.6 26 0 52 .4 70 1.4" fill="none"/></svg></span></h2>
+      <p>Responde 3 preguntas y te recomendamos a la profesional indicada para ti, en Quito, Ibarra o en línea.</p>
+      <div class="acts">
+        <a href="empezar.php" class="btn btn-light">Empezar ahora <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="contacto.php" class="btn btn-light" style="--bg:transparent;--fg:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.5)">Ver sedes</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <p class="foot-claim">Acompañamiento emocional desde la <em>identidad</em>.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/mentispsicologiaecuador/" target="_blank" rel="noopener" aria-label="Instagram de Mentis Psicología"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a>
+          <a href="https://www.facebook.com/mentis.psicologiauio" target="_blank" rel="noopener" aria-label="Facebook Mentis Quito" title="Facebook Quito"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 8h3V4h-3a4 4 0 00-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+          <a href="https://www.facebook.com/mentis.psicologia.ibarra" target="_blank" rel="noopener" aria-label="Facebook Mentis Ibarra" title="Facebook Ibarra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 8h3V4h-3a4 4 0 00-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+          <a href="https://www.tiktok.com/@mentis_psicologia" target="_blank" rel="noopener" aria-label="TikTok de Mentis Psicología"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3v11a4 4 0 11-4-4M14 3c.5 2.5 2.5 4.5 5 5"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Servicios</h4><ul><li><a href="servicio-terapia-individual.php">Terapia individual</a></li><li><a href="servicio-terapia-de-pareja.php">Terapia de pareja</a></li><li><a href="servicio-psicologia-infantil.php">Psicología infantil y neuropsicología</a></li><li><a href="servicio-psicopedagogia.php">Psicopedagogía</a></li><li><a href="servicio-evaluacion-y-orientacion-vocacional.php">Evaluación y orientación vocacional</a></li><li><a href="servicio-supervision-clinica.php">Supervisión clínica</a></li></ul></div>
+      <div><h4>Mentis</h4><ul><li><a href="nosotros.php">Nosotros</a></li><li><a href="equipo.php">Equipo</a></li><li><a href="cursos.php">Cursos y clases</a></li><li><a href="profesionales.php">Para profesionales</a></li><li><a href="contacto.php">Contacto</a></li><li><a href="#">Blog</a></li></ul></div>
+      <div><h4>Sedes</h4><ul><li><b style="color:#fff;font-weight:450">Quito</b> · El Porvenir y El Telégrafo</li><li><b style="color:#fff;font-weight:450">Ibarra</b> · Luis Cabezas Borja 1-35</li><li><b style="color:#fff;font-weight:450">En línea</b> · Ecuador y exterior</li><li><a href="tel:+593987082627">098 708 2627</a> · <a href="tel:+593984352682">098 435 2682</a></li><li><a href="mailto:mentis.psicologia@gmail.com">mentis.psicologia@gmail.com</a></li></ul></div>
+    </div>
+    <div class="emergency"><b>¿Estás en una emergencia?</b> Llama al 911 o acude al hospital más cercano. Mentis Psicología no brinda atención de crisis las 24 horas.</div>
+    <div class="big-word" aria-hidden="true">MENTIS</div>
+    <div class="legal"><span>© <span data-year>2026</span> Mentis Psicología. Todos los derechos reservados.</span><span><a href="privacidad.php">Política de privacidad</a> · <a href="#" data-cookies-open>Cookies</a> · Diseño: Creative Web</span></div>
+  </div>
+</footer>
+<a href="empezar.php" class="wa" aria-label="Escribir por WhatsApp"><span>¿Hablamos?</span><i><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.2 2.2 2.2 0 00.1-1.3c0-.1-.2-.2-.5-.3z"/></svg></i></a>
+<aside class="nudge" aria-label="Empieza tu proceso" hidden>
+  <button class="nudge-x" aria-label="Cerrar">&times;</button>
+  <span class="label">Empieza hoy</span>
+  <p class="nudge-t">¿Buscas un proceso de <em>cambio</em>?</p>
+  <p class="nudge-p">Responde 3 preguntas y te recomendamos a la profesional indicada.</p>
+  <a href="empezar.php" class="btn">Empezar <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</aside>
+<div class="cookies" role="dialog" aria-label="Uso de cookies" hidden>
+  <p>Usamos cookies necesarias para que la web funcione y, si lo aceptas, cookies de medición para mejorarla. Más información en nuestra <a href="privacidad.php" class="link">política de privacidad</a>.</p>
+  <div class="cookies-acts"><button class="btn btn-line" data-cookies="min">Solo necesarias</button><button class="btn" data-cookies="all">Aceptar</button></div>
+</div>
+<div class="theme-pick" role="group" aria-label="Opciones de color">
+  <button data-theme-set="a" style="--a:#2F7476;--b:#C6DEDE" aria-pressed="true"><span>A · Aguamarina (recomendada)</span></button>
+  <button data-theme-set="b" style="--a:#4E6E7A;--b:#C1A486" aria-pressed="false"><span>B · Arena y celeste</span></button>
+  <button data-theme-set="c" style="--a:#56746A;--b:#EDE3D6" aria-pressed="false"><span>C · Salvia</span></button>
+</div>
+<script src="assets/main.js?v=1793456252" defer></script>
+</body>
+</html>
