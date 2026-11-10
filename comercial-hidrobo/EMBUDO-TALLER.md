@@ -95,3 +95,12 @@ repuesto. Se pierde el A/B limpio 5 vs resto, pero cada post sigue atribuible po
 
 **Medir a fin de octubre:** clics con «vengo%20de» en `linkUrl` del evento `whatsapp_click`,
 formularios `form_taller_cita` y visitas a `/gracias-cita-taller/` contra 20-27/mes.
+
+### 2026-11-09 — Medición del CTA temprano (5-oct → 8-nov)
+
+**Sin efecto.** 5 clics de WhatsApp con «vengo de…» en todo el periodo (4 de posts de
+taller/repuestos + 1 del CTA genérico del blog). `form_taller_cita`: 24 en sep → 19 en oct;
+`/gracias-cita-taller/`: 32 → 12; sesiones a la página de reserva: 81 → 75. Octubre quedó
+por debajo del rango habitual (20-27). Los CTAs se dejan (no estorban), pero no hay que
+esperar más de ellos: la siguiente pieza tiene que ser otra (ver
+`registro-mensual/2026-11-noviembre.md`).
