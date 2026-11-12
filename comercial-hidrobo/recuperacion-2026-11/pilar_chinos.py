@@ -100,6 +100,24 @@ blocks = [
       f"{l('/comparativas-y-decisiones-inteligentes/toyota-rav4-hybrid-vs-chery-tiggo-8-csh/', 'RAV4 Hybrid vs Tiggo 8 CSH')} y "
       f"{l('/marcas-chinas-y-comparativas/comparativa-de-sedanes-marcas-chinas-vs-tradicionales/', 'sedanes chinos vs tradicionales')}."),
 
+    h2("¿Los carros chinos duran? Lo que pesa más que el país de origen"),
+    p("La fama de poco durables viene sobre todo de los primeros modelos que llegaron hace más de una década, con "
+      "acabados pobres y sin red de repuestos. Los de hoy traen airbags, frenos ABS, control de estabilidad y "
+      "motores que se comportan como los de cualquier otra marca cuando se mantienen a tiempo."),
+    p("Lo que sí cambia la vida útil de un carro chino en Ecuador:"),
+    ul([
+        "Hacer los mantenimientos en el kilometraje que pide el fabricante y en taller autorizado, sobre todo mientras corre la garantía.",
+        "Usar repuestos originales: un filtro o una pastilla genérica mal elegida es la causa más común de fallas tempranas.",
+        "Revisar suspensión y frenos con más frecuencia si maneja por caminos de tierra o bajadas largas de la sierra.",
+    ]),
+    p("Donde todavía están detrás es en la reventa: un usado chino se vende con un descuento mayor que uno japonés de la "
+      "misma edad. Si piensa tener el auto muchos años, esa diferencia se diluye."),
+
+    h2("Dónde ver carros chinos en Imbabura, Pichincha y Carchi"),
+    p("En el norte del país tiene las seis marcas en un mismo lugar en nuestras agencias de Ibarra (Av. Mariano Acosta), "
+      "Cayambe y Tulcán, con taller y repuestos en las mismas instalaciones. Eso le permite comparar dos marcas el mismo "
+      "día y salir sabiendo dónde va a hacer cada mantenimiento."),
+
     quote("Antes de elegir la marca, elija el taller. Un carro chino bien mantenido en taller autorizado dura lo "
           "mismo que cualquier otro; el que se descuida en talleres sin repuestos originales es el que da la mala fama.",
           "Equipo de postventa — Comercial Hidrobo"),
@@ -121,9 +139,9 @@ blocks = [
     h3("¿Cuál es el carro chino más barato en Ecuador?"),
     p("En nuestro catálogo, el Changan V3 desde $14.990. Le siguen el Chery Arrizo 5 Pro Max, el Changan Alsvin "
       "Plus y los BAIC X35 y U5 Plus, todos desde $16.990."),
-    h3("¿Los carros chinos duran?"),
-    p("Con mantenimiento a tiempo en taller autorizado, sí. La mala fama viene en buena parte de los primeros "
-      "modelos que llegaron hace más de diez años y de autos sin respaldo de repuestos."),
+    h3("¿Dónde comprar un carro chino en Ibarra?"),
+    p("En Comercial Hidrobo, Av. Mariano Acosta, con las seis marcas, taller y repuestos en el mismo sitio. "
+      "También en nuestras agencias de Cayambe y Tulcán."),
     h3("¿Cuál es la mejor marca china calidad precio?"),
     p("Depende del uso: no es la misma respuesta para un SUV familiar que para una pickup de trabajo. La "
       f"desarrollamos en {l('/marcas-chinas-y-comparativas/mejor-marca-china-calidad-precio-en-ecuador/', 'cuál es la mejor marca china calidad precio')}."),

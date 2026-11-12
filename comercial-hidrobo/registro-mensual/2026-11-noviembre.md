@@ -113,17 +113,47 @@ del sitio. Se mantiene la URL (conserva el historial).
 
 Respaldo del contenido anterior de cada post en `recuperacion-2026-11/antes/`.
 
+### 10/11-nov — Consolidación de los clusters canibalizados
+
+**Plugin Redirection instalado** en el sitio (por API, 10-nov; antes no tenía cómo hacer 301).
+
+Antes de redirigir, lo útil de cada post absorbido se pasó al pilar:
+- Al pilar de eléctricos (9405, ahora **1.778 palabras**) se sumó la sección «Eléctrico,
+  enchufable o híbrido según dónde vive» (Quito, Ibarra y valles, viajes largos, zona
+  rural), que era el ángulo propio del 9415.
+- Al pilar de autos chinos (9472, ahora **1.529 palabras**) se sumaron «¿Los carros chinos
+  duran?» (del 9491) y «Dónde ver carros chinos en Imbabura, Pichincha y Carchi» (del 9609).
+
+| Post absorbido | URL vieja | Ahora |
+|---|---|---|
+| 9609 Marcas de autos chinos en Ecuador | `/chery/marcas-de-autos-chinos-en-ecuador/` | 301 → pilar chinos 9472 |
+| 9491 Autos chinos: calidad y durabilidad | `/marcas-chinas-y-comparativas/autos-chinos-en-ecuador-calidad-durabilidad/` | 301 → pilar chinos 9472 |
+| 9415 Híbridos y eléctricos en Ecuador | `/vehiculos-electricos-e-hibridos/autos-hibridos-y-electricos-en-ecuador/` | 301 → pilar eléctricos 9405 |
+
+Los tres posts quedaron en **borrador** (no se borraron). Los 301 se verificaron en vivo:
+cada URL vieja hace un solo salto y llega al pilar con 200. Se revisaron los 207 posts
+publicados: solo uno (9579) enlazaba a una URL vieja y ya apunta directo al pilar.
+
+**Post 9477 «Mejor marca china calidad precio» reescrito** (764 → 1.148 palabras). Se
+mantiene como página propia porque responde otra pregunta («cuál conviene» y no «qué marcas
+hay»). Antes recomendaba BYD, Geely y Great Wall; ahora responde por uso (sedán, SUV
+familiar, ahorro de combustible, eléctrico, pickup) con modelos y precios del catálogo de CH,
+cómo comparar el costo a cinco años y errores comunes. CTA atribuible: «vengo del artículo
+de la mejor marca china calidad precio».
+
+**Resultado:** las búsquedas «carros chinos en ecuador» / «marcas de carros chinos» pasan de
+4 URLs compitiendo a 1 pilar + 1 comparativa con intención distinta; «carros eléctricos
+ecuador» queda con una sola página fuerte.
+
 ---
 
 ## 4. Pendiente
 
-- **Consolidar los otros tres posts de autos chinos** (9609, 9491 y 9477 decidir) en el pilar
-  9472 con 301. El sitio **no tiene el plugin Redirection**: hay que instalarlo antes.
-- Igual con `autos-hibridos-y-electricos-en-ecuador` (9415, posición 55) → pilar 9405.
 - Modelos nuevos sin ningún post: Omoda | Jaecoo (desde sep-2026), Chery Tiggo Super Hybrid
   7/8/9, Changan Nevo Q05 (oct-2026). Confirmar con CH el tipo exacto (eléctrico/híbrido)
   del Omoda E5 Next y del Nevo Q05: el menú y la taxonomía del sitio se contradicen.
-- **Medir los dos pilares a 4-6 semanas** (mediados de diciembre): posición de «carros
+- **Medir los pilares y la consolidación a 4-6 semanas** (mediados de diciembre): posición de «carros
   eléctricos ecuador», «autos electricos ecuador», «carros chinos en ecuador», «marcas de
   carros chinos», y clics «vengo de la guía…» en GA4.
+- Pedir indexación en Search Console de 9405, 9472 y 9477 (la API no lo permite).
 - Embudo de taller: proponer la siguiente pieza (página de reserva por marca/kilometraje).

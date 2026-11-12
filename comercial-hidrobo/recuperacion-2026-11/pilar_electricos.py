@@ -138,6 +138,21 @@ blocks = [
     p(f"Y un beneficio que se nota desde el primer día en Quito: los eléctricos e híbridos tienen tratamiento especial "
       f"en la restricción vehicular, como explicamos en {a('pico-y-placa-hibridos-electricos-ecuador', 'pico y placa para híbridos y eléctricos')}."),
 
+    h2("Eléctrico, enchufable o híbrido según dónde vive"),
+    p("La misma tecnología rinde distinto en Quito que en Ibarra o en la Costa. El tipo de trayecto pesa tanto como el precio."),
+    ul([
+        "<strong>Quito:</strong> tráfico de para y arranca, donde el eléctrico y el híbrido rinden mejor que en carretera, "
+        "y la restricción vehicular pesa en el día a día. Un eléctrico con cargador en casa es la opción más cómoda si "
+        "rara vez sale de la ciudad.",
+        "<strong>Ibarra, Otavalo, Cayambe y los valles:</strong> recorridos diarios cortos y parqueadero propio en la mayoría "
+        "de casas. Es el escenario ideal para un eléctrico puro o para un enchufable que casi nunca usa gasolina.",
+        "<strong>Si viaja seguido a Quito, Tulcán o la Costa:</strong> las bajadas recuperan energía con el frenado "
+        "regenerativo, pero las subidas largas la consumen rápido. Ahí un enchufable o un rango extendido evita depender "
+        "de los pocos cargadores públicos de la ruta.",
+        "<strong>Zonas rurales o caminos de tierra:</strong> antes que la tecnología, mire el despeje y el taller más cercano. "
+        "Una pickup híbrida enchufable como la Z9 resuelve las dos cosas.",
+    ]),
+
     quote("De los que vienen preguntando por el eléctrico más barato, la mayoría termina en un enchufable. "
           "El eléctrico puro se lo lleva el que tiene segundo auto o el que casi no sale de la ciudad.",
           "Asesor comercial — Comercial Hidrobo"),
