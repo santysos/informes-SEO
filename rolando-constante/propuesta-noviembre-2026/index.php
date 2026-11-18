@@ -267,7 +267,7 @@ footer img{height:24px}
         <span class="l">a</span>
         <div><h3>Rediseño web completo</h3>
           <ul><li>10 páginas nuevas en Elementor, con diseño y textos nuevos</li><li>Títulos, descripciones y fichas de datos para Google y las IA</li><li>Limpieza de páginas sobrantes y redirecciones</li><li>Revisión en computadora y celular</li></ul></div>
-        <div class="precio"><s>$1.350</s><span class="v">$1.200</span><small>+ IVA</small></div>
+        <div class="precio"><span class="v">$480</span><small>+ IVA</small></div>
       </div>
       <div class="linea-inv">
         <span class="l">+</span>
@@ -278,13 +278,13 @@ footer img{height:24px}
       <div class="linea-inv">
         <span class="l">b</span>
         <div><h3>Posicionamiento en Google e IA · 6 meses <span class="bono" style="color:var(--tenue)">Opcional</span></h3>
-          <ul><li>Guías de ventas nuevas cada mes, con su experiencia</li><li>Páginas por ciudad y país, y ajustes según lo que la gente busca</li><li>Reunión e informe mensual de visitas y contactos</li></ul></div>
-        <div class="precio"><span class="v">$600</span><small>pago único, $100 al mes</small><small>o $150 al mes durante 6 meses</small></div>
+          <ul><li><b>Mínimo 20 publicaciones al mes</b> para generar tráfico y posicionamiento</li><li>Guías de ventas con su experiencia y páginas por ciudad y país</li><li>Ajustes según lo que la gente busca en Google y en las IA</li><li>Reunión e informe mensual de visitas y contactos</li></ul></div>
+        <div class="precio"><span class="v">$600</span><small>pago único por los 6 meses</small><small>o $150 + IVA al mes</small></div>
       </div>
     </div>
     <div class="paquete">
-      <div><h3>Rediseño + posicionamiento</h3><p>Contratados juntos: la web nueva y seis meses para que empiece a traer empresas.</p></div>
-      <div class="precio"><s>$1.800</s><span class="v">$1.650</span><small>+ IVA</small></div>
+      <div><h3>Rediseño + posicionamiento</h3><p>La web nueva y seis meses de publicaciones para que empiece a traer empresas, con el plan en pago único.</p></div>
+      <div class="precio"><span class="v">$1.080</span><small>+ IVA</small></div>
     </div>
     <div class="condiciones"><span>Forma de pago 60 % al iniciar y 40 % a la entrega</span><span>Entrega en 4 semanas</span><span>Validez de la propuesta: 15 días</span></div>
   </div>

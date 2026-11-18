@@ -169,28 +169,29 @@ ITEMS = (
     "Dise&ntilde;o nuevo con la marca (azul y dorado) y textos nuevos, revisado en computadora y celular",
     "T&iacute;tulos, descripciones y fichas de datos para Google y las inteligencias artificiales",
     "Limpieza de p&aacute;ginas sobrantes y redirecciones de las direcciones antiguas",
-  ], "1,350.00")
+  ], "480.00")
   + fila("b", "BONO &ndash; MEDICI&Oacute;N DE CONTACTOS EN GOOGLE ANALYTICS", [
     "Registro de cada clic en WhatsApp y de cada formulario, con la p&aacute;gina de origen",
     "Mensaje de WhatsApp con &laquo;vengo de la web&raquo; ya escrito",
   ], "150.00")
-  + fila("c", "POSICIONAMIENTO EN GOOGLE E IA &ndash; 6 MESES (OPCIONAL, NO SUMADO)", [
-    "Gu&iacute;as de ventas nuevas cada mes, p&aacute;ginas por ciudad y pa&iacute;s, ajustes seg&uacute;n b&uacute;squedas",
+  + fila("c", "PLAN DE POSICIONAMIENTO SEO EN GOOGLE E IA &ndash; 6 MESES (OPCIONAL, NO SUMADO)", [
+    "M&iacute;nimo 20 publicaciones mensuales para generar tr&aacute;fico y posicionamiento",
+    "Gu&iacute;as de ventas, p&aacute;ginas por ciudad y pa&iacute;s, y ajustes seg&uacute;n lo que la gente busca",
     "Reuni&oacute;n e informe mensual de visitas y contactos",
-    "Pago &uacute;nico de $600.00 ($100 al mes) o $150.00 + IVA al mes durante 6 meses",
+    "<strong>Pago &uacute;nico: $600.00</strong> por los 6 meses &middot; <strong>Pago mensual: $150.00 + IVA</strong>",
   ], "600.00")
 )
 
-NOTA = ("El &iacute;tem b se entrega sin costo. El &iacute;tem c es opcional y no est&aacute; sumado: contratado junto con el "
-        "redise&ntilde;o, el paquete queda en <b>$1,650.00</b> + IVA (ahorro de $150.00).<br>"
-        "Forma de pago: 60 % al iniciar ($720.00) y 40 % a la entrega ($480.00).<br>"
+NOTA = ("El &iacute;tem b se entrega sin costo. El &iacute;tem c es opcional y no est&aacute; sumado: con el plan en pago "
+        "&uacute;nico, redise&ntilde;o + posicionamiento suman <b>$1,080.00</b> + IVA.<br>"
+        "Forma de pago del redise&ntilde;o: 60 % al iniciar ($288.00) y 40 % a la entrega ($192.00).<br>"
         "Se trabaja sobre el hosting y el WordPress actuales del cliente. No incluye producci&oacute;n de fotos ni videos.")
 
 DOCS = {
  "proforma-1-2-1338": documento(
     PROFORMA, ITEMS,
-    totales([("Subtotal:", "$ 1,500.00", ""), ("Descuento:", "$ 300.00", ""),
-             ("IVA 15%:", "", ""), ("TOTAL:", "$ 1,200.00", "total")]),
+    totales([("Subtotal:", "$ 630.00", ""), ("Descuento:", "$ 150.00", ""),
+             ("IVA 15%:", "", ""), ("TOTAL:", "$ 480.00", "total")]),
     NOTA),
 }
 
