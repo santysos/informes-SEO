@@ -183,16 +183,6 @@
     back.disabled = true; next.disabled = true;
   }
 
-  // Selector de paleta (A/B/C) para la presentación al cliente
-  const picks = [...document.querySelectorAll('[data-theme-set]')];
-  const setTheme = t => {
-    if (t === 'a') delete root.dataset.theme; else root.dataset.theme = t;
-    picks.forEach(b => b.setAttribute('aria-pressed', b.dataset.themeSet === t));
-    store.set('mentis-paleta', t);
-  };
-  picks.forEach(b => b.addEventListener('click', () => setTheme(b.dataset.themeSet)));
-  setTheme(root.dataset.theme || 'a');
-
   // Año del pie
   document.querySelectorAll('[data-year]').forEach(e => e.textContent = new Date().getFullYear());
 })();
