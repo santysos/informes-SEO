@@ -279,14 +279,14 @@ footer img{height:24px}
         <span class="l">b</span>
         <div><h3>Posicionamiento en Google e IA · 6 meses <span class="bono" style="color:var(--tenue)">Opcional</span></h3>
           <ul><li><b>Mínimo 20 publicaciones al mes</b> para generar tráfico y posicionamiento</li><li>Guías de ventas con su experiencia y páginas por ciudad y país</li><li>Ajustes según lo que la gente busca en Google y en las IA</li><li>Reunión e informe mensual de visitas y contactos</li></ul></div>
-        <div class="precio"><span class="v">$600</span><small>pago único por los 6 meses</small><small>o $150 + IVA al mes</small></div>
+        <div class="precio"><span class="v">$600</span><small>+ IVA, pago único al inicio por los 6 meses</small><small>o $150 + IVA al inicio de cada mes</small></div>
       </div>
     </div>
     <div class="paquete">
       <div><h3>Rediseño + posicionamiento</h3><p>La web nueva y seis meses de publicaciones para que empiece a traer empresas, con el plan en pago único.</p></div>
       <div class="precio"><span class="v">$1.080</span><small>+ IVA</small></div>
     </div>
-    <div class="condiciones"><span>Forma de pago 60 % al iniciar y 40 % a la entrega</span><span>Entrega en 4 semanas</span><span>Validez de la propuesta: 15 días</span></div>
+    <div class="condiciones"><span>Rediseño en un solo pago al iniciar</span><span>Posicionamiento pagado al inicio, según el plan elegido</span><span>Entrega en 2 semanas</span><span>Validez de la propuesta: 15 días</span></div>
   </div>
 </section>
 
@@ -295,9 +295,9 @@ footer img{height:24px}
     <p class="label"><i>(05)</i>Plan de trabajo</p>
     <div class="intro"><h2>Lo urgente se nota primero</h2><p>Desde la primera semana sabrá cuántos contactos trae la web.</p></div>
     <div class="plan">
-      <div class="paso"><small>Semana 1</small><h3>Medir y ordenar</h3><p>Medición de WhatsApp y formularios. Limpieza de páginas que sobran.</p></div>
-      <div class="paso"><small>Semanas 2 a 3</small><h3>Diseño y textos</h3><p>Las páginas nuevas, con su voz y sus fotos.</p></div>
-      <div class="paso"><small>Semana 4</small><h3>Google y las IA</h3><p>Títulos, fichas de datos, preguntas frecuentes y publicación.</p></div>
+      <div class="paso"><small>Días 1 a 3</small><h3>Medir y ordenar</h3><p>Medición de WhatsApp y formularios. Limpieza de páginas que sobran.</p></div>
+      <div class="paso"><small>Días 4 a 10</small><h3>Diseño y textos</h3><p>Las páginas nuevas, con su voz y sus fotos.</p></div>
+      <div class="paso"><small>Días 11 a 14</small><h3>Google y las IA</h3><p>Títulos, fichas de datos, preguntas frecuentes y publicación.</p></div>
       <div class="paso"><small>Desde el mes 2</small><h3>Crecer</h3><p>Guías nuevas e informe mensual, si contrata el posicionamiento.</p></div>
     </div>
   </div>

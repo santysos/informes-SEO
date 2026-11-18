@@ -15,9 +15,9 @@ PROFORMA   = "1-2-1338"
 CLIENTE    = "Dr. Rolando Constante"
 FECHA      = "18 de noviembre de 2026"
 VALIDEZ    = "15 días"
-COBERTURA  = "Entrega en 4 semanas"
+COBERTURA  = "Entrega en 2 semanas"
 TELEFONO   = "099 955 1021"
-RENOVACION = "FORMA DE PAGO 60 % / 40 %"
+RENOVACION = "REDISE&Ntilde;O EN UN SOLO PAGO"
 
 def _b64(nombre):
     ruta = os.path.join(HERE, "assets", nombre)
@@ -174,17 +174,17 @@ ITEMS = (
     "Registro de cada clic en WhatsApp y de cada formulario, con la p&aacute;gina de origen",
     "Mensaje de WhatsApp con &laquo;vengo de la web&raquo; ya escrito",
   ], "150.00")
-  + fila("c", "PLAN DE POSICIONAMIENTO SEO EN GOOGLE E IA &ndash; 6 MESES (OPCIONAL, NO SUMADO)", [
+  + fila("c", "PLAN DE POSICIONAMIENTO SEO EN GOOGLE E IA &ndash; 6 MESES (OPCIONAL)", [
     "M&iacute;nimo 20 publicaciones mensuales para generar tr&aacute;fico y posicionamiento",
     "Gu&iacute;as de ventas, p&aacute;ginas por ciudad y pa&iacute;s, y ajustes seg&uacute;n lo que la gente busca",
     "Reuni&oacute;n e informe mensual de visitas y contactos",
-    "<strong>Pago &uacute;nico: $600.00</strong> por los 6 meses &middot; <strong>Pago mensual: $150.00 + IVA</strong>",
+    "Se paga al inicio: <strong>$600.00 + IVA</strong> en pago &uacute;nico por los 6 meses, o <strong>$150.00 + IVA</strong> al inicio de cada mes",
   ], "600.00")
 )
 
-NOTA = ("El &iacute;tem b se entrega sin costo. El &iacute;tem c es opcional y no est&aacute; sumado: con el plan en pago "
+NOTA = ("El &iacute;tem b se entrega sin costo. El &iacute;tem c es opcional: con el plan en pago "
         "&uacute;nico, redise&ntilde;o + posicionamiento suman <b>$1,080.00</b> + IVA.<br>"
-        "Forma de pago del redise&ntilde;o: 60 % al iniciar ($288.00) y 40 % a la entrega ($192.00).<br>"
+        "Redise&ntilde;o: un solo pago de $480.00 + IVA al iniciar. Posicionamiento: se paga al inicio, $600.00 o $150.00 + IVA seg&uacute;n el plan.<br>"
         "Se trabaja sobre el hosting y el WordPress actuales del cliente. No incluye producci&oacute;n de fotos ni videos.")
 
 DOCS = {
