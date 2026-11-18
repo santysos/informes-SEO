@@ -88,6 +88,11 @@ table.tot tr.total td { font-weight: 700; }
 /* pie */
 .pie { margin-top: auto; padding-top: 5mm; display: flex; align-items: flex-end; justify-content: space-between; }
 .pie .firma { font-size: 11pt; line-height: 1.5; }
+.pie .firma .rubrica {
+  font-family: 'Great Vibes', cursive; color: #000; font-size: 26pt; line-height: 1;
+  border-bottom: .3mm solid #22344f; padding: 0 2mm 1.5mm; margin-bottom: 1.5mm;
+  display: block; width: fit-content;
+}
 .pie .cont { display: flex; align-items: center; gap: 4mm; }
 .pie .cont .txt { text-align: right; font-size: 9.5pt; font-weight: 600; line-height: 1.55; border-right: .4mm solid #b9c6d6; padding-right: 4mm; }
 .pie .cont img { height: 13mm; }
@@ -109,7 +114,7 @@ def totales(filas):
 
 def documento(numero, filas_items, filas_tot, nota):
     return f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body>
 <div class="hoja">
   <img class="marca" src="data:image/png;base64,{ISO}">
@@ -147,7 +152,7 @@ def documento(numero, filas_items, filas_tot, nota):
     </div>
 
     <div class="pie">
-      <div class="firma">Ing. Santiago O&ntilde;a S&aacute;nchez<br>CREATIVE WEB</div>
+      <div class="firma"><div class="rubrica">Santiago O&ntilde;a S</div>Ing. Santiago O&ntilde;a S&aacute;nchez<br>CREATIVE WEB</div>
       <div class="cont">
         <div class="txt">
           info@creativeweb.com.ec<br>
