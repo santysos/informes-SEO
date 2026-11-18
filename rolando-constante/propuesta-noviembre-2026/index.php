@@ -286,7 +286,7 @@ footer img{height:24px}
       <div><h3>Rediseño + posicionamiento</h3><p>La web nueva y seis meses de publicaciones para que empiece a traer empresas, con el plan en pago único.</p></div>
       <div class="precio"><span class="v">$1.080</span><small>+ IVA</small></div>
     </div>
-    <div class="condiciones"><span>Rediseño en un solo pago al iniciar</span><span>Posicionamiento pagado al inicio, según el plan elegido</span><span>Entrega en 2 semanas</span><span>Validez de la propuesta: 15 días</span></div>
+    <div class="condiciones"><span>Rediseño en un solo pago al iniciar</span><span>Posicionamiento: $600 + IVA en un pago al iniciar, o $150 + IVA al inicio de cada mes</span><span>Entrega en 2 semanas</span><span>Validez de la propuesta: 15 días</span></div>
   </div>
 </section>
 

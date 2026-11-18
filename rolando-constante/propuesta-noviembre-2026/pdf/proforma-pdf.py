@@ -184,7 +184,7 @@ ITEMS = (
 
 NOTA = ("El &iacute;tem b se entrega sin costo. El &iacute;tem c es opcional: con el plan en pago "
         "&uacute;nico, redise&ntilde;o + posicionamiento suman <b>$1,080.00</b> + IVA.<br>"
-        "Redise&ntilde;o: un solo pago de $480.00 + IVA al iniciar. Posicionamiento: se paga al inicio, $600.00 o $150.00 + IVA seg&uacute;n el plan.<br>"
+        "Redise&ntilde;o: un solo pago de $480.00 + IVA al iniciar. Posicionamiento (opcional): $600.00 + IVA en un solo pago al iniciar, que cubre los 6 meses, o $150.00 + IVA mensuales, pagados al inicio de cada mes.<br>"
         "Se trabaja sobre el hosting y el WordPress actuales del cliente. No incluye producci&oacute;n de fotos ni videos.")
 
 DOCS = {
