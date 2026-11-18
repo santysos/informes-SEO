@@ -303,6 +303,7 @@ section{padding:clamp(90px,11vw,150px) 0}
 
 /* CTA */
 .cta{padding:0 0 clamp(90px,11vw,150px)}
+.process + .cta{padding-top:clamp(90px,11vw,150px)} /* bloque de color seguido del CTA: separarlos */
 .cta-box{border-radius:36px;background:var(--teal);color:#fff;padding:clamp(48px,7vw,100px);position:relative;overflow:hidden;text-align:center}
 .cta-box h2{color:#fff;max-width:18ch;margin:22px auto 0}
 .cta-box h2 em{color:var(--aqua)}
