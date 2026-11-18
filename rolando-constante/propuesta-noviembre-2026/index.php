@@ -279,14 +279,14 @@ footer img{height:24px}
         <span class="l">b</span>
         <div><h3>Posicionamiento en Google e IA · 6 meses <span class="bono" style="color:var(--tenue)">Opcional</span></h3>
           <ul><li><b>Mínimo 20 publicaciones al mes</b> para generar tráfico y posicionamiento</li><li>Guías de ventas con su experiencia y páginas por ciudad y país</li><li>Ajustes según lo que la gente busca en Google y en las IA</li><li>Reunión e informe mensual de visitas y contactos</li></ul></div>
-        <div class="precio"><span class="v">$600</span><small>+ IVA, pago único al inicio por los 6 meses</small><small>o $150 + IVA al inicio de cada mes</small></div>
+        <div class="precio"><span class="v">$600</span><small>+ IVA, pago único al inicio por los 6 meses</small><small>o $150 + IVA mensuales</small></div>
       </div>
     </div>
     <div class="paquete">
       <div><h3>Rediseño + posicionamiento</h3><p>La web nueva y seis meses de publicaciones para que empiece a traer empresas, con el plan en pago único.</p></div>
       <div class="precio"><span class="v">$1.080</span><small>+ IVA</small></div>
     </div>
-    <div class="condiciones"><span>Rediseño en un solo pago al iniciar</span><span>Posicionamiento: $600 + IVA en un pago al iniciar, o $150 + IVA al inicio de cada mes</span><span>Entrega en 2 semanas</span><span>Validez de la propuesta: 15 días</span></div>
+    <div class="condiciones"><span>Rediseño en un solo pago al iniciar</span><span>Posicionamiento: $600 + IVA en un pago al iniciar, o $150 + IVA mensuales</span><span>Entrega en 2 semanas</span><span>Validez de la propuesta: 15 días</span></div>
   </div>
 </section>
 

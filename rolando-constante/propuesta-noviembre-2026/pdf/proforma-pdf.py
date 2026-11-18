@@ -165,27 +165,25 @@ def documento(numero, filas_items, filas_tot, nota):
 # ─── Contenido de los ítems ─────────────────────────────────────────────────
 ITEMS = (
   fila("a", "REDISE&Ntilde;O WEB COMPLETO &ndash; rolandoconstante.com", [
-    "10 p&aacute;ginas nuevas en WordPress + Elementor: inicio, empresas, conferencias, gerencia y coaching, escuela y certificaci&oacute;n, m&eacute;todo PAICODOCI, sobre Rolando, gu&iacute;as, contacto y legales",
-    "Dise&ntilde;o nuevo con la marca (azul y dorado) y textos nuevos, revisado en computadora y celular",
-    "T&iacute;tulos, descripciones y fichas de datos para Google y las inteligencias artificiales",
-    "Limpieza de p&aacute;ginas sobrantes y redirecciones de las direcciones antiguas",
+    "10 p&aacute;ginas nuevas, con dise&ntilde;o y textos nuevos",
+    "Se ve bien en computadora y en celular",
+    "Preparada para aparecer en Google y en las inteligencias artificiales",
+    "Se eliminan las p&aacute;ginas que sobran o est&aacute;n repetidas",
   ], "480.00")
-  + fila("b", "BONO &ndash; MEDICI&Oacute;N DE CONTACTOS EN GOOGLE ANALYTICS", [
-    "Registro de cada clic en WhatsApp y de cada formulario, con la p&aacute;gina de origen",
-    "Mensaje de WhatsApp con &laquo;vengo de la web&raquo; ya escrito",
+  + fila("b", "BONO &ndash; MEDICI&Oacute;N DE CONTACTOS", [
+    "Sabr&aacute; cu&aacute;ntos clientes le escriben por WhatsApp desde la web",
   ], "150.00")
-  + fila("c", "PLAN DE POSICIONAMIENTO SEO EN GOOGLE E IA &ndash; 6 MESES (OPCIONAL)", [
-    "M&iacute;nimo 20 publicaciones mensuales para generar tr&aacute;fico y posicionamiento",
-    "Gu&iacute;as de ventas, p&aacute;ginas por ciudad y pa&iacute;s, y ajustes seg&uacute;n lo que la gente busca",
-    "Reuni&oacute;n e informe mensual de visitas y contactos",
-    "Se paga al inicio: <strong>$600.00 + IVA</strong> en pago &uacute;nico por los 6 meses, o <strong>$150.00 + IVA</strong> al inicio de cada mes",
+  + fila("c", "POSICIONAMIENTO EN GOOGLE &ndash; 6 MESES (OPCIONAL)", [
+    "M&iacute;nimo 20 publicaciones al mes para atraer visitas",
+    "Informe mensual de visitas y contactos",
+    "<strong>$600.00 + IVA</strong> en un solo pago &middot; o <strong>$150.00 + IVA</strong> mensuales",
   ], "600.00")
 )
 
-NOTA = ("El &iacute;tem b se entrega sin costo. El &iacute;tem c es opcional: con el plan en pago "
-        "&uacute;nico, redise&ntilde;o + posicionamiento suman <b>$1,080.00</b> + IVA.<br>"
-        "Redise&ntilde;o: un solo pago de $480.00 + IVA al iniciar. Posicionamiento (opcional): $600.00 + IVA en un solo pago al iniciar, que cubre los 6 meses, o $150.00 + IVA mensuales, pagados al inicio de cada mes.<br>"
-        "Se trabaja sobre el hosting y el WordPress actuales del cliente. No incluye producci&oacute;n de fotos ni videos.")
+NOTA = ("El bono (b) no tiene costo.<br>"
+        "Redise&ntilde;o: un solo pago al iniciar.<br>"
+        "Posicionamiento: $600.00 + IVA en un pago, o $150.00 + IVA al mes (6 meses).<br>"
+        "Redise&ntilde;o + posicionamiento en un pago: <b>$1,080.00</b> + IVA.")
 
 DOCS = {
  "proforma-1-2-1338": documento(
