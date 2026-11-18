@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="es-EC">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">  <!-- borrador de diseño: no indexar -->
+<title>Rolando Constante 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..400&family=Outfit:wght@300..600&display=swap">
+<style>
+/* Layout: el lenguaje editorial de Mentis llevado a la marca de Rolando. Papel claro, titulares serif finos con la palabra clave en cursiva dorada, etiquetas numeradas, filas de servicios, foto en arco con sello giratorio y paneles azul tinta muy redondeados. Un solo tema, deliberado: es la identidad de la marca. */
+:root{
+  --papel:#F7F4EE;      /* fondo papel */
+  --blanco:#FFFFFF;
+  --tinta:#0E1A4A;      /* azul de marca */
+  --tinta-2:#4A5378;
+  --profundo:#0B1640;   /* paneles */
+  --oro:#B8892B;        /* oro legible sobre papel */
+  --oro-claro:#E2BF6E;  /* oro sobre azul */
+  --linea:#E4DCCD;
+  --wa:#1FAF5A;
+  --serif:'Fraunces', Georgia, 'Times New Roman', serif;
+  --sans:'Outfit', 'Avenir Next', 'Segoe UI', sans-serif;
+  --calma:cubic-bezier(.22,.61,.36,1);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--papel);color:var(--tinta);font:330 17px/1.7 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--serif);font-weight:300;letter-spacing:-.015em;line-height:1.04;margin:0;text-wrap:balance;font-variation-settings:"opsz" 144}
+h1{font-size:clamp(2.8rem,6.6vw,6rem)}
+h2{font-size:clamp(2.2rem,4.4vw,3.9rem)}
+em{font-style:italic;color:var(--oro);font-weight:300}
+.label{display:inline-flex;align-items:center;gap:12px;font:500 .76rem/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--oro)}
+.label .n{font-family:var(--serif);font-style:italic;letter-spacing:0;text-transform:none;font-size:1rem;color:var(--tinta-2)}
+.label::after{content:"";width:44px;height:1px;background:currentColor;opacity:.5}
+:focus-visible{outline:2px solid var(--oro);outline-offset:4px;border-radius:8px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Botones */
+.btn{position:relative;display:inline-flex;align-items:center;gap:12px;font:450 .98rem/1 var(--sans);text-decoration:none;padding:17px 26px;border-radius:999px;background:var(--tinta);color:#fff;border:0;cursor:pointer;transition:transform .5s var(--calma),background .5s var(--calma);white-space:nowrap}
+.btn:hover{transform:translateY(-2px);background:#1B2C78}
+.btn .flecha{width:16px;height:16px;transition:transform .5s var(--calma)}
+.btn:hover .flecha{transform:translateX(4px)}
+.btn.oro{background:var(--oro-claro);color:var(--profundo)}
+.btn.oro:hover{background:#ECD08F}
+.link{display:inline-flex;align-items:center;gap:10px;font:450 .98rem/1 var(--sans);text-decoration:none;padding-bottom:6px;border-bottom:1px solid currentColor}
+.link:hover{color:var(--oro)}
+
+/* Aviso demo */
+.demo{background:var(--profundo);color:#C2C8E6;font:400 13px/1.4 var(--sans);text-align:center;padding-block:9px}
+
+/* Cabecera */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:rgba(255,255,255,.92)}
+.cab{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(228,220,205,.7)}
+.cab .wrap{display:flex;align-items:center;gap:30px;padding-block:16px}
+.cab .logo{height:22px;width:auto}
+.nav{display:flex;gap:28px;margin-left:auto;font:400 .95rem/1 var(--sans)}
+.nav a{text-decoration:none;color:var(--tinta-2)}
+.nav a:hover{color:var(--tinta)}
+.cab .btn{padding:13px 20px;font-size:.92rem}
+@media (max-width:980px){.nav{display:none}.cab .btn{margin-left:auto}}
+@media (max-width:420px){.cab .logo{height:16px}.cab .btn{padding:12px 16px}}
+
+/* Hero */
+.hero{position:relative;padding-block:80px 40px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:64px;align-items:end}
+.hero-grid>div{min-width:0}
+.hero h1{margin:28px 0 30px}
+.hero .lead{font-size:1.15rem;color:var(--tinta-2);max-width:40ch;margin:0 0 36px}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:28px}
+.hero-img{position:relative;max-width:420px;width:100%;justify-self:end}
+.arch{border-radius:999px 999px 26px 26px;overflow:hidden;aspect-ratio:3/4.1;position:relative;z-index:1}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:52% 20%;animation:zoom 2.6s var(--calma) both}
+@keyframes zoom{from{transform:scale(1.06)}to{transform:none}}
+.blob{position:absolute;z-index:0;width:84%;aspect-ratio:1;right:-26%;top:-10%;border-radius:46% 54% 60% 40%/50% 42% 58% 50%;background:linear-gradient(140deg,rgba(226,191,110,.55),rgba(226,191,110,.12));animation:deriva 30s ease-in-out infinite}
+@keyframes deriva{0%,100%{transform:rotate(0) scale(1)}50%{transform:rotate(24deg) scale(1.06)}}
+.sello{position:absolute;z-index:2;left:-58px;bottom:44px;width:128px;height:128px;border-radius:50%;background:var(--blanco);display:grid;place-items:center;box-shadow:0 22px 44px -26px rgba(14,26,74,.55)}
+.sello svg.gira{position:absolute;inset:8px;animation:gira 60s linear infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+.sello .centro{font:italic 300 1.6rem/1 var(--serif);color:var(--oro)}
+.hero-foot{display:flex;justify-content:space-between;align-items:flex-end;margin-top:84px;padding-top:28px;border-top:1px solid var(--linea);gap:30px;flex-wrap:wrap}
+.facts{display:flex;gap:52px;flex-wrap:wrap}
+.fact .num{font:300 2.6rem/1 var(--serif);color:var(--tinta)}
+.fact .num em{font-size:1.6rem}
+.fact span{display:block;margin-top:8px;font-size:.88rem;color:var(--tinta-2);max-width:18ch;line-height:1.45}
+.scroll-cue{display:flex;align-items:center;gap:14px;font-size:.76rem;letter-spacing:.2em;text-transform:uppercase;color:var(--tinta-2)}
+.scroll-cue::before{content:"";width:1px;height:46px;background:linear-gradient(var(--oro),transparent)}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr;gap:48px}.hero-img{justify-self:center;max-width:340px}.sello{left:-28px;width:108px;height:108px}.hero{padding-top:48px}.facts{gap:30px}}
+
+/* Cintas */
+.marquee{border-block:1px solid var(--linea);background:#FBF9F5;overflow:hidden;padding-block:22px}
+.track{display:flex;width:max-content;animation:cinta 70s linear infinite}
+.track span{font:300 clamp(1.6rem,3vw,2.4rem)/1 var(--serif);white-space:nowrap;padding-inline:28px;display:flex;align-items:center;gap:56px}
+.track span::after{content:"✳";font-size:.9rem;color:var(--oro)}
+.track span:nth-child(even){font-style:italic;color:var(--oro)}
+@keyframes cinta{to{transform:translateX(-50%)}}
+.clientes .track span{font:400 1.25rem/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#8E93AE;font-style:normal}
+.clientes .track span::after{content:"•";color:var(--oro);font-size:1rem}
+.clientes .track span:nth-child(even){font-style:normal;color:#8E93AE}
+
+/* Secciones */
+.sec{padding-block:120px}
+.sec-top{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:end;margin-bottom:70px}
+.sec-top p{margin:0;color:var(--tinta-2);max-width:46ch}
+.two-col{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
+.grande{font:300 clamp(1.7rem,2.8vw,2.5rem)/1.3 var(--serif);letter-spacing:-.01em;margin:0 0 36px}
+.grande .apagado{color:#A7ABC2}
+@media (max-width:900px){.sec{padding-block:80px}.sec-top,.two-col{grid-template-columns:1fr;gap:24px;margin-bottom:44px}}
+
+/* Filas de servicios */
+.filas{border-top:1px solid var(--linea)}
+.fila{display:grid;grid-template-columns:70px 1.1fr 1fr 48px;gap:24px;align-items:center;padding-block:30px;border-bottom:1px solid var(--linea);text-decoration:none;transition:background .6s var(--calma),padding .6s var(--calma)}
+.fila:hover{background:rgba(255,255,255,.7);padding-inline:18px}
+.fila .i{font:italic 300 1.05rem/1 var(--serif);color:var(--tinta-2)}
+.fila h3{font-size:clamp(1.6rem,2.6vw,2.2rem)}
+.fila p{margin:0;color:var(--tinta-2);font-size:.95rem}
+.fila .para{display:block;font:500 .7rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--oro);margin-bottom:10px}
+.circ{width:44px;height:44px;border-radius:50%;border:1px solid var(--linea);display:grid;place-items:center;transition:background .5s var(--calma),border-color .5s var(--calma),transform .5s var(--calma)}
+.circ svg{width:16px;height:16px}
+.fila:hover .circ{background:var(--tinta);border-color:var(--tinta);color:#fff;transform:rotate(-45deg)}
+@media (max-width:760px){.fila{grid-template-columns:44px 1fr 44px;gap:16px}.fila p{grid-column:2/3}.fila .circ{grid-row:1/3;grid-column:3}}
+
+/* Frases */
+.frases{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.frase{background:var(--blanco);border-radius:28px;padding:34px;display:grid;gap:14px;min-width:0}
+.frase q{font:italic 300 clamp(1.5rem,2.3vw,2rem)/1.2 var(--serif);quotes:"«" "»";color:var(--tinta)}
+.frase p{margin:0;color:var(--tinta-2);font-size:.98rem}
+@media (max-width:760px){.frases{grid-template-columns:1fr}}
+
+/* Panel del método */
+.panel{background:var(--profundo);color:#fff;border-radius:40px;margin-inline:max(12px,env(safe-area-inset-left,0px));position:relative;overflow:hidden}
+.panel::before{content:"";position:absolute;width:560px;aspect-ratio:1;border-radius:50%;background:radial-gradient(closest-side,rgba(226,191,110,.22),transparent);right:-160px;top:-180px}
+.panel .label{color:var(--oro-claro)}
+.panel .label .n{color:#9AA2CC}
+.panel em{color:var(--oro-claro)}
+.sticky-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;position:relative}
+.stick{position:sticky;top:120px;align-self:start}
+.stick p{color:#B7BEDF;margin:24px 0 32px;max-width:36ch}
+.sigla{font:300 clamp(3rem,6vw,5.2rem)/1 var(--serif);letter-spacing:.02em;color:var(--oro-claro);font-style:italic;margin-top:18px}
+.steps{list-style:none;margin:0;padding:0}
+.steps li{display:grid;grid-template-columns:96px 1fr;gap:24px;padding-block:28px;border-bottom:1px solid rgba(255,255,255,.1)}
+.steps li:first-child{padding-top:0}
+.steps b{font:300 2.6rem/1 var(--serif);color:var(--oro-claro)}
+.steps h3{font-size:1.7rem;margin-bottom:8px;color:#fff}
+.steps p{margin:0;color:#B7BEDF}
+@media (max-width:900px){.sticky-grid{grid-template-columns:1fr;gap:40px}.stick{position:static}.panel{border-radius:28px}.steps li{grid-template-columns:64px 1fr;gap:16px}}
+
+/* Resultados */
+.resultados{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--linea)}
+.res{padding:36px 30px 0 0;min-width:0}
+.res+.res{padding-left:30px;border-left:1px solid var(--linea)}
+.res .num{font:300 clamp(3.4rem,6vw,5rem)/1 var(--serif);color:var(--tinta)}
+.res .num em{font-size:.55em}
+.res h3{font:450 1.1rem/1.35 var(--sans);letter-spacing:0;margin:14px 0 8px}
+.res p{margin:0;color:var(--tinta-2);font-size:.95rem}
+.res small{display:block;margin-top:14px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--oro)}
+.nota{margin-top:30px;font-size:.85rem;color:var(--tinta-2)}
+@media (max-width:860px){.resultados{grid-template-columns:1fr}.res,.res+.res{padding:28px 0;border-left:0;border-bottom:1px solid var(--linea)}}
+
+/* Collage y bio */
+.collage{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:end}
+.collage .ft{border-radius:30px;overflow:hidden}
+.collage .ft img{width:100%;height:100%;object-fit:cover}
+.collage .alta{aspect-ratio:3/4}
+.collage .baja{aspect-ratio:3/3.6;margin-bottom:-48px}
+.bio p{color:var(--tinta-2);margin:0 0 18px;max-width:52ch}
+.creds{list-style:none;margin:30px 0 36px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:20px 30px}
+.creds li{border-top:1px solid var(--linea);padding-top:14px;font-size:.95rem;color:var(--tinta-2)}
+.creds b{display:block;font:300 1.35rem/1.2 var(--serif);color:var(--tinta);margin-bottom:4px}
+@media (max-width:900px){.collage .baja{margin-bottom:0}.creds{grid-template-columns:1fr}}
+
+/* Testimonios */
+.quote-sec{text-align:center}
+.q-wrap{max-width:900px;margin:0 auto;min-height:330px;display:grid;align-content:center}
+.q-slide{display:none;gap:30px;justify-items:center}
+.q-slide.activo{display:grid;animation:aparece 1s var(--calma)}
+@keyframes aparece{from{opacity:.25;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q-slide blockquote{margin:0;font:300 clamp(1.7rem,3.2vw,2.7rem)/1.25 var(--serif);letter-spacing:-.01em}
+.q-slide figcaption{display:flex;align-items:center;gap:14px;text-align:left}
+.q-slide figcaption img{width:56px;height:56px;border-radius:50%;object-fit:cover}
+.q-slide figcaption b{display:block;font-weight:500}
+.q-slide figcaption span{font-size:.88rem;color:var(--tinta-2)}
+.q-nav{display:flex;justify-content:center;gap:12px;margin-top:36px}
+.q-nav button{width:10px;height:10px;border-radius:50%;border:0;background:#CFC6B4;cursor:pointer;padding:0;transition:width .5s var(--calma),background .5s var(--calma)}
+.q-nav button[aria-current="true"]{width:34px;border-radius:99px;background:var(--oro)}
+
+/* Conferencia */
+.conf{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.conf .arco{border-radius:26px 26px 999px 999px;overflow:hidden;aspect-ratio:4/4.6}
+.conf .arco img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.conf p{color:var(--tinta-2);margin:0 0 18px;max-width:46ch}
+@media (max-width:900px){.conf{grid-template-columns:1fr;gap:40px}.conf .arco{max-width:420px}}
+
+/* Guías */
+.guias{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.guia{display:grid;gap:14px;align-content:start;text-decoration:none;background:var(--blanco);border-radius:28px;padding:30px;transition:transform .6s var(--calma)}
+.guia:hover{transform:translateY(-4px)}
+.guia .meta{font:500 .7rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--oro)}
+.guia h3{font-size:1.65rem;line-height:1.15}
+.guia p{margin:0;color:var(--tinta-2);font-size:.95rem}
+@media (max-width:900px){.guias{grid-template-columns:1fr}}
+
+/* FAQ */
+details{border-bottom:1px solid var(--linea);padding-block:24px}
+details:first-of-type{border-top:1px solid var(--linea)}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:20px;font:300 1.45rem/1.3 var(--serif)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--linea);display:grid;place-items:center;font:300 1.3rem/1 var(--sans);color:var(--tinta);transition:transform .5s var(--calma),background .5s var(--calma)}
+details[open] summary::after{transform:rotate(45deg);background:var(--tinta);color:#fff;border-color:var(--tinta)}
+details p{margin:14px 0 0;color:var(--tinta-2);max-width:62ch}
+
+/* Cierre */
+.cierre .wrap{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start;padding-block:110px}
+.cierre p{color:#B7BEDF;max-width:40ch;margin:22px 0 30px}
+.cierre .tel{font-size:.9rem;color:#9AA2CC;margin-top:16px}
+.pasos-c{list-style:none;margin:0 0 30px;padding:0;display:grid;gap:0}
+.pasos-c li{display:grid;grid-template-columns:70px 1fr;gap:16px;padding-block:22px;border-bottom:1px solid rgba(255,255,255,.1)}
+.pasos-c b{font:300 2.2rem/1 var(--serif);color:var(--oro-claro)}
+.pasos-c h3{font-size:1.35rem;color:#fff;margin-bottom:4px}
+.pasos-c p{margin:0;color:#B7BEDF;font-size:.95rem}
+.form{background:var(--papel);color:var(--tinta);border-radius:28px;padding:30px;display:grid;gap:14px;min-width:0}
+.form h3{font-size:1.6rem}
+.form label{display:grid;gap:6px;font-size:.82rem;font-weight:450;color:var(--tinta-2)}
+.form input,.form select{font:400 1rem var(--sans);padding:14px 16px;border:1px solid var(--linea);border-radius:14px;background:var(--blanco);color:var(--tinta);width:100%}
+.form .btn{justify-content:center}
+.form small{color:var(--tinta-2);font-size:.8rem}
+.ok{background:#E8F5EC;color:#155C35;padding:12px 14px;border-radius:12px;font-size:.9rem}
+@media (max-width:900px){.cierre .wrap{grid-template-columns:1fr;gap:40px;padding-block:72px}}
+
+/* Pie */
+footer{padding-block:80px 40px}
+footer .g{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:36px}
+footer .logo{height:20px;width:auto;margin-bottom:18px}
+footer p{margin:0;color:var(--tinta-2);font-size:.95rem;max-width:30ch}
+footer h4{margin:0 0 14px;font:500 .72rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--oro)}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:.95rem;color:var(--tinta-2)}
+footer a{text-decoration:none}
+footer a:hover{color:var(--tinta)}
+.legal{margin-top:56px;padding-top:22px;border-top:1px solid var(--linea);font-size:.82rem;color:var(--tinta-2);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (max-width:860px){footer .g{grid-template-columns:1fr 1fr}}
+
+/* WhatsApp */
+.wa{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;display:flex;align-items:center;gap:12px;background:var(--blanco);color:var(--tinta);text-decoration:none;font:450 .92rem/1 var(--sans);padding:8px 8px 8px 18px;border-radius:999px;box-shadow:0 18px 40px -18px rgba(14,26,74,.5)}
+.wa i{width:38px;height:38px;border-radius:50%;background:var(--wa);display:grid;place-items:center}
+.wa svg{width:20px;height:20px}
+</style>
+</head>
+<body>
+<div class="demo">Vista previa del diseño propuesto · Creative Web · noviembre 2026 · Los casos con cifras son de ejemplo hasta tener los reales.</div>
+
+<header class="cab">
+  <div class="wrap">
+    <img class="logo" src="img/logo-constante.png" alt="Constante · Rolando Constante" width="640" height="75">
+    <nav class="nav" aria-label="Principal">
+      <a href="#servicios">Empresas</a>
+      <a href="#servicios">Vendedores</a>
+      <a href="#metodo">Método</a>
+      <a href="#conferencias">Conferencias</a>
+      <a href="#rolando">Rolando</a>
+      <a href="#guias">Guías</a>
+    </nav>
+    <a class="btn" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20vengo%20de%20la%20web%20y%20quiero%20capacitar%20a%20mi%20equipo" target="_blank" rel="noopener">Hablemos <svg class="flecha" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="label">Capacitación comercial · Ecuador, LATAM y EE. UU.</span>
+          <h1 id="h-hero">Equipos de ventas que <em>cierran,</em> con método</h1>
+          <p class="lead">A tu equipo no le falta talento, le falta una forma clara de vender. Con el Método PAICODOCI dejan de escuchar «lo voy a pensar» y empiezan a cerrar desde la primera semana.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20quiero%20un%20diagn%C3%B3stico%20comercial%20para%20mi%20empresa" target="_blank" rel="noopener">Diagnóstico gratis para mi empresa <svg class="flecha" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+            <a class="link" href="#servicios">Soy vendedor</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="blob" aria-hidden="true"></div>
+          <div class="arch"><img src="img/sala-juntas.webp" alt="Dr. Rolando Constante con un equipo comercial" width="1200" height="918"></div>
+          <div class="sello" aria-hidden="true">
+            <svg class="gira" viewBox="0 0 112 112"><defs><path id="c" d="M56,56 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs><text font-family="Outfit, sans-serif" font-size="9.4" letter-spacing="2.6" fill="#0E1A4A"><textPath href="#c">MÉTODO PAICODOCI · DESDE 1998 · </textPath></text></svg>
+            <span class="centro">RC</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="facts">
+          <div class="fact"><div class="num">28 <em>años</em></div><span>formando vendedores y gerentes, desde 1998</span></div>
+          <div class="fact"><div class="num">+5.000</div><span>capacitaciones a empresas y profesionales</span></div>
+          <div class="fact"><div class="num"><em>SENESCYT</em></div><span>certificación con registro oficial</span></div>
+          <div class="fact"><div class="num">3 <em>países</em></div><span>Ecuador, Latinoamérica y Estados Unidos</span></div>
+        </div>
+        <div class="scroll-cue">Desliza</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="track">
+    <span>Cierre de ventas</span><span>Neuroventas</span><span>Gerencia comercial</span><span>Manejo de objeciones</span><span>Equipos de alto rendimiento</span><span>Conferencias</span><span>Ventas por WhatsApp</span><span>Coaching ejecutivo</span>
+    <span>Cierre de ventas</span><span>Neuroventas</span><span>Gerencia comercial</span><span>Manejo de objeciones</span><span>Equipos de alto rendimiento</span><span>Conferencias</span><span>Ventas por WhatsApp</span><span>Coaching ejecutivo</span>
+  </div></div>
+
+  <section class="sec" aria-labelledby="h-quien">
+    <div class="wrap two-col">
+      <span class="label"><span class="n">(01)</span>Quiénes somos</span>
+      <div>
+        <p class="grande" id="h-quien">Rolando Constante forma vendedores desde 1998. <span class="apagado">Creó un método propio en su primera gerencia comercial, porque los que encontró no funcionaban en nuestro mercado.</span> Hoy lo enseña en empresas de todo el país.</p>
+        <a class="link" href="#rolando">Conocer a Rolando</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="servicios" style="padding-top:0" aria-labelledby="h-serv">
+    <div class="wrap">
+      <div class="sec-top">
+        <div><span class="label"><span class="n">(02)</span>Servicios</span><h2 id="h-serv" style="margin-top:22px">¿Cómo podemos <em>ayudarte?</em></h2></div>
+        <p>La mayoría de nuestros clientes son empresas que quieren un equipo que cierre más. Si vendes por tu cuenta, también hay un camino para ti.</p>
+      </div>
+      <div class="filas">
+        <a class="fila" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20quiero%20capacitar%20a%20mi%20equipo%20de%20ventas" target="_blank" rel="noopener"><span class="i">01</span><div><span class="para">Para empresas</span><h3>Capacitación in-company</h3></div><p>Diagnóstico y programa a medida para tu equipo, presencial u online.</p><span class="circ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12 12 4M5 4h7v7"/></svg></span></a>
+        <a class="fila" href="#servicios"><span class="i">02</span><div><span class="para">Para empresas</span><h3>Gerencia comercial y coaching</h3></div><p>Programa ejecutivo y coaching uno a uno para quien lidera el equipo.</p><span class="circ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12 12 4M5 4h7v7"/></svg></span></a>
+        <a class="fila" href="#conferencias"><span class="i">03</span><div><span class="para">Para eventos</span><h3>Conferencias</h3></div><p>«El vendedor infalible», para convenciones y lanzamientos.</p><span class="circ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12 12 4M5 4h7v7"/></svg></span></a>
+        <a class="fila" href="#servicios"><span class="i">04</span><div><span class="para">Para vendedores</span><h3>Escuela de Ventas online</h3></div><p>Las siete fases del método, a tu ritmo y desde cualquier país.</p><span class="circ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12 12 4M5 4h7v7"/></svg></span></a>
+        <a class="fila" href="#servicios"><span class="i">05</span><div><span class="para">Para vendedores</span><h3>Certificación profesional</h3></div><p>Certificación en Ventas Profesionales con registro SENESCYT.</p><span class="circ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12 12 4M5 4h7v7"/></svg></span></a>
+        <a class="fila" href="#servicios"><span class="i">06</span><div><span class="para">Para vendedores</span><h3>Cierre a la N</h3></div><p>Curso intensivo para quien pierde ventas en el último paso.</p><span class="circ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12 12 4M5 4h7v7"/></svg></span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="padding-top:0" aria-labelledby="h-frases">
+    <div class="wrap">
+      <div class="sec-top">
+        <div><span class="label"><span class="n">(03)</span>Lo que escuchamos</span><h2 id="h-frases" style="margin-top:22px">¿Tu equipo dice <em>esto?</em></h2></div>
+        <p>Son las frases que más aparecen cuando una empresa nos llama. Ninguna se arregla con motivación; se arreglan con una forma clara de vender.</p>
+      </div>
+      <div class="frases">
+        <div class="frase"><q>Lo voy a pensar</q><p>Y nunca volvió. Faltó crear urgencia y resolver la duda real antes de dar el precio.</p></div>
+        <div class="frase"><q>Tuve que darle descuento</q><p>Cuando el valor no quedó claro, lo único que queda es bajar el precio.</p></div>
+        <div class="frase"><q>Me dejó en visto</q><p>Sin un seguimiento planificado, el interés se enfría en 48 horas.</p></div>
+        <div class="frase"><q>Cada uno vende a su manera</q><p>El resultado depende del talento de cada vendedor y no se puede repetir ni medir.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec panel" id="metodo" aria-labelledby="h-metodo">
+    <div class="wrap sticky-grid">
+      <div class="stick">
+        <span class="label"><span class="n">(04)</span>El método</span>
+        <h2 id="h-metodo" style="margin-top:22px">Siete fases, <em>en este orden</em></h2>
+        <div class="sigla">PAICODOCI</div>
+        <p>Rolando lo construyó en su primera gerencia comercial y lo ha ajustado durante 28 años, en más de diez industrias. Cada fase tiene ejercicios y una forma de medirla.</p>
+        <a class="btn oro" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20quiero%20conocer%20el%20M%C3%A9todo%20PAICODOCI" target="_blank" rel="noopener">Quiero aplicarlo en mi equipo <svg class="flecha" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+      </div>
+      <ol class="steps">
+        <li><b>P</b><div><h3>Personalidad</h3><p>La mentalidad y los hábitos que separan a quien vende de quien solo informa.</p></div></li>
+        <li><b>A</b><div><h3>Atención</h3><p>Ganar los primeros segundos con el cliente, en persona y en redes.</p></div></li>
+        <li><b>I</b><div><h3>Interés</h3><p>Hacer que el cliente quiera seguir escuchando.</p></div></li>
+        <li><b>CO</b><div><h3>Comunicación</h3><p>Explicar el valor en el idioma del cliente, no en el del catálogo.</p></div></li>
+        <li><b>D</b><div><h3>Deseo</h3><p>Conectar con lo que el cliente quiere lograr y con lo que teme perder.</p></div></li>
+        <li><b>O</b><div><h3>Objeción</h3><p>Responder dudas y precio sin pelear ni regalar margen.</p></div></li>
+        <li><b>CI</b><div><h3>Cierre</h3><p>Pedir la venta con seguridad y cobrar lo justo.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-res">
+    <div class="wrap">
+      <div class="sec-top">
+        <div><span class="label"><span class="n">(05)</span>Resultados</span><h2 id="h-res" style="margin-top:22px">Lo que cambia <em>con método</em></h2></div>
+        <p>Medimos antes y después de cada programa. Tres ejemplos del tipo de resultado que mostraremos.</p>
+      </div>
+      <div class="resultados">
+        <div class="res"><div class="num">+38<em>%</em></div><h3>más cierres en 90 días</h3><p>22 asesores de un concesionario. Se trabajó la fase de objeción y el seguimiento a cotizaciones abiertas.</p><small>Automotriz · Quito</small></div>
+        <div class="res"><div class="num">+17<em>%</em></div><h3>en el ticket promedio</h3><p>Cadena de 40 farmacias. El equipo aprendió a recomendar el complemento correcto sin sonar insistente.</p><small>Retail farmacéutico</small></div>
+        <div class="res"><div class="num">2,1<em>×</em></div><h3>contactos convertidos en clientes</h3><p>Proveedor de internet que vende por WhatsApp. Guiones nuevos para el primer mensaje y el cierre.</p><small>Telecomunicaciones · Guayaquil</small></div>
+      </div>
+      <p class="nota">Casos de ejemplo para la vista previa. En el sitio final irán casos reales con autorización de cada empresa.</p>
+    </div>
+  </section>
+
+  <div class="marquee clientes" aria-label="Clientes"><div class="track">
+    <span>Kia</span><span>Chevrolet</span><span>Nissan</span><span>Renault</span><span>Changan</span><span>Great Wall</span><span>Fybeca</span><span>Pharmacy's</span><span>Netlife</span><span>Hampton Inn</span>
+    <span aria-hidden="true">Kia</span><span aria-hidden="true">Chevrolet</span><span aria-hidden="true">Nissan</span><span aria-hidden="true">Renault</span><span aria-hidden="true">Changan</span><span aria-hidden="true">Great Wall</span><span aria-hidden="true">Fybeca</span><span aria-hidden="true">Pharmacy's</span><span aria-hidden="true">Netlife</span><span aria-hidden="true">Hampton Inn</span>
+  </div></div>
+
+  <section class="sec" id="rolando" aria-labelledby="h-bio">
+    <div class="wrap two-col" style="grid-template-columns:1fr 1fr;align-items:center">
+      <div class="collage">
+        <div class="ft alta"><img src="img/taller-empresa.webp" alt="Rolando Constante dictando un taller comercial" loading="lazy"></div>
+        <div class="ft baja"><img src="img/conferencia-podio.webp" alt="Rolando Constante en una conferencia" loading="lazy"></div>
+      </div>
+      <div class="bio">
+        <span class="label"><span class="n">(06)</span>Sobre Rolando</span>
+        <h2 id="h-bio" style="margin:22px 0 26px">Vendió puerta a puerta. Hoy <em>entrena</em> a los equipos que venden.</h2>
+        <p>En su primera gerencia comercial necesitaba que su equipo vendiera más y no encontró un método que funcionara aquí, así que escribió el suyo. Desde 1998 lo enseña en empresas de automotriz, retail, salud y telecomunicaciones.</p>
+        <ul class="creds">
+          <li><b>Honoris Causa</b>Universidad Anglohispano Mexicana, 2023</li>
+          <li><b>SENESCYT</b>Certificación en Ventas Profesionales</li>
+          <li><b>Coach ejecutivo</b>Club de Líderes Constante</li>
+          <li><b>Fundador</b>Constante Instituto de Prosperidad</li>
+        </ul>
+        <a class="link" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20vi%20tu%20perfil%20en%20la%20web" target="_blank" rel="noopener">Escribir a Rolando</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec quote-sec" style="padding-top:40px" aria-labelledby="h-tes">
+    <div class="wrap">
+      <span class="label" id="h-tes"><span class="n">(07)</span>En palabras de los clientes</span>
+      <div class="q-wrap">
+        <figure class="q-slide activo"><blockquote>«Fue un entrenamiento de excelencia. Superó mis expectativas: entretenido, dinámico y justo lo que buscaba para mi equipo.»</blockquote><figcaption><img src="img/t-rommel.webp" alt=""><div><b>Rommel Ronquillo</b><span>Jefe de Servicio al Cliente · Netlife</span></div></figcaption></figure>
+        <figure class="q-slide"><blockquote>«Sí, la recomendaría para otras empresas. Tienen una muy buena metodología para llegar a la gente.»</blockquote><figcaption><img src="img/t-monica.webp" alt=""><div><b>Mónica Olmedo</b><span>Directora de Talento Humano · Pa.Co</span></div></figcaption></figure>
+        <figure class="q-slide"><blockquote>«Estamos muy felices, todos los directivos, por haber invertido en esta capacitación.»</blockquote><figcaption><img src="img/t-fernando.webp" alt=""><div><b>Fernando Vera</b><span>Fundador y Gerente · Fantasías Vera</span></div></figcaption></figure>
+      </div>
+      <div class="q-nav" role="tablist" aria-label="Testimonios">
+        <button type="button" aria-label="Testimonio 1" aria-current="true"></button>
+        <button type="button" aria-label="Testimonio 2"></button>
+        <button type="button" aria-label="Testimonio 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="conferencias" aria-labelledby="h-conf">
+    <div class="wrap conf">
+      <div class="arco"><img src="img/conferencia-podio.webp" alt="Rolando Constante en el podio durante una conferencia" loading="lazy"></div>
+      <div>
+        <span class="label"><span class="n">(08)</span>Conferencias</span>
+        <h2 id="h-conf" style="margin:22px 0 26px">«El vendedor <em>infalible</em>»</h2>
+        <p>La conferencia que Rolando lleva a convenciones de ventas, lanzamientos y eventos de fin de año. De 60 a 90 minutos, adaptada al sector y a lo que el equipo necesita escuchar ese día.</p>
+        <p>Disponible en Ecuador, Latinoamérica y Estados Unidos.</p>
+        <a class="btn" style="margin-top:12px" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20quiero%20cotizar%20una%20conferencia" target="_blank" rel="noopener">Consultar fecha para mi evento <svg class="flecha" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="guias" style="padding-top:0" aria-labelledby="h-guias">
+    <div class="wrap">
+      <div class="sec-top">
+        <div><span class="label"><span class="n">(09)</span>Guías gratuitas</span><h2 id="h-guias" style="margin-top:22px">Lo que enseñamos, <em>gratis</em></h2></div>
+        <p>Artículos con la experiencia de Rolando. Responden lo que los vendedores buscan en Google y en las inteligencias artificiales.</p>
+      </div>
+      <div class="guias">
+        <a class="guia" href="#guias"><span class="meta">Objeciones · 6 min</span><h3>Qué responder cuando el cliente dice «lo voy a pensar»</h3><p>Las tres preguntas que destraban la decisión sin presionar.</p></a>
+        <a class="guia" href="#guias"><span class="meta">Gerencia comercial · 9 min</span><h3>Cómo capacitar a un equipo de ventas en 90 días</h3><p>Un plan semana a semana, con qué medir en cada etapa.</p></a>
+        <a class="guia" href="#guias"><span class="meta">Cierre · 5 min</span><h3>Cómo cerrar una venta sin dar descuentos</h3><p>Cuándo pedir la venta y cómo sostener el precio.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="padding-top:0" aria-labelledby="h-faq">
+    <div class="wrap two-col">
+      <div><span class="label"><span class="n">(10)</span>Preguntas frecuentes</span><h2 id="h-faq" style="margin-top:22px">Antes de <em>contratar</em></h2></div>
+      <div>
+        <details open><summary>¿Cuánto dura una capacitación para empresas?</summary><p>Depende del diagnóstico. Un programa típico va de 4 a 12 semanas, con práctica y seguimiento de resultados. También hay talleres intensivos de un día.</p></details>
+        <details><summary>¿Es presencial o en línea?</summary><p>Las dos. Presencial en Ecuador y en eventos en Latinoamérica y Estados Unidos; en línea para equipos en varias ciudades o países.</p></details>
+        <details><summary>¿La certificación tiene registro oficial?</summary><p>Sí. La Certificación en Ventas Profesionales está registrada en la SENESCYT.</p></details>
+        <details><summary>¿Cómo se mide el resultado?</summary><p>Antes de empezar fijamos dos o tres indicadores con la gerencia, como la tasa de cierre o el ticket promedio, y los comparamos al terminar.</p></details>
+        <details><summary>¿Trabajan con empresas pequeñas?</summary><p>Sí. Hay programas para equipos desde cinco vendedores, y la Escuela online para quien vende solo.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel cierre" aria-labelledby="h-cierre">
+    <div class="wrap">
+      <div>
+        <span class="label"><span class="n">(11)</span>Tu primer paso</span>
+        <h2 id="h-cierre" style="margin-top:22px">Empezar es más <em>sencillo de lo que crees</em></h2>
+        <p>Pide el diagnóstico gratuito de tu equipo. Te decimos dónde se están perdiendo ventas y qué programa te conviene, aunque decidas no contratarnos.</p>
+        <ol class="pasos-c">
+          <li><b>01</b><div><h3>Escríbenos</h3><p>Por WhatsApp o con el formulario, en un minuto.</p></div></li>
+          <li><b>02</b><div><h3>Diagnóstico</h3><p>Veinte minutos con Rolando, por videollamada.</p></div></li>
+          <li><b>03</b><div><h3>Propuesta</h3><p>Un programa a la medida de tu equipo y de tus metas.</p></div></li>
+        </ol>
+        <a class="btn oro" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20quiero%20el%20diagn%C3%B3stico%20gratis" target="_blank" rel="noopener">Escribir por WhatsApp <svg class="flecha" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <p class="tel">WhatsApp +593 99 955 1021</p>
+      </div>
+      <form class="form" id="form-diag" novalidate>
+        <h3>O déjanos tus datos y te <em>llamamos</em></h3>
+        <label for="f-nombre">Nombre<input id="f-nombre" name="nombre" autocomplete="name" placeholder="María Pérez"></label>
+        <label for="f-empresa">Empresa<input id="f-empresa" name="empresa" autocomplete="organization" placeholder="Distribuidora Andina"></label>
+        <label for="f-tam">Tamaño del equipo de ventas<select id="f-tam" name="tam"><option>1 a 5 vendedores</option><option selected>6 a 20 vendedores</option><option>21 a 50 vendedores</option><option>Más de 50</option></select></label>
+        <label for="f-wa">WhatsApp<input id="f-wa" name="wa" inputmode="tel" placeholder="+593 9…"></label>
+        <button class="btn" type="submit">Quiero mi diagnóstico <svg class="flecha" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+        <div class="ok" id="f-ok" hidden>Vista previa: en el sitio real este formulario enviará la solicitud y registrará el contacto en Google Analytics.</div>
+        <small>Respondemos en menos de 24 horas hábiles.</small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="g">
+      <div><img class="logo" src="img/logo-constante.png" alt="Constante · Rolando Constante" width="640" height="75"><p>Capacitación comercial para empresas y vendedores en Ecuador, Latinoamérica y Estados Unidos.</p></div>
+      <div><h4>Empresas</h4><ul><li><a href="#servicios">Capacitación in-company</a></li><li><a href="#servicios">Gerencia comercial</a></li><li><a href="#conferencias">Conferencias</a></li></ul></div>
+      <div><h4>Vendedores</h4><ul><li><a href="#servicios">Escuela de Ventas</a></li><li><a href="#servicios">Certificación SENESCYT</a></li><li><a href="#guias">Guías gratuitas</a></li></ul></div>
+      <div><h4>Contacto</h4><ul><li>WhatsApp +593 99 955 1021</li><li>coordinador@constante.ec</li><li>Quito, Ecuador</li></ul></div>
+    </div>
+    <div class="legal"><span>© 2027 Rolando Constante · Constante Instituto de Prosperidad</span><span>Diseño: Creative Web</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/593999551021?text=Hola%20Rolando%2C%20vengo%20de%20la%20web" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">¿Hablamos? <i><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg></i></a>
+
+<script>
+document.getElementById('form-diag').addEventListener('submit',function(e){e.preventDefault();document.getElementById('f-ok').hidden=false;});
+(function(){
+  var s=[].slice.call(document.querySelectorAll('.q-slide')),b=[].slice.call(document.querySelectorAll('.q-nav button')),i=0,t;
+  function ver(n){i=n;s.forEach(function(x,k){x.classList.toggle('activo',k===n)});b.forEach(function(x,k){x.setAttribute('aria-current',k===n?'true':'false')});}
+  b.forEach(function(x,k){x.addEventListener('click',function(){ver(k);clearInterval(t);t=setInterval(sig,7000);});});
+  function sig(){ver((i+1)%s.length);}
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){t=setInterval(sig,7000);}
+})();
+</script>
+</body>
+</html>

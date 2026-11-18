@@ -92,6 +92,23 @@ deployment:
     # Permisos Rolando Constante
     - chmod 755 $BASEPATH/rolando-constante/abril-2026
     - chmod 644 $BASEPATH/rolando-constante/abril-2026/*.php
+    # Rolando Constante — propuesta web 2027 (proforma 1-2-1338), con clave
+    - /bin/mkdir -p $BASEPATH/rolando-constante/propuesta-noviembre-2026/pdf
+    - /bin/cp -f rolando-constante/propuesta-noviembre-2026/.htaccess $BASEPATH/rolando-constante/propuesta-noviembre-2026/
+    - /bin/cp -f rolando-constante/propuesta-noviembre-2026/login.php $BASEPATH/rolando-constante/propuesta-noviembre-2026/
+    - /bin/cp -f rolando-constante/propuesta-noviembre-2026/index.php $BASEPATH/rolando-constante/propuesta-noviembre-2026/
+    - /bin/cp -f rolando-constante/propuesta-noviembre-2026/logout.php $BASEPATH/rolando-constante/propuesta-noviembre-2026/
+    - /bin/cp -f rolando-constante/propuesta-noviembre-2026/logo-constante.png $BASEPATH/rolando-constante/propuesta-noviembre-2026/
+    - /bin/cp -f rolando-constante/propuesta-noviembre-2026/pdf/proforma-1-2-1338.pdf $BASEPATH/rolando-constante/propuesta-noviembre-2026/pdf/
+    - chmod 755 $BASEPATH/rolando-constante/propuesta-noviembre-2026 $BASEPATH/rolando-constante/propuesta-noviembre-2026/pdf
+    - chmod 644 $BASEPATH/rolando-constante/propuesta-noviembre-2026/*.php $BASEPATH/rolando-constante/propuesta-noviembre-2026/.htaccess $BASEPATH/rolando-constante/propuesta-noviembre-2026/logo-constante.png $BASEPATH/rolando-constante/propuesta-noviembre-2026/pdf/*.pdf
+    # Rolando Constante — borrador de diseño 2027, público sin clave (noindex)
+    - /bin/mkdir -p $BASEPATH/rolando-constante/diseno-2027/img
+    - /bin/cp -f rolando-constante/diseno-2027/index.html $BASEPATH/rolando-constante/diseno-2027/
+    - /bin/cp -f rolando-constante/diseno-2027/.htaccess $BASEPATH/rolando-constante/diseno-2027/
+    - /bin/cp -rf rolando-constante/diseno-2027/img/. $BASEPATH/rolando-constante/diseno-2027/img/
+    - chmod 755 $BASEPATH/rolando-constante/diseno-2027 $BASEPATH/rolando-constante/diseno-2027/img
+    - chmod 644 $BASEPATH/rolando-constante/diseno-2027/index.html $BASEPATH/rolando-constante/diseno-2027/.htaccess $BASEPATH/rolando-constante/diseno-2027/img/*
     # Crear estructura Kwoof Pet Care
     - /bin/mkdir -p $BASEPATH/kwoof-petcare/abril-2026
     - chmod 755 $BASEPATH/kwoof-petcare
