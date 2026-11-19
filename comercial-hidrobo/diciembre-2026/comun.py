@@ -131,16 +131,26 @@ CIERRE = open(os.path.join(AQUI, "cierre-ventas.html"), encoding="utf-8").read()
 # para que no salgan seguidos seis de mantenimiento o diez de modelos.
 _BLOQUES = [list(range(1, 7)), list(range(7, 15)), [15, 16, 34, 35, 36], list(range(17, 34))]
 _ORDEN = [n for _, n in sorted((((i + 0.5) / len(b), k), n) for k, b in enumerate(_BLOQUES) for i, n in enumerate(b))]
-_SLOTS = sorted([f"2026-12-{d:02d}T08:00:00" for d in range(1, 32)] +
-                [f"2026-12-{d:02d}T15:00:00" for d in (5, 11, 17, 23, 29)])
+# Pedido del usuario (19-nov): fechar los 36 entre el 1 y el 20 de noviembre, con horas variadas.
+# 16 días con 2 posts y 4 días con 1. Las fechas pasadas se publican al subir; las futuras quedan programadas.
+_HORAS_A = ["07:42", "08:15", "09:05", "09:38", "10:12", "10:47", "11:20", "11:53", "12:31", "13:06"]
+_HORAS_B = ["14:18", "15:02", "15:44", "16:27", "17:09", "17:51", "18:36", "19:14", "20:03", "20:41"]
+_SLOTS = []
+for d in range(1, 21):
+    _SLOTS.append(f"2026-11-{d:02d}T{_HORAS_A[(d * 3) % 10]}:00")
+    if d not in (7, 14, 19, 20):
+        _SLOTS.append(f"2026-11-{d:02d}T{_HORAS_B[(d * 7) % 10]}:00")
+_SLOTS.sort()
 FECHAS = dict(zip(_ORDEN, _SLOTS))
 
 def guarda(spec):
     """Escribe posts/spec-<slug>.json. El spec lleva: n (número del plan), title, slug, date,
     categories, excerpt, meta{_yoast_wpseo_title,_yoast_wpseo_metadesc,_yoast_wpseo_focuskw},
     content (debe terminar con CIERRE) y fuentes (lista de URLs de donde salieron los datos)."""
-    spec.setdefault("status", "future")
-    spec.setdefault("date", FECHAS[spec["n"]])
+    import datetime
+    spec["date"] = FECHAS[spec["n"]]
+    ahora = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).replace(tzinfo=None)
+    spec["status"] = "publish" if datetime.datetime.fromisoformat(spec["date"]) <= ahora else "future"
     assert spec["content"].rstrip().endswith("<!-- /cta-ch-v1 -->") or "cta-ch-v1" in spec["content"], "falta CIERRE"
     f = os.path.join(AQUI, "posts", f"spec-{spec['slug']}.json")
     json.dump(spec, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
