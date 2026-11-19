@@ -104,3 +104,26 @@ taller/repuestos + 1 del CTA genérico del blog). `form_taller_cita`: 24 en sep 
 por debajo del rango habitual (20-27). Los CTAs se dejan (no estorban), pero no hay que
 esperar más de ellos: la siguiente pieza tiene que ser otra (ver
 `registro-mensual/2026-11-noviembre.md`).
+
+### 2026-11-19 — Hallazgo: el formulario de reserva rechaza a la mayoría
+
+LiteSpeed sirve `/solicitar-cita-taller-mecanico/` desde caché (`x-litespeed-cache: hit`)
+con el `_wpnonce` de JetFormBuilder (form 12079, `load_nonce: render`) escrito en el HTML.
+WordPress vence ese nonce en 12-24 h: quien recibe una copia vieja envía el formulario y
+cae en `?status=nonce_failed`. La cita no se registra.
+
+| Mes | Usuarios rechazados (`nonce_failed`) | Citas completadas (`/gracias-cita-taller/`) |
+|---|---:|---:|
+| ago-2026 | 1 | 7 |
+| oct-2026 | 7 | 9 |
+| nov-2026 (1-18) | 11 | 7 |
+
+Mismo problema en el formulario de repuestos (8824, página 8816), con menos volumen.
+**Parte de la caída de citas que se atribuyó al contenido es este error.** También explica
+por qué `form_taller_cita` (clic en enviar) supera a las visitas a gracias.
+
+**Arreglo preparado** (`embudo-taller-2026-11/arreglar_nonce.py`, con `--dry-run` y
+`--revertir`): `load_nonce = "hide"` en 12079 y 8824 + re-guardar las páginas 8753 y 8816
+para purgar LiteSpeed. El reCAPTCHA v3 sigue filtrando spam. La opción `csrf` de JFB no
+sirve (su token también va en el HTML). Alternativa equivalente a mano: LiteSpeed →
+Caché → Excluir → «No cachear URIs» con las dos páginas. **Pendiente de aprobación.**
