@@ -135,3 +135,20 @@ ninguna copia vieja en caché puede volver a fallar. No se hizo un envío de pru
 al correo del taller como cita real).
 **Medir:** visitas a `?status=nonce_failed` deben caer a 0, y `/gracias-cita-taller/` debería
 acercarse a `form_taller_cita`. Revisar a fin de noviembre y en diciembre.
+
+### 2026-11-19 — Formulario de reserva dentro de 15 posts de mantenimiento
+
+`embudo-taller-2026-11/form_en_posts.py` (marcador `cw-form-cita-v1`, respaldos en `antes/`,
+`--revertir`): el formulario 12079 va embebido justo después del recuadro de WhatsApp a mitad
+de texto, en un bloque con ancla `#reserva-taller`. El enlace «reserve en línea» del recuadro
+ahora baja al formulario en vez de abrir otra página. Mismo formulario: el taller recibe el
+mismo correo y la persona termina en `/gracias-cita-taller/`.
+
+Posts (por visitas GA4 90 d): 11364 Toyota (1.095), 8162 costos por marca, 8126 cambio de
+aceite, 9301 Fiat, 8589 consecuencias, 8583 30.000 km, 8966 Renault, 11819 híbrido costos,
+8177 20.000 km, 11354 Tulcán, 9258 Nissan, 9233 Stepway, 9556 híbrido, 12438 Renault km,
+8213 Logan. **Verificado en vivo 15/15.**
+
+**Medir:** el evento `form_taller_cita` solo cuenta envíos en la página de reserva (regla de
+GA4 por `page_location`). Los envíos desde posts salen como `form_submit`; para atribuirlos,
+mirar `/gracias-cita-taller/` con `pageReferrer` = URL del post.

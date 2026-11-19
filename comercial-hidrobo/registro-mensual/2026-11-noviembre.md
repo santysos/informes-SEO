@@ -164,6 +164,14 @@ directo a la página de reserva y dos de cada tres no vienen de Google. Oportuni
 «mantenimiento toyota» (~990 impresiones, pos. 9-13), «mantenimiento renault» (~650,
 pos. 11-27), «primer mantenimiento auto nuevo» (585, pos. 20, 0 clics).
 
+### 19-nov — Formulario de reserva dentro de los posts de mantenimiento
+
+Antes, quien leía un post de mantenimiento tenía que ir a otra página para reservar. Ahora el
+formulario de cita está **dentro de 15 posts** con más visitas (encabeza la tabla de
+mantenimiento Toyota, con 1.095 visitas en 90 días), justo después del recuadro de WhatsApp a
+mitad de texto. Es el mismo formulario: el taller recibe las citas igual que antes.
+Verificado en vivo en los 15. **A medir** desde el 19-nov: citas que entran desde cada post.
+
 ## 4. Pendiente
 
 - Modelos nuevos sin ningún post: Omoda | Jaecoo (desde sep-2026), Chery Tiggo Super Hybrid
@@ -173,5 +181,5 @@ pos. 11-27), «primer mantenimiento auto nuevo» (585, pos. 20, 0 clics).
   eléctricos ecuador», «autos electricos ecuador», «carros chinos en ecuador», «marcas de
   carros chinos», y clics «vengo de la guía…» en GA4.
 - Pedir indexación en Search Console de 9405, 9472 y 9477 (la API no lo permite).
-- Embudo de taller: poner el formulario de reserva dentro de los posts de mantenimiento con más
-  visitas (Toyota, Renault, cambio de aceite, 30.000 km) y subir mantenimiento Toyota/Renault.
+- Embudo de taller: subir las páginas de mantenimiento Toyota y Renault (posición 9-27) y medir
+  a fin de mes las citas que entran desde los posts.
