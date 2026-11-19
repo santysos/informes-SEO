@@ -59,6 +59,31 @@ EN_CURSO = [
     ("Imbabura es emprendedora", "desde 17 nov", 2, 1.60, 2462, 2546, 2502, 1119),
     ("Vamos a sanar los ríos de Imbabura", "desde 17 nov", 2, 1.37, 1791, 1879, 1820, 535),
 ]
+# Captura del Administrador de anuncios del 19-nov-2026 a las 06:51 (las tres a la misma hora).
+# La de $14 diarios no aparece en la cuenta consultada por API: se usan los números de la captura.
+CAPTURA = [  # (título, presupuesto, gasto, alcance, reproducciones, thruplays)
+    ("Imbabura es un escenario pot…", "$14 diarios", 2.71, 2570, 2829, 407),
+    ("Imbabura es emprendedora", "$1 diario", 1.48, 2217, 2709, 1012),
+    ("Vamos a sanar los ríos de Imbabura", "$1 diario", 1.29, 1679, 1828, 505),
+]
+
+def por_monto():
+    """Filas: gasto diario → costo por 1.000 personas y veces que vio cada persona."""
+    def agg(ads):
+        g = sum(x[3] for x in ads); al = sum(x[4] for x in ads); im = sum(x[5] for x in ads)
+        return g / al * 1000, im / al
+    alto = GRUPOS["alto"]["ads"]
+    c50 = agg([x for x in alto if x[3] > 40]); c30 = agg([x for x in alto if x[3] <= 40])
+    c12 = agg(GRUPOS["medio"]["ads"]); c1 = agg(EN_CURSO)
+    ces = CAPTURA[0]
+    return [
+        ("$1 diario", "Jomar · 2 pautas en curso", c1[0], c1[1]),
+        ("$12 en 1 día", "Jomar · 5 pautas", c12[0], c12[1]),
+        ("$14 diarios", "Jomar · pauta del 18-nov (captura)", ces[2] / ces[3] * 1000, None),
+        ("$30 en 1 día", "Jomar · 7 pautas", c30[0], c30[1]),
+        ("$50 en 1 día", "Jomar · 1 pauta", c50[0], c50[1]),
+    ]
+
 # El grupo "repartido" es pauta de OTRA página de la región (sep 2026). Se usa solo como
 # referencia de métricas: en el informe aparecen sus totales, nunca sus títulos.
 
@@ -179,6 +204,16 @@ def index():
     costo_ej = {g: T[g]["c_mil"] * EJ / 1000 for g in ORDEN}
     cards = {g: "".join(card(ad, GRUPOS[g]["color"]) for ad in GRUPOS[g]["ads"]) for g in ("alto", "medio")}
     curso = "".join(card(ad, "#34d399") for ad in EN_CURSO)
+    monto = "".join(f"""<tr><td class="py-2.5 pr-3 font-semibold text-white">{m_}</td><td class="py-2.5 px-2 text-slate-400">{d_}</td>
+<td class="py-2.5 px-2 text-right font-mono">{usd(c_)}</td><td class="py-2.5 pl-2 text-right font-mono">{n(f_, 2) if f_ else '—'}</td></tr>""" for m_, d_, c_, f_ in FILAS)
+    def caso_card(i):
+        t_, p_, g_, al_, rp_, tp_ = CAPTURA[i]; col = "#f87171" if i == 0 else "#34d399"
+        return f"""<div class="rounded-xl p-4" style="background:rgba(255,255,255,.03);border:1px solid {col}55">
+<p class="text-xs mb-1" style="color:{col}">{p_}</p><p class="font-semibold text-white text-sm mb-3 leading-snug">{t_}</p>
+<div class="grid grid-cols-2 gap-2"><div><p class="num">{n(rp_)}</p><p class="lbl">Reproducciones</p></div><div><p class="num">{n(al_)}</p><p class="lbl">Alcance</p></div>
+<div><p class="num">{n(tp_)}</p><p class="lbl">ThruPlays</p></div><div><p class="num">{usd(g_)}</p><p class="lbl">gastado</p></div></div>
+<p class="font-mono text-xs mt-3" style="color:{col}">{usd(g_ / al_ * 1000)} / 1.000 personas</p></div>"""
+    caso = "".join(caso_card(i) for i in range(3))
     return f"""<?php
 session_start();
 if (empty($_SESSION['{SES}'])) {{ header('Location: login.php'); exit; }}
@@ -190,6 +225,7 @@ if (empty($_SESSION['{SES}'])) {{ header('Location: login.php'); exit; }}
     <div class="flex gap-1 overflow-x-auto py-3 text-[13px] font-medium">
       <a href="#resumen" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Resumen</a>
       <a href="#comparacion" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Comparación</a>
+      <a href="#monto" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Monto diario</a>
       <a href="#detalle" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Por publicación</a>
       <a href="#porque" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Por qué pasa</a>
       <a href="#recomendacion" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Recomendación</a>
@@ -203,23 +239,24 @@ if (empty($_SESSION['{SES}'])) {{ header('Location: login.php'); exit; }}
 <header class="pt-14 pb-10">
   <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-8 w-auto mb-5">
   <p class="font-mono text-xs uppercase tracking-widest text-sky-400 mb-3">Jomar · Informe de pauta en Meta (Facebook e Instagram)</p>
-  <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-4">Repartir la pauta en varios días<br class="hidden md:block"> rinde más que gastarla en uno</h1>
-  <p class="text-slate-400 max-w-2xl">Análisis de las {a['n'] + m['n'] + len(EN_CURSO)} publicaciones de Jomar pautadas entre septiembre y noviembre de 2026, comparadas con una referencia de pauta repartida en varios días. Datos de la cuenta publicitaria al {FECHA}.</p>
+  <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-4">El problema no son los días:<br class="hidden md:block"> es cuánto se gasta por día</h1>
+  <p class="text-slate-400 max-w-2xl">Análisis de las {a['n'] + m['n'] + len(EN_CURSO) + 1} publicaciones de Jomar pautadas entre septiembre y noviembre de 2026, comparadas con una referencia de pauta repartida en varios días. Datos de la cuenta publicitaria al {FECHA}.</p>
 </header>
 
 <section id="resumen" class="mb-16">
   <div class="grid md:grid-cols-3 gap-4 mb-6">
-    <div class="card rounded-2xl p-6"><p class="text-xs text-slate-400 mb-2">Costo por 1.000 personas · 1 día, $30-50</p>
+    <div class="card rounded-2xl p-6"><p class="text-xs text-slate-400 mb-2">Costo por 1.000 personas · $30-50 por día</p>
       <p class="font-display text-4xl font-bold" style="color:{GRUPOS['alto']['color']}">{usd(a['c_mil'])}</p></div>
     <div class="card rounded-2xl p-6"><p class="text-xs text-slate-400 mb-2">Costo por 1.000 personas · referencia, varios días a ~$1 diario</p>
       <p class="font-display text-4xl font-bold" style="color:{GRUPOS['repartido']['color']}">{usd(r['c_mil'])}</p></div>
     <div class="card rounded-2xl p-6 border-sky-500/40"><p class="text-xs text-slate-400 mb-2">Diferencia</p>
-      <p class="font-display text-4xl font-bold text-white">{n(veces, 1)} veces</p><p class="text-sm text-slate-400 mt-1">más caro llegar a cada persona con la pauta de 1 día</p></div>
+      <p class="font-display text-4xl font-bold text-white">{n(veces, 1)} veces</p><p class="text-sm text-slate-400 mt-1">más caro llegar a cada persona gastando $30-50 por día</p></div>
   </div>
   <ul class="space-y-2 text-slate-300">
-    <li>• Las pautas de <strong>$30 a $50 en un solo día</strong> fueron las más caras: cada dólar llegó a <strong>{n(a['p_dolar'])} personas</strong>.</li>
-    <li>• En la referencia de <strong>~$1 diario por 6 días</strong>, cada dólar llegó a <strong>{n(r['p_dolar'])} personas</strong>, y las dos pautas repartidas de Jomar que están corriendo van por el mismo camino.</li>
-    <li>• <strong>Recomendación:</strong> pautar cada publicación entre <strong>$3 y $5 diarios durante 5 a 7 días</strong>, siempre con fecha de cierre.</li>
+    <li>• <strong>Pasando los ~$12 por día, cada persona sale mucho más cara.</strong> Hasta $12 diarios, llegar a 1.000 personas costó entre {usd(FILAS[1][2])} y {usd(FILAS[0][2])}; desde $14 diarios, entre {usd(FILAS[2][2])} y {usd(FILAS[4][2])}.</li>
+    <li>• <strong>Y el anuncio le llega más veces a la misma gente:</strong> cada persona lo vio {n(FILAS[0][3], 2)} veces con $1 diario y {n(a['frec'], 2)} con $30-50 diarios.</li>
+    <li>• <strong>La pauta de $14 diarios del 18-nov lo confirma:</strong> gastó el doble que la de $1 diario de «Imbabura es emprendedora», llegó casi a la misma gente ({n(CAPTURA[0][3])} vs {n(CAPTURA[1][3])}) y tuvo la mitad de reproducciones completas ({n(CAPTURA[0][5])} vs {n(CAPTURA[1][5])}).</li>
+    <li>• <strong>Recomendación:</strong> no pasar de <strong>$3 a $5 diarios por publicación</strong> y, si hace falta más alcance, sumar días en vez de subir el monto.</li>
   </ul>
 </section>
 
@@ -251,6 +288,27 @@ if (empty($_SESSION['{SES}'])) {{ header('Location: login.php'); exit; }}
   </div>
 </section>
 
+<section id="monto" class="mb-16">
+  <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Lo que cambia es el monto diario</h2>
+  <p class="text-slate-400 mb-6">Una pauta de un día no es mala por sí misma: las de $12 en un día rindieron tan bien como las de $1 diario. El costo se dispara cuando el gasto diario pasa de ese nivel, y el anuncio empieza a repetirse a las mismas personas.</p>
+  <div class="card rounded-2xl p-5 overflow-x-auto mb-8">
+    <table class="w-full text-sm min-w-[560px]"><thead class="text-slate-400 text-xs border-b border-slate-700/60"><tr>
+      <th class="text-left py-2 pr-3 font-medium">Gasto por día</th><th class="text-left px-2 font-medium">Pautas</th>
+      <th class="text-right px-2 font-medium">Costo por 1.000 personas</th><th class="text-right pl-2 font-medium">Veces que vio cada persona</th>
+    </tr></thead><tbody class="divide-y divide-slate-800">{monto}</tbody></table>
+  </div>
+  <div class="card rounded-2xl p-6 border-red-500/30">
+    <p class="font-display text-lg font-semibold text-white mb-1">El caso de la pauta de $14 diarios</p>
+    <p class="text-sm text-slate-400 mb-5">Datos del Administrador de anuncios del 19-nov a las 6:51, las tres pautas a la misma hora.</p>
+    <div class="grid md:grid-cols-3 gap-4">{caso}</div>
+    <ul class="mt-5 space-y-1 text-sm text-slate-300">
+      <li>• Gastó <strong>{n(CAPTURA[0][2] / CAPTURA[1][2], 1)} veces</strong> lo de «Emprendedora» y llegó a solo <strong>{n((CAPTURA[0][3] / CAPTURA[1][3] - 1) * 100)} % más personas</strong>.</li>
+      <li>• Cada reproducción completa le costó <strong>{usd(CAPTURA[0][2] / CAPTURA[0][5] * 1000)}</strong> por cada 1.000, contra <strong>{usd(CAPTURA[1][2] / CAPTURA[1][5] * 1000)}</strong> de «Emprendedora»: <strong>{n((CAPTURA[0][2] / CAPTURA[0][5]) / (CAPTURA[1][2] / CAPTURA[1][5]), 1)} veces más</strong>.</li>
+      <li>• Más presupuesto no trajo más alcance: trajo más costo.</li>
+    </ul>
+  </div>
+</section>
+
 <section id="detalle" class="mb-16">
   <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-6">Publicación por publicación</h2>
   <h3 class="font-display text-lg font-semibold mb-3" style="color:{GRUPOS['alto']['color']}">1 día · $30 a $50</h3>
@@ -279,8 +337,9 @@ if (empty($_SESSION['{SES}'])) {{ header('Location: login.php'); exit; }}
   <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-6">Recomendación</h2>
   <div class="card rounded-2xl p-6 md:p-8 border-emerald-500/30 mb-6">
     <p class="text-sm text-emerald-300 font-mono uppercase tracking-wider mb-2">Nueva forma de pautar</p>
-    <p class="font-display text-2xl md:text-3xl font-bold text-white mb-4">$3 a $5 diarios por publicación, durante 5 a 7 días</p>
+    <p class="font-display text-2xl md:text-3xl font-bold text-white mb-4">Máximo $3 a $5 diarios por publicación, durante 5 a 7 días</p>
     <ul class="grid md:grid-cols-2 gap-x-8 gap-y-2 text-slate-300 text-sm">
+      <li>✓ El tope diario manda: para más alcance se suman días, no dólares por día</li>
       <li>✓ Mismo dinero: $30 se reparte en 6-10 días en vez de 1</li>
       <li>✓ Siempre con fecha de cierre, para que no siga cobrando</li>
       <li>✓ Máximo 7 días: después la gente ya vio el anuncio</li>
@@ -315,6 +374,8 @@ secs.forEach(s=>obs.observe(s));
 </script>
 </body></html>
 """
+
+FILAS = por_monto()
 
 if __name__ == "__main__":
     open(os.path.join(AQUI, "login.php"), "w").write(login())

@@ -24,6 +24,7 @@ html{scroll-behavior:smooth} section{scroll-margin-top:78px} .nav a.on{color:#ff
     <div class="flex gap-1 overflow-x-auto py-3 text-[13px] font-medium">
       <a href="#resumen" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Resumen</a>
       <a href="#comparacion" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Comparación</a>
+      <a href="#monto" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Monto diario</a>
       <a href="#detalle" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Por publicación</a>
       <a href="#porque" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Por qué pasa</a>
       <a href="#recomendacion" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white whitespace-nowrap">Recomendación</a>
@@ -37,23 +38,24 @@ html{scroll-behavior:smooth} section{scroll-margin-top:78px} .nav a.on{color:#ff
 <header class="pt-14 pb-10">
   <img src="/informes/assets/creativeweb-blanco.png" alt="Creative Web" class="h-8 w-auto mb-5">
   <p class="font-mono text-xs uppercase tracking-widest text-sky-400 mb-3">Jomar · Informe de pauta en Meta (Facebook e Instagram)</p>
-  <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-4">Repartir la pauta en varios días<br class="hidden md:block"> rinde más que gastarla en uno</h1>
-  <p class="text-slate-400 max-w-2xl">Análisis de las 15 publicaciones de Jomar pautadas entre septiembre y noviembre de 2026, comparadas con una referencia de pauta repartida en varios días. Datos de la cuenta publicitaria al 19 de noviembre de 2026.</p>
+  <h1 class="font-display text-3xl md:text-5xl font-bold text-white leading-tight mb-4">El problema no son los días:<br class="hidden md:block"> es cuánto se gasta por día</h1>
+  <p class="text-slate-400 max-w-2xl">Análisis de las 16 publicaciones de Jomar pautadas entre septiembre y noviembre de 2026, comparadas con una referencia de pauta repartida en varios días. Datos de la cuenta publicitaria al 19 de noviembre de 2026.</p>
 </header>
 
 <section id="resumen" class="mb-16">
   <div class="grid md:grid-cols-3 gap-4 mb-6">
-    <div class="card rounded-2xl p-6"><p class="text-xs text-slate-400 mb-2">Costo por 1.000 personas · 1 día, $30-50</p>
+    <div class="card rounded-2xl p-6"><p class="text-xs text-slate-400 mb-2">Costo por 1.000 personas · $30-50 por día</p>
       <p class="font-display text-4xl font-bold" style="color:#f87171">$1,38</p></div>
     <div class="card rounded-2xl p-6"><p class="text-xs text-slate-400 mb-2">Costo por 1.000 personas · referencia, varios días a ~$1 diario</p>
       <p class="font-display text-4xl font-bold" style="color:#34d399">$0,50</p></div>
     <div class="card rounded-2xl p-6 border-sky-500/40"><p class="text-xs text-slate-400 mb-2">Diferencia</p>
-      <p class="font-display text-4xl font-bold text-white">2,7 veces</p><p class="text-sm text-slate-400 mt-1">más caro llegar a cada persona con la pauta de 1 día</p></div>
+      <p class="font-display text-4xl font-bold text-white">2,7 veces</p><p class="text-sm text-slate-400 mt-1">más caro llegar a cada persona gastando $30-50 por día</p></div>
   </div>
   <ul class="space-y-2 text-slate-300">
-    <li>• Las pautas de <strong>$30 a $50 en un solo día</strong> fueron las más caras: cada dólar llegó a <strong>725 personas</strong>.</li>
-    <li>• En la referencia de <strong>~$1 diario por 6 días</strong>, cada dólar llegó a <strong>1.981 personas</strong>, y las dos pautas repartidas de Jomar que están corriendo van por el mismo camino.</li>
-    <li>• <strong>Recomendación:</strong> pautar cada publicación entre <strong>$3 y $5 diarios durante 5 a 7 días</strong>, siempre con fecha de cierre.</li>
+    <li>• <strong>Pasando los ~$12 por día, cada persona sale mucho más cara.</strong> Hasta $12 diarios, llegar a 1.000 personas costó entre $0,58 y $0,70; desde $14 diarios, entre $1,05 y $1,53.</li>
+    <li>• <strong>Y el anuncio le llega más veces a la misma gente:</strong> cada persona lo vio 1,04 veces con $1 diario y 1,32 con $30-50 diarios.</li>
+    <li>• <strong>La pauta de $14 diarios del 18-nov lo confirma:</strong> gastó el doble que la de $1 diario de «Imbabura es emprendedora», llegó casi a la misma gente (2.570 vs 2.217) y tuvo la mitad de reproducciones completas (407 vs 1.012).</li>
+    <li>• <strong>Recomendación:</strong> no pasar de <strong>$3 a $5 diarios por publicación</strong> y, si hace falta más alcance, sumar días en vez de subir el monto.</li>
   </ul>
 </section>
 
@@ -127,6 +129,44 @@ html{scroll-behavior:smooth} section{scroll-margin-top:78px} .nav a.on{color:#ff
     <div class="grid sm:grid-cols-3 gap-4">
       <div><p class="text-xs text-slate-400">1 día · $30 a $50</p><p class="font-display text-2xl font-bold" style="color:#f87171">$34,48</p></div><div><p class="text-xs text-slate-400">1 día · $12</p><p class="font-display text-2xl font-bold" style="color:#fbbf24">$14,60</p></div><div><p class="text-xs text-slate-400">Referencia · 6 días, ~$1 diario</p><p class="font-display text-2xl font-bold" style="color:#34d399">$12,62</p></div>
     </div>
+  </div>
+</section>
+
+<section id="monto" class="mb-16">
+  <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Lo que cambia es el monto diario</h2>
+  <p class="text-slate-400 mb-6">Una pauta de un día no es mala por sí misma: las de $12 en un día rindieron tan bien como las de $1 diario. El costo se dispara cuando el gasto diario pasa de ese nivel, y el anuncio empieza a repetirse a las mismas personas.</p>
+  <div class="card rounded-2xl p-5 overflow-x-auto mb-8">
+    <table class="w-full text-sm min-w-[560px]"><thead class="text-slate-400 text-xs border-b border-slate-700/60"><tr>
+      <th class="text-left py-2 pr-3 font-medium">Gasto por día</th><th class="text-left px-2 font-medium">Pautas</th>
+      <th class="text-right px-2 font-medium">Costo por 1.000 personas</th><th class="text-right pl-2 font-medium">Veces que vio cada persona</th>
+    </tr></thead><tbody class="divide-y divide-slate-800"><tr><td class="py-2.5 pr-3 font-semibold text-white">$1 diario</td><td class="py-2.5 px-2 text-slate-400">Jomar · 2 pautas en curso</td>
+<td class="py-2.5 px-2 text-right font-mono">$0,70</td><td class="py-2.5 pl-2 text-right font-mono">1,04</td></tr><tr><td class="py-2.5 pr-3 font-semibold text-white">$12 en 1 día</td><td class="py-2.5 px-2 text-slate-400">Jomar · 5 pautas</td>
+<td class="py-2.5 px-2 text-right font-mono">$0,58</td><td class="py-2.5 pl-2 text-right font-mono">1,15</td></tr><tr><td class="py-2.5 pr-3 font-semibold text-white">$14 diarios</td><td class="py-2.5 px-2 text-slate-400">Jomar · pauta del 18-nov (captura)</td>
+<td class="py-2.5 px-2 text-right font-mono">$1,05</td><td class="py-2.5 pl-2 text-right font-mono">—</td></tr><tr><td class="py-2.5 pr-3 font-semibold text-white">$30 en 1 día</td><td class="py-2.5 px-2 text-slate-400">Jomar · 7 pautas</td>
+<td class="py-2.5 px-2 text-right font-mono">$1,35</td><td class="py-2.5 pl-2 text-right font-mono">1,33</td></tr><tr><td class="py-2.5 pr-3 font-semibold text-white">$50 en 1 día</td><td class="py-2.5 px-2 text-slate-400">Jomar · 1 pauta</td>
+<td class="py-2.5 px-2 text-right font-mono">$1,53</td><td class="py-2.5 pl-2 text-right font-mono">1,24</td></tr></tbody></table>
+  </div>
+  <div class="card rounded-2xl p-6 border-red-500/30">
+    <p class="font-display text-lg font-semibold text-white mb-1">El caso de la pauta de $14 diarios</p>
+    <p class="text-sm text-slate-400 mb-5">Datos del Administrador de anuncios del 19-nov a las 6:51, las tres pautas a la misma hora.</p>
+    <div class="grid md:grid-cols-3 gap-4"><div class="rounded-xl p-4" style="background:rgba(255,255,255,.03);border:1px solid #f8717155">
+<p class="text-xs mb-1" style="color:#f87171">$14 diarios</p><p class="font-semibold text-white text-sm mb-3 leading-snug">Imbabura es un escenario pot…</p>
+<div class="grid grid-cols-2 gap-2"><div><p class="num">2.829</p><p class="lbl">Reproducciones</p></div><div><p class="num">2.570</p><p class="lbl">Alcance</p></div>
+<div><p class="num">407</p><p class="lbl">ThruPlays</p></div><div><p class="num">$2,71</p><p class="lbl">gastado</p></div></div>
+<p class="font-mono text-xs mt-3" style="color:#f87171">$1,05 / 1.000 personas</p></div><div class="rounded-xl p-4" style="background:rgba(255,255,255,.03);border:1px solid #34d39955">
+<p class="text-xs mb-1" style="color:#34d399">$1 diario</p><p class="font-semibold text-white text-sm mb-3 leading-snug">Imbabura es emprendedora</p>
+<div class="grid grid-cols-2 gap-2"><div><p class="num">2.709</p><p class="lbl">Reproducciones</p></div><div><p class="num">2.217</p><p class="lbl">Alcance</p></div>
+<div><p class="num">1.012</p><p class="lbl">ThruPlays</p></div><div><p class="num">$1,48</p><p class="lbl">gastado</p></div></div>
+<p class="font-mono text-xs mt-3" style="color:#34d399">$0,67 / 1.000 personas</p></div><div class="rounded-xl p-4" style="background:rgba(255,255,255,.03);border:1px solid #34d39955">
+<p class="text-xs mb-1" style="color:#34d399">$1 diario</p><p class="font-semibold text-white text-sm mb-3 leading-snug">Vamos a sanar los ríos de Imbabura</p>
+<div class="grid grid-cols-2 gap-2"><div><p class="num">1.828</p><p class="lbl">Reproducciones</p></div><div><p class="num">1.679</p><p class="lbl">Alcance</p></div>
+<div><p class="num">505</p><p class="lbl">ThruPlays</p></div><div><p class="num">$1,29</p><p class="lbl">gastado</p></div></div>
+<p class="font-mono text-xs mt-3" style="color:#34d399">$0,77 / 1.000 personas</p></div></div>
+    <ul class="mt-5 space-y-1 text-sm text-slate-300">
+      <li>• Gastó <strong>1,8 veces</strong> lo de «Emprendedora» y llegó a solo <strong>16 % más personas</strong>.</li>
+      <li>• Cada reproducción completa le costó <strong>$6,66</strong> por cada 1.000, contra <strong>$1,46</strong> de «Emprendedora»: <strong>4,6 veces más</strong>.</li>
+      <li>• Más presupuesto no trajo más alcance: trajo más costo.</li>
+    </ul>
   </div>
 </section>
 
@@ -353,8 +393,9 @@ html{scroll-behavior:smooth} section{scroll-margin-top:78px} .nav a.on{color:#ff
   <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-6">Recomendación</h2>
   <div class="card rounded-2xl p-6 md:p-8 border-emerald-500/30 mb-6">
     <p class="text-sm text-emerald-300 font-mono uppercase tracking-wider mb-2">Nueva forma de pautar</p>
-    <p class="font-display text-2xl md:text-3xl font-bold text-white mb-4">$3 a $5 diarios por publicación, durante 5 a 7 días</p>
+    <p class="font-display text-2xl md:text-3xl font-bold text-white mb-4">Máximo $3 a $5 diarios por publicación, durante 5 a 7 días</p>
     <ul class="grid md:grid-cols-2 gap-x-8 gap-y-2 text-slate-300 text-sm">
+      <li>✓ El tope diario manda: para más alcance se suman días, no dólares por día</li>
       <li>✓ Mismo dinero: $30 se reparte en 6-10 días en vez de 1</li>
       <li>✓ Siempre con fecha de cierre, para que no siga cobrando</li>
       <li>✓ Máximo 7 días: después la gente ya vio el anuncio</li>
