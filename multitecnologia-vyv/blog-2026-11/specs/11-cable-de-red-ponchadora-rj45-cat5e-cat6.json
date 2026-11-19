@@ -1,0 +1,95 @@
+{
+  "n": 11,
+  "slug": "cable-de-red-ponchadora-rj45-cat5e-cat6",
+  "title": "Cable de red: ponchadora, conector RJ45 y Cat5e vs Cat6",
+  "focus_kw": "cable de red",
+  "meta_desc": "Qué categoría tender, cómo leer la etiqueta de la bobina, qué conector RJ45 y ponchadora usar y cómo ponchar con la norma T568B. Guía para instaladores.",
+  "excerpt": "Cat5e o Cat6, cobre o CCA, conector normal, pass through o blindado: cómo armar un cable de red que pase la prueba a la primera.",
+  "category": "Redes y seguridad",
+  "tags": [
+    "cable de red",
+    "cable UTP",
+    "Cat6",
+    "conector RJ45",
+    "ponchadora"
+  ],
+  "featured": {
+    "pexels_query": "ethernet cable rj45 connector",
+    "alt": "Cable de red con conector RJ45 transparente"
+  },
+  "inline_image": {
+    "pexels_query": "network cabling patch panel technician",
+    "alt": "Técnico organizando cables de red en un patch panel",
+    "after_section": 3
+  },
+  "intro_html": "<p>Un cable de red mal hecho no siempre falla de inmediato. A veces la computadora conecta, pero a 100 Mbps en lugar de 1 Gbps, o la cámara IP se reinicia de noche cuando encienden sus infrarrojos. Casi siempre el origen está en tres decisiones: la categoría del cable, el material del conductor y el conector.</p><p>En esta guía repasamos esas tres decisiones, qué ponchadora comprar y cómo ponchar con la norma T568B paso a paso. Está pensada para instaladores y técnicos que cablean oficinas, locales y casas en Quito, Ibarra o cualquier ciudad del país.</p>",
+  "sections": [
+    {
+      "h2": "Cat5e o Cat6: para la mayoría de oficinas, Cat6",
+      "html": "<p>Las dos categorías llevan 1 Gbps hasta 100 metros por tramo. La diferencia está en el margen: Cat6 trabaja con más frecuencia, tiene menos interferencia entre pares y es la que te deja más espacio para crecer. Estos son los datos de Fluke Networks, el fabricante de los certificadores de cableado:</p><table><thead><tr><th>Categoría</th><th>Frecuencia</th><th>Velocidad a 100 m</th><th>10 Gbps</th></tr></thead><tbody><tr><td>Cat5e</td><td>100 MHz</td><td>1 Gbps</td><td>No</td></tr><tr><td>Cat6</td><td>250 MHz</td><td>1 Gbps</td><td>Solo en tramos cortos (Fluke indica hasta 35 m)</td></tr><tr><td>Cat6A</td><td>500 MHz</td><td>10 Gbps</td><td>Sí, en los 100 m</td></tr></tbody></table><p>Cat5e sigue siendo válido para una casa, un local con pocos puntos o un sistema de cámaras de 2 a 4 MP. Para una oficina nueva donde el cable va a quedar diez años dentro de la pared, la diferencia de costo entre Cat5e y Cat6 es pequeña frente a volver a cablear.</p>"
+    },
+    {
+      "h2": "Cobre puro o CCA: lee la etiqueta antes de la categoría",
+      "html": "<p>Dos bobinas pueden decir Cat6 y comportarse distinto. La clave es el conductor:</p><ul><li><strong>Cobre puro:</strong> menor resistencia, mejor para tramos largos y para PoE. Por ejemplo, el <a href=\"https://multitecnologiavyv.com/producto/ampxl-cable-utp-interior-cat6-cobre-cm-305m-delta-ampxl-23awg-azul/\">cable UTP Cat6 de cobre AMPXL de 23 AWG</a>.</li><li><strong>Mezcla cobre y aluminio:</strong> la etiqueta trae el porcentaje, como el <a href=\"https://multitecnologiavyv.com/producto/ampxl-cable-utp-interior-cat5e-50cu-50al-305m-delta-24awg-blanco/\">Cat5e 80 % cobre y 20 % aluminio de 24 AWG</a>. Sirve para datos en tramos normales, pero pierde más energía cuando alimentas cámaras o teléfonos por el mismo cable.</li><li><strong>AWG:</strong> mientras más bajo el número, más grueso el conductor. 23 AWG es más grueso que 24, y 24 más que 26.</li></ul><p>Si el proyecto lleva cámaras IP alimentadas por el cable, revisa también <a href=\"https://multitecnologiavyv.com/redes-y-seguridad/switch-poe-camaras-ip/\">cómo elegir el switch PoE y calcular la potencia</a>: un cable con más resistencia se come parte de ese presupuesto.</p>"
+    },
+    {
+      "h2": "Conector RJ45: normal, pass through o blindado",
+      "html": "<p>En la tienda tienes tres tipos de conector, cada uno con su uso:</p><ul><li><strong><a href=\"https://multitecnologiavyv.com/producto/conector-rj45/\">RJ45 estándar</a></strong>: el de toda la vida. Los hilos entran hasta el tope y no se ven por delante. Exige cortar parejo los ocho hilos antes de insertarlos.</li><li><strong><a href=\"https://multitecnologiavyv.com/producto/conector-rj45-pass-through/\">RJ45 pass through</a></strong>: los hilos atraviesan el conector y salen por la punta. Ves el orden de colores antes de ponchar y cortas el sobrante después. Necesitas una ponchadora con cuchilla para pass through.</li><li><strong><a href=\"https://multitecnologiavyv.com/producto/conector-rj45-blindado-ftp/\">RJ45 blindado FTP</a></strong>: con cubierta metálica, para cable FTP. Solo sirve si el cable también es blindado y la malla se conecta a tierra en el otro extremo.</li></ul><p>Pon un <a href=\"https://multitecnologiavyv.com/producto/capuchon-rj45/\">capuchón</a> en cada conector: protege la pestaña, que es lo primero que se rompe en un patch cord que se conecta y desconecta seguido.</p>"
+    },
+    {
+      "h2": "La ponchadora: 8P para red, 6P para teléfono",
+      "html": "<p>En las ponchadoras verás «8P» y «6P»: 8P es el conector RJ45 de red y 6P el RJ11 o RJ12 de telefonía. La <a href=\"https://multitecnologiavyv.com/producto/ponchadora-remachadora-rj45-rj11-rj12-azul-tl-200r/\">ponchadora TL-200R</a> trabaja RJ45, RJ11 y RJ12, útil si también instalas centrales telefónicas. La <a href=\"https://multitecnologiavyv.com/producto/ponchadora-remachadora-cat5-cat6-cat7-tools/\">ponchadora para Cat5, Cat6 y Cat7</a> está pensada para quien cablea redes a diario.</p><p>Antes de comprar, revisa tres cosas: que el dado presione los ocho contactos a la vez y de forma pareja, que tenga cuchilla de corte y pelador, y que el mango tenga trinquete para que no sueltes antes de terminar el ponchado.</p>"
+    },
+    {
+      "h2": "Cómo ponchar un cable RJ45 con la norma T568B",
+      "html": "<p>La T568B es la norma más usada en instalaciones de datos. Si los dos extremos llevan la misma norma, tienes un cable directo, que es lo que necesitas casi siempre.</p><ol><li>Pela unos 3 cm de la chaqueta sin cortar el aislamiento de los hilos.</li><li>Destrenza los pares y ordénalos: blanco-naranja, naranja, blanco-verde, azul, blanco-azul, verde, blanco-marrón, marrón.</li><li>Alinea los hilos planos y córtalos parejo a 1,2 o 1,3 cm (con pass through, déjalos largos).</li><li>Inserta con la pestaña del conector hacia abajo hasta que los ocho hilos toquen el fondo.</li><li>Revisa que la chaqueta quede dentro del conector, debajo del seguro.</li><li>Poncha con un solo apretón firme hasta que el trinquete libere.</li><li>Repite en el otro extremo y prueba el cable.</li></ol><p>La T568A cambia el orden de los pares naranja y verde. Se usa en algunas instalaciones antiguas, pero lo importante es no mezclar normas dentro del mismo proyecto.</p>"
+    },
+    {
+      "h2": "Prueba cada cable antes de cerrar la canaleta",
+      "html": "<p>Un comprobador te dice en segundos si hay un hilo abierto, cruzado o en corto. Probar al final, con la canaleta cerrada y el cielo raso puesto, cuesta horas.</p><ul><li>El <a href=\"https://multitecnologiavyv.com/producto/comprobador-de-cable-de-red-nf-468s-poe-qc/\">comprobador NF-468S con PoE</a> prueba UTP y RJ11, y además detecta si el puerto entrega PoE.</li><li>El <a href=\"https://multitecnologiavyv.com/producto/seguidor-de-tonos-para-cable-de-red-nf-811/\">seguidor de tonos NF-811</a> te ayuda a encontrar un cable dentro de un manojo sin etiquetas.</li></ul><p>Encuentras ponchadoras, probadores y peladores en <a href=\"https://multitecnologiavyv.com/categoria-producto/networking-redes/herramientas-cableado-estructurado/\">herramientas de cableado estructurado</a>, y bobinas de 305 m en <a href=\"https://multitecnologiavyv.com/categoria-producto/networking-redes/cable-utp/\">cable UTP</a>.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene ponchar tú mismo",
+      "html": "<ul><li><strong>Para cables cortos de rack o escritorio:</strong> un <a href=\"https://multitecnologiavyv.com/producto/patch-cord-cat6-cobre/\">patch cord Cat6 de cobre</a> de fábrica es más confiable y se ve más ordenado.</li><li><strong>Para 10 Gbps en tramos largos:</strong> ahí corresponde Cat6A con jacks y certificación, no conectores ponchados en campo.</li><li><strong>En exteriores con lluvia o sol directo:</strong> usa cable para exterior y protege la conexión. En la Costa, la humedad de Manta o Guayaquil oxida los contactos de un conector expuesto en pocos meses.</li></ul><p>En instalaciones fijas, lo profesional es terminar en <a href=\"https://multitecnologiavyv.com/producto/cajetin-rj45-cat6-2-tomas/\">cajetines</a> y patch panel, y dejar el ponchado de conectores para los cables móviles.</p>"
+    }
+  ],
+  "products": [
+    7947,
+    7965,
+    7966,
+    10482,
+    10326,
+    7953
+  ],
+  "cta_mid": {
+    "title": "¿Cableando una oficina?",
+    "text": "Cotiza bobinas, conectores, ponchadoras y probadores en un solo pedido con precio de distribuidor.",
+    "wa_text": "Hola, vengo del artículo de cable de red, quiero cotizar cable UTP y conectores RJ45"
+  },
+  "cta_end": {
+    "title": "Todo el cableado estructurado en un solo proveedor",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en cable UTP, conectores, jacks y herramientas.",
+    "wa_text": "Hola, vengo del artículo de cable de red, necesito materiales para una instalación"
+  },
+  "faq": [
+    {
+      "q": "¿Cuál es la diferencia entre Cat5e y Cat6?",
+      "a": "Las dos llevan 1 Gbps hasta 100 metros. Cat6 trabaja hasta 250 MHz frente a 100 MHz de Cat5e, tiene más margen contra interferencias y admite 10 Gbps en tramos cortos."
+    },
+    {
+      "q": "¿Puedo usar conectores Cat5e con cable Cat6?",
+      "a": "No es lo recomendable, porque el cable Cat6 es más grueso y el conector puede quedar forzado. Usa conectores marcados para Cat6 o los que indican compatibilidad con las dos categorías."
+    },
+    {
+      "q": "¿Qué norma uso, T568A o T568B?",
+      "a": "Cualquiera funciona si usas la misma en los dos extremos y en todo el proyecto. La T568B es la más común en instalaciones de datos."
+    },
+    {
+      "q": "¿Cuál es la distancia máxima de un cable de red?",
+      "a": "100 metros por tramo para Ethernet de cobre. Si necesitas más, coloca un switch en el camino o pasa a fibra óptica."
+    }
+  ],
+  "fuentes": [
+    "https://flukenetworks.com/blog/cabling-chronicles/ethernet-cable-history"
+  ]
+}

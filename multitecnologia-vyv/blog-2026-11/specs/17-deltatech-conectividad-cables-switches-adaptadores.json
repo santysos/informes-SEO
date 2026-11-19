@@ -1,0 +1,100 @@
+{
+  "n": 17,
+  "slug": "deltatech-conectividad-cables-switches-adaptadores",
+  "title": "Deltatech conectividad: cables, switches y adaptadores",
+  "focus_kw": "deltatech conectividad",
+  "meta_desc": "Qué piezas de conectividad Deltatech usar en cada instalación: cámaras IP, proyectores, pantallas duplicadas, PC sin red y equipos con puerto serial.",
+  "excerpt": "Switches PoE, convertidores HDMI y VGA, splitters, tarjetas de red y extensores USB: cómo armar soluciones de conectividad completas con la línea Deltatech.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "Deltatech",
+    "conectividad",
+    "switch PoE",
+    "convertidores de señal",
+    "instaladores"
+  ],
+  "featured": {
+    "pexels_query": "network switch ethernet cables installation",
+    "alt": "Switch de red con cables Ethernet conectados en una instalación"
+  },
+  "inline_image": {
+    "pexels_query": "projector meeting room laptop",
+    "alt": "Laptop conectada a un proyector en una sala de reuniones",
+    "after_section": 3
+  },
+  "intro_html": "<p>Un instalador de Ibarra tiene en la misma semana cuatro cámaras IP en una ferretería, un proyector VGA en un colegio y una caja que necesita una balanza con puerto serial. Son tres trabajos distintos, pero todos se resuelven con piezas pequeñas de conectividad que conviene tener en la camioneta.</p><p>Esta guía ordena la línea de conectividad Deltatech por situación: qué pieza resuelve cada problema, qué complemento necesita y en qué casos te conviene otra cosa.</p>",
+  "sections": [
+    {
+      "h2": "Qué cubre Deltatech en conectividad",
+      "html": "<p><strong>La línea de conectividad Deltatech cubre tres frentes: video, red y USB.</strong> En video tiene cables HDMI, convertidores entre HDMI, VGA y DisplayPort, y un splitter HDMI. En red, switches PoE de 4 y 8 puertos y una tarjeta PCI Express gigabit. En USB, extensores por cable de red, cables OTG y cables USB a serial DB9.</p><p>Lo que no fabrica es el cable UTP de bobina: las bobinas que acompañan estas instalaciones en la tienda son de marca Ampxl.</p>"
+    },
+    {
+      "h2": "Qué pieza usar en cada instalación",
+      "html": "<table><thead><tr><th>Situación</th><th>Pieza Deltatech</th><th>Complemento</th></tr></thead><tbody><tr><td>Cuatro cámaras IP en un local</td><td>Switch PoE 4 puertos 10/100</td><td>Cable UTP y grabador NVR</td></tr><tr><td>Laptop nueva con proyector VGA</td><td>Convertidor HDMI a VGA con audio</td><td>Parlante si el proyector no tiene</td></tr><tr><td>PC antigua con salida VGA y TV moderno</td><td>Convertidor VGA a HDMI</td><td>Cable HDMI del largo justo</td></tr><tr><td>Misma imagen en dos pantallas</td><td>Splitter HDMI a 2 HDMI</td><td>Dos pantallas de igual resolución</td></tr><tr><td>PC sin red o con el puerto dañado</td><td>Tarjeta PCI Express RJ45 gigabit</td><td>Patch cord</td></tr><tr><td>Teclado o cámara web lejos de la PC</td><td>Extensor USB por cable de red de 40 o 100 m</td><td>Cable UTP</td></tr><tr><td>Balanza o equipo con puerto serial</td><td>Cable USB a DB9 de 1,8 m</td><td>Driver del adaptador</td></tr></tbody></table>"
+    },
+    {
+      "h2": "Cámaras IP: switch PoE de 4 u 8 puertos",
+      "html": "<p>El switch PoE envía datos y energía por el mismo cable, así que cada cámara se instala sin un tomacorriente al lado. Deltatech tiene modelos de 4 y <a href=\"https://multitecnologiavyv.com/producto/switch-poe-8-puertos-10-100-deltatech/\">8 puertos</a>, ambos de 10/100, una velocidad que alcanza para el tráfico de cámaras IP de vigilancia.</p><p>Antes de elegir, suma el consumo de las cámaras y compáralo con lo que entrega el switch. Lo explicamos paso a paso en la guía de <a href=\"https://multitecnologiavyv.com/redes-y-seguridad/switch-poe-camaras-ip/\">switch PoE para cámaras IP</a>, y los equipos están en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-ip/\">cámaras IP</a>.</p><p>Una regla práctica: elige el switch con al menos un puerto libre más de los que necesitas hoy. El cliente que empieza con tres cámaras casi siempre pide la cuarta a los pocos meses, y cambiar el switch cuesta más que haberlo previsto.</p>"
+    },
+    {
+      "h2": "Video: del HDMI al VGA y de vuelta",
+      "html": "<ul><li><strong>HDMI a VGA:</strong> para proyectores y monitores viejos que todavía se usan en colegios y oficinas públicas. Deltatech tiene uno tipo flash y otro de 20 cm con salida de audio.</li><li><strong>VGA a HDMI:</strong> en cable o en caja, para PC antiguas conectadas a televisores.</li><li><strong>USB 3.0 a HDMI o VGA:</strong> agrega una pantalla a una laptop que no tiene la salida.</li><li><strong><a href=\"https://multitecnologiavyv.com/producto/cable-spliter-hdmi-a-2-hdmi-l-20cm-delta/\">Splitter HDMI a 2 HDMI</a>:</strong> duplica la imagen. La ficha advierte que las dos pantallas deben tener la misma resolución.</li></ul><p>Todos están en <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/convertidores-de-senal/\">convertidores de señal</a>.</p>"
+    },
+    {
+      "h2": "Red, USB y celulares: cuando la distancia o el puerto no ayudan",
+      "html": "<p>La <a href=\"https://multitecnologiavyv.com/producto/tarjeta-pci-express-a-rj45-10-100-1000-1gbps-deltatech/\">tarjeta PCI Express RJ45 gigabit</a> revive una PC de escritorio con el puerto de red quemado, un daño común después de una tormenta eléctrica. Se instala en una ranura libre y se olvida.</p><p>El <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/extensor-de-senal/\">extensor USB por cable de red</a> lleva un teclado, un lector de código de barras o una cámara web a 40 o 100 m de la PC, por un cable UTP común. Y el cable USB a DB9 conecta balanzas, impresoras fiscales y equipos con puerto serial a una PC que solo tiene USB.</p><h3>Celulares y periféricos: OTG y adaptadores pequeños</h3><p>La conectividad también pasa por el celular. El <a href=\"https://multitecnologiavyv.com/producto/cable-otg-usb-tipo-c-a-usb-3-0-tipo-a-hembra-delta/\">cable OTG tipo C a USB 3.0 hembra</a> permite conectar una memoria, un teclado o un lector de tarjetas a un celular o tablet con puerto tipo C, útil para pasar fotos de una cámara sin computadora.</p><p>En el otro extremo están los equipos antiguos: el <a href=\"https://multitecnologiavyv.com/producto/adaptador-de-usb-a-ps2-delta/\">adaptador de USB a PS2</a> conecta un teclado o mouse USB a una PC vieja que solo tiene puertos PS2, algo que todavía aparece en máquinas de producción y cajas registradoras. Y el adaptador tipo C a tipo C con salida de 3,5 mm permite cargar el celular y usar audífonos de cable al mismo tiempo.</p>"
+    },
+    {
+      "h2": "Cómo armar el pedido de una instalación",
+      "html": "<ol><li><strong>Haz la lista de equipos y distancias</strong> en la visita, con fotos de los puertos.</li><li><strong>Elige la pieza por situación</strong> con la tabla de arriba.</li><li><strong>Suma cable y conectores</strong>: UTP, patch cords y cables HDMI del largo justo.</li><li><strong>Agrega un repuesto de lo que más falla</strong>, como un convertidor HDMI a VGA, para no volver al sitio.</li><li><strong>Envía la lista por WhatsApp</strong> con tu cuenta comercial. El pedido sale desde Quito a tu ciudad.</li></ol><h3>El kit básico que conviene llevar a cada visita</h3><p>Si haces instalaciones fuera de tu ciudad, como un técnico de Otavalo que atiende en Cotacachi o en Atuntaqui, volver por una pieza cuesta medio día. Este kit cabe en una caja pequeña y resuelve la mayoría de imprevistos:</p><ul><li>Un convertidor HDMI a VGA y uno VGA a HDMI.</li><li>Un cable HDMI de 1,5 m y otro de 5 m.</li><li>Un switch PoE de 4 puertos para la cámara que falta.</li><li>Un cable OTG tipo C y un adaptador USB a PS2.</li><li>Patch cords de distintos largos y conectores RJ45.</li></ul><p>Repón el kit cada vez que uses una pieza y súmala al siguiente pedido.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene una pieza Deltatech",
+      "html": "<ul><li><strong>Red de oficina con mucho tráfico:</strong> los switches PoE de Deltatech son de 10/100. Para servidores o transferencias grandes, busca un switch gigabit.</li><li><strong>Pantallas de distinta resolución:</strong> el splitter de 20 cm pide pantallas iguales. Para cuatro pantallas, la tienda tiene splitters HDMI de 4 puertos 4K; si las pantallas son distintas, consulta con un asesor antes de elegir.</li><li><strong>4K a 60 Hz por un tramo de 30 m:</strong> un cable de cobre no es la vía. Usa el HDMI de fibra o un extensor por cable de red.</li></ul>"
+    }
+  ],
+  "products": [
+    7977,
+    7980,
+    6761,
+    6775,
+    7670,
+    6845
+  ],
+  "cta_mid": {
+    "title": "¿Tienes una instalación en puerta?",
+    "text": "Mándanos la lista de equipos y distancias y te armamos el pedido completo.",
+    "wa_text": "Hola, vengo del artículo de Deltatech conectividad y quiero armar el pedido de una instalación"
+  },
+  "cta_end": {
+    "title": "Conectividad Deltatech al por mayor",
+    "text": "Con tu cuenta comercial ves los precios por volumen en switches, convertidores y extensores.",
+    "wa_text": "Hola, vengo del artículo de Deltatech conectividad y quiero abrir una cuenta comercial"
+  },
+  "faq": [
+    {
+      "q": "¿Los switches PoE Deltatech sirven para cámaras IP?",
+      "a": "Sí. Envían datos y energía por el mismo cable y tienen versiones de 4 y 8 puertos. Suma el consumo de las cámaras antes de elegir."
+    },
+    {
+      "q": "¿El splitter HDMI Deltatech funciona con pantallas distintas?",
+      "a": "La ficha indica que las dos pantallas deben tener la misma resolución. Con pantallas distintas, consulta con un asesor antes de elegir el splitter."
+    },
+    {
+      "q": "¿Cómo conecto una laptop sin VGA a un proyector viejo?",
+      "a": "Con un convertidor HDMI a VGA. Si necesitas sonido, elige el modelo con salida de audio."
+    },
+    {
+      "q": "¿Deltatech fabrica cable UTP?",
+      "a": "En la tienda, las bobinas UTP que acompañan estas instalaciones son de marca Ampxl. Deltatech pone switches, adaptadores y extensores."
+    }
+  ],
+  "fuentes": [
+    "https://www.mydelta.tech/",
+    "https://www.mydelta.tech/catalogo",
+    "https://multitecnologiavyv.com/producto/switch-poe-8-puertos-10-100-deltatech/",
+    "https://multitecnologiavyv.com/producto/cable-spliter-hdmi-a-2-hdmi-l-20cm-delta/",
+    "https://multitecnologiavyv.com/producto/tarjeta-pci-express-a-rj45-10-100-1000-1gbps-deltatech/",
+    "https://multitecnologiavyv.com/producto/extensor-de-senal-usb-2-0-con-cable-de-red-alcance-100-m-delta/"
+  ]
+}

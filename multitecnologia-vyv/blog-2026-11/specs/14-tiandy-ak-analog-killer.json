@@ -1,0 +1,99 @@
+{
+  "n": 14,
+  "slug": "tiandy-ak-analog-killer",
+  "title": "Tiandy AK (Analog Killer): cámaras IP a precio de análoga",
+  "focus_kw": "Tiandy AK",
+  "meta_desc": "Tiandy AK, la gama de entrada IP: ficha oficial de la TC-C321N, el NVR AK de 4 canales con 28 W de PoE y cómo armar un kit de cuatro cámaras.",
+  "excerpt": "Qué es la serie AK de Tiandy, qué trae su cámara de entrada según la ficha oficial, cómo calcular el PoE del NVR AK y cuándo conviene subir a SK.",
+  "category": "Marcas y comparativas",
+  "tags": [
+    "Tiandy",
+    "Tiandy AK",
+    "cámaras IP",
+    "NVR",
+    "PoE"
+  ],
+  "featured": {
+    "pexels_query": "white bullet security camera wall",
+    "alt": "Cámara de seguridad tipo bala blanca montada en una pared"
+  },
+  "inline_image": {
+    "pexels_query": "technician network rack installation",
+    "alt": "Técnico conectando equipos en un rack de red",
+    "after_section": 2
+  },
+  "intro_html": "<p>Durante años, el argumento para seguir cotizando análogo fue el precio: la cámara IP costaba más y el cliente elegía lo barato. Tiandy armó una gama entera para quitar ese argumento y en Ecuador la presenta con un nombre directo: <strong>AK, Analog Killer</strong>.</p><p>En esta guía revisamos la serie <strong>Tiandy AK</strong> con los datos de las fichas oficiales del fabricante: qué trae la cámara de entrada, cuánta energía pide, qué soporta el NVR de la misma línea y dónde se queda corta. Somos distribuidores de Tiandy en Quito, así que también te contamos cómo la armamos en kits para instaladores.</p>",
+  "sections": [
+    {
+      "h2": "La respuesta corta: AK es la gama IP de entrada de Tiandy",
+      "html": "<p>Tiandy divide sus cámaras IP en tres gamas: <strong>AK</strong> (entrada), <strong>SK</strong> (pequeña y mediana empresa) y <strong>LK</strong> (profesional). La AK es la más sencilla y la más económica, y viene con su propio NVR. Tiandy Ecuador la describe como tecnología 100 % IP, con mejor definición, gestión digital y micrófono integrado, al precio de un sistema análogo.</p><p>Ese precio se ve con la cuenta comercial. Lo que sigue son los datos técnicos para que decidas si la AK alcanza para tu proyecto.</p>"
+    },
+    {
+      "h2": "Qué trae una cámara AK: la ficha oficial de la TC-C321N",
+      "html": "<p>Tomamos la <a href=\"https://multitecnologiavyv.com/producto/camara-ip-ak-tipo-bala-2mp-2-8mm-color-ir-30m-fhd-mic-poe-ip67-tc-c321n-1cnb-tiandy/\">cámara AK tipo bala de 2 MP TC-C321N</a>, modelo de entrada de la línea. Estos son los datos de la ficha oficial de Tiandy para la versión de 2,8 mm:</p><table><thead><tr><th>Característica</th><th>Dato oficial</th></tr></thead><tbody><tr><td>Resolución</td><td>2 MP, 1920 × 1080 a 30 cuadros por segundo</td></tr><tr><td>Sensor y lente</td><td>CMOS de 1/3 pulgada, lente fija de 2,8 mm F2.0</td></tr><tr><td>Ángulo horizontal</td><td>93°</td></tr><tr><td>Infrarrojo</td><td>Hasta 30 m</td></tr><tr><td>Compresión</td><td>S+265, H.265 y H.264</td></tr><tr><td>Audio</td><td>Micrófono incorporado</td></tr><tr><td>Alimentación</td><td>PoE IEEE 802.3af, máximo 2 W</td></tr><tr><td>Protección</td><td>IP67, sobretensión 4.000 V</td></tr><tr><td>Temperatura</td><td>-30 °C a 60 °C</td></tr><tr><td>Compatibilidad</td><td>ONVIF Profile S y T</td></tr></tbody></table><p>La ficha también da las distancias DORI: identificación a 4,1 m y detección a 41,48 m con lente de 2,8 mm. La versión de 4 mm cierra el ángulo a 73,5° y lleva la identificación a 5,93 m: sirve para pasillos y entradas.</p>"
+    },
+    {
+      "h2": "El NVR AK de 4 canales: 28 W para cuatro cámaras",
+      "html": "<p>El <a href=\"https://multitecnologiavyv.com/producto/nvr-ak-4-canales-ip-poe-vga-hdmi-rj45-2xusb-onvif-rtsp-r3104-tiandy/\">NVR AK R3104</a> trae cuatro puertos PoE de 10/100 Mbps. Según la ficha oficial, su presupuesto PoE es de 28 W, acepta resoluciones de hasta 6 MP y muestra cuatro canales a 1080p al mismo tiempo. Tiene una bahía SATA para el disco, salidas HDMI y VGA, dos USB y acceso desde Android e iOS por P2P.</p><p>La cuenta es sencilla: cuatro cámaras TC-C321N a 2 W como máximo suman 8 W, lejos de los 28 W del grabador. Te queda margen de sobra para la noche, cuando se encienden los infrarrojos. Si el proyecto pasa de cuatro cámaras, está el <a href=\"https://multitecnologiavyv.com/producto/nvr-ak-8-canales-ip-poe-vga-hdmi-rj45-2xusb-onvif-rtsp-r3108-tiandy/\">NVR AK de 8 canales</a>.</p>"
+    },
+    {
+      "h2": "AK, SK o LK: dónde se queda corta la gama de entrada",
+      "html": "<p>La AK está pensada para casas, locales y oficinas pequeñas. Su ficha muestra lo justo: detección de movimiento, alarmas de excepción, cuatro máscaras de privacidad y puerto de red de 10/100. No trae la analítica de perímetro ni de cruce de línea que sí tienen modelos SK como la TC-C34HS.</p><p>La gama AK tampoco se queda en 2 MP: el catálogo oficial de Tiandy incluye cámaras AK Color Maker de 4 MP en formato bala y domo, como la <a href=\"https://multitecnologiavyv.com/producto/camara-ip-ak-color-maker-tipo-bala-4mp-2-8mm-ir-30m-fhd-mic-poe-ip67-tc-c341n-1ana-tiandy/\">TC-C341N de 4 MP</a>. Son la opción cuando el cliente pide más detalle sin salir de la línea de entrada; antes de cotizarlas, confirma que el NVR acepte esa resolución en todos sus canales.</p><ul><li><strong>Quédate en AK</strong> si el cliente quiere ver y grabar bien, con audio, desde el celular.</li><li><strong>Sube a SK</strong> si necesita alertas que distingan a una persona que cruza una zona, lentes motorizadas o más resolución.</li><li><strong>Ve a LK</strong> en proyectos corporativos o con requisitos de pliego.</li></ul>"
+    },
+    {
+      "h2": "Cómo armar un kit AK de cuatro cámaras",
+      "html": "<ol><li><strong>Elige el formato de cada cámara:</strong> bala para exteriores y domo para interiores.</li><li><strong>Elige la lente:</strong> 2,8 mm para ambientes abiertos y 4 mm para entradas y pasillos.</li><li><strong>Suma el NVR AK de 4 canales</strong> y un disco duro de videovigilancia de la capacidad que pida el cliente.</li><li><strong>Calcula el cable:</strong> UTP de cobre puro, un tramo por cámara, máximo 100 m.</li><li><strong>Prueba cada tramo</strong> con un comprobador antes de conectar.</li><li><strong>Configura la app</strong> en el celular del cliente y cambia la clave de fábrica.</li></ol><p>Si necesitas más puertos, revisa la guía de <a href=\"https://multitecnologiavyv.com/redes-y-seguridad/switch-poe-camaras-ip/\">switch PoE para cámaras IP</a>.</p><p>Tenemos cámaras y NVR AK en stock en Quito y enviamos a Riobamba, Ibarra, Loja y el resto del país. Con la <a href=\"https://multitecnologiavyv.com/compras-al-por-mayor/cuenta-comercial-precios-distribuidor/\">cuenta comercial</a> ves el precio de distribuidor de cada modelo y puedes comparar el costo de un kit AK contra el análogo que cotizabas.</p>"
+    },
+    {
+      "h2": "Ajustes que conviene hacer al instalarla",
+      "html": "<p>La ficha de la TC-C321N trae varias funciones que vienen activas o se configuran en minutos y marcan la diferencia en la entrega:</p><ul><li><strong>Compresión H.265 o S+265:</strong> úsala en el flujo principal para ahorrar disco.</li><li><strong>Flujo secundario:</strong> la cámara envía una segunda imagen de menor resolución que la app usa en el celular, más liviana para datos móviles.</li><li><strong>Máscaras de privacidad:</strong> tapa con hasta cuatro zonas negras la ventana del vecino o un área que no debes grabar.</li><li><strong>Detección de movimiento:</strong> márcala solo en la zona útil, para que las alertas no se disparen por la calle.</li></ul><p>Para exteriores, la carcasa IP67 y el rango de -30 °C a 60 °C cubren la lluvia de la Sierra y el calor de la Costa.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene una cámara AK",
+      "html": "<ul><li><strong>Necesitas identificar placas o rostros a distancia:</strong> ahí va una cámara de lectura de placas o una lente motorizada.</li><li><strong>El cliente quiere alertas inteligentes</strong> por intrusión en bodegas o patios: la AK no tiene analítica de perímetro.</li><li><strong>El ambiente supera las condiciones de la ficha</strong>, como frío extremo o calor por encima de 60 °C.</li><li><strong>La zona a vigilar está a más de 30 m</strong> de noche y sin luz: el infrarrojo de la AK no llega; busca modelos con 50 u 80 m.</li></ul>"
+    }
+  ],
+  "products": [
+    9488,
+    9486,
+    9489,
+    12850,
+    9510,
+    9511
+  ],
+  "cta_mid": {
+    "title": "¿Cotizando un kit AK?",
+    "text": "Te armamos el kit de cuatro u ocho cámaras AK con NVR y cable, con precio de distribuidor.",
+    "wa_text": "Hola, vengo del artículo de Tiandy AK y quiero cotizar un kit de cámaras AK"
+  },
+  "cta_end": {
+    "title": "Cámaras Tiandy AK con stock en Quito",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en cámaras y NVR de la serie AK.",
+    "wa_text": "Hola, vengo del artículo de Tiandy AK, ¿me ayudan con una cotización?"
+  },
+  "faq": [
+    {
+      "q": "¿Qué significa AK en las cámaras Tiandy?",
+      "a": "AK es la gama IP de entrada de Tiandy. En Ecuador se presenta como Analog Killer porque busca reemplazar a las cámaras análogas con un costo similar."
+    },
+    {
+      "q": "¿Las cámaras Tiandy AK tienen audio?",
+      "a": "Sí. La ficha oficial de la TC-C321N indica micrófono incorporado, y el audio viaja por el mismo cable de red que el video."
+    },
+    {
+      "q": "¿Puedo conectar cámaras AK a un NVR de otra marca?",
+      "a": "La ficha indica compatibilidad ONVIF Profile S y T, así que la imagen debería funcionar en un NVR compatible. Algunas funciones pueden quedar disponibles solo con un NVR Tiandy."
+    },
+    {
+      "q": "¿Cuántas cámaras AK soporta el NVR de 4 canales?",
+      "a": "Cuatro cámaras, conectadas directo a sus cuatro puertos PoE. El presupuesto de 28 W alcanza con margen para cuatro cámaras de 2 W."
+    }
+  ],
+  "fuentes": [
+    "https://en.tiandy.com/ak-network-camera/",
+    "https://en.tiandy.com/ak-network-camera/68343169.html",
+    "https://en.tiandy.com/ak-network-camera/68343178.html",
+    "https://en.tiandy.com/ak-nvr/63693200.html",
+    "https://www.tiandyecuador.com/ventajas-videovigilancia-cctv"
+  ]
+}

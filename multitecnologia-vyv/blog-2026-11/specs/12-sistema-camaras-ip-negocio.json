@@ -1,0 +1,96 @@
+{
+  "n": 12,
+  "slug": "sistema-camaras-ip-negocio",
+  "title": "Sistema de cámaras IP para tu negocio: qué ganas",
+  "focus_kw": "sistema de cámaras IP para negocio",
+  "meta_desc": "Sistema de cámaras IP para tu negocio: ver el local desde el celular, evidencia útil y alertas. Casos de tienda, oficina y bodega.",
+  "excerpt": "Qué gana un dueño de negocio con un sistema de cámaras IP: ver el local desde el celular, evidencia que sirve, alertas y cómo empezar por partes.",
+  "category": "Redes y seguridad",
+  "tags": [
+    "cámaras IP",
+    "seguridad para negocios",
+    "videovigilancia",
+    "NVR",
+    "analítica de video"
+  ],
+  "featured": {
+    "pexels_query": "small shop owner phone counter",
+    "alt": "Dueña de una tienda revisando su celular detrás del mostrador"
+  },
+  "inline_image": {
+    "pexels_query": "warehouse shelves boxes",
+    "alt": "Pasillo de una bodega con estanterías y cajas",
+    "after_section": 3
+  },
+  "intro_html": "<p>Si tienes una tienda, una oficina o una bodega, ya sabes lo que pasa cuando no estás: alguien pregunta por WhatsApp si llegó la mercadería, un cliente reclama un cobro y nadie recuerda qué pasó, o te enteras de un faltante una semana después.</p><p>Un <strong>sistema de cámaras IP para tu negocio</strong> resuelve esas situaciones: ves el local en vivo, revisas lo que pasó y recibes avisos. Aquí te contamos qué ganas en la práctica, qué cámara va en cada lugar y cómo empezar sin gastar de más, con ejemplos de negocios en Quito y en otras ciudades del país.</p>",
+  "sections": [
+    {
+      "h2": "La respuesta corta: ver el local, tener pruebas y recibir avisos",
+      "html": "<p>Un sistema IP graba en un equipo dentro de tu local (el NVR) y te deja ver las cámaras en vivo o la grabación desde una app en el celular. Ganas tres cosas concretas:</p><ul><li><strong>Control a distancia:</strong> revisas la apertura, la caja o la bodega desde la casa o desde otra sucursal.</li><li><strong>Evidencia:</strong> video con detalle suficiente para aclarar un reclamo o entregar a la Policía.</li><li><strong>Alertas:</strong> el sistema te avisa si alguien cruza una zona fuera de horario.</li></ul>"
+    },
+    {
+      "h2": "Verlo todo desde el celular, con o sin internet en el local",
+      "html": "<p>Las cámaras graban en el NVR aunque se caiga el internet; la conexión solo hace falta para ver desde fuera. Los NVR de Tiandy, por ejemplo, traen acceso desde Android e iOS por P2P, sin configurar el router a mano.</p><p>Dos detalles que conviene pedir al instalador: que el NVR y el router estén conectados a un UPS, para que un corte de luz no te deje sin grabación, y que la clave de la app no sea la que viene de fábrica. Tienes equipos de respaldo en <a href=\"https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/proteccion-de-energia/\">protección de energía</a>.</p><p>Un sistema de cámaras es tan bueno como la persona que lo usa. Decide quién tiene acceso desde el celular: el dueño, el administrador o la persona de confianza de cada sucursal. Los NVR permiten crear usuarios con permisos distintos, por ejemplo, ver en vivo sin poder borrar ni descargar grabaciones.</p><p>Cuando alguien deja la empresa, cambia la clave. Y si tienes locales en Quito y en Santo Domingo, cada NVR puede aparecer en la misma app para revisarlos desde un solo lugar.</p>"
+    },
+    {
+      "h2": "Evidencia que sirve: resolución, lente y días de grabación",
+      "html": "<p>Una cámara puede «ver» a una persona a 40 metros y, aun así, no servir para reconocerla. Los fabricantes lo explican con distancias de detección, observación, reconocimiento e identificación. En la ficha oficial de una cámara Tiandy de 2 MP con lente de 2,8 mm, la identificación llega a unos 4 metros y la detección a más de 40.</p><p>Por eso la cámara de la puerta y la de la caja deben estar cerca y a la altura de la cara, y la del patio puede ser más abierta. Para cubrir un salón entero con un solo equipo existe la <a href=\"https://multitecnologiavyv.com/producto/camara-ip-ojo-de-pez-5mp-1-4-mm-ir-30m-tc-c35vn-tiandy/\">cámara ojo de pez de 5 MP</a>, que muestra todo el ambiente desde el techo.</p><p>El NVR graba en un disco duro, y cuando se llena borra lo más antiguo. Los días que guardas dependen de la resolución, del número de cámaras y de si grabas todo el tiempo o solo cuando hay movimiento. La compresión H.265 ocupa menos espacio que la H.264 con la misma imagen.</p><p>Define con el instalador cuántos días necesitas tener: si un faltante se detecta en el inventario de fin de mes, una semana de grabación no te sirve. Pide que te muestren en la app cuál es el video más antiguo guardado.</p>"
+    },
+    {
+      "h2": "Qué cámara va en cada tipo de negocio",
+      "html": "<table><thead><tr><th>Negocio</th><th>Dónde poner cámaras</th><th>Qué conviene</th></tr></thead><tbody><tr><td>Tienda o local de barrio</td><td>Entrada, caja y salón</td><td>Domo con micrófono en caja; ojo de pez para el salón</td></tr><tr><td>Oficina</td><td>Recepción, pasillos y puerta de servidores</td><td>Domos discretos; se combinan con control de acceso</td></tr><tr><td>Bodega</td><td>Puerta de carga, pasillos y perímetro</td><td>Cámaras con analítica de perímetro y alcance infrarrojo largo</td></tr><tr><td>Parqueadero</td><td>Ingreso y salida de vehículos</td><td>Cámara de lectura de placas</td></tr></tbody></table><p>En oficinas, las cámaras rinden más junto a un registro de quién entra; lo explicamos en <a href=\"https://multitecnologiavyv.com/redes-y-seguridad/control-de-acceso-oficinas/\">control de acceso para oficinas</a>.</p>"
+    },
+    {
+      "h2": "Alertas que distinguen a una persona de una sombra",
+      "html": "<p>La detección de movimiento clásica avisa por cualquier cambio en la imagen: una sombra, un perro o un foco que parpadea. Después de diez alertas falsas, el dueño apaga las notificaciones. La analítica de perímetro y cruce de línea, en cambio, avisa solo cuando algo atraviesa la zona que marcaste. En Tiandy la traen modelos como la <a href=\"https://multitecnologiavyv.com/producto/camara-ip-sk-tipo-domo-4mp-2-8mm-ir-30m-mic-poe-tc-c34hs-tiandy/\">domo de 4 MP con IA de perímetro y cruce de línea</a>.</p><p>Úsala en la bodega de noche o en la puerta trasera fuera del horario de atención.</p>"
+    },
+    {
+      "h2": "Cómo empezar sin gastar de más",
+      "html": "<ol><li><strong>Haz la lista de riesgos:</strong> dónde se pierde plata o mercadería y a qué hora.</li><li><strong>Empieza con cuatro cámaras</strong> en los puntos de esa lista y un NVR con PoE integrado.</li><li><strong>Deja canales libres:</strong> un NVR de 8 canales con 4 cámaras te permite crecer sin cambiar el equipo.</li><li><strong>Protege la energía:</strong> UPS para el NVR y el router.</li><li><strong>Pon un aviso visible</strong> de que el local tiene videovigilancia: disuade y te ordena frente a la ley de datos.</li><li><strong>Revisa la grabación una vez por semana</strong> para confirmar que todo graba.</li></ol>"
+    },
+    {
+      "h2": "Cuándo NO te hace falta un sistema IP completo",
+      "html": "<ul><li><strong>Un local muy pequeño que solo quieres ver de vez en cuando:</strong> una cámara Wi-Fi con memoria puede bastar para empezar.</li><li><strong>Ya tienes un sistema análogo que graba bien</strong> y no necesitas ver detalle desde el celular: cámbialo cuando lo amplíes.</li><li><strong>No hay quién mire las grabaciones ni atienda las alertas:</strong> primero define quién lo hará.</li><li><strong>Arriendas por pocos meses</strong> y no puedes pasar cable: una cámara Wi-Fi que te llevas al mudarte resuelve mientras tanto.</li></ul><p>Si tu negocio está en Guayaquil, Ambato o Ibarra, tu instalador puede pedir los equipos a Quito y recibirlos por envío. El catálogo completo está en <a href=\"https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-ip/\">cámaras IP</a>.</p>"
+    }
+  ],
+  "products": [
+    9490,
+    9501,
+    12678,
+    9511,
+    10389
+  ],
+  "cta_mid": {
+    "title": "¿Quieres cámaras para tu negocio?",
+    "text": "Cuéntanos qué tipo de local tienes y te sugerimos cámaras y NVR Tiandy, o te conectamos con un instalador.",
+    "wa_text": "Hola, vengo del artículo de cámaras IP para negocios y quiero cotizar un sistema para mi local"
+  },
+  "cta_end": {
+    "title": "Cámaras IP para tu local, con stock en Quito",
+    "text": "Si eres instalador, crea tu cuenta comercial y ve precios de distribuidor en cámaras y NVR Tiandy.",
+    "wa_text": "Hola, vengo del artículo de cámaras IP para negocios, ¿me ayudan con una cotización?"
+  },
+  "faq": [
+    {
+      "q": "¿Cuántas cámaras necesita un local pequeño?",
+      "a": "Para una tienda de barrio suelen bastar cuatro: entrada, caja, salón y bodega o puerta trasera. Elige un NVR con canales libres para sumar más después."
+    },
+    {
+      "q": "¿Puedo ver mis cámaras desde el celular si se va el internet del local?",
+      "a": "No en vivo, pero el NVR sigue grabando. Cuando vuelve la conexión puedes revisar todo lo que pasó desde la app."
+    },
+    {
+      "q": "¿Las cámaras IP sirven como prueba en una denuncia?",
+      "a": "La grabación sirve como apoyo para identificar a una persona o un hecho. Para eso necesitas buena resolución en la zona clave y la fecha y hora del NVR bien configuradas."
+    },
+    {
+      "q": "¿Tengo que poner un letrero de que hay cámaras?",
+      "a": "Es lo recomendable. La Ley Orgánica de Protección de Datos Personales pide que el tratamiento de datos sea transparente, y un aviso visible además disuade."
+    }
+  ],
+  "fuentes": [
+    "https://en.tiandy.com/ak-network-camera/68343169.html",
+    "https://en.tiandy.com/ak-nvr/63693200.html",
+    "https://consejodecomunicacion.gob.ec/wp-content/uploads/downloads/2021/07/lotaip/Ley%20Org%C3%A1nica%20de%20Protecci%C3%B3n%20de%20Datos%20Personales.pdf"
+  ]
+}

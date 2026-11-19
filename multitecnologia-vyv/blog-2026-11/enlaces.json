@@ -1,0 +1,536 @@
+{
+ "categorias": [
+  {
+   "name": "ACCESORIOS CELULARES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/",
+   "count": 64
+  },
+  {
+   "name": "ACCESORIOS COMPUTADORAS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/",
+   "count": 184
+  },
+  {
+   "name": "ACCESORIOS DE CABLEADO ESTRUCTURADO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/accesorios-de-cableado-estructurado/",
+   "count": 23
+  },
+  {
+   "name": "ACCESORIOS DE VIDEO Y AUDIO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-varios/accesorios-de-video-y-audio/",
+   "count": 7
+  },
+  {
+   "name": "ACCESORIOS VARIOS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-varios/",
+   "count": 21
+  },
+  {
+   "name": "ACCESORIOS Y CABLES IPHONE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/accesorios-y-cables-iphone/",
+   "count": 9
+  },
+  {
+   "name": "ADAPTADOR USB A LAN",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/adaptador-usb-a-lan/",
+   "count": 5
+  },
+  {
+   "name": "AUDIFONO ALAMB 3.5",
+   "url": "https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/audifono-alamb-3-5/",
+   "count": 4
+  },
+  {
+   "name": "AUDIFONOS TWS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/audifonos-tws/",
+   "count": 15
+  },
+  {
+   "name": "AUDIFONOS VT",
+   "url": "https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/audifonos-vt/",
+   "count": 17
+  },
+  {
+   "name": "AUDIFONOS Y PARLANTES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/",
+   "count": 42
+  },
+  {
+   "name": "BANCO DE PODER",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/banco-de-poder/",
+   "count": 3
+  },
+  {
+   "name": "BATERIA LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/bateria-laptop/",
+   "count": 371
+  },
+  {
+   "name": "CABLE DE BATERIA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/cable-de-bateria/",
+   "count": 8
+  },
+  {
+   "name": "CABLE DE DATOS Y EXTENSIONES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/cable-de-datos-y-extensiones/",
+   "count": 15
+  },
+  {
+   "name": "CABLE DE IMPRESORA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cable-de-impresora/",
+   "count": 8
+  },
+  {
+   "name": "CABLE DE PODER",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cable-de-poder/",
+   "count": 15
+  },
+  {
+   "name": "CABLE DISCO DURO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/hard-drive/",
+   "count": 2
+  },
+  {
+   "name": "CABLE DISPLAY PORT",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cable-display-port/",
+   "count": 1
+  },
+  {
+   "name": "Cable HDMI",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cable-hdmi/",
+   "count": 8
+  },
+  {
+   "name": "CABLE USB",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cable-usb/",
+   "count": 19
+  },
+  {
+   "name": "CABLE USB CELULAR",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/cable-usb-celular/",
+   "count": 26
+  },
+  {
+   "name": "CABLE UTP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/cable-utp/",
+   "count": 11
+  },
+  {
+   "name": "CABLE VGA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cable-vga/",
+   "count": 1
+  },
+  {
+   "name": "Cables",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/",
+   "count": 59
+  },
+  {
+   "name": "CABLES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/cables-accesorios-computadoras/",
+   "count": 3
+  },
+  {
+   "name": "CABLES DE AUDIO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/cables/cables-de-audio/",
+   "count": 7
+  },
+  {
+   "name": "CAMARA ESPIA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/camara-espia/",
+   "count": 6
+  },
+  {
+   "name": "CAMARA WEB",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/camara-web/",
+   "count": 4
+  },
+  {
+   "name": "CANDADOS LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/candados-laptop/",
+   "count": 5
+  },
+  {
+   "name": "CARGADOR DE CELULARES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/cargador-de-celulares/",
+   "count": 23
+  },
+  {
+   "name": "CARGADOR LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/cargador-laptop/",
+   "count": 161
+  },
+  {
+   "name": "CARGADOR MONITOR",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-varios/cargador-monitor/",
+   "count": 5
+  },
+  {
+   "name": "CARGADOR UNIVERSAL",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-varios/cargador-universal/",
+   "count": 3
+  },
+  {
+   "name": "CARGADORES VARIOS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-varios/cargadores-varios/",
+   "count": 16
+  },
+  {
+   "name": "CASE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/case/",
+   "count": 15
+  },
+  {
+   "name": "Componentes de PC",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/",
+   "count": 125
+  },
+  {
+   "name": "COMPROBADOR DE REPUESTOS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/comprobador-de-repuestos/",
+   "count": 4
+  },
+  {
+   "name": "CONTROLES DE ACCESO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/controles-de-acceso/",
+   "count": 20
+  },
+  {
+   "name": "CONVERTIDORES DE SEÑAL",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/convertidores-de-senal/",
+   "count": 34
+  },
+  {
+   "name": "COOLER PARA LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/cooler-para-laptop/",
+   "count": 15
+  },
+  {
+   "name": "Disco Solido",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/disco-solido/",
+   "count": 9
+  },
+  {
+   "name": "DIV. CAMARAS ANALOGAS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-analogas/",
+   "count": 15
+  },
+  {
+   "name": "DIV. CAMARAS IP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-ip/",
+   "count": 55
+  },
+  {
+   "name": "ESTUCHES LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/estuches-laptop/",
+   "count": 12
+  },
+  {
+   "name": "EXTENSOR DE SEÑAL",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/extensor-de-senal/",
+   "count": 17
+  },
+  {
+   "name": "EXTENSOR DE SEñAL",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/extensor-de-senal-accesorios-computadoras/",
+   "count": 1
+  },
+  {
+   "name": "FLEX DE VIDEO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/flex-de-video/",
+   "count": 53
+  },
+  {
+   "name": "FUENTE DE PODER PC",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/fuente-de-poder-pc/",
+   "count": 4
+  },
+  {
+   "name": "HERRAMIENTAS CABLEADO ESTRUCTURADO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/herramientas-cableado-estructurado/",
+   "count": 20
+  },
+  {
+   "name": "HERRAMIENTAS VARIAS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/mantenimiento/herramientas-varias/",
+   "count": 2
+  },
+  {
+   "name": "HUB USB",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/hub-usb/",
+   "count": 35
+  },
+  {
+   "name": "LIMPIEZA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/mantenimiento/limpieza/",
+   "count": 5
+  },
+  {
+   "name": "MANTENIMIENTO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/mantenimiento/",
+   "count": 21
+  },
+  {
+   "name": "MEMORIAS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/memorias/",
+   "count": 16
+  },
+  {
+   "name": "MICA Y PROTECTOR DE TECLADO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/mica-y-protector-de-teclado/",
+   "count": 3
+  },
+  {
+   "name": "MICROFONO HEADPHONE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/microfono-headphone/",
+   "count": 3
+  },
+  {
+   "name": "MICROFONO PARA CELULAR",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/microfono-para-celular/",
+   "count": 3
+  },
+  {
+   "name": "MONITOR",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/monitor/",
+   "count": 3
+  },
+  {
+   "name": "NETWORKING REDES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/",
+   "count": 88
+  },
+  {
+   "name": "PANTALLA ALL IN ONE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/pantalla-all-in-one/",
+   "count": 12
+  },
+  {
+   "name": "PANTALLA LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/pantalla-laptop/",
+   "count": 35
+  },
+  {
+   "name": "PARLANTES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/parlantes/",
+   "count": 6
+  },
+  {
+   "name": "PASTA TERMICA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/mantenimiento/pasta-termica/",
+   "count": 8
+  },
+  {
+   "name": "PATCH CORD",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/patch-cord/",
+   "count": 4
+  },
+  {
+   "name": "PILAS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-varios/pilas/",
+   "count": 12
+  },
+  {
+   "name": "PIN DE CARGA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/pin-de-carga/",
+   "count": 54
+  },
+  {
+   "name": "PRODUCTOS DE MANTENIMIENTO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/mantenimiento/productos-de-mantenimiento/",
+   "count": 6
+  },
+  {
+   "name": "PROTECCION DE ENERGIA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/proteccion-de-energia/",
+   "count": 25
+  },
+  {
+   "name": "PUNTERO LASER Y BLUETOOTH",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/puntero-laser-y-bluetooth/",
+   "count": 2
+  },
+  {
+   "name": "REDES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/redes/",
+   "count": 28
+  },
+  {
+   "name": "REP. IMPRESORA",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-varios/rep-impresora/",
+   "count": 74
+  },
+  {
+   "name": "REPUESTOS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos/",
+   "count": 1
+  },
+  {
+   "name": "Repuestos Laptop",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/",
+   "count": 985
+  },
+  {
+   "name": "REPUESTOS VARIOS",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-varios/",
+   "count": 98
+  },
+  {
+   "name": "ROUTER – ENLACES",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/router/",
+   "count": 1
+  },
+  {
+   "name": "Sin categorizar",
+   "url": "https://multitecnologiavyv.com/categoria-producto/sin-categorizar/",
+   "count": 2
+  },
+  {
+   "name": "SMART HOME",
+   "url": "https://multitecnologiavyv.com/categoria-producto/smart-home/",
+   "count": 1
+  },
+  {
+   "name": "SPLITER SWITCH KVM",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/spliter-switch-kvm/",
+   "count": 15
+  },
+  {
+   "name": "TARJETAS EXTERNAS DE SONIDO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/tarjetas-externas-de-sonido/",
+   "count": 4
+  },
+  {
+   "name": "TARJETAS PCI -PCI EXP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/tarjetas-pci-pci-exp/",
+   "count": 29
+  },
+  {
+   "name": "Teclado Laptop",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/teclado-laptop/",
+   "count": 233
+  },
+  {
+   "name": "TECLADOS MOUSE PAD MOUSE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/teclados-mouse-pad-mouse/",
+   "count": 23
+  },
+  {
+   "name": "TELEFONOS IP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/networking-redes/telefonos-ip/",
+   "count": 1
+  },
+  {
+   "name": "TERMOMETRO",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-varios/termometro/",
+   "count": 1
+  },
+  {
+   "name": "TOMACORIENTE INTELIGENTE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/smart-home/tomacoriente-inteligente/",
+   "count": 1
+  },
+  {
+   "name": "UNION VGA HDMI DVI USB",
+   "url": "https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/union-vga-hdmi-dvi-usb/",
+   "count": 12
+  },
+  {
+   "name": "VENTILADOR DE FUENTE",
+   "url": "https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/ventilador-de-fuente/",
+   "count": 1
+  },
+  {
+   "name": "VENTILADOR LAPTOP",
+   "url": "https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/ventilador-laptop/",
+   "count": 52
+  },
+  {
+   "name": "VIGILANCIA Y SEGURIDAD",
+   "url": "https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/",
+   "count": 97
+  }
+ ],
+ "posts": [
+  {
+   "slug": "distribuidor-tecnologia-por-mayor-quito",
+   "url": "https://multitecnologiavyv.com/compras-al-por-mayor/distribuidor-tecnologia-por-mayor-quito/"
+  },
+  {
+   "slug": "repuestos-laptop-por-mayor-ecuador",
+   "url": "https://multitecnologiavyv.com/compras-al-por-mayor/repuestos-laptop-por-mayor-ecuador/"
+  },
+  {
+   "slug": "como-abrir-servicio-tecnico-laptops",
+   "url": "https://multitecnologiavyv.com/compras-al-por-mayor/como-abrir-servicio-tecnico-laptops/"
+  },
+  {
+   "slug": "accesorios-computacion-por-mayor",
+   "url": "https://multitecnologiavyv.com/compras-al-por-mayor/accesorios-computacion-por-mayor/"
+  },
+  {
+   "slug": "tecnologia-por-mayor-envios-ecuador",
+   "url": "https://multitecnologiavyv.com/compras-al-por-mayor/tecnologia-por-mayor-envios-ecuador/"
+  },
+  {
+   "slug": "cuenta-comercial-precios-distribuidor",
+   "url": "https://multitecnologiavyv.com/compras-al-por-mayor/cuenta-comercial-precios-distribuidor/"
+  },
+  {
+   "slug": "bateria-laptop-numero-de-parte",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/bateria-laptop-numero-de-parte/"
+  },
+  {
+   "slug": "ventilador-laptop-cuando-cambiarlo",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/ventilador-laptop-cuando-cambiarlo/"
+  },
+  {
+   "slug": "cargador-laptop-voltaje-conector",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/cargador-laptop-voltaje-conector/"
+  },
+  {
+   "slug": "teclado-laptop-por-modelo",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/teclado-laptop-por-modelo/"
+  },
+  {
+   "slug": "pantalla-laptop-30-40-pines",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/pantalla-laptop-30-40-pines/"
+  },
+  {
+   "slug": "pin-de-carga-laptop",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/pin-de-carga-laptop/"
+  },
+  {
+   "slug": "pasta-termica-mantenimiento-laptop",
+   "url": "https://multitecnologiavyv.com/guias-para-tecnicos/pasta-termica-mantenimiento-laptop/"
+  },
+  {
+   "slug": "fuente-de-poder-pc",
+   "url": "https://multitecnologiavyv.com/componentes-y-accesorios/fuente-de-poder-pc/"
+  },
+  {
+   "slug": "hub-usb-lightning-hub",
+   "url": "https://multitecnologiavyv.com/componentes-y-accesorios/hub-usb-lightning-hub/"
+  },
+  {
+   "slug": "cable-usb-tipo-b-impresora",
+   "url": "https://multitecnologiavyv.com/componentes-y-accesorios/cable-usb-tipo-b-impresora/"
+  },
+  {
+   "slug": "adaptador-hdmi-lan-extensor-hdmi",
+   "url": "https://multitecnologiavyv.com/redes-y-seguridad/adaptador-hdmi-lan-extensor-hdmi/"
+  },
+  {
+   "slug": "switch-poe-camaras-ip",
+   "url": "https://multitecnologiavyv.com/redes-y-seguridad/switch-poe-camaras-ip/"
+  },
+  {
+   "slug": "control-de-acceso-oficinas",
+   "url": "https://multitecnologiavyv.com/redes-y-seguridad/control-de-acceso-oficinas/"
+  },
+  {
+   "slug": "memoria-ram-ddr4-ddr5-ssd",
+   "url": "https://multitecnologiavyv.com/componentes-y-accesorios/memoria-ram-ddr4-ddr5-ssd/"
+  }
+ ]
+}

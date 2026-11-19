@@ -1,0 +1,100 @@
+{
+  "n": 15,
+  "slug": "cable-hdmi-4k-8k-como-comprobarlo",
+  "title": "Cable HDMI 4K u 8K: cómo comprobar si de verdad lo es",
+  "focus_kw": "cable hdmi 4k",
+  "meta_desc": "Qué categoría de cable necesita cada resolución, cómo leer la etiqueta de certificación y una prueba en seis pasos para saber si tu cable da 4K a 60 Hz u 8K.",
+  "excerpt": "Que la caja diga 4K no garantiza 4K a 60 Hz. Cómo leer la categoría del cable, verificar la etiqueta y probarlo en un televisor o una PC antes de entregarlo.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "cable HDMI",
+    "HDMI 4K",
+    "HDMI 8K",
+    "HDMI fibra óptica",
+    "instalación de pantallas"
+  ],
+  "featured": {
+    "pexels_query": "hdmi cable tv back port",
+    "alt": "Cable HDMI conectado a la parte posterior de un televisor"
+  },
+  "inline_image": {
+    "pexels_query": "gaming console tv living room",
+    "alt": "Consola de videojuegos conectada a un televisor 4K",
+    "after_section": 2
+  },
+  "intro_html": "<p>Un técnico instala un televisor 4K en un restaurante de Guayaquil, conecta la consola o el reproductor y la imagen parpadea cada pocos minutos. El televisor está bien y la consola también. El problema es el cable, que decía «4K» en la caja pero no aguanta la señal que le están pidiendo.</p><p>En esta guía te explicamos cómo saber qué puede transmitir un cable HDMI, cómo leer la etiqueta de certificación y cómo probarlo en diez minutos antes de entregar el trabajo.</p>",
+  "sections": [
+    {
+      "h2": "La respuesta corta: lo que define el cable es su ancho de banda",
+      "html": "<p><strong>Un cable HDMI es 4K u 8K según el ancho de banda que soporta, no según el número de versión impreso en la caja.</strong> La organización que licencia HDMI clasifica los cables en categorías, y cada una está pensada para ciertas resoluciones:</p><table><thead><tr><th>Categoría</th><th>Ancho de banda</th><th>Pensado para</th></tr></thead><tbody><tr><td>Standard</td><td>No especificado</td><td>720p y 1080i</td></tr><tr><td>High Speed</td><td>Hasta 10,2 Gbps</td><td>1080p y 4K a 30 Hz</td></tr><tr><td>Premium High Speed</td><td>Hasta 18 Gbps</td><td>4K a 60 Hz con HDR</td></tr><tr><td>Ultra High Speed</td><td>Hasta 48 Gbps</td><td>8K a 60 Hz y 4K a 120 Hz</td></tr><tr><td>Ultra96</td><td>Hasta 96 Gbps</td><td>8K a 60 Hz y 4K a 240 Hz con color completo</td></tr></tbody></table><p>Por eso «4K» solo no basta: un cable High Speed transmite 4K, pero a 30 Hz. Para 4K a 60 Hz necesitas 18 Gbps.</p>"
+    },
+    {
+      "h2": "La etiqueta de certificación y su código QR",
+      "html": "<p>Los cables Premium High Speed y Ultra High Speed certificados pasan pruebas en un centro autorizado y deben llevar una etiqueta oficial en el empaque. En los Ultra High Speed esa etiqueta se escanea con cualquier lector de códigos QR y muestra la marca, el modelo y el largo del cable.</p><ul><li><strong>Si la etiqueta está y el escaneo coincide</strong> con lo que tienes en la mano, el cable fue probado para esa categoría.</li><li><strong>Si no hay etiqueta</strong>, no significa que el cable sea malo: muchos cables sin certificar funcionan bien en su rango. Significa que tienes que comprobarlo tú.</li><li><strong>Si el código lleva a otra marca o a otro largo</strong>, desconfía del producto.</li></ul>"
+    },
+    {
+      "h2": "Prueba en seis pasos antes de entregar la instalación",
+      "html": "<ol><li><strong>Confirma qué pueden dar los equipos.</strong> En muchos televisores solo algunos puertos HDMI aceptan 4K a 60 Hz o 120 Hz. Usa el puerto marcado para eso.</li><li><strong>Conecta y mira la información de la señal</strong> en el menú del televisor: debe mostrar la resolución y la frecuencia que esperas.</li><li><strong>En una PC con Windows</strong>, entra a Configuración, Pantalla, Configuración avanzada de pantalla, y revisa la frecuencia de actualización. Si 60 Hz no aparece en 4K, el cable o el puerto no dan.</li><li><strong>Reproduce contenido 4K con HDR durante diez minutos.</strong> Los cortes suelen aparecer con el equipo caliente, no en el primer minuto.</li><li><strong>Cambia el cable por uno de referencia</strong> que sepas que funciona. Si el problema desaparece, ya sabes quién fallaba.</li><li><strong>Si falla solo en largos grandes</strong>, acorta el tramo o pasa a fibra óptica o a un extensor por cable de red.</li></ol><h3>Síntomas de un cable que no aguanta la señal</h3><ul><li><strong>Pantalla negra por uno o dos segundos</strong>, que vuelve sola.</li><li><strong>Puntos blancos o «chispas»</strong> en zonas oscuras de la imagen.</li><li><strong>El HDR se desactiva</strong> o el color se ve lavado.</li><li><strong>La opción de 60 Hz o 120 Hz no aparece</strong> en el menú de la consola o de la PC.</li><li><strong>El audio se corta</strong> cuando la barra de sonido está conectada por ARC.</li></ul><p>Si ves cualquiera de estos síntomas con un cable de 10 m o más, la distancia es la primera sospecha.</p>"
+    },
+    {
+      "h2": "Distancia: hasta dónde llega el cobre y cuándo pasar a fibra",
+      "html": "<p>Cuanto más largo es un cable de cobre, más le cuesta sostener anchos de banda altos. Para salas de reuniones en Quito o pantallas de menú en un local de Cuenca, con la fuente lejos de la pantalla, tienes dos caminos:</p><ul><li><strong><a href=\"https://multitecnologiavyv.com/producto/cable-hdmi-de-fibra-optica/\">HDMI de fibra óptica</a>:</strong> el de Deltatech declara 4K a 60 Hz, 18 Gbps y HDR10 en largos de 50 a 100 m. Es de una sola dirección: el conector SOURCE va a la fuente y DISPLAY a la pantalla.</li><li><strong>Extensor HDMI por cable de red:</strong> envía la señal por UTP Cat5e o Cat6. Te explicamos cuándo conviene en la guía de <a href=\"https://multitecnologiavyv.com/redes-y-seguridad/adaptador-hdmi-lan-extensor-hdmi/\">extensores HDMI por cable de red</a>.</li></ul>"
+    },
+    {
+      "h2": "Qué cable Deltatech elegir para cada caso",
+      "html": "<ul><li><strong>Proyectores, monitores Full HD y grabadores de cámaras:</strong> el <a href=\"https://multitecnologiavyv.com/producto/cable-hdmi-v1-4-delta/\">HDMI 1.4</a>, que va de 1 a 30 m.</li><li><strong>Televisores 4K con contenido a 30 Hz, TV box y laptops:</strong> el <a href=\"https://multitecnologiavyv.com/producto/cable-hdmi-v2-0-4k-delta/\">HDMI 2.0 4K</a>. Su ficha declara 3840 × 2160 a 30 Hz, así que no lo ofrezcas para 4K a 60 Hz.</li><li><strong>Consolas y televisores que piden 4K a 60 Hz o más:</strong> el <a href=\"https://multitecnologiavyv.com/producto/cable-hdmi-v2-1-8k-delta/\">HDMI 2.1 8K</a>, en 1,5, 2 y 5 m.</li><li><strong>Tramos de 50 m en adelante:</strong> el HDMI de fibra óptica.</li></ul><p>Todos están en la categoría de <a href=\"https://multitecnologiavyv.com/categoria-producto/cables/cable-hdmi/\">cables HDMI</a> de la tienda.</p>"
+    },
+    {
+      "h2": "Mini HDMI, micro HDMI y otros conectores: las mismas reglas",
+      "html": "<p>Cámaras fotográficas, tablets y algunas placas de desarrollo usan conectores más pequeños. Un <a href=\"https://multitecnologiavyv.com/producto/cable-hdmi-a-mini-hdmi-1-5-m-delta/\">cable HDMI a mini HDMI</a> o un <a href=\"https://multitecnologiavyv.com/producto/cable-hdmi-a-micro-hdmi-1-5-m-delta/\">cable HDMI a micro HDMI</a> de 1,5 m transmite la misma señal que uno estándar, y lo que define su capacidad sigue siendo el ancho de banda, no la forma del conector.</p><ul><li><strong>Revisa qué entrega el equipo:</strong> muchas cámaras sacan 1080p por su puerto mini HDMI, y ahí cualquier cable de buena construcción cumple.</li><li><strong>Evita sumar adaptadores en cadena:</strong> cada unión es un punto donde la señal puede fallar. Un cable directo es más confiable que un cable estándar con dos adaptadores.</li><li><strong>Cuida el conector:</strong> los puertos micro HDMI son frágiles. Un cable que tira hacia abajo termina dañando el puerto del equipo, y esa reparación sale más cara que el cable.</li></ul>"
+    },
+    {
+      "h2": "Cuándo NO te conviene un cable 8K",
+      "html": "<p>Vender el cable más caro no siempre es vender bien. Un cable 8K no le aporta nada a un proyector de 1080p, a un monitor de oficina Full HD ni a la salida HDMI de un grabador de cámaras. En esos casos, un HDMI 1.4 del largo correcto resuelve igual y el cliente vuelve porque le recomendaste lo justo.</p><p>Guarda el 8K para consolas de última generación, televisores con 120 Hz y PC gamer, donde sí se usa el ancho de banda.</p>"
+    }
+  ],
+  "products": [
+    10460,
+    9861,
+    9823,
+    9837,
+    11477
+  ],
+  "cta_mid": {
+    "title": "¿No sabes qué cable pide tu instalación?",
+    "text": "Dinos qué equipos conectas y a qué distancia, y te decimos qué cable o extensor usar.",
+    "wa_text": "Hola, vengo del artículo de cable HDMI 4K u 8K y quiero saber qué cable necesito"
+  },
+  "cta_end": {
+    "title": "Cables HDMI con precio de distribuidor",
+    "text": "Crea tu cuenta comercial y mira los precios por volumen en cables HDMI, fibra óptica y extensores.",
+    "wa_text": "Hola, vengo del artículo de cable HDMI 4K u 8K y quiero cotizar cables por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Un cable HDMI 2.0 siempre da 4K a 60 Hz?",
+      "a": "No necesariamente. Lo que define si da 4K a 60 Hz es que soporte 18 Gbps, la categoría Premium High Speed. Revisa la ficha del cable antes de prometerlo."
+    },
+    {
+      "q": "¿Cómo sé si mi cable HDMI es certificado?",
+      "a": "Busca la etiqueta oficial de certificación en el empaque. En los Ultra High Speed se escanea con un lector de QR y muestra marca, modelo y largo."
+    },
+    {
+      "q": "¿Puedo usar un cable 8K con un televisor 4K?",
+      "a": "Sí, los cables HDMI son compatibles hacia atrás. Solo que el televisor usará la resolución máxima que admite."
+    },
+    {
+      "q": "¿Cuál es el largo máximo de un cable HDMI?",
+      "a": "Depende del cable y de la señal. Para 4K en tramos de 50 a 100 m, lo seguro es fibra óptica o un extensor por cable de red."
+    }
+  ],
+  "fuentes": [
+    "https://www.hdmi.org/resource/cables",
+    "https://hdmi.org/spec21Sub/UltraHighSpeedCable",
+    "https://hdmi.org/spec/premiumcable",
+    "https://multitecnologiavyv.com/wp-content/uploads/2026/05/Ficha-tecnica-HDMI-V2.0-2.pdf",
+    "https://multitecnologiavyv.com/wp-content/uploads/2026/05/Ficha-Tecnica-Cable-HDMI-Fibra-Optica.pdf",
+    "https://multitecnologiavyv.com/producto/cable-hdmi-v1-4-delta/",
+    "https://multitecnologiavyv.com/producto/cable-hdmi-v2-1-8k-delta/"
+  ]
+}

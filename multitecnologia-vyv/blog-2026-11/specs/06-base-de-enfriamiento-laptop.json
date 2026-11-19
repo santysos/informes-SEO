@@ -1,0 +1,98 @@
+{
+  "n": 6,
+  "slug": "base-de-enfriamiento-laptop",
+  "title": "Base de enfriamiento para laptop: cuál elegir",
+  "focus_kw": "base de enfriamiento para laptop",
+  "meta_desc": "Cuándo ayuda una base de enfriamiento, cuántos ventiladores necesitas y en qué casos el calor de la laptop se resuelve con mantenimiento.",
+  "excerpt": "Si tu laptop se calienta, una base de enfriamiento puede bajar la temperatura, pero no siempre. Te explicamos cuándo sirve, qué tipo elegir y cuándo toca mantenimiento.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "cooler laptop",
+    "base de enfriamiento",
+    "temperatura",
+    "accesorios laptop",
+    "gamer"
+  ],
+  "featured": {
+    "pexels_query": "laptop cooling pad fans desk",
+    "alt": "Laptop sobre una base de enfriamiento con ventiladores"
+  },
+  "inline_image": {
+    "pexels_query": "laptop bottom vents",
+    "alt": "Parte inferior de una laptop con las rejillas de ventilación",
+    "after_section": 2
+  },
+  "intro_html": "<p>La laptop se pone caliente en la parte de abajo, el ventilador suena fuerte y los programas se vuelven lentos a media tarde. Es una de las quejas más comunes en cualquier servicio técnico, y casi siempre aparece la misma pregunta: ¿le compro un cooler?</p>\n<p>Una <strong>base de enfriamiento para laptop</strong> ayuda cuando el problema es de flujo de aire. Cuando el problema está adentro del equipo, no alcanza. En esta guía te explicamos cómo distinguir los dos casos y qué base elegir según el uso.</p>",
+  "sections": [
+    {
+      "h2": "Respuesta corta: la base ayuda, pero no reemplaza el mantenimiento",
+      "html": "<p>La base empuja aire fresco hacia la parte inferior de la laptop, que es por donde muchos modelos toman aire. Si la laptop está limpia y solo trabaja exigida, la base baja la temperatura y el ventilador interno trabaja más tranquilo.</p>\n<p>Si en cambio el disipador está tapado de polvo o la pasta térmica se secó, la base apenas hace diferencia. En ese caso revisa primero el <a href=\"https://multitecnologiavyv.com/guias-para-tecnicos/ventilador-laptop-cuando-cambiarlo/\">ventilador de la laptop</a> y la <a href=\"https://multitecnologiavyv.com/guias-para-tecnicos/pasta-termica-mantenimiento-laptop/\">pasta térmica</a>. La base se compra después, como apoyo.</p>"
+    },
+    {
+      "h2": "Señales de que la laptop se calienta de más",
+      "html": "<p>Antes de comprar nada, confirma que el problema es temperatura. Estas son las señales que más vemos en el taller:</p>\n<ul>\n<li>El ventilador suena fuerte con tareas simples, como el navegador o una hoja de cálculo.</li>\n<li>El equipo va bien al encender y se pone lento después de media hora de trabajo.</li>\n<li>Los juegos bajan de cuadros por segundo de golpe y luego se recuperan.</li>\n<li>La zona sobre el teclado o la base quema al tacto.</li>\n<li>La laptop se apaga sola sin aviso, sobre todo con carga.</li>\n</ul>\n<p>Un programa de monitoreo como HWMonitor muestra la temperatura del procesador en tiempo real. Compara la lectura en reposo y con el equipo exigido: si sube muy rápido y el rendimiento cae, el procesador está bajando su velocidad para protegerse. Esa prueba de diez minutos te dice si empezar por la limpieza o por la base.</p>"
+    },
+    {
+      "h2": "Por dónde respira tu laptop y qué base le sirve",
+      "html": "<p>Dale la vuelta al equipo. Si tiene rejillas grandes en la base, toma aire por abajo y una base con ventiladores le sirve mucho. Si las rejillas están en los costados o atrás, y la base es casi lisa, la ganancia será menor.</p>\n<p>La salida del aire caliente casi siempre está en un costado o en la parte trasera. Para esos equipos existe otra solución: el <a href=\"https://multitecnologiavyv.com/producto/aspirador-de-calor-mod-ice-troll/\">aspirador de calor Ice Troll</a>, que se acopla a la rejilla de salida y extrae el aire caliente hacia afuera.</p>\n<p>Otra cosa que conviene revisar son las patas de goma. Si se perdieron, la laptop queda pegada a la mesa y se ahoga. Una base, aunque no tenga ventilador, ya le devuelve ese espacio.</p>\n<table>\n<thead><tr><th>Modelo</th><th>Ventiladores</th><th>Altura</th><th>Para quién</th></tr></thead>\n<tbody>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/base-cf100-1-ventilador-regulable-soporte-celular/\">Rapoo CF100</a></td><td>1, regulable</td><td>Fija</td><td>Oficina y estudio; trae soporte para el celular</td></tr>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/base-gamer-vaiu-019-2-ventiladores-4-niveles/\">VAIU-019</a></td><td>2</td><td>4 niveles</td><td>Uso diario en laptops de 14 y 15,6 pulgadas</td></tr>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/base-gamer-h1-3-ventiladores-4-niveles/\">Gamer H1</a></td><td>3</td><td>4 niveles</td><td>Juegos y edición en jornadas largas</td></tr>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/base-vaiu-505-delta-5-ventiladores-4-niveles/\">VAIU-505 Deltatech</a></td><td>5</td><td>6 niveles</td><td>Laptops gamer grandes</td></tr>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/aspirador-de-calor-mod-ice-troll/\">Aspirador Ice Troll</a></td><td>Extractor</td><td>No aplica</td><td>Equipos que botan el aire por un costado</td></tr>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/soporte-de-laptop-y-tablets-de-aluminio-gris-mod-n2/\">Soporte de aluminio N2</a></td><td>Ninguno</td><td>Inclinación</td><td>Ergonomía y ventilación pasiva</td></tr>\n</tbody>\n</table>\n<p>Más ventiladores no siempre es mejor. Lo que importa es que coincidan con la zona por donde la laptop toma aire.</p>"
+    },
+    {
+      "h2": "Cómo elegir la base en cinco pasos",
+      "html": "<ol>\n<li>Mide la laptop: la base debe ser igual o más grande que el equipo para que no quede en el aire.</li>\n<li>Ubica las rejillas de entrada y elige una base cuyos ventiladores caigan debajo de ellas.</li>\n<li>Ten en cuenta que la base se alimenta por USB y ocupa un puerto de la laptop.</li>\n<li>Si trabajas en una oficina silenciosa, prefiere menos ventiladores o uno regulable.</li>\n<li>Usa los niveles de altura para dejar la pantalla más cerca de la vista y el teclado cómodo.</li>\n</ol>\n<p>Si la laptop tiene pocos puertos, combina la base con un <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/hub-usb/\">hub USB</a> para no quedarte sin conexión para el mouse o la memoria.</p>"
+    },
+    {
+      "h2": "El clima también cuenta: Quito no es Guayaquil",
+      "html": "<p>Un ventilador enfría con el aire que lo rodea. En Guayaquil, Machala o Portoviejo, con una mañana que ya pasa de 30 °C, ese aire llega caliente y la laptop trabaja más cerca de su límite. Ahí una base hace una diferencia que se nota en el tacto.</p>\n<p>En Quito, Ambato o Riobamba el ambiente es más fresco, pero el aire de altura es menos denso y arrastra menos calor por cada vuelta del ventilador. Por eso también en la Sierra se ven laptops gamer que se calientan con juegos o renderizado. En los dos casos, la base complementa a un equipo limpio.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene una base de enfriamiento",
+      "html": "<ul>\n<li><strong>Si la laptop se apaga sola por calor.</strong> Eso indica disipador tapado, ventilador dañado o pasta seca. Primero mantenimiento.</li>\n<li><strong>Si el equipo no tiene rejillas inferiores.</strong> Varias ultradelgadas toman aire por el teclado o los costados; un soporte sin ventilador basta.</li>\n<li><strong>Si la laptop se usa en la cama.</strong> Las cobijas tapan las rejillas igual. Ahí sirve más una mesa portátil que una base.</li>\n</ul>"
+    },
+    {
+      "h2": "Para tiendas: qué bases tener en stock",
+      "html": "<p>Con tres modelos cubres casi toda la demanda: una base sencilla de uno o dos ventiladores para estudiantes y oficina, una gamer de tres a cinco ventiladores y el aspirador para quien no quiere cargar una base. La VAIU-505 viene en cajas de 12 unidades y la Gamer H1 en cajas de 20.</p>\n<p>En temporada de regreso a clases, en la Sierra en septiembre y en la Costa en abril, las bases sencillas se mueven más; las gamer se venden parejo todo el año.</p>\n<p>Toda la línea está en <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-computadoras/cooler-para-laptop/\">cooler para laptop</a>. Si además das mantenimiento, ten a mano repuestos de <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-laptop/ventilador-laptop/\">ventiladores de laptop</a>. Con tu cuenta comercial ves los precios de distribuidor y enviamos desde Quito a todo el país.</p>"
+    }
+  ],
+  "products": [
+    6800,
+    6801,
+    6803,
+    13495,
+    6788,
+    13313
+  ],
+  "cta_mid": {
+    "title": "¿Qué base le sirve a esta laptop?",
+    "text": "Envíanos el modelo o una foto de la parte de abajo del equipo y te decimos qué base o extractor conviene.",
+    "wa_text": "Hola, vengo del artículo de bases de enfriamiento y quiero saber cuál le sirve a mi laptop"
+  },
+  "cta_end": {
+    "title": "Bases de enfriamiento por mayor",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en bases, extractores y soportes para laptop.",
+    "wa_text": "Hola, vengo del artículo de bases de enfriamiento y quiero cotizar al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Una base de enfriamiento baja mucho la temperatura?",
+      "a": "Depende del equipo. En laptops que toman aire por abajo la mejora se nota; en equipos con disipador sucio o pasta seca la diferencia es mínima hasta hacer mantenimiento."
+    },
+    {
+      "q": "¿La base de enfriamiento gasta la batería?",
+      "a": "Se alimenta por USB desde la laptop, así que consume algo de energía. Si trabajas con batería, conéctala solo cuando el equipo esté exigido o enchufado."
+    },
+    {
+      "q": "¿Qué es mejor, base con ventiladores o aspirador de calor?",
+      "a": "La base sopla aire por debajo y sirve en equipos con rejillas inferiores. El aspirador extrae el aire caliente por la salida lateral y conviene en laptops que botan el calor por un costado."
+    },
+    {
+      "q": "¿Cuántos ventiladores necesita una laptop gamer?",
+      "a": "No hay un número fijo. Lo importante es que los ventiladores queden debajo de las entradas de aire. En laptops grandes, una base de tres a cinco ventiladores suele cubrir esa zona."
+    }
+  ],
+  "fuentes": [
+    "https://multitecnologiavyv.com/producto/base-vaiu-505-delta-5-ventiladores-4-niveles/",
+    "https://multitecnologiavyv.com/producto/base-gamer-h1-3-ventiladores-4-niveles/",
+    "https://multitecnologiavyv.com/producto/base-cf100-1-ventilador-regulable-soporte-celular/",
+    "https://multitecnologiavyv.com/producto/aspirador-de-calor-mod-ice-troll/"
+  ]
+}

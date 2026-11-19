@@ -1,0 +1,98 @@
+{
+  "n": 8,
+  "slug": "cargador-5v-2a-usb-tipo-a-tipo-c",
+  "title": "Cargador 5V 2A y USB tipo A o C: cómo elegirlo",
+  "focus_kw": "cargador 5V 2A",
+  "meta_desc": "Voltaje, amperaje, tipo A, tipo C y carga rápida: cómo elegir un cargador de celular o una fuente de 5V 2A sin dañar el equipo. Guía para tiendas.",
+  "excerpt": "Qué significa 5V 2A, en qué se diferencian los cargadores USB tipo A y tipo C, cómo funciona la carga rápida y cuándo lo que necesitas es una fuente con plug.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "cargador celular",
+    "cargador 5V 2A",
+    "USB tipo C",
+    "carga rápida",
+    "fuente de poder"
+  ],
+  "featured": {
+    "pexels_query": "usb wall charger phone cable",
+    "alt": "Cargador USB de pared con su cable junto a un celular"
+  },
+  "inline_image": {
+    "pexels_query": "usb c charger closeup",
+    "alt": "Cargador con puertos USB tipo A y tipo C",
+    "after_section": 2
+  },
+  "intro_html": "<p>«Necesito un cargador de 5V 2A». Esa frase llega a una tienda de celulares o a un servicio técnico varias veces por semana, y puede significar tres cosas distintas: un cubo USB para el teléfono, un cargador tipo C de carga rápida o una fuente con plug redondo para un TV box.</p>\n<p>En esta guía te explicamos qué significa <strong>cargador 5V 2A</strong>, cómo leer la etiqueta y cómo elegir entre tipo A y tipo C. Si lo que buscas es el cargador de una laptop, tenemos una guía aparte sobre <a href=\"https://multitecnologiavyv.com/guias-para-tecnicos/cargador-laptop-voltaje-conector/\">voltaje y conector del cargador de laptop</a>.</p>",
+  "sections": [
+    {
+      "h2": "Respuesta corta: el voltaje se respeta y el amperaje es un máximo",
+      "html": "<p>5V 2A quiere decir que el cargador entrega 5 voltios y puede dar hasta 2 amperios, o sea 10 W. El equipo toma solo la corriente que necesita: un cargador de 2,4 A sirve donde iba uno de 1 A.</p>\n<p>El voltaje es otra historia. En un cubo USB la salida base es de 5 V y solo sube si el teléfono la pide con carga rápida, así que el riesgo es bajo. En una fuente con plug redondo, en cambio, tienes que respetar el voltaje exacto: una fuente de 12 V en un equipo de 5 V lo daña.</p>"
+    },
+    {
+      "h2": "Tipo A, tipo C y fuente con plug: tres productos distintos",
+      "html": "<p><strong>Cubo USB tipo A.</strong> Es el cargador de toda la vida. Entrega 5 V y su potencia se indica en amperios: 1 A, 2 A o 2,4 A. Se usa con el cable que corresponda al teléfono, por ejemplo un <a href=\"https://multitecnologiavyv.com/producto/cable-usb-tipo-a-a-usb-tipo-c-2-1a-l1m-mod-cab237-1hora/\">cable USB tipo A a tipo C</a>.</p>\n<p><strong>Cubo USB tipo C con PD.</strong> Arranca en 5 V y, si el celular lo pide, sube a 9 V o más para cargar rápido. Por eso se describe en vatios: 20 W, 30 W o 65 W.</p>\n<p><strong>Fuente con plug.</strong> Es un adaptador con cable fijo y un conector redondo, como el <a href=\"https://multitecnologiavyv.com/producto/cargador-5v-2a-plug-5-5x2-5/\">cargador 5V 2A con plug 5.5×2.5</a>. No es para celulares: alimenta TV box, hubs, extensores USB y otros equipos que traen esa entrada.</p>"
+    },
+    {
+      "h2": "Qué salida necesita cada equipo",
+      "html": "<table>\n<thead><tr><th>Salida</th><th>Potencia</th><th>Uso típico</th><th>Ejemplo en catálogo</th></tr></thead>\n<tbody>\n<tr><td>5 V 1 A</td><td>5 W</td><td>Audífonos, relojes, parlantes pequeños</td><td><a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-varios/cargadores-varios/\">Cargadores varios</a></td></tr>\n<tr><td>5 V 2,4 A (tipo A)</td><td>12 W</td><td>Celulares sin carga rápida</td><td><a href=\"https://multitecnologiavyv.com/producto/combo-cargador-tipo-a-2-4a-cable-l-1m-tipo-a-a-tipo-c-gar142b-1hora/\">Combo tipo A 2.4A 1Hora</a></td></tr>\n<tr><td>PD 20 W (tipo C)</td><td>20 W</td><td>Celulares con carga rápida</td><td><a href=\"https://multitecnologiavyv.com/producto/cargador-usb-tipo-c-pd-20w-gar152-1hora/\">Cargador tipo C PD 20W 1Hora</a></td></tr>\n<tr><td>Tipo C 30 W</td><td>30 W</td><td>Celulares y tablets que aceptan más potencia</td><td><a href=\"https://multitecnologiavyv.com/producto/cargador-carga-rapida-30w-tipo-c-gar164b-1hora/\">Cubo 30W tipo C 1Hora</a></td></tr>\n<tr><td>PD 65 W + USB A</td><td>65 W por tipo C</td><td>Tablets y equipos que cargan por tipo C</td><td><a href=\"https://multitecnologiavyv.com/producto/cargador-carga-rapida-pd-65w-tipo-c-usb-5v-2-4a/\">Cargador PD 65W</a></td></tr>\n<tr><td>5 V 2 A con plug 5.5×2.5</td><td>10 W</td><td>TV box, hubs con alimentación</td><td><a href=\"https://multitecnologiavyv.com/producto/cargador-5v-2a-plug-5-5x2-5/\">Fuente 5V 2A</a></td></tr>\n</tbody>\n</table>"
+    },
+    {
+      "h2": "Cómo leer la etiqueta y elegir el reemplazo",
+      "html": "<ol>\n<li>Busca la línea <em>Output</em> del cargador original o la entrada del equipo, por ejemplo <strong>5V ⎓ 2A</strong>.</li>\n<li>Si es una fuente con plug, el voltaje del reemplazo tiene que ser igual.</li>\n<li>El amperaje puede ser igual o mayor, nunca menor.</li>\n<li>Mide el plug (5.5×2.5, 5.5×2.1, 3.5×1.35) y revisa el dibujo de polaridad de la etiqueta.</li>\n<li>Si es un cubo USB para celular, confirma qué carga rápida acepta el teléfono antes de elegir tipo A o tipo C.</li>\n</ol>\n<p>La diferencia entre 5.5×2.5 y 5.5×2.1 es el pin interno. Un plug que entra flojo hace falso contacto y termina dañando la entrada del equipo.</p>"
+    },
+    {
+      "h2": "Carga rápida y calidad: qué revisar antes de comprar",
+      "html": "<p>La carga rápida funciona cuando el cargador y el celular hablan el mismo protocolo. El <a href=\"https://multitecnologiavyv.com/producto/cargador-de-pared-20w-usb-tipo-c-tipo-a/\">cargador Aplus de 20 W tipo C + tipo A</a>, por ejemplo, declara compatibilidad con PD 2.0/3.0, QC 2.0/3.0, FCP y SCP, y en el puerto A admite los modos de 2 A y 2,4 A de Samsung y Apple.</p>\n<p>El cable también cuenta. Un cable delgado o dañado limita la corriente aunque el cubo sea potente. Para tipo C a tipo C, usa uno de 3 A, como el <a href=\"https://multitecnologiavyv.com/producto/cable-usb-tipo-c-a-tipo-c-60w-3a-l1-2m/\">cable tipo C de 60 W</a>.</p>\n<p>Según USB-IF, la organización que define el estándar, USB Power Delivery 3.1 llega hasta 240 W con el cable adecuado. Un celular usa una fracción de eso.</p>\n<p>Un cargador barato que no cumple lo que dice la etiqueta es el que más regresa al local. Antes de elegir un proveedor, revisa tres cosas en el producto y en su ficha:</p>\n<ul>\n<li><strong>Entrada de 100 a 240 V.</strong> Permite usarlo con la corriente de casa sin problema y es señal de un diseño completo.</li>\n<li><strong>Protecciones declaradas.</strong> Las fichas serias las listan con siglas: OCP (sobrecorriente), OVP (sobrevoltaje), SCP (cortocircuito) y OTP (temperatura). El cargador PD 65W de nuestro catálogo, por ejemplo, declara las cuatro.</li>\n<li><strong>Etiqueta legible.</strong> Modelo, entrada y salida impresos en el cargador y también en la caja.</li>\n</ul>\n<p>Si el cliente vuelve porque el cargador «se calienta mucho», pregunta qué equipo carga. Un cubo de 1 A con una tablet trabaja al límite todo el tiempo, y eso se arregla con uno de más potencia.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene un cargador de 5V",
+      "html": "<ul>\n<li><strong>Para una laptop.</strong> Pide entre 45 W y 100 W o más. Revisa la guía de <a href=\"https://multitecnologiavyv.com/guias-para-tecnicos/cargador-laptop-voltaje-conector/\">cargadores de laptop</a>.</li>\n<li><strong>Para cámaras analógicas o routers de 12 V.</strong> Necesitan una fuente de 12 V, como el <a href=\"https://multitecnologiavyv.com/producto/cargador-12v-2a-plug-5-5x2-5/\">cargador 12V 2A con plug 5.5×2.5</a>.</li>\n<li><strong>Si no sabes qué voltaje pide el equipo.</strong> Un <a href=\"https://multitecnologiavyv.com/producto/cargador-universal-30w-8-plug-3-12v-usb2-0/\">cargador universal de 3 a 12 V</a> sirve en el taller para probar, pero una mala selección del voltaje puede dañar el equipo del cliente.</li>\n</ul>"
+    },
+    {
+      "h2": "Para tiendas de celulares: qué combinación tener",
+      "html": "<p>En los locales de accesorios del centro de Quito, de Ambato o de Santo Domingo, lo que más rota son los combos tipo A de 2,4 A con cable, para teléfonos de gama de entrada, y los cubos tipo C de 20 W para equipos con carga rápida. Las fuentes de 5V 2A con plug se piden menos, pero el técnico que las necesita las necesita ese mismo día.</p>\n<p>Encuentras todo en <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/cargador-de-celulares/\">cargadores de celulares</a> y <a href=\"https://multitecnologiavyv.com/categoria-producto/accesorios-celulares/cable-usb-celular/\">cables USB para celular</a>. Con tu cuenta comercial ves precios de distribuidor y despachamos desde Quito a todas las provincias.</p>"
+    }
+  ],
+  "products": [
+    10423,
+    10414,
+    6690,
+    10341,
+    6687,
+    9454
+  ],
+  "cta_mid": {
+    "title": "¿No sabes qué cargador pedir?",
+    "text": "Envíanos una foto de la etiqueta del cargador o de la entrada del equipo y te decimos cuál corresponde.",
+    "wa_text": "Hola, vengo del artículo de cargadores 5V 2A y quiero saber cuál necesito"
+  },
+  "cta_end": {
+    "title": "Cargadores USB y fuentes por mayor",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en cargadores, cables y fuentes de 5V y 12V.",
+    "wa_text": "Hola, vengo del artículo de cargadores 5V 2A y quiero cotizar al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Puedo usar un cargador de 5V 2A donde iba uno de 5V 1A?",
+      "a": "Sí. El equipo toma solo la corriente que necesita y el voltaje es el mismo. Lo que no debes hacer es usar uno de menos amperios, porque se calienta y carga lento."
+    },
+    {
+      "q": "¿Qué diferencia hay entre un cargador tipo A y uno tipo C?",
+      "a": "El tipo A entrega 5 V y su potencia se mide en amperios. El tipo C con PD puede subir el voltaje para cargar más rápido y se describe en vatios, como 20 W o 30 W."
+    },
+    {
+      "q": "¿Un cargador de carga rápida daña la batería del celular?",
+      "a": "No, si el celular es compatible con ese protocolo. El cargador y el teléfono acuerdan la potencia, y el celular la reduce cuando la batería se acerca a llenarse."
+    },
+    {
+      "q": "¿Para qué sirve un cargador 5V 2A con plug redondo?",
+      "a": "Para equipos que traen una entrada de corriente redonda y piden 5 V, como TV box, hubs con alimentación o extensores USB. No sirve para celulares."
+    }
+  ],
+  "fuentes": [
+    "https://www.usb.org/usb-charger-pd",
+    "https://multitecnologiavyv.com/producto/cargador-de-pared-20w-usb-tipo-c-tipo-a/",
+    "https://multitecnologiavyv.com/producto/cargador-carga-rapida-pd-65w-tipo-c-usb-5v-2-4a/",
+    "https://multitecnologiavyv.com/producto/cargador-5v-2a-plug-5-5x2-5/"
+  ]
+}

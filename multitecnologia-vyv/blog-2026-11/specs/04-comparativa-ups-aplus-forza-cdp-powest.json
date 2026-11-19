@@ -1,0 +1,108 @@
+{
+  "n": 4,
+  "slug": "comparativa-ups-aplus-forza-cdp-powest",
+  "title": "Comparativa de UPS: Aplus, Forza, CDP y Powest",
+  "focus_kw": "comparativa de UPS",
+  "meta_desc": "Potencia real, batería, tipo interactivo u online, tomas y repuestos: cómo comparar UPS de cuatro marcas para tu casa u oficina en Ecuador.",
+  "excerpt": "Comparamos UPS de Aplus, Forza, CDP y Powest con los datos que publica cada fabricante: vatios, batería, tomas con respaldo, regulación y repuesto de batería.",
+  "category": "Marcas y comparativas",
+  "tags": [
+    "UPS",
+    "Aplus",
+    "protección de energía",
+    "cortes de luz",
+    "comparativa"
+  ],
+  "featured": {
+    "pexels_query": "uninterruptible power supply office computer",
+    "alt": "UPS de escritorio conectado a una computadora de oficina"
+  },
+  "inline_image": {
+    "pexels_query": "power outage office dark computer",
+    "alt": "Oficina con una computadora encendida durante un corte de luz",
+    "after_section": 3
+  },
+  "intro_html": "<p>Después de los cortes de luz programados de 2024, muchos hogares y oficinas de Ecuador compraron su primer UPS. Algunos acertaron y otros descubrieron, en el primer apagón, que el equipo se apagaba en dos minutos o que la computadora no estaba conectada a una toma con batería.</p>\n<p>Esta <strong>comparativa de UPS</strong> pone lado a lado cuatro marcas que se encuentran en el país: Aplus, que es la que distribuimos, y Forza, CDP y Powest. Usamos solo los datos que cada fabricante publica en su sitio oficial y comparamos por criterios que se pueden medir.</p>",
+  "sections": [
+    {
+      "h2": "Respuesta corta: compara vatios, batería y tomas, no la marca",
+      "html": "<p>Para una PC de oficina con su monitor, un módem y un router, un UPS interactivo de 800 a 1000 VA con regulador de voltaje cubre lo necesario en casa o en una oficina pequeña. Las cuatro marcas tienen modelos así. Lo que cambia entre ellas son tres datos: los <strong>vatios reales</strong>, la <strong>energía de la batería</strong> y cuántas tomas tienen respaldo.</p>\n<p>Si necesitas un servidor encendido sin interrupciones o equipos sensibles a la forma de onda, ahí conviene un UPS online, y ese tipo no lo tenemos en catálogo: Powest, CDP y Forza sí lo ofrecen.</p>"
+    },
+    {
+      "h2": "Seis criterios que sí se pueden comparar",
+      "html": "<ul>\n<li><strong>VA y vatios.</strong> El VA es la potencia aparente; el límite real son los vatios (W). Un UPS de 1000 VA puede entregar 500 W o 600 W según el modelo.</li>\n<li><strong>Tipo.</strong> El interactivo pasa a batería cuando se va la luz y regula el voltaje mientras tanto. El online trabaja siempre desde su inversor, sin tiempo de transferencia.</li>\n<li><strong>Batería.</strong> Multiplica voltios por amperios hora: 12 V × 9 Ah son 108 Wh. Es la forma más honesta de comparar cuánta energía guarda cada equipo.</li>\n<li><strong>Tomas con respaldo.</strong> No todas las tomas tienen batería; algunas solo protegen contra picos.</li>\n<li><strong>Regulación de voltaje (AVR).</strong> Corrige bajones y subidas sin gastar batería.</li>\n<li><strong>Repuesto de batería.</strong> La batería se cambia cada pocos años. Importa que el formato sea común y que el compartimiento sea fácil de abrir.</li>\n</ul>"
+    },
+    {
+      "h2": "Tabla: modelos de 800 a 1000 VA de las cuatro marcas",
+      "html": "<table>\n<thead><tr><th>Modelo</th><th>Potencia</th><th>Batería</th><th>Tomas</th><th>Autonomía publicada</th><th>Otros datos</th></tr></thead>\n<tbody>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/ups-interactivo-1000va-600w-12v-7ahx2-10-tomas-2-pto-rj45/\">Aplus 5E1000N</a></td><td>1000 VA / 600 W</td><td>2 × 12 V 7 Ah (168 Wh)</td><td>10 + 2 RJ45</td><td>No figura en la ficha</td><td>Interactivo con regulador; compartimiento de batería de fácil recambio</td></tr>\n<tr><td><a href=\"https://multitecnologiavyv.com/producto/ups-interactivo-800va-480w-bateria-12v-9ah-8-tomas/\">Aplus 1E-800N</a></td><td>800 VA / 480 W</td><td>1 × 12 V 9 Ah (108 Wh)</td><td>8</td><td>No figura en la ficha</td><td>Regulador de dos pasos de subida y uno de bajada; arranque sin luz</td></tr>\n<tr><td>CDP R-UPR1008</td><td>1000 VA / 500 W</td><td>1 × 12 V 9 Ah (108 Wh)</td><td>8: 4 con batería y 4 solo con supresión</td><td>4 min a plena carga, 8 min a media carga</td><td>Interactivo, salida 120 V ±10 %, recarga al 90 % en 4 h, 300 J</td></tr>\n<tr><td>Powest Interactiva 1000VA</td><td>La ficha indica 1250 VA y factor 0,48</td><td>No figura en la ficha</td><td>6 reguladas + 2 bypass</td><td>7 min, sin indicar la carga</td><td>Onda senoidal modificada, entrada de 90 a 145 V, transferencia de 3 a 10 ms, USB</td></tr>\n<tr><td>Forza (series NT, FX, HT, SL, XG)</td><td>Varía por modelo</td><td>Varía por modelo</td><td>Varía por modelo</td><td>Calculadora de autonomía en su sitio</td><td>Herramienta para buscar la batería de reemplazo</td></tr>\n</tbody>\n</table>\n<p>Lo que muestra la tabla: con la misma batería de 108 Wh, CDP publica 4 minutos a plena carga. El Aplus 5E1000N lleva dos baterías y suma 168 Wh, así que con la misma carga conectada guarda más energía. Las fichas de Forza se consultan modelo por modelo en su sitio; no las resumimos para no mezclar datos de versiones de 120 V y 220 V.</p>"
+    },
+    {
+      "h2": "Interactivo u online: qué necesita cada caso",
+      "html": "<p>El <strong>interactivo</strong> es el que usa la mayoría de casas y oficinas. Cuando se va la luz, cambia a batería en pocos milisegundos: CDP publica de 2 a 4 ms y Powest de 3 a 10 ms en los modelos de la tabla. Una PC normal no nota el cambio.</p>\n<p>El <strong>online</strong> o de doble conversión entrega siempre la energía desde el inversor. Powest tiene la línea Winner de 1 kVA, con entrada de 80 a 140 V y factor de potencia 0,8; CDP ofrece online monofásicos de 1 a 3 kVA, y Forza las series EOS y Atlas. Es el tipo indicado para servidores, centrales telefónicas y equipos que trabajan las 24 horas.</p>\n<p>Una señal práctica: si una PC se reinicia justo cuando el UPS pasa a batería, su fuente no se lleva bien con la onda de ese equipo. En ese caso conviene un modelo de onda senoidal pura u online.</p>"
+    },
+    {
+      "h2": "Cómo calcular el UPS que necesitas",
+      "html": "<ol>\n<li>Haz la lista de lo que va al UPS: CPU, monitor, módem, router. La impresora láser no va, porque su consumo al calentar supera lo que aguanta un UPS de escritorio.</li>\n<li>Suma los vatios de cada equipo según su etiqueta o su fuente.</li>\n<li>Elige un UPS cuyos vatios superen esa suma en un 30 % o más.</li>\n<li>Decide cuántos minutos necesitas: guardar y apagar, o seguir trabajando un rato.</li>\n<li>Cuenta las tomas con batería, no las tomas totales.</li>\n</ol>\n<p>Para el router y el módem de una casa basta un equipo pequeño como el <a href=\"https://multitecnologiavyv.com/producto/ap-ups-interactivo-600va-360w-bateria-12v-7ah-9tomas-1xrj452xusb/\">Aplus de 600 VA con 9 tomas</a>. Para dos o tres puestos de oficina, el <a href=\"https://multitecnologiavyv.com/producto/ups-interactivo-2000va-1200w-12v-9ahx2-10-tomas-rj45-usb-a-usb-c-mod-5l-s200n/\">Aplus de 2000 VA y 1200 W</a> deja margen.</p>"
+    },
+    {
+      "h2": "La batería de repuesto: el costo que pocos miran",
+      "html": "<p>Las baterías de plomo-ácido selladas pierden capacidad con los años y con el calor. En Guayaquil, Machala o Manta, donde el UPS trabaja a mayor temperatura que en Quito o Cuenca, conviene revisar la autonomía con más frecuencia.</p>\n<p>El formato de 12 V 9 Ah es de los más comunes: lo usan el Aplus 1E-800N y el CDP R-UPR1008. En nuestra tienda tienes la <a href=\"https://multitecnologiavyv.com/producto/bateria-ups-12v-9ah-aplus/\">batería Aplus 12 V 9 Ah</a>, de 151 × 65 × 94 mm, y la <a href=\"https://multitecnologiavyv.com/producto/bateria-ups-12v-9ah-deltatech-h9-12/\">Deltatech H9-12</a> con la misma medida. Antes de cambiarla en un equipo de otra marca, compara medidas y tipo de terminal. Powest, por su parte, tiene su oficina en Calderón, Quito, para consultas sobre sus equipos.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene un UPS interactivo",
+      "html": "<ul>\n<li><strong>Si el problema son bajones, no cortes.</strong> Un <a href=\"https://multitecnologiavyv.com/producto/ap-regulador-de-voltaje-1000va-500w-8-tomas-2-pto-rj11/\">regulador de voltaje Aplus</a> corrige el voltaje sin batería que mantener.</li>\n<li><strong>Si necesitas horas, no minutos.</strong> Un UPS de escritorio no está hecho para eso. Para respaldo largo se usa un <a href=\"https://multitecnologiavyv.com/producto/inversor-cargador-2000w-4000w-12v-110v/\">inversor cargador</a> con baterías externas de mayor capacidad.</li>\n<li><strong>Si es un servidor 24/7.</strong> Ahí corresponde un UPS online, que no distribuimos.</li>\n</ul>\n<p>Toda la línea está en <a href=\"https://multitecnologiavyv.com/categoria-producto/componentes-de-pc/proteccion-de-energia/\">protección de energía</a>. Si además armas puestos de trabajo completos, la guía de <a href=\"https://multitecnologiavyv.com/componentes-y-accesorios/fuente-de-poder-pc/\">fuente de poder para PC</a> te ayuda a estimar el consumo de cada equipo.</p>"
+    }
+  ],
+  "products": [
+    7648,
+    7654,
+    7650,
+    7652,
+    7631,
+    7644
+  ],
+  "cta_mid": {
+    "title": "¿No sabes de cuántos VA lo necesitas?",
+    "text": "Cuéntanos qué equipos vas a conectar y cuántos minutos quieres de respaldo, y te sugerimos el modelo Aplus que corresponde.",
+    "wa_text": "Hola, vengo del artículo de comparativa de UPS y quiero que me ayuden a elegir uno"
+  },
+  "cta_end": {
+    "title": "UPS Aplus y baterías al por mayor",
+    "text": "Crea tu cuenta comercial para ver precios de distribuidor en UPS, reguladores y baterías de reemplazo.",
+    "wa_text": "Hola, vengo del artículo de comparativa de UPS y quiero cotizar UPS Aplus al por mayor"
+  },
+  "faq": [
+    {
+      "q": "¿Qué diferencia hay entre VA y vatios en un UPS?",
+      "a": "El VA es la potencia aparente y los vatios son la potencia real que puede entregar. Para elegir, suma los vatios de tus equipos y compáralos con los vatios del UPS, no con los VA."
+    },
+    {
+      "q": "¿Cuántos minutos dura un UPS de 1000 VA?",
+      "a": "Depende de la carga conectada y de la batería. Como referencia, CDP publica 4 minutos a plena carga y 8 a media carga para su modelo de 1000 VA con una batería de 12 V 9 Ah."
+    },
+    {
+      "q": "¿Puedo conectar una impresora láser al UPS?",
+      "a": "No es recomendable. Al calentar, la impresora láser consume mucha más potencia que una PC y puede sobrecargar un UPS de escritorio. Conéctala a un protector de voltaje."
+    },
+    {
+      "q": "¿Cada cuánto se cambia la batería del UPS?",
+      "a": "Cuando la autonomía baja de forma notoria o el equipo avisa con una alarma. El calor acorta su vida, así que en la Costa conviene revisarla con más frecuencia que en la Sierra."
+    }
+  ],
+  "fuentes": [
+    "https://cdpenergy.com/productdetails.asp?prd=MTA2&prdn=Ui1VUFIxMDA4&mf=",
+    "https://cdpenergy.com/subsubcategorysuft.asp?scid=52",
+    "https://cdpenergy.com/subcategory.asp?cid=1",
+    "https://powest.com.ec/producto/ups_interactiva_powest_1050va/",
+    "https://powest.com.ec/producto/ups-online-powest-1kva-winner/",
+    "https://powest.com.ec/",
+    "https://www.forzaups.com/products/landing/interactive-ups/",
+    "https://www.forzaups.com/products/landing/online-ups/",
+    "https://www.forzaups.com/tools/runtime-calculator/",
+    "https://www.forzaups.com/tools/battery-replacement/",
+    "https://multitecnologiavyv.com/producto/ups-interactivo-1000va-600w-12v-7ahx2-10-tomas-2-pto-rj45/",
+    "https://multitecnologiavyv.com/producto/ups-interactivo-800va-480w-bateria-12v-9ah-8-tomas/",
+    "https://multitecnologiavyv.com/producto/ap-ups-interactivo-600va-360w-bateria-12v-7ah-9tomas-1xrj452xusb/",
+    "https://multitecnologiavyv.com/producto/bateria-ups-12v-9ah-aplus/"
+  ]
+}

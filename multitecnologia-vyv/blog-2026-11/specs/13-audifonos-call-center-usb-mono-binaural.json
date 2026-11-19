@@ -1,0 +1,96 @@
+{
+  "n": 13,
+  "slug": "audifonos-call-center-usb-mono-binaural",
+  "title": "Audífonos para call center: USB o 3,5 mm, mono o binaural",
+  "focus_kw": "audífonos para call center",
+  "meta_desc": "Cómo elegir la conexión según el equipo, cuándo conviene mono o binaural, qué es un conector QD y cómo equipar las posiciones de un call center.",
+  "excerpt": "USB, 3,5 mm o QD; un auricular o dos; cancelación de ruido: qué audífono necesita cada puesto de un call center o una mesa de ayuda.",
+  "category": "Componentes y accesorios",
+  "tags": [
+    "audífonos call center",
+    "headset USB",
+    "conector QD",
+    "telefonía IP",
+    "VT"
+  ],
+  "featured": {
+    "pexels_query": "call center agent headset computer",
+    "alt": "Agente de call center con audífono y micrófono frente a una computadora"
+  },
+  "inline_image": {
+    "pexels_query": "customer service team office headsets",
+    "alt": "Equipo de atención al cliente trabajando con audífonos en una oficina",
+    "after_section": 2
+  },
+  "intro_html": "<p>Un agente de call center pasa siete u ocho horas con el audífono puesto. Si el micrófono capta la conversación del puesto de al lado, el cliente se queja; si la diadema aprieta, el agente se lo quita a media llamada. El audífono es la herramienta de trabajo más usada de la operación y la que más se descuida al comprar.</p><p>Esta guía es para empresas, mesas de ayuda y técnicos que equipan call centers en Quito, Guayaquil o cualquier ciudad. Te explicamos cómo elegir la conexión según dónde contesta el agente, cuándo conviene un auricular o dos y qué ganas con un conector QD.</p>",
+  "sections": [
+    {
+      "h2": "USB, 3,5 mm o QD: depende de dónde contesta el agente",
+      "html": "<p>La primera pregunta no es la marca, es el equipo. Si el agente atiende desde un programa en la computadora (Teams, Zoom, 3CX, MicroSIP), el audífono va por USB. Si atiende desde un teléfono IP de escritorio, va con conector QD y el cable que corresponde a la marca del teléfono.</p><table><thead><tr><th>Dónde contesta</th><th>Conexión</th><th>Ejemplo en tienda</th></tr></thead><tbody><tr><td>Softphone en la PC</td><td>USB</td><td><a href=\"https://multitecnologiavyv.com/producto/audifono-para-call-center-monoaural-vt1000m-y-cable-usb01-compatible-con-softphone-skype-teams-avaya-cisco-jabber-3cx/\">VT1000M mono USB</a></td></tr><tr><td>Teléfono IP Yealink o Grandstream</td><td>QD + cable Plug 03</td><td><a href=\"https://multitecnologiavyv.com/producto/cable-conector-gn-qd-plug-03-grandstream-yealink/\">cable GN QD Plug 03</a></td></tr><tr><td>Teléfono IP Cisco</td><td>QD + cable Plug 02</td><td><a href=\"https://multitecnologiavyv.com/producto/cable-conector-gn-qd-plug-02-cisco/\">cable GN QD Plug 02</a></td></tr><tr><td>Teléfono IP Poly, Fanvil o Sangoma</td><td>QD + cable Plug 01</td><td><a href=\"https://multitecnologiavyv.com/producto/cable-conector-gn-qd-plug-01-poly-fanvil-sangoma/\">cable GN QD Plug 01</a></td></tr><tr><td>Celular o laptop con conector combo</td><td>3,5 mm</td><td>Audífono con plug de 4 polos</td></tr></tbody></table><p>El 3,5 mm funciona, pero en una PC de escritorio depende de la tarjeta de sonido y del estado del conector frontal, que es lo primero que se desgasta. Por eso en call centers predomina el USB: el audio se procesa en el propio cable y suena igual en todas las máquinas.</p>"
+    },
+    {
+      "h2": "Mono o binaural: el ruido del piso decide",
+      "html": "<ul><li><strong>Mono (un auricular):</strong> el agente escucha al cliente con un oído y a su supervisor o compañero con el otro. Conviene en mesas de ayuda, recepción y equipos que coordinan entre sí mientras atienden. Por ejemplo, el <a href=\"https://multitecnologiavyv.com/producto/vt6300-audifono-enc-con-cable-usb04/\">VT6300 monoaural con control de llamada</a>.</li><li><strong>Binaural (dos auriculares):</strong> aísla al agente del ruido del piso y le permite concentrarse. Conviene en salas grandes, cobranzas y ventas, donde cada llamada exige atención completa. Por ejemplo, el <a href=\"https://multitecnologiavyv.com/producto/audifono-para-call-center-binaural-vt1000-omni-con-controlador-y-cable-usb01-softphone-skype-teams-avaya-cisco-jabber-3cx/\">VT1000 binaural con controlador</a>.</li></ul><p>Si en la misma sala trabajan cuarenta personas, el binaural casi siempre gana. Si son cinco personas en una oficina tranquila, el mono basta y deja al agente atento a lo que pasa a su alrededor.</p>"
+    },
+    {
+      "h2": "El micrófono importa más que el auricular",
+      "html": "<p>El cliente nunca escucha tu auricular, escucha tu micrófono. Los modelos para call center traen un micrófono en brazo, cerca de la boca, y filtros para que el ruido del entorno no pase a la llamada.</p><ul><li>El <a href=\"https://multitecnologiavyv.com/producto/vt6300-audifono-doble-unc-con-cable-usb04/\">VT6300 doble</a> usa tecnología ENC de cancelación de ruido ambiental y, según su ficha, está certificado para Zoom y funciona sin drivers con Teams, Zoom, Skype for Business y MicroSIP.</li><li>El <a href=\"https://multitecnologiavyv.com/producto/vt-vtx200pro-audifono-doble-auricular-con-cable-usb04/\">VTX200 Pro doble</a> trae botones para contestar, colgar, ajustar volumen y silenciar el micrófono, además de una luz indicadora.</li></ul><p>Pide a cada agente que ubique el micrófono a dos dedos de la comisura de la boca. Un micrófono mal colocado anula cualquier cancelación de ruido.</p>"
+    },
+    {
+      "h2": "Conector QD: cambiar de turno sin desconectar el teléfono",
+      "html": "<p>QD significa <em>Quick Disconnect</em>, desconexión rápida. El audífono queda unido a un cable corto que se separa del cable del teléfono o de la PC con un clic. Eso ayuda en dos situaciones:</p><ul><li><strong>Turnos rotativos:</strong> cada agente tiene su audífono y lo conecta al cable de la posición al llegar. Es más higiénico que compartir diademas.</li><li><strong>Pausas:</strong> el agente se levanta sin arrancar el cable del teléfono ni cortar la llamada en espera.</li></ul><p>Con un audífono QD como el <a href=\"https://multitecnologiavyv.com/producto/vt-vt6300-audifono-unc-conector-gn-qd/\">VT6300 QD</a> puedes pasar de teléfono IP a computadora cambiando solo el cable, por ejemplo con el <a href=\"https://multitecnologiavyv.com/producto/cable-conector-qd-usb-plug03-gn-qd-for-teams-answer-and-end-calls/\">cable QD a USB para Teams</a>, que permite contestar y colgar.</p>"
+    },
+    {
+      "h2": "Comodidad: lo que se nota en la sexta hora del turno",
+      "html": "<p>Un audífono que se siente bien en la tienda puede doler al final de la jornada. Revisa estos puntos antes de comprar para todo el equipo:</p><ul><li><strong>Diadema acolchada y ajustable:</strong> el VTX200 Pro, por ejemplo, trae diadema de polipiel suave pensada para uso de todo el día, según su ficha.</li><li><strong>Almohadillas reemplazables:</strong> son lo primero que se gasta y lo que más se ensucia. Pide repuestos junto con el pedido inicial.</li><li><strong>Brazo del micrófono flexible:</strong> cada agente lo acomoda a su cara sin forzar la diadema.</li><li><strong>Cable con largo suficiente:</strong> el agente debe poder girar en la silla sin tensar el cable ni arrastrar el teléfono.</li></ul><p>Pide una muestra y deja que dos o tres agentes la usen un turno completo. Su opinión vale más que cualquier ficha técnica.</p>"
+    },
+    {
+      "h2": "Cómo equipar un call center paso a paso",
+      "html": "<ol><li>Haz la lista de posiciones y anota en cada una si se atiende por softphone o por teléfono IP, y de qué marca.</li><li>Decide mono o binaural por área, no por persona. Así mantienes un solo modelo en bodega.</li><li>Para teléfonos IP, elige audífonos QD y pide el cable de la marca exacta del teléfono.</li><li>Compra un 10 % extra de audífonos y cables para reemplazos inmediatos.</li><li>Prueba una posición completa con el sistema real antes de comprar para todo el equipo.</li><li>Entrega cada audífono con nombre y enseña a colocar el micrófono.</li></ol><p>Si al armar los puestos te faltan puertos USB, revisa <a href=\"https://multitecnologiavyv.com/componentes-y-accesorios/hub-usb-lightning-hub/\">cómo elegir un hub USB</a>; y si alguna PC tiene el conector de audio dañado, una <a href=\"https://multitecnologiavyv.com/producto/tarjeta-externa-usb-de-sonido-2-entradas-7-1-canales/\">tarjeta de sonido USB externa</a> lo resuelve sin abrir el equipo.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene un audífono de call center",
+      "html": "<ul><li><strong>Para quien tiene dos o tres reuniones a la semana:</strong> un audífono Bluetooth o la cámara web con micrófono integrado alcanzan.</li><li><strong>Para trabajo en movimiento:</strong> un vendedor que atiende desde el celular en la calle necesita algo inalámbrico, como los <a href=\"https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/audifonos-tws/\">audífonos TWS</a>.</li><li><strong>Para juegos o edición de audio:</strong> el audífono de call center está afinado para voz, no para música.</li></ul><p>Toda la línea VT para call center está en <a href=\"https://multitecnologiavyv.com/categoria-producto/audifonos-y-parlantes/audifonos-vt/\">audífonos VT</a>. Despachamos desde Quito a empresas de Cuenca, Ambato, Manta y el resto del país.</p>"
+    }
+  ],
+  "products": [
+    11554,
+    11553,
+    6971,
+    6970,
+    6972,
+    6968
+  ],
+  "cta_mid": {
+    "title": "¿Equipando posiciones de call center?",
+    "text": "Dinos cuántos puestos y qué teléfonos usan, y te armamos la cotización con audífonos y cables QD.",
+    "wa_text": "Hola, vengo del artículo de audífonos para call center, quiero cotizar audífonos VT"
+  },
+  "cta_end": {
+    "title": "Audífonos para call center con precio por volumen",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en audífonos VT, cables QD y accesorios.",
+    "wa_text": "Hola, vengo del artículo de audífonos para call center, necesito equipar varios puestos"
+  },
+  "faq": [
+    {
+      "q": "¿Qué es mejor para call center, USB o 3,5 mm?",
+      "a": "Para atender desde la computadora, USB. Suena igual en todas las PC porque no depende de la tarjeta de sonido, y los modelos para call center traen control de llamada en el cable."
+    },
+    {
+      "q": "¿Qué significa QD en un audífono?",
+      "a": "Quick Disconnect: un conector que separa el audífono del cable con un clic. Permite cambiar entre teléfono IP y computadora cambiando solo el cable."
+    },
+    {
+      "q": "¿Mono o binaural para un call center?",
+      "a": "Binaural en salas grandes y ruidosas, porque aísla al agente. Mono en mesas de ayuda o recepción, donde el agente necesita escuchar lo que pasa a su alrededor."
+    },
+    {
+      "q": "¿Sirve cualquier cable QD para cualquier teléfono IP?",
+      "a": "No. Cada marca usa un cableado distinto: en la tienda hay cables para Yealink y Grandstream, para Cisco y para Poly, Fanvil y Sangoma. Pide el de la marca exacta."
+    }
+  ],
+  "fuentes": [
+    "https://multitecnologiavyv.com/producto/vt6300-audifono-doble-unc-con-cable-usb04/",
+    "https://multitecnologiavyv.com/producto/vt-vtx200pro-audifono-doble-auricular-con-cable-usb04/"
+  ]
+}

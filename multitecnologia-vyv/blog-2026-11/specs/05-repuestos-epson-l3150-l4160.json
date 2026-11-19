@@ -1,0 +1,98 @@
+{
+  "n": 5,
+  "slug": "repuestos-epson-l3150-l4160",
+  "title": "Repuestos Epson L3150 y L4160: damper, sensor y almohadillas",
+  "focus_kw": "repuestos Epson L3150",
+  "meta_desc": "Qué pieza cambiar según el síntoma, cómo reemplazar el damper y cuándo conviene reparar o reemplazar la impresora. Guía para técnicos de impresoras.",
+  "excerpt": "Damper, sensor de papel, esponja y bomba de limpieza de las Epson L3150 y L4160: cómo reconocer la falla, qué repuesto pedir y cuándo ya no vale la pena reparar.",
+  "category": "Guías para técnicos",
+  "tags": [
+    "Epson L3150",
+    "Epson L4160",
+    "repuestos de impresora",
+    "damper",
+    "servicio técnico"
+  ],
+  "featured": {
+    "pexels_query": "inkjet printer repair technician",
+    "alt": "Técnico revisando por dentro una impresora de tinta"
+  },
+  "inline_image": {
+    "pexels_query": "printer ink bottles refill",
+    "alt": "Botellas de tinta junto a una impresora con tanques",
+    "after_section": 2
+  },
+  "intro_html": "<p>Las Epson L3150 y L4160 son de las impresoras de tanque que más llegan a los talleres. Se vendieron por miles en oficinas, cyber y casas, y muchas ya pasaron varios años imprimiendo a diario. Las fallas se repiten: colores que desaparecen, la luz de papel que parpadea sin razón o el aviso de que una almohadilla llegó al final de su vida útil.</p><p>Esta guía es para técnicos de impresoras en Quito y en el resto del país. Te decimos qué repuesto corresponde a cada síntoma, cómo cambiar el damper sin regar tinta y cuándo te conviene decirle al cliente que la reparación ya no compensa. Los datos técnicos salen de los manuales de Epson y de las fichas de nuestra tienda.</p>",
+  "sections": [
+    {
+      "h2": "Qué repuesto cambiar según el síntoma",
+      "html": "<p>Antes de abrir la impresora, cruza el síntoma con la pieza más probable. En estas dos series las fallas mecánicas se concentran en el carro, el camino del papel y la estación de limpieza.</p><table><thead><tr><th>Síntoma</th><th>Pieza probable</th><th>Repuesto en tienda</th></tr></thead><tbody><tr><td>Un color sale con rayas o no sale, aunque el tanque está lleno</td><td>Damper (filtro sobre el cabezal)</td><td><a href=\"https://multitecnologiavyv.com/producto/damper-color-negro-l3110-l3150-para-epson/\">Damper L3110/L3150</a> o <a href=\"https://multitecnologiavyv.com/producto/damper-color-l4150-l4160-para-epson/\">damper L4150/L4160</a></td></tr><tr><td>La luz de papel queda encendida con papel cargado, o marca atasco sin hoja atascada</td><td>Sensor o palanca del sensor de papel</td><td><a href=\"https://multitecnologiavyv.com/producto/papel-sensor-l3110-l4150-l4160-l4150-l6190-para-epson/\">Papel sensor L3110/L4150/L4160</a></td></tr><tr><td>Las luces de encendido y papel parpadean juntas</td><td>Almohadillas de tinta al final de su vida útil</td><td>Esponja por modelo</td></tr><tr><td>La limpieza de cabezal no recupera inyectores y la tinta no baja por la manguera de desecho</td><td>Bomba o unidad de limpieza</td><td><a href=\"https://multitecnologiavyv.com/producto/bomba-unidad-de-limpieza-l4150-l4160-para-epson/\">Bomba L4150/L4160</a></td></tr></tbody></table><p>La tercera fila no es una suposición del taller: en el manual de la L3150, Epson indica que el parpadeo simultáneo de las luces de encendido y de papel significa que una almohadilla de tinta está llegando o llegó al final de su vida útil.</p>"
+    },
+    {
+      "h2": "Damper: la pieza que corta un color sin que se vacíe el tanque",
+      "html": "<p>El damper va montado sobre el cabezal, en el carro. Recibe la tinta que baja por las mangueras y la entrega al cabezal con presión estable. Cuando se tapa o entra aire, el color correspondiente sale débil, con bandas o desaparece, aunque el tanque esté lleno y las limpiezas no cambien nada.</p><p>Pide el repuesto por serie, porque no es el mismo en las dos impresoras:</p><ul><li><strong>L3110 y L3150:</strong> <a href=\"https://multitecnologiavyv.com/producto/damper-color-negro-l3110-l3150-para-epson/\">damper L3110/L3150</a>.</li><li><strong>L4150 y L4160:</strong> <a href=\"https://multitecnologiavyv.com/producto/damper-color-l4150-l4160-para-epson/\">damper color L4150/L4160</a>.</li></ul><p>Si las mangueras también están manchadas por dentro o rígidas, cámbialas en la misma visita. Hay <a href=\"https://multitecnologiavyv.com/producto/mangueras-l4150-l4160-l62-cm-para-epson/\">mangueras de 62 cm para L4150/L4160</a> y <a href=\"https://multitecnologiavyv.com/producto/mangueras-l3110-l53-cm-para-epson/\">de 53 cm para L3110</a>. Purgar un damper nuevo con mangueras viejas suele devolver la falla en pocas semanas.</p>"
+    },
+    {
+      "h2": "Sensor de papel: cuando la luz no se apaga",
+      "html": "<p>Según el manual de Epson para la L3150, la luz de papel encendida indica que no hay papel cargado o que avanzaron varias hojas a la vez, y la luz de papel parpadeando indica un atasco. Si el cliente asegura que hay papel y no hay ninguna hoja trabada, la sospecha pasa al sensor.</p><ul><li><strong>Palanca del sensor:</strong> es una pieza plástica que el papel empuja al entrar. Se rompe o se traba con clips, grapas y etiquetas que se quedan adentro.</li><li><strong>Sensor electrónico:</strong> el <a href=\"https://multitecnologiavyv.com/producto/sensor-4-pines-epson-l3110-l4160-para-epson/\">sensor de 4 pines para L3110/L4160</a> se vende sin garantía, según su ficha. Pruébalo bien antes de cerrar la carcasa.</li></ul><p>Revisa primero la palanca con una linterna. Muchas veces el problema es un pedazo de papel o una grapa y no hace falta ningún repuesto.</p>"
+    },
+    {
+      "h2": "Almohadillas, esponja y bomba de limpieza",
+      "html": "<p>Cada limpieza de cabezal manda tinta a la estación de limpieza. La bomba la succiona y la lleva a unas almohadillas absorbentes dentro de la impresora. El equipo cuenta cuánta tinta ha enviado ahí y, al llegar a su límite, avisa y deja de imprimir.</p><p>Epson es clara en su manual: las almohadillas de tinta no pueden ser reemplazadas por el usuario. Si la impresora está en garantía, el cambio lo cubre Epson. Fuera de garantía, puede hacerlo un proveedor de servicio de productos Epson. Para el taller, eso significa dos cosas:</p><ul><li>Cambiar la esponja saturada y reiniciar el contador. Reiniciar el contador sin cambiar la esponja solo aplaza el problema: la tinta termina saliendo por la base y manchando el escritorio del cliente.</li><li>Revisar la bomba. En la serie L4150/L4160 tienes la <a href=\"https://multitecnologiavyv.com/producto/bomba-unidad-de-limpieza-l4150-l4160-para-epson/\">bomba o unidad de limpieza</a>, y para modelos más nuevos de la familia, como la L4158, la L4168 o la L4266, la <a href=\"https://multitecnologiavyv.com/producto/pump-unit-ink-pad-l4168-l4158-l4266-l4269-l4169-l4263/\">pump unit con ink pad</a>.</li></ul><p>La esponja se pide por serie: <a href=\"https://multitecnologiavyv.com/producto/esponja-l3110-l3150-para-epson/\">esponja L3110/L3150</a> o <a href=\"https://multitecnologiavyv.com/producto/esponja-l4150-l4160-para-epson/\">esponja L4150/L4160</a>.</p>"
+    },
+    {
+      "h2": "Cómo cambiar el damper paso a paso",
+      "html": "<p>El cambio es sencillo si trabajas en orden y con la impresora bien protegida:</p><ol><li>Imprime un patrón de inyectores antes de abrir. Te deja una referencia para comparar al final.</li><li>Apaga y desconecta la impresora. Pon papel absorbente debajo del carro.</li><li>Cierra las válvulas de los tanques o mantén la impresora nivelada para que la tinta no baje por gravedad.</li><li>Libera el carro y retira la tapa de los dampers. Toma una foto del orden de colores antes de soltar nada.</li><li>Cambia el damper y conecta la manguera del mismo color. Revisa que el empaque asiente parejo.</li><li>Purga la tinta con una jeringa desde el damper hasta que no queden burbujas.</li><li>Cierra, enciende, haz una limpieza de cabezal e imprime otro patrón de inyectores para compararlo con el primero.</li></ol><p>Si al final el patrón sigue con huecos, prueba con <a href=\"https://multitecnologiavyv.com/producto/limpiador-de-cabezales-de-impresoras/\">limpiador de cabezales</a> antes de condenar el cabezal.</p>"
+    },
+    {
+      "h2": "Reparar o reemplazar: la cuenta que haces con el cliente",
+      "html": "<p>Las dos impresoras ya tienen sucesora. En su sitio regional del Caribe, Epson marca la L3150 como descontinuada y propone la L3250 como reemplazo, y hace lo mismo con la L4160, reemplazada por la L4260. Eso no vuelve inútil la reparación: los repuestos siguen disponibles y el equipo de la oficina ya está instalado y conocido.</p><p>Repara cuando la falla es puntual (damper, sensor, esponja) y el cabezal imprime bien. Recomienda reemplazar cuando el cabezal está dañado, cuando se juntan dos o más fallas grandes, o cuando la tarjeta principal ya fue cambiada antes. Para la L3150 existe la <a href=\"https://multitecnologiavyv.com/producto/mainboard-l3150-l3156-para-epson/\">mainboard L3150/L3156</a>, pero si se suma a un cabezal dañado, la cuenta ya no suele cerrar.</p><p>Si recién empiezas a recibir impresoras en tu taller, en <a href=\"https://multitecnologiavyv.com/compras-al-por-mayor/como-abrir-servicio-tecnico-laptops/\">cómo abrir un servicio técnico</a> tienes ideas para organizar el inventario de repuestos por modelo.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene reparar una L3150 o una L4160",
+      "html": "<ul><li><strong>Si sigue en garantía:</strong> el cambio de almohadillas lo cubre Epson. Abrirla en el taller puede hacerle perder esa cobertura al cliente.</li><li><strong>Si el cabezal tiene inyectores muertos</strong> que no vuelven después del damper nuevo y del limpiador. Ahí la reparación se acerca al valor de una impresora nueva.</li><li><strong>Si el cliente necesita red cableada o más volumen:</strong> ninguna de las dos tiene puerto de red (Epson lista USB y Wi-Fi), y un equipo de otra gama le resolverá mejor el trabajo.</li></ul><p>En talleres de Ambato, Riobamba o Santo Domingo, donde esperar un repuesto cuesta días de trabajo, conviene tener en stock los dampers y las esponjas de las dos series. Revisa la categoría <a href=\"https://multitecnologiavyv.com/categoria-producto/repuestos-varios/rep-impresora/\">repuestos de impresora</a>: enviamos desde Quito a todo el país.</p>"
+    }
+  ],
+  "products": [
+    8241,
+    8240,
+    8263,
+    8268,
+    8229,
+    8245
+  ],
+  "cta_mid": {
+    "title": "¿Tienes una Epson en el banco de trabajo?",
+    "text": "Dinos el modelo y el síntoma y te confirmamos qué damper, sensor o esponja corresponde.",
+    "wa_text": "Hola, vengo del artículo de repuestos Epson L3150 y L4160, necesito cotizar repuestos"
+  },
+  "cta_end": {
+    "title": "Repuestos de impresora con precio de distribuidor",
+    "text": "Crea tu cuenta comercial y ve los precios para taller de dampers, sensores, bombas y esponjas Epson.",
+    "wa_text": "Hola, vengo del artículo de repuestos Epson L3150 y L4160, quiero abrir una cuenta comercial"
+  },
+  "faq": [
+    {
+      "q": "¿El damper de la L3150 sirve en la L4160?",
+      "a": "No. En nuestra tienda se venden por serie: uno para L3110 y L3150, y otro para L4150 y L4160. Pide siempre el de la serie exacta."
+    },
+    {
+      "q": "¿Qué significa que parpadeen juntas la luz de encendido y la de papel?",
+      "a": "En la L3150, Epson indica que una almohadilla de tinta está llegando o llegó al final de su vida útil. Hay que cambiar la esponja y reiniciar el contador, o llevarla a Epson si está en garantía."
+    },
+    {
+      "q": "¿Puedo solo reiniciar el contador de almohadillas?",
+      "a": "La impresora volverá a imprimir, pero la esponja sigue saturada. Con el tiempo la tinta se desborda por la base, así que el reinicio debe ir junto con el cambio de esponja."
+    },
+    {
+      "q": "¿La L4160 tiene repuestos todavía?",
+      "a": "Sí. Aunque Epson ya la reemplazó por la L4260 en algunos mercados, en la tienda hay damper, sensor de papel, esponja, bomba de limpieza y mangueras para esa serie."
+    }
+  ],
+  "fuentes": [
+    "https://files.support.epson.com/docid/cpd5/cpd55465/source/troubleshooting/reference/l3150/problem_light_status_l3150.html",
+    "https://epson.com.jm/p/C11CG86301",
+    "https://epson.com.jm/p/C11CG23301",
+    "https://files.support.epson.com/docid/cpd5/cpd54045/helpcontents.html"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "n": 2,
+  "slug": "camaras-ip-vs-analogas",
+  "title": "Cámaras IP vs análogas: por qué conviene pasar a IP",
+  "focus_kw": "cámaras IP vs análogas",
+  "meta_desc": "Cámaras IP vs análogas para el instalador: cableado, resolución, NVR contra DVR y cómo migrar un sistema viejo a IP sin rehacer toda la obra.",
+  "excerpt": "Comparación técnica entre cámaras IP y análogas: cable, energía, resolución, grabador y un plan para migrar un sistema análogo a IP por etapas.",
+  "category": "Redes y seguridad",
+  "tags": [
+    "cámaras IP",
+    "cámaras análogas",
+    "NVR",
+    "DVR",
+    "videovigilancia"
+  ],
+  "featured": {
+    "pexels_query": "cctv camera installation technician ladder",
+    "alt": "Técnico instalando una cámara de seguridad en lo alto de una pared"
+  },
+  "inline_image": {
+    "pexels_query": "network cables patch panel",
+    "alt": "Cables de red UTP conectados en un panel",
+    "after_section": 2
+  },
+  "intro_html": "<p>Muchos sistemas que te llaman a revisar todavía funcionan con cámaras análogas: coaxial, conectores BNC, una fuente de 12 V con pulpo y un DVR en el cuarto de atrás. Funcionan, pero cada ampliación cuesta más trabajo que la anterior, y el cliente ya pregunta por ver las cámaras en el celular con buena imagen.</p><p>Esta comparación de <strong>cámaras IP vs análogas</strong> está pensada para el instalador: qué cambia en el cable, en la energía, en el grabador y en la resolución, y cómo pasar un sistema viejo a IP por etapas. Está escrita desde Quito, para técnicos que instalan aquí y en provincia.</p>",
+  "sections": [
+    {
+      "h2": "La respuesta corta: IP gana en cableado y en gestión",
+      "html": "<p>Para una instalación nueva, IP conviene casi siempre. Un solo cable UTP lleva video, audio y energía; la cámara procesa la imagen y la envía comprimida por la red; el grabador (NVR) la guarda tal como llega. En análogo necesitas coaxial para el video, un par aparte para la energía y otro para el audio si lo hay.</p><p>La diferencia de precio entre una cámara análoga y una IP de entrada ya es pequeña. Tiandy, por ejemplo, tiene una línea IP de entrada pensada para reemplazar al análogo, con micrófono incorporado y alimentación PoE. Lo que sigue explica cuándo el cambio vale la pena y cuándo todavía no.</p>"
+    },
+    {
+      "h2": "El cable cambia todo: coaxial y fuente contra UTP con PoE",
+      "html": "<p>En análogo, cada cámara tiene su tramo de coaxial hasta el DVR y su alimentación desde una fuente central o un adaptador junto a la cámara. Muchos instaladores ya usan UTP con <em>baluns</em> para no tender coaxial, pero siguen dependiendo de la fuente de 12 V y de un par para la energía.</p><p>En IP, el cable es el mismo UTP de cualquier red de datos y la energía llega por <strong>PoE</strong> desde el switch o desde el NVR. Explicamos el cálculo de potencia y la elección de puertos en la guía de <a href=\"https://multitecnologiavyv.com/redes-y-seguridad/switch-poe-camaras-ip/\">switch PoE para cámaras IP</a>.</p><ul><li><strong>Límite de distancia:</strong> 100 metros de UTP por tramo, el del estándar Ethernet. El coaxial análogo HD admite tramos más largos, y ese es uno de los pocos puntos donde gana.</li><li><strong>Prueba del cable:</strong> en IP, un mal ponchado se ve como cámara que se desconecta o se reinicia. Prueba cada tramo con un <a href=\"https://multitecnologiavyv.com/producto/comprobador-de-cable-de-red-nf-468s-poe-qc/\">comprobador de cable de red con PoE</a> antes de cerrar la canaleta.</li><li><strong>Cobre puro:</strong> el cable CCA pierde más energía y falla con PoE en tramos largos.</li></ul>"
+    },
+    {
+      "h2": "Resolución, audio y analítica: dónde se nota la diferencia",
+      "html": "<p>Las tecnologías análogas HD subieron mucho la resolución; hay baluns pasivos que ya se venden para 8 MP. La diferencia está en todo lo demás: la cámara IP comprime con H.265, manda audio por el mismo cable y puede hacer detección de movimiento o analítica dentro de ella.</p><table><thead><tr><th>Punto</th><th>Análoga HD</th><th>IP</th></tr></thead><tbody><tr><td>Cable de video</td><td>Coaxial o UTP con balun</td><td>UTP Cat5e o Cat6</td></tr><tr><td>Energía</td><td>Fuente de 12 V aparte</td><td>PoE por el mismo cable</td></tr><tr><td>Audio</td><td>Cable o balun adicional</td><td>Micrófono integrado en muchos modelos</td></tr><tr><td>Grabador</td><td>DVR (o XVR híbrido)</td><td>NVR</td></tr><tr><td>Distancia por tramo</td><td>Mayor por coaxial</td><td>100 m por tramo de UTP</td></tr><tr><td>Ampliar el sistema</td><td>Limitado por las entradas BNC del DVR</td><td>Switch adicional y canales libres del NVR</td></tr><tr><td>Analítica</td><td>Básica, depende del DVR</td><td>En la cámara o en el NVR, según el modelo</td></tr></tbody></table>"
+    },
+    {
+      "h2": "DVR, XVR y NVR: qué grabador va con cada sistema",
+      "html": "<p>El <strong>DVR</strong> recibe señal análoga por BNC y la digitaliza. El <strong>NVR</strong> recibe video ya digitalizado por la red: no tiene entradas BNC y se conecta a las cámaras por RJ45, directo en sus puertos PoE o a través de un switch. Los grabadores híbridos (muchas marcas los llaman XVR) aceptan cámaras análogas y algunas IP al mismo tiempo, y sirven de puente en una migración.</p><p>Al elegir un NVR revisa tres datos de la ficha: número de canales, puertos PoE incluidos y capacidad de decodificación, que dice cuántas cámaras de cierta resolución puede mostrar a la vez. Un <a href=\"https://multitecnologiavyv.com/producto/nvr-ak-4-canales-ip-poe-vga-hdmi-rj45-2xusb-onvif-rtsp-r3104-tiandy/\">NVR de 4 canales con 4 puertos PoE</a> resuelve una casa o un local sin switch aparte.</p>"
+    },
+    {
+      "h2": "Cómo migrar un sistema análogo a IP sin rehacer toda la obra",
+      "html": "<p>El cliente no siempre puede cambiar todo de una vez. Este orden te deja avanzar por etapas:</p><ol><li><strong>Haz inventario:</strong> cámaras, tramos, estado de la canaleta y canales libres del DVR.</li><li><strong>Reutiliza la ruta, no el cable:</strong> el coaxial no transporta Ethernet sin convertidores; aprovecha canaletas y tubería para pasar UTP nuevo.</li><li><strong>Empieza por las cámaras críticas:</strong> entrada, caja y bodega, donde más se nota la mejora.</li><li><strong>Instala el NVR o un switch PoE</strong> junto al DVR y deja convivir los dos sistemas durante la transición.</li><li><strong>Prueba y etiqueta</strong> cada cable en ambos extremos.</li><li><strong>Configura el acceso por app</strong> en el NVR y retira el DVR cuando el último canal análogo pase a IP.</li></ol><p>Si el cliente ya tiene UTP con baluns, mejor: ese cable suele servir para IP si es Cat5e o superior y pasa la prueba.</p>"
+    },
+    {
+      "h2": "La red también se cuida: claves y equipos aparte",
+      "html": "<p>Una cámara análoga no tiene dirección en la red; una IP sí, y eso trae una tarea nueva para el instalador. Cambia la clave de fábrica de cada cámara y del NVR el mismo día de la instalación, y entrega al cliente un documento con usuarios, direcciones IP y el canal de cada cámara.</p><p>En negocios con red de oficina, conviene que las cámaras vayan en su propio switch o en una red separada: el video no compite con las computadoras y un equipo del personal no puede llegar a las cámaras. Actualiza el firmware del NVR cuando el fabricante publique una versión nueva.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene pasar a IP todavía",
+      "html": "<ul><li><strong>El sistema análogo es reciente y cumple:</strong> si el DVR tiene canales libres y el cliente solo necesita una cámara más, añadir una análoga es más barato que migrar.</li><li><strong>Tramos largos sin punto intermedio:</strong> si una cámara está a más de 100 m y no hay dónde poner un switch con energía, el coaxial sigue siendo la solución práctica.</li><li><strong>No hay presupuesto para recablear:</strong> si la obra está terminada y no hay ruta para el UTP, un XVR híbrido te permite mejorar la grabación y dejar la migración para después.</li></ul><p>En esos casos tienes fuentes, baluns y conectores en <a href=\"https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-analogas/\">cámaras análogas y accesorios</a>.</p><p>Una cotización IP bien hecha lleva cámaras, NVR, switch PoE si hace falta, <a href=\"https://multitecnologiavyv.com/categoria-producto/networking-redes/cable-utp/\">cable UTP</a>, conectores y un UPS para que el sistema siga grabando en un corte de luz. En <a href=\"https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-ip/\">cámaras IP</a> tienes cámaras y NVR Tiandy en stock en Quito, con envío a Cuenca, Manta, Ambato y el resto del país. Con la cuenta comercial ves los precios de distribuidor para armar tu margen.</p>"
+    }
+  ],
+  "products": [
+    9486,
+    9510,
+    7977,
+    7953,
+    9474
+  ],
+  "cta_mid": {
+    "title": "¿Vas a migrar un sistema análogo?",
+    "text": "Cotiza cámaras IP, NVR, switch PoE y cableado en una sola compra con precio de distribuidor.",
+    "wa_text": "Hola, vengo del artículo de cámaras IP vs análogas y quiero cotizar una migración a IP"
+  },
+  "cta_end": {
+    "title": "Pasa tus proyectos a IP con stock en Quito",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en cámaras Tiandy, NVR y accesorios de cableado.",
+    "wa_text": "Hola, vengo del artículo de cámaras IP vs análogas, ¿me ayudan con una cotización?"
+  },
+  "faq": [
+    {
+      "q": "¿Puedo usar el cable coaxial de mis cámaras análogas para cámaras IP?",
+      "a": "No directamente. El coaxial no transporta Ethernet sin convertidores especiales, así que lo normal es pasar UTP nuevo aprovechando la misma canaleta o tubería."
+    },
+    {
+      "q": "¿Un DVR graba cámaras IP?",
+      "a": "Un DVR análogo puro no. Los grabadores híbridos (XVR) aceptan cámaras análogas y algunas IP a la vez; para un sistema solo IP necesitas un NVR."
+    },
+    {
+      "q": "¿Las cámaras IP necesitan internet para grabar?",
+      "a": "No. La cámara y el NVR se comunican por la red local y graban sin internet. El internet solo hace falta para ver las cámaras desde el celular fuera del lugar."
+    },
+    {
+      "q": "¿Qué cable uso para cámaras IP?",
+      "a": "UTP Cat5e o Cat6 de cobre puro, con tramos de hasta 100 metros. Prueba cada cable antes de cerrar la canaleta para evitar desconexiones."
+    }
+  ],
+  "fuentes": [
+    "https://en.tiandy.com/ak-network-camera/68343169.html",
+    "https://en.tiandy.com/ak-nvr/63693200.html",
+    "https://en.tiandy.com/ak-network-camera/"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "n": 7,
+  "slug": "delta-ahora-es-deltatech",
+  "title": "Delta ahora es Deltatech: cómo reconocer sus productos",
+  "focus_kw": "delta ahora es deltatech",
+  "meta_desc": "Por qué en el catálogo hay productos «DELTA» y «Deltatech», cómo saber cuáles son de la marca y los dos casos en que «Delta» significa otra cosa.",
+  "excerpt": "En la tienda conviven productos que dicen DELTA y otros que dicen Deltatech. Son la misma marca: así los reconoces y así evitas confundirlos con otros Delta.",
+  "category": "Marcas y comparativas",
+  "tags": [
+    "Deltatech",
+    "Delta",
+    "marcas de accesorios",
+    "catálogo",
+    "cables y adaptadores"
+  ],
+  "featured": {
+    "pexels_query": "product boxes warehouse shelf labels",
+    "alt": "Cajas de productos con etiquetas en la percha de una bodega"
+  },
+  "inline_image": {
+    "pexels_query": "hdmi cable connector close up",
+    "alt": "Conector de un cable HDMI visto de cerca",
+    "after_section": 3
+  },
+  "intro_html": "<p>Si buscas en la tienda, vas a ver un «CASE 2.5 USB 3.0 PLASTICO DELTA» junto a un «ESTUCHE 15.6 SENCILLO DELTATECH». No es un error ni son dos proveedores: Delta cambió de nombre a Deltatech, y el catálogo todavía muestra los dos.</p><p>Aquí te explicamos qué cambió, cómo reconocer un producto de la marca aunque diga solo «Delta», y los dos casos del catálogo en que «Delta» se refiere a otra cosa. Te sirve para comprar sin dudas y para responderle al cliente que llega pidiendo «el cable Delta».</p>",
+  "sections": [
+    {
+      "h2": "Delta y Deltatech son la misma marca con nombre nuevo",
+      "html": "<p><strong>Delta ahora es Deltatech: es la misma marca, con los mismos productos y el mismo respaldo, bajo un nombre nuevo.</strong> Según la empresa, la marca tiene 15 años en el mercado y la mayoría de ellos los pasó como Delta.</p><p>La prueba más simple está en la propia tienda. Abre la ficha de un producto que diga «DELTA» en el nombre, por ejemplo el extensor USB por cable de red de 100 m o la pasta térmica de 4 g, y mira el campo <strong>Marca</strong>: dice Deltatech.</p>"
+    },
+    {
+      "h2": "Por qué conviven los dos nombres en el catálogo",
+      "html": "<p>De los casi 90 productos de la marca que hay en la tienda, alrededor de 30 ya llevan el nombre Deltatech. El resto conserva «DELTA» en el título con el que entró al catálogo, aunque la ficha ya los registra con la marca nueva.</p><p>Para ti no cambia nada en la práctica. El cable HDMI que pedías como Delta es el mismo producto, y en las líneas renovadas el nombre nuevo aparece de una vez, como en los cables HDMI 1.4, 2.0 y de fibra óptica.</p><p>Lo que sí conviene es que tu vendedor lo sepa. Un cliente de Latacunga que compró un estuche Delta hace años y hoy ve uno Deltatech en tu percha puede pensar que es imitación. Una frase lo resuelve: «es la misma marca, cambió de nombre».</p>"
+    },
+    {
+      "h2": "Cómo aparece cada producto en la tienda",
+      "html": "<p>Esta tabla muestra productos reales del catálogo con el nombre que tienen y la marca que registra su ficha:</p><table><thead><tr><th>Nombre en la tienda</th><th>Marca en la ficha</th><th>¿Es Deltatech?</th></tr></thead><tbody><tr><td>Cable convertidor USB 3.0 a HDMI DELTA</td><td>Deltatech</td><td>Sí</td></tr><tr><td>Extensor de señal USB 2.0 con cable de red, 100 m, DELTA</td><td>Deltatech</td><td>Sí</td></tr><tr><td>Pasta térmica 4 g DELTA, conductividad 15,2</td><td>Deltatech</td><td>Sí</td></tr><tr><td>Switch PoE 8 puertos 10/100 DELTATECH</td><td>Deltatech</td><td>Sí</td></tr><tr><td>Ventilador laptop HP CQ42 G4 Delta KSB06105HA-9H1X</td><td>DELTA</td><td>No: es el fabricante del ventilador</td></tr><tr><td>AMPXL cable UTP Cat5e 305 m DELTA</td><td>Ampxl</td><td>No: la marca es Ampxl</td></tr></tbody></table><p>Si trabajas con pasta térmica, la guía de <a href=\"https://multitecnologiavyv.com/guias-para-tecnicos/pasta-termica-mantenimiento-laptop/\">pasta térmica para laptop</a> te explica qué conductividad usar en cada equipo.</p>"
+    },
+    {
+      "h2": "Los dos casos que confunden: ventiladores y cable UTP",
+      "html": "<ul><li><strong>Ventiladores de laptop «Delta»:</strong> en repuestos como el ventilador para HP CQ42 y G42, «Delta» identifica al fabricante del ventilador original, que usa números de parte como KSB06105HA. Es otra empresa y no tiene relación con Deltatech. Ahí lo que importa es que el número de parte coincida con el del equipo.</li><li><strong>Cable UTP «DELTA AMPXL»:</strong> las bobinas de <a href=\"https://multitecnologiavyv.com/categoria-producto/networking-redes/cable-utp/\">cable UTP</a> que llevan ese nombre están registradas con marca Ampxl. Para tu cotización, anótalas como Ampxl.</li></ul><p>Fuera de esos dos casos, si un accesorio del catálogo dice Delta, es Deltatech. Si un cliente te trae un repuesto con la palabra Delta grabada, revisa primero si es un ventilador o una pieza interna del equipo: ahí casi nunca se trata de la marca.</p>"
+    },
+    {
+      "h2": "Cómo reconocer un producto Deltatech en cuatro pasos",
+      "html": "<ol><li><strong>Mira el campo Marca de la ficha.</strong> Es el dato que manda, por encima del nombre del producto.</li><li><strong>Anota el SKU.</strong> Los cables HDMI, por ejemplo, usan códigos como C-HDMI-V1.4 o C-HDMI-FIBRA. Con el SKU el pedido sale sin errores.</li><li><strong>Descarga la ficha técnica cuando exista.</strong> Las fichas de la marca llevan en la cabecera la dirección mydelta.tech y la firma @Deltatech.</li><li><strong>Si dudas, pregunta por WhatsApp con el SKU.</strong> Un asesor te confirma si es de la marca y si hay stock.</li></ol>"
+    },
+    {
+      "h2": "Qué cambia para tu tienda y qué responder al cliente",
+      "html": "<ul><li><strong>Etiquetas y publicaciones:</strong> si vendes por redes o en una tienda en línea, escribe «Deltatech (antes Delta)» durante un tiempo. Así te encuentra quien busca cualquiera de los dos nombres.</li><li><strong>Cotizaciones a empresas:</strong> usa Deltatech como marca y el SKU de la ficha. Evitas que un comprador de Guayaquil o de Cuenca crea que le cambiaste el producto.</li><li><strong>Surtido:</strong> la marca cubre cables, convertidores, estuches y bases. Si estás armando el surtido, revisa la guía de <a href=\"https://multitecnologiavyv.com/compras-al-por-mayor/accesorios-computacion-por-mayor/\">accesorios de computación al por mayor</a>.</li></ul><h3>Qué responder cuando el cliente pide «el cable Delta»</h3><p>El nombre anterior tiene años en la memoria de los clientes, así que vas a escuchar «¿tiene el cable Delta?» por un buen tiempo. Tres respuestas que funcionan en el mostrador:</p><ul><li><strong>Si tienes el producto con nombre nuevo:</strong> «Es el mismo, ahora la marca se llama Deltatech». Muéstrale la caja y la ficha si duda.</li><li><strong>Si pide un modelo que ya no está:</strong> busca el equivalente por función. Un cliente que pide «el HDMI Delta de 3 metros» casi siempre quiere el HDMI 1.4 o el 2.0 de ese largo; pregúntale qué va a conectar.</li><li><strong>Si compara con un producto que compró hace años:</strong> explícale que es la misma marca y que las líneas renovadas, como los cables HDMI, traen ficha técnica publicada.</li></ul><p>Lo importante es que el cambio de nombre no se convierta en una venta perdida por desconfianza.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene esperar al empaque nuevo",
+      "html": "<p>Hay tiendas que prefieren no comprar mientras el nombre cambia, para no tener «dos marcas» en la percha. Si te pasa, piensa en esto:</p><ul><li>El producto con nombre DELTA es el mismo artículo de la marca, con la misma ficha.</li><li>Esperar significa perder ventas de productos de rotación diaria, como cables y convertidores.</li><li>Si un cliente pregunta, la explicación toma diez segundos.</li></ul><p>La única espera que tiene sentido es la de un pedido grande para una empresa que exige que todas las unidades lleguen con el mismo empaque. En ese caso, pídelo así al asesor y él te confirma qué hay en bodega.</p>"
+    }
+  ],
+  "products": [
+    6770,
+    6845,
+    7716,
+    7980,
+    9837,
+    6822
+  ],
+  "cta_mid": {
+    "title": "¿Tienes un producto Delta y no sabes si es el mismo?",
+    "text": "Mándanos el nombre o el SKU por WhatsApp y te confirmamos el equivalente Deltatech.",
+    "wa_text": "Hola, vengo del artículo de Delta ahora es Deltatech y quiero confirmar un producto"
+  },
+  "cta_end": {
+    "title": "Pide Deltatech con precios de distribuidor",
+    "text": "Con tu cuenta comercial ves los precios por volumen de toda la línea, con nombre nuevo o anterior.",
+    "wa_text": "Hola, vengo del artículo de Delta ahora es Deltatech y quiero cotizar productos de la marca"
+  },
+  "faq": [
+    {
+      "q": "¿Por qué Delta cambió de nombre a Deltatech?",
+      "a": "La empresa no ha publicado el motivo del cambio. Lo que sí confirma es que es la misma marca, con los mismos productos."
+    },
+    {
+      "q": "¿Un producto que dice DELTA es de menor calidad que uno Deltatech?",
+      "a": "No. Es el mismo artículo con el nombre anterior en el título, y su ficha ya lo registra con marca Deltatech."
+    },
+    {
+      "q": "¿Los ventiladores de laptop Delta son Deltatech?",
+      "a": "No. En esos repuestos, Delta es el fabricante del ventilador original. Para elegirlos, guíate por el número de parte."
+    },
+    {
+      "q": "¿Cómo sé si un producto es Deltatech antes de comprarlo?",
+      "a": "Abre la ficha en la tienda y mira el campo Marca. Si tienes dudas, envía el SKU por WhatsApp y un asesor te lo confirma."
+    }
+  ],
+  "fuentes": [
+    "https://www.mydelta.tech/",
+    "https://multitecnologiavyv.com/wp-content/uploads/2026/05/Ficha-tecnica-HDMI-V2.0-2.pdf",
+    "https://multitecnologiavyv.com/wp-content/uploads/2026/05/Ficha-Tecnica-Cable-HDMI-Fibra-Optica.pdf",
+    "https://multitecnologiavyv.com/producto/cable-convertidor-usb-3-0-a-hdmi-delta/",
+    "https://multitecnologiavyv.com/producto/ampxl-cable-utp-interior-cat6-cobre-cm-305m-delta-ampxl-23awg-azul/"
+  ]
+}

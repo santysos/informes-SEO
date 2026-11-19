@@ -1,0 +1,103 @@
+{
+  "n": 9,
+  "slug": "mejores-camaras-de-seguridad-ecuador",
+  "title": "Mejores cámaras de seguridad en Ecuador: 4 marcas",
+  "focus_kw": "mejores cámaras de seguridad en Ecuador",
+  "meta_desc": "Mejores cámaras de seguridad en Ecuador: Hikvision, Dahua, Tiandy y VIGI comparadas con datos oficiales de color nocturno, analítica y soporte.",
+  "excerpt": "Hikvision, Dahua, Tiandy y VIGI comparadas con lo que cada fabricante publica: color de noche, analítica, gamas y qué tener en cuenta en Ecuador.",
+  "category": "Marcas y comparativas",
+  "tags": [
+    "cámaras de seguridad",
+    "Tiandy",
+    "Hikvision",
+    "Dahua",
+    "comparativa"
+  ],
+  "featured": {
+    "pexels_query": "security cameras on building wall",
+    "alt": "Varias cámaras de seguridad instaladas en la fachada de un edificio"
+  },
+  "inline_image": {
+    "pexels_query": "cctv monitor control room",
+    "alt": "Pantalla con varias vistas de cámaras de vigilancia",
+    "after_section": 3
+  },
+  "intro_html": "<p>Cuando un cliente pregunta cuáles son las <strong>mejores cámaras de seguridad en Ecuador</strong>, casi siempre salen cuatro nombres: Hikvision, Dahua, Tiandy y la que muchos escriben «Viggi», que en realidad es VIGI, la línea de videovigilancia de TP-Link. Las cuatro tienen cámaras IP con visión nocturna a color, analítica y app para el celular.</p><p>Para esta comparación usamos solo lo que cada fabricante publica en su sitio oficial, con los enlaces al final. Te lo decimos de frente: en Multitecnología VYV distribuimos Tiandy en Quito y no vendemos las otras tres, así que las tarjetas de producto son de Tiandy. Por eso mismo incluimos los casos en que otra marca te encaja mejor.</p>",
+  "sections": [
+    {
+      "h2": "La respuesta corta: las cuatro sirven; decide el soporte y la gama",
+      "html": "<p>Las cuatro marcas ofrecen lo que hoy espera un cliente: imagen a color de noche, detección de personas y vehículos y acceso desde el celular. La diferencia práctica para un instalador en Ecuador está en tres puntos: si el modelo que necesitas está en stock aquí, si tienes a quién llamar cuando falla y si la gama de entrada cabe en el presupuesto de tu cliente.</p><p>Ninguna marca gana en todo. Mira la tabla de la mitad del artículo y elige por el proyecto, no por la marca.</p>"
+    },
+    {
+      "h2": "Hikvision y Dahua: color de noche e IA con nombre propio",
+      "html": "<p><strong>Hikvision</strong> llama <em>ColorVu</em> a su tecnología de imagen a color con poca luz. Según su sitio, combina lentes de gran apertura, hasta F1.0, con sensores de alta sensibilidad; el fabricante indica que F1.0 deja entrar cuatro veces más luz que un lente F2.0. Para analítica usa <em>AcuSense</em>, que clasifica lo que ve como persona, vehículo u otro y dispara la alarma solo con los dos primeros, para reducir falsas alarmas por lluvia, animales u hojas.</p><p><strong>Dahua</strong> agrupa su analítica bajo <em>WizSense</em>, una serie de productos con IA que reconoce personas y vehículos. Su detección inteligente de movimiento (SMD) filtra objetos irrelevantes para evitar falsas alarmas. En su línea <em>Full-color</em> describe cámaras que dan color con muy poca luz y modelos con luz cálida que se enciende al detectar un objetivo.</p>"
+    },
+    {
+      "h2": "Tiandy: tres gamas y una línea de entrada pensada contra el análogo",
+      "html": "<p><strong>Tiandy</strong> es una empresa china fundada en 1994 que, según su sitio corporativo, atiende clientes en más de 80 países. Ordena sus cámaras IP en tres gamas: <strong>AK</strong> (entrada), <strong>SK</strong> (pequeña y mediana empresa) y <strong>LK</strong> (profesional), con NVR para cada una.</p><p>La gama AK es la que más interesa al instalador que todavía cotiza análogo: Tiandy Ecuador la presenta como «Analog Killer», cámaras IP con micrófono y PoE al precio de un sistema análogo. Su ficha oficial del modelo TC-C321N indica 2 MP, compresión H.265, infrarrojo de 30 m, protección IP67 y compatibilidad ONVIF. En la gama SK están modelos con analítica de perímetro y cruce de línea, como la <a href=\"https://multitecnologiavyv.com/producto/camara-ip-sk-tipo-domo-4mp-2-8mm-ir-30m-mic-poe-tc-c34hs-tiandy/\">domo 4 MP con IA de perímetro</a>. Todo el catálogo está en <a href=\"https://multitecnologiavyv.com/categoria-producto/vigilancia-y-seguridad/div-camaras-ip/\">cámaras IP</a>.</p>"
+    },
+    {
+      "h2": "VIGI de TP-Link: la opción de quien ya trabaja con su red",
+      "html": "<p><strong>VIGI</strong> es la línea de videovigilancia de TP-Link. En su sitio para Latinoamérica muestra cámaras IP con color las 24 horas, clasificación de personas y vehículos, NVR con PoE+ y la app VIGI para Android e iOS con notificaciones.</p><p>Su atractivo está en el ecosistema: si tu cliente ya tiene switches y routers TP-Link, comprar las cámaras de la misma marca le simplifica la compra. En gama de cámaras especializadas (PTZ de largo alcance, lectura de placas, ojo de pez) los fabricantes dedicados solo a seguridad suelen tener un catálogo más amplio.</p>"
+    },
+    {
+      "h2": "Las cuatro marcas lado a lado",
+      "html": "<table><thead><tr><th>Criterio</th><th>Hikvision</th><th>Dahua</th><th>Tiandy</th><th>VIGI (TP-Link)</th></tr></thead><tbody><tr><td>Color de noche</td><td>ColorVu</td><td>Full-color</td><td>Color Maker y Starlight</td><td>Color 24 horas en varios modelos</td></tr><tr><td>Analítica</td><td>AcuSense</td><td>WizSense y SMD</td><td>Perímetro y cruce de línea en gama SK</td><td>Clasificación de personas y vehículos</td></tr><tr><td>Gamas</td><td>Varias series</td><td>Varias series</td><td>AK, SK y LK</td><td>Línea dentro de TP-Link</td></tr><tr><td>Estándar abierto</td><td>Según modelo</td><td>Según modelo</td><td>ONVIF Profile S/T en AK</td><td>Según modelo</td></tr><tr><td>En el catálogo de VYV</td><td>No</td><td>No</td><td>Sí, con stock en Quito</td><td>No</td></tr></tbody></table><p>Los nombres de tecnología son los que usa cada fabricante. Revisa siempre la ficha del modelo exacto: dos cámaras de la misma marca pueden traer funciones muy distintas.</p>"
+    },
+    {
+      "h2": "Cómo elegir la marca para un proyecto concreto",
+      "html": "<ol><li><strong>Define qué tiene que ver la cámara:</strong> identificar rostros en una puerta pide otra lente que vigilar un patio.</li><li><strong>Revisa lo que ya está instalado:</strong> si el cliente tiene NVR de una marca, la analítica avanzada suele funcionar completa solo con cámaras de esa misma marca.</li><li><strong>Confirma stock y garantía en el país:</strong> pregunta quién cambia el equipo si falla en Guayaquil, Loja o Puyo, y en cuánto tiempo.</li><li><strong>Compara la ficha, no el folleto:</strong> resolución, alcance infrarrojo, IP67 y consumo PoE.</li><li><strong>Calcula el sistema completo:</strong> cámaras, NVR, disco, switch, cable y UPS.</li></ol><p>Las fichas técnicas de las cuatro marcas se parecen más de lo que el cliente cree. Lo que cambia la experiencia es lo que pasa después de instalar: quién responde cuando una cámara deja de grabar, cuánto tarda el cambio en garantía y si el repuesto está en el país.</p><p>Tiandy Ecuador indica en su sitio que trabaja con una red de distribuidores y soporte técnico local, y que sus equipos traen carcasas IP67 y protección contra sobretensiones de fábrica. En nuestro caso, el stock y la atención técnica están en Quito y los envíos salen a Guayaquil, Cuenca o Manta. Antes de cerrar con cualquier marca, pide por escrito el plazo de garantía y dónde se tramita.</p>"
+    },
+    {
+      "h2": "Cuándo NO te conviene Tiandy",
+      "html": "<ul><li><strong>El cliente ya tiene un sistema grande de otra marca</strong> con su software de gestión: ampliar con la misma marca evita perder funciones de analítica entre cámara y grabador.</li><li><strong>La empresa estandarizó su red con TP-Link</strong> y su área de sistemas quiere un solo proveedor: VIGI encaja mejor en esa lógica.</li><li><strong>El pliego exige una marca específica.</strong> En ese caso cumple el pliego.</li></ul><p>Para lo demás, cotizar con un distribuidor que tiene stock en Quito y despacha a provincia te ahorra semanas. Así funciona el envío: <a href=\"https://multitecnologiavyv.com/compras-al-por-mayor/tecnologia-por-mayor-envios-ecuador/\">tecnología al por mayor con envíos a todo Ecuador</a>.</p>"
+    }
+  ],
+  "products": [
+    9495,
+    9501,
+    9487,
+    12822,
+    7976
+  ],
+  "cta_mid": {
+    "title": "¿Comparando marcas para un proyecto?",
+    "text": "Te ayudamos a armar el sistema Tiandy equivalente con fichas técnicas y precio de distribuidor.",
+    "wa_text": "Hola, vengo del artículo de las mejores cámaras de seguridad en Ecuador y quiero comparar opciones Tiandy"
+  },
+  "cta_end": {
+    "title": "Cotiza cámaras Tiandy con stock en Quito",
+    "text": "Crea tu cuenta comercial y ve precios de distribuidor en cámaras AK, SK y NVR Tiandy.",
+    "wa_text": "Hola, vengo del artículo de las mejores cámaras de seguridad en Ecuador, ¿me ayudan con una cotización?"
+  },
+  "faq": [
+    {
+      "q": "¿Cuál es la mejor marca de cámaras de seguridad en Ecuador?",
+      "a": "No hay una sola. Hikvision, Dahua, Tiandy y VIGI tienen cámaras IP con color de noche y analítica; decide por el stock local, la garantía en el país y la gama que entra en el presupuesto."
+    },
+    {
+      "q": "¿Viggi y VIGI son la misma marca?",
+      "a": "En el mercado se escribe de las dos formas, pero la línea de cámaras es VIGI, de TP-Link. Busca ese nombre en su sitio oficial para ver los modelos."
+    },
+    {
+      "q": "¿Puedo mezclar cámaras de distintas marcas en un NVR?",
+      "a": "Sí, si las dos son compatibles con ONVIF. Lo normal es que la imagen funcione y que algunas funciones de analítica se pierdan entre marcas distintas."
+    },
+    {
+      "q": "¿Qué es la serie AK de Tiandy?",
+      "a": "Es la gama de entrada de cámaras IP de Tiandy. Tiandy Ecuador la llama Analog Killer porque busca reemplazar al sistema análogo con un costo similar."
+    }
+  ],
+  "fuentes": [
+    "https://www.hikvision.com/en/core-technologies/see-clearer-technology/colorvu/",
+    "https://www.hikvision.com/us-en/core-technologies/ai-analytics/acusense/",
+    "https://www.dahuasecurity.com/products/key-technologies/wizsense",
+    "https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/Full-color",
+    "https://en.tiandy.com/tiandy-technologies-co-ltd.html",
+    "https://en.tiandy.com/ak-network-camera/",
+    "https://en.tiandy.com/ak-network-camera/68343169.html",
+    "https://www.tiandyecuador.com/ventajas-videovigilancia-cctv",
+    "https://www.tiandyecuador.com/tecnologia-camara-videovigilancia",
+    "https://www.tp-link.com/pe/business-networking/all-vigi-surveillance/"
+  ]
+}
