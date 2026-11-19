@@ -205,6 +205,28 @@ modelo. Z9 PHEV ($46.990 en los posts; el catálogo dice desde $39.990, que es l
 RAV4 híbrido ($45.990; catálogo desde $41.990) y Deepal S07 eléctrico ($37.990; catálogo desde
 $38.990). **Pedir a CH la lista por versión** para corregirlos.
 
+### 19-nov — 36 posts nuevos (CH llega a 240)
+
+Compromiso de 20 posts al mes → mínimo 240. Había 204 publicados. Se escribieron 36 con datos de
+Search Console (huecos sin post) y especificaciones de las webs oficiales de cada marca, y se
+publicaron con fechas del 1 al 20 de noviembre (pedido del usuario). **Total: 239 publicados + 1
+programado (Mazda CX-60, 20-nov) = 240.** Plan y temas en `plan-diciembre-2026/PLAN.md`; specs y
+generadores en `diciembre-2026/`.
+
+- 6 de mantenimiento por marca (Chery, DongFeng, Changan, Nissan, Mazda, Jeep/RAM) y 8 de taller
+  (revisión técnica en Ibarra, alineación, amortiguadores, aire acondicionado, embrague, escáner,
+  correa, 4x4): los 14 con el formulario de reserva embebido. Costos siempre como estimados.
+- 2 de híbridos (página general «autos híbridos Ecuador» y los más baratos).
+- 17 de modelos sin post previo (Omoda | Jaecoo, Tiggo 7/9 Super Hybrid, Omoda E5 Next, Nevo Q05,
+  BAIC, Foton Tunland, Deepal G318, Alsvin Plus, Raize/Yaris Cross, vans Changan, Fiat 600, Avenger,
+  Rich 7, RAM 700, CX-60), con ángulo de comparativa o uso para no competir con las fichas.
+- 3 de compra (menos de $20.000, doble cabinas más baratas, SUV automáticas por menos de $25.000).
+
+**Para corregir con CH:** 7 precios distintos entre el menú del catálogo y la página del modelo
+(Raize, Yaris Cross, Hilux, Frontier, RAM 700, X55 II, Omoda E5 Next; afectan a 12 posts). La página
+del Mazda CX-60 dice 2.5 L 185 HP y Mazda Ecuador vende la 3.3 Turbo de 280 HP. Omoda E5 Next y
+Nevo Q05 son 100 % eléctricos (el menú dice «Super Hybrid»).
+
 ## 4. Pendiente
 
 - Modelos nuevos sin ningún post: Omoda | Jaecoo (desde sep-2026), Chery Tiggo Super Hybrid
