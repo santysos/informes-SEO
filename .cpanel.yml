@@ -628,3 +628,11 @@ deployment:
     - /bin/cp -f fisiovida/proforma-octubre-2026/logout.php $BASEPATH/fisiovida/proforma-octubre-2026/
     - /bin/cp -f fisiovida/proforma-octubre-2026/pdf/proforma-1-2-1336.pdf $BASEPATH/fisiovida/proforma-octubre-2026/pdf/
     - chmod 644 $BASEPATH/fisiovida/proforma-octubre-2026/*.php $BASEPATH/fisiovida/proforma-octubre-2026/.htaccess $BASEPATH/fisiovida/proforma-octubre-2026/pdf/*.pdf
+    # Informe de pauta en Meta · Jomar · noviembre 2026 (clave Pauta-2026)
+    - /bin/mkdir -p $BASEPATH/pauta-meta/estrategia-noviembre-2026
+    - chmod 755 $BASEPATH/pauta-meta $BASEPATH/pauta-meta/estrategia-noviembre-2026
+    - /bin/cp -f pauta-meta/estrategia-noviembre-2026/.htaccess $BASEPATH/pauta-meta/estrategia-noviembre-2026/
+    - /bin/cp -f pauta-meta/estrategia-noviembre-2026/login.php $BASEPATH/pauta-meta/estrategia-noviembre-2026/
+    - /bin/cp -f pauta-meta/estrategia-noviembre-2026/index.php $BASEPATH/pauta-meta/estrategia-noviembre-2026/
+    - /bin/cp -f pauta-meta/estrategia-noviembre-2026/logout.php $BASEPATH/pauta-meta/estrategia-noviembre-2026/
+    - chmod 644 $BASEPATH/pauta-meta/estrategia-noviembre-2026/*.php $BASEPATH/pauta-meta/estrategia-noviembre-2026/.htaccess
