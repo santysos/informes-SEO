@@ -45,7 +45,7 @@ CTA_MEDIO = ("<!-- cta-temprano-v1 -->\n" + p(
     "un enchufable y un rango extendido la misma mañana. "
     f'<a href="{wa("Hola, vengo de la guía de autos eléctricos 2026. Quisiera agendar una prueba de manejo de un eléctrico o híbrido.")}">'
     "Agende la prueba por WhatsApp</a> o revise "
-    f'{a("donde-probar-hibrido-electrico-ibarra-2026", "qué modelos hay en piso")}.') + "\n<!-- /cta-temprano-v1 -->")
+    f'{a("autos-hibridos-y-electricos-en-ibarra-2025", "qué modelos hay en piso")}.') + "\n<!-- /cta-temprano-v1 -->")
 
 PRECIO_NOTA = ("Precios «desde» del catálogo de Comercial Hidrobo al 9 de noviembre de 2026. Referenciales, "
                "sujetos a cambio sin previo aviso; confirme la versión y el valor final con un asesor.")

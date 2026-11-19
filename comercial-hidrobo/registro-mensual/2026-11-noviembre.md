@@ -172,6 +172,39 @@ mantenimiento Toyota, con 1.095 visitas en 90 días), justo después del recuadr
 mitad de texto. Es el mismo formulario: el taller recibe las citas igual que antes.
 Verificado en vivo en los 15. **A medir** desde el 19-nov: citas que entran desde cada post.
 
+### 19-nov — Mantenimiento Toyota y Renault
+
+- **Toyota (11364):** título «Mantenimiento Toyota por kilometraje 2026: tabla y costos» (estaba en
+  posición 9-10 para «mantenimiento toyota» y «toyota mantenimiento», ~830 impresiones en 90 días),
+  meta nueva y 4 preguntas frecuentes armadas con los costos que el post ya publicaba.
+- **Renault (8966):** reescrito (612 → 900 palabras) con el contenido del post 12438, que en dos
+  meses tuvo 2 impresiones porque competía con este. Tabla por kilometraje, costos referenciales,
+  qué mueve el precio, notas para Duster, Stepway, Logan y Kwid E-Tech, preguntas frecuentes.
+  Título «Mantenimiento Renault 2026: costos y qué incluye por km». 12438 en borrador con 301.
+- Verificado en vivo. Los precios Renault «desde $120/$180/$250» ya estaban publicados; **falta que
+  CH los confirme**.
+
+### 19-nov — Eléctricos e híbridos: años, precios y duplicados
+
+**Criterio de años:** en noviembre las búsquedas con «2026» son 24 veces las de «2027» (10.370 vs 424
+impresiones en 28 días). Hace un año pasó igual con 2025/2026, y el año nuevo despegó recién en
+enero. Por eso ahora se quitó todo «2025» visible y el paso a «2027» queda para inicios de enero.
+
+- **X-Trail e-Power (8903):** 5.179 impresiones en posición 7,6 con 0,35 % de CTR. Pasó a 2026, precio
+  corregido a **$41.990** (catálogo de CH; decía $43.990) y título nuevo.
+- **Autos eléctricos chinos (9451):** reescrito (1.064 palabras). Recomendaba BYD, JAC y Geely;
+  ahora presenta Deepal, DongFeng, Changan, Chery y Omoda | Jaecoo con precio y tecnología.
+- **Ibarra:** el post viejo (9604, 361 impresiones) rendía más que el nuevo (11822, 89). Se pasó el
+  contenido 2026 a la URL que Google ya muestra y 11822 quedó en borrador con 301.
+- **Mitos y realidades:** había dos posts del mismo tema; 9423 (42 impresiones) redirigido a 9669
+  (1.677) y en borrador. Enlace con «2025» corregido.
+- Enlaces internos actualizados (9405, 9466). Todo verificado en vivo.
+
+**Precios que no se tocaron por ambigüedad:** el catálogo de CH solo publica el «desde» de cada
+modelo. Z9 PHEV ($46.990 en los posts; el catálogo dice desde $39.990, que es la Z9 gasolina),
+RAV4 híbrido ($45.990; catálogo desde $41.990) y Deepal S07 eléctrico ($37.990; catálogo desde
+$38.990). **Pedir a CH la lista por versión** para corregirlos.
+
 ## 4. Pendiente
 
 - Modelos nuevos sin ningún post: Omoda | Jaecoo (desde sep-2026), Chery Tiggo Super Hybrid
@@ -181,5 +214,8 @@ Verificado en vivo en los 15. **A medir** desde el 19-nov: citas que entran desd
   eléctricos ecuador», «autos electricos ecuador», «carros chinos en ecuador», «marcas de
   carros chinos», y clics «vengo de la guía…» en GA4.
 - Pedir indexación en Search Console de 9405, 9472 y 9477 (la API no lo permite).
-- Embudo de taller: subir las páginas de mantenimiento Toyota y Renault (posición 9-27) y medir
-  a fin de mes las citas que entran desde los posts.
+- Medir a fin de mes las citas que entran desde los posts y los rechazos del formulario.
+- **Inicios de enero 2027:** pasar a «2027» los títulos de eléctricos/híbridos y modelos que tengan
+  la unidad 2027 en piso (confirmar con CH).
+- Pedir a CH: lista de precios por versión (Z9 PHEV, RAV4 híbrido, Deepal S07) y confirmar los
+  costos de mantenimiento Renault.
