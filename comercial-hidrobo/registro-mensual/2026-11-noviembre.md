@@ -147,6 +147,23 @@ ecuador» queda con una sola página fuerte.
 
 ---
 
+### 19-nov — Arreglado el formulario de reserva que rechazaba citas
+
+El formulario de reserva de taller (y el de cotización de repuestos) rechazaba a parte de
+quienes lo enviaban con el error `nonce_failed`: la caché de LiteSpeed servía un código de
+seguridad vencido. En noviembre (1-18) fueron **11 personas rechazadas frente a 7 citas
+completadas**; en octubre, 7 frente a 9. Empezó en agosto.
+
+Se desactivó esa verificación en los dos formularios (el reCAPTCHA sigue filtrando spam) y
+se renovó la caché de las dos páginas. Verificado en vivo. Detalle técnico en
+`EMBUDO-TALLER.md`. **A medir:** rechazos en 0 y más citas completadas desde el 19-nov.
+
+Datos que salieron del análisis del embudo (90 días): las búsquedas con intención de
+taller son el 6 % de los clics orgánicos (244 de 4.065); casi todas las citas entran
+directo a la página de reserva y dos de cada tres no vienen de Google. Oportunidades:
+«mantenimiento toyota» (~990 impresiones, pos. 9-13), «mantenimiento renault» (~650,
+pos. 11-27), «primer mantenimiento auto nuevo» (585, pos. 20, 0 clics).
+
 ## 4. Pendiente
 
 - Modelos nuevos sin ningún post: Omoda | Jaecoo (desde sep-2026), Chery Tiggo Super Hybrid
@@ -156,4 +173,5 @@ ecuador» queda con una sola página fuerte.
   eléctricos ecuador», «autos electricos ecuador», «carros chinos en ecuador», «marcas de
   carros chinos», y clics «vengo de la guía…» en GA4.
 - Pedir indexación en Search Console de 9405, 9472 y 9477 (la API no lo permite).
-- Embudo de taller: proponer la siguiente pieza (página de reserva por marca/kilometraje).
+- Embudo de taller: poner el formulario de reserva dentro de los posts de mantenimiento con más
+  visitas (Toyota, Renault, cambio de aceite, 30.000 km) y subir mantenimiento Toyota/Renault.

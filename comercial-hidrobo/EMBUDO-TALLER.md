@@ -126,4 +126,12 @@ por qué `form_taller_cita` (clic en enviar) supera a las visitas a gracias.
 `--revertir`): `load_nonce = "hide"` en 12079 y 8824 + re-guardar las páginas 8753 y 8816
 para purgar LiteSpeed. El reCAPTCHA v3 sigue filtrando spam. La opción `csrf` de JFB no
 sirve (su token también va en el HTML). Alternativa equivalente a mano: LiteSpeed →
-Caché → Excluir → «No cachear URIs» con las dos páginas. **Pendiente de aprobación.**
+Caché → Excluir → «No cachear URIs» con las dos páginas.
+
+**Aplicado 2026-11-19 10:43** (aprobado por el usuario): 12079 y 8824 con `load_nonce: hide`,
+páginas 8753 y 8816 re-guardadas. Verificado en vivo: `x-litespeed-cache: miss`, formulario
+presente, sin `_wpnonce` en el HTML. Como la verificación queda apagada en el servidor,
+ninguna copia vieja en caché puede volver a fallar. No se hizo un envío de prueba (llegaría
+al correo del taller como cita real).
+**Medir:** visitas a `?status=nonce_failed` deben caer a 0, y `/gracias-cita-taller/` debería
+acercarse a `form_taller_cita`. Revisar a fin de noviembre y en diciembre.
