@@ -8,8 +8,17 @@
             <span class="text-xs text-slate-400">Trabajo de septiembre, octubre y noviembre 2026 · datos al 19 de noviembre</span>
         </div>
         <h2 class="text-3xl font-bold text-white mb-2">Avance del plan — corte de noviembre 2026</h2>
-        <p class="text-sm text-slate-400 leading-relaxed">Tercer corte del plan de <strong class="text-slate-300">Comercial Hidrobo</strong>, con datos de Search Console y Google Analytics 4. Cubre todo lo hecho desde el corte de agosto: <strong class="text-slate-300">el embudo hacia el taller</strong>, <strong class="text-slate-300">la recuperación de páginas que habían perdido posiciones</strong> y <strong class="text-slate-300">los 36 artículos nuevos</strong> con los que el blog llega a 240.</p>
+        <p class="text-sm text-slate-400 leading-relaxed">Tercer corte del plan de <strong class="text-slate-300">Comercial Hidrobo</strong> y <strong class="text-slate-300">OKCars</strong>, con datos de Search Console y Google Analytics 4. Cubre todo lo hecho desde el corte de agosto: <strong class="text-slate-300">el embudo hacia el taller</strong>, <strong class="text-slate-300">la recuperación de páginas que habían perdido posiciones</strong> y <strong class="text-slate-300">los 36 artículos nuevos</strong> con los que el blog llega a 240.</p>
     </div>
+
+    <!-- Sub-tabs -->
+    <div class="flex gap-2 border-b border-slate-800 pb-2">
+        <button onclick="subSwitch('noviembre', 'ch')" id="sub-noviembre-ch-btn" class="sub-btn active px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">Comercial Hidrobo</button>
+        <button onclick="subSwitch('noviembre', 'ok')" id="sub-noviembre-ok-btn" class="sub-btn px-4 py-2 text-sm font-medium rounded-lg border border-slate-700/50 text-slate-400 hover:text-white transition">OKCars</button>
+    </div>
+
+    <!-- ══════════════ COMERCIAL HIDROBO ══════════════ -->
+    <div id="sub-noviembre-ch" class="sub-content active space-y-8">
 
     <!-- KPIs -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -199,5 +208,97 @@
             <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Medir la recuperación</strong> de autos eléctricos y autos chinos a mediados de diciembre: Google tarda de 4 a 6 semanas en reflejar los cambios.</div></li>
             <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Pasar a 2027 en enero</strong> los títulos de eléctricos, híbridos y modelos que tengan la versión 2027 en piso. Hoy la gente todavía busca «2026» 24 veces más que «2027».</div></li>
         </ol>
+    </div>
+    </div>
+
+    <!-- ══════════════ OKCARS ══════════════ -->
+    <div id="sub-noviembre-ok" class="sub-content space-y-8">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="rounded-xl border border-slate-800/50 glass p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Clics desde Google</p>
+                <p class="text-3xl font-bold text-white">991</p>
+                <p class="text-xs text-emerald-400 mt-1">4,6 veces los 90 días anteriores (216)</p>
+            </div>
+            <div class="rounded-xl border border-slate-800/50 glass p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Apariciones en Google</p>
+                <p class="text-3xl font-bold text-white">122.717</p>
+                <p class="text-xs text-emerald-400 mt-1">7,5 veces los 90 días anteriores</p>
+            </div>
+            <div class="rounded-xl border border-slate-800/50 glass p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Artículos en el blog</p>
+                <p class="text-3xl font-bold text-white">115</p>
+                <p class="text-xs text-slate-500 mt-1">120 al 30 de diciembre</p>
+            </div>
+            <div class="rounded-xl border border-slate-800/50 glass p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-wider mb-1">Clics por búsquedas de marca</p>
+                <p class="text-3xl font-bold text-white">31 %</p>
+                <p class="text-xs text-emerald-400 mt-1">en mayo era 84 %</p>
+            </div>
+        </div>
+
+        <div class="rounded-xl border border-emerald-500/30 bg-gradient-to-r from-emerald-500/10 to-transparent p-5">
+            <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">Lo primero que hay que saber de este corte:</strong> OKCars dejó de depender de quien ya conocía la marca. Hoy <strong class="text-white">siete de cada diez clics vienen de gente que no buscó «OKCars»</strong>, sino un trámite, un modelo o una duda de compra. El reto del próximo corte es convertir esas visitas en contactos.</p>
+        </div>
+
+        <div class="rounded-xl border border-slate-800/50 glass p-6">
+            <h3 class="text-lg font-semibold text-white mb-3">Cómo crecieron las visitas</h3>
+            <div class="overflow-x-auto mb-3">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="text-xs text-slate-500 uppercase tracking-wider border-b border-slate-800">
+                            <th class="text-left py-2">Mes</th><th class="text-right py-2">Clics desde Google</th><th class="text-right py-2">Apariciones</th><th class="text-right py-2">Visitas desde buscadores</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-300">
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Agosto</td><td class="text-right">105</td><td class="text-right">7.924</td><td class="text-right">177</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Septiembre</td><td class="text-right">175</td><td class="text-right">16.145</td><td class="text-right">252</td></tr>
+                        <tr class="border-b border-slate-800/50"><td class="py-2">Octubre</td><td class="text-right font-semibold">446</td><td class="text-right">61.272</td><td class="text-right">522</td></tr>
+                        <tr><td class="py-2">Noviembre (1 al 17)</td><td class="text-right font-semibold">318</td><td class="text-right">41.851</td><td class="text-right">401</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed">Las páginas que más traen: <strong class="text-slate-300">traspaso de vehículos</strong> (160 clics en 90 días), la página principal (147), <strong class="text-slate-300">traspaso de moto</strong> (93), la lista para revisar un auto usado antes de comprarlo (63) y la guía del Chevrolet Sail usado (49).</p>
+        </div>
+
+        <div class="rounded-xl border border-red-500/30 bg-red-500/5 p-6">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-xl">📞</span>
+                <h3 class="text-lg font-semibold text-white">Hallazgo: las visitas crecen, los contactos todavía no</h3>
+            </div>
+            <p class="text-sm text-slate-300 leading-relaxed mb-3">Entre septiembre y noviembre el sitio registró <strong class="text-white">7 clics a WhatsApp y 2 formularios</strong>. Con 1.175 visitas desde buscadores en ese tiempo, es muy poco. Dos razones:</p>
+            <ul class="space-y-2 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-red-400">▸</span><div><strong>El botón de WhatsApp solo está en las fichas de vehículo.</strong> La página principal, las guías y las páginas de marca no tienen una salida visible para escribir.</div></li>
+                <li class="flex gap-2"><span class="text-red-400">▸</span><div><strong>Las páginas con más tráfico son de trámites</strong> (traspaso de auto y de moto). Quien llega ahí está vendiendo o haciendo un papeleo, no necesariamente comprando. A esa persona hay que ofrecerle otra cosa: recibir su auto en parte de pago o comprárselo.</div></li>
+            </ul>
+        </div>
+
+        <div class="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-6">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">✅</span>
+                <h3 class="text-lg font-semibold text-white">Lo que hicimos</h3>
+            </div>
+            <ul class="space-y-2 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-emerald-400">▸</span><div><strong>Fichas de autos vendidos:</strong> al vender un vehículo, su ficha pasaba a borrador y Google encontraba una página con error. Era el destino del <strong>87 % de las apariciones de fichas</strong>. Instalamos 13 redirecciones (12 fichas vendidas y una regla general que manda al listado cualquier ficha que ya no existe) y dejamos un instructivo para su equipo.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">▸</span><div><strong>Títulos y descripciones reescritos</strong> en las páginas con más apariciones y pocos clics, entre ellas traspaso y seguro vehicular.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">▸</span><div><strong>Seguro vehicular:</strong> dos artículos competían por la misma búsqueda. Se fusionaron en uno de 1.722 palabras, se corrigió el nombre del seguro obligatorio (es SPPAT, no SOAT desde 2016) y se quitaron datos de descuentos que no estaban verificados.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">▸</span><div><strong>40 artículos nuevos</strong> en octubre y noviembre, elegidos con datos de búsqueda: modelos usados, trámites, seguros, financiamiento y guías de compra. El blog pasó a 115.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">▸</span><div><strong>Todo el contenido en «usted»</strong>, el mismo tono de Comercial Hidrobo.</div></li>
+                <li class="flex gap-2"><span class="text-emerald-400">▸</span><div><strong>Los últimos 5 artículos ya están escritos</strong> y salen en diciembre: Ford Escape, Kia Sorento, Toyota RAV4 y Hyundai Creta usados, y SUV usadas por menos de $15.000. Con ellos se completan los <strong>120 del plan</strong>.</div></li>
+            </ul>
+        </div>
+
+        <div class="rounded-xl border border-brand-500/30 bg-brand-500/5 p-6">
+            <div class="flex items-center gap-2 mb-4">
+                <span class="text-xl">🎯</span>
+                <h3 class="text-lg font-semibold text-white">Lo que sigue, en orden de retorno</h3>
+            </div>
+            <ol class="space-y-3 text-sm text-slate-300">
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Botón de WhatsApp en todo el sitio</strong>, no solo en las fichas. Es lo que convierte en contactos las visitas que ya están llegando.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>En las guías de traspaso, ofrecer recibir o comprar el auto</strong> de quien está vendiendo. Son las páginas con más tráfico y hoy no le ofrecen nada a ese lector.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Completar los 120 artículos</strong> en diciembre y medir en enero cuáles de los 45 nuevos traen visitas, para decidir el contenido de 2027.</div></li>
+                <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Mantener actualizadas las fichas</strong> con año y kilometraje. Para su equipo: cuando se vende un auto, la regla general ya lleva al listado; no hace falta hacer nada más.</div></li>
+            </ol>
+        </div>
     </div>
 </div>
