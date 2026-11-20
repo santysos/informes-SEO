@@ -1,0 +1,578 @@
+[
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 4125
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/finalizar-compra/",
+  "estado": "Excluded by ‘noindex’ tag",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/mi-cuenta/",
+  "estado": "Excluded by ‘noindex’ tag",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/carrito/",
+  "estado": "Excluded by ‘noindex’ tag",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/tienda/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 2316
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/quienes-somos/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 388
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/asesoria-tecnica/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/distribuidores/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "page",
+  "url": "https://www.bionext.com.ec/contacto/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 779
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/tienda/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 2316
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-k45/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-triptofano-100/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 2
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-metionina-100/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 17
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-glutamic-100/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 4
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-folcisteina-100/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-prolina-100/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-folic-11/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-carbox/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-calcio-boro/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 7
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-calcio-plus/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-cobre-8/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-fe-mg-zn/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-boro-molibdeno/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-defender/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/inmunor-plus/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bioprotector-violeta/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-amino-sl/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 8
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/adherentnext/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/quital-sal/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 5698
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 567
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-humic/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 997
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-humic-wp/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 614
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-fulvic/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1022
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-zinc-10/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 880
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-magnesio-7/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 305
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-manganeso-12/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 557
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-hierro-9/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 561
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-ca-b-zn/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 4678
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-calcio-21/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 2365
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/super-dkp/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1547
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/inmunor/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 2271
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-silicio/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 2399
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-calcio-azufre/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 3479
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-boro/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 905
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-fe-mn-zn/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1968
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 984
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-kelp/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1943
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-kelp-wp/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 2480
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-setting/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 5729
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bioprotector/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 2332
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-raiz/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1818
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-power/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 3073
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/citozyme/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 2645
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionext-amino-80/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 2308
+ },
+ {
+  "tipo": "product",
+  "url": "https://www.bionext.com.ec/producto/bionexteem/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 2550
+ },
+ {
+  "tipo": "product_cat",
+  "url": "https://www.bionext.com.ec/categoria-producto/bioestimulantes/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 828
+ },
+ {
+  "tipo": "product_cat",
+  "url": "https://www.bionext.com.ec/categoria-producto/coadyuvantes/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product_cat",
+  "url": "https://www.bionext.com.ec/categoria-producto/elicitores-autodefensas/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product_cat",
+  "url": "https://www.bionext.com.ec/categoria-producto/enmiendas-suelo/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "product_cat",
+  "url": "https://www.bionext.com.ec/categoria-producto/quelatos-correctores/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 1642
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/blog/",
+  "estado": "Crawled - currently not indexed",
+  "impr_hist": 26
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/asesoria-capacitacion/plan-nutricion-personalizado-por-cultivo/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/combinar-productos-bionext-mezcla-tanque/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 8
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/calendario-aplicaciones-rosas-cayambe/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 5
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/aplicacion-foliar-vs-drench/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/interpretar-analisis-foliar/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/nutricion-foliar-vs-edafica/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/pudricion-apical-tomate-calcio/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/caida-prematura-fruta-mandarina-naranja/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/botrytis-oidio-rosas-nutricion-preventiva/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/deficiencia-calcio-rosas-sintomas/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/nutricion-aguacate-hass-imbabura/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/nutricion-foliar-hortalizas/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/bioestimulantes-banano-costa-ecuador/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/bioestimulantes-rosas-cayambe/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 16
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/que-producto-bionext-usar-segun-necesidad/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/bioestimulante-vs-hormona-vegetal/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/que-es-un-bioestimulante/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/bionext-silicio-paredes-celulares/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/bionext-power-sequia-estres/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/bionext-calcio-21-cuando-aplicar/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/asesoria-capacitacion/productos-formulados-ecuador-rinden-mas/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/errores-fertilizar-costa-ecuador/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/calendario-agricola-ecuador-bioestimulantes/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 149
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/asesoria-capacitacion/asesoria-tecnica-agricola-imbabura/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/deficiencia-hierro-cultivos-correccion/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 4
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/fertilizacion-foliar-cacao-ecuador/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/enmiendas-suelos-acidos-sierra-ecuador/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 2
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/elicitores-defensas-naturales-cultivo/",
+  "estado": "URL is unknown to Google",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/tecnica-agricola/quelatos-vs-sulfatos-absorcion/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 12
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/bioestimulantes/bioestimulantes-papa-sierra-ecuador/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 5
+ },
+ {
+  "tipo": "post",
+  "url": "https://www.bionext.com.ec/cultivos-ecuatorianos/fertilizante-banano-ecuador/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "category",
+  "url": "https://www.bionext.com.ec/category/asesoria-capacitacion/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "category",
+  "url": "https://www.bionext.com.ec/category/bioestimulantes/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 4
+ },
+ {
+  "tipo": "category",
+  "url": "https://www.bionext.com.ec/category/cultivos-ecuatorianos/",
+  "estado": "Discovered - currently not indexed",
+  "impr_hist": 0
+ },
+ {
+  "tipo": "category",
+  "url": "https://www.bionext.com.ec/category/tecnica-agricola/",
+  "estado": "Submitted and indexed",
+  "impr_hist": 0
+ }
+]
