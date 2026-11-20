@@ -620,6 +620,7 @@ deployment:
     - /bin/mkdir -p $BASEPATH/mentis/diseno-web-octubre-2026/assets $BASEPATH/mentis/diseno-web-octubre-2026/img
     - chmod 755 $BASEPATH/mentis/diseno-web-octubre-2026 $BASEPATH/mentis/diseno-web-octubre-2026/assets $BASEPATH/mentis/diseno-web-octubre-2026/img
     - /bin/cp -rf mentis/diseno-web-octubre-2026/. $BASEPATH/mentis/diseno-web-octubre-2026/
+    - /bin/rm -f $BASEPATH/mentis/diseno-web-octubre-2026/img/equipo-arco.webp $BASEPATH/mentis/diseno-web-octubre-2026/img/p-camila-velastegui.webp $BASEPATH/mentis/diseno-web-octubre-2026/equipo-camila-velastegui.html $BASEPATH/mentis/diseno-web-octubre-2026/img/allison.webp $BASEPATH/mentis/diseno-web-octubre-2026/img/jacobo.webp
     - chmod 644 $BASEPATH/mentis/diseno-web-octubre-2026/*.html $BASEPATH/mentis/diseno-web-octubre-2026/.htaccess $BASEPATH/mentis/diseno-web-octubre-2026/assets/* $BASEPATH/mentis/diseno-web-octubre-2026/img/*
     - /bin/mkdir -p $BASEPATH/fisiovida/proforma-octubre-2026/pdf
     - chmod 755 $BASEPATH/fisiovida $BASEPATH/fisiovida/proforma-octubre-2026 $BASEPATH/fisiovida/proforma-octubre-2026/pdf
