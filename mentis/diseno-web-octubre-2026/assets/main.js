@@ -144,23 +144,27 @@
     let cur = 0;
     const val = n => [...wz.querySelectorAll(`[name="${n}"]:checked`)].map(i => i.value);
     const valid = () => cur === 0 ? val('quien').length : cur === 1 ? val('motivo').length : cur === 2 ? val('sede').length : true;
+    // Recomienda a todos los profesionales que atienden a ese público, según su ficha.
+    // Los que coinciden con el motivo van primero. La sede filtra solo si está cargada en la ficha.
+    const PUBLICO = { yo: ['Adultos', 'Adultos mayores', 'Jóvenes adultos', 'Jóvenes'], hijo: ['Niños'], pareja: ['Parejas'], familia: ['Familias', 'Familias y docentes'] };
+    const MOTIVO_SVC = { 'Relación de pareja': 'terapia-de-pareja', 'Conducta o emociones de un niño': 'psicologia-infantil', 'Aprendizaje o colegio': 'psicopedagogia', 'Orientación vocacional': 'evaluacion-y-orientacion-vocacional' };
     const recommend = () => {
-      const q = val('quien')[0], m = val('motivo');
-      if (q === 'hijo') return m.includes('Aprendizaje o colegio') ? ['allison-garrido', 'pamela-villegas'] : ['pamela-villegas', 'allison-garrido'];
-      if (q === 'pareja') return ['cristina-munoz'];
-      if (q === 'familia') return ['cristina-munoz', 'pamela-villegas'];
-      if (m.includes('Orientación vocacional')) return ['pamela-villegas', 'cristina-munoz'];
-      if (m.includes('Ansiedad o estrés')) return ['francisco-vasquez', 'cristina-munoz', 'jacobo-recalde'];
-      return ['cristina-munoz', 'jacobo-recalde', 'francisco-vasquez'];
+      const q = val('quien')[0], m = val('motivo'), sede = val('sede')[0];
+      const lista = Array.isArray(PROS) ? PROS : [];
+      let r = lista.filter(p => p.who.some(w => PUBLICO[q].includes(w)));
+      const enSede = r.filter(p => sede === 'En línea' || !p.sede || p.sede.includes(sede));
+      if (enSede.length) r = enSede;
+      const score = p => m.reduce((s, x) => s + (MOTIVO_SVC[x] && p.svc.includes(MOTIVO_SVC[x]) ? 1 : 0), 0);
+      return r.map((p, i) => [p, score(p), i]).sort((a, b) => b[1] - a[1] || a[2] - b[2]).map(x => x[0]);
     };
     const LBL = { yo: 'para mí', hijo: 'para mi hijo o hija', pareja: 'para mi pareja y yo', familia: 'para mi familia' };
     const finish = () => {
       const recs = recommend();
-      wz.querySelector('.wz-pros').innerHTML = recs.map(k => { const p = PROS[k]; return `<div class="wz-pro"><span class="av">${p.photo ? `<img src="img/${p.photo}.webp" alt="">` : p.ini}</span><span><b>${p.name}</b><small>${p.role}</small></span></div>`; }).join('');
+      wz.querySelector('.wz-pros').innerHTML = recs.map(p => { return `<div class="wz-pro"><span class="av">${p.photo ? `<img src="img/${p.photo}.webp" alt="">` : p.ini}</span><span><b>${p.name}</b><small>${p.role}</small></span></div>`; }).join('');
       const nombre = wz.querySelector('[name="nombre"]').value.trim();
       const sede = val('sede')[0], motivos = val('motivo').join(', ').toLowerCase();
       wz.querySelector('.wz-sum').textContent = `Terapia ${LBL[val('quien')[0]]} · ${val('motivo').join(', ')} · ${sede}`;
-      const msg = `Hola, Mentis${nombre ? `, soy ${nombre}` : ''}. Me gustaría agendar una primera cita ${LBL[val('quien')[0]]} (${sede}). Motivo: ${motivos}. Me recomendaron conversar con ${recs.map(k => PROS[k].name).join(' o ')}.`;
+      const msg = `Hola, Mentis${nombre ? `, soy ${nombre}` : ''}. Me gustaría agendar una primera cita ${LBL[val('quien')[0]]} (${sede}). Motivo: ${motivos}. Me recomendaron conversar con ${recs.length > 3 ? 'alguien de su equipo' : recs.map(p => p.name).join(' o ')}.`;
       // Número de WhatsApp de cada sede por confirmar: sin número, WhatsApp deja elegir el chat
       wz.querySelector('.wz-send').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
     };
