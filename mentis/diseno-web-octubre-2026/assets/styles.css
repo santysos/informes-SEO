@@ -1,18 +1,18 @@
 /* Mentis Psicología — borrador de diseño v2 (editorial) */
 :root{
-  --teal:#4A6283;
-  --teal-500:#6F87A6;
-  --deep:#25384E;
-  --sage:#A3B3C7;
+  --teal:#25384E;
+  --teal-500:#63788F;
+  --deep:#1A2A3E;
+  --sage:#9AAABF;
   --aqua:#C4CAD6;
-  --aqua-50:#E7ECF3;
+  --aqua-50:#DCE2EB;
   --sand:#C4A486;
-  --sand-100:#EBDCCD;
-  --cream:#F5EEE7;
-  --paper:#FBF9F6;
-  --ink:#24303F;
-  --ink-2:#5C6573;
-  --line:#E2D7CC;
+  --sand-100:#E7D4C3;
+  --cream:#F3E7DF;
+  --paper:#FAF4EF;
+  --ink:#25384E;
+  --ink-2:#596476;
+  --line:#E0D2C6;
   --serif:"Fraunces", Georgia, serif;
   --sans:"Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
   --wrap:1240px;
@@ -67,7 +67,7 @@ p{max-width:64ch}
 .btn:hover::before{opacity:1}
 .btn .arr{width:18px;height:18px;transition:transform .4s var(--ease)}
 .btn:hover .arr{transform:translateX(4px)}
-.btn-line{--bg:transparent;--fg:var(--ink);box-shadow:inset 0 0 0 1px rgba(36,40,40,.25)}
+.btn-line{--bg:transparent;--fg:var(--ink);box-shadow:inset 0 0 0 1px rgba(37,56,78,.3)}
 .btn-line::before{background:var(--ink)}
 .btn-line:hover{--fg:#fff;color:#fff}
 .btn-light{--bg:#fff;--fg:var(--deep)}
@@ -304,15 +304,15 @@ section{padding:clamp(90px,11vw,150px) 0}
 /* CTA */
 .cta{padding:0 0 clamp(90px,11vw,150px)}
 .process + .cta{padding-top:clamp(90px,11vw,150px)} /* bloque de color seguido del CTA: separarlos */
-.cta-box{border-radius:36px;background:var(--teal);color:#fff;padding:clamp(48px,7vw,100px);position:relative;overflow:hidden;text-align:center}
-.cta-box h2{color:#fff;max-width:18ch;margin:22px auto 0}
-.cta-box h2 em{color:var(--aqua)}
-.cta-box .ring path{fill:rgba(196,202,214,.28);opacity:1}
-.cta-box .ring path.b2{stroke:var(--aqua);fill:none}
-.cta-box p{margin:22px auto 0;opacity:.85}
+.cta-box{border-radius:36px;background:var(--sand-100);color:var(--ink-2);padding:clamp(48px,7vw,100px);position:relative;overflow:hidden;text-align:center}
+.cta-box h2{color:var(--ink);max-width:18ch;margin:22px auto 0}
+.cta-box h2 em{color:var(--teal-500)}
+.cta-box .ring path{fill:rgba(99,120,143,.18);opacity:1}
+.cta-box .ring path.b2{stroke:var(--teal-500);fill:none}
+.cta-box p{margin:22px auto 0}
 .cta-box .acts{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:40px}
-.cta-box .label{color:var(--aqua)}
-.cta-box .orb{position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.16)}
+.cta-box .label{color:var(--teal)}
+.cta-box .orb{position:absolute;border-radius:50%;border:1px solid rgba(37,56,78,.12)}
 
 /* cita de Frankl */
 .frankl{padding:40px 0 20px;text-align:center}
@@ -374,7 +374,7 @@ section{padding:clamp(90px,11vw,150px) 0}
 .form .note{font-size:.8rem;color:var(--ink-2)}
 
 /* pie */
-.site-footer{background:var(--teal);color:rgba(255,255,255,.88);padding:110px 0 30px;border-radius:36px 36px 0 0;overflow:hidden;position:relative}
+.site-footer{background:var(--teal-500);color:rgba(255,255,255,.88);padding:110px 0 30px;border-radius:36px 36px 0 0;overflow:hidden;position:relative}
 .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:50px}
 .site-footer h4{font-family:var(--sans);font-weight:500;font-size:.76rem;letter-spacing:.22em;text-transform:uppercase;color:#fff;margin-bottom:22px}
 .site-footer ul{list-style:none;display:grid;gap:11px;font-size:.95rem}
@@ -561,8 +561,8 @@ body:has(.cookies:not([hidden])) .nudge{display:none}
 .hero-img{isolation:isolate}
 @keyframes drift{50%{transform:translate(4px,-6px) rotate(1.5deg)}}
 .cta-box .corner.cta-c{width:clamp(200px,26vw,360px)}
-.cta-box .corner .d-fill{fill:#fff;opacity:.08}
-.cta-box .corner .d-line{stroke:var(--aqua);opacity:.6}
+.cta-box .corner .d-fill{fill:var(--aqua);opacity:.95}
+.cta-box .corner .d-line{stroke:var(--teal);opacity:.35}
 .cta-box{isolation:isolate}
 .cta-box>*:not(.deco){position:relative;z-index:1}
 .blob.side{width:clamp(220px,24vw,340px);left:clamp(-170px,-9vw,-100px);top:18%;opacity:.8;animation:drift 40s ease-in-out infinite}
