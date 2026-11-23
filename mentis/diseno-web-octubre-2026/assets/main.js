@@ -165,8 +165,9 @@
       const sede = val('sede')[0], motivos = val('motivo').join(', ').toLowerCase();
       wz.querySelector('.wz-sum').textContent = `Terapia ${LBL[val('quien')[0]]} · ${val('motivo').join(', ')} · ${sede}`;
       const msg = `Hola, Mentis${nombre ? `, soy ${nombre}` : ''}. Me gustaría agendar una primera cita ${LBL[val('quien')[0]]} (${sede}). Motivo: ${motivos}. Me recomendaron conversar con ${recs.length > 3 ? 'alguien de su equipo' : recs.map(p => p.name).join(' o ')}.`;
-      // Número de WhatsApp de cada sede por confirmar: sin número, WhatsApp deja elegir el chat
-      wz.querySelector('.wz-send').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
+      // Ibarra escribe a su sede; Quito y en línea, a Quito
+      const num = sede === 'Ibarra' ? '593996808999' : '593961351744';
+      wz.querySelector('.wz-send').href = `https://wa.me/${num}?text=` + encodeURIComponent(msg);
     };
     const go = i => {
       steps[cur].classList.remove('on'); cur = i; steps[cur].classList.add('on');
