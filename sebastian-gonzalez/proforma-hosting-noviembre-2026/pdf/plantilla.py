@@ -151,7 +151,7 @@ def documento(numero, filas_items, filas_tot, nota):
 
     <div class="cierre">
       <div class="izq">
-        <h4>PRECIOS NO INCLUYEN IVA &ndash; <b>{RENOVACION}</b></h4>
+        <h4><b>{RENOVACION}</b></h4>
         <p>{nota}</p>
       </div>
       <table class="tot">{filas_tot}</table>
@@ -217,13 +217,13 @@ NOTA = ("La UAFE no acepta correos departamentales (cumplimiento@), alias ni dom
         "No incluye el tr&aacute;mite ante la UAFE ni asesor&iacute;a legal.<br>"
         "El pago es por el plan anual (12 meses), por adelantado.<br>"
         "La activaci&oacute;n es inmediata una vez confirmado el pago.<br>"
-        "Los valores se renuevan cada a&ntilde;o: alojamiento $59.99 y dominio $21.99.")
+        "Renovaci&oacute;n anual: alojamiento $59.99 y dominio $21.99, m&aacute;s IVA.")
 
 DOCS = {
  "cotizacion": documento(
     PROFORMA, ITEM_HOSTING + ITEM_DOMINIO + ITEM_PLANES,
     totales([("Subtotal:", "$ 81.98", ""), ("Descuento:", "", ""),
-             ("IVA 15%:", "", ""), ("TOTAL:", "$ 81.98", "total")]),
+             ("IVA 15%:", "$ 12.30", ""), ("TOTAL:", "$ 94.28", "total")]),
     NOTA),
 }
 
