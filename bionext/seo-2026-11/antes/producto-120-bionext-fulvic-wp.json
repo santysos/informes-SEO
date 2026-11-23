@@ -1,0 +1,311 @@
+{
+ "id": 120,
+ "name": "BIONEXT FULVIC 90®",
+ "slug": "bionext-fulvic-wp",
+ "permalink": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/",
+ "date_created": "2026-05-02T22:10:26",
+ "date_created_gmt": "2026-05-03T03:10:26",
+ "date_modified": "2026-11-05T22:40:48",
+ "date_modified_gmt": "2026-11-06T03:40:48",
+ "type": "external",
+ "status": "publish",
+ "featured": false,
+ "catalog_visibility": "visible",
+ "description": "<h2>Ficha técnica</h2>\n<table class=\"bx-ficha\">\n<thead>\n<tr>\n<th>Composición</th>\n<th>Riqueza</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Ácidos Fúlvicos</td>\n<td class=\"bx-val\">90,0 % p/p</td>\n</tr>\n<tr>\n<td>Potasio</td>\n<td class=\"bx-val\">12 % p/p</td>\n</tr>\n</tbody>\n</table>\n<h3>Dosis recomendada</h3>\n<ul class=\"bx-dosis\">\n<li>Aplicación edáfica: 1 a 2 kg/ha</li>\n</ul>\n<p class=\"bx-registro\"><strong>Registro:</strong> 234-F-AGR-CH</p>\n<p class=\"bx-pdf\"><a href=\"https://www.bionext.com.ec/wp-content/uploads/2026/09/HT_BIONEXT_FULVIC_90-2026.pdf\" target=\"_blank\" rel=\"noopener\">Descargar ficha técnica en PDF</a></p>\n",
+ "short_description": "<p class=\"bx-tipo\">Enmienda de Origen Orgánico</p>\n<p>Aumenta la disponibilidad de macro y micronutrientes del suelo y mejora su capacidad de intercambio catiónico. Mantiene el balance de microorganismos y estimula el crecimiento radicular. Es un mejorador de la estructura del suelo por su alto contenido de materia orgánica. Es estable en pH ácido y alcalino, por lo que se puede usar por fertirriego o vía drench.</p>\n",
+ "sku": "BIO-338",
+ "price": "",
+ "regular_price": "",
+ "sale_price": "",
+ "date_on_sale_from": null,
+ "date_on_sale_from_gmt": null,
+ "date_on_sale_to": null,
+ "date_on_sale_to_gmt": null,
+ "on_sale": false,
+ "purchasable": false,
+ "total_sales": 0,
+ "virtual": false,
+ "downloadable": false,
+ "downloads": [],
+ "download_limit": -1,
+ "download_expiry": -1,
+ "external_url": "https://wa.me/593997689779?text=Hola%20Bionext%2C%20me%20interesa%20cotizar%20el%20producto%20BIONEXT%20FULVIC%2090",
+ "button_text": "Cotizar por WhatsApp",
+ "tax_status": "taxable",
+ "tax_class": "",
+ "manage_stock": false,
+ "stock_quantity": null,
+ "backorders": "no",
+ "backorders_allowed": false,
+ "backordered": false,
+ "low_stock_amount": null,
+ "sold_individually": false,
+ "weight": "",
+ "dimensions": {
+  "length": "",
+  "width": "",
+  "height": ""
+ },
+ "shipping_required": true,
+ "shipping_taxable": true,
+ "shipping_class": "",
+ "shipping_class_id": 0,
+ "reviews_allowed": false,
+ "average_rating": "0.00",
+ "rating_count": 0,
+ "upsell_ids": [],
+ "cross_sell_ids": [],
+ "parent_id": 0,
+ "purchase_note": "",
+ "categories": [
+  {
+   "id": 20,
+   "name": "Enmiendas y acondicionadores de suelo",
+   "slug": "enmiendas-suelo"
+  }
+ ],
+ "brands": [],
+ "tags": [],
+ "images": [
+  {
+   "id": 1327,
+   "date_created": "2026-09-29T15:18:40",
+   "date_created_gmt": "2026-09-30T01:18:40",
+   "date_modified": "2026-09-29T15:19:16",
+   "date_modified_gmt": "2026-09-30T01:19:16",
+   "src": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp",
+   "name": "Envase de BIONEXT FULVIC 90",
+   "alt": "Envase de BIONEXT FULVIC 90, línea enmiendas y acondicionadores de suelo",
+   "srcset": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp 2000w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-300x300.webp 300w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-1024x1024.webp 1024w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-150x150.webp 150w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-768x768.webp 768w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-1536x1536.webp 1536w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-600x600.webp 600w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-100x100.webp 100w",
+   "sizes": "(max-width: 2000px) 100vw, 2000px",
+   "thumbnail": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90-300x300.webp"
+  }
+ ],
+ "attributes": [],
+ "default_attributes": [],
+ "variations": [],
+ "grouped_products": [],
+ "menu_order": 0,
+ "price_html": "",
+ "related_ids": [
+  123,
+  124,
+  122,
+  121,
+  860
+ ],
+ "meta_data": [
+  {
+   "id": 878,
+   "key": "composicion",
+   "value": "<table class=\"bx-ficha\"><thead><tr><th>Composición</th><th>Riqueza</th></tr></thead><tbody><tr><td>Ácidos Fúlvicos</td><td class=\"bx-val\">90,0 % p/p</td></tr><tr><td>Potasio</td><td class=\"bx-val\">12 % p/p</td></tr></tbody></table>"
+  },
+  {
+   "id": 879,
+   "key": "dosis",
+   "value": "Aplicación edáfica: 1 a 2 kg/ha"
+  },
+  {
+   "id": 880,
+   "key": "mezclas_sugeridas",
+   "value": ""
+  },
+  {
+   "id": 881,
+   "key": "ficha_tecnica",
+   "value": "https://bionext.com.ec/wp-content/uploads/2026/05/HT_BIONEXT_FULVICWP.pdf"
+  },
+  {
+   "id": 8001,
+   "key": "registro_sanitario",
+   "value": "234-F-AGR-CH"
+  },
+  {
+   "id": 17058,
+   "key": "_elementor_global_class_usage_indexed",
+   "value": "1"
+  },
+  {
+   "id": 18675,
+   "key": "_yoast_wpseo_title",
+   "value": "BIONEXT FULVIC 90 — Enmienda orgánica | Bionext"
+  },
+  {
+   "id": 18676,
+   "key": "_yoast_wpseo_metadesc",
+   "value": "Aporta Ácidos Fúlvicos 90,0 % p/p y Potasio 12 % p/p. Aplicación edáfica: 1 a 2 kg/ha. Ficha técnica y visita técnica gratuita a su finca."
+  },
+  {
+   "id": 26667,
+   "key": "_elementor_page_assets",
+   "value": []
+  }
+ ],
+ "stock_status": "instock",
+ "has_options": false,
+ "post_password": "",
+ "global_unique_id": "",
+ "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>BIONEXT FULVIC 90 — Enmienda orgánica | Bionext</title>\n<meta name=\"description\" content=\"Aporta Ácidos Fúlvicos 90,0 % p/p y Potasio 12 % p/p. Aplicación edáfica: 1 a 2 kg/ha. Ficha técnica y visita técnica gratuita a su finca.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.bionext.com.ec/producto/bionext-fulvic-wp/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"BIONEXT FULVIC 90 — Enmienda orgánica | Bionext\" />\n<meta property=\"og:description\" content=\"Aporta Ácidos Fúlvicos 90,0 % p/p y Potasio 12 % p/p. Aplicación edáfica: 1 a 2 kg/ha. Ficha técnica y visita técnica gratuita a su finca.\" />\n<meta property=\"og:url\" content=\"https://www.bionext.com.ec/producto/bionext-fulvic-wp/\" />\n<meta property=\"og:site_name\" content=\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\" />\n<meta property=\"article:modified_time\" content=\"2026-11-06T03:40:48+00:00\" />\n<meta property=\"og:image\" content=\"https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp\" />\n\t<meta property=\"og:image:width\" content=\"2000\" />\n\t<meta property=\"og:image:height\" content=\"2000\" />\n\t<meta property=\"og:image:type\" content=\"image/webp\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/\",\"name\":\"BIONEXT FULVIC 90 — Enmienda orgánica | Bionext\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/09\\/envase-bionext-fulvic-90.webp\",\"datePublished\":\"2026-05-03T03:10:26+00:00\",\"dateModified\":\"2026-11-06T03:40:48+00:00\",\"description\":\"Aporta Ácidos Fúlvicos 90,0 % p\\/p y Potasio 12 % p\\/p. Aplicación edáfica: 1 a 2 kg\\/ha. Ficha técnica y visita técnica gratuita a su finca.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/#breadcrumb\"},\"inLanguage\":\"es\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"es\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/#primaryimage\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/09\\/envase-bionext-fulvic-90.webp\",\"contentUrl\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/09\\/envase-bionext-fulvic-90.webp\",\"width\":2000,\"height\":2000,\"caption\":\"BIONEXT FULVIC 90 · Enmiendas y acondicionadores de suelo\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-fulvic-wp\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.bionext.com.ec\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tienda\",\"item\":\"https:\\/\\/www.bionext.com.ec\\/tienda\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"BIONEXT FULVIC 90®\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#website\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/\",\"name\":\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\",\"description\":\"Formuladores ecuatorianos de bioestimulantes, quelatos y enmiendas de suelo desde 2016. Productos técnicos para potenciar el rendimiento de su cultivo.\",\"publisher\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.bionext.com.ec\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"es\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#organization\",\"name\":\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"es\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/05\\/logo-bionext-azul.webp\",\"contentUrl\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/05\\/logo-bionext-azul.webp\",\"width\":353,\"height\":69,\"caption\":\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\"},\"image\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+ "yoast_head_json": {
+  "title": "BIONEXT FULVIC 90 — Enmienda orgánica | Bionext",
+  "description": "Aporta Ácidos Fúlvicos 90,0 % p/p y Potasio 12 % p/p. Aplicación edáfica: 1 a 2 kg/ha. Ficha técnica y visita técnica gratuita a su finca.",
+  "robots": {
+   "index": "index",
+   "follow": "follow",
+   "max-snippet": "max-snippet:-1",
+   "max-image-preview": "max-image-preview:large",
+   "max-video-preview": "max-video-preview:-1"
+  },
+  "canonical": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/",
+  "og_locale": "es_ES",
+  "og_type": "article",
+  "og_title": "BIONEXT FULVIC 90 — Enmienda orgánica | Bionext",
+  "og_description": "Aporta Ácidos Fúlvicos 90,0 % p/p y Potasio 12 % p/p. Aplicación edáfica: 1 a 2 kg/ha. Ficha técnica y visita técnica gratuita a su finca.",
+  "og_url": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/",
+  "og_site_name": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador",
+  "article_modified_time": "2026-11-06T03:40:48+00:00",
+  "og_image": [
+   {
+    "width": 2000,
+    "height": 2000,
+    "url": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp",
+    "type": "image/webp"
+   }
+  ],
+  "twitter_card": "summary_large_image",
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/",
+     "url": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/",
+     "name": "BIONEXT FULVIC 90 — Enmienda orgánica | Bionext",
+     "isPartOf": {
+      "@id": "https://www.bionext.com.ec/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/#primaryimage"
+     },
+     "image": {
+      "@id": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/#primaryimage"
+     },
+     "thumbnailUrl": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp",
+     "datePublished": "2026-05-03T03:10:26+00:00",
+     "dateModified": "2026-11-06T03:40:48+00:00",
+     "description": "Aporta Ácidos Fúlvicos 90,0 % p/p y Potasio 12 % p/p. Aplicación edáfica: 1 a 2 kg/ha. Ficha técnica y visita técnica gratuita a su finca.",
+     "breadcrumb": {
+      "@id": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/#breadcrumb"
+     },
+     "inLanguage": "es",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://www.bionext.com.ec/producto/bionext-fulvic-wp/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "ImageObject",
+     "inLanguage": "es",
+     "@id": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/#primaryimage",
+     "url": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp",
+     "contentUrl": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-fulvic-90.webp",
+     "width": 2000,
+     "height": 2000,
+     "caption": "BIONEXT FULVIC 90 · Enmiendas y acondicionadores de suelo"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.bionext.com.ec/producto/bionext-fulvic-wp/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.bionext.com.ec/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Tienda",
+       "item": "https://www.bionext.com.ec/tienda/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "BIONEXT FULVIC 90®"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.bionext.com.ec/#website",
+     "url": "https://www.bionext.com.ec/",
+     "name": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador",
+     "description": "Formuladores ecuatorianos de bioestimulantes, quelatos y enmiendas de suelo desde 2016. Productos técnicos para potenciar el rendimiento de su cultivo.",
+     "publisher": {
+      "@id": "https://www.bionext.com.ec/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.bionext.com.ec/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "es"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://www.bionext.com.ec/#organization",
+     "name": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador",
+     "url": "https://www.bionext.com.ec/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "es",
+      "@id": "https://www.bionext.com.ec/#/schema/logo/image/",
+      "url": "https://www.bionext.com.ec/wp-content/uploads/2026/05/logo-bionext-azul.webp",
+      "contentUrl": "https://www.bionext.com.ec/wp-content/uploads/2026/05/logo-bionext-azul.webp",
+      "width": 353,
+      "height": 69,
+      "caption": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador"
+     },
+     "image": {
+      "@id": "https://www.bionext.com.ec/#/schema/logo/image/"
+     }
+    }
+   ]
+  }
+ },
+ "_links": {
+  "self": [
+   {
+    "href": "https://www.bionext.com.ec/wp-json/wc/v3/products/120",
+    "targetHints": {
+     "allow": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://www.bionext.com.ec/wp-json/wc/v3/products"
+   }
+  ]
+ }
+}

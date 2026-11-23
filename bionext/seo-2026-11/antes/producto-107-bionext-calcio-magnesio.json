@@ -1,0 +1,311 @@
+{
+ "id": 107,
+ "name": "BIONEXT CALCIO MAGNESIO®",
+ "slug": "bionext-calcio-magnesio",
+ "permalink": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/",
+ "date_created": "2026-05-02T22:10:03",
+ "date_created_gmt": "2026-05-03T03:10:03",
+ "date_modified": "2026-11-05T22:43:27",
+ "date_modified_gmt": "2026-11-06T03:43:27",
+ "type": "external",
+ "status": "publish",
+ "featured": false,
+ "catalog_visibility": "visible",
+ "description": "<h2>Ficha técnica</h2>\n<table class=\"bx-ficha\">\n<thead>\n<tr>\n<th>Composición</th>\n<th>Riqueza</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Calcio (CaO)</td>\n<td class=\"bx-val\">20 % p/v</td>\n</tr>\n<tr>\n<td>Magnesio (MgO)</td>\n<td class=\"bx-val\">8 % p/v</td>\n</tr>\n<tr>\n<td>Aminoácidos</td>\n<td class=\"bx-val\">0,6 % p/v</td>\n</tr>\n<tr>\n<td>Ácidos Carboxílicos</td>\n<td class=\"bx-val\">5 % p/v</td>\n</tr>\n</tbody>\n</table>\n<h3>Dosis recomendada</h3>\n<ul class=\"bx-dosis\">\n<li>Aplicación foliar: 1 cc/L</li>\n</ul>\n<h3>Mezclas sugeridas</h3>\n<ul class=\"bx-mezclas\">\n<li>BIONEXT CALCIO MAGNESIO 1 cc/L + BIONEXT POWER 1 cc/L (corrección de deficiencias, desestresa y desintoxica)</li>\n</ul>\n<p class=\"bx-registro\"><strong>Registro:</strong> 220-F-AGR-CH</p>\n<p class=\"bx-pdf\"><a href=\"https://www.bionext.com.ec/wp-content/uploads/2026/09/HT_BIONEXT_CALCIO_MAGNESIO-2026.pdf\" target=\"_blank\" rel=\"noopener\">Descargar ficha técnica en PDF</a></p>\n",
+ "short_description": "<p class=\"bx-tipo\">Quelato Líquido</p>\n<p>Completamente quelatado con ácidos carboxílicos, por lo que ingresa rápidamente en los tejidos vegetales y corrige inmediatamente las deficiencias de estos nutrientes. Además moviliza rápidamente los azúcares, permitiendo una rápida recuperación frente a situaciones de estrés.</p>\n",
+ "sku": "BIO-308",
+ "price": "",
+ "regular_price": "",
+ "sale_price": "",
+ "date_on_sale_from": null,
+ "date_on_sale_from_gmt": null,
+ "date_on_sale_to": null,
+ "date_on_sale_to_gmt": null,
+ "on_sale": false,
+ "purchasable": false,
+ "total_sales": 0,
+ "virtual": false,
+ "downloadable": false,
+ "downloads": [],
+ "download_limit": -1,
+ "download_expiry": -1,
+ "external_url": "https://wa.me/593997689779?text=Hola%20Bionext%2C%20me%20interesa%20cotizar%20el%20producto%20BIONEXT%20CALCIO%20MAGNESIO",
+ "button_text": "Cotizar por WhatsApp",
+ "tax_status": "taxable",
+ "tax_class": "",
+ "manage_stock": false,
+ "stock_quantity": null,
+ "backorders": "no",
+ "backorders_allowed": false,
+ "backordered": false,
+ "low_stock_amount": null,
+ "sold_individually": false,
+ "weight": "",
+ "dimensions": {
+  "length": "",
+  "width": "",
+  "height": ""
+ },
+ "shipping_required": true,
+ "shipping_taxable": true,
+ "shipping_class": "",
+ "shipping_class_id": 0,
+ "reviews_allowed": false,
+ "average_rating": "0.00",
+ "rating_count": 0,
+ "upsell_ids": [],
+ "cross_sell_ids": [],
+ "parent_id": 0,
+ "purchase_note": "",
+ "categories": [
+  {
+   "id": 21,
+   "name": "Quelatos Correctores",
+   "slug": "quelatos-correctores"
+  }
+ ],
+ "brands": [],
+ "tags": [],
+ "images": [
+  {
+   "id": 1317,
+   "date_created": "2026-09-29T15:09:34",
+   "date_created_gmt": "2026-09-30T01:09:34",
+   "date_modified": "2026-09-29T15:10:10",
+   "date_modified_gmt": "2026-09-30T01:10:10",
+   "src": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp",
+   "name": "Envase de BIONEXT CALCIO MAGNESIO",
+   "alt": "Envase de BIONEXT CALCIO MAGNESIO, línea quelatos correctores",
+   "srcset": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp 2000w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-300x300.webp 300w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-1024x1024.webp 1024w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-150x150.webp 150w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-768x768.webp 768w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-1536x1536.webp 1536w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-600x600.webp 600w, https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-100x100.webp 100w",
+   "sizes": "(max-width: 2000px) 100vw, 2000px",
+   "thumbnail": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio-300x300.webp"
+  }
+ ],
+ "attributes": [],
+ "default_attributes": [],
+ "variations": [],
+ "grouped_products": [],
+ "menu_order": 0,
+ "price_html": "",
+ "related_ids": [
+  108,
+  118,
+  117,
+  114,
+  856
+ ],
+ "meta_data": [
+  {
+   "id": 566,
+   "key": "composicion",
+   "value": "<table class=\"bx-ficha\"><thead><tr><th>Composición</th><th>Riqueza</th></tr></thead><tbody><tr><td>Calcio (CaO)</td><td class=\"bx-val\">20 % p/v</td></tr><tr><td>Magnesio (MgO)</td><td class=\"bx-val\">8 % p/v</td></tr><tr><td>Aminoácidos</td><td class=\"bx-val\">0,6 % p/v</td></tr><tr><td>Ácidos Carboxílicos</td><td class=\"bx-val\">5 % p/v</td></tr></tbody></table>"
+  },
+  {
+   "id": 567,
+   "key": "dosis",
+   "value": "Aplicación foliar: 1 cc/L"
+  },
+  {
+   "id": 568,
+   "key": "mezclas_sugeridas",
+   "value": "BIONEXT CALCIO MAGNESIO 1 cc/L + BIONEXT POWER 1 cc/L (corrección de deficiencias, desestresa y desintoxica)"
+  },
+  {
+   "id": 569,
+   "key": "ficha_tecnica",
+   "value": "https://bionext.com.ec/wp-content/uploads/2026/05/HT_BIONEXT_CALCIOMAGNESIO.pdf"
+  },
+  {
+   "id": 7923,
+   "key": "registro_sanitario",
+   "value": "220-F-AGR-CH"
+  },
+  {
+   "id": 17350,
+   "key": "_elementor_global_class_usage_indexed",
+   "value": "1"
+  },
+  {
+   "id": 18653,
+   "key": "_yoast_wpseo_title",
+   "value": "BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext"
+  },
+  {
+   "id": 18654,
+   "key": "_yoast_wpseo_metadesc",
+   "value": "Aporta Calcio (CaO) 20 % p/v y Magnesio (MgO) 8 % p/v. Aplicación foliar: 1 cc/L. Ficha técnica completa y asesoría sin costo."
+  },
+  {
+   "id": 26689,
+   "key": "_elementor_page_assets",
+   "value": []
+  }
+ ],
+ "stock_status": "instock",
+ "has_options": false,
+ "post_password": "",
+ "global_unique_id": "",
+ "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext</title>\n<meta name=\"description\" content=\"Aporta Calcio (CaO) 20 % p/v y Magnesio (MgO) 8 % p/v. Aplicación foliar: 1 cc/L. Ficha técnica completa y asesoría sin costo.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://www.bionext.com.ec/producto/bionext-calcio-magnesio/\" />\n<meta property=\"og:locale\" content=\"es_ES\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext\" />\n<meta property=\"og:description\" content=\"Aporta Calcio (CaO) 20 % p/v y Magnesio (MgO) 8 % p/v. Aplicación foliar: 1 cc/L. Ficha técnica completa y asesoría sin costo.\" />\n<meta property=\"og:url\" content=\"https://www.bionext.com.ec/producto/bionext-calcio-magnesio/\" />\n<meta property=\"og:site_name\" content=\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\" />\n<meta property=\"article:modified_time\" content=\"2026-11-06T03:43:27+00:00\" />\n<meta property=\"og:image\" content=\"https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp\" />\n\t<meta property=\"og:image:width\" content=\"2000\" />\n\t<meta property=\"og:image:height\" content=\"2000\" />\n\t<meta property=\"og:image:type\" content=\"image/webp\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/\",\"name\":\"BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/09\\/envase-bionext-calcio-magnesio.webp\",\"datePublished\":\"2026-05-03T03:10:03+00:00\",\"dateModified\":\"2026-11-06T03:43:27+00:00\",\"description\":\"Aporta Calcio (CaO) 20 % p\\/v y Magnesio (MgO) 8 % p\\/v. Aplicación foliar: 1 cc\\/L. Ficha técnica completa y asesoría sin costo.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/#breadcrumb\"},\"inLanguage\":\"es\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"es\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/#primaryimage\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/09\\/envase-bionext-calcio-magnesio.webp\",\"contentUrl\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/09\\/envase-bionext-calcio-magnesio.webp\",\"width\":2000,\"height\":2000,\"caption\":\"BIONEXT CALCIO MAGNESIO · Quelatos Correctores\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/producto\\/bionext-calcio-magnesio\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.bionext.com.ec\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tienda\",\"item\":\"https:\\/\\/www.bionext.com.ec\\/tienda\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"BIONEXT CALCIO MAGNESIO®\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#website\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/\",\"name\":\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\",\"description\":\"Formuladores ecuatorianos de bioestimulantes, quelatos y enmiendas de suelo desde 2016. Productos técnicos para potenciar el rendimiento de su cultivo.\",\"publisher\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.bionext.com.ec\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"es\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#organization\",\"name\":\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"es\",\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/05\\/logo-bionext-azul.webp\",\"contentUrl\":\"https:\\/\\/www.bionext.com.ec\\/wp-content\\/uploads\\/2026\\/05\\/logo-bionext-azul.webp\",\"width\":353,\"height\":69,\"caption\":\"Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador\"},\"image\":{\"@id\":\"https:\\/\\/www.bionext.com.ec\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+ "yoast_head_json": {
+  "title": "BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext",
+  "description": "Aporta Calcio (CaO) 20 % p/v y Magnesio (MgO) 8 % p/v. Aplicación foliar: 1 cc/L. Ficha técnica completa y asesoría sin costo.",
+  "robots": {
+   "index": "index",
+   "follow": "follow",
+   "max-snippet": "max-snippet:-1",
+   "max-image-preview": "max-image-preview:large",
+   "max-video-preview": "max-video-preview:-1"
+  },
+  "canonical": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/",
+  "og_locale": "es_ES",
+  "og_type": "article",
+  "og_title": "BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext",
+  "og_description": "Aporta Calcio (CaO) 20 % p/v y Magnesio (MgO) 8 % p/v. Aplicación foliar: 1 cc/L. Ficha técnica completa y asesoría sin costo.",
+  "og_url": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/",
+  "og_site_name": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador",
+  "article_modified_time": "2026-11-06T03:43:27+00:00",
+  "og_image": [
+   {
+    "width": 2000,
+    "height": 2000,
+    "url": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp",
+    "type": "image/webp"
+   }
+  ],
+  "twitter_card": "summary_large_image",
+  "schema": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/",
+     "url": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/",
+     "name": "BIONEXT CALCIO MAGNESIO — Quelato Líquido | Bionext",
+     "isPartOf": {
+      "@id": "https://www.bionext.com.ec/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/#primaryimage"
+     },
+     "image": {
+      "@id": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/#primaryimage"
+     },
+     "thumbnailUrl": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp",
+     "datePublished": "2026-05-03T03:10:03+00:00",
+     "dateModified": "2026-11-06T03:43:27+00:00",
+     "description": "Aporta Calcio (CaO) 20 % p/v y Magnesio (MgO) 8 % p/v. Aplicación foliar: 1 cc/L. Ficha técnica completa y asesoría sin costo.",
+     "breadcrumb": {
+      "@id": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/#breadcrumb"
+     },
+     "inLanguage": "es",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "ImageObject",
+     "inLanguage": "es",
+     "@id": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/#primaryimage",
+     "url": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp",
+     "contentUrl": "https://www.bionext.com.ec/wp-content/uploads/2026/09/envase-bionext-calcio-magnesio.webp",
+     "width": 2000,
+     "height": 2000,
+     "caption": "BIONEXT CALCIO MAGNESIO · Quelatos Correctores"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.bionext.com.ec/producto/bionext-calcio-magnesio/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.bionext.com.ec/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Tienda",
+       "item": "https://www.bionext.com.ec/tienda/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "BIONEXT CALCIO MAGNESIO®"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.bionext.com.ec/#website",
+     "url": "https://www.bionext.com.ec/",
+     "name": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador",
+     "description": "Formuladores ecuatorianos de bioestimulantes, quelatos y enmiendas de suelo desde 2016. Productos técnicos para potenciar el rendimiento de su cultivo.",
+     "publisher": {
+      "@id": "https://www.bionext.com.ec/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.bionext.com.ec/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "es"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://www.bionext.com.ec/#organization",
+     "name": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador",
+     "url": "https://www.bionext.com.ec/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "es",
+      "@id": "https://www.bionext.com.ec/#/schema/logo/image/",
+      "url": "https://www.bionext.com.ec/wp-content/uploads/2026/05/logo-bionext-azul.webp",
+      "contentUrl": "https://www.bionext.com.ec/wp-content/uploads/2026/05/logo-bionext-azul.webp",
+      "width": 353,
+      "height": 69,
+      "caption": "Bionext — Bioestimulantes y Quelatos Agrícolas Ecuador"
+     },
+     "image": {
+      "@id": "https://www.bionext.com.ec/#/schema/logo/image/"
+     }
+    }
+   ]
+  }
+ },
+ "_links": {
+  "self": [
+   {
+    "href": "https://www.bionext.com.ec/wp-json/wc/v3/products/107",
+    "targetHints": {
+     "allow": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://www.bionext.com.ec/wp-json/wc/v3/products"
+   }
+  ]
+ }
+}

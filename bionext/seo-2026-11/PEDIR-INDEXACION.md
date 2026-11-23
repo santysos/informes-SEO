@@ -27,7 +27,14 @@ https://www.bionext.com.ec/cultivos-ecuatorianos/botrytis-oidio-rosas-nutricion-
 https://www.bionext.com.ec/bioestimulantes/bioestimulante-vs-hormona-vegetal/
 https://www.bionext.com.ec/quienes-somos/
 
-## Después de ampliar la siguiente tanda de fichas (no pedir antes: siguen delgadas)
-/producto/bionext-setting/ (5.729 impresiones históricas, la ficha que más perdió),
-/producto/bionext-calcio-magnesio/, /producto/bionext-boro/, /producto/bionext-zinc-10/,
-/producto/bionext-fulvic-wp/, /producto/bionext-magnesio-7/
+## Día 3 — segunda tanda de fichas ampliadas (2026-11-23)
+https://www.bionext.com.ec/producto/bionext-setting/
+https://www.bionext.com.ec/producto/bionext-calcio-magnesio/
+https://www.bionext.com.ec/producto/bionext-boro/
+https://www.bionext.com.ec/producto/bionext-zinc-10/
+https://www.bionext.com.ec/producto/bionext-magnesio-7/
+https://www.bionext.com.ec/producto/bionext-fulvic-wp/
+https://www.bionext.com.ec/categoria-producto/quelatos-correctores/
+https://www.bionext.com.ec/tecnica-agricola/quelatos-vs-sulfatos-absorcion/
+https://www.bionext.com.ec/tecnica-agricola/interpretar-analisis-foliar/
+https://www.bionext.com.ec/tecnica-agricola/enmiendas-suelos-acidos-sierra-ecuador/
