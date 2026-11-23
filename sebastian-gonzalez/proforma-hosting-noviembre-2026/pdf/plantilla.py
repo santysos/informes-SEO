@@ -24,6 +24,7 @@ def _b64(nombre):
         return base64.b64encode(f.read()).decode()
 
 ISO = _b64("iso-creativeweb.png")
+FIRMA = _b64("firma-santiago.png")
 
 CSS = """
 @page { size: A4; margin: 0; }
@@ -157,7 +158,7 @@ def documento(numero, filas_items, filas_tot, nota):
     </div>
 
     <div class="pie">
-      <div class="firma">Ing. Santiago O&ntilde;a S&aacute;nchez<br>CREATIVE WEB</div>
+      <div class="firma"><img src="data:image/png;base64,{FIRMA}" style="height:15mm;display:block;margin:0 0 1mm -2mm">Ing. Santiago O&ntilde;a S&aacute;nchez<br>CREATIVE WEB</div>
       <div class="cont">
         <div class="txt">
           info@creativeweb.com.ec<br>
@@ -198,8 +199,8 @@ ITEM_DOMINIO = fila("b",
 
 PLANES = [("Inicial", "10", "3 GB", "59.99", True),
           ("Webmaster", "20", "10 GB", "83.88", False),
-          ("Pymes", "Ilimitados", "20 GB", "95.88", False),
-          ("Pro", "Ilimitados", "Ilimitado", "239.88", False)]
+          ("Pymes", "Ilimitados", "20 GB", "95.88", False)
+          ]
 filas_planes = "".join(
     f'<tr class="{"sel" if sel else ""}"><td>{n}{" (cotizado)" if sel else ""}</td><td>{c}</td><td>{d}</td><td>$ {p}</td></tr>'
     for n, c, d, p, sel in PLANES)
