@@ -175,9 +175,11 @@ def documento(numero, filas_items, filas_tot, nota):
 
 # ─── Contenido de los ítems ─────────────────────────────────────────────────
 ITEM_HOSTING = fila("a",
-    "PLAN DE ALOJAMIENTO WEB INICIAL &ndash; ANUAL (12 MESES)",
+    "CORREO INSTITUCIONAL PARA LA UAFE &ndash; PLAN INICIAL ANUAL (12 MESES)",
     [
-      "10 cuentas de correo corporativo con su dominio",
+      "10 cuentas de correo con su dominio, para el registro en la UAFE",
+      "Con nombre y apellido (nombre.apellido@suempresa.com), como exige la UAFE",
+      "Cuenta exclusiva para el oficial de cumplimiento, suplente y representante legal",
       "3 GB de espacio en disco SSD y 30 GB de transferencia mensual",
       "Certificado de seguridad SSL incluido",
       "Panel de control cPanel en espa&ntilde;ol",
@@ -211,7 +213,9 @@ ITEM_PLANES = f"""<tr>
       <tbody>{filas_planes}</tbody></table>
     </tr>"""
 
-NOTA = ("El pago es por el plan anual (12 meses), por adelantado.<br>"
+NOTA = ("La UAFE no acepta correos departamentales (cumplimiento@), alias ni dominios de terceros.<br>"
+        "No incluye el tr&aacute;mite ante la UAFE ni asesor&iacute;a legal.<br>"
+        "El pago es por el plan anual (12 meses), por adelantado.<br>"
         "La activaci&oacute;n es inmediata una vez confirmado el pago.<br>"
         "Los valores se renuevan cada a&ntilde;o: alojamiento $59.99 y dominio $21.99.")
 
