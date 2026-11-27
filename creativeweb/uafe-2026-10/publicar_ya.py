@@ -32,6 +32,8 @@ TITULOS = {
     "que-correo-pide-la-uafe": "Qué correo pide la UAFE para registrar al oficial de cumplimiento",
     "sujeto-obligado-uafe-como-saber": "¿Mi negocio es sujeto obligado a la UAFE? Cómo saberlo",
     "ruc-suspendido-uafe-que-hacer": "RUC suspendido por no registrarse en la UAFE: qué hacer",
+    "certificado-de-cumplimiento-uafe-contratacion-publica": "Certificado de cumplimiento UAFE si firmaste un contrato con el Estado",
+    "usuario-sislaft-uafe": "Usuario de SISLAFT: cómo obtenerlo y recuperarlo",
     "oficial-de-cumplimiento-uafe-requisitos": "Oficial de cumplimiento UAFE: quién puede ser y qué te piden",
     "codigo-de-registro-uafe-requisitos": "Código de registro UAFE: lo que tienes que tener listo",
     "uafe-contadores-abogados": "Contadores y abogados ante la UAFE",

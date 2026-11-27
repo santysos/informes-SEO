@@ -24,6 +24,8 @@ CITA = "Equipo de Creative Web"
 # fuentes oficiales (enlaces externos permitidos)
 UAFE_OFICIAL = "https://www.uafe.gob.ec/registro-o-cambio-del-oficial-de-cumplimiento-titular-y-o-suplente/"
 UAFE_CODIGO = "https://www.uafe.gob.ec/solicitud-de-codigo-de-registro/"
+UAFE_RECUPERAR = "https://www.uafe.gob.ec/como-recuperar-el-usuario-y-o-contrasena-de-sislaft/"
+UAFE_COMO_CODIGO = "https://www.uafe.gob.ec/como-obtener-el-codigo-de-registro/"
 UAFE_CERTIFICADO = "https://www.uafe.gob.ec/certificado-de-cumplimiento-en-linea/"
 PGE_INFOGRAFIA = "https://www.pge.gob.ec/images/2026/INFOGRAFIA/Agosto_31/INFOGRAFIA%20AGOSTO%20-%20UAFE%20-%20ppt%20-%20link.pdf"
 
@@ -36,6 +38,7 @@ SERIE = {
     "codigo-de-registro-uafe-requisitos": ("2026-11-02T09:00:00", "qué tener listo para el código de registro"),
     "uafe-contadores-abogados": ("2026-11-09T09:00:00", "la UAFE para contadores y abogados"),
     "certificado-de-cumplimiento-uafe-contratacion-publica": ("2026-11-30T09:00:00", "el certificado de cumplimiento para contratistas del Estado"),
+    "usuario-sislaft-uafe": ("2026-12-07T09:00:00", "cómo obtener y recuperar el usuario de SISLAFT"),
 }
 
 

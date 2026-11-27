@@ -143,3 +143,27 @@ la LOSNCP (RGLOSNCP):
 - El certificado se publica en el Portal de Contratación Pública (art. 22 num. 33).
 - La Ley de prevención de lavado de activos (art. 28 num. 2) incluye expresamente la
   **construcción** entre los sujetos obligados no financieros.
+
+## Usuario de SISLAFT (verificado el 27-nov-2026)
+
+Fuentes: [UAFE — Cómo recuperar el usuario y/o contraseña de SISLAFT](https://www.uafe.gob.ec/como-recuperar-el-usuario-y-o-contrasena-de-sislaft/),
+[UAFE — Cómo obtener el Código de Registro](https://www.uafe.gob.ec/como-obtener-el-codigo-de-registro/),
+[UAFE — Solicitud de código de registro](https://www.uafe.gob.ec/solicitud-de-codigo-de-registro/).
+- SISLAFT: https://sislaft.uafe.gob.ec/sislaft/ (desde uafe.gob.ec → Servicios → SISLAFT).
+- Tras enviar la solicitud, al correo del **representante legal** (o de la persona natural)
+  llega un enlace para activarla **dentro de 48 horas** («revisa la bandeja de Spam»).
+- «Luego de **cinco días hábiles**, la solicitud será verificada para aprobación o rechazo,
+  lo cual será notificado por correo electrónico.» Si se aprueba, se entra a SISLAFT para
+  **recuperar el usuario y la contraseña**. (La página de solicitud dice que el usuario y la
+  contraseña llegan después de activar el enlace; las dos páginas no coinciden del todo: no
+  afirmar el momento exacto.)
+- Representante legal, oficial titular y oficial suplente registran **dos correos distintos
+  cada uno: corporativo y personal.** Suplente obligatorio solo para la Superintendencia de
+  Bancos.
+- **Recuperar usuario:** «Recuperar usuario» con número de cédula o pasaporte y el **e-mail
+  registrado**; «el nuevo usuario» llega «al correo registrado».
+- **Recuperar contraseña:** «Recuperar contraseña» con el usuario y el **e-mail registrado**;
+  revisar bandeja de entrada o spam.
+- Las páginas oficiales **no explican** qué hacer si ya no tienes acceso al correo registrado
+  ni cómo cambiarlo. No inventar un procedimiento: decir que no está publicado y que se
+  consulta a la UAFE (teléfono general del sitio: 593-2 394-3940).

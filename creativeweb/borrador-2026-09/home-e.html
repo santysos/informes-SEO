@@ -1,0 +1,573 @@
+<title>Creative Web 2026</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --fondo: #070E18;
+    --panel: #0D1826;
+    --panel-2: #14243A;
+    --linea: #22374E;
+    --texto-cl: #E9F0F6;
+    --gris: #93A8BB;
+    --azul: #0070C0;
+    --cian: #00A0E0;
+    --teal: #00A090;
+    --tri: linear-gradient(100deg, #0070C0, #00A0E0 55%, #00A090);
+    --radio: 26px;
+    --display: 'Archivo', 'Arial Black', sans-serif;
+    --texto: 'Instrument Sans', -apple-system, 'Helvetica Neue', sans-serif;
+    --mono: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--fondo); color: var(--texto-cl); font-family: var(--texto); font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, h4 { font-family: var(--display); letter-spacing: -.01em; text-wrap: balance; }
+  a { color: var(--cian); text-decoration: none; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 28px; }
+  .mono { font-family: var(--mono); }
+  .eyebrow { font-family: var(--mono); font-size: 12.5px; color: var(--gris); display: inline-flex; align-items: center; gap: 11px; }
+  .eyebrow::before { content: ''; width: 22px; height: 7px; border-radius: 99px; background: var(--tri); }
+  h2.titulo { font-size: clamp(30px, 4.2vw, 50px); font-weight: 900; line-height: 1.02; text-transform: uppercase; color: #fff; margin-top: 14px; }
+
+  /* ---------- estrellas decorativas ---------- */
+  .estrella { position: absolute; pointer-events: none; }
+  .estrella svg { display: block; width: 100%; height: 100%; }
+  @keyframes brilla { 0%,100% { opacity: .35; transform: scale(.92) rotate(0deg); } 50% { opacity: 1; transform: scale(1.05) rotate(8deg); } }
+  .estrella.anim { animation: brilla 4.5s ease-in-out infinite; }
+  .estrella.a2 { animation-delay: 1.6s; }
+  .estrella.a3 { animation-delay: 2.8s; }
+
+  /* ---------- header ---------- */
+  header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
+    background: rgba(7,14,24,.88); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(34,55,78,.6); }
+  .nav { display: flex; align-items: center; gap: 30px; padding-block: 16px; }
+  .logo { display: flex; align-items: center; gap: 9px; font-family: var(--display); font-weight: 800; font-size: 19px; color: #fff; margin-right: auto; }
+  .iso { display: inline-flex; gap: 3.5px; align-items: flex-end; }
+  .iso i { width: 6.5px; border-radius: 99px; transform: rotate(18deg); }
+  .iso i:nth-child(1) { height: 19px; background: var(--teal); }
+  .iso i:nth-child(2) { height: 24px; background: var(--cian); margin-bottom: 3px; }
+  .iso i:nth-child(3) { height: 24px; background: var(--azul); margin-bottom: 7px; }
+  .nav a.item { color: #C9D6E0; font-size: 15px; font-weight: 500; }
+  .nav a.item:hover { color: #fff; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 46px; padding: 11px 26px;
+    background: var(--azul); color: #fff; font-weight: 700; font-size: 15px; border-radius: 8px;
+    font-family: var(--display); text-transform: uppercase; letter-spacing: .02em;
+    border: none; cursor: pointer; transition: all .25s ease; }
+  .btn:hover { background: #0081DC; transform: translateY(-1px); box-shadow: 0 14px 30px rgba(0,112,192,.35); }
+  .btn.borde { background: transparent; border: 1.5px solid rgba(255,255,255,.35); }
+  .btn.borde:hover { border-color: #fff; background: rgba(255,255,255,.07); box-shadow: none; }
+
+  /* ---------- panel base ---------- */
+  .panel-sec { padding: 10px 14px; }
+  .panel-int { background: var(--panel); border-radius: var(--radio); position: relative; overflow: hidden; }
+
+  /* ---------- hero ---------- */
+  .hero .panel-int { padding: 100px 0 0; }
+  .hero .glow-a { position: absolute; top: -240px; right: -160px; width: 640px; height: 640px;
+    background: radial-gradient(circle, rgba(0,112,192,.32) 0%, transparent 65%); pointer-events: none; }
+  .hero .glow-b { position: absolute; bottom: -300px; left: -200px; width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(0,160,144,.18) 0%, transparent 65%); pointer-events: none; }
+  .vertical { position: absolute; left: -26px; top: 50%; transform: translateY(-50%) rotate(180deg);
+    writing-mode: vertical-rl; font-family: var(--display); font-weight: 900; font-size: clamp(90px, 11vw, 170px);
+    line-height: 1; letter-spacing: .04em; color: transparent; -webkit-text-stroke: 1.5px rgba(233,240,246,.09);
+    text-transform: uppercase; pointer-events: none; user-select: none; }
+  .hero .wrap { position: relative; z-index: 2; }
+  .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
+  .hero h1 { font-size: clamp(38px, 5vw, 66px); font-weight: 900; line-height: 1; text-transform: uppercase; color: #fff; }
+  .hero h1 em { font-style: normal; background: var(--tri);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .hero .sub { margin-top: 24px; font-size: 18.5px; color: var(--gris); max-width: 32em; }
+  .hero .sub b { color: #fff; font-weight: 600; }
+  .hero-ctas { display: flex; gap: 14px; margin-top: 32px; flex-wrap: wrap; }
+  .informe { background: rgba(255,255,255,.045); border: 1px solid var(--linea); border-radius: 16px; overflow: hidden; }
+  .informe-cab { display: flex; justify-content: space-between; padding: 13px 18px; border-bottom: 1px solid var(--linea);
+    font-family: var(--mono); font-size: 11.5px; color: var(--gris); }
+  .informe-cab b { color: #fff; font-weight: 600; }
+  .kpis { display: flex; gap: 24px; padding: 16px 18px 4px; }
+  .kpi b { display: block; font-family: var(--display); font-size: 23px; font-weight: 800; color: #fff; font-variant-numeric: tabular-nums; }
+  .kpi span { font-family: var(--mono); font-size: 10.5px; color: var(--gris); }
+  .kpi.a b { color: var(--cian); } .kpi.t b { color: var(--teal); }
+  .chart { display: block; width: 100%; height: auto; padding: 0 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 18px 16px; }
+  .chip { font-family: var(--mono); font-size: 11px; color: var(--gris); border: 1px solid var(--linea);
+    border-radius: 99px; padding: 4px 11px; }
+  .chip b { color: var(--teal); font-weight: 600; }
+  .hero-datos { display: flex; flex-wrap: wrap; gap: 14px 44px; margin-top: 64px; padding: 26px 0;
+    border-top: 1px solid var(--linea); }
+  .hd { font-family: var(--mono); font-size: 12.5px; color: var(--gris); }
+  .hd b { display: block; font-family: var(--display); font-size: 26px; font-weight: 800; color: #fff; font-variant-numeric: tabular-nums; }
+  .hd.a b { color: var(--cian); } .hd.t b { color: var(--teal); }
+
+  /* ---------- clientes ---------- */
+  .clientes { padding-block: 44px; }
+  .clientes .wrap { display: flex; align-items: center; gap: 20px 46px; flex-wrap: wrap; }
+  .clientes .cap { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: .1em; color: var(--gris); }
+  .cliente { font-family: var(--display); font-weight: 700; font-size: 16.5px; color: #46586B; transition: color .25s; cursor: default; }
+  .cliente:hover { color: #fff; }
+
+  /* ---------- empresa ---------- */
+  section.franja { padding-block: 90px; position: relative; }
+  .empresa-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 60px; align-items: center; }
+  .foto-marco { background: var(--panel); border: 1px solid var(--linea); border-radius: 20px; padding: 14px; position: relative; }
+  .foto-int { background: linear-gradient(140deg, #14243A, #0D1826); border-radius: 12px; aspect-ratio: 4/3;
+    display: flex; align-items: center; justify-content: center; position: relative; }
+  .foto-int .iso { transform: scale(2.4); }
+  .foto-chip { position: absolute; left: 22px; bottom: 20px; background: #fff; color: #12202E; border-radius: 12px; padding: 12px 16px;
+    box-shadow: 0 14px 34px rgba(0,0,0,.4); font-size: 13px; }
+  .foto-chip b { font-family: var(--display); font-size: 16px; display: block; }
+  .empresa p.parr { color: var(--gris); margin-top: 18px; max-width: 32em; }
+  .empresa p.parr b { color: #fff; }
+  .mision { list-style: none; padding: 0; margin: 22px 0 0; display: flex; flex-direction: column; gap: 11px; }
+  .mision li { display: flex; gap: 12px; align-items: baseline; font-size: 16px; color: #D6E1EA; }
+  .mision li::before { content: '✓'; flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%;
+    background: rgba(0,160,144,.16); color: var(--teal); font-size: 12.5px; font-weight: 700;
+    display: inline-flex; align-items: center; justify-content: center; transform: translateY(3px); }
+
+  /* ---------- servicios ---------- */
+  .svc .panel-int { padding: 84px 0; background: var(--panel); }
+  .svc .cab { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; margin-bottom: 46px; }
+  .svc .cab p { color: var(--gris); max-width: 26em; }
+  .svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .svc-card { background: var(--panel-2); border: 1px solid var(--linea); border-radius: 18px; padding: 28px 26px 24px;
+    display: flex; flex-direction: column; gap: 11px; transition: all .3s ease; position: relative; overflow: hidden; }
+  .svc-card::before { content: ''; position: absolute; top: 0; left: 26px; width: 46px; height: 5px; border-radius: 0 0 5px 5px; }
+  .svc-card.a::before { background: var(--azul); } .svc-card.c::before { background: var(--cian); } .svc-card.t::before { background: var(--teal); }
+  .svc-card:hover { transform: translateY(-6px); border-color: var(--cian); }
+  .svc-card h3 { font-size: 19px; font-weight: 800; color: #fff; text-transform: uppercase; letter-spacing: 0; }
+  .svc-card p { color: var(--gris); font-size: 14.5px; flex: 1; }
+  .svc-card .precio { font-family: var(--mono); font-size: 13.5px; color: #fff; }
+  .svc-card .precio small { color: var(--gris); }
+  .svc-card a { font-weight: 600; font-size: 14.5px; }
+  .banda-free { margin-top: 42px; text-align: center; font-size: 16px; color: var(--gris); }
+  .banda-free .pill { display: inline-block; background: rgba(0,160,144,.15); color: var(--teal);
+    font-family: var(--mono); font-size: 11.5px; border-radius: 99px; padding: 3px 11px; margin-right: 10px; }
+  .banda-free a { color: #fff; font-weight: 600; border-bottom: 1px solid var(--cian); }
+
+  /* ---------- SEO evidencia ---------- */
+  .seo-grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: 60px; align-items: start; }
+  .seo p.parr { color: var(--gris); margin-top: 18px; max-width: 30em; }
+  .seo p.parr b { color: #fff; }
+  .metodo { list-style: none; padding: 0; margin: 24px 0 0; }
+  .metodo li { display: grid; grid-template-columns: 30px 1fr; gap: 12px; padding-block: 12px;
+    border-top: 1px solid var(--linea); font-size: 15.5px; color: #D6E1EA; }
+  .metodo li i { font-family: var(--mono); font-style: normal; font-size: 12.5px; color: var(--cian); }
+  .tabla-caja { background: #fff; color: #12202E; border-radius: 18px; overflow: hidden;
+    box-shadow: 0 30px 70px -30px rgba(0,0,0,.6); }
+  .tabla-cab { display: flex; justify-content: space-between; padding: 13px 18px; border-bottom: 1px solid #E3EAF1;
+    font-family: var(--mono); font-size: 11.5px; color: #57697B; }
+  .tabla-cab b { color: #12202E; }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  th { font-family: var(--mono); font-weight: 500; font-size: 10.5px; text-transform: uppercase; letter-spacing: .08em;
+    color: #57697B; text-align: left; padding: 12px 18px 8px; }
+  td { padding: 11px 18px; border-top: 1px solid #EEF2F6; }
+  td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+  td .delta { font-family: var(--mono); font-size: 12px; color: var(--teal); margin-left: 8px; }
+  .tabla-pie { padding: 12px 18px; border-top: 1px solid #E3EAF1; font-family: var(--mono); font-size: 11px; color: #57697B; }
+  .seo .btn { margin-top: 28px; }
+
+  /* ---------- stack ---------- */
+  .stack .panel-int { padding: 84px 0; }
+  .stack-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+  .stack p.parr { color: var(--gris); margin-top: 18px; max-width: 30em; }
+  .stack p.parr b { color: #fff; }
+  .integra { list-style: none; padding: 0; margin: 22px 0 0; display: flex; flex-direction: column; gap: 11px; }
+  .integra li { display: flex; gap: 12px; align-items: baseline; font-size: 15.5px; color: #D6E1EA; }
+  .integra li::before { content: '✓'; flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%;
+    background: rgba(0,160,224,.16); color: var(--cian); font-size: 12.5px; font-weight: 700;
+    display: inline-flex; align-items: center; justify-content: center; transform: translateY(3px); }
+  .tech-nube { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+  .tech { background: var(--panel-2); border: 1px solid var(--linea); border-radius: 14px;
+    padding: 18px 22px; text-align: center; min-width: 128px; transition: all .3s ease; }
+  .tech:hover { transform: translateY(-5px); border-color: var(--teal); }
+  .tech b { display: block; font-family: var(--display); font-size: 15px; color: #fff; font-weight: 700; }
+  .tech span { font-family: var(--mono); font-size: 10.5px; color: var(--gris); }
+
+  /* ---------- productos ---------- */
+  .prods .registro { border-top: 2px solid #fff; margin-top: 40px; }
+  .prod-fila { display: grid; grid-template-columns: 150px 1fr 1fr auto; gap: 24px; align-items: center;
+    padding-block: 23px; border-bottom: 1px solid var(--linea); transition: background .2s; }
+  .prod-fila:hover { background: var(--panel); }
+  .prod-fila .marca { font-family: var(--display); font-weight: 800; font-size: 20px; color: #fff; }
+  .prod-fila .marca i { font-style: normal; }
+  .prod-fila .que { color: var(--gris); font-size: 15px; }
+  .prod-fila .estado { font-family: var(--mono); font-size: 11.5px; color: var(--teal); }
+  .prod-fila a { font-weight: 600; font-size: 15px; white-space: nowrap; }
+
+  /* ---------- CTA final ---------- */
+  .final .panel-int { padding: 96px 0; text-align: center; }
+  .final .glow { position: absolute; inset: auto -180px -220px -180px; height: 380px;
+    background: var(--tri); opacity: .2; filter: blur(90px); }
+  .final h2 { font-size: clamp(32px, 4.8vw, 58px); font-weight: 900; text-transform: uppercase; color: #fff; max-width: 16em; margin-inline: auto; line-height: 1.02; }
+  .final h2 em { font-style: normal; color: var(--cian); }
+  .final p { color: var(--gris); max-width: 34em; margin: 18px auto 0; }
+  .final .hero-ctas { justify-content: center; }
+  .final .mono-dato { font-family: var(--mono); font-size: 12.5px; color: var(--gris); margin-top: 26px; }
+  .final .mono-dato a { color: #fff; }
+
+  /* ---------- footer ---------- */
+  .pie { background: #050B13; color: var(--gris); font-size: 14.5px; padding-block: 54px 28px; border-top: 1px solid rgba(34,55,78,.5); }
+  .pie-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; }
+  .pie h4 { font-family: var(--mono); font-weight: 600; font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: #fff; margin-bottom: 14px; }
+  .pie ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+  .pie a { color: var(--gris); } .pie a:hover { color: #fff; }
+  .pie .logo { margin-bottom: 12px; }
+  .pie-bar { border-top: 1px solid rgba(34,55,78,.5); margin-top: 42px; padding-top: 20px;
+    font-family: var(--mono); font-size: 12px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+
+  /* ---------- animaciones ---------- */
+  @keyframes sube { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+  .hero h1 { animation: sube .7s .1s both ease-out; }
+  .hero .sub { animation: sube .7s .25s both ease-out; }
+  .hero .hero-ctas { animation: sube .7s .4s both ease-out; }
+  .hero .informe { animation: sube .9s .35s both ease-out; }
+  .hero-datos { animation: sube .9s .55s both ease-out; }
+  @keyframes traza { to { stroke-dashoffset: 0; } }
+  .chart .serie { stroke-dasharray: 620; stroke-dashoffset: 620; animation: traza 1.6s .6s ease-out forwards; }
+  .rev { opacity: 0; transform: translateY(26px); transition: opacity .7s ease, transform .7s ease; }
+  .rev.visto { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+    .chart .serie { stroke-dashoffset: 0; }
+    .rev { opacity: 1; transform: none; }
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 980px) {
+    .nav .item { display: none; }
+    .vertical { display: none; }
+    .hero-grid, .empresa-grid, .seo-grid, .stack-grid { grid-template-columns: 1fr; gap: 40px; }
+    .svc-grid { grid-template-columns: 1fr; }
+    .prod-fila { grid-template-columns: 1fr 1fr; }
+    .prod-fila .que { grid-column: 1 / -1; }
+    .pie-grid { grid-template-columns: 1fr 1fr; }
+    .svc .cab { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo"><span class="iso"><i></i><i></i><i></i></span> creativeweb</div>
+    <a class="item" href="#empresa">Empresa</a>
+    <a class="item" href="#servicios">Servicios</a>
+    <a class="item" href="#seo">SEO</a>
+    <a class="item" href="#software">Software</a>
+    <a class="item" href="#contacto">Contacto</a>
+    <a class="btn" href="#contacto">Cotizar</a>
+  </div>
+</header>
+
+<div class="panel-sec hero">
+  <div class="panel-int">
+    <span class="glow-a"></span><span class="glow-b"></span>
+    <span class="vertical">creative</span>
+    <span class="estrella anim" style="top:70px; right:14%; width:26px; height:26px;">
+      <svg viewBox="-12 -12 24 24"><path fill="#00A0E0" d="M0 -11 C.9 -3.5 3.5 -.9 11 0 C3.5 .9 .9 3.5 0 11 C-.9 3.5 -3.5 .9 -11 0 C-3.5 -.9 -.9 -3.5 0 -11 Z"/></svg>
+    </span>
+    <span class="estrella anim a2" style="bottom:180px; right:6%; width:16px; height:16px;">
+      <svg viewBox="-12 -12 24 24"><path fill="#00A090" d="M0 -11 C.9 -3.5 3.5 -.9 11 0 C3.5 .9 .9 3.5 0 11 C-.9 3.5 -3.5 .9 -11 0 C-3.5 -.9 -.9 -3.5 0 -11 Z"/></svg>
+    </span>
+    <span class="estrella anim a3" style="top:200px; left:8%; width:40px; height:40px; opacity:.5;">
+      <svg viewBox="0 0 40 40"><polygon fill="none" stroke="#2E4763" stroke-width="1.5" points="20,0 24,14 38,10 27,20 38,30 24,26 20,40 16,26 2,30 13,20 2,10 16,14"/></svg>
+    </span>
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">empresa ecuatoriana de tecnología — desde 2010</span>
+          <h1 style="margin-top:18px">Webs, tiendas y software que hacen <em>crecer</em> tu negocio</h1>
+          <p class="sub">Creamos sitios que venden, e-commerce que factura solo ante el SRI y software que automatiza procesos. Nuestra firma: <b>SEO medido con datos reales</b>, informe mensual en mano.</p>
+          <div class="hero-ctas">
+            <a class="btn" href="#contacto">Cotiza tu proyecto</a>
+            <a class="btn borde" href="#seo">Ver cómo medimos</a>
+          </div>
+        </div>
+        <div class="informe">
+          <div class="informe-cab"><span><b>informe SEO</b> — cliente real</span><span>ene–may 2026</span></div>
+          <div class="kpis">
+            <div class="kpi a"><b>8.952</b><span>clics orgánicos</span></div>
+            <div class="kpi"><b>871.854</b><span>impresiones</span></div>
+            <div class="kpi t"><b>731</b><span>páginas con tráfico</span></div>
+          </div>
+          <svg class="chart" viewBox="0 0 560 128" role="img" aria-label="Clics orgánicos en crecimiento">
+            <g stroke="#22374E" stroke-width="1"><line x1="0" y1="24" x2="560" y2="24"/><line x1="0" y1="60" x2="560" y2="60"/><line x1="0" y1="96" x2="560" y2="96"/></g>
+            <path class="serie" d="M8 110 C60 104 90 96 130 90 S210 76 250 68 S330 50 380 38 S500 18 552 12"
+                  fill="none" stroke="#00A0E0" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="552" cy="12" r="5" fill="#00A090"/>
+            <text x="462" y="10" font-family="IBM Plex Mono, monospace" font-size="11" fill="#00A090">+38% trim.</text>
+          </svg>
+          <div class="chips">
+            <span class="chip">autos eléctricos ecuador <b>pos 5</b></span>
+            <span class="chip">62.700 consultas <b>↑</b></span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-datos">
+        <div class="hd"><b>15</b>años construyendo web</div>
+        <div class="hd a"><b>+200</b>sitios entregados</div>
+        <div class="hd t"><b>4</b>productos en producción</div>
+        <div class="hd"><b>24 h</b>respuesta a cotizaciones</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clientes">
+  <div class="wrap">
+    <span class="cap">Confían en nosotros</span>
+    <span class="cliente">Municipio de Quito</span>
+    <span class="cliente">Prefectura de Pichincha</span>
+    <span class="cliente">Prefectura de Imbabura</span>
+    <span class="cliente">Comercial Hidrobo</span>
+    <span class="cliente">OKCars</span>
+    <span class="cliente">Reina de Otavalo</span>
+  </div>
+</div>
+
+<section class="franja empresa" id="empresa">
+  <div class="wrap empresa-grid">
+    <div class="foto-marco rev">
+      <div class="foto-int">
+        <span class="iso"><i></i><i></i><i></i></span>
+        <div class="foto-chip"><b>Ibarra, Ecuador</b>equipo local, clientes en todo el país</div>
+      </div>
+    </div>
+    <div class="rev">
+      <span class="eyebrow">quiénes somos</span>
+      <h2 class="titulo">Una empresa de tecnología, no solo una agencia</h2>
+      <p class="parr">Desde 2010 construimos presencia digital para negocios ecuatorianos: desde el <b>Municipio de Quito y las prefecturas de Pichincha e Imbabura</b> hasta la PYME que recién empieza. Diseñamos, desarrollamos, medimos — y cuando un proceso se repite, lo convertimos en software.</p>
+      <ul class="mision">
+        <li>Precios claros publicados desde el primer contacto</li>
+        <li>Todo bajo el mismo techo: web, hosting, correos y SEO</li>
+        <li>Soporte local que contesta, en español y por WhatsApp</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="panel-sec svc" id="servicios">
+  <div class="panel-int">
+    <span class="estrella anim" style="top:50px; right:8%; width:18px; height:18px;">
+      <svg viewBox="-12 -12 24 24"><path fill="#0070C0" d="M0 -11 C.9 -3.5 3.5 -.9 11 0 C3.5 .9 .9 3.5 0 11 C-.9 3.5 -3.5 .9 -11 0 C-3.5 -.9 -.9 -3.5 0 -11 Z"/></svg>
+    </span>
+    <div class="wrap">
+      <div class="cab rev">
+        <div>
+          <span class="eyebrow">servicios</span>
+          <h2 class="titulo">Todo lo que tu negocio necesita para vender en internet</h2>
+        </div>
+        <p>Cinco oficios, un mismo equipo. Sin intermediarios ni cajas negras.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card a rev">
+          <h3>Sitios web</h3>
+          <p>Páginas profesionales, rápidas y pensadas para posicionar en Google desde el primer día.</p>
+          <span class="precio">desde $480</span>
+          <a href="#">Conocer más →</a>
+        </div>
+        <div class="svc-card c rev">
+          <h3>E-commerce</h3>
+          <p>Tiendas WooCommerce con facturación electrónica SRI, pasarelas ecuatorianas y pedidos por WhatsApp.</p>
+          <span class="precio">desde $1.200</span>
+          <a href="#">Conocer más →</a>
+        </div>
+        <div class="svc-card t rev">
+          <h3>Posicionamiento SEO</h3>
+          <p>Nuestro producto estrella: posicionamiento medido con datos reales e informe mensual.</p>
+          <span class="precio">desde $880 <small>/6 meses</small></span>
+          <a href="#">Conocer más →</a>
+        </div>
+        <div class="svc-card c rev">
+          <h3>Software a medida</h3>
+          <p>Aplicaciones que automatizan facturación, envíos, contabilidad y agenda.</p>
+          <span class="precio">desde $2.500</span>
+          <a href="#">Conocer más →</a>
+        </div>
+        <div class="svc-card a rev">
+          <h3>Hosting y dominios</h3>
+          <p>Servidores 24/7 con cPanel, SSL y respaldos. Tu dominio .ec o .com al mejor precio.</p>
+          <span class="precio">desde $4.99 <small>/mes</small></span>
+          <a href="#">Ver planes →</a>
+        </div>
+        <div class="svc-card t rev">
+          <h3>Correos corporativos</h3>
+          <p>Tu empresa con dominio propio: nombre@tuempresa.com en todos tus dispositivos.</p>
+          <span class="precio">incluido con hosting</span>
+          <a href="#">Conocer más →</a>
+        </div>
+      </div>
+      <p class="banda-free rev"><span class="pill">GRATIS</span> ¿No sabes por dónde empezar? <a href="#contacto">Pide tu auditoría SEO gratuita →</a></p>
+    </div>
+  </div>
+</div>
+
+<section class="franja seo" id="seo">
+  <div class="wrap">
+    <div class="seo-grid">
+      <div class="rev">
+        <span class="eyebrow">nuestra firma</span>
+        <h2 class="titulo">El SEO no se promete. Se mide.</h2>
+        <p class="parr">Cada cliente recibe un <b>informe mensual</b> con sus datos reales de Search Console: qué busca la gente, en qué posición aparece y cuántos clics se convierten en clientes. <b>Sin humo</b> — si un mes no crece, el informe lo dice y explica qué haremos.</p>
+        <ul class="metodo">
+          <li><i>a.</i> Auditoría técnica y de contenido del sitio</li>
+          <li><i>b.</i> Estrategia por clúster de búsquedas con datos reales</li>
+          <li><i>c.</i> Contenido que responde lo que tus clientes preguntan</li>
+          <li><i>d.</i> Informe mensual con Search Console y GA4</li>
+        </ul>
+        <a class="btn" href="#contacto">Pide tu auditoría gratis</a>
+      </div>
+      <div class="tabla-caja rev">
+        <div class="tabla-cab"><span><b>posiciones reales</b> — clientes activos</span><span>90 días</span></div>
+        <table>
+          <thead><tr><th>consulta en Google</th><th style="text-align:right">posición</th><th style="text-align:right">clics</th></tr></thead>
+          <tbody>
+            <tr><td>autos eléctricos ecuador</td><td class="num">5<span class="delta">↑3</span></td><td class="num">140</td></tr>
+            <tr><td>facturación electrónica sri</td><td class="num">8<span class="delta">↑5</span></td><td class="num">312</td></tr>
+            <tr><td>chery ecuador precios</td><td class="num">6<span class="delta">↑2</span></td><td class="num">436</td></tr>
+            <tr><td>deepal s05 precio ecuador</td><td class="num">7<span class="delta">↑4</span></td><td class="num">10</td></tr>
+            <tr><td>correo corporativo empresa</td><td class="num">9<span class="delta">↑6</span></td><td class="num">57</td></tr>
+          </tbody>
+        </table>
+        <div class="tabla-pie">fuente: Google Search Console — datos de clientes reales, 2026</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="panel-sec stack">
+  <div class="panel-int">
+    <div class="wrap stack-grid">
+      <div class="rev">
+        <span class="eyebrow">tecnología e integraciones</span>
+        <h2 class="titulo">Herramientas potentes, integradas a lo ecuatoriano</h2>
+        <p class="parr">Trabajamos con tecnología probada y la conectamos con lo que tu negocio usa cada día: <b>el SRI, las pasarelas de pago del país y WhatsApp</b>.</p>
+        <ul class="integra">
+          <li>Facturación electrónica SRI integrada a tu tienda</li>
+          <li>Pasarelas ecuatorianas: Payphone, tarjetas, transferencias</li>
+          <li>Pedidos y contactos directo a tu WhatsApp</li>
+          <li>Medición de resultados con Search Console y GA4</li>
+        </ul>
+      </div>
+      <div class="tech-nube rev">
+        <div class="tech"><b>WordPress</b><span>CMS</span></div>
+        <div class="tech"><b>WooCommerce</b><span>e-commerce</span></div>
+        <div class="tech"><b>Elementor</b><span>diseño</span></div>
+        <div class="tech"><b>Next.js</b><span>apps web</span></div>
+        <div class="tech"><b>Python</b><span>automatización</span></div>
+        <div class="tech"><b>FastAPI</b><span>APIs</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="franja prods" id="software">
+  <div class="wrap">
+    <div class="rev">
+      <span class="eyebrow">software propio</span>
+      <h2 class="titulo">Automatizamos procesos. Primero, los nuestros.</h2>
+    </div>
+    <div class="registro rev">
+      <div class="prod-fila">
+        <span class="marca">quipuy<i style="color:var(--teal)">.</i></span>
+        <span class="que">Facturación electrónica SRI desde el navegador, sin instalar nada.</span>
+        <span class="estado">en producción — miles de comprobantes/mes</span>
+        <a href="#">quipuy.com →</a>
+      </div>
+      <div class="prod-fila">
+        <span class="marca">sriflow<i style="color:var(--azul)">.</i></span>
+        <span class="que">Contabilidad tributaria automatizada con conexión directa al SRI.</span>
+        <span class="estado">en producción</span>
+        <a href="#">conocer →</a>
+      </div>
+      <div class="prod-fila">
+        <span class="marca">boxpli<i style="color:var(--cian)">.</i></span>
+        <span class="que">Envíos de e-commerce: de 20 minutos a 2 por pedido, aviso por WhatsApp.</span>
+        <span class="estado">en producción</span>
+        <a href="#">boxpli.com →</a>
+      </div>
+      <div class="prod-fila">
+        <span class="marca">dentilab<i style="color:var(--teal)">.</i></span>
+        <span class="que">Gestión completa para clínicas dentales: agenda, historias, cobros.</span>
+        <span class="estado">en producción</span>
+        <a href="#">denti-lab.com →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="panel-sec final" id="contacto">
+  <div class="panel-int">
+    <span class="glow"></span>
+    <span class="estrella anim" style="top:60px; left:10%; width:22px; height:22px;">
+      <svg viewBox="-12 -12 24 24"><path fill="#00A0E0" d="M0 -11 C.9 -3.5 3.5 -.9 11 0 C3.5 .9 .9 3.5 0 11 C-.9 3.5 -3.5 .9 -11 0 C-3.5 -.9 -.9 -3.5 0 -11 Z"/></svg>
+    </span>
+    <span class="estrella anim a2" style="bottom:70px; right:12%; width:30px; height:30px; opacity:.5;">
+      <svg viewBox="0 0 40 40"><polygon fill="none" stroke="#2E4763" stroke-width="1.5" points="20,0 24,14 38,10 27,20 38,30 24,26 20,40 16,26 2,30 13,20 2,10 16,14"/></svg>
+    </span>
+    <div class="wrap" style="position:relative">
+      <span class="eyebrow" style="justify-content:center">empecemos</span>
+      <h2 style="margin-top:16px">Tu competencia ya está en Google. ¿En qué <em>posición</em> estás tú?</h2>
+      <p>Escríbenos y recibe una cotización clara en menos de 24 horas — o pide tu auditoría SEO gratuita y te mostramos con Search Console dónde está parado tu sitio hoy.</p>
+      <div class="hero-ctas" style="margin-top:30px">
+        <a class="btn" href="#">Pedir mi auditoría gratis</a>
+        <a class="btn borde" href="#">Cotizar mi proyecto</a>
+      </div>
+      <p class="mono-dato">ventas@creativeweb.com.ec · WhatsApp <a href="#">+593 96 348 5983</a> · Ibarra, Ecuador</p>
+    </div>
+  </div>
+</div>
+
+<footer class="pie">
+  <div class="wrap">
+    <div class="pie-grid">
+      <div>
+        <div class="logo"><span class="iso"><i></i><i></i><i></i></span> creativeweb</div>
+        <p>Empresa ecuatoriana de tecnología: sitios web, e-commerce, SEO medido y software que automatiza. Desde Ibarra para todo el país.</p>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#">Sitios web</a></li>
+          <li><a href="#">E-commerce</a></li>
+          <li><a href="#">Posicionamiento SEO</a></li>
+          <li><a href="#">Hosting y dominios</a></li>
+          <li><a href="#">Correos corporativos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Software</h4>
+        <ul>
+          <li><a href="#">Quipuy</a></li>
+          <li><a href="#">SriFlow</a></li>
+          <li><a href="#">Boxpli</a></li>
+          <li><a href="#">DentiLab</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Casos de estudio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Soporte</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pie-bar">
+      <span>© 2026 Creative Web — Ibarra, Ecuador</span>
+      <span>uptime 99.9% · soporte en español</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.rev').forEach(function (el) { el.classList.add('visto'); });
+      return;
+    }
+    var obs = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('visto'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.rev').forEach(function (el) { obs.observe(el); });
+  })();
+</script>

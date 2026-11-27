@@ -1,0 +1,603 @@
+<title>Creative Web 2026</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --negro: #0B0F14;
+    --negro-2: #10161D;
+    --linea-osc: #232B34;
+    --papel: #F3F4F4;
+    --tinta: #14181D;
+    --gris-cl: #5D6870;
+    --gris-osc: #97A2AB;
+    --borde-cl: #E1E4E6;
+    --azul: #0070C0;
+    --cian: #00A0E0;
+    --teal: #00A090;
+    --display: 'Outfit', 'Avenir Next', sans-serif;
+    --texto: 'Instrument Sans', -apple-system, sans-serif;
+    --mono: 'IBM Plex Mono', Menlo, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--negro); color: #EDF1F4; font-family: var(--texto); font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: -.025em; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding-inline: 32px; }
+  .mono { font-family: var(--mono); }
+
+  /* ---------- header minimo ---------- */
+  header { position: fixed; top: env(safe-area-inset-top, 0px); left: 0; right: 0; z-index: 60; padding-block: 18px;
+    transition: background .3s; background: linear-gradient(180deg, rgba(11,15,20,.85), transparent); }
+  .nav { display: flex; align-items: center; gap: 22px; }
+  .logo { display: flex; align-items: center; gap: 9px; font-family: var(--display); font-weight: 700; font-size: 20px; color: #fff; margin-right: auto; letter-spacing: -.02em; }
+  .iso { display: inline-flex; gap: 3.5px; align-items: flex-end; }
+  .iso i { width: 6.5px; border-radius: 99px; transform: rotate(18deg); }
+  .iso i:nth-child(1) { height: 19px; background: var(--teal); }
+  .iso i:nth-child(2) { height: 24px; background: var(--cian); margin-bottom: 3px; }
+  .iso i:nth-child(3) { height: 24px; background: var(--azul); margin-bottom: 7px; }
+  .btn-pill { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 9px 24px;
+    border: 1.5px solid rgba(255,255,255,.5); border-radius: 99px; color: #fff;
+    font-family: var(--display); font-weight: 500; font-size: 13.5px; letter-spacing: .06em; text-transform: uppercase;
+    cursor: pointer; transition: all .25s; background: transparent; }
+  .btn-pill:hover { background: #fff; color: var(--negro); }
+  .hamb { display: flex; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px 2px; }
+  .hamb span { width: 30px; height: 2px; background: #fff; }
+
+  /* ---------- hero partido ---------- */
+  .hero { min-height: 92vh; display: grid; grid-template-columns: 47% 53%; position: relative; }
+  .hero-izq { background: var(--negro); display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 130px 4vw 56px 32px; position: relative; }
+  .hero-der { position: relative; overflow: hidden;
+    background:
+      radial-gradient(ellipse 70% 55% at 65% 35%, rgba(0,112,192,.45) 0%, transparent 65%),
+      radial-gradient(ellipse 55% 45% at 30% 80%, rgba(0,160,144,.3) 0%, transparent 60%),
+      linear-gradient(155deg, #14202E 0%, #0C141D 70%);
+  }
+  .hero-der::before { content: ''; position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size: 64px 64px; }
+  /* palabra gigante cruzando la particion */
+  .palabra { position: absolute; z-index: 5; left: 38%; top: 82px; font-family: var(--display); font-weight: 700;
+    font-size: clamp(80px, 12vw, 190px); line-height: .92; letter-spacing: -.02em;
+    color: transparent; -webkit-text-stroke: 1.5px rgba(255,255,255,.22); pointer-events: none; user-select: none; }
+  .palabra small { display: block; font-size: .58em; -webkit-text-stroke: 1.5px rgba(255,255,255,.13); margin-left: 1.2em; }
+  .hero-izq .cap { font-family: var(--mono); font-size: 12.5px; color: var(--gris-osc); }
+  .hero-izq h1 { font-size: clamp(28px, 2.6vw, 40px); font-weight: 600; color: #fff; margin-top: 18px; max-width: 14em; line-height: 1.25; letter-spacing: -.015em; }
+  .hero-izq h1 b { color: var(--cian); font-weight: 600; }
+  .hero-ctas { display: flex; gap: 14px; margin-top: 28px; flex-wrap: wrap; }
+  .btn-pill.lleno { background: #fff; color: var(--negro); border-color: #fff; }
+  .btn-pill.lleno:hover { background: var(--cian); border-color: var(--cian); color: #fff; }
+  .scrollea { position: absolute; left: 32px; bottom: 40px; font-size: 13px; color: var(--gris-osc); display: flex; gap: 10px; align-items: center; }
+  .scrollea::before { content: '\2193'; animation: baja 1.8s ease-in-out infinite; }
+  @keyframes baja { 0%,100% { transform: translateY(-2px); } 50% { transform: translateY(3px); } }
+  /* informe flotante sobre la foto */
+  .informe { position: absolute; z-index: 6; right: 5%; bottom: 9%; width: min(400px, 82%);
+    background: rgba(10,15,21,.82); backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,.14); border-radius: 14px; overflow: hidden; }
+  .informe-cab { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,.1);
+    font-family: var(--mono); font-size: 11px; color: var(--gris-osc); }
+  .informe-cab b { color: #fff; }
+  .kpis { display: flex; gap: 22px; padding: 14px 16px 4px; }
+  .kpi b { display: block; font-family: var(--display); font-size: 21px; font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
+  .kpi span { font-family: var(--mono); font-size: 10px; color: var(--gris-osc); }
+  .kpi.a b { color: var(--cian); } .kpi.t b { color: var(--teal); }
+  .chart { display: block; width: 100%; height: auto; padding: 0 6px 8px; }
+
+  /* ---------- portafolio (claro) ---------- */
+  .porta { background: var(--papel); color: var(--tinta); padding-block: 110px 90px; }
+  .porta-cab { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; margin-bottom: 60px; }
+  .titulo-xl { font-family: var(--display); font-weight: 600; font-size: clamp(44px, 6vw, 84px); line-height: 1.02; letter-spacing: -.03em; }
+  .titulo-xl .l2 { display: block; margin-left: .9em; }
+  .btn-pill.oscuro { border-color: var(--tinta); color: var(--tinta); }
+  .btn-pill.oscuro:hover { background: var(--tinta); color: #fff; }
+  .proyectos { display: grid; grid-template-columns: 1fr 1fr; gap: 70px 56px; }
+  .proyecto { display: block; }
+  .proy-visual { aspect-ratio: 16/11; border-radius: 6px; overflow: hidden; position: relative;
+    display: flex; align-items: center; justify-content: center; transition: transform .4s ease; }
+  .proyecto:hover .proy-visual { transform: translateY(-6px); }
+  .proy-visual .navegador { width: 74%; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 30px 60px -20px rgba(0,0,0,.45); }
+  .nav-barra { display: flex; gap: 5px; align-items: center; background: #ECEFF2; padding: 8px 10px; }
+  .nav-barra i { width: 7px; height: 7px; border-radius: 50%; background: #C6CDD3; }
+  .nav-barra .url { flex: 1; max-width: 190px; margin-inline: auto; background: #fff; border-radius: 4px;
+    font-family: var(--mono); font-size: 9px; color: #7C8790; padding: 2px 8px; text-align: center; }
+  .nav-cuerpo { padding: 16px; display: grid; gap: 8px; }
+  .nl { height: 8px; border-radius: 4px; background: #E4E9ED; }
+  .nl.t { height: 13px; width: 60%; }
+  .nl.c50 { width: 50%; } .nl.c35 { width: 35%; }
+  .nl.btn { width: 80px; height: 20px; border-radius: 10px; }
+  .proy-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 18px;
+    border-top: 1.5px solid var(--tinta); margin-top: 22px; padding-top: 16px; }
+  .proy-meta h3 { font-size: clamp(24px, 2.6vw, 34px); font-weight: 600; letter-spacing: -.02em; }
+  .proy-meta p { color: var(--gris-cl); font-size: 14.5px; margin-top: 6px; max-width: 26em; }
+  .tags { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; flex-shrink: 0; }
+  .tag { font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; border: 1px solid #C9CFD4;
+    border-radius: 99px; padding: 3px 12px; color: var(--gris-cl); white-space: nowrap; }
+
+  /* ---------- statement (oscuro) ---------- */
+  .statement { padding-block: 130px 110px; }
+  .statement .titulo-xl { color: #fff; max-width: 11.5em; }
+  .statement .titulo-xl .palabra-rev { opacity: .14; transition: opacity .5s ease; }
+  .statement .titulo-xl .palabra-rev.visto { opacity: 1; }
+  .statement .titulo-xl b { color: var(--cian); font-weight: 600; }
+  .statement-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; margin-top: 70px; align-items: start; }
+  .tabla-caja { background: #fff; color: var(--tinta); border-radius: 12px; overflow: hidden; box-shadow: 0 40px 80px -30px rgba(0,0,0,.7); }
+  .tabla-cab { display: flex; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid var(--borde-cl);
+    font-family: var(--mono); font-size: 11px; color: var(--gris-cl); }
+  .tabla-cab b { color: var(--tinta); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { font-family: var(--mono); font-weight: 500; font-size: 10px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--gris-cl); text-align: left; padding: 11px 18px 7px; }
+  td { padding: 10px 18px; border-top: 1px solid #EFF2F4; }
+  td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+  td .delta { font-family: var(--mono); font-size: 11.5px; color: var(--teal); margin-left: 8px; }
+  .tabla-pie { padding: 11px 18px; border-top: 1px solid var(--borde-cl); font-family: var(--mono); font-size: 10.5px; color: var(--gris-cl); }
+  .statement .col-txt p { color: var(--gris-osc); max-width: 30em; }
+  .statement .col-txt p b { color: #fff; }
+  .statement .col-txt p + p { margin-top: 18px; }
+  .link-flecha { display: inline-flex; align-items: center; gap: 10px; margin-top: 30px;
+    border: 1.5px solid rgba(255,255,255,.4); border-radius: 99px; padding: 12px 26px;
+    font-family: var(--display); font-size: 13.5px; letter-spacing: .06em; text-transform: uppercase; transition: all .25s; }
+  .link-flecha::after { content: ''; }
+  .link-flecha:hover { background: #fff; color: var(--negro); }
+
+  /* ---------- marquesina ---------- */
+  .marquesina { border-block: 1px solid var(--linea-osc); padding-block: 26px; overflow: hidden; white-space: nowrap; }
+  .marq-pista { display: inline-flex; gap: 0; animation: marq 26s linear infinite; }
+  .marq-pista span { font-family: var(--display); font-weight: 600; font-size: 30px; letter-spacing: -.01em; color: #fff; padding-inline: 28px; }
+  .marq-pista span:nth-child(even) { color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,.4); }
+  @keyframes marq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .marq-pista { animation: none; } }
+
+  /* ---------- servicios como lista ---------- */
+  .servicios { padding-block: 110px; }
+  .servicios .porta-cab { margin-bottom: 30px; }
+  .servicios .titulo-xl { color: #fff; }
+  .filas { border-top: 1px solid var(--linea-osc); }
+  .fila { display: grid; grid-template-columns: 86px 1fr 1.2fr auto auto; gap: 30px; align-items: center;
+    padding-block: 30px; border-bottom: 1px solid var(--linea-osc); transition: background .25s, padding .25s; }
+  .fila:hover { background: var(--negro-2); padding-inline: 18px; }
+  .fila .thumb { width: 86px; height: 62px; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+  .fila .thumb .iso { transform: scale(1.1); }
+  .fila.f1 .thumb { background: linear-gradient(140deg, #0E2A44, #0070C0); }
+  .fila.f2 .thumb { background: linear-gradient(140deg, #0B2D3E, #00A0E0); }
+  .fila.f3 .thumb { background: linear-gradient(140deg, #0C2B26, #00A090); }
+  .fila.f4 .thumb { background: linear-gradient(140deg, #14243A, #2E4763); }
+  .fila.f5 .thumb { background: linear-gradient(140deg, #0E2A44, #00A0E0); }
+  .fila h3 { font-size: clamp(22px, 2.4vw, 30px); font-weight: 600; color: #fff; letter-spacing: -.02em; }
+  .fila .desc { color: var(--gris-osc); font-size: 15px; max-width: 30em; }
+  .fila .precio { font-family: var(--mono); font-size: 13px; color: #fff; white-space: nowrap; }
+  .fila .precio small { color: var(--gris-osc); }
+  .fila .ir { width: 52px; height: 52px; border: 1.5px solid rgba(255,255,255,.35); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; font-size: 19px; transition: all .25s; }
+  .fila:hover .ir { background: var(--cian); border-color: var(--cian); transform: rotate(-45deg); }
+
+  /* ---------- productos (claro) ---------- */
+  .productos { background: var(--papel); color: var(--tinta); padding-block: 110px; }
+  .productos .titulo-xl { max-width: 12em; }
+  .prod-lista { border-top: 1.5px solid var(--tinta); margin-top: 56px; }
+  .prod-item { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 30px; align-items: center;
+    padding-block: 26px; border-bottom: 1px solid #D8DCDE; transition: padding .25s, background .25s; }
+  .prod-item:hover { background: #fff; padding-inline: 18px; }
+  .prod-item .marca { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 3vw, 40px); letter-spacing: -.02em; }
+  .prod-item .marca i { font-style: normal; }
+  .prod-item .que { color: var(--gris-cl); font-size: 15.5px; }
+  .prod-item .que b { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--teal); margin-bottom: 4px; }
+  .prod-item .ir { width: 52px; height: 52px; border: 1.5px solid var(--tinta); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; font-size: 19px; transition: all .25s; }
+  .prod-item:hover .ir { background: var(--tinta); color: #fff; transform: rotate(-45deg); }
+
+  /* ---------- CTA final ---------- */
+  .final { padding-block: 130px 110px; position: relative; overflow: hidden; }
+  .final::after { content: 'contacto'; position: absolute; right: -30px; bottom: -46px; font-family: var(--display);
+    font-weight: 700; font-size: clamp(100px, 15vw, 230px); line-height: 1; letter-spacing: -.03em;
+    color: transparent; -webkit-text-stroke: 1.5px rgba(255,255,255,.08); pointer-events: none; }
+  .final .titulo-xl { color: #fff; max-width: 12em; position: relative; z-index: 2; }
+  .final .titulo-xl b { color: var(--cian); font-weight: 600; }
+  .final-abajo { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; margin-top: 60px; flex-wrap: wrap; position: relative; z-index: 2; }
+  .final-abajo .datos { font-family: var(--mono); font-size: 13px; color: var(--gris-osc); line-height: 2.1; }
+  .final-abajo .datos a { color: #fff; }
+  .btn-grande { display: inline-flex; align-items: center; gap: 14px; background: #fff; color: var(--negro);
+    border-radius: 99px; padding: 20px 40px; font-family: var(--display); font-weight: 600; font-size: 16px;
+    letter-spacing: .02em; text-transform: uppercase; transition: all .25s; }
+  .btn-grande::after { content: ''; font-size: 20px; }
+  .btn-grande:hover { background: var(--cian); color: #fff; transform: translateY(-2px); }
+
+  /* ---------- footer ---------- */
+  .pie { border-top: 1px solid var(--linea-osc); padding-block: 40px; }
+  .pie .wrap { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .pie .mini { font-family: var(--mono); font-size: 12px; color: var(--gris-osc); }
+  .pie nav { display: flex; gap: 22px; font-size: 14px; color: var(--gris-osc); }
+  .pie nav a:hover { color: #fff; }
+
+  /* ---------- dominios (claro, buscador editorial) ---------- */
+  .dominios-sec { background: var(--papel); color: var(--tinta); padding-block: 110px; }
+  .dominios-sec .titulo-xl { max-width: 12em; }
+  .buscador-xl { display: flex; align-items: center; gap: 20px; margin-top: 56px;
+    border-bottom: 2.5px solid var(--tinta); padding-bottom: 18px; }
+  .buscador-xl input { flex: 1; border: none; outline: none; background: transparent; min-width: 0;
+    font-family: var(--display); font-weight: 600; font-size: clamp(26px, 3.4vw, 48px);
+    letter-spacing: -.02em; color: var(--tinta); }
+  .buscador-xl input::placeholder { color: #B9C0C5; }
+  .buscador-xl button { flex-shrink: 0; width: 64px; height: 64px; border-radius: 50%;
+    border: none; background: var(--tinta); color: #fff; font-size: 22px; cursor: pointer; transition: all .25s; }
+  .buscador-xl button:hover { background: var(--azul); transform: rotate(-45deg); }
+  .tld-fila { display: flex; flex-wrap: wrap; gap: 10px 36px; margin-top: 22px;
+    font-family: var(--mono); font-size: 14px; color: var(--gris-cl); }
+  .tld-fila b { color: var(--tinta); font-weight: 600; }
+  .dominios-sec .nota { font-size: 14.5px; color: var(--gris-cl); margin-top: 26px; max-width: 40em; }
+
+  /* ---------- hosting (oscuro, filas de planes) ---------- */
+  .hosting-sec { padding-block: 110px; }
+  .hosting-sec .titulo-xl { color: #fff; }
+  .fila .specs { color: var(--gris-osc); font-size: 15px; font-family: var(--mono); }
+  .fila .specs em { font-style: normal; color: #fff; }
+  .hosting-sec .aviso { font-family: var(--mono); font-size: 12px; color: var(--gris-osc); margin-top: 22px; }
+  .fila.destacada { background: var(--negro-2); border-left: 3px solid var(--cian); padding-inline: 18px; }
+
+  /* ---------- reveal ---------- */
+  .rev { opacity: 0; transform: translateY(30px); transition: opacity .8s ease, transform .8s ease; }
+  .rev.visto { opacity: 1; transform: none; }
+  @keyframes sube { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+  .hero-izq > * { animation: sube .7s both ease-out; }
+  .hero-izq > *:nth-child(2) { animation-delay: .12s; }
+  .hero-izq > *:nth-child(3) { animation-delay: .24s; }
+  .informe { animation: sube 1s .45s both ease-out; }
+  .palabra { animation: sube 1.1s .2s both ease-out; }
+  @keyframes traza { to { stroke-dashoffset: 0; } }
+  .chart .serie { stroke-dasharray: 620; stroke-dashoffset: 620; animation: traza 1.6s .8s ease-out forwards; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+    .rev, .statement .titulo-xl .palabra-rev { opacity: 1; transform: none; }
+    .chart .serie { stroke-dashoffset: 0; }
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 980px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-izq { padding-top: 110px; }
+    .hero-der { min-height: 420px; }
+    .palabra { left: 20px; top: auto; bottom: 34%; font-size: clamp(60px, 14vw, 110px); }
+    .proyectos { grid-template-columns: 1fr; gap: 56px; }
+    .statement-grid { grid-template-columns: 1fr; gap: 44px; }
+    .fila { grid-template-columns: 60px 1fr auto; }
+    .fila .desc { display: none; }
+    .fila .thumb { width: 60px; height: 46px; }
+    .prod-item { grid-template-columns: 1fr auto; }
+    .prod-item .que { grid-column: 1 / -1; }
+    .porta-cab, .servicios .porta-cab { flex-direction: column; align-items: flex-start; gap: 20px; }
+  }
+</style>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo"><span class="iso"><i></i><i></i><i></i></span> creativeweb</div>
+    <a class="btn-pill" href="#contacto">Cotizar</a>
+    <div class="hamb" role="button" aria-label="Men&#250;" tabindex="0"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="palabra">creative<small>web</small></div>
+  <div class="hero-izq">
+    <p class="cap">empresa ecuatoriana de tecnolog&#237;a &#8212; ibarra, desde 2010</p>
+    <h1>Creamos p&#225;ginas web, tiendas en l&#237;nea y programas que hacen crecer tu negocio. Y lo probamos <b>con datos</b>.</h1>
+    <div class="hero-ctas">
+      <a class="btn-pill lleno" href="#contacto">Cotiza tu proyecto</a>
+      <a class="btn-pill" href="#trabajo">Ver trabajo</a>
+    </div>
+    <p class="scrollea" style="position:static; margin-top:56px;">sigue bajando</p>
+  </div>
+  <div class="hero-der">
+    <div class="informe">
+      <div class="informe-cab"><span><b>informe SEO</b> &#8212; cliente real</span><span>ene&#8211;may 2026</span></div>
+      <div class="kpis">
+        <div class="kpi a"><b>8.952</b><span>visitas desde Google</span></div>
+        <div class="kpi"><b>871.854</b><span>veces visto en Google</span></div>
+        <div class="kpi t"><b>731</b><span>p&#225;ginas visitadas</span></div>
+      </div>
+      <svg class="chart" viewBox="0 0 560 110" role="img" aria-label="Clics org&#225;nicos en crecimiento">
+        <path class="serie" d="M8 94 C60 89 90 82 130 77 S210 65 250 58 S330 43 380 33 S500 15 552 10"
+              fill="none" stroke="#00A0E0" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="552" cy="10" r="5" fill="#00A090"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<section class="porta" id="trabajo">
+  <div class="wrap">
+    <div class="porta-cab">
+      <h2 class="titulo-xl rev">nuestro trabajo<span class="l2">reciente</span></h2>
+      <a class="btn-pill oscuro" href="#">Ver todo</a>
+    </div>
+    <div class="proyectos">
+      <a class="proyecto rev" href="#">
+        <div class="proy-visual" style="background:linear-gradient(140deg,#12293E,#0070C0)">
+          <div class="navegador">
+            <div class="nav-barra"><i></i><i></i><i></i><span class="url">comercialhidrobo.com</span></div>
+            <div class="nav-cuerpo"><span class="nl t"></span><span class="nl c50"></span><span class="nl c35"></span><span class="nl btn"></span></div>
+          </div>
+        </div>
+        <div class="proy-meta">
+          <div>
+            <h3>Comercial Hidrobo</h3>
+            <p>27.069 visitantes y 8.952 visitas desde Google en 5 meses para el concesionario m&#225;s grande del norte.</p>
+          </div>
+          <div class="tags"><span class="tag">WEB</span><span class="tag">SEO</span></div>
+        </div>
+      </a>
+      <a class="proyecto rev" href="#">
+        <div class="proy-visual" style="background:linear-gradient(140deg,#0B2D3E,#00A0E0)">
+          <div class="navegador">
+            <div class="nav-barra"><i></i><i></i><i></i><span class="url">quipuy.com</span></div>
+            <div class="nav-cuerpo"><span class="nl t"></span><span class="nl c50"></span><span class="nl c35"></span><span class="nl btn"></span></div>
+          </div>
+        </div>
+        <div class="proy-meta">
+          <div>
+            <h3>Quipuy</h3>
+            <p>Nuestro sistema de facturaci&#243;n electr&#243;nica: miles de facturas emitidas cada mes, sin instalar nada.</p>
+          </div>
+          <div class="tags"><span class="tag">PRODUCTO</span><span class="tag">FACTURACI&#211;N</span></div>
+        </div>
+      </a>
+      <a class="proyecto rev" href="#">
+        <div class="proy-visual" style="background:linear-gradient(140deg,#0C2B26,#00A090)">
+          <div class="navegador">
+            <div class="nav-barra"><i></i><i></i><i></i><span class="url">valencia-sports.com</span></div>
+            <div class="nav-cuerpo"><span class="nl t"></span><span class="nl c50"></span><span class="nl c35"></span><span class="nl btn"></span></div>
+          </div>
+        </div>
+        <div class="proy-meta">
+          <div>
+            <h3>Valencia Sports</h3>
+            <p>Tienda en l&#237;nea de art&#237;culos deportivos con 150 productos y pedidos directo al WhatsApp.</p>
+          </div>
+          <div class="tags"><span class="tag">TIENDA EN L&#205;NEA</span></div>
+        </div>
+      </a>
+      <a class="proyecto rev" href="#">
+        <div class="proy-visual" style="background:linear-gradient(140deg,#1A2438,#2E4763)">
+          <div class="navegador">
+            <div class="nav-barra"><i></i><i></i><i></i><span class="url">reinadeotavalo.com</span></div>
+            <div class="nav-cuerpo"><span class="nl t"></span><span class="nl c50"></span><span class="nl c35"></span><span class="nl btn"></span></div>
+          </div>
+        </div>
+        <div class="proy-meta">
+          <div>
+            <h3>Reina de Otavalo</h3>
+            <p>Redise&#241;o completo por los 74 a&#241;os de la organizaci&#243;n: marca, p&#225;gina web y toda su presencia digital.</p>
+          </div>
+          <div class="tags"><span class="tag">WEB</span><span class="tag">MARCA</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="statement" id="seo">
+  <div class="wrap">
+    <h2 class="titulo-xl" id="frase-seo"><span class="palabra-rev">Te</span> <span class="palabra-rev">ayudamos</span> <span class="palabra-rev">a</span> <span class="palabra-rev">aparecer</span> <span class="palabra-rev">en</span> <span class="palabra-rev">Google</span> <span class="palabra-rev">cuando</span> <span class="palabra-rev">tus</span> <span class="palabra-rev">clientes</span> <b><span class="palabra-rev">te</span> <span class="palabra-rev">buscan.</span></b></h2>
+    <div class="statement-grid">
+      <div class="tabla-caja rev">
+        <div class="tabla-cab"><span><b>posiciones reales</b> &#8212; clientes activos</span><span>90 d&#237;as</span></div>
+        <table>
+          <thead><tr><th>consulta en Google</th><th style="text-align:right">posici&#243;n</th><th style="text-align:right">visitas</th></tr></thead>
+          <tbody>
+            <tr><td>autos el&#233;ctricos ecuador</td><td class="num">5<span class="delta">&#8593;3</span></td><td class="num">140</td></tr>
+            <tr><td>facturaci&#243;n electr&#243;nica sri</td><td class="num">8<span class="delta">&#8593;5</span></td><td class="num">312</td></tr>
+            <tr><td>chery ecuador precios</td><td class="num">6<span class="delta">&#8593;2</span></td><td class="num">436</td></tr>
+            <tr><td>correo corporativo empresa</td><td class="num">9<span class="delta">&#8593;6</span></td><td class="num">57</td></tr>
+          </tbody>
+        </table>
+        <div class="tabla-pie">fuente: datos oficiales de Google &#8212; 2026</div>
+      </div>
+      <div class="col-txt rev">
+        <p>Posicionar tu p&#225;gina en Google es nuestra especialidad. Cada mes recibes un <b>informe con los datos oficiales de Google</b>: qu&#233; busca la gente, en qu&#233; lugar de los resultados apareces y cu&#225;ntas de esas b&#250;squedas terminaron en tu p&#225;gina.</p>
+        <p><b>Sin humo.</b> Si un mes no crecemos, el informe tambi&#233;n lo dice &#8212; y te explica qu&#233; vamos a hacer para corregirlo.</p>
+        <a class="link-flecha" href="#contacto">Pide tu diagn&#243;stico gratis</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquesina" aria-hidden="true">
+  <div class="marq-pista">
+    <span>p&#225;ginas web</span><span>tiendas en l&#237;nea</span><span>posicionamiento en google</span><span>programas a medida</span><span>hosting</span><span>automatizaci&#243;n</span>
+    <span>p&#225;ginas web</span><span>tiendas en l&#237;nea</span><span>posicionamiento en google</span><span>programas a medida</span><span>hosting</span><span>automatizaci&#243;n</span>
+  </div>
+</div>
+
+<section class="servicios" id="servicios">
+  <div class="wrap">
+    <div class="porta-cab">
+      <h2 class="titulo-xl rev">lo que hacemos<span class="l2">por tu negocio</span></h2>
+    </div>
+    <div class="filas">
+      <a class="fila f1 rev" href="#">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>P&#225;ginas web</h3>
+        <p class="desc">P&#225;ginas profesionales, r&#225;pidas y hechas para salir en Google desde el primer d&#237;a.</p>
+        <span class="precio">desde $480</span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f2 rev" href="#">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Tiendas en l&#237;nea</h3>
+        <p class="desc">Vende las 24 horas: tu tienda cobra, factura al SRI y te avisa cada pedido por WhatsApp.</p>
+        <span class="precio">desde $1.200</span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f3 rev" href="#">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Posicionamiento en Google</h3>
+        <p class="desc">Nuestra especialidad: que tus clientes te encuentren antes que a tu competencia.</p>
+        <span class="precio">desde $880 <small>/6m</small></span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f4 rev" href="#">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Programas a tu medida</h3>
+        <p class="desc">Convertimos tareas repetitivas &#8212; facturas, env&#237;os, reportes &#8212; en programas que las hacen solas.</p>
+        <span class="precio">desde $2.500</span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f5 rev" href="#hosting">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Hosting y dominios</h3>
+        <p class="desc">El hogar de tu p&#225;gina en internet y tu direcci&#243;n .com, con soporte local que s&#237; contesta.</p>
+        <span class="precio">desde $4.99 <small>/mes</small></span>
+        <span class="ir">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="dominios-sec" id="dominios">
+  <div class="wrap">
+    <h2 class="titulo-xl rev">empieza por<span class="l2">tu dominio</span></h2>
+    <form class="buscador-xl rev" method="get" action="https://ventas.creativeweb.com.ec/cart.php">
+      <input type="hidden" name="a" value="add">
+      <input type="hidden" name="domain" value="register">
+      <input type="text" name="query" id="busca-dominio" placeholder="tunegocio.com" aria-label="Busca tu dominio">
+      <button type="submit" aria-label="Buscar dominio">&#8594;</button>
+    </form>
+    <p class="tld-fila rev">
+      <span><b>.com</b> $18.99/a&#241;o</span>
+      <span><b>.net</b> $19.99/a&#241;o</span>
+      <span><b>.org</b> $19.99/a&#241;o</span>
+      <span><b>.ec</b> $39.99/a&#241;o</span>
+      <span><b>.com.ec</b> $39.99/a&#241;o</span>
+    </p>
+    <p class="nota rev">Escribe el nombre que quieres para tu p&#225;gina y revisa al instante si est&#225; libre. Si no sabes cu&#225;l elegir, te asesoramos gratis.</p>
+  </div>
+</section>
+
+
+<section class="hosting-sec" id="hosting">
+  <div class="wrap">
+    <div class="porta-cab">
+      <h2 class="titulo-xl rev">planes de hosting<span class="l2">claros y sin sorpresas</span></h2>
+    </div>
+    <div class="filas">
+      <a class="fila f1 rev" href="https://ventas.creativeweb.com.ec/store/hosting-web/inicial">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Inicial</h3>
+        <p class="specs">3 GB de espacio &#183; <em>10 correos</em> con tu dominio &#183; candado de seguridad (SSL) gratis</p>
+        <span class="precio">$4.99 <small>/mes</small></span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f2 rev" href="https://ventas.creativeweb.com.ec/store/hosting-web/webmaster">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Webmaster</h3>
+        <p class="specs">10 GB de espacio &#183; <em>20 correos</em> con tu dominio &#183; SSL gratis</p>
+        <span class="precio">$6.99 <small>/mes</small></span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f3 destacada rev" href="https://ventas.creativeweb.com.ec/store/hosting-web/pymes">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Pymes</h3>
+        <p class="specs">20 GB de espacio &#183; <em>correos ilimitados</em> &#183; SSL gratis &#183; el favorito de los negocios</p>
+        <span class="precio">$7.99 <small>/mes</small></span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="fila f4 rev" href="https://ventas.creativeweb.com.ec/store/hosting-web/pro">
+        <div class="thumb"><span class="iso"><i></i><i></i><i></i></span></div>
+        <h3>Ilimitado</h3>
+        <p class="specs">espacio ilimitado &#183; correos, subdominios y bases de datos <em>sin l&#237;mite</em> &#183; SSL gratis</p>
+        <span class="precio">$19.99 <small>/mes</small></span>
+        <span class="ir">&#8594;</span>
+      </a>
+    </div>
+    <p class="aviso rev">* precio mensual contratando el plan anual &#183; todos incluyen respaldos y soporte local por WhatsApp</p>
+  </div>
+</section>
+
+<section class="productos" id="software">
+  <div class="wrap">
+    <h2 class="titulo-xl rev">software propio,<span class="l2">problemas resueltos</span></h2>
+    <div class="prod-lista">
+      <a class="prod-item rev" href="#">
+        <span class="marca">quipuy<i style="color:var(--teal)">.</i></span>
+        <span class="que"><b>facturaci&#243;n electr&#243;nica</b>Emite tus facturas al SRI desde el navegador, sin instalar nada.</span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="prod-item rev" href="#">
+        <span class="marca">sriflow<i style="color:var(--azul)">.</i></span>
+        <span class="que"><b>contabilidad</b>Descarga y organiza tus documentos del SRI en autom&#225;tico, listos para tu contador.</span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="prod-item rev" href="#">
+        <span class="marca">boxpli<i style="color:var(--cian)">.</i></span>
+        <span class="que"><b>env&#237;os de tu tienda</b>Despacha cada pedido en 2 minutos y tu cliente recibe el aviso por WhatsApp.</span>
+        <span class="ir">&#8594;</span>
+      </a>
+      <a class="prod-item rev" href="#">
+        <span class="marca">dentilab<i style="color:var(--teal)">.</i></span>
+        <span class="que"><b>consultorios dentales</b>Agenda, historias cl&#237;nicas y cobros de tu consultorio en un solo lugar.</span>
+        <span class="ir">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="contacto">
+  <div class="wrap">
+    <h2 class="titulo-xl rev">Tu competencia ya est&#225; en Google. &#191;En qu&#233; posici&#243;n <b>est&#225;s t&#250;</b>?</h2>
+    <div class="final-abajo">
+      <p class="datos">
+        ventas@creativeweb.com.ec<br>
+        WhatsApp <a href="#">+593 96 348 5983</a><br>
+        Ibarra, Ecuador
+      </p>
+      <a class="btn-grande" href="#">Quiero mi diagn&#243;stico gratis</a>
+    </div>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="wrap">
+    <div class="logo" style="font-size:16px"><span class="iso" style="transform:scale(.85)"><i></i><i></i><i></i></span> creativeweb</div>
+    <nav>
+      <a href="#">Trabajo</a><a href="#">Servicios</a><a href="#">Software</a><a href="#">Blog</a><a href="#">Soporte</a>
+    </nav>
+    <span class="mini">&#169; 2026 &#8212; Ibarra, Ecuador</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var reducido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // reveal por scroll
+    var revs = document.querySelectorAll('.rev');
+    if (reducido) { revs.forEach(function (el) { el.classList.add('visto'); }); }
+    else {
+      var obs = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('visto'); obs.unobserve(e.target); } });
+      }, { threshold: 0.12 });
+      revs.forEach(function (el) { obs.observe(el); });
+    }
+
+    // revelado palabra a palabra del statement (estilo Nixer)
+    var frase = document.getElementById('frase-seo');
+    if (frase) {
+      var spans = frase.querySelectorAll('.palabra-rev');
+      if (reducido) { spans.forEach(function (s) { s.classList.add('visto'); }); }
+      else {
+        var obs2 = new IntersectionObserver(function (es) {
+          es.forEach(function (e) {
+            if (e.isIntersecting) {
+              spans.forEach(function (s, i) { setTimeout(function () { s.classList.add('visto'); }, i * 70); });
+              obs2.disconnect();
+            }
+          });
+        }, { threshold: 0.4 });
+        obs2.observe(frase);
+      }
+    }
+  })();
+</script>
