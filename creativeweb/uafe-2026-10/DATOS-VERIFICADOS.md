@@ -107,3 +107,39 @@ falta otro, se verifica en la fuente oficial y se agrega primero en este archivo
   (+593 99 917 4980).
 - **No hacemos el trámite ante la UAFE ni damos asesoría legal.**
 - Landing: https://www.creativeweb.com.ec/servicios/correo-institucional-uafe/
+
+## Certificado de Cumplimiento (verificado el 27-nov-2026)
+
+**Cómo se obtiene** — fuentes: [UAFE — Cómo obtener el Certificado de Cumplimiento de Obligaciones](https://www.uafe.gob.ec/como-obtener-el-certificado-de-cumplimiento-de-obligaciones-exigido-por-instituciones-publicas-y-o-privadas/)
+y [UAFE — Certificado de Cumplimiento en línea](https://www.uafe.gob.ec/certificado-de-cumplimiento-en-linea/).
+- Primero hay que tener el **código de registro** y el **oficial de cumplimiento registrado**
+  (para personas naturales, designar oficial es facultativo).
+- El **representante legal** entra a SISLAFT (sislaft.uafe.gob.ec) **con su usuario y
+  contraseña** → Servicios → Certificado de Cumplimiento → Imprimir. La persona natural, con
+  su propio usuario.
+- La UAFE (cuenta oficial @UAFE_EC en X) resume los requisitos: ser sujeto obligado, tener
+  código de registro y **estar al día con las obligaciones ante la UAFE**.
+- Las páginas oficiales **no dicen** costo ni vigencia. No afirmar ninguno de los dos.
+
+**Contratación pública** — fuente: [PGE, infografía «Certificado de Cumplimiento de la UAFE en
+la Contratación Pública»](https://www.pge.gob.ec/images/2026/INFOGRAFIA/Agosto_31/INFOGRAFIA%20AGOSTO%20-%20UAFE%20-%20ppt%20-%20link.pdf)
+(Procuraduría General del Estado, agosto-septiembre 2026), que cita el Reglamento General de
+la LOSNCP (RGLOSNCP):
+- **Art. 53 num. 9:** «Si el contratista realiza una actividad económica sujeto a reporte a la
+  UAFE, deberá contar con el Certificado de Cumplimiento de la UAFE en la fase de ejecución
+  contractual, lo cual se verificará exclusivamente en dicha fase». No se evalúa en la oferta.
+- **Art. 60:** solo cuando el contratista realiza una actividad sujeta a reporte, la entidad
+  contratante exige el certificado en la ejecución. Plazos: contratos de **30 días o más**,
+  dentro del **término de 30 días desde la suscripción**; contratos de **menos de 30 días**,
+  **al día siguiente** de la suscripción.
+- Omitirlo en el término de 30 días «será causal de **terminación unilateral y anticipada del
+  contrato**» (la entidad debe seguir el procedimiento de terminación).
+- La entidad revisa las actividades **principales y secundarias del RUC**, notifica al
+  contratista que debe obtener el código de registro y el certificado, e informa al SERCOP.
+- **Decreto Ejecutivo 461, Registro Oficial Suplemento 337 del 30-jul-2026:** el contratista
+  debe presentar el certificado **incluso si cambió su actividad** por una no sujeta a reporte.
+- Se sugiere a la entidad verificar que el certificado no reporte incumplimientos; si los
+  reporta, lo considera en la administración del contrato.
+- El certificado se publica en el Portal de Contratación Pública (art. 22 num. 33).
+- La Ley de prevención de lavado de activos (art. 28 num. 2) incluye expresamente la
+  **construcción** entre los sujetos obligados no financieros.

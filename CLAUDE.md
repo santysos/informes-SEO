@@ -697,4 +697,6 @@ con un script que el usuario corre en su propia terminal.
 (`BING_WMT_API_KEY`). `tracking/bing.py` compara Bing contra Google en los mismos días
 (clics, impresiones, % de marca); `--consultas` lista las búsquedas de Bing. Bing tiene
 **AI Performance (beta)**: citas en Copilot y búsqueda con IA (ChatGPT busca sobre el
-índice de Bing). DentiLab tiene IndexNow en la rama `seo/registro-bing-indexnow`.
+índice de Bing). DentiLab tiene IndexNow en producción (`node scripts/indexnow.mjs`).
+Volumen de búsqueda por país: `GetKeywordStats?q=…&country=ec&language=es-ES` (con `es-EC` da
+error 400); devuelve 24 semanas.
