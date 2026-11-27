@@ -5,7 +5,7 @@
     <div class="rounded-xl border border-brand-500/30 bg-gradient-to-br from-brand-500/10 to-purple-500/5 p-6">
         <div class="flex items-center gap-3 mb-2">
             <span class="px-3 py-1 rounded-full text-xs font-semibold bg-brand-500/20 text-brand-400">Informe de avance</span>
-            <span class="text-xs text-slate-400">Trabajo de septiembre, octubre y noviembre 2026 · datos al 19 de noviembre</span>
+            <span class="text-xs text-slate-400">Trabajo de septiembre, octubre y noviembre 2026 · datos al 19 de noviembre, con actualización al 26</span>
         </div>
         <h2 class="text-3xl font-bold text-white mb-2">Avance del plan — corte de noviembre 2026</h2>
         <p class="text-sm text-slate-400 leading-relaxed">Tercer corte del plan de <strong class="text-slate-300">Comercial Hidrobo</strong> y <strong class="text-slate-300">OKCars</strong>, con datos de Search Console y Google Analytics 4. Cubre todo lo hecho desde el corte de agosto: <strong class="text-slate-300">el embudo hacia el taller</strong>, <strong class="text-slate-300">la recuperación de páginas que habían perdido posiciones</strong> y <strong class="text-slate-300">los 36 artículos nuevos</strong> con los que el blog llega a 240.</p>
@@ -72,7 +72,8 @@
             </table>
         </div>
         <div class="rounded-lg border border-emerald-500/40 bg-emerald-500/10 p-4">
-            <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">✅ Corregido el 19 de noviembre</strong> en el formulario de taller y en el de cotización de repuestos, que tenía el mismo problema. La protección contra spam (reCAPTCHA) sigue activa. Desde esa fecha ninguna reserva debería perderse; lo confirmamos en el próximo corte.</p>
+            <p class="text-sm text-slate-200 leading-relaxed"><strong class="text-emerald-400">✅ Corregido el 19 de noviembre</strong> en el formulario de taller y en el de cotización de repuestos, que tenía el mismo problema. La protección contra spam (reCAPTCHA) sigue activa.</p>
+            <p class="text-sm text-slate-200 leading-relaxed mt-2"><strong class="text-emerald-400">Confirmado al 26 de noviembre:</strong> cero personas rechazadas desde el arreglo. En esos 8 días entraron 3 citas completas, el mismo ritmo de antes (unas 12 al mes), así que todavía no vemos más reservas; lo seguimos midiendo.</p>
         </div>
     </div>
 
@@ -102,6 +103,22 @@
             <li class="flex gap-2"><span class="text-amber-400">▸</span><div><strong>Autos chinos:</strong> cuatro artículos competían entre sí por la misma búsqueda, y los cuatro recomendaban marcas que Comercial Hidrobo no vende.</div></li>
         </ul>
         <p class="text-sm text-slate-400 leading-relaxed">El resto de la caída frente a marzo es tráfico que nunca iba a comprar (búsquedas sueltas como «chery», «1.6» o «exoneración» que Google dejó de mostrarnos). Los dos temas de arriba ya se trabajaron este mes.</p>
+    </div>
+
+    <!-- Actualización 26-nov -->
+    <div class="rounded-xl border border-sky-500/30 bg-sky-500/5 p-6">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🔎</span>
+            <h3 class="text-lg font-semibold text-white">Actualización al 26 de noviembre: lo que revisamos después del corte</h3>
+        </div>
+        <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Noviembre viene más bajo.</strong> Del 12 al 24 de noviembre el sitio recibió 111 clics al día, frente a 128 entre mediados de octubre y comienzos de noviembre (−13 %). No es la época: el año pasado noviembre subió. La baja está repartida en muchas páginas que conservan su posición, es decir, aparecen en menos búsquedas, no bajaron en Google.</div></li>
+            <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Autos eléctricos: dos páginas del sitio se disputan la misma búsqueda.</strong> Para «carros eléctricos Ecuador», Google ahora muestra el artículo del auto eléctrico más barato (posición 5) en lugar de la guía principal reescrita, que pasó de la posición 10 a la 32. Las páginas cambiadas necesitan unas 4 semanas para asentarse: el <strong>8 de diciembre</strong> decidimos si reforzamos la guía con enlaces desde ese artículo.</div></li>
+            <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Autos chinos se sostiene:</strong> la guía principal mejoró de la posición 5,5 a la 4,5.</div></li>
+            <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Los artículos nuevos ya aparecen en Google</strong>, varios en las primeras posiciones: Omoda E5 Next (3,7), autos nuevos por menos de $20.000 (3,8), mantenimiento Changan (5,7) y Nevo Q05.</div></li>
+            <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Revisamos si los títulos reescritos en septiembre funcionaron</strong>, comparando cada página con el resto del sitio. La primera tanda (11 páginas) ganó 7 % de clics mientras el resto bajaba 6 %; la Duster pasó de 73 a 145 clics al mes. La segunda tanda (10 páginas) bajó 14 %, en páginas que ya venían cayendo antes del cambio. Desde ahora, a las páginas que más clics traen se les cambia una cosa a la vez y se mide 4 semanas antes de volver a tocarlas.</div></li>
+            <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Dimos de alta el sitio en Bing.</strong> Es el segundo buscador y el que usan Copilot y ChatGPT para buscar en internet. En unos días tendremos sus datos para compararlos con Google.</div></li>
+        </ul>
     </div>
 
     <!-- Lo que hicimos -->
@@ -205,7 +222,7 @@
         <ol class="space-y-3 text-sm text-slate-300">
             <li class="flex gap-3"><span class="text-brand-400 font-bold">1.</span><div><strong>Medir las reservas de taller desde el 19 de noviembre</strong>, ya con el formulario corregido y dentro de los artículos. Es el número que más importa para el plan.</div></li>
             <li class="flex gap-3"><span class="text-brand-400 font-bold">2.</span><div><strong>Fusionar los 12 artículos de financiamiento.</strong> Las búsquedas de crédito vehicular suman unas 7.000 apariciones al trimestre, pero ningún artículo pasa de la posición 15 porque compiten entre sí. Consolidarlos en 2 o 3 páginas fuertes es la mayor oportunidad pendiente.</div></li>
-            <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Medir la recuperación</strong> de autos eléctricos y autos chinos a mediados de diciembre: Google tarda de 4 a 6 semanas en reflejar los cambios.</div></li>
+            <li class="flex gap-3"><span class="text-brand-400 font-bold">3.</span><div><strong>Medir la recuperación</strong> de autos eléctricos y autos chinos a mediados de diciembre: Google tarda de 4 a 6 semanas en reflejar los cambios. El 8 de diciembre, decidir cómo resolver la disputa entre las dos páginas de autos eléctricos.</div></li>
             <li class="flex gap-3"><span class="text-brand-400 font-bold">4.</span><div><strong>Pasar a 2027 en enero</strong> los títulos de eléctricos, híbridos y modelos que tengan la versión 2027 en piso. Hoy la gente todavía busca «2026» 24 veces más que «2027».</div></li>
         </ol>
     </div>
@@ -270,6 +287,20 @@
             <ul class="space-y-2 text-sm text-slate-300">
                 <li class="flex gap-2"><span class="text-red-400">▸</span><div><strong>El botón de WhatsApp solo está en las fichas de vehículo.</strong> La página principal, las guías y las páginas de marca no tienen una salida visible para escribir.</div></li>
                 <li class="flex gap-2"><span class="text-red-400">▸</span><div><strong>Las páginas con más tráfico son de trámites</strong> (traspaso de auto y de moto). Quien llega ahí está vendiendo o haciendo un papeleo, no necesariamente comprando. A esa persona hay que ofrecerle otra cosa: recibir su auto en parte de pago o comprárselo.</div></li>
+            </ul>
+        </div>
+
+        <div class="rounded-xl border border-sky-500/30 bg-sky-500/5 p-6">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-xl">🔎</span>
+                <h3 class="text-lg font-semibold text-white">Actualización al 26 de noviembre</h3>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-300">
+                <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Las visitas se mantienen en su nuevo nivel:</strong> 17,7 clics al día del 12 al 24 de noviembre, frente a 16,3 entre mediados de octubre y comienzos de noviembre. Las búsquedas de marca bajaron a 24 % de los clics: tres de cada cuatro llegan sin conocer OKCars.</div></li>
+                <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Los contactos siguen sin moverse:</strong> 3 clics a WhatsApp por mes en septiembre, octubre y noviembre, mientras las visitas al sitio pasaron de 577 a 895 al mes. Confirma el hallazgo: la visita llega, pero no encuentra cómo escribir. En los tres meses, 2 de esos clics salieron de la guía de traspaso, que tiene un enlace a WhatsApp dentro del texto: donde hay salida, la gente la usa.</div></li>
+                <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Los títulos reescritos en septiembre funcionaron:</strong> la guía de traspaso pasó de 28 a 54 clics al mes, y la lista para revisar un auto usado, de 12 a 25.</div></li>
+                <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Blog:</strong> 112 artículos publicados y 3 programados. Los 5 de diciembre están listos y se publican a partir del 1 de diciembre para completar los 120.</div></li>
+                <li class="flex gap-2"><span class="text-sky-400">▸</span><div><strong>Dimos de alta el sitio en Bing</strong>, el buscador que usan Copilot y ChatGPT. En unos días tendremos sus datos.</div></li>
             </ul>
         </div>
 
