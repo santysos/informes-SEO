@@ -690,3 +690,11 @@ prompt, pedir que usen una subcarpeta propia, y al final **revalidar todo el lot
 No pedir ni aceptar la clave del `.p12` por el chat (queda en el historial). Firmar con FirmaEC o
 con un script que el usuario corre en su propia terminal.
 
+
+### Bing Webmaster Tools (desde 2026-11-27)
+
+42 sitios importados desde Search Console, todos verificados. Clave única en `.env`
+(`BING_WMT_API_KEY`). `tracking/bing.py` compara Bing contra Google en los mismos días
+(clics, impresiones, % de marca); `--consultas` lista las búsquedas de Bing. Bing tiene
+**AI Performance (beta)**: citas en Copilot y búsqueda con IA (ChatGPT busca sobre el
+índice de Bing). DentiLab tiene IndexNow en la rama `seo/registro-bing-indexnow`.
